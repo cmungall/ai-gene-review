@@ -118,8 +118,8 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: GO_REF:0000052
   review:
-    summary: 'TODO: Review this GOA annotation'
-    action: PENDING
+    summary: 'This is a duplicate annotation with the same GO term but based on immunofluorescence data. CKAP2 is indeed directly involved with the microtubule cytoskeleton as demonstrated by multiple experimental approaches. This is a core cellular component annotation.'
+    action: ACCEPT
 - term:
     id: GO:0036064
     label: ciliary basal body
@@ -211,27 +211,27 @@ references:
   - statement: CKAP2 identified among centrosomal proteins by proteomics
     supporting_text: "We distinguished 126 known and 40 candidate centrosomal proteins, of which 22 were confirmed as novel components. CKAP2 was among the proteins identified in this centrosome proteomics screen."
 core_functions:
-- description: Potent microtubule growth promotion and catastrophe suppression
+- description: Promotes microtubule nucleation and polymerization while suppressing catastrophes
   molecular_function:
-    id: GO:0015631
-    label: tubulin binding
+    id: GO:0008017
+    label: microtubule binding
   directly_involved_in:
+  - id: GO:0007020
+    label: microtubule nucleation
   - id: GO:0046785
     label: microtubule polymerization
   - id: GO:0031116
     label: positive regulation of microtubule polymerization
-  - id: GO:0007020
-    label: microtubule nucleation
   - id: GO:0007026
     label: negative regulation of microtubule depolymerization
   locations:
-  - id: GO:0005737
-    label: cytoplasm
+  - id: GO:0015630
+    label: microtubule cytoskeleton
   - id: GO:0072686
     label: mitotic spindle
   - id: GO:0000922
     label: spindle pole
-- description: Mitotic spindle organization and bipolar spindle assembly
+- description: Organizes bipolar mitotic spindle assembly and maintains spindle pole integrity
   molecular_function:
     id: GO:0008017
     label: microtubule binding
@@ -240,8 +240,10 @@ core_functions:
     label: mitotic spindle organization
   - id: GO:0051225
     label: spindle assembly
-  - id: GO:0030705
-    label: cytoskeleton-dependent intracellular transport
+  - id: GO:0051298
+    label: centrosome duplication
+  - id: GO:0031023
+    label: microtubule organizing center organization
   locations:
   - id: GO:0072686
     label: mitotic spindle
@@ -249,7 +251,7 @@ core_functions:
     label: spindle pole
   - id: GO:0005813
     label: centrosome
-- description: Faithful chromosome segregation and genomic stability maintenance
+- description: Ensures accurate chromosome segregation and mitotic progression
   molecular_function:
     id: GO:0008017
     label: microtubule binding
@@ -260,12 +262,12 @@ core_functions:
     label: regulation of chromosome segregation
   - id: GO:0007094
     label: mitotic spindle assembly checkpoint signaling
-  - id: GO:0045839
-    label: negative regulation of mitotic nuclear division
+  - id: GO:0000281
+    label: mitotic cytokinesis
   locations:
   - id: GO:0072686
     label: mitotic spindle
-  - id: GO:0000776
-    label: kinetochore
-  - id: GO:0000922
-    label: spindle pole
+  - id: GO:0005874
+    label: microtubule
+  - id: GO:0005813
+    label: centrosome

@@ -6,6 +6,9 @@ assets/excel
 *.backup
 *-reasoning.md
 
+exports/*tsv
+exports/*json
+
 # temp files
 tmp/
 

@@ -76,6 +76,9 @@ existing_annotations:
     proposed_replacement_terms:
     - id: GO:0030674
       label: protein-macromolecule adaptor activity
+    additional_reference_ids:
+    - PMID:29727693
+    supporting_text: "PMID:29727693: Yeast 2-hybrid screening and pull-down assays revealed that CFAP300 interacted directly with the cytoplasmic outer and inner dynein arm assembly factor DNAAF2. PMID:29727692: C11orf70 mutations disrupting the intraflagellar transport-dependent assembly of multiple axonemal dyneins cause primary ciliary dyskinesia."
 - term:
     id: GO:0005737
     label: cytoplasm

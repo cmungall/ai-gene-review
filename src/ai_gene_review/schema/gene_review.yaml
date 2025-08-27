@@ -60,7 +60,7 @@ slots:
   supporting_text:
     range: string
     description: Supporting text from the publication.
-      Can be interleaved text if there are multiple lines of evidence. Can also be annotated
+      Can be interleaved text if there are multiple lines of evidence. Can also be annotated. Include the PMID in the text if it is a publication.
   evidence_type:
     range: string
     description: Evidence code (e.g., IDA, IBA, ISS, TAS)

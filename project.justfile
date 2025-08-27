@@ -72,6 +72,11 @@ export-annotations-tsv output_file="exports/exported_annotations.tsv":
     @mkdir -p exports
     uv run python -c "from ai_gene_review.export import TabularExporter; from pathlib import Path; exporter = TabularExporter(); files = list(Path('genes').glob('**/*-ai-review.yaml')); print(f'Found {len(files)} files'); exporter.export_to_tsv(files, '{{output_file}}'); print(f'Exported to {{output_file}}')"
 
+# Export existing_annotations to JSON format (for linkml-browser)
+export-annotations-json output_file="exports/exported_annotations.json":
+    @mkdir -p exports
+    uv run python -c "from ai_gene_review.export import JSONExporter; from pathlib import Path; exporter = JSONExporter(); files = list(Path('genes').glob('**/*-ai-review.yaml')); print(f'Found {len(files)} files'); exporter.export_to_json(files, '{{output_file}}'); print(f'Exported to {{output_file}}')"
+
 # Export annotations for a specific organism
 export-organism-annotations organism output_file="exports/exported_annotations.csv":
     @mkdir -p exports
@@ -105,3 +110,34 @@ pydantic:
     uv run gen-pydantic src/ai_gene_review/schema/gene_review.yaml > src/ai_gene_review/datamodel/gene_review_model.py.tmp && mv src/ai_gene_review/datamodel/gene_review_model.py.tmp src/ai_gene_review/datamodel/gene_review_model.py
 
 gen-all: gen-project pydantic
+
+# Deploy linkml-browser app for viewing exported annotations
+deploy-browser: export-annotations-json
+    @echo "Deploying linkml-browser to app/ directory..."
+    @rm -rf app
+    uv run linkml-browser deploy \
+        exports/exported_annotations.json \
+        app \
+        --schema src/ai_gene_review/schema/display_schema.json \
+        --title "Gene Annotation Review Browser" \
+        --description "Browse and filter gene annotation reviews" \
+        --force
+    @echo "Browser deployed to app/ directory"
+    @echo "To view: open app/index.html or run 'just serve-browser'"
+
+# Serve the linkml-browser app locally  
+serve-browser:
+    @echo "Starting local server for linkml-browser..."
+    @cd app && python3 -m http.server 8080
+
+# Update browser data without regenerating HTML
+update-browser-data: export-annotations-json
+    @echo "Updating browser data..."
+    uv run linkml-browser deploy \
+        exports/exported_annotations.json \
+        app \
+        --schema src/ai_gene_review/schema/display_schema.json \
+        --title "Gene Annotation Review Browser" \
+        --description "Browse and filter gene annotation reviews" \
+        --force
+    @echo "Data updated in app/"

@@ -84,6 +84,8 @@ When creating a new review, always make sure files are in place:
 
 `just fetch-gene <organism> <gene>`
 
+This creates the uniprot, goa files, and a stub for the gene review.
+
 The next thing is for you to do deep research on that gene and make a GENE-notes.md file, with citations inline (e.g [PMID:12345 title, "<supporting text>"]).
 
 ## Reviewing existing annotations
@@ -91,8 +93,9 @@ The next thing is for you to do deep research on that gene and make a GENE-notes
 You should start with the ai-review.yaml file, where stubs are created for you (from `just fetch-gene <organism> <gene>`). Any PMID cited should
 be in the publications folder, e.g. `publications/PMID_123456.md`. Review these.
 
-A deep research file should be created in the gene folder, e.g. `genes/human/GENE/GENE-deep-research.md`. This should contain a summary of the
-literature, and any other information you found useful for the review. There may be irrelevant information in the citations, that is OK.
+A deep research file should already be present in the gene folder, e.g. `genes/SPECIES/GENE/GENE-deep-research.md`. This should contain a summary of the
+literature, and any other information you found useful for the review. There may be irrelevant information in the citations, that is OK. If this is
+not present, make your own and keep notes in `genes/SPECIES/GENE/GENE-notes.md`.
 
 Be aware that many GO terms are over-annotations. You should also not take existing annotations as gospel, whether experimental or bioinformatic.
 always use a holistic synthesized picture of the gene function that you have obtained from your research.
