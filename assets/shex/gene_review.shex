@@ -1,0 +1,127 @@
+# metamodel_version: 1.7.0
+BASE <https://w3id.org/ai4curation/gene_review/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX linkml: <https://w3id.org/linkml/>
+
+
+linkml:String xsd:string
+
+linkml:Integer xsd:integer
+
+linkml:Boolean xsd:boolean
+
+linkml:Float xsd:float
+
+linkml:Double xsd:double
+
+linkml:Decimal xsd:decimal
+
+linkml:Time xsd:time
+
+linkml:Date xsd:date
+
+linkml:Datetime xsd:dateTime
+
+linkml:DateOrDatetime linkml:DateOrDatetime
+
+linkml:Uriorcurie IRI
+
+linkml:Curie xsd:string
+
+linkml:Uri IRI
+
+linkml:Ncname xsd:string
+
+linkml:Objectidentifier IRI
+
+linkml:Nodeidentifier NONLITERAL
+
+linkml:Jsonpointer xsd:string
+
+linkml:Jsonpath xsd:string
+
+linkml:Sparqlpath xsd:string
+
+<AnnotationExtension> CLOSED {
+    (  $<AnnotationExtension_tes> (  <predicate> @linkml:String ? ;
+          <term> @<Term> ?
+       ) ;
+       rdf:type [ <AnnotationExtension> ] ?
+    )
+}
+
+<CoreFunction> CLOSED {
+    (  $<CoreFunction_tes> (  <description> @linkml:String ? ;
+          <molecular_function> @<Term> ? ;
+          <directly_involved_in> @<Term> * ;
+          <locations> @<Term> * ;
+          <anatomical_locations> @<Term> * ;
+          <substrates> @<Term> * ;
+          <in_complex> @<Term> ?
+       ) ;
+       rdf:type [ <CoreFunction> ] ?
+    )
+}
+
+<ExistingAnnotation> CLOSED {
+    (  $<ExistingAnnotation_tes> (  <term> @<Term> ? ;
+          <extensions> @<AnnotationExtension> * ;
+          <negated> @linkml:Boolean ? ;
+          <evidence_type> @linkml:String ? ;
+          <original_reference_id> @<Reference> ? ;
+          <review> @<Review> ?
+       ) ;
+       rdf:type [ <ExistingAnnotation> ] ?
+    )
+}
+
+<Finding> CLOSED {
+    (  $<Finding_tes> (  <statement> @linkml:String ? ;
+          <supporting_text> @linkml:String ?
+       ) ;
+       rdf:type [ <Finding> ] ?
+    )
+}
+
+<GeneReview> CLOSED {
+    (  $<GeneReview_tes> (  <gene_symbol> @linkml:String ? ;
+          <description> @linkml:String ? ;
+          <taxon> @<Term> ? ;
+          <references> @<Reference> * ;
+          <existing_annotations> @<ExistingAnnotation> * ;
+          <core_functions> @<CoreFunction> *
+       ) ;
+       rdf:type [ <GeneReview> ]
+    )
+}
+
+<Reference> CLOSED {
+    (  $<Reference_tes> (  dcterms:title @linkml:String ? ;
+          <findings> @<Finding> *
+       ) ;
+       rdf:type [ <Reference> ]
+    )
+}
+
+<Review> CLOSED {
+    (  $<Review_tes> (  <summary> @linkml:String ? ;
+          <action> [ <https://w3id.org/ai4curation/gene_review/ActionEnum#ACCEPT>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#KEEP_AS_NON_CORE>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#MODIFY>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#MARK_AS_OVER_ANNOTATED>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED> ] ? ;
+          <reason> @linkml:String ? ;
+          <proposed_replacement_terms> @<Term> *
+       ) ;
+       rdf:type [ <Review> ] ?
+    )
+}
+
+<Term> CLOSED {
+    (  $<Term_tes> <label> @linkml:String ? ;
+       rdf:type [ <Term> ]
+    )
+}

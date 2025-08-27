@@ -1,0 +1,21 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q8WWK9	CKAP2	is_active_in	GO:0015630	microtubule cytoskeleton	cellular_component	ECO:0000318	IBA	GO_REF:0000033	MGI:MGI:1931797|PANTHER:PTN004488306|UniProtKB:Q8WWK9	9606	Homo sapiens	GO_Central	Cytoskeleton-associated protein 2	20250412
+UniProtKB	Q8WWK9	CKAP2	involved_in	GO:0007026	negative regulation of microtubule depolymerization	biological_process	ECO:0000318	IBA	GO_REF:0000033	MGI:MGI:1931797|PANTHER:PTN004488306	9606	Homo sapiens	GO_Central	Cytoskeleton-associated protein 2	20210305
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0000922	spindle pole	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0448	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005737	cytoplasm	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0963	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005819	spindle	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0251	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005856	cytoskeleton	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0206|UniProtKB-SubCell:SL-0090	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005874	microtubule	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0493	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	involved_in	GO:0006915	apoptotic process	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0053	9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20250428
+UniProtKB	Q8WWK9	CKAP2	acts_upstream_of_or_within	GO:0007026	negative regulation of microtubule depolymerization	biological_process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q3V1H1|ensembl:ENSMUSP00000039518	9606	Homo sapiens	Ensembl	Cytoskeleton-associated protein 2	20250313
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0015630	microtubule cytoskeleton	cellular_component	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q3V1H1|ensembl:ENSMUSP00000039518	9606	Homo sapiens	Ensembl	Cytoskeleton-associated protein 2	20250313
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005730	nucleolus	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005813	centrosome	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005929	cilium	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0015630	microtubule cytoskeleton	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0036064	ciliary basal body	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0072686	mitotic spindle	cellular_component	ECO:0000314	IDA	GO_REF:0000052		9606	Homo sapiens	HPA	Cytoskeleton-associated protein 2	20241022
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0015630	microtubule cytoskeleton	cellular_component	ECO:0000314	IDA	PMID:16061649		9606	Homo sapiens	MGI	Cytoskeleton-associated protein 2	20201006
+UniProtKB	Q8WWK9	CKAP2	acts_upstream_of_or_within	GO:0000281	mitotic cytokinesis	biological_process	ECO:0000316	IGI	PMID:16061649	UniProtKB:P04637	9606	Homo sapiens	MGI	Cytoskeleton-associated protein 2	20120113
+UniProtKB	Q8WWK9	CKAP2	acts_upstream_of_or_within	GO:0045944	positive regulation of transcription by RNA polymerase II	biological_process	ECO:0000316	IGI	PMID:16061649	UniProtKB:P04637	9606	Homo sapiens	MGI	Cytoskeleton-associated protein 2	20120113
+UniProtKB	Q8WWK9	CKAP2	located_in	GO:0005813	centrosome	cellular_component	ECO:0000314	IDA	PMID:21399614		9606	Homo sapiens	UniProt	Cytoskeleton-associated protein 2	20110517

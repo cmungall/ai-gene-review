@@ -1,0 +1,564 @@
+ID   AAPK2_RAT               Reviewed;         552 AA.
+AC   Q09137;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   18-JUN-2025, entry version 196.
+DE   RecName: Full=5'-AMP-activated protein kinase catalytic subunit alpha-2;
+DE            Short=AMPK subunit alpha-2;
+DE            EC=2.7.11.1 {ECO:0000269|PubMed:2369897, ECO:0000269|PubMed:9029219};
+DE   AltName: Full=Acetyl-CoA carboxylase kinase;
+DE            Short=ACACA kinase;
+DE   AltName: Full=Hydroxymethylglutaryl-CoA reductase kinase;
+DE            Short=HMGCR kinase;
+DE            EC=2.7.11.31 {ECO:0000269|PubMed:2369897};
+GN   Name=Prkaa2; Synonyms=Ampk, Ampk2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS LONG AND SHORT), AND PARTIAL PROTEIN
+RP   SEQUENCE.
+RC   TISSUE=Liver;
+RX   PubMed=7908907; DOI=10.1016/s0021-9258(19)78143-5;
+RA   Carling D., Aguan K., Woods A., Verhoeven A.J.M., Beri R.K., Brennan C.H.,
+RA   Sidebottom C., Davison M.D., Scott J.;
+RT   "Mammalian AMP-activated protein kinase is homologous to yeast and plant
+RT   protein kinases involved in the regulation of carbon metabolism.";
+RL   J. Biol. Chem. 269:11442-11448(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG).
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=7718624; DOI=10.1016/0167-4889(94)00222-z;
+RA   Gao G., Widmer J., Stapleton D., Teh T., Cox T., Kemp B.E., Witters L.A.;
+RT   "Catalytic subunits of the porcine and rat 5'-AMP-activated protein kinase
+RT   are members of the SNF1 protein kinase family.";
+RL   Biochim. Biophys. Acta 1266:73-82(1995).
+RN   [3]
+RP   CATALYTIC ACTIVITY, AND FUNCTION IN PHOSPHORYLATION OF HMGCR.
+RX   PubMed=2369897; DOI=10.1002/j.1460-2075.1990.tb07420.x;
+RA   Clarke P.R., Hardie D.G.;
+RT   "Regulation of HMG-CoA reductase: identification of the site phosphorylated
+RT   by the AMP-activated protein kinase in vitro and in intact rat liver.";
+RL   EMBO J. 9:2439-2446(1990).
+RN   [4]
+RP   PHOSPHORYLATION AT THR-172, AND ACTIVITY REGULATION.
+RX   PubMed=8910387; DOI=10.1074/jbc.271.44.27879;
+RA   Hawley S.A., Davison M., Woods A., Davies S.P., Beri R.K., Carling D.,
+RA   Hardie D.G.;
+RT   "Characterization of the AMP-activated protein kinase kinase from rat liver
+RT   and identification of threonine 172 as the major site at which it
+RT   phosphorylates AMP-activated protein kinase.";
+RL   J. Biol. Chem. 271:27879-27887(1996).
+RN   [5]
+RP   CATALYTIC ACTIVITY, AND FUNCTION IN PHOSPHORYLATION OF ACACA AND ACACB.
+RX   PubMed=9029219; DOI=10.1152/jappl.1997.82.1.219;
+RA   Winder W.W., Wilson H.A., Hardie D.G., Rasmussen B.B., Hutber C.A.,
+RA   Call G.B., Clayton R.D., Conley L.M., Yoon S., Zhou B.;
+RT   "Phosphorylation of rat muscle acetyl-CoA carboxylase by AMP-activated
+RT   protein kinase and protein kinase A.";
+RL   J. Appl. Physiol. 82:219-225(1997).
+RN   [6]
+RP   FUNCTION IN PHOSPHORYLATION OF NOS3.
+RX   PubMed=10025949; DOI=10.1016/s0014-5793(98)01705-0;
+RA   Chen Z.P., Mitchelhill K.I., Michell B.J., Stapleton D.,
+RA   Rodriguez-Crespo I., Witters L.A., Power D.A., Ortiz de Montellano P.R.,
+RA   Kemp B.E.;
+RT   "AMP-activated protein kinase phosphorylation of endothelial NO synthase.";
+RL   FEBS Lett. 443:285-289(1999).
+RN   [7]
+RP   FUNCTION IN PHOSPHORYLATION OF PFKFB2.
+RX   PubMed=11069105; DOI=10.1016/s0960-9822(00)00742-9;
+RA   Marsin A.S., Bertrand L., Rider M.H., Deprez J., Beauloye C., Vincent M.F.,
+RA   Van den Berghe G., Carling D., Hue L.;
+RT   "Phosphorylation and activation of heart PFK-2 by AMPK has a role in the
+RT   stimulation of glycolysis during ischaemia.";
+RL   Curr. Biol. 10:1247-1255(2000).
+RN   [8]
+RP   FUNCTION IN PHOSPHORYLATION OF IRS1.
+RX   PubMed=11598104; DOI=10.1074/jbc.c100483200;
+RA   Jakobsen S.N., Hardie D.G., Morrice N., Tornqvist H.E.;
+RT   "5'-AMP-activated protein kinase phosphorylates IRS-1 on Ser-789 in mouse
+RT   C2C12 myotubes in response to 5-aminoimidazole-4-carboxamide riboside.";
+RL   J. Biol. Chem. 276:46912-46916(2001).
+RN   [9]
+RP   FUNCTION IN PHOSPHORYLATION OF MLXIPL.
+RX   PubMed=11724780; DOI=10.1074/jbc.m107895200;
+RA   Kawaguchi T., Osatomi K., Yamashita H., Kabashima T., Uyeda K.;
+RT   "Mechanism for fatty acid 'sparing' effect on glucose-induced
+RT   transcription: regulation of carbohydrate-responsive element-binding
+RT   protein by AMP-activated protein kinase.";
+RL   J. Biol. Chem. 277:3829-3835(2002).
+RN   [10]
+RP   FUNCTION IN PHOSPHORYLATION OF PFKFB3.
+RX   PubMed=12065600; DOI=10.1074/jbc.m205213200;
+RA   Marsin A.S., Bouzin C., Bertrand L., Hue L.;
+RT   "The stimulation of glycolysis by hypoxia in activated monocytes is
+RT   mediated by AMP-activated protein kinase and inducible 6-phosphofructo-2-
+RT   kinase.";
+RL   J. Biol. Chem. 277:30778-30783(2002).
+RN   [11]
+RP   PHOSPHORYLATION AT THR-172, AND ACTIVITY REGULATION.
+RX   PubMed=14614828; DOI=10.1016/j.cub.2003.10.031;
+RA   Woods A., Johnstone S.R., Dickerson K., Leiper F.C., Fryer L.G.,
+RA   Neumann D., Schlattner U., Wallimann T., Carlson M., Carling D.;
+RT   "LKB1 is the upstream kinase in the AMP-activated protein kinase cascade.";
+RL   Curr. Biol. 13:2004-2008(2003).
+RN   [12]
+RP   FUNCTION, ACTIVITY REGULATION, AND PHOSPHORYLATION AT THR-172.
+RX   PubMed=14511394; DOI=10.1186/1475-4924-2-28;
+RA   Hawley S.A., Boudeau J., Reid J.L., Mustard K.J., Udd L., Makela T.P.,
+RA   Alessi D.R., Hardie D.G.;
+RT   "Complexes between the LKB1 tumor suppressor, STRAD alpha/beta and MO25
+RT   alpha/beta are upstream kinases in the AMP-activated protein kinase
+RT   cascade.";
+RL   J. Biol. 2:28.1-28.16(2003).
+RN   [13]
+RP   FUNCTION IN PHOSPHORYLATION OF HNF4A.
+RX   PubMed=12740371; DOI=10.1074/jbc.m304112200;
+RA   Hong Y.H., Varanasi U.S., Yang W., Leff T.;
+RT   "AMP-activated protein kinase regulates HNF4alpha transcriptional activity
+RT   by inhibiting dimer formation and decreasing protein stability.";
+RL   J. Biol. Chem. 278:27495-27501(2003).
+RN   [14]
+RP   PHOSPHORYLATION AT THR-258 AND SER-491, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RX   PubMed=12764152; DOI=10.1074/jbc.m303946200;
+RA   Woods A., Vertommen D., Neumann D., Turk R., Bayliss J., Schlattner U.,
+RA   Wallimann T., Carling D., Rider M.H.;
+RT   "Identification of phosphorylation sites in AMP-activated protein kinase
+RT   (AMPK) for upstream AMPK kinases and study of their roles by site-directed
+RT   mutagenesis.";
+RL   J. Biol. Chem. 278:28434-28442(2003).
+RN   [15]
+RP   FUNCTION IN PHOSPHORYLATION OF EEF2K.
+RX   PubMed=14709557; DOI=10.1074/jbc.m309773200;
+RA   Browne G.J., Finn S.G., Proud C.G.;
+RT   "Stimulation of the AMP-activated protein kinase leads to activation of
+RT   eukaryotic elongation factor 2 kinase and to its phosphorylation at a novel
+RT   site, serine 398.";
+RL   J. Biol. Chem. 279:12220-12231(2004).
+RN   [16]
+RP   PHOSPHORYLATION AT THR-172, AND ACTIVITY REGULATION.
+RX   PubMed=16054095; DOI=10.1016/j.cmet.2005.05.009;
+RA   Hawley S.A., Pan D.A., Mustard K.J., Ross L., Bain J., Edelman A.M.,
+RA   Frenguelli B.G., Hardie D.G.;
+RT   "Calmodulin-dependent protein kinase kinase-beta is an alternative upstream
+RT   kinase for AMP-activated protein kinase.";
+RL   Cell Metab. 2:9-19(2005).
+RN   [17]
+RP   PHOSPHORYLATION AT THR-172, AND ACTIVITY REGULATION.
+RX   PubMed=16054096; DOI=10.1016/j.cmet.2005.06.005;
+RA   Woods A., Dickerson K., Heath R., Hong S.-P., Momcilovic M.,
+RA   Johnstone S.R., Carlson M., Carling D.;
+RT   "Ca2+/calmodulin-dependent protein kinase kinase-beta acts upstream of AMP-
+RT   activated protein kinase in mammalian cells.";
+RL   Cell Metab. 2:21-33(2005).
+RN   [18]
+RP   FUNCTION IN PHOSPHORYLATION OF SLC12A1.
+RX   PubMed=17341212; DOI=10.1042/bj20061850;
+RA   Fraser S.A., Gimenez I., Cook N., Jennings I., Katerelos M., Katsis F.,
+RA   Levidiotis V., Kemp B.E., Power D.A.;
+RT   "Regulation of the renal-specific Na+-K+-2Cl- co-transporter NKCC2 by AMP-
+RT   activated protein kinase (AMPK).";
+RL   Biochem. J. 405:85-93(2007).
+RN   [19]
+RP   PHOSPHORYLATION BY ULK1.
+RX   PubMed=21460634; DOI=10.4161/auto.7.7.15451;
+RA   Loffler A.S., Alers S., Dieterle A.M., Keppeler H., Franz-Wachtel M.,
+RA   Kundu M., Campbell D.G., Wesselborg S., Alessi D.R., Stork B.;
+RT   "Ulk1-mediated phosphorylation of AMPK constitutes a negative regulatory
+RT   feedback loop.";
+RL   Autophagy 7:696-706(2011).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-377, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [21]
+RP   SUBUNIT.
+RX   PubMed=25687571; DOI=10.1074/mcp.m114.047159;
+RA   Boutchueng-Djidjou M., Collard-Simard G., Fortier S., Hebert S.S.,
+RA   Kelly I., Landry C.R., Faure R.L.;
+RT   "The last enzyme of the de novo purine synthesis pathway 5-aminoimidazole-
+RT   4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase (ATIC)
+RT   plays a central role in insulin signaling and the Golgi/endosomes protein
+RT   network.";
+RL   Mol. Cell. Proteomics 14:1079-1092(2015).
+CC   -!- FUNCTION: Catalytic subunit of AMP-activated protein kinase (AMPK), an
+CC       energy sensor protein kinase that plays a key role in regulating
+CC       cellular energy metabolism (PubMed:14511394). In response to reduction
+CC       of intracellular ATP levels, AMPK activates energy-producing pathways
+CC       and inhibits energy-consuming processes: inhibits protein, carbohydrate
+CC       and lipid biosynthesis, as well as cell growth and proliferation (By
+CC       similarity). AMPK acts via direct phosphorylation of metabolic enzymes,
+CC       and by longer-term effects via phosphorylation of transcription
+CC       regulators (By similarity). Regulates lipid synthesis by
+CC       phosphorylating and inactivating lipid metabolic enzymes such as ACACA,
+CC       ACACB, GYS1, HMGCR and LIPE; regulates fatty acid and cholesterol
+CC       synthesis by phosphorylating acetyl-CoA carboxylase (ACACA and ACACB)
+CC       and hormone-sensitive lipase (LIPE) enzymes, respectively
+CC       (PubMed:2369897, PubMed:9029219). Promotes lipolysis of lipid droplets
+CC       by mediating phosphorylation of isoform 1 of CHKA (CHKalpha2) (By
+CC       similarity). Regulates insulin-signaling and glycolysis by
+CC       phosphorylating IRS1, PFKFB2 and PFKFB3 (PubMed:11069105,
+CC       PubMed:11598104, PubMed:12065600). Involved in insulin receptor/INSR
+CC       internalization (By similarity). AMPK stimulates glucose uptake in
+CC       muscle by increasing the translocation of the glucose transporter
+CC       SLC2A4/GLUT4 to the plasma membrane, possibly by mediating
+CC       phosphorylation of TBC1D4/AS160 (By similarity). Regulates
+CC       transcription and chromatin structure by phosphorylating transcription
+CC       regulators involved in energy metabolism such as CRTC2/TORC2, FOXO3,
+CC       histone H2B, HDAC5, MEF2C, MLXIPL/ChREBP, EP300, HNF4A, p53/TP53,
+CC       SREBF1, SREBF2 and PPARGC1A (PubMed:11724780, PubMed:12740371). Acts as
+CC       a key regulator of glucose homeostasis in liver by phosphorylating
+CC       CRTC2/TORC2, leading to CRTC2/TORC2 sequestration in the cytoplasm (By
+CC       similarity). In response to stress, phosphorylates 'Ser-36' of histone
+CC       H2B (H2BS36ph), leading to promote transcription (By similarity). Acts
+CC       as a key regulator of cell growth and proliferation by phosphorylating
+CC       FNIP1, TSC2, RPTOR, WDR24 and ATG1/ULK1: in response to nutrient
+CC       limitation, negatively regulates the mTORC1 complex by phosphorylating
+CC       RPTOR component of the mTORC1 complex and by phosphorylating and
+CC       activating TSC2 (By similarity). Also phosphorylates and inhibits
+CC       GATOR2 subunit WDR24 in response to nutrient limitation, leading to
+CC       suppress glucose-mediated mTORC1 activation (By similarity). In
+CC       response to energetic stress, phosphorylates FNIP1, inactivating the
+CC       non-canonical mTORC1 signaling, thereby promoting nuclear translocation
+CC       of TFEB and TFE3, and inducing transcription of lysosomal or autophagy
+CC       genes (By similarity). In response to nutrient limitation, promotes
+CC       autophagy by phosphorylating and activating ATG1/ULK1 (By similarity).
+CC       In that process, it also activates WDR45/WIPI4 (By similarity).
+CC       Phosphorylates CASP6, thereby preventing its autoprocessing and
+CC       subsequent activation (By similarity). AMPK also acts as a regulator of
+CC       circadian rhythm by mediating phosphorylation of CRY1, leading to
+CC       destabilize it (By similarity). May regulate the Wnt signaling pathway
+CC       by phosphorylating CTNNB1, leading to stabilize it (By similarity).
+CC       Also acts as a regulator of cellular polarity by remodeling the actin
+CC       cytoskeleton; probably by indirectly activating myosin (By similarity).
+CC       Also phosphorylates CFTR, EEF2K, KLC1, NOS3 and SLC12A1
+CC       (PubMed:10025949, PubMed:14709557, PubMed:17341212). Plays an important
+CC       role in the differential regulation of pro-autophagy (composed of
+CC       PIK3C3, BECN1, PIK3R4 and UVRAG or ATG14) and non-autophagy (composed
+CC       of PIK3C3, BECN1 and PIK3R4) complexes, in response to glucose
+CC       starvation (By similarity). Can inhibit the non-autophagy complex by
+CC       phosphorylating PIK3C3 and can activate the pro-autophagy complex by
+CC       phosphorylating BECN1 (By similarity). Upon glucose starvation,
+CC       promotes ARF6 activation in a kinase-independent manner leading to cell
+CC       migration (By similarity). Upon glucose deprivation mediates the
+CC       phosphorylation of ACSS2 at 'Ser-659', which exposes the nuclear
+CC       localization signal of ACSS2, required for its interaction with KPNA1
+CC       and nuclear translocation (By similarity). Upon stress, regulates
+CC       mitochondrial fragmentation through phosphorylation of MTFR1L (By
+CC       similarity). {ECO:0000250|UniProtKB:P54646,
+CC       ECO:0000250|UniProtKB:Q8BRK8, ECO:0000269|PubMed:10025949,
+CC       ECO:0000269|PubMed:11069105, ECO:0000269|PubMed:11598104,
+CC       ECO:0000269|PubMed:11724780, ECO:0000269|PubMed:12065600,
+CC       ECO:0000269|PubMed:12740371, ECO:0000269|PubMed:14511394,
+CC       ECO:0000269|PubMed:14709557, ECO:0000269|PubMed:17341212,
+CC       ECO:0000269|PubMed:2369897, ECO:0000269|PubMed:9029219}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + ATP = O-phospho-L-seryl-[protein] + ADP +
+CC         H(+); Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000269|PubMed:2369897, ECO:0000269|PubMed:9029219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + ATP = O-phospho-L-threonyl-[protein] +
+CC         ADP + H(+); Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:61977, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000269|PubMed:2369897, ECO:0000269|PubMed:9029219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[acetyl-CoA carboxylase] + ATP = O-phospho-L-seryl-
+CC         [acetyl-CoA carboxylase] + ADP + H(+); Xref=Rhea:RHEA:20333,
+CC         Rhea:RHEA-COMP:13722, Rhea:RHEA-COMP:13723, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:30616, ChEBI:CHEBI:83421,
+CC         ChEBI:CHEBI:456216; Evidence={ECO:0000269|PubMed:9029219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[3-hydroxy-3-methylglutaryl-coenzyme A reductase] +
+CC         ATP = O-phospho-L-seryl-[3-hydroxy-3-methylglutaryl-coenzyme A
+CC         reductase] + ADP + H(+); Xref=Rhea:RHEA:23172, Rhea:RHEA-COMP:13692,
+CC         Rhea:RHEA-COMP:13693, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:83421, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.31; Evidence={ECO:0000269|PubMed:2369897};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC   -!- ACTIVITY REGULATION: Activated by phosphorylation on Thr-172. Binding
+CC       of AMP to non-catalytic gamma subunit (PRKAG1, PRKAG2 or PRKAG3)
+CC       results in allosteric activation, inducing phosphorylation on Thr-172.
+CC       AMP-binding to gamma subunit also sustains activity by preventing
+CC       dephosphorylation of Thr-172. ADP also stimulates Thr-172
+CC       phosphorylation, without stimulating already phosphorylated AMPK. ATP
+CC       promotes dephosphorylation of Thr-172, rendering the enzyme inactive.
+CC       Under physiological conditions AMPK mainly exists in its inactive form
+CC       in complex with ATP, which is much more abundant than AMP. Selectively
+CC       inhibited by compound C (6-[4-(2-Piperidin-1-yl-ethoxy)-phenyl)]-3-
+CC       pyridin-4-yl-pyyrazolo[1,5-a] pyrimidine. Activated by resveratrol, a
+CC       natural polyphenol present in red wine, and S17834, a synthetic
+CC       polyphenol. Salicylate/aspirin directly activates kinase activity,
+CC       primarily by inhibiting Thr-172 dephosphorylation (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: AMPK is a heterotrimer of an alpha catalytic subunit (PRKAA1
+CC       or PRKAA2), a beta (PRKAB1 or PRKAB2) and a gamma non-catalytic
+CC       subunits (PRKAG1, PRKAG2 or PRKAG3). Interacts with FNIP1 and FNIP2.
+CC       Associates with internalized INSR complexes on Golgi/endosomal
+CC       membranes; PRKAA2/AMPK2 together with ATIC and HACD3/PTPLAD1 is
+CC       proposed to be part of a signaling network regulating INSR
+CC       autophosphorylation and endocytosis (PubMed:25687571). Interacts with
+CC       DUSP29 (By similarity). Interacts with ARF6 (By similarity). The
+CC       phosphorylated form at Thr-172 mediated by CamKK2 interacts with ACSS2
+CC       (By similarity). {ECO:0000250|UniProtKB:P54646,
+CC       ECO:0000250|UniProtKB:Q8BRK8, ECO:0000269|PubMed:25687571}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q8BRK8}. Nucleus
+CC       {ECO:0000250|UniProtKB:P54646}. Note=In response to stress, recruited
+CC       by p53/TP53 to specific promoters. {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=Q09137-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=Q09137-2; Sequence=VSP_004949, VSP_004950;
+CC   -!- TISSUE SPECIFICITY: Skeletal muscle, lower levels in liver, heart and
+CC       kidney.
+CC   -!- INDUCTION: By AMP.
+CC   -!- DOMAIN: The AIS (autoinhibitory sequence) region shows some sequence
+CC       similarity with the ubiquitin-associated domains and represses kinase
+CC       activity. {ECO:0000250|UniProtKB:Q13131}.
+CC   -!- PTM: Ubiquitinated. {ECO:0000250}.
+CC   -!- PTM: Phosphorylated at Thr-172 by STK11/LKB1 in complex with STE20-
+CC       related adapter-alpha (STRADA) pseudo kinase and CAB39. Also
+CC       phosphorylated at Thr-172 by CAMKK2; triggered by a rise in
+CC       intracellular calcium ions, without detectable changes in the AMP/ATP
+CC       ratio. CAMKK1 can also phosphorylate Thr-172, but at much lower level.
+CC       Dephosphorylated by protein phosphatase 2A and 2C (PP2A and PP2C).
+CC       Phosphorylated by ULK1; leading to negatively regulate AMPK activity
+CC       and suggesting the existence of a regulatory feedback loop between ULK1
+CC       and AMPK. Dephosphorylated by PPM1A and PPM1B at Thr-172 (mediated by
+CC       STK11/LKB1) (By similarity). {ECO:0000250}.
+CC   -!- MISCELLANEOUS: [Isoform Short]: Lacks the sequence parts essential for
+CC       kinase activity and is therefore inactive. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK Ser/Thr
+CC       protein kinase family. SNF1 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z29486; CAA82620.1; -; mRNA.
+DR   EMBL; U12149; AAA85033.1; -; mRNA.
+DR   PIR; A53621; A53621.
+DR   RefSeq; NP_076481.1; NM_023991.1.
+DR   AlphaFoldDB; Q09137; -.
+DR   BMRB; Q09137; -.
+DR   SMR; Q09137; -.
+DR   BioGRID; 249382; 8.
+DR   CORUM; Q09137; -.
+DR   FunCoup; Q09137; 1323.
+DR   IntAct; Q09137; 1.
+DR   STRING; 10116.ENSRNOP00000010680; -.
+DR   BindingDB; Q09137; -.
+DR   ChEMBL; CHEMBL4637; -.
+DR   GlyGen; Q09137; 1 site.
+DR   iPTMnet; Q09137; -.
+DR   PhosphoSitePlus; Q09137; -.
+DR   jPOST; Q09137; -.
+DR   PaxDb; 10116-ENSRNOP00000010680; -.
+DR   GeneID; 78975; -.
+DR   KEGG; rno:78975; -.
+DR   UCSC; RGD:620893; rat. [Q09137-1]
+DR   AGR; RGD:620893; -.
+DR   CTD; 5563; -.
+DR   RGD; 620893; Prkaa2.
+DR   eggNOG; KOG0583; Eukaryota.
+DR   InParanoid; Q09137; -.
+DR   OrthoDB; 193931at2759; -.
+DR   PhylomeDB; Q09137; -.
+DR   BRENDA; 2.7.11.1; 5301.
+DR   BRENDA; 2.7.11.31; 5301.
+DR   Reactome; R-RNO-1632852; Macroautophagy.
+DR   Reactome; R-RNO-163680; AMPK inhibits chREBP transcriptional activation activity.
+DR   Reactome; R-RNO-200425; Carnitine shuttle.
+DR   Reactome; R-RNO-380972; Energy dependent regulation of mTOR by LKB1-AMPK.
+DR   Reactome; R-RNO-5628897; TP53 Regulates Metabolic Genes.
+DR   Reactome; R-RNO-6804756; Regulation of TP53 Activity through Phosphorylation.
+DR   Reactome; R-RNO-9759194; Nuclear events mediated by NFE2L2.
+DR   SABIO-RK; Q09137; -.
+DR   PRO; PR:Q09137; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0030424; C:axon; IMP:ARUK-UCL.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0010494; C:cytoplasmic stress granule; ISO:RGD.
+DR   GO; GO:0030425; C:dendrite; IMP:ARUK-UCL.
+DR   GO; GO:0043025; C:neuronal cell body; IMP:ARUK-UCL.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0031588; C:nucleotide-activated protein kinase complex; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0047322; F:[hydroxymethylglutaryl-CoA reductase (NADPH)] kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004679; F:AMP-activated protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IDA:RGD.
+DR   GO; GO:0003682; F:chromatin binding; ISS:UniProtKB.
+DR   GO; GO:0140823; F:histone H2BS36 kinase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004672; F:protein kinase activity; IDA:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:RGD.
+DR   GO; GO:0004712; F:protein serine/threonine/tyrosine kinase activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0030674; F:protein-macromolecule adaptor activity; IDA:RGD.
+DR   GO; GO:0006914; P:autophagy; IEA:UniProtKB-KW.
+DR   GO; GO:0071277; P:cellular response to calcium ion; IMP:ARUK-UCL.
+DR   GO; GO:0042149; P:cellular response to glucose starvation; ISS:UniProtKB.
+DR   GO; GO:0071333; P:cellular response to glucose stimulus; IMP:ARUK-UCL.
+DR   GO; GO:0031669; P:cellular response to nutrient levels; ISS:UniProtKB.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0071380; P:cellular response to prostaglandin E stimulus; ISO:RGD.
+DR   GO; GO:0071466; P:cellular response to xenobiotic stimulus; ISO:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0097009; P:energy homeostasis; IDA:UniProtKB.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0055089; P:fatty acid homeostasis; IDA:UniProtKB.
+DR   GO; GO:0042593; P:glucose homeostasis; ISS:UniProtKB.
+DR   GO; GO:0008610; P:lipid biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:1905691; P:lipid droplet disassembly; ISS:UniProtKB.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:1903944; P:negative regulation of hepatocyte apoptotic process; ISO:RGD.
+DR   GO; GO:0032007; P:negative regulation of TOR signaling; ISS:UniProtKB.
+DR   GO; GO:1904262; P:negative regulation of TORC1 signaling; ISS:UniProtKB.
+DR   GO; GO:1904428; P:negative regulation of tubulin deacetylation; ISO:RGD.
+DR   GO; GO:0010508; P:positive regulation of autophagy; ISS:UniProtKB.
+DR   GO; GO:0045821; P:positive regulation of glycolytic process; IDA:UniProtKB.
+DR   GO; GO:1903829; P:positive regulation of protein localization; ISO:RGD.
+DR   GO; GO:1990044; P:protein localization to lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0042752; P:regulation of circadian rhythm; ISS:UniProtKB.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0019216; P:regulation of lipid metabolic process; IDA:RGD.
+DR   GO; GO:0016241; P:regulation of macroautophagy; ISS:UniProtKB.
+DR   GO; GO:0070507; P:regulation of microtubule cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0062028; P:regulation of stress granule assembly; ISO:RGD.
+DR   GO; GO:0014823; P:response to activity; IDA:RGD.
+DR   GO; GO:0031000; P:response to caffeine; IDA:RGD.
+DR   GO; GO:0014850; P:response to muscle activity; ISO:RGD.
+DR   GO; GO:0048511; P:rhythmic process; IEA:UniProtKB-KW.
+DR   GO; GO:0016055; P:Wnt signaling pathway; IEA:UniProtKB-KW.
+DR   CDD; cd12200; AMPKA2_C; 1.
+DR   CDD; cd14079; STKc_AMPK_alpha; 1.
+DR   CDD; cd14404; UBA_AID_AAPK2; 1.
+DR   FunFam; 1.10.510.10:FF:000079; Non-specific serine/threonine protein kinase; 1.
+DR   FunFam; 1.10.8.10:FF:000014; Non-specific serine/threonine protein kinase; 1.
+DR   FunFam; 3.30.200.20:FF:000136; Non-specific serine/threonine protein kinase; 1.
+DR   FunFam; 3.30.310.80:FF:000003; Non-specific serine/threonine protein kinase; 1.
+DR   Gene3D; 1.10.8.10; DNA helicase RuvA subunit, C-terminal domain; 1.
+DR   Gene3D; 3.30.310.80; Kinase associated domain 1, KA1; 1.
+DR   Gene3D; 3.30.200.20; Phosphorylase Kinase, domain 1; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR032270; AMPK_C.
+DR   InterPro; IPR039148; AMPKA2_C.
+DR   InterPro; IPR028375; KA1/Ssp2_C.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR049020; PRKAA1/2_AID.
+DR   InterPro; IPR028783; PRKAA2.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24346:SF104; 5'-AMP-ACTIVATED PROTEIN KINASE CATALYTIC SUBUNIT ALPHA-2; 1.
+DR   PANTHER; PTHR24346; MAP/MICROTUBULE AFFINITY-REGULATING KINASE; 1.
+DR   Pfam; PF16579; AdenylateSensor; 1.
+DR   Pfam; PF21147; AMPK_alpha_AID; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF103243; KA1-like; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Autophagy; Biological rhythms;
+KW   Cholesterol biosynthesis; Cholesterol metabolism; Chromatin regulator;
+KW   Cytoplasm; Direct protein sequencing; Fatty acid biosynthesis;
+KW   Fatty acid metabolism; Kinase; Lipid biosynthesis; Lipid metabolism;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Serine/threonine-protein kinase; Steroid biosynthesis;
+KW   Steroid metabolism; Sterol biosynthesis; Sterol metabolism; Transcription;
+KW   Transcription regulation; Transferase; Ubl conjugation;
+KW   Wnt signaling pathway.
+FT   CHAIN           1..552
+FT                   /note="5'-AMP-activated protein kinase catalytic subunit
+FT                   alpha-2"
+FT                   /id="PRO_0000085597"
+FT   DOMAIN          16..268
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          291..376
+FT                   /note="AIS"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13131"
+FT   REGION          478..520
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        480..490
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        501..510
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        511..520
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        139
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         22..30
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         45
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         172
+FT                   /note="Phosphothreonine; by LKB1 and CaMKK2"
+FT                   /evidence="ECO:0000269|PubMed:14511394,
+FT                   ECO:0000269|PubMed:14614828, ECO:0000269|PubMed:16054095,
+FT                   ECO:0000269|PubMed:16054096, ECO:0000269|PubMed:8910387"
+FT   MOD_RES         258
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:12764152"
+FT   MOD_RES         377
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         491
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:12764152"
+FT   VAR_SEQ         32..388
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:7908907"
+FT                   /id="VSP_004949"
+FT   VAR_SEQ         392..552
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:7908907"
+FT                   /id="VSP_004950"
+FT   CONFLICT        355
+FT                   /note="M -> S (in Ref. 2; AAA85033)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        462
+FT                   /note="N -> D (in Ref. 2; AAA85033)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   552 AA;  62258 MW;  2829E07F674D89B1 CRC64;
+     MAEKQKHDGR VKIGHYVLGD TLGVGTFGKV KIGEHQLTGH KVAVKILNRQ KIRSLDVVGK
+     IKREIQNLKL FRHPHIIKLY QVISTPTDFF MVMEYVSGGE LFDYICKHGR VEEVEARRLF
+     QQILSAVDYC HRHMVVHRDL KPENVLLDAQ MNAKIADFGL SNMMSDGEFL RTSCGSPNYA
+     APEVISGRLY AGPEVDIWSC GVILYALLCG TLPFDDEHVP TLFKKIRGGV FYIPEYLNRS
+     IATLLMHMLQ VDPLKRATIK DIREHEWFKQ DLPSYLFPED PSYDANVIDD EAVKEVCEKF
+     ECTESEVMNS LYSGDPQDQL AVAYHLIIDN RRIMNQASEF YLASSPPTGS FMDDMAMHIP
+     PGLKPHPERM PPLIADSPKA RCPLDALNTT KPKSLAVKKA KWHLGIRSQS KPYDIMAEVY
+     RAMKQLDFEW KVVNAYHLRV RRKNPVTGNY VKMSLQLYLV DNRSYLLDFK SIDDEVVEQR
+     SGSSTPQRSC SAAGLHRPRS SVDSSTAENH SLSGSLTGSL TGSTLSSASP RLGSHTMDFF
+     EMCASLITAL AR
+//

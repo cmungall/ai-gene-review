@@ -1,0 +1,164 @@
+id: Q9BRQ4
+gene_symbol: CFAP300
+aliases:
+- C11orf70
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: CFAP300 (Cilia And Flagella Associated Protein 300) is a small (~267
+  amino acids) cytoplasmic protein essential for the assembly and transport of axonemal
+  dynein arms. Functions as both a chaperone/assembly factor for dynein complexes
+  and as a cargo adaptor linking dynein components to intraflagellar transport (IFT)
+  machinery. Contains a conserved DUF4498 domain critical for protein-protein interactions.
+  Mutations in CFAP300  cause Primary Ciliary Dyskinesia 38 (CILD38), characterized
+  by complete loss of outer and inner dynein arms, resulting in immotile cilia, chronic
+  respiratory infections, male infertility, and laterality defects.
+references:
+- id: PMID:29727692
+  title: C11orf70 mutations disrupting the intraflagellar transport-dependent assembly
+    of multiple axonemal dyneins cause primary ciliary dyskinesia
+  findings:
+  - statement: CFAP300 is essential for assembly of outer and inner dynein arms
+    supporting_text: C11orf70 mutations disrupting the intraflagellar transport-dependent
+      assembly of multiple axonemal dyneins cause primary ciliary dyskinesia
+  - statement: Mutations cause complete loss of dynein arms and ciliary immotility
+    supporting_text: PCD patients homozygous for the identified CFAP300 mutation have
+      immotile airway epithelial cilia associated with missing dynein arms in their
+      ciliary axonemes
+  - statement: CFAP300 functions as a dynein cargo adaptor for IFT transport
+    supporting_text: CFAP300 is proposed to act as a dynein cargo adaptor that helps
+      load dynein arm components onto IFT trains
+- id: PMID:29727693
+  title: Mutations in C11orf70 cause primary ciliary dyskinesia with randomization
+    of left/right body asymmetry due to defects of outer and inner dynein arms
+  findings:
+  - statement: CFAP300 interacts directly with DNAAF2
+    supporting_text: Yeast 2-hybrid screening and pull-down assays revealed that CFAP300
+      interacted directly with the cytoplasmic outer and inner dynein arm assembly
+      factor DNAAF2
+  - statement: Expression increases during ciliogenesis
+    supporting_text: Expression of CFAP300 increased over time in cultured human ciliated
+      epithelial cells with a sharp rise around the time cells started to ciliate
+- id: file:human/CFAP300/CFAP300-deep-research.md
+  title: 'Deep Research Report: CFAP300 comprehensive analysis'
+  findings:
+  - statement: CFAP300 binds specific dynein components DNAL1 and DNAH2
+    supporting_text: CFAP300 is thought to bind components of both the outer and inner
+      dynein arms (e.g. the dynein light chain DNAL1 and heavy chain DNAH2) and help
+      assemble them into functional complexes
+  - statement: CFAP300 has chaperone-related functions in dynein assembly
+    supporting_text: Studies indicate CFAP300 performs chaperone-related functions
+      in the pre-assembly of dynein arms, likely stabilizing or folding dynein subunits
+  - statement: Loss of CFAP300 causes complete male infertility due to sperm flagella
+      defects
+    supporting_text: Males with CFAP300-related PCD have immotile (or severely dysmotile)
+      sperm, leading to infertility (asthenozoospermia)
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+existing_annotations:
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:29727692
+  review:
+    summary: DNAAF2 interaction supported by both publications but experimental details need verification
+    action: MODIFY
+    reason: PMID:29727693 states "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2" but publications don't detail experimental methods in abstracts. However, 'protein binding' is uninformative per curation guidelines. CFAP300 functions as an adapter/scaffolding protein for dynein arm assembly.
+    proposed_replacement_terms:
+    - id: GO:0030674
+      label: protein-macromolecule adaptor activity
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Cytoplasmic localization directly supported by experimental evidence in publications
+    action: ACCEPT
+    reason: PMID:29727692 demonstrates that "Tagged C11orf70 in Paramecium and Chlamydomonas localizes mainly in the cytoplasm with a small amount in the ciliary component." PMID:29727693 confirms involvement in "cytoplasmic assembly of dynein arms." This validates the sequence similarity inference.
+- term:
+    id: GO:0005856
+    label: cytoskeleton
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Automated annotation based on keywords
+    action: MODIFY
+    reason: Too general - while technically correct that cilia are part of cytoskeleton,
+      this annotation lacks specificity for CFAP300's actual functional location
+    proposed_replacement_terms:
+    - id: GO:0005930
+      label: axoneme
+- term:
+    id: GO:0031514
+    label: motile cilium
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Motile cilium localization confirmed by experimental evidence showing ciliary transport
+    action: ACCEPT
+    reason: PMID:29727692 shows "Tagged C11orf70...localizes mainly in the cytoplasm with a small amount in the ciliary component" and demonstrates "its transport within cilia is IFT dependent." Both papers show CFAP300 mutations cause "immotile respiratory cilia" confirming functional relevance to motile cilia.
+- term:
+    id: GO:0042995
+    label: cell projection
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Automated annotation based on keywords
+    action: REMOVE
+    reason: Uninformative and redundant with motile cilium annotation. Provides no
+      functional insight and is too general to be useful for understanding CFAP300
+      function
+core_functions:
+- description: Cytoplasmic assembly and intraflagellar transport of axonemal dynein
+    arms
+  molecular_function:
+    id: GO:0030674
+    label: protein-macromolecule adaptor activity
+  directly_involved_in:
+  - id: GO:0036158
+    label: outer dynein arm assembly
+  - id: GO:0036159
+    label: inner dynein arm assembly
+  - id: GO:0003341
+    label: cilium movement
+  - id: GO:0035735
+    label: intraciliary transport involved in cilium assembly
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  - id: GO:0031514
+    label: motile cilium
+  - id: GO:0005813
+    label: centrosome
+  anatomical_locations:
+  - id: UBERON:0002048
+    label: lung
+  - id: UBERON:0000004
+    label: nose
+  - id: UBERON:0000991
+    label: gonad
+  - id: UBERON:0001103
+    label: diaphragm
+  substrates:
+  - id: TEMP:CFAP300_DNAAF2_complex
+    label: CFAP300-DNAAF2 complex
+    description: Protein complex formed by CFAP300 and DNAAF2 during dynein arm assembly
+      in the cytoplasm before transport to cilia
+  - id: TEMP:CFAP300_DNAH2_complex
+    label: CFAP300-DNAH2 complex
+    description: Assembly intermediate containing CFAP300 bound to dynein heavy chain
+      DNAH2
+  - id: TEMP:CFAP300_DNAL1_complex
+    label: CFAP300-DNAL1 complex
+    description: Assembly intermediate containing CFAP300 bound to dynein light chain
+      DNAL1

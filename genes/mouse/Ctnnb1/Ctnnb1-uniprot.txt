@@ -1,0 +1,1271 @@
+ID   CTNB1_MOUSE             Reviewed;         781 AA.
+AC   Q02248; Q922W1; Q9D335;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   18-JUN-2025, entry version 258.
+DE   RecName: Full=Catenin beta-1 {ECO:0000312|MGI:MGI:88276};
+DE   AltName: Full=Beta-catenin {ECO:0000303|PubMed:1509266};
+GN   Name=Ctnnb1 {ECO:0000312|MGI:MGI:88276};
+GN   Synonyms=Catnb {ECO:0000312|MGI:MGI:88276};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1509266; DOI=10.1126/science.257.5073.1142-a;
+RA   Butz S., Stappert J., Weissig H., Kemler R.;
+RT   "Plakoglobin and beta-catenin: distinct but closely related.";
+RL   Science 257:1142-1144(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Colon, and Urinary bladder;
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M., Davis M.J.,
+RA   Wilming L.G., Aidinis V., Allen J.E., Ambesi-Impiombato A., Apweiler R.,
+RA   Aturaliya R.N., Bailey T.L., Bansal M., Baxter L., Beisel K.W., Bersano T.,
+RA   Bono H., Chalk A.M., Chiu K.P., Choudhary V., Christoffels A.,
+RA   Clutterbuck D.R., Crowe M.L., Dalla E., Dalrymple B.P., de Bono B.,
+RA   Della Gatta G., di Bernardo D., Down T., Engstrom P., Fagiolini M.,
+RA   Faulkner G., Fletcher C.F., Fukushima T., Furuno M., Futaki S.,
+RA   Gariboldi M., Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N., Hill D.,
+RA   Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T., Jakt M.,
+RA   Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H., Kitano H.,
+RA   Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K., Kurochkin I.V.,
+RA   Lareau L.F., Lazarevic D., Lipovich L., Liu J., Liuni S., McWilliam S.,
+RA   Madan Babu M., Madera M., Marchionni L., Matsuda H., Matsuzawa S., Miki H.,
+RA   Mignone F., Miyake S., Morris K., Mottagui-Tabar S., Mulder N., Nakano N.,
+RA   Nakauchi H., Ng P., Nilsson R., Nishiguchi S., Nishikawa S., Nori F.,
+RA   Ohara O., Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G.,
+RA   Pesole G., Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z.,
+RA   Ringwald M., Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B., Sperling S.,
+RA   Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K., Tammoja K.,
+RA   Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A., Ueda H.R.,
+RA   van Nimwegen E., Verardo R., Wei C.L., Yagi K., Yamanishi H.,
+RA   Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C., Grimmond S.M.,
+RA   Teasdale R.D., Liu E.T., Brusic V., Quackenbush J., Wahlestedt C.,
+RA   Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y., Fukuda S.,
+RA   Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T., Iida J., Imamura K.,
+RA   Itoh M., Kato T., Kawaji H., Kawagashira N., Kawashima T., Kojima M.,
+RA   Kondo S., Konno H., Nakano K., Ninomiya N., Nishio T., Okada M., Plessy C.,
+RA   Shibata K., Shiraki T., Suzuki S., Tagami M., Waki K., Watahiki A.,
+RA   Okamura-Oho Y., Suzuki H., Kawai J., Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain, and Mammary cancer;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   IDENTIFICATION IN AN E-CADHERIN/CATENIN ADHESION COMPLEX.
+RX   PubMed=7982500; DOI=10.1016/0014-5793(94)01205-9;
+RA   Butz S., Kemler R.;
+RT   "Distinct cadherin-catenin complexes in Ca(2+)-dependent cell-cell
+RT   adhesion.";
+RL   FEBS Lett. 355:195-200(1994).
+RN   [5]
+RP   INTERACTION WITH TCF7; TCF7L1; TCF7L2 AND LEF1.
+RX   PubMed=9783587; DOI=10.1038/26989;
+RA   Roose J., Molenaar M., Peterson J., Hurenkamp J., Brantjes H., Moerer P.,
+RA   van de Wetering M., Destree O., Clevers H.;
+RT   "The Xenopus Wnt effector XTcf-3 interacts with Groucho-related
+RT   transcriptional repressors.";
+RL   Nature 395:608-612(1998).
+RN   [6]
+RP   INTERACTION WITH AXIN1.
+RX   PubMed=10581160; DOI=10.1006/bbrc.1999.1760;
+RA   Jho E., Lomvardas S., Costantini F.;
+RT   "A GSK3beta phosphorylation site in axin modulates interaction with beta-
+RT   catenin and Tcf-mediated gene expression.";
+RL   Biochem. Biophys. Res. Commun. 266:28-35(1999).
+RN   [7]
+RP   INTERACTION WITH BAIAP1.
+RX   PubMed=10772923; DOI=10.1006/bbrc.2000.2471;
+RA   Dobrosotskaya I.Y., James G.L.;
+RT   "MAGI-1 interacts with beta-catenin and is associated with cell-cell
+RT   adhesion structures.";
+RL   Biochem. Biophys. Res. Commun. 270:903-909(2000).
+RN   [8]
+RP   INTERACTION WITH CTNNA3.
+RX   PubMed=11590244; DOI=10.1242/jcs.114.17.3177;
+RA   Janssens B., Goossens S., Staes K., Gilbert B., van Hengel J., Colpaert C.,
+RA   Bruyneel E., Mareel M., van Roy F.;
+RT   "AlphaT-catenin: a novel tissue-specific beta-catenin-binding protein
+RT   mediating strong cell-cell adhesion.";
+RL   J. Cell Sci. 114:3177-3188(2001).
+RN   [9]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=12494996; DOI=10.1078/0171-9335-00278;
+RA   Eshkind L., Tian Q., Schmidt A., Franke W.W., Windoffer R., Leube R.E.;
+RT   "Loss of desmoglein 2 suggests essential functions for early embryonic
+RT   development and proliferation of embryonal stem cells.";
+RL   Eur. J. Cell Biol. 81:592-598(2002).
+RN   [10]
+RP   INTERACTION WITH TAX1BP3.
+RX   PubMed=12874278; DOI=10.1074/jbc.m306324200;
+RA   Kanamori M., Sandy P., Marzinotto S., Benetti R., Kai C., Hayashizaki Y.,
+RA   Schneider C., Suzuki H.;
+RT   "The PDZ protein tax-interacting protein-1 inhibits beta-catenin
+RT   transcriptional activity and growth of colorectal cancer cells.";
+RL   J. Biol. Chem. 278:38758-38764(2003).
+RN   [11]
+RP   PHOSPHORYLATION AT TYR-142 BY FYN.
+RX   PubMed=12640114; DOI=10.1128/mcb.23.7.2287-2297.2003;
+RA   Piedra J., Miravet S., Castano J., Palmer H.G., Heisterkamp N.,
+RA   Garcia de Herreros A., Dunach M.;
+RT   "p120 Catenin-associated Fer and Fyn tyrosine kinases regulate beta-catenin
+RT   Tyr-142 phosphorylation and beta-catenin-alpha-catenin Interaction.";
+RL   Mol. Cell. Biol. 23:2287-2297(2003).
+RN   [12]
+RP   INTERACTION WITH RORA.
+RX   PubMed=14687547; DOI=10.1016/s0896-6273(03)00769-4;
+RA   Gold D.A., Baek S.H., Schork N.J., Rose D.W., Larsen D.D., Sachs B.D.,
+RA   Rosenfeld M.G., Hamilton B.A.;
+RT   "RORalpha coordinates reciprocal signaling in cerebellar development
+RT   through sonic hedgehog and calcium-dependent pathways.";
+RL   Neuron 40:1119-1131(2003).
+RN   [13]
+RP   INTERACTION WITH AXIN1.
+RX   PubMed=15063782; DOI=10.1016/j.bbrc.2004.03.065;
+RA   Kim S.I., Park C.S., Lee M.S., Kwon M.S., Jho E.H., Song W.K.;
+RT   "Cyclin-dependent kinase 2 regulates the interaction of Axin with beta-
+RT   catenin.";
+RL   Biochem. Biophys. Res. Commun. 317:478-483(2004).
+RN   [14]
+RP   FUNCTION, INTERACTION WITH SOX9, AND UBIQUITINATION.
+RX   PubMed=15132997; DOI=10.1101/gad.1171104;
+RA   Akiyama H., Lyons J.P., Mori-Akiyama Y., Yang X., Zhang R., Zhang Z.,
+RA   Deng J.M., Taketo M.M., Nakamura T., Behringer R.R., McCrea P.D.,
+RA   de Crombrugghe B.;
+RT   "Interactions between Sox9 and beta-catenin control chondrocyte
+RT   differentiation.";
+RL   Genes Dev. 18:1072-1087(2004).
+RN   [15]
+RP   RECONSTITUTION OF THE E-CADHERIN/CATENIN ADHESION COMPLEX, LACK OF
+RP   ACTIN-BINDING BY THE E-CADHERIN/CATENIN ADHESION COMPLEX, AND FUNCTION.
+RX   PubMed=16325582; DOI=10.1016/j.cell.2005.09.020;
+RA   Yamada S., Pokutta S., Drees F., Weis W.I., Nelson W.J.;
+RT   "Deconstructing the cadherin-catenin-actin complex.";
+RL   Cell 123:889-901(2005).
+RN   [16]
+RP   INTERACTION WITH BCL9L.
+RX   PubMed=17052462; DOI=10.1016/j.molcel.2006.09.001;
+RA   Sampietro J., Dahlberg C.L., Cho U.S., Hinds T.R., Kimelman D., Xu W.;
+RT   "Crystal structure of a beta-catenin/BCL9/Tcf4 complex.";
+RL   Mol. Cell 24:293-300(2006).
+RN   [17]
+RP   INTERACTION WITH GLIS2, AND SUBCELLULAR LOCATION.
+RX   PubMed=17289029; DOI=10.1016/j.febslet.2007.01.058;
+RA   Kim Y.-S., Kang H.S., Jetten A.M.;
+RT   "The Kruppel-like zinc finger protein Glis2 functions as a negative
+RT   modulator of the Wnt/beta-catenin signaling pathway.";
+RL   FEBS Lett. 581:858-864(2007).
+RN   [18]
+RP   INTERACTION WITH XIRP1.
+RX   PubMed=17925400; DOI=10.1074/jbc.m707639200;
+RA   Choi S., Gustafson-Wagner E.A., Wang Q., Harlan S.M., Sinn H.W.,
+RA   Lin J.L.-C., Lin J.J.-C.;
+RT   "The intercalated disc protein, mXin{alpha}, is capable of interacting with
+RT   beta-catenin and bundling actin filaments.";
+RL   J. Biol. Chem. 282:36024-36036(2007).
+RN   [19]
+RP   INTERACTION WITH SLC30A9.
+RX   PubMed=17344318; DOI=10.1093/nar/gkm095;
+RA   Chen Y.H., Yang C.K., Xia M., Ou C.Y., Stallcup M.R.;
+RT   "Role of GAC63 in transcriptional activation mediated by beta-catenin.";
+RL   Nucleic Acids Res. 35:2084-2092(2007).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-191; SER-552 AND SER-675, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=17242355; DOI=10.1073/pnas.0609836104;
+RA   Villen J., Beausoleil S.A., Gerber S.A., Gygi S.P.;
+RT   "Large-scale phosphorylation analysis of mouse liver.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:1488-1493(2007).
+RN   [21]
+RP   LACK OF ACTIN-BINDING BY THE E-CADHERIN/CATENIN ADHESION COMPLEX, AND
+RP   FUNCTION.
+RX   PubMed=18093941; DOI=10.1073/pnas.0710504105;
+RA   Abe K., Takeichi M.;
+RT   "EPLIN mediates linkage of the cadherin catenin complex to F-actin and
+RT   stabilizes the circumferential actin belt.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:13-19(2008).
+RN   [22]
+RP   INTERACTION WITH TCF7L2 AND TNIK.
+RX   PubMed=19816403; DOI=10.1038/emboj.2009.285;
+RA   Mahmoudi T., Li V.S.W., Ng S.S., Taouatas N., Vries R.G.J., Mohammed S.,
+RA   Heck A.J., Clevers H.;
+RT   "The kinase TNIK is an essential activator of Wnt target genes.";
+RL   EMBO J. 28:3329-3340(2009).
+RN   [23]
+RP   INTERACTION WITH SCRIB.
+RX   PubMed=19458197; DOI=10.1091/mbc.e08-12-1172;
+RA   Sun Y., Aiga M., Yoshida E., Humbert P.O., Bamji S.X.;
+RT   "Scribble interacts with beta-catenin to localize synaptic vesicles to
+RT   synapses.";
+RL   Mol. Biol. Cell 20:3390-3400(2009).
+RN   [24]
+RP   PHOSPHORYLATION AT SER-33 AND SER-37 BY HIPK2, AND MUTAGENESIS OF SER-33
+RP   AND SER-37.
+RX   PubMed=20307497; DOI=10.1016/j.bbrc.2010.03.099;
+RA   Kim E.-A., Kim J.E., Sung K.S., Choi D.W., Lee B.J., Choi C.Y.;
+RT   "Homeodomain-interacting protein kinase 2 (HIPK2) targets beta-catenin for
+RT   phosphorylation and proteasomal degradation.";
+RL   Biochem. Biophys. Res. Commun. 394:966-971(2010).
+RN   [25]
+RP   PHOSPHORYLATION AT SER-552, AND MUTAGENESIS OF SER-552.
+RX   PubMed=20361929; DOI=10.1016/j.bbrc.2010.03.161;
+RA   Zhao J., Yue W., Zhu M.J., Sreejayan N., Du M.;
+RT   "AMP-activated protein kinase (AMPK) cross-talks with canonical Wnt
+RT   signaling via phosphorylation of beta-catenin at Ser 552.";
+RL   Biochem. Biophys. Res. Commun. 395:146-151(2010).
+RN   [26]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-45; SER-191 AND SER-675, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, Brown adipose tissue, Heart, Kidney, Liver, Lung,
+RC   Pancreas, Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [27]
+RP   INTERACTION WITH TRPV4 AND CDH1.
+RX   PubMed=20413591; DOI=10.1074/jbc.m110.103606;
+RA   Sokabe T., Fukumi-Tominaga T., Yonemura S., Mizuno A., Tominaga M.;
+RT   "The TRPV4 channel contributes to intercellular junction formation in
+RT   keratinocytes.";
+RL   J. Biol. Chem. 285:18749-18758(2010).
+RN   [28]
+RP   INTERACTION WITH VCL, AND MUTAGENESIS OF MET-8.
+RX   PubMed=20086044; DOI=10.1242/jcs.056432;
+RA   Peng X., Cuff L.E., Lawton C.D., DeMali K.A.;
+RT   "Vinculin regulates cell-surface E-cadherin expression by binding to beta-
+RT   catenin.";
+RL   J. Cell Sci. 123:567-577(2010).
+RN   [29]
+RP   REVIEW.
+RX   PubMed=10679188; DOI=10.1006/bbrc.1999.1860;
+RA   Kikuchi A.;
+RT   "Regulation of beta-catenin signaling in the Wnt pathway.";
+RL   Biochem. Biophys. Res. Commun. 268:243-248(2000).
+RN   [30]
+RP   S-NITROSYLATION AT CYS-619, AND SUBCELLULAR LOCATION.
+RX   PubMed=20705246; DOI=10.1016/j.molcel.2010.07.013;
+RA   Thibeault S., Rautureau Y., Oubaha M., Faubert D., Wilkes B.C., Delisle C.,
+RA   Gratton J.P.;
+RT   "S-nitrosylation of beta-catenin by eNOS-derived NO promotes VEGF-induced
+RT   endothelial cell permeability.";
+RL   Mol. Cell 39:468-476(2010).
+RN   [31]
+RP   FUNCTION, DISRUPTION PHENOTYPE, AND CONDITIONAL KNOCKOUT.
+RX   PubMed=21325504; DOI=10.1523/jneurosci.4243-10.2011;
+RA   Armstrong A., Ryu Y.K., Chieco D., Kuruvilla R.;
+RT   "Frizzled3 is required for neurogenesis and target innervation during
+RT   sympathetic nervous system development.";
+RL   J. Neurosci. 31:2371-2381(2011).
+RN   [32]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=21623382; DOI=10.1038/nm.2380;
+RA   Lancaster M.A., Gopal D.J., Kim J., Saleem S.N., Silhavy J.L., Louie C.M.,
+RA   Thacker B.E., Williams Y., Zaki M.S., Gleeson J.G.;
+RT   "Defective Wnt-dependent cerebellar midline fusion in a mouse model of
+RT   Joubert syndrome.";
+RL   Nat. Med. 17:726-731(2011).
+RN   [33]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=22510880; DOI=10.1038/emboj.2012.91;
+RA   Wilson C.H., Crombie C., van der Weyden L., Poulogiannis G., Rust A.G.,
+RA   Pardo M., Gracia T., Yu L., Choudhary J., Poulin G.B., McIntyre R.E.,
+RA   Winton D.J., March H.N., Arends M.J., Fraser A.G., Adams D.J.;
+RT   "Nuclear receptor binding protein 1 regulates intestinal progenitor cell
+RT   homeostasis and tumour formation.";
+RL   EMBO J. 31:2486-2497(2012).
+RN   [34]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH DLG5.
+RX   PubMed=25232112; DOI=10.1523/jneurosci.1280-14.2014;
+RA   Wang S.H., Celic I., Choi S.Y., Riccomagno M., Wang Q., Sun L.O.,
+RA   Mitchell S.P., Vasioukhin V., Huganir R.L., Kolodkin A.L.;
+RT   "Dlg5 regulates dendritic spine formation and synaptogenesis by controlling
+RT   subcellular N-cadherin localization.";
+RL   J. Neurosci. 34:12745-12761(2014).
+RN   [35]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=25979161; DOI=10.1016/j.bone.2015.05.009;
+RA   Jeong B.C., Kim T.S., Kim H.S., Lee S.H., Choi Y.;
+RT   "Transmembrane protein 64 reciprocally regulates osteoblast and adipocyte
+RT   differentiation by modulating Wnt/beta-catenin signaling.";
+RL   Bone 78:165-173(2015).
+RN   [36]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=27375112; DOI=10.1016/j.jid.2016.05.124;
+RA   Keil R., Rietscher K., Hatzfeld M.;
+RT   "Antagonistic Regulation of Intercellular Cohesion by Plakophilins 1 and
+RT   3.";
+RL   J. Invest. Dermatol. 136:2022-2029(2016).
+RN   [37]
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RX   PubMed=27015268; DOI=10.1371/journal.pone.0152206;
+RA   Miyazaki K., Yoshizaki K., Arai C., Yamada A., Saito K., Ishikawa M.,
+RA   Xue H., Funada K., Haruyama N., Yamada Y., Fukumoto S., Takahashi I.;
+RT   "Plakophilin-1, a Novel Wnt Signaling Regulator, Is Critical for Tooth
+RT   Development and Ameloblast Differentiation.";
+RL   PLoS ONE 11:e0152206-e0152206(2016).
+RN   [38]
+RP   FUNCTION, AND DEVELOPMENTAL STAGE.
+RX   PubMed=29148101; DOI=10.1111/eos.12390;
+RA   Feng X.Y., Wu X.S., Wang J.S., Zhang C.M., Wang S.L.;
+RT   "Homeobox protein MSX-1 inhibits expression of bone morphogenetic protein
+RT   2, bone morphogenetic protein 4, and lymphoid enhancer-binding factor 1 via
+RT   Wnt/beta-catenin signaling to prevent differentiation of dental mesenchymal
+RT   cells during the late bell stage.";
+RL   Eur. J. Oral Sci. 126:1-12(2018).
+RN   [39]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=30389919; DOI=10.1038/s41467-018-06941-4;
+RA   Koren E., Yosefzon Y., Ankawa R., Soteriou D., Jacob A., Nevelsky A.,
+RA   Ben-Yosef R., Bar-Sela G., Fuchs Y.;
+RT   "ARTS mediates apoptosis and regeneration of the intestinal stem cell
+RT   niche.";
+RL   Nat. Commun. 9:4582-4582(2018).
+RN   [40]
+RP   INTERACTION WITH LMBR1L AND AMFR.
+RX   PubMed=31073040; DOI=10.1126/science.aau0812;
+RA   Choi J.H., Zhong X., McAlpine W., Liao T.C., Zhang D., Fang B., Russell J.,
+RA   Ludwig S., Nair-Gill E., Zhang Z., Wang K.W., Misawa T., Zhan X., Choi M.,
+RA   Wang T., Li X., Tang M., Sun Q., Yu L., Murray A.R., Moresco E.M.Y.,
+RA   Beutler B.;
+RT   "LMBR1L regulates lymphopoiesis through Wnt/beta-catenin signaling.";
+RL   Science 364:0-0(2019).
+RN   [41]
+RP   INTERACTION WITH ADNP.
+RX   PubMed=32533114; DOI=10.1038/s41467-020-16799-0;
+RA   Sun X., Peng X., Cao Y., Zhou Y., Sun Y.;
+RT   "ADNP promotes neural differentiation by modulating Wnt/beta-catenin
+RT   signaling.";
+RL   Nat. Commun. 11:2984-2984(2020).
+RN   [42]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 150-665.
+RX   PubMed=9298899; DOI=10.1016/s0092-8674(00)80352-9;
+RA   Huber A.H., Nelson W.J., Weis W.I.;
+RT   "Three-dimensional structure of the armadillo repeat region of beta-
+RT   catenin.";
+RL   Cell 90:871-882(1997).
+RN   [43]
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF 118-149 IN COMPLEX WITH CTNNA1.
+RX   PubMed=10882138; DOI=10.1016/s1097-2765(00)80447-5;
+RA   Pokutta S., Weis W.I.;
+RT   "Structure of the dimerization and beta-catenin-binding region of alpha-
+RT   catenin.";
+RL   Mol. Cell 5:533-543(2000).
+RN   [44]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 AND 3.0 ANGSTROMS) OF 134-671 IN COMPLEX WITH
+RP   PHOSPHORYLATED AND UNPHOSPHORYLATED CDH1.
+RX   PubMed=11348595; DOI=10.1016/s0092-8674(01)00330-0;
+RA   Huber A.H., Weis W.I.;
+RT   "The structure of the beta-catenin/E-cadherin complex and the molecular
+RT   basis of diverse ligand recognition by beta-catenin.";
+RL   Cell 105:391-402(2001).
+RN   [45]
+RP   X-RAY CRYSTALLOGRAPHY (3.1 ANGSTROMS) OF 134-671 IN COMPLEX WITH APC.
+RX   PubMed=11707392; DOI=10.1093/emboj/20.22.6203;
+RA   Eklof Spink K., Fridman S.G., Weis W.I.;
+RT   "Molecular mechanisms of beta-catenin recognition by adenomatous polyposis
+RT   coli revealed by the structure of an APC-beta-catenin complex.";
+RL   EMBO J. 20:6203-6212(2001).
+RN   [46]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 134-671 IN COMPLEX WITH CTNNBIP1,
+RP   AND INTERACTION WITH EP300.
+RX   PubMed=12408825; DOI=10.1016/s1097-2765(02)00631-7;
+RA   Daniels D.L., Weis W.I.;
+RT   "ICAT inhibits beta-catenin binding to Tcf/Lef-family transcription factors
+RT   and the general coactivator p300 using independent structural modules.";
+RL   Mol. Cell 10:573-584(2002).
+CC   -!- FUNCTION: Key downstream component of the canonical Wnt signaling
+CC       pathway (PubMed:15132997). In the absence of Wnt, forms a complex with
+CC       AXIN1, AXIN2, APC, CSNK1A1 and GSK3B that promotes phosphorylation on
+CC       N-terminal Ser and Thr residues and ubiquitination of CTNNB1 via BTRC
+CC       and its subsequent degradation by the proteasome. In the presence of
+CC       Wnt ligand, CTNNB1 is not ubiquitinated and accumulates in the nucleus,
+CC       where it acts as a coactivator for transcription factors of the TCF/LEF
+CC       family, leading to activate Wnt responsive genes (By similarity). Also
+CC       acts as a coactivator for other transcription factors, such as NR5A2
+CC       (By similarity). Promotes epithelial to mesenchymal
+CC       transition/mesenchymal to epithelial transition (EMT/MET) via driving
+CC       transcription of CTNNB1/TCF-target genes (By similarity). Involved in
+CC       the regulation of cell adhesion, as component of an E-cadherin:catenin
+CC       adhesion complex (PubMed:16325582, PubMed:18093941). Acts as a negative
+CC       regulator of centrosome cohesion. Involved in the
+CC       CDK2/PTPN6/CTNNB1/CEACAM1 pathway of insulin internalization. Blocks
+CC       anoikis of malignant kidney and intestinal epithelial cells and
+CC       promotes their anchorage-independent growth by down-regulating DAPK2.
+CC       Disrupts PML function and PML-NB formation by inhibiting RANBP2-
+CC       mediated sumoylation of PML (By similarity). Promotes neurogenesis by
+CC       maintaining sympathetic neuroblasts within the cell cycle
+CC       (PubMed:21325504). Involved in chondrocyte differentiation via
+CC       interaction with SOX9: SOX9-binding competes with the binding sites of
+CC       TCF/LEF within CTNNB1, thereby inhibiting the Wnt signaling
+CC       (PubMed:15132997). Acts as a positive regulator of odontoblast
+CC       differentiation during mesenchymal tooth germ formation, via promoting
+CC       the transcription of differentiation factors such as LEF1, BMP2 and
+CC       BMP4 (PubMed:29148101). Activity is repressed in a MSX1-mediated manner
+CC       at the bell stage of mesenchymal tooth germ formation which prevents
+CC       premature differentiation of odontoblasts (PubMed:29148101).
+CC       {ECO:0000250|UniProtKB:P35222, ECO:0000269|PubMed:15132997,
+CC       ECO:0000269|PubMed:16325582, ECO:0000269|PubMed:18093941,
+CC       ECO:0000269|PubMed:21325504, ECO:0000269|PubMed:29148101}.
+CC   -!- SUBUNIT: Two separate complex-associated pools are found in the
+CC       cytoplasm. The majority is present as component of an E-cadherin/
+CC       catenin adhesion complex composed of at least E-cadherin/CDH1 and beta-
+CC       catenin/CTNNB1, and possibly alpha-catenin/CTNNA1; the complex is
+CC       located to adherens junctions. The stable association of CTNNA1 is
+CC       controversial as CTNNA1 was shown not to bind to F-actin when assembled
+CC       in the complex. Alternatively, the CTNNA1-containing complex may be
+CC       linked to F-actin by other proteins such as LIMA1. Binds NHERF1.
+CC       Interacts with PTPRU (via the cytoplasmic juxtamembrane domain) and
+CC       with EMD. Interacts with SESTD1 and TRPC4. Interacts with CAV1.
+CC       Interacts with PTPRJ. Interacts with PKT7. Interacts with FAT1 (via the
+CC       cytoplasmic domain). Interacts with CDK2, NDRG2 and NANOS1. Interacts
+CC       with NEK2 and CDK5. Interacts with CARM1, CXADR, PCDH11Y and PTK6.
+CC       Interacts with RAPGEF2. Interacts with SOX7; this interaction may lead
+CC       to proteasomal degradation of active CTNNB1 and thus inhibition of
+CC       Wnt/beta-catenin-stimulated transcription. Identified in a complex with
+CC       HINT1 and MITF. Interacts with FHIT. Interacts with FERMT2. Identified
+CC       in a complex with TCF4 and FERMT2. Another cytoplasmic pool is part of
+CC       a large complex containing AXIN1, AXIN2, APC, CSNK1A1 and GSK3B that
+CC       promotes phosphorylation on N-terminal Ser and Thr residues and
+CC       ubiquitination of CTNNB1 via BTRC and its subsequent degradation by the
+CC       proteasome. Wnt-dependent activation of DVL antagonizes the action of
+CC       GSK3B. When GSK3B activity is inhibited the complex dissociates, CTNNB1
+CC       is dephosphorylated and is no longer targeted for destruction. The
+CC       stabilized protein translocates to the nucleus, where it binds TCF/LEF-
+CC       1 family members, BCL9, BCL9L and possibly also RUVBL1 and CHD8.
+CC       Interacts with TAX1BP3 (via the PDZ domain); this interaction inhibits
+CC       the transcriptional activity of CTNNB1. Interacts with AJAP1, BAIAP1
+CC       and CTNNA3. Interacts with TRPV4; the TRPV4 and CTNNB1 complex can
+CC       interact with CDH1. Interacts with VCL. The CTNNB1 and TCF4 complex
+CC       interacts with PML. Interacts with XIRP1. Binds CTNNBIP and EP300.
+CC       CTNNB1 forms a ternary complex with LEF1 and EP300 that is disrupted by
+CC       CTNNBIP1 binding. Interacts directly with AXIN1; the interaction is
+CC       regulated by CDK2 phosphorylation of AXIN1. Interacts with GLIS2.
+CC       Interacts with SCRIB. Interacts with TNIK and TCF7L2. Interacts with
+CC       SLC30A9. Interacts with RORA. May interact with P-cadherin/CDH3.
+CC       Interacts with RNF220 (By similarity). Interacts with CTNND2 (By
+CC       similarity). Interacts (via the C-terminal region) with CBY1 (By
+CC       similarity). The complex composed, at least, of APC, CTNNB1 and GSK3B
+CC       interacts with JPT1; the interaction requires the inactive form of
+CC       GSK3B (phosphorylated at 'Ser-9') (By similarity). Interacts with DLG5
+CC       (PubMed:25232112). Interacts with FAM53B; promoting translocation to
+CC       the nucleus. Interacts with TMEM170B (By similarity). Interacts with
+CC       AHI1 (By similarity). Interacts with GID8 (By similarity). Component of
+CC       an cadherin:catenin adhesion complex composed of at least of CDH26,
+CC       beta-catenin/CTNNB1, alpha-catenin/CTNNA1 and p120 catenin/CTNND1 (By
+CC       similarity). Forms a complex comprising APPL1, RUVBL2, APPL2, HDAC1 and
+CC       HDAC2 (By similarity). Interacts with IRF2BPL; mediates the
+CC       ubiquitination and degradation of CTNNB1 (By similarity). Interacts
+CC       with AMFR (PubMed:31073040). Interacts with LMBR1L (PubMed:31073040).
+CC       Interacts with SOX30; prevents interaction of CTNNB1 with TCF7L2/TCF4
+CC       and leads to inhibition of Wnt signaling (By similarity). Interacts
+CC       with SOX9; inhibiting CTNNB1 activity by competing with the binding
+CC       sites of TCF/LEF within CTNNB1, thereby inhibiting the Wnt signaling
+CC       (PubMed:15132997). Interacts with SPN/CD43 cytoplasmic tail (By
+CC       similarity). Interacts (when phosphorylated at Tyr-333) with isoform M2
+CC       of PKM (PKM2); promoting transcription activation (By similarity).
+CC       Interacts with PKP2 (via HEAD domain) (By similarity). Interacts with
+CC       CDH1 (By similarity). Interacts (when unphosphorylated) with FLYWCH1,
+CC       perhaps preventing interaction of CTNNB1 with TCF4, and thereby
+CC       regulating transcription activation; phosphorylation of CTNNB1 may
+CC       inhibit the interaction (By similarity). Interacts (via the central
+CC       armadillo domains) with probable transcriptional regulator ADNP (via N-
+CC       terminal region); interaction is direct and stabilizes CTNNB1 by
+CC       modulating its phosphorylation by glycogen synthase kinase-3 beta GSK3B
+CC       (PubMed:32533114). Interacts with NR5A2 (By similarity). Interacts with
+CC       DSG2; the interaction promotes localization of CTNNB1 at cell junctions
+CC       thus reducing its nuclear localization and subsequent transcription of
+CC       CTNNB1/TCF-target genes (By similarity). {ECO:0000250|UniProtKB:P35222,
+CC       ECO:0000269|PubMed:10581160, ECO:0000269|PubMed:10772923,
+CC       ECO:0000269|PubMed:10882138, ECO:0000269|PubMed:11348595,
+CC       ECO:0000269|PubMed:11590244, ECO:0000269|PubMed:11707392,
+CC       ECO:0000269|PubMed:12408825, ECO:0000269|PubMed:12874278,
+CC       ECO:0000269|PubMed:14687547, ECO:0000269|PubMed:15063782,
+CC       ECO:0000269|PubMed:15132997, ECO:0000269|PubMed:17052462,
+CC       ECO:0000269|PubMed:17289029, ECO:0000269|PubMed:17344318,
+CC       ECO:0000269|PubMed:17925400, ECO:0000269|PubMed:19458197,
+CC       ECO:0000269|PubMed:19816403, ECO:0000269|PubMed:20086044,
+CC       ECO:0000269|PubMed:20413591, ECO:0000269|PubMed:25232112,
+CC       ECO:0000269|PubMed:31073040, ECO:0000269|PubMed:32533114,
+CC       ECO:0000269|PubMed:7982500, ECO:0000269|PubMed:9783587}.
+CC   -!- INTERACTION:
+CC       Q02248; P09803: Cdh1; NbExp=17; IntAct=EBI-397872, EBI-984420;
+CC       Q02248; P45481: Crebbp; NbExp=3; IntAct=EBI-397872, EBI-296306;
+CC       Q02248; P26231: Ctnna1; NbExp=2; IntAct=EBI-397872, EBI-647895;
+CC       Q02248; Q9WV60: Gsk3b; NbExp=2; IntAct=EBI-397872, EBI-400793;
+CC       Q02248; P42859: Htt; NbExp=3; IntAct=EBI-397872, EBI-5327353;
+CC       Q02248; P27782: Lef1; NbExp=6; IntAct=EBI-397872, EBI-984464;
+CC       Q02248; O54826: Mllt10; NbExp=2; IntAct=EBI-397872, EBI-8459555;
+CC       Q02248; P97458: Prop1; NbExp=2; IntAct=EBI-397872, EBI-937831;
+CC       Q02248; Q04207: Rela; NbExp=5; IntAct=EBI-397872, EBI-644400;
+CC       Q02248; P40645: Sox6; NbExp=2; IntAct=EBI-397872, EBI-3505685;
+CC       Q02248; Q9DBG9: Tax1bp3; NbExp=6; IntAct=EBI-397872, EBI-1161647;
+CC       Q02248; P25054: APC; Xeno; NbExp=8; IntAct=EBI-397872, EBI-727707;
+CC       Q02248; O15169: AXIN1; Xeno; NbExp=5; IntAct=EBI-397872, EBI-710484;
+CC       Q02248; Q9NSA3: CTNNBIP1; Xeno; NbExp=7; IntAct=EBI-397872, EBI-747082;
+CC       Q02248; P49841: GSK3B; Xeno; NbExp=3; IntAct=EBI-397872, EBI-373586;
+CC       Q02248; F1MSG6: RAPGEF2; Xeno; NbExp=2; IntAct=EBI-397872, EBI-6927068;
+CC       Q02248; O15047: SETD1A; Xeno; NbExp=2; IntAct=EBI-397872, EBI-540779;
+CC       Q02248; P33148; Xeno; NbExp=4; IntAct=EBI-397872, EBI-15603953;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:27015268,
+CC       ECO:0000269|PubMed:27375112, ECO:0000269|PubMed:30389919}. Nucleus
+CC       {ECO:0000269|PubMed:27015268, ECO:0000269|PubMed:30389919}. Cytoplasm,
+CC       cytoskeleton. Cell junction, adherens junction
+CC       {ECO:0000269|PubMed:20705246, ECO:0000269|PubMed:27375112}. Cell
+CC       junction {ECO:0000269|PubMed:12494996}. Cell membrane
+CC       {ECO:0000269|PubMed:27015268}. Cytoplasm, cytoskeleton, microtubule
+CC       organizing center, centrosome {ECO:0000250|UniProtKB:P35222}.
+CC       Cytoplasm, cytoskeleton, spindle pole {ECO:0000250|UniProtKB:P35222}.
+CC       Synapse {ECO:0000269|PubMed:20705246}. Cytoplasm, cytoskeleton, cilium
+CC       basal body {ECO:0000269|PubMed:21623382}. Note=Colocalized with RAPGEF2
+CC       and TJP1 at cell-cell contacts (By similarity). Cytoplasmic when it is
+CC       un-stable (highly phosphorylated) or bound to CDH1. Translocates to the
+CC       nucleus when it is stabilized (low level of phosphorylation).
+CC       Interaction with GLIS2 and MUC1 promotes nuclear translocation.
+CC       Interaction with EMD inhibits nuclear localization. The majority of
+CC       CTNNB1 is localized to the cell membrane. In interphase, colocalizes
+CC       with CROCC between CEP250 puncta at the proximal end of centrioles, and
+CC       this localization is dependent on CROCC and CEP250. In mitosis, when
+CC       NEK2 activity increases, it localizes to centrosomes at spindle poles
+CC       independent of CROCC. Colocalizes with CDK5 in the cell-cell contacts
+CC       and plasma membrane of undifferentiated and differentiated
+CC       neuroblastoma cells. Interaction with FAM53B promotes translocation to
+CC       the nucleus (By similarity). Translocates to the nucleus in the
+CC       presence of SNAIL1 (By similarity). Ca(2+)-mediated localization to the
+CC       cell membrane in dental epithelial cells is inhibited via WNT3A
+CC       (PubMed:27015268). Localizes to cell-cell contacts as keratinocyte
+CC       differentiation progresses (PubMed:27375112).
+CC       {ECO:0000250|UniProtKB:B6V8E6, ECO:0000250|UniProtKB:P35222,
+CC       ECO:0000269|PubMed:27015268, ECO:0000269|PubMed:27375112}.
+CC   -!- TISSUE SPECIFICITY: Expressed in cerebellar granule neurons (at protein
+CC       level) (PubMed:21623382). Expressed in the intestinal epithelium (at
+CC       protein level) (PubMed:22510880). Abundantly expressed in the tooth,
+CC       skin, lung, kidney, eye and brain with weak expression in the liver and
+CC       heart (PubMed:27015268). {ECO:0000269|PubMed:21623382,
+CC       ECO:0000269|PubMed:22510880, ECO:0000269|PubMed:27015268}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed at 11 dpc in teeth, expression broadly
+CC       increases until birth (PubMed:27015268). After birth expression
+CC       decreases until 1 week of age (PubMed:27015268). Expressed in
+CC       epithelial cells of the tooth germ at 13 dpc (at protein level).
+CC       Expressed in the dental epithelium and stellate reticulum at 16 dpc (at
+CC       protein level) (PubMed:27015268). Expressed in bell stage dental
+CC       mesenchymal cells at 17.5 dpc (at protein level) (PubMed:29148101).
+CC       Expressed in both the dental epithelium and dental papilla at birth (at
+CC       protein level) (PubMed:27015268). {ECO:0000269|PubMed:27015268,
+CC       ECO:0000269|PubMed:29148101}.
+CC   -!- PTM: Phosphorylation at Ser-552 by AMPK promotes stabilization of the
+CC       protein, enhancing TCF/LEF-mediated transcription (PubMed:20361929).
+CC       Phosphorylation by GSK3B requires prior phosphorylation of Ser-45 by
+CC       another kinase (By similarity). Phosphorylation proceeds then from Thr-
+CC       41 to Ser-37 and Ser-33 (By similarity). Phosphorylated by NEK2 (By
+CC       similarity). EGF stimulates tyrosine phosphorylation (By similarity).
+CC       Phosphorylated on Ser-33 and Ser-37 by HIPK2 and GSK3B, this
+CC       phosphorylation triggers proteasomal degradation (PubMed:20307497).
+CC       Phosphorylation on Ser-191 and Ser-246 by CDK5 (By similarity).
+CC       Phosphorylation by CDK2 regulates insulin internalization (By
+CC       similarity). Phosphorylation by PTK6 at Tyr-64, Tyr-142, Tyr-331 and/or
+CC       Tyr-333 with the predominant site at Tyr-64 is not essential for
+CC       inhibition of transcriptional activity (By similarity). Phosphorylation
+CC       by SRC at Tyr-333 promotes interaction with isoform M2 of PKM (PKM2);
+CC       promoting transcription activation (By similarity).
+CC       {ECO:0000250|UniProtKB:P35222, ECO:0000269|PubMed:20307497,
+CC       ECO:0000269|PubMed:20361929}.
+CC   -!- PTM: Ubiquitinated by the SCF(BTRC) E3 ligase complex when
+CC       phosphorylated by GSK3B, leading to its degradation (By similarity).
+CC       Ubiquitinated by a E3 ubiquitin ligase complex containing UBE2D1,
+CC       SIAH1, CACYBP/SIP, SKP1, APC and TBL1X, leading to its subsequent
+CC       proteasomal degradation (By similarity). Ubiquitinated and degraded
+CC       following interaction with SOX9 (PubMed:15132997). Ubiquitinated via
+CC       'Lys-11'- and 'Lys-29'-linked ubiquitin chains by UBR5, leading to its
+CC       stabilization (By similarity). {ECO:0000250|UniProtKB:P35222,
+CC       ECO:0000305|PubMed:15132997}.
+CC   -!- PTM: S-nitrosylation at Cys-619 within adherens junctions promotes
+CC       VEGF-induced, NO-dependent endothelial cell permeability by disrupting
+CC       interaction with E-cadherin, thus mediating disassembly adherens
+CC       junctions. {ECO:0000269|PubMed:20705246}.
+CC   -!- PTM: O-glycosylation at Ser-23 decreases nuclear localization and
+CC       transcriptional activity, and increases localization to the plasma
+CC       membrane and interaction with E-cadherin CDH1.
+CC       {ECO:0000250|UniProtKB:Q96S06}.
+CC   -!- PTM: Deacetylated at Lys-49 by SIRT1. {ECO:0000250|UniProtKB:P35222}.
+CC   -!- DISRUPTION PHENOTYPE: Sympathetic ganglia-specific conditional knockout
+CC       mice lead to a reduction in sympathetic ganglia size and in progenitor
+CC       cell number, but does not alter sympathetic innervation of peripheral
+CC       target organs. {ECO:0000269|PubMed:21325504}.
+CC   -!- SIMILARITY: Belongs to the beta-catenin family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH06739.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M90364; AAA37280.1; -; mRNA.
+DR   EMBL; AK035311; BAC29027.1; -; mRNA.
+DR   EMBL; AK018515; BAB31250.1; -; mRNA.
+DR   EMBL; BC006739; AAH06739.1; ALT_INIT; mRNA.
+DR   EMBL; BC048153; AAH48153.1; -; mRNA.
+DR   EMBL; BC053065; AAH53065.1; -; mRNA.
+DR   CCDS; CCDS23630.1; -.
+DR   PIR; S35091; S35091.
+DR   RefSeq; NP_001159374.1; NM_001165902.2.
+DR   RefSeq; NP_001418600.1; NM_001431671.1.
+DR   RefSeq; NP_001418601.1; NM_001431672.1.
+DR   RefSeq; NP_001418602.1; NM_001431673.1.
+DR   RefSeq; NP_031640.1; NM_007614.4.
+DR   PDB; 1DOW; X-ray; 1.80 A; B=118-149.
+DR   PDB; 1I7W; X-ray; 2.00 A; A/C=134-671.
+DR   PDB; 1I7X; X-ray; 3.00 A; A/C=134-671.
+DR   PDB; 1JPP; X-ray; 3.10 A; A/B=134-671.
+DR   PDB; 1M1E; X-ray; 2.10 A; A=134-671.
+DR   PDB; 1V18; X-ray; 2.10 A; A=134-671.
+DR   PDB; 2BCT; X-ray; 2.90 A; A=150-665.
+DR   PDB; 3BCT; X-ray; 2.10 A; A=193-661.
+DR   PDB; 3OUW; X-ray; 2.91 A; A=134-671.
+DR   PDB; 3OUX; X-ray; 2.40 A; A=134-671.
+DR   PDB; 4EV8; X-ray; 1.90 A; A=134-671.
+DR   PDB; 4EV9; X-ray; 2.10 A; A=134-671.
+DR   PDB; 4EVA; X-ray; 2.00 A; A/C=134-671.
+DR   PDB; 4EVP; X-ray; 2.26 A; A=134-671.
+DR   PDB; 4EVT; X-ray; 2.34 A; A=134-671.
+DR   PDB; 4ONS; X-ray; 2.80 A; B/D=78-151.
+DR   PDBsum; 1DOW; -.
+DR   PDBsum; 1I7W; -.
+DR   PDBsum; 1I7X; -.
+DR   PDBsum; 1JPP; -.
+DR   PDBsum; 1M1E; -.
+DR   PDBsum; 1V18; -.
+DR   PDBsum; 2BCT; -.
+DR   PDBsum; 3BCT; -.
+DR   PDBsum; 3OUW; -.
+DR   PDBsum; 3OUX; -.
+DR   PDBsum; 4EV8; -.
+DR   PDBsum; 4EV9; -.
+DR   PDBsum; 4EVA; -.
+DR   PDBsum; 4EVP; -.
+DR   PDBsum; 4EVT; -.
+DR   PDBsum; 4ONS; -.
+DR   AlphaFoldDB; Q02248; -.
+DR   SMR; Q02248; -.
+DR   BioGRID; 198512; 131.
+DR   ComplexPortal; CPX-318; beta1-catenin - LEF1 complex.
+DR   ComplexPortal; CPX-86; Beta-catenin-ICAT complex.
+DR   CORUM; Q02248; -.
+DR   DIP; DIP-31560N; -.
+DR   FunCoup; Q02248; 2755.
+DR   IntAct; Q02248; 79.
+DR   MINT; Q02248; -.
+DR   STRING; 10090.ENSMUSP00000007130; -.
+DR   BindingDB; Q02248; -.
+DR   ChEMBL; CHEMBL4105846; -.
+DR   TCDB; 8.A.160.2.1; the catenin (catenin) family.
+DR   GlyCosmos; Q02248; 1 site, No reported glycans.
+DR   GlyGen; Q02248; 5 sites, 2 N-linked glycans (2 sites), 1 O-linked glycan (3 sites).
+DR   iPTMnet; Q02248; -.
+DR   MetOSite; Q02248; -.
+DR   PhosphoSitePlus; Q02248; -.
+DR   SwissPalm; Q02248; -.
+DR   jPOST; Q02248; -.
+DR   PaxDb; 10090-ENSMUSP00000007130; -.
+DR   PeptideAtlas; Q02248; -.
+DR   ProteomicsDB; 285221; -.
+DR   Pumba; Q02248; -.
+DR   Antibodypedia; 3432; 5149 antibodies from 58 providers.
+DR   DNASU; 12387; -.
+DR   Ensembl; ENSMUST00000007130.15; ENSMUSP00000007130.9; ENSMUSG00000006932.18.
+DR   Ensembl; ENSMUST00000178812.9; ENSMUSP00000136294.2; ENSMUSG00000006932.18.
+DR   GeneID; 12387; -.
+DR   KEGG; mmu:12387; -.
+DR   UCSC; uc009scu.2; mouse.
+DR   AGR; MGI:88276; -.
+DR   CTD; 1499; -.
+DR   MGI; MGI:88276; Ctnnb1.
+DR   VEuPathDB; HostDB:ENSMUSG00000006932; -.
+DR   eggNOG; KOG4203; Eukaryota.
+DR   GeneTree; ENSGT00940000155471; -.
+DR   HOGENOM; CLU_008757_1_1_1; -.
+DR   InParanoid; Q02248; -.
+DR   OMA; YPKLVYT; -.
+DR   OrthoDB; 195736at2759; -.
+DR   PhylomeDB; Q02248; -.
+DR   TreeFam; TF317997; -.
+DR   Reactome; R-MMU-195253; Degradation of beta-catenin by the destruction complex.
+DR   Reactome; R-MMU-196299; Beta-catenin phosphorylation cascade.
+DR   Reactome; R-MMU-201681; TCF dependent signaling in response to WNT.
+DR   Reactome; R-MMU-201722; Formation of the beta-catenin:TCF transactivating complex.
+DR   Reactome; R-MMU-3134973; LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production.
+DR   Reactome; R-MMU-351906; Apoptotic cleavage of cell adhesion proteins.
+DR   Reactome; R-MMU-3769402; Deactivation of the beta-catenin transactivating complex.
+DR   Reactome; R-MMU-4086398; Ca2+ pathway.
+DR   Reactome; R-MMU-418990; Adherens junctions interactions.
+DR   Reactome; R-MMU-4641262; Disassembly of the destruction complex and recruitment of AXIN to the membrane.
+DR   Reactome; R-MMU-5218920; VEGFR2 mediated vascular permeability.
+DR   Reactome; R-MMU-525793; Myogenesis.
+DR   Reactome; R-MMU-5626467; RHO GTPases activate IQGAPs.
+DR   Reactome; R-MMU-8951430; RUNX3 regulates WNT signaling.
+DR   Reactome; R-MMU-9762292; Regulation of CDH11 function.
+DR   Reactome; R-MMU-9825892; Regulation of MITF-M-dependent genes involved in cell cycle and proliferation.
+DR   BioGRID-ORCS; 12387; 5 hits in 83 CRISPR screens.
+DR   CD-CODE; 01CA17F3; Centrosome.
+DR   CD-CODE; CE726F99; Postsynaptic density.
+DR   ChiTaRS; Ctnnb1; mouse.
+DR   EvolutionaryTrace; Q02248; -.
+DR   PRO; PR:Q02248; -.
+DR   Proteomes; UP000000589; Chromosome 9.
+DR   RNAct; Q02248; protein.
+DR   Bgee; ENSMUSG00000006932; Expressed in primitive streak and 308 other cell types or tissues.
+DR   ExpressionAtlas; Q02248; baseline and differential.
+DR   GO; GO:0005912; C:adherens junction; IDA:UniProtKB.
+DR   GO; GO:0043296; C:apical junction complex; IDA:MGI.
+DR   GO; GO:0045177; C:apical part of cell; IDA:MGI.
+DR   GO; GO:0016327; C:apicolateral plasma membrane; IDA:MGI.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:MGI.
+DR   GO; GO:0030877; C:beta-catenin destruction complex; IDA:MGI.
+DR   GO; GO:1990711; C:beta-catenin-ICAT complex; IPI:ComplexPortal.
+DR   GO; GO:1990907; C:beta-catenin-TCF complex; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0070369; C:beta-catenin-TCF7L2 complex; ISS:UniProtKB.
+DR   GO; GO:0005923; C:bicellular tight junction; IDA:MGI.
+DR   GO; GO:0016342; C:catenin complex; IDA:MGI.
+DR   GO; GO:0005938; C:cell cortex; ISS:UniProtKB.
+DR   GO; GO:0030054; C:cell junction; ISS:UniProtKB.
+DR   GO; GO:0071944; C:cell periphery; ISS:UniProtKB.
+DR   GO; GO:0031253; C:cell projection membrane; IDA:MGI.
+DR   GO; GO:0005911; C:cell-cell junction; IDA:BHF-UCL.
+DR   GO; GO:0005813; C:centrosome; IDA:BHF-UCL.
+DR   GO; GO:0036064; C:ciliary basal body; IEA:Ensembl.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0000791; C:euchromatin; IDA:BHF-UCL.
+DR   GO; GO:0005916; C:fascia adherens; IDA:MGI.
+DR   GO; GO:0016600; C:flotillin complex; IDA:UniProtKB.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0014704; C:intercalated disc; IDA:MGI.
+DR   GO; GO:0030027; C:lamellipodium; IDA:MGI.
+DR   GO; GO:0016328; C:lateral plasma membrane; IDA:MGI.
+DR   GO; GO:0016020; C:membrane; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0031528; C:microvillus membrane; IDA:MGI.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0099092; C:postsynaptic density, intracellular component; IDA:SynGO.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:SynGO.
+DR   GO; GO:0098831; C:presynaptic active zone cytoplasmic component; IDA:SynGO.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:SynGO.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:MGI.
+DR   GO; GO:0032993; C:protein-DNA complex; ISS:UniProtKB.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; IPI:ComplexPortal.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; IDA:SynGO.
+DR   GO; GO:0034750; C:Scrib-APC-beta-catenin complex; IDA:BHF-UCL.
+DR   GO; GO:0000922; C:spindle pole; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045202; C:synapse; IDA:UniProtKB.
+DR   GO; GO:0005667; C:transcription regulator complex; IDA:BHF-UCL.
+DR   GO; GO:1990909; C:Wnt signalosome; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0030018; C:Z disc; IDA:MGI.
+DR   GO; GO:0045294; F:alpha-catenin binding; IDA:MGI.
+DR   GO; GO:0045296; F:cadherin binding; IPI:CAFA.
+DR   GO; GO:0003682; F:chromatin binding; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0097718; F:disordered domain specific binding; IPI:CAFA.
+DR   GO; GO:0140297; F:DNA-binding transcription factor binding; IPI:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:1990226; F:histone methyltransferase binding; IPI:BHF-UCL.
+DR   GO; GO:0070411; F:I-SMAD binding; IEA:Ensembl.
+DR   GO; GO:0140677; F:molecular function activator activity; EXP:DisProt.
+DR   GO; GO:0030331; F:nuclear estrogen receptor binding; IEA:Ensembl.
+DR   GO; GO:0016922; F:nuclear receptor binding; IPI:UniProtKB.
+DR   GO; GO:0003676; F:nucleic acid binding; EXP:DisProt.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:UniProtKB.
+DR   GO; GO:0061629; F:RNA polymerase II-specific DNA-binding transcription factor binding; IDA:MGI.
+DR   GO; GO:0005102; F:signaling receptor binding; IEA:Ensembl.
+DR   GO; GO:0003713; F:transcription coactivator activity; IDA:UniProtKB.
+DR   GO; GO:0001221; F:transcription coregulator binding; IPI:BHF-UCL.
+DR   GO; GO:0001222; F:transcription corepressor binding; IEA:Ensembl.
+DR   GO; GO:0044325; F:transmembrane transporter binding; IEA:Ensembl.
+DR   GO; GO:0090425; P:acinar cell differentiation; IMP:MGI.
+DR   GO; GO:0034333; P:adherens junction assembly; ISS:UniProtKB.
+DR   GO; GO:0034332; P:adherens junction organization; IMP:MGI.
+DR   GO; GO:0048513; P:animal organ development; IMP:MGI.
+DR   GO; GO:0009948; P:anterior/posterior axis specification; IMP:MGI.
+DR   GO; GO:0097190; P:apoptotic signaling pathway; IMP:MGI.
+DR   GO; GO:0036520; P:astrocyte-dopaminergic neuron signaling; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0045453; P:bone resorption; IMP:MGI.
+DR   GO; GO:0001569; P:branching involved in blood vessel morphogenesis; IMP:MGI.
+DR   GO; GO:0001658; P:branching involved in ureteric bud morphogenesis; IMP:MGI.
+DR   GO; GO:0060070; P:canonical Wnt signaling pathway; IDA:CAFA.
+DR   GO; GO:0044338; P:canonical Wnt signaling pathway involved in mesenchymal stem cell differentiation; IMP:MGI.
+DR   GO; GO:0060038; P:cardiac muscle cell proliferation; TAS:DFLAT.
+DR   GO; GO:0060947; P:cardiac vascular smooth muscle cell differentiation; TAS:DFLAT.
+DR   GO; GO:0007155; P:cell adhesion; ISS:UniProtKB.
+DR   GO; GO:0030154; P:cell differentiation; IMP:MGI.
+DR   GO; GO:0001708; P:cell fate specification; IMP:MGI.
+DR   GO; GO:0048469; P:cell maturation; IDA:MGI.
+DR   GO; GO:0000902; P:cell morphogenesis; IMP:MGI.
+DR   GO; GO:0008283; P:cell population proliferation; IMP:MGI.
+DR   GO; GO:0098609; P:cell-cell adhesion; IMP:MGI.
+DR   GO; GO:0044331; P:cell-cell adhesion mediated by cadherin; IEA:Ensembl.
+DR   GO; GO:0007160; P:cell-matrix adhesion; IMP:MGI.
+DR   GO; GO:0071363; P:cellular response to growth factor stimulus; ISS:UniProtKB.
+DR   GO; GO:0071681; P:cellular response to indole-3-methanol; ISS:UniProtKB.
+DR   GO; GO:0022009; P:central nervous system vasculogenesis; IMP:MGI.
+DR   GO; GO:0007268; P:chemical synaptic transmission; IMP:MGI.
+DR   GO; GO:0002062; P:chondrocyte differentiation; IMP:MGI.
+DR   GO; GO:0060982; P:coronary artery morphogenesis; TAS:DFLAT.
+DR   GO; GO:0061550; P:cranial ganglion development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:1904888; P:cranial skeletal system development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0006351; P:DNA-templated transcription; IMP:MGI.
+DR   GO; GO:1990791; P:dorsal root ganglion development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0009950; P:dorsal/ventral axis specification; IMP:MGI.
+DR   GO; GO:0009953; P:dorsal/ventral pattern formation; IMP:MGI.
+DR   GO; GO:0007398; P:ectoderm development; IMP:MGI.
+DR   GO; GO:0000578; P:embryonic axis specification; IDA:MGI.
+DR   GO; GO:1990403; P:embryonic brain development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0042733; P:embryonic digit morphogenesis; IMP:MGI.
+DR   GO; GO:0048617; P:embryonic foregut morphogenesis; IMP:MGI.
+DR   GO; GO:0035115; P:embryonic forelimb morphogenesis; IDA:MGI.
+DR   GO; GO:0035050; P:embryonic heart tube development; IMP:MGI.
+DR   GO; GO:0035116; P:embryonic hindlimb morphogenesis; IMP:MGI.
+DR   GO; GO:0048568; P:embryonic organ development; IMP:MGI.
+DR   GO; GO:0036023; P:embryonic skeletal limb joint morphogenesis; IGI:BHF-UCL.
+DR   GO; GO:0001706; P:endoderm formation; IMP:MGI.
+DR   GO; GO:0001711; P:endodermal cell fate commitment; IMP:MGI.
+DR   GO; GO:0061154; P:endothelial tube morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0060983; P:epicardium-derived cardiac vascular smooth muscle cell differentiation; TAS:DFLAT.
+DR   GO; GO:0007173; P:epidermal growth factor receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0030855; P:epithelial cell differentiation; IMP:MGI.
+DR   GO; GO:0060742; P:epithelial cell differentiation involved in prostate gland development; IMP:MGI.
+DR   GO; GO:0060767; P:epithelial cell proliferation involved in prostate gland development; IMP:MGI.
+DR   GO; GO:0060441; P:epithelial tube branching involved in lung morphogenesis; IMP:MGI.
+DR   GO; GO:0060856; P:establishment of blood-brain barrier; IMP:MGI.
+DR   GO; GO:1990963; P:establishment of blood-retinal barrier; IMP:MGI.
+DR   GO; GO:0008543; P:fibroblast growth factor receptor signaling pathway; IMP:MGI.
+DR   GO; GO:0030900; P:forebrain development; IMP:MGI.
+DR   GO; GO:0061198; P:fungiform papilla formation; IMP:MGI.
+DR   GO; GO:0001702; P:gastrulation with mouth forming second; IMP:MGI.
+DR   GO; GO:0010467; P:gene expression; IMP:MGI.
+DR   GO; GO:0035112; P:genitalia morphogenesis; IMP:MGI.
+DR   GO; GO:0007403; P:glial cell fate determination; IDA:MGI.
+DR   GO; GO:0022405; P:hair cycle process; IMP:MGI.
+DR   GO; GO:0031069; P:hair follicle morphogenesis; IMP:MGI.
+DR   GO; GO:0060789; P:hair follicle placode formation; IMP:MGI.
+DR   GO; GO:0007507; P:heart development; IMP:MGI.
+DR   GO; GO:0030097; P:hemopoiesis; IDA:MGI.
+DR   GO; GO:0030902; P:hindbrain development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0021854; P:hypothalamus development; IMP:MGI.
+DR   GO; GO:0001701; P:in utero embryonic development; IMP:MGI.
+DR   GO; GO:0001822; P:kidney development; IMP:MGI.
+DR   GO; GO:0021819; P:layer formation in cerebral cortex; IMP:MGI.
+DR   GO; GO:0002089; P:lens morphogenesis in camera-type eye; IMP:MGI.
+DR   GO; GO:0060173; P:limb development; IMP:MGI.
+DR   GO; GO:0060479; P:lung cell differentiation; IMP:MGI.
+DR   GO; GO:0030324; P:lung development; IMP:MGI.
+DR   GO; GO:0060487; P:lung epithelial cell differentiation; IMP:MGI.
+DR   GO; GO:0060492; P:lung induction; IMP:MGI.
+DR   GO; GO:0060484; P:lung-associated mesenchyme development; IMP:MGI.
+DR   GO; GO:0030539; P:male genitalia development; IMP:MGI.
+DR   GO; GO:0000165; P:MAPK cascade; IGI:MGI.
+DR   GO; GO:0010463; P:mesenchymal cell proliferation; IMP:MGI.
+DR   GO; GO:0060916; P:mesenchymal cell proliferation involved in lung development; IMP:MGI.
+DR   GO; GO:0072497; P:mesenchymal stem cell differentiation; IMP:MGI.
+DR   GO; GO:0060231; P:mesenchymal to epithelial transition; ISS:UniProtKB.
+DR   GO; GO:0060485; P:mesenchyme development; TAS:DFLAT.
+DR   GO; GO:0072132; P:mesenchyme morphogenesis; TAS:DFLAT.
+DR   GO; GO:0003338; P:metanephros morphogenesis; IMP:MGI.
+DR   GO; GO:0030901; P:midbrain development; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:1904948; P:midbrain dopaminergic neuron differentiation; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0016331; P:morphogenesis of embryonic epithelium; IMP:MGI.
+DR   GO; GO:0051450; P:myoblast proliferation; IMP:MGI.
+DR   GO; GO:0016525; P:negative regulation of angiogenesis; IMP:BHF-UCL.
+DR   GO; GO:2001234; P:negative regulation of apoptotic signaling pathway; IMP:MGI.
+DR   GO; GO:0090090; P:negative regulation of canonical Wnt signaling pathway; IDA:ComplexPortal.
+DR   GO; GO:0045596; P:negative regulation of cell differentiation; IMP:MGI.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0032331; P:negative regulation of chondrocyte differentiation; IMP:MGI.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IDA:MGI.
+DR   GO; GO:0010629; P:negative regulation of gene expression; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0003340; P:negative regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis; IDA:MGI.
+DR   GO; GO:0045976; P:negative regulation of mitotic cell cycle, embryonic; IMP:UniProtKB.
+DR   GO; GO:0050768; P:negative regulation of neurogenesis; IMP:UniProtKB.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IGI:MGI.
+DR   GO; GO:0048715; P:negative regulation of oligodendrocyte differentiation; IMP:MGI.
+DR   GO; GO:0045671; P:negative regulation of osteoclast differentiation; IMP:MGI.
+DR   GO; GO:1903377; P:negative regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0033234; P:negative regulation of protein sumoylation; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; IDA:ComplexPortal.
+DR   GO; GO:0072079; P:nephron tubule formation; IMP:MGI.
+DR   GO; GO:0001840; P:neural plate development; IDA:MGI.
+DR   GO; GO:0007405; P:neuroblast proliferation; IGI:MGI.
+DR   GO; GO:0030182; P:neuron differentiation; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0048664; P:neuron fate determination; IMP:MGI.
+DR   GO; GO:0001764; P:neuron migration; IGI:MGI.
+DR   GO; GO:1990138; P:neuron projection extension; ISS:UniProtKB.
+DR   GO; GO:0042475; P:odontogenesis of dentin-containing tooth; IMP:MGI.
+DR   GO; GO:0048709; P:oligodendrocyte differentiation; IMP:MGI.
+DR   GO; GO:0048599; P:oocyte development; IGI:MGI.
+DR   GO; GO:0001649; P:osteoblast differentiation; IMP:MGI.
+DR   GO; GO:0030316; P:osteoclast differentiation; IMP:MGI.
+DR   GO; GO:0003151; P:outflow tract morphogenesis; IMP:BHF-UCL.
+DR   GO; GO:0060066; P:oviduct development; IMP:MGI.
+DR   GO; GO:0031016; P:pancreas development; IMP:MGI.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:1905555; P:positive regulation of blood vessel branching; IEA:Ensembl.
+DR   GO; GO:0061047; P:positive regulation of branching involved in lung morphogenesis; IMP:MGI.
+DR   GO; GO:0045597; P:positive regulation of cell differentiation; NAS:ComplexPortal.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:BHF-UCL.
+DR   GO; GO:2000017; P:positive regulation of determination of dorsal identity; IDA:MGI.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; IDA:UniProtKB.
+DR   GO; GO:0045603; P:positive regulation of endothelial cell differentiation; IMP:MGI.
+DR   GO; GO:0030858; P:positive regulation of epithelial cell differentiation; IMP:MGI.
+DR   GO; GO:0060769; P:positive regulation of epithelial cell proliferation involved in prostate gland development; IMP:MGI.
+DR   GO; GO:0010718; P:positive regulation of epithelial to mesenchymal transition; ISO:MGI.
+DR   GO; GO:0045743; P:positive regulation of fibroblast growth factor receptor signaling pathway; IMP:MGI.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IMP:MGI.
+DR   GO; GO:0010909; P:positive regulation of heparan sulfate proteoglycan biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0034112; P:positive regulation of homotypic cell-cell adhesion; IEA:Ensembl.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; IGI:MGI.
+DR   GO; GO:0002053; P:positive regulation of mesenchymal cell proliferation; IMP:MGI.
+DR   GO; GO:2000288; P:positive regulation of myoblast proliferation; IMP:MGI.
+DR   GO; GO:2000179; P:positive regulation of neural precursor cell proliferation; IMP:UniProtKB.
+DR   GO; GO:0002052; P:positive regulation of neuroblast proliferation; IMP:UniProtKB.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IEA:Ensembl.
+DR   GO; GO:1901331; P:positive regulation of odontoblast differentiation; IMP:UniProtKB.
+DR   GO; GO:0045669; P:positive regulation of osteoblast differentiation; IMP:MGI.
+DR   GO; GO:0048643; P:positive regulation of skeletal muscle tissue development; IMP:CACAO.
+DR   GO; GO:2000648; P:positive regulation of stem cell proliferation; IMP:MGI.
+DR   GO; GO:0032212; P:positive regulation of telomere maintenance via telomerase; IMP:BHF-UCL.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IDA:MGI.
+DR   GO; GO:0032968; P:positive regulation of transcription elongation by RNA polymerase II; IMP:MGI.
+DR   GO; GO:0043161; P:proteasome-mediated ubiquitin-dependent protein catabolic process; IEA:Ensembl.
+DR   GO; GO:0008104; P:protein localization; IMP:MGI.
+DR   GO; GO:0034394; P:protein localization to cell surface; ISS:UniProtKB.
+DR   GO; GO:0000209; P:protein polyubiquitination; IEA:Ensembl.
+DR   GO; GO:0009954; P:proximal/distal pattern formation; IMP:MGI.
+DR   GO; GO:0042981; P:regulation of apoptotic process; IMP:MGI.
+DR   GO; GO:0090279; P:regulation of calcium ion import; ISS:UniProtKB.
+DR   GO; GO:0045595; P:regulation of cell differentiation; IDA:MGI.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; IDA:MGI.
+DR   GO; GO:0030997; P:regulation of centriole-centriole cohesion; ISS:UniProtKB.
+DR   GO; GO:0070602; P:regulation of centromeric sister chromatid cohesion; IMP:BHF-UCL.
+DR   GO; GO:0030856; P:regulation of epithelial cell differentiation; IMP:MGI.
+DR   GO; GO:0010717; P:regulation of epithelial to mesenchymal transition; ISS:UniProtKB.
+DR   GO; GO:0010468; P:regulation of gene expression; IMP:MGI.
+DR   GO; GO:0031641; P:regulation of myelination; IMP:MGI.
+DR   GO; GO:0072182; P:regulation of nephron tubule epithelial cell differentiation; IMP:UniProtKB.
+DR   GO; GO:0050767; P:regulation of neurogenesis; NAS:ComplexPortal.
+DR   GO; GO:0045667; P:regulation of osteoblast differentiation; IMP:MGI.
+DR   GO; GO:0045670; P:regulation of osteoclast differentiation; IMP:MGI.
+DR   GO; GO:2000008; P:regulation of protein localization to cell surface; ISS:UniProtKB.
+DR   GO; GO:0031396; P:regulation of protein ubiquitination; IEA:Ensembl.
+DR   GO; GO:0003266; P:regulation of secondary heart field cardioblast proliferation; IDA:MGI.
+DR   GO; GO:0048660; P:regulation of smooth muscle cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0051963; P:regulation of synapse assembly; IDA:SynGO.
+DR   GO; GO:0042129; P:regulation of T cell proliferation; IMP:MGI.
+DR   GO; GO:0051884; P:regulation of timing of anagen; IDA:CAFA.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IDA:MGI.
+DR   GO; GO:0072053; P:renal inner medulla development; IMP:MGI.
+DR   GO; GO:0072054; P:renal outer medulla development; IMP:MGI.
+DR   GO; GO:0072033; P:renal vesicle formation; IMP:MGI.
+DR   GO; GO:0032355; P:response to estradiol; ISS:UniProtKB.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEA:Ensembl.
+DR   GO; GO:0001501; P:skeletal system development; IMP:MGI.
+DR   GO; GO:0043588; P:skin development; IMP:MGI.
+DR   GO; GO:0051145; P:smooth muscle cell differentiation; IMP:MGI.
+DR   GO; GO:0072089; P:stem cell proliferation; IMP:MGI.
+DR   GO; GO:0061549; P:sympathetic ganglion development; IMP:UniProtKB.
+DR   GO; GO:0050808; P:synapse organization; IMP:MGI.
+DR   GO; GO:0097091; P:synaptic vesicle clustering; IDA:SynGO.
+DR   GO; GO:0048489; P:synaptic vesicle transport; IMP:MGI.
+DR   GO; GO:0030217; P:T cell differentiation; IMP:MGI.
+DR   GO; GO:0033077; P:T cell differentiation in thymus; IMP:MGI.
+DR   GO; GO:0048538; P:thymus development; IMP:MGI.
+DR   GO; GO:0001894; P:tissue homeostasis; IMP:MGI.
+DR   GO; GO:0060440; P:trachea formation; IMP:MGI.
+DR   GO; GO:0060439; P:trachea morphogenesis; IMP:MGI.
+DR   GO; GO:0006366; P:transcription by RNA polymerase II; IDA:MGI.
+DR   GO; GO:0001944; P:vasculature development; IMP:MGI.
+DR   GO; GO:0001570; P:vasculogenesis; IMP:MGI.
+DR   GO; GO:0003223; P:ventricular compact myocardium morphogenesis; TAS:DFLAT.
+DR   CDD; cd21724; CTNNAbd_CTNNB1; 1.
+DR   DisProt; DP00341; -.
+DR   FunFam; 1.25.10.10:FF:000015; Catenin beta-1; 1.
+DR   Gene3D; 1.25.10.10; Leucine-rich Repeat Variant; 1.
+DR   IDEAL; IID50011; -.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR000225; Armadillo.
+DR   InterPro; IPR013284; Beta-catenin.
+DR   PANTHER; PTHR45976; ARMADILLO SEGMENT POLARITY PROTEIN; 1.
+DR   Pfam; PF00514; Arm; 4.
+DR   PRINTS; PR01869; BCATNINFAMLY.
+DR   SMART; SM00185; ARM; 12.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+DR   PROSITE; PS50176; ARM_REPEAT; 9.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Activator; Cell adhesion; Cell junction;
+KW   Cell membrane; Cell projection; Cytoplasm; Cytoskeleton; Glycoprotein;
+KW   Membrane; Neurogenesis; Nucleus; Phosphoprotein; Reference proteome;
+KW   Repeat; S-nitrosylation; Synapse; Transcription; Transcription regulation;
+KW   Ubl conjugation; Wnt signaling pathway.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   CHAIN           2..781
+FT                   /note="Catenin beta-1"
+FT                   /id="PRO_0000064272"
+FT   REPEAT          151..191
+FT                   /note="ARM 1"
+FT   REPEAT          193..234
+FT                   /note="ARM 2"
+FT   REPEAT          235..276
+FT                   /note="ARM 3"
+FT   REPEAT          277..318
+FT                   /note="ARM 4"
+FT   REPEAT          319..360
+FT                   /note="ARM 5"
+FT   REPEAT          361..389
+FT                   /note="ARM 6"
+FT   REPEAT          400..441
+FT                   /note="ARM 7"
+FT   REPEAT          442..484
+FT                   /note="ARM 8"
+FT   REPEAT          489..530
+FT                   /note="ARM 9"
+FT   REPEAT          531..571
+FT                   /note="ARM 10"
+FT   REPEAT          594..636
+FT                   /note="ARM 11"
+FT   REPEAT          637..666
+FT                   /note="ARM 12"
+FT   REGION          2..23
+FT                   /note="Interaction with VCL"
+FT                   /evidence="ECO:0000269|PubMed:20086044"
+FT   REGION          34..57
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          156..178
+FT                   /note="Interaction with BCL9"
+FT                   /evidence="ECO:0000250"
+FT   REGION          720..781
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          772..781
+FT                   /note="Interaction with SCRIB"
+FT                   /evidence="ECO:0000269|PubMed:19458197"
+FT   COMPBIAS        734..745
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         23
+FT                   /note="Phosphoserine; by GSK3-beta; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         29
+FT                   /note="Phosphoserine; by GSK3-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         33
+FT                   /note="Phosphoserine; by GSK3-beta and HIPK2"
+FT                   /evidence="ECO:0000269|PubMed:20307497"
+FT   MOD_RES         37
+FT                   /note="Phosphoserine; by GSK3-beta and HIPK2"
+FT                   /evidence="ECO:0000269|PubMed:20307497"
+FT   MOD_RES         41
+FT                   /note="Phosphothreonine; by GSK3-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         45
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   MOD_RES         49
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         64
+FT                   /note="Phosphotyrosine; by PTK6"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         142
+FT                   /note="Phosphotyrosine; by FYN and PTK6"
+FT                   /evidence="ECO:0000269|PubMed:12640114"
+FT   MOD_RES         191
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17242355,
+FT                   ECO:0007744|PubMed:21183079"
+FT   MOD_RES         246
+FT                   /note="Phosphoserine; by CDK5"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         331
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         333
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         552
+FT                   /note="Phosphoserine; by AMPK"
+FT                   /evidence="ECO:0000269|PubMed:20361929,
+FT                   ECO:0007744|PubMed:17242355"
+FT   MOD_RES         556
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35222"
+FT   MOD_RES         619
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000269|PubMed:20705246"
+FT   MOD_RES         675
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17242355,
+FT                   ECO:0007744|PubMed:21183079"
+FT   CARBOHYD        23
+FT                   /note="O-linked (GlcNAc) serine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96S06"
+FT   MUTAGEN         8
+FT                   /note="M->P: Loss of interaction with VCL."
+FT                   /evidence="ECO:0000269|PubMed:20086044"
+FT   MUTAGEN         33
+FT                   /note="S->A: Abolished HIPK2-mediated proteasomal
+FT                   degradation."
+FT                   /evidence="ECO:0000269|PubMed:20307497"
+FT   MUTAGEN         37
+FT                   /note="S->A: Abolished HIPK2-mediated proteasomal
+FT                   degradation."
+FT                   /evidence="ECO:0000269|PubMed:20307497"
+FT   MUTAGEN         552
+FT                   /note="S->A: Abolishes AMPK-mediated phosphorylation."
+FT                   /evidence="ECO:0000269|PubMed:20361929"
+FT   CONFLICT        371
+FT                   /note="T -> I (in Ref. 2; BAB31250)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        478
+FT                   /note="A -> T (in Ref. 2; BAB31250)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        487
+FT                   /note="L -> F (in Ref. 2; BAB31250)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           85..88
+FT                   /evidence="ECO:0007829|PDB:4ONS"
+FT   HELIX           90..98
+FT                   /evidence="ECO:0007829|PDB:4ONS"
+FT   HELIX           100..102
+FT                   /evidence="ECO:0007829|PDB:4ONS"
+FT   HELIX           121..141
+FT                   /evidence="ECO:0007829|PDB:1DOW"
+FT   TURN            145..148
+FT                   /evidence="ECO:0007829|PDB:1DOW"
+FT   TURN            150..152
+FT                   /evidence="ECO:0007829|PDB:1I7W"
+FT   HELIX           153..160
+FT                   /evidence="ECO:0007829|PDB:1I7W"
+FT   STRAND          161..164
+FT                   /evidence="ECO:0007829|PDB:1JPP"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007829|PDB:4EVP"
+FT   HELIX           169..171
+FT                   /evidence="ECO:0007829|PDB:4EVP"
+FT   HELIX           172..178
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           182..189
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   STRAND          192..194
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           195..204
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           208..221
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           225..233
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           236..242
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           243..245
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           249..265
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           269..275
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           278..284
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           285..287
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           291..305
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           309..317
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           320..330
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           334..347
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           353..359
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           362..367
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   TURN            368..371
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           375..389
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           399..408
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           414..428
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           432..440
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           443..454
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           458..471
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   STRAND          473..475
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           478..487
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           491..496
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           504..517
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           521..523
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           524..529
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           532..547
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           566..580
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           584..592
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           596..602
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           608..621
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           625..633
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   TURN            634..636
+FT                   /evidence="ECO:0007829|PDB:3OUX"
+FT   HELIX           637..643
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+FT   HELIX           649..661
+FT                   /evidence="ECO:0007829|PDB:4EV8"
+SQ   SEQUENCE   781 AA;  85471 MW;  D708F170A3FBED6E CRC64;
+     MATQADLMEL DMAMEPDRKA AVSHWQQQSY LDSGIHSGAT TTAPSLSGKG NPEEEDVDTS
+     QVLYEWEQGF SQSFTQEQVA DIDGQYAMTR AQRVRAAMFP ETLDEGMQIP STQFDAAHPT
+     NVQRLAEPSQ MLKHAVVNLI NYQDDAELAT RAIPELTKLL NDEDQVVVNK AAVMVHQLSK
+     KEASRHAIMR SPQMVSAIVR TMQNTNDVET ARCTAGTLHN LSHHREGLLA IFKSGGIPAL
+     VKMLGSPVDS VLFYAITTLH NLLLHQEGAK MAVRLAGGLQ KMVALLNKTN VKFLAITTDC
+     LQILAYGNQE SKLIILASGG PQALVNIMRT YTYEKLLWTT SRVLKVLSVC SSNKPAIVEA
+     GGMQALGLHL TDPSQRLVQN CLWTLRNLSD AATKQEGMEG LLGTLVQLLG SDDINVVTCA
+     AGILSNLTCN NYKNKMMVCQ VGGIEALVRT VLRAGDREDI TEPAICALRH LTSRHQEAEM
+     AQNAVRLHYG LPVVVKLLHP PSHWPLIKAT VGLIRNLALC PANHAPLREQ GAIPRLVQLL
+     VRAHQDTQRR TSMGGTQQQF VEGVRMEEIV EGCTGALHIL ARDVHNRIVI RGLNTIPLFV
+     QLLYSPIENI QRVAAGVLCE LAQDKEAAEA IEAEGATAPL TELLHSRNEG VATYAAAVLF
+     RMSEDKPQDY KKRLSVELTS SLFRTEPMAW NETADLGLDI GAQGEALGYR QDDPSYRSFH
+     SGGYGQDALG MDPMMEHEMG GHHPGADYPV DGLPDLGHAQ DLMDGLPPGD SNQLAWFDTD
+     L
+//

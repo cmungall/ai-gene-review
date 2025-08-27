@@ -1,0 +1,145 @@
+# Temporary file with reviews for pending annotations
+
+# Duplicate annotations (same term, different evidence)
+- term: GO:0019221 (cytokine-mediated signaling pathway) IBA
+  action: REMOVE
+  reason: Duplicate of earlier reviewed annotation
+
+- term: GO:0004715 (non-membrane spanning protein tyrosine kinase activity) IEA  
+  action: REMOVE
+  reason: Duplicate with weaker evidence than IBA
+
+- term: GO:0035556 (intracellular signal transduction) IEA
+  action: REMOVE  
+  reason: Duplicate with weaker evidence
+
+- term: GO:0007259 (cell surface receptor signaling pathway via JAK-STAT) IEA
+  action: REMOVE
+  reason: Duplicate with weaker evidence
+
+- term: GO:0019221 (cytokine-mediated signaling pathway) IEA
+  action: REMOVE
+  reason: Duplicate with weaker evidence
+
+# Protein binding annotations (GO:0005515)
+- PMID:16710296: 
+  action: REMOVE
+  reason: General protein binding, uninformative per guidelines
+
+- PMID:21220115:
+  action: MODIFY to GO:0005126 (cytokine receptor binding)
+  reason: Shows IL-6 receptor complex binding
+
+- PMID:25065853:
+  action: REMOVE
+  reason: Drug resistance context, not core function
+
+- PMID:26175413:
+  action: REMOVE  
+  reason: JAK inhibitor study, not normal function
+
+- PMID:28514442:
+  action: REMOVE
+  reason: Large-scale interactome, uninformative
+
+- PMID:32953130:
+  action: KEEP_AS_NON_CORE
+  reason: SARS-CoV-2 antagonism, relevant for viral evasion
+
+- PMID:33961781:
+  action: REMOVE
+  reason: Large-scale proteome study
+
+- PMID:34521819:
+  action: REMOVE
+  reason: Invalid PMID, cannot retrieve
+
+- PMID:34950606:
+  action: REMOVE
+  reason: Duplicate viral study
+
+- PMID:35512704:
+  action: REMOVE
+  reason: Cancer mutation study
+
+- PMID:21679692:
+  action: REMOVE
+  reason: ZO-2 binding in smooth muscle, context-specific
+
+- PMID:7759950:
+  action: MODIFY to GO:0004896 (type I interferon receptor activity)
+  reason: Shows IFNAR binding
+
+# Growth hormone receptor binding
+- GO:0005131 IEA:
+  action: REMOVE
+  reason: Duplicate with better evidence (ISS)
+
+- GO:0005131 ISS PMID:10502458:
+  action: KEEP_AS_NON_CORE
+  reason: Valid but one of many receptor interactions
+
+# Cytokine pathway (Reactome)
+- GO:0019221 TAS Reactome:
+  action: REMOVE
+  reason: Duplicate with IBA evidence
+
+# Kinase activity annotations
+- GO:0004715 TAS Reactome (multiple):
+  action: REMOVE (keep one representative)
+  reason: Multiple duplicates from same source
+
+- GO:0004713 EXP/IDA (multiple papers):
+  action: ACCEPT (consolidate)
+  reason: Core function, strong experimental evidence
+
+# JAK-STAT pathway annotations  
+- GO:0007259 IDA/TAS (multiple papers):
+  action: ACCEPT (consolidate)
+  reason: Core pathway, strong evidence
+
+# Transcription regulation
+- GO:0006357 IDA PMID:9020188:
+  action: KEEP_AS_NON_CORE
+  reason: Downstream effect via STATs
+
+- GO:0006357 IDA PMID:28753426:
+  action: KEEP_AS_NON_CORE
+  reason: Downstream via STAT methylation
+
+# Nuclear localization
+- GO:1900182 IDA PMID:8605876:
+  action: KEEP_AS_NON_CORE
+  reason: STAT nuclear translocation, downstream
+
+- GO:1900182 IDA PMID:26479788:
+  action: KEEP_AS_NON_CORE
+  reason: Interferon-enhanced STAT translocation
+
+# IL-4 signaling
+- GO:0035771 IDA PMID:7760829:
+  action: ACCEPT
+  reason: Core γc cytokine pathway
+
+# Cell differentiation
+- GO:0030154 IDA PMID:28781374:
+  action: KEEP_AS_NON_CORE
+  reason: IL-11-induced MDSC differentiation, downstream
+
+# Protein phosphorylation  
+- GO:0006468 IMP PMID:28111307:
+  action: ACCEPT
+  reason: Core enzymatic activity in disease
+
+- GO:0006468 IMP PMID:32750333:
+  action: ACCEPT
+  reason: Core function demonstrated in syndrome
+
+- GO:0006468 TAS PMID:1848670:
+  action: ACCEPT
+  reason: Early characterization of kinase activity
+
+# Intracellular signal transduction
+- GO:0035556 TAS PMID:8232552:
+  action: KEEP_AS_NON_CORE
+  reason: Too general, more specific terms preferred

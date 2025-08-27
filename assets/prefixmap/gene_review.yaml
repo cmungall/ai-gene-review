@@ -1,0 +1,11 @@
+{
+   "dcat": "http://www.w3.org/ns/dcat#",
+   "dcterms": "http://purl.org/dc/terms/",
+   "gene_review": "https://w3id.org/ai4curation/gene_review/",
+   "linkml": "https://w3id.org/linkml/",
+   "owl": "http://www.w3.org/2002/07/owl#",
+   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+   "skos": "http://www.w3.org/2004/02/skos/core#",
+   "xsd": "http://www.w3.org/2001/XMLSchema#"
+}

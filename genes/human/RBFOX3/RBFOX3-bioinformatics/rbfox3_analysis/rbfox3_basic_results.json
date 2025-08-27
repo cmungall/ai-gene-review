@@ -1,0 +1,44 @@
+{
+  "sequence_length": 313,
+  "molecular_weight": 34016.3785,
+  "isoelectric_point": 7.860968589782716,
+  "domains": {
+    "N-terminal disordered region": [
+      1,
+      104
+    ],
+    "RNA Recognition Motif (RRM)": [
+      100,
+      175
+    ],
+    "Fox-1 C-terminal domain": [
+      176,
+      312
+    ],
+    "Pro-rich region": [
+      1,
+      29
+    ],
+    "Polar residue region": [
+      49,
+      87
+    ]
+  },
+  "sequence_features": {
+    "rnp1_motifs": [
+      [
+        115,
+        121,
+        "RQMFGQF"
+      ],
+      [
+        232,
+        238,
+        "RAVYNTF"
+      ]
+    ],
+    "rnp2_motifs": [],
+    "net_charge": 9,
+    "proline_percent": 12.779552715654951
+  }
+}

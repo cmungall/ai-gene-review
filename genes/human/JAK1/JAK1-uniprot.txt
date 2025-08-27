@@ -1,0 +1,1015 @@
+ID   JAK1_HUMAN              Reviewed;        1154 AA.
+AC   P23458; Q59GQ2; Q9UD26;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 2.
+DT   18-JUN-2025, entry version 245.
+DE   RecName: Full=Tyrosine-protein kinase JAK1;
+DE            EC=2.7.10.2 {ECO:0000269|PubMed:1848670, ECO:0000269|PubMed:7615558};
+DE   AltName: Full=Janus kinase 1;
+DE            Short=JAK-1;
+GN   Name=JAK1; Synonyms=JAK1A, JAK1B;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CATALYTIC ACTIVITY.
+RX   PubMed=1848670; DOI=10.1128/mcb.11.4.2057-2065.1991;
+RA   Wilks A.F., Harpur A.G., Kurban R.R., Ralph S.J., Zuercher G.,
+RA   Ziemiecki A.;
+RT   "Two novel protein-tyrosine kinases, each with a second phosphotransferase-
+RT   related catalytic domain, define a new class of protein kinase.";
+RL   Mol. Cell. Biol. 11:2057-2065(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D., Dunham A.,
+RA   Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A., Jones M.C., Gillson C.,
+RA   Searle S., Zhou Y., Kokocinski F., McDonald L., Evans R., Phillips K.,
+RA   Atkinson A., Cooper R., Jones C., Hall R.E., Andrews T.D., Lloyd C.,
+RA   Ainscough R., Almeida J.P., Ambrose K.D., Anderson F., Andrew R.W.,
+RA   Ashwell R.I.S., Aubin K., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Beasley H., Bethel G., Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J.,
+RA   Buckley D., Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y.,
+RA   Clarke G., Clee C., Cobley V., Collier R.E., Corby N., Coville G.J.,
+RA   Davies J., Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R., Hammond S.,
+RA   Harrison E.S.I., Hart E., Haugen E., Heath P.D., Holmes S., Holt K.,
+RA   Howden P.J., Hunt A.R., Hunt S.E., Hunter G., Isherwood J., James R.,
+RA   Johnson C., Johnson D., Joy A., Kay M., Kershaw J.K., Kibukawa M.,
+RA   Kimberley A.M., King A., Knights A.J., Lad H., Laird G., Lawlor S.,
+RA   Leongamornlert D.A., Lloyd D.M., Loveland J., Lovell J., Lush M.J.,
+RA   Lyne R., Martin S., Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W.,
+RA   McLaren S., Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C., Subramanian S.,
+RA   Sycamore N., Tracey A., Tromans A., Van Helmond Z., Wall M., Wallis J.M.,
+RA   White S., Whitehead S.L., Wilkinson J.E., Willey D.L., Williams H.,
+RA   Wilming L., Wray P.W., Wu Z., Coulson A., Vaudin M., Sulston J.E.,
+RA   Durbin R.M., Hubbard T., Wooster R., Dunham I., Carter N.P., McVean G.,
+RA   Ross M.T., Harrow J., Olson M.V., Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1005-1062.
+RX   PubMed=8247543;
+RA   Lee S.-T., Strunk K.M., Spritz R.A.;
+RT   "A survey of protein tyrosine kinase mRNAs expressed in normal human
+RT   melanocytes.";
+RL   Oncogene 8:3403-3410(1993).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1008-1062, AND TISSUE SPECIFICITY.
+RC   TISSUE=Colon tumor;
+RX   PubMed=7896447; DOI=10.1002/ijc.2910600611;
+RA   Craven R.J., Xu L.H., Weiner T.M., Fridell Y.-W., Dent G.A., Srivastava S.,
+RA   Varnum B., Liu E.T., Cance W.G.;
+RT   "Receptor tyrosine kinases expressed in metastatic colon cancer.";
+RL   Int. J. Cancer 60:791-797(1995).
+RN   [8]
+RP   FUNCTION, AND PHOSPHORYLATION.
+RX   PubMed=8232552; DOI=10.1038/366129a0;
+RA   Mueller M., Briscoe J., Laxton C., Guschin D., Ziemiecki A.,
+RA   Silvennoinen O., Harpur A.G., Barbieri G., Witthuhn B.A., Schindler C.;
+RT   "The protein tyrosine kinase JAK1 complements defects in interferon-
+RT   alpha/beta and -gamma signal transduction.";
+RL   Nature 366:129-135(1993).
+RN   [9]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, INTERACTION WITH IFNGR1, AND
+RP   PHOSPHORYLATION.
+RX   PubMed=7615558; DOI=10.1074/jbc.270.29.17528;
+RA   Sakatsume M., Igarashi K., Winestock K.D., Garotta G., Larner A.C.,
+RA   Finbloom D.S.;
+RT   "The Jak kinases differentially associate with the alpha and beta
+RT   (accessory factor) chains of the interferon gamma receptor to form a
+RT   functional receptor unit capable of activating STAT transcription
+RT   factors.";
+RL   J. Biol. Chem. 270:17528-17534(1995).
+RN   [10]
+RP   FUNCTION.
+RX   PubMed=7657660; DOI=10.1074/jbc.270.35.20775;
+RA   Quelle F.W., Thierfelder W., Witthuhn B.A., Tang B., Cohen S., Ihle J.N.;
+RT   "Phosphorylation and activation of the DNA binding activity of purified
+RT   Stat1 by the Janus protein-tyrosine kinases and the epidermal growth factor
+RT   receptor.";
+RL   J. Biol. Chem. 270:20775-20780(1995).
+RN   [11]
+RP   FUNCTION.
+RX   PubMed=7759950; DOI=10.1002/jlb.57.5.712;
+RA   Novick D., Cohen B., Tal N., Rubinstein M.;
+RT   "Soluble and membrane-anchored forms of the human IFN-alpha/beta
+RT   receptor.";
+RL   J. Leukoc. Biol. 57:712-718(1995).
+RN   [12]
+RP   INTERACTION WITH SHB.
+RX   PubMed=12200137; DOI=10.1016/s0006-291x(02)02016-8;
+RA   Lindholm C.K.;
+RT   "IL-2 receptor signaling through the Shb adapter protein in T and NK
+RT   cells.";
+RL   Biochem. Biophys. Res. Commun. 296:929-936(2002).
+RN   [13]
+RP   FUNCTION IN CYTOKINE SIGNALING, PHOSPHORYLATION AT TYR-1034 AND TYR-1035,
+RP   AND DEPHOSPHORYLATION AT TYR-1034 AND TYR-1035 BY PTPN2.
+RX   PubMed=11909529; DOI=10.1016/s0960-9822(02)00697-8;
+RA   Simoncic P.D., Lee-Loy A., Barber D.L., Tremblay M.L., McGlade C.J.;
+RT   "The T cell protein tyrosine phosphatase is a negative regulator of janus
+RT   family kinases 1 and 3.";
+RL   Curr. Biol. 12:446-453(2002).
+RN   [14]
+RP   FUNCTION, AND INTERACTION WITH IL2RB AND IL10RA.
+RX   PubMed=12133952; DOI=10.4049/jimmunol.169.3.1302;
+RA   Usacheva A., Kotenko S., Witte M.M., Colamonici O.R.;
+RT   "Two distinct domains within the N-terminal region of Janus kinase 1
+RT   interact with cytokine receptors.";
+RL   J. Immunol. 169:1302-1308(2002).
+RN   [15]
+RP   INTERACTION WITH IL31RA.
+RX   PubMed=15194700; DOI=10.1074/jbc.m401122200;
+RA   Dreuw A., Radtke S., Pflanz S., Lippok B.E., Heinrich P.C., Hermanns H.M.;
+RT   "Characterization of the signaling capacities of the novel gp130-like
+RT   cytokine receptor.";
+RL   J. Biol. Chem. 279:36112-36120(2004).
+RN   [16]
+RP   INTERACTION WITH JAKMIP1.
+RX   PubMed=15277531; DOI=10.1074/jbc.m401915200;
+RA   Steindler C., Li Z., Algarte M., Alcover A., Libri V., Ragimbeau J.,
+RA   Pellegrini S.;
+RT   "Jamip1 (marlin-1) defines a family of proteins interacting with Janus
+RT   kinases and microtubules.";
+RL   J. Biol. Chem. 279:43168-43177(2004).
+RN   [17]
+RP   FUNCTION, DOMAIN, AND MUTAGENESIS OF VAL-658.
+RX   PubMed=16239216; DOI=10.1074/jbc.c500358200;
+RA   Staerk J., Kallin A., Demoulin J.B., Vainchenker W., Constantinescu S.N.;
+RT   "JAK1 and Tyk2 activation by the homologous polycythemia vera JAK2 V617F
+RT   mutation: cross-talk with IGF1 receptor.";
+RL   J. Biol. Chem. 280:41893-41899(2005).
+RN   [18]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1, PHOSPHORYLATION [LARGE SCALE
+RP   ANALYSIS] AT TYR-3 AND SER-228, AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=19369195; DOI=10.1074/mcp.m800588-mcp200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [19]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [20]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [21]
+RP   UBIQUITINATION.
+RX   PubMed=26027934; DOI=10.1016/j.celrep.2015.04.049;
+RA   Kim H., Frederick D.T., Levesque M.P., Cooper Z.A., Feng Y., Krepler C.,
+RA   Brill L., Samuels Y., Hayward N.K., Perlina A., Piris A., Zhang T.,
+RA   Halaban R., Herlyn M.M., Brown K.M., Wargo J.A., Dummer R., Flaherty K.T.,
+RA   Ronai Z.A.;
+RT   "Downregulation of the ubiquitin ligase RNF125 underlies resistance of
+RT   melanoma cells to BRAF inhibitors via JAK1 deregulation.";
+RL   Cell Rep. 11:1458-1473(2015).
+RN   [22]
+RP   INVOLVEMENT IN AIIDE, VARIANT AIIDE ASP-634, CHARACTERIZATION OF VARIANT
+RP   AIIDE ASP-634, AND FUNCTION.
+RX   PubMed=28111307; DOI=10.1016/j.jaci.2016.12.957;
+RA   Del Bel K.L., Ragotte R.J., Saferali A., Lee S., Vercauteren S.M.,
+RA   Mostafavi S.A., Schreiber R.A., Prendiville J.S., Phang M.S., Halparin J.,
+RA   Au N., Dean J.M., Priatel J.J., Jewels E., Junker A.K., Rogers P.C.,
+RA   Seear M., McKinnon M.L., Turvey S.E.;
+RT   "JAK1 gain-of-function causes an autosomal dominant immune dysregulatory
+RT   and hypereosinophilic syndrome.";
+RL   J. Allergy Clin. Immunol. 139:e52016-e52020(2017).
+RN   [23]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 865-1154 IN COMPLEXES WITH
+RP   SYNTHETIC INHIBITORS CMP6 AND CP-690,550.
+RX   PubMed=19361440; DOI=10.1016/j.jmb.2009.01.041;
+RA   Williams N.K., Bamert R.S., Patel O., Wang C., Walden P.M., Wilks A.F.,
+RA   Fantino E., Rossjohn J., Lucet I.S.;
+RT   "Dissecting specificity in the Janus kinases: the structures of JAK-
+RT   specific inhibitors complexed to the JAK1 and JAK2 protein tyrosine kinase
+RT   domains.";
+RL   J. Mol. Biol. 387:219-232(2009).
+RN   [24]
+RP   VARIANT [LARGE SCALE ANALYSIS] LYS-973.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C., Bignell G.,
+RA   Davies H., Teague J., Butler A., Stevens C., Edkins S., O'Meara S.,
+RA   Vastrik I., Schmidt E.E., Avis T., Barthorpe S., Bhamra G., Buck G.,
+RA   Choudhury B., Clements J., Cole J., Dicks E., Forbes S., Gray K.,
+RA   Halliday K., Harrison R., Hills K., Hinton J., Jenkinson A., Jones D.,
+RA   Menzies A., Mironenko T., Perry J., Raine K., Richardson D., Shepherd R.,
+RA   Small A., Tofts C., Varian J., Webb T., West S., Widaa S., Yates A.,
+RA   Cahill D.P., Louis D.N., Goldstraw P., Nicholson A.G., Brasseur F.,
+RA   Looijenga L., Weber B.L., Chiew Y.-E., DeFazio A., Greaves M.F.,
+RA   Green A.R., Campbell P., Birney E., Easton D.F., Chenevix-Trench G.,
+RA   Tan M.-H., Khoo S.K., Teh B.T., Yuen S.T., Leung S.Y., Wooster R.,
+RA   Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+RN   [25]
+RP   VARIANT AIIDE ILE-703, CHARACTERIZATION OF VARIANT AIIDE ILE-703, FUNCTION,
+RP   MUTAGENESIS OF LYS-908, AND ATP-BINDING.
+RX   PubMed=32750333; DOI=10.1016/j.immuni.2020.07.006;
+RA   Gruber C.N., Calis J.J.A., Buta S., Evrony G., Martin J.C., Uhl S.A.,
+RA   Caron R., Jarchin L., Dunkin D., Phelps R., Webb B.D., Saland J.M.,
+RA   Merad M., Orange J.S., Mace E.M., Rosenberg B.R., Gelb B.D., Bogunovic D.;
+RT   "Complex Autoinflammatory Syndrome Unveils Fundamental Principles of JAK1
+RT   Kinase Transcriptional and Biochemical Function.";
+RL   Immunity 53:e11672-e11684(2020).
+CC   -!- FUNCTION: Tyrosine kinase of the non-receptor type, involved in the
+CC       IFN-alpha/beta/gamma signal pathway (PubMed:16239216, PubMed:28111307,
+CC       PubMed:32750333, PubMed:7615558, PubMed:8232552). Kinase partner for
+CC       the interleukin (IL)-2 receptor (PubMed:11909529) as well as
+CC       interleukin (IL)-10 receptor (PubMed:12133952). Kinase partner for the
+CC       type I interferon receptor IFNAR2 (PubMed:16239216, PubMed:28111307,
+CC       PubMed:32750333, PubMed:7615558, PubMed:8232552). In response to
+CC       interferon-binding to IFNAR1-IFNAR2 heterodimer, phosphorylates and
+CC       activates its binding partner IFNAR2, creating docking sites for STAT
+CC       proteins (PubMed:7759950). Directly phosphorylates STAT proteins but
+CC       also activates STAT signaling through the transactivation of other JAK
+CC       kinases associated with signaling receptors (PubMed:16239216,
+CC       PubMed:32750333, PubMed:8232552). {ECO:0000269|PubMed:11909529,
+CC       ECO:0000269|PubMed:12133952, ECO:0000269|PubMed:16239216,
+CC       ECO:0000269|PubMed:28111307, ECO:0000269|PubMed:32750333,
+CC       ECO:0000269|PubMed:7615558, ECO:0000269|PubMed:7657660,
+CC       ECO:0000269|PubMed:8232552}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-tyrosyl-[protein] + ATP = O-phospho-L-tyrosyl-[protein] +
+CC         ADP + H(+); Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:20101, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:61978, ChEBI:CHEBI:456216; EC=2.7.10.2;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028,
+CC         ECO:0000269|PubMed:1848670, ECO:0000269|PubMed:7615558};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000305|PubMed:7615558};
+CC       Note=Mn(2+) was used in the in vitro kinase assay but Mg(2+) is likely
+CC       to be the in vivo cofactor. {ECO:0000305|PubMed:7615558};
+CC   -!- SUBUNIT: Interacts with IL31RA (PubMed:15194700). Interacts with IFNGR1
+CC       (PubMed:7615558). Interacts with JAKMIP1 (PubMed:15277531). Interacts
+CC       with SHB (PubMed:12200137). Interacts (via N-terminus) with IL2RB and
+CC       IL10RA (via its cytoplasmic domain) (PubMed:12133952). Interacts with
+CC       FER (By similarity). {ECO:0000250|UniProtKB:P52332,
+CC       ECO:0000269|PubMed:12133952, ECO:0000269|PubMed:12200137,
+CC       ECO:0000269|PubMed:15194700, ECO:0000269|PubMed:15277531,
+CC       ECO:0000269|PubMed:7615558, ECO:0000269|PubMed:7759950}.
+CC   -!- INTERACTION:
+CC       P23458; P04626: ERBB2; NbExp=2; IntAct=EBI-1383438, EBI-641062;
+CC       P23458; P48551: IFNAR2; NbExp=3; IntAct=EBI-1383438, EBI-958408;
+CC       P23458; P40189-1: IL6ST; NbExp=3; IntAct=EBI-1383438, EBI-15742214;
+CC       P23458; O60674: JAK2; NbExp=4; IntAct=EBI-1383438, EBI-518647;
+CC       P23458; Q99650: OSMR; NbExp=2; IntAct=EBI-1383438, EBI-2804080;
+CC       P23458; P42224: STAT1; NbExp=6; IntAct=EBI-1383438, EBI-1057697;
+CC       P23458; P40763: STAT3; NbExp=2; IntAct=EBI-1383438, EBI-518675;
+CC   -!- SUBCELLULAR LOCATION: Endomembrane system; Peripheral membrane protein.
+CC       Note=Wholly intracellular, possibly membrane associated.
+CC   -!- TISSUE SPECIFICITY: Expressed at higher levels in primary colon tumors
+CC       than in normal colon tissue. The expression level in metastatic colon
+CC       tumors is comparable to the expression level in normal colon tissue.
+CC       {ECO:0000269|PubMed:7896447}.
+CC   -!- DOMAIN: The protein kinase 1 domain is also called the pseudokinase
+CC       domain and has a regulatory role through the transactivation of other
+CC       JAK kinases associated with signaling receptors.
+CC       {ECO:0000269|PubMed:16239216, ECO:0000269|PubMed:32750333}.
+CC   -!- DOMAIN: The protein kinase 2 domain is the catalytically active domain.
+CC       {ECO:0000269|PubMed:32750333}.
+CC   -!- DOMAIN: The FERM domain mediates interaction with JAKMIP1.
+CC   -!- PTM: Autophosphorylated (PubMed:7615558). Phosphorylated by TYK2 on
+CC       tyrosine residues in response to type-I interferon signaling, leading
+CC       to its activation (PubMed:8232552). Phosphorylated on tyrosine residues
+CC       in response to interferon gamma signaling (PubMed:7615558).
+CC       Dephosphorylation of Tyr-1034 and Tyr-1035 by PTPN2 negatively
+CC       regulates cytokine-mediated signaling (PubMed:11909529).
+CC       {ECO:0000269|PubMed:11909529, ECO:0000269|PubMed:7615558,
+CC       ECO:0000305|PubMed:8232552}.
+CC   -!- PTM: Ubiquitinated by RNF125; leading to its degradation by the
+CC       proteasome. {ECO:0000269|PubMed:26027934}.
+CC   -!- DISEASE: Autoinflammation, immune dysregulation, and eosinophilia
+CC       (AIIDE) [MIM:618999]: An autosomal dominant disorder characterized by
+CC       immune dysregulation, severe atopic dermatitis, and chronic
+CC       gastrointestinal inflammation. Additional features include asthma, food
+CC       or environmental allergies, as well as poor overall growth with short
+CC       stature. {ECO:0000269|PubMed:28111307, ECO:0000269|PubMed:32750333}.
+CC       Note=The disease is caused by variants affecting the gene represented
+CC       in this entry.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. JAK subfamily. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA36527.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAA36527.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology and
+CC       Haematology;
+CC       URL="https://atlasgeneticsoncology.org/gene/41031/JAK1";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64174; AAA36527.1; ALT_SEQ; mRNA.
+DR   EMBL; AB209057; BAD92294.1; -; mRNA.
+DR   EMBL; AC093427; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471059; EAX06547.1; -; Genomic_DNA.
+DR   EMBL; BC132729; AAI32730.1; -; mRNA.
+DR   CCDS; CCDS41346.1; -.
+DR   PIR; A39577; A39577.
+DR   RefSeq; NP_001307852.1; NM_001320923.2.
+DR   RefSeq; NP_001308781.1; NM_001321852.2.
+DR   RefSeq; NP_001308782.1; NM_001321853.2.
+DR   RefSeq; NP_001308783.1; NM_001321854.2.
+DR   RefSeq; NP_001308784.1; NM_001321855.2.
+DR   RefSeq; NP_001308785.1; NM_001321856.2.
+DR   RefSeq; NP_002218.2; NM_002227.4.
+DR   RefSeq; XP_047275630.1; XM_047419674.1.
+DR   RefSeq; XP_047275631.1; XM_047419675.1.
+DR   RefSeq; XP_054192401.1; XM_054336426.1.
+DR   PDB; 3EYG; X-ray; 1.90 A; A=865-1154.
+DR   PDB; 3EYH; X-ray; 2.00 A; A=865-1154.
+DR   PDB; 4E4L; X-ray; 2.00 A; A/B/D/E=854-1154.
+DR   PDB; 4E4N; X-ray; 1.90 A; A/B=854-1154.
+DR   PDB; 4E5W; X-ray; 1.86 A; A/B=854-1154.
+DR   PDB; 4EHZ; X-ray; 2.17 A; A/B/C/D=854-1154.
+DR   PDB; 4EI4; X-ray; 2.22 A; A/B=854-1154.
+DR   PDB; 4FK6; X-ray; 2.20 A; A/B=854-1154.
+DR   PDB; 4GS0; X-ray; 1.80 A; C=1033-1036.
+DR   PDB; 4I5C; X-ray; 2.10 A; A/B=854-1154.
+DR   PDB; 4IVB; X-ray; 1.90 A; A/B=854-1154.
+DR   PDB; 4IVC; X-ray; 2.35 A; A/B=854-1154.
+DR   PDB; 4IVD; X-ray; 1.93 A; A/B=854-1154.
+DR   PDB; 4K6Z; X-ray; 2.73 A; A=854-1154.
+DR   PDB; 4K77; X-ray; 2.40 A; A/B=854-1154.
+DR   PDB; 4L00; X-ray; 1.80 A; A/B=561-860.
+DR   PDB; 4L01; X-ray; 1.90 A; A/B=561-860.
+DR   PDB; 5E1E; X-ray; 2.30 A; A/B=865-1154.
+DR   PDB; 5HX8; X-ray; 2.20 A; A/B=854-1154.
+DR   PDB; 5IXD; X-ray; 2.85 A; A=35-559.
+DR   PDB; 5IXI; X-ray; 2.57 A; A=35-559.
+DR   PDB; 5KHW; X-ray; 2.47 A; A/B=841-1154.
+DR   PDB; 5KHX; X-ray; 2.40 A; A=841-1154.
+DR   PDB; 5L04; X-ray; 2.10 A; A=31-577.
+DR   PDB; 5WO4; X-ray; 1.84 A; A/B=854-1154.
+DR   PDB; 6AAH; X-ray; 1.83 A; A/B=865-1154.
+DR   PDB; 6BBU; X-ray; 2.08 A; A=841-1154.
+DR   PDB; 6C7Y; X-ray; 2.50 A; A=869-1153.
+DR   PDB; 6DBN; X-ray; 2.48 A; A=841-1154.
+DR   PDB; 6ELR; X-ray; 1.80 A; A/B=854-1154.
+DR   PDB; 6GGH; X-ray; 1.70 A; A/B=863-1154.
+DR   PDB; 6HZU; X-ray; 2.20 A; A/B=854-1154.
+DR   PDB; 6N77; X-ray; 1.64 A; A/B=854-1154.
+DR   PDB; 6N78; X-ray; 1.83 A; A=854-1154.
+DR   PDB; 6N79; X-ray; 2.27 A; A=854-1154.
+DR   PDB; 6N7A; X-ray; 1.33 A; A/B=854-1154.
+DR   PDB; 6N7B; X-ray; 1.81 A; A=854-1154.
+DR   PDB; 6N7C; X-ray; 1.69 A; A/B=854-1154.
+DR   PDB; 6N7D; X-ray; 1.78 A; A=854-1154.
+DR   PDB; 6RSB; X-ray; 1.80 A; A/B=854-1154.
+DR   PDB; 6RSC; X-ray; 1.85 A; A/B=854-1154.
+DR   PDB; 6RSD; X-ray; 1.76 A; A/B=854-1154.
+DR   PDB; 6RSE; X-ray; 1.80 A; A/B=854-1154.
+DR   PDB; 6RSH; X-ray; 1.71 A; A/B=854-1154.
+DR   PDB; 6SM8; X-ray; 1.85 A; A/B=854-1154.
+DR   PDB; 6SMB; X-ray; 2.04 A; A/B=854-1154.
+DR   PDB; 6TPE; X-ray; 2.87 A; A/B=864-1154.
+DR   PDB; 6TPF; X-ray; 2.31 A; A/B=864-1154.
+DR   PDB; 6W8L; X-ray; 2.11 A; A=841-1154.
+DR   PDB; 8EXJ; X-ray; 2.30 A; D=1027-1042.
+DR   PDB; 8S85; X-ray; 1.75 A; A/B=854-1154.
+DR   PDBsum; 3EYG; -.
+DR   PDBsum; 3EYH; -.
+DR   PDBsum; 4E4L; -.
+DR   PDBsum; 4E4N; -.
+DR   PDBsum; 4E5W; -.
+DR   PDBsum; 4EHZ; -.
+DR   PDBsum; 4EI4; -.
+DR   PDBsum; 4FK6; -.
+DR   PDBsum; 4GS0; -.
+DR   PDBsum; 4I5C; -.
+DR   PDBsum; 4IVB; -.
+DR   PDBsum; 4IVC; -.
+DR   PDBsum; 4IVD; -.
+DR   PDBsum; 4K6Z; -.
+DR   PDBsum; 4K77; -.
+DR   PDBsum; 4L00; -.
+DR   PDBsum; 4L01; -.
+DR   PDBsum; 5E1E; -.
+DR   PDBsum; 5HX8; -.
+DR   PDBsum; 5IXD; -.
+DR   PDBsum; 5IXI; -.
+DR   PDBsum; 5KHW; -.
+DR   PDBsum; 5KHX; -.
+DR   PDBsum; 5L04; -.
+DR   PDBsum; 5WO4; -.
+DR   PDBsum; 6AAH; -.
+DR   PDBsum; 6BBU; -.
+DR   PDBsum; 6C7Y; -.
+DR   PDBsum; 6DBN; -.
+DR   PDBsum; 6ELR; -.
+DR   PDBsum; 6GGH; -.
+DR   PDBsum; 6HZU; -.
+DR   PDBsum; 6N77; -.
+DR   PDBsum; 6N78; -.
+DR   PDBsum; 6N79; -.
+DR   PDBsum; 6N7A; -.
+DR   PDBsum; 6N7B; -.
+DR   PDBsum; 6N7C; -.
+DR   PDBsum; 6N7D; -.
+DR   PDBsum; 6RSB; -.
+DR   PDBsum; 6RSC; -.
+DR   PDBsum; 6RSD; -.
+DR   PDBsum; 6RSE; -.
+DR   PDBsum; 6RSH; -.
+DR   PDBsum; 6SM8; -.
+DR   PDBsum; 6SMB; -.
+DR   PDBsum; 6TPE; -.
+DR   PDBsum; 6TPF; -.
+DR   PDBsum; 6W8L; -.
+DR   PDBsum; 8EXJ; -.
+DR   PDBsum; 8S85; -.
+DR   AlphaFoldDB; P23458; -.
+DR   SMR; P23458; -.
+DR   BioGRID; 109919; 268.
+DR   ComplexPortal; CPX-506; Interleukin-5 receptor-ligand complex.
+DR   CORUM; P23458; -.
+DR   DIP; DIP-133N; -.
+DR   FunCoup; P23458; 2609.
+DR   IntAct; P23458; 144.
+DR   MINT; P23458; -.
+DR   STRING; 9606.ENSP00000499900; -.
+DR   BindingDB; P23458; -.
+DR   ChEMBL; CHEMBL2835; -.
+DR   DrugBank; DB04716; 2-tert-butyl-9-fluoro-1,6-dihydrobenzo[h]imidazo[4,5-f]isoquinolin-7-one.
+DR   DrugBank; DB14973; Abrocitinib.
+DR   DrugBank; DB11817; Baricitinib.
+DR   DrugBank; DB15499; Cerdulatinib.
+DR   DrugBank; DB16133; Delgocitinib.
+DR   DrugBank; DB18847; Deuruxolitinib.
+DR   DrugBank; DB12500; Fedratinib.
+DR   DrugBank; DB14845; Filgotinib.
+DR   DrugBank; DB12010; Fostamatinib.
+DR   DrugBank; DB16191; Ifidancitinib.
+DR   DrugBank; DB12154; Itacitinib.
+DR   DrugBank; DB16756; Ivarmacitinib.
+DR   DrugBank; DB11763; Momelotinib.
+DR   DrugBank; DB02375; Myricetin.
+DR   DrugBank; DB11708; Peficitinib.
+DR   DrugBank; DB15003; PF-06700841.
+DR   DrugBank; DB15822; Pralsetinib.
+DR   DrugBank; DB08877; Ruxolitinib.
+DR   DrugBank; DB08895; Tofacitinib.
+DR   DrugBank; DB15091; Upadacitinib.
+DR   DrugBank; DB17064; ZM-39923.
+DR   DrugCentral; P23458; -.
+DR   GuidetoPHARMACOLOGY; 2047; -.
+DR   CarbonylDB; P23458; -.
+DR   GlyConnect; 1869; 2 N-Linked glycans (1 site).
+DR   GlyCosmos; P23458; 1 site, 2 glycans.
+DR   GlyGen; P23458; 3 sites, 2 N-linked glycans (1 site).
+DR   iPTMnet; P23458; -.
+DR   PhosphoSitePlus; P23458; -.
+DR   SwissPalm; P23458; -.
+DR   BioMuta; JAK1; -.
+DR   DMDM; 215274013; -.
+DR   CPTAC; CPTAC-1251; -.
+DR   CPTAC; CPTAC-3185; -.
+DR   CPTAC; CPTAC-3186; -.
+DR   jPOST; P23458; -.
+DR   MassIVE; P23458; -.
+DR   PaxDb; 9606-ENSP00000343204; -.
+DR   PeptideAtlas; P23458; -.
+DR   ProteomicsDB; 54097; -.
+DR   Pumba; P23458; -.
+DR   Antibodypedia; 3400; 636 antibodies from 42 providers.
+DR   CPTC; P23458; 1 antibody.
+DR   DNASU; 3716; -.
+DR   Ensembl; ENST00000342505.5; ENSP00000343204.4; ENSG00000162434.14.
+DR   Ensembl; ENST00000671929.2; ENSP00000500485.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000671954.2; ENSP00000500841.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000672179.2; ENSP00000500296.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000672247.2; ENSP00000499884.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000672434.2; ENSP00000499900.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000672751.2; ENSP00000500745.2; ENSG00000162434.14.
+DR   Ensembl; ENST00000699262.1; ENSP00000514243.1; ENSG00000162434.14.
+DR   Ensembl; ENST00000699312.1; ENSP00000514291.1; ENSG00000162434.14.
+DR   GeneID; 3716; -.
+DR   KEGG; hsa:3716; -.
+DR   MANE-Select; ENST00000342505.5; ENSP00000343204.4; NM_002227.4; NP_002218.2.
+DR   UCSC; uc001dbu.2; human.
+DR   AGR; HGNC:6190; -.
+DR   CTD; 3716; -.
+DR   DisGeNET; 3716; -.
+DR   GeneCards; JAK1; -.
+DR   HGNC; HGNC:6190; JAK1.
+DR   HPA; ENSG00000162434; Low tissue specificity.
+DR   MalaCards; JAK1; -.
+DR   MIM; 147795; gene.
+DR   MIM; 618999; phenotype.
+DR   neXtProt; NX_P23458; -.
+DR   OpenTargets; ENSG00000162434; -.
+DR   Orphanet; 667662; Breast implant-associated anaplastic large cell lymphoma.
+DR   Orphanet; 574957; Mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency.
+DR   PharmGKB; PA29988; -.
+DR   VEuPathDB; HostDB:ENSG00000162434; -.
+DR   eggNOG; KOG0197; Eukaryota.
+DR   GeneTree; ENSGT00940000157092; -.
+DR   HOGENOM; CLU_008155_1_0_1; -.
+DR   InParanoid; P23458; -.
+DR   OMA; KDIMQGE; -.
+DR   OrthoDB; 1915767at2759; -.
+DR   PAN-GO; P23458; 9 GO annotations based on evolutionary models.
+DR   PhylomeDB; P23458; -.
+DR   TreeFam; TF327041; -.
+DR   BRENDA; 2.7.10.2; 2681.
+DR   PathwayCommons; P23458; -.
+DR   Reactome; R-HSA-1059683; Interleukin-6 signaling.
+DR   Reactome; R-HSA-110056; MAPK3 (ERK1) activation.
+DR   Reactome; R-HSA-112411; MAPK1 (ERK2) activation.
+DR   Reactome; R-HSA-1169408; ISG15 antiviral mechanism.
+DR   Reactome; R-HSA-1266695; Interleukin-7 signaling.
+DR   Reactome; R-HSA-449836; Other interleukin signaling.
+DR   Reactome; R-HSA-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-HSA-6783783; Interleukin-10 signaling.
+DR   Reactome; R-HSA-6785807; Interleukin-4 and Interleukin-13 signaling.
+DR   Reactome; R-HSA-6788467; IL-6-type cytokine receptor ligand interactions.
+DR   Reactome; R-HSA-877300; Interferon gamma signaling.
+DR   Reactome; R-HSA-877312; Regulation of IFNG signaling.
+DR   Reactome; R-HSA-8854691; Interleukin-20 family signaling.
+DR   Reactome; R-HSA-8983432; Interleukin-15 signaling.
+DR   Reactome; R-HSA-8984722; Interleukin-35 Signalling.
+DR   Reactome; R-HSA-8985947; Interleukin-9 signaling.
+DR   Reactome; R-HSA-9020558; Interleukin-2 signaling.
+DR   Reactome; R-HSA-9020591; Interleukin-12 signaling.
+DR   Reactome; R-HSA-9020956; Interleukin-27 signaling.
+DR   Reactome; R-HSA-9020958; Interleukin-21 signaling.
+DR   Reactome; R-HSA-909733; Interferon alpha/beta signaling.
+DR   Reactome; R-HSA-912526; Interleukin receptor SHC signaling.
+DR   Reactome; R-HSA-912694; Regulation of IFNA/IFNB signaling.
+DR   Reactome; R-HSA-9674555; Signaling by CSF3 (G-CSF).
+DR   Reactome; R-HSA-9679191; Potential therapeutics for SARS.
+DR   Reactome; R-HSA-9705462; Inactivation of CSF3 (G-CSF) signaling.
+DR   Reactome; R-HSA-9705671; SARS-CoV-2 activates/modulates innate and adaptive immune responses.
+DR   Reactome; R-HSA-9732724; IFNG signaling activates MAPKs.
+DR   Reactome; R-HSA-9833109; Evasion by RSV of host interferon responses.
+DR   SignaLink; P23458; -.
+DR   SIGNOR; P23458; -.
+DR   BioGRID-ORCS; 3716; 49 hits in 1224 CRISPR screens.
+DR   ChiTaRS; JAK1; human.
+DR   EvolutionaryTrace; P23458; -.
+DR   GeneWiki; Janus_kinase_1; -.
+DR   GenomeRNAi; 3716; -.
+DR   Pharos; P23458; Tclin.
+DR   PRO; PR:P23458; -.
+DR   Proteomes; UP000005640; Chromosome 1.
+DR   RNAct; P23458; protein.
+DR   Bgee; ENSG00000162434; Expressed in type B pancreatic cell and 205 other cell types or tissues.
+DR   ExpressionAtlas; P23458; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; IDA:UniProt.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:InterPro.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005768; C:endosome; TAS:Reactome.
+DR   GO; GO:0031234; C:extrinsic component of cytoplasmic side of plasma membrane; IDA:UniProt.
+DR   GO; GO:0005925; C:focal adhesion; HDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; TAS:UniProt.
+DR   GO; GO:0043235; C:receptor complex; IPI:ComplexPortal.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031730; F:CCR5 chemokine receptor binding; IEA:Ensembl.
+DR   GO; GO:0005131; F:growth hormone receptor binding; ISS:BHF-UCL.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:UniProtKB.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IDA:UniProt.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; IPI:UniProtKB.
+DR   GO; GO:0030154; P:cell differentiation; IBA:GO_Central.
+DR   GO; GO:0007259; P:cell surface receptor signaling pathway via JAK-STAT; IDA:UniProtKB.
+DR   GO; GO:0098586; P:cellular response to virus; NAS:ComplexPortal.
+DR   GO; GO:0019221; P:cytokine-mediated signaling pathway; IBA:GO_Central.
+DR   GO; GO:0060397; P:growth hormone receptor signaling pathway via JAK-STAT; IBA:GO_Central.
+DR   GO; GO:0140105; P:interleukin-10-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0038154; P:interleukin-11-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0035723; P:interleukin-15-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0038110; P:interleukin-2-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0035771; P:interleukin-4-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0070102; P:interleukin-6-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0038111; P:interleukin-7-mediated signaling pathway; IC:UniProt.
+DR   GO; GO:0038113; P:interleukin-9-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0035556; P:intracellular signal transduction; IBA:GO_Central.
+DR   GO; GO:0034112; P:positive regulation of homotypic cell-cell adhesion; IMP:ARUK-UCL.
+DR   GO; GO:1900182; P:positive regulation of protein localization to nucleus; IDA:UniProt.
+DR   GO; GO:1903672; P:positive regulation of sprouting angiogenesis; IGI:BHF-UCL.
+DR   GO; GO:0150105; P:protein localization to cell-cell junction; IMP:ARUK-UCL.
+DR   GO; GO:0006468; P:protein phosphorylation; IMP:UniProtKB.
+DR   GO; GO:0046677; P:response to antibiotic; IDA:MGI.
+DR   GO; GO:0072540; P:T-helper 17 cell lineage commitment; TAS:UniProt.
+DR   GO; GO:0060337; P:type I interferon-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0060333; P:type II interferon-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0038196; P:type III interferon-mediated signaling pathway; NAS:ComplexPortal.
+DR   CDD; cd14473; FERM_B-lobe; 1.
+DR   CDD; cd13332; FERM_C_JAK1; 1.
+DR   CDD; cd05077; PTK_Jak1_rpt1; 1.
+DR   CDD; cd05079; PTKc_Jak1_rpt2; 1.
+DR   FunFam; 1.10.510.10:FF:000110; Tyrosine-protein kinase; 1.
+DR   FunFam; 3.30.200.20:FF:000135; Tyrosine-protein kinase; 1.
+DR   FunFam; 3.30.200.20:FF:000293; Tyrosine-protein kinase; 1.
+DR   FunFam; 3.30.505.10:FF:000055; Tyrosine-protein kinase; 1.
+DR   FunFam; 1.10.510.10:FF:000114; Tyrosine-protein kinase JAK2; 1.
+DR   Gene3D; 3.30.200.20; Phosphorylase Kinase, domain 1; 2.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 2.
+DR   InterPro; IPR019749; Band_41_domain.
+DR   InterPro; IPR035963; FERM_2.
+DR   InterPro; IPR019748; FERM_central.
+DR   InterPro; IPR000299; FERM_domain.
+DR   InterPro; IPR041155; FERM_F1.
+DR   InterPro; IPR041046; FERM_F2.
+DR   InterPro; IPR051286; JAK.
+DR   InterPro; IPR041381; JAK1-3/TYK2_PHL_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   InterPro; IPR016251; Tyr_kinase_non-rcpt_Jak/Tyk2.
+DR   InterPro; IPR020776; Tyr_kinase_non-rcpt_Jak1.
+DR   PANTHER; PTHR45807; TYROSINE-PROTEIN KINASE HOPSCOTCH; 1.
+DR   PANTHER; PTHR45807:SF5; TYROSINE-PROTEIN KINASE JAK1; 1.
+DR   Pfam; PF18379; FERM_F1; 1.
+DR   Pfam; PF18377; FERM_F2; 1.
+DR   Pfam; PF17887; Jak1_Phl; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 2.
+DR   Pfam; PF21990; SH2_1; 1.
+DR   PIRSF; PIRSF000636; TyrPK_Jak; 1.
+DR   PRINTS; PR01823; JANUSKINASE.
+DR   PRINTS; PR01824; JANUSKINASE1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00295; B41; 1.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00219; TyrKc; 2.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 2.
+DR   SUPFAM; SSF47031; Second domain of FERM; 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   PROSITE; PS50057; FERM_3; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 2.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Disease variant; Kinase; Magnesium;
+KW   Membrane; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Proteomics identification; Reference proteome; Repeat; SH2 domain;
+KW   Transferase; Tyrosine-protein kinase; Ubl conjugation.
+FT   CHAIN           1..1154
+FT                   /note="Tyrosine-protein kinase JAK1"
+FT                   /id="PRO_0000088108"
+FT   DOMAIN          34..420
+FT                   /note="FERM"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00084"
+FT   DOMAIN          439..544
+FT                   /note="SH2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   DOMAIN          583..855
+FT                   /note="Protein kinase 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          875..1153
+FT                   /note="Protein kinase 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   ACT_SITE        1003
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         881..889
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         908
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000305|PubMed:32750333"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0007744|PubMed:19369195"
+FT   MOD_RES         3
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0007744|PubMed:19369195"
+FT   MOD_RES         228
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19369195"
+FT   MOD_RES         1034
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:11909529"
+FT   MOD_RES         1035
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:11909529"
+FT   VARIANT         634
+FT                   /note="A -> D (in AIIDE; constitutive gain of function
+FT                   resulting in increased receptor signaling pathway via
+FT                   JAK-STAT; no effect on protein abundance)"
+FT                   /evidence="ECO:0000269|PubMed:28111307"
+FT                   /id="VAR_084991"
+FT   VARIANT         703
+FT                   /note="S -> I (in AIIDE; increased activation of protein
+FT                   kinase activity; constitutive gain of function through the
+FT                   transactivation of associated JAK kinases; increased
+FT                   receptor signaling pathway via JAK-STAT)"
+FT                   /evidence="ECO:0000269|PubMed:32750333"
+FT                   /id="VAR_084992"
+FT   VARIANT         973
+FT                   /note="N -> K (in dbSNP:rs34680086)"
+FT                   /evidence="ECO:0000269|PubMed:17344846"
+FT                   /id="VAR_041715"
+FT   MUTAGEN         658
+FT                   /note="V->F: Constitutively active. Increased receptor
+FT                   signaling pathway via JAK-STAT."
+FT                   /evidence="ECO:0000269|PubMed:16239216"
+FT   MUTAGEN         908
+FT                   /note="K->A: Loss of protein tyrosine kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:32750333"
+FT   CONFLICT        350
+FT                   /note="H -> D (in Ref. 1; AAA36527)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        368
+FT                   /note="Y -> F (in Ref. 1; AAA36527)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        898
+FT                   /note="Missing (in Ref. 1; AAA36527)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          36..39
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          43..45
+FT                   /evidence="ECO:0007829|PDB:5IXI"
+FT   STRAND          48..50
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          52..56
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           57..67
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   TURN            72..74
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           75..77
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          78..82
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   TURN            83..86
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          94..97
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          103..109
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   TURN            114..117
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          121..123
+FT                   /evidence="ECO:0007829|PDB:5IXI"
+FT   STRAND          149..151
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           152..167
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           179..204
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   TURN            208..210
+FT                   /evidence="ECO:0007829|PDB:5IXD"
+FT   HELIX           217..220
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           223..230
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           234..252
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           254..259
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           263..277
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          278..280
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          284..289
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          291..293
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          299..304
+FT                   /evidence="ECO:0007829|PDB:5IXI"
+FT   STRAND          313..318
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   TURN            319..321
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          322..327
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          364..367
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           369..371
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          372..378
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          381..386
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          391..395
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           399..416
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           425..427
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           430..437
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           446..456
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          463..467
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          472..482
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          493..503
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          506..509
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          516..518
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           519..527
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          529..533
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          536..538
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   STRAND          555..557
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           559..562
+FT                   /evidence="ECO:0007829|PDB:5L04"
+FT   HELIX           569..572
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          575..578
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           580..582
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          583..592
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          595..603
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          616..624
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           629..644
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          653..659
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          662..668
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           675..682
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   TURN            683..685
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           688..707
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           717..719
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          720..724
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          727..731
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   STRAND          734..737
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           744..746
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           749..754
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   TURN            755..758
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           761..765
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           767..769
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           774..787
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   TURN            788..790
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   TURN            793..796
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           799..807
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           818..827
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           832..834
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           838..848
+FT                   /evidence="ECO:0007829|PDB:4L00"
+FT   HELIX           872..874
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          875..883
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          885..894
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          898..900
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          902..910
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   TURN            915..917
+FT                   /evidence="ECO:0007829|PDB:6RSE"
+FT   HELIX           919..930
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          940..944
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          947..949
+FT                   /evidence="ECO:0007829|PDB:6HZU"
+FT   STRAND          953..957
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           964..970
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   TURN            972..974
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           977..996
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          998..1000
+FT                   /evidence="ECO:0007829|PDB:4K6Z"
+FT   HELIX           1006..1008
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          1009..1013
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          1016..1019
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          1033..1036
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          1039..1041
+FT                   /evidence="ECO:0007829|PDB:5KHX"
+FT   HELIX           1045..1047
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1050..1055
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   STRAND          1057..1059
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1060..1075
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   TURN            1076..1078
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1080..1082
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1084..1092
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   TURN            1097..1099
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1100..1109
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1122..1129
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1130..1132
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1136..1138
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+FT   HELIX           1142..1153
+FT                   /evidence="ECO:0007829|PDB:6N7A"
+SQ   SEQUENCE   1154 AA;  133277 MW;  A2C4BE27851ACABB CRC64;
+     MQYLNIKEDC NAMAFCAKMR SSKKTEVNLE APEPGVEVIF YLSDREPLRL GSGEYTAEEL
+     CIRAAQACRI SPLCHNLFAL YDENTKLWYA PNRTITVDDK MSLRLHYRMR FYFTNWHGTN
+     DNEQSVWRHS PKKQKNGYEK KKIPDATPLL DASSLEYLFA QGQYDLVKCL APIRDPKTEQ
+     DGHDIENECL GMAVLAISHY AMMKKMQLPE LPKDISYKRY IPETLNKSIR QRNLLTRMRI
+     NNVFKDFLKE FNNKTICDSS VSTHDLKVKY LATLETLTKH YGAEIFETSM LLISSENEMN
+     WFHSNDGGNV LYYEVMVTGN LGIQWRHKPN VVSVEKEKNK LKRKKLENKH KKDEEKNKIR
+     EEWNNFSYFP EITHIVIKES VVSINKQDNK KMELKLSSHE EALSFVSLVD GYFRLTADAH
+     HYLCTDVAPP LIVHNIQNGC HGPICTEYAI NKLRQEGSEE GMYVLRWSCT DFDNILMTVT
+     CFEKSEQVQG AQKQFKNFQI EVQKGRYSLH GSDRSFPSLG DLMSHLKKQI LRTDNISFML
+     KRCCQPKPRE ISNLLVATKK AQEWQPVYPM SQLSFDRILK KDLVQGEHLG RGTRTHIYSG
+     TLMDYKDDEG TSEEKKIKVI LKVLDPSHRD ISLAFFEAAS MMRQVSHKHI VYLYGVCVRD
+     VENIMVEEFV EGGPLDLFMH RKSDVLTTPW KFKVAKQLAS ALSYLEDKDL VHGNVCTKNL
+     LLAREGIDSE CGPFIKLSDP GIPITVLSRQ ECIERIPWIA PECVEDSKNL SVAADKWSFG
+     TTLWEICYNG EIPLKDKTLI EKERFYESRC RPVTPSCKEL ADLMTRCMNY DPNQRPFFRA
+     IMRDINKLEE QNPDIVSEKK PATEVDPTHF EKRFLKRIRD LGEGHFGKVE LCRYDPEGDN
+     TGEQVAVKSL KPESGGNHIA DLKKEIEILR NLYHENIVKY KGICTEDGGN GIKLIMEFLP
+     SGSLKEYLPK NKNKINLKQQ LKYAVQICKG MDYLGSRQYV HRDLAARNVL VESEHQVKIG
+     DFGLTKAIET DKEYYTVKDD RDSPVFWYAP ECLMQSKFYI ASDVWSFGVT LHELLTYCDS
+     DSSPMALFLK MIGPTHGQMT VTRLVNTLKE GKRLPCPPNC PDEVYQLMRK CWEFQPSNRT
+     SFQNLIEGFE ALLK
+//

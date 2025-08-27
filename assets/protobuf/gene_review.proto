@@ -1,0 +1,61 @@
+ syntax="proto3";
+ package
+// metamodel_version: 1.7.0
+message AnnotationExtension
+ {
+  string predicate = 0
+  term term = 0
+ }
+message CoreFunction
+ {
+  string description = 0
+  term molecularFunction = 0
+ repeated  term directlyInvolvedIn = 0
+ repeated  term locations = 0
+ repeated  term anatomicalLocations = 0
+ repeated  term substrates = 0
+  term inComplex = 0
+ }
+message ExistingAnnotation
+ {
+  term term = 0
+ repeated  annotationExtension extensions = 0
+  boolean negated = 0
+  string evidenceType = 0
+  reference originalReferenceId = 0
+  review review = 0
+ }
+message Finding
+ {
+  string statement = 0
+  string supportingText = 0
+ }
+// Complete review for a gene
+message GeneReview
+ {
+  string id = 0
+  string geneSymbol = 0
+  string description = 0
+  term taxon = 0
+ repeated  reference references = 0
+ repeated  existingAnnotation existingAnnotations = 0
+ repeated  coreFunction coreFunctions = 0
+ }
+message Reference
+ {
+  string id = 0
+  string title = 0
+ repeated  finding findings = 0
+ }
+message Review
+ {
+  string summary = 0
+  actionEnum action = 0
+  string reason = 0
+ repeated  term proposedReplacementTerms = 0
+ }
+message Term
+ {
+  string id = 0
+  string label = 0
+ }

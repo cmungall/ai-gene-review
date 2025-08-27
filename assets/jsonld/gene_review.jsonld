@@ -1,0 +1,1022 @@
+{
+  "name": "gene_curation",
+  "description": "Schema for gene curation Top level entity is a GeneReview, which is about a single gene (and its equivalent swiss-prot entry). It contains a high level summary of the gene, plus a review of all existing annotations. It also contains a list of core functions, which are GO-CAM-like annotons describing the core evolved functions of the gene.",
+  "id": "https://w3id.org/ai4curation/gene_review",
+  "imports": [
+    "linkml:types"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "prefixes": [
+    {
+      "prefix_prefix": "linkml",
+      "prefix_reference": "https://w3id.org/linkml/"
+    },
+    {
+      "prefix_prefix": "gene_review",
+      "prefix_reference": "https://w3id.org/ai4curation/gene_review/"
+    },
+    {
+      "prefix_prefix": "xsd",
+      "prefix_reference": "http://www.w3.org/2001/XMLSchema#"
+    },
+    {
+      "prefix_prefix": "rdf",
+      "prefix_reference": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "prefix_prefix": "rdfs",
+      "prefix_reference": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "prefix_prefix": "owl",
+      "prefix_reference": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "prefix_prefix": "skos",
+      "prefix_reference": "http://www.w3.org/2004/02/skos/core#"
+    },
+    {
+      "prefix_prefix": "dcat",
+      "prefix_reference": "http://www.w3.org/ns/dcat#"
+    },
+    {
+      "prefix_prefix": "dcterms",
+      "prefix_reference": "http://purl.org/dc/terms/"
+    }
+  ],
+  "default_prefix": "gene_review",
+  "default_range": "string",
+  "types": [
+    {
+      "name": "string",
+      "definition_uri": "https://w3id.org/linkml/String",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "integer",
+      "definition_uri": "https://w3id.org/linkml/Integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "http://www.w3.org/2001/XMLSchema#integer",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "boolean",
+      "definition_uri": "https://w3id.org/linkml/Boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "repr": "bool",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "float",
+      "definition_uri": "https://w3id.org/linkml/Float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#float",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "double",
+      "definition_uri": "https://w3id.org/linkml/Double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#double",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "decimal",
+      "definition_uri": "https://w3id.org/linkml/Decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "time",
+      "definition_uri": "https://w3id.org/linkml/Time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#time",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date",
+      "definition_uri": "https://w3id.org/linkml/Date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "http://www.w3.org/2001/XMLSchema#date",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "datetime",
+      "definition_uri": "https://w3id.org/linkml/Datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date_or_datetime",
+      "definition_uri": "https://w3id.org/linkml/DateOrDatetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "https://w3id.org/linkml/DateOrDatetime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uriorcurie",
+      "definition_uri": "https://w3id.org/linkml/Uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "URIorCURIE",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "curie",
+      "definition_uri": "https://w3id.org/linkml/Curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "Curie",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uri",
+      "definition_uri": "https://w3id.org/linkml/Uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "ncname",
+      "definition_uri": "https://w3id.org/linkml/Ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NCName",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "objectidentifier",
+      "definition_uri": "https://w3id.org/linkml/Objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "ElementIdentifier",
+      "uri": "http://www.w3.org/ns/shex#iri",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "nodeidentifier",
+      "definition_uri": "https://w3id.org/linkml/Nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NodeIdentifier",
+      "uri": "http://www.w3.org/ns/shex#nonLiteral",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpointer",
+      "definition_uri": "https://w3id.org/linkml/Jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpath",
+      "definition_uri": "https://w3id.org/linkml/Jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "sparqlpath",
+      "definition_uri": "https://w3id.org/linkml/Sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    }
+  ],
+  "enums": [
+    {
+      "name": "EvidenceType",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/EvidenceType",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "permissible_values": [
+        {
+          "text": "IDA"
+        },
+        {
+          "text": "IBA"
+        },
+        {
+          "text": "ISS"
+        },
+        {
+          "text": "TAS"
+        },
+        {
+          "text": "IEP"
+        },
+        {
+          "text": "IGC"
+        }
+      ]
+    },
+    {
+      "name": "ActionEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ActionEnum",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "permissible_values": [
+        {
+          "text": "ACCEPT",
+          "description": "Accept the existing annotation as-is, no modifications, and retain as representing the core function of the gene"
+        },
+        {
+          "text": "KEEP_AS_NON_CORE",
+          "description": "Keep the existing annotation as-is, but mark it as non-core. For pleiotropic genes, this may be the developmental processes, or other processes that are not the core function of the gene."
+        },
+        {
+          "text": "REMOVE",
+          "description": "Remove the existing annotation, as it is unlikely to be correct based on combined evidence"
+        },
+        {
+          "text": "MODIFY",
+          "description": "The essence of the annotation is sound, but there are better terms to use (use in combination with proposed_replacement_terms)"
+        },
+        {
+          "text": "MARK_AS_OVER_ANNOTATED",
+          "description": "The term is not entirely wrong, but likely represents an over-annotation of the gene"
+        },
+        {
+          "text": "UNDECIDED",
+          "description": "The annotation is not clear, and the reviewer is not sure what to do with it. ALWAYS USE THIS IF YOU ARE UNABLE TO ACCESS RELEVANT PUBLICATIONS"
+        }
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "name": "id",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/id",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/id",
+      "identifier": true,
+      "owner": "Reference",
+      "domain_of": [
+        "GeneReview",
+        "Term",
+        "Reference"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "label",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/label",
+      "description": "Human readable name of the entity",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/label",
+      "owner": "Term",
+      "domain_of": [
+        "Term"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "gene_symbol",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/gene_symbol",
+      "description": "Symbol of the gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/gene_symbol",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "title",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/title",
+      "description": "Title of the entity",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "mappings": [
+        "http://purl.org/dc/terms/title"
+      ],
+      "slot_uri": "http://purl.org/dc/terms/title",
+      "owner": "Reference",
+      "domain_of": [
+        "Reference"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "aliases",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/aliases",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/aliases",
+      "range": "string",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "description",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/description",
+      "description": "Description of the entity",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/description",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "statement",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/statement",
+      "description": "Concise statement describing an aspect of the gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/statement",
+      "owner": "Finding",
+      "domain_of": [
+        "Finding"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "references",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/references",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/references",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "Reference",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "findings",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/findings",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/findings",
+      "owner": "Reference",
+      "domain_of": [
+        "Reference"
+      ],
+      "range": "Finding",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "summary",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/summary",
+      "description": "Summary of the review",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/summary",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "supporting_text",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/supporting_text",
+      "description": "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/supporting_text",
+      "owner": "Finding",
+      "domain_of": [
+        "Finding"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "evidence_type",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/evidence_type",
+      "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/evidence_type",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "term",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/term",
+      "description": "Term to be annotated",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/term",
+      "owner": "AnnotationExtension",
+      "domain_of": [
+        "ExistingAnnotation",
+        "AnnotationExtension"
+      ],
+      "range": "Term",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "predicate",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/predicate",
+      "description": "Predicate of the extension",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/predicate",
+      "owner": "AnnotationExtension",
+      "domain_of": [
+        "AnnotationExtension"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "taxon",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/taxon",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/taxon",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "Term",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "existing_annotations",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/existing_annotations",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/existing_annotations",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "ExistingAnnotation",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "core_functions",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/core_functions",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/core_functions",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "CoreFunction",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "action",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/action",
+      "description": "Action to be taken",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/action",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "ActionEnum",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "reason",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/reason",
+      "description": "Reason for the action",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/reason",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "proposed_replacement_terms",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/proposed_replacement_terms",
+      "description": "Proposed replacement terms",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/proposed_replacement_terms",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "Term",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "extensions",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/extensions",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/extensions",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "AnnotationExtension",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "negated",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/negated",
+      "description": "Whether the term is negated",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/negated",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "boolean",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "original_reference_id",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/original_reference_id",
+      "description": "ID of the original reference",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/original_reference_id",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "Reference",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "review",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/review",
+      "description": "Review of the gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/review",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "Review",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__description",
+      "description": "Description of the core function",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/description",
+      "alias": "description",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__molecular_function",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/molecular_function",
+      "alias": "molecular_function",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__directly_involved_in",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/directly_involved_in",
+      "alias": "directly_involved_in",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__locations",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/locations",
+      "alias": "locations",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__anatomical_locations",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/anatomical_locations",
+      "alias": "anatomical_locations",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__substrates",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/substrates",
+      "alias": "substrates",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "coreFunction__in_complex",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/in_complex",
+      "alias": "in_complex",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "Term",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    }
+  ],
+  "classes": [
+    {
+      "name": "GeneReview",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GeneReview",
+      "description": "Complete review for a gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "id",
+        "gene_symbol",
+        "description",
+        "taxon",
+        "references",
+        "existing_annotations",
+        "core_functions"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/GeneReview",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Term",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Term",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "id",
+        "label"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Term",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Reference",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Reference",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "id",
+        "title",
+        "findings"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Reference",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Finding",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Finding",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "statement",
+        "supporting_text"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Finding",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExistingAnnotation",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ExistingAnnotation",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "term",
+        "extensions",
+        "negated",
+        "evidence_type",
+        "original_reference_id",
+        "review"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/ExistingAnnotation",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Review",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Review",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "summary",
+        "action",
+        "reason",
+        "proposed_replacement_terms"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Review",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "CoreFunction",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/CoreFunction",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "coreFunction__description",
+        "coreFunction__molecular_function",
+        "coreFunction__directly_involved_in",
+        "coreFunction__locations",
+        "coreFunction__anatomical_locations",
+        "coreFunction__substrates",
+        "coreFunction__in_complex"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "description",
+          "description": "Description of the core function",
+          "range": "string",
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "molecular_function",
+          "range": "Term",
+          "inlined": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "directly_involved_in",
+          "range": "Term",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "locations",
+          "range": "Term",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "anatomical_locations",
+          "range": "Term",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "substrates",
+          "range": "Term",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "in_complex",
+          "range": "Term",
+          "inlined": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/ai4curation/gene_review/CoreFunction",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "AnnotationExtension",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/AnnotationExtension",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "predicate",
+        "term"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/AnnotationExtension",
+      "@type": "ClassDefinition"
+    }
+  ],
+  "metamodel_version": "1.7.0",
+  "source_file": "gene_review.yaml",
+  "source_file_date": "2025-08-24T14:51:08",
+  "source_file_size": 5351,
+  "generation_date": "2025-08-24T14:51:11",
+  "@type": "SchemaDefinition",
+  "@context": [
+    "assets/jsonld/gene_review.context.jsonld",
+    "https://w3id.org/linkml/types.context.jsonld",
+    {
+      "@base": "https://w3id.org/ai4curation/gene_review/"
+    }
+  ]
+}

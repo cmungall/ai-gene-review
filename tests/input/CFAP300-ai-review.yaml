@@ -1,0 +1,8 @@
+id: Q9BRQ4
+gene_symbol: CFAP300
+aliases:
+  - C11orf70
+taxon:
+  id: "NCBITaxon:9606"
+  label: Homo sapiens
+description: Cilia- and flagella-associated protein 300 involved in ciliary motility and dynein arm assembly

@@ -1,0 +1,283 @@
+id: A6NFN3
+gene_symbol: RBFOX3
+aliases:
+- NeuN
+- Fox-1 homolog C
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: RBFOX3 (RNA Binding Protein Fox-1 Homolog 3) is a neuronal-specific RNA-binding
+  protein (~314 amino acids) that regulates alternative splicing in the central nervous
+  system. Also known as NeuN (Neuronal nuclei antigen), it serves as a definitive
+  marker for post-mitotic neurons and is critical for neuronal differentiation, adult
+  neurogenesis, and synaptic function. Contains a highly conserved RNA recognition  motif
+  (RRM) that binds to UGCAUG sequences in pre-mRNA. Functions both as an activator
+  and repressor of alternative  splicing in a position-dependent manner. Alternative
+  splicing produces nuclear (~46 kDa) and cytoplasmic (~48 kDa)  isoforms with distinct
+  functions. Essential for maintaining excitatory/inhibitory balance in neural circuits.
+references:
+- id: PMID:21747913
+  title: NeuN/Rbfox3 nuclear and cytoplasmic isoforms differentially regulate alternative
+    splicing and nonsense-mediated decay of Rbfox2
+  findings:
+  - statement: RBFOX3 regulates alternative splicing of RBFOX2 to enhance nonsense-mediated
+      decay
+    supporting_text: All tested Rbfox3 protein isoforms repress inclusion of the alternative
+      RRM exon, exon 6, of Rbfox2, giving rise to a variant of Rbfox2 without a functional
+      RRM
+  - statement: Alternative splicing creates nuclear and cytoplasmic RBFOX3 isoforms
+    supporting_text: Alternative splicing of the Rbfox3 pre-mRNA itself leads to the
+      production of four protein isoforms that migrate in the 45–50 kDa range
+- id: PMID:23420872
+  title: Rbfox3-regulated alternative splicing of Numb promotes neuronal differentiation
+    during development
+  findings:
+  - statement: RBFOX3 promotes neuronal differentiation through Numb splicing regulation
+    supporting_text: Rbfox3-regulated alternative splicing of Numb promotes neuronal
+      differentiation during development
+- id: file:human/RBFOX3/RBFOX3-deep-research.md
+  title: 'Deep Research Report: RBFOX3 comprehensive analysis'
+  findings:
+  - statement: RBFOX3 is essential for adult hippocampal neurogenesis
+    supporting_text: Mice lacking RBFOX3 show deficits in adult hippocampal neurogenesis,
+      evidenced by reduced proliferation or survival of newborn neurons in the dentate
+      gyrus
+  - statement: RBFOX3 regulates synaptic organization and maintains excitatory/inhibitory
+      balance
+    supporting_text: RBFOX3 knockout leads to altered expression of synapse-related
+      gene isoforms, an increase in dendritic spine density (indicative of aberrant
+      synapse formation)
+  - statement: Loss-of-function mutations cause epilepsy in humans
+    supporting_text: A study of Rolandic epilepsy found a de novo nonsense mutation
+      in RBFOX3 (p.Tyr287*) and an exon 3 deletion, among other RBFOX-family mutations,
+      in patients
+- id: file:human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis/RESULTS.md
+  title: 'RBFOX3 Bioinformatics Analysis: Sequence, Domain, and Family Comparative Study'
+  findings:
+  - statement: RBFOX3 shows unique structural features within the RBFOX family
+    supporting_text: 'RBFOX3 (313 aa) is the longest family member with only ~9% sequence
+      identity to RBFOX1/2, indicating significant functional specialization. Contains
+      extended C-terminal domain (133 aa vs 106 aa) and unique N-terminal composition'
+  - statement: RNA Recognition Motif confirms sequence-specific binding capability
+    supporting_text: 'RRM domain (aa 100-175) contains canonical RNP1 motif (KGFGF)
+      and 8 experimentally validated RNA interaction sites. High content of aromatic
+      and basic residues supports RNA binding function'
+  - statement: Bioinformatics analysis validates canonical UGCAUG motif recognition
+    supporting_text: 'Domain structure and binding site analysis confirm recognition
+      of UGCAUG canonical motif with position-dependent splicing regulation mechanism.
+      Known targets include RBFOX2, NUMB, GRIA2, and CACNA1C'
+  - statement: Molecular properties support neuronal-specific function
+    supporting_text: 'High proline content (12.8%) in disordered regions, unique domain
+      architecture, and target gene analysis provide structural basis for neuronal
+      tissue specificity and alternative splicing regulation'
+- id: GO_REF:0000033
+  title: Gene Ontology inferred from electronic annotation (IBA)
+  findings: []
+- id: GO_REF:0000002
+  title: Gene Ontology inferred from electronic annotation based on InterPro
+  findings: []
+- id: GO_REF:0000120
+  title: Gene Ontology inferred from electronic annotation (IEA)
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology inferred from electronic annotation based on UniProtKB keywords
+  findings: []
+existing_annotations:
+- term:
+    id: GO:0000381
+    label: regulation of alternative mRNA splicing, via spliceosome
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Automated annotation based on protein family membership
+    action: ACCEPT
+    reason: Core function of RBFOX3 - well-documented regulation of alternative splicing
+      through position-dependent binding to (U)GCAUG motifs
+- term:
+    id: GO:0003676
+    label: nucleic acid binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Automated annotation based on RNA-binding domain
+    action: MODIFY
+    reason: Too general - RBFOX3 specifically binds RNA, not DNA. More specific RNA
+      binding terms are available
+    proposed_replacement_terms:
+    - id: GO:0003723
+      label: RNA binding
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Automated annotation based on RNA recognition motif
+    action: ACCEPT
+    reason: Accurate and well-supported - RBFOX3 contains RRM domain and binds specific
+      RNA sequences
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Automated and inferred annotation based on neuronal expression
+    action: ACCEPT
+    reason: Well-supported - RBFOX3 is essential for neuronal differentiation and
+      CNS development
+- term:
+    id: GO:0043484
+    label: regulation of RNA splicing
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Automated annotation based on splicing regulator function
+    action: KEEP_AS_NON_CORE
+    reason: Accurate but less specific than 'regulation of alternative mRNA splicing'
+      - alternative splicing is RBFOX3's core function
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Automated annotation and phylogenetic inference
+    action: MODIFY
+    reason: Incomplete - RBFOX3 has both nuclear and cytoplasmic isoforms with distinct
+      functions. Nuclear localization is isoform-dependent
+    proposed_replacement_terms:
+    - id: GO:0070013
+      label: intracellular organelle lumen
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Automated annotation and phylogenetic inference
+    action: MODIFY
+    reason: Too general - RBFOX3 cytoplasmic isoforms have specific functions distinct
+      from general cytoplasmic localization
+    proposed_replacement_terms:
+    - id: GO:0005829
+      label: cytosol
+- term:
+    id: GO:0006397
+    label: mRNA processing
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Automated annotation based on RNA processing function
+    action: MODIFY
+    reason: Too general - RBFOX3 specifically regulates alternative splicing, not
+      general mRNA processing
+    proposed_replacement_terms:
+    - id: GO:0000381
+      label: regulation of alternative mRNA splicing, via spliceosome
+- term:
+    id: GO:0008380
+    label: RNA splicing
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Automated annotation based on splicing function
+    action: MODIFY
+    reason: Less specific than RBFOX3's actual function - it regulates alternative
+      splicing, not general splicing
+    proposed_replacement_terms:
+    - id: GO:0000381
+      label: regulation of alternative mRNA splicing, via spliceosome
+- term:
+    id: GO:0003729
+    label: mRNA binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Phylogenetic inference based on ortholog functions
+    action: ACCEPT
+    reason: Accurate and specific - RBFOX3 binds to specific mRNA sequences through
+      its RRM domain
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Phylogenetic inference of nuclear localization
+    action: ACCEPT
+    reason: RBFOX3 nuclear isoforms are well-documented and functionally important
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Phylogenetic inference based on neuronal development role
+    action: ACCEPT
+    reason: RBFOX3 is essential for neuronal differentiation and CNS development
+- term:
+    id: GO:0000381
+    label: regulation of alternative mRNA splicing, via spliceosome
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Phylogenetic inference of alternative splicing regulation
+    action: ACCEPT
+    reason: Core function - RBFOX3 regulates alternative splicing through position-dependent
+      binding
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Phylogenetic inference of cytoplasmic localization
+    action: ACCEPT
+    reason: RBFOX3 cytoplasmic isoforms are well-documented with distinct functions
+core_functions:
+- description: Neuron-specific regulation of alternative splicing and synaptic function
+    through sequence-specific RNA binding
+  molecular_function:
+    id: GO:0003729
+    label: mRNA binding
+  directly_involved_in:
+  - id: GO:0000381
+    label: regulation of alternative mRNA splicing, via spliceosome
+  - id: GO:0007399
+    label: nervous system development
+  - id: GO:0045666
+    label: positive regulation of neuron differentiation
+  - id: GO:0050769
+    label: positive regulation of neurogenesis
+  - id: GO:0050808
+    label: synapse organization
+  - id: GO:0048167
+    label: regulation of synaptic plasticity
+  - id: GO:0050804
+    label: modulation of chemical synaptic transmission
+  locations:
+  - id: GO:0005634
+    label: nucleus
+  - id: GO:0005829
+    label: cytosol
+  - id: GO:0043025
+    label: neuronal cell body
+  - id: GO:0005681
+    label: spliceosomal complex
+  anatomical_locations:
+  - id: UBERON:0001017
+    label: central nervous system
+  - id: UBERON:0000955
+    label: brain
+  - id: UBERON:0002421
+    label: hippocampal formation
+  substrates:
+  - id: TEMP:RBFOX3_mRNA_complex
+    label: RBFOX3-mRNA complex
+    description: Complex formed by RBFOX3 binding to UGCAUG motifs in target pre-mRNAs
+      for splicing regulation
+  - id: TEMP:RBFOX3_LASR_complex
+    label: RBFOX3-LASR complex
+    description: Large Assembly of Splicing Regulators complex containing RBFOX3 and
+      other splicing factors

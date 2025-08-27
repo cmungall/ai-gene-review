@@ -1,0 +1,108 @@
+id: Q22179
+gene_symbol: lrx-1
+aliases:
+  - T04H1.6
+  - egf-5
+  - CELE_T04H1.6
+taxon:
+  id: NCBITaxon:6239
+  label: Caenorhabditis elegans
+description: >-
+  LRX-1 is a poorly characterized cysteine-rich protein of unknown function in C. elegans. 
+  Despite its name suggesting "LRP cross-hybridizing", bioinformatic analysis reveals it is 
+  NOT a true LRP family member. The protein contains 30 cysteines (8.1% of sequence) in 
+  17 potential cysteine-rich regions, but these do NOT form canonical LDL receptor Class A 
+  domains as incorrectly annotated. The protein lacks essential LRP features including 
+  β-propeller and EGF-like domains, and is much smaller (369 aa) than true LRP proteins 
+  (>4000 aa). Likely a secreted protein rather than membrane-bound, with C. elegans-specific 
+  cysteine-rich domains of unknown structure and function. High-throughput screens identified 
+  interactions with RSP-4, PFD-3, and PERM-4 (eggshell integrity protein), suggesting potential 
+  involvement in extracellular matrix organization, though biological significance remains unclear.
+
+references:
+  - id: PMID:14704431
+    title: "A map of the interactome network of the metazoan C. elegans"
+    findings:
+      - statement: "High-throughput yeast two-hybrid screens identified LRX-1 protein interactions"
+        supporting_text: "Li et al. (2004) identified protein-protein interactions including LRX-1 interactors in C. elegans using yeast two-hybrid screens"
+  - id: PMID:19123269
+    title: "Empirically controlled mapping of the Caenorhabditis elegans protein-protein interactome network"
+    findings:
+      - statement: "Expanded C. elegans interactome mapping identified LRX-1 interactions including PERM-4"
+        supporting_text: "Simonis et al. (2009) expanded the C. elegans interactome mapping, identifying interactions between LRX-1 and PERM-4, an eggshell integrity protein"
+  - id: BioGRID
+    title: "BioGRID interaction database"
+    findings:
+      - statement: "LRX-1 interacts with RSP-4, PFD-3, and PERM-4"
+        supporting_text: "High-throughput yeast two-hybrid screens identified protein-protein interactions, including interaction with PERM-4 (eggshell integrity protein)"
+  - id: file:worm/lrx-1/lrx-1-bioinformatics/RESULTS.md
+    title: "Bioinformatic analysis of LRX-1 protein sequence and domain predictions"
+    findings:
+      - statement: "LRX-1 lacks canonical LDL-A domains despite annotations"
+        supporting_text: "Analysis revealed no canonical LDL-A domain patterns; cysteine spacings incompatible with LDL-A requirements"
+      - statement: "Not a true LRP family protein"
+        supporting_text: "368 aa protein is 10x smaller than typical LRP proteins (4000-6000 aa); lacks β-propeller and EGF-like domains required for LRP function"
+  - id: GO_REF:0000044
+    title: "UniProt-GOA annotations"
+    findings:
+      - statement: "Automated UniProt-SubCell based annotation"
+        supporting_text: "Automatic annotation using UniProt subcellular location keywords"
+  - id: GO_REF:0000120
+    title: "UniProt-GOA annotations ARBA"
+    findings:
+      - statement: "Automatic Rule-Based Annotation"
+        supporting_text: "Automated annotation using ARBA rules"
+  - id: GO_REF:0000117
+    title: "UniProt-GOA annotations ARBA"
+    findings:
+      - statement: "Automatic Rule-Based Annotation"
+        supporting_text: "Automated annotation using ARBA rules for vesicle-mediated transport"
+
+existing_annotations:
+  - term:
+      id: GO:0012505
+      label: endomembrane system
+    evidence_type: IEA
+    original_reference_id: GO_REF:0000044
+    review:
+      summary: "ARBA-based prediction without experimental support"
+      action: REMOVE
+      reason: "Based on incorrect membrane protein prediction; bioinformatic analysis suggests secreted protein, not membrane-bound"
+      additional_reference_ids:
+        - file:worm/lrx-1/lrx-1-bioinformatics/RESULTS.md
+    
+  - term:
+      id: GO:0016020
+      label: membrane
+    evidence_type: IEA
+    original_reference_id: GO_REF:0000120
+    review:
+      summary: "ARBA-based prediction of membrane localization"
+      action: REMOVE
+      reason: "No strong transmembrane helix detected; weak hydrophobic regions incompatible with membrane insertion"
+      additional_reference_ids:
+        - file:worm/lrx-1/lrx-1-bioinformatics/RESULTS.md
+    
+  - term:
+      id: GO:0016192
+      label: vesicle-mediated transport
+    evidence_type: IEA
+    original_reference_id: GO_REF:0000117
+    review:
+      summary: "ARBA-based prediction from incorrect LRP domain annotation"
+      action: REMOVE
+      reason: "Based on false LDL receptor domain predictions; no evidence for cargo receptor function"
+      additional_reference_ids:
+        - file:worm/lrx-1/lrx-1-bioinformatics/RESULTS.md
+
+core_functions:
+  - description: "Unknown function - likely involves protein-protein interactions via cysteine-rich domains"
+    molecular_function:
+      id: GO:0005515
+      label: protein binding
+    directly_involved_in:
+      - id: GO:0008150
+        label: biological_process
+    locations:
+      - id: GO:0005576
+        label: extracellular region

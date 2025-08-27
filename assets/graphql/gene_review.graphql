@@ -1,0 +1,85 @@
+# metamodel_version: 1.7.0
+enum ActionEnum
+  {
+    ACCEPT
+    KEEP_AS_NON_CORE
+    REMOVE
+    MODIFY
+    MARK_AS_OVER_ANNOTATED
+    UNDECIDED
+  }
+
+enum EvidenceType
+  {
+    IDA
+    IBA
+    ISS
+    TAS
+    IEP
+    IGC
+  }
+
+type AnnotationExtension
+  {
+    predicate: String
+    term: Term
+  }
+
+type CoreFunction
+  {
+    description: String
+    molecularFunction: Term
+    directlyInvolvedIn: [Term]
+    locations: [Term]
+    anatomicalLocations: [Term]
+    substrates: [Term]
+    inComplex: Term
+  }
+
+type ExistingAnnotation
+  {
+    term: Term
+    extensions: [AnnotationExtension]
+    negated: Boolean
+    evidenceType: String
+    originalReferenceId: Reference
+    review: Review
+  }
+
+type Finding
+  {
+    statement: String
+    supportingText: String
+  }
+
+type GeneReview
+  {
+    id: String!
+    geneSymbol: String
+    description: String
+    taxon: Term
+    references: [Reference]
+    existingAnnotations: [ExistingAnnotation]
+    coreFunctions: [CoreFunction]
+  }
+
+type Reference
+  {
+    id: String!
+    title: String
+    findings: [Finding]
+  }
+
+type Review
+  {
+    summary: String
+    action: ActionEnum
+    reason: String
+    proposedReplacementTerms: [Term]
+  }
+
+type Term
+  {
+    id: String!
+    label: String
+  }

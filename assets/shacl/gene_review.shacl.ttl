@@ -1,0 +1,221 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gene_review: <https://w3id.org/ai4curation/gene_review/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+gene_review:GeneReview a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Complete review for a gene" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:id ],
+        [ sh:datatype xsd:string ;
+            sh:description "Symbol of the gene" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path gene_review:gene_symbol ],
+        [ sh:class gene_review:CoreFunction ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 6 ;
+            sh:path gene_review:core_functions ],
+        [ sh:datatype xsd:string ;
+            sh:description "Description of the entity" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:description ],
+        [ sh:class gene_review:Reference ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path gene_review:references ],
+        [ sh:class gene_review:ExistingAnnotation ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 5 ;
+            sh:path gene_review:existing_annotations ],
+        [ sh:class gene_review:Term ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path gene_review:taxon ] ;
+    sh:targetClass gene_review:GeneReview .
+
+gene_review:AnnotationExtension a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class gene_review:Term ;
+            sh:description "Term to be annotated" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path gene_review:term ],
+        [ sh:datatype xsd:string ;
+            sh:description "Predicate of the extension" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:predicate ] ;
+    sh:targetClass gene_review:AnnotationExtension .
+
+gene_review:CoreFunction a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 5 ;
+            sh:path gene_review:substrates ],
+        [ sh:class gene_review:Term ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 6 ;
+            sh:path gene_review:in_complex ],
+        [ sh:class gene_review:Term ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path gene_review:molecular_function ],
+        [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path gene_review:locations ],
+        [ sh:datatype xsd:string ;
+            sh:description "Description of the core function" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:description ],
+        [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path gene_review:anatomical_locations ],
+        [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path gene_review:directly_involved_in ] ;
+    sh:targetClass gene_review:CoreFunction .
+
+gene_review:ExistingAnnotation a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:boolean ;
+            sh:description "Whether the term is negated" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:negated ],
+        [ sh:class gene_review:Reference ;
+            sh:description "ID of the original reference" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path gene_review:original_reference_id ],
+        [ sh:class gene_review:Term ;
+            sh:description "Term to be annotated" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path gene_review:term ],
+        [ sh:class gene_review:AnnotationExtension ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 1 ;
+            sh:path gene_review:extensions ],
+        [ sh:class gene_review:Review ;
+            sh:description "Review of the gene" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 5 ;
+            sh:path gene_review:review ],
+        [ sh:datatype xsd:string ;
+            sh:description "Evidence code (e.g., IDA, IBA, ISS, TAS)" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path gene_review:evidence_type ] ;
+    sh:targetClass gene_review:ExistingAnnotation .
+
+gene_review:Finding a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "Concise statement describing an aspect of the gene" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:statement ],
+        [ sh:datatype xsd:string ;
+            sh:description "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path gene_review:supporting_text ] ;
+    sh:targetClass gene_review:Finding .
+
+gene_review:Review a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "Reason for the action" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:reason ],
+        [ sh:datatype xsd:string ;
+            sh:description "Summary of the review" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:summary ],
+        [ sh:class gene_review:Term ;
+            sh:description "Proposed replacement terms" ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path gene_review:proposed_replacement_terms ],
+        [ sh:description "Action to be taken" ;
+            sh:in ( "ACCEPT" "KEEP_AS_NON_CORE" "REMOVE" "MODIFY" "MARK_AS_OVER_ANNOTATED" "UNDECIDED" ) ;
+            sh:maxCount 1 ;
+            sh:order 1 ;
+            sh:path gene_review:action ] ;
+    sh:targetClass gene_review:Review .
+
+gene_review:Reference a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class gene_review:Finding ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 2 ;
+            sh:path gene_review:findings ],
+        [ sh:datatype xsd:string ;
+            sh:description "Title of the entity" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path dcterms:title ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:id ] ;
+    sh:targetClass gene_review:Reference .
+
+gene_review:Term a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "Human readable name of the entity" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path gene_review:label ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:id ] ;
+    sh:targetClass gene_review:Term .
+

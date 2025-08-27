@@ -1,0 +1,26 @@
+id: Q9TEST
+gene_symbol: TESTGENE
+aliases:
+  - TEST1
+taxon:
+  id: "NCBITaxon:9606"
+  label: Homo sapiens
+description: Test gene with broken reference ID in annotation
+
+references:
+  - id: PMID:12345
+    title: "Valid reference paper"
+    findings:
+      - statement: "This is a test finding"
+        supporting_text: "Some supporting text"
+
+existing_annotations:
+  - term:
+      id: GO:0005515
+      label: protein binding
+    evidence_type: IPI
+    original_reference_id: PMID:99999  # This reference doesn't exist!
+    review:
+      summary: "Test annotation with invalid reference"
+      action: ACCEPT
+      reason: "Testing broken reference validation"

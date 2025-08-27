@@ -1,0 +1,99 @@
+ID   Q22179_CAEEL            Unreviewed;       368 AA.
+AC   Q22179;
+DT   01-NOV-1996, integrated into UniProtKB/TrEMBL.
+DT   10-MAY-2005, sequence version 2.
+DT   18-JUN-2025, entry version 157.
+DE   SubName: Full=LRP X(Cross)-hybridizing {ECO:0000313|EMBL:CAB01583.2};
+GN   Name=lrx-1 {ECO:0000313|EMBL:CAB01583.2,
+GN   ECO:0000313|WormBase:T04H1.6};
+GN   ORFNames=CELE_T04H1.6 {ECO:0000313|EMBL:CAB01583.2}, T04H1.6
+GN   {ECO:0000313|WormBase:T04H1.6};
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239 {ECO:0000313|EMBL:CAB01583.2, ECO:0000313|Proteomes:UP000001940};
+RN   [1] {ECO:0000313|EMBL:CAB01583.2, ECO:0000313|Proteomes:UP000001940}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2 {ECO:0000313|EMBL:CAB01583.2,
+RC   ECO:0000313|Proteomes:UP000001940};
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RA   Sulson J.E., Waterston R.;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+CC   -!- SUBCELLULAR LOCATION: Endomembrane system
+CC       {ECO:0000256|ARBA:ARBA00004308}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004479}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004479}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|PROSITE-ProRule:PRU00124}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX284605; CAB01583.2; -; Genomic_DNA.
+DR   PIR; T24476; T24476.
+DR   RefSeq; NP_506072.2; NM_073671.6.
+DR   AlphaFoldDB; Q22179; -.
+DR   DIP; DIP-25075N; -.
+DR   FunCoup; Q22179; 15.
+DR   IntAct; Q22179; 2.
+DR   STRING; 6239.T04H1.6.1; -.
+DR   PaxDb; 6239-T04H1.6; -.
+DR   EnsemblMetazoa; T04H1.6.1; T04H1.6.1; WBGene00003075.
+DR   GeneID; 192091; -.
+DR   KEGG; cel:CELE_T04H1.6; -.
+DR   AGR; WB:WBGene00003075; -.
+DR   CTD; 192091; -.
+DR   WormBase; T04H1.6; CE38413; WBGene00003075; lrx-1.
+DR   eggNOG; ENOG502QSXS; Eukaryota.
+DR   HOGENOM; CLU_759178_0_0_1; -.
+DR   InParanoid; Q22179; -.
+DR   OMA; YAINYCD; -.
+DR   OrthoDB; 9990982at2759; -.
+DR   PhylomeDB; Q22179; -.
+DR   Proteomes; UP000001940; Chromosome V.
+DR   Bgee; WBGene00003075; Expressed in pharyngeal muscle cell (C elegans) and 3 other cell types or tissues.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IEA:UniProtKB-ARBA.
+DR   CDD; cd00112; LDLa; 4.
+DR   Gene3D; 4.10.400.10; Low-density Lipoprotein Receptor; 4.
+DR   InterPro; IPR036055; LDL_receptor-like_sf.
+DR   InterPro; IPR050685; LDLR.
+DR   InterPro; IPR023415; LDLR_class-A_CS.
+DR   InterPro; IPR002172; LDrepeatLR_classA_rpt.
+DR   PANTHER; PTHR24270:SF59; LDL RECEPTOR REPEAT-CONTAINING PROTEIN EGG-1-RELATED; 1.
+DR   PANTHER; PTHR24270; LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED; 1.
+DR   Pfam; PF00057; Ldl_recept_a; 4.
+DR   PRINTS; PR00261; LDLRECEPTOR.
+DR   SMART; SM00192; LDLa; 4.
+DR   SUPFAM; SSF57424; LDL receptor-like module; 3.
+DR   PROSITE; PS01209; LDLRA_1; 1.
+DR   PROSITE; PS50068; LDLRA_2; 4.
+PE   4: Predicted;
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157, ECO:0000256|PROSITE-
+KW   ProRule:PRU00124}; Reference proteome {ECO:0000313|Proteomes:UP000001940};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..368
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004200551"
+FT   DISULFID        229..244
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00124"
+FT   DISULFID        313..328
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00124"
+FT   DISULFID        352..367
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00124"
+SQ   SEQUENCE   368 AA;  40754 MW;  1AFE79F1D5104C32 CRC64;
+     MAWLTSIFFI LLAVQPVLPQ DLYGTATQQQ PYPYVQPSAS SGSGGYVPNP QSSIHTVQQP
+     YPNIDVVEPD VDSVDIYETE EPQFKVVNPV FPLGGSGIVE PGTIPPPMPQ TQAPEKPDNS
+     YAINYCDKRE FPDDVLAQYG LERIDYFVYN TSCSHVFFQC SIGQTFPLAC MSEDQAFDKS
+     TENCNHKNAI KFCPEYDHVM HCTIKDTCTE NEFACCAMPQ SCIHVSKRCD GHPDCADGED
+     ENNCPSCARD EFACVKSEHC IPANKRCDGV ADDCEDGSNL DEIGCSKNTT CIGKFVCGTS
+     RGGVSCVDLD MHCDGKKDCL NGEDEMNCKQ EGRQKYLLCE NQKQSVTRLQ WCNGETDCAD
+     GSDEKYCY
+//

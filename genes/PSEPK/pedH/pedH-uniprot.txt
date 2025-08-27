@@ -1,0 +1,553 @@
+ID   PEDH_PSEPK              Reviewed;         595 AA.
+AC   Q88JH0;
+DT   24-JUL-2024, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   18-JUN-2025, entry version 119.
+DE   RecName: Full=Quinoprotein alcohol dehydrogenase PedH {ECO:0000305|PubMed:28655819, ECO:0000305|Ref.3};
+DE            EC=1.1.2.- {ECO:0000305|PubMed:28655819, ECO:0000305|Ref.3};
+DE   AltName: Full=Lanthanide-dependent pyrroloquinoline quinone-dependent alcohol dehydrogenase {ECO:0000303|PubMed:28655819};
+DE            Short=Lanthanide-dependent PQQ-ADH {ECO:0000303|PubMed:28655819};
+DE   Flags: Precursor;
+GN   Name=pedH {ECO:0000303|PubMed:28655819, ECO:0000303|Ref.3};
+GN   Synonyms=qedH-II {ECO:0000312|EMBL:AAN68287.1};
+GN   OrderedLocusNames=PP_2679 {ECO:0000312|EMBL:AAN68287.1};
+OS   Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950
+OS   / KT2440).
+OC   Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+OC   Pseudomonadales; Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=160488;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440;
+RX   PubMed=12534463; DOI=10.1046/j.1462-2920.2002.00366.x;
+RA   Nelson K.E., Weinel C., Paulsen I.T., Dodson R.J., Hilbert H.,
+RA   Martins dos Santos V.A.P., Fouts D.E., Gill S.R., Pop M., Holmes M.,
+RA   Brinkac L.M., Beanan M.J., DeBoy R.T., Daugherty S.C., Kolonay J.F.,
+RA   Madupu R., Nelson W.C., White O., Peterson J.D., Khouri H.M., Hance I.,
+RA   Chris Lee P., Holtzapple E.K., Scanlan D., Tran K., Moazzez A.,
+RA   Utterback T.R., Rizzo M., Lee K., Kosack D., Moestl D., Wedler H.,
+RA   Lauber J., Stjepandic D., Hoheisel J., Straetz M., Heim S., Kiewitz C.,
+RA   Eisen J.A., Timmis K.N., Duesterhoeft A., Tuemmler B., Fraser C.M.;
+RT   "Complete genome sequence and comparative analysis of the metabolically
+RT   versatile Pseudomonas putida KT2440.";
+RL   Environ. Microbiol. 4:799-808(2002).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, SUBSTRATE SPECIFICITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, INDUCTION BY LANTHANIDES, AND DISRUPTION
+RP   PHENOTYPE.
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440;
+RX   PubMed=28655819; DOI=10.1128/mbio.00570-17;
+RA   Wehrmann M., Billard P., Martin-Meriadec A., Zegeye A., Klebensberger J.;
+RT   "Functional Role of Lanthanides in Enzymatic Activity and Transcriptional
+RT   Regulation of Pyrroloquinoline Quinone-Dependent Alcohol Dehydrogenases in
+RT   Pseudomonas putida KT2440.";
+RL   MBio 8:e00570-e00570(2017).
+RN   [3] {ECO:0007744|PDB:6ZCV, ECO:0007744|PDB:6ZCW}
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) OF 28-595 OF WILD-TYPE AND MUTANT
+RP   VAL-412/ALA-561 IN COMPLEX WITH PQQ AND PR(3+), DISULFIDE BOND, FUNCTION,
+RP   CATALYTIC ACTIVITY, COFACTOR, PROTEIN ENGINEERING, MUTAGENESIS OF PHE-412
+RP   AND TRP-561, AND BIOTECHNOLOGY.
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440;
+RX   DOI=10.1021/acscatal.0c01789;
+RA   Wehrmann M., Elsayed E.M., Kobbing S., Bendz L., Lepak A., Schwabe J.,
+RA   Wierckx N., Bange G., Klebensberger J.;
+RT   "Engineered PQQ-Dependent Alcohol Dehydrogenase for the Oxidation of 5-
+RT   (Hydroxymethyl)furoic Acid.";
+RL   ACS Catal. 10:7836-7842(2020).
+CC   -!- FUNCTION: Alcohol dehydrogenase that catalyzes the oxidation of a range
+CC       of substrates, including linear and aromatic primary and secondary
+CC       alcohols, as well as aldehydes, but only in the presence of
+CC       lanthanides, allowing bacterial growth with a variety of volatile
+CC       organic compounds (VOCs) as carbon and energy sources. Is also involved
+CC       in the transcriptional regulation of pedE and pedH, most likely acting
+CC       as a lanthanide sensory module (PubMed:28655819). Uses a specific
+CC       inducible cytochrome c550, encoded by the adjacent gene in the locus,
+CC       as electron acceptor (By similarity). {ECO:0000250|UniProtKB:Q9Z4J7,
+CC       ECO:0000269|PubMed:28655819}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a primary alcohol + 2 Fe(III)-[cytochrome c] = an aldehyde + 2
+CC         Fe(II)-[cytochrome c] + 2 H(+); Xref=Rhea:RHEA:51020, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15734, ChEBI:CHEBI:17478, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034; Evidence={ECO:0000305|PubMed:28655819,
+CC         ECO:0000305|Ref.3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:51021;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ethanol + 2 Fe(III)-[cytochrome c] = acetaldehyde + 2 Fe(II)-
+CC         [cytochrome c] + 2 H(+); Xref=Rhea:RHEA:62200, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15343, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16236, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819, ECO:0000305|Ref.3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62201;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=butan-1-ol + 2 Fe(III)-[cytochrome c] = butanal + 2 Fe(II)-
+CC         [cytochrome c] + 2 H(+); Xref=Rhea:RHEA:43432, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378, ChEBI:CHEBI:15743,
+CC         ChEBI:CHEBI:28885, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43433;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=butan-2-ol + 2 Fe(III)-[cytochrome c] = butan-2-one + 2
+CC         Fe(II)-[cytochrome c] + 2 H(+); Xref=Rhea:RHEA:79327, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28398, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:35687; Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79328;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-phenylethanol + 2 Fe(III)-[cytochrome c] = 2-
+CC         phenylacetaldehyde + 2 Fe(II)-[cytochrome c] + 2 H(+);
+CC         Xref=Rhea:RHEA:79319, Rhea:RHEA-COMP:10350, Rhea:RHEA-COMP:14399,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16424, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:49000;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79320;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=octan-1-ol + 2 Fe(III)-[cytochrome c] = octanal + 2 Fe(II)-
+CC         [cytochrome c] + 2 H(+); Xref=Rhea:RHEA:79323, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378, ChEBI:CHEBI:16188,
+CC         ChEBI:CHEBI:17935, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79324;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hexan-1-ol + 2 Fe(III)-[cytochrome c] = hexanal + 2 Fe(II)-
+CC         [cytochrome c] + 2 H(+); Xref=Rhea:RHEA:79331, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:87393, ChEBI:CHEBI:88528;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79332;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cinnamyl alcohol + 2 Fe(III)-[cytochrome c] = cinnamaldehyde +
+CC         2 Fe(II)-[cytochrome c] + 2 H(+); Xref=Rhea:RHEA:79335, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17177, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:142921; Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79336;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=farnesol + 2 Fe(III)-[cytochrome c] = farnesal + 2 Fe(II)-
+CC         [cytochrome c] + 2 H(+); Xref=Rhea:RHEA:79359, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378, ChEBI:CHEBI:24012,
+CC         ChEBI:CHEBI:28600, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79360;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an aldehyde + 2 Fe(III)-[cytochrome c] + H2O = a carboxylate +
+CC         2 Fe(II)-[cytochrome c] + 3 H(+); Xref=Rhea:RHEA:79339, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17478, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:29067;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79340;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetaldehyde + 2 Fe(III)-[cytochrome c] + H2O = 2 Fe(II)-
+CC         [cytochrome c] + acetate + 3 H(+); Xref=Rhea:RHEA:79343, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15343,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:30089;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79344;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=butanal + 2 Fe(III)-[cytochrome c] + H2O = butanoate + 2
+CC         Fe(II)-[cytochrome c] + 3 H(+); Xref=Rhea:RHEA:79347, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15743, ChEBI:CHEBI:17968,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79348;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hexanal + 2 Fe(III)-[cytochrome c] + H2O = hexanoate + 2
+CC         Fe(II)-[cytochrome c] + 3 H(+); Xref=Rhea:RHEA:79351, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17120, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:88528;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79352;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=octanal + 2 Fe(III)-[cytochrome c] + H2O = octanoate + 2
+CC         Fe(II)-[cytochrome c] + 3 H(+); Xref=Rhea:RHEA:79355, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17935, ChEBI:CHEBI:25646,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79356;
+CC         Evidence={ECO:0000305|PubMed:28655819};
+CC   -!- COFACTOR:
+CC       Name=Pr(3+); Xref=ChEBI:CHEBI:229784;
+CC         Evidence={ECO:0000269|PubMed:28655819, ECO:0000269|Ref.3};
+CC       Name=Nd(3+); Xref=ChEBI:CHEBI:229785;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC       Name=La(3+); Xref=ChEBI:CHEBI:49701;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC       Name=Ce(3+); Xref=ChEBI:CHEBI:48782;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC       Name=Sm(3+); Xref=ChEBI:CHEBI:49890;
+CC         Evidence={ECO:0000269|PubMed:28655819};
+CC       Note=Exhibits enzymatic activity only in the presence of lanthanide
+CC       ions; maximal activity is observed with Pr(3+) and Nd(3+), and the
+CC       activity decreases gradually with lanthanides with atomic masses higher
+CC       than that of Nd(3+). PedH activity is found with lanthanide
+CC       concentrations as low as 10 nM and up to 100 uM, with a peak in
+CC       activity at 1 uM. {ECO:0000269|PubMed:28655819};
+CC   -!- COFACTOR:
+CC       Name=pyrroloquinoline quinone; Xref=ChEBI:CHEBI:58442;
+CC         Evidence={ECO:0000269|PubMed:28655819, ECO:0000269|Ref.3};
+CC       Note=Binds 1 PQQ group per subunit. {ECO:0000269|Ref.3};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=177 uM for ethanol {ECO:0000269|PubMed:28655819};
+CC         KM=2261 uM for acetaldehyde {ECO:0000269|PubMed:28655819};
+CC         KM=329 uM for 2-phenylethanol {ECO:0000269|PubMed:28655819};
+CC         KM=0.016 mM for ethanol {ECO:0000269|Ref.3};
+CC         Vmax=10.6 umol/min/mg enzyme with ethanol as substrate using
+CC         artificial electron acceptor {ECO:0000269|PubMed:28655819};
+CC         Vmax=8.4 umol/min/mg enzyme with acetaldehyde as substrate using
+CC         artificial electron acceptor {ECO:0000269|PubMed:28655819};
+CC         Vmax=11.8 umol/min/mg enzyme with 2-phenylethanol as substrate using
+CC         artificial electron acceptor {ECO:0000269|PubMed:28655819};
+CC         Note=kcat is 5.0 sec(-1) with ethanol as substrate using artificial
+CC         electron acceptor. {ECO:0000269|Ref.3};
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305|PubMed:28655819,
+CC       ECO:0000305|Ref.3}.
+CC   -!- INDUCTION: Induced in the presence of lanthanides. The underlying
+CC       regulatory network is responsive to as little as 1 to 10 nM lanthanum,
+CC       a concentration assumed to be of ecological relevance.
+CC       {ECO:0000269|PubMed:28655819}.
+CC   -!- PTM: The disulfide ring formed between the two adjacent cysteine
+CC       residues Cys-131 and Cys-132 is essential for efficient electron
+CC       transfer at pH 7 from PedH to its natural electron acceptor cytochrome
+CC       c550. {ECO:0000250|UniProtKB:Q9Z4J7}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene grow efficiently with
+CC       ethanol, 1-butanol, and 2-phenylethanol in the absence of La(3+), like
+CC       wild-type strain, and the addition of 20 uM La(3+) to the agar medium
+CC       restricts the growth of the mutant strain. Cells lacking both pedE and
+CC       pedH show no growth under both conditions.
+CC       {ECO:0000269|PubMed:28655819}.
+CC   -!- BIOTECHNOLOGY: Is an attractive biocatalyst for the oxidation of 5-
+CC       (hydroxymethyl)furoic acid (HMFA) into 5-formylfuroic acid (FFA), a key
+CC       reaction within the biocatalytic route toward furan-2,5-dicarboxylic
+CC       acid (FDCA) production. FDCA is a bio-based platform chemical with the
+CC       potential to replace terephthalic acid in the production of polymers.
+CC       {ECO:0000269|Ref.3}.
+CC   -!- MISCELLANEOUS: The soil-dwelling organism P.putida KT2440 produces 2
+CC       PQQ-ADHs, namely, PedE, which is Ca(2+)-dependent, and PedH, which is
+CC       lanthanide-dependent. These enzymes are crucial for efficient bacterial
+CC       growth with a variety of volatile alcohols. The functional redundancy
+CC       of the PQQ-ADHs and inverse transcriptional regulation of PedE and PedH
+CC       represent an adaptive strategy of P.putida KT2440 to optimize growth
+CC       with volatile alcohols and aldehyde substrates in response to the
+CC       availability of different lanthanides in the natural environment of the
+CC       bacterium. {ECO:0000269|PubMed:28655819}.
+CC   -!- SIMILARITY: Belongs to the bacterial PQQ dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015451; AAN68287.1; -; Genomic_DNA.
+DR   RefSeq; NP_744823.1; NC_002947.4.
+DR   RefSeq; WP_010953598.1; NZ_CP169744.1.
+DR   PDB; 6ZCV; X-ray; 1.70 A; A=1-595.
+DR   PDB; 6ZCW; X-ray; 1.65 A; A=28-595.
+DR   PDBsum; 6ZCV; -.
+DR   PDBsum; 6ZCW; -.
+DR   AlphaFoldDB; Q88JH0; -.
+DR   SMR; Q88JH0; -.
+DR   STRING; 160488.PP_2679; -.
+DR   PaxDb; 160488-PP_2679; -.
+DR   GeneID; 83680736; -.
+DR   KEGG; ppu:PP_2679; -.
+DR   PATRIC; fig|160488.4.peg.2841; -.
+DR   eggNOG; COG4993; Bacteria.
+DR   HOGENOM; CLU_018478_0_0_6; -.
+DR   OrthoDB; 9794322at2; -.
+DR   PhylomeDB; Q88JH0; -.
+DR   BioCyc; PPUT160488:G1G01-2860-MONOMER; -.
+DR   SABIO-RK; Q88JH0; -.
+DR   Proteomes; UP000000556; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:InterPro.
+DR   GO; GO:0052934; F:alcohol dehydrogenase (cytochrome c) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   CDD; cd10277; PQQ_ADH_I; 1.
+DR   FunFam; 2.140.10.10:FF:000003; Methanol dehydrogenase, large subunit; 1.
+DR   Gene3D; 2.140.10.10; Quinoprotein alcohol dehydrogenase-like superfamily; 1.
+DR   InterPro; IPR034119; ADHI.
+DR   InterPro; IPR018391; PQQ_b-propeller_rpt.
+DR   InterPro; IPR017512; PQQ_MeOH/EtOH_DH.
+DR   InterPro; IPR002372; PQQ_rpt_dom.
+DR   InterPro; IPR011047; Quinoprotein_ADH-like_sf.
+DR   InterPro; IPR001479; Quinoprotein_DH_CS.
+DR   NCBIfam; TIGR03075; PQQ_enz_alc_DH; 1.
+DR   PANTHER; PTHR32303; QUINOPROTEIN ALCOHOL DEHYDROGENASE (CYTOCHROME C); 1.
+DR   PANTHER; PTHR32303:SF20; QUINOPROTEIN ETHANOL DEHYDROGENASE; 1.
+DR   Pfam; PF01011; PQQ; 1.
+DR   Pfam; PF13360; PQQ_2; 1.
+DR   SMART; SM00564; PQQ; 6.
+DR   SUPFAM; SSF50998; Quinoprotein alcohol dehydrogenase-like; 1.
+DR   PROSITE; PS00364; BACTERIAL_PQQ_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Metal-binding; Oxidoreductase; Periplasm;
+KW   PQQ; Reference proteome; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..595
+FT                   /note="Quinoprotein alcohol dehydrogenase PedH"
+FT                   /id="PRO_5004302083"
+FT   ACT_SITE        323
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z4J7"
+FT   BINDING         87
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         137
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         181
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         197
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         198
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         199
+FT                   /ligand="Pr(3+)"
+FT                   /ligand_id="ChEBI:CHEBI:229784"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         263
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         281
+FT                   /ligand="Pr(3+)"
+FT                   /ligand_id="ChEBI:CHEBI:229784"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         323
+FT                   /ligand="Pr(3+)"
+FT                   /ligand_id="ChEBI:CHEBI:229784"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         325
+FT                   /ligand="Pr(3+)"
+FT                   /ligand_id="ChEBI:CHEBI:229784"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         350
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         417
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         493
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   BINDING         557
+FT                   /ligand="pyrroloquinoline quinone"
+FT                   /ligand_id="ChEBI:CHEBI:58442"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV,
+FT                   ECO:0007744|PDB:6ZCW"
+FT   DISULFID        131..132
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0007744|PDB:6ZCV"
+FT   MUTAGEN         412
+FT                   /note="F->I: In contrast to wild-type, this mutant is able
+FT                   to oxidize 5-(hydroxymethyl)furoic acid (HMFA) into
+FT                   5-formylfuroic acid (FFA); when associated with Ser-561 or
+FT                   Gln-561."
+FT                   /evidence="ECO:0000269|Ref.3"
+FT   MUTAGEN         412
+FT                   /note="F->V: High decrease in affinity for ethanol, and in
+FT                   contrast to wild-type, this mutant is able to oxidize
+FT                   5-(hydroxymethyl)furoic acid (HMFA) into 5-formylfuroic
+FT                   acid (FFA) and can also oxidize 5-(hydroxymethyl)furfural
+FT                   (HMF) and 5-formylfurfural (FFF); when associated with
+FT                   Ala-561."
+FT                   /evidence="ECO:0000269|Ref.3"
+FT   MUTAGEN         561
+FT                   /note="W->A: High decrease in affinity for ethanol, and in
+FT                   contrast to wild-type, this mutant is able to oxidize
+FT                   5-(hydroxymethyl)furoic acid (HMFA) into 5-formylfuroic
+FT                   acid (FFA) and can also oxidize 5-(hydroxymethyl)furfural
+FT                   (HMF) and 5-formylfurfural (FFF); when associated with
+FT                   Val-412."
+FT                   /evidence="ECO:0000269|Ref.3"
+FT   MUTAGEN         561
+FT                   /note="W->S,Q: In contrast to wild-type, this mutant is
+FT                   able to oxidize 5-(hydroxymethyl)furoic acid (HMFA) into
+FT                   5-formylfuroic acid (FFA); when associated with Ile-412."
+FT                   /evidence="ECO:0000269|Ref.3"
+FT   HELIX           31..36
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            64..66
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           67..69
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          71..77
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          91..93
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          96..101
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            102..104
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          105..110
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            111..113
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          116..121
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          140..143
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          145..149
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          153..159
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            160..162
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          165..170
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           174..176
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          185..187
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          190..193
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           198..200
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          205..209
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            211..213
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          216..223
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          227..232
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          235..241
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          248..250
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           254..257
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          266..269
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            270..273
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          274..279
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          282..285
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           287..289
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            295..298
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          299..303
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            305..307
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          310..317
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          331..339
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          341..348
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          352..358
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            359..361
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          364..372
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          376..380
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          386..388
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           390..392
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          400..402
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          406..410
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          422..424
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            425..428
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          429..435
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          437..444
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          457..467
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          469..476
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            477..480
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          481..490
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          496..499
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            500..502
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          503..507
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          511..517
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            518..520
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          523..528
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          538..542
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          545..552
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           558..561
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           563..568
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   TURN            569..571
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   STRAND          577..582
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+FT   HELIX           585..587
+FT                   /evidence="ECO:0007829|PDB:6ZCW"
+SQ   SEQUENCE   595 AA;  64884 MW;  42D63FA11A0F9A67 CRC64;
+     MTRSPRRPLF AVSLVLSAML LAGAAHAAVS NEEILQDPKN PQQIVTNGLG VQGQRYSPLD
+     LLNVNNVKEL RPVWAFSFGG EKQRGQQAQP LIKDGVMYLT GSYSRVFAVD ARTGKKLWQY
+     DARLPDDIRP CCDVINRGVA LYGNLVFFGT LDAKLVALNK DTGKVVWSKK VADHKEGYSI
+     SAAPMIVNGK LITGVAGGEF GVVGKIQAYN PENGELLWMR PTVEGHMGYV YKDGKAIENG
+     ISGGEAGKTW PGDLWKTGGA APWLGGYYDP ETNLILFGTG NPAPWNSHLR PGDNLYSSSR
+     LALNPDDGTI KWHFQSTPHD GWDFDGVNEL ISFNYKDGGK EVKAAATADR NGFFYVLDRT
+     NGKFIRGFPF VDKITWATGL DKDGRPIYND ASRPGAPGSE AKGSSVFVAP AFLGAKNWMP
+     MAYNKDTGLF YVPSNEWGMD IWNEGIAYKK GAAFLGAGFT IKPLNEDYIG VLRAIDPVSG
+     KEVWRHKNYA PLWGGVLTTK GNLVFTGTPE GFLQAFNAKT GDKVWEFQTG SGVLGSPVTW
+     EMDGEQYVSV VSGWGGAVPL WGGEVAKRVK DFNQGGMLWT FKLPKQLQQT ASVKP
+//

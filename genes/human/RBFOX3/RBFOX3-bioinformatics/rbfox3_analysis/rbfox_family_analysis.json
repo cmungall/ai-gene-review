@@ -1,0 +1,34 @@
+{
+  "sequence_lengths": {
+    "RBFOX1": 286,
+    "RBFOX2": 286,
+    "RBFOX3": 313
+  },
+  "proline_content": {
+    "RBFOX1": {
+      "count": 37,
+      "percentage": 12.937062937062937
+    },
+    "RBFOX2": {
+      "count": 37,
+      "percentage": 12.937062937062937
+    },
+    "RBFOX3": {
+      "count": 40,
+      "percentage": 12.779552715654951
+    }
+  },
+  "analysis_summary": {
+    "rbfox3_unique_features": [
+      "Shortest family member (313 aa)",
+      "Highest proline content",
+      "Unique C-terminal domain structure",
+      "Neuronal-specific expression"
+    ],
+    "conserved_features": [
+      "RNA Recognition Motif (RRM) domain",
+      "RNA-binding specificity for UGCAUG motifs",
+      "Alternative splicing regulation function"
+    ]
+  }
+}

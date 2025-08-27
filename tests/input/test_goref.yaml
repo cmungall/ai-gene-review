@@ -1,0 +1,28 @@
+gene_symbol: TEST1
+gene_identifier: TEST:123
+organism:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+
+references:
+  - id: PMID:12345678
+    title: "A test publication"
+    findings: []
+  - id: GO_REF:0000033
+    title: "Annotation inferred from sequence orthology"
+    findings: []
+  - id: GO_REF:0000002
+    title: "Gene Ontology annotation through association of InterPro records with GO terms."
+    findings: []
+
+existing_annotations:
+  - term:
+      id: GO:0005515
+      label: protein binding
+    evidence_type: IEA
+    original_reference_id: GO_REF:0000033
+  - term:
+      id: GO:0005634
+      label: nucleus
+    evidence_type: IEA
+    original_reference_id: GO_REF:0000002

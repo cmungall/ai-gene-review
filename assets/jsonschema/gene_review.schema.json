@@ -1,0 +1,434 @@
+{
+    "$defs": {
+        "ActionEnum": {
+            "description": "",
+            "enum": [
+                "ACCEPT",
+                "KEEP_AS_NON_CORE",
+                "REMOVE",
+                "MODIFY",
+                "MARK_AS_OVER_ANNOTATED",
+                "UNDECIDED"
+            ],
+            "title": "ActionEnum",
+            "type": "string"
+        },
+        "AnnotationExtension": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "predicate": {
+                    "description": "Predicate of the extension",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "term": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Term"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Term to be annotated"
+                }
+            },
+            "title": "AnnotationExtension",
+            "type": "object"
+        },
+        "CoreFunction": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "anatomical_locations": {
+                    "items": {
+                        "$ref": "#/$defs/Term"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "Description of the core function",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "directly_involved_in": {
+                    "items": {
+                        "$ref": "#/$defs/Term"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "in_complex": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Term"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                },
+                "locations": {
+                    "items": {
+                        "$ref": "#/$defs/Term"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "molecular_function": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Term"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                },
+                "substrates": {
+                    "items": {
+                        "$ref": "#/$defs/Term"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "CoreFunction",
+            "type": "object"
+        },
+        "EvidenceType": {
+            "description": "",
+            "enum": [
+                "IDA",
+                "IBA",
+                "ISS",
+                "TAS",
+                "IEP",
+                "IGC"
+            ],
+            "title": "EvidenceType",
+            "type": "string"
+        },
+        "ExistingAnnotation": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "evidence_type": {
+                    "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "extensions": {
+                    "items": {
+                        "$ref": "#/$defs/AnnotationExtension"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "negated": {
+                    "description": "Whether the term is negated",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                "original_reference_id": {
+                    "description": "ID of the original reference",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "review": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Review"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Review of the gene"
+                },
+                "term": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Term"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Term to be annotated"
+                }
+            },
+            "title": "ExistingAnnotation",
+            "type": "object"
+        },
+        "Finding": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "statement": {
+                    "description": "Concise statement describing an aspect of the gene",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "supporting_text": {
+                    "description": "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "title": "Finding",
+            "type": "object"
+        },
+        "GeneReview": {
+            "additionalProperties": false,
+            "description": "Complete review for a gene",
+            "properties": {
+                "core_functions": {
+                    "items": {
+                        "$ref": "#/$defs/CoreFunction"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "Description of the entity",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "existing_annotations": {
+                    "items": {
+                        "$ref": "#/$defs/ExistingAnnotation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "gene_symbol": {
+                    "description": "Symbol of the gene",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "references": {
+                    "items": {
+                        "$ref": "#/$defs/Reference"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "taxon": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Term"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "GeneReview",
+            "type": "object"
+        },
+        "Reference": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "findings": {
+                    "items": {
+                        "$ref": "#/$defs/Finding"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Title of the entity",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Reference",
+            "type": "object"
+        },
+        "Review": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "action": {
+                    "$ref": "#/$defs/ActionEnum",
+                    "description": "Action to be taken"
+                },
+                "proposed_replacement_terms": {
+                    "description": "Proposed replacement terms",
+                    "items": {
+                        "$ref": "#/$defs/Term"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "reason": {
+                    "description": "Reason for the action",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "summary": {
+                    "description": "Summary of the review",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "title": "Review",
+            "type": "object"
+        },
+        "Term": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human readable name of the entity",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Term",
+            "type": "object"
+        }
+    },
+    "$id": "https://w3id.org/ai4curation/gene_review",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "description": "Complete review for a gene",
+    "metamodel_version": "1.7.0",
+    "properties": {
+        "core_functions": {
+            "items": {
+                "$ref": "#/$defs/CoreFunction"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "description": {
+            "description": "Description of the entity",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "existing_annotations": {
+            "items": {
+                "$ref": "#/$defs/ExistingAnnotation"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "gene_symbol": {
+            "description": "Symbol of the gene",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "references": {
+            "items": {
+                "$ref": "#/$defs/Reference"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "taxon": {
+            "anyOf": [
+                {
+                    "$ref": "#/$defs/Term"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        }
+    },
+    "required": [
+        "id"
+    ],
+    "title": "gene_curation",
+    "type": "object",
+    "version": null
+}

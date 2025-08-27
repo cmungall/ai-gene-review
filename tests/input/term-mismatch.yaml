@@ -1,0 +1,21 @@
+id: Q9TEST
+gene_symbol: TESTGENE
+taxon:
+  id: "NCBITaxon:9606"
+  label: "Wrong species name"  # Should be "Homo sapiens"
+description: Test gene with intentionally wrong term labels
+
+existing_annotations:
+  - term:
+      id: GO:0005515
+      label: totally wrong label  # Should be "protein binding"
+    evidence_type: IPI
+    review:
+      summary: "Test annotation"
+      action: ACCEPT
+      
+core_functions:
+  - description: "Test function"
+    molecular_function:
+      id: GO:0005737
+      label: incorrect label  # Should be "cytoplasm"

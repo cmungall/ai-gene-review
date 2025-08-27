@@ -1,0 +1,136 @@
+id: Q88JH0
+gene_symbol: pedH
+aliases:
+- qedH-II
+- PP_2679
+taxon:
+  id: NCBITaxon:160488
+  label: Pseudomonas putida KT2440
+description: Lanthanide-dependent pyrroloquinoline quinone (PQQ)-dependent alcohol dehydrogenase that catalyzes the oxidation of alcohols and aldehydes in the periplasm. Essential for bacterial growth on volatile organic compounds as carbon and energy sources. Shows absolute dependence on lanthanide cofactors and uses cytochrome c550 as electron acceptor. Also functions in transcriptional regulation as a lanthanide sensory module.
+existing_annotations:
+- term:
+    id: GO:0005509
+    label: calcium ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Incorrect annotation. PedH is lanthanide-dependent, not calcium-dependent. This annotation likely arose from sequence similarity to other PQQ dehydrogenases. PedH requires La3+, Ce3+, Pr3+, Nd3+, Sm3+ etc. for activity, but not Ca2+.'
+    action: REMOVE
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Too vague and potentially misleading. PedH is a periplasmic protein, not membrane-associated. While it has a signal peptide for periplasmic targeting, it is a soluble enzyme in the periplasm, not membrane-bound.'
+    action: REMOVE
+- term:
+    id: GO:0016614
+    label: oxidoreductase activity, acting on CH-OH group of donors
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Accurate but too general. This correctly describes the broad enzymatic activity but lacks specificity about the PQQ-dependence and cytochrome c as electron acceptor. The more specific term GO:0052934 is present and preferred.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0030288
+    label: outer membrane-bounded periplasmic space
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct but overly specific. This is accurate for the periplasmic localization but the simpler GO:0042597 periplasmic space is also present and more commonly used. Both are correct but GO:0042597 is preferred for simplicity.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Too general and uninformative. While technically correct, this term provides no specific functional information. The more specific terms GO:0052934 and GO:0016614 are present and much more informative.'
+    action: REMOVE
+- term:
+    id: GO:0020037
+    label: heme binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. PedH does not bind heme directly. It uses cytochrome c550 as an external electron acceptor, but PedH itself is not a heme-containing protein. This annotation likely arose from automated inference errors.'
+    action: REMOVE
+- term:
+    id: GO:0042597
+    label: periplasmic space
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Correct and well-supported. PedH has a signal peptide and is localized to the periplasm where it functions in alcohol oxidation. This is a core cellular component annotation.'
+    action: ACCEPT
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but too general. PedH specifically binds lanthanide ions (La3+, Ce3+, Pr3+, Nd3+, Sm3+) which are essential for activity. A more specific lanthanide binding term would be preferable if available.'
+    action: ACCEPT
+- term:
+    id: GO:0052934
+    label: alcohol dehydrogenase (cytochrome c) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Excellent and highly specific annotation. This perfectly describes PedH function - it is an alcohol dehydrogenase that uses cytochrome c (specifically cytochrome c550) as electron acceptor. This is the core molecular function annotation.'
+    action: ACCEPT
+- term:
+    id: GO:0070968
+    label: pyrroloquinoline quinone binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Perfect annotation. PedH absolutely requires PQQ as a cofactor (1:1 stoichiometry) for all catalytic activity. This is well-supported by crystal structure data showing specific PQQ binding sites. Core molecular function.'
+    action: ACCEPT
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:28655819
+  title: "Functional Role of Lanthanides in Enzymatic Activity and Transcriptional Regulation of Pyrroloquinoline Quinone-Dependent Alcohol Dehydrogenases in Pseudomonas putida KT2440"
+  findings:
+  - statement: PedH exhibits enzymatic activity only in the presence of lanthanide ions
+    supporting_text: PedH exhibits enzymatic activity only in the presence of lanthanide ions (La3+, Ce3+, Pr3+, Nd3+, Sm3+)
+  - statement: PedH catalyzes oxidation of alcohols and aldehydes using cytochrome c as electron acceptor  
+    supporting_text: PedH catalyzes oxidation of alcohols and aldehydes using cytochrome c550 as electron acceptor in the periplasm
+  - statement: PedH is essential for growth on volatile organic compounds
+    supporting_text: PedH is localized in the periplasm and essential for growth on volatile organic compounds as carbon and energy sources
+  - statement: PedH functions in transcriptional regulation as lanthanide sensory module
+    supporting_text: PedH also functions in transcriptional regulation as a lanthanide sensory module responsive to nM concentrations
+- id: file:PSEPK/pedH/pedH-notes.md
+  title: "PedH research notes and literature review"
+  findings:
+  - statement: Comprehensive functional analysis of pedH
+    supporting_text: Comprehensive analysis of PedH function, regulation, and biotechnology applications
+core_functions:
+- description: Lanthanide-dependent alcohol dehydrogenase activity in periplasm for VOC metabolism
+  molecular_function:
+    id: GO:0052934
+    label: alcohol dehydrogenase (cytochrome c) activity
+  directly_involved_in:
+  - id: GO:0006066
+    label: alcohol metabolic process
+- description: Pyrroloquinoline quinone cofactor binding for catalytic activity
+  molecular_function:
+    id: GO:0070968
+    label: pyrroloquinoline quinone binding
+- description: Lanthanide metal ion binding for enzymatic activation
+  molecular_function:
+    id: GO:0046872
+    label: metal ion binding

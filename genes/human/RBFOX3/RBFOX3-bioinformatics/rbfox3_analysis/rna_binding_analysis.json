@@ -1,0 +1,104 @@
+{
+  "rrm_analysis": {
+    "rrm_sequence": "LHVSNIPFRFRDPDLRQMFGQFGKILDVEIIFNERGSKGFGFVTFETSSDADRAREKLNGTIVEGRKIEVNNATAR",
+    "rnp1_motifs": [
+      [
+        137,
+        "KGFGF"
+      ]
+    ],
+    "rnp2_motifs": [],
+    "aromatic_count": 8,
+    "basic_count": 13
+  },
+  "binding_specificity": {
+    "canonical_motif": "UGCAUG",
+    "binding_mechanism": "sequence_specific",
+    "regulatory_context": "position_dependent"
+  },
+  "known_targets": {
+    "known_targets": {
+      "RBFOX2": {
+        "description": "RBFOX3 regulates alternative splicing of RBFOX2",
+        "mechanism": "Promotes exon skipping to enhance nonsense-mediated decay",
+        "evidence": "PMID:21747913"
+      },
+      "NUMB": {
+        "description": "RBFOX3 regulates Numb alternative splicing",
+        "mechanism": "Controls inclusion of exon 9 during neuronal differentiation",
+        "evidence": "PMID:23420872"
+      },
+      "GRIA2": {
+        "description": "Glutamate receptor subunit regulation",
+        "mechanism": "Alternative splicing control in neurons",
+        "evidence": "Literature review"
+      },
+      "CACNA1C": {
+        "description": "Calcium channel alternative splicing",
+        "mechanism": "Neuronal-specific isoform regulation",
+        "evidence": "Literature review"
+      }
+    },
+    "target_categories": {
+      "RNA_processing": [
+        "RBFOX2"
+      ],
+      "neuronal_differentiation": [
+        "NUMB"
+      ],
+      "synaptic_function": [
+        "GRIA2",
+        "CACNA1C"
+      ]
+    }
+  },
+  "binding_sites": {
+    "experimental_sites": [
+      100,
+      108,
+      109,
+      133,
+      138,
+      142,
+      166,
+      176
+    ],
+    "rrm_sites": [
+      100,
+      108,
+      109,
+      133,
+      138,
+      142,
+      166
+    ],
+    "binding_residue_types": {
+      "aromatic": 1,
+      "basic": 2,
+      "polar": 0,
+      "hydrophobic": 3
+    }
+  },
+  "regulation_mechanism": {
+    "regulation_type": "position_dependent",
+    "cooperative_binding": true,
+    "tissue_specificity": "neuronal",
+    "functional_outcomes": [
+      "exon_inclusion",
+      "exon_skipping",
+      "mRNA_stability"
+    ]
+  },
+  "summary": {
+    "primary_function": "Alternative splicing regulation",
+    "binding_motif": "UGCAUG (canonical)",
+    "regulation_type": "Position-dependent",
+    "tissue_specificity": "Neuronal",
+    "key_targets": [
+      "RBFOX2",
+      "NUMB",
+      "GRIA2",
+      "CACNA1C"
+    ]
+  }
+}

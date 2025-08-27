@@ -1,0 +1,258 @@
+id: https://w3id.org/ai4curation/gene_review
+name: gene_curation
+description: Schema for gene curation
+  Top level entity is a GeneReview, which is about a single gene (and its equivalent swiss-prot entry).
+  It contains a high level summary of the gene, plus a review of all existing annotations.
+  It also contains a list of core functions, which are GO-CAM-like annotons describing the core evolved
+  functions of the gene.
+  
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  gene_review: https://w3id.org/ai4curation/gene_review/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
+  skos: http://www.w3.org/2004/02/skos/core#
+  dcat: http://www.w3.org/ns/dcat#
+  dcterms: http://purl.org/dc/terms/
+
+imports:
+  - linkml:types
+
+default_prefix: gene_review
+default_range: string
+
+slots:
+  id:
+    identifier: true
+  label:
+    description: Human readable name of the entity
+    required: true
+  gene_symbol:
+    range: string
+    description: Symbol of the gene
+    required: true
+  title:
+    range: string
+    description: Title of the entity
+    slot_uri: dcterms:title
+    required: true
+  aliases:
+    range: string
+    multivalued: true
+  description:
+    description: Description of the entity
+  statement:
+    range: string
+    description: Concise statement describing an aspect of the gene
+  references:
+    range: Reference
+    multivalued: true
+    inlined_as_list: true
+  findings:
+    range: Finding
+    multivalued: true
+  summary:
+    range: string
+    description: Summary of the review
+  supporting_text:
+    range: string
+    description: Supporting text from the publication.
+      Can be interleaved text if there are multiple lines of evidence. Can also be annotated
+  evidence_type:
+    range: string
+    description: Evidence code (e.g., IDA, IBA, ISS, TAS)
+  term:
+    inlined: true
+    range: Term
+    description: Term to be annotated
+  predicate:
+    range: string
+    description: Predicate of the extension
+  taxon:
+    range: Term
+    inlined: true
+  existing_annotations:
+    range: ExistingAnnotation
+    multivalued: true
+  core_functions:
+    range: CoreFunction
+    multivalued: true
+  action:
+    range: ActionEnum
+    description: Action to be taken
+  reason:
+    range: string
+    description: Reason for the action
+  proposed_replacement_terms:
+    range: Term
+    multivalued: true
+    inlined_as_list: true
+    description: Proposed replacement terms
+  extensions:
+    range: AnnotationExtension
+    multivalued: true
+  negated:
+    range: boolean
+    description: Whether the term is negated
+  original_reference_id:
+    range: Reference
+    inlined: false
+    description: ID of the original reference
+  review:
+    recommended: true
+    range: Review
+    description: Review of the gene
+  ontology:
+    range: string
+    description: Ontology of the term. E.g `go`, `cl`, `hp`
+  supporting_entities:
+    range: string
+    multivalued: true
+    description: IDs of the supporting entities
+  additional_reference_ids:
+    range: Reference
+    multivalued: true
+    inlined: false
+    description: IDs of the references
+  is_invalid:
+    range: boolean
+    description: Whether the reference is invalid (e.g., retracted or replaced)
+    
+    
+
+classes:
+
+  GeneReview:
+    description: Complete review for a gene
+    tree_root: true
+    slots:
+     - id
+     - gene_symbol
+     - aliases
+     - description
+     - taxon
+     - references
+     - existing_annotations
+     - core_functions
+
+
+  Term:
+    description: A term in a specific ontology
+    slots:
+      - id
+      - label
+      - description
+      - ontology
+
+
+  Reference:
+    description: A reference is a published text  that describes a finding or a method. References
+      might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally,
+      a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.
+    slots:
+      - id
+      - title
+      - findings
+      - is_invalid
+
+  Finding:
+    description: A finding is a statement about a gene, which is supported by a reference.
+      Similar to "comments" in uniprot
+    slots:
+      - statement
+      - supporting_text
+
+        
+
+  ExistingAnnotation:
+    description: An existing annotation from the GO database, plus a review of the annotation.
+    slots:
+      - term
+      - extensions
+      - negated
+      - evidence_type
+      - original_reference_id
+      - supporting_entities
+      - review
+
+  Review:
+    description: A review of an existing annotation.
+    slots:
+      - summary
+      - action
+      - reason
+      - proposed_replacement_terms
+      - additional_reference_ids
+      - supporting_text
+
+  CoreFunction:
+    description: A core function is a GO-CAM-like annotation of the core evolved functions of a gene.
+      This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like
+      representation.
+    attributes:
+      description:
+        range: string
+        description: Description of the core function
+      molecular_function:
+        range: Term
+        inlined: true
+      directly_involved_in:
+        range: Term
+        multivalued: true
+        inlined_as_list: true
+      locations :
+        range: Term
+        multivalued: true
+        inlined_as_list: true
+      anatomical_locations:
+        range: Term
+        multivalued: true
+        inlined_as_list: true
+      substrates: 
+        range: Term
+        multivalued: true
+        inlined_as_list: true
+      in_complex:
+        range: Term
+        inlined: true
+  AnnotationExtension:
+    slots:
+      - predicate
+      - term
+
+
+enums:
+  EvidenceType:
+    permissible_values:
+      IDA:
+      IBA:
+      ISS:
+      TAS:
+      IEP:
+      IGC:
+
+  ActionEnum:
+    permissible_values:
+      ACCEPT:
+        description: Accept the existing annotation as-is, no modifications, and retain as representing the core function of the gene
+      KEEP_AS_NON_CORE:
+        description: Keep the existing annotation as-is, but mark it as non-core. For pleiotropic genes, this may be the developmental
+          processes, or other processes that are not the core function of the gene.
+      REMOVE:
+        description: Remove the existing annotation, as it is unlikely to be correct based on combined evidence
+      MODIFY:
+        description: The essence of the annotation is sound, but there are better terms to use (use in combination with proposed_replacement_terms).
+          if the term is too general, then MODIFY should be used, with a proposed replacement term for the correct specific function.
+          sometimes terms can also be overly specific and contorted, so in some cases you might want to generalize
+      MARK_AS_OVER_ANNOTATED:
+        description: The term is not entirely wrong, but likely represents an over-annotation of the gene
+      UNDECIDED:
+        description: The annotation is not clear, and the reviewer is not sure what to do with it. ALWAYS USE THIS IF YOU ARE UNABLE TO ACCESS
+          RELEVANT PUBLICATIONS
+      PENDING:
+        description: The review entry is a stub, and the review has not been completed yet.
+      
+      
