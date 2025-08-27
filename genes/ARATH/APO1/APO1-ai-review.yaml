@@ -1,0 +1,176 @@
+id: Q9XIR4
+gene_symbol: APO1
+aliases:
+  - ACCUMULATION OF PHOTOSYSTEM ONE 1
+  - At1g64810
+  - F13O11.11
+taxon:
+  id: NCBITaxon:3702
+  label: Arabidopsis thaliana
+description: APO1 is a chloroplast-localized RNA-binding protein that promotes the splicing of chloroplast group II introns through its zinc-dependent DUF794 RNA-binding domain. It is essential for photosynthetic complex assembly, particularly photosystem I and NADH dehydrogenase complexes, through its role in processing chloroplast transcripts. The protein was initially thought to be directly involved in 4Fe-4S cluster assembly but is now understood to affect these complexes indirectly through its RNA splicing activity.
+existing_annotations:
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: This IBA annotation is well-supported. APO1 contains the DUF794 domain which has been experimentally demonstrated to be an RNA-binding domain with high affinity for RNA in vitro (PMID:21421812). The phylogenetic inference is consistent with the experimental evidence from both Arabidopsis and maize homologs.
+    action: ACCEPT
+    reason: Core molecular function confirmed by direct experimental evidence showing high-affinity RNA binding through the DUF794 domain. This is the primary molecular function enabling its role in chloroplast intron splicing.
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This automated annotation based on InterPro domain analysis is redundant with the experimental evidence (IDA) and phylogenetic inference (IBA) for the same term. While correct, it adds no additional value.
+    action: REMOVE
+    reason: Redundant with higher-quality evidence (IDA and IBA) for the same function. Automated annotations should be removed when experimental evidence exists.
+- term:
+    id: GO:0009507
+    label: chloroplast
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This automated annotation is redundant with experimental evidence (IDA) showing chloroplast localization. The IEA annotation should be removed in favor of the experimentally supported annotation.
+    action: REMOVE
+    reason: Redundant with IDA evidence from PMID:15494558 showing chloroplast localization. Automated annotations should be removed when direct experimental evidence exists.
+- term:
+    id: GO:0009536
+    label: plastid
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation to the general term 'plastid' is less specific than the experimentally validated 'chloroplast' localization. Chloroplast is a type of plastid, making this annotation both redundant and less informative.
+    action: REMOVE
+    reason: Redundant and less specific than the chloroplast annotation. APO1 specifically localizes to chloroplasts, not other plastid types. The more specific chloroplast annotation with experimental evidence should be retained.
+- term:
+    id: GO:0000373
+    label: Group II intron splicing
+  evidence_type: IMP
+  original_reference_id: PMID:21421812
+  review:
+    summary: Excellent annotation strongly supported by mutant phenotype analysis. In apo1 mutants, ycf3-intron 2 remains completely unspliced and petD intron splicing is strongly reduced, with several other introns also compromised. This is the core biological process function of APO1.
+    action: ACCEPT
+    reason: Direct experimental evidence from mutant analysis showing specific defects in chloroplast group II intron splicing. This represents the primary biological function through which APO1 affects photosystem assembly.
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IDA
+  original_reference_id: PMID:21421812
+  review:
+    summary: Strong direct experimental evidence showing that recombinant APO1 from both Arabidopsis and maize binds RNA with high affinity in vitro. This confirms the molecular function predicted by the DUF794 domain.
+    action: ACCEPT
+    reason: Core molecular function with direct experimental validation. The study demonstrated high-affinity RNA binding in vitro, establishing this as the primary molecular function of APO1.
+- term:
+    id: GO:0008270
+    label: zinc ion binding
+  evidence_type: IDA
+  original_reference_id: PMID:21421812
+  review:
+    summary: Well-supported annotation. The DUF794 domain contains zinc finger-like motifs that bind zinc ions, and these are essential for APO1 function. The zinc binding is required for the RNA-binding activity of the protein.
+    action: ACCEPT
+    reason: Direct experimental evidence shows DUF794 harbors zinc-binding motifs essential for APO1 function. This represents a core molecular function that enables RNA binding activity.
+- term:
+    id: GO:0009507
+    label: chloroplast
+  evidence_type: IDA
+  original_reference_id: PMID:15494558
+  review:
+    summary: Experimentally validated chloroplast localization. APO1 contains a transit peptide and was shown to localize to chloroplasts, where it performs its RNA splicing function.
+    action: ACCEPT
+    reason: Direct experimental evidence for chloroplast localization, consistent with the presence of a transit peptide and the protein's function in chloroplast RNA metabolism.
+- term:
+    id: GO:0009658
+    label: chloroplast organization
+  evidence_type: IMP
+  original_reference_id: PMID:15494558
+  review:
+    summary: While apo1 mutants do show defective chloroplast organization (failure to form grana stacks), this is an indirect consequence of the splicing defects rather than a direct function of APO1. The primary defect is in RNA splicing, which then leads to loss of photosynthetic complexes and consequently abnormal chloroplast structure.
+    action: KEEP_AS_NON_CORE
+    reason: The chloroplast organization defects are a downstream consequence of impaired group II intron splicing. While the phenotype is real, it represents an indirect effect rather than a core function of APO1.
+- term:
+    id: GO:0010468
+    label: regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:21421812
+  review:
+    summary: This term is too broad and vague. APO1 specifically promotes chloroplast group II intron splicing, which is already captured by GO:0000373. While RNA splicing is technically a form of gene expression regulation, the more specific term 'Group II intron splicing' better describes the actual function.
+    action: REMOVE
+    reason: Overly broad term that adds no value beyond the specific 'Group II intron splicing' annotation. The specific splicing function is already well-annotated and this general term obscures the precise molecular mechanism.
+- term:
+    id: GO:0015979
+    label: photosynthesis
+  evidence_type: IMP
+  original_reference_id: PMID:15494558
+  review:
+    summary: While apo1 mutants cannot perform photosynthesis, this is an indirect effect of the RNA splicing defects. The loss of photosynthesis results from failure to properly splice chloroplast transcripts encoding photosystem components. APO1 does not directly participate in photosynthesis.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: Photosynthesis defects are a tertiary consequence - RNA splicing defects lead to loss of photosystem proteins which then impairs photosynthesis. This represents an over-annotation as APO1's direct function is RNA splicing, not photosynthesis itself.
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:15494558
+  title: ACCUMULATION OF PHOTOSYSTEM ONE1, a member of a novel gene family, is required
+    for accumulation of [4Fe-4S] cluster-containing chloroplast complexes and antenna
+    proteins.
+  findings:
+  - statement: APO1 is essential for photoautotrophic growth
+    supporting_text: Essential for photoautotrophic growth
+  - statement: PSI core subunit levels are below detection in apo1 mutants
+    supporting_text: Levels of PSI core subunits are below the limit of detection in the apo1 mutant
+  - statement: apo1 mutants fail to form grana stacks
+    supporting_text: Plants fail to accumulate significant amounts of the outer antenna subunits of PSI and PSII and to form grana stacks
+  - statement: Initially proposed to be involved in 4Fe-4S cluster assembly
+    supporting_text: APO1 is involved in the stable assembly of several [4Fe-4S] cluster-containing complexes
+  - statement: Contains transit peptide for chloroplast localization
+    supporting_text: APO1 encodes a protein with a putative transit peptide for chloroplast localization
+- id: PMID:21421812
+  title: APO1 promotes the splicing of chloroplast group II introns and harbors a
+    plant-specific zinc-dependent RNA binding domain.
+  findings:
+  - statement: APO1 promotes splicing of chloroplast group II introns
+    supporting_text: APO1 promotes the splicing of several chloroplast group II introns
+  - statement: In apo1 mutants ycf3-intron 2 remains completely unspliced
+    supporting_text: In Arabidopsis apo1 mutants, ycf3-intron 2 remains completely unspliced
+  - statement: petD intron splicing strongly reduced in apo1 mutants
+    supporting_text: petD intron splicing is strongly reduced, and the splicing of several other introns is compromised
+  - statement: DUF794 domain is an RNA binding domain with zinc binding motifs
+    supporting_text: DUF794, the domain of unknown function that makes up almost the entirety of APO1, is an RNA binding domain
+  - statement: Recombinant APO1 binds RNA with high affinity in vitro
+    supporting_text: Recombinant APO1 from both maize and Arabidopsis binds RNA with high affinity in vitro
+  - statement: Zinc binding is essential for APO1 function
+    supporting_text: DUF794 harbors two motifs that resemble zinc fingers, that these bind zinc, and that they are essential for APO1 function
+  - statement: Splicing defects account for loss of photosynthetic complexes
+    supporting_text: These splicing defects can account for the loss of photosynthetic complexes in apo1 mutants
+core_functions:
+- molecular_function:
+    id: GO:0003723
+    label: RNA binding
+  directly_involved_in:
+    - id: GO:0000373
+      label: Group II intron splicing
+  locations:
+    - id: GO:0009507
+      label: chloroplast
+  description: Binds chloroplast group II intron RNAs via zinc-dependent DUF794 domain to promote their splicing, which is essential for expression of photosystem and NADH dehydrogenase genes including ycf3, petD, and others.
+
+- molecular_function:
+    id: GO:0008270
+    label: zinc ion binding
+  directly_involved_in:
+    - id: GO:0000373
+      label: Group II intron splicing
+  description: Coordinates zinc ions through conserved motifs in the DUF794 domain, which is essential for the RNA-binding activity and splicing function of APO1.

@@ -1,0 +1,12 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q9XIR4	APO1	enables	GO:0003723	RNA binding	molecular_function	ECO:0000318	IBA	GO_REF:0000033	PANTHER:PTN000044131|TAIR:locus:2010906|TAIR:locus:2020088|TAIR:locus:2136462|TAIR:locus:2160120	3702	Arabidopsis thaliana	GO_Central	APO protein 1, chloroplastic	20220413
+UniProtKB	Q9XIR4	APO1	enables	GO:0003723	RNA binding	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR023342	3702	Arabidopsis thaliana	InterPro	APO protein 1, chloroplastic	20250429
+UniProtKB	Q9XIR4	APO1	located_in	GO:0009507	chloroplast	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0150|UniProtKB-SubCell:SL-0049	3702	Arabidopsis thaliana	UniProt	APO protein 1, chloroplastic	20250428
+UniProtKB	Q9XIR4	APO1	located_in	GO:0009536	plastid	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0934	3702	Arabidopsis thaliana	UniProt	APO protein 1, chloroplastic	20250428
+UniProtKB	Q9XIR4	APO1	acts_upstream_of_or_within	GO:0000373	Group II intron splicing	biological_process	ECO:0000315	IMP	PMID:21421812		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	enables	GO:0003723	RNA binding	molecular_function	ECO:0000314	IDA	PMID:21421812		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	enables	GO:0008270	zinc ion binding	molecular_function	ECO:0000314	IDA	PMID:21421812		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	located_in	GO:0009507	chloroplast	cellular_component	ECO:0000314	IDA	PMID:15494558		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	acts_upstream_of_or_within	GO:0009658	chloroplast organization	biological_process	ECO:0000315	IMP	PMID:15494558		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	acts_upstream_of_or_within	GO:0010468	regulation of gene expression	biological_process	ECO:0000315	IMP	PMID:21421812		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323
+UniProtKB	Q9XIR4	APO1	acts_upstream_of_or_within	GO:0015979	photosynthesis	biological_process	ECO:0000315	IMP	PMID:15494558		3702	Arabidopsis thaliana	TAIR	APO protein 1, chloroplastic	20110323

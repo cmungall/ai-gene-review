@@ -1,0 +1,6 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q587I9	SFT2D3	located_in	GO:0016020	membrane	cellular_component	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR011691|UniProtKB-KW:KW-0472|UniProtKB-SubCell:SL-0162	9606	Homo sapiens	UniProt	Vesicle transport protein SFT2C	20250429
+UniProtKB	Q587I9	SFT2D3	involved_in	GO:0016192	vesicle-mediated transport	biological_process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR007305|InterPro:IPR011691	9606	Homo sapiens	InterPro	Vesicle transport protein SFT2C	20250429
+UniProtKB	Q587I9	SFT2D3	located_in	GO:0005737	cytoplasm	cellular_component	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00026971	9606	Homo sapiens	UniProt	Vesicle transport protein SFT2C	20250428
+UniProtKB	Q587I9	SFT2D3	located_in	GO:0012505	endomembrane system	cellular_component	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00028953	9606	Homo sapiens	UniProt	Vesicle transport protein SFT2C	20250428
+UniProtKB	Q587I9	SFT2D3	involved_in	GO:0015031	protein transport	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0653	9606	Homo sapiens	UniProt	Vesicle transport protein SFT2C	20250428

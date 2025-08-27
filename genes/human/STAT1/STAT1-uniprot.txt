@@ -1,0 +1,1795 @@
+ID   STAT1_HUMAN             Reviewed;         750 AA.
+AC   P42224; A8K989; B2RCA0; D2KFR8; D3DPI7; Q53S88; Q53XW4; Q68D00; Q9UDL5;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   18-JUN-2025, entry version 265.
+DE   RecName: Full=Signal transducer and activator of transcription 1-alpha/beta;
+DE   AltName: Full=Transcription factor ISGF-3 components p91/p84;
+GN   Name=STAT1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM ALPHA), AND PROTEIN SEQUENCE OF
+RP   514-524; 654-660 AND 667-672.
+RX   PubMed=1502203; DOI=10.1073/pnas.89.16.7836;
+RA   Schindler C., Fu X.-Y., Improta T., Aebersold R., Darnell J.E. Jr.;
+RT   "Proteins of transcription factor ISGF-3: one gene encodes the 91- and 84-
+RT   kDa ISGF-3 proteins that are activated by interferon alpha.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 89:7836-7839(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM ALPHA).
+RA   Kristensen I., Veirum J.E., Moeller B.K., Christiansen M.;
+RT   "Novel STAT1 alleles in a patient with impaired resistance to
+RT   mycobacteria.";
+RL   Submitted (NOV-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (DEC-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM ALPHA).
+RC   TISSUE=Placenta, and Testis;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM ALPHA).
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H., Heubner D.,
+RA   Hoerlein A., Michel G., Wedler H., Koehrer K., Ottenwaelder B., Poustka A.,
+RA   Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM BETA).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H., Minx P.,
+RA   Wagner-McPherson C., Layman D., Wylie K., Sekhon M., Becker M.C.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Kremitzki C., Oddy L.,
+RA   Du H., Sun H., Bradshaw-Cordum H., Ali J., Carter J., Cordes M., Harris A.,
+RA   Isak A., van Brunt A., Nguyen C., Du F., Courtney L., Kalicki J.,
+RA   Ozersky P., Abbott S., Armstrong J., Belter E.A., Caruso L., Cedroni M.,
+RA   Cotton M., Davidson T., Desai A., Elliott G., Erb T., Fronick C., Gaige T.,
+RA   Haakenson W., Haglund K., Holmes A., Harkins R., Kim K., Kruchowski S.S.,
+RA   Strong C.M., Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N., Swearengen-Shahid S.,
+RA   Snider J., Strong J.T., Thompson J., Yoakum M., Leonard S., Pearman C.,
+RA   Trani L., Radionenko M., Waligorski J.E., Wang C., Rock S.M.,
+RA   Tin-Wollam A.-M., Maupin R., Latreille P., Wendl M.C., Yang S.-P., Pohl C.,
+RA   Wallis J.W., Spieth J., Bieri T.A., Berkowicz N., Nelson J.O., Osborne J.,
+RA   Ding L., Meyer R., Sabo A., Shotland Y., Sinha P., Wohldmann P.E.,
+RA   Cook L.L., Hickenbotham M.T., Eldred J., Williams D., Jones T.A., She X.,
+RA   Ciccarelli F.D., Izaurralde E., Taylor J., Schmutz J., Myers R.M.,
+RA   Cox D.R., Huang X., McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D., Waterston R.H.,
+RA   Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2 and
+RT   4.";
+RL   Nature 434:724-731(2005).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM BETA).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [10]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7885841; DOI=10.1093/nar/23.3.459;
+RA   Yan R., Qureshi S., Zhong Z., Wen Z., Darnell J.E. Jr.;
+RT   "The genomic structure of the STAT genes: multiple exons in coincident
+RT   sites in Stat1 and Stat2.";
+RL   Nucleic Acids Res. 23:459-463(1995).
+RN   [11]
+RP   PHOSPHORYLATION IN RESPONSE TO IFN-ALPHA.
+RX   PubMed=1638633; DOI=10.1016/0092-8674(92)90106-m;
+RA   Fu X.Y.;
+RT   "A transcription factor with SH2 and SH3 domains is directly activated by
+RT   an interferon alpha-induced cytoplasmic protein tyrosine kinase(s).";
+RL   Cell 70:323-335(1992).
+RN   [12]
+RP   FUNCTION, AND INTERACTION WITH IFNGR1.
+RX   PubMed=8156998; DOI=10.1002/j.1460-2075.1994.tb06422.x;
+RA   Greenlund A.C., Farrar M.A., Viviano B.L., Schreiber R.D.;
+RT   "Ligand-induced IFN gamma receptor tyrosine phosphorylation couples the
+RT   receptor to its signal transduction system (p91).";
+RL   EMBO J. 13:1591-1600(1994).
+RN   [13]
+RP   PHOSPHORYLATION AT SER-727.
+RX   PubMed=7543024; DOI=10.1016/0092-8674(95)90311-9;
+RA   Wen Z., Zhong Z., Darnell J.E. Jr.;
+RT   "Maximal activation of transcription by Stat1 and Stat3 requires both
+RT   tyrosine and serine phosphorylation.";
+RL   Cell 82:241-250(1995).
+RN   [14]
+RP   PHOSPHORYLATION AT TYR-701.
+RX   PubMed=7657660; DOI=10.1074/jbc.270.35.20775;
+RA   Quelle F.W., Thierfelder W., Witthuhn B.A., Tang B., Cohen S., Ihle J.N.;
+RT   "Phosphorylation and activation of the DNA binding activity of purified
+RT   Stat1 by the Janus protein-tyrosine kinases and the epidermal growth factor
+RT   receptor.";
+RL   J. Biol. Chem. 270:20775-20780(1995).
+RN   [15]
+RP   TYROSINE PHOSPHORYLATION, HETERODIMERIZATION, AND DNA-BINDING.
+RX   PubMed=8605877; DOI=10.1002/j.1460-2075.1996.tb00445.x;
+RA   Gupta S., Yan H., Wong L.H., Ralph S., Krolewski J., Schindler C.;
+RT   "The SH2 domains of Stat1 and Stat2 mediate multiple interactions in the
+RT   transduction of IFN-alpha signals.";
+RL   EMBO J. 15:1075-1084(1996).
+RN   [16]
+RP   INTERACTION WITH IFNAR1 AND IFNAR2, AND PHOSPHORYLATION.
+RX   PubMed=9121453; DOI=10.1128/mcb.17.4.2048;
+RA   Li X., Leung S., Kerr I.M., Stark G.R.;
+RT   "Functional subdomains of STAT2 required for preassociation with the alpha
+RT   interferon receptor and for signaling.";
+RL   Mol. Cell. Biol. 17:2048-2056(1997).
+RN   [17]
+RP   INTERACTION WITH PIAS1, AND FUNCTION.
+RC   TISSUE=B-cell;
+RX   PubMed=9724754; DOI=10.1073/pnas.95.18.10626;
+RA   Liu B., Liao J., Rao X., Kushner S.A., Chung C.D., Chang D.D., Shuai K.;
+RT   "Inhibition of Stat1-mediated gene activation by PIAS1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:10626-10631(1998).
+RN   [18]
+RP   INTERACTION WITH NMI, AND IDENTIFICATION IN A COMPLEX WITH NMI AND CREBBP.
+RX   PubMed=9989503; DOI=10.1016/s0092-8674(00)80965-4;
+RA   Zhu M.-H., John S., Berg M., Leonard W.J.;
+RT   "Functional association of Nmi with Stat5 and Stat1 in IL-2- and IFNgamma-
+RT   mediated signaling.";
+RL   Cell 96:121-130(1999).
+RN   [19]
+RP   REVIEW.
+RX   PubMed=10702714; DOI=10.1159/000053968;
+RA   Cebulla C.M., Miller D.M., Sedmak D.D.;
+RT   "Viral inhibition of interferon signal transduction.";
+RL   Intervirology 42:325-330(1999).
+RN   [20]
+RP   INTERACTION WITH SENDAI VIRUS C PROTEIN (MICROBIAL INFECTION).
+RX   PubMed=11442634; DOI=10.1046/j.1365-2443.2001.00442.x;
+RA   Takeuchi K., Komatsu T., Yokoo J., Kato A., Shioda T., Nagai Y., Gotoh B.;
+RT   "Sendai virus C protein physically associates with Stat1.";
+RL   Genes Cells 6:545-557(2001).
+RN   [21]
+RP   INTERACTION WITH PTK2/FAK1, AND PHOSPHORYLATION.
+RX   PubMed=11278462; DOI=10.1074/jbc.m009063200;
+RA   Xie B., Zhao J., Kitagawa M., Durbin J., Madri J.A., Guan J.L., Fu X.Y.;
+RT   "Focal adhesion kinase activates Stat1 in integrin-mediated cell migration
+RT   and adhesion.";
+RL   J. Biol. Chem. 276:19512-19523(2001).
+RN   [22]
+RP   PHOSPHORYLATION, AND DEPHOSPHORYLATION BY PTPN2.
+RX   PubMed=12138178; DOI=10.1128/mcb.22.16.5662-5668.2002;
+RA   ten Hoeve J., de Jesus Ibarra-Sanchez M., Fu Y., Zhu W., Tremblay M.,
+RA   David M., Shuai K.;
+RT   "Identification of a nuclear Stat1 protein tyrosine phosphatase.";
+RL   Mol. Cell. Biol. 22:5662-5668(2002).
+RN   [23]
+RP   PHOSPHORYLATION AT SER-727.
+RX   PubMed=11972023; DOI=10.1073/pnas.052159099;
+RA   Nair J.S., DaFonseca C.J., Tjernberg A., Sun W., Darnell J.E. Jr.,
+RA   Chait B.T., Zhang J.J.;
+RT   "Requirement of Ca2+ and CaMKII for Stat1 Ser-727 phosphorylation in
+RT   response to IFN-gamma.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:5971-5976(2002).
+RN   [24]
+RP   SUMOYLATION AT LYS-703, FUNCTION, AND MUTAGENESIS OF LYS-703.
+RX   PubMed=12855578; DOI=10.1182/blood-2002-12-3816;
+RA   Ungureanu D., Vanhatupa S., Kotaja N., Yang J., Aittomaeki S., Jaenne O.A.,
+RA   Palvimo J.J., Silvennoinen O.;
+RT   "PIAS proteins promote SUMO-1 conjugation to STAT1.";
+RL   Blood 102:3311-3313(2003).
+RN   [25]
+RP   SUMOYLATION AT LYS-703, FUNCTION, AND MUTAGENESIS OF LYS-110 AND LYS-703.
+RX   PubMed=12764129; DOI=10.1074/jbc.m301344200;
+RA   Rogers R.S., Horvath C.M., Matunis M.J.;
+RT   "SUMO modification of STAT1 and its role in PIAS-mediated inhibition of
+RT   gene activation.";
+RL   J. Biol. Chem. 278:30091-30097(2003).
+RN   [26]
+RP   REVIEW ON ROLE IN KIT SIGNALING.
+RX   PubMed=15526160; DOI=10.1007/s00018-004-4189-6;
+RA   Ronnstrand L.;
+RT   "Signal transduction via the stem cell factor receptor/c-Kit.";
+RL   Cell. Mol. Life Sci. 61:2535-2548(2004).
+RN   [27]
+RP   PHOSPHORYLATION AT SER-727, FUNCTION, SUBCELLULAR LOCATION, AND MUTAGENESIS
+RP   OF SER-727.
+RX   PubMed=15322115; DOI=10.1074/jbc.m407448200;
+RA   DeVries T.A., Kalkofen R.L., Matassa A.A., Reyland M.E.;
+RT   "Protein kinase Cdelta regulates apoptosis via activation of STAT1.";
+RL   J. Biol. Chem. 279:45603-45612(2004).
+RN   [28]
+RP   INTERACTION WITH NIPAH V AND W PROTEINS (MICROBIAL INFECTION).
+RX   PubMed=15140960; DOI=10.1128/jvi.78.11.5633-5641.2004;
+RA   Shaw M.L., Garcia-Sastre A., Palese P., Basler C.F.;
+RT   "Nipah virus V and W proteins have a common STAT1-binding domain yet
+RT   inhibit STAT1 activation from the cytoplasmic and nuclear compartments,
+RT   respectively.";
+RL   J. Virol. 78:5633-5641(2004).
+RN   [29]
+RP   ISGYLATION.
+RX   PubMed=16139798; DOI=10.1016/j.bbrc.2005.08.132;
+RA   Giannakopoulos N.V., Luo J.K., Papov V., Zou W., Lenschow D.J.,
+RA   Jacobs B.S., Borden E.C., Li J., Virgin H.W., Zhang D.E.;
+RT   "Proteomic identification of proteins conjugated to ISG15 in mouse and
+RT   human cells.";
+RL   Biochem. Biophys. Res. Commun. 336:496-506(2005).
+RN   [30]
+RP   INTERACTION WITH HEPATITIS C VIRUS CORE PROTEIN (MICROBIAL INFECTION).
+RX   PubMed=15825084; DOI=10.1053/j.gastro.2005.02.006;
+RA   Lin W., Choe W.H., Hiasa Y., Kamegaya Y., Blackard J.T., Schmidt E.V.,
+RA   Chung R.T.;
+RT   "Hepatitis C virus expression suppresses interferon signaling by degrading
+RT   STAT1.";
+RL   Gastroenterology 128:1034-1041(2005).
+RN   [31]
+RP   FUNCTION, INTERACTION WITH EP300, PHOSPHORYLATION AT SER-727, AND
+RP   MUTAGENESIS OF LEU-724.
+RX   PubMed=16257975; DOI=10.1074/jbc.m505797200;
+RA   Sun W., Xu W., Snyder M., He W., Ho H., Ivashkiv L.B., Zhang J.J.;
+RT   "The conserved Leu-724 residue is required for both serine phosphorylation
+RT   and co-activator recruitment for Stat1-mediated transcription activation in
+RT   response to interferon-gamma.";
+RL   J. Biol. Chem. 280:41844-41851(2005).
+RN   [32]
+RP   PHOSPHORYLATION AT SER-727.
+RX   PubMed=16799645; DOI=10.1038/sj.onc.1209742;
+RA   Timofeeva O.A., Plisov S., Evseev A.A., Peng S., Jose-Kampfner M.,
+RA   Lovvorn H.N., Dome J.S., Perantoni A.O.;
+RT   "Serine-phosphorylated STAT1 is a prosurvival factor in Wilms' tumor
+RT   pathogenesis.";
+RL   Oncogene 25:7555-7564(2006).
+RN   [33]
+RP   PHOSPHORYLATION IN RESPONSE TO ACTIVATED FGFR3, AND PHOSPHORYLATION AT
+RP   TYR-701.
+RX   PubMed=17561467; DOI=10.1016/j.bone.2006.11.030;
+RA   Harada D., Yamanaka Y., Ueda K., Nishimura R., Morishima T., Seino Y.,
+RA   Tanaka H.;
+RT   "Sustained phosphorylation of mutated FGFR3 is a crucial feature of genetic
+RT   dwarfism and induces apoptosis in the ATDC5 chondrogenic cell line via
+RT   PLCgamma-activated STAT1.";
+RL   Bone 41:273-281(2007).
+RN   [34]
+RP   PHOSPHORYLATION IN RESPONSE TO ACTIVATED FGFR1; FGFR2; FGFR3 AND FGFR4.
+RX   PubMed=17311277; DOI=10.1002/jcp.21014;
+RA   Citores L., Bai L., Sorensen V., Olsnes S.;
+RT   "Fibroblast growth factor receptor-induced phosphorylation of STAT1 at the
+RT   Golgi apparatus without translocation to the nucleus.";
+RL   J. Cell. Physiol. 212:148-156(2007).
+RN   [35]
+RP   PHOSPHORYLATION AT SER-727, INTERACTION WITH PIAS1, SUMOYLATION, AND
+RP   MUTAGENESIS OF TYR-701 AND SER-727.
+RX   PubMed=17897103; DOI=10.1042/bj20070620;
+RA   Vanhatupa S., Ungureanu D., Paakkunainen M., Silvennoinen O.;
+RT   "MAPK-induced Ser727 phosphorylation promotes SUMOylation of STAT1.";
+RL   Biochem. J. 409:179-185(2008).
+RN   [36]
+RP   INTERACTION WITH ERBB4.
+RX   PubMed=18721752; DOI=10.1016/j.chembiol.2008.07.006;
+RA   Kaushansky A., Gordus A., Budnik B.A., Lane W.S., Rush J., MacBeath G.;
+RT   "System-wide investigation of ErbB4 reveals 19 sites of Tyr phosphorylation
+RT   that are unusually selective in their recruitment properties.";
+RL   Chem. Biol. 15:808-817(2008).
+RN   [37]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-727, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of the
+RT   kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [38]
+RP   FUNCTION, AND PHOSPHORYLATION AT TYR-701 IN RESPONSE TO CONSTITUTIVELY
+RP   ACTIVATED FGFR3.
+RX   PubMed=19088846; DOI=10.1371/journal.pone.0003961;
+RA   Krejci P., Salazar L., Kashiwada T.A., Chlebova K., Salasova A.,
+RA   Thompson L.M., Bryja V., Kozubik A., Wilcox W.R.;
+RT   "Analysis of STAT1 activation by six FGFR3 mutants associated with skeletal
+RT   dysplasia undermines dominant role of STAT1 in FGFR3 signaling in
+RT   cartilage.";
+RL   PLoS ONE 3:E3961-E3961(2008).
+RN   [39]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-727, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [40]
+RP   RETRACTED PAPER.
+RX   PubMed=19136629; DOI=10.1101/gad.489409;
+RA   Weber S., Maass F., Schuemann M., Krause E., Suske G., Bauer U.M.;
+RT   "PRMT1-mediated arginine methylation of PIAS1 regulates STAT1 signaling.";
+RL   Genes Dev. 23:118-132(2009).
+RN   [41]
+RP   RETRACTION NOTICE OF PUBMED:19136629.
+RX   PubMed=21724836;
+RA   Weber S., Maass F., Schuemann M., Krause E., Suske G., Bauer U.M.;
+RT   "Retraction. PRMT1-mediated arginine methylation of PIAS1 regulates STAT1
+RT   signaling.";
+RL   Genes Dev. 25:1451-1451(2011).
+RN   [42]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-727, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [43]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-727, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=20068231; DOI=10.1126/scisignal.2000475;
+RA   Olsen J.V., Vermeulen M., Santamaria A., Kumar C., Miller M.L.,
+RA   Jensen L.J., Gnad F., Cox J., Jensen T.S., Nigg E.A., Brunak S., Mann M.;
+RT   "Quantitative phosphoproteomics reveals widespread full phosphorylation
+RT   site occupancy during mitosis.";
+RL   Sci. Signal. 3:RA3-RA3(2010).
+RN   [44]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [45]
+RP   PHOSPHORYLATION AT TYR-701 IN RESPONSE TO KIT SIGNALING, AND
+RP   PHOSPHORYLATION AT SER-727.
+RX   PubMed=21135090; DOI=10.1074/jbc.m110.182642;
+RA   Chaix A., Lopez S., Voisset E., Gros L., Dubreuil P., De Sepulveda P.;
+RT   "Mechanisms of STAT protein activation by oncogenic KIT mutants in
+RT   neoplastic mast cells.";
+RL   J. Biol. Chem. 286:5956-5966(2011).
+RN   [46]
+RP   PHOSPHORYLATION AT TYR-701; SER-708 AND SER-727, AND MUTAGENESIS OF
+RP   TYR-701; SER-708 AND SER-727.
+RX   PubMed=22065572; DOI=10.1074/jbc.m111.285205;
+RA   Perwitasari O., Cho H., Diamond M.S., Gale M. Jr.;
+RT   "Inhibitor of kappaB kinase epsilon (IKK(epsilon)), STAT1, and IFIT2
+RT   proteins define novel innate immune effector pathway against West Nile
+RT   virus infection.";
+RL   J. Biol. Chem. 286:44412-44423(2011).
+RN   [47]
+RP   INTERACTION WITH EBOLAVIRUS PROTEIN VP24 (MICROBIAL INFECTION).
+RX   PubMed=22383882; DOI=10.1371/journal.ppat.1002550;
+RA   Zhang A.P., Bornholdt Z.A., Liu T., Abelson D.M., Lee D.E., Li S.,
+RA   Woods V.L. Jr., Saphire E.O.;
+RT   "The ebola virus interferon antagonist VP24 directly binds STAT1 and has a
+RT   novel, pyramidal fold.";
+RL   PLoS Pathog. 8:E1002550-E1002550(2012).
+RN   [48]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22223895; DOI=10.1074/mcp.m111.015131;
+RA   Bienvenut W.V., Sumpton D., Martinez A., Lilla S., Espagne C., Meinnel T.,
+RA   Giglione C.;
+RT   "Comparative large-scale characterisation of plant vs. mammal proteins
+RT   reveals similar and idiosyncratic N-alpha acetylation features.";
+RL   Mol. Cell. Proteomics 11:M111.015131-M111.015131(2012).
+RN   [49]
+RP   FUNCTION, AND DEUBIQUITINATION BY USP13.
+RX   PubMed=23940278; DOI=10.4049/jimmunol.1300225;
+RA   Yeh H.M., Yu C.Y., Yang H.C., Ko S.H., Liao C.L., Lin Y.L.;
+RT   "Ubiquitin-specific protease 13 regulates IFN signaling by stabilizing
+RT   STAT1.";
+RL   J. Immunol. 191:3328-3336(2013).
+RN   [50]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-727, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma, and Erythroleukemia;
+RX   PubMed=23186163; DOI=10.1021/pr300630k;
+RA   Zhou H., Di Palma S., Preisinger C., Peng M., Polat A.N., Heck A.J.,
+RA   Mohammed S.;
+RT   "Toward a comprehensive characterization of a human cancer cell
+RT   phosphoproteome.";
+RL   J. Proteome Res. 12:260-271(2013).
+RN   [51]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [52]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-703, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25114211; DOI=10.1073/pnas.1413825111;
+RA   Impens F., Radoshevich L., Cossart P., Ribet D.;
+RT   "Mapping of SUMO sites and analysis of SUMOylation changes induced by
+RT   external stimuli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:12432-12437(2014).
+RN   [53]
+RP   FUNCTION, INTERACTION WITH PARP9; DTX3L AND EP300, IDENTIFICATION IN A
+RP   COMPLEX WITH PARP9 AND DTX3L, SUBCELLULAR LOCATION, PHOSPHORYLATION AT
+RP   TYR-701 AND SER-727, AND MUTAGENESIS OF 656-ALA--ASN-658 AND TYR-701.
+RX   PubMed=26479788; DOI=10.1038/ni.3279;
+RA   Zhang Y., Mao D., Roswit W.T., Jin X., Patel A.C., Patel D.A., Agapov E.,
+RA   Wang Z., Tidwell R.M., Atkinson J.J., Huang G., McCarthy R., Yu J.,
+RA   Yun N.E., Paessler S., Lawson T.G., Omattage N.S., Brett T.J.,
+RA   Holtzman M.J.;
+RT   "PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C
+RT   protease to enhance interferon signaling and control viral infection.";
+RL   Nat. Immunol. 16:1215-1227(2015).
+RN   [54]
+RP   SUBCELLULAR LOCATION, PHOSPHORYLATION AT TYR-701, ADP-RIBOSYLATION AT
+RP   GLU-657 AND GLU-705, AND MUTAGENESIS OF GLU-657 AND GLU-705.
+RX   PubMed=27796300; DOI=10.1038/ncomms12849;
+RA   Iwata H., Goettsch C., Sharma A., Ricchiuto P., Goh W.W., Halu A.,
+RA   Yamada I., Yoshida H., Hara T., Wei M., Inoue N., Fukuda D., Mojcher A.,
+RA   Mattson P.C., Barabasi A.L., Boothby M., Aikawa E., Singh S.A., Aikawa M.;
+RT   "PARP9 and PARP14 cross-regulate macrophage activation via STAT1 ADP-
+RT   ribosylation.";
+RL   Nat. Commun. 7:12849-12849(2016).
+RN   [55]
+RP   METHYLATION AT LYS-114; LYS-175; LYS-296; LYS-366; LYS-525; LYS-637 AND
+RP   LYS-665, PHOSPHORYLATION AT TYR-701, FUNCTION, SUBCELLULAR LOCATION,
+RP   SUBUNIT, AND MUTAGENESIS OF LYS-114; LYS-175; LYS-296; LYS-366; LYS-525;
+RP   636-LYS-LYS-637 AND LYS-665.
+RX   PubMed=28753426; DOI=10.1016/j.cell.2017.06.042;
+RA   Chen K., Liu J., Liu S., Xia M., Zhang X., Han D., Jiang Y., Wang C.,
+RA   Cao X.;
+RT   "Methyltransferase SETD2-mediated methylation of STAT1 is critical for
+RT   interferon antiviral activity.";
+RL   Cell 170:492-506(2017).
+RN   [56]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-703, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=28112733; DOI=10.1038/nsmb.3366;
+RA   Hendriks I.A., Lyon D., Young C., Jensen L.J., Vertegaal A.C.,
+RA   Nielsen M.L.;
+RT   "Site-specific mapping of the human SUMO proteome reveals co-modification
+RT   with phosphorylation.";
+RL   Nat. Struct. Mol. Biol. 24:325-336(2017).
+RN   [57]
+RP   COMMENT ON ADP-RIBOSYLATION.
+RX   PubMed=29858569; DOI=10.1038/s41467-018-04522-z;
+RA   Begitt A., Cavey J., Droescher M., Vinkemeier U.;
+RT   "On the role of STAT1 and STAT6 ADP-ribosylation in the regulation of
+RT   macrophage activation.";
+RL   Nat. Commun. 9:2144-2144(2018).
+RN   [58]
+RP   UBIQUITINATION BY HERPES SIMPLEX VIRUS 2 PROTEIN ICP22 (MICROBIAL
+RP   INFECTION).
+RX   PubMed=32699158; DOI=10.4049/jimmunol.2000418;
+RA   Zhang M., Fu M., Li M., Hu H., Gong S., Hu Q.;
+RT   "Herpes Simplex Virus Type 2 Inhibits Type I IFN Signaling Mediated by the
+RT   Novel E3 Ubiquitin Protein Ligase Activity of Viral Protein ICP22.";
+RL   J. Immunol. 205:1281-1292(2020).
+RN   [59]
+RP   INTERACTION WITH MEASLES VIRUS V PROTEIN (MICROBIAL INFECTION).
+RX   PubMed=32581091; DOI=10.1128/jvi.01169-20;
+RA   Nagano Y., Sugiyama A., Kimoto M., Wakahara T., Noguchi Y., Jiang X.,
+RA   Saijo S., Shimizu N., Yabuno N., Yao M., Gooley P.R., Moseley G.W.,
+RA   Tadokoro T., Maenaka K., Ose T.;
+RT   "The Measles Virus V Protein Binding Site to STAT2 Overlaps That of IRF9.";
+RL   J. Virol. 94:0-0(2020).
+RN   [60]
+RP   FUNCTION, SUBCELLULAR LOCATION, PHOSPHORYLATION AT THR-749, AND MUTAGENESIS
+RP   OF TYR-701; THR-704; SER-708; SER-710; SER-715; THR-719; THR-720; SER-727;
+RP   SER-735; SER-740; SER-745 AND THR-749.
+RX   PubMed=32209697; DOI=10.1126/scisignal.aay0574;
+RA   Metwally H., Tanaka T., Li S., Parajuli G., Kang S., Hanieh H.,
+RA   Hashimoto S., Chalise J.P., Gemechu Y., Standley D.M., Kishimoto T.;
+RT   "Noncanonical STAT1 phosphorylation expands its transcriptional activity
+RT   into promoting LPS-induced IL-6 and IL-12p40 production.";
+RL   Sci. Signal. 13:0-0(2020).
+RN   [61]
+RP   FUNCTION, AND INTERACTION WITH STAT4.
+RX   PubMed=34508746; DOI=10.1016/j.yexcr.2021.112784;
+RA   Li M., Liu Y., Fu Y., Gong R., Xia H., Huang X., Wu Y.;
+RT   "Interleukin-35 inhibits lipopolysaccharide-induced endothelial cell
+RT   activation by downregulating inflammation and apoptosis.";
+RL   Exp. Cell Res. 407:112784-112784(2021).
+RN   [62]
+RP   INTERACTION WITH EPSTEIN-BARR VIRUS TEGUMENT PROTEIN BGLF2 (MICROBIAL
+RP   INFECTION).
+RX   PubMed=34319780; DOI=10.1128/jvi.01027-21;
+RA   Jangra S., Bharti A., Lui W.Y., Chaudhary V., Botelho M.G., Yuen K.S.,
+RA   Jin D.Y.;
+RT   "Suppression of JAK-STAT Signaling by Epstein-Barr Virus Tegument Protein
+RT   BGLF2 through Recruitment of SHP1 Phosphatase and Promotion of STAT2
+RT   Degradation.";
+RL   J. Virol. 95:e0102721-e0102721(2021).
+RN   [63]
+RP   FUNCTION, AND PHOSPHORYLATION.
+RX   PubMed=35568036; DOI=10.1016/j.cell.2022.04.028;
+RA   Alphonse N., Wanford J.J., Voak A.A., Gay J., Venkhaya S., Burroughs O.,
+RA   Mathew S., Lee T., Evans S.L., Zhao W., Frowde K., Alrehaili A.,
+RA   Dickenson R.E., Munk M., Panina S., Mahmood I.F., Llorian M.,
+RA   Stanifer M.L., Boulant S., Berchtold M.W., Bergeron J.R.C., Wack A.,
+RA   Lesser C.F., Odendall C.;
+RT   "A family of conserved bacterial virulence factors dampens interferon
+RT   responses by blocking calcium signaling.";
+RL   Cell 185:2354-2369(2022).
+RN   [64]
+RP   PHOSPHORYLATION AT TYR-701; SER-727 AND THR-749, AND MUTAGENESIS OF
+RP   THR-749.
+RX   PubMed=38621137; DOI=10.1073/pnas.2402226121;
+RA   Metwally H., Elbrashy M.M., Ozawa T., Okuyama K., White J.T., Tulyeu J.,
+RA   Soendergaard J.N., Wing J.B., Muratsu A., Matsumoto H., Ikawa M., Kishi H.,
+RA   Taniuchi I., Kishimoto T.;
+RT   "Threonine phosphorylation of STAT1 restricts interferon signaling and
+RT   promotes innate inflammatory responses.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 121:e2402226121-e2402226121(2024).
+RN   [65]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 136-710, AND COILED-COIL.
+RX   PubMed=9630226; DOI=10.1016/s0092-8674(00)81443-9;
+RA   Chen X., Vinkemeier U., Zhao Y., Jeruzalmi D., Darnell J.E. Jr.,
+RA   Kuriyan J.;
+RT   "Crystal structure of a tyrosine phosphorylated STAT-1 dimer bound to
+RT   DNA.";
+RL   Cell 93:827-839(1998).
+RN   [66]
+RP   VARIANT IMD31A SER-706.
+RX   PubMed=11452125; DOI=10.1126/science.1061154;
+RA   Dupuis S., Dargemont C., Fieschi C., Thomassin N., Rosenzweig S.,
+RA   Harris J., Holland S.M., Schreiber R.D., Casanova J.-L.;
+RT   "Impairment of mycobacterial but not viral immunity by a germline human
+RT   STAT1 mutation.";
+RL   Science 293:300-303(2001).
+RN   [67]
+RP   VARIANT IMD31B PRO-600.
+RX   PubMed=12590259; DOI=10.1038/ng1097;
+RA   Dupuis S., Jouanguy E., Al-Hajjar S., Fieschi C., Al-Mohsen I.Z.,
+RA   Al-Jumaah S., Yang K., Chapgier A., Eidenschenk C., Eid P., Al-Ghonaium A.,
+RA   Tufenkeji H., Frayha H., Al-Gazlan S., Al-Rayes H., Schreiber R.D.,
+RA   Gresser I., Casanova J.L.;
+RT   "Impaired response to interferon-alpha/beta and lethal viral disease in
+RT   human STAT1 deficiency.";
+RL   Nat. Genet. 33:388-391(2003).
+RN   [68]
+RP   VARIANTS IMD31A GLN-320 AND HIS-463, AND CHARACTERIZATION OF VARIANTS
+RP   GLN-320; HIS-463 AND SER-706.
+RX   PubMed=16934001; DOI=10.1371/journal.pgen.0020131;
+RA   Chapgier A., Boisson-Dupuis S., Jouanguy E., Vogt G., Feinberg J.,
+RA   Prochnicka-Chalufour A., Casrouge A., Yang K., Soudais C., Fieschi C.,
+RA   Santos O.F., Bustamante J., Picard C., de Beaucoudrey L., Emile J.F.,
+RA   Arkwright P.D., Schreiber R.D., Rolinck-Werninghaus C., Rosen-Wolff A.,
+RA   Magdorf K., Roesler J., Casanova J.L.;
+RT   "Novel STAT1 alleles in otherwise healthy patients with mycobacterial
+RT   disease.";
+RL   PLoS Genet. 2:E131-E131(2006).
+RN   [69]
+RP   VARIANT [LARGE SCALE ANALYSIS] ALA-491.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S., Buckhaults P.,
+RA   Farrell C., Meeh P., Markowitz S.D., Willis J., Dawson D., Willson J.K.V.,
+RA   Gazdar A.F., Hartigan J., Wu L., Liu C., Parmigiani G., Park B.H.,
+RA   Bachman K.E., Papadopoulos N., Vogelstein B., Kinzler K.W.,
+RA   Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal cancers.";
+RL   Science 314:268-274(2006).
+RN   [70]
+RP   INTERACTION WITH HOST STAT1 (MICROBIAL INFECTION).
+RX   PubMed=17686504; DOI=10.1016/j.virol.2007.06.037;
+RG   Infectious Mapping Project I-MAP;
+RA   Caignard G., Guerbois M., Labernardiere J.L., Jacob Y., Jones L.M.,
+RA   Wild F., Tangy F., Vidalain P.O.;
+RT   "Measles virus V protein blocks Jak1-mediated phosphorylation of STAT1 to
+RT   escape IFN-alpha/beta signaling.";
+RL   Virology 368:351-362(2007).
+RN   [71]
+RP   VARIANT IMD31B ASN-201, AND CHARACTERIZATION OF VARIANT IMD31B ASN-201.
+RX   PubMed=20841510; DOI=10.1182/blood-2010-04-280586;
+RA   Kong X.F., Ciancanelli M., Al-Hajjar S., Alsina L., Zumwalt T.,
+RA   Bustamante J., Feinberg J., Audry M., Prando C., Bryant V., Kreins A.,
+RA   Bogunovic D., Halwani R., Zhang X.X., Abel L., Chaussabel D., Al-Muhsen S.,
+RA   Casanova J.L., Boisson-Dupuis S.;
+RT   "A novel form of human STAT1 deficiency impairing early but not late
+RT   responses to interferons.";
+RL   Blood 116:5895-5906(2010).
+RN   [72]
+RP   VARIANTS IMD31C GLY-165; HIS-165; ASN-170; ARG-174; ILE-202; VAL-202;
+RP   VAL-267; PRO-271; GLN-274; TRP-274; ILE-286 AND ALA-288, AND
+RP   CHARACTERIZATION OF VARIANTS IMD31C GLY-165 AND GLN-274.
+RX   PubMed=21727188; DOI=10.1084/jem.20110958;
+RA   Liu L., Okada S., Kong X.F., Kreins A.Y., Cypowyj S., Abhyankar A.,
+RA   Toubiana J., Itan Y., Audry M., Nitschke P., Masson C., Toth B., Flatot J.,
+RA   Migaud M., Chrabieh M., Kochetkov T., Bolze A., Borghesi A., Toulon A.,
+RA   Hiller J., Eyerich S., Eyerich K., Gulacsy V., Chernyshova L.,
+RA   Chernyshov V., Bondarenko A., Maria Cortes Grimaldo R., Blancas-Galicia L.,
+RA   Madrigal Beas I.M., Roesler J., Magdorf K., Engelhard D., Thumerelle C.,
+RA   Burgel P.R., Hoernes M., Drexel B., Seger R., Kusuma T., Jansson A.F.,
+RA   Sawalle-Belohradsky J., Belohradsky B., Jouanguy E., Bustamante J., Bue M.,
+RA   Karin N., Wildbaum G., Bodemer C., Lortholary O., Fischer A., Blanche S.,
+RA   Al-Muhsen S., Reichenbach J., Kobayashi M., Rosales F.E., Lozano C.T.,
+RA   Kilic S.S., Oleastro M., Etzioni A., Traidl-Hoffmann C., Renner E.D.,
+RA   Abel L., Picard C., Marodi L., Boisson-Dupuis S., Puel A., Casanova J.L.;
+RT   "Gain-of-function human STAT1 mutations impair IL-17 immunity and underlie
+RT   chronic mucocutaneous candidiasis.";
+RL   J. Exp. Med. 208:1635-1648(2011).
+RN   [73]
+RP   VARIANTS IMD31C VAL-267 AND TRP-274.
+RX   PubMed=21714643; DOI=10.1056/nejmoa1100102;
+RA   van de Veerdonk F.L., Plantinga T.S., Hoischen A., Smeekens S.P.,
+RA   Joosten L.A., Gilissen C., Arts P., Rosentul D.C., Carmichael A.J.,
+RA   Smits-van der Graaf C.A., Kullberg B.J., van der Meer J.W., Lilic D.,
+RA   Veltman J.A., Netea M.G.;
+RT   "STAT1 mutations in autosomal dominant chronic mucocutaneous candidiasis.";
+RL   N. Engl. J. Med. 365:54-61(2011).
+RN   [74]
+RP   VARIANTS IMD31A GLU-637 AND ARG-673, AND CHARACTERIZATION OF VARIANTS
+RP   IMD31A GLU-637 AND ARG-673.
+RX   PubMed=22573496; DOI=10.1002/humu.22113;
+RA   Tsumura M., Okada S., Sakai H., Yasunaga S., Ohtsubo M., Murata T.,
+RA   Obata H., Yasumi T., Kong X.F., Abhyankar A., Heike T., Nakahata T.,
+RA   Nishikomori R., Al-Muhsen S., Boisson-Dupuis S., Casanova J.L.,
+RA   Alzahrani M., Shehri M.A., Elghazali G., Takihara Y., Kobayashi M.;
+RT   "Dominant-negative STAT1 SH2 domain mutations in unrelated patients with
+RT   Mendelian susceptibility to mycobacterial disease.";
+RL   Hum. Mutat. 33:1377-1387(2012).
+RN   [75]
+RP   VARIANTS IMD31C GLY-165; LYS-179; GLN-274; TRP-274; ARG-285 AND MET-385,
+RP   CHARACTERIZATION OF VARIANTS IMD31C LYS-179; GLN-274; TRP-274; ARG-285 AND
+RP   MET-385, AND CHARACTERIZATION OF VARIANT IMD31B CYS-701.
+RX   PubMed=23709754; DOI=10.1136/jmedgenet-2013-101570;
+RA   Soltesz B., Toth B., Shabashova N., Bondarenko A., Okada S., Cypowyj S.,
+RA   Abhyankar A., Csorba G., Tasko S., Sarkadi A.K., Mehes L., Rozsival P.,
+RA   Neumann D., Chernyshova L., Tulassay Z., Puel A., Casanova J.L., Sediva A.,
+RA   Litzman J., Marodi L.;
+RT   "New and recurrent gain-of-function STAT1 mutations in patients with
+RT   chronic mucocutaneous candidiasis from Eastern and Central Europe.";
+RL   J. Med. Genet. 50:567-578(2013).
+RN   [76]
+RP   VARIANTS IMD31C GLU-278 AND ASP-384, AND CHARACTERIZATION OF VARIANTS
+RP   IMD31C GLU-278; ASP-384 AND MET-385.
+RX   PubMed=25288569; DOI=10.4049/jimmunol.1401467;
+RA   Yamazaki Y., Yamada M., Kawai T., Morio T., Onodera M., Ueki M.,
+RA   Watanabe N., Takada H., Takezaki S., Chida N., Kobayashi I., Ariga T.;
+RT   "Two novel gain-of-function mutations of STAT1 responsible for chronic
+RT   mucocutaneous candidiasis disease: impaired production of IL-17A and IL-22,
+RT   and the presence of anti-IL-17F autoantibody.";
+RL   J. Immunol. 193:4880-4887(2014).
+RN   [77]
+RP   VARIANT IMD31C ASN-298, AND CHARACTERIZATION OF VARIANT IMD31C ASN-298.
+RX   PubMed=26514428; DOI=10.1016/j.molimm.2015.09.014;
+RA   Martinez-Martinez L., Martinez-Saavedra M.T., Fuentes-Prior P.,
+RA   Barnadas M., Rubiales M.V., Noda J., Badell I., Rodriguez-Gallego C.,
+RA   Calle-Martin O.L.;
+RT   "A novel gain-of-function STAT1 mutation resulting in basal phosphorylation
+RT   of STAT1 and increased distal IFN-gamma-mediated responses in chronic
+RT   mucocutaneous candidiasis.";
+RL   Mol. Immunol. 68:597-605(2015).
+CC   -!- FUNCTION: Signal transducer and transcription activator that mediates
+CC       cellular responses to interferons (IFNs), cytokine KITLG/SCF and other
+CC       cytokines and other growth factors (PubMed:12764129, PubMed:12855578,
+CC       PubMed:15322115, PubMed:23940278, PubMed:34508746, PubMed:35568036,
+CC       PubMed:9724754). Following type I IFN (IFN-alpha and IFN-beta) binding
+CC       to cell surface receptors, signaling via protein kinases leads to
+CC       activation of Jak kinases (TYK2 and JAK1) and to tyrosine
+CC       phosphorylation of STAT1 and STAT2. The phosphorylated STATs dimerize
+CC       and associate with ISGF3G/IRF-9 to form a complex termed ISGF3
+CC       transcription factor, that enters the nucleus (PubMed:28753426,
+CC       PubMed:35568036). ISGF3 binds to the IFN stimulated response element
+CC       (ISRE) to activate the transcription of IFN-stimulated genes (ISG),
+CC       which drive the cell in an antiviral state (PubMed:28753426,
+CC       PubMed:35568036). In response to type II IFN (IFN-gamma), STAT1 is
+CC       tyrosine- and serine-phosphorylated (PubMed:26479788). It then forms a
+CC       homodimer termed IFN-gamma-activated factor (GAF), migrates into the
+CC       nucleus and binds to the IFN gamma activated sequence (GAS) to drive
+CC       the expression of the target genes, inducing a cellular antiviral state
+CC       (PubMed:8156998). Becomes activated in response to KITLG/SCF and KIT
+CC       signaling (PubMed:15526160). May mediate cellular responses to
+CC       activated FGFR1, FGFR2, FGFR3 and FGFR4 (PubMed:19088846). Following
+CC       bacterial lipopolysaccharide (LPS)-induced TLR4 endocytosis,
+CC       phosphorylated at Thr-749 by IKBKB which promotes binding of STAT1 to
+CC       the 5'-TTTGAGGC-3' sequence in the ARID5A promoter, resulting in
+CC       transcriptional activation of ARID5A and subsequent ARID5A-mediated
+CC       stabilization of IL6 (PubMed:32209697). Phosphorylation at Thr-749 also
+CC       promotes binding of STAT1 to the 5'-TTTGAGTC-3' sequence in the IL12B
+CC       promoter and activation of IL12B transcription (PubMed:32209697).
+CC       Involved in food tolerance in small intestine: associates with the
+CC       Gasdermin-D, p13 cleavage product (13 kDa GSDMD) and promotes
+CC       transcription of CIITA, inducing type 1 regulatory T (Tr1) cells in
+CC       upper small intestine (By similarity). {ECO:0000250|UniProtKB:P42225,
+CC       ECO:0000269|PubMed:12764129, ECO:0000269|PubMed:12855578,
+CC       ECO:0000269|PubMed:15322115, ECO:0000269|PubMed:19088846,
+CC       ECO:0000269|PubMed:23940278, ECO:0000269|PubMed:26479788,
+CC       ECO:0000269|PubMed:28753426, ECO:0000269|PubMed:32209697,
+CC       ECO:0000269|PubMed:34508746, ECO:0000269|PubMed:35568036,
+CC       ECO:0000269|PubMed:8156998, ECO:0000269|PubMed:9724754,
+CC       ECO:0000303|PubMed:15526160}.
+CC   -!- SUBUNIT: Isoform alpha homodimerizes upon IFN-gamma induced
+CC       phosphorylation (PubMed:28753426, PubMed:8605877). Heterodimer with
+CC       STAT2 upon IFN-alpha/beta induced phosphorylation (PubMed:8605877). The
+CC       heterodimer STAT1:STAT2 forms the interferon-stimulated gene factor 3
+CC       complex (ISGF3) with IRF9 (By similarity). Interacts (phosphorylated at
+CC       Ser-727) with PIAS1; the interaction results in release of STAT1 from
+CC       its target gene (PubMed:17897103, PubMed:9724754). Interacts with
+CC       IFNAR1; the interaction requires the phosphorylation of IFNAR1 at 'Tyr-
+CC       466' (PubMed:9121453). Interacts with IFNAR2 (PubMed:9121453). Found in
+CC       a complex with NMI and CREBBP/CBP (PubMed:9989503). Interacts with NMI
+CC       which is required for CREBBP/CBP recruitment to the complex
+CC       (PubMed:9989503). Interacts with PTK2/FAK1 (PubMed:11278462). Interacts
+CC       with SRC (By similarity). Interacts with ERBB4 (phosphorylated)
+CC       (PubMed:18721752). Interacts with PARP9 and DTX3L independently of IFN-
+CC       beta or IFN-gamma-mediated STAT1 'Tyr-701' phosphorylation
+CC       (PubMed:26479788). Interacts with histone acetyltransferase EP300/p300
+CC       in response to INF-gamma stimulation (PubMed:16257975,
+CC       PubMed:26479788). Independently of its phosphorylation status,
+CC       interacts with OTOP1 (By similarity). Interacts with IFNGR1
+CC       (PubMed:8156998). Interacts with STAT4 (PubMed:34508746).
+CC       {ECO:0000250|UniProtKB:P42225, ECO:0000269|PubMed:11278462,
+CC       ECO:0000269|PubMed:16257975, ECO:0000269|PubMed:17897103,
+CC       ECO:0000269|PubMed:18721752, ECO:0000269|PubMed:26479788,
+CC       ECO:0000269|PubMed:28753426, ECO:0000269|PubMed:34508746,
+CC       ECO:0000269|PubMed:8156998, ECO:0000269|PubMed:8605877,
+CC       ECO:0000269|PubMed:9121453, ECO:0000269|PubMed:9724754,
+CC       ECO:0000269|PubMed:9989503}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with Sendai virus C', C, Y1
+CC       and Y2 proteins, preventing activation of ISRE and GAS promoter.
+CC       {ECO:0000269|PubMed:11442634}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with Nipah virus P, V and W
+CC       proteins preventing activation of ISRE and GAS promoter.
+CC       {ECO:0000269|PubMed:15140960}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with Rabies virus
+CC       phosphoprotein preventing activation of ISRE and GAS promoter.
+CC       {ECO:0000269|PubMed:11442634, ECO:0000269|PubMed:15140960}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with HCV core protein; the
+CC       interaction results in STAT1 degradation.
+CC       {ECO:0000269|PubMed:15825084}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with ebolavirus protein VP24.
+CC       {ECO:0000269|PubMed:22383882}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with Epstein-Barr virus (EBV)
+CC       tegument protein BGLF2; this interaction leads to STAT1
+CC       dephosphorylation and inhibition. {ECO:0000269|PubMed:34319780}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts (via N-terminus) with measles
+CC       V protein; this interaction inhibits STAT1 phosphorylation by Jak1 and
+CC       thereby the type I interferon signaling pathway.
+CC       {ECO:0000269|PubMed:17686504, ECO:0000269|PubMed:32581091}.
+CC   -!- INTERACTION:
+CC       P42224; Q16531: DDB1; NbExp=2; IntAct=EBI-1057697, EBI-350322;
+CC       P42224; Q01094: E2F1; NbExp=2; IntAct=EBI-1057697, EBI-448924;
+CC       P42224; P00533: EGFR; NbExp=7; IntAct=EBI-1057697, EBI-297353;
+CC       P42224; Q8N9N8: EIF1AD; NbExp=4; IntAct=EBI-1057697, EBI-750700;
+CC       P42224; P04626: ERBB2; NbExp=3; IntAct=EBI-1057697, EBI-641062;
+CC       P42224; P01100: FOS; NbExp=6; IntAct=EBI-1057697, EBI-852851;
+CC       P42224; P17181: IFNAR1; NbExp=2; IntAct=EBI-1057697, EBI-1547250;
+CC       P42224; P48551: IFNAR2; NbExp=2; IntAct=EBI-1057697, EBI-958408;
+CC       P42224; P15260: IFNGR1; NbExp=4; IntAct=EBI-1057697, EBI-1030755;
+CC       P42224; P23458: JAK1; NbExp=6; IntAct=EBI-1057697, EBI-1383438;
+CC       P42224; P52294: KPNA1; NbExp=4; IntAct=EBI-1057697, EBI-358383;
+CC       P42224; Q7Z434: MAVS; NbExp=3; IntAct=EBI-1057697, EBI-995373;
+CC       P42224; Q01804: OTUD4; NbExp=3; IntAct=EBI-1057697, EBI-1054396;
+CC       P42224; Q05397: PTK2; NbExp=3; IntAct=EBI-1057697, EBI-702142;
+CC       P42224; O95786: RIGI; NbExp=4; IntAct=EBI-1057697, EBI-995350;
+CC       P42224; P19793: RXRA; NbExp=2; IntAct=EBI-1057697, EBI-78598;
+CC       P42224; P42224: STAT1; NbExp=4; IntAct=EBI-1057697, EBI-1057697;
+CC       P42224; P52630: STAT2; NbExp=19; IntAct=EBI-1057697, EBI-1546963;
+CC       P42224; P40763: STAT3; NbExp=10; IntAct=EBI-1057697, EBI-518675;
+CC       P42224; P0DTC9: N; Xeno; NbExp=6; IntAct=EBI-1057697, EBI-25475856;
+CC       P42224; P07239: OPG106; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-7789600;
+CC       P42224; P0DTC2: S; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-25474821;
+CC       P42224; Q4VW77: UL47; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-11499224;
+CC       P42224; P03255-1; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-6692439;
+CC       P42224; P03255-2; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-6859460;
+CC       P42224; P26664; Xeno; NbExp=5; IntAct=EBI-1057697, EBI-6941357;
+CC       P42224; PRO_0000037566 [P27958]; Xeno; NbExp=2; IntAct=EBI-1057697, EBI-6377335;
+CC       P42224; PRO_0000037576 [P27958]; Xeno; NbExp=4; IntAct=EBI-1057697, EBI-8753518;
+CC       P42224-1; Q9Y4C1: KDM3A; NbExp=8; IntAct=EBI-15711971, EBI-2515339;
+CC       P42224-1; P42224-1: STAT1; NbExp=3; IntAct=EBI-15711971, EBI-15711971;
+CC       P42224-1; P06498; Xeno; NbExp=2; IntAct=EBI-15711971, EBI-16085959;
+CC       P42224-2; P42224-2: STAT1; NbExp=4; IntAct=EBI-15712015, EBI-15712015;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:15322115,
+CC       ECO:0000269|PubMed:26479788, ECO:0000269|PubMed:27796300,
+CC       ECO:0000269|PubMed:28753426, ECO:0000269|PubMed:32209697}. Nucleus
+CC       {ECO:0000269|PubMed:15322115, ECO:0000269|PubMed:26479788,
+CC       ECO:0000269|PubMed:28753426, ECO:0000269|PubMed:32209697}.
+CC       Note=Translocated into the nucleus upon tyrosine phosphorylation and
+CC       dimerization, in response to IFN-gamma and signaling by activated
+CC       FGFR1, FGFR2, FGFR3 or FGFR4 (PubMed:15322115). Monomethylation at Lys-
+CC       525 is required for phosphorylation at Tyr-701 and translocation into
+CC       the nucleus (PubMed:28753426). Translocates into the nucleus in
+CC       response to interferon-beta stimulation (PubMed:26479788).
+CC       {ECO:0000269|PubMed:15322115, ECO:0000269|PubMed:26479788,
+CC       ECO:0000269|PubMed:28753426}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Alpha; Synonyms=p91;
+CC         IsoId=P42224-1; Sequence=Displayed;
+CC       Name=Beta; Synonyms=p84;
+CC         IsoId=P42224-2; Sequence=VSP_006282;
+CC   -!- PTM: Deubiquitinated by USP13; leading to STAT1 stabilization and
+CC       positive regulation of type I and type II IFN signalings.
+CC       {ECO:0000269|PubMed:23940278}.
+CC   -!- PTM: Phosphorylated on tyrosine and serine residues in response to a
+CC       variety of cytokines/growth hormones including IFN-alpha, IFN-gamma,
+CC       PDGF and EGF (PubMed:26479788, PubMed:28753426). Activated KIT promotes
+CC       phosphorylation on tyrosine residues and subsequent translocation to
+CC       the nucleus (PubMed:21135090). Upon EGF stimulation, phosphorylation on
+CC       Tyr-701 (lacking in beta form) by JAK1, JAK2 or TYK2 promotes
+CC       dimerization and subsequent translocation to the nucleus
+CC       (PubMed:28753426, PubMed:7657660). Growth hormone (GH) activates STAT1
+CC       signaling only via JAK2 (PubMed:7657660). Tyrosine phosphorylated in
+CC       response to constitutively activated FGFR1, FGFR2, FGFR3 and FGFR4
+CC       (PubMed:17561467, PubMed:19088846). Phosphorylation on Ser-727 by
+CC       several kinases including MAPK14, ERK1/2, CAMK2/CAMKII and CK2 in
+CC       response to IFN-gamma stimulation, is required for maximal
+CC       transcriptional activity (PubMed:15322115, PubMed:16799645,
+CC       PubMed:17897103, PubMed:7543024). Phosphorylated on Ser-727 by
+CC       CAMK2/CAMKII in response to IFN-gamma stimulation and calcium
+CC       mobilization, promoting activity (PubMed:11972023, PubMed:16257975).
+CC       Phosphorylated by CAMK2/CAMKII in response to IFN-beta stimulation and
+CC       calcium mobilization in epithelial cells, promoting activity
+CC       (PubMed:35568036). Phosphorylation on Ser-727 promotes sumoylation
+CC       though increasing interaction with PIAS (PubMed:17897103).
+CC       Phosphorylation on Ser-727 by PRKCD induces apoptosis in response to
+CC       DNA-damaging agents (PubMed:15322115). Phosphorylated on tyrosine
+CC       residues when PTK2/FAK1 is activated; most likely this is catalyzed by
+CC       a SRC family kinase (PubMed:11278462). Dephosphorylation on tyrosine
+CC       residues by PTPN2 negatively regulates interferon-mediated signaling
+CC       (PubMed:12138178). Upon viral infection or IFN induction,
+CC       phosphorylation on Ser-708 occurs much later than phosphorylation on
+CC       Tyr-701 and is required for the binding of ISGF3 on the ISREs of a
+CC       subset of IFN-stimulated genes IKBKE-dependent (PubMed:22065572).
+CC       Phosphorylation at Tyr-701 and Ser-708 are mutually exclusive,
+CC       phosphorylation at Ser-708 requires previous dephosphorylation of Tyr-
+CC       701 (PubMed:22065572). Phosphorylation at Thr-749 by IKBKB/IKKB
+CC       promotes transcriptional activation of ARID5A and IL12B by STAT1
+CC       (PubMed:32209697). Phosphorylation at Thr-749 restricts interferon
+CC       signaling and anti-inflammatory responses and promotes innate
+CC       inflammatory responses (By similarity). {ECO:0000250|UniProtKB:P42225,
+CC       ECO:0000269|PubMed:11278462, ECO:0000269|PubMed:11972023,
+CC       ECO:0000269|PubMed:12138178, ECO:0000269|PubMed:15322115,
+CC       ECO:0000269|PubMed:16257975, ECO:0000269|PubMed:16799645,
+CC       ECO:0000269|PubMed:17561467, ECO:0000269|PubMed:17897103,
+CC       ECO:0000269|PubMed:19088846, ECO:0000269|PubMed:21135090,
+CC       ECO:0000269|PubMed:22065572, ECO:0000269|PubMed:26479788,
+CC       ECO:0000269|PubMed:28753426, ECO:0000269|PubMed:32209697,
+CC       ECO:0000269|PubMed:35568036, ECO:0000269|PubMed:7543024,
+CC       ECO:0000269|PubMed:7657660}.
+CC   -!- PTM: Sumoylated with SUMO1, SUMO2 and SUMO3. Sumoylation is enhanced by
+CC       IFN-gamma-induced phosphorylation on Ser-727, and by interaction with
+CC       PIAS proteins. Enhances the transactivation activity.
+CC       {ECO:0000269|PubMed:15322115, ECO:0000269|PubMed:17897103,
+CC       ECO:0000269|PubMed:21135090, ECO:0000269|PubMed:22065572,
+CC       ECO:0000269|PubMed:7543024}.
+CC   -!- PTM: ISGylated. {ECO:0000269|PubMed:16139798}.
+CC   -!- PTM: Mono-ADP-ribosylated at Glu-657 and Glu-705 by PARP14; ADP-
+CC       ribosylation prevents phosphorylation at Tyr-701 (PubMed:27796300).
+CC       However, the role of ADP-ribosylation in the prevention of
+CC       phosphorylation has been called into question and the lack of
+CC       phosphorylation may be due to sumoylation of Lys-703 (PubMed:29858569).
+CC       {ECO:0000269|PubMed:27796300, ECO:0000305|PubMed:29858569}.
+CC   -!- PTM: Monomethylated at Lys-525 by SETD2; monomethylation is necessary
+CC       for phosphorylation at Tyr-701, translocation into the nucleus and
+CC       activation of the antiviral defense. {ECO:0000269|PubMed:28753426}.
+CC   -!- PTM: (Microbial infection) Ubiquitinated by Herpes simplex virus 2 E3
+CC       ubiquitin ligase ICP22. {ECO:0000269|PubMed:32699158}.
+CC   -!- DISEASE: Immunodeficiency 31B (IMD31B) [MIM:613796]: A disorder
+CC       characterized by susceptibility to severe mycobacterial and viral
+CC       infections. Affected individuals can develop disseminated infections
+CC       and die of viral illness. {ECO:0000269|PubMed:12590259,
+CC       ECO:0000269|PubMed:20841510, ECO:0000269|PubMed:23709754}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Immunodeficiency 31A (IMD31A) [MIM:614892]: A form of
+CC       Mendelian susceptibility to mycobacterial disease, a rare condition
+CC       caused by impairment of interferon-gamma mediated immunity. It is
+CC       characterized by predisposition to illness caused by moderately
+CC       virulent mycobacterial species, such as Bacillus Calmette-Guerin (BCG)
+CC       vaccine, environmental non-tuberculous mycobacteria, and by the more
+CC       virulent Mycobacterium tuberculosis. Other microorganisms rarely cause
+CC       severe clinical disease in individuals with susceptibility to
+CC       mycobacterial infections, with the exception of Salmonella which
+CC       infects less than 50% of these individuals. Clinical outcome severity
+CC       depends on the degree of impairment of interferon-gamma mediated
+CC       immunity. Some patients die of overwhelming mycobacterial disease with
+CC       lepromatous-like lesions in early childhood, whereas others develop,
+CC       later in life, disseminated but curable infections with tuberculoid
+CC       granulomas. IMD31A has low penetrance, and affected individuals have
+CC       relatively mild disease and good prognosis. IMD31A confers a
+CC       predisposition to mycobacterial infections only, with no increased
+CC       susceptibility to viral infections. {ECO:0000269|PubMed:11452125,
+CC       ECO:0000269|PubMed:16934001, ECO:0000269|PubMed:22573496}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Immunodeficiency 31C (IMD31C) [MIM:614162]: A primary
+CC       immunodeficiency disorder with altered immune responses and impaired
+CC       clearance of fungal infections, selective against Candida. It is
+CC       characterized by persistent and/or recurrent infections of the skin,
+CC       nails and mucous membranes caused by organisms of the genus Candida,
+CC       mainly Candida albicans. {ECO:0000269|PubMed:21714643,
+CC       ECO:0000269|PubMed:21727188, ECO:0000269|PubMed:23709754,
+CC       ECO:0000269|PubMed:25288569, ECO:0000269|PubMed:26514428}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry. STAT1 mutations in patients with autosomal dominant candidiasis
+CC       lead to defective responses of type 1 and type 17 helper T-cells,
+CC       characterized by reduced production of interferon-alpha, interleukin-
+CC       17, and interleukin-22. These cytokines are crucial for the antifungal
+CC       defense of skin and mucosa (PubMed:21714643).
+CC       {ECO:0000269|PubMed:21714643}.
+CC   -!- SIMILARITY: Belongs to the transcription factor STAT family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Has been shown to be mono-ADP-ribosylated at Glu-657 and Glu-
+CC       705 by PARP14 which prevents phosphorylation at Tyr-701
+CC       (PubMed:27796300). However, the role of ADP-ribosylation in the
+CC       prevention of phosphorylation has been called into question
+CC       (PubMed:29858569). It has been suggested that the lack of
+CC       phosphorylation may be due to sumoylation of Lys-703 (PubMed:29858569).
+CC       {ECO:0000269|PubMed:27796300, ECO:0000305|PubMed:29858569}.
+CC   -!- WEB RESOURCE: Name=STAT1base; Note=STAT1 mutation db;
+CC       URL="https://databases.lovd.nl/shared/genes/STAT1";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=STAT1 entry;
+CC       URL="https://en.wikipedia.org/wiki/STAT1";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M97935; AAB64012.1; -; mRNA.
+DR   EMBL; M97936; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; GU211347; ADA59516.1; -; mRNA.
+DR   EMBL; AY865620; AAW56072.1; -; Genomic_DNA.
+DR   EMBL; AK292604; BAF85293.1; -; mRNA.
+DR   EMBL; AK315002; BAG37497.1; -; mRNA.
+DR   EMBL; CR749636; CAH18430.1; -; mRNA.
+DR   EMBL; BT007241; AAP35905.1; -; mRNA.
+DR   EMBL; AC067945; AAY24183.1; -; Genomic_DNA.
+DR   EMBL; CH471058; EAX10850.1; -; Genomic_DNA.
+DR   EMBL; CH471058; EAX10851.1; -; Genomic_DNA.
+DR   EMBL; CH471058; EAX10852.1; -; Genomic_DNA.
+DR   EMBL; CH471058; EAX10855.1; -; Genomic_DNA.
+DR   EMBL; BC002704; AAH02704.1; -; mRNA.
+DR   EMBL; U18662; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18663; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18664; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18665; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18666; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18667; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18668; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18669; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U18670; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS2309.1; -. [P42224-1]
+DR   CCDS; CCDS42793.1; -. [P42224-2]
+DR   PIR; A46159; A46159.
+DR   RefSeq; NP_009330.1; NM_007315.4. [P42224-1]
+DR   RefSeq; NP_644671.1; NM_139266.3. [P42224-2]
+DR   RefSeq; XP_006712781.1; XM_006712718.2. [P42224-1]
+DR   RefSeq; XP_054199535.1; XM_054343560.1. [P42224-1]
+DR   PDB; 1BF5; X-ray; 2.90 A; A=136-710.
+DR   PDB; 1YVL; X-ray; 3.00 A; A/B=1-683.
+DR   PDB; 2KA6; NMR; -; B=710-750.
+DR   PDB; 3WWT; X-ray; 2.00 A; A=1-126.
+DR   PDB; 7NUF; X-ray; 2.00 A; A=132-684.
+DR   PDB; 8D3F; X-ray; 2.97 A; A=132-713.
+DR   PDBsum; 1BF5; -.
+DR   PDBsum; 1YVL; -.
+DR   PDBsum; 2KA6; -.
+DR   PDBsum; 3WWT; -.
+DR   PDBsum; 7NUF; -.
+DR   PDBsum; 8D3F; -.
+DR   AlphaFoldDB; P42224; -.
+DR   SMR; P42224; -.
+DR   BioGRID; 112649; 340.
+DR   ComplexPortal; CPX-6016; ISGF3 complex.
+DR   ComplexPortal; CPX-6041; STAT1/STAT3 complex.
+DR   ComplexPortal; CPX-6042; STAT1/STAT4 complex.
+DR   ComplexPortal; CPX-6048; STAT1 homodimer.
+DR   CORUM; P42224; -.
+DR   DIP; DIP-46140N; -.
+DR   FunCoup; P42224; 1896.
+DR   IntAct; P42224; 225.
+DR   MINT; P42224; -.
+DR   STRING; 9606.ENSP00000354394; -.
+DR   BindingDB; P42224; -.
+DR   ChEMBL; CHEMBL6101; -.
+DR   DrugCentral; P42224; -.
+DR   CarbonylDB; P42224; -.
+DR   GlyCosmos; P42224; 2 sites, 1 glycan.
+DR   GlyGen; P42224; 3 sites, 1 O-linked glycan (3 sites).
+DR   iPTMnet; P42224; -.
+DR   MetOSite; P42224; -.
+DR   PhosphoSitePlus; P42224; -.
+DR   SwissPalm; P42224; -.
+DR   BioMuta; STAT1; -.
+DR   DMDM; 2507413; -.
+DR   CPTAC; CPTAC-1272; -.
+DR   CPTAC; CPTAC-1746; -.
+DR   CPTAC; CPTAC-5964; -.
+DR   jPOST; P42224; -.
+DR   MassIVE; P42224; -.
+DR   PaxDb; 9606-ENSP00000354394; -.
+DR   PeptideAtlas; P42224; -.
+DR   ProteomicsDB; 55491; -. [P42224-1]
+DR   ProteomicsDB; 55492; -. [P42224-2]
+DR   Pumba; P42224; -.
+DR   ABCD; P42224; 2 sequenced antibodies.
+DR   Antibodypedia; 688; 2426 antibodies from 54 providers.
+DR   CPTC; P42224; 3 antibodies.
+DR   DNASU; 6772; -.
+DR   Ensembl; ENST00000361099.8; ENSP00000354394.4; ENSG00000115415.21. [P42224-1]
+DR   Ensembl; ENST00000392322.7; ENSP00000376136.3; ENSG00000115415.21. [P42224-2]
+DR   Ensembl; ENST00000392323.6; ENSP00000376137.3; ENSG00000115415.21. [P42224-2]
+DR   Ensembl; ENST00000409465.5; ENSP00000386244.1; ENSG00000115415.21. [P42224-1]
+DR   Ensembl; ENST00000415035.2; ENSP00000388240.2; ENSG00000115415.21. [P42224-1]
+DR   Ensembl; ENST00000540176.6; ENSP00000438703.2; ENSG00000115415.21. [P42224-1]
+DR   Ensembl; ENST00000673841.1; ENSP00000501225.1; ENSG00000115415.21. [P42224-2]
+DR   Ensembl; ENST00000674080.1; ENSP00000501164.1; ENSG00000115415.21. [P42224-2]
+DR   Ensembl; ENST00000698141.1; ENSP00000513582.1; ENSG00000115415.21. [P42224-1]
+DR   GeneID; 6772; -.
+DR   KEGG; hsa:6772; -.
+DR   MANE-Select; ENST00000361099.8; ENSP00000354394.4; NM_007315.4; NP_009330.1.
+DR   UCSC; uc002usj.3; human. [P42224-1]
+DR   AGR; HGNC:11362; -.
+DR   CTD; 6772; -.
+DR   DisGeNET; 6772; -.
+DR   GeneCards; STAT1; -.
+DR   HGNC; HGNC:11362; STAT1.
+DR   HPA; ENSG00000115415; Low tissue specificity.
+DR   MalaCards; STAT1; -.
+DR   MIM; 600555; gene.
+DR   MIM; 613796; phenotype.
+DR   MIM; 614162; phenotype.
+DR   MIM; 614892; phenotype.
+DR   neXtProt; NX_P42224; -.
+DR   OpenTargets; ENSG00000115415; -.
+DR   Orphanet; 319595; Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency.
+DR   Orphanet; 391487; STAT1-related autoimmune enteropathy and endocrinopathy-susceptibility to chronic infections syndrome.
+DR   Orphanet; 391311; Susceptibility to viral and mycobacterial infections due to STAT1 deficiency.
+DR   PharmGKB; PA36183; -.
+DR   VEuPathDB; HostDB:ENSG00000115415; -.
+DR   eggNOG; KOG3667; Eukaryota.
+DR   GeneTree; ENSGT01050000244905; -.
+DR   HOGENOM; CLU_014189_3_0_1; -.
+DR   InParanoid; P42224; -.
+DR   OMA; FDTMMNA; -.
+DR   OrthoDB; 19300at2759; -.
+DR   PAN-GO; P42224; 7 GO annotations based on evolutionary models.
+DR   PhylomeDB; P42224; -.
+DR   TreeFam; TF318648; -.
+DR   PathwayCommons; P42224; -.
+DR   Reactome; R-HSA-1059683; Interleukin-6 signaling.
+DR   Reactome; R-HSA-1169408; ISG15 antiviral mechanism.
+DR   Reactome; R-HSA-1433557; Signaling by SCF-KIT.
+DR   Reactome; R-HSA-1839117; Signaling by cytosolic FGFR1 fusion mutants.
+DR   Reactome; R-HSA-186763; Downstream signal transduction.
+DR   Reactome; R-HSA-2173795; Downregulation of SMAD2/3:SMAD4 transcriptional activity. [P42224-1]
+DR   Reactome; R-HSA-6785807; Interleukin-4 and Interleukin-13 signaling.
+DR   Reactome; R-HSA-877300; Interferon gamma signaling. [P42224-1]
+DR   Reactome; R-HSA-877312; Regulation of IFNG signaling. [P42224-1]
+DR   Reactome; R-HSA-8854691; Interleukin-20 family signaling.
+DR   Reactome; R-HSA-8939902; Regulation of RUNX2 expression and activity.
+DR   Reactome; R-HSA-8984722; Interleukin-35 Signalling.
+DR   Reactome; R-HSA-8985947; Interleukin-9 signaling.
+DR   Reactome; R-HSA-9013508; NOTCH3 Intracellular Domain Regulates Transcription.
+DR   Reactome; R-HSA-9020956; Interleukin-27 signaling.
+DR   Reactome; R-HSA-9020958; Interleukin-21 signaling.
+DR   Reactome; R-HSA-909733; Interferon alpha/beta signaling.
+DR   Reactome; R-HSA-912694; Regulation of IFNA/IFNB signaling.
+DR   Reactome; R-HSA-9670439; Signaling by phosphorylated juxtamembrane, extracellular and kinase domain KIT mutants.
+DR   Reactome; R-HSA-9673767; Signaling by PDGFRA transmembrane, juxtamembrane and kinase domain mutants.
+DR   Reactome; R-HSA-9673770; Signaling by PDGFRA extracellular domain mutants.
+DR   Reactome; R-HSA-9674555; Signaling by CSF3 (G-CSF).
+DR   Reactome; R-HSA-9680350; Signaling by CSF1 (M-CSF) in myeloid cells.
+DR   Reactome; R-HSA-9705462; Inactivation of CSF3 (G-CSF) signaling.
+DR   Reactome; R-HSA-9705671; SARS-CoV-2 activates/modulates innate and adaptive immune responses.
+DR   Reactome; R-HSA-9725370; Signaling by ALK fusions and activated point mutants.
+DR   Reactome; R-HSA-982772; Growth hormone receptor signaling.
+DR   Reactome; R-HSA-9833482; PKR-mediated signaling.
+DR   Reactome; R-HSA-9860927; Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells.
+DR   SignaLink; P42224; -.
+DR   SIGNOR; P42224; -.
+DR   BioGRID-ORCS; 6772; 34 hits in 1188 CRISPR screens.
+DR   CD-CODE; DEE660B4; Stress granule.
+DR   CD-CODE; FB4E32DD; Presynaptic clusters and postsynaptic densities.
+DR   ChiTaRS; STAT1; human.
+DR   EvolutionaryTrace; P42224; -.
+DR   GeneWiki; STAT1; -.
+DR   GenomeRNAi; 6772; -.
+DR   Pharos; P42224; Tchem.
+DR   PRO; PR:P42224; -.
+DR   Proteomes; UP000005640; Chromosome 2.
+DR   RNAct; P42224; protein.
+DR   Bgee; ENSG00000115415; Expressed in epithelium of nasopharynx and 208 other cell types or tissues.
+DR   ExpressionAtlas; P42224; baseline and differential.
+DR   GO; GO:0030424; C:axon; ISS:UniProtKB.
+DR   GO; GO:0000785; C:chromatin; IDA:BHF-UCL.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:HPA.
+DR   GO; GO:0030425; C:dendrite; ISS:UniProtKB.
+DR   GO; GO:0070721; C:ISGF3 complex; IPI:ComplexPortal.
+DR   GO; GO:0005730; C:nucleolus; IDA:HPA.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:HPA.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:AgBase.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:UniProtKB.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; IPI:ComplexPortal.
+DR   GO; GO:0045296; F:cadherin binding; HDA:BHF-UCL.
+DR   GO; GO:0031730; F:CCR5 chemokine receptor binding; IEA:Ensembl.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IDA:UniProtKB.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IDA:UniProtKB.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IDA:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:UniProtKB.
+DR   GO; GO:0035035; F:histone acetyltransferase binding; IPI:UniProtKB.
+DR   GO; GO:0042393; F:histone binding; IPI:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:1990841; F:promoter-specific chromatin binding; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0051721; F:protein phosphatase 2A binding; IEA:Ensembl.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; IDA:BHF-UCL.
+DR   GO; GO:0000979; F:RNA polymerase II core promoter sequence-specific DNA binding; IDA:UniProtKB.
+DR   GO; GO:0000977; F:RNA polymerase II transcription regulatory region sequence-specific DNA binding; IDA:UniProtKB.
+DR   GO; GO:0001223; F:transcription coactivator binding; IPI:UniProtKB.
+DR   GO; GO:0001222; F:transcription corepressor binding; IPI:UniProtKB.
+DR   GO; GO:0005164; F:tumor necrosis factor receptor binding; IPI:UniProtKB.
+DR   GO; GO:0044389; F:ubiquitin-like protein ligase binding; IPI:UniProtKB.
+DR   GO; GO:0008015; P:blood circulation; ISS:UniProtKB.
+DR   GO; GO:0007259; P:cell surface receptor signaling pathway via JAK-STAT; IDA:UniProtKB.
+DR   GO; GO:0097696; P:cell surface receptor signaling pathway via STAT; IDA:BHF-UCL.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IEA:Ensembl.
+DR   GO; GO:0035458; P:cellular response to interferon-beta; IDA:UniProt.
+DR   GO; GO:0071346; P:cellular response to type II interferon; IDA:UniProtKB.
+DR   GO; GO:0006952; P:defense response; IBA:GO_Central.
+DR   GO; GO:0051607; P:defense response to virus; IDA:UniProtKB.
+DR   GO; GO:0070106; P:interleukin-27-mediated signaling pathway; IDA:ARUK-UCL.
+DR   GO; GO:0038111; P:interleukin-7-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0038113; P:interleukin-9-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0072162; P:metanephric mesenchymal cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0072136; P:metanephric mesenchymal cell proliferation involved in metanephros development; ISS:UniProtKB.
+DR   GO; GO:0046725; P:negative regulation by virus of viral protein levels in host cell; IMP:AgBase.
+DR   GO; GO:0016525; P:negative regulation of angiogenesis; IMP:UniProtKB.
+DR   GO; GO:0043124; P:negative regulation of canonical NF-kappaB signal transduction; IMP:UniProtKB.
+DR   GO; GO:0001937; P:negative regulation of endothelial cell proliferation; IMP:UniProtKB.
+DR   GO; GO:0003340; P:negative regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0072308; P:negative regulation of metanephric nephron tubule epithelial cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0002230; P:positive regulation of defense response to virus by host; IMP:UniProtKB.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; IDA:UniProtKB.
+DR   GO; GO:0045648; P:positive regulation of erythrocyte differentiation; IMP:UniProtKB.
+DR   GO; GO:0032727; P:positive regulation of interferon-alpha production; IDA:UniProtKB.
+DR   GO; GO:0002053; P:positive regulation of mesenchymal cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; IEA:Ensembl.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IDA:UniProtKB.
+DR   GO; GO:0042981; P:regulation of apoptotic process; TAS:UniProtKB.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; IBA:GO_Central.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IDA:UniProt.
+DR   GO; GO:0061326; P:renal tubule development; IMP:UniProtKB.
+DR   GO; GO:0051591; P:response to cAMP; ISS:UniProtKB.
+DR   GO; GO:0034097; P:response to cytokine; ISS:UniProtKB.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEA:Ensembl.
+DR   GO; GO:0035456; P:response to interferon-beta; IMP:UniProtKB.
+DR   GO; GO:0009612; P:response to mechanical stimulus; IEA:Ensembl.
+DR   GO; GO:0007584; P:response to nutrient; IEA:Ensembl.
+DR   GO; GO:0043434; P:response to peptide hormone; ISS:UniProtKB.
+DR   GO; GO:0034341; P:response to type II interferon; IDA:UniProtKB.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEA:Ensembl.
+DR   GO; GO:0033209; P:tumor necrosis factor-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0060337; P:type I interferon-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0060333; P:type II interferon-mediated signaling pathway; IDA:BHF-UCL.
+DR   CDD; cd10372; SH2_STAT1; 1.
+DR   CDD; cd16851; STAT1_CCD; 1.
+DR   CDD; cd16845; STAT1_DBD; 1.
+DR   DisProt; DP00962; -.
+DR   FunFam; 1.10.238.10:FF:000012; Signal transducer and activator of transcription; 1.
+DR   FunFam; 1.10.532.10:FF:000001; Signal transducer and activator of transcription; 1.
+DR   FunFam; 1.20.1050.20:FF:000001; Signal transducer and activator of transcription; 1.
+DR   FunFam; 2.60.40.630:FF:000001; Signal transducer and activator of transcription; 1.
+DR   FunFam; 3.30.505.10:FF:000003; Signal transducer and activator of transcription; 1.
+DR   FunFam; 6.10.250.3310:FF:000001; Signal transducer and activator of transcription; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 6.10.250.3310; signal transducer and activator of transcription 1; 1.
+DR   Gene3D; 1.20.1050.20; STAT transcription factor, all-alpha domain; 1.
+DR   Gene3D; 2.60.40.630; STAT transcription factor, DNA-binding domain; 1.
+DR   Gene3D; 1.10.532.10; STAT transcription factor, N-terminal domain; 1.
+DR   IDEAL; IID00046; -.
+DR   InterPro; IPR008967; p53-like_TF_DNA-bd_sf.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR001217; STAT.
+DR   InterPro; IPR038295; STAT1_C_sf.
+DR   InterPro; IPR035859; STAT1_SH2.
+DR   InterPro; IPR022752; STAT1_TAZ2-bd_C.
+DR   InterPro; IPR048988; STAT_linker.
+DR   InterPro; IPR036535; STAT_N_sf.
+DR   InterPro; IPR013800; STAT_TF_alpha.
+DR   InterPro; IPR015988; STAT_TF_coiled-coil.
+DR   InterPro; IPR013801; STAT_TF_DNA-bd.
+DR   InterPro; IPR012345; STAT_TF_DNA-bd_N.
+DR   InterPro; IPR013799; STAT_TF_prot_interaction.
+DR   PANTHER; PTHR11801; SIGNAL TRANSDUCER AND ACTIVATOR OF TRANSCRIPTION; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF12162; STAT1_TAZ2bind; 1.
+DR   Pfam; PF01017; STAT_alpha; 1.
+DR   Pfam; PF02864; STAT_bind; 1.
+DR   Pfam; PF02865; STAT_int; 1.
+DR   Pfam; PF21354; STAT_linker; 1.
+DR   SMART; SM00964; STAT_int; 1.
+DR   SUPFAM; SSF49417; p53-like transcription factors; 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   SUPFAM; SSF47655; STAT; 1.
+DR   SUPFAM; SSF48092; Transcription factor STAT-4 N-domain; 1.
+DR   PROSITE; PS50001; SH2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Activator; ADP-ribosylation;
+KW   Alternative splicing; Antiviral defense; Coiled coil; Cytoplasm;
+KW   Direct protein sequencing; Disease variant; DNA-binding;
+KW   Host-virus interaction; Isopeptide bond; Methylation; Nucleus;
+KW   Phosphoprotein; Proteomics identification; Reference proteome; SH2 domain;
+KW   Transcription; Transcription regulation; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0007744|PubMed:22223895"
+FT   CHAIN           2..750
+FT                   /note="Signal transducer and activator of transcription 1-
+FT                   alpha/beta"
+FT                   /id="PRO_0000182410"
+FT   DOMAIN          573..670
+FT                   /note="SH2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   COILED          136..317
+FT                   /evidence="ECO:0000269|PubMed:9630226"
+FT   SITE            724
+FT                   /note="Required for recruitment of EP300/p300"
+FT                   /evidence="ECO:0000269|PubMed:16257975"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0007744|PubMed:22223895"
+FT   MOD_RES         114
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         175
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         296
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         366
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         525
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         637
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         657
+FT                   /note="ADP-ribosyl glutamic acid; by PARP14"
+FT                   /evidence="ECO:0000269|PubMed:27796300"
+FT   MOD_RES         665
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MOD_RES         701
+FT                   /note="Phosphotyrosine; by JAK1, JAK2 or TYK2"
+FT                   /evidence="ECO:0000269|PubMed:17561467,
+FT                   ECO:0000269|PubMed:19088846, ECO:0000269|PubMed:21135090,
+FT                   ECO:0000269|PubMed:22065572, ECO:0000269|PubMed:26479788,
+FT                   ECO:0000269|PubMed:27796300, ECO:0000269|PubMed:28753426,
+FT                   ECO:0000269|PubMed:38621137, ECO:0000269|PubMed:7657660"
+FT   MOD_RES         705
+FT                   /note="ADP-ribosyl glutamic acid; by PARP14"
+FT                   /evidence="ECO:0000269|PubMed:27796300"
+FT   MOD_RES         708
+FT                   /note="Phosphoserine; by IKKE"
+FT                   /evidence="ECO:0000269|PubMed:22065572"
+FT   MOD_RES         727
+FT                   /note="Phosphoserine; by CAMK2 and MAPK14"
+FT                   /evidence="ECO:0000269|PubMed:11972023,
+FT                   ECO:0000269|PubMed:15322115, ECO:0000269|PubMed:16257975,
+FT                   ECO:0000269|PubMed:17897103, ECO:0000269|PubMed:21135090,
+FT                   ECO:0000269|PubMed:22065572, ECO:0000269|PubMed:26479788,
+FT                   ECO:0000269|PubMed:38621137, ECO:0000269|PubMed:7543024,
+FT                   ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:18691976,
+FT                   ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+FT                   ECO:0007744|PubMed:23186163"
+FT   MOD_RES         745
+FT                   /note="Phosphoserine; by IKKE"
+FT                   /evidence="ECO:0000250|UniProtKB:P42225"
+FT   MOD_RES         749
+FT                   /note="Phosphothreonine; by IKKB"
+FT                   /evidence="ECO:0000269|PubMed:32209697,
+FT                   ECO:0000269|PubMed:38621137"
+FT   CROSSLNK        703
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0007744|PubMed:25114211"
+FT   CROSSLNK        703
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0007744|PubMed:28112733"
+FT   VAR_SEQ         713..750
+FT                   /note="Missing (in isoform Beta)"
+FT                   /evidence="ECO:0000303|PubMed:15489334, ECO:0000303|Ref.6"
+FT                   /id="VSP_006282"
+FT   VARIANT         30
+FT                   /note="I -> T (in dbSNP:rs34255470)"
+FT                   /id="VAR_034521"
+FT   VARIANT         165
+FT                   /note="D -> G (in IMD31C; gain of function mutation
+FT                   associated with increased STAT1 phosphorylation due to
+FT                   impaired nuclear dephosphorylation; dbSNP:rs387906764)"
+FT                   /evidence="ECO:0000269|PubMed:21727188,
+FT                   ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_065934"
+FT   VARIANT         165
+FT                   /note="D -> H (in IMD31C; dbSNP:rs387906767)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065935"
+FT   VARIANT         170
+FT                   /note="Y -> N (in IMD31C; dbSNP:rs387906766)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065936"
+FT   VARIANT         174
+FT                   /note="C -> R (in IMD31C; dbSNP:rs387906763)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065937"
+FT   VARIANT         179
+FT                   /note="N -> K (in IMD31C; gain of function; increases
+FT                   transactivation activity in response to IFNG;
+FT                   dbSNP:rs587777628)"
+FT                   /evidence="ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_075494"
+FT   VARIANT         201
+FT                   /note="K -> N (in IMD31B; not deleterious in terms of most
+FT                   STAT1 functions; causes abnormal splicing out of exon 8
+FT                   from most mRNAs thereby decreasing protein levels by
+FT                   approximately 70%; dbSNP:rs587776870)"
+FT                   /evidence="ECO:0000269|PubMed:20841510"
+FT                   /id="VAR_065815"
+FT   VARIANT         202
+FT                   /note="M -> I (in IMD31C)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065938"
+FT   VARIANT         202
+FT                   /note="M -> V (in IMD31C; dbSNP:rs387906762)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065939"
+FT   VARIANT         267
+FT                   /note="A -> V (in IMD31C; dbSNP:rs387906759)"
+FT                   /evidence="ECO:0000269|PubMed:21714643,
+FT                   ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065940"
+FT   VARIANT         271
+FT                   /note="Q -> P (in IMD31C; dbSNP:rs387906768)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065941"
+FT   VARIANT         274
+FT                   /note="R -> Q (in IMD31C; gain of function; increases STAT1
+FT                   phosphorylation due to impaired nuclear dephosphorylation;
+FT                   increases transactivation activity in response to IFNG;
+FT                   dbSNP:rs387906760)"
+FT                   /evidence="ECO:0000269|PubMed:21727188,
+FT                   ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_065942"
+FT   VARIANT         274
+FT                   /note="R -> W (in IMD31C; gain of function; increases
+FT                   phosphorylation in response to IFNG, IFNA and IL27 due to a
+FT                   loss of dephosphorylation; dbSNP:rs387906758)"
+FT                   /evidence="ECO:0000269|PubMed:21714643,
+FT                   ECO:0000269|PubMed:21727188, ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_065943"
+FT   VARIANT         278
+FT                   /note="K -> E (in IMD31C; gain of function; increases
+FT                   phosphorylation in response to IFNG and IFNA due to a loss
+FT                   of dephosphorylation; dbSNP:rs863223398)"
+FT                   /evidence="ECO:0000269|PubMed:25288569"
+FT                   /id="VAR_075495"
+FT   VARIANT         285
+FT                   /note="Q -> R (in IMD31C; gain of function; increases
+FT                   transactivation activity in response to IFNG;
+FT                   dbSNP:rs587777629)"
+FT                   /evidence="ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_075496"
+FT   VARIANT         286
+FT                   /note="K -> I (in IMD31C; dbSNP:rs387906761)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065944"
+FT   VARIANT         288
+FT                   /note="T -> A (in IMD31C; dbSNP:rs387906765)"
+FT                   /evidence="ECO:0000269|PubMed:21727188"
+FT                   /id="VAR_065945"
+FT   VARIANT         298
+FT                   /note="K -> N (in IMD31C; gain of function; increases basal
+FT                   STAT1 phosphorylation levels which are 10-20 fold higher
+FT                   than controls after IFNG stimulation)"
+FT                   /evidence="ECO:0000269|PubMed:26514428"
+FT                   /id="VAR_075497"
+FT   VARIANT         320
+FT                   /note="E -> Q (in IMD31A; affects the DNA-binding activity
+FT                   of the protein; dbSNP:rs137852680)"
+FT                   /evidence="ECO:0000269|PubMed:16934001"
+FT                   /id="VAR_065816"
+FT   VARIANT         384
+FT                   /note="G -> D (in IMD31C; gain of function; increases
+FT                   phosphorylation in response to IFNG and IFNA due to a loss
+FT                   of dephosphorylation; dbSNP:rs796065052)"
+FT                   /evidence="ECO:0000269|PubMed:25288569"
+FT                   /id="VAR_075498"
+FT   VARIANT         385
+FT                   /note="T -> M (in IMD31C; gain of function; increases
+FT                   phosphorylation in response to IFNG, IFNA and IL27 due to a
+FT                   loss of dephosphorylation; dbSNP:rs587777630)"
+FT                   /evidence="ECO:0000269|PubMed:23709754,
+FT                   ECO:0000269|PubMed:25288569"
+FT                   /id="VAR_075499"
+FT   VARIANT         463
+FT                   /note="Q -> H (in IMD31A; affects the DNA-binding activity
+FT                   of the protein; dbSNP:rs137852679)"
+FT                   /evidence="ECO:0000269|PubMed:16934001"
+FT                   /id="VAR_065817"
+FT   VARIANT         491
+FT                   /note="P -> A (in a breast cancer sample; somatic
+FT                   mutation)"
+FT                   /evidence="ECO:0000269|PubMed:16959974"
+FT                   /id="VAR_036001"
+FT   VARIANT         600
+FT                   /note="L -> P (in IMD31B; found in an infant who died of a
+FT                   viral-like illness associated with complete STAT1
+FT                   deficiency; dbSNP:rs137852678)"
+FT                   /evidence="ECO:0000269|PubMed:12590259"
+FT                   /id="VAR_018265"
+FT   VARIANT         637
+FT                   /note="K -> E (in IMD31A; affects both phosphorylation and
+FT                   DNA-binding activity; results in impaired STAT1-mediated
+FT                   cellular response to IFN-gamma and interleukin-27;
+FT                   dbSNP:rs587777705)"
+FT                   /evidence="ECO:0000269|PubMed:22573496"
+FT                   /id="VAR_068713"
+FT   VARIANT         673
+FT                   /note="K -> R (in IMD31A; impairs tyrosine phosphorylation;
+FT                   results in impaired STAT1-mediated cellular response to
+FT                   IFN-gamma and interleukin-27; dbSNP:rs587777704)"
+FT                   /evidence="ECO:0000269|PubMed:22573496"
+FT                   /id="VAR_068714"
+FT   VARIANT         701
+FT                   /note="Y -> C (in IMD31B; disrupts transactivation activity
+FT                   in response to IFNG)"
+FT                   /evidence="ECO:0000269|PubMed:23709754"
+FT                   /id="VAR_075500"
+FT   VARIANT         706
+FT                   /note="L -> S (in IMD31A; loss of GAF and ISGF3 activation;
+FT                   impairs the nuclear accumulation of GAF but not of ISGF3 in
+FT                   heterozygous cells stimulated by IFNs; affects
+FT                   phosphorylation of the protein; dbSNP:rs137852677)"
+FT                   /evidence="ECO:0000269|PubMed:11452125,
+FT                   ECO:0000269|PubMed:16934001"
+FT                   /id="VAR_018266"
+FT   MUTAGEN         110
+FT                   /note="K->R: Sumoylated."
+FT                   /evidence="ECO:0000269|PubMed:12764129"
+FT   MUTAGEN         114
+FT                   /note="K->A: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         175
+FT                   /note="K->A: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         296
+FT                   /note="K->A: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         366
+FT                   /note="K->A: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         525
+FT                   /note="K->A: Strongly reduced IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation. Does not affect
+FT                   ability to homodimerize."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         636..637
+FT                   /note="KK->AA: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         656..658
+FT                   /note="AEN->CEC: Enhances STAT1 nuclear translocation and
+FT                   interferon (IFN)-stimulated gene (ISG) expression in
+FT                   response to IFN-beta stimulation. Reduces viral load in
+FT                   infected cultured cells."
+FT                   /evidence="ECO:0000269|PubMed:26479788"
+FT   MUTAGEN         657
+FT                   /note="E->Q: Loss of ADP-ribosylation and increased Tyr-701
+FT                   phosphorylation; when associated with Q-705."
+FT                   /evidence="ECO:0000269|PubMed:27796300"
+FT   MUTAGEN         665
+FT                   /note="K->A: No effect on IFN-alpha-induced STAT1
+FT                   phosphorylation and nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:28753426"
+FT   MUTAGEN         701
+FT                   /note="Y->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         701
+FT                   /note="Y->E: Not phosphorylated at S-708 upon IFNB
+FT                   induction."
+FT                   /evidence="ECO:0000269|PubMed:17897103,
+FT                   ECO:0000269|PubMed:22065572"
+FT   MUTAGEN         701
+FT                   /note="Y->F: No effect on basal sumoylation. Enhances
+FT                   sumoylation in the presence of MAPK stimulation.
+FT                   Phosphorylated at S-708 upon IFNB induction."
+FT                   /evidence="ECO:0000269|PubMed:17897103,
+FT                   ECO:0000269|PubMed:22065572"
+FT   MUTAGEN         703
+FT                   /note="K->R: Abolishes sumoylation by SUMO1. Increased
+FT                   IFN-gamma-mediated transactivation."
+FT                   /evidence="ECO:0000269|PubMed:12764129,
+FT                   ECO:0000269|PubMed:12855578"
+FT   MUTAGEN         704
+FT                   /note="T->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         705
+FT                   /note="E->Q: Loss of ADP-ribosylation and increased Tyr-701
+FT                   phosphorylation; when associated with Q-657."
+FT                   /evidence="ECO:0000269|PubMed:27796300"
+FT   MUTAGEN         708
+FT                   /note="S->A: Phosphorylated at Y-701 upon IFNB induction.
+FT                   No effect on transcriptional activation of ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:22065572,
+FT                   ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         708
+FT                   /note="S->D: Not phosphorylated at Y-701 upon IFNB
+FT                   induction."
+FT                   /evidence="ECO:0000269|PubMed:22065572"
+FT   MUTAGEN         710
+FT                   /note="S->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         715
+FT                   /note="S->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         719
+FT                   /note="T->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         720
+FT                   /note="T->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         724
+FT                   /note="L->A: Impaired phosphorylation at S-727."
+FT                   /evidence="ECO:0000269|PubMed:16257975"
+FT   MUTAGEN         727
+FT                   /note="S->A: Decreased transcriptional activation. No
+FT                   effect on basal sumoylation. No enhancement of sumoylation
+FT                   on MAPK stimulation. No PRKCD-induced apoptosis. Upon IFNB
+FT                   induction, phosphorylated at Y-701 but not at S-708. No
+FT                   effect on transcriptional activation of ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:15322115,
+FT                   ECO:0000269|PubMed:17897103, ECO:0000269|PubMed:22065572,
+FT                   ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         727
+FT                   /note="S->D: No change in enhancement of MAPK-induced
+FT                   sumoylation. Basal interaction with PIAS1. Interaction with
+FT                   PIAS1 increased on MAPK stimulation."
+FT                   /evidence="ECO:0000269|PubMed:15322115,
+FT                   ECO:0000269|PubMed:17897103, ECO:0000269|PubMed:22065572"
+FT   MUTAGEN         727
+FT                   /note="S->E: No change in enhancement of MAPK-induced
+FT                   sumoylation."
+FT                   /evidence="ECO:0000269|PubMed:15322115,
+FT                   ECO:0000269|PubMed:17897103, ECO:0000269|PubMed:22065572"
+FT   MUTAGEN         735
+FT                   /note="S->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         740
+FT                   /note="S->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         745
+FT                   /note="S->A: No effect on transcriptional activation of
+FT                   ARID5A."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   MUTAGEN         749
+FT                   /note="T->A: Reduced transcriptional activation of ARID5A
+FT                   and IL12B. No effect on nuclear translocation. Abolishes
+FT                   IKKB-mediated phosphorylation at this position."
+FT                   /evidence="ECO:0000269|PubMed:32209697,
+FT                   ECO:0000269|PubMed:38621137"
+FT   MUTAGEN         749
+FT                   /note="T->E: Phosphomimetic mutant; no effect on
+FT                   transcriptional activation of ARID5A or IL12B. No effect on
+FT                   nuclear translocation."
+FT                   /evidence="ECO:0000269|PubMed:32209697"
+FT   CONFLICT        46
+FT                   /note="A -> T (in Ref. 2; ADA59516)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        307
+FT                   /note="S -> G (in Ref. 4; BAF85293)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        718
+FT                   /note="Q -> R (in Ref. 5; CAH18430)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           3..8
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           12..21
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           28..33
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           35..40
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           43..46
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           50..73
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           77..94
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           99..122
+FT                   /evidence="ECO:0007829|PDB:3WWT"
+FT   HELIX           134..175
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   TURN            176..179
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           192..233
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           235..247
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           257..286
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           293..315
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          317..324
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          334..336
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          341..349
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           352..354
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   TURN            355..357
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          359..365
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           370..373
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          374..376
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   STRAND          380..384
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          387..389
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          391..395
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   TURN            396..398
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   STRAND          401..411
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          421..425
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   HELIX           426..428
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          433..441
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          444..451
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          455..460
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           461..463
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           464..477
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   TURN            484..488
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           495..509
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           516..527
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           539..542
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          550..552
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   HELIX           554..568
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           570..574
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           584..591
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          592..594
+FT                   /evidence="ECO:0007829|PDB:1YVL"
+FT   STRAND          598..603
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          612..618
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          621..624
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   STRAND          627..631
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           636..641
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           644..650
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          652..654
+FT                   /evidence="ECO:0007829|PDB:8D3F"
+FT   STRAND          657..659
+FT                   /evidence="ECO:0007829|PDB:1BF5"
+FT   TURN            668..670
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   HELIX           673..677
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   TURN            678..680
+FT                   /evidence="ECO:0007829|PDB:7NUF"
+FT   STRAND          709..711
+FT                   /evidence="ECO:0007829|PDB:8D3F"
+FT   HELIX           728..738
+FT                   /evidence="ECO:0007829|PDB:2KA6"
+FT   TURN            739..742
+FT                   /evidence="ECO:0007829|PDB:2KA6"
+FT   HELIX           743..745
+FT                   /evidence="ECO:0007829|PDB:2KA6"
+FT   TURN            746..748
+FT                   /evidence="ECO:0007829|PDB:2KA6"
+SQ   SEQUENCE   750 AA;  87335 MW;  054A813522364BA6 CRC64;
+     MSQWYELQQL DSKFLEQVHQ LYDDSFPMEI RQYLAQWLEK QDWEHAANDV SFATIRFHDL
+     LSQLDDQYSR FSLENNFLLQ HNIRKSKRNL QDNFQEDPIQ MSMIIYSCLK EERKILENAQ
+     RFNQAQSGNI QSTVMLDKQK ELDSKVRNVK DKVMCIEHEI KSLEDLQDEY DFKCKTLQNR
+     EHETNGVAKS DQKQEQLLLK KMYLMLDNKR KEVVHKIIEL LNVTELTQNA LINDELVEWK
+     RRQQSACIGG PPNACLDQLQ NWFTIVAESL QQVRQQLKKL EELEQKYTYE HDPITKNKQV
+     LWDRTFSLFQ QLIQSSFVVE RQPCMPTHPQ RPLVLKTGVQ FTVKLRLLVK LQELNYNLKV
+     KVLFDKDVNE RNTVKGFRKF NILGTHTKVM NMEESTNGSL AAEFRHLQLK EQKNAGTRTN
+     EGPLIVTEEL HSLSFETQLC QPGLVIDLET TSLPVVVISN VSQLPSGWAS ILWYNMLVAE
+     PRNLSFFLTP PCARWAQLSE VLSWQFSSVT KRGLNVDQLN MLGEKLLGPN ASPDGLIPWT
+     RFCKENINDK NFPFWLWIES ILELIKKHLL PLWNDGCIMG FISKERERAL LKDQQPGTFL
+     LRFSESSREG AITFTWVERS QNGGEPDFHA VEPYTKKELS AVTFPDIIRN YKVMAAENIP
+     ENPLKYLYPN IDKDHAFGKY YSRPKEAPEP MELDGPKGTG YIKTELISVS EVHPSRLQTT
+     DNLLPMSPEE FDEVSRIVGS VEFDSMMNTV
+//

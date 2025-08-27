@@ -1,0 +1,137 @@
+ID   APO1_ARATH              Reviewed;         436 AA.
+AC   Q9XIR4;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   18-JUN-2025, entry version 117.
+DE   RecName: Full=APO protein 1, chloroplastic;
+DE   AltName: Full=Accumulation of photosystem I protein 1;
+DE   AltName: Full=Protein ACCUMULATION OF PHOTOSYSTEM ONE 1;
+DE   Flags: Precursor;
+GN   Name=APO1; OrderedLocusNames=At1g64810; ORFNames=F13O11.11;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, INDUCTION, AND
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=15494558; DOI=10.1105/tpc.104.024935;
+RA   Amann K., Lezhneva L., Wanner G., Herrmann R.G., Meurer J.;
+RT   "ACCUMULATION OF PHOTOSYSTEM ONE1, a member of a novel gene family, is
+RT   required for accumulation of [4Fe-4S] cluster containing chloroplast
+RT   complexes and antenna proteins.";
+RL   Plant Cell 16:3084-3097(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=11130712; DOI=10.1038/35048500;
+RA   Theologis A., Ecker J.R., Palm C.J., Federspiel N.A., Kaul S., White O.,
+RA   Alonso J., Altafi H., Araujo R., Bowman C.L., Brooks S.Y., Buehler E.,
+RA   Chan A., Chao Q., Chen H., Cheuk R.F., Chin C.W., Chung M.K., Conn L.,
+RA   Conway A.B., Conway A.R., Creasy T.H., Dewar K., Dunn P., Etgu P.,
+RA   Feldblyum T.V., Feng J.-D., Fong B., Fujii C.Y., Gill J.E., Goldsmith A.D.,
+RA   Haas B., Hansen N.F., Hughes B., Huizar L., Hunter J.L., Jenkins J.,
+RA   Johnson-Hopson C., Khan S., Khaykin E., Kim C.J., Koo H.L.,
+RA   Kremenetskaia I., Kurtz D.B., Kwan A., Lam B., Langin-Hooper S., Lee A.,
+RA   Lee J.M., Lenz C.A., Li J.H., Li Y.-P., Lin X., Liu S.X., Liu Z.A.,
+RA   Luros J.S., Maiti R., Marziali A., Militscher J., Miranda M., Nguyen M.,
+RA   Nierman W.C., Osborne B.I., Pai G., Peterson J., Pham P.K., Rizzo M.,
+RA   Rooney T., Rowley D., Sakano H., Salzberg S.L., Schwartz J.R., Shinn P.,
+RA   Southwick A.M., Sun H., Tallon L.J., Tambunga G., Toriumi M.J., Town C.D.,
+RA   Utterback T., Van Aken S., Vaysberg M., Vysotskaia V.S., Walker M., Wu D.,
+RA   Yu G., Fraser C.M., Venter J.C., Davis R.W.;
+RT   "Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.";
+RL   Nature 408:816-820(2000).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+CC   -!- FUNCTION: Involved in the stable assembly of several 4Fe-4S cluster-
+CC       containing complexes of chloroplasts. May participate in 4Fe-4S
+CC       cofactor incorporation into psaA and/or psaB during translation.
+CC       {ECO:0000269|PubMed:15494558}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced. According to EST
+CC         sequences.;
+CC       Name=1;
+CC         IsoId=Q9XIR4-1; Sequence=Displayed;
+CC   -!- TISSUE SPECIFICITY: Expressed at low level. Expressed at higher level
+CC       in leaves. Expressed at lower level in roots, stems, siliques and
+CC       flowers. {ECO:0000269|PubMed:15494558}.
+CC   -!- INDUCTION: Up-regulated during photomorphogenesis.
+CC       {ECO:0000269|PubMed:15494558}.
+CC   -!- DOMAIN: The APO repeats may provide ligands for 4Fe-4S centers.
+CC       {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Plants fail to accumulate significant amounts of
+CC       the outer antenna subunits of PSI and PSII and to form grana stacks.
+CC       2Fe-2S cluster-containing complexes appear to be unaffected.
+CC       {ECO:0000269|PubMed:15494558}.
+CC   -!- SIMILARITY: Belongs to the APO family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00832}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY466161; AAS45665.1; -; mRNA.
+DR   EMBL; AC006193; AAD38255.1; -; Genomic_DNA.
+DR   EMBL; CP002684; AEE34292.1; -; Genomic_DNA.
+DR   PIR; C96671; C96671.
+DR   RefSeq; NP_176661.1; NM_105155.4. [Q9XIR4-1]
+DR   AlphaFoldDB; Q9XIR4; -.
+DR   FunCoup; Q9XIR4; 1286.
+DR   STRING; 3702.Q9XIR4; -.
+DR   GlyGen; Q9XIR4; 1 site.
+DR   PaxDb; 3702-AT1G64810.2; -.
+DR   ProteomicsDB; 240599; -. [Q9XIR4-1]
+DR   EnsemblPlants; AT1G64810.1; AT1G64810.1; AT1G64810. [Q9XIR4-1]
+DR   GeneID; 842789; -.
+DR   Gramene; AT1G64810.1; AT1G64810.1; AT1G64810. [Q9XIR4-1]
+DR   KEGG; ath:AT1G64810; -.
+DR   Araport; AT1G64810; -.
+DR   TAIR; AT1G64810; APO1.
+DR   eggNOG; ENOG502QPNK; Eukaryota.
+DR   HOGENOM; CLU_033199_0_1_1; -.
+DR   InParanoid; Q9XIR4; -.
+DR   PhylomeDB; Q9XIR4; -.
+DR   PRO; PR:Q9XIR4; -.
+DR   Proteomes; UP000006548; Chromosome 1.
+DR   ExpressionAtlas; Q9XIR4; baseline and differential.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   InterPro; IPR023342; APO_dom.
+DR   PANTHER; PTHR10388; EUKARYOTIC TRANSLATION INITIATION FACTOR SUI1; 1.
+DR   Pfam; PF05634; APO_RNA-bind; 2.
+DR   PROSITE; PS51499; APO; 2.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Chloroplast; Plastid; Reference proteome; Repeat;
+KW   Transit peptide.
+FT   TRANSIT         1..47
+FT                   /note="Chloroplast"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           48..436
+FT                   /note="APO protein 1, chloroplastic"
+FT                   /id="PRO_0000001930"
+FT   DOMAIN          155..240
+FT                   /note="APO 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00832"
+FT   DOMAIN          329..414
+FT                   /note="APO 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00832"
+SQ   SEQUENCE   436 AA;  49627 MW;  D6C78E8EAE6E19D6 CRC64;
+     MLLVSPACRG VYLQTIDPKP IDFSARASYA LCFQIPTSIP KRECLMRLGT VFCFNQKHRE
+     QTSFKKRYVS TQNVDLPPIL PKNKKKPYPI PFKQIQEEAR KDKKLAQMGI EKQLDPPKNG
+     LLVPNLVPVA DQVIDNWKLL IKGLAQLLHV VPVFACSECG AVHVANVGHN IRDCNGPTNS
+     QRRGSHSWVK GTINDVLIPV ESYHMYDPFG RRIKHETRFE YERIPALVEL CIQAGVEIPE
+     YPCRRRTQPI RMMGKRVIDR GGYHKEPEKP QTSSSLSSPL AELDTLGVFE RYPPPTPEDI
+     PKIAQETMDA YEKVRLGVTK LMRKFTVKAC GYCSEVHVGP WGHSVKLCGE FKHQWRDGKH
+     GWQDALVDEV FPPNYVWHVR DLKGNPLTGN LRRFYGKAPA LVEICMHSGA RVPQRYKAMM
+     RLDIIVPDSQ EADMVA
+//

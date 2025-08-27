@@ -1,0 +1,172 @@
+ID   SFT2C_HUMAN             Reviewed;         215 AA.
+AC   Q587I9; Q8N2P9;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   18-JUN-2025, entry version 127.
+DE   RecName: Full=Vesicle transport protein SFT2C;
+DE   AltName: Full=SFT2 domain-containing protein 3;
+GN   Name=SFT2D3 {ECO:0000312|HGNC:HGNC:28767};
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1] {ECO:0000312|EMBL:BAC11053.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo {ECO:0000312|EMBL:BAC11053.1};
+RX   PubMed=16303743; DOI=10.1093/dnares/12.2.117;
+RA   Otsuki T., Ota T., Nishikawa T., Hayashi K., Suzuki Y., Yamamoto J.,
+RA   Wakamatsu A., Kimura K., Sakamoto K., Hatano N., Kawai Y., Ishii S.,
+RA   Saito K., Kojima S., Sugiyama T., Ono T., Okano K., Yoshikawa Y.,
+RA   Aotsuka S., Sasaki N., Hattori A., Okumura K., Nagai K., Sugano S.,
+RA   Isogai T.;
+RT   "Signal sequence and keyword trap in silico for selection of full-length
+RT   human cDNAs encoding secretion or membrane proteins from oligo-capped cDNA
+RT   libraries.";
+RL   DNA Res. 12:117-126(2005).
+RN   [2] {ECO:0000312|EMBL:AAX82032.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H., Minx P.,
+RA   Wagner-McPherson C., Layman D., Wylie K., Sekhon M., Becker M.C.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Kremitzki C., Oddy L.,
+RA   Du H., Sun H., Bradshaw-Cordum H., Ali J., Carter J., Cordes M., Harris A.,
+RA   Isak A., van Brunt A., Nguyen C., Du F., Courtney L., Kalicki J.,
+RA   Ozersky P., Abbott S., Armstrong J., Belter E.A., Caruso L., Cedroni M.,
+RA   Cotton M., Davidson T., Desai A., Elliott G., Erb T., Fronick C., Gaige T.,
+RA   Haakenson W., Haglund K., Holmes A., Harkins R., Kim K., Kruchowski S.S.,
+RA   Strong C.M., Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N., Swearengen-Shahid S.,
+RA   Snider J., Strong J.T., Thompson J., Yoakum M., Leonard S., Pearman C.,
+RA   Trani L., Radionenko M., Waligorski J.E., Wang C., Rock S.M.,
+RA   Tin-Wollam A.-M., Maupin R., Latreille P., Wendl M.C., Yang S.-P., Pohl C.,
+RA   Wallis J.W., Spieth J., Bieri T.A., Berkowicz N., Nelson J.O., Osborne J.,
+RA   Ding L., Meyer R., Sabo A., Shotland Y., Sinha P., Wohldmann P.E.,
+RA   Cook L.L., Hickenbotham M.T., Eldred J., Williams D., Jones T.A., She X.,
+RA   Ciccarelli F.D., Izaurralde E., Taylor J., Schmutz J., Myers R.M.,
+RA   Cox D.R., Huang X., McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D., Waterston R.H.,
+RA   Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2 and
+RT   4.";
+RL   Nature 434:724-731(2005).
+CC   -!- FUNCTION: May be involved in fusion of retrograde transport vesicles
+CC       derived from an endocytic compartment with the Golgi complex.
+CC       {ECO:0000250|UniProtKB:P38166}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the SFT2 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK074549; BAC11053.1; -; mRNA.
+DR   EMBL; AC006011; AAX82032.1; -; Genomic_DNA.
+DR   CCDS; CCDS2149.1; -.
+DR   RefSeq; NP_116129.3; NM_032740.3.
+DR   AlphaFoldDB; Q587I9; -.
+DR   BioGRID; 124284; 28.
+DR   FunCoup; Q587I9; 1197.
+DR   IntAct; Q587I9; 11.
+DR   STRING; 9606.ENSP00000310803; -.
+DR   iPTMnet; Q587I9; -.
+DR   PhosphoSitePlus; Q587I9; -.
+DR   SwissPalm; Q587I9; -.
+DR   BioMuta; SFT2D3; -.
+DR   DMDM; 74721667; -.
+DR   jPOST; Q587I9; -.
+DR   MassIVE; Q587I9; -.
+DR   PaxDb; 9606-ENSP00000310803; -.
+DR   PeptideAtlas; Q587I9; -.
+DR   ProteomicsDB; 62599; -.
+DR   Pumba; Q587I9; -.
+DR   Antibodypedia; 47566; 106 antibodies from 21 providers.
+DR   DNASU; 84826; -.
+DR   Ensembl; ENST00000310981.6; ENSP00000310803.3; ENSG00000173349.6.
+DR   GeneID; 84826; -.
+DR   KEGG; hsa:84826; -.
+DR   MANE-Select; ENST00000310981.6; ENSP00000310803.3; NM_032740.4; NP_116129.3.
+DR   UCSC; uc002tpf.4; human.
+DR   AGR; HGNC:28767; -.
+DR   CTD; 84826; -.
+DR   GeneCards; SFT2D3; -.
+DR   HGNC; HGNC:28767; SFT2D3.
+DR   HPA; ENSG00000173349; Low tissue specificity.
+DR   neXtProt; NX_Q587I9; -.
+DR   OpenTargets; ENSG00000173349; -.
+DR   PharmGKB; PA142670929; -.
+DR   VEuPathDB; HostDB:ENSG00000173349; -.
+DR   eggNOG; ENOG502QV5D; Eukaryota.
+DR   GeneTree; ENSGT00390000018525; -.
+DR   HOGENOM; CLU_099529_3_1_1; -.
+DR   InParanoid; Q587I9; -.
+DR   OMA; GLMFFTR; -.
+DR   OrthoDB; 660759at2759; -.
+DR   PAN-GO; Q587I9; 0 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q587I9; -.
+DR   TreeFam; TF313609; -.
+DR   PathwayCommons; Q587I9; -.
+DR   SignaLink; Q587I9; -.
+DR   BioGRID-ORCS; 84826; 17 hits in 1084 CRISPR screens.
+DR   ChiTaRS; SFT2D3; human.
+DR   GenomeRNAi; 84826; -.
+DR   Pharos; Q587I9; Tdark.
+DR   PRO; PR:Q587I9; -.
+DR   Proteomes; UP000005640; Chromosome 2.
+DR   RNAct; Q587I9; protein.
+DR   Bgee; ENSG00000173349; Expressed in ileal mucosa and 114 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-ARBA.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-ARBA.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IEA:UniProtKB-ARBA.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IEA:InterPro.
+DR   InterPro; IPR007305; Vesicle_transpt_Got1/SFT2.
+DR   InterPro; IPR011691; Vesicle_transpt_SFT2.
+DR   PANTHER; PTHR23137:SF36; VESICLE TRANSPORT PROTEIN SFT2C; 1.
+DR   PANTHER; PTHR23137; VESICLE TRANSPORT PROTEIN-RELATED; 1.
+DR   Pfam; PF04178; Got1; 1.
+PE   1: Evidence at protein level;
+KW   Membrane; Protein transport; Proteomics identification; Reference proteome;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..215
+FT                   /note="Vesicle transport protein SFT2C"
+FT                   /id="PRO_0000238613"
+FT   TOPO_DOM        1..82
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        83..103
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        104..107
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        108..128
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        129..142
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        143..163
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        164..166
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        167..187
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        188..215
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   VARIANT         38
+FT                   /note="R -> G (in dbSNP:rs10206957)"
+FT                   /id="VAR_026558"
+SQ   SEQUENCE   215 AA;  21790 MW;  D8E02002ACA8650C CRC64;
+     MADLHRQLQE YLAQGKAGGP AAAEPLLAAE KAEEPGDRPA EEWLGRAGLR WTWARSPAES
+     AAAGLTCLPS VTRGQRLAAG GGCLLLAALC FGLAALYAPV LLLRARKFAL LWSLGSALAL
+     AGSALLRGGA ACGRLLRCEE APSRPALLYM AALGATLFAA LGLRSTLLTV LGAGAQVAAL
+     LAALVGLLPW GGGTALRLAL GRLGRGAGLA KVLPV
+//

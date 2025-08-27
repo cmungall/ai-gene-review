@@ -1,0 +1,167 @@
+ID   SHU1_SCHPO              Reviewed;         226 AA.
+AC   Q92340;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=High affinity heme transporter {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=shu1 {ECO:0000303|PubMed:25733668};
+GN   ORFNames=SPAC1F8.02c {ECO:0000312|PomBase:SPAC1F8.02c};
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   FUNCTION, SUBCELLULAR LOCATION, INDUCTION, DISRUPTION PHENOTYPE, AND
+RP   MUTAGENESIS OF CYS-72; CYS-87; CYS-92 AND CYS-101.
+RX   PubMed=25733668; DOI=10.1074/jbc.m115.642058;
+RA   Mourer T., Jacques J.F., Brault A., Bisaillon M., Labbe S.;
+RT   "Shu1 is a cell-surface protein involved in iron acquisition from heme in
+RT   Schizosaccharomyces pombe.";
+RL   J. Biol. Chem. 290:10176-10190(2015).
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, DISRUPTION PHENOTYPE, AND MUTAGENESIS OF
+RP   CYS-72; CYS-87; CYS-92 AND CYS-101.
+RX   PubMed=28193844; DOI=10.1074/jbc.m117.776807;
+RA   Mourer T., Normant V., Labbe S.;
+RT   "Heme Assimilation in Schizosaccharomyces pombe Requires Cell-surface-
+RT   anchored Protein Shu1 and Vacuolar Transporter Abc3.";
+RL   J. Biol. Chem. 292:4898-4912(2017).
+RN   [4]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=29549126; DOI=10.1074/jbc.ra118.002132;
+RA   Normant V., Mourer T., Labbe S.;
+RT   "The major facilitator transporter Str3 is required for low-affinity heme
+RT   acquisition in Schizosaccharomyces pombe.";
+RL   J. Biol. Chem. 293:6349-6362(2018).
+CC   -!- FUNCTION: High affinity heme transporter involved in the assimilation
+CC       of exogenous heme during conditions of low cellular iron.
+CC       {ECO:0000269|PubMed:25733668, ECO:0000269|PubMed:28193844,
+CC       ECO:0000269|PubMed:29549126}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:25733668,
+CC       ECO:0000269|PubMed:28193844}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000305|PubMed:28193844}. Vacuole membrane
+CC       {ECO:0000269|PubMed:28193844}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000305|PubMed:28193844}. Note=Localizes from the cell membrane to
+CC       the vacuolar membrane in the presence of heme.
+CC       {ECO:0000269|PubMed:28193844}.
+CC   -!- INDUCTION: Induced in iron-deplete conditions (at protein level)
+CC       (PubMed:25733668). Repressed in iron-replete conditions by
+CC       transcriptional repressor fep1 (PubMed:25733668).
+CC       {ECO:0000269|PubMed:25733668}.
+CC   -!- DISRUPTION PHENOTYPE: Impairs heme import into cell; simultaneous
+CC       disruption of str3 exacerbates the effect.
+CC       {ECO:0000269|PubMed:25733668, ECO:0000269|PubMed:28193844,
+CC       ECO:0000269|PubMed:29549126}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAB03596.1; -; Genomic_DNA.
+DR   PIR; T38109; T38109.
+DR   RefSeq; NP_592791.1; NM_001018191.2.
+DR   AlphaFoldDB; Q92340; -.
+DR   BioGRID; 278312; 2.
+DR   STRING; 284812.Q92340; -.
+DR   PaxDb; 4896-SPAC1F8.02c.1; -.
+DR   EnsemblFungi; SPAC1F8.02c.1; SPAC1F8.02c.1:pep; SPAC1F8.02c.
+DR   GeneID; 2541821; -.
+DR   KEGG; spo:2541821; -.
+DR   PomBase; SPAC1F8.02c; shu1.
+DR   VEuPathDB; FungiDB:SPAC1F8.02c; -.
+DR   HOGENOM; CLU_1225408_0_0_1; -.
+DR   InParanoid; Q92340; -.
+DR   PRO; PR:Q92340; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0009897; C:external side of plasma membrane; TAS:PomBase.
+DR   GO; GO:0000324; C:fungal-type vacuole; IDA:PomBase.
+DR   GO; GO:0005886; C:plasma membrane; IDA:PomBase.
+DR   GO; GO:0005774; C:vacuolar membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020037; F:heme binding; IDA:PomBase.
+DR   GO; GO:0140488; F:heme receptor activity; IDA:PomBase.
+DR   GO; GO:0010106; P:cellular response to iron ion starvation; IMP:PomBase.
+DR   GO; GO:0140420; P:heme import into cell; IMP:PomBase.
+DR   GO; GO:0015886; P:heme transport; IMP:PomBase.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; GPI-anchor; Lipoprotein; Membrane;
+KW   Reference proteome; Signal; Vacuole.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..199
+FT                   /note="High affinity heme transporter"
+FT                   /id="PRO_0000116632"
+FT   PROPEP          200..226
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000389138"
+FT   REGION          72..101
+FT                   /note="Heme binding"
+FT                   /evidence="ECO:0000269|PubMed:25733668"
+FT   LIPID           199
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000255"
+FT   MUTAGEN         72
+FT                   /note="C->A: Decreases heme binding and cellular heme
+FT                   import, and abolishes relocalization from the plasma
+FT                   membrane to vacuole in presence of heme; when associated
+FT                   with A-87; A-92 and A-101."
+FT                   /evidence="ECO:0000269|PubMed:25733668,
+FT                   ECO:0000269|PubMed:28193844"
+FT   MUTAGEN         87
+FT                   /note="C->A: Decreases heme binding and cellular heme
+FT                   import, and abolishes plasma membrane to vacuole
+FT                   localization in presence of heme; when associated with
+FT                   A-72; A-92 and A-101."
+FT                   /evidence="ECO:0000269|PubMed:25733668,
+FT                   ECO:0000269|PubMed:28193844"
+FT   MUTAGEN         92
+FT                   /note="C->A: Decreases heme binding and cellular heme
+FT                   import, and abolishes plasma membrane to vacuole
+FT                   localization in presence of heme; when associated with
+FT                   A-72; A-87 and A-101."
+FT                   /evidence="ECO:0000269|PubMed:25733668,
+FT                   ECO:0000269|PubMed:28193844"
+FT   MUTAGEN         101
+FT                   /note="C->A: Decreases heme binding and cellular heme
+FT                   import, and abolishes plasma membrane to vacuole
+FT                   localization in presence of heme; when associated with
+FT                   A-72; A-87 and A-92."
+FT                   /evidence="ECO:0000269|PubMed:25733668,
+FT                   ECO:0000269|PubMed:28193844"
+SQ   SEQUENCE   226 AA;  25022 MW;  28E4AD7435525C00 CRC64;
+     MISLKIYFVL IFLFLKGINS AYVSNEEGET VDFTFSGFYA NLTYPNEISE LNYVEGNYLS
+     TRIVRFNGSF YCDTTILSET NNVTGSCYVA NCANDTVLEI CDSGKEVHFT DMSGTTWSAD
+     TFTENLYWFC GGDGNKPNMT TAAAMNSDID SYYVYGNWTI DTADSTVADY TCNYTHFQEA
+     GDIEKGDVYT ASADSSDSSS ASSTIFKPSY FISCLLSVGL YLVLNF
+//
