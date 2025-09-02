@@ -1,0 +1,84 @@
+id: P32633
+gene_symbol: MTC7
+taxon:
+  id: NCBITaxon:559292
+  label: Saccharomyces cerevisiae S288C
+description: 'MTC7 (Maintenance of telomere capping protein 7) is a small membrane protein with two transmembrane helices and an exceptionally charged C-terminal domain containing 8 consecutive lysines. Identified through genetic screens as a suppressor of cdc13-1 temperature-sensitive phenotype, MTC7 contributes to telomere maintenance pathways. The protein exhibits unusual structural features suggesting potential membrane-nuclear shuttling capabilities, with its C-terminal polybasic tract serving as a strong nuclear localization signal while the transmembrane domains anchor it to cellular membranes.'
+existing_annotations:
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This annotation is supported by bioinformatics analysis confirming two transmembrane helices at positions 13-33 and 42-62. The protein shows Type II membrane topology with both N- and C-termini in the cytoplasm.'
+    action: ACCEPT
+- term:
+    id: GO:0003674
+    label: molecular_function
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'This is a placeholder annotation indicating no known molecular function. Based on genetic evidence showing involvement in telomere capping and the presence of a strong C-terminal polybasic tract, the protein likely has DNA-binding or protein-binding activities related to telomere maintenance.'
+    action: REMOVE
+- term:
+    id: GO:0005575
+    label: cellular_component
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'This is a placeholder annotation. The protein has confirmed membrane localization (GO:0016020) and likely nuclear localization based on its telomere-related function and strong NLS.'
+    action: REMOVE
+- term:
+    id: GO:0008150
+    label: biological_process
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'This is a placeholder annotation. The protein has demonstrated involvement in telomere capping based on genetic evidence (suppressor of cdc13-1).'
+    action: REMOVE
+references:
+- id: GO_REF:0000015
+  title: Use of the ND evidence code for Gene Ontology (GO) terms.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:18845848
+  title: A genomewide suppressor and enhancer analysis of cdc13-1 reveals varied cellular processes influencing telomere capping in Saccharomyces cerevisiae
+  findings:
+    - statement: MTC7 is designated as a maintenance of telomere capping gene
+      supporting_text: "We also identified a number of genes of previously unknown function that we term RTC, for restriction of telomere capping, or MTC, for maintenance of telomere capping"
+    - statement: Part of 369 gene deletions showing genetic interactions with cdc13-1
+      supporting_text: "We identified 369 gene deletions, in eight different phenotypic classes, that reproducibly demonstrated subtle genetic interactions with the cdc13-1 mutation"
+- id: file:yeast/MTC7/MTC7-bioinformatics/RESULTS.md
+  title: MTC7 Bioinformatics Analysis Results
+  findings:
+    - statement: Two transmembrane helices confirmed at positions 13-33 and 42-62
+      supporting_text: Kyte-Doolittle analysis confirms TM1 (13-33) with 0.60 hydrophobicity and TM2 (42-62) with 1.07 hydrophobicity
+    - statement: Exceptional C-terminal polybasic tract with 8 consecutive lysines
+      supporting_text: Positions 105-112 contain KKKKKKKK, an unusually strong polybasic tract serving as nuclear localization signal
+    - statement: Strong nuclear localization signal in C-terminus
+      supporting_text: The 8 consecutive lysines form one of the strongest NLS motifs observed in yeast proteins
+    - statement: Type II membrane protein topology predicted
+      supporting_text: Both N- and C-termini predicted to be cytoplasmic based on positive-inside rule and charge distribution
+    - statement: Significant disorder in C-terminal region overlapping with polybasic tract
+      supporting_text: Positions 96-119 show high disorder propensity, providing flexibility for protein interactions
+core_functions:
+- description: Maintenance of telomere capping through genetic interactions with CDC13 pathway
+  molecular_function:
+    id: GO:0003674
+    label: molecular_function
+  directly_involved_in:
+  - id: GO:0016233
+    label: telomere capping
+  locations:
+  - id: GO:0016020
+    label: membrane
+  - id: GO:0005634
+    label: nucleus
+  supported_by:
+  - reference_id: PMID:18845848
+    supporting_text: "MTC7 is designated as a maintenance of telomere capping gene identified through genetic screens as a suppressor of cdc13-1 temperature-sensitive phenotype"
+  - reference_id: file:yeast/MTC7/MTC7-bioinformatics/RESULTS.md
+    supporting_text: "Bioinformatics analysis confirms membrane localization with two transmembrane helices and strong nuclear localization signal in C-terminal polybasic tract"

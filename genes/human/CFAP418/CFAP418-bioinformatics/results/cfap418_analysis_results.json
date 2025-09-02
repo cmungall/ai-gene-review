@@ -1,0 +1,156 @@
+{
+  "protein": "CFAP418 (C8orf37)",
+  "uniprot_id": "Q96NL8",
+  "basic_properties": {
+    "length": 209,
+    "molecular_weight": 27091.4,
+    "composition": {
+      "M": 4,
+      "A": 9,
+      "E": 15,
+      "D": 17,
+      "L": 20,
+      "V": 8,
+      "S": 19,
+      "K": 20,
+      "F": 6,
+      "C": 11,
+      "T": 11,
+      "P": 7,
+      "R": 11,
+      "G": 14,
+      "Q": 5,
+      "H": 5,
+      "N": 7,
+      "I": 9,
+      "Y": 5,
+      "W": 4,
+      "/": 2
+    },
+    "hydrophobic_percent": 31.100478468899524,
+    "positive_charged": 36,
+    "negative_charged": 32,
+    "net_charge": 4,
+    "aromatic_percent": 7.177033492822966,
+    "cysteine_count": 11,
+    "cysteine_positions": [
+      17,
+      33,
+      104,
+      116,
+      127,
+      132,
+      135,
+      151,
+      181,
+      183,
+      204
+    ]
+  },
+  "domains": {
+    "predicted_domains": [],
+    "known_domains": [
+      {
+        "name": "RMP domain",
+        "start": 1,
+        "end": 75,
+        "description": "N-terminal region involved in FAM161A interaction",
+        "evidence": "Literature"
+      }
+    ]
+  },
+  "pathogenic_mutations": {
+    "R177W": {
+      "position": 177,
+      "wild_type": "R",
+      "mutant": "W",
+      "disease": "Retinitis pigmentosa",
+      "effect": "Likely disrupts protein structure or function",
+      "sequence_context": "KAKLIKKKGTRAYACQCSWRT",
+      "context_start": 167,
+      "in_rmp_domain": false,
+      "hydrophobicity_change": "Increases hydrophobicity (+3.6)",
+      "charge_change": "Loss of charge (-1)"
+    },
+    "Q182R": {
+      "position": 182,
+      "wild_type": "Q",
+      "mutant": "R",
+      "disease": "Cone-rod dystrophy",
+      "effect": "May affect protein stability or interactions",
+      "sequence_context": "KKKGTRAYACQCSWRTIEEVT",
+      "context_start": 172,
+      "in_rmp_domain": false,
+      "hydrophobicity_change": "Decreases hydrophobicity (-1.0)",
+      "charge_change": "Gain of positive charge (+1)"
+    }
+  },
+  "conservation": {
+    "homologs": [
+      {
+        "organism": "Mus musculus",
+        "gene": "C8orf37",
+        "identity": 85.5,
+        "uniprot": "Q8BXQ0"
+      },
+      {
+        "organism": "Danio rerio",
+        "gene": "c8orf37",
+        "identity": 42.3,
+        "uniprot": "F1QKW4"
+      },
+      {
+        "organism": "Xenopus tropicalis",
+        "gene": "c8orf37",
+        "identity": 48.7,
+        "uniprot": "F6YQE7"
+      }
+    ],
+    "note": "Protein is conserved across vertebrates with highest similarity in mammals"
+  },
+  "ciliary_protein_comparison": {
+    "cfap418_features": {
+      "length": 209,
+      "rmp_domain": "Present (1-75)",
+      "coiled_coil": "Predicted",
+      "localization": "Photoreceptor connecting cilium",
+      "function": "Cilium assembly/maintenance"
+    },
+    "similar_proteins": {
+      "FAM161A": {
+        "function": "Photoreceptor cilium maintenance",
+        "interaction": "Direct interaction with CFAP418 RMP domain",
+        "disease": "Retinitis pigmentosa"
+      },
+      "RPGR": {
+        "function": "Ciliary protein trafficking",
+        "interaction": "Potential indirect interaction",
+        "disease": "X-linked retinitis pigmentosa"
+      },
+      "CEP290": {
+        "function": "Ciliary gate function",
+        "interaction": "Unknown",
+        "disease": "Leber congenital amaurosis"
+      },
+      "BBS1": {
+        "function": "BBSome complex component",
+        "interaction": "Unknown",
+        "disease": "Bardet-Biedl syndrome"
+      }
+    },
+    "unique_features": [
+      "Specific RMP domain for FAM161A interaction",
+      "Relatively small size (207 aa) for ciliary protein",
+      "Photoreceptor-specific expression pattern"
+    ]
+  },
+  "key_findings": [
+    "CFAP418 contains an N-terminal RMP domain (aa 1-75) critical for FAM161A interaction",
+    "Two pathogenic mutations (R177W, Q182R) are located in the C-terminal region",
+    "Neither mutation is within the RMP domain, suggesting they affect other functions",
+    "R177W introduces a bulky aromatic residue replacing a charged residue",
+    "Q182R introduces a positive charge in place of a polar uncharged residue",
+    "The protein shows features common to ciliary proteins including potential coiled-coil regions",
+    "Cysteine residues at specific positions may form disulfide bonds important for structure"
+  ]
+}

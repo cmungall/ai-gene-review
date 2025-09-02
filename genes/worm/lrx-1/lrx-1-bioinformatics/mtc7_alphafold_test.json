@@ -1,0 +1,16 @@
+{
+  "uniprot_id": "sp",
+  "protein_name": "P32633",
+  "sequence_length": 139,
+  "signal_peptide": "1-19",
+  "post_signal_tm_check": {
+    "region": "20-39",
+    "sequence": "EPGFFLCNFFFVLLKHTQIN",
+    "hydrophobic_residues": 10,
+    "hydrophobicity": 0.5,
+    "likely_tm_helix": false
+  },
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/sp",
+  "plddt_analysis": null,
+  "analysis": "Membrane topology prediction based on hydrophobicity and AlphaFold confidence"
+}

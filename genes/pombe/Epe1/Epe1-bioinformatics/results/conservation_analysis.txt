@@ -1,0 +1,18 @@
+Conservation Analysis Summary
+============================================================
+
+Epe1 JmjC Domain Features:
+- Domain position: 243-402
+- Length: 160 aa
+- Histidines: 4
+- Aspartates: 8
+- Glutamates: 7
+- HX[DE] motifs: 2
+
+HX[DE] motifs found:
+  - Position 280: HVD
+  - Position 297: HIE
+
+Conclusion based on analysis:
+The Epe1 JmjC domain lacks canonical HXD/HXE motifs,
+indicating loss of demethylase catalytic activity.

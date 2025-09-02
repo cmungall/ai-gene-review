@@ -1,0 +1,87 @@
+# CFAP418 Bioinformatics Analysis Pipeline
+# This justfile provides reproducible commands for all analyses
+
+# Default recipe - show available commands
+default:
+    @just --list
+
+# Install dependencies
+install:
+    uv sync
+
+# Run complete analysis pipeline
+all: install comprehensive-analysis conservation structural test summarize
+    @echo "✓ Complete analysis pipeline finished"
+
+# Run comprehensive protein analysis
+comprehensive-analysis:
+    @echo "Running comprehensive CFAP418 analysis..."
+    python cfap418_comprehensive_analysis.py
+
+# Run conservation analysis with orthologs
+conservation:
+    @echo "Running conservation analysis..."
+    python fetch_orthologs.py
+
+# Run structural analysis
+structural:
+    @echo "Running structural analysis..."
+    python structural_analysis.py
+
+# Test scripts with other proteins
+test:
+    @echo "Testing scripts with other proteins..."
+    python test_with_other_proteins.py
+
+# Generate summary report
+summarize:
+    @echo "Generating summary report..."
+    python generate_summary.py
+
+# Clean up generated files
+clean:
+    rm -rf results/*.json results/*.png
+    rm -rf data/*.json data/*.fasta
+    @echo "✓ Cleaned generated files"
+
+# View results
+view-results:
+    @echo "=== Analysis Results ==="
+    @ls -la results/
+    @echo ""
+    @echo "=== Key Findings ==="
+    @if [ -f results/cfap418_analysis_results.json ]; then \
+        python -c "import json; data = json.load(open('results/cfap418_analysis_results.json')); [print(f'• {finding}') for finding in data.get('key_findings', [])]"; \
+    fi
+
+# Validate FASTA file exists
+check-fasta:
+    @if [ ! -f CFAP418.fasta ]; then \
+        echo "Error: CFAP418.fasta not found"; \
+        echo "Please ensure the FASTA file is present"; \
+        exit 1; \
+    else \
+        echo "✓ CFAP418.fasta found"; \
+    fi
+
+# Run quick validation
+validate: check-fasta
+    @echo "Validating setup..."
+    @python -c "from Bio import SeqIO; \
+        seq = str(list(SeqIO.parse('CFAP418.fasta', 'fasta'))[0].seq); \
+        print(f'✓ Sequence loaded: {len(seq)} aa'); \
+        print(f'✓ First 10 aa: {seq[:10]}...'); \
+        print(f'✓ Last 10 aa: ...{seq[-10:]}');"
+
+# Generate visualization only
+visualize: comprehensive-analysis structural
+    @echo "✓ Visualizations generated in results/"
+    @ls -la results/*.png
+
+# Show analysis statistics
+stats:
+    @echo "=== CFAP418 Analysis Statistics ==="
+    @python -c "from Bio import SeqIO; seq = str(list(SeqIO.parse('CFAP418.fasta', 'fasta'))[0].seq); print(f'Sequence length: {len(seq)} aa'); print(f'Cysteine count: {seq.count(\"C\")}'); print(f'Charged residues: +{sum(1 for aa in seq if aa in \"RKH\")} / -{sum(1 for aa in seq if aa in \"DE\")}')"
+    @if [ -f results/conservation_analysis.json ]; then \
+        python -c "import json; data = json.load(open('results/conservation_analysis.json')); print(f'Orthologs analyzed: {data[\"summary\"][\"total_orthologs\"]}'); print(f'Avg identity to human: {data[\"summary\"][\"average_identity_to_human\"]:.1f}%')"; \
+    fi

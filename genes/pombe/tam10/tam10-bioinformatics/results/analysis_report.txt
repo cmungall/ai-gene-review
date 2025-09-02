@@ -1,0 +1,42 @@
+Sequence Analysis Report
+========================
+
+Sequence ID: G2TRQ9|tam10|SPBC14C8.19
+Description: G2TRQ9|tam10|SPBC14C8.19 S. pombe tam10 protein
+Length: 166 amino acids
+
+Basic Properties:
+-----------------
+Molecular Weight: 18866.38 Da
+Isoelectric Point: 10.02
+Aromaticity: 0.042
+Instability Index: 42.89
+GRAVY: -1.317
+
+Residue Composition:
+-------------------
+Basic residues (K,R,H): 45 (27.1%)
+Acidic residues (D,E): 20 (12.0%)
+Polar residues: 48 (28.9%)
+Hydrophobic residues: 43 (25.9%)
+Charged residues: 65 (39.2%)
+
+Motifs and Patterns Found:
+-------------------------
+- PEST region indicator at position 127-131: ESSPS
+- Coiled-coil heptad pattern at position 20-26: VSTFRKL
+- Coiled-coil heptad pattern at position 39-45: LKQYKKL
+- Coiled-coil heptad pattern at position 66-72: LAEDPMV
+- Coiled-coil heptad pattern at position 114-120: FLKMLGI
+- Repeat (3x): SSK
+- Repeat (3x): KKL
+
+Coiled-Coil Regions:
+-------------------
+No significant coiled-coil regions detected
+
+Disorder Regions:
+----------------
+- Position 15-74 (score: 0.67)
+- Position 70-100 (score: 0.53)
+- Position 116-156 (score: 0.80)

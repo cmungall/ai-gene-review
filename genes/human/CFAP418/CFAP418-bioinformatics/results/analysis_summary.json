@@ -1,0 +1,12 @@
+{
+  "protein": "CFAP418",
+  "uniprot_id": "Q96NL8",
+  "analyses_completed": [
+    "comprehensive",
+    "conservation",
+    "structural",
+    "tests"
+  ],
+  "timestamp": "2025-08-29T18:44:24.709182",
+  "validation_status": "PASSED"
+}

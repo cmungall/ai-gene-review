@@ -1,0 +1,58 @@
+Sequence Analysis Report
+========================
+
+Sequence ID: P04637|p53_human
+Description: P04637|p53_human Tumor suppressor p53
+Length: 393 amino acids
+
+Basic Properties:
+-----------------
+Molecular Weight: 43652.71 Da
+Isoelectric Point: 6.33
+Aromaticity: 0.061
+Instability Index: 73.59
+GRAVY: -0.756
+
+Residue Composition:
+-------------------
+Basic residues (K,R,H): 58 (14.8%)
+Acidic residues (D,E): 50 (12.7%)
+Polar residues: 108 (27.5%)
+Hydrophobic residues: 118 (30.0%)
+Charged residues: 108 (27.5%)
+
+Motifs and Patterns Found:
+-------------------------
+- NLS - Bipartite at position 305-321: KRALPNNTSSSPQPKKK
+- LXXLL motif at position 22-26: LWKLL
+- Proline-rich region at position 85-89: PAPAP
+- Proline-rich region at position 151-153: PPP
+- D-box at position 249-252: RPIL
+- PEST region indicator at position 149-153: STPPP
+- PEST region indicator at position 312-316: TSSSP
+- Coiled-coil heptad pattern at position 19-25: FSDLWKL
+- Coiled-coil heptad pattern at position 26-32: LPENNVL
+- Coiled-coil heptad pattern at position 44-50: MLSPDDI
+- Coiled-coil heptad pattern at position 137-143: LAKTCPV
+- Coiled-coil heptad pattern at position 188-194: LAPPQHL
+- Coiled-coil heptad pattern at position 195-201: IRVEGNL
+- Coiled-coil heptad pattern at position 206-212: LDDRNTF
+- Coiled-coil heptad pattern at position 237-243: MCNSSCM
+- Coiled-coil heptad pattern at position 246-252: MNRRPIL
+- Coiled-coil heptad pattern at position 264-270: LLGRNSF
+- Coiled-coil heptad pattern at position 332-338: IRGRERF
+- Coiled-coil heptad pattern at position 344-350: LNEALEL
+- Low complexity region at position 63-95: APRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSS
+- Repeat (3x): AAP
+
+Coiled-Coil Regions:
+-------------------
+No significant coiled-coil regions detected
+
+Disorder Regions:
+----------------
+- Position 1-25 (score: 0.67)
+- Position 46-110 (score: 0.53)
+- Position 163-196 (score: 0.40)
+- Position 266-331 (score: 0.80)
+- Position 341-393 (score: 0.60)

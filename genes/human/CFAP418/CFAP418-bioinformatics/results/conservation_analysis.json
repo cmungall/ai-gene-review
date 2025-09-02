@@ -1,0 +1,51 @@
+{
+  "orthologs": {
+    "human": {
+      "uniprot_id": "Q96NL8",
+      "organism": "Homo sapiens",
+      "common_name": "Human",
+      "sequence_length": 209
+    },
+    "mouse": {
+      "uniprot_id": "Q8BXQ0",
+      "organism": "Mus musculus",
+      "common_name": "Mouse",
+      "sequence_length": 363
+    },
+    "zebrafish": {
+      "uniprot_id": "F1QKW4",
+      "organism": "Danio rerio",
+      "common_name": "Zebrafish",
+      "sequence_length": 0
+    },
+    "xenopus": {
+      "uniprot_id": "F6YQE7",
+      "organism": "Xenopus tropicalis",
+      "common_name": "Western clawed frog",
+      "sequence_length": 0
+    }
+  },
+  "conservation_analysis": {
+    "reference": "human",
+    "alignments": {
+      "mouse": {
+        "organism": "Mus musculus",
+        "common_name": "Mouse",
+        "identity": 10.16042780748663,
+        "similarity": 17.647058823529413,
+        "gaps": 176,
+        "alignment_length": 374,
+        "score": -219.5
+      }
+    },
+    "conserved_regions": [],
+    "variable_regions": []
+  },
+  "functional_motifs": [],
+  "summary": {
+    "total_orthologs": 2,
+    "average_identity_to_human": 10.16042780748663,
+    "highly_conserved_regions": 0,
+    "identified_motifs": 0
+  }
+}

@@ -1,0 +1,1284 @@
+ID   DSCA1_DROME             Reviewed;        2016 AA.
+AC   Q0E9H9; A0A0B4K6Z6; Q0E9H6; Q0E9H8; Q0E9I4; Q0E9J0; Q0E9J7; Q0E9J8; Q0E9J9;
+AC   Q0E9K4; Q0E9K7; Q0E9K9; Q0E9L0; Q0E9L5; Q9NBA1;
+DT   24-JAN-2024, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   18-JUN-2025, entry version 141.
+DE   RecName: Full=Cell adhesion molecule Dscam1 {ECO:0000305};
+DE   AltName: Full=Down syndrome cell adhesion molecule homolog {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=Dscam1 {ECO:0000312|FlyBase:FBgn0033159};
+GN   Synonyms=Dscam {ECO:0000303|PubMed:10892653,
+GN   ECO:0000312|FlyBase:FBgn0033159}, p270 {ECO:0000303|PubMed:10892653,
+GN   ECO:0000312|FlyBase:FBgn0033159};
+GN   ORFNames=CG17800 {ECO:0000312|FlyBase:FBgn0033159};
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7227 {ECO:0000312|Proteomes:UP000000803};
+RN   [1] {ECO:0000312|EMBL:AAF71926.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 770-782; 826-832;
+RP   926-943; 961-974; 1505-1518; 1672-1682 AND 1716-1725, FUNCTION, INTERACTION
+RP   WITH DOCK, SUBCELLULAR LOCATION, ALTERNATIVE SPLICING, DEVELOPMENTAL STAGE,
+RP   DOMAIN, PHOSPHORYLATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=10892653; DOI=10.1016/s0092-8674(00)80878-8;
+RA   Schmucker D., Clemens J.C., Shu H., Worby C.A., Xiao J., Muda M.,
+RA   Dixon J.E., Zipursky S.L.;
+RT   "Drosophila Dscam is an axon guidance receptor exhibiting extraordinary
+RT   molecular diversity.";
+RL   Cell 101:671-684(2000).
+RN   [2] {ECO:0000312|Proteomes:UP000000803}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley {ECO:0000312|Proteomes:UP000000803};
+RX   PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X., Brandon R.C.,
+RA   Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D., Wan K.H., Doyle C.,
+RA   Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G., Abril J.F., Agbayani A.,
+RA   An H.-J., Andrews-Pfannkoch C., Baldwin D., Ballew R.M., Basu A.,
+RA   Baxendale J., Bayraktaroglu L., Beasley E.M., Beeson K.Y., Benos P.V.,
+RA   Berman B.P., Bhandari D., Bolshakov S., Borkova D., Botchan M.R., Bouck J.,
+RA   Brokstein P., Brottier P., Burtis K.C., Busam D.A., Butler H., Cadieu E.,
+RA   Center A., Chandra I., Cherry J.M., Cawley S., Dahlke C., Davenport L.B.,
+RA   Davies P., de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I.,
+RA   Dietz S.M., Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C.,
+RA   Dunn P., Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S.,
+RA   Fleischmann W., Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M.,
+RA   Glasser K., Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J., Hostin D.,
+RA   Houston K.A., Howland T.J., Wei M.-H., Ibegwam C., Jalali M., Kalush F.,
+RA   Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A., Kimmel B.E., Kodira C.D.,
+RA   Kraft C.L., Kravitz S., Kulp D., Lai Z., Lasko P., Lei Y., Levitsky A.A.,
+RA   Li J.H., Li Z., Liang Y., Lin X., Liu X., Mattei B., McIntosh T.C.,
+RA   McLeod M.P., McPherson D., Merkulov G., Milshina N.V., Mobarry C.,
+RA   Morris J., Moshrefi A., Mount S.M., Moy M., Murphy B., Murphy L.,
+RA   Muzny D.M., Nelson D.L., Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R.,
+RA   Pacleb J.M., Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V.,
+RA   Reese M.G., Reinert K., Remington K., Saunders R.D.C., Scheeler F.,
+RA   Shen H., Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.J.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E., Svirskas R.,
+RA   Tector C., Turner R., Venter E., Wang A.H., Wang X., Wang Z.-Y.,
+RA   Wassarman D.A., Weinstock G.M., Weissenbach J., Williams S.M., Woodage T.,
+RA   Worley K.C., Wu D., Yang S., Yao Q.A., Ye J., Yeh R.-F., Zaveri J.S.,
+RA   Zhan M., Zhang G., Zhao Q., Zheng L., Zheng X.H., Zhong F.N., Zhong W.,
+RA   Zhou X., Zhu S.C., Zhu X., Smith H.O., Gibbs R.A., Myers E.W., Rubin G.M.,
+RA   Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [3] {ECO:0000312|Proteomes:UP000000803}
+RP   GENOME REANNOTATION.
+RC   STRAIN=Berkeley {ECO:0000312|Proteomes:UP000000803};
+RX   PubMed=12537572; DOI=10.1186/gb-2002-3-12-research0083;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q., Stapleton M.,
+RA   Yamada C., Ashburner M., Gelbart W.M., Rubin G.M., Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a systematic
+RT   review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [4] {ECO:0000305}
+RP   PHOSPHORYLATION.
+RX   PubMed=12014990; DOI=10.1042/bj20020298;
+RA   Muda M., Worby C.A., Simonson-Leff N., Clemens J.C., Dixon J.E.;
+RT   "Use of double-stranded RNA-mediated interference to determine the
+RT   substrates of protein tyrosine kinases and phosphatases.";
+RL   Biochem. J. 366:73-77(2002).
+RN   [5] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=11856530; DOI=10.1016/s0896-6273(02)00570-6;
+RA   Wang J., Zugates C.T., Liang I.H., Lee C.H., Lee T.;
+RT   "Drosophila Dscam is required for divergent segregation of sister branches
+RT   and suppresses ectopic bifurcation of axons.";
+RL   Neuron 33:559-571(2002).
+RN   [6] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND DOMAIN.
+RX   PubMed=15339666; DOI=10.1016/j.cell.2004.08.021;
+RA   Wojtowicz W.M., Flanagan J.J., Millard S.S., Zipursky S.L., Clemens J.C.;
+RT   "Alternative splicing of Drosophila Dscam generates axon guidance receptors
+RT   that exhibit isoform-specific homophilic binding.";
+RL   Cell 118:619-633(2004).
+RN   [7] {ECO:0000305}
+RP   FUNCTION, ALTERNATIVE SPLICING, AND TISSUE SPECIFICITY.
+RX   PubMed=14758360; DOI=10.1038/ng1299;
+RA   Neves G., Zucker J., Daly M., Chess A.;
+RT   "Stochastic yet biased expression of multiple Dscam splice variants by
+RT   individual cells.";
+RL   Nat. Genet. 36:240-246(2004).
+RN   [8] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, DEVELOPMENTAL STAGE, AND DOMAIN.
+RX   PubMed=15339648; DOI=10.1016/j.neuron.2004.06.033;
+RA   Wang J., Ma X., Yang J.S., Zheng X., Zugates C.T., Lee C.H., Lee T.;
+RT   "Transmembrane/juxtamembrane domain-dependent Dscam distribution and
+RT   function during mushroom body neuronal morphogenesis.";
+RL   Neuron 43:663-672(2004).
+RN   [9] {ECO:0000305}
+RP   IDENTIFICATION BY MASS SPECTROMETRY, FUNCTION, SUBCELLULAR LOCATION,
+RP   ALTERNATIVE SPLICING, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, PROTEOLYTIC
+RP   CLEAVAGE, AND DISRUPTION PHENOTYPE.
+RX   PubMed=16109846; DOI=10.1126/science.1116887;
+RA   Watson F.L., Puettmann-Holgado R., Thomas F., Lamar D.L., Hughes M.,
+RA   Kondo M., Rebel V.I., Schmucker D.;
+RT   "Extensive diversity of Ig-superfamily proteins in the immune system of
+RT   insects.";
+RL   Science 309:1874-1878(2005).
+RN   [10] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, DEVELOPMENTAL STAGE, DOMAIN, AND DISRUPTION
+RP   PHENOTYPE.
+RX   PubMed=17482551; DOI=10.1016/j.cell.2007.04.013;
+RA   Matthews B.J., Kim M.E., Flanagan J.J., Hattori D., Clemens J.C.,
+RA   Zipursky S.L., Grueber W.B.;
+RT   "Dendrite self-avoidance is controlled by Dscam.";
+RL   Cell 129:593-604(2007).
+RN   [11] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND DOMAIN.
+RX   PubMed=17889655; DOI=10.1016/j.cell.2007.08.026;
+RA   Wojtowicz W.M., Wu W., Andre I., Qian B., Baker D., Zipursky S.L.;
+RT   "A vast repertoire of Dscam binding specificities arises from modular
+RT   interactions of variable Ig domains.";
+RL   Cell 130:1134-1145(2007).
+RN   [12] {ECO:0007744|PDB:2V5M, ECO:0007744|PDB:2V5R, ECO:0007744|PDB:2V5S}
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 36-423, SUBUNIT, DOMAIN,
+RP   GLYCOSYLATION AT ASN-53 AND ASN-325, AND DISULFIDE BONDS.
+RX   PubMed=17721508; DOI=10.1038/nature06147;
+RA   Meijers R., Puettmann-Holgado R., Skiniotis G., Liu J.H., Walz T.,
+RA   Wang J.H., Schmucker D.;
+RT   "Structural basis of Dscam isoform specificity.";
+RL   Nature 449:487-491(2007).
+RN   [13] {ECO:0007744|PDB:3DMK}
+RP   X-RAY CRYSTALLOGRAPHY (4.19 ANGSTROMS) OF 1-810, SUBUNIT, DOMAIN,
+RP   GLYCOSYLATION AT ASN-53; ASN-325; ASN-492 AND ASN-577, DISULFIDE BONDS, AND
+RP   MUTAGENESIS OF ARG-530.
+RX   PubMed=18805093; DOI=10.1016/j.cell.2008.07.042;
+RA   Sawaya M.R., Wojtowicz W.M., Andre I., Qian B., Wu W., Baker D.,
+RA   Eisenberg D., Zipursky S.L.;
+RT   "A double S shape provides the structural basis for the extraordinary
+RT   binding specificity of Dscam isoforms.";
+RL   Cell 134:1007-1018(2008).
+RN   [14] {ECO:0007744|PDB:4WVR, ECO:0007744|PDB:4X5L, ECO:0007744|PDB:4X83, ECO:0007744|PDB:4X8X, ECO:0007744|PDB:4X9B, ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G, ECO:0007744|PDB:4X9H, ECO:0007744|PDB:4X9I, ECO:0007744|PDB:4XB7, ECO:0007744|PDB:4XB8}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 34-431 AND 617-713, SUBUNIT,
+RP   GLYCOSYLATION AT ASN-53 AND ASN-325, AND DISULFIDE BONDS.
+RX   PubMed=27386517; DOI=10.1126/sciadv.1501118;
+RA   Li S.A., Cheng L., Yu Y., Chen Q.;
+RT   "Structural basis of Dscam1 homodimerization: Insights into context
+RT   constraint for protein recognition.";
+RL   Sci. Adv. 2:e1501118-e1501118(2016).
+CC   -!- FUNCTION: Cell surface receptor involved in guidance and targeting of
+CC       growing nerve axons (PubMed:10892653). Required during Bolwig's organ
+CC       differentiation for accurate and efficient targeting of photoreceptor
+CC       neuron axons to their synaptic targets in the brain via the P2
+CC       intermediate target neuron (PubMed:10892653). Involved in isoneural
+CC       self-avoidance during dendrite arborization but not in heteroneural
+CC       recognition and repulsion during tiling by related neurons of the same
+CC       class (PubMed:17482551). Involved in regulating axon bifurcation and
+CC       divergent extension in the developing mushroom body (PubMed:11856530,
+CC       PubMed:15339648). Essential for axon arborisation in ellipsoid body
+CC       (PubMed:11856530, PubMed:15339648). Exhibits an extraordinary level of
+CC       molecular diversity resulting from alternative splicing
+CC       (PubMed:10892653). Isoforms differing in their ectodomain makeup show a
+CC       high degree of functional redundancy while isoforms with different
+CC       transmembrane domains are involved in different neuronal morphogenetic
+CC       processes and are differentially targeted to dendrites or axons
+CC       (PubMed:15339648). The vast majority of isoforms exhibit strong
+CC       isoform-specific homophilic binding (PubMed:15339666, PubMed:17889655).
+CC       Individual cells express a distinct randomly generated repertoire of
+CC       isoforms (PubMed:14758360). Cell surfaces bearing identical repertoires
+CC       of Dscam1 isoforms, such as those from the same cell, trigger
+CC       recognition and avoidance (PubMed:17482551). A subset of isoforms is
+CC       expressed in fat body cells and hemocytes, cells that are part of the
+CC       insect immune response, and these isoforms are secreted into the
+CC       hemolymph (PubMed:16109846). The secreted form comprising the
+CC       ectodomain can bind to bacteria, such as Escherichia coli, and may act
+CC       as an opsonin enhancing their phagocytosis by hemocytes
+CC       (PubMed:16109846). {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:11856530, ECO:0000269|PubMed:14758360,
+CC       ECO:0000269|PubMed:15339648, ECO:0000269|PubMed:15339666,
+CC       ECO:0000269|PubMed:16109846, ECO:0000269|PubMed:17482551,
+CC       ECO:0000269|PubMed:17889655}.
+CC   -!- SUBUNIT: Homodimer (via extracellular region); alternative splicing
+CC       produces a potential 19,008 different ectodomains and the majority of
+CC       these show strong isoform-specific homodimerization (PubMed:15339666,
+CC       PubMed:17721508, PubMed:17889655, PubMed:18805093, PubMed:27386517).
+CC       Interacts (via cytoplasmic domain) with dock/dreadlocks (via SH2 and
+CC       SH3 domains); the interaction is direct and may require Dscam1 to be
+CC       phosphorylated (PubMed:10892653). {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:15339666, ECO:0000269|PubMed:17721508,
+CC       ECO:0000269|PubMed:17889655, ECO:0000269|PubMed:18805093,
+CC       ECO:0000269|PubMed:27386517}.
+CC   -!- INTERACTION:
+CC       Q0E9H9; Q0E9H9: Dscam1; NbExp=2; IntAct=EBI-2012532, EBI-2012532;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000255}. Cell projection, neuron projection
+CC       {ECO:0000269|PubMed:10892653, ECO:0000269|PubMed:17482551}. Cell
+CC       projection, axon {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:15339648, ECO:0000269|PubMed:17482551}. Perikaryon
+CC       {ECO:0000269|PubMed:15339648, ECO:0000269|PubMed:17482551}. Cell
+CC       projection, dendrite {ECO:0000269|PubMed:15339648}. Secreted
+CC       {ECO:0000269|PubMed:16109846}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=14;
+CC         Comment=Exhibits an extraordinary level of molecular diversity
+CC         resulting from alternative splicing (PubMed:10892653). Transcripts
+CC         are formed of 24 exons and mutually exclusive alternative splicing
+CC         occurs for exons 4 (12 alternative exons, encoding the N-terminal
+CC         half of Ig-like domain 2), 6 (48 alternative exons, encoding the N-
+CC         terminal half of Ig-like domain 3), 9 (33 alternative exons, encoding
+CC         the entire Ig-like domain 7) and 17 (2 alternative exons, encoding
+CC         the transmembrane domain), potentially producing 38,016 different
+CC         isoforms (PubMed:10892653). Selection of alternative exon clusters 4,
+CC         6 and 9, encoding the ectodomain, occurs by a combination of
+CC         stochastic selection with cell type and developmental stage dependent
+CC         bias (PubMed:14758360). Almost all alternative exons are expressed in
+CC         the brain while only a subset of exon 9 alternatives are used in
+CC         isoforms expressed in fat body cells and hemocytes (PubMed:16109846).
+CC         Isoform nomenclature takes the form W,X,Y,Z where W, X, Y and Z are
+CC         the numerical identifiers of the exon 4, 6, 9 and 17 alternative
+CC         present (Probable). {ECO:0000269|PubMed:10892653,
+CC         ECO:0000269|PubMed:14758360, ECO:0000269|PubMed:16109846,
+CC         ECO:0000305};
+CC       Name=A {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=1,32,9,1
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-1; Sequence=Displayed;
+CC       Name=G {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=1,5,5,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-2; Sequence=VSP_062106, VSP_062109, VSP_062119,
+CC                                  VSP_062122, VSP_062133;
+CC       Name=BF {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=1,10,3,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-3; Sequence=VSP_062105, VSP_062108, VSP_062115,
+CC                                  VSP_062124, VSP_062133;
+CC       Name=O {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=2,37,30,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-4; Sequence=VSP_062083, VSP_062087, VSP_062093,
+CC                                  VSP_062095, VSP_062114, VSP_062126,
+CC                                  VSP_062133;
+CC       Name=Y {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=4,46,8,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-5; Sequence=VSP_062084, VSP_062085, VSP_062089,
+CC                                  VSP_062101, VSP_062120, VSP_062125,
+CC                                  VSP_062128, VSP_062129, VSP_062133;
+CC       Name=AG {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=6,36,16,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-6; Sequence=VSP_062080, VSP_062085, VSP_062090,
+CC                                  VSP_062099, VSP_062113, VSP_062133;
+CC       Name=BE {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=7,9,30,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-7; Sequence=VSP_062082, VSP_062085, VSP_062092,
+CC                                  VSP_062103, VSP_062114, VSP_062126,
+CC                                  VSP_062133;
+CC       Name=AM {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=7,20,9,1
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-8; Sequence=VSP_062082, VSP_062085, VSP_062092,
+CC                                  VSP_062104, VSP_062112;
+CC       Name=AO {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=7,42,8,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-9; Sequence=VSP_062082, VSP_062085, VSP_062092,
+CC                                  VSP_062094, VSP_062120, VSP_062125,
+CC                                  VSP_062128, VSP_062129, VSP_062133;
+CC       Name=AP {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=8,4,26,1
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-10; Sequence=VSP_062079, VSP_062091, VSP_062102,
+CC                                   VSP_062118;
+CC       Name=AU {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=9,35,3,1
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-11; Sequence=VSP_062081, VSP_062086, VSP_062088,
+CC                                   VSP_062098, VSP_062107, VSP_062115,
+CC                                   VSP_062124;
+CC       Name=AF {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=6,34,7,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-12; Sequence=VSP_062080, VSP_062085, VSP_062090,
+CC                                   VSP_062097, VSP_062110, VSP_062116,
+CC                                   VSP_062123, VSP_062127, VSP_062130,
+CC                                   VSP_062131, VSP_062132, VSP_062133;
+CC       Name=AE {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=6,30,17,1
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-13; Sequence=VSP_062080, VSP_062085, VSP_062090,
+CC                                   VSP_062096, VSP_062111, VSP_062117;
+CC       Name=BQ {ECO:0000312|FlyBase:FBgn0033159}; Synonyms=2,44,1,2
+CC       {ECO:0000305};
+CC         IsoId=Q0E9H9-14; Sequence=VSP_062083, VSP_062087, VSP_062093,
+CC                                   VSP_062100, VSP_062121, VSP_062133;
+CC   -!- TISSUE SPECIFICITY: Secreted into the hemolymph (at protein level)
+CC       (PubMed:16109846). Expressed in brain and eye-antennal imaginal disks,
+CC       including R3/R4 and R7 photoreceptor cells (PubMed:14758360).
+CC       Individual R3/R4 cells express between 14 and 50 randomly generated
+CC       mRNAs encoding distinct isoforms (PubMed:14758360).
+CC       {ECO:0000269|PubMed:14758360, ECO:0000269|PubMed:16109846}.
+CC   -!- DEVELOPMENTAL STAGE: Detected in 12-18 hr embryo extracts (at protein
+CC       level) (PubMed:10892653). In the developing central nervous system of
+CC       stage 16 embryos expression is confined to the axons of neuronal cells
+CC       in the connectives and commissures of the ventral nerve cord (at
+CC       protein level) (PubMed:10892653, PubMed:15339648). Expressed in
+CC       Bolwig's organ of stage 16 embryos (at protein level)
+CC       (PubMed:10892653). Expressed in da neurons of the peripheral nervous
+CC       system in 2nd and 3rd instar larvae (at protein level)
+CC       (PubMed:17482551). In wandering 3rd instar larvae, expressed in
+CC       neuropil structures of the central nervous system (at protein level)
+CC       (PubMed:15339648). Expressed in larval brain, fat body and hemocytes
+CC       (at protein level) (PubMed:16109846). {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:15339648, ECO:0000269|PubMed:16109846,
+CC       ECO:0000269|PubMed:17482551}.
+CC   -!- DOMAIN: The ectodomain consists of 10 Ig-like domains. Ig-like domains
+CC       2, 3 and 7 are highly variable in different isoforms due to alternative
+CC       splicing (PubMed:10892653). Ig-like domains 1-8 are sufficient for
+CC       homodimerization (PubMed:15339666). Dimerization only occurs when all 3
+CC       variable Ig-like domains are identical (PubMed:15339666,
+CC       PubMed:17889655). Intramolecular interactions between Ig-like domain
+CC       pairs 1-4, 2-3 and 5-6 cause the ectodomain to adopt an S shape
+CC       conformation, bringing the variable Ig-like domains 2, 3 and 7 into
+CC       line to form an interaction surface (PubMed:18805093). During
+CC       dimerization Ig-like domains 2, 3 and 7 self-interact in a modular
+CC       fashion with their corresponding domain on the opposite molecule in an
+CC       antiparallel orientation (PubMed:17721508, PubMed:17889655,
+CC       PubMed:18805093). The Ig-like domain isoform encoded by exon 9.33 is
+CC       unable to bind another copy of itself (PubMed:17889655).
+CC       {ECO:0000269|PubMed:10892653, ECO:0000269|PubMed:15339666,
+CC       ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:17889655,
+CC       ECO:0000269|PubMed:18805093}.
+CC   -!- DOMAIN: The cytoplasmic domain is required to convert the recognition
+CC       and adhesion of Dscam1 molecules on opposing membranes into a repulsion
+CC       signal, possibly by recruiting components of signaling pathways
+CC       involved in actin cytoskeleton regulation.
+CC       {ECO:0000269|PubMed:17482551}.
+CC   -!- DOMAIN: The 2 PXXP motifs and the polyproline tract are cooperatively
+CC       involved in the binding of dock/dreadlocks through its SH3 domains
+CC       (PubMed:10892653). PXXP motif 1 preferentially binds dock SH3 domain 1
+CC       (PubMed:10892653). PXXP motif 2 preferentially binds dock SH3 domain 3
+CC       (PubMed:10892653). The polyproline tract preferentially binds dock SH3
+CC       domain 2 (PubMed:10892653). {ECO:0000269|PubMed:10892653}.
+CC   -!- DOMAIN: The transmembrane domain is encoded by 2 mutually exclusive
+CC       alternative exons, 17.1 and 17.2 (PubMed:10892653, PubMed:15339648).
+CC       Isoforms bearing the transmembrane domain encoded by exon 17.1 are
+CC       targeted to dendrites while those encoded by exon 17.2 are targeted to
+CC       axons (PubMed:15339648). {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:15339648}.
+CC   -!- PTM: Phosphorylated on tyrosine residues in the intracellular domain
+CC       (PubMed:10892653, PubMed:12014990). Tyrosine protein kinase Src42A and
+CC       possibly Src64B are involved in this phosphorylation (PubMed:12014990).
+CC       {ECO:0000269|PubMed:10892653, ECO:0000269|PubMed:12014990}.
+CC   -!- PTM: Glycosylation on Asn-53 and Asn-325 is involved in stabilizing
+CC       dimerization. {ECO:0000269|PubMed:27386517}.
+CC   -!- PTM: Proteolytically processed, probably to generate a secreted form.
+CC       {ECO:0000269|PubMed:16109846}.
+CC   -!- DISRUPTION PHENOTYPE: Early larval lethal with disruption of axon
+CC       pathways in the central nervous system (PubMed:10892653). Dendrite
+CC       arborisation is disrupted in da neurons of the peripheral nervous
+CC       system, showing increased levels of overlap and fasciculation of
+CC       dendrites from the same cell (PubMed:17482551). RNAi-mediated knockdown
+CC       in embryonic and larval hemocytes reduces their ability to phagocytose
+CC       bacteria (PubMed:16109846). {ECO:0000269|PubMed:10892653,
+CC       ECO:0000269|PubMed:16109846, ECO:0000269|PubMed:17482551}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF260530; AAF71926.1; -; Genomic_DNA.
+DR   EMBL; AE013599; AAF59271.2; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31042.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31045.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31049.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31053.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31057.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31067.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31069.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31073.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31075.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31076.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31078.1; -; Genomic_DNA.
+DR   EMBL; AE013599; ABI31080.1; -; Genomic_DNA.
+DR   EMBL; AE013599; AFH07931.1; -; Genomic_DNA.
+DR   RefSeq; NP_001036491.1; NM_001043026.1. [Q0E9H9-5]
+DR   RefSeq; NP_001036494.1; NM_001043029.1. [Q0E9H9-3]
+DR   RefSeq; NP_001036498.1; NM_001043033.1. [Q0E9H9-4]
+DR   RefSeq; NP_001036502.1; NM_001043037.1. [Q0E9H9-11]
+DR   RefSeq; NP_001036506.1; NM_001043041.1. [Q0E9H9-7]
+DR   RefSeq; NP_001036516.1; NM_001043051.1. [Q0E9H9-10]
+DR   RefSeq; NP_001036518.1; NM_001043053.1. [Q0E9H9-6]
+DR   RefSeq; NP_001036522.1; NM_001043057.1. [Q0E9H9-8]
+DR   RefSeq; NP_001036524.1; NM_001043059.1. [Q0E9H9-9]
+DR   RefSeq; NP_001036525.1; NM_001043060.1. [Q0E9H9-2]
+DR   RefSeq; NP_001036527.1; NM_001043062.1. [Q0E9H9-12]
+DR   RefSeq; NP_001036529.1; NM_001043064.1. [Q0E9H9-13]
+DR   RefSeq; NP_001246176.1; NM_001259247.1. [Q0E9H9-14]
+DR   RefSeq; NP_724543.1; NM_165514.1. [Q0E9H9-1]
+DR   PDB; 2V5M; X-ray; 1.95 A; A=36-423.
+DR   PDB; 2V5R; X-ray; 3.00 A; A/B=36-424.
+DR   PDB; 2V5S; X-ray; 2.30 A; A/B=36-423.
+DR   PDB; 3DMK; X-ray; 4.19 A; A/B/C=1-810.
+DR   PDB; 4WVR; X-ray; 1.95 A; A/B/C/D=617-713.
+DR   PDB; 4X5L; X-ray; 2.37 A; A/B/C/D=617-713.
+DR   PDB; 4X83; X-ray; 1.90 A; A/B/C/D=34-425.
+DR   PDB; 4X8X; X-ray; 2.50 A; A/B=34-425.
+DR   PDB; 4X9B; X-ray; 2.20 A; A/B=34-428.
+DR   PDB; 4X9F; X-ray; 2.35 A; A/B=34-425.
+DR   PDB; 4X9G; X-ray; 3.40 A; A/B=34-425.
+DR   PDB; 4X9H; X-ray; 2.95 A; A/B=34-431.
+DR   PDB; 4X9I; X-ray; 2.90 A; A/B=34-427.
+DR   PDB; 4XB7; X-ray; 4.00 A; A/B=34-431.
+DR   PDB; 4XB8; X-ray; 3.20 A; A/B=34-427.
+DR   PDB; 4XHQ; X-ray; 1.95 A; A=36-423.
+DR   PDBsum; 2V5M; -.
+DR   PDBsum; 2V5R; -.
+DR   PDBsum; 2V5S; -.
+DR   PDBsum; 3DMK; -.
+DR   PDBsum; 4WVR; -.
+DR   PDBsum; 4X5L; -.
+DR   PDBsum; 4X83; -.
+DR   PDBsum; 4X8X; -.
+DR   PDBsum; 4X9B; -.
+DR   PDBsum; 4X9F; -.
+DR   PDBsum; 4X9G; -.
+DR   PDBsum; 4X9H; -.
+DR   PDBsum; 4X9I; -.
+DR   PDBsum; 4XB7; -.
+DR   PDBsum; 4XB8; -.
+DR   PDBsum; 4XHQ; -.
+DR   SMR; Q0E9H9; -.
+DR   IntAct; Q0E9H9; 6.
+DR   GlyCosmos; Q9NBA1; 3 sites, No reported glycans.
+DR   GlyGen; Q0E9H9; 12 sites.
+DR   iPTMnet; Q0E9H9; -.
+DR   EnsemblMetazoa; FBtr0089016; FBpp0088088; FBgn0033159. [Q0E9H9-1]
+DR   EnsemblMetazoa; FBtr0111053; FBpp0110345; FBgn0033159. [Q0E9H9-13]
+DR   EnsemblMetazoa; FBtr0111054; FBpp0110346; FBgn0033159. [Q0E9H9-12]
+DR   EnsemblMetazoa; FBtr0111055; FBpp0110347; FBgn0033159. [Q0E9H9-6]
+DR   EnsemblMetazoa; FBtr0111061; FBpp0110353; FBgn0033159. [Q0E9H9-8]
+DR   EnsemblMetazoa; FBtr0111062; FBpp0110355; FBgn0033159. [Q0E9H9-9]
+DR   EnsemblMetazoa; FBtr0111063; FBpp0110356; FBgn0033159. [Q0E9H9-10]
+DR   EnsemblMetazoa; FBtr0111067; FBpp0110361; FBgn0033159. [Q0E9H9-11]
+DR   EnsemblMetazoa; FBtr0111077; FBpp0110371; FBgn0033159. [Q0E9H9-7]
+DR   EnsemblMetazoa; FBtr0111078; FBpp0110372; FBgn0033159. [Q0E9H9-3]
+DR   EnsemblMetazoa; FBtr0111082; FBpp0110376; FBgn0033159. [Q0E9H9-2]
+DR   EnsemblMetazoa; FBtr0111089; FBpp0110384; FBgn0033159. [Q0E9H9-4]
+DR   EnsemblMetazoa; FBtr0111099; FBpp0110394; FBgn0033159. [Q0E9H9-5]
+DR   EnsemblMetazoa; FBtr0306781; FBpp0297697; FBgn0033159. [Q0E9H9-14]
+DR   GeneID; 35652; -.
+DR   KEGG; dme:Dmel_CG17800; -.
+DR   UCSC; CG17800-RA; d. melanogaster. [Q0E9H9-1]
+DR   AGR; FB:FBgn0033159; -.
+DR   CTD; 35652; -.
+DR   FlyBase; FBgn0033159; Dscam1.
+DR   VEuPathDB; VectorBase:FBgn0033159; -.
+DR   HOGENOM; CLU_001038_4_0_1; -.
+DR   InParanoid; A0A0B4K6Z6; -.
+DR   OrthoDB; 5982258at2759; -.
+DR   Reactome; R-DME-376172; DSCAM interactions.
+DR   BioGRID-ORCS; 35652; 0 hits in 3 CRISPR screens.
+DR   EvolutionaryTrace; Q0E9H9; -.
+DR   GenomeRNAi; 35652; -.
+DR   PRO; PR:Q0E9H9; -.
+DR   Proteomes; UP000000803; Chromosome 2R.
+DR   Bgee; FBgn0033159; Expressed in cortex associated CNS glial cell (Drosophila) in post-embryonic organism and 228 other cell types or tissues.
+DR   ExpressionAtlas; Q0E9H9; baseline and differential.
+DR   GO; GO:0030424; C:axon; IDA:FlyBase.
+DR   GO; GO:0030425; C:dendrite; IDA:FlyBase.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043005; C:neuron projection; IDA:FlyBase.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:FlyBase.
+DR   GO; GO:0043204; C:perikaryon; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISM:FlyBase.
+DR   GO; GO:0003823; F:antigen binding; IDA:FlyBase.
+DR   GO; GO:0008046; F:axon guidance receptor activity; IMP:FlyBase.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0048846; P:axon extension involved in axon guidance; IMP:FlyBase.
+DR   GO; GO:0007411; P:axon guidance; IMP:FlyBase.
+DR   GO; GO:0007413; P:axonal fasciculation; IMP:FlyBase.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0021551; P:central nervous system morphogenesis; IMP:FlyBase.
+DR   GO; GO:0070593; P:dendrite self-avoidance; IDA:FlyBase.
+DR   GO; GO:0050976; P:detection of mechanical stimulus involved in sensory perception of touch; IGI:FlyBase.
+DR   GO; GO:0032490; P:detection of molecule of bacterial origin; IDA:FlyBase.
+DR   GO; GO:0016319; P:mushroom body development; IMP:FlyBase.
+DR   GO; GO:0048666; P:neuron development; IMP:FlyBase.
+DR   GO; GO:0007422; P:peripheral nervous system development; IMP:FlyBase.
+DR   GO; GO:0006909; P:phagocytosis; IMP:FlyBase.
+DR   GO; GO:0050770; P:regulation of axonogenesis; IMP:FlyBase.
+DR   GO; GO:0048814; P:regulation of dendrite morphogenesis; IMP:FlyBase.
+DR   GO; GO:0007419; P:ventral cord development; IGI:FlyBase.
+DR   CDD; cd00063; FN3; 6.
+DR   CDD; cd20957; IgC2_3_Dscam; 1.
+DR   CDD; cd20955; IgI_1_Dscam; 1.
+DR   CDD; cd20953; IgI_2_Dscam; 1.
+DR   CDD; cd20956; IgI_4_Dscam; 1.
+DR   CDD; cd20958; IgI_5_Dscam; 1.
+DR   CDD; cd20954; IgI_7_Dscam; 1.
+DR   FunFam; 2.60.40.10:FF:000017; Down syndrome cell adhesion molecule b; 2.
+DR   FunFam; 2.60.40.10:FF:000093; Down syndrome cell adhesion molecule, isoform B; 1.
+DR   FunFam; 2.60.40.10:FF:000230; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000302; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000308; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000310; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000311; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000324; Down syndrome cell adhesion molecule, isoform D; 1.
+DR   FunFam; 2.60.40.10:FF:000413; Down syndrome cell adhesion molecule, isoform F; 1.
+DR   FunFam; 2.60.40.10:FF:000410; Down syndrome cell adhesion molecule, isoform H; 1.
+DR   FunFam; 2.60.40.10:FF:000394; Down syndrome cell adhesion molecule, isoform J; 1.
+DR   FunFam; 2.60.40.10:FF:000426; Down syndrome cell adhesion molecule, isoform J; 1.
+DR   FunFam; 2.60.40.10:FF:000435; Down syndrome cell adhesion molecule, isoform J; 1.
+DR   FunFam; 2.60.40.10:FF:000439; Down syndrome cell adhesion molecule, isoform J; 1.
+DR   FunFam; 2.60.40.10:FF:000498; Down syndrome cell adhesion molecule, isoform J; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 16.
+DR   InterPro; IPR056754; DSCAM/DSCAML_C.
+DR   InterPro; IPR021012; Dscam1_C.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   PANTHER; PTHR10075; BASIGIN RELATED; 1.
+DR   PANTHER; PTHR10075:SF14; CELL ADHESION MOLECULE DSCAM2-RELATED; 1.
+DR   Pfam; PF12355; Dscam_C; 1.
+DR   Pfam; PF00041; fn3; 5.
+DR   Pfam; PF25059; FN3_DSCAM-DSCAML_C; 1.
+DR   Pfam; PF07679; I-set; 4.
+DR   Pfam; PF13927; Ig_3; 4.
+DR   SMART; SM00060; FN3; 6.
+DR   SMART; SM00409; IG; 10.
+DR   SMART; SM00408; IGc2; 9.
+DR   SUPFAM; SSF49265; Fibronectin type III; 3.
+DR   SUPFAM; SSF48726; Immunoglobulin; 10.
+DR   PROSITE; PS50853; FN3; 6.
+DR   PROSITE; PS50835; IG_LIKE; 10.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cell adhesion; Cell membrane;
+KW   Cell projection; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Membrane; Neurogenesis; Reference proteome; Repeat;
+KW   Secreted; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..2016
+FT                   /note="Cell adhesion molecule Dscam1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5004171239"
+FT   TOPO_DOM        29..1618
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1619..1639
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1640..2016
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          39..134
+FT                   /note="Ig-like C2-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          138..230
+FT                   /note="Ig-like C2-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          247..338
+FT                   /note="Ig-like C2-type 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          342..421
+FT                   /note="Ig-like C2-type 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          428..522
+FT                   /note="Ig-like C2-type 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          527..613
+FT                   /note="Ig-like C2-type 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          618..712
+FT                   /note="Ig-like C2-type 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          715..807
+FT                   /note="Ig-like C2-type 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          812..904
+FT                   /note="Ig-like C2-type 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          913..1007
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1012..1116
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1117..1213
+FT                   /note="Fibronectin type-III 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1217..1310
+FT                   /note="Fibronectin type-III 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1312..1394
+FT                   /note="Ig-like C2-type 10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          1402..1495
+FT                   /note="Fibronectin type-III 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1499..1594
+FT                   /note="Fibronectin type-III 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   REGION          1688..1719
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1787..1846
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1862..2016
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           1685..1688
+FT                   /note="PXXP motif 1; SH3-binding"
+FT                   /evidence="ECO:0000269|PubMed:10892653"
+FT   MOTIF           1727..1730
+FT                   /note="PXXP motif 2; SH3-binding"
+FT                   /evidence="ECO:0000269|PubMed:10892653"
+FT   MOTIF           1842..1845
+FT                   /note="YXXP motif 1; potential SH2-binding"
+FT                   /evidence="ECO:0000303|PubMed:10892653"
+FT   MOTIF           1875..1878
+FT                   /note="YXXP motif 2; potential SH2-binding"
+FT                   /evidence="ECO:0000303|PubMed:10892653"
+FT   MOTIF           1925..1932
+FT                   /note="Polyproline tract (probable SH3-binding)"
+FT                   /evidence="ECO:0000269|PubMed:10892653"
+FT   COMPBIAS        1826..1836
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1897..1918
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1944..1962
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1974..1993
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1994..2004
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        53
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5R, ECO:0007744|PDB:3DMK,
+FT                   ECO:0007744|PDB:4XHQ"
+FT   CARBOHYD        325
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        492
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498,
+FT                   ECO:0000269|PubMed:18805093, ECO:0007744|PDB:3DMK"
+FT   CARBOHYD        577
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498,
+FT                   ECO:0000269|PubMed:18805093, ECO:0007744|PDB:3DMK"
+FT   CARBOHYD        820
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1022
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1055
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1186
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        61..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5R, ECO:0007744|PDB:2V5S,
+FT                   ECO:0007744|PDB:3DMK, ECO:0007744|PDB:4X83,
+FT                   ECO:0007744|PDB:4X8X, ECO:0007744|PDB:4X9B,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G,
+FT                   ECO:0007744|PDB:4X9H, ECO:0007744|PDB:4X9I,
+FT                   ECO:0007744|PDB:4XB7, ECO:0007744|PDB:4XB8,
+FT                   ECO:0007744|PDB:4XHQ"
+FT   DISULFID        160..217
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5R, ECO:0007744|PDB:3DMK,
+FT                   ECO:0007744|PDB:4X8X"
+FT   DISULFID        269..322
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        364..405
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5S, ECO:0007744|PDB:3DMK,
+FT                   ECO:0007744|PDB:4X83, ECO:0007744|PDB:4X8X,
+FT                   ECO:0007744|PDB:4X9B, ECO:0007744|PDB:4X9F,
+FT                   ECO:0007744|PDB:4X9G, ECO:0007744|PDB:4X9H,
+FT                   ECO:0007744|PDB:4X9I, ECO:0007744|PDB:4XB7,
+FT                   ECO:0007744|PDB:4XB8, ECO:0007744|PDB:4XHQ"
+FT   DISULFID        450..506
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:18805093, ECO:0007744|PDB:3DMK"
+FT   DISULFID        547..596
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:18805093, ECO:0007744|PDB:3DMK"
+FT   DISULFID        640..694
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:4X5L"
+FT   DISULFID        736..790
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        833..890
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1334..1382
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         138..161
+FT                   /note="AQYYEADVNKEHVIRGNSAVIKCL -> SQFYITEAENEYVIKGNAAVVKCK
+FT                   (in isoform AP)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062079"
+FT   VAR_SEQ         138..149
+FT                   /note="AQYYEADVNKEH -> NQFYGADILMEY (in isoform AG, isoform
+FT                   AF and isoform AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062080"
+FT   VAR_SEQ         138..149
+FT                   /note="AQYYEADVNKEH -> IQSYESEADNEY (in isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062081"
+FT   VAR_SEQ         138..149
+FT                   /note="AQYYEADVNKEH -> NQFYEAEIMTEY (in isoform BE, isoform
+FT                   AM and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062082"
+FT   VAR_SEQ         138..149
+FT                   /note="AQYYEADVNKEH -> SQHYEEDIHKAF (in isoform O and
+FT                   isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062083"
+FT   VAR_SEQ         138..149
+FT                   /note="AQYYEADVNKEH -> QQFYESEVNNEY (in isoform Y)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062084"
+FT   VAR_SEQ         155..161
+FT                   /note="SAVIKCL -> AAVLKCS (in isoform Y, isoform AG,
+FT                   isoform BE, isoform AM, isoform AO, isoform AF and isoform
+FT                   AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062085"
+FT   VAR_SEQ         156..165
+FT                   /note="AVIKCLIPSF -> VVMKCEIPSY (in isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062086"
+FT   VAR_SEQ         157..161
+FT                   /note="VIKCL -> ILKCD (in isoform O and isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062087"
+FT   VAR_SEQ         171..189
+FT                   /note="EVVSWHTDEEENYFPGAEY -> FVDLWLDSEGRNYYPNNAAET (in
+FT                   isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062088"
+FT   VAR_SEQ         171..189
+FT                   /note="EVVSWHTDEEENYFPGAEY -> QVVSWQDEEGQLYGSLGDQQGT (in
+FT                   isoform Y)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062089"
+FT   VAR_SEQ         171..188
+FT                   /note="EVVSWHTDEEENYFPGAE -> RVESWIDEEGTELRPSEN (in isoform
+FT                   AG, isoform AF and isoform AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062090"
+FT   VAR_SEQ         171..188
+FT                   /note="EVVSWHTDEEENYFPGAE -> QVEAWVDEEGMELWRNNATDA (in
+FT                   isoform AP)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062091"
+FT   VAR_SEQ         171..188
+FT                   /note="EVVSWHTDEEENYFPGAE -> RVESWIDDEGNVLSFSDN (in isoform
+FT                   BE, isoform AM and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062092"
+FT   VAR_SEQ         171..187
+FT                   /note="EVVSWHTDEEENYFPGA -> NVISWHSDEKENFYPGT (in isoform O
+FT                   and isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062093"
+FT   VAR_SEQ         242..279
+FT                   /note="VSSSPPKINALTYKPNIVESMASTAILCPAQGYPAPSF -> IGARAPTFST
+FT                   DSNSFSYTRSVGQSFALLCQAQAYPVPIM (in isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062094"
+FT   VAR_SEQ         242..278
+FT                   /note="VSSSPPKINALTYKPNIVESMASTAILCPAQGYPAPS -> IGSKAPSVPTG
+FT                   VMVFQQQVPLLSTFAMLCQAQAFPVPV (in isoform O)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062095"
+FT   VAR_SEQ         242..267
+FT                   /note="VSSSPPKINALTYKPNIVESMASTAI -> ISSAVPKVVSLAKFDMKTYSGS
+FT                   STMAL (in isoform AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062096"
+FT   VAR_SEQ         242..267
+FT                   /note="VSSSPPKINALTYKPNIVESMASTAI -> ISSSAPRTPALVQKPLELMVAH
+FT                   TISL (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062097"
+FT   VAR_SEQ         242..267
+FT                   /note="VSSSPPKINALTYKPNIVESMASTAI -> ISAKAPVLAVDTKWSGIERHRD
+FT                   MDIVL (in isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062098"
+FT   VAR_SEQ         243..279
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCPAQGYPAPSF -> GAKAPTFSLEY
+FT                   KLIEVQKSKGTAFALLCQAQAFPVPII (in isoform AG)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062099"
+FT   VAR_SEQ         243..279
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCPAQGYPAPSF -> GSKAPTFATAS
+FT                   KISSLLGSSSSDIVLLCQAQAFPVPYT (in isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062100"
+FT   VAR_SEQ         243..279
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCPAQGYPAPSF -> GAKAPTFSGES
+FT                   KSFTFVKEISTSFALLCQAQAFPVPII (in isoform Y)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062101"
+FT   VAR_SEQ         243..278
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCPAQGYPAPS -> GSVSPQLSGNGN
+FT                   QEHITLTRVPKMGSVTLMCPAQAYPVPF (in isoform AP)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062102"
+FT   VAR_SEQ         243..276
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCPAQGYPA -> GSVRPKVNPQDKHQ
+FT                   FIDVELASSYSLLCMAQSYPT (in isoform BE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062103"
+FT   VAR_SEQ         243..270
+FT                   /note="SSSPPKINALTYKPNIVESMASTAILCP -> GSVAPKVDMQDKFGVNIRQA
+FT                   NNSLNLLCK (in isoform AM)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062104"
+FT   VAR_SEQ         243..267
+FT                   /note="SSSPPKINALTYKPNIVESMASTAI -> GSVKPKINVQDKLQTREISQGIG
+FT                   IAL (in isoform BF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062105"
+FT   VAR_SEQ         243..267
+FT                   /note="SSSPPKINALTYKPNIVESMASTAI -> GSVGPKLTSGDDSRTVRIRQEDS
+FT                   VTL (in isoform G)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062106"
+FT   VAR_SEQ         273..279
+FT                   /note="GYPAPSF -> AYPVPIS (in isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062107"
+FT   VAR_SEQ         273..279
+FT                   /note="GYPAPSF -> SYPIPAH (in isoform BF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062108"
+FT   VAR_SEQ         273..279
+FT                   /note="GYPAPSF -> AYPVPVY (in isoform G)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062109"
+FT   VAR_SEQ         274
+FT                   /note="Y -> F (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062110"
+FT   VAR_SEQ         276..278
+FT                   /note="APS -> VPV (in isoform AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062111"
+FT   VAR_SEQ         276..278
+FT                   /note="APS -> MPA (in isoform AM)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062112"
+FT   VAR_SEQ         617..710
+FT                   /note="PPQVLPFSFGESAADVGDIASANCVVPKGDLPLEIRWSLNSAPIVNGENGFT
+FT                   LVRLNKRTSLLNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ -> APKIAPFDFGDEP
+FT                   SNFGESASVQCLVTSGDFPVSFAWLFNGREINENVYDVSMVKLGKKISALSIDIVRDHH
+FT                   AGNYTCVAVNRATSVNFTAELV (in isoform AG)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062113"
+FT   VAR_SEQ         617..644
+FT                   /note="PPQVLPFSFGESAADVGDIASANCVVPK -> LPRIIPFAFEEGPAQVGQYL
+FT                   TLHCSVPG (in isoform O and isoform BE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062114"
+FT   VAR_SEQ         617..643
+FT                   /note="PPQVLPFSFGESAADVGDIASANCVVP -> LPQVVPFDFGEESINELDMVS
+FT                   ASCTVN (in isoform BF and isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062115"
+FT   VAR_SEQ         617..621
+FT                   /note="PPQVL -> APQIS (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062116"
+FT   VAR_SEQ         619..710
+FT                   /note="QVLPFSFGESAADVGDIASANCVVPKGDLPLEIRWSLNSAPIVNGENGFTLV
+FT                   RLNKRTSLLNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ -> KIAHFDFGDHAVNFE
+FT                   ESVSVNCLIYLGDLPMDITWLFNGAHINAYTGVSIVKGGKKASILTIDSVHAGHAGNYT
+FT                   CKARNDADSAEYSAELI (in isoform AE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062117"
+FT   VAR_SEQ         619..710
+FT                   /note="QVLPFSFGESAADVGDIASANCVVPKGDLPLEIRWSLNSAPIVNGENGFTLV
+FT                   RLNKRTSLLNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ -> KITPFDFGAEPTNVE
+FT                   DSVSVTCLISSGDLPIDIEWFFNDYGISSYSGINVVKGGKRNSMLSIDNVQARHAGKYS
+FT                   CRAKNYAAAVNYSTELI (in isoform AP)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062118"
+FT   VAR_SEQ         619..621
+FT                   /note="QVL -> SIA (in isoform G)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062119"
+FT   VAR_SEQ         620..641
+FT                   /note="VLPFSFGESAADVGDIASANCV -> IQAFDFGSEAANTGEMAGGFCM (in
+FT                   isoform Y and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062120"
+FT   VAR_SEQ         621..710
+FT                   /note="LPFSFGESAADVGDIASANCVVPKGDLPLEIRWSLNSAPIVNGENGFTLVRL
+FT                   NKRTSLLNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ -> VPFDFGEETINMNDMVS
+FT                   ATCTVNKGDTPLELYWTTAPDPTTGVGRLMSNDGILITKTTQRISMLSIESVHARHRAN
+FT                   YTCVARNAAGVIYHTAELR (in isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062121"
+FT   VAR_SEQ         627..710
+FT                   /note="ESAADVGDIASANCVVPKGDLPLEIRWSLNSAPIVNGENGFTLVRLNKRTSL
+FT                   LNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ -> DDPVNTGENAGVQCMVQKGDVPI
+FT                   TIKWTLNSRPIINGEEGITILKLSPKTSVLNIAAVEQDHRGVFKCIAENKAGSSFTTSE
+FT                   LK (in isoform G)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062122"
+FT   VAR_SEQ         627..638
+FT                   /note="ESAADVGDIASA -> DEPLNRGEVASV (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062123"
+FT   VAR_SEQ         649..710
+FT                   /note="LEIRWSLNSAPIVNGENGFTLVRLNKRTSLLNIDSLNAFHRGVYKCIATNPA
+FT                   GTSEYVAELQ -> VDIYWTKNGGRVYTNDGLIVTRNSQRLSVLSIESVRARHAGNYSC
+FT                   VATNNAGAITQSAMLA (in isoform BF and isoform AU)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062124"
+FT   VAR_SEQ         649
+FT                   /note="L -> M (in isoform Y and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062125"
+FT   VAR_SEQ         650..712
+FT                   /note="EIRWSLNSAPIVNGENGFTLVRLNKRTSLLNIDSLNAFHRGVYKCIATNPAG
+FT                   TSEYVAELQVN -> NIDWTLDGQAISEDLGITTSRVGRRGSVLTIEAVEASHAGNFTC
+FT                   HARNLAGHQQFTTPLNVY (in isoform O and isoform BE)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062126"
+FT   VAR_SEQ         650..659
+FT                   /note="EIRWSLNSAP -> DIYWTLNSAL (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062127"
+FT   VAR_SEQ         654
+FT                   /note="S -> T (in isoform Y and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062128"
+FT   VAR_SEQ         661..710
+FT                   /note="VNGENGFTLVRLNKRTSLLNIDSLNAFHRGVYKCIATNPAGTSEYVAELQ
+FT                   -> ITGEHGFSLSRLNPRTSSLSIDSLEARHRGLYRCIASNKAGSAEYSAELH (in
+FT                   isoform Y and isoform AO)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062129"
+FT   VAR_SEQ         665
+FT                   /note="N -> M (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062130"
+FT   VAR_SEQ         678..691
+FT                   /note="LLNIDSLNAFHRGV -> SLNVDSLEAVHRGS (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062131"
+FT   VAR_SEQ         697..710
+FT                   /note="TNPAGTSEYVAELQ -> NNSAGYAEYVSTLD (in isoform AF)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062132"
+FT   VAR_SEQ         1598..1649
+FT                   /note="SRDLPELSAEDTIRIILSNLNLVVPVVAALLVIIIAIIVICILRSKGNHHKD
+FT                   -> LDDGSGHGNVHTRIRLPAWMPEWLDLNFMVPLIATVVVVAVGICVVCVALSRRRAD
+FT                   DMRGGQKDVYY (in isoform G, isoform BF, isoform O, isoform
+FT                   Y, isoform AG, isoform BE, isoform AO, isoform AF and
+FT                   isoform BQ)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_062133"
+FT   MUTAGEN         530
+FT                   /note="R->W: In DscamR496W; loss of function probably due
+FT                   to disruption of the intramolecular binding interface
+FT                   between Ig-like domains 5 and 6; dorsal lobe nerve tract
+FT                   does not form and the medial lobe fails to extend to the
+FT                   midline."
+FT                   /evidence="ECO:0000269|PubMed:18805093"
+FT   CONFLICT        251
+FT                   /note="A -> T (in Ref. 1; AAF71926)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        388
+FT                   /note="P -> S (in Ref. 1; AAF71926)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        411
+FT                   /note="Q -> R (in Ref. 1; AAF71926)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1804
+FT                   /note="H -> L (in Ref. 1; AAF71926)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          37..43
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          47..52
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            53..55
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          57..59
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          62..67
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          70..75
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            85..87
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            92..94
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          95..98
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           103..105
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           108..111
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          112..120
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          125..127
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          131..136
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          148..151
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          156..158
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           164..166
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            167..169
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          170..175
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            178..180
+FT                   /evidence="ECO:0007829|PDB:4X8X"
+FT   STRAND          182..184
+FT                   /evidence="ECO:0007829|PDB:4X9B"
+FT   STRAND          185..187
+FT                   /evidence="ECO:0007829|PDB:4XHQ"
+FT   STRAND          191..195
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          201..203
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           208..211
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          214..221
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   TURN            222..224
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          227..229
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          234..239
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          245..252
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          255..261
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          266..268
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          271..275
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          278..284
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          291..293
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          297..303
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          306..309
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           314..316
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          318..326
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          329..348
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          350..355
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          360..369
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          373..378
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          381..384
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          387..394
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   HELIX           397..399
+FT                   /evidence="ECO:0007829|PDB:4XHQ"
+FT   STRAND          401..408
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          413..423
+FT                   /evidence="ECO:0007829|PDB:4X83"
+FT   STRAND          636..642
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          650..655
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          658..660
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   HELIX           664..666
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          667..673
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          676..683
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   HELIX           686..688
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          690..697
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   STRAND          702..709
+FT                   /evidence="ECO:0007829|PDB:4WVR"
+FT   DISULFID        Q0E9H9-2:61..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5R, ECO:0007744|PDB:2V5S,
+FT                   ECO:0007744|PDB:3DMK, ECO:0007744|PDB:4X83,
+FT                   ECO:0007744|PDB:4X8X, ECO:0007744|PDB:4X9B,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G,
+FT                   ECO:0007744|PDB:4X9H, ECO:0007744|PDB:4X9I,
+FT                   ECO:0007744|PDB:4XB7, ECO:0007744|PDB:4XB8,
+FT                   ECO:0007744|PDB:4XHQ"
+FT   DISULFID        Q0E9H9-2:641..695
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4WVR"
+FT   DISULFID        Q0E9H9-3:61..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:17721508, ECO:0000269|PubMed:18805093,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5R, ECO:0007744|PDB:2V5S,
+FT                   ECO:0007744|PDB:3DMK, ECO:0007744|PDB:4X83,
+FT                   ECO:0007744|PDB:4X8X, ECO:0007744|PDB:4X9B,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G,
+FT                   ECO:0007744|PDB:4X9H, ECO:0007744|PDB:4X9I,
+FT                   ECO:0007744|PDB:4XB7, ECO:0007744|PDB:4XB8,
+FT                   ECO:0007744|PDB:4XHQ"
+FT   DISULFID        Q0E9H9-4:641..694
+FT                   /evidence="ECO:0000269|PubMed:18805093,
+FT                   ECO:0007744|PDB:3DMK"
+FT   DISULFID        Q0E9H9-5:160..220
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9B, ECO:0007744|PDB:4XB7"
+FT   DISULFID        Q0E9H9-6:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G"
+FT   DISULFID        Q0E9H9-7:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X83"
+FT   DISULFID        Q0E9H9-7:270..323
+FT                   /evidence="ECO:0000269|PubMed:17721508,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5R,
+FT                   ECO:0007744|PDB:4X8X, ECO:0007744|PDB:4X9F"
+FT   DISULFID        Q0E9H9-7:641..694
+FT                   /evidence="ECO:0000269|PubMed:18805093,
+FT                   ECO:0007744|PDB:3DMK"
+FT   DISULFID        Q0E9H9-8:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X83"
+FT   DISULFID        Q0E9H9-8:641..695
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:4X5L"
+FT   DISULFID        Q0E9H9-9:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X83"
+FT   DISULFID        Q0E9H9-10:160..220
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9H"
+FT   DISULFID        Q0E9H9-10:276..329
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9H, ECO:0007744|PDB:4XB7"
+FT   BINDING         Q0E9H9-11:144
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /note="ligand shared between homodimeric partners"
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4XB8"
+FT   BINDING         Q0E9H9-11:146
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /note="ligand shared between homodimeric partners"
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4XB8"
+FT   BINDING         Q0E9H9-11:161
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /note="ligand shared between homodimeric partners"
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4XB8"
+FT   DISULFID        Q0E9H9-11:160..219
+FT                   /evidence="ECO:0000269|PubMed:17721508,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5R,
+FT                   ECO:0007744|PDB:4X9I, ECO:0007744|PDB:4XB8"
+FT   CARBOHYD        Q0E9H9-12:325
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:17721508,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:4XHQ"
+FT   DISULFID        Q0E9H9-12:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G"
+FT   DISULFID        Q0E9H9-12:269..322
+FT                   /evidence="ECO:0000269|PubMed:17721508,
+FT                   ECO:0000269|PubMed:27386517, ECO:0007744|PDB:2V5M,
+FT                   ECO:0007744|PDB:2V5S, ECO:0007744|PDB:4XHQ"
+FT   CARBOHYD        Q0E9H9-13:325
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:18805093,
+FT                   ECO:0007744|PDB:3DMK"
+FT   DISULFID        Q0E9H9-13:160..217
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X9F, ECO:0007744|PDB:4X9G"
+FT   DISULFID        Q0E9H9-13:270..323
+FT                   /evidence="ECO:0000269|PubMed:18805093,
+FT                   ECO:0007744|PDB:3DMK"
+FT   DISULFID        Q0E9H9-14:270..323
+FT                   /evidence="ECO:0000269|PubMed:27386517,
+FT                   ECO:0007744|PDB:4X83, ECO:0007744|PDB:4X9B,
+FT                   ECO:0007744|PDB:4X9G, ECO:0007744|PDB:4X9I,
+FT                   ECO:0007744|PDB:4XB8"
+SQ   SEQUENCE   2016 AA;  222102 MW;  DF36AD62BA36FE41 CRC64;
+     MNMPNERLKW LMLFAAVALI ACGSQTLAAN PPDADQKGPV FLKEPTNRID FSNSTGAEIE
+     CKASGNPMPE IIWIRSDGTA VGDVPGLRQI SSDGKLVFPP FRAEDYRQEV HAQVYACLAR
+     NQFGSIISRD VHVRAVVAQY YEADVNKEHV IRGNSAVIKC LIPSFVADFV EVVSWHTDEE
+     ENYFPGAEYD GKYLVLPSGE LHIREVGPED GYKSYQCRTK HRLTGETRLS ATKGRLVITE
+     PVSSSPPKIN ALTYKPNIVE SMASTAILCP AQGYPAPSFR WYKFIEGTTR KQAVVLNDRV
+     KQVSGTLIIK DAVVEDSGKY LCVVNNSVGG ESVETVLTVT APLSAKIDPP TQTVDFGRPA
+     VFTCQYTGNP IKTVSWMKDG KAIGHSEPVL RIESVKKEDK GMYQCFVRND QESAEASAEL
+     KLGGRFDPPV IRQAFQEETM EPGPSVFLKC VAGGNPTPEI SWELDGKKIA NNDRYQVGQY
+     VTVNGDVVSY LNITSVHAND GGLYKCIAKS KVGVAEHSAK LNVYGLPYIR QMEKKAIVAG
+     ETLIVTCPVA GYPIDSIVWE RDNRALPINR KQKVFPNGTL IIENVERNSD QATYTCVAKN
+     QEGYSARGSL EVQVMVPPQV LPFSFGESAA DVGDIASANC VVPKGDLPLE IRWSLNSAPI
+     VNGENGFTLV RLNKRTSLLN IDSLNAFHRG VYKCIATNPA GTSEYVAELQ VNVPPRWILE
+     PTDKAFAQGS DAKVECKADG FPKPQVTWKK AVGDTPGEYK DLKKSDNIRV EEGTLHVDNI
+     QKTNEGYYLC EAINGIGSGL SAVIMISVQA PPEFTEKLRN QTARRGEPAV LQCEAKGEKP
+     IGILWNMNNM RLDPKNDNRY TIREEILSTG VMSSLSIKRT ERSDSALFTC VATNAFGSDD
+     ASINMIVQEV PEMPYALKVL DKSGRSVQLS WAQPYDGNSP LDRYIIEFKR SRASWSEIDR
+     VIVPGHTTEA QVQKLSPATT YNIRIVAENA IGTSQSSEAV TIITAEEAPS GKPQNIKVEP
+     VNQTTMRVTW KPPPRTEWNG EILGYYVGYK LSNTNSSYVF ETINFITEEG KEHNLELQNL
+     RVYTQYSVVI QAFNKIGAGP LSEEEKQFTA EGTPSQPPSD TACTTLTSQT IRVGWVSPPL
+     ESANGVIKTY KVVYAPSDEW YDETKRHYKK TASSDTVLHG LKKYTNYTMQ VLATTAGGDG
+     VRSVPIHCQT EPDVPEAPTD VKALVMGNAA ILVSWRPPAQ PNGIITQYTV YSKAEGAETE
+     TKTQKVPHYQ MSFEATELEK NKPYEFWVTA STTIGEGQQS KSIVAMPSDQ VPAKIASFDD
+     TFTATFKEDA KMPCLAVGAP QPEITWKIKG VEFSANDRMR VLPDGSLLIK SVNRQDAGDY
+     SCHAENSIAK DSITHKLIVL APPQSPHVTL SATTTDALTV KLKPHEGDTA PLHGYTLHYK
+     PEFGEWETSE VSVDSQKHNI EGLLCGSRYQ VYATGFNNIG AGEASDILNT RTKGQKPKLP
+     EKPRFIEVSS NSVSLHFKAW KDGGCPMSHF VVESKKRDQI EWNQISNNVK PDNNYVVLDL
+     EPATWYNLRI TAHNSAGFTV AEYDFATLTV TGGTIAPSRD LPELSAEDTI RIILSNLNLV
+     VPVVAALLVI IIAIIVICIL RSKGNHHKDD VVYNQTMGPG ATLDKRRPDL RDELGYIAPP
+     NRKLPPVPGS NYNTCDRIKR GRGGLRSNHS TWDPRRNPNL YEELKAPPVP MHGNHYGHAH
+     GNAECHYRHP GMEDEICPYA TFHLLGFREE MDPTKAMNFQ TFPHQNGHAG PVPGHAGTML
+     PPGHPGHVHS RSGSQSMPRA NRYQRKNSQG GQSSIYTPAP EYDDPANCAE EDQYRRYTRV
+     NSQGGSLYSG PGPEYDDPAN CAPEEDQYGS QYGGPYGQPY DHYGSRGSMG RRSIGSARNP
+     GNGSPEPPPP PPRNHDMSNS SFNDSKESNE ISEAECDRDH GPRGNYGAVK RSPQPKDQRT
+     TEEMRKLIER NETGPKQLQL QQANGAGFTA YDTMAV
+//

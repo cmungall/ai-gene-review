@@ -1,0 +1,249 @@
+id: P00392
+gene_symbol: merA
+taxon:
+  id: NCBITaxon:287
+  label: Pseudomonas aeruginosa
+description: Mercuric reductase (MerA) is a homodimeric flavoprotein enzyme that catalyzes
+  the NADPH-dependent reduction of toxic Hg(II) to volatile elemental mercury Hg(0),
+  serving as the central enzymatic component of bacterial mercury resistance systems.
+  Located in the cytoplasm, MerA contains an N-terminal metal-binding domain (NmerA)
+  that captures mercury ions, a FAD-binding catalytic core with redox-active disulfide
+  bonds, and unique C-terminal cysteine residues (Cys558/Cys559) essential for mercury
+  binding and catalysis. The enzyme is tightly regulated by the MerR transcriptional
+  regulator as part of the mer operon, with expression induced specifically in response
+  to mercury exposure.
+existing_annotations:
+- term:
+    id: GO:0003955
+    label: NAD(P)H dehydrogenase (quinone) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000118
+  review:
+    summary: This annotation appears to be incorrect for MerA. While MerA is an NADPH-dependent
+      oxidoreductase, it specifically reduces mercury ions, not quinones. The enzyme
+      uses NADPH as an electron donor via FAD to reduce Hg(II) to Hg(0), not to reduce
+      quinones.
+    action: REMOVE
+    reason: MerA specifically reduces mercury ions, not quinones. The enzyme's substrate
+      specificity is for Hg(II), not quinone molecules.
+- term:
+    id: GO:0016152
+    label: mercury (II) reductase (NADP+) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is the correct and most specific molecular function for MerA. Extensive
+      biochemical evidence confirms MerA catalyzes the NADPH-dependent reduction of
+      Hg(II) to Hg(0) with high specificity.
+    action: ACCEPT
+    reason: Direct experimental evidence confirms this as MerA's primary molecular
+      function
+    supported_by:
+    - reference_id: PMID:6412751
+      supporting_text: mercuric reductase enzyme (MerA), researchers used NEM on an
+        HgII-reducing Escherichia coli strain to determine if the reduction mechanism
+        required interaction with thiol groups for the activity to occur
+      reference_section_type: DISCUSSION
+    - reference_id: PMID:1531297
+      supporting_text: Compared to wild-type enzyme, the C558A mutant shows a 20-fold
+        reduction in kcat and a 10-fold increase in Km, for an overall decrease in
+        catalytic efficiency of 200-fold
+      reference_section_type: RESULTS
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is correct but too general. MerA is indeed an oxidoreductase, but
+      the more specific term GO:0016152 (mercury (II) reductase activity) should be
+      used as the primary annotation.
+    action: KEEP_AS_NON_CORE
+    reason: Too general - more specific mercury reductase term available
+    supported_by:
+    - reference_id: PMID:6412751
+      supporting_text: It was later confirmed that the reduction activity was attributable
+        to MerA, a flavin disulphide oxidoreductase
+      reference_section_type: INTRODUCTION
+- term:
+    id: GO:0016668
+    label: oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as
+      acceptor
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This annotation is partially correct but misleading. While MerA has redox-active
+      cysteines, it acts on mercury ions as the substrate, not sulfur groups as donors.
+      The cysteines are part of the catalytic mechanism, not the substrate.
+    action: REMOVE
+    reason: Misleading - MerA acts on mercury ions as substrate, not sulfur groups.
+      The redox-active cysteines are part of the enzyme mechanism, not the substrate.
+- term:
+    id: GO:0045340
+    label: mercury ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct annotation strongly supported by structural and biochemical evidence.
+      MerA has multiple mercury-binding sites including the NmerA domain and C-terminal
+      cysteines essential for catalysis.
+    action: ACCEPT
+    reason: Structural and mutational evidence confirms mercury binding as essential
+      molecular function
+    supported_by:
+    - reference_id: PMID:1531297
+      supporting_text: Compared to wild-type enzyme, the C558A mutant shows a 20-fold
+        reduction in kcat and a 10-fold increase in Km, for an overall decrease in
+        catalytic efficiency of 200-fold
+      reference_section_type: RESULTS
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is correct but too general. The more specific term GO:0045340 (mercury
+      ion binding) better represents MerA's function.
+    action: KEEP_AS_NON_CORE
+    reason: Too general - more specific mercury ion binding term available
+- term:
+    id: GO:0050660
+    label: flavin adenine dinucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct annotation with strong experimental support. FAD is an essential
+      cofactor for MerA's catalytic activity.
+    action: ACCEPT
+    reason: FAD binding is essential for catalytic activity
+    supported_by: []
+- term:
+    id: GO:0050661
+    label: NADP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct annotation. MerA binds NADPH as the electron donor for mercury
+      reduction.
+    action: ACCEPT
+    reason: NADPH binding is essential for electron donation in mercury reduction
+- term:
+    id: GO:0050787
+    label: detoxification of mercury ion
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This is a key biological process for MerA, strongly supported by extensive
+      experimental evidence showing mercury resistance phenotypes.
+    action: ACCEPT
+    reason: Core biological function with extensive genetic and phenotypic evidence
+    supported_by:
+    - reference_id: PMID:12829275
+      supporting_text: Bacterial resistance to inorganic and organic mercury compounds
+        (HgR) is one of the most widely observed phenotypes in eubacteria
+      reference_section_type: RESULTS
+- term:
+    id: GO:0006979
+    label: response to oxidative stress
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: This annotation lacks direct evidence. MerA responds specifically to
+      mercury stress, not general oxidative stress. The mer operon is induced by mercury
+      via MerR, not by oxidative stress signals.
+    action: REMOVE
+    reason: MerA is specifically induced by mercury via MerR, not by oxidative stress
+      signals
+- term:
+    id: GO:0046689
+    label: response to mercury ion
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Correct and well-supported biological process. MerA expression is specifically
+      induced by mercury and is essential for the cellular response to mercury ions.
+    action: ACCEPT
+    reason: MerA expression is specifically induced by mercury exposure via MerR regulation
+    supported_by:
+    - reference_id: PMID:12829275
+      supporting_text: Bacterial resistance to inorganic and organic mercury compounds
+        (HgR) is one of the most widely observed phenotypes in eubacteria
+      reference_section_type: RESULTS
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000118
+  title: TreeGrafter-generated GO annotations
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:6412751
+  title: 'Mercuric reductase: homology to glutathione reductase and lipoamide dehydrogenase.
+    Iodoacetamide alkylation and sequence of the active site peptide'
+  findings: []
+- id: PMID:16114877
+  title: NmerA, the metal binding domain of mercuric ion reductase, removes Hg2+ from
+    proteins, delivers it to the catalytic core, and protects cells under glutathione-depleted
+    conditions
+  findings: []
+- id: PMID:1531297
+  title: C-terminal cysteines of Tn501 mercuric ion reductase.
+  findings:
+  - statement: Site-directed mutagenesis proved C-terminal cysteines Cys558 and Cys559
+      are essential for mercury reduction activity
+    supporting_text: Compared to wild-type enzyme, the C558A mutant shows a 20-fold
+      reduction in kcat and a 10-fold increase in Km, for an overall decrease in catalytic
+      efficiency of 200-fold in kcat/Km
+- id: PMID:12829275
+  title: Bacterial mercury resistance from atoms to ecosystems
+  findings:
+  - statement: Comprehensive review establishing merA as essential for mercury resistance
+      across diverse bacteria
+    supporting_text: Bacterial resistance to inorganic and organic mercury compounds
+      (HgR) is one of the most widely observed phenotypes in eubacteria
+- id: PMID:22773655
+  title: Mercury resistance and mercuric reductase activities and expression among
+    chemotrophic thermophilic Aquificae.
+  findings: []
+- id: file:PSEAI/merA/merA-deep-research.md
+  title: Deep Research Report on merA gene
+  findings:
+  - statement: MerA is a cytoplasmic enzyme that reduces Hg(II) to Hg(0) as part of
+      bacterial mercury resistance
+    supporting_text: MerA is a cytosolic enzyme, functioning within the bacterial
+      cytoplasm to reduce mercury ions. When P. aeruginosa carrying a mer plasmid
+      is induced with mercury, MerA can constitute up to ~6% of the soluble (cytoplasmic)
+      protein content.
+  - statement: MerA contains specialized structural features for mercury handling
+    supporting_text: A unique structural feature of MerA is the additional C-terminal
+      cysteine pair (e.g., Cys558 and Cys559) which is not found in most other flavoprotein
+      reductases. These residues form a flexible loop that transiently coordinates
+      the Hg²⁺ ion.
+core_functions:
+- description: Mercury detoxification through NADPH-dependent enzymatic reduction
+    of Hg(II) to Hg(0) in bacterial cytoplasm
+  molecular_function:
+    id: GO:0016152
+    label: mercury (II) reductase (NADP+) activity
+  directly_involved_in:
+  - id: GO:0050787
+    label: detoxification of mercury ion
+  - id: GO:0046689
+    label: response to mercury ion
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:6412751
+    supporting_text: Supporting evidence for merA function
+  - reference_id: PMID:16114877
+    supporting_text: Supporting evidence for merA function

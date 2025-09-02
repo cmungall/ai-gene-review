@@ -1,0 +1,33 @@
+Functional Regions Analysis of Epe1
+============================================================
+
+1. JmjC Domain Analysis:
+----------------------------------------
+Position: 243-402 (160 aa)
+Histidines: 4
+HXD/E motif: Present
+  Positions: [37, 54]
+
+2. C-terminal Region Analysis:
+----------------------------------------
+Last 100 residues:
+  Hydrophobic: 28.0%
+  Basic: 25.0%
+  Acidic: 15.0%
+  PxVxL motifs: 0
+  Leucine-rich regions: 0
+
+3. Comparison with Active Demethylases:
+----------------------------------------
+Epe1 shows key differences from active JmjC demethylases:
+- HVD motif instead of canonical HXD (V is unusual)
+- Lower histidine count
+- Potentially altered Fe(II) coordination
+
+4. Analysis Summary:
+----------------------------------------
+Found  motif suggesting some conservation.
+Further biochemical analysis needed to confirm activity.
+
+C-terminal region analysis reveals features consistent
+with protein-protein interactions, supporting HP1/Swi6 binding role.

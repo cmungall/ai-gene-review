@@ -1,0 +1,223 @@
+{
+  "sequence_id": "G2TRQ9|tam10|SPBC14C8.19",
+  "sequence_length": 166,
+  "chou_fasman_structure": "TTTTTTTTTHHTCTETTTEEECECCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTHHHHHHHHTEHHHHHHHHHTHTTTTTTTTTTTTEEHHEHHTTTTTTTTHHHHHEHHHHTHHHHTTTTTTTTTTTTTTHHHHHHHHHHHEEEHTTCTTTTTTTT",
+  "gor_structure": "TTTTTTTTTTTTTTTCCCTTTTTTTCCCCHHHHHHHHHHHHHCHCCCCCCCCCCCCCCHHHHHHHTTHHHHHHHHHTTHTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTHHHHHHTTTTTTTTTTTTTTTTTTHTTCHHHHHHHHHHHCCTTTTTTTTTT",
+  "consensus_structure": "TTTTTTTTTHHTCTETTTEEECECCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTHHHHHHHHTEHHHHHHHHHTHTTTTTTTTTTTTEEHHEHHTTTTTTTTHHHHHEHHHHTHHHHTTTTTTTTTTTTTTHHHHHHHHHHHEEEHTTCTTTTTTTT",
+  "composition": {
+    "helix": 82,
+    "sheet": 13,
+    "turn": 66,
+    "coil": 5,
+    "helix_percent": 49.39759036144578,
+    "sheet_percent": 7.83132530120482,
+    "turn_percent": 39.75903614457831,
+    "coil_percent": 3.0120481927710845
+  },
+  "structural_elements": [
+    {
+      "type": "T",
+      "start": 1,
+      "end": 9,
+      "length": 9
+    },
+    {
+      "type": "H",
+      "start": 10,
+      "end": 11,
+      "length": 2
+    },
+    {
+      "type": "T",
+      "start": 12,
+      "end": 12,
+      "length": 1
+    },
+    {
+      "type": "T",
+      "start": 14,
+      "end": 14,
+      "length": 1
+    },
+    {
+      "type": "E",
+      "start": 15,
+      "end": 15,
+      "length": 1
+    },
+    {
+      "type": "T",
+      "start": 16,
+      "end": 18,
+      "length": 3
+    },
+    {
+      "type": "E",
+      "start": 19,
+      "end": 21,
+      "length": 3
+    },
+    {
+      "type": "E",
+      "start": 23,
+      "end": 23,
+      "length": 1
+    },
+    {
+      "type": "T",
+      "start": 26,
+      "end": 26,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 27,
+      "end": 59,
+      "length": 33
+    },
+    {
+      "type": "T",
+      "start": 60,
+      "end": 63,
+      "length": 4
+    },
+    {
+      "type": "H",
+      "start": 64,
+      "end": 71,
+      "length": 8
+    },
+    {
+      "type": "T",
+      "start": 72,
+      "end": 72,
+      "length": 1
+    },
+    {
+      "type": "E",
+      "start": 73,
+      "end": 73,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 74,
+      "end": 82,
+      "length": 9
+    },
+    {
+      "type": "T",
+      "start": 83,
+      "end": 83,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 84,
+      "end": 84,
+      "length": 1
+    },
+    {
+      "type": "T",
+      "start": 85,
+      "end": 96,
+      "length": 12
+    },
+    {
+      "type": "E",
+      "start": 97,
+      "end": 98,
+      "length": 2
+    },
+    {
+      "type": "H",
+      "start": 99,
+      "end": 100,
+      "length": 2
+    },
+    {
+      "type": "E",
+      "start": 101,
+      "end": 101,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 102,
+      "end": 103,
+      "length": 2
+    },
+    {
+      "type": "T",
+      "start": 104,
+      "end": 111,
+      "length": 8
+    },
+    {
+      "type": "H",
+      "start": 112,
+      "end": 116,
+      "length": 5
+    },
+    {
+      "type": "E",
+      "start": 117,
+      "end": 117,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 118,
+      "end": 121,
+      "length": 4
+    },
+    {
+      "type": "T",
+      "start": 122,
+      "end": 122,
+      "length": 1
+    },
+    {
+      "type": "H",
+      "start": 123,
+      "end": 126,
+      "length": 4
+    },
+    {
+      "type": "T",
+      "start": 127,
+      "end": 140,
+      "length": 14
+    },
+    {
+      "type": "H",
+      "start": 141,
+      "end": 151,
+      "length": 11
+    },
+    {
+      "type": "E",
+      "start": 152,
+      "end": 154,
+      "length": 3
+    },
+    {
+      "type": "H",
+      "start": 155,
+      "end": 155,
+      "length": 1
+    },
+    {
+      "type": "T",
+      "start": 156,
+      "end": 157,
+      "length": 2
+    },
+    {
+      "type": "T",
+      "start": 159,
+      "end": 166,
+      "length": 8
+    }
+  ]
+}

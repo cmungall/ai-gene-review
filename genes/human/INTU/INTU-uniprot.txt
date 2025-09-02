@@ -1,0 +1,546 @@
+ID   INTU_HUMAN              Reviewed;         942 AA.
+AC   Q9ULD6; A1L4N5; D6RAE6; D6RBT4; Q4W5I8; Q86V55;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2005, sequence version 2.
+DT   18-JUN-2025, entry version 172.
+DE   RecName: Full=Protein inturned;
+DE   AltName: Full=Inturned planar cell polarity effector homolog;
+DE   AltName: Full=PDZ domain-containing protein 6;
+GN   Name=INTU; Synonyms=KIAA1284, PDZD6, PDZK6;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=10574462; DOI=10.1093/dnares/6.5.337;
+RA   Nagase T., Ishikawa K., Kikuno R., Hirosawa M., Nomura N., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XV. The
+RT   complete sequences of 100 new cDNA clones from brain which code for large
+RT   proteins in vitro.";
+RL   DNA Res. 6:337-345(1999).
+RN   [2]
+RP   SEQUENCE REVISION.
+RX   PubMed=12168954; DOI=10.1093/dnares/9.3.99;
+RA   Nakajima D., Okazaki N., Yamakawa H., Kikuno R., Ohara O., Nagase T.;
+RT   "Construction of expression-ready cDNA clones for KIAA genes: manual
+RT   curation of 330 KIAA cDNA clones.";
+RL   DNA Res. 9:99-106(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Fetal brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H., Minx P.,
+RA   Wagner-McPherson C., Layman D., Wylie K., Sekhon M., Becker M.C.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Kremitzki C., Oddy L.,
+RA   Du H., Sun H., Bradshaw-Cordum H., Ali J., Carter J., Cordes M., Harris A.,
+RA   Isak A., van Brunt A., Nguyen C., Du F., Courtney L., Kalicki J.,
+RA   Ozersky P., Abbott S., Armstrong J., Belter E.A., Caruso L., Cedroni M.,
+RA   Cotton M., Davidson T., Desai A., Elliott G., Erb T., Fronick C., Gaige T.,
+RA   Haakenson W., Haglund K., Holmes A., Harkins R., Kim K., Kruchowski S.S.,
+RA   Strong C.M., Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N., Swearengen-Shahid S.,
+RA   Snider J., Strong J.T., Thompson J., Yoakum M., Leonard S., Pearman C.,
+RA   Trani L., Radionenko M., Waligorski J.E., Wang C., Rock S.M.,
+RA   Tin-Wollam A.-M., Maupin R., Latreille P., Wendl M.C., Yang S.-P., Pohl C.,
+RA   Wallis J.W., Spieth J., Bieri T.A., Berkowicz N., Nelson J.O., Osborne J.,
+RA   Ding L., Meyer R., Sabo A., Shotland Y., Sinha P., Wohldmann P.E.,
+RA   Cook L.L., Hickenbotham M.T., Eldred J., Williams D., Jones T.A., She X.,
+RA   Ciccarelli F.D., Izaurralde E., Taylor J., Schmutz J., Myers R.M.,
+RA   Cox D.R., Huang X., McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D., Waterston R.H.,
+RA   Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2 and
+RT   4.";
+RL   Nature 434:724-731(2005).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Hippocampus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-674, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Erythroleukemia;
+RX   PubMed=23186163; DOI=10.1021/pr300630k;
+RA   Zhou H., Di Palma S., Preisinger C., Peng M., Polat A.N., Heck A.J.,
+RA   Mohammed S.;
+RT   "Toward a comprehensive characterization of a human cancer cell
+RT   phosphoproteome.";
+RL   J. Proteome Res. 12:260-271(2013).
+RN   [8]
+RP   INTERACTION WITH NPHP4 AND DAAM1, AND SUBCELLULAR LOCATION.
+RX   PubMed=26644512; DOI=10.1083/jcb.201502043;
+RA   Yasunaga T., Hoff S., Schell C., Helmstaedter M., Kretz O., Kuechlin S.,
+RA   Yakulov T.A., Engel C., Mueller B., Bensch R., Ronneberger O., Huber T.B.,
+RA   Lienkamp S.S., Walz G.;
+RT   "The polarity protein Inturned links NPHP4 to Daam1 to control the
+RT   subapical actin network in multiciliated cells.";
+RL   J. Cell Biol. 211:963-973(2015).
+RN   [9] {ECO:0007744|PDB:7Q3D}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.35 ANGSTROMS) OF 2-942, IDENTIFICATION
+RP   IN THE CPLANE COMPLEX, CHARACTERIZATION OF VARIANT THR-452, AND
+RP   CHARACTERIZATION OF VARIANT SRTD20 ALA-500.
+RX   PubMed=35427153; DOI=10.1126/sciadv.abn0832;
+RA   Langousis G., Cavadini S., Boegholm N., Lorentzen E., Kempf G.,
+RA   Matthias P.;
+RT   "Structure of the ciliogenesis-associated CPLANE complex.";
+RL   Sci. Adv. 8:Eabn0832-Eabn0832(2022).
+RN   [10]
+RP   INVOLVEMENT IN OFD17; SRTD7/20 AND SRTD20, FUNCTION, INTERACTION WITH
+RP   CPLANE1, VARIANT THR-452, VARIANTS SRTD20 355-GLU--LEU-942 DEL AND ALA-500,
+RP   VARIANT SRTD7/20 276-GLN--LEU-942 DEL, AND CHARACTERIZATION OF VARIANTS
+RP   SRTD20 355-GLU--LEU-942 DEL AND ALA-500.
+RX   PubMed=27158779; DOI=10.1038/ng.3558;
+RA   Toriyama M., Lee C., Taylor S.P., Duran I., Cohn D.H., Bruel A.L.,
+RA   Tabler J.M., Drew K., Kelly M.R., Kim S., Park T.J., Braun D.A.,
+RA   Pierquin G., Biver A., Wagner K., Malfroot A., Panigrahi I., Franco B.,
+RA   Al-Lami H.A., Yeung Y., Choi Y.J., Duffourd Y., Faivre L., Riviere J.B.,
+RA   Chen J., Liu K.J., Marcotte E.M., Hildebrandt F., Thauvin-Robinet C.,
+RA   Krakow D., Jackson P.K., Wallingford J.B.;
+RT   "The ciliopathy-associated CPLANE proteins direct basal body recruitment of
+RT   intraflagellar transport machinery.";
+RL   Nat. Genet. 48:648-656(2016).
+CC   -!- FUNCTION: Plays a key role in ciliogenesis and embryonic development.
+CC       Regulator of cilia formation by controlling the organization of the
+CC       apical actin cytoskeleton and the positioning of the basal bodies at
+CC       the apical cell surface, which in turn is essential for the normal
+CC       orientation of elongating ciliary microtubules. Plays a key role in
+CC       definition of cell polarity via its role in ciliogenesis but not via
+CC       conversion extension. Has an indirect effect on hedgehog signaling (By
+CC       similarity). Proposed to function as core component of the CPLANE
+CC       (ciliogenesis and planar polarity effectors) complex involved in the
+CC       recruitment of peripheral IFT-A proteins to basal bodies
+CC       (PubMed:27158779). Required for recruitment of CPLANE2 to the mother
+CC       centriole (By similarity). Binds phosphatidylinositol 3-phosphate with
+CC       highest affinity, followed by phosphatidylinositol 4-phosphate and
+CC       phosphatidylinositol 5-phosphate (By similarity).
+CC       {ECO:0000250|UniProtKB:Q059U7, ECO:0000250|UniProtKB:Q2I0E5,
+CC       ECO:0000305|PubMed:27158779}.
+CC   -!- SUBUNIT: Component of the CPLANE (ciliogenesis and planar polarity
+CC       effectors) complex, composed of INTU, FUZ and WDPCP (PubMed:35427153).
+CC       Interacts with CPLANE1 (By similarity). Interacts with NPHP4 and DAAM1;
+CC       INTU is mediating the interaction between NPHP4 and DAAM1
+CC       (PubMed:26644512). {ECO:0000250|UniProtKB:Q059U7,
+CC       ECO:0000269|PubMed:26644512, ECO:0000269|PubMed:35427153}.
+CC   -!- INTERACTION:
+CC       Q9ULD6; Q9Y4D1: DAAM1; NbExp=3; IntAct=EBI-11762696, EBI-2817289;
+CC       Q9ULD6; Q9BT04: FUZ; NbExp=3; IntAct=EBI-11762696, EBI-750341;
+CC       Q9ULD6; O75161: NPHP4; NbExp=2; IntAct=EBI-11762696, EBI-4281852;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q059U7}. Cell
+CC       surface {ECO:0000250|UniProtKB:Q2I0E5}. Cytoplasm, cytoskeleton, cilium
+CC       basal body {ECO:0000269|PubMed:26644512}. Cytoplasm, cytoskeleton,
+CC       microtubule organizing center, centrosome, centriole
+CC       {ECO:0000250|UniProtKB:Q059U7}. Note=Enriched at the apical surface in
+CC       ciliated cells. Localizes at the transition zone, a region between the
+CC       basal body and the ciliary axoneme. Recruited to the centriole in a
+CC       TTBK2-dependent manner. {ECO:0000250|UniProtKB:Q059U7,
+CC       ECO:0000250|UniProtKB:Q2I0E5}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=1;
+CC         IsoId=Q9ULD6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9ULD6-2; Sequence=VSP_015073, VSP_015074;
+CC       Name=3;
+CC         IsoId=Q9ULD6-3; Sequence=VSP_042586, VSP_042587;
+CC       Name=4;
+CC         IsoId=Q9ULD6-4; Sequence=VSP_042585;
+CC   -!- DISEASE: Short-rib thoracic dysplasia 20 with polydactyly (SRTD20)
+CC       [MIM:617925]: A form of short-rib thoracic dysplasia, a group of
+CC       autosomal recessive ciliopathies that are characterized by a
+CC       constricted thoracic cage, short ribs, shortened tubular bones, and a
+CC       'trident' appearance of the acetabular roof. Polydactyly is variably
+CC       present. Non-skeletal involvement can include cleft lip/palate as well
+CC       as anomalies of major organs such as the brain, eye, heart, kidneys,
+CC       liver, pancreas, intestines, and genitalia. Some forms of the disease
+CC       are lethal in the neonatal period due to respiratory insufficiency
+CC       secondary to a severely restricted thoracic cage, whereas others are
+CC       compatible with life. Disease spectrum encompasses Ellis-van Creveld
+CC       syndrome, asphyxiating thoracic dystrophy (Jeune syndrome), Mainzer-
+CC       Saldino syndrome, and short rib-polydactyly syndrome.
+CC       {ECO:0000269|PubMed:27158779, ECO:0000269|PubMed:35427153}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Orofaciodigital syndrome 17 (OFD17) [MIM:617926]: A form of
+CC       orofaciodigital syndrome, a group of heterogeneous disorders
+CC       characterized by malformations of the oral cavity, face and digits, and
+CC       associated phenotypic abnormalities that lead to the delineation of
+CC       various subtypes. OFD17 inheritance is autosomal recessive.
+CC       {ECO:0000269|PubMed:27158779}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry.
+CC   -!- DISEASE: Short-rib thoracic dysplasia 7/20 with polydactyly, digenic
+CC       (SRTD7/20) [MIM:614091]: A digenic form of short-rib thoracic dysplasia
+CC       caused by double heterozygosity for a mutation in the WDR35 gene and a
+CC       mutation in the INTU gene. Short-rib thoracic dysplasia is part of a
+CC       group of ciliopathies that are characterized by a constricted thoracic
+CC       cage, short ribs, shortened tubular bones, and a 'trident' appearance
+CC       of the acetabular roof. Polydactyly is variably present. Non-skeletal
+CC       involvement can include cleft lip/palate as well as anomalies of major
+CC       organs such as the brain, eye, heart, kidneys, liver, pancreas,
+CC       intestines, and genitalia. Some forms of the disease are lethal in the
+CC       neonatal period due to respiratory insufficiency secondary to a
+CC       severely restricted thoracic cage, whereas others are compatible with
+CC       life. Disease spectrum encompasses Ellis-van Creveld syndrome,
+CC       asphyxiating thoracic dystrophy (Jeune syndrome), Mainzer-Saldino
+CC       syndrome, and short rib-polydactyly syndrome. Note=The disease is
+CC       caused by variants affecting distinct genetic loci, including the gene
+CC       represented in this entry. SRTD7/20 can be caused by co-occurrence of
+CC       WDR35 variant p.Trp311Leu and INTU p.Gln276Ter. One such patient has
+CC       been reported. {ECO:0000269|PubMed:27158779}.
+CC   -!- MISCELLANEOUS: [Isoform 2]: May be produced at very low levels due to a
+CC       premature stop codon in the mRNA, leading to nonsense-mediated mRNA
+CC       decay. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the inturned family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA86598.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB033110; BAA86598.1; ALT_INIT; mRNA.
+DR   EMBL; AK291481; BAF84170.1; -; mRNA.
+DR   EMBL; AC093591; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC097462; AAY41002.1; -; Genomic_DNA.
+DR   EMBL; AC110797; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471056; EAX05202.1; -; Genomic_DNA.
+DR   EMBL; BC051698; AAH51698.1; -; mRNA.
+DR   EMBL; BC130611; AAI30612.1; -; mRNA.
+DR   CCDS; CCDS34061.1; -. [Q9ULD6-1]
+DR   RefSeq; NP_056508.2; NM_015693.3. [Q9ULD6-1]
+DR   RefSeq; XP_011530148.1; XM_011531846.1.
+DR   PDB; 7Q3D; EM; 3.35 A; B=2-942.
+DR   PDBsum; 7Q3D; -.
+DR   AlphaFoldDB; Q9ULD6; -.
+DR   EMDB; EMD-13789; -.
+DR   SMR; Q9ULD6; -.
+DR   BioGRID; 118034; 50.
+DR   ComplexPortal; CPX-5001; CPLANE complex.
+DR   CORUM; Q9ULD6; -.
+DR   FunCoup; Q9ULD6; 341.
+DR   IntAct; Q9ULD6; 47.
+DR   MINT; Q9ULD6; -.
+DR   STRING; 9606.ENSP00000334003; -.
+DR   GlyGen; Q9ULD6; 2 sites, 1 O-linked glycan (2 sites).
+DR   iPTMnet; Q9ULD6; -.
+DR   PhosphoSitePlus; Q9ULD6; -.
+DR   BioMuta; INTU; -.
+DR   DMDM; 73621379; -.
+DR   jPOST; Q9ULD6; -.
+DR   MassIVE; Q9ULD6; -.
+DR   PaxDb; 9606-ENSP00000334003; -.
+DR   PeptideAtlas; Q9ULD6; -.
+DR   ProteomicsDB; 84999; -. [Q9ULD6-1]
+DR   ProteomicsDB; 85000; -. [Q9ULD6-2]
+DR   ProteomicsDB; 85001; -. [Q9ULD6-3]
+DR   ProteomicsDB; 85002; -. [Q9ULD6-4]
+DR   Antibodypedia; 26899; 74 antibodies from 16 providers.
+DR   DNASU; 27152; -.
+DR   Ensembl; ENST00000335251.11; ENSP00000334003.5; ENSG00000164066.13. [Q9ULD6-1]
+DR   Ensembl; ENST00000503626.5; ENSP00000426287.1; ENSG00000164066.13. [Q9ULD6-2]
+DR   Ensembl; ENST00000503952.5; ENSP00000421995.1; ENSG00000164066.13. [Q9ULD6-3]
+DR   GeneID; 27152; -.
+DR   KEGG; hsa:27152; -.
+DR   MANE-Select; ENST00000335251.11; ENSP00000334003.5; NM_015693.4; NP_056508.2.
+DR   UCSC; uc003ifk.3; human. [Q9ULD6-1]
+DR   AGR; HGNC:29239; -.
+DR   CTD; 27152; -.
+DR   DisGeNET; 27152; -.
+DR   GeneCards; INTU; -.
+DR   HGNC; HGNC:29239; INTU.
+DR   HPA; ENSG00000164066; Tissue enhanced (retina).
+DR   MalaCards; INTU; -.
+DR   MIM; 610621; gene.
+DR   MIM; 614091; phenotype.
+DR   MIM; 617925; phenotype.
+DR   MIM; 617926; phenotype.
+DR   neXtProt; NX_Q9ULD6; -.
+DR   OpenTargets; ENSG00000164066; -.
+DR   PharmGKB; PA162392193; -.
+DR   VEuPathDB; HostDB:ENSG00000164066; -.
+DR   eggNOG; ENOG502QQJQ; Eukaryota.
+DR   GeneTree; ENSGT00390000001301; -.
+DR   HOGENOM; CLU_014223_0_1_1; -.
+DR   InParanoid; Q9ULD6; -.
+DR   OMA; CAGKSIS; -.
+DR   OrthoDB; 10038586at2759; -.
+DR   PAN-GO; Q9ULD6; 4 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q9ULD6; -.
+DR   TreeFam; TF323932; -.
+DR   PathwayCommons; Q9ULD6; -.
+DR   Reactome; R-HSA-5610787; Hedgehog 'off' state.
+DR   SignaLink; Q9ULD6; -.
+DR   BioGRID-ORCS; 27152; 9 hits in 1159 CRISPR screens.
+DR   ChiTaRS; INTU; human.
+DR   GenomeRNAi; 27152; -.
+DR   Pharos; Q9ULD6; Tbio.
+DR   PRO; PR:Q9ULD6; -.
+DR   Proteomes; UP000005640; Chromosome 4.
+DR   RNAct; Q9ULD6; protein.
+DR   Bgee; ENSG00000164066; Expressed in right uterine tube and 161 other cell types or tissues.
+DR   ExpressionAtlas; Q9ULD6; baseline and differential.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005814; C:centriole; IEA:UniProtKB-SubCell.
+DR   GO; GO:0036064; C:ciliary basal body; IDA:HPA.
+DR   GO; GO:0035869; C:ciliary transition zone; IEA:Ensembl.
+DR   GO; GO:0005929; C:cilium; IBA:GO_Central.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:HPA.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IDA:HPA.
+DR   GO; GO:0031514; C:motile cilium; IDA:UniProtKB.
+DR   GO; GO:0035091; F:phosphatidylinositol binding; ISS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:Ensembl.
+DR   GO; GO:0060271; P:cilium assembly; ISS:UniProtKB.
+DR   GO; GO:0042733; P:embryonic digit morphogenesis; IMP:GO_Central.
+DR   GO; GO:0001736; P:establishment of planar polarity; NAS:ComplexPortal.
+DR   GO; GO:0031069; P:hair follicle morphogenesis; IEA:Ensembl.
+DR   GO; GO:0042073; P:intraciliary transport; NAS:ComplexPortal.
+DR   GO; GO:0030216; P:keratinocyte differentiation; IEA:Ensembl.
+DR   GO; GO:0060173; P:limb development; ISS:UniProtKB.
+DR   GO; GO:0044458; P:motile cilium assembly; IEA:Ensembl.
+DR   GO; GO:0051782; P:negative regulation of cell division; IEA:Ensembl.
+DR   GO; GO:0010839; P:negative regulation of keratinocyte proliferation; IEA:Ensembl.
+DR   GO; GO:0007399; P:nervous system development; ISS:UniProtKB.
+DR   GO; GO:0021915; P:neural tube development; NAS:ComplexPortal.
+DR   GO; GO:1905515; P:non-motile cilium assembly; IEA:Ensembl.
+DR   GO; GO:0045880; P:positive regulation of smoothened signaling pathway; IEA:Ensembl.
+DR   GO; GO:0033365; P:protein localization to organelle; IEA:Ensembl.
+DR   GO; GO:1902017; P:regulation of cilium assembly; NAS:ComplexPortal.
+DR   GO; GO:0030278; P:regulation of ossification; IEA:Ensembl.
+DR   GO; GO:0008589; P:regulation of smoothened signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0060021; P:roof of mouth development; IMP:GO_Central.
+DR   GO; GO:0007224; P:smoothened signaling pathway; IEA:Ensembl.
+DR   GO; GO:0021513; P:spinal cord dorsal/ventral patterning; IEA:Ensembl.
+DR   GO; GO:0043587; P:tongue morphogenesis; IMP:GO_Central.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IEA:InterPro.
+DR   FunFam; 2.30.42.10:FF:000196; Inturned planar cell polarity protein; 1.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR043987; CCZ1/INTU/HSP4_longin_1.
+DR   InterPro; IPR043989; CCZ1/INTU/HSP4_longin_3.
+DR   InterPro; IPR043988; CCZ1/INTU_longin_2.
+DR   InterPro; IPR039151; INTU.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   PANTHER; PTHR21082; PROTEIN INTURNED; 1.
+DR   PANTHER; PTHR21082:SF4; PROTEIN INTURNED; 1.
+DR   Pfam; PF19031; Intu_longin_1; 1.
+DR   Pfam; PF19032; Intu_longin_2; 1.
+DR   Pfam; PF19033; Intu_longin_3; 1.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cell projection; Ciliopathy;
+KW   Cilium biogenesis/degradation; Cytoplasm; Cytoskeleton;
+KW   Developmental protein; Disease variant; Phosphoprotein;
+KW   Proteomics identification; Reference proteome.
+FT   CHAIN           1..942
+FT                   /note="Protein inturned"
+FT                   /id="PRO_0000058296"
+FT   DOMAIN          185..263
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   REGION          1..52
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          704..754
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        22..31
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        37..46
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         670
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:D4ACE5"
+FT   MOD_RES         674
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   VAR_SEQ         1..49
+FT                   /note="MASVASCDSRPSSDELPGDPSSQEEDEDYDFEDRVSDSGSYSSASSDYD ->
+FT                   MFQVGRSSIPKPAPRSLEDLDSVQRVLLHS (in isoform 4)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_042585"
+FT   VAR_SEQ         395..408
+FT                   /note="VPLPRLRNMIENVI -> IELPSSAHTHGERN (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_015073"
+FT   VAR_SEQ         409..942
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_015074"
+FT   VAR_SEQ         421..435
+FT                   /note="AFCQIENVPRLDHFF -> IMKEFSVIVSSGKII (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_042586"
+FT   VAR_SEQ         436..942
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_042587"
+FT   VARIANT         276..942
+FT                   /note="Missing (in SRTD7/20; in an SRTD7/20 patient who
+FT                   also carries variant WDR35 L-311)"
+FT                   /evidence="ECO:0000269|PubMed:27158779"
+FT                   /id="VAR_080710"
+FT   VARIANT         355..942
+FT                   /note="Missing (in SRTD20; loss of subcellular location to
+FT                   cilium basal body, when tested in a heterologous system)"
+FT                   /evidence="ECO:0000269|PubMed:27158779"
+FT                   /id="VAR_080711"
+FT   VARIANT         452
+FT                   /note="A -> T (no effect on the assembly of the CPLANE
+FT                   complex; dbSNP:rs150681845)"
+FT                   /evidence="ECO:0000269|PubMed:27158779,
+FT                   ECO:0000269|PubMed:35427153"
+FT                   /id="VAR_076782"
+FT   VARIANT         500
+FT                   /note="E -> A (in SRTD20; uncertain significance; impairs
+FT                   recruitment of IFT43 to the basal body, but no effect on
+FT                   subcellular location, when tested in a heterologous system;
+FT                   no effect on the assembly of the CPLANE complex;
+FT                   dbSNP:rs1360128571)"
+FT                   /evidence="ECO:0000269|PubMed:27158779,
+FT                   ECO:0000269|PubMed:35427153"
+FT                   /id="VAR_076783"
+FT   STRAND          308..313
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          320..322
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   TURN            323..326
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          327..331
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           335..342
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           344..357
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          358..360
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          362..369
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          372..391
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   TURN            392..394
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           397..415
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           418..423
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           425..427
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           428..441
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           445..447
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           459..467
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          470..472
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           480..494
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          513..521
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          524..530
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           532..544
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           547..553
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          559..565
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          587..596
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          599..608
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           623..635
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           639..647
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          799..806
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   TURN            807..810
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          811..813
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           817..821
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           828..859
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          878..883
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          903..909
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   STRAND          915..921
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+FT   HELIX           929..937
+FT                   /evidence="ECO:0007829|PDB:7Q3D"
+SQ   SEQUENCE   942 AA;  105648 MW;  F21BF6BC0EF7A8F8 CRC64;
+     MASVASCDSR PSSDELPGDP SSQEEDEDYD FEDRVSDSGS YSSASSDYDD LEPEWLDSVQ
+     KNGELFYLEL SEDEEESLLP ETPTVNHVRF SENEIIIEDD YKERKKYEPK LKQFTKILRR
+     KRLLPKRCNK KNSNDNGPVS ILKHQSNQKT GVIVQQRYKD VNVYVNPKKL TVIKAKEQLK
+     LLEVLVGIIH QTKWSWRRTG KQGDGERLVV HGLLPGGSAM KSGQVLIGDV LVAVNDVDVT
+     TENIERVLSC IPGPMQVKLT FENAYDVKRE TSHPRQKKTQ SNTSDLVKLL WGEEVEGIQQ
+     SGLNTPHIIM YLTLQLDSET SKEEQEILYH YPMSEASQKL KSVRGIFLTL CDMLENVTGT
+     QVTSSSLLLN GKQIHVAYWK ESDKLLLIGL PAEEVPLPRL RNMIENVIQT LKFMYGSLDS
+     AFCQIENVPR LDHFFNLFFQ RALQPAKLHS SASPSAQQYD ASSAVLLDNL PGVRWLTLPL
+     EIKMELDMAL SDLEAADFAE LSEDYYDMRR LYTILGSSLF YKGYLICSHL PKDDLIDIAV
+     YCRHYCLLPL AAKQRIGQLI IWREVFPQHH LRPLADSSTE VFPEPEGRYF LLVVGLKHYM
+     LCVLLEAGGC ASKAIGSPGP DCVYVDQVKT TLHQLDGVDS RIDERLASSP VPCLSCADWF
+     LTGSREKTDS LTTSPILSRL QGTSKVATSP TCRRTLFGDY SLKTRKPSPS CSSGGSDNGC
+     EGGEDDGFSP HTTPDAVRKQ RESQGSDGLE ESGTLLKVTK KKSTLPNPFH LGNLKKDLPE
+     KELEIYNTVK LTSGPENTLF HYVALETVQG IFITPTLEEV AQLSGSIHPQ LIKNFHQCCL
+     SIRAVFQQTL VEEKKKGLNS GDHSDSAKSV SSLNPVKEHG VLFECSPGNW TDQKKAPPVM
+     AYWVVGRLFL HPKPQELYVC FHDSVTEIAI EIAFKLFFGL TL
+//

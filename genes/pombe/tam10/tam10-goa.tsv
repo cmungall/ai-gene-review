@@ -1,0 +1,4 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	G2TRQ9	tam10	involved_in	GO:0008150	biological_process	biological_process	ECO:0000307	ND	GO_REF:0000015		284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	PomBase	Uncharacterized protein tam10	20250425
+UniProtKB	G2TRQ9	tam10	enables	GO:0003723	RNA binding	molecular_function	ECO:0000266	ISO	GO_REF:0000024	UniProtKB:Q1ED39	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	PomBase	Uncharacterized protein tam10	20170705
+UniProtKB	G2TRQ9	tam10	is_active_in	GO:0005730	nucleolus	cellular_component	ECO:0000250	ISS	GO_REF:0000024	UniProtKB:Q1ED39	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	PomBase	Uncharacterized protein tam10	20140927

@@ -1,0 +1,42 @@
+{
+  "query_protein": "sp|P32633|MTC7_YEAST",
+  "query_length": 139,
+  "homologs_found": 0,
+  "homolog_list": [],
+  "tm_conservation": [],
+  "polybasic_conservation": [],
+  "recommended_species_for_blast": [
+    {
+      "name": "Candida albicans",
+      "taxid": "5476"
+    },
+    {
+      "name": "Schizosaccharomyces pombe",
+      "taxid": "4896"
+    },
+    {
+      "name": "Neurospora crassa",
+      "taxid": "5141"
+    },
+    {
+      "name": "Aspergillus nidulans",
+      "taxid": "162425"
+    },
+    {
+      "name": "Cryptococcus neoformans",
+      "taxid": "5207"
+    },
+    {
+      "name": "Ustilago maydis",
+      "taxid": "5270"
+    },
+    {
+      "name": "Kluyveromyces lactis",
+      "taxid": "28985"
+    },
+    {
+      "name": "Yarrowia lipolytica",
+      "taxid": "4952"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	F0JBF1	DND132_1057	enables	GO:0005506	iron ion binding	molecular_function	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR001080|UniRule:UR001348782	641491	Pseudodesulfovibrio mercurii	UniProt	Ferredoxin	20250429
+UniProtKB	F0JBF1	DND132_1057	enables	GO:0009055	electron transfer activity	molecular_function	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR001080|UniRule:UR001348782	641491	Pseudodesulfovibrio mercurii	UniProt	Ferredoxin	20250429
+UniProtKB	F0JBF1	DND132_1057	enables	GO:0046872	metal ion binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0479	641491	Pseudodesulfovibrio mercurii	UniProt	Ferredoxin	20250428
+UniProtKB	F0JBF1	DND132_1057	enables	GO:0051536	iron-sulfur cluster binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0411	641491	Pseudodesulfovibrio mercurii	UniProt	Ferredoxin	20250428
+UniProtKB	F0JBF1	DND132_1057	enables	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0004	641491	Pseudodesulfovibrio mercurii	UniProt	Ferredoxin	20250428

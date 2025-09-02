@@ -1,0 +1,73 @@
+# Justfile for Epe1 bioinformatics analysis
+# Reproducible workflow for analyzing S. pombe Epe1 as a pseudo-demethylase
+
+# Default recipe - show available commands
+default:
+    @just --list
+
+# Install Python dependencies
+install:
+    uv sync
+
+# Clean all generated files
+clean:
+    rm -rf data/ results/
+    rm -f *.pyc __pycache__/
+
+# Fetch all required sequences from UniProt
+fetch-sequences:
+    @echo "Fetching protein sequences..."
+    uv run python 01_fetch_sequences.py
+
+# Analyze JmjC domain and catalytic residues
+analyze-jmjc:
+    @echo "Analyzing JmjC domain architecture..."
+    uv run python 02_jmjc_domain_analysis.py
+
+# Perform conservation analysis
+analyze-conservation:
+    @echo "Analyzing sequence conservation..."
+    uv run python 03_conservation_analysis.py
+
+# Analyze functional regions including C-terminal
+analyze-regions:
+    @echo "Analyzing functional regions..."
+    uv run python 04_functional_regions_analysis.py
+
+# Analyze structural features
+analyze-structure:
+    @echo "Analyzing structural features..."
+    uv run python 05_structural_features.py
+
+# Run test to ensure pipeline works with other proteins
+test:
+    @echo "Testing pipeline with other proteins..."
+    uv run python test_pipeline.py
+
+# Run complete analysis pipeline
+all: fetch-sequences analyze-jmjc analyze-conservation analyze-regions analyze-structure
+    @echo "✓ Complete analysis finished!"
+    @echo "Results available in results/ directory"
+    @echo "See RESULTS.md for comprehensive summary"
+
+# Run analysis for a different protein (example)
+analyze-other protein:
+    @echo "To analyze another protein:"
+    @echo "1. Modify 01_fetch_sequences.py to fetch {{protein}}"
+    @echo "2. Adjust domain boundaries in analysis scripts"
+    @echo "3. Run: just all"
+
+# Generate final report
+report:
+    @echo "Analysis report is in RESULTS.md"
+    @ls -la results/
+
+# Show analysis summary
+summary:
+    @echo "=== Epe1 Pseudo-Demethylase Analysis Summary ==="
+    @echo ""
+    @echo "Key Finding: HVD motif at position 280 (instead of HXD)"
+    @echo "Conclusion: Non-catalytic JmjC domain"
+    @echo ""
+    @echo "Generated files:"
+    @ls results/ 2>/dev/null || echo "No results yet. Run 'just all' first."

@@ -1,0 +1,63 @@
+SMAP Domain Analysis Report
+===========================
+
+Sequence: G2TRQ9|tam10|SPBC14C8.19
+Length: 166 aa
+Window size: 60 aa
+
+Top Candidate Regions:
+---------------------
+
+Candidate 1:
+  Position: 10-69
+  SMAP score: 3/5
+  Net charge: 13
+  Acidic residues: 10 (16.7%)
+  Basic residues: 23 (38.3%)
+  Hydrophobic: 23.3%
+  SMAP similarity: 4/5
+  Features found: appropriate_length, enriched_residues, lacks_cysteine, motif_D.{2,4}[DE]
+  Boundary analysis:
+    - N-terminal disorder detected
+    - C-terminal disorder detected
+  Sequence:
+    DKQIHPFGTDVSTFRKLSSKEKKKLDEKELKQYKKLKHKVKKLKKERERSSIKNTKLAED
+
+Candidate 2:
+  Position: 11-70
+  SMAP score: 3/5
+  Net charge: 14
+  Acidic residues: 9 (15.0%)
+  Basic residues: 23 (38.3%)
+  Hydrophobic: 23.3%
+  SMAP similarity: 4/5
+  Features found: appropriate_length, enriched_residues, lacks_cysteine, motif_D.{2,4}[DE]
+  Boundary analysis:
+    - N-terminal disorder detected
+    - C-terminal disorder detected
+    - Proline at domain boundary
+  Sequence:
+    KQIHPFGTDVSTFRKLSSKEKKKLDEKELKQYKKLKHKVKKLKKERERSSIKNTKLAEDP
+
+Candidate 3:
+  Position: 12-71
+  SMAP score: 3/5
+  Net charge: 13
+  Acidic residues: 9 (15.0%)
+  Basic residues: 22 (36.7%)
+  Hydrophobic: 25.0%
+  SMAP similarity: 4/5
+  Features found: appropriate_length, enriched_residues, lacks_cysteine, motif_D.{2,4}[DE]
+  Boundary analysis:
+    - N-terminal disorder detected
+    - C-terminal disorder detected
+  Sequence:
+    QIHPFGTDVSTFRKLSSKEKKKLDEKELKQYKKLKHKVKKLKKERERSSIKNTKLAEDPM
+
+
+Notes:
+------
+- SMAP domains are typically 50-60 aa regions
+- They often contain acidic residues but can have mixed charge
+- The scoring system considers multiple factors including charge, hydrophobicity, and presence of characteristic residues
+- A higher score suggests more SMAP-like characteristics, but experimental validation would be needed for confirmation

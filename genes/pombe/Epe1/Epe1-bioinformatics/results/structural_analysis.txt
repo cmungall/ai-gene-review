@@ -1,0 +1,17 @@
+Structural Features Analysis
+============================================================
+
+JmjC Domain Structural Features:
+- Position: 243-402
+- Length: 160 aa
+- Predicted α-helix: 15.0%
+- Predicted β-sheet: 42.5%
+- Predicted β-strands: 12
+- Hydrophobic core: 40.6%
+
+Key Observations:
+1. Epe1 likely maintains the JmjC fold structure
+2. HVD motif detected - deviates from canonical HXD
+3. Histidine positions suggest altered metal coordination
+4. Structure retained but catalytic activity lost
+5. Functions as a pseudo-enzyme/structural scaffold

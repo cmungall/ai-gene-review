@@ -1,0 +1,4 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	A0A1V0M5B3	merB	enables	GO:0018836	alkylmercury lyase activity	molecular_function	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR004927|RHEA:18777|EC:4.99.1.2|UniRule:UR000031384	287	Pseudomonas aeruginosa	UniProt	Alkylmercury lyase	20250429
+UniProtKB	A0A1V0M5B3	merB	enables	GO:0016829	lyase activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0456	287	Pseudomonas aeruginosa	UniProt	Alkylmercury lyase	20250428
+UniProtKB	A0A1V0M5B3	merB	involved_in	GO:0046689	response to mercury ion	biological_process	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0475|UniRule:UR000031384	287	Pseudomonas aeruginosa	UniProt	Alkylmercury lyase	20250428

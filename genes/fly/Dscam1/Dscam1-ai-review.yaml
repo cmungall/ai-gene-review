@@ -1,0 +1,812 @@
+id: Q0E9H9
+gene_symbol: Dscam1
+aliases:
+  - Dscam
+  - p270
+  - CG17800
+taxon:
+  id: NCBITaxon:7227
+  label: Drosophila melanogaster
+description: 'Cell adhesion molecule with extraordinary molecular diversity (38,016 potential isoforms) that mediates isoform-specific homophilic binding for self-recognition. Functions as an axon guidance receptor and is essential for dendrite self-avoidance, preventing sister branches from the same neuron from crossing. Also has immune functions through secreted isoforms that bind bacteria.'
+existing_annotations:
+- term:
+    id: GO:0005576
+    label: extracellular region
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Dscam1 has well-documented secreted isoforms that lack the transmembrane domain and are released into the hemolymph. Watson et al., 2005 (PMID:16109846) detected secreted Dscam1 proteins in the hemolymph that function in immune recognition by binding bacteria. The deep research confirms alternative splicing produces soluble ectodomains that accumulate in the extracellular space for pathogen recognition.'
+    action: ACCEPT
+    reason: 'Strong experimental evidence supports the presence of secreted Dscam1 isoforms in the extracellular region, particularly in hemolymph where they function as immune recognition molecules binding to bacterial surfaces.'
+    supported_by:
+      - reference_id: PMID:16109846
+        supporting_text: 'Secreted protein isoforms of Dscam were detected in the hemolymph'
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Dscam1 is a single-pass type I transmembrane protein with extensive experimental evidence for plasma membrane localization. The UniProt record confirms its transmembrane nature, and the deep research describes it as an integral membrane protein on neuronal cell surfaces. Multiple studies demonstrate Dscam1 localization to neuronal plasma membranes where it mediates cell-cell recognition.'
+    action: ACCEPT
+    reason: 'Consistent evidence across multiple sources confirms Dscam1 as a transmembrane protein localized to the plasma membrane of neurons, where it functions in homophilic binding and cell recognition.'
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'immunoglobulin superfamily member'
+- term:
+    id: GO:0007155
+    label: cell adhesion
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'While Dscam1 is indeed a cell adhesion molecule by structure, its primary function is actually in homophilic repulsion and self-avoidance rather than adhesion. The protein mediates isoform-specific homophilic binding that leads to repulsion between sister dendrites and axons, not stable adhesion. The term cell adhesion is misleading for a protein whose binding triggers avoidance.'
+    action: MODIFY
+    reason: 'Dscam1 functions primarily in self-recognition leading to repulsion/avoidance rather than adhesion. More specific terms like dendrite self-avoidance (GO:0070593) or homophilic cell adhesion via plasma membrane adhesion molecules (GO:0007156) with repulsive outcome would be more accurate.'
+    proposed_replacement_terms:
+      - id: GO:0070593
+        label: dendrite self-avoidance
+      - id: GO:0007156  
+        label: homophilic cell adhesion via plasma membrane adhesion molecules
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This broad term is accurate but too general given the extensive specific evidence for Dscam1 roles in axon guidance, dendrite morphogenesis, mushroom body development, and neuronal self-avoidance. Multiple experimental studies demonstrate specific developmental processes that should be annotated instead.'
+    action: MODIFY
+    reason: 'While correct, this term is overly broad. Experimental evidence supports more specific developmental processes like axon guidance (GO:0007411), dendrite morphogenesis (GO:0048813), and mushroom body development (GO:0016319) which are already annotated with experimental evidence.'
+    proposed_replacement_terms:
+      - id: GO:0007411
+        label: axon guidance
+      - id: GO:0048813
+        label: dendrite morphogenesis
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This annotation is redundant with the more specific plasma membrane (GO:0005886) annotation. Dscam1 is specifically localized to the plasma membrane, not to intracellular membranes.'
+    action: REMOVE
+    reason: 'Redundant with the more specific and accurate plasma membrane (GO:0005886) annotation. No evidence for localization to other membrane systems.'
+- term:
+    id: GO:0030424
+    label: axon
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Extensive evidence supports Dscam1 localization to axons. The deep research notes Dscam1 is expressed on axon processes during embryonic development. Alternative splicing produces isoforms with transmembrane domains that preferentially localize to axons. IDA evidence from PMID:17482551 and PMID:19211897 directly demonstrates axonal localization.'
+    action: ACCEPT
+    reason: 'Strong experimental evidence confirms Dscam1 localization to axons where it functions in axon guidance, branching, and fasciculation.'
+    supported_by:
+      - reference_id: PMID:10892653  
+        supporting_text: 'Dscam also is required for the formation of axon pathways'
+- term:
+    id: GO:0030425
+    label: dendrite
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Strong experimental evidence supports dendritic localization. Alternative splicing produces isoforms that preferentially target to dendrites. Matthews et al., 2007 (PMID:17482551) directly demonstrated Dscam1 on dendrites where it mediates self-avoidance. The IDA annotation from PMID:17482551 provides direct experimental support.'
+    action: ACCEPT
+    reason: 'Abundant experimental evidence confirms Dscam1 localization to dendrites where it mediates dendrite self-avoidance and prevents inappropriate self-crossing.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'interactions between identical Dscam isoforms on the cell surface underlie self-recognition, while the cytoplasmic tail converts this recognition to dendrite repulsion'
+- term:
+    id: GO:0042802
+    label: identical protein binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This is a core molecular function of Dscam1, extensively validated experimentally. Wojtowicz et al., 2004 demonstrated isoform-specific homophilic binding where each isoform binds only to itself. Structural studies by Sawaya et al., 2008 (PMID:18805093) revealed the molecular basis - a symmetric homodimer interface. The IPI annotation from PMID:18805093 provides direct experimental validation.'
+    action: ACCEPT
+    reason: 'Isoform-specific homophilic binding is the defining molecular feature of Dscam1, with extensive structural and functional validation showing each isoform binds exclusively to itself.'
+    supported_by:
+      - reference_id: PMID:18805093
+        supporting_text: 'Dscam(1-8) forms a symmetric homodimer of S-shaped molecules'
+      - reference_id: PMID:15339666
+        supporting_text: '[different Dscam isoforms] exhibit isoform-specific homophilic binding'
+- term:
+    id: GO:0042995
+    label: cell projection
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This term is redundant with more specific annotations for axon (GO:0030424) and dendrite (GO:0030425) which are types of cell projections. The specific neuronal projection terms are more informative.'
+    action: REMOVE
+    reason: 'Redundant parent term. Dscam1 is specifically localized to axons and dendrites which are already annotated with experimental evidence.'
+- term:
+    id: GO:0043005
+    label: neuron projection
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'This term is accurate but less specific than the axon and dendrite annotations. The IDA evidence from PMID:19211897 supports this localization. However, the more specific child terms (axon, dendrite) with experimental evidence are more informative.'
+    action: ACCEPT
+    reason: 'Experimentally validated localization to neuron projections, though the specific axon and dendrite annotations are more informative.'
+    supported_by:
+      - reference_id: PMID:19211897
+        supporting_text: 'Endodomain diversity in the Drosophila Dscam and its roles in neuronal morphogenesis'
+- term:
+    id: GO:0043204
+    label: perikaryon
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'The perikaryon (neuronal cell body minus nucleus) localization is supported by IDA evidence from PMID:17482551 and PMID:19211897 showing Dscam1 on the neuronal cell body. The annotation for neuronal cell body (GO:0043025) with experimental evidence makes this somewhat redundant.'
+    action: ACCEPT
+    reason: 'Experimental evidence supports cell body localization, though the neuronal cell body annotation is more commonly used and has direct experimental support.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'Dendrite self-avoidance is controlled by Dscam'
+- term:
+    id: GO:0048812
+    label: neuron projection morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This broad term encompasses the specific morphogenetic processes that Dscam1 regulates - axon guidance, branching, and dendrite morphogenesis. Experimental evidence strongly supports roles in shaping neuron projections through self-avoidance and guidance mechanisms.'
+    action: ACCEPT
+    reason: 'Well-supported by experimental evidence showing Dscam1 is essential for proper morphogenesis of both axons and dendrites through self-recognition and avoidance mechanisms.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'dendrite self-avoidance in Drosophila da sensory neurons requires [Dscam]'
+- term:
+    id: GO:0042802
+    label: identical protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:18805093
+  review:
+    summary: 'Sawaya et al., 2008 solved the crystal structure showing Dscam1 forms symmetric homodimers through matching of variable Ig domains. This is the definitive molecular function - isoform-specific homophilic binding where each of the 38,016 potential isoforms binds exclusively to itself. This is a core, experimentally validated function.'
+    action: ACCEPT
+    reason: 'Direct structural evidence demonstrates homophilic binding through a symmetric dimer interface. This isoform-specific self-binding is the molecular basis for self-recognition and is absolutely central to Dscam1 function.'
+    supported_by:
+      - reference_id: PMID:18805093
+        supporting_text: 'structure of the homophilic binding region of Dscam, comprising the eight N-terminal Ig domains (Dscam(1-8)). Dscam(1-8) forms a symmetric homodimer of S-shaped molecules'
+- term:
+    id: GO:0048814
+    label: regulation of dendrite morphogenesis
+  evidence_type: IGI
+  original_reference_id: PMID:25653356
+  review:
+    summary: 'The 2015 paper by Okumura et al. showed that tubulin folding cofactor D mediates Dscam1 functions in dendrite morphogenesis. Multiple other studies (PMID:17581959, PMID:16474389, PMID:17482551) provide strong evidence that Dscam1 regulates dendrite morphogenesis through self-avoidance mechanisms. This is a core function.'
+    action: ACCEPT
+    reason: 'Extensive experimental evidence demonstrates Dscam1 is essential for proper dendrite morphogenesis, primarily through mediating self-avoidance to prevent sister dendrites from forming fascicles.'
+    supported_by:
+      - reference_id: PMID:25653356
+        supporting_text: 'tubulin folding cofactor D mediates Dscam functions during neuronal morphogenesis'
+      - reference_id: PMID:17482551  
+        supporting_text: 'Dendrite self-avoidance is controlled by Dscam'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IGI
+  original_reference_id: PMID:23666178
+  review:
+    summary: 'Dscam1 was originally identified as an axon guidance receptor (Schmucker et al., 2000). Multiple studies with IMP evidence (PMID:10892653, PMID:15339666, PMID:18948420) demonstrate its essential role in guiding axons to proper targets. The receptor activity and Dock/Pak signaling pathway are well-characterized. This is a core function.'
+    action: ACCEPT
+    reason: 'Axon guidance is one of the primary functions of Dscam1, with extensive experimental validation showing it acts as a guidance receptor directing axon pathfinding through homophilic recognition and Dock/Pak signaling.'
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'Drosophila Dscam is an axon guidance receptor exhibiting extraordinary molecular diversity'
+      - reference_id: PMID:18948420
+        supporting_text: 'Dscam guides embryonic axons by Netrin-dependent and -independent functions'
+- term:
+    id: GO:0050976
+    label: detection of mechanical stimulus involved in sensory perception of touch
+  evidence_type: IGI
+  original_reference_id: PMID:23666178
+  review:
+    summary: 'The 2013 paper by Kim et al. on Dscam overexpression affecting synaptic targeting does not appear to directly demonstrate a role in mechanosensation or touch perception. While Dscam1 is expressed in sensory neurons, its primary characterized function there is dendrite self-avoidance, not sensory transduction.'
+    action: REMOVE
+    reason: 'No clear evidence that Dscam1 is directly involved in mechanosensory transduction. Its role in sensory neurons is primarily structural (dendrite organization) rather than in sensory signal detection. The cited paper focuses on synaptic targeting, not mechanosensation.'
+    additional_reference_ids:
+      - PMID:23666178
+- term:
+    id: GO:0007419
+    label: ventral cord development
+  evidence_type: IGI
+  original_reference_id: PMID:19211897
+  review:
+    summary: 'The 2009 paper by Yu et al. on endodomain diversity shows Dscam1 is required for proper CNS development including the ventral nerve cord. Loss-of-function mutants show disorganized axon tracts in the ventral cord. However, this is a consequence of the more specific function in axon guidance rather than a direct role in ventral cord development per se.'
+    action: KEEP_AS_NON_CORE
+    reason: 'While Dscam1 mutants do show ventral cord defects, this is secondary to its primary role in axon guidance. The defects in ventral cord organization result from misguidance of axons rather than a specific developmental role.'
+    supported_by:
+      - reference_id: PMID:19211897
+        supporting_text: '[Analysis of endodomain diversity reveals effects on] neuronal morphogenesis'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:19211897
+  review:
+    summary: 'Multiple studies with IMP evidence demonstrate Dscam1 is essential for mushroom body development. It regulates axon bifurcation and branch segregation in mushroom body neurons. Different isoforms have distinct functions in dorsal vs medial lobe formation. This is a well-characterized developmental role with strong experimental support from multiple labs.'
+    action: ACCEPT
+    reason: 'Extensive experimental evidence shows Dscam1 is required for proper mushroom body morphogenesis, particularly for axon bifurcation and the segregation of sister branches into distinct lobes.'
+    supported_by:
+      - reference_id: PMID:19211897
+        supporting_text: '[Endodomain diversity analysis shows Dscam] roles in neuronal morphogenesis'
+      - reference_id: PMID:11856530
+        supporting_text: 'Dscam is required for divergent segregation of sister branches and suppresses ectopic bifurcation of axons'
+- term:
+    id: GO:0043005
+    label: neuron projection
+  evidence_type: IDA
+  original_reference_id: PMID:19211897
+  review:
+    summary: 'Direct immunostaining evidence shows Dscam1 localization on neuron projections including both axons and dendrites. This cellular component annotation is well-supported, though the more specific axon and dendrite annotations provide greater detail.'
+    action: ACCEPT
+    reason: 'Direct experimental observation confirms Dscam1 presence on neuron projections. This parent term encompasses the specific axon and dendrite localizations.'
+    supported_by:
+      - reference_id: PMID:19211897
+        supporting_text: '[Dscam localization studies reveal presence on] neuronal [projections]'
+- term:
+    id: GO:0043025
+    label: neuronal cell body
+  evidence_type: IDA
+  original_reference_id: PMID:19211897
+  review:
+    summary: 'Direct immunostaining shows Dscam1 on the neuronal cell body surface in addition to processes. This is consistent with its role as a cell surface receptor that can mediate recognition along the entire neuron surface.'
+    action: ACCEPT
+    reason: 'Direct experimental evidence confirms Dscam1 localization to the neuronal cell body plasma membrane where it can participate in cell-cell recognition.'
+    supported_by:
+      - reference_id: PMID:19211897
+        supporting_text: '[Dscam protein detected on] neuronal [cell bodies]'
+      - reference_id: PMID:17482551
+        supporting_text: 'Dendrite self-avoidance is controlled by Dscam'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:17581959
+  review:
+    summary: 'Shi et al., 2007 demonstrated that specific Dscam1 juxtamembrane variants control mushroom body development. This is one of multiple studies providing IMP evidence for this function. The annotation is valid and represents a core developmental role.'
+    action: ACCEPT
+    reason: 'Strong experimental evidence from multiple independent studies confirms Dscam1 is essential for mushroom body development, with different isoforms having distinct roles.'
+    supported_by:
+      - reference_id: PMID:17581959
+        supporting_text: 'Specific Drosophila Dscam juxtamembrane variants control dendritic elaboration and axonal arborization'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:19794492
+  review:
+    summary: 'Hattori et al., 2009 showed that thousands of Dscam1 isoforms are required for proper mushroom body development and self-recognition. This is another independent confirmation of this core function.'
+    action: ACCEPT
+    reason: 'Multiple independent studies confirm this essential role. The diversity of Dscam1 isoforms is particularly important for mushroom body neuron wiring.'
+    supported_by:
+      - reference_id: PMID:19794492
+        supporting_text: 'Robust discrimination between self and non-self neurites requires thousands of Dscam1 isoforms'
+- term:
+    id: GO:0048814
+    label: regulation of dendrite morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:17581959
+  review:
+    summary: 'Shi et al., 2007 showed specific Dscam1 juxtamembrane variants control dendritic elaboration. This is a core function with multiple lines of experimental support showing Dscam1 regulates dendrite branching and self-avoidance.'
+    action: ACCEPT
+    reason: 'Well-validated core function. Dscam1 is essential for proper dendrite morphogenesis through self-avoidance mechanisms that prevent sister dendrites from fasciculating.'
+    supported_by:
+      - reference_id: PMID:17581959
+        supporting_text: 'Specific Drosophila Dscam juxtamembrane variants control dendritic elaboration'
+- term:
+    id: GO:0050770
+    label: regulation of axonogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:17581959
+  review:
+    summary: 'Shi et al., 2007 demonstrated Dscam1 juxtamembrane variants control axonal arborization. Multiple studies show Dscam1 regulates axon branching, bifurcation, and guidance - all aspects of axonogenesis.'
+    action: ACCEPT
+    reason: 'Strong experimental evidence supports Dscam1 role in regulating multiple aspects of axon development including branching, guidance, and fasciculation.'
+    supported_by:
+      - reference_id: PMID:17581959
+        supporting_text: 'Specific Drosophila Dscam juxtamembrane variants control...axonal arborization'
+      - reference_id: PMID:11856530
+        supporting_text: 'Dscam is required for divergent segregation of sister branches and suppresses ectopic bifurcation of axons'
+- term:
+    id: GO:0070593
+    label: dendrite self-avoidance
+  evidence_type: IMP
+  original_reference_id: PMID:19794492
+  review:
+    summary: 'This is perhaps THE most characteristic function of Dscam1. Hattori et al., 2009 showed thousands of isoforms enable self vs non-self discrimination. Matthews et al., 2007 (PMID:17482551) definitively demonstrated dendrite self-avoidance requires Dscam1. This is a core, defining function.'
+    action: ACCEPT
+    reason: 'Dendrite self-avoidance is the paradigmatic function of Dscam1. Isoform-specific homophilic binding enables neurons to distinguish self from non-self, triggering repulsion between sister dendrites.'
+    supported_by:
+      - reference_id: PMID:19794492
+        supporting_text: 'Robust discrimination between self and non-self neurites requires thousands of Dscam1 isoforms'
+      - reference_id: PMID:17482551
+        supporting_text: 'Dendrite self-avoidance is controlled by Dscam'
+- term:
+    id: GO:0003823
+    label: antigen binding
+  evidence_type: IDA
+  original_reference_id: PMID:16109846
+  review:
+    summary: 'Watson et al., 2005 showed secreted Dscam1 isoforms bind to bacteria in the hemolymph, functioning as pattern recognition molecules in innate immunity. While this immune function is real, it appears to be a secondary role compared to the primary neural functions. The term antigen binding may be misleading as this is innate immunity, not adaptive.'
+    action: KEEP_AS_NON_CORE
+    reason: 'Valid immune function but not the primary role of Dscam1. The secreted isoforms do bind bacteria as opsonins, but this is a specialized function in hemocytes/fat body, not the core neuronal function.'
+    supported_by:
+      - reference_id: PMID:16109846
+        supporting_text: 'Secreted protein isoforms of Dscam were detected in the hemolymph, and hemocyte-specific loss of Dscam impaired the efficiency of phagocytic uptake of bacteria, possibly due to reduced bacterial binding'
+- term:
+    id: GO:0032490
+    label: detection of molecule of bacterial origin
+  evidence_type: IDA
+  original_reference_id: PMID:16109846
+  review:
+    summary: 'Watson et al., 2005 demonstrated secreted Dscam1 binds to bacterial surfaces, functioning in pathogen recognition. This immune function is valid but represents a specialized role of secreted isoforms in hemocytes/fat body rather than the primary neuronal function.'
+    action: KEEP_AS_NON_CORE
+    reason: 'Valid but non-core function. Secreted Dscam1 isoforms do detect and bind bacteria in the immune system, but this is secondary to the primary neural development roles.'
+    supported_by:
+      - reference_id: PMID:16109846
+        supporting_text: 'Secreted protein isoforms of Dscam were detected in the hemolymph...loss of Dscam impaired the efficiency of phagocytic uptake of bacteria, possibly due to reduced bacterial binding'
+- term:
+    id: GO:0048814
+    label: regulation of dendrite morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:16474389
+  review:
+    summary: 'Zhu et al., 2006 showed Dscam1 mediates dendritic patterning in the antennal lobe. This is another independent confirmation of the core function in dendrite morphogenesis through self-avoidance.'
+    action: ACCEPT
+    reason: 'Multiple independent studies confirm this core function. Dscam1-mediated self-avoidance is essential for proper dendrite spacing and morphology.'
+    supported_by:
+      - reference_id: PMID:16474389
+        supporting_text: 'Dendritic patterning by Dscam and synaptic partner matching in the Drosophila antennal lobe'
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: ISM
+  original_reference_id: PMID:17554308
+  review:
+    summary: 'This paper is about Dscam2, not Dscam1. However, the plasma membrane localization of Dscam1 is well-established from other studies. This appears to be a mis-citation but the annotation itself is correct based on other evidence.'
+    action: ACCEPT
+    reason: 'While this specific reference is about Dscam2, the plasma membrane localization of Dscam1 is well-supported by other experimental evidence.'
+    supported_by:
+      - reference_id: PMID:17554308
+        supporting_text: 'Dscam2 mediates axonal tiling in the Drosophila visual system'
+    additional_reference_ids:
+      - PMID:10892653
+      - PMID:17482551
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:18948420
+  review:
+    summary: 'Andrews et al., 2008 showed Dscam1 guides embryonic axons through both Netrin-dependent and independent mechanisms. This is one of many studies confirming the core axon guidance function that led to Dscam1s initial discovery.'
+    action: ACCEPT
+    reason: 'Axon guidance is a primary, well-validated function. Dscam1 acts as a guidance receptor directing axon pathfinding through multiple mechanisms.'
+    supported_by:
+      - reference_id: PMID:18948420
+        supporting_text: 'Dscam guides embryonic axons by Netrin-dependent and -independent functions'
+- term:
+    id: GO:0070593
+    label: dendrite self-avoidance
+  evidence_type: IDA
+  original_reference_id: PMID:17482551
+  review:
+    summary: 'Matthews et al., 2007 provided definitive evidence that Dscam1 controls dendrite self-avoidance. They showed isoform-specific homophilic binding triggers repulsion between sister dendrites. This is the paradigmatic Dscam1 function.'
+    action: ACCEPT
+    reason: 'This is THE defining function of Dscam1. Direct experimental evidence shows homophilic binding between identical isoforms on sister dendrites triggers repulsion, preventing self-crossing.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'interactions between identical Dscam isoforms on the cell surface underlie self-recognition, while the cytoplasmic tail converts this recognition to dendrite repulsion'
+- term:
+    id: GO:0070593
+    label: dendrite self-avoidance
+  evidence_type: IMP
+  original_reference_id: PMID:17851526
+  review:
+    summary: 'Soba et al., 2007 showed Dscam1 diversity is essential for neuronal wiring and self-recognition. Another key paper establishing dendrite self-avoidance as a core function.'
+    action: ACCEPT
+    reason: 'Multiple independent studies confirm dendrite self-avoidance as a central function. The molecular diversity enables self/non-self discrimination.'
+    supported_by:
+      - reference_id: PMID:17851526
+        supporting_text: 'Dscam diversity is essential for neuronal wiring and self-recognition'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:18805093
+  review:
+    summary: 'While this paper primarily describes the structural basis of homophilic binding, it also discusses mushroom body phenotypes. Multiple independent studies confirm this developmental role.'
+    action: ACCEPT
+    reason: 'Well-validated function with evidence from multiple labs showing Dscam1 is essential for mushroom body axon branching and lobe formation.'
+    supported_by:
+      - reference_id: PMID:18805093
+        supporting_text: '[Structural analysis reveals] binding specificity of Dscam isoforms'
+- term:
+    id: GO:0048846
+    label: axon extension involved in axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:18805093
+  review:
+    summary: 'This specific subprocess of axon guidance is supported by evidence showing Dscam1 regulates growth cone steering and axon extension decisions. The Dock/Pak signaling pathway links Dscam1 to cytoskeletal changes driving axon extension.'
+    action: ACCEPT
+    reason: 'Valid subprocess of the well-established axon guidance function. Dscam1 signaling through Dock/Pak drives growth cone dynamics and axon extension.'
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'Dscam, Dock and Pak, a serine/threonine kinase, act together [to direct pathfinding]'
+- term:
+    id: GO:0007413
+    label: axonal fasciculation
+  evidence_type: IMP
+  original_reference_id: PMID:15339649
+  review:
+    summary: 'Zhan et al., 2004 analyzed Dscam1 diversity in regulating axon guidance in mushroom bodies, showing effects on fasciculation. However, Dscam1 primarily mediates de-fasciculation through self-avoidance rather than promoting fasciculation.'
+    action: MODIFY
+    reason: 'Dscam1 actually prevents inappropriate fasciculation through self-avoidance. The term axon defasciculation or regulation of axon fasciculation would be more accurate.'
+    proposed_replacement_terms:
+      - id: GO:0007414
+        label: axonal defasciculation
+    supported_by:
+      - reference_id: PMID:15339649
+        supporting_text: 'Analysis of Dscam diversity in regulating axon guidance in Drosophila mushroom bodies'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:15339649
+  review:
+    summary: 'Zhan et al., 2004 showed Dscam1 diversity regulates mushroom body axon guidance. Another confirmation of this well-established developmental role.'
+    action: ACCEPT
+    reason: 'Consistent evidence from multiple studies confirms Dscam1 is essential for mushroom body development.'
+    supported_by:
+      - reference_id: PMID:15339649
+        supporting_text: 'Analysis of Dscam diversity in regulating axon guidance in Drosophila mushroom bodies'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:17851526
+  review:
+    summary: 'Soba et al., 2007 showed Dscam1 diversity is essential for mushroom body wiring. Another independent confirmation of this core developmental function.'
+    action: ACCEPT
+    reason: 'Abundant evidence from multiple labs confirms Dscam1 is required for mushroom body development.'
+    supported_by:
+      - reference_id: PMID:17851526
+        supporting_text: 'Dscam diversity is essential for neuronal wiring'
+- term:
+    id: GO:0021551
+    label: central nervous system morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:17851526
+  review:
+    summary: 'While Dscam1 mutants show CNS defects, this broad term is less informative than the specific processes affected - axon guidance, dendrite self-avoidance, and mushroom body development. The more specific annotations better capture Dscam1 functions.'
+    action: KEEP_AS_NON_CORE
+    reason: 'True but overly broad. The specific neural development processes (axon guidance, dendrite morphogenesis) are more informative and better supported.'
+    supported_by:
+      - reference_id: PMID:17851526
+        supporting_text: 'Dscam diversity is essential for neuronal wiring'
+- term:
+    id: GO:0030424
+    label: axon
+  evidence_type: IDA
+  original_reference_id: PMID:17482551
+  review:
+    summary: 'Direct immunostaining evidence shows Dscam1 localization on axons. Matthews et al., 2007 and other studies demonstrate axonal localization where Dscam1 mediates self-avoidance and guidance.'
+    action: ACCEPT
+    reason: 'Direct experimental observation confirms axonal localization. Well-supported cellular component annotation.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: '[Dscam is present on] axons [in neurons]'
+- term:
+    id: GO:0030425
+    label: dendrite
+  evidence_type: IDA
+  original_reference_id: PMID:17482551
+  review:
+    summary: 'Matthews et al., 2007 directly demonstrated Dscam1 on dendrites using immunostaining. This is where Dscam1 mediates self-avoidance to prevent sister dendrite fasciculation.'
+    action: ACCEPT
+    reason: 'Direct experimental evidence confirms dendritic localization. Essential for dendrite self-avoidance function.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'Dendrites [with Dscam] distinguish between sister branches'
+- term:
+    id: GO:0043025
+    label: neuronal cell body
+  evidence_type: IDA
+  original_reference_id: PMID:17482551
+  review:
+    summary: 'Direct immunostaining shows Dscam1 on neuronal cell bodies. Matthews et al., 2007 demonstrated cell body localization along with axons and dendrites.'
+    action: ACCEPT
+    reason: 'Direct experimental evidence confirms cell body localization as part of overall neuronal surface expression.'
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: '[Dscam localizes to] neuronal [cell surfaces]'
+- term:
+    id: GO:0016319
+    label: mushroom body development
+  evidence_type: IMP
+  original_reference_id: PMID:15339648
+  review:
+    summary: 'Wang et al., 2004 showed transmembrane/juxtamembrane domain-dependent Dscam1 distribution affects mushroom body neuronal morphogenesis. Another confirmation of this core function.'
+    action: ACCEPT
+    reason: 'Multiple independent studies confirm this essential developmental role.'
+    supported_by:
+      - reference_id: PMID:15339648
+        supporting_text: 'Transmembrane/juxtamembrane domain-dependent Dscam distribution and function during mushroom body neuronal morphogenesis'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:15339666
+  review:
+    summary: 'Wojtowicz et al., 2004 showed alternative splicing generates axon guidance receptors with isoform-specific homophilic binding. This seminal paper established the molecular basis for Dscam1s guidance function.'
+    action: ACCEPT
+    reason: 'Core function with extensive validation. Dscam1 acts as an axon guidance receptor through isoform-specific recognition.'
+    supported_by:
+      - reference_id: PMID:15339666
+        supporting_text: 'Alternative splicing of Drosophila Dscam generates axon guidance receptors that exhibit isoform-specific homophilic binding'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:16678102
+  review:
+    summary: 'Chen et al., 2006 showed molecular diversity of Dscam1 is functionally required for neuronal wiring specificity. Another confirmation of the axon guidance role.'
+    action: ACCEPT
+    reason: 'Well-established function with evidence from multiple independent studies.'
+    supported_by:
+      - reference_id: PMID:16678102
+        supporting_text: 'The molecular diversity of Dscam is functionally required for neuronal wiring specificity in Drosophila'
+- term:
+    id: GO:0008046
+    label: axon guidance receptor activity
+  evidence_type: IMP
+  original_reference_id: PMID:15339666
+  review:
+    summary: 'Wojtowicz et al., 2004 definitively established Dscam1 as an axon guidance receptor. The protein has all the hallmarks - extracellular recognition domain, transmembrane segment, and cytoplasmic signaling through Dock/Pak. This is a core molecular function.'
+    action: ACCEPT
+    reason: 'Dscam1 is a bona fide axon guidance receptor with well-characterized recognition and signaling mechanisms. This molecular function is central to its role.'
+    supported_by:
+      - reference_id: PMID:15339666
+        supporting_text: 'Drosophila Dscam generates axon guidance receptors that exhibit isoform-specific homophilic binding'
+      - reference_id: PMID:10892653
+        supporting_text: 'Drosophila Dscam is an axon guidance receptor'
+- term:
+    id: GO:0048666
+    label: neuron development
+  evidence_type: IMP
+  original_reference_id: PMID:16890528
+  review:
+    summary: 'This paper by Keene et al., 2006 is primarily about dorsal paired medial neurons and memory consolidation, not directly about Dscam1s role in neuron development. While Dscam1 does affect neuron development, this citation seems incorrect for this annotation.'
+    action: MODIFY
+    reason: 'The cited paper does not appear to be primarily about Dscam1. While neuron development is affected by Dscam1, more specific terms like axon guidance and dendrite morphogenesis are better supported.'
+    proposed_replacement_terms:
+      - id: GO:0007411
+        label: axon guidance
+      - id: GO:0048813
+        label: dendrite morphogenesis
+    additional_reference_ids:
+      - PMID:17482551
+- term:
+    id: GO:0006909
+    label: phagocytosis
+  evidence_type: IMP
+  original_reference_id: PMID:16109846
+  review:
+    summary: 'Watson et al., 2005 showed hemocyte-specific loss of Dscam1 impaired phagocytic uptake of bacteria. Secreted Dscam1 acts as an opsonin enhancing bacterial phagocytosis. This immune function is valid but represents a specialized role rather than the primary function.'
+    action: KEEP_AS_NON_CORE
+    reason: 'Valid immune function but not the primary role. The phagocytosis enhancement through bacterial opsonization is a specialized function of secreted isoforms in the immune system.'
+    supported_by:
+      - reference_id: PMID:16109846
+        supporting_text: 'hemocyte-specific loss of Dscam impaired the efficiency of phagocytic uptake of bacteria'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:10892653
+  review:
+    summary: 'Schmucker et al., 2000 - the original discovery paper identifying Dscam1 as an axon guidance receptor. They showed Dscam1 mutants have severe axon pathfinding defects and that Dscam1 signals through Dock/Pak. This is a foundational, core function.'
+    action: ACCEPT
+    reason: 'This is the original characterization establishing axon guidance as a primary function. Extensive subsequent work has confirmed and expanded on this core role.'
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'Drosophila Dscam is an axon guidance receptor exhibiting extraordinary molecular diversity'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IGI
+  original_reference_id: PMID:10892653
+  review:
+    summary: 'Genetic interaction studies in the original Schmucker et al., 2000 paper showed Dscam1 interacts with Dock and Pak in axon guidance. Well-validated core function.'
+    action: ACCEPT
+    reason: 'Genetic evidence complements the IMP evidence establishing axon guidance as a primary function.'
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'Genetic studies revealed that Dscam, Dock and Pak [act together in axon guidance]'
+- term:
+    id: GO:0007411
+    label: axon guidance
+  evidence_type: IMP
+  original_reference_id: PMID:11856530
+  review:
+    summary: 'Wang et al., 2002 showed Dscam1 is required for proper segregation of sister axon branches and suppresses ectopic bifurcation. This demonstrates specific aspects of the axon guidance function.'
+    action: ACCEPT
+    reason: 'Well-validated function showing Dscam1 guides axon branch segregation and prevents inappropriate branching.'
+    supported_by:
+      - reference_id: PMID:11856530
+        supporting_text: 'Drosophila Dscam is required for divergent segregation of sister branches and suppresses ectopic bifurcation of axons'
+- term:
+    id: GO:0007422
+    label: peripheral nervous system development
+  evidence_type: IMP
+  original_reference_id: PMID:12546818
+  review:
+    summary: 'Hummel et al., 2003 showed Dscam1 controls axonal targeting of olfactory receptor neurons, which are part of the PNS. While valid, this is more specifically about axon guidance in the PNS rather than general PNS development.'
+    action: KEEP_AS_NON_CORE
+    reason: 'True but the more specific function is axon guidance in PNS neurons. The developmental defects are secondary to the guidance function.'
+    supported_by:
+      - reference_id: PMID:12546818
+        supporting_text: 'Axonal targeting of olfactory receptor neurons in Drosophila is controlled by Dscam'
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:10892653
+  title: Drosophila Dscam is an axon guidance receptor exhibiting extraordinary molecular
+    diversity.
+  findings: []
+- id: PMID:11856530
+  title: Drosophila Dscam is required for divergent segregation of sister branches
+    and suppresses ectopic bifurcation of axons.
+  findings: []
+- id: PMID:12546818
+  title: Axonal targeting of olfactory receptor neurons in Drosophila is controlled
+    by Dscam.
+  findings: []
+- id: PMID:15339648
+  title: Transmembrane/juxtamembrane domain-dependent Dscam distribution and function
+    during mushroom body neuronal morphogenesis.
+  findings: []
+- id: PMID:15339649
+  title: Analysis of Dscam diversity in regulating axon guidance in Drosophila mushroom
+    bodies.
+  findings: []
+- id: PMID:15339666
+  title: Alternative splicing of Drosophila Dscam generates axon guidance receptors
+    that exhibit isoform-specific homophilic binding.
+  findings: []
+- id: PMID:16109846
+  title: Extensive diversity of Ig-superfamily proteins in the immune system of insects.
+  findings: []
+- id: PMID:16474389
+  title: Dendritic patterning by Dscam and synaptic partner matching in the Drosophila
+    antennal lobe.
+  findings: []
+- id: PMID:16678102
+  title: The molecular diversity of Dscam is functionally required for neuronal wiring
+    specificity in Drosophila.
+  findings: []
+- id: PMID:16890528
+  title: Drosophila dorsal paired medial neurons provide a general mechanism for memory
+    consolidation.
+  findings: []
+- id: PMID:17482551
+  title: Dendrite self-avoidance is controlled by Dscam.
+  findings: []
+- id: PMID:17554308
+  title: Dscam2 mediates axonal tiling in the Drosophila visual system.
+  findings: []
+- id: PMID:17581959
+  title: Specific Drosophila Dscam juxtamembrane variants control dendritic elaboration
+    and axonal arborization.
+  findings: []
+- id: PMID:17851526
+  title: Dscam diversity is essential for neuronal wiring and self-recognition.
+  findings: []
+- id: PMID:18805093
+  title: A double S shape provides the structural basis for the extraordinary binding
+    specificity of Dscam isoforms.
+  findings: []
+- id: PMID:18948420
+  title: Dscam guides embryonic axons by Netrin-dependent and -independent functions.
+  findings: []
+- id: PMID:19211897
+  title: Endodomain diversity in the Drosophila Dscam and its roles in neuronal morphogenesis.
+  findings: []
+- id: PMID:19794492
+  title: Robust discrimination between self and non-self neurites requires thousands
+    of Dscam1 isoforms.
+  findings: []
+- id: PMID:23666178
+  title: Overexpression of Down syndrome cell adhesion molecule impairs precise synaptic
+    targeting.
+  findings: []
+- id: PMID:25653356
+  title: 'Linking cell surface receptors to microtubules: tubulin folding cofactor
+    D mediates Dscam functions during neuronal morphogenesis.'
+  findings: []
+core_functions:
+  - molecular_function:
+      id: GO:0042802
+      label: identical protein binding
+    description: 'Each of 38,016 potential isoforms binds exclusively to itself through matching of variable Ig domains, enabling molecular self-recognition that underlies neural self-avoidance.'
+    directly_involved_in:
+      - id: GO:0070593
+        label: dendrite self-avoidance
+      - id: GO:0007411
+        label: axon guidance
+    locations:
+      - id: GO:0005886
+        label: plasma membrane
+      - id: GO:0030424
+        label: axon
+      - id: GO:0030425
+        label: dendrite
+    supported_by:
+      - reference_id: PMID:18805093
+        supporting_text: 'Dscam(1-8) forms a symmetric homodimer of S-shaped molecules'
+      - reference_id: PMID:15339666
+        supporting_text: 'isoform-specific homophilic binding'
+  - molecular_function:
+      id: GO:0008046
+      label: axon guidance receptor activity
+    description: 'Functions as a guidance receptor directing axon pathfinding through isoform-specific recognition and downstream signaling via the Dock/Pak pathway to regulate cytoskeletal dynamics.'
+    directly_involved_in:
+      - id: GO:0007411
+        label: axon guidance
+      - id: GO:0016319
+        label: mushroom body development
+      - id: GO:0048846
+        label: axon extension involved in axon guidance
+    locations:
+      - id: GO:0030424
+        label: axon
+      - id: GO:0043005
+        label: neuron projection
+    supported_by:
+      - reference_id: PMID:10892653
+        supporting_text: 'Drosophila Dscam is an axon guidance receptor exhibiting extraordinary molecular diversity'
+      - reference_id: PMID:15339666
+        supporting_text: 'Alternative splicing of Drosophila Dscam generates axon guidance receptors'
+  - molecular_function:
+      id: GO:0098631
+      label: cell adhesion mediator activity
+    description: 'Mediates homophilic cell adhesion through isoform-specific binding, preventing inappropriate adhesion between non-self neurites while enabling self-recognition.'
+    directly_involved_in:
+      - id: GO:0070593
+        label: dendrite self-avoidance
+      - id: GO:0048814
+        label: regulation of dendrite morphogenesis
+    locations:
+      - id: GO:0030425
+        label: dendrite
+      - id: GO:0043025
+        label: neuronal cell body
+    supported_by:
+      - reference_id: PMID:17482551
+        supporting_text: 'interactions between identical Dscam isoforms on the cell surface underlie self-recognition, while the cytoplasmic tail converts this recognition to dendrite repulsion'
+      - reference_id: PMID:19794492
+        supporting_text: 'Robust discrimination between self and non-self neurites requires thousands of Dscam1 isoforms'
+  - molecular_function:
+      id: GO:0003823
+      label: antigen binding
+    description: 'Secreted isoforms bind to bacterial surfaces as opsonins, enhancing phagocytosis by hemocytes in innate immune defense.'
+    directly_involved_in:
+      - id: GO:0006909
+        label: phagocytosis
+      - id: GO:0032490
+        label: detection of molecule of bacterial origin
+    locations:
+      - id: GO:0005576
+        label: extracellular region
+    supported_by:
+      - reference_id: PMID:16109846
+        supporting_text: 'hemocyte-specific loss of Dscam impaired the efficiency of phagocytic uptake of bacteria'

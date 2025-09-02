@@ -1,0 +1,9 @@
+{
+  "pdb_file": "YSC84_alphafold.pdb",
+  "num_residues": 686,
+  "confidence_analysis": {
+    "mean_plddt": 86.34669096209913,
+    "min_plddt": 31.92,
+    "max_plddt": 98.65,
+    "confidence_regions": {
+      "very_high": 

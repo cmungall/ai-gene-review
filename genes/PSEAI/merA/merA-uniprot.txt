@@ -1,0 +1,324 @@
+ID   MERA_PSEAI              Reviewed;         561 AA.
+AC   P00392;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   18-JUN-2025, entry version 172.
+DE   RecName: Full=Mercuric reductase;
+DE            EC=1.16.1.1 {ECO:0000269|PubMed:6412751};
+DE   AltName: Full=Hg(II) reductase;
+GN   Name=merA;
+OS   Pseudomonas aeruginosa.
+OG   Plasmid pVS1.
+OC   Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+OC   Pseudomonadales; Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TRANSPOSON=Tn501;
+RX   PubMed=6311258; DOI=10.1021/bi00286a015;
+RA   Brown N.L., Ford S.J., Pridmore R.D., Fritzinger D.C.;
+RT   "Nucleotide sequence of a gene from the Pseudomonas transposon Tn501
+RT   encoding mercuric reductase.";
+RL   Biochemistry 22:4089-4095(1983).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-12 AND 130-143, FUNCTION, CATALYTIC ACTIVITY,
+RP   COFACTOR, SUBUNIT, AND DISULFIDE BOND.
+RX   PubMed=6412751; DOI=10.1021/bi00286a014;
+RA   Fox B.S., Walsh C.T.;
+RT   "Mercuric reductase: homology to glutathione reductase and lipoamide
+RT   dehydrogenase. Iodoacetamide alkylation and sequence of the active site
+RT   peptide.";
+RL   Biochemistry 22:4082-4088(1983).
+RN   [3] {ECO:0007744|PDB:1ZK7, ECO:0007744|PDB:1ZX9}
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 96-561 IN COMPLEX WITH FAD, AND
+RP   FUNCTION.
+RX   PubMed=16114877; DOI=10.1021/bi050519d;
+RA   Ledwidge R., Patel B., Dong A., Fiedler D., Falkowski M., Zelikova J.,
+RA   Summers A.O., Pai E.F., Miller S.M.;
+RT   "NmerA, the metal binding domain of mercuric ion reductase, removes Hg2+
+RT   from proteins, delivers it to the catalytic core, and protects cells under
+RT   glutathione-depleted conditions.";
+RL   Biochemistry 44:11402-11416(2005).
+RN   [4] {ECO:0007744|PDB:2KT2, ECO:0007744|PDB:2KT3}
+RP   STRUCTURE BY NMR OF 1-69.
+RX   PubMed=20828160; DOI=10.1021/bi100537f;
+RA   Ledwidge R., Hong B., Doetsch V., Miller S.M.;
+RT   "NmerA of Tn501 mercuric ion reductase: structural modulation of the pKa
+RT   values of the metal binding cysteine thiols.";
+RL   Biochemistry 49:8988-8998(2010).
+RN   [5] {ECO:0007744|PDB:4K7Z, ECO:0007744|PDB:4K8D}
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) OF 96-561 IN COMPLEX WITH NADP AND
+RP   MERCURY.
+RA   Dong A., Falkowaski M., Malone M., Miller S.M., Pai E.F.;
+RL   Submitted (APR-2013) to the PDB data bank.
+CC   -!- FUNCTION: Resistance to Hg(2+) in bacteria appears to be governed by a
+CC       specialized system which includes mercuric reductase. MerA protein is
+CC       responsible for volatilizing mercury as Hg(0). Plays a pivotal role in
+CC       mercury resistance under thiol-depleted conditions and cell protection
+CC       (PubMed:16114877). Protects cells under thiol-depleted conditions
+CC       (PubMed:16114877). {ECO:0000269|PubMed:16114877,
+CC       ECO:0000269|PubMed:6412751}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hg + NADP(+) + H(+) = Hg(2+) + NADPH; Xref=Rhea:RHEA:23856,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16170, ChEBI:CHEBI:16793,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.16.1.1;
+CC         Evidence={ECO:0000269|PubMed:6412751};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:6412751};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:6412751};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:6412751}.
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC       {ECO:0000269|PubMed:6412751}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z00027; CAA77323.1; -; Genomic_DNA.
+DR   PIR; A00406; RDPSHA.
+DR   RefSeq; WP_003156770.1; NZ_WXZW01000069.1.
+DR   PDB; 1ZK7; X-ray; 1.60 A; A=96-561.
+DR   PDB; 1ZX9; X-ray; 1.90 A; A=96-561.
+DR   PDB; 2KT2; NMR; -; A=1-69.
+DR   PDB; 2KT3; NMR; -; A=1-69.
+DR   PDB; 4K7Z; X-ray; 1.50 A; A=96-561.
+DR   PDB; 4K8D; X-ray; 1.86 A; A=96-561.
+DR   PDBsum; 1ZK7; -.
+DR   PDBsum; 1ZX9; -.
+DR   PDBsum; 2KT2; -.
+DR   PDBsum; 2KT3; -.
+DR   PDBsum; 4K7Z; -.
+DR   PDBsum; 4K8D; -.
+DR   AlphaFoldDB; P00392; -.
+DR   BMRB; P00392; -.
+DR   SMR; P00392; -.
+DR   GeneID; 34794308; -.
+DR   KEGG; ag:CAA77323; -.
+DR   EvolutionaryTrace; P00392; -.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0016152; F:mercury (II) reductase (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0045340; F:mercury ion binding; IEA:InterPro.
+DR   GO; GO:0003955; F:NAD(P)H dehydrogenase (quinone) activity; IEA:TreeGrafter.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0016668; F:oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor; IEA:InterPro.
+DR   GO; GO:0050787; P:detoxification of mercury ion; IEA:InterPro.
+DR   CDD; cd00371; HMA; 1.
+DR   FunFam; 3.30.70.100:FF:000001; ATPase copper transporting beta; 1.
+DR   FunFam; 3.30.390.30:FF:000001; Dihydrolipoyl dehydrogenase; 1.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.30.70.100; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR017969; Heavy-metal-associated_CS.
+DR   InterPro; IPR006121; HMA_dom.
+DR   InterPro; IPR036163; HMA_dom_sf.
+DR   InterPro; IPR021179; Mercury_reductase_MerA.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   NCBIfam; TIGR02053; MerA; 1.
+DR   NCBIfam; NF010311; PRK13748.1; 1.
+DR   PANTHER; PTHR43014; MERCURIC REDUCTASE; 1.
+DR   PANTHER; PTHR43014:SF2; MERCURIC REDUCTASE; 1.
+DR   Pfam; PF00403; HMA; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00945; HGRDTASE.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   SUPFAM; SSF55008; HMA, heavy metal-associated domain; 1.
+DR   PROSITE; PS01047; HMA_1; 1.
+DR   PROSITE; PS50846; HMA_2; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; FAD; Flavoprotein;
+KW   Mercuric resistance; Mercury; Metal-binding; NADP; Oxidoreductase; Plasmid;
+KW   Redox-active center; Transposable element.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:6412751"
+FT   CHAIN           2..561
+FT                   /note="Mercuric reductase"
+FT                   /id="PRO_0000067997"
+FT   DOMAIN          2..65
+FT                   /note="HMA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00280"
+FT   BINDING         11
+FT                   /ligand="a metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:25213"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00280"
+FT   BINDING         14
+FT                   /ligand="a metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:25213"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00280"
+FT   BINDING         110
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         130
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         135
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         145
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         211
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         403
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         411
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:16114877,
+FT                   ECO:0007744|PDB:1ZK7"
+FT   BINDING         558
+FT                   /ligand="Hg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:16793"
+FT                   /evidence="ECO:0000269|Ref.5, ECO:0007744|PDB:4K7Z"
+FT   BINDING         559
+FT                   /ligand="Hg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:16793"
+FT                   /evidence="ECO:0000269|Ref.5, ECO:0007744|PDB:4K7Z"
+FT   DISULFID        136..141
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000269|PubMed:6412751"
+FT   STRAND          4..9
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   HELIX           13..24
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   STRAND          28..34
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   TURN            35..38
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   STRAND          39..44
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   HELIX           50..58
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   TURN            59..61
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   STRAND          62..65
+FT                   /evidence="ECO:0007829|PDB:2KT2"
+FT   STRAND          100..104
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           108..119
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          123..131
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           134..139
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           141..158
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            161..165
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           175..193
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           195..199
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          204..215
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          218..223
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          226..232
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          234..238
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          242..244
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            250..254
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           260..265
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          271..276
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           280..291
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          295..299
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          301..303
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            304..307
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           310..322
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          326..328
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          333..339
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          342..347
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          350..359
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          363..366
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           368..370
+FT                   /evidence="ECO:0007829|PDB:1ZX9"
+FT   HELIX           372..375
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          398..400
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            403..406
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           411..425
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          438..441
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          443..451
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           454..459
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          464..470
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           471..473
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           475..479
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          486..492
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            493..495
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   STRAND          497..505
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           508..520
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           525..529
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           540..547
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            548..550
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   HELIX           553..555
+FT                   /evidence="ECO:0007829|PDB:4K7Z"
+FT   TURN            556..558
+FT                   /evidence="ECO:0007829|PDB:1ZK7"
+SQ   SEQUENCE   561 AA;  58728 MW;  858669A67A490065 CRC64;
+     MTHLKITGMT CDSCAAHVKE ALEKVPGVQS ALVSYPKGTA QLAIVPGTSP DALTAAVAGL
+     GYKATLADAP LADNRVGLLD KVRGWMAAAE KHSGNEPPVQ VAVIGSGGAA MAAALKAVEQ
+     GAQVTLIERG TIGGTCVNVG CVPSKIMIRA AHIAHLRRES PFDGGIAATV PTIDRSKLLA
+     QQQARVDELR HAKYEGILGG NPAITVVHGE ARFKDDQSLT VRLNEGGERV VMFDRCLVAT
+     GASPAVPPIP GLKESPYWTS TEALASDTIP ERLAVIGSSV VALELAQAFA RLGSKVTVLA
+     RNTLFFREDP AIGEAVTAAF RAEGIEVLEH TQASQVAHMD GEFVLTTTHG ELRADKLLVA
+     TGRTPNTRSL ALDAAGVTVN AQGAIVIDQG MRTSNPNIYA AGDCTDQPQF VYVAAAAGTR
+     AAINMTGGDA ALDLTAMPAV VFTDPQVATV GYSEAEAHHD GIETDSRTLT LDNVPRALAN
+     FDTRGFIKLV IEEGSHRLIG VQAVAPEAGE LIQTAALAIR NRMTVQELAD QLFPYLTMVE
+     GLKLAAQTFN KDVKQLSCCA G
+//

@@ -1,0 +1,61 @@
+# Justfile for MTC7 bioinformatics analyses
+# Run with: just <recipe-name>
+
+# Default recipe - show available commands
+default:
+    @just --list
+
+# Install dependencies
+install:
+    uv add biopython requests matplotlib seaborn pandas numpy
+
+# Run transmembrane analysis
+tm-analysis:
+    python analyze_transmembrane.py
+
+# Run domain and motif analysis
+domain-analysis:
+    python analyze_domains.py
+
+# Run conservation analysis
+conservation:
+    python analyze_conservation.py
+
+# Run structural analysis
+structure:
+    python analyze_structure.py
+
+# Run all analyses
+all:
+    python run_all_analyses.py
+
+# Clean output files
+clean:
+    rm -f *.json *.png
+
+# Generate results summary (after running analyses)
+summarize:
+    @echo "Generating summary from analysis results..."
+    @ls -la *.json *.png 2>/dev/null || echo "No results found. Run 'just all' first."
+
+# Quick validation of input FASTA
+validate-input:
+    @echo "Validating MTC7 FASTA file..."
+    @python -c "from Bio import SeqIO; import sys; \
+        rec = next(SeqIO.parse('../MTC7.fasta', 'fasta')); \
+        print(f'Protein: {rec.id}'); \
+        print(f'Length: {len(rec.seq)} aa'); \
+        print(f'First 60 aa: {str(rec.seq[:60])}');"
+
+# Run a specific analysis by name
+run ANALYSIS:
+    python analyze_{{ANALYSIS}}.py
+
+# Show analysis dependencies
+deps:
+    uv pip list | grep -E "biopython|matplotlib|seaborn|pandas|numpy|requests"
+
+# Create a fresh environment and install dependencies
+setup:
+    uv init --python 3.11
+    uv add biopython requests matplotlib seaborn pandas numpy

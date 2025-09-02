@@ -1,0 +1,117 @@
+{
+  "protein_info": {
+    "uniprot_id": "Q22179",
+    "protein_name": "Q22179_CAEEL",
+    "sequence_length": 368
+  },
+  "cysteine_analysis": {
+    "total_cysteines": 30,
+    "cysteine_percentage": 8.15,
+    "positions": [
+      125,
+      152,
+      159,
+      169,
+      183,
+      192,
+      201,
+      207,
+      214,
+      215,
+      221,
+      228,
+      234,
+      243,
+      246,
+      253,
+      259,
+      266,
+      273,
+      284,
+      290,
+      296,
+      305,
+      312,
+      318,
+      327,
+      338,
+      351,
+      357,
+      366
+    ],
+    "spacings": [
+      26,
+      6,
+      9,
+      13,
+      8,
+      8,
+      5,
+      6,
+      0,
+      5,
+      6,
+      5,
+      8,
+      2,
+      6,
+      5,
+      6,
+      6,
+      10,
+      5,
+      5,
+      8,
+      6,
+      5,
+      8,
+      10,
+      12,
+      5,
+      8
+    ],
+    "potential_ldla_domains": [],
+    "cysteine_clusters": [
+      {
+        "start": 152,
+        "end": 366,
+        "n_cysteines": 29,
+        "span": 215,
+        "region": "CSHVFFQCSIGQTFPLACMSEDQAFDKSTENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGEDENNCPSCARDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTSRGGVSCVDLDMHCDGKKDCLNGEDEMNCKQEGRQKYLLCENQKQSVTRLQWCNGETDCADGSDEKYC"
+      }
+    ]
+  },
+  "hydrophobicity_analysis": {
+    "signal_peptide": {
+      "length": 30,
+      "hydrophobic_count": 16,
+      "hydrophobicity": 0.533
+    },
+    "tm_regions": [
+      {
+        "start": 0,
+        "end": 22,
+        "hydrophobicity": 0.7,
+        "sequence": "MAWLTSIFFILLAVQPVLPQ"
+      }
+    ],
+    "topology_prediction": "single_pass_membrane"
+  },
+  "domain_patterns": {
+    "egf_domains": []
+  },
+  "size_comparison": {
+    "protein_length": 368,
+    "typical_lrp_length": {
+      "min": 4000,
+      "max": 6000,
+      "average": 4500
+    },
+    "typical_ldlr_length": {
+      "min": 800,
+      "max": 900,
+      "average": 860
+    },
+    "size_compatible_with_lrp": false
+  }
+}

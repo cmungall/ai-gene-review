@@ -1,0 +1,52 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0005576	extracellular region	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0964|UniProtKB-SubCell:SL-0243	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0005886	plasma membrane	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-1003|UniProtKB-SubCell:SL-0039	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007155	cell adhesion	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0130	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007399	nervous system development	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0524	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0016020	membrane	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0472	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0030424	axon	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0279	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0030425	dendrite	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0283	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	enables	GO:0042802	identical protein binding	molecular_function	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00027930	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0042995	cell projection	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0966	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0043005	neuron projection	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0518	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0043204	perikaryon	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0197	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048812	neuron projection morphogenesis	biological_process	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00026689	7227	Drosophila melanogaster	UniProt	Cell adhesion molecule Dscam1	20250428
+UniProtKB	Q0E9H9	Dscam1	enables	GO:0042802	identical protein binding	molecular_function	ECO:0000353	IPI	PMID:18805093	UniProtKB:Q0E9H9	7227	Drosophila melanogaster	IntAct	Cell adhesion molecule Dscam1	20250426
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048814	regulation of dendrite morphogenesis	biological_process	ECO:0000316	IGI	PMID:25653356	FB:FBgn0027509	7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20150226
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000316	IGI	PMID:23666178	FB:FBgn0028734	7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20140220
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0050976	detection of mechanical stimulus involved in sensory perception of touch	biological_process	ECO:0000316	IGI	PMID:23666178	FB:FBgn0028734	7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20140220
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007419	ventral cord development	biological_process	ECO:0000316	IGI	PMID:19211897	FB:FBgn0000017	7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130912
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:19211897		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130912
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0043005	neuron projection	cellular_component	ECO:0000314	IDA	PMID:19211897		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130912
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0043025	neuronal cell body	cellular_component	ECO:0000314	IDA	PMID:19211897		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130912
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:17581959		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130801
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:19794492		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130801
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048814	regulation of dendrite morphogenesis	biological_process	ECO:0000315	IMP	PMID:17581959		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130801
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0050770	regulation of axonogenesis	biological_process	ECO:0000315	IMP	PMID:17581959		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130801
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0070593	dendrite self-avoidance	biological_process	ECO:0000315	IMP	PMID:19794492		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130801
+UniProtKB	Q0E9H9	Dscam1	enables	GO:0003823	antigen binding	molecular_function	ECO:0000314	IDA	PMID:16109846		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130523
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0032490	detection of molecule of bacterial origin	biological_process	ECO:0000314	IDA	PMID:16109846		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130523
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048814	regulation of dendrite morphogenesis	biological_process	ECO:0000315	IMP	PMID:16474389		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20130502
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0005886	plasma membrane	cellular_component	ECO:0000255	ISM	PMID:17554308		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20110630
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000315	IMP	PMID:18948420		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20090604
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0070593	dendrite self-avoidance	biological_process	ECO:0000314	IDA	PMID:17482551		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20090604
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0070593	dendrite self-avoidance	biological_process	ECO:0000315	IMP	PMID:17851526		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20090604
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:18805093		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20090219
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048846	axon extension involved in axon guidance	biological_process	ECO:0000315	IMP	PMID:18805093		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20090219
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007413	axonal fasciculation	biological_process	ECO:0000315	IMP	PMID:15339649		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:15339649		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:17851526		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0021551	central nervous system morphogenesis	biological_process	ECO:0000315	IMP	PMID:17851526		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0030424	axon	cellular_component	ECO:0000314	IDA	PMID:17482551		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0030425	dendrite	cellular_component	ECO:0000314	IDA	PMID:17482551		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	located_in	GO:0043025	neuronal cell body	cellular_component	ECO:0000314	IDA	PMID:17482551		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080724
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0016319	mushroom body development	biological_process	ECO:0000315	IMP	PMID:15339648		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20080214
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000315	IMP	PMID:15339666		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20070523
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000315	IMP	PMID:16678102		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20070523
+UniProtKB	Q0E9H9	Dscam1	enables	GO:0008046	axon guidance receptor activity	molecular_function	ECO:0000315	IMP	PMID:15339666		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20070523
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0048666	neuron development	biological_process	ECO:0000315	IMP	PMID:16890528		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20070523
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0006909	phagocytosis	biological_process	ECO:0000315	IMP	PMID:16109846		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20060803
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000315	IMP	PMID:10892653		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20060803
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000316	IGI	PMID:10892653	FB:FBgn0010583	7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20060803
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007411	axon guidance	biological_process	ECO:0000315	IMP	PMID:11856530		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20060803
+UniProtKB	Q0E9H9	Dscam1	involved_in	GO:0007422	peripheral nervous system development	biological_process	ECO:0000315	IMP	PMID:12546818		7227	Drosophila melanogaster	FlyBase	Cell adhesion molecule Dscam1	20060803

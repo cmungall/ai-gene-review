@@ -1,0 +1,150 @@
+ID   ANCA_ACET2              Reviewed;         447 AA.
+AC   Q06848; A3DJZ7;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   09-APR-2025, entry version 126.
+DE   RecName: Full=Cellulosome-anchoring protein;
+DE   Flags: Precursor;
+GN   Name=ancA; OrderedLocusNames=Cthe_3080;
+OS   Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC
+OS   103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+OC   Oscillospiraceae; Acetivibrio.
+OX   NCBI_TaxID=203119;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8458832; DOI=10.1128/jb.175.7.1891-1899.1993;
+RA   Fujino T., Beguin P., Aubert J.-P.;
+RT   "Organization of a Clostridium thermocellum gene cluster encoding the
+RT   cellulosomal scaffolding protein CipA and a protein possibly involved in
+RT   attachment of the cellulosome to the cell surface.";
+RL   J. Bacteriol. 175:1891-1899(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 /
+RC   NRRL B-4536 / VPI 7372;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Wu J.H.D.,
+RA   Newcomb M., Richardson P.;
+RT   "Complete sequence of Clostridium thermocellum ATCC 27405.";
+RL   Submitted (FEB-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Anchors the cellulosome to the cell surface by binding the
+CC       duplicated segment that is present at the C-terminal end of CipA.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall, S-layer.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X67506; CAA47843.1; -; Genomic_DNA.
+DR   EMBL; CP000568; ABN54276.1; -; Genomic_DNA.
+DR   PIR; T18264; T18264.
+DR   RefSeq; WP_003511554.1; NC_009012.1.
+DR   PDB; 3UL4; X-ray; 1.95 A; A=30-175.
+DR   PDBsum; 3UL4; -.
+DR   AlphaFoldDB; Q06848; -.
+DR   SMR; Q06848; -.
+DR   STRING; 203119.Cthe_3080; -.
+DR   GeneID; 35803510; -.
+DR   KEGG; cth:Cthe_3080; -.
+DR   eggNOG; COG1361; Bacteria.
+DR   HOGENOM; CLU_623622_0_0_9; -.
+DR   OrthoDB; 43070at2; -.
+DR   EvolutionaryTrace; Q06848; -.
+DR   Proteomes; UP000002145; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030115; C:S-layer; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd08548; Type_I_cohesin_like; 1.
+DR   Gene3D; 2.60.40.680; -; 1.
+DR   InterPro; IPR008965; CBM2/CBM3_carb-bd_dom_sf.
+DR   InterPro; IPR051465; Cell_Envelope_Struct_Comp.
+DR   InterPro; IPR002102; Cohesin_dom.
+DR   InterPro; IPR001119; SLH_dom.
+DR   PANTHER; PTHR43308; OUTER MEMBRANE PROTEIN ALPHA-RELATED; 1.
+DR   PANTHER; PTHR43308:SF5; S-LAYER PROTEIN _ PEPTIDOGLYCAN ENDO-BETA-N-ACETYLGLUCOSAMINIDASE; 1.
+DR   Pfam; PF00963; Cohesin; 1.
+DR   Pfam; PF00395; SLH; 3.
+DR   SUPFAM; SSF49384; Carbohydrate-binding domain; 1.
+DR   PROSITE; PS51272; SLH; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cell wall; Cellulose degradation;
+KW   Polysaccharide degradation; Reference proteome; Repeat; S-layer; Secreted;
+KW   Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           30..447
+FT                   /note="Cellulosome-anchoring protein"
+FT                   /id="PRO_0000032636"
+FT   DOMAIN          30..180
+FT                   /note="Cohesin"
+FT   DOMAIN          216..280
+FT                   /note="SLH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   DOMAIN          281..344
+FT                   /note="SLH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   DOMAIN          345..408
+FT                   /note="SLH 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   DOMAIN          409..429
+FT                   /note="SLH 4; truncated"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   REGION          30..180
+FT                   /note="Receptor binding site for duplicated segment of
+FT                   CipA"
+FT                   /evidence="ECO:0000255"
+FT   REGION          177..247
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        188..200
+FT                   /note="Gly residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        201..223
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   STRAND          35..38
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          40..43
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          48..57
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          63..71
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   TURN            74..76
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          77..84
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          88..90
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   HELIX           91..94
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          95..100
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   HELIX           101..103
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          105..111
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          113..117
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          125..134
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          140..155
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          164..166
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+FT   STRAND          168..172
+FT                   /evidence="ECO:0007829|PDB:3UL4"
+SQ   SEQUENCE   447 AA;  48530 MW;  0FD674134ABB8FE1 CRC64;
+     MKRIKRILAV LTIFALLATI NAFTFVSLAQ TNTIEIIIGN VKARPGDRIE VPVSLKNVPD
+     KGIVSSDFVI EYDSKLFKVI ELKAGDIVEN PSESFSYNVV EKDEIIAVLY LEETGLGIEA
+     IRTDGVFFTI VMEVSKDVKP GISPIKFESF GATADNDMNE MTPKLVEGKV EIIEASAPEA
+     TPTPGSTAGS GAGGGTGSSG SGQPSATPTP TATEKPSTTP KTTEQPHEDI PQSGGTGEHA
+     PFLKGYPGGL FKPENNITRA EAAVIFAKLL GADENSAGKN SSITFKDLKD SHWAAWAIKY
+     VTEQNLFGGY PDGTFMPDKS ITRAEFATVT YKFLEKLGKI EQGTDVKTQL KDIEGHWAQK
+     YIETLVAKGY IKGYPDETFR PQASIKRAES VALINRSLER GPLNGAVLEF TDVPVNYWAY
+     KDIAEGVIYH SYKIDENGQE VMVEKLD
+//

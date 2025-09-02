@@ -1,0 +1,10 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q96NL8	CFAP418	located_in	GO:0001917	photoreceptor inner segment	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0457	9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20250428
+UniProtKB	Q96NL8	CFAP418	located_in	GO:0005737	cytoplasm	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0963|UniProtKB-SubCell:SL-0086	9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20250428
+UniProtKB	Q96NL8	CFAP418	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:27173435	UniProtKB:P04632	9606	Homo sapiens	IntAct	Cilia- and flagella-associated protein 418	20250426
+UniProtKB	Q96NL8	CFAP418	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:36233334	UniProtKB:Q3B820	9606	Homo sapiens	IntAct	Cilia- and flagella-associated protein 418	20250426
+UniProtKB	Q96NL8	CFAP418	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:36233334	UniProtKB:Q3B820	9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20221019
+UniProtKB	Q96NL8	CFAP418	located_in	GO:0001917	photoreceptor inner segment	cellular_component	ECO:0000250	ISS	GO_REF:0000024	UniProtKB:Q3UJP5	9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20180316
+UniProtKB	Q96NL8	CFAP418	involved_in	GO:0008594	photoreceptor cell morphogenesis	biological_process	ECO:0000250	ISS	GO_REF:0000024	UniProtKB:Q3UJP5	9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20180316
+UniProtKB	Q96NL8	CFAP418	located_in	GO:0005737	cytoplasm	cellular_component	ECO:0000314	IDA	PMID:22177090		9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20160729
+UniProtKB	Q96NL8	CFAP418	located_in	GO:0097546	ciliary base	cellular_component	ECO:0000314	IDA	PMID:22177090		9606	Homo sapiens	UniProt	Cilia- and flagella-associated protein 418	20160729

@@ -1,0 +1,50 @@
+# Justfile for tam10 bioinformatics analysis
+
+# Default target - run all analyses
+default: all
+
+# Run all analyses
+all: basic secondary smap
+
+# Run basic sequence analysis
+basic INPUT="tam10.fasta":
+    @echo "Running basic sequence analysis..."
+    python analyze_sequence.py {{INPUT}} --output_dir results
+
+# Run secondary structure prediction
+secondary INPUT="tam10.fasta":
+    @echo "Running secondary structure prediction..."
+    python predict_secondary_structure.py {{INPUT}} --output_dir results
+
+# Run SMAP domain analysis
+smap INPUT="tam10.fasta":
+    @echo "Analyzing potential SMAP domain regions..."
+    python analyze_smap_region.py {{INPUT}} --output_dir results
+
+# Clean results directory
+clean:
+    @echo "Cleaning results directory..."
+    rm -rf results/
+
+# Run analysis on a different protein (for testing)
+test-other FASTA:
+    @echo "Testing analysis scripts on {{FASTA}}..."
+    python analyze_sequence.py {{FASTA}} --output_dir test_results
+    python predict_secondary_structure.py {{FASTA}} --output_dir test_results
+    python analyze_smap_region.py {{FASTA}} --output_dir test_results
+    @echo "Test results saved to test_results/"
+
+# Show help
+help:
+    @echo "Available targets:"
+    @echo "  all      - Run all analyses (default)"
+    @echo "  basic    - Run basic sequence analysis"
+    @echo "  secondary - Run secondary structure prediction"
+    @echo "  smap     - Run SMAP domain analysis"
+    @echo "  clean    - Remove results directory"
+    @echo "  test-other FASTA - Test on a different protein"
+    @echo ""
+    @echo "To run on a different input file:"
+    @echo "  just basic my_protein.fasta"
+    @echo "  just secondary my_protein.fasta"
+    @echo "  just smap my_protein.fasta"

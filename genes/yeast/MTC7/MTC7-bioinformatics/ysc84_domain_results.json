@@ -1,0 +1,64 @@
+{
+  "protein": "YSC84_YEAST",
+  "protein_length": 373,
+  "polybasic_regions": [
+    [
+      138,
+      146
+    ]
+  ],
+  "c_terminal_analysis": {
+    "sequence": "SDKLPESEKDNGDAVCRALIDYIKQTQQLLLRNSGRQAVAEQERRRLELANRELIQQSTAQLDSLKQRAESLLEEKRRLEAERKAAELALKQKIKELEAENAKLQAEINRQLDEAQRSQQSIVPPPVPPPRAPPAVPPRAPPAVPPRAPPAVPPRAPAVPPRAPPAVPPPVQAAPAAPPAPPPVQAAPAAPPAPPPVQAAPAAPPAPPPLNATPPPPPPRSNNAGGSSGAIGLFEKVYVALYPYDGIHPDDLSFKKGEKVFVLINKSNLERYYFHGRVIQDIISSNGDWWRGECNGRSHGIFPASYIQVEE",
+    "length": 311,
+    "lysine_count": 15,
+    "arginine_count": 23,
+    "basic_percentage": 12.218649517684888
+  },
+  "sequence_patterns": {
+    "Phosphorylation sites": [
+      "SQK (pos 2)",
+      "SDK (pos 63)",
+      "SEK (pos 69)",
+      "SGR (pos 96)",
+      "SLK (pos 126)",
+      "SFK (pos 315)",
+      "TP (pos 275)"
+    ]
+  },
+  "regional_analysis": {
+    "N-terminal (1-12)": {
+      "length": 12,
+      "lysine_count": 1,
+      "arginine_count": 0
+    },
+    "TM1 (13-33)": {
+      "length": 21,
+      "lysine_count": 0,
+      "arginine_count": 2
+    },
+    "Loop1 (34-41)": {
+      "length": 8,
+      "lysine_count": 1,
+      "arginine_count": 1
+    },
+    "TM2 (42-62)": {
+      "length": 21,
+      "lysine_count": 1,
+      "arginine_count": 0
+    },
+    "C-terminal (63-end)": {
+      "length": 311,
+      "lysine_count": 15,
+      "arginine_count": 23
+    }
+  },
+  "composition_groups": {
+    "Hydrophobic": 35.120643431635386,
+    "Aromatic": 4.021447721179625,
+    "Positive": 12.600536193029491,
+    "Negative": 12.8686327077748,
+    "Polar": 18.498659517426272,
+    "Small": 24.396782841823057,
+    "Tiny": 23.056300268096514
+  }
+}

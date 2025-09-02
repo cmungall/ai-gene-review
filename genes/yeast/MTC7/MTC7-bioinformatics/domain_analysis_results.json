@@ -1,0 +1,72 @@
+{
+  "protein_length": 139,
+  "polybasic_regions": [
+    [
+      1,
+      8
+    ],
+    [
+      101,
+      112
+    ]
+  ],
+  "c_terminal_analysis": {
+    "sequence": "RISHFSFSLCRQCNSLGRMIFMCAYLPAASSRSVANPALPPQKKKKKKKKGTLRTGEVEEQAKGNISFDLCGKQNFQ",
+    "length": 77,
+    "lysine_count": 10,
+    "arginine_count": 5,
+    "basic_percentage": 19.480519480519483
+  },
+  "sequence_patterns": {
+    "Nuclear Localization Signal (NLS)": [
+      "KKEKK (pos 2)",
+      "KKKKKK (pos 105)",
+      "KKKKKKKK (pos 105)"
+    ],
+    "Phosphorylation sites": [
+      "SSR (pos 92)",
+      "TLR (pos 114)",
+      "TP (pos 7)",
+      "TP (pos 9)"
+    ],
+    "Palmitoylation": [
+      "CRQC (pos 72)"
+    ]
+  },
+  "regional_analysis": {
+    "N-terminal (1-12)": {
+      "length": 12,
+      "lysine_count": 4,
+      "arginine_count": 0
+    },
+    "TM1 (13-33)": {
+      "length": 21,
+      "lysine_count": 0,
+      "arginine_count": 0
+    },
+    "Loop1 (34-41)": {
+      "length": 8,
+      "lysine_count": 1,
+      "arginine_count": 0
+    },
+    "TM2 (42-62)": {
+      "length": 21,
+      "lysine_count": 0,
+      "arginine_count": 0
+    },
+    "C-terminal (63-end)": {
+      "length": 77,
+      "lysine_count": 10,
+      "arginine_count": 5
+    }
+  },
+  "composition_groups": {
+    "Hydrophobic": 42.44604316546763,
+    "Aromatic": 15.827338129496402,
+    "Positive": 17.26618705035971,
+    "Negative": 4.316546762589928,
+    "Polar": 18.70503597122302,
+    "Small": 20.14388489208633,
+    "Tiny": 16.546762589928058
+  }
+}

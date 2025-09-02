@@ -1,0 +1,135 @@
+id: A0A1V0M5B3
+gene_symbol: merB
+taxon:
+  id: NCBITaxon:287
+  label: Pseudomonas aeruginosa
+description: Organomercurial lyase (MerB) is a monomeric ~22 kDa cytoplasmic enzyme
+  that catalyzes the protonolytic cleavage of carbon-mercury bonds in organomercury
+  compounds, converting toxic organomercurials like methylmercury and phenylmercury
+  into inorganic Hg(II) and releasing the organic moiety as a hydrocarbon. Functions
+  as the first step in broad-spectrum mercury resistance, working sequentially with
+  MerA to detoxify organomercurials. Contains essential catalytic cysteines (Cys96,
+  Cys159) that coordinate mercury through bis-thiolate binding. Possesses a unique
+  protein fold with no known paralogs outside mercury resistance systems. Expression
+  is tightly regulated by MerR as part of the mer operon, induced specifically by
+  mercury exposure.
+existing_annotations:
+- term:
+    id: GO:0018836
+    label: alkylmercury lyase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is the correct and most specific molecular function for MerB. Extensive
+      biochemical evidence confirms MerB catalyzes the cleavage of carbon-mercury
+      bonds in organomercurials.
+    action: ACCEPT
+    reason: Direct experimental evidence confirms alkylmercury lyase as MerB's primary
+      molecular function
+    supported_by:
+    - reference_id: file:PSEAI/merB/merB-deep-research.md
+      supporting_text: MerB is an organomercurial lyase enzyme that catalyzes the
+        protonolytic cleavage of the carbon–mercury bond in organomercury compounds.
+        MerB converts toxic organomercurials (such as methylmercury or phenylmercury
+        compounds) into an inorganic mercuric ion (Hg^2+), while releasing the organic
+        moiety as a hydrocarbon (e.g. methane from methylmercury).
+      reference_section_type: RESULTS
+- term:
+    id: GO:0016829
+    label: lyase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is correct but too general. MerB is indeed a lyase, but the more
+      specific term GO:0018836 (alkylmercury lyase activity) should be used as the
+      primary annotation.
+    action: KEEP_AS_NON_CORE
+    reason: Too general - more specific alkylmercury lyase term available
+    supported_by:
+    - reference_id: file:PSEAI/merB/merB-deep-research.md
+      supporting_text: MerB functions as a proton-transfer enzyme that directly breaks
+        the Hg–C bond (a rare lyase reaction) without requiring external cofactors.
+- term:
+    id: GO:0046689
+    label: response to mercury ion
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct and well-supported biological process. MerB expression is specifically
+      induced by mercury and is essential for the cellular response to organomercury
+      compounds.
+    action: ACCEPT
+    reason: MerB expression is specifically induced by mercury exposure via MerR regulation
+      as part of mercury resistance response
+    supported_by:
+    - reference_id: file:PSEAI/merB/merB-deep-research.md
+      supporting_text: 'Expression of the mer operon is tightly regulated and induced
+        in the presence of mercury ions. merB expression is inducible and tightly
+        regulated: it remains virtually off in the absence of mercury and is highly
+        upregulated when mercury (or certain organomercurials that release Hg^2+)
+        is present.'
+      reference_section_type: RESULTS
+    - reference_id: PMID:12829275
+      supporting_text: Bacterial resistance to inorganic and organic mercury compounds
+        (HgR) is one of the most widely observed phenotypes in eubacteria
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:12829275
+  title: Bacterial mercury resistance from atoms to ecosystems
+  findings:
+  - statement: MerB enables broad-spectrum mercury resistance by converting organomercurials
+      to Hg(II)
+    supporting_text: MerA confers a narrow spectrum of resistance to inorganic mercury
+      only. MerB, an organomercury lyase encoded by the merB gene, provides a broader
+      spectrum of resistance to mercury.
+- id: file:PSEAI/merB/merB-deep-research.md
+  title: Deep Research Report on merB gene
+  findings:
+  - statement: MerB is a cytoplasmic enzyme that cleaves carbon-mercury bonds in organomercurials
+    supporting_text: MerB is located in the cytoplasm of the bacterial cell. It lacks
+      any signal peptide or membrane-spanning domains, and it contains no disulfide
+      bonds, consistent with a cytosolic enzyme that functions in the reducing environment
+      of the cytosol.
+  - statement: MerB uses essential cysteine residues for catalysis
+    supporting_text: Two cysteine residues (conserved as Cys96 and Cys159 in E. coli
+      MerB numbering) are essential for catalysis, forming a bis-thiolated Hg^2+ intermediate
+      and likely delivering the proton to the bound organic group.
+  - statement: MerB has a unique protein fold specific to mercury resistance
+    supporting_text: MerB is a single-domain enzyme with a unique protein fold not
+      found in other protein families. Solution NMR and crystal structure studies
+      revealed that MerB consists of three small β-sheets surrounded by six α-helices,
+      forming a compact globular protein.
+  - statement: MerB expression is tightly regulated by MerR in response to mercury
+    supporting_text: The merB gene in P. aeruginosa is typically co-transcribed as
+      part of the mer operon, under the control of the MerR regulatory protein. When
+      Hg^2+ is present, MerR binds the ion and undergoes a conformational change that
+      activates transcription of the operon.
+  - statement: MerB enables bioremediation of mercury-contaminated environments
+    supporting_text: mercury-resistant pseudomonads with MerB can thrive in mercury-polluted
+      soils, waters, or industrial effluents where they degrade organomercurials that
+      would otherwise accumulate in the food chain. MerB-possessing bacteria have
+      been explored as agents of bioremediation for mercury pollution.
+core_functions:
+- description: Enzymatic cleavage of carbon-mercury bonds in organomercury compounds
+    for mercury detoxification
+  molecular_function:
+    id: GO:0018836
+    label: alkylmercury lyase activity
+  directly_involved_in:
+  - id: GO:0050787
+    label: detoxification of mercury ion
+  - id: GO:0046689
+    label: response to mercury ion
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:12829275
+    supporting_text: Supporting evidence for merB function
+  - reference_id: file:PSEAI/merB/merB-deep-research.md
+    supporting_text: Bioinformatics evidence for merB function

@@ -1,0 +1,1248 @@
+ID   TRAF6_HUMAN             Reviewed;         522 AA.
+AC   Q9Y4K3; A6NKI7; A8KAB3; D3DR16; Q8NEH5;
+DT   09-MAY-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   18-JUN-2025, entry version 251.
+DE   RecName: Full=TNF receptor-associated factor 6;
+DE            EC=2.3.2.27 {ECO:0000269|PubMed:17135271, ECO:0000269|PubMed:19713527, ECO:0000269|PubMed:23514740, ECO:0000269|PubMed:27746020};
+DE   AltName: Full=E3 ubiquitin-protein ligase TRAF6;
+DE   AltName: Full=Interleukin-1 signal transducer;
+DE   AltName: Full=RING finger protein 85;
+DE   AltName: Full=RING-type E3 ubiquitin transferase TRAF6 {ECO:0000305};
+GN   Name=TRAF6; Synonyms=RNF85;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND INTERACTION WITH IRAK1.
+RX   PubMed=8837778; DOI=10.1038/383443a0;
+RA   Cao Z., Xiong J., Takeuchi M., Kurama T., Goeddel D.V.;
+RT   "TRAF6 is a signal transducer for interleukin-1.";
+RL   Nature 383:443-446(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   SeattleSNPs variation discovery resource;
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Trachea;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16554811; DOI=10.1038/nature04632;
+RA   Taylor T.D., Noguchi H., Totoki Y., Toyoda A., Kuroki Y., Dewar K.,
+RA   Lloyd C., Itoh T., Takeda T., Kim D.-W., She X., Barlow K.F., Bloom T.,
+RA   Bruford E., Chang J.L., Cuomo C.A., Eichler E., FitzGerald M.G.,
+RA   Jaffe D.B., LaButti K., Nicol R., Park H.-S., Seaman C., Sougnez C.,
+RA   Yang X., Zimmer A.R., Zody M.C., Birren B.W., Nusbaum C., Fujiyama A.,
+RA   Hattori M., Rogers J., Lander E.S., Sakaki Y.;
+RT   "Human chromosome 11 DNA sequence and analysis including novel gene
+RT   identification.";
+RL   Nature 440:497-500(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   INTERACTION WITH MAP3K14.
+RX   PubMed=9020361; DOI=10.1038/385540a0;
+RA   Malinin N.L., Boldin M.P., Kovalenko A.V., Wallach D.;
+RT   "MAP3K-related kinase involved in NF-kappaB induction by TNF, CD95 and IL-
+RT   1.";
+RL   Nature 385:540-544(1997).
+RN   [8]
+RP   INTERACTION WITH IRAK2.
+RX   PubMed=9374458; DOI=10.1126/science.278.5343.1612;
+RA   Muzio M., Ni J., Feng P., Dixit V.M.;
+RT   "IRAK (Pelle) family member IRAK-2 and MyD88 as proximal mediators of IL-1
+RT   signaling.";
+RL   Science 278:1612-1615(1997).
+RN   [9]
+RP   INTERACTION WITH RIPK2.
+RX   PubMed=9642260; DOI=10.1074/jbc.273.27.16968;
+RA   McCarthy J.V., Ni J., Dixit V.M.;
+RT   "RIP2 is a novel NF-kappaB-activating and cell death-inducing kinase.";
+RL   J. Biol. Chem. 273:16968-16975(1998).
+RN   [10]
+RP   INTERACTION WITH TNFRSF11A.
+RX   PubMed=9774460; DOI=10.1074/jbc.273.43.28355;
+RA   Wong B.R., Josien R., Lee S.Y., Vologodskaia M., Steinman R.M., Choi Y.;
+RT   "The TRAF family of signal transducers mediates NF-kappaB activation by the
+RT   TRANCE receptor.";
+RL   J. Biol. Chem. 273:28355-28359(1998).
+RN   [11]
+RP   INTERACTION WITH TNFRSF5.
+RX   PubMed=9432981; DOI=10.1084/jem.187.2.237;
+RA   Kashiwada M., Shirakata Y., Inoue J., Nakano H., Okazaki K., Okumura K.,
+RA   Yamamoto T., Nagaoka H., Takemori T.;
+RT   "Tumor necrosis factor receptor-associated factor 6 (TRAF6) stimulates
+RT   extracellular signal-regulated kinase (ERK) activity in CD40 signaling
+RT   along a ras-independent pathway.";
+RL   J. Exp. Med. 187:237-244(1998).
+RN   [12]
+RP   INTERACTION WITH MAP3K5.
+RX   PubMed=9774977; DOI=10.1016/s1097-2765(00)80283-x;
+RA   Nishitoh H., Saitoh M., Mochida Y., Takeda K., Nakano H., Rothe M.,
+RA   Miyazono K., Ichijo H.;
+RT   "ASK1 is essential for JNK/SAPK activation by TRAF2.";
+RL   Mol. Cell 2:389-395(1998).
+RN   [13]
+RP   INTERACTION WITH MAP3K1.
+RX   PubMed=10346818; DOI=10.1101/gad.13.10.1297;
+RA   Baud V., Liu Z.-G., Bennett B., Suzuki N., Xia Y., Karin M.;
+RT   "Signaling by proinflammatory cytokines: oligomerization of TRAF2 and TRAF6
+RT   is sufficient for JNK and IKK activation and target gene induction via an
+RT   amino-terminal effector domain.";
+RL   Genes Dev. 13:1297-1308(1999).
+RN   [14]
+RP   INTERACTION WITH NGFR.
+RX   PubMed=9915784; DOI=10.1074/jbc.274.5.2597;
+RA   Khursigara G., Orlinick J.R., Chao M.V.;
+RT   "Association of the p75 neurotrophin receptor with TRAF6.";
+RL   J. Biol. Chem. 274:2597-2600(1999).
+RN   [15]
+RP   INTERACTION WITH IRAK3.
+RX   PubMed=10383454; DOI=10.1074/jbc.274.27.19403;
+RA   Wesche H., Gao X., Li X., Kirschning C.J., Stark G.R., Cao Z.;
+RT   "IRAK-M is a novel member of the Pelle/interleukin-1 receptor-associated
+RT   kinase (IRAK) family.";
+RL   J. Biol. Chem. 274:19403-19410(1999).
+RN   [16]
+RP   INTERACTION WITH NGFR.
+RX   PubMed=10514511; DOI=10.1074/jbc.274.42.30202;
+RA   Ye X., Mehlen P., Rabizadeh S., VanArsdale T., Zhang H., Shin H.,
+RA   Wang J.J.L., Leo E., Zapata J.M., Hauser C.A., Reed J.C., Bredesen D.E.;
+RT   "TRAF family proteins interact with the common neurotrophin receptor and
+RT   modulate apoptosis induction.";
+RL   J. Biol. Chem. 274:30202-30208(1999).
+RN   [17]
+RP   INTERACTION WITH TNFRSF11A AND CSK.
+RX   PubMed=10635328; DOI=10.1016/s1097-2765(00)80232-4;
+RA   Wong B.R., Besser D., Kim N., Arron J.R., Vologodskaia M., Hanafusa H.,
+RA   Choi Y.;
+RT   "TRANCE, a TNF family member, activates Akt/PKB through a signaling complex
+RT   involving TRAF6 and c-Src.";
+RL   Mol. Cell 4:1041-1049(1999).
+RN   [18]
+RP   INTERACTION WITH MAP3K7 AND TAB1.
+RX   PubMed=10094049; DOI=10.1038/18465;
+RA   Ninomiya-Tsuji J., Kishimoto K., Hiyama A., Inoue J., Cao Z., Matsumoto K.;
+RT   "The kinase TAK1 can activate the NIK-I kappaB as well as the MAP kinase
+RT   cascade in the IL-1 signalling pathway.";
+RL   Nature 398:252-256(1999).
+RN   [19]
+RP   INTERACTION WITH MAP3K5.
+RX   PubMed=10523862; DOI=10.1038/sj.onc.1202975;
+RA   Hoeflich K.P., Yeh W.C., Yao Z., Mak T.W., Woodgett J.R.;
+RT   "Mediation of TNF receptor-associated factor effector functions by
+RT   apoptosis signal-regulating kinase-1 (ASK1).";
+RL   Oncogene 18:5814-5820(1999).
+RN   [20]
+RP   INTERACTION WITH UBE2V1, AND FUNCTION AS AN E3 UBIQUITIN LIGASE.
+RX   PubMed=11057907; DOI=10.1016/s0092-8674(00)00126-4;
+RA   Deng L., Wang C., Spencer E., Yang L., Braun A., You J., Slaughter C.,
+RA   Pickart C., Chen Z.J.;
+RT   "Activation of the IkappaB kinase complex by TRAF6 requires a dimeric
+RT   ubiquitin-conjugating enzyme complex and a unique polyubiquitin chain.";
+RL   Cell 103:351-361(2000).
+RN   [21]
+RP   INTERACTION WITH TDP2.
+RX   PubMed=10764746; DOI=10.1074/jbc.m000531200;
+RA   Pype S., Declercq W., Ibrahimi A., Michiels C., Van Rietschoten J.G.I.,
+RA   Dewulf N., de Boer M., Vandenabeele P., Huylebroeck D., Remacle J.E.;
+RT   "TTRAP, a novel protein that associates with CD40, tumor necrosis factor
+RT   (TNF) receptor-75 and TNF receptor-associated factors (TRAFs), and that
+RT   inhibits nuclear factor-kappa B activation.";
+RL   J. Biol. Chem. 275:18586-18593(2000).
+RN   [22]
+RP   INTERACTION WITH TNFRSF17.
+RX   PubMed=10908663; DOI=10.1073/pnas.160213497;
+RA   Shu H.-B., Johnson H.;
+RT   "B cell maturation protein is a receptor for the tumor necrosis factor
+RT   family member TALL-1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:9156-9161(2000).
+RN   [23]
+RP   INTERACTION WITH TAX1BP1.
+RX   PubMed=10920205; DOI=10.1073/pnas.170279097;
+RA   Ling L., Goeddel D.V.;
+RT   "T6BP, a TRAF6-interacting protein involved in IL-1 signaling.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:9567-9572(2000).
+RN   [24]
+RP   UBIQUITINATION.
+RX   PubMed=11460167; DOI=10.1038/35085597;
+RA   Wang C., Deng L., Hong M., Akkaraju G.R., Inoue J., Chen Z.J.;
+RT   "TAK1 is a ubiquitin-dependent kinase of MKK and IKK.";
+RL   Nature 412:346-351(2001).
+RN   [25]
+RP   INTERACTION WITH TRAF3IP2.
+RX   PubMed=12459498; DOI=10.1016/s0014-5793(02)03688-8;
+RA   Kanamori M., Kai C., Hayashizaki Y., Suzuki H.;
+RT   "NF-kappaB activator Act1 associates with IL-1/Toll pathway adapter
+RT   molecule TRAF6.";
+RL   FEBS Lett. 532:241-246(2002).
+RN   [26]
+RP   INTERACTION WITH ZNF675.
+RX   PubMed=11751921; DOI=10.1074/jbc.m110964200;
+RA   Shin J.N., Kim I., Lee J.S., Koh G.Y., Lee Z.H., Kim H.-H.;
+RT   "A novel zinc finger protein that inhibits osteoclastogenesis and the
+RT   function of tumor necrosis factor receptor-associated factor 6.";
+RL   J. Biol. Chem. 277:8346-8353(2002).
+RN   [27]
+RP   INTERACTION WITH IRAK4.
+RX   PubMed=11960013; DOI=10.1073/pnas.082100399;
+RA   Li S., Strelow A., Fontana E.J., Wesche H.;
+RT   "IRAK4: a novel member of the IRAK family with the properties of an IRAK-
+RT   kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:5567-5572(2002).
+RN   [28]
+RP   INTERACTION WITH PELI1.
+RX   PubMed=12496252; DOI=10.1074/jbc.m212112200;
+RA   Jiang Z., Johnson H.J., Nie H., Qin J., Bird T.A., Li X.;
+RT   "Pellino 1 is required for interleukin-1 (IL-1)-mediated signaling through
+RT   its interaction with the IL-1 receptor-associated kinase 4 (IRAK4)-IRAK-
+RT   tumor necrosis factor receptor-associated factor 6 (TRAF6) complex.";
+RL   J. Biol. Chem. 278:10952-10956(2003).
+RN   [29]
+RP   INTERACTION WITH PELI1 AND PELI2.
+RX   PubMed=12804775; DOI=10.1016/s0014-5793(03)00533-7;
+RA   Jensen L.E., Whitehead A.S.;
+RT   "Pellino2 activates the mitogen activated protein kinase pathway.";
+RL   FEBS Lett. 545:199-202(2003).
+RN   [30]
+RP   INTERACTION WITH TICAM2.
+RX   PubMed=12721283; DOI=10.1074/jbc.m303451200;
+RA   Bin L.-H., Xu L.-G., Shu H.-B.;
+RT   "TIRP, a novel Toll/interleukin-1 receptor (TIR) domain-containing adapter
+RT   protein involved in TIR signaling.";
+RL   J. Biol. Chem. 278:24526-24532(2003).
+RN   [31]
+RP   INTERACTION WITH PELI3.
+RX   PubMed=12874243; DOI=10.4049/jimmunol.171.3.1500;
+RA   Jensen L.E., Whitehead A.S.;
+RT   "Pellino3, a novel member of the Pellino protein family, promotes
+RT   activation of c-Jun and Elk-1 and may act as a scaffolding protein.";
+RL   J. Immunol. 171:1500-1506(2003).
+RN   [32]
+RP   INTERACTION WITH TICAM1.
+RX   PubMed=14530355; DOI=10.4049/jimmunol.171.8.4304;
+RA   Sato S., Sugiyama M., Yamamoto M., Watanabe Y., Kawai T., Takeda K.,
+RA   Akira S.;
+RT   "Toll/IL-1 receptor domain-containing adapter inducing IFN-beta (TRIF)
+RT   associates with TNF receptor-associated factor 6 and TANK-binding kinase 1,
+RT   and activates two distinct transcription factors, NF-kappa B and IFN-
+RT   regulatory factor-3, in the Toll-like receptor signaling.";
+RL   J. Immunol. 171:4304-4310(2003).
+RN   [33]
+RP   INTERACTION WITH TICAM1.
+RX   PubMed=14739303; DOI=10.1074/jbc.m311629200;
+RA   Han K.J., Su X., Xu L.-G., Bin L.H., Zhang J., Shu H.-B.;
+RT   "Mechanisms of the TRIF-induced interferon-stimulated response element and
+RT   NF-kappaB activation and apoptosis pathways.";
+RL   J. Biol. Chem. 279:15652-15661(2004).
+RN   [34]
+RP   INTERACTION WITH ZFAND5.
+RX   PubMed=14754897; DOI=10.1074/jbc.m309491200;
+RA   Huang J., Teng L., Li L., Liu T., Li L., Chen D., Xu L.-G., Zhai Z.,
+RA   Shu H.-B.;
+RT   "ZNF216 is an A20-like and IkappaB kinase gamma-interacting inhibitor of
+RT   NFkappaB activation.";
+RL   J. Biol. Chem. 279:16847-16853(2004).
+RN   [35]
+RP   INTERACTION WITH EIF2AK2.
+RX   PubMed=15121867; DOI=10.1128/mcb.24.10.4502-4512.2004;
+RA   Gil J., Garcia M.A., Gomez-Puertas P., Guerra S., Rullas J., Nakano H.,
+RA   Alcami J., Esteban M.;
+RT   "TRAF family proteins link PKR with NF-kappa B activation.";
+RL   Mol. Cell. Biol. 24:4502-4512(2004).
+RN   [36]
+RP   INTERACTION WITH TICAM1.
+RX   PubMed=14982987; DOI=10.1073/pnas.0308496101;
+RA   Jiang Z., Mak T.W., Sen G., Li X.;
+RT   "Toll-like receptor 3-mediated activation of NF-kappaB and IRF3 diverges at
+RT   Toll-IL-1 receptor domain-containing adapter inducing IFN-beta.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:3533-3538(2004).
+RN   [37]
+RP   INTERACTION WITH MAVS.
+RX   PubMed=16125763; DOI=10.1016/j.cell.2005.08.012;
+RA   Seth R.B., Sun L., Ea C.-K., Chen Z.J.;
+RT   "Identification and characterization of MAVS, a mitochondrial antiviral
+RT   signaling protein that activates NF-kappaB and IRF 3.";
+RL   Cell 122:669-682(2005).
+RN   [38]
+RP   INTERACTION WITH IL1RL1.
+RX   PubMed=16286016; DOI=10.1016/j.immuni.2005.09.015;
+RA   Schmitz J., Owyang A., Oldham E., Song Y., Murphy E., McClanahan T.K.,
+RA   Zurawski G., Moshrefi M., Qin J., Li X., Gorman D.M., Bazan J.F.,
+RA   Kastelein R.A.;
+RT   "IL-33, an interleukin-1-like cytokine that signals via the IL-1 receptor-
+RT   related protein ST 2 and induces T helper type 2-associated cytokines.";
+RL   Immunity 23:479-490(2005).
+RN   [39]
+RP   INTERACTION WITH TRAFD1.
+RX   PubMed=16221674; DOI=10.1074/jbc.m508221200;
+RA   Mashima R., Saeki K., Aki D., Minoda Y., Takaki H., Sanada T.,
+RA   Kobayashi T., Aburatani H., Yamanashi Y., Yoshimura A.;
+RT   "FLN29, a novel interferon- and LPS-inducible gene acting as a negative
+RT   regulator of toll-like receptor signaling.";
+RL   J. Biol. Chem. 280:41289-41297(2005).
+RN   [40]
+RP   INTERACTION WITH MAVS.
+RX   PubMed=16153868; DOI=10.1016/j.molcel.2005.08.014;
+RA   Xu L.-G., Wang Y.-Y., Han K.-J., Li L.-Y., Zhai Z., Shu H.-B.;
+RT   "VISA is an adapter protein required for virus-triggered IFN-beta
+RT   Signaling.";
+RL   Mol. Cell 19:727-740(2005).
+RN   [41]
+RP   INTERACTION WITH AJUBA.
+RX   PubMed=15870274; DOI=10.1128/mcb.25.10.4010-4022.2005;
+RA   Feng Y., Longmore G.D.;
+RT   "The LIM protein Ajuba influences interleukin-1-induced NF-kappaB
+RT   activation by affecting the assembly and activity of the protein kinase
+RT   Czeta/p62/TRAF6 signaling complex.";
+RL   Mol. Cell. Biol. 25:4010-4022(2005).
+RN   [42]
+RP   FUNCTION IN TRANSCRIPTIONAL ACTIVATION OF NF-KAPPA-B AND JUN, AND
+RP   INTERACTION WITH ARRB1 AND ARRB2.
+RX   PubMed=16378096; DOI=10.1038/ni1294;
+RA   Wang Y., Tang Y., Teng L., Wu Y., Zhao X., Pei G.;
+RT   "Association of beta-arrestin and TRAF6 negatively regulates Toll-like
+RT   receptor-interleukin 1 receptor signaling.";
+RL   Nat. Immunol. 7:139-147(2006).
+RN   [43]
+RP   IDENTIFICATION IN COMPLEX WITH IRAK1; IRAK4; MYD88 AND PELI1.
+RX   PubMed=16951688; DOI=10.1038/ni1383;
+RA   Choi K.C., Lee Y.S., Lim S., Choi H.K., Lee C.H., Lee E.K., Hong S.,
+RA   Kim I.H., Kim S.J., Park S.H.;
+RT   "Smad6 negatively regulates interleukin 1-receptor-Toll-like receptor
+RT   signaling through direct interaction with the adapter Pellino-1.";
+RL   Nat. Immunol. 7:1057-1065(2006).
+RN   [44]
+RP   MUTAGENESIS OF CYS-70 AND LYS-124, UBIQUITINATION AT LYS-124, FUNCTION, AND
+RP   CATALYTIC ACTIVITY.
+RX   PubMed=17135271; DOI=10.1074/jbc.m609503200;
+RA   Lamothe B., Besse A., Campos A.D., Webster W.K., Wu H., Darnay B.G.;
+RT   "Site-specific Lys-63-linked tumor necrosis factor receptor-associated
+RT   factor 6 auto-ubiquitination is a critical determinant of I kappa B kinase
+RT   activation.";
+RL   J. Biol. Chem. 282:4102-4112(2007).
+RN   [45]
+RP   INTERACTION WITH RBCK1.
+RX   PubMed=17449468; DOI=10.1074/jbc.m701913200;
+RA   Tian Y., Zhang Y., Zhong B., Wang Y.Y., Diao F.C., Wang R.P., Zhang M.,
+RA   Chen D.Y., Zhai Z.H., Shu H.B.;
+RT   "RBCK1 negatively regulates tumor necrosis factor- and interleukin-1-
+RT   triggered NF-kappaB activation by targeting TAB2/3 for degradation.";
+RL   J. Biol. Chem. 282:16776-16782(2007).
+RN   [46]
+RP   FUNCTION, AND INTERACTION WITH TAX1BP1.
+RX   PubMed=17703191; DOI=10.1038/sj.emboj.7601823;
+RA   Shembade N., Harhaj N.S., Liebl D.J., Harhaj E.W.;
+RT   "Essential role for TAX1BP1 in the termination of TNF-alpha-, IL-1- and
+RT   LPS-mediated NF-kappaB and JNK signaling.";
+RL   EMBO J. 26:3910-3922(2007).
+RN   [47]
+RP   SUBCELLULAR LOCATION, FUNCTION, SUMOYLATION AT LYS-124; LYS-142 AND
+RP   LYS-453, UBIQUITINATION, INTERACTION WITH HDAC1 AND RANGAP1, AND
+RP   MUTAGENESIS OF LYS-124; LYS-142 AND LYS-453.
+RX   PubMed=18093978; DOI=10.1074/jbc.m706307200;
+RA   Pham L.V., Zhou H.J., Lin-Lee Y.C., Tamayo A.T., Yoshimura L.C., Fu L.,
+RA   Darnay B.G., Ford R.J.;
+RT   "Nuclear tumor necrosis factor receptor-associated factor 6 in lymphoid
+RT   cells negatively regulates c-Myb-mediated transactivation through small
+RT   ubiquitin-related modifier-1 modification.";
+RL   J. Biol. Chem. 283:5081-5089(2008).
+RN   [48]
+RP   FUNCTION IN UBIQUITINATION OR IRAK1.
+RX   PubMed=18347055; DOI=10.1128/mcb.02098-07;
+RA   Conze D.B., Wu C.J., Thomas J.A., Landstrom A., Ashwell J.D.;
+RT   "Lys63-linked polyubiquitination of IRAK-1 is required for interleukin-1
+RT   receptor- and toll-like receptor-mediated NF-kappaB activation.";
+RL   Mol. Cell. Biol. 28:3538-3547(2008).
+RN   [49]
+RP   FUNCTION, INTERACTION WITH TGFBR1, AND UBIQUITINATION.
+RX   PubMed=18758450; DOI=10.1038/ncb1780;
+RA   Sorrentino A., Thakur N., Grimsby S., Marcusson A., von Bulow V.,
+RA   Schuster N., Zhang S., Heldin C.H., Landstrom M.;
+RT   "The type I TGF-beta receptor engages TRAF6 to activate TAK1 in a receptor
+RT   kinase-independent manner.";
+RL   Nat. Cell Biol. 10:1199-1207(2008).
+RN   [50]
+RP   INTERACTION WITH DYNC2I2.
+RX   PubMed=19521662; DOI=10.1007/s00018-009-0059-6;
+RA   Gao D., Wang R., Li B., Yang Y., Zhai Z., Chen D.Y.;
+RT   "WDR34 is a novel TAK1-associated suppressor of the IL-1R/TLR3/TLR4-induced
+RT   NF-kappaB activation pathway.";
+RL   Cell. Mol. Life Sci. 66:2573-2584(2009).
+RN   [51]
+RP   FUNCTION, AND UBIQUITINATION.
+RX   PubMed=19675569; DOI=10.1038/nature08247;
+RA   Xia Z.-P., Sun L., Chen X., Pineda G., Jiang X., Adhikari A., Zeng W.,
+RA   Chen Z.J.;
+RT   "Direct activation of protein kinases by unanchored polyubiquitin chains.";
+RL   Nature 461:114-119(2009).
+RN   [52]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=19713527; DOI=10.1126/science.1175065;
+RA   Yang W.-L., Wang J., Chan C.-H., Lee S.-W., Campos A.D., Lamothe B.,
+RA   Hur L., Grabiner B.C., Lin X., Darnay B.G., Lin H.-K.;
+RT   "The E3 ligase TRAF6 regulates Akt ubiquitination and activation.";
+RL   Science 325:1134-1138(2009).
+RN   [53]
+RP   FUNCTION, UBIQUITINATION AT LYS-124, MUTAGENESIS OF CYS-70 AND LYS-124, AND
+RP   INTERACTION WITH IL17RA AND TRAF3IP2.
+RX   PubMed=19825828; DOI=10.1126/scisignal.2000382;
+RA   Liu C., Qian W., Qian Y., Giltiay N.V., Lu Y., Swaidani S., Misra S.,
+RA   Deng L., Chen Z.J., Li X.;
+RT   "Act1, a U-box E3 ubiquitin ligase for IL-17 signaling.";
+RL   Sci. Signal. 2:ra63-ra63(2009).
+RN   [54]
+RP   INTERACTION WITH NUMBL.
+RX   PubMed=20079715; DOI=10.1016/j.bbrc.2010.01.037;
+RA   Zhou L., Ma Q., Shi H., Huo K.;
+RT   "NUMBL interacts with TRAF6 and promotes the degradation of TRAF6.";
+RL   Biochem. Biophys. Res. Commun. 392:409-414(2010).
+RN   [55]
+RP   INTERACTION WITH TOMM70.
+RX   PubMed=20628368; DOI=10.1038/cr.2010.103;
+RA   Liu X.Y., Wei B., Shi H.X., Shan Y.F., Wang C.;
+RT   "Tom70 mediates activation of interferon regulatory factor 3 on
+RT   mitochondria.";
+RL   Cell Res. 20:994-1011(2010).
+RN   [56]
+RP   INTERACTION WITH CARD14.
+RX   PubMed=21302310; DOI=10.1002/jcp.22667;
+RA   Scudiero I., Zotti T., Ferravante A., Vessichelli M., Vito P., Stilo R.;
+RT   "Alternative splicing of CARMA2/CARD14 transcripts generates protein
+RT   variants with differential effect on NF-kappaB activation and endoplasmic
+RT   reticulum stress-induced cell death.";
+RL   J. Cell. Physiol. 226:3121-3131(2011).
+RN   [57]
+RP   INTERACTION WITH IFIT3.
+RX   PubMed=21813773; DOI=10.4049/jimmunol.1100963;
+RA   Liu X.Y., Chen W., Wei B., Shan Y.F., Wang C.;
+RT   "IFN-induced TPR protein IFIT3 potentiates antiviral signaling by bridging
+RT   MAVS and TBK1.";
+RL   J. Immunol. 187:2559-2568(2011).
+RN   [58]
+RP   INTERACTION WITH SASH1.
+RX   PubMed=23776175; DOI=10.4049/jimmunol.1200583;
+RA   Dauphinee S.M., Clayton A., Hussainkhel A., Yang C., Park Y.J.,
+RA   Fuller M.E., Blonder J., Veenstra T.D., Karsan A.;
+RT   "SASH1 is a scaffold molecule in endothelial TLR4 signaling.";
+RL   J. Immunol. 191:892-901(2013).
+RN   [59]
+RP   INTERACTION WITH AMBRA1.
+RX   PubMed=23524951; DOI=10.1038/ncb2708;
+RA   Nazio F., Strappazzon F., Antonioli M., Bielli P., Cianfanelli V.,
+RA   Bordi M., Gretzmeier C., Dengjel J., Piacentini M., Fimia G.M., Cecconi F.;
+RT   "mTOR inhibits autophagy by controlling ULK1 ubiquitylation, self-
+RT   association and function through AMBRA1 and TRAF6.";
+RL   Nat. Cell Biol. 15:406-416(2013).
+RN   [60]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, AND MUTAGENESIS OF
+RP   CYS-70.
+RX   PubMed=23514740; DOI=10.4049/jimmunol.1202742;
+RA   Xie J.J., Liang J.Q., Diao L.H., Altman A., Li Y.;
+RT   "TNFR-associated factor 6 regulates TCR signaling via interaction with and
+RT   modification of LAT adapter.";
+RL   J. Immunol. 190:4027-4036(2013).
+RN   [61]
+RP   SUBCELLULAR LOCATION, AND DEUBIQUITINATION BY EPSTEIN-BARR VIRUS PROTEIN
+RP   BPLF1 (MICROBIAL INFECTION).
+RX   PubMed=24586164; DOI=10.1371/journal.ppat.1003960;
+RA   van Gent M., Braem S.G., de Jong A., Delagic N., Peeters J.G., Boer I.G.,
+RA   Moynagh P.N., Kremmer E., Wiertz E.J., Ovaa H., Griffin B.D., Ressing M.E.;
+RT   "Epstein-Barr virus large tegument protein BPLF1 contributes to innate
+RT   immune evasion through interference with toll-like receptor signaling.";
+RL   PLoS Pathog. 10:e1003960-e1003960(2014).
+RN   [62]
+RP   UBIQUITINATION, AND INTERACTION WITH LRRC19.
+RX   PubMed=25026888; DOI=10.1038/ncomms5434;
+RA   Su X., Min S., Cao S., Yan H., Zhao Y., Li H., Chai L., Mei S., Yang J.,
+RA   Zhang Y., Zhang Z., Liu F., Sun W., Che Y., Yang R.;
+RT   "LRRC19 expressed in the kidney induces TRAF2/6-mediated signals to prevent
+RT   infection by uropathogenic bacteria.";
+RL   Nat. Commun. 5:4434-4434(2014).
+RN   [63]
+RP   FUNCTION.
+RX   PubMed=25907557; DOI=10.1074/jbc.m115.646422;
+RA   Yang Y., Wu S., Wang Y., Pan S., Lan B., Liu Y., Zhang L., Leng Q.,
+RA   Chen D., Zhang C., He B., Cao Y.;
+RT   "The Us3 Protein of Herpes Simplex Virus 1 Inhibits T Cell Signaling by
+RT   Confining Linker for Activation of T Cells (LAT) Activation via TRAF6
+RT   Protein.";
+RL   J. Biol. Chem. 290:15670-15678(2015).
+RN   [64]
+RP   INTERACTION WITH TICAM1.
+RX   PubMed=25736436; DOI=10.15252/embr.201439637;
+RA   Hu Y.H., Zhang Y., Jiang L.Q., Wang S., Lei C.Q., Sun M.S., Shu H.B.,
+RA   Liu Y.;
+RT   "WDFY1 mediates TLR3/4 signaling by recruiting TRIF.";
+RL   EMBO Rep. 16:447-455(2015).
+RN   [65]
+RP   INTERACTION WITH TANK; USP10 AND ZC3H12A, AND DEUBIQUITINATION BY USP10.
+RX   PubMed=25861989; DOI=10.1074/jbc.m115.643767;
+RA   Wang W., Huang X., Xin H.B., Fu M., Xue A., Wu Z.H.;
+RT   "TRAF family member-associated NF-kappaB activator (TANK) inhibits
+RT   genotoxic nuclear factor kappaB activation by facilitating deubiquitinase
+RT   USP10-dependent deubiquitination of TRAF6 ligase.";
+RL   J. Biol. Chem. 290:13372-13385(2015).
+RN   [66]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND MUTAGENESIS OF CYS-70.
+RX   PubMed=27746020; DOI=10.1016/j.molcel.2016.09.014;
+RA   Ohtake F., Saeki Y., Ishido S., Kanno J., Tanaka K.;
+RT   "The K48-K63 branched ubiquitin chain regulates NF-kappaB signaling.";
+RL   Mol. Cell 64:251-266(2016).
+RN   [67]
+RP   INTERACTION WITH TRIM13.
+RX   PubMed=28087809; DOI=10.1124/mol.116.106716;
+RA   Huang B., Baek S.H.;
+RT   "Trim13 potentiates toll-like receptor 2-mediated nuclear factor kappaB
+RT   activation via K29-linked polyubiquitination of tumor necrosis factor
+RT   receptor-associated factor 6.";
+RL   Mol. Pharmacol. 91:307-316(2017).
+RN   [68]
+RP   FUNCTION, AND INTERACTION WITH CRBN.
+RX   PubMed=31620128; DOI=10.3389/fimmu.2019.02203;
+RA   Kim M.J., Min Y., Shim J.H., Chun E., Lee K.Y.;
+RT   "CRBN Is a Negative Regulator of Bactericidal Activity and Autophagy
+RT   Activation Through Inhibiting the Ubiquitination of ECSIT and BECN1.";
+RL   Front. Immunol. 10:2203-2203(2019).
+RN   [69]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 347-506 OF APOPROTEIN AND IN
+RP   COMPLEXES WITH TNFRSF5 AND TNFRSF11A PEPTIDES, FUNCTION, AND SUBUNIT.
+RX   PubMed=12140561; DOI=10.1038/nature00888;
+RA   Ye H., Arron J.R., Lamothe B., Cirilli M., Kobayashi T., Shevde N.K.,
+RA   Segal D., Dzivenu O.K., Vologodskaia M., Yim M., Du K., Singh S.,
+RA   Pike J.W., Darnay B.G., Choi Y., Wu H.;
+RT   "Distinct molecular mechanism for initiating TRAF6 signalling.";
+RL   Nature 418:443-447(2002).
+RN   [70]
+RP   STRUCTURE BY NMR OF 63-124 IN COMPLEX WITH ZINC IONS, AND INTERACTION WITH
+RP   UBE2N.
+RX   PubMed=17327397; DOI=10.1110/ps.062358007;
+RA   Mercier P., Lewis M.J., Hau D.D., Saltibus L.F., Xiao W., Spyracopoulos L.;
+RT   "Structure, interactions, and dynamics of the RING domain from human
+RT   TRAF6.";
+RL   Protein Sci. 16:602-614(2007).
+RN   [71]
+RP   STRUCTURE BY NMR OF 43-128.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the RING domain of the human TNF receptor-associated
+RT   factor 6 protein.";
+RL   Submitted (MAR-2008) to the PDB data bank.
+RN   [72]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 50-211 IN COMPLEXES WITH ZINC IONS
+RP   AND UBE2N, SUBUNIT, FUNCTION, AUTOUBIQUITINATION, MUTAGENESIS OF ASP-57;
+RP   CYS-70; ILE-72; LEU-74; ARG-88; PHE-118; PHE-122 AND LYS-124, AND
+RP   ZINC-FINGER.
+RX   PubMed=19465916; DOI=10.1038/nsmb.1605;
+RA   Yin Q., Lin S.C., Lamothe B., Lu M., Lo Y.C., Hura G., Zheng L., Rich R.L.,
+RA   Campos A.D., Myszka D.G., Lenardo M.J., Darnay B.G., Wu H.;
+RT   "E2 interaction and dimerization in the crystal structure of TRAF6.";
+RL   Nat. Struct. Mol. Biol. 16:658-666(2009).
+CC   -!- FUNCTION: E3 ubiquitin ligase that, together with UBE2N and UBE2V1,
+CC       mediates the synthesis of 'Lys-63'-linked-polyubiquitin chains
+CC       conjugated to proteins, such as ECSIT, IKBKG, IRAK1, AKT1 and AKT2
+CC       (PubMed:11057907, PubMed:18347055, PubMed:19465916, PubMed:19713527,
+CC       PubMed:27746020, PubMed:31620128). Also mediates ubiquitination of
+CC       free/unanchored polyubiquitin chain that leads to MAP3K7 activation
+CC       (PubMed:19675569). Leads to the activation of NF-kappa-B and JUN
+CC       (PubMed:16378096, PubMed:17135271, PubMed:17703191). Seems to also play
+CC       a role in dendritic cells (DCs) maturation and/or activation (By
+CC       similarity). Represses c-Myb-mediated transactivation, in B-lymphocytes
+CC       (PubMed:18093978, PubMed:18758450). Adapter protein that seems to play
+CC       a role in signal transduction initiated via TNF receptor, IL-1 receptor
+CC       and IL-17 receptor (PubMed:12140561, PubMed:19825828, PubMed:8837778).
+CC       Regulates osteoclast differentiation by mediating the activation of
+CC       adapter protein complex 1 (AP-1) and NF-kappa-B, in response to RANK-L
+CC       stimulation (By similarity). Together with MAP3K8, mediates CD40
+CC       signals that activate ERK in B-cells and macrophages, and thus may play
+CC       a role in the regulation of immunoglobulin production (By similarity).
+CC       Acts as a regulator of the JNK and NF-kappa-B signaling pathways by
+CC       initiating assembly of heterotypic 'Lys-63'-/'Lys-48'-linked branched
+CC       ubiquitin chains that are then recognized by TAB2: TRAF6 catalyzes
+CC       initial 'Lys-63'-linked-polyubiquitin chains that are then branched via
+CC       'Lys-48'-linked polyubiquitin by HUWE1 (PubMed:27746020). 'Lys-
+CC       63'-/'Lys-48'-linked branched ubiquitin chains protect 'Lys-63'-
+CC       linkages from CYLD deubiquitination (PubMed:27746020). Participates
+CC       also in the TCR signaling by ubiquitinating LAT (PubMed:23514740,
+CC       PubMed:25907557). {ECO:0000250|UniProtKB:P70196,
+CC       ECO:0000269|PubMed:11057907, ECO:0000269|PubMed:12140561,
+CC       ECO:0000269|PubMed:16378096, ECO:0000269|PubMed:17135271,
+CC       ECO:0000269|PubMed:17703191, ECO:0000269|PubMed:18093978,
+CC       ECO:0000269|PubMed:18347055, ECO:0000269|PubMed:18758450,
+CC       ECO:0000269|PubMed:19465916, ECO:0000269|PubMed:19675569,
+CC       ECO:0000269|PubMed:19713527, ECO:0000269|PubMed:19825828,
+CC       ECO:0000269|PubMed:23514740, ECO:0000269|PubMed:25907557,
+CC       ECO:0000269|PubMed:27746020, ECO:0000269|PubMed:31620128,
+CC       ECO:0000269|PubMed:8837778}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27; Evidence={ECO:0000269|PubMed:17135271,
+CC         ECO:0000269|PubMed:19713527, ECO:0000269|PubMed:23514740,
+CC         ECO:0000269|PubMed:27746020};
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC       {ECO:0000269|PubMed:23514740, ECO:0000269|PubMed:27746020}.
+CC   -!- SUBUNIT: Homotrimer. Homooligomer. N-terminal region is dimeric while
+CC       C-terminal region is trimeric; maybe providing a mode of
+CC       oligomerization. Upon IL1B treatment, forms a complex with PELI1,
+CC       IRAK1, IRAK4 and MYD88; this complex recruits MAP3K7/TAK1, TAB1 and
+CC       TAB2 to mediate NF-kappa-B activation. Direct binding of SMAD6 to PELI1
+CC       prevents the complex formation and hence negatively regulates IL1R-TLR
+CC       signaling and eventually NF-kappa-B-mediated gene expression. Binds to
+CC       TNFRSF5/CD40 and TNFRSF11A/RANK. Associates with NGFR, TNFRSF17, IRAK2,
+CC       IRAK3, RIPK2, MAP3K1, MAP3K5, MAP3K14, CSK, TRAF, TRAF-interacting
+CC       protein TRIP and TNF receptor associated protein TDP2. Interacts with
+CC       IL17R. Interacts with SQSTM1 bridging NTRK1 and NGFR. Forms a ternary
+CC       complex with SQSTM1 and PRKCZ (By similarity). Interacts with PELI2 and
+CC       PELI3. Binds UBE2V1. Interacts with TAX1BP1; this interaction mediates
+CC       deubiquitination of TRAF6 and inhibition of NF-kappa-B activation
+CC       (PubMed:10920205, PubMed:17703191). Interacts with ZNF675. Interacts
+CC       with ARRB1 and ARRB2. Interacts with MAP3K7 and TAB1/MAP3K7IP1; during
+CC       IL-1 signaling. Interacts with UBE2N. Interacts with TGFBR1, HDAC1 and
+CC       RANGAP1. Interacts with AKT1, AKT2 and AKT3. Interacts (via TRAF
+CC       domains) with NUMBL (via C-terminal). Interacts with RBCK1. Interacts
+CC       with LIMD1 (via LIM domains) (By similarity). Interacts with
+CC       RSAD2/viperin (By similarity). Interacts (via C-terminus) with
+CC       EIF2AK2/PKR (via the kinase catalytic domain) (By similarity).
+CC       Interacts with ZFAND5. Interacts with IL1RL1. Interacts with TRAFD1.
+CC       Interacts with AJUBA. Interacts with MAVS/IPS1. Interacts (via TRAF
+CC       domains) with DYNC2I2 (via WD domains). Interacts with IFIT3 (via N-
+CC       terminus). Interacts with TICAM2. Interacts with CARD14. Interacts with
+CC       CD40 and MAP3K8; the interaction is required for ERK activation (By
+CC       similarity). Interacts with TICAM1 and this interaction is enhanced in
+CC       the presence of WDFY1 (PubMed:25736436). Interacts with TANK; this
+CC       interaction increases in response to DNA damage (PubMed:25861989).
+CC       Interacts with USP10; this interaction increases in response to DNA
+CC       damage (PubMed:25861989). Interacts with ZC3H12A; this interaction
+CC       increases in response to DNA damage and is stimulated by TANK
+CC       (PubMed:25861989). Interacts with WDFY3 (By similarity). Interacts with
+CC       TRIM13 (PubMed:28087809). Interacts with GPS2 (By similarity).
+CC       Interacts (via C-terminus) with SASH1 (PubMed:23776175). Interacts with
+CC       LRRC19 (PubMed:25026888). Interacts with IL17RA and TRAF3IP2. Interacts
+CC       with TOMM70 (PubMed:20628368). Interacts with AMBRA1; interaction is
+CC       required to mediate 'Lys-63'-linked ubiquitination of ULK1
+CC       (PubMed:23524951). Interacts with CRBN; this interaction inhibits TLR4-
+CC       mediated signaling by preventing TRAF6-mediated ubiquitination of ECSIT
+CC       (PubMed:31620128). {ECO:0000250|UniProtKB:P70196,
+CC       ECO:0000269|PubMed:10920205, ECO:0000269|PubMed:17703191,
+CC       ECO:0000269|PubMed:19825828, ECO:0000269|PubMed:20628368,
+CC       ECO:0000269|PubMed:23524951, ECO:0000269|PubMed:23776175,
+CC       ECO:0000269|PubMed:25026888, ECO:0000269|PubMed:25736436,
+CC       ECO:0000269|PubMed:25861989, ECO:0000269|PubMed:28087809,
+CC       ECO:0000269|PubMed:31620128}.
+CC   -!- INTERACTION:
+CC       Q9Y4K3; Q9C0C7-3: AMBRA1; NbExp=2; IntAct=EBI-359276, EBI-16042318;
+CC       Q9Y4K3; Q8IWQ3-3: BRSK2; NbExp=3; IntAct=EBI-359276, EBI-13085322;
+CC       Q9Y4K3; P25942: CD40; NbExp=2; IntAct=EBI-359276, EBI-525714;
+CC       Q9Y4K3; Q9HAV5: EDA2R; NbExp=3; IntAct=EBI-359276, EBI-526033;
+CC       Q9Y4K3; Q8WWZ3: EDARADD; NbExp=5; IntAct=EBI-359276, EBI-2949647;
+CC       Q9Y4K3; P14778: IL1R1; NbExp=2; IntAct=EBI-359276, EBI-525905;
+CC       Q9Y4K3; Q8NA54: IQUB; NbExp=3; IntAct=EBI-359276, EBI-10220600;
+CC       Q9Y4K3; P51617: IRAK1; NbExp=3; IntAct=EBI-359276, EBI-358664;
+CC       Q9Y4K3; O43187: IRAK2; NbExp=4; IntAct=EBI-359276, EBI-447733;
+CC       Q9Y4K3; Q9Y616: IRAK3; NbExp=3; IntAct=EBI-359276, EBI-447690;
+CC       Q9Y4K3; Q8TBB1: LNX1; NbExp=3; IntAct=EBI-359276, EBI-739832;
+CC       Q9Y4K3; Q9UDY8: MALT1; NbExp=5; IntAct=EBI-359276, EBI-1047372;
+CC       Q9Y4K3; O43318: MAP3K7; NbExp=2; IntAct=EBI-359276, EBI-358684;
+CC       Q9Y4K3; Q7Z434: MAVS; NbExp=4; IntAct=EBI-359276, EBI-995373;
+CC       Q9Y4K3; P50222: MEOX2; NbExp=3; IntAct=EBI-359276, EBI-748397;
+CC       Q9Y4K3; Q8N3F0: MTURN; NbExp=3; IntAct=EBI-359276, EBI-11980301;
+CC       Q9Y4K3; Q96DC9: OTUB2; NbExp=3; IntAct=EBI-359276, EBI-746259;
+CC       Q9Y4K3; Q9H8W4: PLEKHF2; NbExp=3; IntAct=EBI-359276, EBI-742388;
+CC       Q9Y4K3; Q9UNA4: POLI; NbExp=3; IntAct=EBI-359276, EBI-741774;
+CC       Q9Y4K3; P54725: RAD23A; NbExp=3; IntAct=EBI-359276, EBI-746453;
+CC       Q9Y4K3; Q9BVN2-2: RUSC1; NbExp=2; IntAct=EBI-359276, EBI-6257338;
+CC       Q9Y4K3; P04271: S100B; NbExp=3; IntAct=EBI-359276, EBI-458391;
+CC       Q9Y4K3; Q9NYA1: SPHK1; NbExp=2; IntAct=EBI-359276, EBI-985303;
+CC       Q9Y4K3; Q13501: SQSTM1; NbExp=4; IntAct=EBI-359276, EBI-307104;
+CC       Q9Y4K3; P43405-2: SYK; NbExp=3; IntAct=EBI-359276, EBI-25892332;
+CC       Q9Y4K3; Q9NYJ8: TAB2; NbExp=3; IntAct=EBI-359276, EBI-358708;
+CC       Q9Y4K3; Q86VP1: TAX1BP1; NbExp=8; IntAct=EBI-359276, EBI-529518;
+CC       Q9Y4K3; Q96CG3: TIFA; NbExp=6; IntAct=EBI-359276, EBI-740711;
+CC       Q9Y4K3; Q9UKE5: TNIK; NbExp=3; IntAct=EBI-359276, EBI-1051794;
+CC       Q9Y4K3; Q13077: TRAF1; NbExp=20; IntAct=EBI-359276, EBI-359224;
+CC       Q9Y4K3; Q12933: TRAF2; NbExp=10; IntAct=EBI-359276, EBI-355744;
+CC       Q9Y4K3; O43734: TRAF3IP2; NbExp=4; IntAct=EBI-359276, EBI-744798;
+CC       Q9Y4K3; O00463: TRAF5; NbExp=15; IntAct=EBI-359276, EBI-523498;
+CC       Q9Y4K3; Q9Y4K3: TRAF6; NbExp=11; IntAct=EBI-359276, EBI-359276;
+CC       Q9Y4K3; P0CG48: UBC; NbExp=3; IntAct=EBI-359276, EBI-3390054;
+CC       Q9Y4K3; P51668: UBE2D1; NbExp=2; IntAct=EBI-359276, EBI-743540;
+CC       Q9Y4K3; P62837: UBE2D2; NbExp=5; IntAct=EBI-359276, EBI-347677;
+CC       Q9Y4K3; P61077: UBE2D3; NbExp=2; IntAct=EBI-359276, EBI-348268;
+CC       Q9Y4K3; P61088: UBE2N; NbExp=8; IntAct=EBI-359276, EBI-1052908;
+CC       Q9Y4K3; Q9HAC8: UBTD1; NbExp=3; IntAct=EBI-359276, EBI-745871;
+CC       Q9Y4K3; O94888: UBXN7; NbExp=3; IntAct=EBI-359276, EBI-1993627;
+CC       Q9Y4K3; P09936: UCHL1; NbExp=3; IntAct=EBI-359276, EBI-714860;
+CC       Q9Y4K3; O75385: ULK1; NbExp=2; IntAct=EBI-359276, EBI-908831;
+CC       Q9Y4K3; O75604: USP2; NbExp=3; IntAct=EBI-359276, EBI-743272;
+CC       Q9Y4K3; Q8N1B4: VPS52; NbExp=6; IntAct=EBI-359276, EBI-2799833;
+CC       Q9Y4K3; P61964: WDR5; NbExp=2; IntAct=EBI-359276, EBI-540834;
+CC       Q9Y4K3; P07947: YES1; NbExp=6; IntAct=EBI-359276, EBI-515331;
+CC       Q9Y4K3; Q5VVQ6: YOD1; NbExp=5; IntAct=EBI-359276, EBI-2510804;
+CC       Q9Y4K3; P24278: ZBTB25; NbExp=3; IntAct=EBI-359276, EBI-739899;
+CC       Q9Y4K3; Q8TD23: ZNF675; NbExp=4; IntAct=EBI-359276, EBI-528190;
+CC       Q9Y4K3; Q9UGI0: ZRANB1; NbExp=4; IntAct=EBI-359276, EBI-527853;
+CC       Q9Y4K3; Q9QZH6: Ecsit; Xeno; NbExp=2; IntAct=EBI-359276, EBI-527020;
+CC       Q9Y4K3; P07174: Ngfr; Xeno; NbExp=2; IntAct=EBI-359276, EBI-1038810;
+CC       Q9Y4K3; P10221: UL37; Xeno; NbExp=3; IntAct=EBI-359276, EBI-6880600;
+CC       Q9Y4K3; Q01220: VACWR178; Xeno; NbExp=2; IntAct=EBI-359276, EBI-3863691;
+CC       Q9Y4K3; Q8V2D1; Xeno; NbExp=3; IntAct=EBI-359276, EBI-8622036;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:18093978,
+CC       ECO:0000269|PubMed:23514740, ECO:0000269|PubMed:24586164}. Cytoplasm,
+CC       cell cortex {ECO:0000269|PubMed:18093978}. Nucleus
+CC       {ECO:0000269|PubMed:18093978}. Lipid droplet
+CC       {ECO:0000250|UniProtKB:P70196}. Note=Found in the nuclei of some
+CC       aggressive B-cell lymphoma cell lines as well as in the nuclei of both
+CC       resting and activated T- and B-lymphocytes. Found in punctate nuclear
+CC       body protein complexes. Ubiquitination may occur in the cytoplasm and
+CC       sumoylation in the nucleus. RSAD2/viperin recruits it to the lipid
+CC       droplet (By similarity). {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in heart, brain, placenta, lung, liver,
+CC       skeletal muscle, kidney and pancreas.
+CC   -!- DOMAIN: The coiled coil domain mediates homo- and hetero-
+CC       oligomerization.
+CC   -!- DOMAIN: The MATH/TRAF domain binds to receptor cytoplasmic domains.
+CC   -!- PTM: Sumoylated on Lys-124, Lys-142 and Lys-453 with SUMO1.
+CC       {ECO:0000269|PubMed:18093978}.
+CC   -!- PTM: Polyubiquitinated on Lys-124 by TRAF3IP2; after cell stimulation
+CC       with IL17A (PubMed:19825828). Polyubiquitinated on Lys-124; after cell
+CC       stimulation with IL1B or TGFB. This ligand-induced cell stimulation
+CC       leads to dimerization/oligomerization of TRAF6 molecules, followed by
+CC       auto-ubiquitination which involves UBE2N and UBE2V1 and leads to TRAF6
+CC       activation. This 'Lys-63' site-specific poly-ubiquitination appears to
+CC       be associated with the activation of signaling molecules. Endogenous
+CC       autoubiquitination occurs only for the cytoplasmic form.
+CC       Deubiquitinated by USP10 in a TANK-dependent manner, leading to the
+CC       negative regulation of NF-kappaB signaling upon DNA damage
+CC       (PubMed:25861989). LRRC19 induces 'Lys-63' ubiquitination
+CC       (PubMed:25026888). Ubiquitinated at Lys-319 by the SCF(FBXL2) complex,
+CC       leading to its degradation by the proteasome (By similarity).
+CC       {ECO:0000250|UniProtKB:P70196, ECO:0000269|PubMed:11460167,
+CC       ECO:0000269|PubMed:17135271, ECO:0000269|PubMed:18093978,
+CC       ECO:0000269|PubMed:18758450, ECO:0000269|PubMed:19465916,
+CC       ECO:0000269|PubMed:19675569, ECO:0000269|PubMed:19825828,
+CC       ECO:0000269|PubMed:25026888, ECO:0000269|PubMed:25861989}.
+CC   -!- PTM: (Microbial infection) Deubiquitinated by Epstein-Barr virus BPLF1
+CC       on both 'Lys-48' and 'Lys-63'-linked ubiquitin chains; leading to NF-
+CC       kappa-B signaling inhibition. {ECO:0000269|PubMed:24586164}.
+CC   -!- SIMILARITY: Belongs to the TNF receptor-associated factor family. A
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U78798; AAB38751.1; -; mRNA.
+DR   EMBL; AY228337; AAO38054.1; -; Genomic_DNA.
+DR   EMBL; AK292978; BAF85667.1; -; mRNA.
+DR   EMBL; AC009656; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC061999; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471064; EAW68119.1; -; Genomic_DNA.
+DR   EMBL; CH471064; EAW68120.1; -; Genomic_DNA.
+DR   EMBL; CH471064; EAW68122.1; -; Genomic_DNA.
+DR   EMBL; BC031052; AAH31052.1; -; mRNA.
+DR   CCDS; CCDS7901.1; -.
+DR   PIR; S71821; S71821.
+DR   RefSeq; NP_004611.1; NM_004620.4.
+DR   RefSeq; NP_665802.1; NM_145803.3.
+DR   PDB; 1LB4; X-ray; 2.40 A; A=348-504.
+DR   PDB; 1LB5; X-ray; 2.40 A; A=347-504.
+DR   PDB; 1LB6; X-ray; 1.80 A; A=347-504.
+DR   PDB; 2ECI; NMR; -; A=50-128.
+DR   PDB; 2JMD; NMR; -; A=67-124.
+DR   PDB; 3HCS; X-ray; 2.20 A; A/B=50-211.
+DR   PDB; 3HCT; X-ray; 2.10 A; A=50-159.
+DR   PDB; 3HCU; X-ray; 2.60 A; A/C=50-159.
+DR   PDB; 4Z8M; X-ray; 2.95 A; A/B=346-504.
+DR   PDB; 5ZUJ; X-ray; 2.60 A; A=350-501.
+DR   PDB; 6A33; X-ray; 2.10 A; A=350-501.
+DR   PDB; 7L3L; X-ray; 2.80 A; B/D=52-158.
+DR   PDB; 8HZ2; X-ray; 2.60 A; A/B=54-210.
+DR   PDBsum; 1LB4; -.
+DR   PDBsum; 1LB5; -.
+DR   PDBsum; 1LB6; -.
+DR   PDBsum; 2ECI; -.
+DR   PDBsum; 2JMD; -.
+DR   PDBsum; 3HCS; -.
+DR   PDBsum; 3HCT; -.
+DR   PDBsum; 3HCU; -.
+DR   PDBsum; 4Z8M; -.
+DR   PDBsum; 5ZUJ; -.
+DR   PDBsum; 6A33; -.
+DR   PDBsum; 7L3L; -.
+DR   PDBsum; 8HZ2; -.
+DR   AlphaFoldDB; Q9Y4K3; -.
+DR   SMR; Q9Y4K3; -.
+DR   BioGRID; 113041; 453.
+DR   ComplexPortal; CPX-9621; TRAF6-TIFA E3 ubiquitin ligase complex.
+DR   CORUM; Q9Y4K3; -.
+DR   DIP; DIP-27515N; -.
+DR   ELM; Q9Y4K3; -.
+DR   FunCoup; Q9Y4K3; 3273.
+DR   IntAct; Q9Y4K3; 130.
+DR   MINT; Q9Y4K3; -.
+DR   STRING; 9606.ENSP00000433623; -.
+DR   BindingDB; Q9Y4K3; -.
+DR   ChEMBL; CHEMBL3588728; -.
+DR   MoonDB; Q9Y4K3; Predicted.
+DR   GlyGen; Q9Y4K3; 1 site.
+DR   iPTMnet; Q9Y4K3; -.
+DR   PhosphoSitePlus; Q9Y4K3; -.
+DR   BioMuta; TRAF6; -.
+DR   DMDM; 30580642; -.
+DR   jPOST; Q9Y4K3; -.
+DR   MassIVE; Q9Y4K3; -.
+DR   PaxDb; 9606-ENSP00000433623; -.
+DR   PeptideAtlas; Q9Y4K3; -.
+DR   ProteomicsDB; 86225; -.
+DR   Pumba; Q9Y4K3; -.
+DR   Antibodypedia; 3895; 560 antibodies from 45 providers.
+DR   DNASU; 7189; -.
+DR   Ensembl; ENST00000348124.5; ENSP00000337853.5; ENSG00000175104.15.
+DR   Ensembl; ENST00000526995.6; ENSP00000433623.1; ENSG00000175104.15.
+DR   GeneID; 7189; -.
+DR   KEGG; hsa:7189; -.
+DR   MANE-Select; ENST00000526995.6; ENSP00000433623.1; NM_004620.4; NP_004611.1.
+DR   UCSC; uc001mwq.3; human.
+DR   AGR; HGNC:12036; -.
+DR   CTD; 7189; -.
+DR   DisGeNET; 7189; -.
+DR   GeneCards; TRAF6; -.
+DR   HGNC; HGNC:12036; TRAF6.
+DR   HPA; ENSG00000175104; Low tissue specificity.
+DR   MalaCards; TRAF6; -.
+DR   MIM; 602355; gene.
+DR   neXtProt; NX_Q9Y4K3; -.
+DR   OpenTargets; ENSG00000175104; -.
+DR   Orphanet; 1810; Autosomal dominant hypohidrotic ectodermal dysplasia.
+DR   PharmGKB; PA36713; -.
+DR   VEuPathDB; HostDB:ENSG00000175104; -.
+DR   eggNOG; KOG0297; Eukaryota.
+DR   GeneTree; ENSGT00940000155426; -.
+DR   HOGENOM; CLU_021061_5_0_1; -.
+DR   InParanoid; Q9Y4K3; -.
+DR   OMA; FMHLQAL; -.
+DR   OrthoDB; 6475149at2759; -.
+DR   PAN-GO; Q9Y4K3; 9 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q9Y4K3; -.
+DR   TreeFam; TF321154; -.
+DR   PathwayCommons; Q9Y4K3; -.
+DR   Reactome; R-HSA-1257604; PIP3 activates AKT signaling.
+DR   Reactome; R-HSA-166058; MyD88:MAL(TIRAP) cascade initiated on plasma membrane.
+DR   Reactome; R-HSA-168638; NOD1/2 Signaling Pathway.
+DR   Reactome; R-HSA-168927; TICAM1, RIP1-mediated IKK complex recruitment.
+DR   Reactome; R-HSA-193692; Regulated proteolysis of p75NTR.
+DR   Reactome; R-HSA-202424; Downstream TCR signaling.
+DR   Reactome; R-HSA-205043; NRIF signals cell death from the nucleus.
+DR   Reactome; R-HSA-209543; p75NTR recruits signalling complexes.
+DR   Reactome; R-HSA-209560; NF-kB is activated and signals survival.
+DR   Reactome; R-HSA-2871837; FCERI mediated NF-kB activation.
+DR   Reactome; R-HSA-445989; TAK1-dependent IKK and NF-kappa-B activation.
+DR   Reactome; R-HSA-450302; activated TAK1 mediates p38 MAPK activation.
+DR   Reactome; R-HSA-450321; JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1.
+DR   Reactome; R-HSA-5607764; CLEC7A (Dectin-1) signaling.
+DR   Reactome; R-HSA-5689880; Ub-specific processing proteases.
+DR   Reactome; R-HSA-5689896; Ovarian tumor domain proteases.
+DR   Reactome; R-HSA-6811558; PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling.
+DR   Reactome; R-HSA-9014325; TICAM1,TRAF6-dependent induction of TAK1 complex.
+DR   Reactome; R-HSA-9020702; Interleukin-1 signaling.
+DR   Reactome; R-HSA-933541; TRAF6 mediated IRF7 activation.
+DR   Reactome; R-HSA-933542; TRAF6 mediated NF-kB activation.
+DR   Reactome; R-HSA-937039; IRAK1 recruits IKK complex.
+DR   Reactome; R-HSA-937041; IKK complex recruitment mediated by RIP1.
+DR   Reactome; R-HSA-937042; IRAK2 mediated activation of TAK1 complex.
+DR   Reactome; R-HSA-937072; TRAF6-mediated induction of TAK1 complex within TLR4 complex.
+DR   Reactome; R-HSA-9645460; Alpha-protein kinase 1 signaling pathway.
+DR   Reactome; R-HSA-9692916; SARS-CoV-1 activates/modulates innate immune responses.
+DR   Reactome; R-HSA-9705671; SARS-CoV-2 activates/modulates innate and adaptive immune responses.
+DR   Reactome; R-HSA-975110; TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.
+DR   Reactome; R-HSA-975138; TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.
+DR   Reactome; R-HSA-975144; IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation.
+DR   Reactome; R-HSA-975155; MyD88 dependent cascade initiated on endosome.
+DR   Reactome; R-HSA-975163; IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation.
+DR   Reactome; R-HSA-9758274; Regulation of NF-kappa B signaling.
+DR   Reactome; R-HSA-975871; MyD88 cascade initiated on plasma membrane.
+DR   SignaLink; Q9Y4K3; -.
+DR   SIGNOR; Q9Y4K3; -.
+DR   UniPathway; UPA00143; -.
+DR   BioGRID-ORCS; 7189; 38 hits in 1201 CRISPR screens.
+DR   ChiTaRS; TRAF6; human.
+DR   EvolutionaryTrace; Q9Y4K3; -.
+DR   GeneWiki; TRAF6; -.
+DR   GenomeRNAi; 7189; -.
+DR   Pharos; Q9Y4K3; Tbio.
+DR   PRO; PR:Q9Y4K3; -.
+DR   Proteomes; UP000005640; Chromosome 11.
+DR   RNAct; Q9Y4K3; protein.
+DR   Bgee; ENSG00000175104; Expressed in secondary oocyte and 158 other cell types or tissues.
+DR   GO; GO:0035631; C:CD40 receptor complex; ISS:BHF-UCL.
+DR   GO; GO:0005938; C:cell cortex; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; ISS:BHF-UCL.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0010008; C:endosome membrane; TAS:Reactome.
+DR   GO; GO:0031234; C:extrinsic component of cytoplasmic side of plasma membrane; IC:UniProt.
+DR   GO; GO:0098978; C:glutamatergic synapse; IBA:GO_Central.
+DR   GO; GO:0005811; C:lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:MGI.
+DR   GO; GO:0042826; F:histone deacetylase binding; IPI:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0043422; F:protein kinase B binding; IPI:UniProtKB.
+DR   GO; GO:0030674; F:protein-macromolecule adaptor activity; IDA:UniProt.
+DR   GO; GO:0035591; F:signaling adaptor activity; IBA:GO_Central.
+DR   GO; GO:0005164; F:tumor necrosis factor receptor binding; IEA:InterPro.
+DR   GO; GO:0031624; F:ubiquitin conjugating enzyme binding; IDA:MGI.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; IDA:UniProtKB.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; EXP:Reactome.
+DR   GO; GO:0034450; F:ubiquitin-ubiquitin ligase activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0032147; P:activation of protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0019886; P:antigen processing and presentation of exogenous peptide antigen via MHC class II; IEA:Ensembl.
+DR   GO; GO:0140374; P:antiviral innate immune response; IDA:UniProt.
+DR   GO; GO:0000045; P:autophagosome assembly; IDA:UniProt.
+DR   GO; GO:0045453; P:bone resorption; IEA:Ensembl.
+DR   GO; GO:0007249; P:canonical NF-kappaB signal transduction; IDA:UniProt.
+DR   GO; GO:0023035; P:CD40 signaling pathway; IDA:UniProt.
+DR   GO; GO:0071345; P:cellular response to cytokine stimulus; IMP:ARUK-UCL.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IDA:MGI.
+DR   GO; GO:0002753; P:cytoplasmic pattern recognition receptor signaling pathway; IDA:UniProt.
+DR   GO; GO:0006974; P:DNA damage response; IEA:UniProtKB-KW.
+DR   GO; GO:0038095; P:Fc-epsilon receptor signaling pathway; TAS:Reactome.
+DR   GO; GO:0001701; P:in utero embryonic development; IEA:Ensembl.
+DR   GO; GO:0045087; P:innate immune response; IBA:GO_Central.
+DR   GO; GO:0070498; P:interleukin-1-mediated signaling pathway; TAS:Reactome.
+DR   GO; GO:0097400; P:interleukin-17-mediated signaling pathway; IEA:Ensembl.
+DR   GO; GO:0038173; P:interleukin-17A-mediated signaling pathway; IDA:UniProt.
+DR   GO; GO:0038172; P:interleukin-33-mediated signaling pathway; IMP:UniProt.
+DR   GO; GO:0031663; P:lipopolysaccharide-mediated signaling pathway; IBA:GO_Central.
+DR   GO; GO:0002755; P:MyD88-dependent toll-like receptor signaling pathway; TAS:Reactome.
+DR   GO; GO:0043011; P:myeloid dendritic cell differentiation; IEA:Ensembl.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IMP:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; IMP:UniProtKB.
+DR   GO; GO:0001843; P:neural tube closure; IEA:Ensembl.
+DR   GO; GO:0038061; P:non-canonical NF-kappaB signal transduction; IDA:UniProt.
+DR   GO; GO:0042475; P:odontogenesis of dentin-containing tooth; IEA:Ensembl.
+DR   GO; GO:0001503; P:ossification; IEA:UniProtKB-KW.
+DR   GO; GO:0030316; P:osteoclast differentiation; IEA:Ensembl.
+DR   GO; GO:0043123; P:positive regulation of canonical NF-kappaB signal transduction; IDA:UniProtKB.
+DR   GO; GO:0032735; P:positive regulation of interleukin-12 production; IEA:Ensembl.
+DR   GO; GO:0032743; P:positive regulation of interleukin-2 production; IMP:UniProtKB.
+DR   GO; GO:0032755; P:positive regulation of interleukin-6 production; IEA:Ensembl.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; IDA:BHF-UCL.
+DR   GO; GO:0043507; P:positive regulation of JUN kinase activity; NAS:UniProtKB.
+DR   GO; GO:1904996; P:positive regulation of leukocyte adhesion to vascular endothelial cell; IMP:ARUK-UCL.
+DR   GO; GO:0031666; P:positive regulation of lipopolysaccharide-mediated signaling pathway; IEA:Ensembl.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; IDA:UniProtKB.
+DR   GO; GO:0045672; P:positive regulation of osteoclast differentiation; IDA:UniProtKB.
+DR   GO; GO:0031398; P:positive regulation of protein ubiquitination; NAS:BHF-UCL.
+DR   GO; GO:0002726; P:positive regulation of T cell cytokine production; IMP:UniProtKB.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; IEA:Ensembl.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IDA:BHF-UCL.
+DR   GO; GO:0032481; P:positive regulation of type I interferon production; IEA:Ensembl.
+DR   GO; GO:0051865; P:protein autoubiquitination; IDA:UniProtKB.
+DR   GO; GO:0141198; P:protein branched polyubiquitination; IDA:UniProtKB.
+DR   GO; GO:0070534; P:protein K63-linked ubiquitination; IDA:UniProtKB.
+DR   GO; GO:0000209; P:protein polyubiquitination; IDA:UniProtKB.
+DR   GO; GO:0042981; P:regulation of apoptotic process; IEA:InterPro.
+DR   GO; GO:0043122; P:regulation of canonical NF-kappaB signal transduction; IBA:GO_Central.
+DR   GO; GO:0002637; P:regulation of immunoglobulin production; IEA:Ensembl.
+DR   GO; GO:0098696; P:regulation of neurotransmitter receptor localization to postsynaptic specialization membrane; IEA:Ensembl.
+DR   GO; GO:0070555; P:response to interleukin-1; IDA:UniProtKB.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; TAS:Reactome.
+DR   GO; GO:0050852; P:T cell receptor signaling pathway; IDA:UniProt.
+DR   GO; GO:0042088; P:T-helper 1 type immune response; IEA:Ensembl.
+DR   GO; GO:0034138; P:toll-like receptor 3 signaling pathway; TAS:Reactome.
+DR   GO; GO:0034142; P:toll-like receptor 4 signaling pathway; IDA:UniProt.
+DR   GO; GO:0035666; P:TRIF-dependent toll-like receptor signaling pathway; TAS:Reactome.
+DR   GO; GO:0033209; P:tumor necrosis factor-mediated signaling pathway; IMP:BHF-UCL.
+DR   CDD; cd03776; MATH_TRAF6; 1.
+DR   CDD; cd16643; mRING-HC-C3HC3D_TRAF6; 1.
+DR   FunFam; 2.60.210.10:FF:000010; TNF receptor-associated factor; 1.
+DR   FunFam; 3.30.40.10:FF:000179; TNF receptor-associated factor; 1.
+DR   FunFam; 3.30.40.10:FF:000211; TNF receptor-associated factor; 1.
+DR   FunFam; 3.30.40.10:FF:000289; TNF receptor-associated factor; 1.
+DR   Gene3D; 2.60.210.10; Apoptosis, Tumor Necrosis Factor Receptor Associated Protein 2, Chain A; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 3.
+DR   IDEAL; IID00744; -.
+DR   InterPro; IPR002083; MATH/TRAF_dom.
+DR   InterPro; IPR012227; TNF_rcpt-assoc_TRAF_met.
+DR   InterPro; IPR008974; TRAF-like.
+DR   InterPro; IPR049342; TRAF1-6_MATH_dom.
+DR   InterPro; IPR037309; TRAF6_MATH.
+DR   InterPro; IPR027139; TRAF6_RING-HC.
+DR   InterPro; IPR041310; TRAF6_Z2.
+DR   InterPro; IPR001841; Znf_RING.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   InterPro; IPR017907; Znf_RING_CS.
+DR   InterPro; IPR001293; Znf_TRAF.
+DR   PANTHER; PTHR10131; TNF RECEPTOR ASSOCIATED FACTOR; 1.
+DR   PANTHER; PTHR10131:SF152; TNF RECEPTOR-ASSOCIATED FACTOR 6; 1.
+DR   Pfam; PF21355; TRAF-mep_MATH; 1.
+DR   Pfam; PF18048; TRAF6_Z2; 1.
+DR   Pfam; PF13923; zf-C3HC4_2; 1.
+DR   Pfam; PF02176; zf-TRAF; 1.
+DR   PIRSF; PIRSF015614; TRAF; 1.
+DR   SMART; SM00061; MATH; 1.
+DR   SMART; SM00184; RING; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   SUPFAM; SSF49599; TRAF domain-like; 3.
+DR   PROSITE; PS50144; MATH; 1.
+DR   PROSITE; PS00518; ZF_RING_1; 1.
+DR   PROSITE; PS50089; ZF_RING_2; 1.
+DR   PROSITE; PS50145; ZF_TRAF; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Coiled coil; Cytoplasm; DNA damage; Immunity;
+KW   Isopeptide bond; Lipid droplet; Metal-binding; Nucleus; Osteogenesis;
+KW   Proteomics identification; Reference proteome; Repeat; Transferase;
+KW   Ubl conjugation; Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   CHAIN           1..522
+FT                   /note="TNF receptor-associated factor 6"
+FT                   /id="PRO_0000056407"
+FT   DOMAIN          350..499
+FT                   /note="MATH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00129"
+FT   ZN_FING         70..109
+FT                   /note="RING-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00175"
+FT   ZN_FING         150..202
+FT                   /note="TRAF-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00207"
+FT   ZN_FING         203..259
+FT                   /note="TRAF-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00207"
+FT   REGION          1..354
+FT                   /note="Interaction with TAX1BP1"
+FT                   /evidence="ECO:0000269|PubMed:10920205"
+FT   REGION          355..522
+FT                   /note="Interaction with TANK"
+FT                   /evidence="ECO:0000269|PubMed:25861989"
+FT   COILED          288..348
+FT                   /evidence="ECO:0000255"
+FT   CROSSLNK        124
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO); alternate"
+FT   CROSSLNK        124
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT                   /evidence="ECO:0000269|PubMed:17135271,
+FT                   ECO:0000269|PubMed:19825828"
+FT   CROSSLNK        142
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000269|PubMed:18093978"
+FT   CROSSLNK        319
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:P70196"
+FT   CROSSLNK        453
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000269|PubMed:18093978"
+FT   MUTAGEN         57
+FT                   /note="D->K: Loss of interaction with UBE2N."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         70
+FT                   /note="C->A: Loss of ligase activity, autoubiquitination
+FT                   and signaling capacity."
+FT                   /evidence="ECO:0000269|PubMed:17135271,
+FT                   ECO:0000269|PubMed:19465916, ECO:0000269|PubMed:23514740,
+FT                   ECO:0000269|PubMed:27746020"
+FT   MUTAGEN         72
+FT                   /note="I->D: Loss of interaction with UBE2N. Has no effect
+FT                   on TRAF3IP2-mediated 'Lys-63'-linked polyubiquitination."
+FT                   /evidence="ECO:0000269|PubMed:19465916,
+FT                   ECO:0000269|PubMed:19825828"
+FT   MUTAGEN         74
+FT                   /note="L->E,K: Loss of interaction with UBE2N."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         88
+FT                   /note="R->A: Loss of TRAF6 homodimerization and impaired
+FT                   polyubiquitin synthesis. Loss of TRAF6 homodimerization and
+FT                   impaired polyubiquitin synthesis; when associated with
+FT                   A-122."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         118
+FT                   /note="F->A: Loss of TRAF6 homodimerization and impaired
+FT                   polyubiquitin synthesis."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         118
+FT                   /note="F->W: Partially impaired polyubiquitin synthesis."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         118
+FT                   /note="F->Y: Partially impaired polyubiquitin synthesis."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         122
+FT                   /note="F->A: Loss of TRAF6 homodimerization and partially
+FT                   impaired polyubiquitin synthesis. Loss of TRAF6
+FT                   homodimerization and impaired polyubiquitin synthesis; when
+FT                   associated with A-88."
+FT                   /evidence="ECO:0000269|PubMed:19465916"
+FT   MUTAGEN         124
+FT                   /note="K->R: Loss of SUMO1-modification and c-myb-mediated
+FT                   transcriptional repressive activation. Loss of
+FT                   TRAF3IP2-mediated 'Lys-63'-linked polyubiquitination."
+FT                   /evidence="ECO:0000269|PubMed:17135271,
+FT                   ECO:0000269|PubMed:18093978, ECO:0000269|PubMed:19465916,
+FT                   ECO:0000269|PubMed:19825828"
+FT   MUTAGEN         142
+FT                   /note="K->R: Loss of SUMO1-modification and c-myb-mediated
+FT                   transcriptional repressive activation."
+FT                   /evidence="ECO:0000269|PubMed:18093978"
+FT   MUTAGEN         453
+FT                   /note="K->R: Loss of SUMO1-modification and c-myb-mediated
+FT                   transcriptional repressive activation."
+FT                   /evidence="ECO:0000269|PubMed:18093978"
+FT   CONFLICT        12
+FT                   /note="S -> F (in Ref. 6; AAH31052)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          60..62
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   TURN            71..73
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:8HZ2"
+FT   STRAND          78..82
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   TURN            84..86
+FT                   /evidence="ECO:0007829|PDB:2ECI"
+FT   STRAND          88..90
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           91..101
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   TURN            106..108
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           114..116
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           121..128
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   STRAND          130..133
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:3HCU"
+FT   STRAND          142..144
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           145..147
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   HELIX           149..151
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   STRAND          153..155
+FT                   /evidence="ECO:0007829|PDB:3HCT"
+FT   STRAND          158..161
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   TURN            163..165
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   STRAND          168..170
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   HELIX           171..173
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   HELIX           174..180
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   STRAND          186..188
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   TURN            190..192
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   STRAND          195..197
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   HELIX           198..200
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   HELIX           201..205
+FT                   /evidence="ECO:0007829|PDB:3HCS"
+FT   STRAND          351..357
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   HELIX           360..368
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          373..376
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          380..385
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          388..395
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   TURN            401..405
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          406..414
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   HELIX           419..421
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          428..434
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   HELIX           440..442
+FT                   /evidence="ECO:0007829|PDB:6A33"
+FT   STRAND          446..451
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   HELIX           457..459
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          463..466
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   STRAND          468..478
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   HELIX           479..483
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+FT   TURN            484..486
+FT                   /evidence="ECO:0007829|PDB:6A33"
+FT   STRAND          492..500
+FT                   /evidence="ECO:0007829|PDB:1LB6"
+SQ   SEQUENCE   522 AA;  59573 MW;  5AB9C255CCFEE749 CRC64;
+     MSLLNCENSC GSSQSESDCC VAMASSCSAV TKDDSVGGTA STGNLSSSFM EEIQGYDVEF
+     DPPLESKYEC PICLMALREA VQTPCGHRFC KACIIKSIRD AGHKCPVDNE ILLENQLFPD
+     NFAKREILSL MVKCPNEGCL HKMELRHLED HQAHCEFALM DCPQCQRPFQ KFHINIHILK
+     DCPRRQVSCD NCAASMAFED KEIHDQNCPL ANVICEYCNT ILIREQMPNH YDLDCPTAPI
+     PCTFSTFGCH EKMQRNHLAR HLQENTQSHM RMLAQAVHSL SVIPDSGYIS EVRNFQETIH
+     QLEGRLVRQD HQIRELTAKM ETQSMYVSEL KRTIRTLEDK VAEIEAQQCN GIYIWKIGNF
+     GMHLKCQEEE KPVVIHSPGF YTGKPGYKLC MRLHLQLPTA QRCANYISLF VHTMQGEYDS
+     HLPWPFQGTI RLTILDQSEA PVRQNHEEIM DAKPELLAFQ RPTIPRNPKG FGYVTFMHLE
+     ALRQRTFIKD DTLLVRCEVS TRFDMGSLRR EGFQPRSTDA GV
+//

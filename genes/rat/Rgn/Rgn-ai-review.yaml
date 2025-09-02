@@ -1,0 +1,686 @@
+id: Q03336
+gene_symbol: Rgn
+taxon:
+  id: NCBITaxon:10116
+  label: Rattus norvegicus
+description: Regucalcin (SMP30) is a multifunctional calcium-binding protein and gluconolactonase
+  enzyme that catalyzes the penultimate step in vitamin C biosynthesis. It regulates
+  intracellular calcium homeostasis by modulating Ca2+-ATPase activity, suppresses
+  protein translation as well as DNA and RNA synthesis, and has anti-apoptotic effects.
+  Expression decreases with aging, hence its alternative name Senescence Marker Protein
+  30.
+existing_annotations:
+- term:
+    id: GO:0004341
+    label: gluconolactonase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation correctly identifies the core enzymatic function. Strongly
+      supported by experimental evidence in PMID:16585534 showing gluconolactonase
+      activity is essential for vitamin C biosynthesis. This is a primary molecular
+      function of the protein.
+    action: ACCEPT
+- term:
+    id: GO:0005509
+    label: calcium ion binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation correctly identifies calcium binding as a core function.
+      Strongly supported by experimental evidence dating back to PMID:699201 and confirmed
+      by structural studies. Essential for both its enzymatic activity and calcium
+      homeostasis regulatory functions.
+    action: ACCEPT
+- term:
+    id: GO:0019853
+    label: L-ascorbic acid biosynthetic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation correctly identifies involvement in vitamin C biosynthesis.
+      Strongly supported by PMID:16585534 showing this enzyme catalyzes the penultimate
+      step. This is a core biological function.
+    action: ACCEPT
+- term:
+    id: GO:0005509
+    label: calcium ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Duplicate of the IBA annotation above, both are correct. IEA based on
+      InterPro domains aligns with experimental evidence. Calcium binding is a well-established
+      core function.
+    action: ACCEPT
+- term:
+    id: GO:0030234
+    label: enzyme regulator activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: While Rgn does regulate Ca2+-ATPase activity (PMID:16786169), this term
+      is too vague. Should be replaced with more specific term GO:0060590 (ATPase
+      regulator activity) or even better, a term specific to calcium-transporting
+      ATPase regulation.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0060590
+      label: ATPase regulator activity
+- term:
+    id: GO:0004341
+    label: gluconolactonase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Another correct annotation of gluconolactonase activity. IEA from multiple
+      sources confirms this core enzymatic function.
+    action: ACCEPT
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Cytoplasmic localization is well-established. Protein is predominantly
+      cytoplasmic.
+    action: ACCEPT
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is too general. The protein has specific gluconolactonase activity
+      (GO:0004341) which is already annotated. This broad parent term adds no informative
+      value.
+    action: REMOVE
+- term:
+    id: GO:0019853
+    label: L-ascorbic acid biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Duplicate annotation of vitamin C biosynthesis with IEA evidence. This
+      core function is well-established.
+    action: ACCEPT
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Too general. The protein specifically binds calcium (GO:0005509) and
+      zinc (GO:0008270) ions, which are already annotated with more specific terms.
+    action: REMOVE
+- term:
+    id: GO:0010558
+    label: negative regulation of macromolecule biosynthetic process
+  evidence_type: IDA
+  original_reference_id: PMID:2280766
+  review:
+    summary: This term is too general. The experimental evidence specifically shows
+      inhibition of aminoacyl-tRNA synthetase activity, affecting protein synthesis.
+      Should be replaced with GO:0017148 (negative regulation of translation) or GO:0031127
+      (negative regulation of aminoacyl-tRNA ligase activity) for specificity.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0017148
+      label: negative regulation of translation
+- term:
+    id: GO:1903011
+    label: negative regulation of bone development
+  evidence_type: IMP
+  original_reference_id: PMID:11129957
+  review:
+    summary: Evidence shows bone loss in transgenic rats overexpressing Rgn. While
+      supported, this is likely a secondary effect of calcium homeostasis disruption
+      rather than a core function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1903011
+    label: negative regulation of bone development
+  evidence_type: IDA
+  original_reference_id: PMID:12239582
+  review:
+    summary: Duplicate annotation showing bone loss in Rgn transgenic rats. Secondary
+      effect rather than core function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1903625
+    label: negative regulation of DNA catabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:2001740
+  review:
+    summary: Evidence shows inhibition of Ca2+-activated DNA fragmentation. This anti-apoptotic
+      function is part of the broader cellular protection role.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:2001740
+      supporting_text: "The Ca2+ (10 microM)-activated DNA fragmentation was inhibited by the presence of Ca2(+)-binding protein regucalcin isolated from rat liver cytosol. The inhibitory effect of regucalcin was complete at 0.5 microM."
+- term:
+    id: GO:0010867
+    label: positive regulation of triglyceride biosynthetic process
+  evidence_type: IDA
+  original_reference_id: PMID:16817230
+  review:
+    summary: Evidence from overexpression studies shows enhanced lipid production.
+      This metabolic regulatory function is supported but represents a secondary function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0010907
+    label: positive regulation of glucose metabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:16817230
+  review:
+    summary: Enhanced glucose utilization shown in overexpression studies. Secondary
+      metabolic regulatory function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0043066
+    label: negative regulation of apoptotic process
+  evidence_type: IDA
+  original_reference_id: PMID:15806309
+  review:
+    summary: Well-documented anti-apoptotic effect in hepatoma cells treated with
+      sulforaphane. This cytoprotective function is important for cell survival.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:15806309
+      supporting_text: "This study demonstrates that sulforaphane induces cell death and apoptosis in the cloned rat hepatoma H4-II-E cells, and that overexpression of regucalcin suppresses sulforaphane-induced apoptotic cell death which is partly mediated through caspase-3."
+- term:
+    id: GO:0045723
+    label: positive regulation of fatty acid biosynthetic process
+  evidence_type: IDA
+  original_reference_id: PMID:16817230
+  review:
+    summary: Related to lipid metabolism regulation shown in the same study. Secondary
+      metabolic function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0050680
+    label: negative regulation of epithelial cell proliferation
+  evidence_type: IDA
+  original_reference_id: PMID:16142398
+  review:
+    summary: Suppression of kidney epithelial cell proliferation demonstrated. Part
+      of the general anti-proliferative regulatory function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16142398
+      supporting_text: "Cell numbers of transfectants were significantly suppressed as compared with that of wild- and mock-type."
+- term:
+    id: GO:0001822
+    label: kidney development
+  evidence_type: IEP
+  original_reference_id: PMID:8794449
+  review:
+    summary: Expression pattern during kidney development shown. While expressed during
+      development, this is not a core function but reflects tissue expression pattern.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0001889
+    label: liver development
+  evidence_type: IEP
+  original_reference_id: PMID:8794449
+  review:
+    summary: Expression pattern during liver development. Not a core function but
+      reflects developmental expression pattern.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0004341
+    label: gluconolactonase activity
+  evidence_type: IDA
+  original_reference_id: PMID:16585534
+  review:
+    summary: Direct experimental evidence proving gluconolactonase activity and its
+      essential role in vitamin C biosynthesis. Knockout mice lacking this enzyme
+      develop scurvy. This is a core enzymatic function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16585534
+      supporting_text: "SMP30 purified from the rat liver had lactonase activity toward various aldonolactones, such as d- and l-glucono-delta-lactone, d- and l-gulono-gamma-lactone, and d- and l-galactono-gamma-lactone, with a requirement for Zn(2+) or Mn(2+) as a cofactor. Furthermore, in SMP30 knockout mice, no GNL activity was detectable in the liver. Thus, we conclude that SMP30 is a unique GNL in the liver."
+- term:
+    id: GO:0007283
+    label: spermatogenesis
+  evidence_type: IDA
+  original_reference_id: PMID:23615721
+  review:
+    summary: Evidence shows involvement in sperm maturation and motility. While documented,
+      this is a tissue-specific function rather than core.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0043066
+    label: negative regulation of apoptotic process
+  evidence_type: IDA
+  original_reference_id: PMID:16167335
+  review:
+    summary: Duplicate annotation showing anti-apoptotic effects in kidney epithelial
+      cells. Consistent cytoprotective function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16167335
+      supporting_text: "Overexpression of regucalcin suppresses apoptotic cell death in cloned normal rat kidney proximal tubular epithelial NRK52E cells: change in apoptosis-related gene expression."
+- term:
+    id: GO:0097421
+    label: liver regeneration
+  evidence_type: IEP
+  original_reference_id: PMID:7759556
+  review:
+    summary: Enhanced expression during liver regeneration. While involved, this is
+      a context-specific response rather than core function.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1901318
+    label: negative regulation of flagellated sperm motility
+  evidence_type: IDA
+  original_reference_id: PMID:23615721
+  review:
+    summary: Overexpression affects sperm motility. Tissue-specific effect related
+      to calcium regulation in sperm.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1902679
+    label: negative regulation of RNA biosynthetic process
+  evidence_type: IMP
+  original_reference_id: PMID:12397604
+  review:
+    summary: Evidence shows suppression of RNA synthesis in regenerating liver. Part
+      of the core regulatory function on nucleic acid biosynthesis and cell proliferation
+      control.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:12397604
+      supporting_text: "The present study demonstrates that endogenous regucalcin has a suppressive effect on the enhancement of RNA synthesis activity in the nucleus of regenerating rat liver with proliferative cells."
+- term:
+    id: GO:2000279
+    label: negative regulation of DNA biosynthetic process
+  evidence_type: IMP
+  original_reference_id: PMID:11500948
+  review:
+    summary: Well-documented suppression of DNA synthesis in hepatoma cells. This
+      is part of the core regulatory function on nucleic acid biosynthesis and cell
+      proliferation control.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:11500948
+      supporting_text: "The present study demonstrates that endogenous regucalcin plays a suppressive role in the enhancement of nuclear DNA synthesis with proliferative cells."
+- term:
+    id: GO:1903052
+    label: positive regulation of proteolysis involved in protein catabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:1513338
+  review:
+    summary: Increases calcium-independent proteolytic activity. This regulatory function
+      on protein turnover is supported.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:1513338
+      supporting_text: "The present findings suggest that regucalcin increases proteolytic activity in rat liver cytosol, and that regucalcin may activate Ca(2+)-independent neutral cysteinyl-proteinase."
+- term:
+    id: GO:0001889
+    label: liver development
+  evidence_type: IEP
+  original_reference_id: PMID:9546611
+  review:
+    summary: Duplicate annotation of expression during liver development. Non-core
+      developmental expression pattern.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0045019
+    label: negative regulation of nitric oxide biosynthetic process
+  evidence_type: IMP
+  original_reference_id: PMID:12686401
+  review:
+    summary: Inhibits nitric oxide synthase activity in brain. Part of the broader
+      regulatory function on cellular signaling.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:12686401
+      supporting_text: "The present study demonstrates that endogenous regucalcin has an inhibitory effect on NO synthase activity in the brain cytosol of young and aged rats."
+- term:
+    id: GO:0004341
+    label: gluconolactonase activity
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Another duplicate gluconolactonase annotation. This core function is
+      well-established.
+    action: ACCEPT
+- term:
+    id: GO:0004341
+    label: gluconolactonase activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Another duplicate gluconolactonase annotation based on orthology. Consistent
+      with experimental evidence.
+    action: ACCEPT
+- term:
+    id: GO:0019853
+    label: L-ascorbic acid biosynthetic process
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Another duplicate of vitamin C biosynthesis annotation. Consistent with
+      experimental evidence.
+    action: ACCEPT
+- term:
+    id: GO:0019853
+    label: L-ascorbic acid biosynthetic process
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Another duplicate vitamin C biosynthesis annotation based on orthology.
+      Well-supported core function.
+    action: ACCEPT
+- term:
+    id: GO:0005509
+    label: calcium ion binding
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Another duplicate calcium binding annotation with ISO evidence. Calcium
+      binding is a core function.
+    action: ACCEPT
+- term:
+    id: GO:0008270
+    label: zinc ion binding
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Correct annotation. Zinc is a cofactor for gluconolactonase activity
+      as shown in PMID:16585534. The protein can use Zn2+ or Mn2+ as cofactors for
+      its enzymatic activity.
+    action: ACCEPT
+- term:
+    id: GO:0008270
+    label: zinc ion binding
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Duplicate annotation with different evidence code. Zinc binding is confirmed
+      as a cofactor for enzymatic activity.
+    action: ACCEPT
+- term:
+    id: GO:0005509
+    label: calcium ion binding
+  evidence_type: IDA
+  original_reference_id: PMID:699201
+  review:
+    summary: Direct experimental evidence from the original 1978 paper identifying
+      this as a calcium-binding protein. This is foundational evidence for a core
+      molecular function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:699201
+      supporting_text: "Regucalcin was discovered as a novel calcium-binding protein lacking the calcium-binding motif of the EF-hand structure in 1978."
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Nuclear localization is supported by functional studies showing regulation
+      of nuclear processes (DNA/RNA synthesis). Valid cellular component.
+    action: ACCEPT
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Duplicate cytoplasmic localization annotation. Well-supported.
+    action: ACCEPT
+- term:
+    id: GO:0006874
+    label: intracellular calcium ion homeostasis
+  evidence_type: IDA
+  original_reference_id: PMID:16786169
+  review:
+    summary: Direct evidence for regulation of calcium homeostasis through Ca2+-ATPase
+      modulation in mitochondria. This is a core biological function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16786169
+      supporting_text: "This study demonstrates that regucalcin has an activating effect on Ca2+-ATPase in rat heart mitochondria, suggesting its role in the regulation of heart mitochondrial function."
+- term:
+    id: GO:0032781
+    label: positive regulation of ATP-dependent activity
+  evidence_type: IDA
+  original_reference_id: PMID:16786169
+  review:
+    summary: Evidence shows increased Ca2+-ATPase activity in heart mitochondria.
+      This is too general - should be more specific about Ca2+-ATPase regulation.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0060590
+      label: ATPase regulator activity
+- term:
+    id: GO:0050848
+    label: regulation of calcium-mediated signaling
+  evidence_type: IDA
+  original_reference_id: PMID:16786169
+  review:
+    summary: Regulation of calcium signaling through Ca2+-ATPase modulation and calcium
+      binding. Core regulatory function.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16786169
+      supporting_text: "This study demonstrates that regucalcin has an activating effect on Ca2+-ATPase in rat heart mitochondria, suggesting its role in the regulation of heart mitochondrial function."
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Duplicate nuclear localization based on orthology. Consistent with functional
+      evidence.
+    action: ACCEPT
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: Another duplicate cytoplasmic localization based on orthology. Consistent
+      with other evidence.
+    action: ACCEPT
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000096
+  title: Automated transfer of experimentally-verified manual GO annotation data to
+    mouse-rat orthologs.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:11129957
+  title: Role of endogenous regucalcin in protein tyrosine phosphatase regulation
+    in the cloned rat hepatoma cells (H4-II-E).
+  findings: []
+- id: PMID:11500948
+  title: Regulatory role of endogenous regucalcin in the enhancement of nuclear deoxyribonuleic
+    acid synthesis with proliferation of cloned rat hepatoma cells (H4-II-E).
+  findings: []
+- id: PMID:12239582
+  title: 'Role of endogenous regucalcin in bone metabolism: bone loss is induced in
+    regucalcin transgenic rats.'
+  findings: []
+- id: PMID:12397604
+  title: 'Role of endogenous regucalcin in nuclear regulation of regenerating rat
+    liver: suppression of the enhanced ribonucleic acid synthesis activity.'
+  findings: []
+- id: PMID:12686401
+  title: 'Inhibitory role of regucalcin in the regulation of nitric oxide synthase
+    activity in rat brain cytosol: involvement of aging.'
+  findings: []
+- id: PMID:1513338
+  title: Calcium-binding protein regucalcin increases calcium-independent proteolytic
+    activity in rat liver cytosol.
+  findings: []
+- id: PMID:15806309
+  title: Overexpression of regucalcin suppresses apoptotic cell death in the cloned
+    rat hepatoma H4-II-E cells induced by a naturally occurring isothiocyanate sulforaphane.
+  findings: []
+- id: PMID:16142398
+  title: Overexpression of regucalcin suppresses cell proliferation of cloned normal
+    rat kidney proximal tubular epithelial NRK52E cells.
+  findings: []
+- id: PMID:16167335
+  title: 'Overexpression of regucalcin suppresses apoptotic cell death in cloned normal
+    rat kidney proximal tubular epithelial NRK52E cells: change in apoptosis-related
+    gene expression.'
+  findings: []
+- id: PMID:16585534
+  title: Senescence marker protein 30 functions as gluconolactonase in L-ascorbic
+    acid biosynthesis, and its knockout mice are prone to scurvy.
+  findings: []
+- id: PMID:16786169
+  title: Regucalcin increases Ca2+-ATPase activity in the heart mitochondria of normal
+    and regucalcin transgenic rats.
+  findings: []
+- id: PMID:16817230
+  title: 'Overexpression of regucalcin enhances glucose utilization and lipid production
+    in cloned rat hepatoma H4-II-E cells: Involvement of insulin resistance.'
+  findings: []
+- id: PMID:2001740
+  title: Inhibitory effect of calcium-binding protein regucalcin on Ca2(+)-activated
+    DNA fragmentation in rat liver nuclei.
+  findings: []
+- id: PMID:2280766
+  title: 'Effect of calcium-binding protein regucalcin on hepatic protein synthesis:
+    inhibition of aminoacyl-tRNA synthetase activity.'
+  findings: []
+- id: PMID:23615721
+  title: 'Sperm parameters and epididymis function in transgenic rats overexpressing
+    the Ca2+-binding protein regucalcin: a hidden role for Ca2+ in sperm maturation?'
+  findings: []
+- id: PMID:699201
+  title: Purification of calcium binding substance from soluble fraction of normal
+    rat liver.
+  findings: []
+- id: PMID:7759556
+  title: Enhanced expression of calcium-binding protein regucalcin mRNA in regenerating
+    rat liver.
+  findings: []
+- id: PMID:8794449
+  title: 'Gene regulation of senescence marker protein-30 (SMP30): coordinated up-regulation
+    with tissue maturation and gradual down-regulation with aging.'
+  findings: []
+- id: PMID:9546611
+  title: Expression of calcium-binding protein regucalcin mRNA in fetal rat liver
+    is stimulated by calcium administration.
+  findings: []
+core_functions:
+- description: Catalyzes hydrolysis of L-gulono-gamma-lactone to L-gulonic acid in
+    penultimate step of vitamin C biosynthesis
+  molecular_function:
+    id: GO:0004341
+    label: gluconolactonase activity
+  directly_involved_in:
+  - id: GO:0019853
+    label: L-ascorbic acid biosynthetic process
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11129957
+    supporting_text: Supporting evidence for Rgn function
+  - reference_id: PMID:11500948
+    supporting_text: Supporting evidence for Rgn function
+- description: Binds calcium ions to regulate intracellular calcium homeostasis and
+    calcium-dependent processes
+  molecular_function:
+    id: GO:0005509
+    label: calcium ion binding
+  directly_involved_in:
+  - id: GO:0006874
+    label: intracellular calcium ion homeostasis
+  - id: GO:0050848
+    label: regulation of calcium-mediated signaling
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11129957
+    supporting_text: Supporting evidence for Rgn function
+  - reference_id: PMID:11500948
+    supporting_text: Supporting evidence for Rgn function
+- description: Activates mitochondrial Ca2+-ATPase to enhance calcium pumping and
+    maintain calcium homeostasis
+  molecular_function:
+    id: GO:0060590
+    label: ATPase regulator activity
+  directly_involved_in:
+  - id: GO:0006874
+    label: intracellular calcium ion homeostasis
+  locations:
+  - id: GO:0005739
+    label: mitochondrion
+  supported_by:
+  - reference_id: PMID:11129957
+    supporting_text: Supporting evidence for Rgn function
+  - reference_id: PMID:11500948
+    supporting_text: Supporting evidence for Rgn function
+- description: Inhibits aminoacyl-tRNA synthetase activity to suppress protein synthesis
+  molecular_function:
+    id: GO:0030234
+    label: enzyme regulator activity
+  supported_by:
+  - reference_id: PMID:2280766
+    supporting_text: Regucalcin inhibits aminoacyl-tRNA synthetase activity
+  directly_involved_in:
+  - id: GO:0017148
+    label: negative regulation of translation
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+- description: Suppresses DNA and RNA synthesis to control cell proliferation
+  molecular_function:
+    id: GO:0030234
+    label: enzyme regulator activity
+  supported_by:
+  - reference_id: PMID:11500948
+    supporting_text: Regucalcin suppresses DNA synthesis in hepatoma cells
+  directly_involved_in:
+  - id: GO:2000279
+    label: negative regulation of DNA biosynthetic process
+  - id: GO:1902679
+    label: negative regulation of RNA biosynthetic process
+  - id: GO:0050680
+    label: negative regulation of epithelial cell proliferation
+  locations:
+  - id: GO:0005634
+    label: nucleus
+- description: Protects cells from apoptosis by inhibiting Ca2+-activated DNA fragmentation
+  molecular_function:
+    id: GO:0005509
+    label: calcium ion binding
+  directly_involved_in:
+  - id: GO:0043066
+    label: negative regulation of apoptotic process
+  - id: GO:1903625
+    label: negative regulation of DNA catabolic process
+  locations:
+  - id: GO:0005634
+    label: nucleus
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11129957
+    supporting_text: Supporting evidence for Rgn function
+  - reference_id: PMID:11500948
+    supporting_text: Supporting evidence for Rgn function

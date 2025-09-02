@@ -1,0 +1,78 @@
+id: O74447
+gene_symbol: SPCC16C4.02c
+taxon:
+  id: NCBITaxon:284812
+  label: Schizosaccharomyces pombe 972h-
+description: Uncharacterized protein orthologous to human neurochondrin (NCDN). Contains a DUF1941 domain and appears to function as a scaffolding protein. Interacts with proteins involved in spindle pole body organization, cortical microtubule anchoring, and cellular aging processes. Non-essential for viability under standard laboratory conditions.
+existing_annotations:
+- term:
+    id: GO:0003674
+    label: molecular_function
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'Root molecular function term with ND evidence indicates no specific molecular function has been experimentally determined. Based on protein-protein interaction data and orthology to neurochondrin, this protein likely has protein binding activity as a scaffolding protein, but this requires experimental validation.'
+    action: REMOVE
+    reason: 'Root terms with ND evidence should be removed as they provide no functional information.'
+- term:
+    id: GO:0008150
+    label: biological_process
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'Root biological process term with ND evidence indicates no specific biological process has been experimentally determined. Protein interactions suggest involvement in spindle pole body organization, cortical microtubule anchoring, and cellular aging, but these require experimental validation.'
+    action: REMOVE
+    reason: 'Root terms with ND evidence should be removed as they provide no functional information.'
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'Nuclear localization assigned based on high-throughput data (HDA). However, deep research indicates this protein is likely cytoplasmic based on orthology to human neurochondrin and predicted lack of nuclear localization signals. The HDA evidence may reflect transient nuclear association or experimental artifacts.'
+    action: REMOVE
+    reason: 'Conflicting with expected cytoplasmic localization based on orthology and domain analysis. HDA evidence alone is insufficient for confident localization assignment.'
+- term:
+    id: GO:0032153
+    label: cell division site
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'Cell division site localization based on high-throughput data. This annotation is plausible given the protein interacts with Sfi1 (spindle pole body component) and may have roles in cell division-related processes. However, HDA evidence alone is not definitive.'
+    action: KEEP_AS_NON_CORE
+    reason: 'Possible but not definitively established localization. May reflect transient association during cell division phases.'
+- term:
+    id: GO:0044732
+    label: mitotic spindle pole body
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'Spindle pole body localization based on high-throughput data. This is supported by protein-protein interaction with Sfi1, a core spindle pole body component involved in SPB duplication. The localization may be cell cycle-dependent or represent a subset of the protein population.'
+    action: KEEP_AS_NON_CORE
+    reason: 'Supported by interaction data with SPB component Sfi1, suggesting possible transient or partial association with spindle pole body structures.'
+references:
+- id: GO_REF:0000015
+  title: Use of the ND evidence code for Gene Ontology (GO) terms.
+  findings: []
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission
+    yeast Schizosaccharomyces pombe.
+  findings:
+  - statement: "High-throughput localization data suggesting nuclear, cell division site, and spindle pole body association"
+    supporting_text: "global analysis of protein localization in the fission yeast Schizosaccharomyces pombe"
+- id: file:pombe/SPCC16C4.02c/SPCC16C4.02c-deep-research.md
+  title: Deep research report on SPCC16C4.02c
+  findings:
+  - statement: "Orthologous to human neurochondrin (NCDN), contains DUF1941 domain"
+  - statement: "Interacts with Sfi1 (spindle pole body component), Mcp5/Num1 (cortical dynein anchor), and Ecl1 (chronological lifespan extender)"
+  - statement: "Non-essential for viability, likely functions as scaffolding/regulatory protein"
+  - statement: "Conserved across eukaryotes but absent in S. cerevisiae"
+core_functions:
+- description: "Primary molecular function as a scaffolding protein that mediates protein-protein interactions (GO:0005515 protein binding). Interacts with multiple cellular components including spindle pole body proteins (Sfi1), cortical microtubule anchoring proteins (Mcp5), and cellular aging regulators (Ecl1)."
+  supported_by:
+  - reference_id: "file:pombe/SPCC16C4.02c/SPCC16C4.02c-deep-research.md"
+    supporting_text: "Yeast two-hybrid screen identified multiple protein interactions"
+- description: "Primary cellular localization in cytoplasm (GO:0005737) based on orthology to human neurochondrin and lack of predicted nuclear localization signals. May transiently associate with specific cytoplasmic structures like spindle pole body and cell division sites during cell cycle phases."
+  supported_by:
+  - reference_id: "file:pombe/SPCC16C4.02c/SPCC16C4.02c-deep-research.md"
+    supporting_text: "Orthology to cytoplasmic human neurochondrin and protein interaction data"

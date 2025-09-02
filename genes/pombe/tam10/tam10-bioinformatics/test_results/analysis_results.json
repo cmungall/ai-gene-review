@@ -1,0 +1,238 @@
+{
+  "sequence_id": "P04637|p53_human",
+  "sequence_description": "P04637|p53_human Tumor suppressor p53",
+  "composition": {
+    "length": 393,
+    "molecular_weight": 43652.71339999999,
+    "aromaticity": 0.061068702290076333,
+    "instability_index": 73.5921119592877,
+    "isoelectric_point": 6.331659126281737,
+    "gravy": -0.756234096692112,
+    "amino_acid_percent": {
+      "A": 6.106870229007634,
+      "C": 2.544529262086514,
+      "D": 5.089058524173028,
+      "E": 7.633587786259542,
+      "F": 2.7989821882951653,
+      "G": 5.852417302798982,
+      "H": 3.053435114503817,
+      "I": 2.035623409669211,
+      "K": 5.089058524173028,
+      "L": 8.142493638676845,
+      "M": 3.053435114503817,
+      "N": 3.5623409669211195,
+      "P": 11.450381679389313,
+      "Q": 3.816793893129771,
+      "R": 6.6157760814249365,
+      "S": 9.669211195928753,
+      "T": 5.597964376590331,
+      "V": 4.580152671755725,
+      "W": 1.0178117048346056,
+      "Y": 2.2900763358778624
+    },
+    "basic_residues": 58,
+    "acidic_residues": 50,
+    "polar_residues": 108,
+    "hydrophobic_residues": 118,
+    "aromatic_residues": 24,
+    "small_residues": 103,
+    "charged_residues": 108,
+    "percent_basic": 14.75826972010178,
+    "percent_acidic": 12.72264631043257,
+    "percent_polar": 27.480916030534353,
+    "percent_hydrophobic": 30.025445292620866,
+    "percent_charged": 27.480916030534353,
+    "extinction_coefficient_reduced": 35410,
+    "extinction_coefficient_oxidized": 36035
+  },
+  "charge_distribution": {
+    "charge_variance": 5.927332725336082,
+    "hydrophobicity_variance": 0.5215855268806724
+  },
+  "motifs_found": [
+    {
+      "motif": "NLS - Bipartite",
+      "pattern": "[KR]{2}.{10,12}[KR]{3,}",
+      "start": 305,
+      "end": 321,
+      "sequence": "KRALPNNTSSSPQPKKK"
+    },
+    {
+      "motif": "LXXLL motif",
+      "pattern": "L..LL",
+      "start": 22,
+      "end": 26,
+      "sequence": "LWKLL"
+    },
+    {
+      "motif": "Proline-rich region",
+      "pattern": "P{3,}|P.P.P",
+      "start": 85,
+      "end": 89,
+      "sequence": "PAPAP"
+    },
+    {
+      "motif": "Proline-rich region",
+      "pattern": "P{3,}|P.P.P",
+      "start": 151,
+      "end": 153,
+      "sequence": "PPP"
+    },
+    {
+      "motif": "D-box",
+      "pattern": "R..L",
+      "start": 249,
+      "end": 252,
+      "sequence": "RPIL"
+    },
+    {
+      "motif": "PEST region indicator",
+      "pattern": "[PEST]{5,}",
+      "start": 149,
+      "end": 153,
+      "sequence": "STPPP"
+    },
+    {
+      "motif": "PEST region indicator",
+      "pattern": "[PEST]{5,}",
+      "start": 312,
+      "end": 316,
+      "sequence": "TSSSP"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 19,
+      "end": 25,
+      "sequence": "FSDLWKL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 26,
+      "end": 32,
+      "sequence": "LPENNVL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 44,
+      "end": 50,
+      "sequence": "MLSPDDI"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 137,
+      "end": 143,
+      "sequence": "LAKTCPV"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 188,
+      "end": 194,
+      "sequence": "LAPPQHL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 195,
+      "end": 201,
+      "sequence": "IRVEGNL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 206,
+      "end": 212,
+      "sequence": "LDDRNTF"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 237,
+      "end": 243,
+      "sequence": "MCNSSCM"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 246,
+      "end": 252,
+      "sequence": "MNRRPIL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 264,
+      "end": 270,
+      "sequence": "LLGRNSF"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 332,
+      "end": 338,
+      "sequence": "IRGRERF"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 344,
+      "end": 350,
+      "sequence": "LNEALEL"
+    },
+    {
+      "motif": "Low complexity region",
+      "start": 63,
+      "end": 95,
+      "entropy": 0.49499987625845865,
+      "sequence": "APRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSS"
+    },
+    {
+      "motif": "Repeat (3x)",
+      "pattern": "AAP",
+      "occurrences": 3,
+      "positions": [
+        69,
+        78,
+        83
+      ],
+      "sequence": "AAP"
+    }
+  ],
+  "coiled_coil_regions": [],
+  "disorder_regions": [
+    {
+      "start": 1,
+      "end": 25,
+      "max_score": 0.6666666666666666,
+      "length": 26
+    },
+    {
+      "start": 46,
+      "end": 110,
+      "max_score": 0.5333333333333333,
+      "length": 66
+    },
+    {
+      "start": 163,
+      "end": 196,
+      "max_score": 0.4,
+      "length": 35
+    },
+    {
+      "start": 266,
+      "end": 331,
+      "max_score": 0.8,
+      "length": 67
+    },
+    {
+      "start": 341,
+      "end": 393,
+      "max_score": 0.6,
+      "length": 53
+    }
+  ]
+}

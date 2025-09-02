@@ -1,0 +1,41 @@
+{
+  "pdb_file": "MTC7_alphafold.pdb",
+  "num_residues": 139,
+  "confidence_analysis": {
+    "mean_plddt": 54.89920863309353,
+    "min_plddt": 31.52,
+    "max_plddt": 90.22,
+    "confidence_regions": {
+      "very_high": 1,
+      "confident": 23,
+      "low": 57,
+      "very_low": 58
+    }
+  },
+  "structural_features": {
+    "end_to_end_distance": 32.62553737488473,
+    "tm_regions_confidence": [
+      {
+        "region": "13-33",
+        "mean_plddt": 56.35285714285713,
+        "min_plddt": 43.95
+      },
+      {
+        "region": "42-62",
+        "mean_plddt": 82.68333333333334,
+        "min_plddt": 74.4
+      }
+    ],
+    "radius_of_gyration": 35.002380747019465
+  },
+  "tm_regions": [
+    [
+      13,
+      33
+    ],
+    [
+      42,
+      62
+    ]
+  ]
+}

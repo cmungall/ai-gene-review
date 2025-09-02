@@ -1,0 +1,228 @@
+id: Q06848
+gene_symbol: ancA
+aliases:
+- SdbA
+- Scaffoldin dockerin-binding protein A
+taxon:
+  id: NCBITaxon:203119
+  label: Acetivibrio thermocellus ATCC 27405
+description: Non-catalytic cellulosome-anchoring protein that enables efficient cellulose
+  degradation by tethering the multi-enzyme cellulosome complex to the bacterial cell
+  surface. Contains a Type II cohesin domain that specifically binds the dockerin
+  domain of CipA (primary scaffoldin) and 3-4 S-layer homology (SLH) domains that
+  mediate non-covalent attachment to cell wall polysaccharides. This anchoring mechanism
+  concentrates cellulolytic enzymes at the cell-substrate interface, optimizing cellulose
+  hydrolysis through proximity effects and preventing enzyme loss to the medium. Knockout
+  studies demonstrate 14-23% reduction in cellulose degradation efficiency, confirming
+  its essential role in cell-associated cellulose catabolism.
+existing_annotations:
+- term:
+    id: GO:0000272
+    label: polysaccharide catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This annotation accurately reflects ancA's role in cellulose degradation
+      through its anchoring function. The protein enables polysaccharide catabolism
+      by tethering the cellulosome complex to the cell surface, optimizing enzymatic
+      access to insoluble cellulose substrates.
+    action: ACCEPT
+    reason: AncA is directly involved in polysaccharide catabolism through its essential
+      role in cellulosome anchoring. Mutant studies show reduced cellulose degradation
+      rates (~14-23% slower) when ancA is deleted, confirming its contribution to
+      the catabolic process. The annotation represents core function.
+    supported_by:
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: deletion and mutant studies underscore the proteins importance
+        in cellulose utilization. Strains lacking the ancA-encoded anchor show reduced
+        cellulose hydrolysis rates (on the order of ~14–23% slower) and delayed substrate
+        degradation
+- term:
+    id: GO:0030246
+    label: carbohydrate binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This annotation is too general and does not capture the specific molecular
+      function of ancA. The protein does not directly bind carbohydrates but rather
+      binds protein dockerin domains. The SLH domains may bind cell wall carbohydrates
+      for anchoring, but the primary function is protein-protein interaction.
+    action: MODIFY
+    reason: The term carbohydrate binding is too general and misleading for ancAs
+      primary function. AncA specifically binds to dockerin domains of scaffoldins
+      (particularly CipAs dockerin) via its Type II cohesin domain. While SLH domains
+      may interact with cell wall carbohydrates, the core molecular function is dockerin
+      binding, not general carbohydrate binding.
+    proposed_replacement_terms:
+    - id: GO:1990309
+      label: type-II dockerin domain binding
+    supported_by:
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: the data confirm that SdbA binds the dockerin domain of CipA
+- term:
+    id: GO:0005576
+    label: extracellular region
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is accurate but could be more specific. AncA is secreted
+      and localized to the cell surface/extracellular region, but more precisely it
+      is anchored to the cell wall via SLH domains.
+    action: ACCEPT
+    reason: The protein is secreted with an N-terminal signal peptide and is localized
+      to the extracellular region, specifically the cell surface. This is a correct
+      but somewhat general annotation that captures the overall cellular location.
+    supported_by:
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: the anchoring protein encoded by ancA is localized to the cell
+        envelope, exposed on the bacterial cell surface. It is secreted with an N-terminal
+        signal peptide
+- term:
+    id: GO:0030115
+    label: S-layer
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This annotation is highly accurate. AncA contains multiple S-layer homology
+      (SLH) domains that mediate attachment to the cell wall and is localized to the
+      S-layer. This represents the precise cellular component location.
+    action: ACCEPT
+    reason: AncA contains three reiterated SLH domains (plus one truncated) that are
+      characteristic of S-layer proteins and mediate cell wall attachment. The protein
+      is specifically localized to the S-layer as confirmed by biochemical fractionation
+      and UniProt annotation. This is a core structural and functional characteristic.
+    supported_by:
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: sequence analysis revealed that the protein contains three
+        reiterated C-terminal repeats (~60–70 amino acids each) that are homologous
+        to SLH motifs found in bacterial S-layer proteins
+- term:
+    id: GO:0030245
+    label: cellulose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is accurate and represents the core biological process
+      function of ancA. The protein is directly involved in cellulose catabolism by
+      anchoring the cellulosome complex that degrades cellulose to the cell surface.
+    action: ACCEPT
+    reason: AncA is directly involved in the cellulose catabolic process through its
+      essential role in anchoring the cellulosome to the cell surface. This enables
+      efficient cellulose degradation by concentrating cellulases at the substrate
+      interface. Knockout studies demonstrate reduced cellulose hydrolysis rates,
+      confirming its role in this process. This is a core function.
+    supported_by:
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: Through its anchoring role, ancA is directly involved in the
+        degradation of plant cell wall polysaccharides, specifically the cellulose
+        catabolic process
+    - reference_id: file:ACET2/ancA/ancA-deep-research.md
+      supporting_text: deletion and mutant studies underscore the proteins importance
+        in cellulose utilization. Strains lacking the ancA-encoded anchor show reduced
+        cellulose hydrolysis rates
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:8458832
+  title: Organization of a Clostridium thermocellum gene cluster encoding the cellulosomal
+    scaffolding protein CipA and a protein possibly involved in attachment of the
+    cellulosome to the cell surface.
+  findings:
+  - statement: First identification of ancA gene (ORF3p) in the cipA gene cluster
+      with cohesin and S-layer homology domains
+    supporting_text: The NH2-terminal region of ORF3p was similar to the reiterated
+      domains previously identified in CipA as receptors involved in binding the duplicated
+      segment of 22 amino acids present in catalytic subunits of the cellulosome
+  - statement: Demonstration of binding activity between ORF3p and 125I-labeled endoglucanase
+      CelD
+    supporting_text: it was found previously that ORF3p binds 125I-labeled endoglucanase
+      CelD containing the duplicated segment
+  - statement: Characterization of three reiterated C-terminal segments (60-70 residues)
+      homologous to S-layer proteins
+    supporting_text: The COOH-terminal regions of the three polypeptides were highly
+      similar and contained three reiterated segments of 60 to 70 residues each
+  - statement: Evidence for cell surface localization based on similarity to Bacillus
+      brevis and Acetogenium kivui S-layer proteins
+    supporting_text: Similar segments have been found at the NH2 terminus of the S-layer
+      proteins of Bacillus brevis and Acetogenium kivui, suggesting that ORF1p, ORF2p,
+      and ORF3p might also be located on the cell surface
+- id: file:ACET2/ancA/ancA-deep-research.md
+  title: Deep research analysis of ancA gene function and mechanism
+  findings:
+  - statement: Comprehensive review of ancA molecular mechanism showing type-II cohesin
+      binding to CipA dockerin domain
+  - statement: Documentation of knockout mutant phenotypes showing 14-23% reduction
+      in cellulose hydrolysis rates
+  - statement: 'Analysis of protein domains: N-terminal cohesin, 3-4 C-terminal SLH
+      domains, signal peptide for secretion'
+  - statement: Confirmation of cell envelope/S-layer localization through biochemical
+      fractionation and immunolocalization
+  - statement: Evidence for calcium-dependent cohesin-dockerin interaction and structural
+      basis from crystallographic studies
+core_functions:
+- description: Anchoring cellulosome complex to cell surface via type-II dockerin
+    domain binding activity
+  molecular_function:
+    id: GO:1990309
+    label: type-II dockerin domain binding
+  directly_involved_in:
+  - id: GO:0044575
+    label: cellulosome assembly
+  - id: GO:0030245
+    label: cellulose catabolic process
+  locations:
+  - id: GO:0043263
+    label: cellulosome
+  - id: GO:0030115
+    label: S-layer
+  supported_by:
+  - reference_id: PMID:8458832
+    supporting_text: Supporting evidence for ancA function
+  - reference_id: file:ACET2/ancA/ancA-deep-research.md
+    supporting_text: Bioinformatics evidence for ancA function
+- description: Mediating cellulosome binding and cell wall attachment via S-layer
+    homology domains
+  molecular_function:
+    id: GO:1990300
+    label: cellulosome binding
+  supported_by:
+  - reference_id: file:ACET2/ancA/ancA-deep-research.md
+    supporting_text: AncA contains multiple S-layer homology domains that mediate
+      cell wall attachment and cellulosome anchoring
+  directly_involved_in:
+  - id: GO:0044575
+    label: cellulosome assembly
+  - id: GO:0071555
+    label: cell wall organization
+  locations:
+  - id: GO:0043263
+    label: cellulosome
+  - id: GO:0030115
+    label: S-layer
+- description: Enabling efficient cellulose degradation by anchoring multi-enzyme
+    cellulosome complex at substrate interface
+  molecular_function:
+    id: GO:0005515
+    label: protein binding
+  supported_by:
+  - reference_id: file:ACET2/ancA/ancA-deep-research.md
+    supporting_text: AncA acts as a scaffold protein that anchors the cellulosome
+      complex to enable efficient substrate degradation
+  directly_involved_in:
+  - id: GO:0030245
+    label: cellulose catabolic process
+  - id: GO:0044575
+    label: cellulosome assembly
+  locations:
+  - id: GO:0043263
+    label: cellulosome
+  - id: GO:0005576
+    label: extracellular region

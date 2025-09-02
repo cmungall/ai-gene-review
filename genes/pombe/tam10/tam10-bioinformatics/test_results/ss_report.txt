@@ -1,0 +1,106 @@
+Secondary Structure Prediction Report
+=====================================
+
+Sequence: P04637|p53_human
+Length: 393 aa
+
+Composition:
+-----------
+Alpha helix: 107 residues (27.2%)
+Beta sheet: 70 residues (17.8%)
+Turn: 201 residues (51.1%)
+Coil/Loop: 15 residues (3.8%)
+
+Structural Elements:
+-------------------
+- Helix: positions 1-4 (length: 4)
+- Turn: positions 5-13 (length: 9)
+- Helix: positions 14-14 (length: 1)
+- Turn: positions 15-15 (length: 1)
+- Helix: positions 17-17 (length: 1)
+- Turn: positions 18-18 (length: 1)
+- Helix: positions 19-20 (length: 2)
+- Turn: positions 21-21 (length: 1)
+- Helix: positions 22-26 (length: 5)
+- Turn: positions 27-31 (length: 5)
+- Sheet: positions 32-32 (length: 1)
+- Turn: positions 33-37 (length: 5)
+- Helix: positions 38-46 (length: 9)
+- Turn: positions 47-49 (length: 3)
+- Helix: positions 50-55 (length: 6)
+- Turn: positions 56-62 (length: 7)
+- Helix: positions 63-69 (length: 7)
+- Turn: positions 70-70 (length: 1)
+- Helix: positions 71-71 (length: 1)
+- Turn: positions 72-75 (length: 4)
+- Helix: positions 76-77 (length: 2)
+- Turn: positions 78-80 (length: 3)
+- Helix: positions 81-81 (length: 1)
+- Turn: positions 82-84 (length: 3)
+- Helix: positions 85-86 (length: 2)
+- Turn: positions 87-99 (length: 13)
+- Sheet: positions 100-100 (length: 1)
+- Turn: positions 101-103 (length: 3)
+- Sheet: positions 104-106 (length: 3)
+- Turn: positions 107-109 (length: 3)
+- Sheet: positions 110-112 (length: 3)
+- Turn: positions 114-115 (length: 2)
+- Turn: positions 117-120 (length: 4)
+- Sheet: positions 121-125 (length: 5)
+- Turn: positions 126-129 (length: 4)
+- Helix: positions 130-132 (length: 3)
+- Sheet: positions 133-134 (length: 2)
+- Helix: positions 135-136 (length: 2)
+- Sheet: positions 137-138 (length: 2)
+- Sheet: positions 140-140 (length: 1)
+- Sheet: positions 142-148 (length: 7)
+- Turn: positions 149-156 (length: 8)
+- Sheet: positions 157-157 (length: 1)
+- Helix: positions 158-159 (length: 2)
+- Sheet: positions 160-160 (length: 1)
+- Helix: positions 161-163 (length: 3)
+- Sheet: positions 164-165 (length: 2)
+- Helix: positions 166-171 (length: 6)
+- Sheet: positions 173-175 (length: 3)
+- Turn: positions 176-190 (length: 15)
+- Sheet: positions 194-194 (length: 1)
+- Helix: positions 195-195 (length: 1)
+- Sheet: positions 196-198 (length: 3)
+- Sheet: positions 200-200 (length: 1)
+- Helix: positions 201-201 (length: 1)
+- Sheet: positions 202-203 (length: 2)
+- Helix: positions 204-206 (length: 3)
+- Turn: positions 207-212 (length: 6)
+- Sheet: positions 213-219 (length: 7)
+- Turn: positions 220-230 (length: 11)
+- Sheet: positions 231-237 (length: 7)
+- Turn: positions 238-248 (length: 11)
+- Sheet: positions 250-256 (length: 7)
+- Helix: positions 257-257 (length: 1)
+- Turn: positions 258-269 (length: 12)
+- Sheet: positions 271-275 (length: 5)
+- Turn: positions 276-282 (length: 7)
+- Helix: positions 283-291 (length: 9)
+- Turn: positions 292-294 (length: 3)
+- Helix: positions 295-297 (length: 3)
+- Turn: positions 298-327 (length: 30)
+- Sheet: positions 328-332 (length: 5)
+- Helix: positions 333-333 (length: 1)
+- Helix: positions 335-356 (length: 22)
+- Turn: positions 357-365 (length: 9)
+- Helix: positions 367-367 (length: 1)
+- Turn: positions 368-369 (length: 2)
+- Helix: positions 370-370 (length: 1)
+- Turn: positions 371-379 (length: 9)
+- Helix: positions 381-387 (length: 7)
+- Turn: positions 388-393 (length: 6)
+
+Consensus Structure:
+-------------------
+   1 HHHHTTTTTTTTTHTCHTHHTHHHHHTTTTTETTTTTHHHHHHHHHTTTHHHHHHTTTTT
+  61 TTHHHHHHHTHTTTTHHTTTHTTTHHTTTTTTTTTTTTTETTTEEETTTEEECTTCTTTT
+ 121 EEEEETTTTHHHEEHHEECECEEEEEEETTTTTTTTEHHEHHHEEHHHHHHCEEETTTTT
+ 181 TTTTTTTTTTCCCEHEEECEHEEHHHTTTTTTEEEEEEETTTTTTTTTTTEEEEEEETTT
+ 241 TTTTTTTTCEEEEEEEHTTTTTTTTTTTTCEEEEETTTTTTTHHHHHHHHHTTTHHHTTT
+ 301 TTTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEHCHHHHHHHHHHHHHHHHHHHHHHTTTT
+ 361 TTTTTCHTTHTTTTTTTTTCHHHHHHHTTTTTT

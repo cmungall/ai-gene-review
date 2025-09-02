@@ -1,0 +1,195 @@
+ID   JHD1_SCHPO              Reviewed;         948 AA.
+AC   O94603;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   18-JUN-2025, entry version 148.
+DE   RecName: Full=Putative JmjC domain-containing histone demethylation protein 1;
+DE            EC=1.14.11.27 {ECO:0000250|UniProtKB:P40034};
+DE   AltName: Full=Heterochromatin-destabilizing protein epe1;
+DE   AltName: Full=[Histone-H3]-lysine-36 demethylase 1;
+GN   Name=jhd1; Synonyms=epe1; ORFNames=SPCC622.16c;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND MUTAGENESIS OF TYR-307.
+RX   PubMed=12773576; DOI=10.1128/mcb.23.12.4356-4370.2003;
+RA   Ayoub N., Noma K., Isaac S., Kahan T., Grewal S.I.S., Cohen A.;
+RT   "A novel jmjC domain protein modulates heterochromatization in fission
+RT   yeast.";
+RL   Mol. Cell. Biol. 23:4356-4370(2003).
+RN   [3]
+RP   POSSIBLE FUNCTION AS A DEMETHYLASE.
+RX   PubMed=15809658; DOI=10.1038/sj.embor.7400379;
+RA   Trewick S.C., McLaughlin P.J., Allshire R.C.;
+RT   "Methylation: lost in hydroxylation?";
+RL   EMBO Rep. 6:315-320(2005).
+RN   [4]
+RP   LACK OF DEMETHYLASE ACTIVITY IN VITRO.
+RX   PubMed=16362057; DOI=10.1038/nature04433;
+RA   Tsukada Y., Fang J., Erdjument-Bromage H., Warren M.E., Borchers C.H.,
+RA   Tempst P., Zhang Y.;
+RT   "Histone demethylation by a family of JmjC domain-containing proteins.";
+RL   Nature 439:811-816(2006).
+CC   -!- FUNCTION: May be a histone demethylase that specifically demethylates
+CC       'Lys-36' of histone H3, thereby playing a central role in histone code
+CC       (By similarity). Represses transcriptional silencing by negatively
+CC       affecting heterochromatin stability. {ECO:0000250|UniProtKB:P40034,
+CC       ECO:0000269|PubMed:12773576}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6),N(6)-dimethyl-L-lysyl(36)-[histone H3] + 2 2-oxoglutarate
+CC         + 2 O2 = L-lysyl(36)-[histone H3] + 2 formaldehyde + 2 succinate + 2
+CC         CO2; Xref=Rhea:RHEA:42032, Rhea:RHEA-COMP:9785, Rhea:RHEA-COMP:9787,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:29969, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:61976; EC=1.14.11.27;
+CC         Evidence={ECO:0000250|UniProtKB:P40034};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};
+CC   -!- INTERACTION:
+CC       O94603; Q10990: cdt2; NbExp=2; IntAct=EBI-3505187, EBI-3505190;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:12773576}.
+CC   -!- DOMAIN: The JmjC domain mediates the demethylation activity.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the JHDM1 histone demethylase family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: In contrast to other JHDM1 histone demethylases, it lacks the
+CC       iron catalytic His in position 370 which is replaced by a Tyr residue
+CC       and has no histone demethylase activity in vitro (PubMed:16362057). It
+CC       therefore may not be functional in vivo. {ECO:0000305|PubMed:16362057}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329672; CAA21872.1; -; Genomic_DNA.
+DR   PIR; T41496; T41496.
+DR   RefSeq; NP_588188.1; NM_001023178.2.
+DR   AlphaFoldDB; O94603; -.
+DR   SMR; O94603; -.
+DR   BioGRID; 276044; 334.
+DR   FunCoup; O94603; 2.
+DR   IntAct; O94603; 2.
+DR   STRING; 284812.O94603; -.
+DR   iPTMnet; O94603; -.
+DR   PaxDb; 4896-SPCC622.16c.1; -.
+DR   EnsemblFungi; SPCC622.16c.1; SPCC622.16c.1:pep; SPCC622.16c.
+DR   GeneID; 2539481; -.
+DR   KEGG; spo:2539481; -.
+DR   PomBase; SPCC622.16c; -.
+DR   VEuPathDB; FungiDB:SPCC622.16c; -.
+DR   eggNOG; KOG1633; Eukaryota.
+DR   HOGENOM; CLU_013397_0_0_1; -.
+DR   InParanoid; O94603; -.
+DR   Reactome; R-SPO-2299718; Condensation of Prophase Chromosomes.
+DR   Reactome; R-SPO-3214842; HDMs demethylate histones.
+DR   Reactome; R-SPO-8951664; Neddylation.
+DR   Reactome; R-SPO-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   PRO; PR:O94603; -.
+DR   Proteomes; UP000002485; Chromosome III.
+DR   GO; GO:0000792; C:heterochromatin; IDA:PomBase.
+DR   GO; GO:1990342; C:heterochromatin island; IDA:PomBase.
+DR   GO; GO:0031934; C:mating-type region heterochromatin; IDA:PomBase.
+DR   GO; GO:0005634; C:nucleus; IDA:PomBase.
+DR   GO; GO:0005721; C:pericentric heterochromatin; IDA:PomBase.
+DR   GO; GO:0140720; C:subtelomeric heterochromatin; IDA:PomBase.
+DR   GO; GO:0032452; F:histone demethylase activity; IBA:GO_Central.
+DR   GO; GO:0140680; F:histone H3K36me/H3K36me2 demethylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032454; F:histone H3K9 demethylase activity; IDA:PomBase.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003712; F:transcription coregulator activity; IBA:GO_Central.
+DR   GO; GO:0006338; P:chromatin remodeling; IBA:GO_Central.
+DR   GO; GO:0033696; P:heterochromatin boundary formation; IDA:PomBase.
+DR   GO; GO:0010964; P:regulation of regulatory ncRNA-mediated heterochromatin formation; IMP:PomBase.
+DR   GO; GO:1902801; P:regulation of siRNA-independent facultative heterochromatin formation; IMP:PomBase.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   Gene3D; 2.60.120.650; Cupin; 1.
+DR   InterPro; IPR041070; JHD.
+DR   InterPro; IPR050690; JHDM1_Histone_Demethylase.
+DR   InterPro; IPR003347; JmjC_dom.
+DR   PANTHER; PTHR23123; PHD/F-BOX CONTAINING PROTEIN; 1.
+DR   Pfam; PF17811; JHD; 1.
+DR   Pfam; PF02373; JmjC; 1.
+DR   SMART; SM00558; JmjC; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+DR   PROSITE; PS51184; JMJC; 1.
+PE   1: Evidence at protein level;
+KW   Chromatin regulator; Dioxygenase; Iron; Metal-binding; Nucleus;
+KW   Oxidoreductase; Reference proteome; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..948
+FT                   /note="Putative JmjC domain-containing histone
+FT                   demethylation protein 1"
+FT                   /id="PRO_0000086985"
+FT   DOMAIN          243..402
+FT                   /note="JmjC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         294
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         297
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         299
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         314
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         307
+FT                   /note="Y->A: Loss of function."
+FT                   /evidence="ECO:0000269|PubMed:12773576"
+SQ   SEQUENCE   948 AA;  108653 MW;  5CACC9C1F39751C4 CRC64;
+     MDSWLEYDDI INQDIDIPSN DLSGSGTLCV GVHSSLLENS LNSIDSFISS KEEISWCGNQ
+     STPIATKSHL SCINPQYVNP FDTSPVSVDT EFQDTYLLDA PSFAQPHFSE RQSVDKTRSR
+     CLSRNRRRKR HPNLHKNHQR LLGMSFPQDG FRRMPAESVN FSYFRDTGFN EPTIFPSSDT
+     QNTRQLNLSK IATLIGYDCP LALVDVVTQK QIPNKMDMES WVKYMSLEPS KRGRIYDVLS
+     LEVSTTKLAY YVRKPNIVRD LDLVNTVWPP GSFALGEYPH VDTYCLMSAE NSYTEFHIEF
+     GGSSAYYNIL DGCKIFYLIP GTSKNWEAYT AWLTSSNDSD KKFLPNMVDV CYCVEVHSQQ
+     TILVPSGWIY AVVTPCDTIS IAGNFLTFLH IYPQLSIYNL ELQLGIEKEY QYPYFESIMW
+     YTAIHFYLAF PDNSSRDGID DIIAEYETGR LFDINAFTEQ ELDGFEELLN YLYIRAQILR
+     DCDIIIDIYN EPVKISKNNG YNSAYTMVPP DLDEICVDFV QKFGAWITYH HRRSAKHPSC
+     NCFSHLQTKL IDSGPKPANN SYQHQSNFIG VVISTNHNII KKCQESQIQT GKNNCSFQLV
+     KKRIKSTKKA PSWRSIIKAF KKRENTRCNF LSSLHATTFR EDIVVRPKIK SFVLEQLIFQ
+     ALFSFAINWT PSFFLNHSNF ENIALSKETF NFGGEANCEN TDTTLFTTWG DQGFRPSDSI
+     CYNDFNLLET ANSDAEASIH ELELQPLNAV NEREVDISQT DMTPSTALDT RVDTRVDSLP
+     EFSNLILSPS SNDDSFQLDD LLSPSSSNLK QQIQKVVPQN SLEFSVGEKE KKAAEYSLLH
+     TFSYKRLSME NEKPDTTKVP LKYNIQHEEM KAYRRKNDLE YIDQHFASSK SGISNGRNNN
+     KEVNLTKAEN VGIKKRRIMK NENNIYDFED HSPVREKWGH RLRSRGAS
+//

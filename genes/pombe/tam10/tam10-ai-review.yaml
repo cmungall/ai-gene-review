@@ -1,0 +1,91 @@
+id: G2TRQ9
+gene_symbol: tam10
+taxon:
+  id: NCBITaxon:284812
+  label: Schizosaccharomyces pombe 972h-
+description: 'Uncharacterized protein identified through proteogenomic screening, named for its altered transcript levels during meiosis. tam10 is a sequence orphan with no identifiable protein domains or orthologs outside the fission yeast lineage. Despite meiotic upregulation, deletion mutants show no phenotype under standard conditions, suggesting a subtle, condition-specific, or redundant function.'
+existing_annotations:
+- term:
+    id: GO:0008150
+    label: biological_process
+  evidence_type: ND
+  original_reference_id: GO_REF:0000015
+  review:
+    summary: 'This is a root biological process term with ND (No Data) evidence, used as a placeholder when no specific biological process is known. This annotation accurately reflects the current state of knowledge for tam10, which has no experimentally determined biological function despite being identified as having altered meiotic expression [PMID:21270388]. The meiotic expression change alone is insufficient to assign a specific biological process without functional data.'
+    action: ACCEPT
+    reason: 'The ND annotation for biological_process is appropriate given the complete lack of functional characterization. While tam10 shows differential expression during meiosis [PMID:21270388], this correlative observation does not justify assignment to meiotic processes without direct functional evidence. The deletion phenotype shows no defects in growth, viability, or sporulation, consistent with unknown function.'
+    supported_by:
+      - reference_id: file:pombe/tam10/tam10-deep-research.md
+        supporting_text: "The authors created a tam10Δ knockout and observed its phenotype... The tam10 deletion strain was viable with no apparent abnormalities"
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'This RNA binding annotation is based on orthology transfer (ISO) via GO_REF:0000024, likely due to the presence of a SMAP domain (PF15477). However, tam10 is described as a "sequence orphan" with no clear orthologs [PMID:21270388], making orthology-based transfer questionable. While SMAP/SmAP proteins in archaea bind RNA, the SMAP domain assignment itself lacks strong support given tam10 has "no identifiable protein domains" according to the primary literature.'
+    action: REMOVE
+    reason: 'The ISO evidence is invalid because tam10 has no established orthologs - it is explicitly described as a "sequence orphan" specific to the fission yeast lineage with no homologs in other fungi or model organisms [PMID:21270388]. The SMAP domain annotation appears to be a weak computational prediction that conflicts with the experimental finding that tam10 has "no known conserved motifs or domains". Bioinformatics analysis confirms no RNA-binding motifs and shows the putative SMAP region has atypical positive charge. Without valid orthologs or experimental RNA binding evidence, this annotation represents an over-interpretation.'
+    supported_by:
+      - reference_id: file:pombe/tam10/tam10-deep-research.md
+        supporting_text: "Tam10 as a sequence orphan, meaning its sequence did not match any Pfam domains or known protein families... Computational analysis thus far has not revealed any conserved motifs, enzymatic active sites, or repeats in Tam10"
+      - reference_id: file:pombe/tam10/tam10-deep-research.md
+        supporting_text: "Tam10 is poorly conserved across species... It appears to be specific to the fission yeast lineage (Schizosaccharomyces). Notably, no homolog of Tam10 exists in the budding yeast Saccharomyces cerevisiae or in higher eukaryotes"
+- term:
+    id: GO:0005730
+    label: nucleolus
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'This nucleolus localization annotation is based on sequence similarity (ISS) via GO_REF:0000024, but tam10 lacks any recognizable domains, targeting signals, or orthologs that would support this inference. No experimental localization data exists, and the protein has no predicted nuclear localization signals or nucleolar targeting sequences. The basis for this similarity-based transfer is unclear given tam10 is a sequence orphan.'
+    action: REMOVE
+    reason: 'The ISS evidence lacks foundation as tam10 has no sequence similarity to characterized proteins - it is explicitly a "sequence orphan" with no domains or motifs [PMID:21270388]. Without identifiable sequence features that would justify similarity-based localization inference, and lacking any experimental localization data, this annotation appears to be erroneous. Bioinformatics analysis shows 60-70% disorder and no nuclear localization signals. The subcellular localization of tam10 remains completely unknown.'
+    supported_by:
+      - reference_id: file:pombe/tam10/tam10-deep-research.md
+        supporting_text: "The subcellular localization of Tam10 is not yet determined. No localization studies (e.g. GFP-tagging or immunolocalization) have been published for Tam10... Since the protein lacks recognizable targeting signals (e.g. no predicted transmembrane helices or organelle-specific motifs) and has no known domains, it provides no clear clues for localization"
+      - reference_id: file:pombe/tam10/tam10-deep-research.md
+        supporting_text: "Its sequence reveals no known conserved motifs or domains, classifying it as a sequence orphan with no obvious homology to characterized proteins"
+references:
+- id: GO_REF:0000015
+  title: Use of the ND evidence code for Gene Ontology (GO) terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: PMID:21270388
+  title: Augmented annotation of the Schizosaccharomyces pombe genome reveals additional genes required for growth and viability
+  findings:
+  - statement: 'tam10 identified as novel gene with transcripts altered during meiosis'
+    supporting_text: 'the 14 genes with t ranscripts a ltered in m eiosis as tam1–tam14'
+  - statement: 'tam10 deletion mutants are viable with no apparent growth defects'
+    supporting_text: 'While tam2 .Δ was viable'
+  - statement: 'tam10 classified as sequence orphan with no identifiable protein domains'
+    supporting_text: 'Those that were unsupported by homology, or other methods, were designated as "dubious," pending further investigation'
+  - statement: 'tam10 mRNA levels fluctuate significantly during synchronized meiotic time course'
+    supporting_text: 'Fourteen transcripts were differentially expressed during meiosis'
+- id: file:pombe/tam10/tam10-deep-research.md
+  title: Deep research report for tam10 gene
+  findings: []
+- id: file:pombe/tam10/tam10-bioinformatics/RESULTS.md
+  title: tam10 Bioinformatics Analysis Results
+  findings:
+  - statement: 'tam10 is a highly basic protein (pI 10.02) with 27% basic residues, particularly enriched in lysine'
+  - statement: 'The protein is predicted to be 60-70% intrinsically disordered, consistent with lack of defined domains'
+  - statement: 'No significant coiled-coil regions detected despite UniProt annotation'
+  - statement: 'Putative SMAP domain region (30-97) has atypical positive charge instead of expected acidic character'
+  - statement: 'Contains PEST motif suggesting regulated protein degradation'
+core_functions:
+- description: 'Unknown function - tam10 is an uncharacterized sequence orphan with no identifiable domains or motifs'
+  molecular_function:
+    id: GO:0003674
+    label: molecular_function
+  supported_by:
+  - reference_id: file:pombe/tam10/tam10-deep-research.md
+    supporting_text: "No specific molecular function has been ascribed to Tam10. Its sequence reveals no known conserved motifs or domains, classifying it as a sequence orphan with no obvious homology to characterized proteins"
+  directly_involved_in:
+  - id: GO:0008150
+    label: biological_process
+  locations:
+  - id: GO:0005575
+    label: cellular_component
