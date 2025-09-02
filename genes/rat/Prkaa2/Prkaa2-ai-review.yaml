@@ -379,9 +379,9 @@ references:
 - id: PMID:2369897
   title: 'Regulation of HMG-CoA reductase: identification of the site phosphorylated
     by the AMP-activated protein kinase in vitro and in intact rat liver.'
-- id: file:rat/PRKAA2/PRKAA2-deep-research.md
+- id: file:rat/Prkaa2/Prkaa2-deep-research.md
   title: Deep research synthesis for PRKAA2 functions and regulation
-- id: file:rat/PRKAA2/PRKAA2-notes.md
+- id: file:rat/Prkaa2/Prkaa2-notes.md
   title: Research notes on PRKAA2 with literature citations
 core_functions:
 - molecular_function:
