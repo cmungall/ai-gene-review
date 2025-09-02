@@ -1,21 +1,21 @@
 {
   "sequence_lengths": {
-    "RBFOX1": 286,
-    "RBFOX2": 286,
-    "RBFOX3": 313
+    "RBFOX1": 397,
+    "RBFOX2": 390,
+    "RBFOX3": 312
   },
   "proline_content": {
     "RBFOX1": {
-      "count": 37,
-      "percentage": 12.937062937062937
+      "count": 38,
+      "percentage": 9.571788413098236
     },
     "RBFOX2": {
-      "count": 37,
-      "percentage": 12.937062937062937
+      "count": 34,
+      "percentage": 8.717948717948717
     },
     "RBFOX3": {
       "count": 40,
-      "percentage": 12.779552715654951
+      "percentage": 12.82051282051282
     }
   },
   "analysis_summary": {

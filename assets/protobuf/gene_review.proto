@@ -6,9 +6,11 @@ message AnnotationExtension
   string predicate = 0
   term term = 0
  }
+// A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation.
 message CoreFunction
  {
   string description = 0
+ repeated  supportingTextInReference supportedBy = 0
   term molecularFunction = 0
  repeated  term directlyInvolvedIn = 0
  repeated  term locations = 0
@@ -16,6 +18,7 @@ message CoreFunction
  repeated  term substrates = 0
   term inComplex = 0
  }
+// An existing annotation from the GO database, plus a review of the annotation.
 message ExistingAnnotation
  {
   term term = 0
@@ -23,39 +26,66 @@ message ExistingAnnotation
   boolean negated = 0
   string evidenceType = 0
   reference originalReferenceId = 0
+ repeated  string supportingEntities = 0
   review review = 0
  }
+// A finding is a statement about a gene, which is supported by a reference. Similar to "comments" in uniprot
 message Finding
  {
   string statement = 0
   string supportingText = 0
+  string referenceSectionType = 0
  }
 // Complete review for a gene
 message GeneReview
  {
   string id = 0
   string geneSymbol = 0
+ repeated  string aliases = 0
   string description = 0
   term taxon = 0
  repeated  reference references = 0
  repeated  existingAnnotation existingAnnotations = 0
  repeated  coreFunction coreFunctions = 0
+ repeated  proposedOntologyTerm proposedNewTerms = 0
  }
+// A proposed new ontology term that should exist but doesn't currently
+message ProposedOntologyTerm
+ {
+  string proposedName = 0
+  string proposedDefinition = 0
+  string justification = 0
+ }
+// A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.
 message Reference
  {
   string id = 0
   string title = 0
  repeated  finding findings = 0
+  boolean isInvalid = 0
  }
+// A review of an existing annotation.
 message Review
  {
   string summary = 0
   actionEnum action = 0
   string reason = 0
  repeated  term proposedReplacementTerms = 0
+ repeated  reference additionalReferenceIds = 0
+ repeated  supportingTextInReference supportedBy = 0
  }
+// A supporting text in a reference.
+message SupportingTextInReference
+ {
+  reference referenceId = 0
+  string supportingText = 0
+  string referenceSectionType = 0
+ }
+// A term in a specific ontology
 message Term
  {
   string id = 0
   string label = 0
+  string description = 0
+  string ontology = 0
  }

@@ -3,7 +3,16 @@ gene_symbol: Shu1
 taxon:
   id: NCBITaxon:284812
   label: Schizosaccharomyces pombe 972h-
-description: 'Shu1 is a GPI-anchored cell surface heme receptor that enables high-affinity heme acquisition as an iron source during iron starvation in S. pombe. It binds hemin with micromolar affinity (KD ~2.2 μM) through a cysteine-rich region containing a partial CFEM-like motif (Cys72-Cys101). Under iron-limited conditions, Shu1 localizes to the plasma membrane where it captures extracellular heme, then undergoes ligand-induced endocytosis to deliver heme to the vacuole. This heme import pathway works in concert with the vacuolar ABC transporter Abc3, which exports heme or iron from the vacuole to the cytosol, completing the two-step heme assimilation process. Shu1 expression is tightly regulated by iron availability through the Fep1 repressor, ensuring it is produced only when cells need to scavenge iron from heme sources.'
+description: Shu1 is a GPI-anchored cell surface heme receptor that enables high-affinity
+  heme acquisition as an iron source during iron starvation in S. pombe. It binds
+  hemin with micromolar affinity (KD ~2.2 μM) through a cysteine-rich region containing
+  a partial CFEM-like motif (Cys72-Cys101). Under iron-limited conditions, Shu1 localizes
+  to the plasma membrane where it captures extracellular heme, then undergoes ligand-induced
+  endocytosis to deliver heme to the vacuole. This heme import pathway works in concert
+  with the vacuolar ABC transporter Abc3, which exports heme or iron from the vacuole
+  to the cytosol, completing the two-step heme assimilation process. Shu1 expression
+  is tightly regulated by iron availability through the Fep1 repressor, ensuring it
+  is produced only when cells need to scavenge iron from heme sources.
 existing_annotations:
 - term:
     id: GO:0016192
@@ -11,7 +20,11 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000108
   review:
-    summary: 'This IEA annotation appears to be based on inference from GO:0140488 (heme receptor activity). While Shu1 does undergo heme-induced internalization from plasma membrane to vacuole, this is more accurately described as receptor-mediated endocytosis rather than general vesicle-mediated transport. The annotation captures a real aspect of Shu1 function but is somewhat generic.'
+    summary: This IEA annotation appears to be based on inference from GO:0140488
+      (heme receptor activity). While Shu1 does undergo heme-induced internalization
+      from plasma membrane to vacuole, this is more accurately described as receptor-mediated
+      endocytosis rather than general vesicle-mediated transport. The annotation captures
+      a real aspect of Shu1 function but is somewhat generic.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0005773
@@ -19,7 +32,10 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: 'This IEA annotation is supported by experimental evidence. PMID:28193844 shows Shu1 relocates to vacuolar membrane upon heme binding. However, the more specific term GO:0000324 (fungal-type vacuole) with experimental evidence is more appropriate.'
+    summary: This IEA annotation is supported by experimental evidence. PMID:28193844
+      shows Shu1 relocates to vacuolar membrane upon heme binding. However, the more
+      specific term GO:0000324 (fungal-type vacuole) with experimental evidence is
+      more appropriate.
     action: ACCEPT
 - term:
     id: GO:0005774
@@ -27,7 +43,10 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000044
   review:
-    summary: 'This IEA annotation is well-supported by experimental evidence. PMID:28193844 demonstrates that Shu1-HA4 relocates to the vacuolar membrane under high hemin concentrations, representing the internalized form of the protein after heme binding.'
+    summary: This IEA annotation is well-supported by experimental evidence. PMID:28193844
+      demonstrates that Shu1-HA4 relocates to the vacuolar membrane under high hemin
+      concentrations, representing the internalized form of the protein after heme
+      binding.
     action: ACCEPT
 - term:
     id: GO:0005886
@@ -35,7 +54,10 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'This IEA annotation is strongly supported by experimental evidence. Multiple studies (PMID:25733668, PMID:28193844) demonstrate Shu1 localizes to the plasma membrane, particularly under low hemin concentrations. This represents the primary functional location for heme reception.'
+    summary: This IEA annotation is strongly supported by experimental evidence. Multiple
+      studies (PMID:25733668, PMID:28193844) demonstrate Shu1 localizes to the plasma
+      membrane, particularly under low hemin concentrations. This represents the primary
+      functional location for heme reception.
     action: ACCEPT
 - term:
     id: GO:0016020
@@ -43,7 +65,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: 'This IEA annotation is correct but overly general. Shu1 is indeed a membrane protein (both plasma membrane and vacuolar membrane), but the more specific localization terms provide better functional information.'
+    summary: This IEA annotation is correct but overly general. Shu1 is indeed a membrane
+      protein (both plasma membrane and vacuolar membrane), but the more specific
+      localization terms provide better functional information.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0098552
@@ -51,7 +75,10 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: 'This IEA annotation is too generic and not particularly informative. While Shu1 is GPI-anchored to the external side of the plasma membrane, the more specific GO:0009897 (external side of plasma membrane) term with experimental support provides better functional information.'
+    summary: This IEA annotation is too generic and not particularly informative.
+      While Shu1 is GPI-anchored to the external side of the plasma membrane, the
+      more specific GO:0009897 (external side of plasma membrane) term with experimental
+      support provides better functional information.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0140488
@@ -59,104 +86,208 @@ existing_annotations:
   evidence_type: EXP
   original_reference_id: PMID:25733668
   review:
-    summary: 'This experimental annotation perfectly captures Shu1 core molecular function. PMID:25733668 demonstrates Shu1 functions as a heme receptor with direct binding activity (KD ~2.2 μM) and is required for heme uptake. This is the primary molecular function of Shu1.'
+    summary: This experimental annotation perfectly captures Shu1 core molecular function.
+      PMID:25733668 demonstrates Shu1 functions as a heme receptor with direct binding
+      activity (KD ~2.2 μM) and is required for heme uptake. This is the primary molecular
+      function of Shu1.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:25733668
+      supporting_text: Further analysis by absorbance spectroscopy and hemin-agarose
+        pulldown assays showed that Shu1 interacts with hemin, with a KD of ∼2.2 μm
+        ... When a hem1Δ shu1Δ mutant strain was incubated in the absence of ALA and
+        in the presence of hemin, cells were unable to grow unless an untagged shu1+
+        or HA4-tagged shu1+ allele was re-integrated
 - term:
     id: GO:0140488
     label: heme receptor activity
   evidence_type: IDA
   original_reference_id: PMID:28193844
   review:
-    summary: 'This IDA annotation provides additional experimental support for Shu1 heme receptor activity. PMID:28193844 demonstrates heme binding and receptor function through direct biochemical assays, complementing the evidence from PMID:25733668.'
+    summary: This IDA annotation provides additional experimental support for Shu1
+      heme receptor activity. PMID:28193844 demonstrates heme binding and receptor
+      function through direct biochemical assays, complementing the evidence from
+      PMID:25733668.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28193844
+      supporting_text: the heme analog zinc mesoporphyrin IX (ZnMP) first accumulates
+        into vacuoles and then subsequently, within the cytoplasm in a rapid and Shu1-dependent
+        manner
 - term:
     id: GO:0000324
     label: fungal-type vacuole
   evidence_type: IDA
   original_reference_id: PMID:28193844
   review:
-    summary: 'This IDA annotation is well-supported and more specific than the generic vacuole term. PMID:28193844 shows Shu1 activity in fungal-type vacuoles after heme-induced internalization. This represents the secondary localization of Shu1 during the heme transport process.'
+    summary: This IDA annotation is well-supported and more specific than the generic
+      vacuole term. PMID:28193844 shows Shu1 activity in fungal-type vacuoles after
+      heme-induced internalization. This represents the secondary localization of
+      Shu1 during the heme transport process.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28193844
+      supporting_text: When cells were treated with low concentrations of hemin, Shu1
+        localized at the cell surface, whereas under conditions of high concentrations
+        of hemin, Shu1 was detected on vacuolar membrane
 - term:
     id: GO:0005886
     label: plasma membrane
   evidence_type: IDA
   original_reference_id: PMID:28193844
   review:
-    summary: 'This IDA annotation provides strong experimental support for plasma membrane localization. PMID:28193844 shows Shu1-HA4 localizes to the cell surface (plasma membrane) under low hemin concentrations, which is the primary functional location for heme reception.'
+    summary: This IDA annotation provides strong experimental support for plasma membrane
+      localization. PMID:28193844 shows Shu1-HA4 localizes to the cell surface (plasma
+      membrane) under low hemin concentrations, which is the primary functional location
+      for heme reception.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28193844
+      supporting_text: When cells were treated with low concentrations of hemin, Shu1
+        localized at the cell surface
 - term:
     id: GO:0015886
     label: heme transport
   evidence_type: IMP
   original_reference_id: PMID:28193844
   review:
-    summary: 'This IMP annotation accurately captures Shu1 core biological process function. PMID:28193844 demonstrates through mutant phenotype analysis that Shu1 is required for heme transport, showing cells lacking Shu1 cannot efficiently transport heme. This is a core function.'
+    summary: This IMP annotation accurately captures Shu1 core biological process
+      function. PMID:28193844 demonstrates through mutant phenotype analysis that
+      Shu1 is required for heme transport, showing cells lacking Shu1 cannot efficiently
+      transport heme. This is a core function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28193844
+      supporting_text: the heme analog zinc mesoporphyrin IX (ZnMP) first accumulates
+        into vacuoles and then subsequently, within the cytoplasm in a rapid and Shu1-dependent
+        manner
 - term:
     id: GO:0020037
     label: heme binding
   evidence_type: IDA
   original_reference_id: PMID:28193844
   review:
-    summary: 'This IDA annotation is strongly supported by direct biochemical evidence. PMID:28193844 shows Shu1 binds hemin through hemin-agarose pulldown assays, which is essential for its heme receptor function. This represents the fundamental molecular interaction.'
+    summary: This IDA annotation is supported by reference to previous work. PMID:28193844
+      cites PMID:25733668 which showed Shu1 binds hemin through hemin-agarose pulldown
+      assays. This represents the fundamental molecular interaction.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28193844
+      supporting_text: Absorbance spectroscopy and hemin-agarose pulldown experiments
+        have demonstrated that Shu1 binds to hemin
 - term:
     id: GO:0020037
     label: heme binding
   evidence_type: IDA
   original_reference_id: PMID:29549126
   review:
-    summary: 'This IDA annotation provides additional experimental confirmation of heme binding activity. PMID:29549126 confirms Shu1 heme binding as part of studies comparing high-affinity (Shu1) vs low-affinity (Str3) heme transport systems.'
+    summary: This IDA annotation provides additional experimental confirmation of
+      heme binding activity. PMID:29549126 confirms Shu1 heme binding as part of studies
+      comparing high-affinity (Shu1) vs low-affinity (Str3) heme transport systems.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:29549126
+      supporting_text: In the fission yeast Schizosaccharomyces pombe, acquisition
+        of exogenous heme is largely mediated by the cell membrane–associated Shu1
 - term:
     id: GO:0140420
     label: heme import into cell
   evidence_type: IMP
   original_reference_id: PMID:29549126
   review:
-    summary: 'This IMP annotation accurately describes Shu1 core biological process. PMID:29549126 demonstrates through mutant phenotype analysis that Shu1 is essential for cellular heme import, working as a high-affinity system. This precisely captures the physiological function.'
+    summary: This IMP annotation accurately describes Shu1 core biological process.
+      PMID:29549126 demonstrates through mutant phenotype analysis that Shu1 is essential
+      for cellular heme import, working as a high-affinity system. This precisely
+      captures the physiological function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:29549126
+      supporting_text: Using a strain that cannot synthesize heme de novo ( hem1 Δ)
+        and lacks Shu1, we found that the heme-dependent growth deficit of this strain
+        is rescued by hemin supplementation in the presence of Str3
 - term:
     id: GO:0010106
     label: cellular response to iron ion starvation
   evidence_type: IMP
   original_reference_id: PMID:25733668
   review:
-    summary: 'This IMP annotation is well-supported by experimental evidence. PMID:25733668 shows Shu1 expression is induced under iron starvation conditions and repressed by iron repletion via Fep1. However, this represents the regulatory context rather than core function - Shu1 responds to iron starvation by enabling heme acquisition.'
+    summary: This IMP annotation is well-supported by experimental evidence. PMID:25733668
+      shows Shu1 expression is induced under iron starvation conditions and repressed
+      by iron repletion via Fep1. However, this represents the regulatory context
+      rather than core function - Shu1 responds to iron starvation by enabling heme
+      acquisition.
     action: KEEP_AS_NON_CORE
+    supported_by:
+    - reference_id: PMID:25733668
+      supporting_text: When iron levels are low, the transcription of shu1+ is induced,
+        although its expression is repressed when iron levels rise. The iron-dependent
+        down-regulation of shu1+ requires the GATA-type transcriptional repressor
+        Fep1
 - term:
     id: GO:0005886
     label: plasma membrane
   evidence_type: IDA
   original_reference_id: PMID:25733668
   review:
-    summary: 'This IDA annotation is strongly supported by the original experimental evidence. PMID:25733668 shows HA4-tagged Shu1 localizes to the plasma membrane in functional shu1+-HA4 alleles, establishing the primary cellular location for heme receptor activity.'
+    summary: This IDA annotation is strongly supported by the original experimental
+      evidence. PMID:25733668 shows HA4-tagged Shu1 localizes to the plasma membrane
+      in functional shu1+-HA4 alleles, establishing the primary cellular location
+      for heme receptor activity.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:25733668
+      supporting_text: HA4-tagged Shu1 localizes to the plasma membrane in cells expressing
+        a functional shu1+-HA4 allele
 - term:
     id: GO:0098711
     label: iron ion import across plasma membrane
   evidence_type: IMP
   original_reference_id: PMID:25733668
   review:
-    summary: 'This annotation has a NOT qualifier in the original GOA data, indicating Shu1 is NOT involved in direct iron ion import. This is correct - Shu1 imports heme (which contains iron) rather than free iron ions. The NOT annotation properly distinguishes heme transport from direct iron transport.'
+    summary: This annotation has a NOT qualifier in the original GOA data, indicating
+      Shu1 is NOT involved in direct iron ion import. This is correct - Shu1 imports
+      heme (which contains iron) rather than free iron ions. The NOT annotation properly
+      distinguishes heme transport from direct iron transport.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:25733668
+      supporting_text: their ability to acquire exogenous hemin or the fluorescent
+        heme analog zinc mesoporphyrin IX is dependent on the expression of Shu1
 - term:
     id: GO:0140420
     label: heme import into cell
   evidence_type: IMP
   original_reference_id: PMID:25733668
   review:
-    summary: 'This IMP annotation captures Shu1 core biological function perfectly. PMID:25733668 demonstrates through mutant analysis that Shu1 is required for acquisition of exogenous hemin and enables S. pombe to take up extracellular heme for cell growth. This is the primary physiological role.'
+    summary: This IMP annotation captures Shu1 core biological function perfectly.
+      PMID:25733668 demonstrates through mutant analysis that Shu1 is required for
+      acquisition of exogenous hemin and enables S. pombe to take up extracellular
+      heme for cell growth. This is the primary physiological role.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:25733668
+      supporting_text: that encodes a protein that enables S. pombe to take up extracellular
+        heme for cell growth ... their ability to acquire exogenous hemin or the fluorescent
+        heme analog zinc mesoporphyrin IX is dependent on the expression of Shu1
 - term:
     id: GO:0009897
     label: external side of plasma membrane
   evidence_type: TAS
   original_reference_id: PMID:12845604
   review:
-    summary: 'This TAS annotation is based on computational prediction of GPI-anchoring from PMID:12845604 genome-wide analysis. This is well-supported by subsequent experimental evidence (PMID:28193844) showing PI-PLC cleavability confirming GPI-anchoring. The external side localization is functionally important for heme reception.'
+    summary: This TAS annotation is based on computational prediction of GPI-anchoring
+      from PMID:12845604 genome-wide analysis. This is well-supported by subsequent
+      experimental evidence (PMID:28193844) showing PI-PLC cleavability confirming
+      GPI-anchoring. The external side localization is functionally important for
+      heme reception.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:12845604
+      supporting_text: Glycosylphosphatidylinositol-modified (GPI) proteins
+    - reference_id: PMID:28193844
+      supporting_text: Shaving experiments showed that Shu1 is released from membrane
+        preparations when spheroplast lysates are incubated with phosphoinositide-specific
+        phospholipase C (PI-PLC)
 references:
 - id: GO_REF:0000043
   title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
@@ -180,29 +311,79 @@ references:
   title: Shu1 is a cell-surface protein involved in iron acquisition from heme in
     Schizosaccharomyces pombe.
   findings:
-  - statement: 'First identification and characterization of Shu1 as a cell-surface heme receptor with high-affinity binding (KD ~2.2 μM) essential for heme acquisition in S. pombe'
-  - statement: 'Demonstrates plasma membrane localization via HA4-epitope tagging and fluorescence microscopy, remaining membrane-associated after cell wall digestion'
-  - statement: 'Shows iron-regulated expression with 18-30 fold induction under iron starvation, controlled by Fep1 repressor binding to three GATA elements in the promoter'
-  - statement: 'Structure-function analysis reveals critical cysteine-rich region (Cys72-Cys101) forming partial CFEM-like motif essential for heme binding'
-  - statement: 'Mutant phenotype analysis shows shu1Δ cells cannot grow on heme as sole iron source, demonstrating requirement for heme-iron utilization'
+  - statement: First identification and characterization of Shu1 as a cell-surface
+      heme receptor with high-affinity binding (KD ~2.2 μM) essential for heme acquisition
+      in S. pombe
+    supporting_text: Further analysis by absorbance spectroscopy and hemin-agarose
+      pulldown assays showed that Shu1 interacts with hemin, with a KD of ∼2.2 μm
+  - statement: Demonstrates plasma membrane localization via HA4-epitope tagging and
+      fluorescence microscopy, remaining membrane-associated after cell wall digestion
+    supporting_text: HA4-tagged Shu1 localizes to the plasma membrane in cells expressing
+      a functional shu1+-HA4 allele
+  - statement: Shows iron-regulated expression with 18-30 fold induction under iron
+      starvation, controlled by Fep1 repressor binding to three GATA elements in the
+      promoter
+    supporting_text: When iron levels are low, the transcription of shu1+ is induced,
+      although its expression is repressed when iron levels rise. The iron-dependent
+      down-regulation of shu1+ requires the GATA-type transcriptional repressor Fep1
+  - statement: Structure-function analysis reveals critical cysteine-rich region (Cys72-Cys101)
+      forming partial CFEM-like motif essential for heme binding
+    supporting_text: However, four of these Cys residues (positions 72, 87, 92, and
+      101) exhibit an arrangement reminiscent of a partial CFEM domain, with a C X
+      14 C X 4 CX 8 C configuration in Shu1 as compared with a C X 11 C X 4 C X 15
+      C configuration in Rbt5/51 or Pga7
+  - statement: Mutant phenotype analysis shows shu1Δ cells cannot grow on heme as
+      sole iron source, demonstrating requirement for heme-iron utilization
+    supporting_text: When a hem1Δ shu1Δ mutant strain was incubated in the absence
+      of ALA and in the presence of hemin, cells were unable to grow unless an untagged
+      shu1+ or HA4-tagged shu1+ allele was re-integrated
 - id: PMID:28193844
   title: Heme Assimilation in Schizosaccharomyces pombe Requires Cell-surface-anchored
     Protein Shu1 and Vacuolar Transporter Abc3.
   findings:
-  - statement: 'Confirms GPI-anchoring at Ser199 through PI-PLC cleavage assays, identifying the ω-site and demonstrating proper membrane attachment'
-  - statement: 'Shows dynamic heme-induced trafficking from plasma membrane (low hemin) to vacuolar membrane (high hemin) using fluorescent heme analog ZnMP'
-  - statement: 'Establishes two-step heme assimilation pathway: Shu1-mediated endocytic uptake into vacuoles followed by Abc3-mediated export to cytosol'
-  - statement: 'Demonstrates that abc3Δ mutants phenocopy shu1Δ, with heme analogs accumulating in vacuoles unable to reach cytoplasm'
-  - statement: 'Provides direct biochemical evidence for heme binding through hemin-agarose pulldown assays confirming receptor function'
+  - statement: Confirms GPI-anchoring at Ser199 through PI-PLC cleavage assays, identifying
+      the ω-site and demonstrating proper membrane attachment
+    supporting_text: Shaving experiments showed that Shu1 is released from membrane
+      preparations when spheroplast lysates are incubated with phosphoinositide-specific
+      phospholipase C (PI-PLC)
+  - statement: Shows dynamic heme-induced trafficking from plasma membrane (low hemin)
+      to vacuolar membrane (high hemin) using fluorescent heme analog ZnMP
+    supporting_text: When cells were treated with low concentrations of hemin, Shu1
+      localized at the cell surface, whereas under conditions of high concentrations
+      of hemin, Shu1 was detected on vacuolar membrane
+  - statement: 'Establishes two-step heme assimilation pathway: Shu1-mediated endocytic
+      uptake into vacuoles followed by Abc3-mediated export to cytosol'
+    supporting_text: The heme analog zinc mesoporphyrin IX (ZnMP) first accumulates
+      into vacuoles and then subsequently, within the cytoplasm in a rapid and Shu1-dependent
+      manner
+  - statement: Demonstrates that abc3Δ mutants phenocopy shu1Δ, with heme analogs
+      accumulating in vacuoles unable to reach cytoplasm
+    supporting_text: In hem1Δ abc3Δ cells, ZnMP accumulates primarily in vacuoles
+      and does not sequentially accumulate in the cytosol
+  - statement: Provides direct biochemical evidence for heme binding through hemin-agarose
+      pulldown assays confirming receptor function
+    supporting_text: Analysis by hemin-agarose pulldown assays showed that Abc3 interacts
+      with hemin
 - id: PMID:29549126
   title: The major facilitator transporter Str3 is required for low-affinity heme
     acquisition in Schizosaccharomyces pombe.
   findings:
-  - statement: 'Defines Shu1 as the high-affinity component of a dual heme transport system working alongside low-affinity transporter Str3'
-  - statement: 'Confirms Shu1 requirement for cellular heme import through mutant phenotype analysis'
-  - statement: 'Demonstrates complementary roles of high-affinity (Shu1) and low-affinity (Str3) systems in heme acquisition'
+  - statement: Defines Shu1 as the high-affinity component of a dual heme transport
+      system working alongside low-affinity transporter Str3
+    supporting_text: In the fission yeast Schizosaccharomyces pombe, acquisition of
+      exogenous heme is largely mediated by the cell membrane-associated Shu1
+  - statement: Confirms Shu1 requirement for cellular heme import through mutant phenotype
+      analysis
+    supporting_text: Using a strain that cannot synthesize heme de novo (hem1Δ) and
+      lacks Shu1, we found that the heme-dependent growth deficit of this strain is
+      rescued by hemin supplementation in the presence of Str3
+  - statement: Demonstrates complementary roles of high-affinity (Shu1) and low-affinity
+      (Str3) systems in heme acquisition
+    supporting_text: Str3, a member of the major facilitator superfamily of transporters,
+      promotes cellular heme import
 core_functions:
-- description: 'High-affinity heme receptor activity at cell surface enabling iron acquisition from extracellular heme sources'
+- description: High-affinity heme receptor activity at cell surface enabling iron
+    acquisition from extracellular heme sources
   molecular_function:
     id: GO:0140488
     label: heme receptor activity
@@ -218,7 +399,13 @@ core_functions:
     label: external side of plasma membrane
   - id: GO:0005886
     label: plasma membrane
-- description: 'Micromolar-affinity heme binding through cysteine-rich partial CFEM-like motif enabling substrate recognition'
+  supported_by:
+  - reference_id: PMID:12845604
+    supporting_text: Supporting evidence for Shu1 function
+  - reference_id: PMID:25733668
+    supporting_text: Supporting evidence for Shu1 function
+- description: Micromolar-affinity heme binding through cysteine-rich partial CFEM-like
+    motif enabling substrate recognition
   molecular_function:
     id: GO:0020037
     label: heme binding
@@ -228,7 +415,13 @@ core_functions:
   locations:
   - id: GO:0009897
     label: external side of plasma membrane
-- description: 'Ligand-induced endocytic trafficking delivering heme from plasma membrane to vacuole for iron assimilation'
+  supported_by:
+  - reference_id: PMID:12845604
+    supporting_text: Supporting evidence for Shu1 function
+  - reference_id: PMID:25733668
+    supporting_text: Supporting evidence for Shu1 function
+- description: Ligand-induced endocytic trafficking delivering heme from plasma membrane
+    to vacuole for iron assimilation
   molecular_function:
     id: GO:0140488
     label: heme receptor activity
@@ -242,7 +435,13 @@ core_functions:
     label: plasma membrane
   - id: GO:0005774
     label: vacuolar membrane
-- description: 'Iron-regulated expression responding to cellular iron starvation through Fep1-mediated transcriptional control'
+  supported_by:
+  - reference_id: PMID:12845604
+    supporting_text: Supporting evidence for Shu1 function
+  - reference_id: PMID:25733668
+    supporting_text: Supporting evidence for Shu1 function
+- description: Iron-regulated expression responding to cellular iron starvation through
+    Fep1-mediated transcriptional control
   molecular_function:
     id: GO:0140488
     label: heme receptor activity
@@ -254,3 +453,8 @@ core_functions:
   locations:
   - id: GO:0009897
     label: external side of plasma membrane
+  supported_by:
+  - reference_id: PMID:12845604
+    supporting_text: Supporting evidence for Shu1 function
+  - reference_id: PMID:25733668
+    supporting_text: Supporting evidence for Shu1 function

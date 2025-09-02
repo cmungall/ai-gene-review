@@ -54,6 +54,7 @@ linkml:Sparqlpath xsd:string
 
 <CoreFunction> CLOSED {
     (  $<CoreFunction_tes> (  <description> @linkml:String ? ;
+          <supported_by> @<SupportingTextInReference> * ;
           <molecular_function> @<Term> ? ;
           <directly_involved_in> @<Term> * ;
           <locations> @<Term> * ;
@@ -71,6 +72,7 @@ linkml:Sparqlpath xsd:string
           <negated> @linkml:Boolean ? ;
           <evidence_type> @linkml:String ? ;
           <original_reference_id> @<Reference> ? ;
+          <supporting_entities> @linkml:String * ;
           <review> @<Review> ?
        ) ;
        rdf:type [ <ExistingAnnotation> ] ?
@@ -79,27 +81,40 @@ linkml:Sparqlpath xsd:string
 
 <Finding> CLOSED {
     (  $<Finding_tes> (  <statement> @linkml:String ? ;
-          <supporting_text> @linkml:String ?
+          <supporting_text> @linkml:String ? ;
+          <reference_section_type> @linkml:String ?
        ) ;
        rdf:type [ <Finding> ] ?
     )
 }
 
 <GeneReview> CLOSED {
-    (  $<GeneReview_tes> (  <gene_symbol> @linkml:String ? ;
+    (  $<GeneReview_tes> (  <gene_symbol> @linkml:String ;
+          <aliases> @linkml:String * ;
           <description> @linkml:String ? ;
           <taxon> @<Term> ? ;
           <references> @<Reference> * ;
           <existing_annotations> @<ExistingAnnotation> * ;
-          <core_functions> @<CoreFunction> *
+          <core_functions> @<CoreFunction> * ;
+          <proposed_new_terms> @<ProposedOntologyTerm> *
        ) ;
        rdf:type [ <GeneReview> ]
     )
 }
 
+<ProposedOntologyTerm> CLOSED {
+    (  $<ProposedOntologyTerm_tes> (  <proposed_name> @linkml:String ;
+          <proposed_definition> @linkml:String ;
+          <justification> @linkml:String ?
+       ) ;
+       rdf:type [ <ProposedOntologyTerm> ] ?
+    )
+}
+
 <Reference> CLOSED {
-    (  $<Reference_tes> (  dcterms:title @linkml:String ? ;
-          <findings> @<Finding> *
+    (  $<Reference_tes> (  dcterms:title @linkml:String ;
+          <findings> @<Finding> * ;
+          <is_invalid> @linkml:Boolean ?
        ) ;
        rdf:type [ <Reference> ]
     )
@@ -112,16 +127,31 @@ linkml:Sparqlpath xsd:string
              <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE>
              <https://w3id.org/ai4curation/gene_review/ActionEnum#MODIFY>
              <https://w3id.org/ai4curation/gene_review/ActionEnum#MARK_AS_OVER_ANNOTATED>
-             <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED> ] ? ;
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED>
+             <https://w3id.org/ai4curation/gene_review/ActionEnum#PENDING> ] ? ;
           <reason> @linkml:String ? ;
-          <proposed_replacement_terms> @<Term> *
+          <proposed_replacement_terms> @<Term> * ;
+          <additional_reference_ids> @<Reference> * ;
+          <supported_by> @<SupportingTextInReference> *
        ) ;
        rdf:type [ <Review> ] ?
     )
 }
 
+<SupportingTextInReference> CLOSED {
+    (  $<SupportingTextInReference_tes> (  <reference_id> @<Reference> ? ;
+          <supporting_text> @linkml:String ? ;
+          <reference_section_type> @linkml:String ?
+       ) ;
+       rdf:type [ <SupportingTextInReference> ] ?
+    )
+}
+
 <Term> CLOSED {
-    (  $<Term_tes> <label> @linkml:String ? ;
+    (  $<Term_tes> (  <label> @linkml:String ;
+          <description> @linkml:String ? ;
+          <ontology> @linkml:String ?
+       ) ;
        rdf:type [ <Term> ]
     )
 }

@@ -12,60 +12,40 @@ def test_valid_reference_ids():
     data = {
         "id": "Q12345",
         "gene_symbol": "TEST1",
-        "taxon": {
-            "id": "NCBITaxon:9606",
-            "label": "Homo sapiens"
-        },
+        "taxon": {"id": "NCBITaxon:9606", "label": "Homo sapiens"},
         "description": "Test gene for validation",
         "references": [
-            {
-                "id": "PMID:12345",
-                "title": "Test paper 1"
-            },
-            {
-                "id": "PMID:67890",
-                "title": "Test paper 2"
-            }
+            {"id": "PMID:12345", "title": "Test paper 1"},
+            {"id": "PMID:67890", "title": "Test paper 2"},
         ],
         "existing_annotations": [
             {
-                "term": {
-                    "id": "GO:0005515",
-                    "label": "protein binding"
-                },
+                "term": {"id": "GO:0005515", "label": "protein binding"},
                 "evidence_type": "IPI",
                 "original_reference_id": "PMID:12345",
-                "review": {
-                    "summary": "Valid reference",
-                    "action": "ACCEPT"
-                }
+                "review": {"summary": "Valid reference", "action": "ACCEPT"},
             },
             {
-                "term": {
-                    "id": "GO:0005737",
-                    "label": "cytoplasm"
-                },
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
                 "evidence_type": "ISS",
                 "original_reference_id": "PMID:67890",
-                "review": {
-                    "summary": "Another valid reference",
-                    "action": "ACCEPT"
-                }
-            }
-        ]
+                "review": {"summary": "Another valid reference", "action": "ACCEPT"},
+            },
+        ],
     }
-    
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
         yaml.dump(data, f)
         temp_path = Path(f.name)
-    
+
     try:
         # Disable best practices to avoid term validation errors
         report = validate_gene_review(temp_path, check_best_practices=False)
         # Should not have any errors about reference IDs
         ref_errors = [
-            issue for issue in report.issues 
-            if issue.severity == ValidationSeverity.ERROR 
+            issue
+            for issue in report.issues
+            if issue.severity == ValidationSeverity.ERROR
             and "non-existent reference ID" in issue.message
         ]
         assert len(ref_errors) == 0, f"Unexpected reference errors: {ref_errors}"
@@ -79,59 +59,42 @@ def test_invalid_reference_id():
     data = {
         "id": "Q12345",
         "gene_symbol": "TEST2",
-        "taxon": {
-            "id": "NCBITaxon:9606",
-            "label": "Homo sapiens"
-        },
+        "taxon": {"id": "NCBITaxon:9606", "label": "Homo sapiens"},
         "description": "Test gene for validation with bad reference",
-        "references": [
-            {
-                "id": "PMID:12345",
-                "title": "Test paper 1"
-            }
-        ],
+        "references": [{"id": "PMID:12345", "title": "Test paper 1"}],
         "existing_annotations": [
             {
-                "term": {
-                    "id": "GO:0005515",
-                    "label": "protein binding"
-                },
+                "term": {"id": "GO:0005515", "label": "protein binding"},
                 "evidence_type": "IPI",
                 "original_reference_id": "PMID:12345",
-                "review": {
-                    "summary": "Valid reference",
-                    "action": "ACCEPT"
-                }
+                "review": {"summary": "Valid reference", "action": "ACCEPT"},
             },
             {
-                "term": {
-                    "id": "GO:0005737",
-                    "label": "cytoplasm"
-                },
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
                 "evidence_type": "ISS",
                 "original_reference_id": "PMID:99999",  # This ID doesn't exist in references
-                "review": {
-                    "summary": "Invalid reference",
-                    "action": "ACCEPT"
-                }
-            }
-        ]
+                "review": {"summary": "Invalid reference", "action": "ACCEPT"},
+            },
+        ],
     }
-    
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
         yaml.dump(data, f)
         temp_path = Path(f.name)
-    
+
     try:
         # Enable best practices to check references (this is what we're testing)
         report = validate_gene_review(temp_path, check_best_practices=True)
         # Should have an error about the invalid reference ID
         ref_errors = [
-            issue for issue in report.issues 
-            if issue.severity == ValidationSeverity.ERROR 
+            issue
+            for issue in report.issues
+            if issue.severity == ValidationSeverity.ERROR
             and "PMID:99999" in issue.message
         ]
-        assert len(ref_errors) == 1, f"Expected 1 reference error, got {len(ref_errors)}: {ref_errors}"
+        assert len(ref_errors) == 1, (
+            f"Expected 1 reference error, got {len(ref_errors)}: {ref_errors}"
+        )
         # The file might not be valid overall due to other checks, but we should have the ref error
         assert "non-existent reference ID" in ref_errors[0].message
     finally:
@@ -143,46 +106,44 @@ def test_annotations_without_references():
     data = {
         "id": "Q12345",
         "gene_symbol": "TEST3",
-        "taxon": {
-            "id": "NCBITaxon:9606",
-            "label": "Homo sapiens"
-        },
+        "taxon": {"id": "NCBITaxon:9606", "label": "Homo sapiens"},
         "description": "Test gene without references section",
         # No references section at all
         "existing_annotations": [
             {
-                "term": {
-                    "id": "GO:0005515",
-                    "label": "protein binding"
-                },
+                "term": {"id": "GO:0005515", "label": "protein binding"},
                 "evidence_type": "IPI",
                 "original_reference_id": "PMID:12345",
                 "review": {
                     "summary": "Reference without references section",
-                    "action": "ACCEPT"
-                }
+                    "action": "ACCEPT",
+                },
             }
-        ]
+        ],
     }
-    
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
         yaml.dump(data, f)
         temp_path = Path(f.name)
-    
+
     try:
         report = validate_gene_review(temp_path)
         # Should have an error about the missing reference
         ref_errors = [
-            issue for issue in report.issues 
-            if issue.severity == ValidationSeverity.ERROR 
+            issue
+            for issue in report.issues
+            if issue.severity == ValidationSeverity.ERROR
             and "PMID:12345" in issue.message
         ]
-        assert len(ref_errors) == 1, f"Expected 1 reference error, got {len(ref_errors)}"
+        assert len(ref_errors) == 1, (
+            f"Expected 1 reference error, got {len(ref_errors)}"
+        )
         assert not report.is_valid
-        
+
         # Should also have a warning about missing references section
         ref_warnings = [
-            issue for issue in report.issues
+            issue
+            for issue in report.issues
             if issue.severity == ValidationSeverity.WARNING
             and "No references provided" in issue.message
         ]
@@ -196,44 +157,31 @@ def test_annotation_without_original_reference_id():
     data = {
         "id": "Q12345",
         "gene_symbol": "TEST4",
-        "taxon": {
-            "id": "NCBITaxon:9606",
-            "label": "Homo sapiens"
-        },
+        "taxon": {"id": "NCBITaxon:9606", "label": "Homo sapiens"},
         "description": "Test gene with annotation lacking reference ID",
-        "references": [
-            {
-                "id": "PMID:12345",
-                "title": "Test paper"
-            }
-        ],
+        "references": [{"id": "PMID:12345", "title": "Test paper"}],
         "existing_annotations": [
             {
-                "term": {
-                    "id": "GO:0005515",
-                    "label": "protein binding"
-                },
+                "term": {"id": "GO:0005515", "label": "protein binding"},
                 "evidence_type": "IEA",
                 # No original_reference_id field
-                "review": {
-                    "summary": "Automated annotation",
-                    "action": "ACCEPT"
-                }
+                "review": {"summary": "Automated annotation", "action": "ACCEPT"},
             }
-        ]
+        ],
     }
-    
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
         yaml.dump(data, f)
         temp_path = Path(f.name)
-    
+
     try:
         # Disable best practices to avoid term validation errors
         report = validate_gene_review(temp_path, check_best_practices=False)
         # Should not have errors about reference IDs
         ref_errors = [
-            issue for issue in report.issues 
-            if issue.severity == ValidationSeverity.ERROR 
+            issue
+            for issue in report.issues
+            if issue.severity == ValidationSeverity.ERROR
             and "non-existent reference ID" in issue.message
         ]
         assert len(ref_errors) == 0

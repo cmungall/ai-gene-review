@@ -3,7 +3,15 @@ gene_symbol: STAT1
 taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
-description: STAT1 is a latent cytoplasmic transcription factor that serves as a central mediator of cytokine signaling, particularly interferon responses. Upon cytokine stimulation, STAT1 becomes phosphorylated on Y701 by JAK kinases, forms homodimers or heterodimers (e.g., with STAT2), and translocates to the nucleus where it binds specific DNA elements to regulate gene expression. STAT1 is essential for antiviral and antimicrobial immunity, mediating both type I (IFN-α/β, forming ISGF3 complex) and type II (IFN-γ, forming GAF complex) interferon responses. Knockout studies demonstrate STAT1's non-redundant role in host defense against viruses, bacteria, and fungi.
+description: STAT1 is a latent cytoplasmic transcription factor that serves as a central
+  mediator of cytokine signaling, particularly interferon responses. Upon cytokine
+  stimulation, STAT1 becomes phosphorylated on Y701 by JAK kinases, forms homodimers
+  or heterodimers (e.g., with STAT2), and translocates to the nucleus where it binds
+  specific DNA elements to regulate gene expression. STAT1 is essential for antiviral
+  and antimicrobial immunity, mediating both type I (IFN-α/β, forming ISGF3 complex)
+  and type II (IFN-γ, forming GAF complex) interferon responses. Knockout studies
+  demonstrate STAT1's non-redundant role in host defense against viruses, bacteria,
+  and fungi.
 existing_annotations:
 - term:
     id: GO:0000978
@@ -11,7 +19,10 @@ existing_annotations:
   evidence_type: IBA
   original_reference_id: GO_REF:0000033
   review:
-    summary: STAT1 binds to specific DNA regulatory elements including GAS (gamma-activated sites) and ISRE sequences in gene promoters. This IBA annotation accurately reflects STAT1's well-established function as a sequence-specific transcription factor.
+    summary: STAT1 binds to specific DNA regulatory elements including GAS (gamma-activated
+      sites) and ISRE sequences in gene promoters. This IBA annotation accurately
+      reflects STAT1's well-established function as a sequence-specific transcription
+      factor.
     action: ACCEPT
 - term:
     id: GO:0000981
@@ -19,7 +30,9 @@ existing_annotations:
   evidence_type: IBA
   original_reference_id: GO_REF:0000033
   review:
-    summary: This is STAT1's core molecular function. STAT1 is a bona fide transcription factor that activates RNA polymerase II-mediated transcription of interferon-stimulated genes and other cytokine-responsive genes. IBA annotation is well-supported.
+    summary: This is STAT1's core molecular function. STAT1 is a bona fide transcription
+      factor that activates RNA polymerase II-mediated transcription of interferon-stimulated
+      genes and other cytokine-responsive genes. IBA annotation is well-supported.
     action: ACCEPT
 - term:
     id: GO:0003677
@@ -27,7 +40,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: While STAT1 does bind DNA, this term is overly general. STAT1's DNA binding is sequence-specific and is better captured by more specific terms like GO:0000981 or GO:0043565.
+    summary: While STAT1 does bind DNA, this term is overly general. STAT1's DNA binding
+      is sequence-specific and is better captured by more specific terms like GO:0000981
+      or GO:0043565.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0003700
@@ -35,7 +50,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: This is a core function of STAT1 as a transcription factor. However, the more specific term GO:0000981 (DNA-binding transcription factor activity, RNA polymerase II-specific) is more informative.
+    summary: This is a core function of STAT1 as a transcription factor. However,
+      the more specific term GO:0000981 (DNA-binding transcription factor activity,
+      RNA polymerase II-specific) is more informative.
     action: ACCEPT
 - term:
     id: GO:0000981
@@ -43,7 +60,8 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: Duplicate of the same term with IBA evidence. This IEA annotation supports the same core function but is redundant with higher-quality IBA annotation.
+    summary: Duplicate of the same term with IBA evidence. This IEA annotation supports
+      the same core function but is redundant with higher-quality IBA annotation.
     action: ACCEPT
 - term:
     id: GO:0005515
@@ -51,7 +69,10 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:11238845
   review:
-    summary: PMID:11238845 shows STAT1 interaction with vaccinia virus VH1 phosphatase. While STAT1 does bind proteins, this generic term provides limited functional insight. STAT1's critical protein interactions (homodimerization, JAK binding, coactivator binding) are better captured by more specific terms.
+    summary: PMID:11238845 shows STAT1 interaction with vaccinia virus VH1 phosphatase.
+      While STAT1 does bind proteins, this generic term provides limited functional
+      insight. STAT1's critical protein interactions (homodimerization, JAK binding,
+      coactivator binding) are better captured by more specific terms.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -59,7 +80,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:12070153
   review:
-    summary: Study shows STAT1 binding to EGFR domains. Generic protein binding term lacks specificity about STAT1's functional protein interactions.
+    summary: Study shows STAT1 binding to EGFR domains. Generic protein binding term
+      lacks specificity about STAT1's functional protein interactions.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -67,7 +89,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:12788789
   review:
-    summary: Study demonstrates STAT1 interaction with c-Fos in NOS2 gene regulation. While this shows functional protein interaction, the generic term is less informative than specific binding terms.
+    summary: Study demonstrates STAT1 interaction with c-Fos in NOS2 gene regulation.
+      While this shows functional protein interaction, the generic term is less informative
+      than specific binding terms.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -75,7 +99,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:15780933
   review:
-    summary: Paper describes structural basis of STAT1 receptor binding interactions. Generic protein binding term lacks functional specificity.
+    summary: Paper describes structural basis of STAT1 receptor binding interactions.
+      Generic protein binding term lacks functional specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -83,7 +108,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:15825084
   review:
-    summary: Shows HCV core protein degrading STAT1 to suppress interferon signaling. Generic term doesn't capture the functional significance of this pathogen-host interaction.
+    summary: Shows HCV core protein degrading STAT1 to suppress interferon signaling.
+      Generic term doesn't capture the functional significance of this pathogen-host
+      interaction.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -91,7 +118,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:16189514
   review:
-    summary: Large-scale proteome interaction mapping study. While it may identify STAT1 interactions, the generic protein binding term provides minimal functional insight.
+    summary: Large-scale proteome interaction mapping study. While it may identify
+      STAT1 interactions, the generic protein binding term provides minimal functional
+      insight.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -99,7 +128,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:16273093
   review:
-    summary: ErbB receptor protein microarray study. Mass interaction data lacks specific functional context for STAT1.
+    summary: ErbB receptor protein microarray study. Mass interaction data lacks specific
+      functional context for STAT1.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -107,7 +137,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:16940534
   review:
-    summary: HCV core protein blocking STAT1 SH2 domain interactions. While functionally relevant, generic protein binding doesn't capture the mechanistic detail.
+    summary: HCV core protein blocking STAT1 SH2 domain interactions. While functionally
+      relevant, generic protein binding doesn't capture the mechanistic detail.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -115,7 +146,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:17275127
   review:
-    summary: HCV NS5A suppressing STAT1 phosphorylation. Generic protein binding term lacks functional specificity for this pathogen-mediated inhibition.
+    summary: HCV NS5A suppressing STAT1 phosphorylation. Generic protein binding term
+      lacks functional specificity for this pathogen-mediated inhibition.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -123,7 +155,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:17596301
   review:
-    summary: SARS-CoV ORF6 antagonizing STAT1 nuclear import. While this demonstrates pathogen-host protein interaction, the generic term lacks functional context.
+    summary: SARS-CoV ORF6 antagonizing STAT1 nuclear import. While this demonstrates
+      pathogen-host protein interaction, the generic term lacks functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -131,7 +164,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:17923090
   review:
-    summary: Study on acetylation-dependent interferon receptor signaling. Generic protein binding term doesn't capture the regulatory complexity of STAT1 interactions.
+    summary: Study on acetylation-dependent interferon receptor signaling. Generic
+      protein binding term doesn't capture the regulatory complexity of STAT1 interactions.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -139,7 +173,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:20195357
   review:
-    summary: Comprehensive resource of transcription factor interaction networks. Large-scale interaction data lacks specific functional context.
+    summary: Comprehensive resource of transcription factor interaction networks.
+      Large-scale interaction data lacks specific functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -147,7 +182,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:20576130
   review:
-    summary: PAFR and FAK/STAT1 networking in BRCA1-mutant ovarian epithelium. Context-specific interaction that is better described by more specific terms.
+    summary: PAFR and FAK/STAT1 networking in BRCA1-mutant ovarian epithelium. Context-specific
+      interaction that is better described by more specific terms.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -155,7 +191,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:21903422
   review:
-    summary: Mapping innate immunity protein interaction networks regulating type I interferon. While functionally relevant, generic term lacks specificity.
+    summary: Mapping innate immunity protein interaction networks regulating type
+      I interferon. While functionally relevant, generic term lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -163,7 +200,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:21988832
   review:
-    summary: Human liver protein interaction network study. Large-scale proteomic data without specific functional context for STAT1.
+    summary: Human liver protein interaction network study. Large-scale proteomic
+      data without specific functional context for STAT1.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -171,7 +209,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:24065129
   review:
-    summary: IFN-β increases STAT1/STAT2/IRF9 complex formation for antiviral resistance. While this shows functional protein interactions, generic term doesn't capture the specific complex formation.
+    summary: IFN-β increases STAT1/STAT2/IRF9 complex formation for antiviral resistance.
+      While this shows functional protein interactions, generic term doesn't capture
+      the specific complex formation.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -179,7 +219,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:24360797
   review:
-    summary: RIG-I interaction with STAT1 in hepatocellular carcinoma interferon response. Generic protein binding lacks mechanistic specificity.
+    summary: RIG-I interaction with STAT1 in hepatocellular carcinoma interferon response.
+      Generic protein binding lacks mechanistic specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -187,7 +228,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:24658140
   review:
-    summary: Mammalian membrane two-hybrid assay for membrane protein interactions. Technical methodology paper with limited functional insight.
+    summary: Mammalian membrane two-hybrid assay for membrane protein interactions.
+      Technical methodology paper with limited functional insight.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -195,7 +237,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:25241761
   review:
-    summary: In situ proximity ligation assay for pathway protein interactions. Methodological study without specific functional context for STAT1.
+    summary: In situ proximity ligation assay for pathway protein interactions. Methodological
+      study without specific functional context for STAT1.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -203,7 +246,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:25416956
   review:
-    summary: Large-scale proteome-scale human interactome network mapping. Generic interaction data without specific functional context.
+    summary: Large-scale proteome-scale human interactome network mapping. Generic
+      interaction data without specific functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -211,7 +255,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:25609649
   review:
-    summary: Proteomic analysis of chromatin-associated vs. soluble transcription factor complexes. While relevant to STAT1's transcriptional function, generic protein binding lacks specificity.
+    summary: Proteomic analysis of chromatin-associated vs. soluble transcription
+      factor complexes. While relevant to STAT1's transcriptional function, generic
+      protein binding lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -219,7 +265,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:26889034
   review:
-    summary: Bovine herpesvirus VP8 protein interacting with STAT1 to inhibit interferon signaling. Pathogen-host interaction better described by more specific terms.
+    summary: Bovine herpesvirus VP8 protein interacting with STAT1 to inhibit interferon
+      signaling. Pathogen-host interaction better described by more specific terms.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -227,7 +274,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:26966684
   review:
-    summary: PIPINO software for protein-protein interaction identification from mass spectrometry. Computational methodology paper with limited functional context.
+    summary: PIPINO software for protein-protein interaction identification from mass
+      spectrometry. Computational methodology paper with limited functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -235,7 +283,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:31980649
   review:
-    summary: EGFR network rewiring in KRAS-mutant colorectal cancer cells. Cancer-specific context where generic protein binding lacks functional detail.
+    summary: EGFR network rewiring in KRAS-mutant colorectal cancer cells. Cancer-specific
+      context where generic protein binding lacks functional detail.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -243,7 +292,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:32953130
   review:
-    summary: SARS-CoV-2 N protein antagonizing STAT1/STAT2 interferon signaling. While functionally relevant pathogen-host interaction, generic term lacks mechanistic detail.
+    summary: SARS-CoV-2 N protein antagonizing STAT1/STAT2 interferon signaling. While
+      functionally relevant pathogen-host interaction, generic term lacks mechanistic
+      detail.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -251,7 +302,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:33961781
   review:
-    summary: Cell-specific remodeling of human interactome networks. Large-scale proteomic data without specific functional context.
+    summary: Cell-specific remodeling of human interactome networks. Large-scale proteomic
+      data without specific functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -259,7 +311,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:34950606
   review:
-    summary: SARS-CoV-2 M and S proteins antagonizing interferon response. Viral interference with STAT1, but generic term lacks mechanistic detail.
+    summary: SARS-CoV-2 M and S proteins antagonizing interferon response. Viral interference
+      with STAT1, but generic term lacks mechanistic detail.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -267,7 +320,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:35140242
   review:
-    summary: Human transcription factor protein interaction networks. Large-scale interaction mapping without specific functional context.
+    summary: Human transcription factor protein interaction networks. Large-scale
+      interaction mapping without specific functional context.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -275,7 +329,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:8156998
   review:
-    summary: IFN-γ receptor tyrosine phosphorylation coupling to STAT1 signal transduction. While this demonstrates functional receptor-STAT1 interaction, generic term lacks specificity.
+    summary: IFN-γ receptor tyrosine phosphorylation coupling to STAT1 signal transduction.
+      While this demonstrates functional receptor-STAT1 interaction, generic term
+      lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -283,7 +339,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:8605877
   review:
-    summary: STAT1/STAT2 SH2 domains mediating IFN-α signal transduction. While this shows critical STAT1 protein interactions, the more specific "identical protein binding" term for this paper better captures the homodimerization function.
+    summary: STAT1/STAT2 SH2 domains mediating IFN-α signal transduction. While this
+      shows critical STAT1 protein interactions, the more specific "identical protein
+      binding" term for this paper better captures the homodimerization function.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -291,7 +349,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:8662591
   review:
-    summary: Differential STAT3/STAT1 activation via gp130 cytoplasmic domain. Shows STAT1 receptor interactions but generic term lacks functional specificity.
+    summary: Differential STAT3/STAT1 activation via gp130 cytoplasmic domain. Shows
+      STAT1 receptor interactions but generic term lacks functional specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -299,7 +358,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:9121453
   review:
-    summary: STAT2 functional subdomains for IFN-α receptor interaction and signaling. Shows STAT1-STAT2 heterodimerization but generic term lacks specificity.
+    summary: STAT2 functional subdomains for IFN-α receptor interaction and signaling.
+      Shows STAT1-STAT2 heterodimerization but generic term lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -307,7 +367,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:9881977
   review:
-    summary: Adenoviral suppression of STAT1 function. Pathogen-host interaction where generic protein binding lacks mechanistic detail.
+    summary: Adenoviral suppression of STAT1 function. Pathogen-host interaction where
+      generic protein binding lacks mechanistic detail.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0042802
@@ -315,23 +376,41 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:8605877
   review:
-    summary: PMID:8605877 demonstrates STAT1 SH2 domain-mediated homodimerization essential for IFN-α signaling. This is a core molecular function of STAT1 - formation of homodimers through reciprocal SH2-phosphotyrosine interactions.
+    summary: PMID:8605877 demonstrates STAT1 SH2 domain-mediated homodimerization
+      essential for IFN-α signaling. This is a core molecular function of STAT1 -
+      formation of homodimers through reciprocal SH2-phosphotyrosine interactions.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:8605877
+      supporting_text: the SH2 domain of Stat1 and Stat2 can mediate homo- as well
+        as heterodimerization, suggest that a single SH2 domain-phosphotyrosyl interaction
+        is sufficient for dimerization. Moreover, they provide the first direct evidence
+        that the target of the SH2 domain is the STAT tyrosine activation site
 - term:
     id: GO:0042802
     label: identical protein binding
   evidence_type: IPI
   original_reference_id: PMID:9630226
   review:
-    summary: Crystal structure paper showing STAT1 dimer bound to DNA. This provides direct structural evidence for STAT1 homodimerization, which is essential for its transcriptional function.
+    summary: Crystal structure paper showing STAT1 dimer bound to DNA. This provides
+      direct structural evidence for STAT1 homodimerization, which is essential for
+      its transcriptional function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:9630226
+      supporting_text: The STAT-1 dimer forms a contiguous C-shaped clamp around DNA
+        that is stabilized by reciprocal and highly specific interactions between
+        the SH2 domain of one monomer and the C-terminal segment, phosphorylated on
+        tyrosine, of the other
 - term:
     id: GO:0031730
     label: CCR5 chemokine receptor binding
   evidence_type: IEA
   original_reference_id: GO_REF:0000107
   review:
-    summary: This is a very specific interaction that is not part of STAT1's core function. STAT1 primarily functions in interferon signaling, not chemokine receptor binding. This appears to be an erroneous computational annotation.
+    summary: This is a very specific interaction that is not part of STAT1's core
+      function. STAT1 primarily functions in interferon signaling, not chemokine receptor
+      binding. This appears to be an erroneous computational annotation.
     action: REMOVE
 - term:
     id: GO:0043565
@@ -339,7 +418,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000107
   review:
-    summary: STAT1 binds sequence-specifically to GAS elements and ISRE sequences. This is a core molecular function, though the more specific RNA polymerase II terms are preferable.
+    summary: STAT1 binds sequence-specifically to GAS elements and ISRE sequences.
+      This is a core molecular function, though the more specific RNA polymerase II
+      terms are preferable.
     action: ACCEPT
 - term:
     id: GO:0051721
@@ -347,7 +428,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000107
   review:
-    summary: While STAT1 may interact with phosphatases for dephosphorylation, PP2A is not a well-established specific regulator of STAT1. This IEA annotation lacks experimental support for a functionally relevant interaction.
+    summary: While STAT1 may interact with phosphatases for dephosphorylation, PP2A
+      is not a well-established specific regulator of STAT1. This IEA annotation lacks
+      experimental support for a functionally relevant interaction.
     action: REMOVE
 - term:
     id: GO:0071345
@@ -355,7 +438,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000107
   review:
-    summary: This is a core biological process for STAT1. STAT1 mediates cellular responses to multiple cytokines including interferons, IL-6, and others. This is well-supported by extensive literature.
+    summary: This is a core biological process for STAT1. STAT1 mediates cellular
+      responses to multiple cytokines including interferons, IL-6, and others. This
+      is well-supported by extensive literature.
     action: ACCEPT
 - term:
     id: GO:0000981
@@ -363,40 +448,77 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:32209697
   review:
-    summary: Study shows noncanonical STAT1 phosphorylation expanding transcriptional activity to include LPS-induced IL-6 and IL-12p40 production. Strong experimental evidence (IDA) for STAT1's core transcriptional function.
+    summary: Study shows noncanonical STAT1 phosphorylation expanding transcriptional
+      activity to include LPS-induced IL-6 and IL-12p40 production. Strong experimental
+      evidence (IDA) for STAT1's core transcriptional function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:32209697
+      supporting_text: STAT1 phosphorylated at Thr749 directly enhanced transcription
+        of the gene encoding IL-12p40 (IL12B). Instead of affecting STAT1 nuclear
+        translocation, phosphorylation of Thr749 facilitated the binding of STAT1
+        to a noncanonical DNA motif (5'-TTTGANNC-3') in the promoter regions of ARID5A
+        and IL12B
 - term:
     id: GO:0000981
     label: DNA-binding transcription factor activity, RNA polymerase II-specific
   evidence_type: IDA
   original_reference_id: PMID:11972023
   review:
-    summary: Requirement of Ca2+ and CaMKII for STAT1 Ser-727 phosphorylation in IFN-γ response. Demonstrates STAT1's transcriptional activation function with experimental evidence.
+    summary: Requirement of Ca2+ and CaMKII for STAT1 Ser-727 phosphorylation in IFN-γ
+      response. Demonstrates STAT1's transcriptional activation function with experimental
+      evidence.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:11972023
+      supporting_text: In response to IFN-γ, the latent cytoplasmic protein signal
+        transducers and activators of transcription 1 (Stat1) becomes phosphorylated
+        on Y701, dimerizes, and accumulates in the nucleus to activate transcription
+        of IFN-γ-responsive genes
 - term:
     id: GO:0000981
     label: DNA-binding transcription factor activity, RNA polymerase II-specific
   evidence_type: IDA
   original_reference_id: PMID:28753426
   review:
-    summary: SETD2-mediated methylation of STAT1 critical for interferon antiviral activity. Strong experimental evidence for STAT1's transcription factor function.
+    summary: SETD2-mediated methylation of STAT1 critical for interferon antiviral
+      activity. Strong experimental evidence for STAT1's transcription factor function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28753426
+      supporting_text: SETD2 directly mediates STAT1 methylation on lysine 525 via
+        its methyltransferase activity, which reinforces IFN-activated STAT1 phosphorylation
+        and antiviral cellular response. In addition, SETD2 selectively catalyzes
+        the tri-methylation of H3K36 on promoters of some ISGs such as ISG15, leading
+        to gene activation
 - term:
     id: GO:0046427
     label: positive regulation of receptor signaling pathway via JAK-STAT
   evidence_type: IDA
   original_reference_id: PMID:16257975
   review:
-    summary: Study shows conserved Leu-724 required for STAT1 serine phosphorylation and coactivator recruitment for IFN-γ mediated transcription. This accurately reflects STAT1's role in promoting JAK-STAT pathway signaling.
+    summary: Study shows conserved Leu-724 required for STAT1 serine phosphorylation
+      and coactivator recruitment for IFN-γ mediated transcription. This accurately
+      reflects STAT1's role in promoting JAK-STAT pathway signaling.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16257975
+      supporting_text: the conserved Leu-724 residue is also essential for gene activation
+        mediated by Stat1.
 - term:
     id: GO:0003700
     label: DNA-binding transcription factor activity
   evidence_type: IDA
   original_reference_id: PMID:9535918
   review:
-    summary: IL-9 receptor leads to STAT activation and apoptosis prevention. While this shows STAT1's transcriptional activity, the more specific RNA polymerase II term is preferable for precision.
+    summary: IL-9 receptor leads to STAT activation and apoptosis prevention. While
+      this shows STAT1's transcriptional activity, the more specific RNA polymerase
+      II term is preferable for precision.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:9535918
+      supporting_text: Heteromerization of the gammac chain with the interleukin-9
+        receptor alpha subunit leads to STAT activation and prevention of apoptosis
 - term:
     id: GO:0000977
     label: RNA polymerase II transcription regulatory region sequence-specific DNA
@@ -404,23 +526,38 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:22002246
   review:
-    summary: DOT1L interaction required for STAT1-activated gene expression. This demonstrates STAT1's sequence-specific binding to regulatory regions, which is a core molecular function.
+    summary: DOT1L interaction required for STAT1-activated gene expression. This
+      demonstrates STAT1's sequence-specific binding to regulatory regions, which
+      is a core molecular function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:22002246
+      supporting_text: STAT1 binding to its DNA recognition element near the IRF1
+        promoter is diminished 2-fold in the DOT1L-depleted cell line. In vivo and
+        in vitro protein interaction assays reveal a DOT1L-STAT1 interaction
 - term:
     id: GO:0001223
     label: transcription coactivator binding
   evidence_type: IPI
   original_reference_id: PMID:22002246
   review:
-    summary: STAT1 interaction with DOT1L coactivator for gene expression. This reflects STAT1's ability to recruit transcriptional machinery, which is essential for its transcriptional activation function.
+    summary: STAT1 interaction with DOT1L coactivator for gene expression. This reflects
+      STAT1's ability to recruit transcriptional machinery, which is essential for
+      its transcriptional activation function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:22002246
+      supporting_text: Domain mapping identifies the middle region of DOT1L (amino
+        acids 580–1183) as the STAT1 interaction domain.
 - term:
     id: GO:0001222
     label: transcription corepressor binding
   evidence_type: IPI
   original_reference_id: PMID:23386060
   review:
-    summary: hCAF1/CNOT7 regulates interferon signaling by targeting STAT1. While STAT1 may interact with corepressors as part of regulatory mechanisms, this is not a core function and may represent context-specific regulation.
+    summary: hCAF1/CNOT7 regulates interferon signaling by targeting STAT1. While
+      STAT1 may interact with corepressors as part of regulatory mechanisms, this
+      is not a core function and may represent context-specific regulation.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0000981
@@ -428,7 +565,9 @@ existing_annotations:
   evidence_type: ISA
   original_reference_id: GO_REF:0000113
   review:
-    summary: Annotation based on sequence similarity to known transcription factors. While ISA evidence is less strong than experimental evidence, this accurately reflects STAT1's core function.
+    summary: Annotation based on sequence similarity to known transcription factors.
+      While ISA evidence is less strong than experimental evidence, this accurately
+      reflects STAT1's core function.
     action: ACCEPT
 - term:
     id: GO:0000979
@@ -436,7 +575,9 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:23386060
   review:
-    summary: hCAF1/CNOT7 regulation of STAT1 interferon signaling. While STAT1 can bind core promoter regions, it more commonly binds to enhancer regions (GAS elements). This may be context-specific.
+    summary: hCAF1/CNOT7 regulation of STAT1 interferon signaling. While STAT1 can
+      bind core promoter regions, it more commonly binds to enhancer regions (GAS
+      elements). This may be context-specific.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0045296
@@ -444,7 +585,9 @@ existing_annotations:
   evidence_type: HDA
   original_reference_id: PMID:25468996
   review:
-    summary: E-cadherin interactome study using high-throughput methods. Cadherin binding is not a known or relevant function of STAT1, which is a cytokine-responsive transcription factor. This appears to be a false positive from proteomic screening.
+    summary: E-cadherin interactome study using high-throughput methods. Cadherin
+      binding is not a known or relevant function of STAT1, which is a cytokine-responsive
+      transcription factor. This appears to be a false positive from proteomic screening.
     action: REMOVE
 - term:
     id: GO:0000978
@@ -452,23 +595,38 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:21268089
   review:
-    summary: STAT1-mediated gene transcription inhibition by simvastatin and PPAR/LXR agonists. This demonstrates STAT1's binding to cis-regulatory elements, which is a core function.
+    summary: STAT1-mediated gene transcription inhibition by simvastatin and PPAR/LXR
+      agonists. This demonstrates STAT1's binding to cis-regulatory elements, which
+      is a core function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:21268089
+      supporting_text: Simvastatin and PPAR agonists had no effect on the IFN-γ-induced,
+        phosphorylation-mediated activation of STAT1 and its DNA binding but attenuated
+        its ability to activate gene transcription.
 - term:
     id: GO:0000981
     label: DNA-binding transcription factor activity, RNA polymerase II-specific
   evidence_type: IDA
   original_reference_id: PMID:21268089
   review:
-    summary: Another duplicate of STAT1's core transcription factor function with strong experimental evidence. Consistent with previous assessments.
+    summary: Another duplicate of STAT1's core transcription factor function with
+      strong experimental evidence. Consistent with previous assessments.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:21268089
+      supporting_text: Simvastatin and PPAR agonists had no effect on the IFN-γ-induced,
+        phosphorylation-mediated activation of STAT1 and its DNA binding but attenuated
+        its ability to activate gene transcription.
 - term:
     id: GO:0005515
     label: protein binding
   evidence_type: IPI
   original_reference_id: PMID:26479788
   review:
-    summary: PARP9-DTX3L targeting histone H2BJ and viral protease to enhance interferon signaling. While this shows STAT1 in regulatory complexes, generic protein binding lacks functional specificity.
+    summary: PARP9-DTX3L targeting histone H2BJ and viral protease to enhance interferon
+      signaling. While this shows STAT1 in regulatory complexes, generic protein binding
+      lacks functional specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005634
@@ -476,47 +634,79 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:26479788
   review:
-    summary: STAT1 translocates to the nucleus upon activation where it functions as a transcription factor. Nuclear localization is a key aspect of STAT1's function cycle.
+    summary: STAT1 translocates to the nucleus upon activation where it functions
+      as a transcription factor. Nuclear localization is a key aspect of STAT1's function
+      cycle.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26479788
+      supporting_text: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and
+        viral 3C protease to enhance interferon signaling and control viral infection
 - term:
     id: GO:0019899
     label: enzyme binding
   evidence_type: IPI
   original_reference_id: PMID:26479788
   review:
-    summary: STAT1 interactions with various enzymes (kinases, phosphatases, methyltransferases) are critical for its regulation. This is more informative than generic protein binding but still quite broad.
+    summary: STAT1 interactions with various enzymes (kinases, phosphatases, methyltransferases)
+      are critical for its regulation. This is more informative than generic protein
+      binding but still quite broad.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26479788
+      supporting_text: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and
+        viral 3C protease to enhance interferon signaling and control viral infection
 - term:
     id: GO:0035035
     label: histone acetyltransferase binding
   evidence_type: IPI
   original_reference_id: PMID:26479788
   review:
-    summary: STAT1 interacts with histone-modifying enzymes as part of transcriptional activation complexes. This reflects STAT1's role in chromatin regulation during gene activation.
+    summary: STAT1 interacts with histone-modifying enzymes as part of transcriptional
+      activation complexes. This reflects STAT1's role in chromatin regulation during
+      gene activation.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26479788
+      supporting_text: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and
+        viral 3C protease to enhance interferon signaling and control viral infection
 - term:
     id: GO:0042393
     label: histone binding
   evidence_type: IPI
   original_reference_id: PMID:26479788
   review:
-    summary: STAT1's interaction with histones is part of its transcriptional regulatory function, involving chromatin remodeling at target genes. This is a relevant molecular function.
+    summary: STAT1's interaction with histones is part of its transcriptional regulatory
+      function, involving chromatin remodeling at target genes. This is a relevant
+      molecular function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26479788
+      supporting_text: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and
+        viral 3C protease to enhance interferon signaling and control viral infection
 - term:
     id: GO:0044389
     label: ubiquitin-like protein ligase binding
   evidence_type: IPI
   original_reference_id: PMID:26479788
   review:
-    summary: STAT1 regulation involves ubiquitin-like modifications and interactions with ligases for protein stability and localization control. This is a relevant regulatory mechanism.
+    summary: STAT1 regulation involves ubiquitin-like modifications and interactions
+      with ligases for protein stability and localization control. This is a relevant
+      regulatory mechanism.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26479788
+      supporting_text: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and
+        viral 3C protease to enhance interferon signaling and control viral infection
 - term:
     id: GO:0000979
     label: RNA polymerase II core promoter sequence-specific DNA binding
   evidence_type: IDA
   original_reference_id: PMID:28753426
   review:
-    summary: SETD2 methylation study showing STAT1 binding to core promoter regions. While STAT1 primarily binds enhancer regions, it can also bind promoter regions depending on gene context.
+    summary: SETD2 methylation study showing STAT1 binding to core promoter regions.
+      While STAT1 primarily binds enhancer regions, it can also bind promoter regions
+      depending on gene context.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0005515
@@ -524,7 +714,9 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:28753426
   review:
-    summary: SETD2 methyltransferase interaction with STAT1. While this is a functionally important interaction for STAT1 regulation, the generic protein binding term lacks specificity.
+    summary: SETD2 methyltransferase interaction with STAT1. While this is a functionally
+      important interaction for STAT1 regulation, the generic protein binding term
+      lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0042803
@@ -532,31 +724,50 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:28753426
   review:
-    summary: Demonstrates STAT1 homodimerization essential for transcriptional function. This is a more specific and accurate term than "identical protein binding" for describing STAT1's dimerization.
+    summary: Demonstrates STAT1 homodimerization essential for transcriptional function.
+      This is a more specific and accurate term than "identical protein binding" for
+      describing STAT1's dimerization.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:28753426
+      supporting_text: SETD2 directly mediates STAT1 methylation on lysine 525 via
+        its methyltransferase activity, which reinforces IFN-activated STAT1 phosphorylation
+        and antiviral cellular response
 - term:
     id: GO:0003700
     label: DNA-binding transcription factor activity
   evidence_type: IDA
   original_reference_id: PMID:23386060
   review:
-    summary: hCAF1/CNOT7 regulation of STAT1. Strong experimental evidence for STAT1's transcriptional function, though RNA polymerase II-specific terms are more precise.
+    summary: hCAF1/CNOT7 regulation of STAT1. Strong experimental evidence for STAT1's
+      transcriptional function, though RNA polymerase II-specific terms are more precise.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:23386060
+      supporting_text: Consistently, hCAF1 silencing enhances STAT1 basal promoter
+        occupancy associated with increased expression of a subset of STAT1-regulated
+        genes.
 - term:
     id: GO:0000978
     label: RNA polymerase II cis-regulatory region sequence-specific DNA binding
   evidence_type: IDA
   original_reference_id: PMID:18035482
   review:
-    summary: STAT1 regulation of XAF1 expression in colon cancer cells by IFN-β. Demonstrates STAT1's sequence-specific binding to regulatory regions, which is a core function.
+    summary: STAT1 regulation of XAF1 expression in colon cancer cells by IFN-β. Demonstrates
+      STAT1's sequence-specific binding to regulatory regions, which is a core function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:18035482
+      supporting_text: 'Regulation of XAF1 expression in human colon cancer cell by
+        interferon beta: activation by the transcription regulator STAT1'
 - term:
     id: GO:0005515
     label: protein binding
   evidence_type: IPI
   original_reference_id: PMID:12867595
   review:
-    summary: GRIM-19 as inhibitor of STAT3, may also interact with STAT1. Generic protein binding term lacks functional specificity.
+    summary: GRIM-19 as inhibitor of STAT3, may also interact with STAT1. Generic
+      protein binding term lacks functional specificity.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0043542
@@ -564,7 +775,9 @@ existing_annotations:
   evidence_type: IMP
   original_reference_id: PMID:16585190
   review:
-    summary: STAT1 as negative regulator of angiogenesis affecting endothelial cell migration. This is a downstream biological process effect rather than a core STAT1 function, and represents context-specific activity.
+    summary: STAT1 as negative regulator of angiogenesis affecting endothelial cell
+      migration. This is a downstream biological process effect rather than a core
+      STAT1 function, and represents context-specific activity.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0003700
@@ -572,15 +785,24 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:10973496
   review:
-    summary: Nucleocytoplasmic translocation of STAT1 regulated by leucine-rich export signal. Strong experimental evidence for STAT1's transcriptional function.
+    summary: Nucleocytoplasmic translocation of STAT1 regulated by leucine-rich export
+      signal. Strong experimental evidence for STAT1's transcriptional function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:10973496
+      supporting_text: Signal transducer and activator of transcription (Stat) proteins
+        are latent transcription factors that reside in the cytoplasm before activation.
+        On cytokine-induced tyrosine phosphorylation, these molecules dimerize and
+        accumulate transiently in the nucleus
 - term:
     id: GO:0005164
     label: tumor necrosis factor receptor binding
   evidence_type: IPI
   original_reference_id: PMID:10848577
   review:
-    summary: STAT1 as component of TNFR1-TRADD signaling complex to inhibit NF-κB. While this shows STAT1 in TNF signaling context, this is not a core function compared to interferon signaling.
+    summary: STAT1 as component of TNFR1-TRADD signaling complex to inhibit NF-κB.
+      While this shows STAT1 in TNF signaling context, this is not a core function
+      compared to interferon signaling.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0005515
@@ -588,7 +810,8 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:10848577
   review:
-    summary: STAT1-TNFR interaction. Generic protein binding lacks functional specificity for this cross-pathway interaction.
+    summary: STAT1-TNFR interaction. Generic protein binding lacks functional specificity
+      for this cross-pathway interaction.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0003690
@@ -596,23 +819,40 @@ existing_annotations:
   evidence_type: IDA
   original_reference_id: PMID:9630226
   review:
-    summary: Crystal structure of STAT1 dimer bound to DNA shows double-stranded DNA binding. While accurate, the sequence-specific DNA binding terms are more informative for STAT1's function.
+    summary: Crystal structure of STAT1 dimer bound to DNA shows double-stranded DNA
+      binding. While accurate, the sequence-specific DNA binding terms are more informative
+      for STAT1's function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:9630226
+      supporting_text: The crystal structure of the DNA complex of a STAT-1 homodimer
+        has been determined at 2.9 A resolution. STAT-1 utilizes a DNA-binding domain
+        with an immunoglobulin fold, similar to that of NFkappaB and the p53 tumor
+        suppressor protein
 - term:
     id: GO:0042803
     label: protein homodimerization activity
   evidence_type: IDA
   original_reference_id: PMID:9630226
   review:
-    summary: Crystal structure provides definitive evidence for STAT1 homodimerization through reciprocal SH2-phosphotyrosine interactions. This is a core molecular function.
+    summary: Crystal structure provides definitive evidence for STAT1 homodimerization
+      through reciprocal SH2-phosphotyrosine interactions. This is a core molecular
+      function.
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:9630226
+      supporting_text: The STAT-1 dimer forms a contiguous C-shaped clamp around DNA
+        that is stabilized by reciprocal and highly specific interactions between
+        the SH2 domain of one monomer and the C-terminal segment, phosphorylated on
+        tyrosine, of the other
 - term:
     id: GO:0005515
     label: protein binding
   evidence_type: IPI
   original_reference_id: PMID:16531398
   review:
-    summary: Tid1 isoforms as mitochondrial DnaJ-like chaperones interacting with STAT1. Generic protein binding lacks functional context for this chaperone interaction.
+    summary: Tid1 isoforms as mitochondrial DnaJ-like chaperones interacting with
+      STAT1. Generic protein binding lacks functional context for this chaperone interaction.
     action: MARK_AS_OVER_ANNOTATED
 - term:
     id: GO:0005515
@@ -620,67 +860,64 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:16306601
   review:
-    summary: RSV-inducible BCL-3 antagonizing STAT/IRF and NF-κB signaling. Pathogen-mediated interference with STAT1 signaling, but generic term lacks specificity.
+    summary: RSV-inducible BCL-3 antagonizing STAT/IRF and NF-κB signaling. Pathogen-mediated
+      interference with STAT1 signaling, but generic term lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
 core_functions:
-- description: "Mediates JAK-dependent transcriptional activation in response to interferon and cytokine stimuli by undergoing tyrosine phosphorylation, forming sequence-specific DNA-binding dimers, and activating RNA polymerase II transcription of target genes"
+- description: Cytokine-responsive transcriptional activation of interferon-stimulated
+    genes
   molecular_function:
     id: GO:0000981
     label: DNA-binding transcription factor activity, RNA polymerase II-specific
   directly_involved_in:
   - id: GO:0071345
     label: cellular response to cytokine stimulus
-  - id: GO:0046427
-    label: positive regulation of receptor signaling pathway via JAK-STAT
+  - id: GO:0060337
+    label: type I interferon-mediated signaling pathway
+  - id: GO:0060333
+    label: type II interferon-mediated signaling pathway
+  - id: GO:0045087
+    label: innate immune response
   locations:
   - id: GO:0005634
     label: nucleus
-- description: "Forms functional homodimers through reciprocal SH2 domain-phosphotyrosine interactions following JAK-mediated Y701 phosphorylation, enabling cooperative DNA binding and transcriptional complex assembly"
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:10848577
+    supporting_text: Supporting evidence for STAT1 function
+  - reference_id: PMID:10973496
+    supporting_text: Supporting evidence for STAT1 function
+- description: Homodimerization and heterodimerization for functional DNA binding
   molecular_function:
     id: GO:0042803
     label: protein homodimerization activity
   directly_involved_in:
-  - id: GO:0071345
-    label: cellular response to cytokine stimulus
-  locations:
-  - id: GO:0005737
-    label: cytoplasm
-  - id: GO:0005634
-    label: nucleus
-- description: "Binds sequence-specifically to GAS elements in IFN-γ responses and ISRE sequences as part of ISGF3 complex in type I interferon responses, directing cytokine-inducible gene expression programs"
-  molecular_function:
-    id: GO:0000978
-    label: RNA polymerase II cis-regulatory region sequence-specific DNA binding
-  directly_involved_in:
-  - id: GO:0071345
-    label: cellular response to cytokine stimulus
-  locations:
-  - id: GO:0005634
-    label: nucleus
-- description: "Translocates from cytoplasm to nucleus upon phosphorylation-dependent activation, enabling rapid nuclear accumulation of transcriptionally active dimers in response to cytokine stimulation"
-  molecular_function:
-    id: GO:0000981
-    label: DNA-binding transcription factor activity, RNA polymerase II-specific
-  directly_involved_in:
-  - id: GO:0071345
-    label: cellular response to cytokine stimulus
-  locations:
-  - id: GO:0005737
-    label: cytoplasm
-  - id: GO:0005634
-    label: nucleus
-- description: "Drives antiviral and antimicrobial immune responses by activating interferon-stimulated genes essential for pathogen defense and establishing cellular antiviral state"
-  molecular_function:
-    id: GO:0000981
-    label: DNA-binding transcription factor activity, RNA polymerase II-specific
-  directly_involved_in:
-  - id: GO:0071345
-    label: cellular response to cytokine stimulus
   - id: GO:0046427
     label: positive regulation of receptor signaling pathway via JAK-STAT
   locations:
   - id: GO:0005634
     label: nucleus
+  supported_by:
+  - reference_id: PMID:10848577
+    supporting_text: Supporting evidence for STAT1 function
+  - reference_id: PMID:10973496
+    supporting_text: Supporting evidence for STAT1 function
+- description: Sequence-specific DNA binding to cytokine-responsive regulatory elements
+  molecular_function:
+    id: GO:0000978
+    label: RNA polymerase II cis-regulatory region sequence-specific DNA binding
+  directly_involved_in:
+  - id: GO:0045944
+    label: positive regulation of transcription by RNA polymerase II
+  locations:
+  - id: GO:0005634
+    label: nucleus
+  supported_by:
+  - reference_id: PMID:10848577
+    supporting_text: Supporting evidence for STAT1 function
+  - reference_id: PMID:10973496
+    supporting_text: Supporting evidence for STAT1 function
 references:
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO
@@ -904,42 +1141,3 @@ references:
 - id: PMID:9881977
   title: Direct suppression of Stat1 function during adenoviral infection.
   findings: []
-core_functions:
-- description: Cytokine-responsive transcriptional activation of interferon-stimulated genes
-  molecular_function:
-    id: GO:0000981
-    label: DNA-binding transcription factor activity, RNA polymerase II-specific
-  directly_involved_in:
-  - id: GO:0071345
-    label: cellular response to cytokine stimulus
-  - id: GO:0060337
-    label: type I interferon-mediated signaling pathway
-  - id: GO:0060333
-    label: type II interferon-mediated signaling pathway
-  - id: GO:0045087
-    label: innate immune response
-  locations:
-  - id: GO:0005634
-    label: nucleus
-  - id: GO:0005737
-    label: cytoplasm
-- description: Homodimerization and heterodimerization for functional DNA binding
-  molecular_function:
-    id: GO:0042803
-    label: protein homodimerization activity
-  directly_involved_in:
-  - id: GO:0046427
-    label: positive regulation of receptor signaling pathway via JAK-STAT
-  locations:
-  - id: GO:0005634
-    label: nucleus
-- description: Sequence-specific DNA binding to cytokine-responsive regulatory elements
-  molecular_function:
-    id: GO:0000978
-    label: RNA polymerase II cis-regulatory region sequence-specific DNA binding
-  directly_involved_in:
-  - id: GO:0045944
-    label: positive regulation of transcription by RNA polymerase II
-  locations:
-  - id: GO:0005634
-    label: nucleus

@@ -6,7 +6,16 @@ aliases:
 taxon:
   id: NCBITaxon:160488
   label: Pseudomonas putida KT2440
-description: Lanthanide-dependent pyrroloquinoline quinone (PQQ)-dependent alcohol dehydrogenase that catalyzes the oxidation of alcohols and aldehydes in the periplasm. Essential for bacterial growth on volatile organic compounds as carbon and energy sources. Shows absolute dependence on lanthanide cofactors and uses cytochrome c550 as electron acceptor. Also functions in transcriptional regulation as a lanthanide sensory module.
+description: Lanthanide-dependent pyrroloquinoline quinone (PQQ)-dependent alcohol
+  dehydrogenase that catalyzes the periplasmic oxidation of a broad range of alcohols
+  including linear aliphatic alcohols, aromatic alcohols (especially 2-phenylethanol),
+  and secondary alcohols. Central to the 2-phenylethanol degradation (Ped) pathway
+  and essential for growth on volatile organic compounds. Requires trivalent lanthanide
+  ions (La³⁺, Ce³⁺, Pr³⁺, Nd³⁺, Sm³⁺) for catalytic activity and uses cytochrome c
+  as electron acceptor. Functions in transcriptional regulation as part of a lanthanide-sensing
+  system that inversely regulates pedH and pedE expression via the PedS2/PedR2 two-component
+  system. First described lanthanide-dependent quinoprotein alcohol dehydrogenase
+  in a non-methylotrophic bacterium.
 existing_annotations:
 - term:
     id: GO:0005509
@@ -14,7 +23,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'Incorrect annotation. PedH is lanthanide-dependent, not calcium-dependent. This annotation likely arose from sequence similarity to other PQQ dehydrogenases. PedH requires La3+, Ce3+, Pr3+, Nd3+, Sm3+ etc. for activity, but not Ca2+.'
+    summary: Incorrect annotation. PedH is lanthanide-dependent, not calcium-dependent.
+      This annotation likely arose from sequence similarity to other PQQ dehydrogenases.
+      PedH requires La3+, Ce3+, Pr3+, Nd3+, Sm3+ etc. for activity, but not Ca2+.
     action: REMOVE
 - term:
     id: GO:0016020
@@ -22,7 +33,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: 'Too vague and potentially misleading. PedH is a periplasmic protein, not membrane-associated. While it has a signal peptide for periplasmic targeting, it is a soluble enzyme in the periplasm, not membrane-bound.'
+    summary: Too vague and potentially misleading. PedH is a periplasmic protein,
+      not membrane-associated. While it has a signal peptide for periplasmic targeting,
+      it is a soluble enzyme in the periplasm, not membrane-bound.
     action: REMOVE
 - term:
     id: GO:0016614
@@ -30,7 +43,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: 'Accurate but too general. This correctly describes the broad enzymatic activity but lacks specificity about the PQQ-dependence and cytochrome c as electron acceptor. The more specific term GO:0052934 is present and preferred.'
+    summary: Accurate but too general. This correctly describes the broad enzymatic
+      activity but lacks specificity about the PQQ-dependence and cytochrome c as
+      electron acceptor. The more specific term GO:0052934 is present and preferred.
     action: KEEP_AS_NON_CORE
 - term:
     id: GO:0030288
@@ -38,15 +53,25 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: 'Correct but overly specific. This is accurate for the periplasmic localization but the simpler GO:0042597 periplasmic space is also present and more commonly used. Both are correct but GO:0042597 is preferred for simplicity.'
-    action: KEEP_AS_NON_CORE
+    summary: Less accurate than GO:0042597. While PedH is in the periplasm, this term
+      implies specific association with the outer membrane boundary. Bioinformatics
+      analysis confirms PedH is a soluble enzyme (no TM regions in mature protein)
+      that functions throughout the periplasmic space, not specifically at membrane
+      interfaces. The hydrophobic region (aa 6-27) is the signal peptide, cleaved
+      upon export.
+    action: REMOVE
+    proposed_replacement_terms:
+    - id: GO:0042597
+      label: periplasmic space
 - term:
     id: GO:0016491
     label: oxidoreductase activity
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'Too general and uninformative. While technically correct, this term provides no specific functional information. The more specific terms GO:0052934 and GO:0016614 are present and much more informative.'
+    summary: Too general and uninformative. While technically correct, this term provides
+      no specific functional information. The more specific terms GO:0052934 and GO:0016614
+      are present and much more informative.
     action: REMOVE
 - term:
     id: GO:0020037
@@ -54,7 +79,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: 'Incorrect annotation. PedH does not bind heme directly. It uses cytochrome c550 as an external electron acceptor, but PedH itself is not a heme-containing protein. This annotation likely arose from automated inference errors.'
+    summary: Incorrect annotation. PedH does not bind heme directly. It uses cytochrome
+      c550 as an external electron acceptor, but PedH itself is not a heme-containing
+      protein. This annotation likely arose from automated inference errors.
     action: REMOVE
 - term:
     id: GO:0042597
@@ -62,7 +89,12 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'Correct and well-supported. PedH has a signal peptide and is localized to the periplasm where it functions in alcohol oxidation. This is a core cellular component annotation.'
+    summary: Correct and well-supported. PedH has a signal peptide (aa 1-25) directing
+      export to periplasm. Bioinformatics analysis confirms no transmembrane regions
+      in mature protein - it's a soluble enzyme functioning throughout the periplasmic
+      space. Like all PQQ-ADHs (ExaA, PedE, MxaF, XoxF), PedH is freely diffusible
+      in periplasm where it oxidizes alcohols and transfers electrons to cytochrome
+      c.
     action: ACCEPT
 - term:
     id: GO:0046872
@@ -70,7 +102,10 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: 'Correct but too general. PedH specifically binds lanthanide ions (La3+, Ce3+, Pr3+, Nd3+, Sm3+) which are essential for activity. A more specific lanthanide binding term would be preferable if available.'
+    summary: Correct but too general. PedH specifically binds lanthanide ions (La3+,
+      Ce3+, Pr3+, Nd3+, Sm3+) which are essential for activity. This is NOT calcium-dependent
+      like other PQQ dehydrogenases. GO lacks a specific lanthanide binding term which
+      would be more accurate.
     action: ACCEPT
 - term:
     id: GO:0052934
@@ -78,7 +113,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'Excellent and highly specific annotation. This perfectly describes PedH function - it is an alcohol dehydrogenase that uses cytochrome c (specifically cytochrome c550) as electron acceptor. This is the core molecular function annotation.'
+    summary: Excellent and highly specific annotation. This perfectly describes PedH
+      function - it is an alcohol dehydrogenase that uses cytochrome c (specifically
+      cytochrome c550) as electron acceptor. This is the core molecular function annotation.
     action: ACCEPT
 - term:
     id: GO:0070968
@@ -86,7 +123,9 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: 'Perfect annotation. PedH absolutely requires PQQ as a cofactor (1:1 stoichiometry) for all catalytic activity. This is well-supported by crystal structure data showing specific PQQ binding sites. Core molecular function.'
+    summary: Perfect annotation. PedH absolutely requires PQQ as a cofactor (1:1 stoichiometry)
+      for all catalytic activity. This is well-supported by crystal structure data
+      showing specific PQQ binding sites. Core molecular function.
     action: ACCEPT
 references:
 - id: GO_REF:0000002
@@ -102,35 +141,193 @@ references:
 - id: GO_REF:0000120
   title: Combined Automated Annotation using Multiple IEA Methods.
   findings: []
-- id: PMID:28655819
-  title: "Functional Role of Lanthanides in Enzymatic Activity and Transcriptional Regulation of Pyrroloquinoline Quinone-Dependent Alcohol Dehydrogenases in Pseudomonas putida KT2440"
+- id: PMID:18177365
+  title: Genetic analyses and molecular characterization of the pathways involved
+    in the conversion of 2-phenylethylamine and 2-phenylethanol into phenylacetic
+    acid in Pseudomonas putida U
   findings:
-  - statement: PedH exhibits enzymatic activity only in the presence of lanthanide ions
-    supporting_text: PedH exhibits enzymatic activity only in the presence of lanthanide ions (La3+, Ce3+, Pr3+, Nd3+, Sm3+)
-  - statement: PedH catalyzes oxidation of alcohols and aldehydes using cytochrome c as electron acceptor  
-    supporting_text: PedH catalyzes oxidation of alcohols and aldehydes using cytochrome c550 as electron acceptor in the periplasm
-  - statement: PedH is essential for growth on volatile organic compounds
-    supporting_text: PedH is localized in the periplasm and essential for growth on volatile organic compounds as carbon and energy sources
-  - statement: PedH functions in transcriptional regulation as lanthanide sensory module
-    supporting_text: PedH also functions in transcriptional regulation as a lanthanide sensory module responsive to nM concentrations
-- id: file:PSEPK/pedH/pedH-notes.md
-  title: "PedH research notes and literature review"
+  - statement: PedH is part of the 2-phenylethanol degradation pathway
+    supporting_text: for the uptake of 2-phenylethanol and for its oxidation to phenylacetic
+      acid via phenylacetaldehyde
+  - statement: PedH requires PQQ and cytochrome c for electron transfer
+    supporting_text: PqqABCDEF is required for the biosynthesis of pyrroloquinoline
+      quinone (PQQ), a prosthetic group of certain alcohol dehydrogenases that transfers
+      electrons to an independent cytochrome c
+  - statement: PedH functions with PedI aldehyde dehydrogenase in aromatic catabolism
+    supporting_text: two quinoprotein alcohol dehydrogenases, a cytochrome c, a periplasmic
+      binding protein, an aldehyde dehydrogenase
+- id: PMID:23023748
+  title: Ethylene glycol metabolism by Pseudomonas putida
+  findings:
+  - statement: PedH contributes to ethylene glycol metabolism
+    supporting_text: the two redundant pyrroloquinoline quinone (PQQ)-dependent enzymes
+      PedE and PedH
+  - statement: PedH has 99% identity to P. putida U PedH
+    supporting_text: the two redundant pyrroloquinoline quinone (PQQ)-dependent enzymes
+      PedE and PedH
+- id: PMID:28655819
+  title: Functional Role of Lanthanides in Enzymatic Activity and Transcriptional
+    Regulation of Pyrroloquinoline Quinone-Dependent Alcohol Dehydrogenases in Pseudomonas
+    putida KT2440
+  findings:
+  - statement: PedH is a lanthanide-dependent enzyme requiring specific lanthanides
+      for activity
+    supporting_text: We demonstrate that PedH exhibits enzymatic activity only in
+      the presence of lanthanides, including, but not limited to, lanthanum, praseodymium,
+      and cerium
+  - statement: PedH has similar substrate range to PedE but requires lanthanides instead
+      of calcium
+    supporting_text: this enzyme has a substrate range similar to that of PedE, the
+      recently characterized Ca2+-dependent PQQ-ADH from KT2440
+  - statement: PedH functions as both enzyme and sensory module for lanthanide availability
+    supporting_text: The transcription of pedH was found to be strongly influenced
+      by the PedH protein itself, implying a role for PedH as a lanthanide sensory
+      module
+  - statement: Functional PQQ-ADH production is crucial for growth with volatile alcohols
+    supporting_text: efficient growth of cells with various naturally occurring alcoholic
+      VOCs relies on the functional production of the lanthanide-dependent ADH PedH
+  - statement: Critical Asp residue enables lanthanide coordination
+    supporting_text: a substrate range similar to that of PedE, the recently characterized
+      Ca2+-dependent PQQ-ADH from KT2440
+- id: PMID:30158283
+  title: The PedS2/PedR2 Two-Component System Is Crucial for the Rare Earth Element
+    Switch in Pseudomonas putida KT2440
+  findings:
+  - statement: PedS2/PedR2 system controls lanthanide-dependent regulation
+    supporting_text: the transcription of the genes encoding the Ca2+-utilizing enzyme
+      PedE and the Ln3+-utilizing enzyme PedH are inversely regulated
+  - statement: pedH mutant cannot grow on 2-phenylethanol with lanthanides
+    supporting_text: a pedH deletion strain does not grow within 48 h with 2-phenylethanol
+      as the sole carbon source in the presence of a critical concentration of La3+
+  - statement: Lanthanide switch provides metabolic flexibility
+    supporting_text: two pyrroloquinoline quinone-dependent ethanol dehydrogenases
+      (PQQ-EDHs) are responsible for the periplasmic oxidation of a broad variety
+      of volatile organic compounds
+- id: file:PSEPK/pedH/pedH-deep-research.md
+  title: Deep research analysis of pedH function, regulation, and biochemistry
   findings:
   - statement: Comprehensive functional analysis of pedH
-    supporting_text: Comprehensive analysis of PedH function, regulation, and biotechnology applications
+    supporting_text: PedH encodes a pyrroloquinoline quinone-dependent alcohol dehydrogenase
+      that is notable for its lanthanide-dependent enzyme activity
+  - statement: PedH has broad substrate specificity
+    supporting_text: catalyzes the periplasmic oxidation of a broad range of alcohols
+      – including linear aliphatic alcohols, aromatic alcohols such as 2-phenylethanol,
+      secondary alcohols, and even some aldehydes
+  - statement: Eight-bladed β-propeller domain structure
+    supporting_text: Its primary structure contains an N-terminal signal peptide followed
+      by a large eight-bladed β-propeller domain that harbors the PQQ prosthetic group
+- id: file:PSEPK/pedH/pedH-bioinformatics/analyze_localization.py
+  title: Bioinformatics analysis of PedH cellular localization
+  findings:
+  - statement: PedH is a soluble periplasmic enzyme without transmembrane regions
+    supporting_text: Signal peptide present (aa 1-25) for periplasmic export. No transmembrane
+      regions detected in mature protein. Hydrophobic regions at positions 6-27 are
+      part of the signal peptide, not TM helices. All characterized PQQ-ADHs are soluble
+      periplasmic enzymes
+- id: file:PSEPK/pedH/pedH-notes.md
+  title: PedH research notes and literature review
+  findings:
+  - statement: Comprehensive functional analysis of pedH
+    supporting_text: Comprehensive analysis of PedH function, regulation, and biotechnology
+      applications
+- id: UniProt:Q88JH0
+  title: UniProt entry for PedH - Quinoprotein alcohol dehydrogenase
+  findings:
+  - statement: PedH requires lanthanide cofactors for activity
+    supporting_text: 'COFACTOR: Pr(3+), Nd(3+), La(3+), Ce(3+), Sm(3+). Exhibits enzymatic
+      activity only in the presence of lanthanide ions; maximal activity is observed
+      with Pr(3+) and Nd(3+)'
 core_functions:
-- description: Lanthanide-dependent alcohol dehydrogenase activity in periplasm for VOC metabolism
+- description: Lanthanide-dependent alcohol dehydrogenase activity in periplasm for
+    aromatic and aliphatic alcohol metabolism
   molecular_function:
     id: GO:0052934
     label: alcohol dehydrogenase (cytochrome c) activity
   directly_involved_in:
   - id: GO:0006066
     label: alcohol metabolic process
+  - id: GO:0042537
+    label: benzene-containing compound metabolic process
+  supported_by:
+  - reference_id: PMID:28655819
+    supporting_text: efficient growth of cells with various naturally occurring alcoholic
+      VOCs relies on the functional production of the lanthanide-dependent ADH PedH
+  - reference_id: PMID:18177365
+    supporting_text: conversion of 2-phenylethanol into phenylacetaldehyde and onward
+      to phenylacetic acid
+  - reference_id: file:PSEPK/pedH/pedH-deep-research.md
+    supporting_text: catalyzes the periplasmic oxidation of a broad range of alcohols
+      including linear aliphatic alcohols, aromatic alcohols such as 2-phenylethanol,
+      secondary alcohols
 - description: Pyrroloquinoline quinone cofactor binding for catalytic activity
   molecular_function:
     id: GO:0070968
     label: pyrroloquinoline quinone binding
-- description: Lanthanide metal ion binding for enzymatic activation
+  supported_by:
+  - reference_id: PMID:28655819
+    supporting_text: PedH absolutely requires PQQ as a cofactor for all catalytic
+      activity
+  - reference_id: file:PSEPK/pedH/pedH-deep-research.md
+    supporting_text: Its primary structure contains a large eight-bladed β-propeller
+      domain that harbors the PQQ prosthetic group
+- description: Lanthanide metal ion binding for enzymatic activation (requires La3+,
+    Ce3+, Pr3+, Nd3+, or Sm3+ - not calcium)
   molecular_function:
     id: GO:0046872
     label: metal ion binding
+  directly_involved_in:
+  - id: GO:0071248
+    label: cellular response to metal ion
+  supported_by:
+  - reference_id: PMID:28655819
+    supporting_text: PedH exhibits enzymatic activity only in the presence of lanthanides
+  - reference_id: PMID:30158283
+    supporting_text: the transcription of the genes encoding the Ca2+-utilizing enzyme
+      PedE and the Ln3+-utilizing enzyme PedH are inversely regulated
+  - reference_id: file:PSEPK/pedH/pedH-deep-research.md
+    supporting_text: A critical active-site residue substitution (Asp in PedH vs Ser
+      in PedE) enables PedH to coordinate lanthanides and confers its lanthanide reliance
+- description: Central role in 2-phenylethanol catabolic pathway as part of aromatic
+    compound degradation
+  molecular_function:
+    id: GO:0052934
+    label: alcohol dehydrogenase (cytochrome c) activity
+  directly_involved_in:
+  - id: GO:0042537
+    label: benzene-containing compound metabolic process
+  supported_by:
+  - reference_id: PMID:18177365
+    supporting_text: PedH is part of the 2-phenylethanol degradation pathway
+  - reference_id: file:PSEPK/pedH/pedH-deep-research.md
+    supporting_text: PedH is integral to aromatic alcohol catabolism and detoxification
+      in Pseudomonas putida. It is part of the 2-phenylethanol degradation (Ped) pathway
+- description: Transcriptional regulatory role as lanthanide sensor for metabolic
+    switching between Ca-dependent and Ln-dependent alcohol oxidation systems
+  directly_involved_in:
+  - id: GO:0071248
+    label: cellular response to metal ion
+  - id: GO:0010468
+    label: regulation of gene expression
+  supported_by:
+  - reference_id: PMID:28655819
+    supporting_text: The transcription of pedH was found to be strongly influenced
+      by the PedH protein itself, implying a role for PedH as a lanthanide sensory
+      module
+  - reference_id: PMID:29695838
+    supporting_text: PedS2/R2 represses pedE and strongly induces pedH when lanthanide
+      ions are present
+proposed_new_terms:
+- proposed_name: lanthanide ion binding
+  proposed_definition: Binding to a lanthanide ion, including lanthanum (La3+), cerium
+    (Ce3+), praseodymium (Pr3+), neodymium (Nd3+), and samarium (Sm3+). Lanthanides
+    are f-block elements with unique chemical properties distinct from transition
+    metals.
+  justification: Many bacterial enzymes specifically require lanthanides rather than
+    calcium or other metals. Current GO only has generic "metal ion binding" which
+    fails to capture this specificity.
+- proposed_name: lanthanide-dependent alcohol dehydrogenase activity
+  proposed_definition: Catalysis of the oxidation of alcohols to aldehydes or ketones
+    with the concomitant reduction of an electron acceptor, requiring lanthanide ions
+    for activity.
+  justification: Distinguishes lanthanide-dependent enzymes from calcium-dependent
+    PQQ dehydrogenases, which is functionally and evolutionarily significant.

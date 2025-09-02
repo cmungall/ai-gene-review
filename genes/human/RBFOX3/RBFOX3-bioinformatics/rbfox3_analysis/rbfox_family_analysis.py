@@ -9,13 +9,37 @@ and functional divergence between RBFOX1, RBFOX2, and RBFOX3.
 import matplotlib.pyplot as plt
 import pandas as pd
 import json
+from pathlib import Path
 
-# Sequences from UniProt (manually obtained to avoid network dependency)
-RBFOX_SEQUENCES = {
-    'RBFOX1': 'MEPKRKEGEAHRSARLYLRNGIDKFVEKLRQMTDEVMQNHEGPGYPFPQPIFPDPPPPPPPPPLMPPPPPNIPEKPGRTDNHEKIQTTDEQTERKRKRHVSNLPFRFRDPDLRQMFGQFGKILDVEIIFNERGSKGFGFVTFETSSEADKAREKLNGTIVEGRKIEVNNATARVMTNKKTGNPYTNGWKLNPVVGAVYGPEFYAVTGFPYPTVGAAVAYRGAHFRGRGRRQVQNMPPPPPPIKGEGGVHGNRDAWYAFDQGEGEVGYAADPYGHTTIGPAANYSIG',
-    'RBFOX2': 'MEPKRKEGEAHRSARLYLRNGIDKFVEKLRQMTDEVMQNHEGPGYPFPQPIFPDPPPPPPPPPLMPPPPPNIPEKPGRTDNHEKIQTTDEQTERKRKRHVSNLPFRFRDPDLRQMFGQFGKILDVEIIFNERGSKGFGFVTFETSSEADKAREKLNGTIVEGRKIEVNNATARVMTNKKTGNPYTNGWKLNPVVGAVYGPEFYAVTGFPYPTVGAAVAYRGAHFRGRGRRQVQNMPPPPPPIKGEGGVHGNRDAWYAFDQGEGEVGYAADPYGHTTIGPAANYSIG',
-    'RBFOX3': 'MAQPYPPAQYPPPPQNGIPAYAPPPPHPTQDYSGQTPVPTEHGMTLYTPAQTHPEQPGSEASTQPIAGTQTVPQTDEAAQTDSQPLHPSDPTEKQQPKRLHVSNIPFRFRDPDLRQMFGQFGKILDVEIIFNERGSKGFGFVTFETSSDADRAREKLNGTIVEGRKIEVNNATARVMTNKKTGNPYTNGWKLNPVVGAVYGPEFYAVTGFPYPTTGTAVAYRGAHLRGRGRRAVYNTFRAPPPPPIPTYGGAVVYQDGFYGAEIYGGYAAYRYAQPAAAAAYSDSYGRVYAAADPYHHTTIGPAATYSIGTTM'
-}
+def load_sequence_from_fasta(fasta_path):
+    """Load sequence from FASTA file"""
+    with open(fasta_path, 'r') as f:
+        lines = f.readlines()
+    
+    # Skip header, join sequence lines
+    sequence = ''.join(line.strip() for line in lines[1:] if not line.startswith('>'))
+    return sequence
+
+# Load sequences from FASTA files
+script_dir = Path(__file__).parent
+
+# Load RBFOX family sequences
+RBFOX_SEQUENCES = {}
+
+for protein in ['RBFOX1', 'RBFOX2', 'RBFOX3']:
+    if protein == 'RBFOX3':
+        # Try parent directory first
+        fasta_path = script_dir.parent.parent / f"{protein}.fasta"
+        if not fasta_path.exists():
+            fasta_path = script_dir / f"{protein}.fasta"
+    else:
+        fasta_path = script_dir / f"{protein}.fasta"
+    
+    if not fasta_path.exists():
+        raise FileNotFoundError(f"{protein}.fasta not found at {fasta_path}. Please run: python fetch_rbfox_family.py")
+    
+    RBFOX_SEQUENCES[protein] = load_sequence_from_fasta(fasta_path)
+    print(f"Loaded {protein}: {len(RBFOX_SEQUENCES[protein])} aa")
 
 def analyze_sequence_lengths():
     """Compare sequence lengths of RBFOX family members"""

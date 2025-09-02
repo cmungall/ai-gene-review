@@ -1,150 +1,94 @@
 #!/usr/bin/env python3
 """
-Run DeepTMHMM analysis on LRX-1 protein sequence
+Prepare FASTA file for DeepTMHMM analysis.
+
+This script reads a protein sequence from a FASTA file and prepares it
+for submission to the DeepTMHMM web service or local installation.
 """
 
-import requests
-import json
-from typing import Dict, Optional
+import click
+from Bio import SeqIO
+from pathlib import Path
 
-def run_deeptmhmm(sequence: str) -> Optional[Dict]:
+
+@click.command()
+@click.argument('input_fasta', type=click.Path(exists=True))
+@click.option('--output', '-o', default='deeptmhmm_input.fasta', 
+              help='Output FASTA file for DeepTMHMM (default: deeptmhmm_input.fasta)')
+@click.option('--max-length', default=5000, 
+              help='Maximum sequence length for DeepTMHMM (default: 5000)')
+def main(input_fasta, output, max_length):
     """
-    Attempt to run DeepTMHMM via BioLib API
+    Prepare protein sequence for DeepTMHMM analysis.
     
-    Note: BioLib requires authentication for API access.
-    This script documents the API structure but may require API keys.
+    INPUT_FASTA: Path to the input FASTA file containing the protein sequence
+    
+    DeepTMHMM predicts transmembrane topology including:
+    - Signal peptides
+    - Transmembrane helices
+    - Inside/outside orientation
+    
+    After running this script, submit the output file to:
+    https://dtu.biolib.com/DeepTMHMM
     """
     
-    # BioLib API endpoint for DeepTMHMM
-    base_url = "https://api.biolib.com/v1"
-    app_id = "DTU/DeepTMHMM"
+    # Read the sequence from input FASTA
+    with open(input_fasta, 'r') as f:
+        record = next(SeqIO.parse(f, "fasta"))
     
-    # Prepare the request
-    headers = {
-        "Content-Type": "application/json",
-        # API key would go here if available
-        # "Authorization": "Bearer YOUR_API_KEY"
-    }
+    sequence = str(record.seq)
     
-    payload = {
-        "input_fasta": f">LRX1\n{sequence}",
-        "format": "json"
-    }
+    # Extract protein info from header
+    header = record.description
+    if '|' in header:
+        parts = header.split('|')
+        protein_id = parts[0]
+        protein_name = parts[1] if len(parts) > 1 else "Unknown"
+        organism = parts[2] if len(parts) > 2 else "Unknown"
+    else:
+        protein_id = record.id
+        protein_name = "Unknown"
+        organism = "Unknown"
     
-    try:
-        # Attempt to submit job
-        response = requests.post(
-            f"{base_url}/apps/{app_id}/jobs",
-            headers=headers,
-            json=payload,
-            timeout=30
-        )
+    click.echo(f"Processing: {protein_name} ({protein_id})")
+    click.echo(f"Organism: {organism}")
+    click.echo(f"Sequence length: {len(sequence)} aa")
+    
+    # Check sequence length
+    if len(sequence) > max_length:
+        click.echo(f"WARNING: Sequence length ({len(sequence)}) exceeds DeepTMHMM limit ({max_length})")
+        click.echo(f"Truncating to first {max_length} amino acids")
+        sequence = sequence[:max_length]
+    
+    # Create formatted header for DeepTMHMM
+    # Format: >ID|Name|Organism
+    formatted_header = f"{protein_id}|{protein_name}|{organism}"
+    
+    # Write output FASTA
+    with open(output, 'w') as f:
+        f.write(f">{formatted_header}\n")
+        # Write sequence in chunks of 60 characters
+        for i in range(0, len(sequence), 60):
+            f.write(sequence[i:i+60] + '\n')
+    
+    click.echo(f"\nOutput written to: {output}")
+    click.echo("\nNext steps:")
+    click.echo("1. Go to https://dtu.biolib.com/DeepTMHMM")
+    click.echo(f"2. Upload the file: {output}")
+    click.echo("3. Run the analysis")
+    click.echo("4. Download results to 'biolib_results/' directory")
+    click.echo("5. Run 'python check_deeptmhmm.py' to parse the results")
+    
+    # Display first 30 amino acids for signal peptide preview
+    if len(sequence) >= 30:
+        click.echo(f"\nFirst 30 amino acids (potential signal peptide region):")
+        click.echo(f"  {sequence[:30]}")
         
-        if response.status_code == 401:
-            return {
-                "error": "API authentication required",
-                "message": "BioLib API requires authentication. Cannot run automatically.",
-                "manual_url": "https://dtu.biolib.com/DeepTMHMM"
-            }
-        elif response.status_code == 200:
-            return response.json()
-        else:
-            return {
-                "error": f"API request failed with status {response.status_code}",
-                "response": response.text
-            }
-            
-    except requests.exceptions.RequestException as e:
-        return {
-            "error": "Network request failed",
-            "message": str(e)
-        }
+        # Quick hydrophobicity check
+        hydrophobic = set('AILMFWVY')
+        hydro_count = sum(1 for aa in sequence[:30] if aa in hydrophobic)
+        click.echo(f"  Hydrophobicity: {hydro_count}/30 ({hydro_count/30:.1%})")
 
-def parse_deeptmhmm_output(result: str) -> Dict:
-    """
-    Parse DeepTMHMM output format
-    
-    Expected format:
-    # ID  Type  Positions
-    LRX1  SP    1-19
-    LRX1  GLOB  20-369
-    """
-    
-    parsed = {
-        "signal_peptide": None,
-        "tm_helices": [],
-        "topology": "unknown",
-        "regions": []
-    }
-    
-    if not result:
-        return parsed
-    
-    lines = result.strip().split('\n')
-    for line in lines:
-        if line.startswith('#') or not line.strip():
-            continue
-            
-        parts = line.split('\t')
-        if len(parts) >= 3:
-            region_type = parts[1]
-            positions = parts[2]
-            
-            if region_type == 'SP':
-                parsed["signal_peptide"] = positions
-            elif region_type == 'TM':
-                parsed["tm_helices"].append(positions)
-            elif region_type in ['GLOB', 'GLOBULAR']:
-                parsed["topology"] = "globular"
-                
-            parsed["regions"].append({
-                "type": region_type,
-                "positions": positions
-            })
-    
-    # Determine overall topology
-    if parsed["signal_peptide"] and not parsed["tm_helices"]:
-        parsed["topology"] = "SP+Globular (secreted)"
-    elif parsed["signal_peptide"] and parsed["tm_helices"]:
-        parsed["topology"] = "SP+TM (membrane)"
-    elif parsed["tm_helices"]:
-        parsed["topology"] = "TM (membrane)"
-    else:
-        parsed["topology"] = "Globular"
-    
-    return parsed
-
-def main():
-    """Run DeepTMHMM analysis"""
-    
-    # LRX-1 sequence
-    sequence = """MAWLTSIFFILLAVQPVLPQDLYGTATQQQPYPYVQPSASSGSGGYVPNPQSSIHTVQQP
-YPNIDVVEPDVDSVDIYETEEPQFKVVNPVFPLGGSGIVEEPGTIPPPMPQTQAPEKPDNS
-YAINYCDKREFPDDVLAQYGLERIDYFVYNTSCSHVFFQCSIGQTFPLACMSEDQAFDKS
-TENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGED
-ENNCPSCARDDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTS
-RGGVSCVDLDMHCDGKKDCLNGEDEMNCQEGRQKYLLCENQKQSVTRLQWCNGETDCAD
-GSDEKYCY""".replace("\n", "").replace(" ", "")
-    
-    print("=== DeepTMHMM Analysis for LRX-1 ===\n")
-    
-    # Try to run via API
-    result = run_deeptmhmm(sequence)
-    
-    if result and "error" in result:
-        print(f"Cannot run automatically: {result['error']}")
-        print(f"Message: {result.get('message', '')}")
-        if "manual_url" in result:
-            print(f"\nManual submission required at: {result['manual_url']}")
-        return
-    
-    # If we somehow got results, parse them
-    if result:
-        parsed = parse_deeptmhmm_output(result.get("output", ""))
-        print("Results:")
-        print(json.dumps(parsed, indent=2))
-    else:
-        print("No results obtained")
 
 if __name__ == "__main__":
     main()

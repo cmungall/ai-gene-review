@@ -144,6 +144,9 @@ existing_annotations:
   review:
     summary: 'PMID:16061649 directly states that "Overexpressed Ckap2 colocalizes with and stabilizes microtubules" and shows CKAP2 localizes "to the spindle during mitosis" and "colocalizes with k-fibers during mitosis." This provides strong experimental evidence for microtubule cytoskeleton involvement.'
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16061649
+      supporting_text: 'Overexpressed Ckap2 colocalizes with and stabilizes microtubules'
 - term:
     id: GO:0000281
     label: mitotic cytokinesis
@@ -152,6 +155,9 @@ existing_annotations:
   review:
     summary: 'PMID:16061649 states that overexpression of Ckap2 "suggests disturbed mitosis and cytokinesis" and shows that in p53-null cells, CKAP2 overexpression "induces tetraploidy with aberrant centrosome numbers, suggesting disturbed mitosis and cytokinesis." This suggests CKAP2 dysfunction affects cytokinesis, supporting this annotation.'
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:16061649
+      supporting_text: 'In p53-null cells, overexpression of Ckap2 induces tetraploidy with aberrant centrosome numbers, suggesting disturbed mitosis and cytokinesis'
 - term:
     id: GO:0045944
     label: positive regulation of transcription by RNA polymerase II
@@ -168,6 +174,9 @@ existing_annotations:
   review:
     summary: 'PMID:21399614 is a general centrosome proteomics study that identified CKAP2 among "126 known and 40 candidate centrosomal proteins" but provides no specific functional data about CKAP2. This supports centrosome localization but without detailed functional context. This is a core cellular component annotation based on proteomics identification.'
     action: ACCEPT
+    supported_by:
+    - reference_id: PMID:21399614
+      supporting_text: 'From a background of non-specific proteins, we distinguished 126 known and 40 candidate centrosomal proteins, of which 22 were confirmed as novel components'
 references:
 - id: GO_REF:0000033
   title: Annotation inferences using phylogenetic trees
@@ -195,26 +204,29 @@ references:
     manner.
   findings:
   - statement: CKAP2 colocalizes with and stabilizes microtubules
-    supporting_text: "Overexpressed Ckap2 colocalizes with and stabilizes microtubules"
+    supporting_text: 'Overexpressed Ckap2 colocalizes with and stabilizes microtubules'
   - statement: CKAP2 localizes to centrosomes and affects mitosis and cytokinesis
-    supporting_text: "In p53-null cells, overexpression of Ckap2 induces tetraploidy with aberrant centrosome numbers, suggesting disturbed mitosis and cytokinesis"
+    supporting_text: 'In p53-null cells, overexpression of Ckap2 induces tetraploidy with aberrant centrosome numbers, suggesting disturbed mitosis and cytokinesis'
   - statement: CKAP2 activates p53-mediated apoptosis in competent cells
-    supporting_text: "In p53-competent cells, Ckap2 does not induce tetraploidy but activates p53-mediated cell cycle arrest and apoptosis"
+    supporting_text: 'In p53-competent cells, Ckap2 does not induce tetraploidy but activates p53-mediated cell cycle arrest and apoptosis'
   - statement: CKAP2 is a p53 target gene induced by DNA damage
-    supporting_text: "DNA damage induces human and mouse CKAP2 expression in a p53-dependent manner and p53 activates the Ckap2 promoter"
+    supporting_text: 'DNA damage induces human and mouse CKAP2 expression in a p53-dependent manner and p53 activates the Ckap2 promoter'
   - statement: CKAP2 functions in tetraploidy checkpoint and aneuploidy prevention
-    supporting_text: "Our data suggest the existence of a functional positive feedback loop in which Ckap2 activates the G1 tetraploidy checkpoint and prevents aneuploidy"
+    supporting_text: 'Our data suggest the existence of a functional positive feedback loop in which Ckap2 activates the G1 tetraploidy checkpoint'
 - id: PMID:21399614
   title: Novel asymmetrically localizing components of human centrosomes identified
     by complementary proteomics methods.
   findings:
   - statement: CKAP2 identified among centrosomal proteins by proteomics
-    supporting_text: "We distinguished 126 known and 40 candidate centrosomal proteins, of which 22 were confirmed as novel components. CKAP2 was among the proteins identified in this centrosome proteomics screen."
+    supporting_text: 'From a background of non-specific proteins, we distinguished 126 known and 40 candidate centrosomal proteins, of which 22 were confirmed as novel components'
 core_functions:
 - description: Promotes microtubule nucleation and polymerization while suppressing catastrophes
   molecular_function:
     id: GO:0008017
     label: microtubule binding
+  supported_by:
+  - reference_id: PMID:16061649
+    supporting_text: 'Overexpressed Ckap2 colocalizes with and stabilizes microtubules'
   directly_involved_in:
   - id: GO:0007020
     label: microtubule nucleation
@@ -235,6 +247,9 @@ core_functions:
   molecular_function:
     id: GO:0008017
     label: microtubule binding
+  supported_by:
+  - reference_id: PMID:16061649
+    supporting_text: 'Overexpressed Ckap2 colocalizes with and stabilizes microtubules'
   directly_involved_in:
   - id: GO:0007052
     label: mitotic spindle organization
@@ -255,6 +270,9 @@ core_functions:
   molecular_function:
     id: GO:0008017
     label: microtubule binding
+  supported_by:
+  - reference_id: PMID:16061649
+    supporting_text: 'In p53-null cells, overexpression of Ckap2 induces tetraploidy with aberrant centrosome numbers, suggesting disturbed mitosis and cytokinesis'
   directly_involved_in:
   - id: GO:0007059
     label: chromosome segregation

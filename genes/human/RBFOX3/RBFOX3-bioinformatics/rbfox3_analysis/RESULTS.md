@@ -9,32 +9,33 @@ This comprehensive bioinformatics analysis of RBFOX3 (RNA Binding Protein Fox-1 
 ### 1. Protein Structure and Domain Architecture
 
 **Basic Properties:**
-- Sequence length: 313 amino acids
-- Molecular weight: 34,016 Da
-- Theoretical pI: 7.86
+- Sequence length: 312 amino acids
+- Molecular weight: 33,872 Da  
+- Theoretical pI: 6.71
 - High proline content: 40 prolines (12.8%) - characteristic of proteins with disordered regions
 
 **Domain Organization:**
 - **N-terminal disordered region (aa 1-104)**: Contains proline-rich sequences that may facilitate protein-protein interactions
 - **RNA Recognition Motif (RRM, aa 100-175)**: Highly conserved domain responsible for sequence-specific RNA binding
-- **Fox-1 C-terminal domain (aa 176-313)**: Unique to RBFOX family, involved in protein stability and localization
+- **Fox-1 C-terminal domain (aa 176-312)**: Unique to RBFOX family, involved in protein stability and localization
 
 **Critical Observations:**
-- The RRM domain contains a well-defined RNP1-like motif (KGFGF at position 137)
+- The RRM domain contains a well-defined RNP1-like motif (RQMFGQF at position 116)
 - Eight RNA interaction sites are experimentally validated within and flanking the RRM domain
 - High content of aromatic (F,Y,W) and basic (R,K,H) residues in the RRM supports RNA-binding function
 
 ### 2. RBFOX Family Comparative Analysis
 
 **Sequence Conservation:**
-- RBFOX3 (313 aa) is longer than RBFOX1/2 (both 286 aa)
-- Extremely low overall sequence identity with RBFOX1/2 (~9%)
-- Even the RRM domains show limited conservation (11.2% identity)
-- This divergence suggests functional specialization despite shared RNA-binding capability
+- RBFOX3 (312 aa) is significantly shorter than RBFOX1 (397 aa) and RBFOX2 (390 aa)
+- Extremely low overall sequence identity with RBFOX1 (6.1%) and RBFOX2 (8.3%)
+- The RRM domain itself is highly conserved across the family
+- The divergence in terminal regions suggests functional specialization despite shared RNA-binding capability
 
 **Unique Features of RBFOX3:**
-- Extended C-terminal domain (133 aa vs 106 aa in RBFOX1/2)
-- Distinct N-terminal disordered region composition
+- Most compact family member (312 aa vs 397 aa and 390 aa)
+- Shorter N-terminal region compared to RBFOX1/2
+- Distinct disordered region composition
 - Neuronal-specific expression pattern (unlike broader RBFOX1/2 expression)
 
 ### 3. RNA-Binding Specificity and Mechanism

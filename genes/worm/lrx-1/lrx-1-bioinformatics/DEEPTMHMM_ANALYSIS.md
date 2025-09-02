@@ -1,68 +1,86 @@
 # DeepTMHMM Analysis for LRX-1
 
-## Submission Instructions
+## Overview
 
-1. Visit: https://dtu.biolib.com/DeepTMHMM
-2. Paste the sequence from `lrx1_for_deeptmhmm.fasta`
-3. Click "Run" to get predictions
-
-## What DeepTMHMM Predicts
-
-DeepTMHMM is the current state-of-the-art for predicting:
+DeepTMHMM is a state-of-the-art deep learning tool for predicting:
 - Signal peptides (SP)
 - Transmembrane helices (TM)
 - Protein topology (inside/outside/membrane)
 - Overall architecture (Globular, SP+Globular, TM, SP+TM)
 
-## Expected Results for LRX-1
+## Sequence Analysis Observations
 
-Based on our sequence analysis, we expect DeepTMHMM to predict:
-
-### Signal Peptide
-- **Expected**: YES (positions 1-19)
+### Signal Peptide Region (positions 1-19)
 - **Sequence**: MAWLTSIFFILLAVQPVLP
-- **Confidence**: Should be high (this is a typical signal peptide)
+- **Characteristics**: Hydrophobic residues typical of signal peptides
+- **Analysis**: Consistent with ER-targeting signal sequence
 
-### Transmembrane Helices
-- **Expected**: NONE
-- **Reasoning**: 
-  - Post-signal region (20-40) has low hydrophobicity
-  - Sequence: QDLYGTATQQQPYPYVQPSA (contains Q, D, Y, T - hydrophilic)
-  - No 20+ residue hydrophobic stretch
+### Post-Signal Region (positions 20-40)
+- **Sequence**: QDLYGTATQQQPYPYVQPSA
+- **Hydrophobicity**: 35% (7/20 hydrophobic residues)
+- **Characteristics**: Contains multiple polar/charged residues (Q, D, Y, T)
+- **Analysis**: Low hydrophobicity, not typical of transmembrane helices
 
-### Overall Topology
-- **Expected**: SP+Globular (secreted protein)
-- **Not expected**: SP+TM (single-pass membrane protein)
+## Topology Predictions and Interpretations
 
-## Interpretation Guide
+### If predicted as "SP+Globular":
+- Indicates signal peptide followed by globular domain
+- Characteristic of secreted or extracellular proteins
+- Protein would be processed through ER/Golgi pathway
+- Mature protein would be extracellular
 
-### If DeepTMHMM confirms "SP+Globular":
-- LRX-1 is definitively a secreted protein
-- Signal peptide directs to ER
-- Protein is released to extracellular space
-- All membrane-related GO annotations are incorrect
+### If predicted as "SP+TM":
+- Indicates signal peptide followed by transmembrane helix
+- Characteristic of Type I membrane proteins
+- Would suggest membrane anchoring after signal peptide
+- Specific TM region location and confidence scores should be examined
 
-### If DeepTMHMM predicts "SP+TM":
-- Check the specific TM region predicted
-- Examine probability scores (low confidence?)
-- Review the sequence of the predicted TM region
-- Consider that even DeepTMHMM can be wrong for edge cases
+### If predicted as "TM" only:
+- Would indicate transmembrane protein without signal peptide
+- Characteristic of multi-pass membrane proteins
+- Would require review of specific helix positions
 
-## Why This Matters
+### If predicted as "Globular":
+- Would indicate cytoplasmic/nuclear protein
+- No signal peptide or TM helices
+- Would contradict N-terminal hydrophobic region analysis
 
-DeepTMHMM uses deep learning trained on thousands of experimentally validated proteins. It's particularly good at:
-- Distinguishing signal peptides from TM helices
-- Predicting topology of multi-pass membrane proteins
-- Identifying secreted vs membrane proteins
+## Additional Evidence
 
-For LRX-1, this analysis will provide definitive evidence about whether UniProt's "single-pass type I membrane protein" annotation is correct or not.
+### Sequence-based observations:
+1. **Cysteine distribution**: 30 cysteines (8.2% of sequence)
+   - High cysteine content typical of extracellular proteins
+   - Suggests disulfide bond formation
 
-## Current Evidence Summary
+2. **Protein size**: 368 amino acids
+   - Much smaller than typical LRP family proteins (4000-6000 aa)
+   - Size consistent with secreted proteins
 
-All analyses point to LRX-1 being secreted:
-1. **Sequence analysis**: No hydrophobic region after signal peptide
-2. **AlphaFold**: Low confidence, no TM helix visible
-3. **Domain analysis**: No LRP domains, wrong size
-4. **Cysteine pattern**: Consistent with extracellular protein
+3. **AlphaFold predictions**:
+   - No clear transmembrane helix structure
+   - Low overall confidence (mean pLDDT: 54.17)
 
-DeepTMHMM will provide the final confirmation.
+## Analysis Approach
+
+When interpreting DeepTMHMM results:
+1. Check the overall topology prediction
+2. Examine confidence scores for each region
+3. Review specific positions of predicted features
+4. Compare with other prediction tools and experimental evidence
+5. Consider biological context and known protein functions
+
+## Data Files
+
+- Input sequence: `lrx1_for_deeptmhmm.fasta`
+- DeepTMHMM results: `biolib_results/predicted_topologies.3line`
+- Parsed results: `deeptmhmm_parsed_results.json`
+
+## Note on Interpretation
+
+Topology predictions should be considered alongside:
+- Experimental evidence from literature
+- Other computational predictions
+- Functional studies
+- Cellular localization data
+
+No single prediction tool should be considered definitive without supporting evidence.

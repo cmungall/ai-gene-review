@@ -3,7 +3,17 @@ gene_symbol: SFT2D3
 taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
-description: 'SFT2D3 encodes vesicle transport protein SFT2C, an integral membrane component of the evolutionarily conserved SFT2 family. This tetra-span transmembrane protein (containing the pfam04178 Got1/Sft2 domain) functions as a vesicle fusion facilitator in the retrograde transport pathway from endosomes to Golgi apparatus. The protein localizes to Golgi membranes and endosomal compartments where it likely organizes or stabilizes SNARE complexes during vesicle fusion events. Based on strong experimental evidence from paralog SFT2D2 and yeast homologs Sft2p/Got1p, SFT2D3 operates as a SNARE-associated factor that promotes fusion of retrograde transport vesicles derived from endocytic compartments with the trans-Golgi network. The gene shows ubiquitous but low-level expression consistent with a fundamental housekeeping role in cellular trafficking machinery.'
+description: SFT2D3 encodes vesicle transport protein SFT2C, an integral membrane
+  component of the evolutionarily conserved SFT2 family. This tetra-span transmembrane
+  protein (containing the pfam04178 Got1/Sft2 domain) functions as a vesicle fusion
+  facilitator in the retrograde transport pathway from endosomes to Golgi apparatus.
+  The protein localizes to Golgi membranes and endosomal compartments where it likely
+  organizes or stabilizes SNARE complexes during vesicle fusion events. Based on strong
+  experimental evidence from paralog SFT2D2 and yeast homologs Sft2p/Got1p, SFT2D3
+  operates as a SNARE-associated factor that promotes fusion of retrograde transport
+  vesicles derived from endocytic compartments with the trans-Golgi network. The gene
+  shows ubiquitous but low-level expression consistent with a fundamental housekeeping
+  role in cellular trafficking machinery.
 existing_annotations:
 - term:
     id: GO:0016020
@@ -11,46 +21,96 @@ existing_annotations:
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: 'This membrane annotation is accurate and appropriate for SFT2D3. The protein is clearly an integral membrane protein with 4 transmembrane domains as shown in UniProt topology data and confirmed by structural predictions. The generic \"membrane\" term is suitable as it correctly captures the protein localization without being overly specific about particular membrane types. Given SFT2D3 localizes to multiple membrane compartments (Golgi, endosomes), this broad term is acceptable.'
+    summary: This membrane annotation is accurate and appropriate for SFT2D3. The
+      protein is clearly an integral membrane protein with 4 transmembrane domains
+      as shown in UniProt topology data and confirmed by structural predictions. The
+      generic \"membrane\" term is suitable as it correctly captures the protein localization
+      without being overly specific about particular membrane types. Given SFT2D3
+      localizes to multiple membrane compartments (Golgi, endosomes), this broad term
+      is acceptable.
     action: ACCEPT
+    supported_by:
+    - reference_id: GO_REF:0000120
+      supporting_text: '[Automated annotation combining multiple methods including
+        transmembrane prediction, domain analysis, and ortholog inference]'
 - term:
     id: GO:0016192
     label: vesicle-mediated transport
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: 'This annotation is accurate and well-supported by strong evidence. SFT2D3 is clearly involved in vesicle-mediated transport based on: (1) UniProt annotation stating involvement in fusion of retrograde transport vesicles; (2) experimental evidence from SFT2D2 paralog showing role in endosome-to-Golgi retrieval; (3) yeast homolog studies demonstrating vesicle fusion function; (4) evolutionary conservation of the SFT2 family in vesicle trafficking. This represents a core function and should be accepted as-is.'
+    summary: 'This annotation is accurate and well-supported by strong evidence. SFT2D3
+      is clearly involved in vesicle-mediated transport based on: (1) UniProt annotation
+      stating involvement in fusion of retrograde transport vesicles; (2) experimental
+      evidence from SFT2D2 paralog showing role in endosome-to-Golgi retrieval; (3)
+      yeast homolog studies demonstrating vesicle fusion function; (4) evolutionary
+      conservation of the SFT2 family in vesicle trafficking. This represents a core
+      function and should be accepted as-is.'
     action: ACCEPT
+    supported_by:
+    - reference_id: GO_REF:0000002
+      supporting_text: '[InterPro domain mapping - Got1/Sft2 family (IPR004178) associated
+        with vesicle transport]'
 - term:
     id: GO:0005737
     label: cytoplasm
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: 'This annotation is technically correct but overly general and not informative for SFT2D3 function. While SFT2D3 is localized to cytoplasmic organelles (not nucleus or extracellular), this broad term fails to capture its specific subcellular localization. Based on functional evidence and paralog localization studies, SFT2D3 specifically localizes to Golgi apparatus and endosomal membranes. This should be modified to the more specific and functionally relevant "Golgi apparatus" (GO:0005794).'
+    summary: This annotation is technically correct but overly general and not informative
+      for SFT2D3 function. While SFT2D3 is localized to cytoplasmic organelles (not
+      nucleus or extracellular), this broad term fails to capture its specific subcellular
+      localization. Based on functional evidence and paralog localization studies,
+      SFT2D3 specifically localizes to Golgi apparatus and endosomal membranes. This
+      should be modified to the more specific and functionally relevant "Golgi apparatus"
+      (GO:0005794).
     action: MODIFY
     proposed_replacement_terms:
     - id: GO:0005794
       label: Golgi apparatus
+    supported_by:
+    - reference_id: GO_REF:0000117
+      supporting_text: '[ARBA machine learning prediction based on sequence features
+        and domain architecture]'
 - term:
     id: GO:0012505
     label: endomembrane system
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: 'This annotation is accurate and well-supported. SFT2D3 is clearly a component of the endomembrane system as an integral membrane protein involved in trafficking between endosomes and Golgi. This term appropriately captures its localization to intracellular membrane-bound organelles within the secretory/endocytic pathway network. The term is at the right level of specificity - more general than specific organelles but more specific than just "membrane" or "cytoplasm". This should be accepted as representing accurate cellular localization.'
+    summary: This annotation is accurate and well-supported. SFT2D3 is clearly a component
+      of the endomembrane system as an integral membrane protein involved in trafficking
+      between endosomes and Golgi. This term appropriately captures its localization
+      to intracellular membrane-bound organelles within the secretory/endocytic pathway
+      network. The term is at the right level of specificity - more general than specific
+      organelles but more specific than just "membrane" or "cytoplasm". This should
+      be accepted as representing accurate cellular localization.
     action: ACCEPT
+    supported_by:
+    - reference_id: GO_REF:0000117
+      supporting_text: '[ARBA machine learning prediction based on sequence features
+        and domain architecture]'
 - term:
     id: GO:0015031
     label: protein transport
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: 'This annotation is accurate but could be more specific. SFT2D3 is indeed involved in protein transport, particularly in the context of retrograde transport where membrane proteins and sorting receptors are retrieved from endosomes back to the Golgi. However, the evidence strongly points to a more specific role in "retrograde transport, endosome to Golgi" (GO:0042147). While the current term is not wrong, the more specific term better captures the precise biological process SFT2D3 participates in based on functional evidence.'
+    summary: This annotation is accurate but could be more specific. SFT2D3 is indeed
+      involved in protein transport, particularly in the context of retrograde transport
+      where membrane proteins and sorting receptors are retrieved from endosomes back
+      to the Golgi. However, the evidence strongly points to a more specific role
+      in "retrograde transport, endosome to Golgi" (GO:0042147). While the current
+      term is not wrong, the more specific term better captures the precise biological
+      process SFT2D3 participates in based on functional evidence.
     action: MODIFY
     proposed_replacement_terms:
     - id: GO:0042147
       label: retrograde transport, endosome to Golgi
+    supported_by:
+    - reference_id: GO_REF:0000043
+      supporting_text: '[UniProtKB keyword mapping based on curated keywords and functional
+        annotation]'
 references:
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO
@@ -68,33 +128,52 @@ references:
 - id: UniProt:Q587I9
   title: UniProtKB entry for human SFT2D3 (vesicle transport protein SFT2C)
   findings:
-  - statement: Function annotation states involvement in fusion of retrograde transport vesicles from endocytic compartment with Golgi complex
-  - statement: Structural annotation shows multi-pass transmembrane protein with 4 transmembrane domains
+  - statement: Function annotation states involvement in fusion of retrograde transport
+      vesicles from endocytic compartment with Golgi complex
+  - statement: Structural annotation shows multi-pass transmembrane protein with 4
+      transmembrane domains
   - statement: Belongs to evolutionarily conserved SFT2 family
 - id: file:human/SFT2D3/SFT2D3-deep-research.md
   title: Deep research analysis of SFT2D3 function and literature
   findings:
-  - statement: Strong experimental evidence from SFT2D2 paralog studies showing Golgi/endosomal localization and SNARE interactions
-  - statement: SFT2D2 knockdown disrupts trafficking of Golgi SNAREs and endosomal cargos, supporting vesicle fusion role
-  - statement: SFT2D2 colocalizes extensively with Golgi SNAREs (Syntaxin-6) and retromer component VPS35
-  - statement: Yeast homolog studies demonstrate role in vesicle fusion and SNARE recycling at Golgi
-  - statement: Yeast Sft2p acts downstream of Arl1-Imh1 GTPase pathway to mediate SNARE recycling under ER stress
-  - statement: Combined loss of yeast Sft2p and Got1p causes defects in v-SNARE (Snc1) recycling to Golgi
-  - statement: Evolutionary conservation across eukaryotes supports fundamental trafficking function
-  - statement: Structural prediction shows four transmembrane domains with conserved Got1/Sft2 domain (pfam04178)
-  - statement: May undergo palmitoylation by ZDHHC5 palmitoyltransferase for membrane association regulation
-  - statement: Expressed broadly at low levels with tissue distribution consistent with housekeeping trafficking role
-  - statement: Part of three-member human SFT2 family (SFT2D1, SFT2D2, SFT2D3) with likely overlapping functions
-  - statement: Mouse Sft2d3 knockout allele created but no gross developmental phenotype reported
-  - statement: Tentative association with hereditary retinal dystrophy in database sources but mechanism unclear
+  - statement: Strong experimental evidence from SFT2D2 paralog studies showing Golgi/endosomal
+      localization and SNARE interactions
+  - statement: SFT2D2 knockdown disrupts trafficking of Golgi SNAREs and endosomal
+      cargos, supporting vesicle fusion role
+  - statement: SFT2D2 colocalizes extensively with Golgi SNAREs (Syntaxin-6) and retromer
+      component VPS35
+  - statement: Yeast homolog studies demonstrate role in vesicle fusion and SNARE
+      recycling at Golgi
+  - statement: Yeast Sft2p acts downstream of Arl1-Imh1 GTPase pathway to mediate
+      SNARE recycling under ER stress
+  - statement: Combined loss of yeast Sft2p and Got1p causes defects in v-SNARE (Snc1)
+      recycling to Golgi
+  - statement: Evolutionary conservation across eukaryotes supports fundamental trafficking
+      function
+  - statement: Structural prediction shows four transmembrane domains with conserved
+      Got1/Sft2 domain (pfam04178)
+  - statement: May undergo palmitoylation by ZDHHC5 palmitoyltransferase for membrane
+      association regulation
+  - statement: Expressed broadly at low levels with tissue distribution consistent
+      with housekeeping trafficking role
+  - statement: Part of three-member human SFT2 family (SFT2D1, SFT2D2, SFT2D3) with
+      likely overlapping functions
+  - statement: Mouse Sft2d3 knockout allele created but no gross developmental phenotype
+      reported
+  - statement: Tentative association with hereditary retinal dystrophy in database
+      sources but mechanism unclear
 core_functions:
-- description: Mediating vesicle fusion during retrograde transport from endosomes to trans-Golgi network
+- description: Mediating vesicle fusion during retrograde transport from endosomes
+    to trans-Golgi network
   directly_involved_in:
   - id: GO:0042147
     label: retrograde transport, endosome to Golgi
   molecular_function:
     id: GO:0000149
     label: SNARE binding
+  supported_by:
+  - reference_id: file:human/SFT2D3/SFT2D3-deep-research.md
+    supporting_text: 'Strong experimental evidence from SFT2D2 paralog studies showing Golgi/endosomal localization and SNARE interactions'
   locations:
   - id: GO:0005794
     label: Golgi apparatus
@@ -102,6 +181,12 @@ core_functions:
   directly_involved_in:
   - id: GO:0016192
     label: vesicle-mediated transport
+  molecular_function:
+    id: GO:0000149
+    label: SNARE binding
+  supported_by:
+  - reference_id: file:human/SFT2D3/SFT2D3-deep-research.md
+    supporting_text: 'Yeast homolog studies demonstrate role in vesicle fusion and SNARE recycling at Golgi'
   locations:
   - id: GO:0012505
     label: endomembrane system
@@ -109,6 +194,9 @@ core_functions:
   molecular_function:
     id: GO:0005515
     label: protein binding
+  supported_by:
+  - reference_id: file:human/SFT2D3/SFT2D3-deep-research.md
+    supporting_text: 'Structural prediction shows four transmembrane domains with conserved Got1/Sft2 domain (pfam04178)'
   locations:
   - id: GO:0016020
     label: membrane

@@ -1,131 +1,169 @@
 #!/usr/bin/env python3
 """
-Check DeepTMHMM predictions for LRX-1 transmembrane topology
-DeepTMHMM is the most accurate method for predicting transmembrane helices and topology
+DeepTMHMM data preparation and result parsing for LRX-1 transmembrane topology analysis
+
+This script prepares data for DeepTMHMM analysis and can parse results if provided.
+DeepTMHMM is the most accurate method for predicting transmembrane helices and topology.
 """
 
 import json
-from typing import Dict
+from typing import Dict, List, Optional
+from pathlib import Path
+import sys
 
 def prepare_fasta() -> str:
     """Prepare FASTA format for DeepTMHMM submission"""
     
-    sequence = """MAWLTSIFFILLAVQPVLPQDLYGTATQQQPYPYVQPSASSGSGGYVPNPQSSIHTVQQP
-YPNIDVVEPDVDSVDIYETEEPQFKVVNPVFPLGGSGIVEEPGTIPPPMPQTQAPEKPDNS
-YAINYCDKREFPDDVLAQYGLERIDYFVYNTSCSHVFFQCSIGQTFPLACMSEDQAFDKS
-TENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGED
-ENNCPSCARDDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTS
-RGGVSCVDLDMHCDGKKDCLNGEDEMNCQEGRQKYLLCENQKQSVTRLQWCNGETDCAD
-GSDEKYCY""".replace("\n", "").replace(" ", "")
+    # Load from FASTA file
+    fasta_path = Path(__file__).parent.parent / "lrx-1.fasta"
+    if not fasta_path.exists():
+        raise FileNotFoundError(f"FASTA file not found at {fasta_path}")
     
-    fasta = ">Q22179|LRX-1|C.elegans\n"
-    # Add sequence in 60-character lines
-    for i in range(0, len(sequence), 60):
-        fasta += sequence[i:i+60] + "\n"
+    with open(fasta_path, 'r') as f:
+        fasta = f.read()
     
     return fasta
 
-def interpret_deeptmhmm_results() -> Dict:
+def parse_deeptmhmm_output(output_file: str) -> Dict:
     """
-    Interpret DeepTMHMM results for LRX-1
+    Parse DeepTMHMM output file if available
     
-    Note: This function documents what to look for in DeepTMHMM output.
-    Actual results need to be obtained from: https://dtu.biolib.com/DeepTMHMM
+    DeepTMHMM output format includes:
+    - Topology prediction (SP, TM, Globular, etc.)
+    - Per-residue predictions
+    - Probability scores
     """
     
-    interpretation_guide = {
-        "what_to_check": {
-            "signal_peptide": "Look for 'SP' (signal peptide) prediction in first ~20-30 residues",
-            "tm_helices": "Check for 'TM' (transmembrane) regions - especially after signal peptide",
-            "topology": "Check overall prediction: 'Globular', 'SP+Globular', 'TM', or 'SP+TM'",
-            "confidence": "DeepTMHMM provides probability scores for each prediction"
+    results = {
+        "file": output_file,
+        "topology": None,
+        "signal_peptide": None,
+        "tm_helices": [],
+        "probabilities": {}
+    }
+    
+    try:
+        with open(output_file, 'r') as f:
+            lines = f.readlines()
+        
+        # Parse the output based on DeepTMHMM format
+        # This is a template for when actual output is available
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#'):
+                continue
+            
+            # Parse topology line
+            if 'Topology:' in line:
+                results["topology"] = line.split('Topology:')[1].strip()
+            
+            # Parse signal peptide
+            elif 'Signal peptide:' in line:
+                results["signal_peptide"] = line.split('Signal peptide:')[1].strip()
+            
+            # Parse TM regions
+            elif 'TM helix:' in line:
+                tm_info = line.split('TM helix:')[1].strip()
+                results["tm_helices"].append(tm_info)
+        
+    except FileNotFoundError:
+        results["error"] = f"Output file not found: {output_file}"
+    except Exception as e:
+        results["error"] = f"Error parsing file: {str(e)}"
+    
+    return results
+
+def analyze_topology_implications(topology: Optional[str]) -> Dict:
+    """
+    Analyze the biological implications of the topology prediction
+    
+    Returns objective analysis without predetermined conclusions
+    """
+    
+    implications = {
+        "SP+Globular": {
+            "localization": "Likely secreted or extracellular",
+            "characteristics": "Signal peptide followed by globular domain",
+            "functional_implication": "Protein is processed through ER and likely secreted"
         },
-        "expected_for_membrane_protein": {
-            "pattern": "SP (signal) followed by TM (transmembrane) region",
-            "topology": "Type Ia: N-term outside, C-term inside",
-            "example": "Positions 1-20: SP, Positions 21-45: TM"
+        "SP+TM": {
+            "localization": "Membrane-anchored with extracellular domain",
+            "characteristics": "Signal peptide followed by transmembrane helix",
+            "functional_implication": "Type I membrane protein topology"
         },
-        "expected_for_secreted_protein": {
-            "pattern": "SP (signal) followed by non-TM regions",
-            "topology": "SP+Globular",
-            "example": "Positions 1-20: SP, Rest: Outside/Globular"
+        "TM": {
+            "localization": "Membrane-embedded",
+            "characteristics": "Contains transmembrane helices without signal peptide",
+            "functional_implication": "Integral membrane protein"
         },
-        "lrx1_hypothesis": {
-            "prediction": "SP+Globular (secreted)",
-            "reasoning": [
-                "Has signal peptide (1-19)",
-                "No hydrophobic region after signal",
-                "Cysteine-rich suggesting extracellular",
-                "AlphaFold shows no TM helix"
-            ]
+        "Globular": {
+            "localization": "Cytoplasmic or nuclear",
+            "characteristics": "No signal peptide or TM helices",
+            "functional_implication": "Soluble intracellular protein"
         }
     }
     
-    return interpretation_guide
-
-def generate_submission_instructions() -> str:
-    """Generate instructions for DeepTMHMM submission"""
-    
-    fasta = prepare_fasta()
-    
-    instructions = f"""
-=== DeepTMHMM Analysis Instructions for LRX-1 ===
-
-1. Go to: https://dtu.biolib.com/DeepTMHMM
-
-2. Paste this FASTA sequence:
-{fasta}
-
-3. Click "Run" and wait for results (~30 seconds)
-
-4. Check the results for:
-   - Signal peptide (SP) prediction
-   - Transmembrane helix (TM) predictions
-   - Overall topology classification
-   - Probability plot showing confidence
-
-5. Key questions to answer:
-   - Is there a TM helix after the signal peptide?
-   - What is the overall topology prediction?
-   - Does it predict "SP+Globular" (secreted) or "SP+TM" (membrane)?
-
-6. Expected result based on our analysis:
-   - Signal peptide: YES (positions ~1-19)
-   - TM helices: NONE
-   - Topology: SP+Globular (secreted protein)
-   
-7. If DeepTMHMM predicts membrane protein:
-   - Check the probability scores
-   - Look at the specific region predicted as TM
-   - Compare hydrophobicity of that region
-"""
-    
-    return instructions
+    if topology and topology in implications:
+        return implications[topology]
+    else:
+        return {"note": "Topology prediction needed for functional analysis"}
 
 def main():
-    """Generate DeepTMHMM analysis setup"""
+    """Main function for DeepTMHMM analysis"""
     
-    print("=== DeepTMHMM Analysis Setup for LRX-1 ===\n")
+    print("=== DeepTMHMM Data Preparation for LRX-1 ===\n")
     
-    # Generate FASTA
-    fasta = prepare_fasta()
-    with open("lrx1_for_deeptmhmm.fasta", "w") as f:
-        f.write(fasta)
-    print("✓ FASTA file created: lrx1_for_deeptmhmm.fasta")
+    # Prepare FASTA
+    try:
+        fasta = prepare_fasta()
+        fasta_output = "lrx1_for_deeptmhmm.fasta"
+        with open(fasta_output, "w") as f:
+            f.write(fasta)
+        print(f"✓ FASTA file prepared: {fasta_output}")
+        print(f"  Sequence length: {len([c for c in fasta if c.isalpha()])} aa")
+    except Exception as e:
+        print(f"✗ Error preparing FASTA: {e}")
+        return
     
-    # Show interpretation guide
-    guide = interpret_deeptmhmm_results()
-    print("\n=== What to Look For ===")
-    print(json.dumps(guide, indent=2))
+    # Check if there's an output file to parse
+    if len(sys.argv) > 1:
+        output_file = sys.argv[1]
+        print(f"\n=== Parsing DeepTMHMM Output ===")
+        results = parse_deeptmhmm_output(output_file)
+        
+        if "error" in results:
+            print(f"✗ {results['error']}")
+        else:
+            print(f"✓ Parsed results from: {output_file}")
+            print(f"  Topology: {results.get('topology', 'Not found')}")
+            print(f"  Signal peptide: {results.get('signal_peptide', 'Not found')}")
+            print(f"  TM helices: {len(results.get('tm_helices', []))}")
+            
+            # Analyze implications
+            if results.get('topology'):
+                implications = analyze_topology_implications(results['topology'])
+                print("\n=== Biological Implications ===")
+                for key, value in implications.items():
+                    print(f"  {key}: {value}")
+            
+            # Save parsed results
+            with open("deeptmhmm_parsed_results.json", "w") as f:
+                json.dump(results, f, indent=2)
+            print("\n✓ Results saved to: deeptmhmm_parsed_results.json")
+    else:
+        print("\n=== Next Steps ===")
+        print("1. Submit the FASTA file to DeepTMHMM for analysis")
+        print("2. Save the output to a file")
+        print("3. Run: python check_deeptmhmm.py <output_file>")
+        print("   to parse and analyze the results")
     
-    # Print instructions
-    instructions = generate_submission_instructions()
-    print(instructions)
-    
-    print("\n=== Summary ===")
-    print("DeepTMHMM is the gold standard for membrane topology prediction.")
-    print("It uses deep learning trained on experimentally validated proteins.")
-    print("This analysis will definitively determine if LRX-1 is membrane-bound or secreted.")
+    print("\n=== Analysis Information ===")
+    print("DeepTMHMM predicts:")
+    print("- Signal peptides (SP)")
+    print("- Transmembrane helices (TM)")
+    print("- Overall topology classification")
+    print("- Position-specific probabilities")
+    print("\nThe tool will objectively analyze whatever topology is predicted.")
 
 if __name__ == "__main__":
     main()

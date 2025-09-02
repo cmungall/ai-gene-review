@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-Run DeepTMHMM locally using BioLib
-This actually runs the tool, not just instructions!
+Run DeepTMHMM locally using BioLib.
+
+This script runs DeepTMHMM membrane topology prediction on a protein sequence
+from a FASTA file. Requires BioLib Python package to be installed.
 """
 
 import json
+import click
 from typing import Dict, Optional
+from Bio import SeqIO
+from pathlib import Path
 
 # Check if biolib is installed
 try:
@@ -13,9 +18,9 @@ try:
     BIOLIB_AVAILABLE = True
 except ImportError:
     BIOLIB_AVAILABLE = False
-    print("BioLib not installed. Install with: pip install pybiolib")
 
-def run_deeptmhmm_analysis(sequence: str, sequence_id: str = "LRX1") -> Optional[Dict]:
+
+def run_deeptmhmm_analysis(sequence: str, sequence_id: str = "protein") -> Optional[Dict]:
     """
     Run DeepTMHMM on a protein sequence using BioLib
     
@@ -69,6 +74,7 @@ def run_deeptmhmm_analysis(sequence: str, sequence_id: str = "LRX1") -> Optional
         
     except Exception as e:
         return {"error": f"Failed to run DeepTMHMM: {str(e)}"}
+
 
 def parse_deeptmhmm_output(output: str) -> Dict:
     """
@@ -126,62 +132,108 @@ def parse_deeptmhmm_output(output: str) -> Dict:
     
     return result
 
-def main():
-    """Run DeepTMHMM on LRX-1 sequence"""
+
+@click.command()
+@click.argument('fasta_file', type=click.Path(exists=True))
+@click.option('--output', '-o', default='deeptmhmm_results.json',
+              help='Output JSON file (default: deeptmhmm_results.json)')
+@click.option('--raw-output', default='deeptmhmm_raw.txt',
+              help='Raw output file (default: deeptmhmm_raw.txt)')
+def main(fasta_file, output, raw_output):
+    """
+    Run DeepTMHMM membrane topology prediction on a protein sequence.
     
-    # LRX-1 sequence
-    sequence = """MAWLTSIFFILLAVQPVLPQDLYGTATQQQPYPYVQPSASSGSGGYVPNPQSSIHTVQQP
-YPNIDVVEPDVDSVDIYETEEPQFKVVNPVFPLGGSGIVEEPGTIPPPMPQTQAPEKPDNS
-YAINYCDKREFPDDVLAQYGLERIDYFVYNTSCSHVFFQCSIGQTFPLACMSEDQAFDKS
-TENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGED
-ENNCPSCARDDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTS
-RGGVSCVDLDMHCDGKKDCLNGEDEMNCQEGRQKYLLCENQKQSVTRLQWCNGETDCAD
-GSDEKYCY""".replace("\n", "").replace(" ", "")
+    FASTA_FILE: Path to the input FASTA file containing the protein sequence
     
-    print("=== DeepTMHMM Analysis for LRX-1 (Q22179) ===\n")
+    Requires BioLib to be installed:
+        pip install pybiolib
+    
+    May require authentication:
+        biolib login
+    """
+    
+    # Check BioLib availability
+    if not BIOLIB_AVAILABLE:
+        click.echo("Error: BioLib not installed", err=True)
+        click.echo("\nTo install BioLib:", err=True)
+        click.echo("  pip install pybiolib", err=True)
+        click.echo("\nYou may also need to authenticate:", err=True)
+        click.echo("  biolib login", err=True)
+        return 1
+    
+    # Read sequence from FASTA file
+    with open(fasta_file, 'r') as f:
+        record = next(SeqIO.parse(f, "fasta"))
+    
+    sequence = str(record.seq)
+    
+    # Extract protein info
+    protein_id = record.id
+    protein_name = record.description.split('|')[1] if '|' in record.description else record.id
+    
+    click.echo(f"=== DeepTMHMM Analysis for {protein_name} ({protein_id}) ===\n")
+    click.echo(f"Sequence length: {len(sequence)} aa")
     
     # Run analysis
-    result = run_deeptmhmm_analysis(sequence, "Q22179_LRX1")
+    result = run_deeptmhmm_analysis(sequence, protein_id)
     
     if result and "error" in result:
-        print(f"Error: {result['error']}")
-        print("\nTo fix:")
-        print("1. Install BioLib: pip install pybiolib")
-        print("2. You may need to authenticate: biolib login")
-        return
+        click.echo(f"Error: {result['error']}", err=True)
+        click.echo("\nTroubleshooting:", err=True)
+        click.echo("1. Install BioLib: pip install pybiolib", err=True)
+        click.echo("2. Authenticate if needed: biolib login", err=True)
+        click.echo("3. Check internet connection", err=True)
+        return 1
     
     # Display results
-    print("\n=== Results ===")
-    print(f"Topology Prediction: {result.get('topology', 'Unknown')}")
+    click.echo("\n=== Results ===")
+    click.echo(f"Topology Prediction: {result.get('topology', 'Unknown')}")
     
     if result.get("signal_peptide"):
         sp = result["signal_peptide"]
-        print(f"Signal Peptide: YES (positions {sp['start']}-{sp['end']})")
+        click.echo(f"Signal Peptide: YES (positions {sp['start']}-{sp['end']})")
     else:
-        print("Signal Peptide: Not detected or not reported")
+        click.echo("Signal Peptide: Not detected or not reported")
     
     if result.get("tm_helices"):
-        print(f"Transmembrane Helices: {len(result['tm_helices'])}")
+        click.echo(f"Transmembrane Helices: {len(result['tm_helices'])}")
         for i, tm in enumerate(result["tm_helices"], 1):
-            print(f"  TM{i}: positions {tm['start']}-{tm['end']}")
+            click.echo(f"  TM{i}: positions {tm['start']}-{tm['end']}")
     else:
-        print("Transmembrane Helices: NONE")
+        click.echo("Transmembrane Helices: NONE")
     
     # Save results
-    with open("deeptmhmm_results.json", "w") as f:
+    with open(output, 'w') as f:
         json.dump(result, f, indent=2)
-    print("\n✓ Results saved to deeptmhmm_results.json")
+    click.echo(f"\n✓ Results saved to {output}")
+    
+    # Save raw output if available
+    if result.get("raw_output"):
+        with open(raw_output, 'w') as f:
+            f.write(result["raw_output"])
+        click.echo(f"✓ Raw output saved to {raw_output}")
     
     # Interpretation
-    print("\n=== Interpretation ===")
-    if result.get("topology") == "SP+GLOBULAR (secreted)":
-        print("✓ LRX-1 is a SECRETED protein")
-        print("✓ Has signal peptide but NO transmembrane helices")
-        print("✓ UniProt's membrane annotation is INCORRECT")
-    elif "TM" in str(result.get("topology", "")):
-        print("✗ LRX-1 appears to be a MEMBRANE protein")
-        print("✗ This contradicts our sequence analysis")
-        print("✗ Check the raw output for details")
+    click.echo("\n=== Topology Analysis ===")
+    topology = result.get("topology", "Unknown")
+    if topology == "SP+GLOBULAR (secreted)":
+        click.echo("• Predicted topology: Signal peptide + Globular domain")
+        click.echo("• Characteristic of: Secreted/extracellular proteins")
+        click.echo("• Processing: Through ER/Golgi secretory pathway")
+    elif "SP+TM" in str(topology):
+        click.echo("• Predicted topology: Signal peptide + Transmembrane helix")
+        click.echo("• Characteristic of: Type I membrane proteins")
+        click.echo("• Localization: Membrane-anchored with extracellular domain")
+    elif "TM" in str(topology):
+        click.echo("• Predicted topology: Transmembrane protein")
+        click.echo("• Contains transmembrane helix(es)")
+        click.echo("• Review raw output for specific helix positions")
+    else:
+        click.echo(f"• Topology prediction: {topology}")
+        click.echo("• Further analysis needed")
+    
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    exit(main())

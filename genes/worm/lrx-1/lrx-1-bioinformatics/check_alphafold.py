@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """
-Check AlphaFold structure predictions for LRX-1 transmembrane topology
+Check AlphaFold structure predictions for protein transmembrane topology.
+
+This script fetches and analyzes AlphaFold predictions to assess:
+- pLDDT confidence scores
+- High confidence regions
+- Membrane topology predictions
 """
 
 import json
 import requests
-from typing import Dict, List
+import click
+from typing import Dict, List, Tuple
+from pathlib import Path
+from Bio import SeqIO
+
 
 def fetch_alphafold_data(uniprot_id: str) -> Dict:
     """Fetch AlphaFold confidence scores and structure data"""
@@ -21,6 +30,7 @@ def fetch_alphafold_data(uniprot_id: str) -> Dict:
             return {"error": f"Failed to fetch data: {response.status_code}"}
     except Exception as e:
         return {"error": str(e)}
+
 
 def analyze_plddt_regions(plddt_scores: List[float]) -> Dict:
     """Analyze pLDDT scores to identify high-confidence regions"""
@@ -61,6 +71,7 @@ def analyze_plddt_regions(plddt_scores: List[float]) -> Dict:
         "very_low_conf_residues": sum(1 for s in plddt_scores if s <= 50)
     }
 
+
 def check_membrane_features(sequence: str, start: int = 20, window: int = 20) -> Dict:
     """Check for hydrophobic regions that could be transmembrane helices"""
     
@@ -83,61 +94,95 @@ def check_membrane_features(sequence: str, start: int = 20, window: int = 20) ->
     
     return {"error": "Sequence too short"}
 
-def main():
-    """Analyze AlphaFold predictions for LRX-1"""
+
+@click.command()
+@click.argument('fasta_file', type=click.Path(exists=True))
+@click.option('--signal-end', default=19, help='End position of signal peptide (default: 19)')
+@click.option('--check-region-start', default=20, help='Start position to check for TM helix (default: 20)')
+@click.option('--check-region-length', default=20, help='Length of region to check (default: 20)')
+@click.option('--output', '-o', help='Output JSON file (optional)')
+def main(fasta_file, signal_end, check_region_start, check_region_length, output):
+    """
+    Analyze AlphaFold predictions for a protein.
     
-    uniprot_id = "Q22179"
+    FASTA_FILE: Path to the input FASTA file containing the protein sequence
+    """
     
-    # LRX-1 sequence
-    sequence = """MAWLTSIFFILLAVQPVLPQDLYGTATQQQPYPYVQPSASSGSGGYVPNPQSSIHTVQQP
-YPNIDVVEPDVDSVDIYETEEPQFKVVNPVFPLGGSGIVEEPGTIPPPMPQTQAPEKPDNS
-YAINYCDKREFPDDVLAQYGLERIDYFVYNTSCSHVFFQCSIGQTFPLACMSEDQAFDKS
-TENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGED
-ENNCPSCARDDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTS
-RGGVSCVDLDMHCDGKKDCLNGEDEMNCQEGRQKYLLCENQKQSVTRLQWCNGETDCAD
-GSDEKYCY""".replace("\n", "").replace(" ", "")
+    # Load sequence from FASTA file
+    with open(fasta_file, 'r') as f:
+        record = next(SeqIO.parse(f, "fasta"))
     
-    print("=== AlphaFold Analysis for LRX-1 (Q22179) ===\n")
+    sequence = str(record.seq)
+    
+    # Extract UniProt ID from header
+    header = record.description
+    if '|' in header:
+        parts = header.split('|')
+        uniprot_id = parts[0]
+    else:
+        uniprot_id = record.id
+    
+    protein_name = record.description.split('|')[1] if '|' in record.description else record.id
+    
+    click.echo(f"=== AlphaFold Analysis for {protein_name} ({uniprot_id}) ===\n")
     
     # Check post-signal peptide region for TM helix
-    print("1. Checking for transmembrane helix after signal peptide (residues 20-40):")
-    tm_check = check_membrane_features(sequence, start=20, window=20)
-    print(f"   Region: {tm_check.get('region', 'N/A')}")
-    print(f"   Sequence: {tm_check.get('sequence', 'N/A')}")
-    print(f"   Hydrophobicity: {tm_check.get('hydrophobicity', 0):.1%}")
-    print(f"   Likely TM helix: {tm_check.get('likely_tm_helix', False)}")
+    click.echo(f"1. Checking for transmembrane helix after signal peptide (residues {check_region_start}-{check_region_start+check_region_length-1}):")
+    tm_check = check_membrane_features(sequence, start=check_region_start, window=check_region_length)
+    click.echo(f"   Region: {tm_check.get('region', 'N/A')}")
+    click.echo(f"   Sequence: {tm_check.get('sequence', 'N/A')}")
+    click.echo(f"   Hydrophobicity: {tm_check.get('hydrophobicity', 0):.1%}")
+    click.echo(f"   Likely TM helix: {tm_check.get('likely_tm_helix', False)}")
     
     # Try to fetch AlphaFold data
-    print("\n2. Fetching AlphaFold confidence data...")
+    click.echo("\n2. Fetching AlphaFold confidence data...")
     af_data = fetch_alphafold_data(uniprot_id)
     
+    plddt_analysis = None
     if "error" in af_data:
-        print(f"   Note: Could not fetch live AlphaFold data: {af_data['error']}")
-        print("   Please check https://alphafold.ebi.ac.uk/entry/Q22179 directly")
+        click.echo(f"   Note: Could not fetch live AlphaFold data: {af_data['error']}")
+        click.echo(f"   Please check https://alphafold.ebi.ac.uk/entry/{uniprot_id} directly")
     else:
         # Analyze pLDDT scores if available
         if 'confidenceScore' in af_data:
             plddt_analysis = analyze_plddt_regions(af_data['confidenceScore'])
-            print(f"   Mean pLDDT: {plddt_analysis['mean_plddt']:.1f}")
-            print(f"   High confidence regions: {len(plddt_analysis['high_confidence_regions'])}")
-            
-    print("\n3. Summary:")
-    print("   - Signal peptide: residues 1-19")
-    print("   - Post-signal region (20-40) has low hydrophobicity")
-    print("   - No strong evidence for transmembrane helix")
-    print("   - Consistent with secreted protein hypothesis")
+            click.echo(f"   Mean pLDDT: {plddt_analysis['mean_plddt']:.1f}")
+            click.echo(f"   High confidence regions: {len(plddt_analysis['high_confidence_regions'])}")
+            click.echo(f"   Very high confidence residues: {plddt_analysis['very_high_conf_residues']}")
+            click.echo(f"   Confident residues: {plddt_analysis['confident_residues']}")
+            click.echo(f"   Low confidence residues: {plddt_analysis['low_conf_residues']}")
+            click.echo(f"   Very low confidence residues: {plddt_analysis['very_low_conf_residues']}")
+    
+    click.echo("\n3. Analysis Summary:")
+    click.echo(f"   - Predicted signal peptide region: residues 1-{signal_end}")
+    click.echo(f"   - Post-signal region ({check_region_start}-{check_region_start+check_region_length-1}) hydrophobicity: {tm_check.get('hydrophobicity', 0):.1%}")
+    click.echo(f"   - Transmembrane helix likelihood: {'Low' if not tm_check.get('likely_tm_helix', False) else 'High'}")
+    
+    if plddt_analysis:
+        click.echo(f"   - Overall structure confidence: {plddt_analysis['mean_plddt']:.1f} (mean pLDDT)")
+    
+    click.echo("   - Topology prediction requires additional evidence")
     
     # Output structured results
     results = {
         "uniprot_id": uniprot_id,
-        "signal_peptide": "1-19",
+        "protein_name": protein_name,
+        "sequence_length": len(sequence),
+        "signal_peptide": f"1-{signal_end}",
         "post_signal_tm_check": tm_check,
         "alphafold_url": f"https://alphafold.ebi.ac.uk/entry/{uniprot_id}",
-        "conclusion": "No transmembrane helix detected; likely secreted protein"
+        "plddt_analysis": plddt_analysis if plddt_analysis else None,
+        "analysis": "Membrane topology prediction based on hydrophobicity and AlphaFold confidence"
     }
     
-    print("\n4. JSON output:")
-    print(json.dumps(results, indent=2))
+    if output:
+        with open(output, 'w') as f:
+            json.dump(results, f, indent=2)
+        click.echo(f"\n4. Results saved to '{output}'")
+    else:
+        click.echo("\n4. JSON output:")
+        click.echo(json.dumps(results, indent=2))
+
 
 if __name__ == "__main__":
     main()

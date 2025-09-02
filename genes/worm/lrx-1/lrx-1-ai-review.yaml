@@ -24,12 +24,11 @@ references:
     title: "A map of the interactome network of the metazoan C. elegans"
     findings:
       - statement: "High-throughput yeast two-hybrid screens identified LRX-1 protein interactions"
-        supporting_text: "Li et al. (2004) identified protein-protein interactions including LRX-1 interactors in C. elegans using yeast two-hybrid screens"
+        supporting_text: "more than 4000 interactions were identified from high-throughput, yeast two-hybrid (HT=Y2H) screens"
+        reference_section_type: ABSTRACT
   - id: PMID:19123269
     title: "Empirically controlled mapping of the Caenorhabditis elegans protein-protein interactome network"
-    findings:
-      - statement: "Expanded C. elegans interactome mapping identified LRX-1 interactions including PERM-4"
-        supporting_text: "Simonis et al. (2009) expanded the C. elegans interactome mapping, identifying interactions between LRX-1 and PERM-4, an eggshell integrity protein"
+    findings: []
   - id: BioGRID
     title: "BioGRID interaction database"
     findings:
@@ -100,6 +99,9 @@ core_functions:
     molecular_function:
       id: GO:0005515
       label: protein binding
+    supported_by:
+      - reference_id: file:worm/lrx-1/lrx-1-deep-research.md
+        supporting_text: "LRX-1 contains cysteine-rich domains typically involved in protein-protein interactions"
     directly_involved_in:
       - id: GO:0008150
         label: biological_process

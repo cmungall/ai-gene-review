@@ -15,7 +15,7 @@ requires-python = ">=3.12,<4.0"
 dynamic = ["version"]
 
 dependencies = [
-  "typer >= 0.9.0",
+  "typer>=0.9.0",
   "linkml-runtime >=1.9.4",
   "requests>=2.32.5",
   "biopython>=1.85",
@@ -24,6 +24,9 @@ dependencies = [
   "oaklib>=0.6.23",
   "pandas>=2.3.2",
   "linkml-browser>=0.1.0",
+  "beautifulsoup4>=4.13.4",
+  "pypdf2>=3.0.1",
+  "pymupdf>=1.26.4",
 ]
 
 [dependency-groups]
@@ -38,6 +41,7 @@ dev = [
     "types-requests>=2.32.4.20250809",
     "types-pyyaml>=6.0.12.20250822",
     "linkml-browser",
+    "ai-gene-review",
 ]
 
 [project.scripts]
@@ -93,7 +97,8 @@ extend-exclude = [
 extend-exclude = ["genes/"]
 
 [tool.uv.workspace]
-members = ["genes/human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis"]
+members = ["genes/human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis", "genes/yeast/MTC7/MTC7-bioinformatics", "genes/human/CFAP418/CFAP418-bioinformatics", "genes/pombe/Epe1/Epe1-bioinformatics", "genes/pombe/tam10/tam10-bioinformatics", "genes/PSEPK/pedH/pedH-bioinformatics"]
 
 [tool.uv.sources]
 linkml-browser = { git = "https://github.com/linkml/linkml-browser" }
+ai-gene-review = { workspace = true }

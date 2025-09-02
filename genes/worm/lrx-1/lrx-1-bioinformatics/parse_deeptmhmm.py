@@ -130,16 +130,33 @@ def interpret_results(parsed: Dict) -> str:
     else:
         interpretation.append("Transmembrane Helices: NONE")
     
-    # Conclusion
-    interpretation.append("\nConclusion:")
+    # Objective Analysis
+    interpretation.append("\nTopology Analysis:")
     if parsed["topology_prediction"] == "SP+GLOBULAR":
-        interpretation.append("✓ SECRETED PROTEIN - Has signal peptide, no TM helices")
-        interpretation.append("✓ UniProt membrane annotation is INCORRECT")
+        interpretation.append("• Predicted topology: Signal peptide followed by globular domain")
+        interpretation.append("• Characteristic of: Secreted or extracellular proteins")
+        interpretation.append("• Processing: Likely through ER/Golgi secretory pathway")
     elif parsed["topology_prediction"] == "SP+TM":
-        interpretation.append("✗ MEMBRANE PROTEIN - Has signal peptide and TM helix(es)")
-        interpretation.append("✗ UniProt membrane annotation is correct")
+        interpretation.append("• Predicted topology: Signal peptide followed by transmembrane helix")
+        interpretation.append("• Characteristic of: Type I membrane proteins")
+        interpretation.append("• Localization: Membrane-anchored with extracellular domain")
+    elif parsed["topology_prediction"] == "TM":
+        interpretation.append("• Predicted topology: Transmembrane protein without signal peptide")
+        interpretation.append("• Characteristic of: Multi-pass membrane proteins")
+        interpretation.append("• Localization: Integral membrane protein")
+    elif parsed["topology_prediction"] == "GLOBULAR":
+        interpretation.append("• Predicted topology: Globular protein without signal peptide")
+        interpretation.append("• Characteristic of: Cytoplasmic or nuclear proteins")
+        interpretation.append("• Localization: Intracellular")
     else:
-        interpretation.append(f"? {parsed['topology_prediction']} - Requires further analysis")
+        interpretation.append(f"• Topology prediction: {parsed['topology_prediction']}")
+        interpretation.append("• Further analysis needed to determine localization")
+    
+    # Note about comparing with other annotations
+    interpretation.append("\nNote: Compare this prediction with:")
+    interpretation.append("• Experimental evidence from literature")
+    interpretation.append("• Other prediction tools (SignalP, TMHMM, Phobius)")
+    interpretation.append("• Functional studies and cellular localization data")
     
     return "\n".join(interpretation)
 

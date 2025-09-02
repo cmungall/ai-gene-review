@@ -401,7 +401,7 @@
         },
         {
           "text": "MODIFY",
-          "description": "The essence of the annotation is sound, but there are better terms to use (use in combination with proposed_replacement_terms)"
+          "description": "The essence of the annotation is sound, but there are better terms to use (use in combination with proposed_replacement_terms). if the term is too general, then MODIFY should be used, with a proposed replacement term for the correct specific function. sometimes terms can also be overly specific and contorted, so in some cases you might want to generalize"
         },
         {
           "text": "MARK_AS_OVER_ANNOTATED",
@@ -410,8 +410,84 @@
         {
           "text": "UNDECIDED",
           "description": "The annotation is not clear, and the reviewer is not sure what to do with it. ALWAYS USE THIS IF YOU ARE UNABLE TO ACCESS RELEVANT PUBLICATIONS"
+        },
+        {
+          "text": "PENDING",
+          "description": "The review entry is a stub, and the review has not been completed yet."
         }
       ]
+    },
+    {
+      "name": "GOTermEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GOTermEnum",
+      "description": "A term in the GO ontology",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "reachable_from": {
+        "source_nodes": [
+          "GO:0003674",
+          "GO:0008150",
+          "GO:0005575"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
+    },
+    {
+      "name": "GOMolecularActivityEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GOMolecularActivityEnum",
+      "description": "A molecular activity term in the GO ontology",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "reachable_from": {
+        "source_nodes": [
+          "GO:0003674"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
+    },
+    {
+      "name": "GOBiologicalProcessEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GOBiologicalProcessEnum",
+      "description": "A biological process term in the GO ontology",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "reachable_from": {
+        "source_nodes": [
+          "GO:0008150"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
+    },
+    {
+      "name": "GOCellularLocationEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GOCellularLocationEnum",
+      "description": "A cellular location term in the GO ontology (excludes protein-containing complexes)",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "reachable_from": {
+        "source_nodes": [
+          "GO:GO:0110165"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
+    },
+    {
+      "name": "GOProteinContainingComplexEnum",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/GOProteinContainingComplexEnum",
+      "description": "A protein-containing complex term in the GO ontology",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "reachable_from": {
+        "source_nodes": [
+          "GO:0030246"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
     }
   ],
   "slots": [
@@ -442,6 +518,7 @@
         "Term"
       ],
       "range": "string",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
@@ -455,6 +532,7 @@
         "GeneReview"
       ],
       "range": "string",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
@@ -471,6 +549,7 @@
         "Reference"
       ],
       "range": "string",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
@@ -478,6 +557,10 @@
       "definition_uri": "https://w3id.org/ai4curation/gene_review/aliases",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slot_uri": "https://w3id.org/ai4curation/gene_review/aliases",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
       "range": "string",
       "multivalued": true,
       "@type": "SlotDefinition"
@@ -488,9 +571,10 @@
       "description": "Description of the entity",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slot_uri": "https://w3id.org/ai4curation/gene_review/description",
-      "owner": "GeneReview",
+      "owner": "Term",
       "domain_of": [
-        "GeneReview"
+        "GeneReview",
+        "Term"
       ],
       "range": "string",
       "@type": "SlotDefinition"
@@ -538,6 +622,20 @@
       "@type": "SlotDefinition"
     },
     {
+      "name": "supported_by",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/supported_by",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/supported_by",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "SupportingTextInReference",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
       "name": "summary",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/summary",
       "description": "Summary of the review",
@@ -553,12 +651,13 @@
     {
       "name": "supporting_text",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/supporting_text",
-      "description": "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated",
+      "description": "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slot_uri": "https://w3id.org/ai4curation/gene_review/supporting_text",
-      "owner": "Finding",
+      "owner": "SupportingTextInReference",
       "domain_of": [
-        "Finding"
+        "Finding",
+        "SupportingTextInReference"
       ],
       "range": "string",
       "@type": "SlotDefinition"
@@ -715,6 +814,18 @@
       "@type": "SlotDefinition"
     },
     {
+      "name": "reference_id",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/reference_id",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/reference_id",
+      "owner": "SupportingTextInReference",
+      "domain_of": [
+        "SupportingTextInReference"
+      ],
+      "range": "Reference",
+      "@type": "SlotDefinition"
+    },
+    {
       "name": "original_reference_id",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/original_reference_id",
       "description": "ID of the original reference",
@@ -738,6 +849,90 @@
         "ExistingAnnotation"
       ],
       "range": "Review",
+      "recommended": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "ontology",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ontology",
+      "description": "Ontology of the term. E.g `go`, `cl`, `hp`",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/ontology",
+      "owner": "Term",
+      "domain_of": [
+        "Term"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "supporting_entities",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/supporting_entities",
+      "description": "IDs of the supporting entities",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/supporting_entities",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "range": "string",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "additional_reference_ids",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/additional_reference_ids",
+      "description": "IDs of the references",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/additional_reference_ids",
+      "owner": "Review",
+      "domain_of": [
+        "Review"
+      ],
+      "range": "Reference",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "is_invalid",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/is_invalid",
+      "description": "Whether the reference is invalid (e.g., retracted or replaced)",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/is_invalid",
+      "owner": "Reference",
+      "domain_of": [
+        "Reference"
+      ],
+      "range": "boolean",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "reference_section_type",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/reference_section_type",
+      "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/reference_section_type",
+      "owner": "SupportingTextInReference",
+      "domain_of": [
+        "Finding",
+        "SupportingTextInReference"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "proposed_new_terms",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/proposed_new_terms",
+      "description": "Proposed new ontology terms that should exist but don't",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/proposed_new_terms",
+      "owner": "GeneReview",
+      "domain_of": [
+        "GeneReview"
+      ],
+      "range": "ProposedOntologyTerm",
+      "multivalued": true,
       "inlined": true,
       "@type": "SlotDefinition"
     },
@@ -755,6 +950,20 @@
       "@type": "SlotDefinition"
     },
     {
+      "name": "coreFunction__supported_by",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/supported_by",
+      "alias": "supported_by",
+      "owner": "CoreFunction",
+      "domain_of": [
+        "CoreFunction"
+      ],
+      "range": "SupportingTextInReference",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
       "name": "coreFunction__molecular_function",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slot_uri": "https://w3id.org/ai4curation/gene_review/molecular_function",
@@ -764,6 +973,18 @@
         "CoreFunction"
       ],
       "range": "Term",
+      "bindings": [
+        {
+          "range": "GOMolecularActivityEnum",
+          "obligation_level": {
+            "text": "REQUIRED",
+            "description": "The metadata element is required to be present in the model",
+            "@type": "PermissibleValue"
+          },
+          "binds_value_of": "id",
+          "@type": "EnumBinding"
+        }
+      ],
       "inlined": true,
       "@type": "SlotDefinition"
     },
@@ -792,6 +1013,18 @@
         "CoreFunction"
       ],
       "range": "Term",
+      "bindings": [
+        {
+          "range": "GOCellularLocationEnum",
+          "obligation_level": {
+            "text": "REQUIRED",
+            "description": "The metadata element is required to be present in the model",
+            "@type": "PermissibleValue"
+          },
+          "binds_value_of": "id",
+          "@type": "EnumBinding"
+        }
+      ],
       "multivalued": true,
       "inlined": true,
       "inlined_as_list": true,
@@ -837,6 +1070,90 @@
         "CoreFunction"
       ],
       "range": "Term",
+      "bindings": [
+        {
+          "range": "GOProteinContainingComplexEnum",
+          "obligation_level": {
+            "text": "REQUIRED",
+            "description": "The metadata element is required to be present in the model",
+            "@type": "PermissibleValue"
+          },
+          "binds_value_of": "id",
+          "@type": "EnumBinding"
+        }
+      ],
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "proposedOntologyTerm__proposed_name",
+      "description": "Proposed name for the new term",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/proposed_name",
+      "alias": "proposed_name",
+      "owner": "ProposedOntologyTerm",
+      "domain_of": [
+        "ProposedOntologyTerm"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "proposedOntologyTerm__proposed_definition",
+      "description": "Proposed definition for the new term",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/proposed_definition",
+      "alias": "proposed_definition",
+      "owner": "ProposedOntologyTerm",
+      "domain_of": [
+        "ProposedOntologyTerm"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "proposedOntologyTerm__justification",
+      "description": "Justification for why this term is needed",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/justification",
+      "alias": "justification",
+      "owner": "ProposedOntologyTerm",
+      "domain_of": [
+        "ProposedOntologyTerm"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "ExistingAnnotation_term",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/term",
+      "description": "Term to be annotated",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "is_a": "term",
+      "domain": "ExistingAnnotation",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/term",
+      "alias": "term",
+      "owner": "ExistingAnnotation",
+      "domain_of": [
+        "ExistingAnnotation"
+      ],
+      "is_usage_slot": true,
+      "usage_slot_name": "term",
+      "range": "Term",
+      "bindings": [
+        {
+          "range": "GOTermEnum",
+          "obligation_level": {
+            "text": "REQUIRED",
+            "description": "The metadata element is required to be present in the model",
+            "@type": "PermissibleValue"
+          },
+          "binds_value_of": "id",
+          "@type": "EnumBinding"
+        }
+      ],
       "inlined": true,
       "@type": "SlotDefinition"
     }
@@ -850,11 +1167,13 @@
       "slots": [
         "id",
         "gene_symbol",
+        "aliases",
         "description",
         "taxon",
         "references",
         "existing_annotations",
-        "core_functions"
+        "core_functions",
+        "proposed_new_terms"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/GeneReview",
@@ -864,10 +1183,13 @@
     {
       "name": "Term",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/Term",
+      "description": "A term in a specific ontology",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
         "id",
-        "label"
+        "label",
+        "description",
+        "ontology"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/Term",
@@ -876,11 +1198,13 @@
     {
       "name": "Reference",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/Reference",
+      "description": "A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
         "id",
         "title",
-        "findings"
+        "findings",
+        "is_invalid"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/Reference",
@@ -889,25 +1213,43 @@
     {
       "name": "Finding",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/Finding",
+      "description": "A finding is a statement about a gene, which is supported by a reference. Similar to \"comments\" in uniprot",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
         "statement",
-        "supporting_text"
+        "supporting_text",
+        "reference_section_type"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/Finding",
       "@type": "ClassDefinition"
     },
     {
-      "name": "ExistingAnnotation",
-      "definition_uri": "https://w3id.org/ai4curation/gene_review/ExistingAnnotation",
+      "name": "SupportingTextInReference",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/SupportingTextInReference",
+      "description": "A supporting text in a reference.",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
-        "term",
+        "reference_id",
+        "supporting_text",
+        "reference_section_type"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/ai4curation/gene_review/SupportingTextInReference",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExistingAnnotation",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ExistingAnnotation",
+      "description": "An existing annotation from the GO database, plus a review of the annotation.",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "ExistingAnnotation_term",
         "extensions",
         "negated",
         "evidence_type",
         "original_reference_id",
+        "supporting_entities",
         "review"
       ],
       "slot_usage": {},
@@ -917,12 +1259,15 @@
     {
       "name": "Review",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/Review",
+      "description": "A review of an existing annotation.",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
         "summary",
         "action",
         "reason",
-        "proposed_replacement_terms"
+        "proposed_replacement_terms",
+        "additional_reference_ids",
+        "supported_by"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/Review",
@@ -931,9 +1276,11 @@
     {
       "name": "CoreFunction",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/CoreFunction",
+      "description": "A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation.",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "slots": [
         "coreFunction__description",
+        "coreFunction__supported_by",
         "coreFunction__molecular_function",
         "coreFunction__directly_involved_in",
         "coreFunction__locations",
@@ -950,8 +1297,26 @@
           "@type": "SlotDefinition"
         },
         {
+          "name": "supported_by",
+          "range": "SupportingTextInReference",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        },
+        {
           "name": "molecular_function",
           "range": "Term",
+          "bindings": [
+            {
+              "range": "GOMolecularActivityEnum",
+              "obligation_level": {
+                "text": "REQUIRED",
+                "description": "The metadata element is required to be present in the model",
+                "@type": "PermissibleValue"
+              },
+              "binds_value_of": "id",
+              "@type": "EnumBinding"
+            }
+          ],
           "inlined": true,
           "@type": "SlotDefinition"
         },
@@ -965,6 +1330,18 @@
         {
           "name": "locations",
           "range": "Term",
+          "bindings": [
+            {
+              "range": "GOCellularLocationEnum",
+              "obligation_level": {
+                "text": "REQUIRED",
+                "description": "The metadata element is required to be present in the model",
+                "@type": "PermissibleValue"
+              },
+              "binds_value_of": "id",
+              "@type": "EnumBinding"
+            }
+          ],
           "multivalued": true,
           "inlined_as_list": true,
           "@type": "SlotDefinition"
@@ -986,6 +1363,18 @@
         {
           "name": "in_complex",
           "range": "Term",
+          "bindings": [
+            {
+              "range": "GOProteinContainingComplexEnum",
+              "obligation_level": {
+                "text": "REQUIRED",
+                "description": "The metadata element is required to be present in the model",
+                "@type": "PermissibleValue"
+              },
+              "binds_value_of": "id",
+              "@type": "EnumBinding"
+            }
+          ],
           "inlined": true,
           "@type": "SlotDefinition"
         }
@@ -1004,13 +1393,49 @@
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/AnnotationExtension",
       "@type": "ClassDefinition"
+    },
+    {
+      "name": "ProposedOntologyTerm",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ProposedOntologyTerm",
+      "description": "A proposed new ontology term that should exist but doesn't currently",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "proposedOntologyTerm__proposed_name",
+        "proposedOntologyTerm__proposed_definition",
+        "proposedOntologyTerm__justification"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "proposed_name",
+          "description": "Proposed name for the new term",
+          "range": "string",
+          "required": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "proposed_definition",
+          "description": "Proposed definition for the new term",
+          "range": "string",
+          "required": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "justification",
+          "description": "Justification for why this term is needed",
+          "range": "string",
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/ai4curation/gene_review/ProposedOntologyTerm",
+      "@type": "ClassDefinition"
     }
   ],
   "metamodel_version": "1.7.0",
   "source_file": "gene_review.yaml",
-  "source_file_date": "2025-08-24T14:51:08",
-  "source_file_size": 5351,
-  "generation_date": "2025-08-24T14:51:11",
+  "source_file_date": "2025-08-31T14:44:38",
+  "source_file_size": 10502,
+  "generation_date": "2025-08-31T14:45:56",
   "@type": "SchemaDefinition",
   "@context": [
     "assets/jsonld/gene_review.context.jsonld",
