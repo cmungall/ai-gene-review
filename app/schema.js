@@ -9,7 +9,8 @@ window.searchSchema = {
     "term_label",
     "term_id",
     "taxon_label",
-    "original_reference_title"
+    "original_reference_title",
+    "review.supporting_text"
   ],
   "searchPlaceholder": "Search annotations...",
   "facets": [
