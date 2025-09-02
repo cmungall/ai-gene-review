@@ -354,7 +354,7 @@ enums:
     description: A cellular location term in the GO ontology (excludes protein-containing complexes)
     reachable_from:
       source_nodes:
-        - GO:GO:0110165
+        - GO:0110165
       is_direct: false
       relationship_types:
         - rdfs:subClassOf
