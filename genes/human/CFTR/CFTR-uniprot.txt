@@ -1,0 +1,3626 @@
+ID   CFTR_HUMAN              Reviewed;        1480 AA.
+AC   P13569; Q20BG8; Q20BH2; Q2I0A1; Q2I102;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 3.
+DT   18-JUN-2025, entry version 283.
+DE   RecName: Full=Cystic fibrosis transmembrane conductance regulator {ECO:0000305};
+DE            Short=CFTR;
+DE   AltName: Full=ATP-binding cassette sub-family C member 7;
+DE   AltName: Full=Channel conductance-controlling ATPase;
+DE            EC=5.6.1.6 {ECO:0000269|PubMed:11524016, ECO:0000269|PubMed:15284228, ECO:0000269|PubMed:26627831, ECO:0000269|PubMed:8910473};
+DE   AltName: Full=cAMP-dependent chloride channel;
+GN   Name=CFTR {ECO:0000312|HGNC:HGNC:1884}; Synonyms=ABCC7;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT MET-470.
+RX   PubMed=2475911; DOI=10.1126/science.2475911;
+RA   Riordan J.R., Rommens J.M., Kerem B., Alon N., Rozmahel R., Grzelczak Z.,
+RA   Zielenski J., Lok S., Plavsic N., Chou J.-L., Drumm M.L., Iannuzzi M.C.,
+RA   Collins F.S., Tsui L.-C.;
+RT   "Identification of the cystic fibrosis gene: cloning and characterization
+RT   of complementary DNA.";
+RL   Science 245:1066-1073(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT MET-470.
+RX   PubMed=1710598; DOI=10.1016/0888-7543(91)90503-7;
+RA   Zielenski J., Rozmahel R., Bozon D., Kerem B., Grzelczak Z., Riordan J.R.,
+RA   Rommens J., Tsui L.-C.;
+RT   "Genomic DNA sequence of the cystic fibrosis transmembrane conductance
+RT   regulator (CFTR) gene.";
+RL   Genomics 10:214-228(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS MET-470 AND TRP-1453.
+RA   Stacy R., Subramanian S., Deodato C., Burkhardt P., Song Y., Paddock M.,
+RA   Chang J., Zhou Y., Haugen E., Waring D., Chapman P., Hayden H., Levy R.,
+RA   Wu Z., Rouse G., James R., Phelps K., Olson M.V., Kaul R.;
+RL   Submitted (JAN-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R., Wylie K.,
+RA   Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E., Fewell G.A.,
+RA   Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H., Sun H.,
+RA   Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A., Vanbrunt A.,
+RA   Nguyen C., Du F., Lamar B., Courtney L., Kalicki J., Ozersky P.,
+RA   Bielicki L., Scott K., Holmes A., Harkins R., Harris A., Strong C.M.,
+RA   Hou S., Tomlinson C., Dauphin-Kohlberg S., Kozlowicz-Reilly A., Leonard S.,
+RA   Rohlfing T., Rock S.M., Tin-Wollam A.-M., Abbott A., Minx P., Maupin R.,
+RA   Strowmatt C., Latreille P., Miller N., Johnson D., Murray J.,
+RA   Woessner J.P., Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W.,
+RA   Spieth J., Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E.,
+RA   Cook L.L., Hickenbotham M.T., Eldred J., Williams D., Bedell J.A.,
+RA   Mardis E.R., Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K., Simms E.,
+RA   Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S., Baertsch R.A.,
+RA   Brent M.R., Keibler E., Flicek P., Bork P., Suyama M., Bailey J.A.,
+RA   Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R., Eddy S.R.,
+RA   McPherson J.D., Olson M.V., Eichler E.E., Green E.D., Waterston R.H.,
+RA   Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=12690205; DOI=10.1126/science.1083423;
+RA   Scherer S.W., Cheung J., MacDonald J.R., Osborne L.R., Nakabayashi K.,
+RA   Herbrick J.-A., Carson A.R., Parker-Katiraee L., Skaug J., Khaja R.,
+RA   Zhang J., Hudek A.K., Li M., Haddad M., Duggan G.E., Fernandez B.A.,
+RA   Kanematsu E., Gentles S., Christopoulos C.C., Choufani S., Kwasnicka D.,
+RA   Zheng X.H., Lai Z., Nusskern D.R., Zhang Q., Gu Z., Lu F., Zeesman S.,
+RA   Nowaczyk M.J., Teshima I., Chitayat D., Shuman C., Weksberg R.,
+RA   Zackai E.H., Grebe T.A., Cox S.R., Kirkpatrick S.J., Rahman N.,
+RA   Friedman J.M., Heng H.H.Q., Pelicci P.G., Lo-Coco F., Belloni E.,
+RA   Shaffer L.G., Pober B., Morton C.C., Gusella J.F., Bruns G.A.P., Korf B.R.,
+RA   Quade B.J., Ligon A.H., Ferguson H., Higgins A.W., Leach N.T.,
+RA   Herrick S.R., Lemyre E., Farra C.G., Kim H.-G., Summers A.M., Gripp K.W.,
+RA   Roberts W., Szatmari P., Winsor E.J.T., Grzeschik K.-H., Teebi A.,
+RA   Minassian B.A., Kere J., Armengol L., Pujana M.A., Estivill X.,
+RA   Wilson M.D., Koop B.F., Tosi S., Moore G.E., Boright A.P., Zlotorynski E.,
+RA   Kerem B., Kroisel P.M., Petek E., Oscier D.G., Mould S.J., Doehner H.,
+RA   Doehner K., Rommens J.M., Vincent J.B., Venter J.C., Li P.W., Mural R.J.,
+RA   Adams M.D., Tsui L.-C.;
+RT   "Human chromosome 7: DNA sequence and biology.";
+RL   Science 300:767-772(2003).
+RN   [6]
+RP   PHOSPHORYLATION AT SER-660; SER-686; SER-700; SER-737; SER-768; SER-790;
+RP   SER-795 AND SER-813.
+RX   PubMed=1377674; DOI=10.1016/s0021-9258(18)42339-3;
+RA   Picciotto M.R., Cohn J.A., Bertuzzi G., Greenguard P., Nairn A.C.;
+RT   "Phosphorylation of the cystic fibrosis transmembrane conductance
+RT   regulator.";
+RL   J. Biol. Chem. 267:12742-12752(1992).
+RN   [7]
+RP   GLYCOSYLATION AT ASN-894 AND ASN-900, AND TOPOLOGY.
+RX   PubMed=7518437; DOI=10.1016/s0021-9258(17)32347-5;
+RA   Chang X.-B., Hou Y.-X., Jensen T.J., Riordan J.R.;
+RT   "Mapping of cystic fibrosis transmembrane conductance regulator membrane
+RT   topology by glycosylation site insertion.";
+RL   J. Biol. Chem. 269:18572-18575(1994).
+RN   [8]
+RP   PHOSPHORYLATION AT SER-660; SER-700; SER-712; SER-737; SER-753; SER-768;
+RP   SER-795 AND SER-813.
+RX   PubMed=9385646; DOI=10.1002/pro.5560061117;
+RA   Neville D.C.A., Rozanas C.R., Rice E.M., Gruis D.B., Verkman A.S.,
+RA   Townsend R.R.;
+RT   "Evidence for phosphorylation of serine 753 in CFTR using a novel metal-ion
+RT   affinity resin and matrix-assisted laser desorption mass spectrometry.";
+RL   Protein Sci. 6:2436-2445(1997).
+RN   [9]
+RP   ALTERNATIVE SPLICING (ISOFORM 2).
+RX   PubMed=10766763; DOI=10.1074/jbc.m910165199;
+RA   Pagani F., Buratti E., Stuani C., Romano M., Zuccato E., Niksic M.,
+RA   Giglio L., Faraguna D., Baralle F.E.;
+RT   "Splicing factors induce cystic fibrosis transmembrane regulator exon 9
+RT   skipping through a nonevolutionary conserved intronic element.";
+RL   J. Biol. Chem. 275:21041-21047(2000).
+RN   [10]
+RP   DOMAIN, FUNCTION, TRANSPORTER ACTIVITY, SUBCELLULAR LOCATION, AND
+RP   PHOSPHORYLATION.
+RX   PubMed=10792060; DOI=10.1073/pnas.100588797;
+RA   Ostedgaard L.S., Baldursson O., Vermeer D.W., Welsh M.J., Robertson A.D.;
+RT   "A functional R domain from cystic fibrosis transmembrane conductance
+RT   regulator is predominantly unstructured in solution.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:5657-5662(2000).
+RN   [11]
+RP   FUNCTION, TRANSPORTER ACTIVITY, CATALYTIC ACTIVITY, SUBCELLULAR LOCATION,
+RP   AND SUBUNIT.
+RX   PubMed=11524016; DOI=10.1021/bi0108195;
+RA   Ramjeesingh M., Li C., Kogan I., Wang Y., Huan L.J., Bear C.E.;
+RT   "A monomer is the minimum functional unit required for channel and ATPase
+RT   activity of the cystic fibrosis transmembrane conductance regulator.";
+RL   Biochemistry 40:10700-10706(2001).
+RN   [12]
+RP   INTERACTION WITH GOPC, FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=11707463; DOI=10.1074/jbc.m110177200;
+RA   Cheng J., Moyer B.D., Milewski M., Loffing J., Ikeda M., Mickle J.E.,
+RA   Cutting G.R., Li M., Stanton B.A., Guggino W.B.;
+RT   "A Golgi-associated PDZ domain protein modulates cystic fibrosis
+RT   transmembrane regulator plasma membrane expression.";
+RL   J. Biol. Chem. 277:3520-3529(2002).
+RN   [13]
+RP   INTERACTION WITH SLC4A7 AND NHERF1, AND FUNCTION.
+RX   PubMed=12403779; DOI=10.1074/jbc.m201862200;
+RA   Park M., Ko S.B.H., Choi J.Y., Muallem G., Thomas P.J., Pushkin A.,
+RA   Lee M.-S., Kim J.Y., Lee M.G., Muallem S., Kurtz I.;
+RT   "The cystic fibrosis transmembrane conductance regulator interacts with and
+RT   regulates the activity of the HCO3- salvage transporter human Na+-HCO3-
+RT   cotransport isoform 3.";
+RL   J. Biol. Chem. 277:50503-50509(2002).
+RN   [14]
+RP   FUNCTION, TRANSPORTER ACTIVITY, SUBCELLULAR LOCATION, AND PHOSPHORYLATION
+RP   BY AMPK.
+RX   PubMed=12519745; DOI=10.1152/ajpcell.00227.2002;
+RA   Hallows K.R., Kobinger G.P., Wilson J.M., Witters L.A., Foskett J.K.;
+RT   "Physiological modulation of CFTR activity by AMP-activated protein kinase
+RT   in polarized T84 cells.";
+RL   Am. J. Physiol. 284:C1297-C1308(2003).
+RN   [15]
+RP   FUNCTION, TRANSPORTER ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   MUTAGENESIS OF ARG-347; LYS-464 AND LYS-1250.
+RX   PubMed=12727866; DOI=10.1093/emboj/cdg194;
+RA   Kogan I., Ramjeesingh M., Li C., Kidd J.F., Wang Y., Leslie E.M.,
+RA   Cole S.P., Bear C.E.;
+RT   "CFTR directly mediates nucleotide-regulated glutathione flux.";
+RL   EMBO J. 22:1981-1989(2003).
+RN   [16]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=15010471; DOI=10.1074/jbc.m313323200;
+RA   Shcheynikov N., Kim K.H., Kim K.M., Dorwart M.R., Ko S.B., Goto H.,
+RA   Naruse S., Thomas P.J., Muallem S.;
+RT   "Dynamic control of cystic fibrosis transmembrane conductance regulator
+RT   Cl(-)/HCO3(-) selectivity by external Cl(-).";
+RL   J. Biol. Chem. 279:21857-21865(2004).
+RN   [17]
+RP   INTERACTION WITH MYO6, AND SUBCELLULAR LOCATION.
+RX   PubMed=15247260; DOI=10.1074/jbc.m403141200;
+RA   Swiatecka-Urban A., Boyd C., Coutermarsh B., Karlson K.H., Barnaby R.,
+RA   Aschenbrenner L., Langford G.M., Hasson T., Stanton B.A.;
+RT   "Myosin VI regulates endocytosis of the cystic fibrosis transmembrane
+RT   conductance regulator.";
+RL   J. Biol. Chem. 279:38025-38031(2004).
+RN   [18]
+RP   REVIEW.
+RX   PubMed=1378801; DOI=10.1096/fasebj.6.10.1378801;
+RA   McIntosh I., Cutting G.R.;
+RT   "Cystic fibrosis transmembrane conductance regulator and the etiology and
+RT   pathogenesis of cystic fibrosis.";
+RL   FASEB J. 6:2775-2782(1992).
+RN   [19]
+RP   ALTERNATIVE SPLICING (ISOFORM 3).
+RX   PubMed=12913074; DOI=10.1093/hmg/ddg215;
+RA   Aznarez I., Chan E.M., Zielenski J., Blencowe B.J., Tsui L.-C.;
+RT   "Characterization of disease-associated mutations affecting an exonic
+RT   splicing enhancer and two cryptic splice sites in exon 13 of the cystic
+RT   fibrosis transmembrane conductance regulator gene.";
+RL   Hum. Mol. Genet. 12:2031-2040(2003).
+RN   [20]
+RP   FUNCTION, TRANSPORTER ACTIVITY, CHANNEL GATING REGULATION, PHOSPHORYLATION,
+RP   AND SUBCELLULAR LOCATION.
+RX   PubMed=12588899; DOI=10.1113/jphysiol.2002.035790;
+RA   Chappe V., Hinkson D.A., Zhu T., Chang X.B., Riordan J.R., Hanrahan J.W.;
+RT   "Phosphorylation of protein kinase C sites in NBD1 and the R domain control
+RT   CFTR channel activation by PKA.";
+RL   J. Physiol. (Lond.) 548:39-52(2003).
+RN   [21]
+RP   FUNCTION.
+RX   PubMed=14668433; DOI=10.1073/pnas.2634339100;
+RA   Coakley R.D., Grubb B.R., Paradiso A.M., Gatzy J.T., Johnson L.G.,
+RA   Kreda S.M., O'Neal W.K., Boucher R.C.;
+RT   "Abnormal surface liquid pH regulation by cultured cystic fibrosis
+RT   bronchial epithelium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:16083-16088(2003).
+RN   [22]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND DOMAIN.
+RX   PubMed=15284228; DOI=10.1074/jbc.m407666200;
+RA   Kidd J.F., Ramjeesingh M., Stratford F., Huan L.J., Bear C.E.;
+RT   "A heteromeric complex of the two nucleotide binding domains of cystic
+RT   fibrosis transmembrane conductance regulator (CFTR) mediates ATPase
+RT   activity.";
+RL   J. Biol. Chem. 279:41664-41669(2004).
+RN   [23]
+RP   FUNCTION.
+RX   PubMed=16645176; DOI=10.1164/rccm.200506-987oc;
+RA   Blouquit S., Regnier A., Dannhoffer L., Fermanian C., Naline E.,
+RA   Boucher R., Chinet T.;
+RT   "Ion and fluid transport properties of small airways in cystic fibrosis.";
+RL   Am. J. Respir. Crit. Care Med. 174:299-305(2006).
+RN   [24]
+RP   DOMAIN, PHOSPHORYLATION, SUBCELLULAR LOCATION, FUNCTION, AND TRANSPORTER
+RP   ACTIVITY.
+RX   PubMed=17036051; DOI=10.1038/sj.emboj.7601373;
+RA   Mense M., Vergani P., White D.M., Altberg G., Nairn A.C., Gadsby D.C.;
+RT   "In vivo phosphorylation of CFTR promotes formation of a nucleotide-binding
+RT   domain heterodimer.";
+RL   EMBO J. 25:4728-4739(2006).
+RN   [25]
+RP   IDENTIFICATION IN A COMPLEX WITH RAB11A AND MYO5B, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=17462998; DOI=10.1074/jbc.m608531200;
+RA   Swiatecka-Urban A., Talebian L., Kanno E., Moreau-Marquis S.,
+RA   Coutermarsh B., Hansen K., Karlson K.H., Barnaby R., Cheney R.E.,
+RA   Langford G.M., Fukuda M., Stanton B.A.;
+RT   "Myosin Vb is required for trafficking of the cystic fibrosis transmembrane
+RT   conductance regulator in Rab11a-specific apical recycling endosomes in
+RT   polarized human airway epithelial cells.";
+RL   J. Biol. Chem. 282:23725-23736(2007).
+RN   [26]
+RP   FUNCTION.
+RX   PubMed=17434346; DOI=10.1016/j.jcf.2007.03.001;
+RA   Lu C., Jiang C., Pribanic S., Rotin D.;
+RT   "CFTR stabilizes ENaC at the plasma membrane.";
+RL   J. Cyst. Fibros. 6:419-422(2007).
+RN   [27]
+RP   DOMAIN.
+RX   PubMed=17660831; DOI=10.1038/nsmb1278;
+RA   Baker J.M., Hudson R.P., Kanelis V., Choy W.Y., Thibodeau P.H.,
+RA   Thomas P.J., Forman-Kay J.D.;
+RT   "CFTR regulatory region interacts with NBD1 predominantly via multiple
+RT   transient helices.";
+RL   Nat. Struct. Mol. Biol. 14:738-745(2007).
+RN   [28]
+RP   FUNCTION, TRANSPORTER ACTIVITY, UBIQUITINATION, AND SUBCELLULAR LOCATION.
+RX   PubMed=19398555; DOI=10.1074/jbc.m109.001685;
+RA   Bomberger J.M., Barnaby R.L., Stanton B.A.;
+RT   "The deubiquitinating enzyme USP10 regulates the post-endocytic sorting of
+RT   cystic fibrosis transmembrane conductance regulator in airway epithelial
+RT   cells.";
+RL   J. Biol. Chem. 284:18778-18789(2009).
+RN   [29]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=19019741; DOI=10.1016/j.jcf.2008.10.004;
+RA   Tang L., Fatehi M., Linsdell P.;
+RT   "Mechanism of direct bicarbonate transport by the CFTR anion channel.";
+RL   J. Cyst. Fibros. 8:115-121(2009).
+RN   [30]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=19621064; DOI=10.1371/journal.pbio.1000155;
+RA   Zhang L., Button B., Gabriel S.E., Burkett S., Yan Y., Skiadopoulos M.H.,
+RA   Dang Y.L., Vogel L.N., McKay T., Mengos A., Boucher R.C., Collins P.L.,
+RA   Pickles R.J.;
+RT   "CFTR delivery to 25% of surface epithelial cells restores normal rates of
+RT   mucus transport to human cystic fibrosis airway epithelium.";
+RL   PLoS Biol. 7:E1000155-E1000155(2009).
+RN   [31]
+RP   INTERACTION WITH CSE1L.
+RX   PubMed=20933420; DOI=10.1016/j.cub.2010.09.012;
+RA   Bagnat M., Navis A., Herbstreith S., Brand-Arzamendi K., Curado S.,
+RA   Gabriel S., Mostov K., Huisken J., Stainier D.Y.;
+RT   "Cse1l is a negative regulator of CFTR-dependent fluid secretion.";
+RL   Curr. Biol. 20:1840-1845(2010).
+RN   [32]
+RP   SUBCELLULAR LOCATION, CHARACTERIZATION OF VARIANT CF PHE-508 DEL,
+RP   MUTAGENESIS OF ASN-894 AND ASN-900, AND GLYCOSYLATION AT ASN-894 AND
+RP   ASN-900.
+RX   PubMed=20008117; DOI=10.1152/ajplung.00016.2009;
+RA   Cholon D.M., O'Neal W.K., Randell S.H., Riordan J.R., Gentzsch M.;
+RT   "Modulation of endocytic trafficking and apical stability of CFTR in
+RT   primary human airway epithelial cultures.";
+RL   Am. J. Physiol. 298:L304-L314(2010).
+RN   [33]
+RP   FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=19923167; DOI=10.1093/humrep/dep406;
+RA   Li C.Y., Jiang L.Y., Chen W.Y., Li K., Sheng H.Q., Ni Y., Lu J.X., Xu W.X.,
+RA   Zhang S.Y., Shi Q.X.;
+RT   "CFTR is essential for sperm fertilizing capacity and is correlated with
+RT   sperm quality in humans.";
+RL   Hum. Reprod. 25:317-327(2010).
+RN   [34]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-549, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=20068231; DOI=10.1126/scisignal.2000475;
+RA   Olsen J.V., Vermeulen M., Santamaria A., Kumar C., Miller M.L.,
+RA   Jensen L.J., Gnad F., Cox J., Jensen T.S., Nigg E.A., Brunak S., Mann M.;
+RT   "Quantitative phosphoproteomics reveals widespread full phosphorylation
+RT   site occupancy during mitosis.";
+RL   Sci. Signal. 3:RA3-RA3(2010).
+RN   [35]
+RP   FUNCTION, TRANSPORTER ACTIVITY, SUBCELLULAR LOCATION, AND INTERACTION WITH
+RP   ANO1.
+RX   PubMed=22178883; DOI=10.1159/000335765;
+RA   Ousingsawat J., Kongsuphol P., Schreiber R., Kunzelmann K.;
+RT   "CFTR and TMEM16A are separate but functionally related Cl-channels.";
+RL   Cell. Physiol. Biochem. 28:715-724(2011).
+RN   [36]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=22207244; DOI=10.1007/s00418-011-0904-1;
+RA   Enuka Y., Hanukoglu I., Edelheit O., Vaknine H., Hanukoglu A.;
+RT   "Epithelial sodium channels (ENaC) are uniformly distributed on motile
+RT   cilia in the oviduct and the respiratory airways.";
+RL   Histochem. Cell Biol. 137:339-353(2012).
+RN   [37]
+RP   INTERACTION WITH SLC26A8.
+RX   PubMed=22121115; DOI=10.1093/hmg/ddr558;
+RA   Rode B., Dirami T., Bakouh N., Rizk-Rabin M., Norez C., Lhuillier P.,
+RA   Lores P., Jollivet M., Melin P., Zvetkova I., Bienvenu T., Becq F.,
+RA   Planelles G., Edelman A., Gacon G., Toure A.;
+RT   "The testis anion transporter TAT1 (SLC26A8) physically and functionally
+RT   interacts with the cystic fibrosis transmembrane conductance regulator
+RT   channel: a potential role during sperm capacitation.";
+RL   Hum. Mol. Genet. 21:1287-1298(2012).
+RN   [38]
+RP   PHOSPHORYLATION AT SER-660; SER-686; SER-700; SER-712; THR-717; SER-737;
+RP   SER-795; SER-1444 AND SER-1456, UBIQUITINATION AT LYS-688, PALMITOYLATION
+RP   AT CYS-524 AND CYS-1395, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=22119790; DOI=10.1093/protein/gzr054;
+RA   McClure M., Delucas L.J., Wilson L., Ray M., Rowe S.M., Wu X., Dai Q.,
+RA   Hong J.S., Sorscher E.J., Kappes J.C., Barnes S.;
+RT   "Purification of CFTR for mass spectrometry analysis: identification of
+RT   palmitoylation and other post-translational modifications.";
+RL   Protein Eng. Des. Sel. 25:7-14(2012).
+RN   [39]
+RP   UBIQUITINATION BY RNF185.
+RX   PubMed=24019521; DOI=10.1074/jbc.m113.470500;
+RA   El Khouri E., Le Pavec G., Toledano M.B., Delaunay-Moisan A.;
+RT   "RNF185 is a novel E3 ligase of endoplasmic reticulum-associated
+RT   degradation (ERAD) that targets cystic fibrosis transmembrane conductance
+RT   regulator (CFTR).";
+RL   J. Biol. Chem. 288:31177-31191(2013).
+RN   [40]
+RP   INTERACTION WITH MARCHF2, UBIQUITINATION, CHARACTERIZATION OF VARIANT CF
+RP   PHE-508 DEL, AND MUTAGENESIS OF 1478-TYR--LEU-1480.
+RX   PubMed=23818989; DOI=10.1371/journal.pone.0068001;
+RA   Cheng J., Guggino W.;
+RT   "Ubiquitination and degradation of CFTR by the E3 ubiquitin ligase MARCH2
+RT   through its association with adaptor proteins CAL and STX6.";
+RL   PLoS ONE 8:e68001-e68001(2013).
+RN   [41]
+RP   FUNCTION, TRANSPORTER ACTIVITY, CHARACTERIZATION OF CF VARIANT PHE-508 DEL,
+RP   SUBCELLULAR LOCATION, PHOSPHORYLATION AT SER-660; SER-670; SER-700;
+RP   SER-712; SER-737; SER-753; SER-768; SER-795 AND SER-813, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY.
+RX   PubMed=25330774; DOI=10.1002/pmic.201400218;
+RA   Pasyk S., Molinski S., Ahmadi S., Ramjeesingh M., Huan L.J., Chin S.,
+RA   Du K., Yeger H., Taylor P., Moran M.F., Bear C.E.;
+RT   "The major cystic fibrosis causing mutation exhibits defective propensity
+RT   for phosphorylation.";
+RL   Proteomics 15:447-461(2015).
+RN   [42]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=26627831; DOI=10.1074/jbc.m115.704809;
+RA   Ehrhardt A., Chung W.J., Pyle L.C., Wang W., Nowotarski K., Mulvihill C.M.,
+RA   Ramjeesingh M., Hong J., Velu S.E., Lewis H.A., Atwell S., Aller S.,
+RA   Bear C.E., Lukacs G.L., Kirk K.L., Sorscher E.J.;
+RT   "Channel gating regulation by the cystic fibrosis transmembrane conductance
+RT   regulator (CFTR) first cytosolic loop.";
+RL   J. Biol. Chem. 291:1854-1865(2016).
+RN   [43]
+RP   FUNCTION.
+RX   PubMed=26823428; DOI=10.1126/science.aad5589;
+RA   Shah V.S., Meyerholz D.K., Tang X.X., Reznikov L., Abou Alaiwa M.,
+RA   Ernst S.E., Karp P.H., Wohlford-Lenane C.L., Heilmann K.P., Leidinger M.R.,
+RA   Allen P.D., Zabner J., McCray P.B. Jr., Ostedgaard L.S., Stoltz D.A.,
+RA   Randak C.O., Welsh M.J.;
+RT   "Airway acidification initiates host defense abnormalities in cystic
+RT   fibrosis mice.";
+RL   Science 351:503-507(2016).
+RN   [44]
+RP   FUNCTION.
+RX   PubMed=27941075; DOI=10.1152/ajplung.00375.2016;
+RA   Rauh R., Hoerner C., Korbmacher C.;
+RT   "deltabetagamma-ENaC is inhibited by CFTR but stimulated by cAMP in Xenopus
+RT   laevis oocytes.";
+RL   Am. J. Physiol. 312:L277-L287(2017).
+RN   [45]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=28130590; DOI=10.1007/s00418-016-1535-3;
+RA   Hanukoglu I., Boggula V.R., Vaknine H., Sharma S., Kleyman T.,
+RA   Hanukoglu A.;
+RT   "Expression of epithelial sodium channel (ENaC) and CFTR in the human
+RT   epidermis and epidermal appendages.";
+RL   Histochem. Cell Biol. 147:733-748(2017).
+RN   [46]
+RP   FUNCTION.
+RX   PubMed=27714810; DOI=10.1002/jcp.25634;
+RA   Puga Molina L.C., Pinto N.A., Torres Rodriguez P., Romarowski A.,
+RA   Vicens Sanchez A., Visconti P.E., Darszon A., Trevino C.L., Buffone M.G.;
+RT   "Essential role of CFTR in PKA-dependent phosphorylation, alkalinization,
+RT   and hyperpolarization during human sperm capacitation.";
+RL   J. Cell. Physiol. 232:1404-1414(2017).
+RN   [47]
+RP   INTERACTION WITH ADGRG2.
+RX   PubMed=29393851; DOI=10.7554/elife.33432;
+RA   Zhang D.L., Sun Y.J., Ma M.L., Wang Y.J., Lin H., Li R.R., Liang Z.L.,
+RA   Gao Y., Yang Z., He D.F., Lin A., Mo H., Lu Y.J., Li M.J., Kong W.,
+RA   Chung K.Y., Yi F., Li J.Y., Qin Y.Y., Li J., Thomsen A.R.B., Kahsai A.W.,
+RA   Chen Z.J., Xu Z.G., Liu M., Li D., Yu X., Sun J.P.;
+RT   "Gq activity- and beta-arrestin-1 scaffolding-mediated ADGRG2/CFTR coupling
+RT   are required for male fertility.";
+RL   Elife 7:0-0(2018).
+RN   [48]
+RP   3D-STRUCTURE MODELING OF 425-638.
+RX   PubMed=9517543;
+RX   DOI=10.1002/(sici)1097-0134(19980215)30:3<275::aid-prot7>3.3.co;2-l;
+RA   Hoedemaeker F.J., Davidson A.R., Rose D.R.;
+RT   "A model for the nucleotide-binding domains of ABC transporters based on
+RT   the large domain of aspartate aminotransferase.";
+RL   Proteins 30:275-286(1998).
+RN   [49]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 1476-1480 IN COMPLEX WITH NHERF1.
+RX   PubMed=11304524; DOI=10.1074/jbc.c100154200;
+RA   Karthikeyan S., Leung T., Ladias J.A.A.;
+RT   "Structural basis of the Na+/H+ exchanger regulatory factor PDZ1
+RT   interaction with the carboxyl-terminal region of the cystic fibrosis
+RT   transmembrane conductance regulator.";
+RL   J. Biol. Chem. 276:19683-19686(2001).
+RN   [50] {ECO:0007744|PDB:2LOB}
+RP   STRUCTURE BY NMR OF 1473-1480 IN COMPLEX WITH GOPC.
+RX   PubMed=16331976; DOI=10.1021/bi0516475;
+RA   Piserchio A., Fellows A., Madden D.R., Mierke D.F.;
+RT   "Association of the cystic fibrosis transmembrane regulator with CAL:
+RT   structural features and molecular dynamics.";
+RL   Biochemistry 44:16158-16166(2005).
+RN   [51] {ECO:0007744|PDB:1XMI, ECO:0007744|PDB:1XMJ}
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) OF 389-678 OF WILD-TYPE AND VARIANT
+RP   CF PHE-508 DEL IN COMPLEX WITH ATP, AND CHARACTERIZATION OF VARIANT CF
+RP   PHE-508 DEL.
+RX   PubMed=15528182; DOI=10.1074/jbc.m410968200;
+RA   Lewis H.A., Zhao X., Wang C., Sauder J.M., Rooney I., Noland B.W.,
+RA   Lorimer D., Kearins M.C., Conners K., Condon B., Maloney P.C.,
+RA   Guggino W.B., Hunt J.F., Emtage S.;
+RT   "Impact of the deltaF508 mutation in first nucleotide-binding domain of
+RT   human cystic fibrosis transmembrane conductance regulator on domain folding
+RT   and structure.";
+RL   J. Biol. Chem. 280:1346-1353(2005).
+RN   [52] {ECO:0007744|PDB:3GD7}
+RP   X-RAY CRYSTALLOGRAPHY (2.70 ANGSTROMS) OF 1193-1435 AND 1458-1470 IN
+RP   COMPLEX WITH ATP ANALOG.
+RA   Atwell S., Antonysamy S., Guggino W.B., Conners K., Emtage S., Gheyi T.,
+RA   Hunt J.F., Lewis H.A., Lu F., Sauder J.M., Weber P.C., Wetmore D., Zhao X.;
+RT   "Crystal structure of human NBD2 complexed with N6-phenylethyl-ATP (P-
+RT   ATP).";
+RL   Submitted (FEB-2009) to the PDB data bank.
+RN   [53] {ECO:0007744|PDB:2BBO, ECO:0007744|PDB:2BBS, ECO:0007744|PDB:2BBT}
+RP   X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS) OF 389-677 IN COMPLEX WITH ATP.
+RX   PubMed=19944699; DOI=10.1016/j.jmb.2009.11.051;
+RA   Lewis H.A., Wang C., Zhao X., Hamuro Y., Conners K., Kearins M.C., Lu F.,
+RA   Sauder J.M., Molnar K.S., Coales S.J., Maloney P.C., Guggino W.B.,
+RA   Wetmore D.R., Weber P.C., Hunt J.F.;
+RT   "Structure and dynamics of NBD1 from CFTR characterized using
+RT   crystallography and hydrogen/deuterium exchange mass spectrometry.";
+RL   J. Mol. Biol. 396:406-430(2010).
+RN   [54] {ECO:0007744|PDB:2PZE, ECO:0007744|PDB:2PZF, ECO:0007744|PDB:2PZG}
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF 387-646 IN COMPLEX WITH ATP, AND
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL.
+RX   PubMed=20150177; DOI=10.1093/protein/gzq004;
+RA   Atwell S., Brouillette C.G., Conners K., Emtage S., Gheyi T., Guggino W.B.,
+RA   Hendle J., Hunt J.F., Lewis H.A., Lu F., Protasevich I.I., Rodgers L.A.,
+RA   Romero R., Wasserman S.R., Weber P.C., Wetmore D., Zhang F.F., Zhao X.;
+RT   "Structures of a minimal human CFTR first nucleotide-binding domain as a
+RT   monomer, head-to-tail homodimer, and pathogenic mutant.";
+RL   Protein Eng. Des. Sel. 23:375-384(2010).
+RN   [55]
+RP   STRUCTURE BY ELECTRON MICROSCOPY (9 ANGSTROMS).
+RX   PubMed=21931164; DOI=10.1074/jbc.m111.292268;
+RA   Rosenberg M.F., O'Ryan L.P., Hughes G., Zhao Z., Aleksandrov L.A.,
+RA   Riordan J.R., Ford R.C.;
+RT   "The cystic fibrosis transmembrane conductance regulator (CFTR): three-
+RT   dimensional structure and localization of a channel gate.";
+RL   J. Biol. Chem. 286:42647-42654(2011).
+RN   [56] {ECO:0007744|PDB:4WZ6}
+RP   X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS) OF 389-678.
+RX   PubMed=26444971; DOI=10.1002/pro.2821;
+RA   Hall J.D., Wang H., Byrnes L.J., Shanker S., Wang K., Efremov I.V.,
+RA   Chong P.A., Forman-Kay J.D., Aulabaugh A.E.;
+RT   "Binding screen for cystic fibrosis transmembrane conductance regulator
+RT   correctors finds new chemical matter and yields insights into cystic
+RT   fibrosis therapeutic strategy.";
+RL   Protein Sci. 25:360-373(2016).
+RN   [57] {ECO:0007744|PDB:5UAK}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.87 ANGSTROMS), AND TOPOLOGY.
+RA   Liu F., Zhang Z., Chen J.;
+RT   "Structure of human cystic fibrosis transmembrane conductance regulator
+RT   (CFTR).";
+RL   Submitted (DEC-2016) to the PDB data bank.
+RN   [58]
+RP   REVIEW ON VARIANTS.
+RX   PubMed=1284534; DOI=10.1002/humu.1380010304;
+RA   Tsui L.-C.;
+RT   "Mutations and sequence variations detected in the cystic fibrosis
+RT   transmembrane conductance regulator (CFTR) gene: a report from the Cystic
+RT   Fibrosis Genetic Analysis Consortium.";
+RL   Hum. Mutat. 1:197-203(1992).
+RN   [59]
+RP   CHARACTERIZATION OF VARIANT CF TRP-334; ILE-507 DEL; PHE-508 DEL; ASP-551
+RP   AND ILE-549, MUTAGENESIS OF LYS-464; PHE-508 AND LYS-1250, AND
+RP   GLYCOSYLATION.
+RX   PubMed=1699669; DOI=10.1016/0092-8674(90)90148-8;
+RA   Cheng S.H., Gregory R.J., Marshall J., Paul S., Souza D.W., White G.A.,
+RA   O'Riordan C.R., Smith A.E.;
+RT   "Defective intracellular transport and processing of CFTR is the molecular
+RT   basis of most cystic fibrosis.";
+RL   Cell 63:827-834(1990).
+RN   [60]
+RP   VARIANTS CF ASN-549; ASP-551 AND THR-559.
+RX   PubMed=1695717; DOI=10.1038/346366a0;
+RA   Cutting G.R., Kasch L.M., Rosenstein B.J., Zielenski J., Tsui L.-C.,
+RA   Antonarakis S.E., Kazazian H.H. Jr.;
+RT   "A cluster of cystic fibrosis mutations in the first nucleotide-binding
+RT   fold of the cystic fibrosis conductance regulator protein.";
+RL   Nature 346:366-369(1990).
+RN   [61]
+RP   VARIANTS CF GLU-455; ARG-549; ILE-549; ASP-551; THR-560; ASN-563 AND
+RP   HIS-574.
+RX   PubMed=2236053; DOI=10.1073/pnas.87.21.8447;
+RA   Kerem B.-S., Zielenski J., Markiewicz D., Bozon D., Gazit E., Yahav J.,
+RA   Kennedy D., Riordan J.R., Collins F.S., Rommens J.M., Tsui L.-C.;
+RT   "Identification of mutations in regions corresponding to the two putative
+RT   nucleotide (ATP)-binding folds of the cystic fibrosis gene.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:8447-8451(1990).
+RN   [62]
+RP   VARIANTS CF.
+RX   PubMed=1710600; DOI=10.1016/0888-7543(91)90510-l;
+RA   White M.B., Krueger L.J., Holsclaw D.S. Jr., Gerrard B.C., Stewart C.,
+RA   Quittell L., Dolganov G., Baranov V., Ivaschenko T., Kapronov N.I.,
+RA   Sebastio G., Castiglione O., Dean M.;
+RT   "Detection of three rare frameshift mutations in the cystic fibrosis gene
+RT   in an African-American (CF444delA), an Italian (CF2522insC), and a Soviet
+RT   (CF3821delT).";
+RL   Genomics 10:266-269(1991).
+RN   [63]
+RP   CHARACTERIZATION OF CF VARIANTS ILE-507 DEL; PHE-508 DEL; ILE-549; ARG-549;
+RP   ASP-551; THR-559; ASN-572; LYS-1303 AND ASP-1349, FUNCTION, TRANSPORTER
+RP   ACTIVITY, SUBCELLULAR LOCATION, AND MUTAGENESIS OF PHE-508.
+RX   PubMed=1712898; DOI=10.1128/mcb.11.8.3886-3893.1991;
+RA   Gregory R.J., Rich D.P., Cheng S.H., Souza D.W., Paul S., Manavalan P.,
+RA   Anderson M.P., Welsh M.J., Smith A.E.;
+RT   "Maturation and function of cystic fibrosis transmembrane conductance
+RT   regulator variants bearing mutations in putative nucleotide-binding domains
+RT   1 and 2.";
+RL   Mol. Cell. Biol. 11:3886-3893(1991).
+RN   [64]
+RP   VARIANTS VAL-44; MET-470; VAL-506; CYS-508; ALA-576; CYS-668; PHE-997;
+RP   THR-1027 AND LEU-1162, AND VARIANTS CF GLY-44; ARG-178; ARG-225; TRP-334;
+RP   PHE-508 DEL; 542-GLY--LEU-1480 DEL; ASP-551; ILE-562; ARG-628;
+RP   710-LYS--LEU-1480 DEL; 846-TRP--LEU-1480 DEL; CYS-913; 1063-TRP--LEU-1480
+RP   DEL; CYS-1066; 1092-TYR--LEU-1480 DEL; 1162-ARG--LEU-1480 DEL; GLU-1200;
+RP   1282-TRP--LEU-1480 DEL AND LYS-1303.
+RX   PubMed=1379210; DOI=10.1016/0888-7543(92)90152-i;
+RA   Fanen P., Ghanem N., Vidaud M., Besmond C., Martin J., Costes B.,
+RA   Plassa F., Goossens M.;
+RT   "Molecular characterization of cystic fibrosis: 16 novel mutations
+RT   identified by analysis of the whole cystic fibrosis conductance
+RT   transmembrane regulator (CFTR) coding regions and splice site junctions.";
+RL   Genomics 13:770-776(1992).
+RN   [65]
+RP   VARIANTS CF PHE-520 AND HIS-1291.
+RX   PubMed=1284466; DOI=10.1093/hmg/1.1.11;
+RA   Jones C.T., McIntosh I., Keston M., Ferguson A., Brock D.J.H.;
+RT   "Three novel mutations in the cystic fibrosis gene detected by chemical
+RT   cleavage: analysis of variant splicing and a nonsense mutation.";
+RL   Hum. Mol. Genet. 1:11-17(1992).
+RN   [66]
+RP   VARIANT CF MET-1283.
+RX   PubMed=1284468; DOI=10.1093/hmg/1.2.123;
+RA   Cheadle J.P., Meredith A.L., Al-Jader L.N.;
+RT   "A new missense mutation (R1283M) in exon 20 of the cystic fibrosis
+RT   transmembrane conductance regulator gene.";
+RL   Hum. Mol. Genet. 1:123-125(1992).
+RN   [67]
+RP   VARIANT CF PRO-1255.
+RX   PubMed=1284530; DOI=10.1093/hmg/1.6.441;
+RA   Lissens W., Bonduelle M., Malfroot A., Dab I., Liebaers I.;
+RT   "A serine to proline substitution (S1255P) in the second nucleotide binding
+RT   fold of the cystic fibrosis gene.";
+RL   Hum. Mol. Genet. 1:441-442(1992).
+RN   [68]
+RP   VARIANTS CF LYS-92 AND CYS-117.
+RX   PubMed=1284529; DOI=10.1093/hmg/1.6.439;
+RA   Shackleton S., Beards F., Harris A.;
+RT   "Detection of novel and rare mutations in exon 4 of the cystic fibrosis
+RT   gene by SSCP.";
+RL   Hum. Mol. Genet. 1:439-440(1992).
+RN   [69]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL AND ASP-551, SUBCELLULAR
+RP   LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=1284548; DOI=10.1038/ng0892-321;
+RA   Kartner N., Augustinas O., Jensen T.J., Naismith A.L., Riordan J.R.;
+RT   "Mislocalization of delta F508 CFTR in cystic fibrosis sweat gland.";
+RL   Nat. Genet. 1:321-327(1992).
+RN   [70]
+RP   VARIANT CF LYS-1101.
+RX   PubMed=7680525;
+RA   Zielenski J., Fugiwara T.M., Markiewicz D., Paradis A.J., Anacleto A.I.,
+RA   Richards B., Schwartz R.H., Klinger K.W., Tsui L.-C., Morgan K.;
+RT   "Identification of the M1101K mutation in the cystic fibrosis transmembrane
+RT   conductance regulator (CFTR) gene and complete detection of cystic fibrosis
+RT   mutations in the Hutterite population.";
+RL   Am. J. Hum. Genet. 52:609-615(1993).
+RN   [71]
+RP   VARIANTS CF VAL-1052; ARG-1061; LEU-1066; GLN-1070; ARG-1085 AND ARG-1101.
+RX   PubMed=7683628; DOI=10.1006/geno.1993.1183;
+RA   Mercier B., Lissens W., Novelli G., Kalaydjieva L., De Arce M.,
+RA   Kapranov N., Klain N.C., Lenoir G., Chauveau P., Lenaerts C., Rault G.,
+RA   Cashman S., Sangiuolo F., Audrezet M.-P., Dallapiccola B., Guillermit H.,
+RA   Bonduelle M., Liebaers I., Quere I., Verlingue C., Ferec C.;
+RT   "Identification of eight novel mutations in a collaborative analysis of a
+RT   part of the second transmembrane domain of the CFTR gene.";
+RL   Genomics 16:296-297(1993).
+RN   [72]
+RP   VARIANTS CF HIS-117; LYS-336; GLU-455; VAL-458; ARG-628; ARG-1235; ASN-1251
+RP   AND LYS-1303.
+RX   PubMed=7508414; DOI=10.1016/s0888-7543(05)80376-3;
+RA   Cuppens H., Marynen P., De Boeck C., Cassiman J.J.;
+RT   "Detection of 98.5% of the mutations in 200 Belgian cystic fibrosis alleles
+RT   by reverse dot-blot and sequencing of the complete coding region and
+RT   exon/intron junctions of the CFTR gene.";
+RL   Genomics 18:693-697(1993).
+RN   [73]
+RP   VARIANT CF LEU-693.
+RX   PubMed=8406518; DOI=10.1159/000154147;
+RA   Audrezet M.P., Novelli G., Mercier B., Sangiuolo F., Maceratesi P.,
+RA   Ferec C., Dallapiccola B.;
+RT   "Identification of three novel cystic fibrosis mutations in a sample of
+RT   Italian cystic fibrosis patients.";
+RL   Hum. Hered. 43:295-300(1993).
+RN   [74]
+RP   VARIANT CF LYS-92.
+RX   PubMed=7683954; DOI=10.1093/hmg/2.1.79;
+RA   Nunes V., Chillon M., Doerk T., Tuemmler B., Casals T., Estivill X.;
+RT   "A new missense mutation (E92K) in the first transmembrane domain of the
+RT   CFTR gene causes a benign cystic fibrosis phenotype.";
+RL   Hum. Mol. Genet. 2:79-80(1993).
+RN   [75]
+RP   VARIANT CF SER-205.
+RX   PubMed=7505694; DOI=10.1093/hmg/2.10.1741;
+RA   Chillon M., Casals T., Nunes V., Gimenez J., Ruiz E.P., Estivill X.;
+RT   "Identification of a new missense mutation (P205S) in the first
+RT   transmembrane domain of the CFTR gene associated with a mild cystic
+RT   fibrosis phenotype.";
+RL   Hum. Mol. Genet. 2:1741-1742(1993).
+RN   [76]
+RP   VARIANTS CF HIS-347; LEU-347; GLN-352 AND LYS-359.
+RX   PubMed=7504969; DOI=10.1002/humu.1380020511;
+RA   Gasparini P., Marigo C., Bisceglia G., Nicolis E., Zelante L., Bombieri C.,
+RA   Borgo G., Pignatti P.F., Cabrini G.;
+RT   "Screening of 62 mutations in a cohort of cystic fibrosis patients from
+RT   north eastern Italy: their incidence and clinical features of defined
+RT   genotypes.";
+RL   Hum. Mutat. 2:389-394(1993).
+RN   [77]
+RP   VARIANTS CYS-31 AND ILE-1220, AND VARIANTS CF 890-GLN--LEU-1480 DEL;
+RP   LEU-912; TYR-949; PRO-1065; PRO-1071 AND 1204-TRP--LEU-1480 DEL.
+RX   PubMed=7522211; DOI=10.1006/geno.1994.1290;
+RA   Ghanem N., Costes B., Girodon E., Martin J., Fanen P., Goossens M.;
+RT   "Identification of eight mutations and three sequence variations in the
+RT   cystic fibrosis transmembrane conductance regulator (CFTR) gene.";
+RL   Genomics 21:434-436(1994).
+RN   [78]
+RP   VARIANT CF PHE-456.
+RX   PubMed=7505767; DOI=10.1007/bf00218916;
+RA   Doerk T., Fislage R., Neumann T., Wulf B., Tuemmler B.;
+RT   "Exon 9 of the CFTR gene: splice site haplotypes and cystic fibrosis
+RT   mutations.";
+RL   Hum. Genet. 93:67-73(1994).
+RN   [79]
+RP   VARIANT CF PRO-346.
+RX   PubMed=7513296; DOI=10.1007/bf00202817;
+RA   Boteva K., Papageorgiou E., Georgiou C., Angastiniotis M., Middleton L.T.,
+RA   Constantinou-Deltas C.D.;
+RT   "Novel cystic fibrosis mutation associated with mild disease in Cypriot
+RT   patients.";
+RL   Hum. Genet. 93:529-532(1994).
+RN   [80]
+RP   VARIANTS CF TYR-199; SER-619; ARG-1005 AND ARG-1291.
+RX   PubMed=7525450; DOI=10.1007/bf00211022;
+RA   Doerk T., Mekus F., Schmidt K., Bosshammer J., Fislage R., Heuer T.,
+RA   Dziadek V., Neumann T., Kaelin N., Wulbrand U., Wulf B., von der Hardt H.,
+RA   Maass G., Tuemmler B.;
+RT   "Detection of more than 50 different CFTR mutations in a large group of
+RT   German cystic fibrosis patients.";
+RL   Hum. Genet. 94:533-542(1994).
+RN   [81]
+RP   VARIANT CF GLU-1249.
+RX   PubMed=7520022; DOI=10.1159/000154223;
+RA   Greil I., Wagner K., Rosenkranz W.;
+RT   "A new missense mutation G1249E in exon 20 of the cystic fibrosis
+RT   transmembrane conductance regulator (CFTR) gene.";
+RL   Hum. Hered. 44:238-240(1994).
+RN   [82]
+RP   VARIANT CF GLU-1397.
+RX   PubMed=7524913; DOI=10.1093/hmg/3.6.999;
+RA   Petreska L., Koceva S., Gordova-Muratovska A., Nestorov R., Efremov G.D.;
+RT   "Identification of two new mutations (711 +3A-->G and V1397E) in CF
+RT   chromosomes of Albanian and Macedonian origin.";
+RL   Hum. Mol. Genet. 3:999-1000(1994).
+RN   [83]
+RP   VARIANT CF CYS-109.
+RX   PubMed=7524909; DOI=10.1093/hmg/3.6.1001;
+RA   Schaedel C., Kristoffersson A.-C., Kornfaelt R., Holmberg L.;
+RT   "A novel cystic fibrosis mutation, Y109C, in the first transmembrane domain
+RT   of CFTR.";
+RL   Hum. Mol. Genet. 3:1001-1002(1994).
+RN   [84]
+RP   VARIANT CF THR-120.
+RX   PubMed=7517264; DOI=10.1002/humu.1380030308;
+RA   Chillon M., Casals T., Gimenez J., Nunes V., Estivill X.;
+RT   "Analysis of the CFTR gene in the Spanish population: SSCP-screening for 60
+RT   known mutations and identification of four new mutations (Q30X, A120T,
+RT   1812-1 G-->A, and 3667del4).";
+RL   Hum. Mutat. 3:223-230(1994).
+RN   [85]
+RP   VARIANT CF LEU-87.
+RX   PubMed=8081395; DOI=10.1002/humu.1380030412;
+RA   Bienvenu T., Petitpretz P., Beldjord C., Kaplan J.C.;
+RT   "A missense mutation (F87L) in exon 3 of the cystic fibrosis transmembrane
+RT   conductance regulator gene.";
+RL   Hum. Mutat. 3:395-396(1994).
+RN   [86]
+RP   VARIANTS CBAVD ARG-149; LYS-193; GLY-258 AND GLY-800.
+RX   PubMed=7529962;
+RA   Mercier B., Verlingue C., Lissens W., Silber S.J., Novelli G.,
+RA   Bonduelle M., Audrezet M.-P., Ferec C.;
+RT   "Is congenital bilateral absence of vas deferens a primary form of cystic
+RT   fibrosis? Analyses of the CFTR gene in 67 patients.";
+RL   Am. J. Hum. Genet. 56:272-277(1995).
+RN   [87]
+RP   VARIANTS CBAVD HIS-117 AND TRP-1070, AND VARIANT VAL-1067.
+RX   PubMed=7539342;
+RA   Jezequel P., Dorval I., Fergelot P., Chauvel B., Le Treut A.,
+RA   Le Gall J.-Y., Le Lannou D., Blayau M.;
+RT   "Structural analysis of CFTR gene in congenital bilateral absence of vas
+RT   deferens.";
+RL   Clin. Chem. 41:833-835(1995).
+RN   [88]
+RP   VARIANT CF SER-551.
+RX   PubMed=7606851; DOI=10.1111/j.1399-0004.1995.tb03931.x;
+RA   Orozco L., Lezana J.L., Villarreal M.T., Chavez M., Carnevale A.;
+RT   "Mild cystic fibrosis disease in three Mexican delta-F508/G551S compound
+RT   heterozygous siblings.";
+RL   Clin. Genet. 47:96-98(1995).
+RN   [89]
+RP   VARIANTS CF GLY-57; LYS-193 AND GLY-579.
+RX   PubMed=7544319; DOI=10.1007/bf00210414;
+RA   Brancolini V., Cremonesi L., Belloni E., Pappalardo E., Bordoni R.,
+RA   Seia M., Russo S., Padoan R., Giunta A., Ferrari M.;
+RT   "Search for mutations in pancreatic sufficient cystic fibrosis Italian
+RT   patients: detection of 90% of molecular defects and identification of three
+RT   novel mutations.";
+RL   Hum. Genet. 96:312-318(1995).
+RN   [90]
+RP   VARIANT CF TRP-206.
+RX   PubMed=8522333; DOI=10.1007/bf00210305;
+RA   Desgeorges M., Rodier M., Piot M., Demaille J., Claustres M.;
+RT   "Four adult patients with the missense mutation L206W and a mild cystic
+RT   fibrosis phenotype.";
+RL   Hum. Genet. 96:717-720(1995).
+RN   [91]
+RP   VARIANTS CF LEU-31 AND ARG-1098.
+RX   PubMed=7537150; DOI=10.1002/humu.1380050106;
+RA   Zielenski J., Markiewicz D., Chen H.S., Schappert K.T., Seller A.,
+RA   Durie P., Corey M., Tsui L.-C.;
+RT   "Identification of six mutations (R31L, 441delA, 681delC, 1461ins4, W1089R,
+RT   E1104X) in the cystic fibrosis transmembrane conductance regulator (CFTR)
+RT   gene.";
+RL   Hum. Mutat. 5:43-47(1995).
+RN   [92]
+RP   VARIANT CF ASN-572.
+RX   PubMed=7541273; DOI=10.1002/humu.1380050304;
+RA   Verlingue C., Kapranov N.I., Mercier B., Ginter E.K., Petrova N.V.,
+RA   Audrezet M.P., Ferec C.;
+RT   "Complete screening of mutations in the coding sequence of the CFTR gene in
+RT   a sample of CF patients from Russia: identification of three novel
+RT   alleles.";
+RL   Hum. Mutat. 5:205-209(1995).
+RN   [93]
+RP   VARIANT CF ARG-98.
+RX   PubMed=7581407; DOI=10.1002/humu.1380060216;
+RA   Romey M.-C., Desgeorges M., Ray P., Godard P., Demaille J., Claustres M.;
+RT   "Novel missense mutation in the first transmembrane segment of the CFTR
+RT   gene (Q98R) identified in a male adult.";
+RL   Hum. Mutat. 6:190-191(1995).
+RN   [94]
+RP   VARIANT CF ILE-338.
+RX   PubMed=7543567; DOI=10.1016/s0022-3476(95)70310-1;
+RA   Leoni G.B., Pitzalis S., Podda R., Zanda M., Silvetti M., Caocci L.,
+RA   Cao A., Rosatelli M.C.;
+RT   "A specific cystic fibrosis mutation (T338I) associated with the phenotype
+RT   of isolated hypotonic dehydration.";
+RL   J. Pediatr. 127:281-283(1995).
+RN   [95]
+RP   VARIANTS CF PHE-42; LEU-117; ARG-139 AND GLU-1006.
+RX   PubMed=7541510; DOI=10.1016/s0890-8508(95)80038-7;
+RA   Ferec C., Novelli G., Verlingue C., Quere I., Dallapiccola B.,
+RA   Audrezet M.P., Mercier B.;
+RT   "Identification of six novel CFTR mutations in a sample of Italian cystic
+RT   fibrosis patients.";
+RL   Mol. Cell. Probes 9:135-137(1995).
+RN   [96]
+RP   VARIANT CF SER-665.
+RX   PubMed=8800923; DOI=10.1159/000472165;
+RA   Messaoud T., Verlingue C., Denamur E., Pascaud O., Quere I., Fattoum S.,
+RA   Elion J., Ferec C.;
+RT   "Distribution of CFTR mutations in cystic fibrosis patients of Tunisian
+RT   origin: identification of two novel mutations.";
+RL   Eur. J. Hum. Genet. 4:20-24(1996).
+RN   [97]
+RP   VARIANT CF ARG-314.
+RX   PubMed=8829633;
+RX   DOI=10.1002/(sici)1098-1004(1996)7:2<151::aid-humu10>3.0.co;2-1;
+RA   Nasr S.Z., Strong T.V., Mansoura M.K., Dawson D.C., Collins F.S.;
+RT   "Novel missense mutation (G314R) in a cystic fibrosis patient with hepatic
+RT   failure.";
+RL   Hum. Mutat. 7:151-154(1996).
+RN   [98]
+RP   VARIANT CF CYS-569.
+RX   PubMed=8723693; DOI=10.1002/humu.1380070402;
+RA   Petreska L., Plaseska D., Koseva S., Stavljenic-Rukavina A., Efremov G.D.;
+RT   "A novel mutation in exon 12 (Y569C) of the CFTR gene identified in a
+RT   patient of Croatian origin.";
+RL   Hum. Mutat. 7:374-375(1996).
+RN   [99]
+RP   VARIANT CF ARG-1061.
+RX   PubMed=8723695;
+RX   DOI=10.1002/(sici)1098-1004(1996)7:4<376::aid-humu18>3.0.co;2-#;
+RA   Bienvenu T., Chertkoff L., Beldjord C., Segal E., Carniglia L.,
+RA   Barreiro C., Kaplan J.-C.;
+RT   "Identification of three novel mutations in the cystic fibrosis
+RT   transmembrane conductance regulator gene in Argentinian CF patients.";
+RL   Hum. Mutat. 7:376-377(1996).
+RN   [100]
+RP   VARIANT CF LEU-562.
+RX   PubMed=8956039;
+RX   DOI=10.1002/(sici)1098-1004(1996)8:4<340::aid-humu7>3.0.co;2-b;
+RA   Hughes D.J., Hill A.J.M., Macek M. Jr., Redmond A.O., Nevin N.C.,
+RA   Graham C.A.;
+RT   "Mutation characterization of CFTR gene in 206 Northern Irish CF families:
+RT   thirty mutations, including two novel, account for approximately 94% of CF
+RT   chromosomes.";
+RL   Hum. Mutat. 8:340-347(1996).
+RN   [101]
+RP   CHARACTERIZATION OF VARIANT CF ASP-551, FUNCTION, TRANSPORTER ACTIVITY,
+RP   CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, AND PHOSPHORYLATION.
+RX   PubMed=8910473; DOI=10.1074/jbc.271.45.28463;
+RA   Li C., Ramjeesingh M., Wang W., Garami E., Hewryk M., Lee D., Rommens J.M.,
+RA   Galley K., Bear C.E.;
+RT   "ATPase activity of the cystic fibrosis transmembrane conductance
+RT   regulator.";
+RL   J. Biol. Chem. 271:28463-28468(1996).
+RN   [102]
+RP   VARIANT CBAVD TYR-50.
+RX   PubMed=9067761;
+RX   DOI=10.1002/(sici)1098-1004(1997)9:2<183::aid-humu13>3.0.co;2-z;
+RA   Zielenski J., Patrizio P., Markiewicz D., Asch R.H., Tsui L.-C.;
+RT   "Identification of two mutations (S50Y and 4173delC) in the CFTR gene from
+RT   patients with congenital bilateral absence of vas deferens (CBAVD).";
+RL   Hum. Mutat. 9:183-184(1997).
+RN   [103]
+RP   VARIANT CF MET-1140 DEL.
+RX   PubMed=9101301;
+RX   DOI=10.1002/(sici)1098-1004(1997)9:4<368::aid-humu13>3.0.co;2-0;
+RA   Clavel C., Pennaforte F., Pigeon F., Verlingue C., Birembaut P., Ferec C.;
+RT   "Identification of four novel mutations in the cystic fibrosis
+RT   transmembrane conductance regulator gene: E664X, 2113delA, 306delTAGA, and
+RT   delta M1140.";
+RL   Hum. Mutat. 9:368-369(1997).
+RN   [104]
+RP   VARIANT CF ASP-141.
+RX   PubMed=9222768;
+RX   DOI=10.1002/(sici)1098-1004(1997)10:1<86::aid-humu15>3.0.co;2-w;
+RA   Gouya L., Pascaud O., Munck A., Elion J., Denamur E.;
+RT   "Novel mutation (A141D) in exon 4 of the CFTR gene identified in an
+RT   Algerian patient.";
+RL   Hum. Mutat. 10:86-87(1997).
+RN   [105]
+RP   VARIANT CF CYS-1066.
+RX   PubMed=9375855;
+RX   DOI=10.1002/(sici)1098-1004(1997)10:5<387::aid-humu9>3.0.co;2-c;
+RA   Casals T., Pacheco P., Barreto C., Gimenez J., Ramos M.D., Pereira S.,
+RA   Pinheiro J.A., Cobos N., Curvelo A., Vazquez C., Rocha H., Seculi J.L.,
+RA   Perez E., Dapena J., Carrilho E., Duarte A., Palacio A.M., Nunes V.,
+RA   Lavinha J., Estivill X.;
+RT   "Missense mutation R1066C in the second transmembrane domain of CFTR causes
+RT   a severe cystic fibrosis phenotype: study of 19 heterozygous and 2
+RT   homozygous patients.";
+RL   Hum. Mutat. 10:387-392(1997).
+RN   [106]
+RP   VARIANTS CF GLU-85; HIS-117; TYR-287; GLU-455; ASP-551; PRO-1070 AND
+RP   LYS-1303.
+RX   PubMed=9401006;
+RX   DOI=10.1002/(sici)1098-1004(1997)10:6<436::aid-humu4>3.0.co;2-b;
+RA   Shrimpton A.E., Borowitz D., Swender P.;
+RT   "Cystic fibrosis mutation frequencies in upstate New York.";
+RL   Hum. Mutat. 10:436-442(1997).
+RN   [107]
+RP   VARIANT CF PHE-311 DEL.
+RX   PubMed=9443874; DOI=10.1086/301681;
+RA   Friedman K.J., Leigh M.W., Czarnecki P., Feldman G.L.;
+RT   "Cystic fibrosis transmembrane-conductance regulator mutations among
+RT   African Americans.";
+RL   Am. J. Hum. Genet. 62:195-196(1998).
+RN   [108]
+RP   CHARACTERIZATION OF VARIANTS CF VAL-1137; MET-1140 DEL AND HIS-1152,
+RP   MUTAGENESIS OF MET-1137; ILE-1139 AND ASP-1154, SUBCELLULAR LOCATION,
+RP   FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=9804160; DOI=10.1016/s0014-5793(98)01042-4;
+RA   Vankeerberghen A., Wei L., Teng H., Jaspers M., Cassiman J.J., Nilius B.,
+RA   Cuppens H.;
+RT   "Characterization of mutations located in exon 18 of the CFTR gene.";
+RL   FEBS Lett. 437:1-4(1998).
+RN   [109]
+RP   VARIANTS CF GLN-75; HIS-110; SER-571; ILE-952; LEU-1013; ILE-1028 AND
+RP   LYS-1303.
+RX   PubMed=9521595; DOI=10.1007/s004390050683;
+RA   Onay T., Topaloglu O., Zielenski J., Gokgoz N., Kayserili H., Camcioglu Y.,
+RA   Cokugras H., Akcakaya N., Apak M., Tsui L.-C., Kirdar B.;
+RT   "Analysis of the CFTR gene in Turkish cystic fibrosis patients:
+RT   identification of three novel mutations (3172delAC, P1013L and M1028I).";
+RL   Hum. Genet. 102:224-230(1998).
+RN   [110]
+RP   VARIANTS CYS-31; GLN-75; VAL-506 AND CYS-668, AND VARIANTS CF CYS-301;
+RP   ASN-651; MET-754 AND LEU-1072.
+RX   PubMed=9921909; DOI=10.1007/s004390050897;
+RA   Bombieri C., Benetazzo M., Saccomani A., Belpinati F., Gile L.S.,
+RA   Luisetti M., Pignatti P.F.;
+RT   "Complete mutational screening of the CFTR gene in 120 patients with
+RT   pulmonary disease.";
+RL   Hum. Genet. 103:718-722(1998).
+RN   [111]
+RP   CHARACTERIZATION OF VARIANTS CF PHE-601; SER-610; THR-613; GLY-614;
+RP   THR-618; SER-619; GLN-620; PRO-620; ARG-628; PRO-633; SER-665; LEU-693 AND
+RP   LYS-822, CHARACTERIZATION OF VARIANTS CBAVD ASP-622; MET-766; GLY-792;
+RP   GLY-800 AND MET-807, AND CHARACTERIZATION OF VARIANT THORACIC SARCOIDOSIS
+RP   LYS-826.
+RX   PubMed=9736778; DOI=10.1093/hmg/7.11.1761;
+RA   Vankeerberghen A., Wei L., Jaspers M., Cassiman J.-J., Nilius B.,
+RA   Cuppens H.;
+RT   "Characterization of 19 disease-associated missense mutations in the
+RT   regulatory domain of the cystic fibrosis transmembrane conductance
+RT   regulator.";
+RL   Hum. Mol. Genet. 7:1761-1769(1998).
+RN   [112]
+RP   VARIANTS CF SER-560 AND ASP-569.
+RX   PubMed=9482579;
+RX   DOI=10.1002/(sici)1098-1004(1998)11:2<152::aid-humu8>3.0.co;2-l;
+RA   Malone G., Haworth A., Schwarz M.J., Cuppens H., Super M.;
+RT   "Detection of five novel mutations of the cystic fibrosis transmembrane
+RT   regulator (CFTR) gene in Pakistani patients with cystic fibrosis: Y569D,
+RT   Q98X, 296+12(T>C), 1161delC and 621+2(T>C).";
+RL   Hum. Mutat. 11:152-157(1998).
+RN   [113]
+RP   VARIANTS CF PHE-13 AND ILE-338.
+RX   PubMed=9554753;
+RA   Leoni G.B., Pitzalis S., Tonelli R., Cao A.;
+RT   "Identification of a novel mutation (S13F) in the CFTR gene in a CF patient
+RT   of Sardinian origin.";
+RL   Hum. Mutat. 11:337-337(1998).
+RN   [114]
+RP   VARIANTS CF PRO-117 AND ASP-192 DEL.
+RX   PubMed=9452048; DOI=10.1002/humu.1380110127;
+RA   Feldmann D., Sardet A., Cougoureux E., Plouvier E., Fontaine J.-L.,
+RA   Tournier G., Aymard P.;
+RT   "Identification of three novel mutations in the CFTR gene, R117P,
+RT   deltaD192, and 3121+1G-->A in four French patients.";
+RL   Hum. Mutat. Suppl. 1:S78-S80(1998).
+RN   [115]
+RP   VARIANT CF ARG-1065.
+RX   PubMed=9452054; DOI=10.1002/humu.1380110133;
+RA   Casals T., Ramos M.D., Gimenez J., Nadal M., Nunes V., Estivill X.;
+RT   "Paternal origin of a de novo novel CFTR mutation (L1065R) causing cystic
+RT   fibrosis.";
+RL   Hum. Mutat. Suppl. 1:S99-S102(1998).
+RN   [116]
+RP   VARIANT CF ASN-LYS-370 INS.
+RX   PubMed=9452073; DOI=10.1002/humu.1380110152;
+RA   Shackleton S., Harris A.;
+RT   "A 2-amino acid insertion mutation (1243insACAAAA) in exon 7 of the CFTR
+RT   gene.";
+RL   Hum. Mutat. Suppl. 1:S156-S157(1998).
+RN   [117]
+RP   VARIANT CBAVD GLY-513, AND VARIANT MET-470.
+RX   PubMed=10651488;
+RA   Bienvenu T., Bousquet S., Vidaud D., Hubert D., Francoual C., Beldjord C.,
+RA   Kaplan J.-C.;
+RT   "A novel missense mutation D513G in exon 10 of the cystic fibrosis
+RT   transmembrane conductance regulator (CFTR) gene identified in a French
+RT   CBAVD patient.";
+RL   Hum. Mutat. 12:213-214(1998).
+RN   [118]
+RP   VARIANTS CBAVD LEU-111; LYS-244; VAL-544 AND VAL-1364.
+RA   de Meeus A., Guittard C., Desgeorges M., Carles S., Demaille J.,
+RA   Claustres M.;
+RT   "Genetic findings in congenital bilateral aplasia of vas deferens patients
+RT   and identification of six novel mutations.";
+RL   Hum. Mutat. 12:480-480(1998).
+RN   [119]
+RP   VARIANT CF LEU-67.
+RX   PubMed=9507391; DOI=10.1136/jmg.35.2.122;
+RA   Gilfillan A., Warner J.P., Kirk J.M., Marshall T., Greening A., Ho L.P.,
+RA   Hargreave T., Stack B., McIntyre D., Davidson R., Dean J.C., Middleton W.,
+RA   Brock D.J.;
+RT   "P67L: a cystic fibrosis allele with mild effects found at high frequency
+RT   in the Scottish population.";
+RL   J. Med. Genet. 35:122-125(1998).
+RN   [120]
+RP   VARIANT CBAVD ASN-307.
+RX   PubMed=10066035; DOI=10.1034/j.1399-0004.1999.550112.x;
+RA   Onay T., Kayserili H., Apak M.Y., Kirdar B.;
+RT   "Analysis of infertile brothers with congenital bilateral absence of vas
+RT   deferens for mutations in the CFTR gene.";
+RL   Clin. Genet. 55:63-64(1999).
+RN   [121]
+RP   VARIANT CF GLY-579.
+RX   PubMed=10094564;
+RX   DOI=10.1002/(sici)1098-1004(1999)13:2<173::aid-humu20>3.0.co;2-3;
+RA   Picci L., Cameran M., Olante P., Zacchello F., Scarpa M.;
+RT   "Identification of a D579G homozygote cystic fibrosis patient with
+RT   pancreatic sufficiency and minor lung involvement.";
+RL   Hum. Mutat. 13:173-173(1999).
+RN   [122]
+RP   VARIANT CF HIS-569.
+RX   PubMed=10869121;
+RX   DOI=10.1002/1096-8628(20000717)93:2<161::aid-ajmg15>3.0.co;2-l;
+RA   Kabra M., Kabra S.K., Ghosh M., Khanna A., Arora S., Menon P.S.,
+RA   Verma I.C., Wallace A.;
+RT   "Is the spectrum of mutations in Indian patients with cystic fibrosis
+RT   different?";
+RL   Am. J. Med. Genet. 93:161-163(2000).
+RN   [123]
+RP   VARIANT CF HIS-569, AND REVIEW.
+RX   PubMed=10923036;
+RX   DOI=10.1002/1098-1004(200008)16:2<143::aid-humu7>3.0.co;2-j;
+RA   Claustres M., Guittard C., Bozon D., Chevalier F., Verlingue C., Ferec C.,
+RA   Girodon E., Cazeneuve C., Bienvenu T., Lalau G., Dumur V., Feldmann D.,
+RA   Bieth E., Blayau M., Clavel C., Creveaux I., Malinge M.C., Monnier N.,
+RA   Malzac P., Mittre H., Chomel J.C., Bonnefont J.P., Iron A., Chery M.,
+RA   Georges M.D.;
+RT   "Spectrum of CFTR mutations in cystic fibrosis and in congenital absence of
+RT   the vas deferens in France.";
+RL   Hum. Mutat. 16:143-156(2000).
+RN   [124]
+RP   CHARACTERIZATION OF VARIANTS CF HIS-117; THR-148; ARG-178; LYS-193;
+RP   ASP-551; SER-551; GLN-620; VAL-648; GLY-800; TYR-949; THR-1067; GLN-1070;
+RP   GLU-1244; PRO-1255 AND ASP-1349.
+RX   PubMed=11242048; DOI=10.1038/35065099;
+RA   Choi J.Y., Muallem D., Kiselyov K., Lee M.G., Thomas P.J., Muallem S.;
+RT   "Aberrant CFTR-dependent HCO3- transport in mutations associated with
+RT   cystic fibrosis.";
+RL   Nature 410:94-97(2001).
+RN   [125]
+RP   VARIANTS CF THR-148; PHE-508 DEL; 890-GLN--LEU-1480 DEL; 1023-ILE-VAL-1024
+RP   DEL AND LYS-1303.
+RX   PubMed=12394343; DOI=10.1097/00125817-200209000-00001;
+RA   Rohlfs E.M., Zhou Z., Sugarman E.A., Heim R.A., Pace R.G., Knowles M.R.,
+RA   Silverman L.M., Allitto B.A.;
+RT   "The I148T CFTR allele occurs on multiple haplotypes: a complex allele is
+RT   associated with cystic fibrosis.";
+RL   Genet. Med. 4:319-323(2002).
+RN   [126]
+RP   VARIANT CF LEU-693.
+RX   PubMed=12167682; DOI=10.1056/nejmoa011899;
+RA   Groman J.D., Meyer M.E., Wilmott R.W., Zeitlin P.L., Cutting G.R.;
+RT   "Variant cystic fibrosis phenotypes in the absence of CFTR mutations.";
+RL   N. Engl. J. Med. 347:401-407(2002).
+RN   [127]
+RP   CHARACTERIZATION OF VARIANT CF TYR-287 AND PHE-508 DEL, SUBCELLULAR
+RP   LOCATION, FUNCTION, TRANSPORTER ACTIVITY, AND GLYCOSYLATION.
+RX   PubMed=12529365; DOI=10.1074/jbc.m212843200;
+RA   Silvis M.R., Picciano J.A., Bertrand C., Weixel K., Bridges R.J.,
+RA   Bradbury N.A.;
+RT   "A mutation in the cystic fibrosis transmembrane conductance regulator
+RT   generates a novel internalization sequence and enhances endocytic rates.";
+RL   J. Biol. Chem. 278:11554-11560(2003).
+RN   [128]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL, SUBCELLULAR LOCATION, FUNCTION,
+RP   AND TISSUE SPECIFICITY.
+RX   PubMed=15716351; DOI=10.1091/mbc.e04-11-1010;
+RA   Kreda S.M., Mall M., Mengos A., Rochelle L., Yankaskas J., Riordan J.R.,
+RA   Boucher R.C.;
+RT   "Characterization of wild-type and deltaF508 cystic fibrosis transmembrane
+RT   regulator in human respiratory epithelia.";
+RL   Mol. Biol. Cell 16:2154-2167(2005).
+RN   [129]
+RP   CHARACTERIZATION OF VARIANTS CF PHE-508 DEL; THR-560; GLU-561 AND ILE-562.
+RX   PubMed=17098864; DOI=10.1073/pnas.0608312103;
+RA   Roxo-Rosa M., Xu Z., Schmidt A., Neto M., Cai Z., Soares C.M.,
+RA   Sheppard D.N., Amaral M.D.;
+RT   "Revertant mutants G550E and 4RK rescue cystic fibrosis mutants in the
+RT   first nucleotide-binding domain of CFTR by different mechanisms.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:17891-17896(2006).
+RN   [130]
+RP   CHARACTERIZATION OF VARIANT CF THR-148.
+RX   PubMed=16822950; DOI=10.1152/ajpcell.00088.2006;
+RA   Suaud L., Yan W., Rubenstein R.C.;
+RT   "Abnormal regulatory interactions of I148T-CFTR and the epithelial Na+
+RT   channel in Xenopus oocytes.";
+RL   Am. J. Physiol. 292:C603-C611(2007).
+RN   [131]
+RP   CHARACTERIZATION OF VARIANT CF LYS-1303, FUNCTION, TRANSPORTER ACTIVITY,
+RP   AND SUBCELLULAR LOCATION.
+RX   PubMed=17182731; DOI=10.1152/ajpcell.00064.2006;
+RA   Suaud L., Yan W., Carattino M.D., Robay A., Kleyman T.R., Rubenstein R.C.;
+RT   "Regulatory interactions of N1303K-CFTR and ENaC in Xenopus oocytes:
+RT   evidence that chloride transport is not necessary for inhibition of ENaC.";
+RL   Am. J. Physiol. 292:C1553-C1561(2007).
+RN   [132]
+RP   VARIANTS GLN-75 AND MET-470, AND VARIANTS CBAVD TRP-74; HIS-110; HIS-117;
+RP   HIS-170; TRP-206; ASP-232; TRP-334; TYR-443; PHE-508 DEL; VAL-556; ILE-562;
+RP   ALA-576; ASP-622; CYS-668; GLY-938; ILE-952; VAL-959; PHE-977; PHE-997;
+RP   CYS-1032; ARG-1069; HIS-1152; GLU-1153; ASN-1270; 1282-TRP--LEU-1480 DEL;
+RP   HIS-1352 AND 1473-GLU--LEU-1480 DEL.
+RX   PubMed=17329263; DOI=10.1093/humrep/dem024;
+RA   Ratbi I., Legendre M., Niel F., Martin J., Soufir J.C., Izard V.,
+RA   Costes B., Costa C., Goossens M., Girodon E.;
+RT   "Detection of cystic fibrosis transmembrane conductance regulator (CFTR)
+RT   gene rearrangements enriches the mutation spectrum in congenital bilateral
+RT   absence of the vas deferens and impacts on genetic counselling.";
+RL   Hum. Reprod. 22:1285-1291(2007).
+RN   [133]
+RP   VARIANT [LARGE SCALE ANALYSIS] MET-470.
+RX   PubMed=18987736; DOI=10.1038/nature07485;
+RA   Ley T.J., Mardis E.R., Ding L., Fulton B., McLellan M.D., Chen K.,
+RA   Dooling D., Dunford-Shore B.H., McGrath S., Hickenbotham M., Cook L.,
+RA   Abbott R., Larson D.E., Koboldt D.C., Pohl C., Smith S., Hawkins A.,
+RA   Abbott S., Locke D., Hillier L.W., Miner T., Fulton L., Magrini V.,
+RA   Wylie T., Glasscock J., Conyers J., Sander N., Shi X., Osborne J.R.,
+RA   Minx P., Gordon D., Chinwalla A., Zhao Y., Ries R.E., Payton J.E.,
+RA   Westervelt P., Tomasson M.H., Watson M., Baty J., Ivanovich J., Heath S.,
+RA   Shannon W.D., Nagarajan R., Walter M.J., Link D.C., Graubert T.A.,
+RA   DiPersio J.F., Wilson R.K.;
+RT   "DNA sequencing of a cytogenetically normal acute myeloid leukaemia
+RT   genome.";
+RL   Nature 456:66-72(2008).
+RN   [134]
+RP   VARIANTS CF 220-GLN--LEU-1480 DEL; MET-470; PHE-508 DEL; ILE-562 AND
+RP   GLU-1006.
+RX   PubMed=20691141; DOI=10.25011/cim.v33i4.14226;
+RA   Tomaiuolo A.C., Alghisi F., Petrocchi S., Surace C., Roberti M.C.,
+RA   Bella S., Lucidi V., Angioni A.;
+RT   "Clinical hallmarks and genetic polymorphisms in the CFTR gene contribute
+RT   to the disclosure of the A1006E mutation.";
+RL   Clin. Invest. Med. 33:E234-E239(2010).
+RN   [135]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL, INTERACTION WITH GORASP2,
+RP   SUBCELLULAR LOCATION, AND GLYCOSYLATION.
+RX   PubMed=21884936; DOI=10.1016/j.cell.2011.07.021;
+RA   Gee H.Y., Noh S.H., Tang B.L., Kim K.H., Lee M.G.;
+RT   "Rescue of DeltaF508-CFTR trafficking via a GRASP-dependent unconventional
+RT   secretion pathway.";
+RL   Cell 146:746-760(2011).
+RN   [136]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL.
+RX   PubMed=27241308; DOI=10.1016/j.jmb.2016.05.016;
+RA   Faure G., Bakouh N., Lourdel S., Odolczyk N., Premchandar A., Servel N.,
+RA   Hatton A., Ostrowski M.K., Xu H., Saul F.A., Moquereau C., Bitam S.,
+RA   Pranke I., Planelles G., Teulon J., Herrmann H., Roldan A.,
+RA   Zielenkiewicz P., Dadlez M., Lukacs G.L., Sermet-Gaudelus I., Ollero M.,
+RA   Corringer P.J., Edelman A.;
+RT   "Rattlesnake phospholipase A2 increases CFTR-chloride channel current and
+RT   corrects DelF508CFTR dysfunction: impact in cystic fibrosis.";
+RL   J. Mol. Biol. 428:2898-2915(2016).
+RN   [137]
+RP   CHARACTERIZATION OF VARIANT CF HIS-117, FUNCTION, TRANSPORTER ACTIVITY, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=26846474; DOI=10.1113/jp271723;
+RA   Yu Y.C., Sohma Y., Hwang T.C.;
+RT   "On the mechanism of gating defects caused by the R117H mutation in cystic
+RT   fibrosis transmembrane conductance regulator.";
+RL   J. Physiol. (Lond.) 594:3227-3244(2016).
+RN   [138]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL, SUBCELLULAR LOCATION, AND
+RP   MUTAGENESIS OF ILE-539.
+RX   PubMed=28001373; DOI=10.1021/acs.biochem.6b00853;
+RA   Zhang Z., Baksh M.M., Finn M.G., Heidary D.K., Richards C.I.;
+RT   "Direct measurement of trafficking of the cystic fibrosis transmembrane
+RT   conductance regulator to the cell surface and binding to a chemical
+RT   chaperone.";
+RL   Biochemistry 56:240-249(2017).
+RN   [139]
+RP   CHARACTERIZATION OF VARIANTS CF PHE-508 DEL AND ASP-551, SUBCELLULAR
+RP   LOCATION, FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=28087700; DOI=10.1074/jbc.m116.751537;
+RA   Meng X., Wang Y., Wang X., Wrennall J.A., Rimington T.L., Li H., Cai Z.,
+RA   Ford R.C., Sheppard D.N.;
+RT   "Two small molecules restore stability to a sub-population of the cystic
+RT   fibrosis transmembrane conductance regulator with the predominant disease-
+RT   causing mutation.";
+RL   J. Biol. Chem. 292:3706-3719(2017).
+RN   [140]
+RP   CHARACTERIZATION OF VARIANT CF PHE-508 DEL, AND SUBCELLULAR LOCATION.
+RX   PubMed=28067262; DOI=10.1038/srep39887;
+RA   Piao H., Kim J., Noh S.H., Kweon H.S., Kim J.Y., Lee M.G.;
+RT   "Sec16A is critical for both conventional and unconventional secretion of
+RT   CFTR.";
+RL   Sci. Rep. 7:39887-39887(2017).
+RN   [141]
+RP   VARIANT CF ASN-307, AND REVIEW.
+RX   PubMed=32026723; DOI=10.5144/0256-4947.2020.15;
+RA   Banjar H.H., Tuleimat L., El Seoudi A.A.A., Mogarri I., Alhaider S.,
+RA   Nizami I.Y., AlMaghamsi T., Alkaf S.A., Moghrabi N.;
+RT   "Genotype patterns for mutations of the cystic fibrosis transmembrane
+RT   conductance regulator gene: a retrospective descriptive study from Saudi
+RT   Arabia.";
+RL   Ann. Saudi Med. 40:15-24(2020).
+RN   [142]
+RP   VARIANT CF ASN-307, AND REVIEW.
+RX   PubMed=33572515; DOI=10.3390/genes12020206;
+RA   Bozdogan S.T., Mujde C., Boga I., Sonmezler O., Hanta A.,
+RA   Rencuzogullari C., Ozcan D., Altintas D.U., Bisgin A.;
+RT   "Current Status of Genetic Diagnosis Laboratories and Frequency of Genetic
+RT   Variants Associated with Cystic Fibrosis through a Newborn-Screening
+RT   Program in Turkey.";
+RL   Genes (Basel) 12:0-0(2021).
+CC   -!- FUNCTION: Epithelial ion channel that plays an important role in the
+CC       regulation of epithelial ion and water transport and fluid homeostasis
+CC       (PubMed:26823428). Mediates the transport of chloride ions across the
+CC       cell membrane (PubMed:10792060, PubMed:11524016, PubMed:11707463,
+CC       PubMed:12519745, PubMed:12529365, PubMed:12588899, PubMed:12727866,
+CC       PubMed:15010471, PubMed:17036051, PubMed:1712898, PubMed:17182731,
+CC       PubMed:19398555, PubMed:19621064, PubMed:22178883, PubMed:25330774,
+CC       PubMed:26846474, PubMed:28087700, PubMed:8910473, PubMed:9804160).
+CC       Possesses an intrinsic ATPase activity and utilizes ATP to gate its
+CC       channel; the passive flow of anions through the channel is gated by
+CC       cycles of ATP binding and hydrolysis by the ATP-binding domains
+CC       (PubMed:11524016, PubMed:15284228, PubMed:26627831, PubMed:8910473).
+CC       The ion channel is also permeable to HCO(3)(-); selectivity depends on
+CC       the extracellular chloride concentration (PubMed:15010471,
+CC       PubMed:19019741). In vitro, mediates ATP-dependent glutathione flux
+CC       (PubMed:12727866). Exerts its function also by modulating the activity
+CC       of other ion channels and transporters (PubMed:12403779,
+CC       PubMed:22121115, PubMed:22178883, PubMed:27941075). Plays an important
+CC       role in airway fluid homeostasis (PubMed:16645176, PubMed:19621064,
+CC       PubMed:26823428). Contributes to the regulation of the pH and the ion
+CC       content of the airway surface fluid layer and thereby plays an
+CC       important role in defense against pathogens (PubMed:14668433,
+CC       PubMed:16645176, PubMed:26823428). Modulates the activity of the
+CC       epithelial sodium channel (ENaC) complex, in part by regulating the
+CC       cell surface expression of the ENaC complex (PubMed:17182731,
+CC       PubMed:17434346, PubMed:27941075). Inhibits the activity of the ENaC
+CC       channel containing subunits SCNN1A, SCNN1B and SCNN1G
+CC       (PubMed:17182731). Inhibits the activity of the ENaC channel containing
+CC       subunits SCNN1D, SCNN1B and SCNN1G, but not of the ENaC channel
+CC       containing subunits SCNN1A, SCNN1B and SCNN1G (PubMed:17182731,
+CC       PubMed:27941075). May regulate bicarbonate secretion and salvage in
+CC       epithelial cells by regulating the transporter SLC4A7
+CC       (PubMed:12403779). Can inhibit the chloride channel activity of ANO1
+CC       (PubMed:22178883). Plays a role in the chloride and bicarbonate
+CC       homeostasis during sperm epididymal maturation and capacitation
+CC       (PubMed:19923167, PubMed:27714810, PubMed:29393851).
+CC       {ECO:0000269|PubMed:10792060, ECO:0000269|PubMed:11524016,
+CC       ECO:0000269|PubMed:11707463, ECO:0000269|PubMed:12403779,
+CC       ECO:0000269|PubMed:12519745, ECO:0000269|PubMed:12529365,
+CC       ECO:0000269|PubMed:12588899, ECO:0000269|PubMed:12727866,
+CC       ECO:0000269|PubMed:14668433, ECO:0000269|PubMed:15010471,
+CC       ECO:0000269|PubMed:15284228, ECO:0000269|PubMed:16645176,
+CC       ECO:0000269|PubMed:17036051, ECO:0000269|PubMed:1712898,
+CC       ECO:0000269|PubMed:17182731, ECO:0000269|PubMed:19019741,
+CC       ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:19621064,
+CC       ECO:0000269|PubMed:22178883, ECO:0000269|PubMed:25330774,
+CC       ECO:0000269|PubMed:26627831, ECO:0000269|PubMed:26823428,
+CC       ECO:0000269|PubMed:26846474, ECO:0000269|PubMed:27714810,
+CC       ECO:0000269|PubMed:27941075, ECO:0000269|PubMed:28087700,
+CC       ECO:0000269|PubMed:29393851, ECO:0000269|PubMed:8910473,
+CC       ECO:0000269|PubMed:9804160, ECO:0000305|PubMed:19923167}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + closed Cl(-) channel = ADP + phosphate + open
+CC         Cl(-) channel.; EC=5.6.1.6; Evidence={ECO:0000269|PubMed:11524016,
+CC         ECO:0000269|PubMed:15284228, ECO:0000269|PubMed:26627831,
+CC         ECO:0000269|PubMed:8910473};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:10792060,
+CC         ECO:0000269|PubMed:11524016, ECO:0000269|PubMed:11707463,
+CC         ECO:0000269|PubMed:12519745, ECO:0000269|PubMed:12529365,
+CC         ECO:0000269|PubMed:12588899, ECO:0000269|PubMed:12727866,
+CC         ECO:0000269|PubMed:15010471, ECO:0000269|PubMed:17036051,
+CC         ECO:0000269|PubMed:1712898, ECO:0000269|PubMed:17182731,
+CC         ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:19621064,
+CC         ECO:0000269|PubMed:22178883, ECO:0000269|PubMed:25330774,
+CC         ECO:0000269|PubMed:26846474, ECO:0000269|PubMed:28087700,
+CC         ECO:0000269|PubMed:8910473, ECO:0000269|PubMed:9804160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate(in) = hydrogencarbonate(out);
+CC         Xref=Rhea:RHEA:28695, ChEBI:CHEBI:17544;
+CC         Evidence={ECO:0000269|PubMed:15010471, ECO:0000269|PubMed:19019741};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000269|PubMed:11524016, ECO:0000269|PubMed:15284228,
+CC         ECO:0000269|PubMed:26627831, ECO:0000269|PubMed:8910473};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:13066;
+CC         Evidence={ECO:0000269|PubMed:8910473};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.47 mM for glutathione (in the presence of MgAMP-PNP)
+CC         {ECO:0000269|PubMed:12727866};
+CC         Vmax=612 pmol/h/ug enzyme (in the presence of MgAMP-PNP)
+CC         {ECO:0000269|PubMed:12727866};
+CC   -!- SUBUNIT: Monomer; does not require oligomerization for channel activity
+CC       (PubMed:11524016). May form oligomers in the membrane
+CC       (PubMed:11524016). Interacts with SLC26A3, SLC26A6 and SHANK2 (By
+CC       similarity). Interacts with NHERF1 and MYO6 (PubMed:11304524,
+CC       PubMed:12403779, PubMed:15247260). Interacts (via C-terminus) with GOPC
+CC       (via PDZ domain); this promotes CFTR internalization and thereby
+CC       decreases channel activity (PubMed:11707463, PubMed:16331976).
+CC       Interacts with SLC4A7 through NHERF1 (PubMed:12403779). Found in a
+CC       complex with MYO5B and RAB11A (PubMed:17462998). Interacts with ANO1
+CC       (PubMed:22178883). Interacts with SLC26A8 (PubMed:22121115). Interacts
+CC       with AHCYL1; the interaction increases CFTR activity (By similarity).
+CC       Interacts with CSE1L (PubMed:20933420). The core-glycosylated form
+CC       interacts with GORASP2 (via PDZ GRASP-type 1 domain) in respone to ER
+CC       stress (PubMed:21884936). Interacts with MARCHF2; the interaction leads
+CC       to CFTR ubiqtuitination and degradation (PubMed:23818989). Interacts
+CC       with ADGRG2 (PubMed:29393851). {ECO:0000250|UniProtKB:P26361,
+CC       ECO:0000250|UniProtKB:P34158, ECO:0000269|PubMed:11304524,
+CC       ECO:0000269|PubMed:11524016, ECO:0000269|PubMed:11707463,
+CC       ECO:0000269|PubMed:12403779, ECO:0000269|PubMed:15247260,
+CC       ECO:0000269|PubMed:16331976, ECO:0000269|PubMed:17462998,
+CC       ECO:0000269|PubMed:20933420, ECO:0000269|PubMed:21884936,
+CC       ECO:0000269|PubMed:22121115, ECO:0000269|PubMed:22178883,
+CC       ECO:0000269|PubMed:23818989, ECO:0000269|PubMed:29393851}.
+CC   -!- INTERACTION:
+CC       P13569; Q6UWZ7: ABRAXAS1; NbExp=3; IntAct=EBI-349854, EBI-1263451;
+CC       P13569; Q96QU6: ACCS; NbExp=3; IntAct=EBI-349854, EBI-743387;
+CC       P13569; O14734: ACOT8; NbExp=3; IntAct=EBI-349854, EBI-1237371;
+CC       P13569; P60709: ACTB; NbExp=6; IntAct=EBI-349854, EBI-353944;
+CC       P13569; O43865: AHCYL1; NbExp=7; IntAct=EBI-349854, EBI-2371423;
+CC       P13569; O95154: AKR7A3; NbExp=4; IntAct=EBI-349854, EBI-748869;
+CC       P13569; P09972: ALDOC; NbExp=8; IntAct=EBI-349854, EBI-2952751;
+CC       P13569; Q9BT30: ALKBH7; NbExp=4; IntAct=EBI-349854, EBI-2878075;
+CC       P13569; Q9NP61: ARFGAP3; NbExp=8; IntAct=EBI-349854, EBI-2875816;
+CC       P13569; P16615-1: ATP2A2; NbExp=6; IntAct=EBI-349854, EBI-11613988;
+CC       P13569; P51572: BCAP31; NbExp=9; IntAct=EBI-349854, EBI-77683;
+CC       P13569; A1A5D9: BICDL2; NbExp=3; IntAct=EBI-349854, EBI-10171799;
+CC       P13569; Q9H7E9: C8orf33; NbExp=5; IntAct=EBI-349854, EBI-715389;
+CC       P13569; P62158: CALM3; NbExp=18; IntAct=EBI-349854, EBI-397435;
+CC       P13569; O43852-1: CALU; NbExp=2; IntAct=EBI-349854, EBI-5280679;
+CC       P13569; P27824: CANX; NbExp=26; IntAct=EBI-349854, EBI-355947;
+CC       P13569; Q01518: CAP1; NbExp=14; IntAct=EBI-349854, EBI-2808398;
+CC       P13569; P07384: CAPN1; NbExp=7; IntAct=EBI-349854, EBI-1542113;
+CC       P13569; P47756: CAPZB; NbExp=23; IntAct=EBI-349854, EBI-353595;
+CC       P13569; O14936: CASK; NbExp=4; IntAct=EBI-349854, EBI-1215506;
+CC       P13569; Q9Y3X0: CCDC9; NbExp=4; IntAct=EBI-349854, EBI-2557532;
+CC       P13569; Q53EZ4: CEP55; NbExp=5; IntAct=EBI-349854, EBI-747776;
+CC       P13569; Q8NCH0: CHST14; NbExp=3; IntAct=EBI-349854, EBI-21717278;
+CC       P13569; P51790-2: CLCN3; NbExp=2; IntAct=EBI-349854, EBI-25495635;
+CC       P13569; O00299: CLIC1; NbExp=15; IntAct=EBI-349854, EBI-347404;
+CC       P13569; Q13057: COASY; NbExp=7; IntAct=EBI-349854, EBI-745967;
+CC       P13569; Q9Y678: COPG1; NbExp=21; IntAct=EBI-349854, EBI-1049127;
+CC       P13569; P29762: CRABP1; NbExp=4; IntAct=EBI-349854, EBI-725950;
+CC       P13569; Q96BA8: CREB3L1; NbExp=3; IntAct=EBI-349854, EBI-6942903;
+CC       P13569; Q14406: CSHL1; NbExp=3; IntAct=EBI-349854, EBI-21022791;
+CC       P13569; Q13616: CUL1; NbExp=7; IntAct=EBI-349854, EBI-359390;
+CC       P13569; Q8N8Q1: CYB561D1; NbExp=3; IntAct=EBI-349854, EBI-12873482;
+CC       P13569; Q6PI48: DARS2; NbExp=5; IntAct=EBI-349854, EBI-3917045;
+CC       P13569; Q96HY6: DDRGK1; NbExp=4; IntAct=EBI-349854, EBI-1054024;
+CC       P13569; Q9NUU7: DDX19A; NbExp=9; IntAct=EBI-349854, EBI-740301;
+CC       P13569; Q9UHI6: DDX20; NbExp=5; IntAct=EBI-349854, EBI-347658;
+CC       P13569; Q9BUN8: DERL1; NbExp=8; IntAct=EBI-349854, EBI-398977;
+CC       P13569; Q7L2E3: DHX30; NbExp=5; IntAct=EBI-349854, EBI-1211456;
+CC       P13569; Q8TBM8: DNAJB14; NbExp=3; IntAct=EBI-349854, EBI-2689808;
+CC       P13569; Q96KC8: DNAJC1; NbExp=7; IntAct=EBI-349854, EBI-296550;
+CC       P13569; Q9Y295: DRG1; NbExp=9; IntAct=EBI-349854, EBI-719554;
+CC       P13569; P60981: DSTN; NbExp=16; IntAct=EBI-349854, EBI-745191;
+CC       P13569; O60869: EDF1; NbExp=3; IntAct=EBI-349854, EBI-781301;
+CC       P13569; P07099: EPHX1; NbExp=5; IntAct=EBI-349854, EBI-6138796;
+CC       P13569; Q6P6B1: ERICH5; NbExp=4; IntAct=EBI-349854, EBI-11343491;
+CC       P13569; P13804: ETFA; NbExp=7; IntAct=EBI-349854, EBI-1052886;
+CC       P13569; Q0VG06: FAAP100; NbExp=4; IntAct=EBI-349854, EBI-2557990;
+CC       P13569; Q9NYY8: FASTKD2; NbExp=5; IntAct=EBI-349854, EBI-1055752;
+CC       P13569; Q14314: FGL2; NbExp=6; IntAct=EBI-349854, EBI-21370828;
+CC       P13569; Q14192: FHL2; NbExp=10; IntAct=EBI-349854, EBI-701903;
+CC       P13569; O75344: FKBP6; NbExp=4; IntAct=EBI-349854, EBI-744771;
+CC       P13569; Q9UJY5: GGA1; NbExp=6; IntAct=EBI-349854, EBI-447141;
+CC       P13569; P62879: GNB2; NbExp=12; IntAct=EBI-349854, EBI-356942;
+CC       P13569; Q9HD26: GOPC; NbExp=10; IntAct=EBI-349854, EBI-349832;
+CC       P13569; Q9H8Y8: GORASP2; NbExp=6; IntAct=EBI-349854, EBI-739467;
+CC       P13569; P07203: GPX1; NbExp=3; IntAct=EBI-349854, EBI-7209024;
+CC       P13569; P0CG30: GSTT2B; NbExp=4; IntAct=EBI-349854, EBI-13572836;
+CC       P13569; Q9P035: HACD3; NbExp=15; IntAct=EBI-349854, EBI-359013;
+CC       P13569; Q9BX68: HINT2; NbExp=3; IntAct=EBI-349854, EBI-8523143;
+CC       P13569; P19367: HK1; NbExp=5; IntAct=EBI-349854, EBI-713162;
+CC       P13569; O75330: HMMR; NbExp=7; IntAct=EBI-349854, EBI-2556203;
+CC       P13569; P10809: HSPD1; NbExp=24; IntAct=EBI-349854, EBI-352528;
+CC       P13569; O15554: KCNN4; NbExp=5; IntAct=EBI-349854, EBI-2924473;
+CC       P13569; O94889: KLHL18; NbExp=3; IntAct=EBI-349854, EBI-2510096;
+CC       P13569; O15131: KPNA5; NbExp=4; IntAct=EBI-349854, EBI-540602;
+CC       P13569; P05787: KRT8; NbExp=11; IntAct=EBI-349854, EBI-297852;
+CC       P13569; Q08380: LGALS3BP; NbExp=18; IntAct=EBI-349854, EBI-354956;
+CC       P13569; Q9HBW0: LPAR2; NbExp=3; IntAct=EBI-349854, EBI-765995;
+CC       P13569; P33241: LSP1; NbExp=4; IntAct=EBI-349854, EBI-9060697;
+CC       P13569; Q9HCC0: MCCC2; NbExp=5; IntAct=EBI-349854, EBI-2211296;
+CC       P13569; P08582: MELTF; NbExp=7; IntAct=EBI-349854, EBI-7172128;
+CC       P13569; Q92552: MRPS27; NbExp=5; IntAct=EBI-349854, EBI-2211879;
+CC       P13569; Q96S97: MYADM; NbExp=3; IntAct=EBI-349854, EBI-13301517;
+CC       P13569; P41227: NAA10; NbExp=5; IntAct=EBI-349854, EBI-747693;
+CC       P13569; O14745: NHERF1; NbExp=26; IntAct=EBI-349854, EBI-349787;
+CC       P13569; Q15599: NHERF2; NbExp=28; IntAct=EBI-349854, EBI-1149760;
+CC       P13569; Q9NZM5: NOP53; NbExp=4; IntAct=EBI-349854, EBI-720156;
+CC       P13569; Q9BVG4: PBDC1; NbExp=3; IntAct=EBI-349854, EBI-722092;
+CC       P13569; P08559: PDHA1; NbExp=5; IntAct=EBI-349854, EBI-715747;
+CC       P13569; P30101: PDIA3; NbExp=12; IntAct=EBI-349854, EBI-979862;
+CC       P13569; Q5T2W1: PDZK1; NbExp=3; IntAct=EBI-349854, EBI-349819;
+CC       P13569; O60831: PRAF2; NbExp=4; IntAct=EBI-349854, EBI-2506064;
+CC       P13569; P55036: PSMD4; NbExp=13; IntAct=EBI-349854, EBI-359318;
+CC       P13569; P26599: PTBP1; NbExp=13; IntAct=EBI-349854, EBI-350540;
+CC       P13569; O75127: PTCD1; NbExp=3; IntAct=EBI-349854, EBI-2560233;
+CC       P13569; Q96PK6: RBM14; NbExp=13; IntAct=EBI-349854, EBI-954272;
+CC       P13569; Q99942: RNF5; NbExp=8; IntAct=EBI-349854, EBI-348482;
+CC       P13569; Q7Z5V6: SAXO4; NbExp=3; IntAct=EBI-349854, EBI-4311771;
+CC       P13569; O15126: SCAMP1; NbExp=7; IntAct=EBI-349854, EBI-954338;
+CC       P13569; P31040: SDHA; NbExp=15; IntAct=EBI-349854, EBI-1057265;
+CC       P13569; Q9P0V3: SH3BP4; NbExp=4; IntAct=EBI-349854, EBI-1049513;
+CC       P13569; P29353: SHC1; NbExp=6; IntAct=EBI-349854, EBI-78835;
+CC       P13569; Q96RN1: SLC26A8; NbExp=2; IntAct=EBI-349854, EBI-1792052;
+CC       P13569; O00400: SLC33A1; NbExp=6; IntAct=EBI-349854, EBI-11135403;
+CC       P13569; P63162: SNRPN; NbExp=6; IntAct=EBI-349854, EBI-712493;
+CC       P13569; Q9UHB9: SRP68; NbExp=7; IntAct=EBI-349854, EBI-1048560;
+CC       P13569; Q9NSC7: ST6GALNAC1; NbExp=5; IntAct=EBI-349854, EBI-2854712;
+CC       P13569; O95793: STAU1; NbExp=13; IntAct=EBI-349854, EBI-358174;
+CC       P13569; Q9P289: STK26; NbExp=6; IntAct=EBI-349854, EBI-618239;
+CC       P13569; Q92734: TFG; NbExp=7; IntAct=EBI-349854, EBI-357061;
+CC       P13569; Q96Q45: TMEM237; NbExp=4; IntAct=EBI-349854, EBI-2602465;
+CC       P13569; Q8WWA1: TMEM40; NbExp=9; IntAct=EBI-349854, EBI-39962964;
+CC       P13569; O14545: TRAFD1; NbExp=9; IntAct=EBI-349854, EBI-1396921;
+CC       P13569; P19474: TRIM21; NbExp=24; IntAct=EBI-349854, EBI-81290;
+CC       P13569; Q13049: TRIM32; NbExp=5; IntAct=EBI-349854, EBI-742790;
+CC       P13569; Q9C035: TRIM5; NbExp=3; IntAct=EBI-349854, EBI-924214;
+CC       P13569; Q13432: UNC119; NbExp=4; IntAct=EBI-349854, EBI-711260;
+CC       P13569; Q14694: USP10; NbExp=7; IntAct=EBI-349854, EBI-2510389;
+CC       P13569; O94966: USP19; NbExp=6; IntAct=EBI-349854, EBI-2511895;
+CC       P13569; Q9BXU7: USP26; NbExp=4; IntAct=EBI-349854, EBI-1641713;
+CC       P13569; Q9P0L0: VAPA; NbExp=13; IntAct=EBI-349854, EBI-1059156;
+CC       P13569; O95292: VAPB; NbExp=12; IntAct=EBI-349854, EBI-1188298;
+CC       P13569; P45880: VDAC2; NbExp=10; IntAct=EBI-349854, EBI-354022;
+CC       P13569; Q9UN37: VPS4A; NbExp=9; IntAct=EBI-349854, EBI-1171942;
+CC       P13569; Q9UEU0: VTI1B; NbExp=10; IntAct=EBI-349854, EBI-723716;
+CC       P13569; O00308: WWP2; NbExp=3; IntAct=EBI-349854, EBI-743923;
+CC       P13569; Q8WTP9: XAGE3; NbExp=4; IntAct=EBI-349854, EBI-6448284;
+CC       P13569; Q9BYJ9: YTHDF1; NbExp=5; IntAct=EBI-349854, EBI-1051237;
+CC       P13569; P17026: ZNF22; NbExp=2; IntAct=EBI-349854, EBI-20803387;
+CC       P13569; P19120: HSPA8; Xeno; NbExp=2; IntAct=EBI-349854, EBI-907802;
+CC       P13569; Q9QX74: Shank2; Xeno; NbExp=3; IntAct=EBI-349854, EBI-397902;
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000269|PubMed:12519745, ECO:0000269|PubMed:12529365,
+CC       ECO:0000269|PubMed:1284548, ECO:0000269|PubMed:15247260,
+CC       ECO:0000269|PubMed:15716351, ECO:0000269|PubMed:17462998,
+CC       ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:19621064,
+CC       ECO:0000269|PubMed:20008117, ECO:0000269|PubMed:22207244,
+CC       ECO:0000269|PubMed:28130590}; Multi-pass membrane protein
+CC       {ECO:0000269|Ref.57}. Early endosome membrane
+CC       {ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:20008117}; Multi-pass
+CC       membrane protein {ECO:0000269|Ref.57}. Cell membrane
+CC       {ECO:0000269|PubMed:10792060, ECO:0000269|PubMed:11524016,
+CC       ECO:0000269|PubMed:11707463, ECO:0000269|PubMed:12588899,
+CC       ECO:0000269|PubMed:15010471, ECO:0000269|PubMed:17036051,
+CC       ECO:0000269|PubMed:1712898, ECO:0000269|PubMed:17182731,
+CC       ECO:0000269|PubMed:19019741, ECO:0000269|PubMed:19398555,
+CC       ECO:0000269|PubMed:21884936, ECO:0000269|PubMed:22178883,
+CC       ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:26846474,
+CC       ECO:0000269|PubMed:28001373, ECO:0000269|PubMed:28067262,
+CC       ECO:0000269|PubMed:28087700, ECO:0000269|PubMed:28130590,
+CC       ECO:0000269|PubMed:9804160, ECO:0000305|PubMed:8910473}; Multi-pass
+CC       membrane protein {ECO:0000269|Ref.57}. Recycling endosome membrane
+CC       {ECO:0000305|PubMed:17462998}; Multi-pass membrane protein
+CC       {ECO:0000269|Ref.57}. Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:11707463, ECO:0000269|PubMed:25330774}; Multi-pass
+CC       membrane protein {ECO:0000269|Ref.57}. Nucleus
+CC       {ECO:0000250|UniProtKB:P34158}. Note=The channel is internalized from
+CC       the cell surface into an endosomal recycling compartment, from where it
+CC       is recycled to the cell membrane (PubMed:17462998, PubMed:19398555,
+CC       PubMed:20008117). In the oviduct and bronchus, detected on the apical
+CC       side of epithelial cells, but not associated with cilia
+CC       (PubMed:22207244). In Sertoli cells, a processed product is detected in
+CC       the nucleus (By similarity). ER stress induces GORASP2-mediated
+CC       unconventional (ER/Golgi-independent) trafficking of core-glycosylated
+CC       CFTR to cell membrane (PubMed:21884936). {ECO:0000250|UniProtKB:P34158,
+CC       ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:20008117,
+CC       ECO:0000269|PubMed:21884936, ECO:0000269|PubMed:22207244,
+CC       ECO:0000305|PubMed:17462998}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=P13569-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P13569-2; Sequence=VSP_022123;
+CC       Name=3;
+CC         IsoId=P13569-3; Sequence=VSP_022124, VSP_022125;
+CC   -!- TISSUE SPECIFICITY: Expressed in the respiratory airway, including
+CC       bronchial epithelium, and in the female reproductive tract, including
+CC       oviduct (at protein level) (PubMed:15716351, PubMed:22207244). Detected
+CC       in pancreatic intercalated ducts in the exocrine tissue, on epithelial
+CC       cells in intralobular striated ducts in sublingual salivary glands, on
+CC       apical membranes of crypt cells throughout the small and large
+CC       intestine, and on the reabsorptive duct in eccrine sweat glands
+CC       (PubMed:1284548, PubMed:28130590). Detected on the equatorial segment
+CC       of the sperm head (at protein level) (PubMed:19923167). Detected in
+CC       nasal and bronchial superficial epithelium (PubMed:15716351). Expressed
+CC       by the central cells on the sebaceous glands, dermal adipocytes and, at
+CC       lower levels, by epithelial cells (PubMed:28130590).
+CC       {ECO:0000269|PubMed:1284548, ECO:0000269|PubMed:15716351,
+CC       ECO:0000269|PubMed:19923167, ECO:0000269|PubMed:22207244,
+CC       ECO:0000269|PubMed:28130590}.
+CC   -!- DOMAIN: Binds and hydrolyzes ATP via the two cytoplasmic ABC
+CC       transporter nucleotide-binding domains (PubMed:15284228). The two ATP-
+CC       binding domains interact with each other, forming a head-to-tail dimer
+CC       (PubMed:17036051). Normal ATPase activity requires interaction between
+CC       the two domains (PubMed:15284228). The first ABC transporter
+CC       nucleotide-binding domain has no ATPase activity by itself (By
+CC       similarity). {ECO:0000250|UniProtKB:P26361,
+CC       ECO:0000269|PubMed:15284228, ECO:0000269|PubMed:17036051}.
+CC   -!- DOMAIN: The PDZ-binding motif mediates interactions with GOPC and with
+CC       the SLC4A7, NHERF1/EBP50 complex. {ECO:0000269|PubMed:11304524,
+CC       ECO:0000269|PubMed:11707463, ECO:0000269|PubMed:16331976}.
+CC   -!- DOMAIN: The R region is intrinsically disordered (PubMed:10792060,
+CC       PubMed:17660831). It mediates channel activation when it is
+CC       phosphorylated, but not in the absence of phosphorylation
+CC       (PubMed:10792060). {ECO:0000269|PubMed:10792060,
+CC       ECO:0000269|PubMed:17660831}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:12529365,
+CC       ECO:0000269|PubMed:1699669, ECO:0000269|PubMed:20008117,
+CC       ECO:0000269|PubMed:21884936, ECO:0000269|PubMed:28067262}.
+CC   -!- PTM: Phosphorylated; cAMP treatment promotes phosphorylation and
+CC       activates the channel (PubMed:12588899, PubMed:17036051,
+CC       PubMed:8910473). Dephosphorylation decreases the ATPase activity (in
+CC       vitro) (PubMed:8910473). Phosphorylation at PKA sites activates the
+CC       channel (PubMed:10792060, PubMed:12519745, PubMed:12588899,
+CC       PubMed:25330774). Phosphorylation at PKC sites enhances the response to
+CC       phosphorylation by PKA (PubMed:12588899). Phosphorylated by AMPK; this
+CC       inhibits channel activity (PubMed:12519745).
+CC       {ECO:0000269|PubMed:10792060, ECO:0000269|PubMed:12519745,
+CC       ECO:0000269|PubMed:12588899, ECO:0000269|PubMed:1377674,
+CC       ECO:0000269|PubMed:17036051, ECO:0000269|PubMed:22119790,
+CC       ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:8910473,
+CC       ECO:0000269|PubMed:9385646}.
+CC   -!- PTM: Ubiquitinated, leading to its degradation in the lysosome
+CC       (PubMed:19398555, PubMed:23818989). Deubiquitination by USP10 in early
+CC       endosomes enhances its endocytic recycling to the cell membrane
+CC       (PubMed:19398555). Ubiquitinated by RNF185 during ER stress
+CC       (PubMed:24019521). Ubiquitinated by MARCHF2 (PubMed:23818989).
+CC       {ECO:0000269|PubMed:19398555, ECO:0000269|PubMed:22119790,
+CC       ECO:0000269|PubMed:23818989, ECO:0000269|PubMed:24019521}.
+CC   -!- DISEASE: Cystic fibrosis (CF) [MIM:219700]: A common generalized
+CC       disorder of the exocrine glands which impairs clearance of secretions
+CC       in a variety of organs. It is characterized by the triad of chronic
+CC       bronchopulmonary disease (with recurrent respiratory infections),
+CC       pancreatic insufficiency (which leads to malabsorption and growth
+CC       retardation) and elevated sweat electrolytes. It is the most common
+CC       genetic disease in Caucasians, with a prevalence of about 1 in 2'000
+CC       live births. Inheritance is autosomal recessive.
+CC       {ECO:0000269|PubMed:10094564, ECO:0000269|PubMed:10869121,
+CC       ECO:0000269|PubMed:10923036, ECO:0000269|PubMed:11242048,
+CC       ECO:0000269|PubMed:12167682, ECO:0000269|PubMed:12394343,
+CC       ECO:0000269|PubMed:12529365, ECO:0000269|PubMed:1284466,
+CC       ECO:0000269|PubMed:1284468, ECO:0000269|PubMed:1284529,
+CC       ECO:0000269|PubMed:1284530, ECO:0000269|PubMed:1284548,
+CC       ECO:0000269|PubMed:1379210, ECO:0000269|PubMed:15528182,
+CC       ECO:0000269|PubMed:15716351, ECO:0000269|PubMed:16822950,
+CC       ECO:0000269|PubMed:1695717, ECO:0000269|PubMed:1699669,
+CC       ECO:0000269|PubMed:17098864, ECO:0000269|PubMed:1710600,
+CC       ECO:0000269|PubMed:1712898, ECO:0000269|PubMed:17182731,
+CC       ECO:0000269|PubMed:20008117, ECO:0000269|PubMed:20150177,
+CC       ECO:0000269|PubMed:20691141, ECO:0000269|PubMed:21884936,
+CC       ECO:0000269|PubMed:2236053, ECO:0000269|PubMed:23818989,
+CC       ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:26846474,
+CC       ECO:0000269|PubMed:27241308, ECO:0000269|PubMed:28001373,
+CC       ECO:0000269|PubMed:28067262, ECO:0000269|PubMed:28087700,
+CC       ECO:0000269|PubMed:32026723, ECO:0000269|PubMed:33572515,
+CC       ECO:0000269|PubMed:7504969, ECO:0000269|PubMed:7505694,
+CC       ECO:0000269|PubMed:7505767, ECO:0000269|PubMed:7508414,
+CC       ECO:0000269|PubMed:7513296, ECO:0000269|PubMed:7517264,
+CC       ECO:0000269|PubMed:7520022, ECO:0000269|PubMed:7522211,
+CC       ECO:0000269|PubMed:7524909, ECO:0000269|PubMed:7524913,
+CC       ECO:0000269|PubMed:7525450, ECO:0000269|PubMed:7537150,
+CC       ECO:0000269|PubMed:7541273, ECO:0000269|PubMed:7541510,
+CC       ECO:0000269|PubMed:7543567, ECO:0000269|PubMed:7544319,
+CC       ECO:0000269|PubMed:7581407, ECO:0000269|PubMed:7606851,
+CC       ECO:0000269|PubMed:7680525, ECO:0000269|PubMed:7683628,
+CC       ECO:0000269|PubMed:7683954, ECO:0000269|PubMed:8081395,
+CC       ECO:0000269|PubMed:8406518, ECO:0000269|PubMed:8522333,
+CC       ECO:0000269|PubMed:8723693, ECO:0000269|PubMed:8723695,
+CC       ECO:0000269|PubMed:8800923, ECO:0000269|PubMed:8829633,
+CC       ECO:0000269|PubMed:8910473, ECO:0000269|PubMed:8956039,
+CC       ECO:0000269|PubMed:9101301, ECO:0000269|PubMed:9222768,
+CC       ECO:0000269|PubMed:9375855, ECO:0000269|PubMed:9401006,
+CC       ECO:0000269|PubMed:9443874, ECO:0000269|PubMed:9452048,
+CC       ECO:0000269|PubMed:9452054, ECO:0000269|PubMed:9452073,
+CC       ECO:0000269|PubMed:9482579, ECO:0000269|PubMed:9507391,
+CC       ECO:0000269|PubMed:9521595, ECO:0000269|PubMed:9554753,
+CC       ECO:0000269|PubMed:9736778, ECO:0000269|PubMed:9804160,
+CC       ECO:0000269|PubMed:9921909}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry. There is some evidence
+CC       that the functional defect caused by the most common variant Phe-508
+CC       DEL can be corrected by the binding to the snake phospholipase A2
+CC       crotoxin basic subunit CB. This toxin both disrupts the Phe-508 DEL-
+CC       cytokeratin 8 complex, allowing for the escape from degradation, and
+CC       increases the chloride channel current (PubMed:27241308).
+CC       {ECO:0000269|PubMed:27241308}.
+CC   -!- DISEASE: Congenital bilateral absence of the vas deferens (CBAVD)
+CC       [MIM:277180]: An autosomal recessive disease characterized by vas
+CC       deferens aplasia resulting in azoospermia and male infertility. CBAVD
+CC       may occur in isolation or as a manifestation of cystic fibrosis.
+CC       {ECO:0000269|PubMed:10066035, ECO:0000269|PubMed:10651488,
+CC       ECO:0000269|PubMed:17329263, ECO:0000269|PubMed:7529962,
+CC       ECO:0000269|PubMed:7539342, ECO:0000269|PubMed:9067761,
+CC       ECO:0000269|PubMed:9736778, ECO:0000269|Ref.118}. Note=The disease is
+CC       caused by variants affecting the gene represented in this entry.
+CC   -!- MISCELLANEOUS: [Isoform 2]: Exon 9 splicing depends upon 2 polymorphic
+CC       tracts within intron 8, a T(n) tract and TG(n) tract, where the number
+CC       of T and/or TG repeats affect the extent of correct splicing of exon 9.
+CC       Low numbers of T residues and high numbers of TG repeats give rise to
+CC       less efficient splicing. Transcripts that lack exon 9 sequences fail to
+CC       mature. Causes congenital bilateral absence of the vas deferens
+CC       (CBAVD). {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 3]: Alternative acceptor site favored by
+CC       mutation in an exonic splicing enhancer (ESE). Causes cystic fibrosis
+CC       (CF). {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCC family.
+CC       CFTR transporter (TC 3.A.1.202) subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=CFTR entry;
+CC       URL="https://en.wikipedia.org/wiki/Cystic_fibrosis_transmembrane_conductance_regulator";
+CC   -!- WEB RESOURCE: Name=ABCMdb; Note=Database for mutations in ABC proteins;
+CC       URL="http://abcm2.hegelab.org/search";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M28668; AAA35680.1; -; mRNA.
+DR   EMBL; M55131; AAC13657.1; -; Genomic_DNA.
+DR   EMBL; M55106; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55107; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55108; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55110; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55111; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55112; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55113; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55114; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55115; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55116; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55117; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55118; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55119; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55120; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55121; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55122; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55123; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55124; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55125; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55126; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55127; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55128; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55129; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; M55130; AAC13657.1; JOINED; Genomic_DNA.
+DR   EMBL; DQ354388; ABC79050.1; -; Genomic_DNA.
+DR   EMBL; DQ354389; ABC79052.1; -; Genomic_DNA.
+DR   EMBL; DQ354390; ABC79054.1; -; Genomic_DNA.
+DR   EMBL; DQ354391; ABC79056.1; -; Genomic_DNA.
+DR   EMBL; DQ356258; ABC87055.1; -; Genomic_DNA.
+DR   EMBL; DQ356259; ABC87057.1; -; Genomic_DNA.
+DR   EMBL; DQ356261; ABC87061.1; -; Genomic_DNA.
+DR   EMBL; DQ356262; ABC87063.1; -; Genomic_DNA.
+DR   EMBL; DQ356263; ABC87065.1; -; Genomic_DNA.
+DR   EMBL; DQ356264; ABC87067.1; -; Genomic_DNA.
+DR   EMBL; DQ388128; ABD72183.1; -; Genomic_DNA.
+DR   EMBL; DQ388129; ABD72185.1; -; Genomic_DNA.
+DR   EMBL; DQ388131; ABD72189.1; -; Genomic_DNA.
+DR   EMBL; DQ388132; ABD72191.1; -; Genomic_DNA.
+DR   EMBL; DQ388133; ABD72193.1; -; Genomic_DNA.
+DR   EMBL; DQ388134; ABD72195.1; -; Genomic_DNA.
+DR   EMBL; DQ388135; ABD72197.1; -; Genomic_DNA.
+DR   EMBL; DQ388138; ABD72203.1; -; Genomic_DNA.
+DR   EMBL; DQ388139; ABD72205.1; -; Genomic_DNA.
+DR   EMBL; DQ388140; ABD72207.1; -; Genomic_DNA.
+DR   EMBL; DQ388141; ABD72209.1; -; Genomic_DNA.
+DR   EMBL; DQ388142; ABD72211.1; -; Genomic_DNA.
+DR   EMBL; DQ388143; ABD72213.1; -; Genomic_DNA.
+DR   EMBL; DQ388145; ABD72217.1; -; Genomic_DNA.
+DR   EMBL; AC000061; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC000111; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH236947; EAL24353.1; -; Genomic_DNA.
+DR   EMBL; M65196; AAA51979.1; -; Genomic_DNA.
+DR   EMBL; M65197; AAA51980.1; -; Genomic_DNA.
+DR   CCDS; CCDS5773.1; -. [P13569-1]
+DR   PIR; A39069; DVHUCF.
+DR   RefSeq; NP_000483.3; NM_000492.3. [P13569-1]
+DR   PDB; 1XMI; X-ray; 2.25 A; A/B/C/D/E=389-678.
+DR   PDB; 1XMJ; X-ray; 2.30 A; A=389-677.
+DR   PDB; 2BBO; X-ray; 2.55 A; A=389-678.
+DR   PDB; 2BBS; X-ray; 2.05 A; A/B=389-677.
+DR   PDB; 2BBT; X-ray; 2.30 A; A/B=389-678.
+DR   PDB; 2LOB; NMR; -; B=1473-1480.
+DR   PDB; 2PZE; X-ray; 1.70 A; A/B=387-646.
+DR   PDB; 2PZF; X-ray; 2.00 A; A/B=387-646.
+DR   PDB; 2PZG; X-ray; 1.80 A; A/B=375-646.
+DR   PDB; 3GD7; X-ray; 2.70 A; A/B/C/D=1193-1427.
+DR   PDB; 3ISW; X-ray; 2.80 A; C=5-20.
+DR   PDB; 4WZ6; X-ray; 2.05 A; A=389-678.
+DR   PDB; 5D2D; X-ray; 2.10 A; C=747-774.
+DR   PDB; 5D3E; X-ray; 2.75 A; C/G/K=762-801.
+DR   PDB; 5D3F; X-ray; 2.74 A; C=747-774.
+DR   PDB; 5TF7; X-ray; 1.93 A; A=387-646.
+DR   PDB; 5TF8; X-ray; 1.86 A; A=387-646.
+DR   PDB; 5TFA; X-ray; 1.87 A; A=387-646.
+DR   PDB; 5TFB; X-ray; 1.87 A; A=387-646.
+DR   PDB; 5TFC; X-ray; 1.92 A; A=387-646.
+DR   PDB; 5TFD; X-ray; 1.89 A; A=387-646.
+DR   PDB; 5TFF; X-ray; 1.89 A; A=387-646.
+DR   PDB; 5TFG; X-ray; 1.91 A; A=387-646.
+DR   PDB; 5TFI; X-ray; 1.89 A; A=387-646.
+DR   PDB; 5TFJ; X-ray; 1.85 A; A=387-646.
+DR   PDB; 5TGK; X-ray; 1.91 A; A=387-646.
+DR   PDB; 5UAK; EM; 3.87 A; A=1-1480.
+DR   PDB; 6GJQ; X-ray; 2.49 A; A/C/E/G=387-646.
+DR   PDB; 6GJS; X-ray; 1.95 A; A=387-646.
+DR   PDB; 6GJU; X-ray; 2.60 A; A=387-646.
+DR   PDB; 6GK4; X-ray; 2.91 A; A/D=387-646.
+DR   PDB; 6GKD; X-ray; 2.99 A; A/F/I/L/O/R=387-646.
+DR   PDB; 6HEP; X-ray; 1.86 A; E/F=747-774.
+DR   PDB; 6MSM; EM; 3.20 A; A=1-1480.
+DR   PDB; 6O1V; EM; 3.20 A; A=1-1480.
+DR   PDB; 6O2P; EM; 3.30 A; A=1-1480.
+DR   PDB; 6UK1; X-ray; 2.69 A; A/B/C/D=1202-1430.
+DR   PDB; 6WBS; X-ray; 1.86 A; A/B=388-646.
+DR   PDB; 6ZE1; X-ray; 2.71 A; A=387-646.
+DR   PDB; 7QI1; X-ray; 1.76 A; E/F=747-774.
+DR   PDB; 7SV7; EM; 3.80 A; A=1-1480.
+DR   PDB; 7SVD; EM; 2.70 A; A=1-1480.
+DR   PDB; 7SVR; EM; 3.90 A; A=1-1480.
+DR   PDB; 8EIG; EM; 3.60 A; A=1-1480.
+DR   PDB; 8EIO; EM; 2.80 A; A=1-1480.
+DR   PDB; 8EIQ; EM; 3.00 A; A=1-1480.
+DR   PDB; 8EJ1; EM; 6.90 A; A=1-1480.
+DR   PDB; 8FZQ; EM; 4.30 A; A=1-1480.
+DR   PDB; 8GLS; EM; 3.80 A; A=1-1480.
+DR   PDB; 8UBR; EM; 2.70 A; A=1-1480.
+DR   PDB; 8V7Z; EM; 3.40 A; A=11-1431.
+DR   PDB; 8V81; EM; 3.60 A; A=3-1440.
+DR   PDB; 9DW4; EM; 9.00 A; A=1-1480.
+DR   PDB; 9DW5; EM; 3.80 A; A=1-1480.
+DR   PDB; 9DW7; EM; 6.00 A; A=1-1480.
+DR   PDB; 9DW8; EM; 3.50 A; A=1-1480.
+DR   PDB; 9DW9; EM; 2.80 A; A=1-1480.
+DR   PDBsum; 1XMI; -.
+DR   PDBsum; 1XMJ; -.
+DR   PDBsum; 2BBO; -.
+DR   PDBsum; 2BBS; -.
+DR   PDBsum; 2BBT; -.
+DR   PDBsum; 2LOB; -.
+DR   PDBsum; 2PZE; -.
+DR   PDBsum; 2PZF; -.
+DR   PDBsum; 2PZG; -.
+DR   PDBsum; 3GD7; -.
+DR   PDBsum; 3ISW; -.
+DR   PDBsum; 4WZ6; -.
+DR   PDBsum; 5D2D; -.
+DR   PDBsum; 5D3E; -.
+DR   PDBsum; 5D3F; -.
+DR   PDBsum; 5TF7; -.
+DR   PDBsum; 5TF8; -.
+DR   PDBsum; 5TFA; -.
+DR   PDBsum; 5TFB; -.
+DR   PDBsum; 5TFC; -.
+DR   PDBsum; 5TFD; -.
+DR   PDBsum; 5TFF; -.
+DR   PDBsum; 5TFG; -.
+DR   PDBsum; 5TFI; -.
+DR   PDBsum; 5TFJ; -.
+DR   PDBsum; 5TGK; -.
+DR   PDBsum; 5UAK; -.
+DR   PDBsum; 6GJQ; -.
+DR   PDBsum; 6GJS; -.
+DR   PDBsum; 6GJU; -.
+DR   PDBsum; 6GK4; -.
+DR   PDBsum; 6GKD; -.
+DR   PDBsum; 6HEP; -.
+DR   PDBsum; 6MSM; -.
+DR   PDBsum; 6O1V; -.
+DR   PDBsum; 6O2P; -.
+DR   PDBsum; 6UK1; -.
+DR   PDBsum; 6WBS; -.
+DR   PDBsum; 6ZE1; -.
+DR   PDBsum; 7QI1; -.
+DR   PDBsum; 7SV7; -.
+DR   PDBsum; 7SVD; -.
+DR   PDBsum; 7SVR; -.
+DR   PDBsum; 8EIG; -.
+DR   PDBsum; 8EIO; -.
+DR   PDBsum; 8EIQ; -.
+DR   PDBsum; 8EJ1; -.
+DR   PDBsum; 8FZQ; -.
+DR   PDBsum; 8GLS; -.
+DR   PDBsum; 8UBR; -.
+DR   PDBsum; 8V7Z; -.
+DR   PDBsum; 8V81; -.
+DR   PDBsum; 9DW4; -.
+DR   PDBsum; 9DW5; -.
+DR   PDBsum; 9DW7; -.
+DR   PDBsum; 9DW8; -.
+DR   PDBsum; 9DW9; -.
+DR   AlphaFoldDB; P13569; -.
+DR   BMRB; P13569; -.
+DR   EMDB; EMD-0606; -.
+DR   EMDB; EMD-0611; -.
+DR   EMDB; EMD-25445; -.
+DR   EMDB; EMD-25447; -.
+DR   EMDB; EMD-25452; -.
+DR   EMDB; EMD-28155; -.
+DR   EMDB; EMD-28160; -.
+DR   EMDB; EMD-28161; -.
+DR   EMDB; EMD-28172; -.
+DR   EMDB; EMD-29637; -.
+DR   EMDB; EMD-40207; -.
+DR   EMDB; EMD-41717; -.
+DR   EMDB; EMD-41719; -.
+DR   EMDB; EMD-41722; -.
+DR   EMDB; EMD-41723; -.
+DR   EMDB; EMD-41724; -.
+DR   EMDB; EMD-41726; -.
+DR   EMDB; EMD-41895; -.
+DR   EMDB; EMD-41896; -.
+DR   EMDB; EMD-41898; -.
+DR   EMDB; EMD-41900; -.
+DR   EMDB; EMD-41901; -.
+DR   EMDB; EMD-41902; -.
+DR   EMDB; EMD-41980; -.
+DR   EMDB; EMD-41981; -.
+DR   EMDB; EMD-42101; -.
+DR   EMDB; EMD-42177; -.
+DR   EMDB; EMD-42178; -.
+DR   EMDB; EMD-42179; -.
+DR   EMDB; EMD-42180; -.
+DR   EMDB; EMD-43011; -.
+DR   EMDB; EMD-43014; -.
+DR   EMDB; EMD-47235; -.
+DR   EMDB; EMD-47236; -.
+DR   EMDB; EMD-47237; -.
+DR   EMDB; EMD-47238; -.
+DR   EMDB; EMD-47239; -.
+DR   EMDB; EMD-8516; -.
+DR   EMDB; EMD-9230; -.
+DR   SMR; P13569; -.
+DR   BioGRID; 107506; 1559.
+DR   CORUM; P13569; -.
+DR   DIP; DIP-32788N; -.
+DR   FunCoup; P13569; 563.
+DR   IntAct; P13569; 3494.
+DR   MINT; P13569; -.
+DR   STRING; 9606.ENSP00000003084; -.
+DR   BindingDB; P13569; -.
+DR   ChEMBL; CHEMBL4051; -.
+DR   DrugBank; DB00171; ATP.
+DR   DrugBank; DB00887; Bumetanide.
+DR   DrugBank; DB02587; Colforsin.
+DR   DrugBank; DB04941; Crofelemer.
+DR   DrugBank; DB04522; Dexfosfoserine.
+DR   DrugBank; DB09213; Dexibuprofen.
+DR   DrugBank; DB15444; Elexacaftor.
+DR   DrugBank; DB14894; Galicaftor.
+DR   DrugBank; DB01645; Genistein.
+DR   DrugBank; DB01016; Glyburide.
+DR   DrugBank; DB01050; Ibuprofen.
+DR   DrugBank; DB12959; IOWH-032.
+DR   DrugBank; DB08820; Ivacaftor.
+DR   DrugBank; DB06266; Lonidamine.
+DR   DrugBank; DB09280; Lumacaftor.
+DR   DrugBank; DB04395; Phosphoaminophosphonic Acid-Adenylate Ester.
+DR   DrugBank; DB11712; Tezacaftor.
+DR   DrugCentral; P13569; -.
+DR   GuidetoPHARMACOLOGY; 707; -.
+DR   MoonProt; P13569; -.
+DR   TCDB; 3.A.1.202.1; the atp-binding cassette (abc) superfamily.
+DR   GlyCosmos; P13569; 2 sites, No reported glycans.
+DR   GlyGen; P13569; 13 sites.
+DR   iPTMnet; P13569; -.
+DR   PhosphoSitePlus; P13569; -.
+DR   SwissPalm; P13569; -.
+DR   BioMuta; CFTR; -.
+DR   DMDM; 147744553; -.
+DR   jPOST; P13569; -.
+DR   MassIVE; P13569; -.
+DR   PaxDb; 9606-ENSP00000003084; -.
+DR   PeptideAtlas; P13569; -.
+DR   ProteomicsDB; 52926; -. [P13569-1]
+DR   ProteomicsDB; 52927; -. [P13569-2]
+DR   ProteomicsDB; 52928; -. [P13569-3]
+DR   ABCD; P13569; 10 sequenced antibodies.
+DR   Antibodypedia; 4530; 1170 antibodies from 41 providers.
+DR   DNASU; 1080; -.
+DR   Ensembl; ENST00000003084.11; ENSP00000003084.6; ENSG00000001626.18. [P13569-1]
+DR   Ensembl; ENST00000649781.2; ENSP00000497203.1; ENSG00000001626.18. [P13569-2]
+DR   GeneID; 1080; -.
+DR   KEGG; hsa:1080; -.
+DR   MANE-Select; ENST00000003084.11; ENSP00000003084.6; NM_000492.4; NP_000483.3.
+DR   UCSC; uc003vjd.4; human. [P13569-1]
+DR   AGR; HGNC:1884; -.
+DR   CTD; 1080; -.
+DR   DisGeNET; 1080; -.
+DR   GeneCards; CFTR; -.
+DR   GeneReviews; CFTR; -.
+DR   HGNC; HGNC:1884; CFTR.
+DR   HPA; ENSG00000001626; Tissue enhanced (gallbladder, intestine, pancreas).
+DR   MalaCards; CFTR; -.
+DR   MIM; 219700; phenotype.
+DR   MIM; 277180; phenotype.
+DR   MIM; 602421; gene.
+DR   neXtProt; NX_P13569; -.
+DR   OpenTargets; ENSG00000001626; -.
+DR   Orphanet; 498359; Aquagenic palmoplantar keratoderma.
+DR   Orphanet; 48; Congenital bilateral absence of vas deferens.
+DR   Orphanet; 586; Cystic fibrosis.
+DR   Orphanet; 676; Hereditary chronic pancreatitis.
+DR   Orphanet; 60033; Idiopathic bronchiectasis.
+DR   Orphanet; 399805; Male infertility with azoospermia or oligozoospermia due to single gene mutation.
+DR   PharmGKB; PA109; -.
+DR   VEuPathDB; HostDB:ENSG00000001626; -.
+DR   eggNOG; KOG0054; Eukaryota.
+DR   GeneTree; ENSGT00940000158567; -.
+DR   InParanoid; P13569; -.
+DR   OMA; CQRYLVI; -.
+DR   OrthoDB; 6500128at2759; -.
+DR   PAN-GO; P13569; 6 GO annotations based on evolutionary models.
+DR   PhylomeDB; P13569; -.
+DR   TreeFam; TF105200; -.
+DR   BioCyc; MetaCyc:HS00075-MONOMER; -.
+DR   BRENDA; 2.7.4.3; 2681.
+DR   BRENDA; 5.6.1.6; 2681.
+DR   PathwayCommons; P13569; -.
+DR   Reactome; R-HSA-382556; ABC-family proteins mediated transport.
+DR   Reactome; R-HSA-5627083; RHO GTPases regulate CFTR trafficking.
+DR   Reactome; R-HSA-5678895; Defective CFTR causes cystic fibrosis.
+DR   Reactome; R-HSA-5689880; Ub-specific processing proteases.
+DR   Reactome; R-HSA-8856825; Cargo recognition for clathrin-mediated endocytosis.
+DR   Reactome; R-HSA-8856828; Clathrin-mediated endocytosis.
+DR   Reactome; R-HSA-9013406; RHOQ GTPase cycle.
+DR   Reactome; R-HSA-9613829; Chaperone Mediated Autophagy.
+DR   Reactome; R-HSA-9615710; Late endosomal microautophagy.
+DR   Reactome; R-HSA-9646399; Aggrephagy.
+DR   SignaLink; P13569; -.
+DR   SIGNOR; P13569; -.
+DR   BioGRID-ORCS; 1080; 8 hits in 1161 CRISPR screens.
+DR   ChiTaRS; CFTR; human.
+DR   EvolutionaryTrace; P13569; -.
+DR   GenomeRNAi; 1080; -.
+DR   Pharos; P13569; Tclin.
+DR   PRO; PR:P13569; -.
+DR   Proteomes; UP000005640; Chromosome 7.
+DR   RNAct; P13569; protein.
+DR   Bgee; ENSG00000001626; Expressed in body of pancreas and 118 other cell types or tissues.
+DR   ExpressionAtlas; P13569; baseline and differential.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0034707; C:chloride channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0030669; C:clathrin-coated endocytic vesicle membrane; TAS:Reactome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005769; C:early endosome; IDA:UniProtKB.
+DR   GO; GO:0031901; C:early endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IDA:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; TAS:Reactome.
+DR   GO; GO:0030660; C:Golgi-associated vesicle membrane; TAS:Reactome.
+DR   GO; GO:0005765; C:lysosomal membrane; TAS:Reactome.
+DR   GO; GO:0016020; C:membrane; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:UniProtKB.
+DR   GO; GO:0055037; C:recycling endosome; IDA:UniProtKB.
+DR   GO; GO:0055038; C:recycling endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071889; F:14-3-3 protein binding; IMP:DisProt.
+DR   GO; GO:0140359; F:ABC-type transporter activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; TAS:ProtInc.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IDA:UniProtKB.
+DR   GO; GO:0043225; F:ATPase-coupled inorganic anion transmembrane transporter activity; TAS:Reactome.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015106; F:bicarbonate transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0005254; F:chloride channel activity; IDA:UniProtKB.
+DR   GO; GO:0019869; F:chloride channel inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0017081; F:chloride channel regulator activity; TAS:Reactome.
+DR   GO; GO:0015108; F:chloride transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:UniProtKB.
+DR   GO; GO:0005260; F:intracellularly ATP-gated chloride channel activity; IMP:UniProtKB.
+DR   GO; GO:0030165; F:PDZ domain binding; IDA:UniProtKB.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; IPI:ARUK-UCL.
+DR   GO; GO:0106138; F:Sec61 translocon complex binding; IDA:UniProtKB.
+DR   GO; GO:0097186; P:amelogenesis; ISS:ARUK-UCL.
+DR   GO; GO:0015701; P:bicarbonate transport; IDA:UniProtKB.
+DR   GO; GO:0071320; P:cellular response to cAMP; ISS:UniProtKB.
+DR   GO; GO:1904322; P:cellular response to forskolin; IDA:UniProtKB.
+DR   GO; GO:1902476; P:chloride transmembrane transport; IDA:UniProtKB.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; IEA:Ensembl.
+DR   GO; GO:0030301; P:cholesterol transport; IEA:Ensembl.
+DR   GO; GO:0051649; P:establishment of localization in cell; IEA:Ensembl.
+DR   GO; GO:0051454; P:intracellular pH elevation; ISS:UniProtKB.
+DR   GO; GO:0060081; P:membrane hyperpolarization; ISS:UniProtKB.
+DR   GO; GO:0050891; P:multicellular organismal-level water homeostasis; IMP:UniProtKB.
+DR   GO; GO:1902161; P:positive regulation of cyclic nucleotide-gated ion channel activity; IMP:UniProtKB.
+DR   GO; GO:0070175; P:positive regulation of enamel mineralization; ISS:ARUK-UCL.
+DR   GO; GO:0045921; P:positive regulation of exocytosis; IMP:UniProtKB.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:UniProtKB.
+DR   GO; GO:1902943; P:positive regulation of voltage-gated chloride channel activity; IDA:UniProtKB.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; IDA:UniProtKB.
+DR   GO; GO:0048240; P:sperm capacitation; ISS:UniProtKB.
+DR   GO; GO:0035377; P:transepithelial water transport; IMP:UniProtKB.
+DR   GO; GO:0055085; P:transmembrane transport; TAS:Reactome.
+DR   GO; GO:0006904; P:vesicle docking involved in exocytosis; IEA:Ensembl.
+DR   CDD; cd18594; ABC_6TM_CFTR_D1; 1.
+DR   CDD; cd18600; ABC_6TM_CFTR_D2; 1.
+DR   CDD; cd03291; ABCC_CFTR1; 1.
+DR   CDD; cd03289; ABCC_CFTR2; 1.
+DR   DisProt; DP00012; -.
+DR   FunFam; 1.20.1560.10:FF:000017; Cystic fibrosis transmembrane conductance regulator; 1.
+DR   FunFam; 1.20.1560.10:FF:000019; Cystic fibrosis transmembrane conductance regulator; 1.
+DR   FunFam; 3.40.50.300:FF:000581; Cystic fibrosis transmembrane conductance regulator; 1.
+DR   FunFam; 3.40.50.300:FF:000591; Cystic fibrosis transmembrane conductance regulator; 1.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   IDEAL; IID00540; -.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR050173; ABC_transporter_C-like.
+DR   InterPro; IPR009147; CFTR/ABCC7.
+DR   InterPro; IPR047082; CFTR1_ATP-bd_dom1.
+DR   InterPro; IPR025837; CFTR_reg_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR01271; CFTR_protein; 1.
+DR   PANTHER; PTHR24223; ATP-BINDING CASSETTE SUB-FAMILY C; 1.
+DR   PANTHER; PTHR24223:SF19; CYSTIC FIBROSIS TRANSMEMBRANE CONDUCTANCE REGULATOR; 1.
+DR   Pfam; PF00664; ABC_membrane; 2.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   Pfam; PF14396; CFTR_R; 1.
+DR   PRINTS; PR01851; CYSFIBREGLTR.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS50929; ABC_TM1F; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cell membrane; Chloride;
+KW   Chloride channel; Disease variant; Endoplasmic reticulum; Endosome;
+KW   Glycoprotein; Ion channel; Ion transport; Isomerase; Isopeptide bond;
+KW   Lipoprotein; Membrane; Nucleotide-binding; Nucleus; Palmitate;
+KW   Phosphoprotein; Proteomics identification; Reference proteome; Repeat;
+KW   Transmembrane; Transmembrane helix; Transport; Ubl conjugation.
+FT   CHAIN           1..1480
+FT                   /note="Cystic fibrosis transmembrane conductance regulator"
+FT                   /id="PRO_0000093419"
+FT   TOPO_DOM        1..77
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        78..98
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        99..122
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        123..146
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        147..195
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        196..216
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        217..222
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        223..243
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        244..298
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        299..319
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        320..339
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        340..358
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        359..858
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        859..879
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        880..918
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        919..939
+FT                   /note="Discontinuously helical; Name=8"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        940..990
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        991..1011
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        1012..1013
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        1014..1034
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        1035..1095
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        1096..1116
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        1117..1130
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TRANSMEM        1131..1151
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   TOPO_DOM        1152..1480
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|Ref.57"
+FT   DOMAIN          81..365
+FT                   /note="ABC transmembrane type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          423..646
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          859..1155
+FT                   /note="ABC transmembrane type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          1210..1443
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   REGION          654..831
+FT                   /note="Disordered R region"
+FT                   /evidence="ECO:0000269|PubMed:10792060"
+FT   REGION          1386..1480
+FT                   /note="Interaction with GORASP2"
+FT                   /evidence="ECO:0000269|PubMed:21884936"
+FT   REGION          1452..1480
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           1478..1480
+FT                   /note="PDZ-binding"
+FT                   /evidence="ECO:0000269|PubMed:11707463,
+FT                   ECO:0000269|PubMed:16331976"
+FT   COMPBIAS        1470..1480
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         401
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15528182,
+FT                   ECO:0000269|PubMed:20150177, ECO:0007744|PDB:1XMI,
+FT                   ECO:0007744|PDB:1XMJ, ECO:0007744|PDB:2BBO,
+FT                   ECO:0007744|PDB:2BBS, ECO:0007744|PDB:2BBT,
+FT                   ECO:0007744|PDB:2PZE, ECO:0007744|PDB:2PZF,
+FT                   ECO:0007744|PDB:2PZG"
+FT   BINDING         434
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:20150177,
+FT                   ECO:0007744|PDB:2PZE, ECO:0007744|PDB:2PZF,
+FT                   ECO:0007744|PDB:2PZG"
+FT   BINDING         458..465
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434,
+FT                   ECO:0000269|PubMed:15528182, ECO:0007744|PDB:1XMI,
+FT                   ECO:0007744|PDB:1XMJ, ECO:0007744|PDB:2BBO,
+FT                   ECO:0007744|PDB:2BBS, ECO:0007744|PDB:2BBT"
+FT   BINDING         493
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15528182,
+FT                   ECO:0007744|PDB:1XMI, ECO:0007744|PDB:2BBO,
+FT                   ECO:0007744|PDB:2BBS"
+FT   BINDING         1219
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007744|PDB:3GD7"
+FT   BINDING         1244..1251
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434,
+FT                   ECO:0007744|PDB:3GD7"
+FT   MOD_RES         549
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:20068231"
+FT   MOD_RES         660
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:22119790, ECO:0000269|PubMed:25330774,
+FT                   ECO:0000269|PubMed:9385646"
+FT   MOD_RES         670
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:25330774"
+FT   MOD_RES         686
+FT                   /note="Phosphoserine; by PKC"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:22119790"
+FT   MOD_RES         700
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:22119790, ECO:0000269|PubMed:25330774,
+FT                   ECO:0000269|PubMed:9385646"
+FT   MOD_RES         712
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:22119790,
+FT                   ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:9385646"
+FT   MOD_RES         717
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   MOD_RES         737
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:22119790, ECO:0000269|PubMed:25330774,
+FT                   ECO:0000269|PubMed:9385646"
+FT   MOD_RES         753
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:25330774,
+FT                   ECO:0000269|PubMed:9385646"
+FT   MOD_RES         768
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:9385646"
+FT   MOD_RES         790
+FT                   /note="Phosphoserine; by PKC"
+FT                   /evidence="ECO:0000269|PubMed:1377674"
+FT   MOD_RES         795
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:22119790, ECO:0000269|PubMed:25330774,
+FT                   ECO:0000269|PubMed:9385646"
+FT   MOD_RES         813
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:1377674,
+FT                   ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:9385646"
+FT   MOD_RES         1444
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   MOD_RES         1456
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   LIPID           524
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   LIPID           1395
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   CARBOHYD        894
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7518437,
+FT                   ECO:0000305|PubMed:20008117"
+FT   CARBOHYD        900
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7518437,
+FT                   ECO:0000305|PubMed:20008117"
+FT   CROSSLNK        688
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000269|PubMed:22119790"
+FT   VAR_SEQ         404..464
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_022123"
+FT   VAR_SEQ         589..605
+FT                   /note="SCVCKLMANKTRILVTS -> RRRCSCLLDRNKKTIF (in isoform
+FT                   3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_022124"
+FT   VAR_SEQ         606..1480
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_022125"
+FT   VARIANT         13
+FT                   /note="S -> F (in CF; dbSNP:rs397508635)"
+FT                   /evidence="ECO:0000269|PubMed:9554753"
+FT                   /id="VAR_000101"
+FT   VARIANT         31
+FT                   /note="R -> C (in dbSNP:rs1800073)"
+FT                   /evidence="ECO:0000269|PubMed:7522211,
+FT                   ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000102"
+FT   VARIANT         31
+FT                   /note="R -> L (in CF; uncertain significance;
+FT                   dbSNP:rs149353983)"
+FT                   /evidence="ECO:0000269|PubMed:7537150"
+FT                   /id="VAR_000103"
+FT   VARIANT         42
+FT                   /note="S -> F (in CF; dbSNP:rs143456784)"
+FT                   /evidence="ECO:0000269|PubMed:7541510"
+FT                   /id="VAR_000104"
+FT   VARIANT         44
+FT                   /note="D -> G (in CF; uncertain significance;
+FT                   dbSNP:rs1800074)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000105"
+FT   VARIANT         44
+FT                   /note="D -> V (in dbSNP:rs1800074)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000106"
+FT   VARIANT         50
+FT                   /note="S -> Y (in CBAVD; dbSNP:rs397508220)"
+FT                   /evidence="ECO:0000269|PubMed:9067761"
+FT                   /id="VAR_000107"
+FT   VARIANT         57
+FT                   /note="W -> G (in CF; dbSNP:rs397508272)"
+FT                   /evidence="ECO:0000269|PubMed:7544319"
+FT                   /id="VAR_000108"
+FT   VARIANT         67
+FT                   /note="P -> L (in CF; dbSNP:rs368505753)"
+FT                   /evidence="ECO:0000269|PubMed:9507391"
+FT                   /id="VAR_000109"
+FT   VARIANT         74
+FT                   /note="R -> W (in CF and CBAVD; uncertain significance;
+FT                   dbSNP:rs115545701)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_000110"
+FT   VARIANT         75
+FT                   /note="R -> Q (in CF; dbSNP:rs1800076)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:9521595, ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000111"
+FT   VARIANT         85
+FT                   /note="G -> E (in CF; dbSNP:rs75961395)"
+FT                   /evidence="ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000112"
+FT   VARIANT         87
+FT                   /note="F -> L (in CF; dbSNP:rs397508403)"
+FT                   /evidence="ECO:0000269|PubMed:8081395"
+FT                   /id="VAR_000113"
+FT   VARIANT         91
+FT                   /note="G -> R (in CF; dbSNP:rs121908750)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000114"
+FT   VARIANT         92
+FT                   /note="E -> K (in CF; dbSNP:rs121908751)"
+FT                   /evidence="ECO:0000269|PubMed:1284529,
+FT                   ECO:0000269|PubMed:7683954"
+FT                   /id="VAR_000115"
+FT   VARIANT         98
+FT                   /note="Q -> R (in CF; dbSNP:rs397508464)"
+FT                   /evidence="ECO:0000269|PubMed:7581407"
+FT                   /id="VAR_000116"
+FT   VARIANT         109
+FT                   /note="Y -> C (in CF; dbSNP:rs121909031)"
+FT                   /evidence="ECO:0000269|PubMed:7524909"
+FT                   /id="VAR_000118"
+FT   VARIANT         110
+FT                   /note="D -> H (in CF and CBAVD; dbSNP:rs113993958)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000119"
+FT   VARIANT         111
+FT                   /note="P -> L (in CBAVD; dbSNP:rs140502196)"
+FT                   /evidence="ECO:0000269|Ref.118"
+FT                   /id="VAR_000120"
+FT   VARIANT         117
+FT                   /note="R -> C (in CF; dbSNP:rs77834169)"
+FT                   /evidence="ECO:0000269|PubMed:1284529"
+FT                   /id="VAR_000121"
+FT   VARIANT         117
+FT                   /note="R -> H (in CF and CBAVD; strong decrease in single
+FT                   channel conductance; promotes rapid return to the closed
+FT                   state of the channel; decrease in bicarbonate transport;
+FT                   dbSNP:rs78655421)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:17329263, ECO:0000269|PubMed:26846474,
+FT                   ECO:0000269|PubMed:7508414, ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000122"
+FT   VARIANT         117
+FT                   /note="R -> L (in CF; dbSNP:rs78655421)"
+FT                   /evidence="ECO:0000269|PubMed:7541510"
+FT                   /id="VAR_000123"
+FT   VARIANT         117
+FT                   /note="R -> P (in CF; dbSNP:rs78655421)"
+FT                   /evidence="ECO:0000269|PubMed:9452048"
+FT                   /id="VAR_000124"
+FT   VARIANT         120
+FT                   /note="A -> T (in CF; dbSNP:rs201958172)"
+FT                   /evidence="ECO:0000269|PubMed:7517264"
+FT                   /id="VAR_000125"
+FT   VARIANT         138
+FT                   /note="L -> P (in dbSNP:rs1800078)"
+FT                   /id="VAR_009895"
+FT   VARIANT         139
+FT                   /note="H -> R (in CF; dbSNP:rs76371115)"
+FT                   /evidence="ECO:0000269|PubMed:7541510"
+FT                   /id="VAR_000126"
+FT   VARIANT         141
+FT                   /note="A -> D (in CF; dbSNP:rs397508700)"
+FT                   /evidence="ECO:0000269|PubMed:9222768"
+FT                   /id="VAR_000127"
+FT   VARIANT         148
+FT                   /note="I -> T (in CF; uncertain significance; loss of
+FT                   bicarbonate transport; decreased inhibition of epithelial
+FT                   sodium channel (ENaC), when tested in a heterologous
+FT                   system; no effect on protein maturation, subcellular
+FT                   location at the plasma membrane, nor on chloride channel
+FT                   activity; dbSNP:rs35516286)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:12394343, ECO:0000269|PubMed:16822950"
+FT                   /id="VAR_000128"
+FT   VARIANT         149
+FT                   /note="G -> R (in CBAVD; dbSNP:rs397508718)"
+FT                   /evidence="ECO:0000269|PubMed:7529962"
+FT                   /id="VAR_000129"
+FT   VARIANT         170
+FT                   /note="R -> H (in CBAVD; uncertain significance;
+FT                   dbSNP:rs1800079)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_009896"
+FT   VARIANT         178
+FT                   /note="G -> R (in CF; loss of bicarbonate transport; no
+FT                   effect on protein maturation, subcellular location at the
+FT                   plasma membrane, nor on chloride channel activity;
+FT                   dbSNP:rs80282562)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000130"
+FT   VARIANT         182
+FT                   /note="S -> G (in dbSNP:rs1800080)"
+FT                   /id="VAR_009897"
+FT   VARIANT         192
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:9452048"
+FT                   /id="VAR_000131"
+FT   VARIANT         193
+FT                   /note="E -> K (in CBAVD and CF; decrease in bicarbonate
+FT                   transport; no effect on chloride channel activity;
+FT                   dbSNP:rs397508759)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:7529962, ECO:0000269|PubMed:7544319"
+FT                   /id="VAR_000132"
+FT   VARIANT         199
+FT                   /note="H -> Q (in CF; dbSNP:rs397508765)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000133"
+FT   VARIANT         199
+FT                   /note="H -> Y (in CF; dbSNP:rs121908802)"
+FT                   /evidence="ECO:0000269|PubMed:7525450"
+FT                   /id="VAR_000134"
+FT   VARIANT         205
+FT                   /note="P -> S (in CF; dbSNP:rs121908803)"
+FT                   /evidence="ECO:0000269|PubMed:7505694"
+FT                   /id="VAR_000135"
+FT   VARIANT         206
+FT                   /note="L -> W (in CF and CBAVD; dbSNP:rs121908752)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:8522333"
+FT                   /id="VAR_000136"
+FT   VARIANT         220..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:20691141"
+FT                   /id="VAR_080302"
+FT   VARIANT         225
+FT                   /note="C -> R (in CF; uncertain significance;
+FT                   dbSNP:rs397508780)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000137"
+FT   VARIANT         232
+FT                   /note="V -> D (in CBAVD; dbSNP:rs397508783)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080303"
+FT   VARIANT         244
+FT                   /note="M -> K (in CBAVD; dbSNP:rs397508790)"
+FT                   /evidence="ECO:0000269|Ref.118"
+FT                   /id="VAR_000138"
+FT   VARIANT         258
+FT                   /note="R -> G (in CBAVD; dbSNP:rs191456345)"
+FT                   /evidence="ECO:0000269|PubMed:7529962"
+FT                   /id="VAR_000139"
+FT   VARIANT         287
+FT                   /note="N -> Y (in CF; decreased presence at the cell
+FT                   membrane due to increased internalization from the apical
+FT                   cell membrane; no effect on single channel gating and
+FT                   conductance; dbSNP:rs397508804)"
+FT                   /evidence="ECO:0000269|PubMed:12529365,
+FT                   ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000140"
+FT   VARIANT         297
+FT                   /note="R -> Q (in CF; dbSNP:rs143486492)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000141"
+FT   VARIANT         301
+FT                   /note="Y -> C (in CF; uncertain significance;
+FT                   dbSNP:rs150691494)"
+FT                   /evidence="ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000142"
+FT   VARIANT         307
+FT                   /note="S -> N (in CBAVD and CF; dbSNP:rs397508817)"
+FT                   /evidence="ECO:0000269|PubMed:10066035,
+FT                   ECO:0000269|PubMed:32026723, ECO:0000269|PubMed:33572515"
+FT                   /id="VAR_000143"
+FT   VARIANT         311
+FT                   /note="F -> L (in CF; dbSNP:rs121909016)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000144"
+FT   VARIANT         311
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:9443874"
+FT                   /id="VAR_000145"
+FT   VARIANT         314
+FT                   /note="G -> E (in CF; dbSNP:rs75763344)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000146"
+FT   VARIANT         314
+FT                   /note="G -> R (in CF; dbSNP:rs397508819)"
+FT                   /evidence="ECO:0000269|PubMed:8829633"
+FT                   /id="VAR_000147"
+FT   VARIANT         322
+FT                   /note="V -> M (in dbSNP:rs1800085)"
+FT                   /id="VAR_009898"
+FT   VARIANT         334
+FT                   /note="R -> W (in CF and CBAVD; mild; does not prevent
+FT                   maturation of glycans; dbSNP:rs121909011)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:1699669, ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_000148"
+FT   VARIANT         336
+FT                   /note="I -> K (in CF; dbSNP:rs397508139)"
+FT                   /evidence="ECO:0000269|PubMed:7508414"
+FT                   /id="VAR_000150"
+FT   VARIANT         338
+FT                   /note="T -> I (in CF; mild; isolated hypotonic dehydration;
+FT                   dbSNP:rs77409459)"
+FT                   /evidence="ECO:0000269|PubMed:7543567,
+FT                   ECO:0000269|PubMed:9554753"
+FT                   /id="VAR_000151"
+FT   VARIANT         346
+FT                   /note="L -> P (in CF; dominant mutation but mild phenotype;
+FT                   dbSNP:rs397508146)"
+FT                   /evidence="ECO:0000269|PubMed:7513296"
+FT                   /id="VAR_000152"
+FT   VARIANT         347
+FT                   /note="R -> H (in CF; dbSNP:rs77932196)"
+FT                   /evidence="ECO:0000269|PubMed:7504969"
+FT                   /id="VAR_000153"
+FT   VARIANT         347
+FT                   /note="R -> L (in CF; dbSNP:rs77932196)"
+FT                   /evidence="ECO:0000269|PubMed:7504969"
+FT                   /id="VAR_000154"
+FT   VARIANT         347
+FT                   /note="R -> P (in CF; mild; dbSNP:rs77932196)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000155"
+FT   VARIANT         351
+FT                   /note="T -> S (in dbSNP:rs1800086)"
+FT                   /id="VAR_009899"
+FT   VARIANT         352
+FT                   /note="R -> Q (in CF; dbSNP:rs121908753)"
+FT                   /evidence="ECO:0000269|PubMed:7504969"
+FT                   /id="VAR_000156"
+FT   VARIANT         353
+FT                   /note="Q -> H (in dbSNP:rs1800087)"
+FT                   /id="VAR_009900"
+FT   VARIANT         359..360
+FT                   /note="QT -> KK (in CF; dbSNP:rs397508152)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000158"
+FT   VARIANT         359
+FT                   /note="Q -> K (in CF; dbSNP:rs76879328)"
+FT                   /evidence="ECO:0000269|PubMed:7504969"
+FT                   /id="VAR_000157"
+FT   VARIANT         370
+FT                   /note="K -> KNK (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:9452073"
+FT                   /id="VAR_000159"
+FT   VARIANT         443
+FT                   /note="D -> Y (in CBAVD; uncertain significance;
+FT                   dbSNP:rs147422190)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080304"
+FT   VARIANT         455
+FT                   /note="A -> E (in CF; dbSNP:rs74551128)"
+FT                   /evidence="ECO:0000269|PubMed:2236053,
+FT                   ECO:0000269|PubMed:7508414, ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000160"
+FT   VARIANT         456
+FT                   /note="V -> F (in CF; dbSNP:rs397508195)"
+FT                   /evidence="ECO:0000269|PubMed:7505767"
+FT                   /id="VAR_000161"
+FT   VARIANT         458
+FT                   /note="G -> V (in CF; dbSNP:rs121909009)"
+FT                   /evidence="ECO:0000269|PubMed:1284534,
+FT                   ECO:0000269|PubMed:7508414"
+FT                   /id="VAR_000162"
+FT   VARIANT         467
+FT                   /note="L -> F (in dbSNP:rs1800089)"
+FT                   /id="VAR_000163"
+FT   VARIANT         470
+FT                   /note="V -> M (in dbSNP:rs213950)"
+FT                   /evidence="ECO:0000269|PubMed:10651488,
+FT                   ECO:0000269|PubMed:1379210, ECO:0000269|PubMed:1710598,
+FT                   ECO:0000269|PubMed:17329263, ECO:0000269|PubMed:18987736,
+FT                   ECO:0000269|PubMed:20691141, ECO:0000269|PubMed:2475911,
+FT                   ECO:0000269|Ref.3"
+FT                   /id="VAR_000164"
+FT   VARIANT         480
+FT                   /note="G -> C (in CF; dbSNP:rs79282516)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000165"
+FT   VARIANT         492
+FT                   /note="S -> F (in CF; dbSNP:rs121909017)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000166"
+FT   VARIANT         504
+FT                   /note="E -> Q (in CF; dbSNP:rs397508223)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000167"
+FT   VARIANT         506
+FT                   /note="I -> M (in dbSNP:rs1800092)"
+FT                   /id="VAR_009901"
+FT   VARIANT         506
+FT                   /note="I -> V (in dbSNP:rs1800091)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000168"
+FT   VARIANT         507
+FT                   /note="I -> V (in dbSNP:rs1801178)"
+FT                   /id="VAR_000169"
+FT   VARIANT         507
+FT                   /note="Missing (in CF; impaired maturation of glycan
+FT                   chains; dbSNP:rs121908745)"
+FT                   /evidence="ECO:0000269|PubMed:1699669,
+FT                   ECO:0000269|PubMed:1710600"
+FT                   /id="VAR_000170"
+FT   VARIANT         508
+FT                   /note="F -> C (in dbSNP:rs74571530)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000172"
+FT   VARIANT         508
+FT                   /note="Missing (in CF and CBAVD; most common mutation in
+FT                   Caucasian CF chromosomes; impairs protein folding and
+FT                   stability; causes local changes to the surface that
+FT                   mediates interactions between domains; decreases frequency
+FT                   of channel opening in vitro; binds to the cytokeratin-8 and
+FT                   through this binding is primed for the degradation pathway
+FT                   that ends in the proteasome, thus impairing trafficking;
+FT                   impairs maturation and trafficking to the cell membrane;
+FT                   impairs recycling to the cell membrane after endocytosis;
+FT                   abolishes MARCHF2-mediated degradation; dbSNP:rs121909001
+FT                   and dbSNP:rs113993960)"
+FT                   /evidence="ECO:0000269|PubMed:12394343,
+FT                   ECO:0000269|PubMed:12529365, ECO:0000269|PubMed:1284548,
+FT                   ECO:0000269|PubMed:1379210, ECO:0000269|PubMed:15528182,
+FT                   ECO:0000269|PubMed:15716351, ECO:0000269|PubMed:1699669,
+FT                   ECO:0000269|PubMed:17098864, ECO:0000269|PubMed:1710600,
+FT                   ECO:0000269|PubMed:17329263, ECO:0000269|PubMed:20008117,
+FT                   ECO:0000269|PubMed:20150177, ECO:0000269|PubMed:20691141,
+FT                   ECO:0000269|PubMed:21884936, ECO:0000269|PubMed:23818989,
+FT                   ECO:0000269|PubMed:25330774, ECO:0000269|PubMed:27241308,
+FT                   ECO:0000269|PubMed:28001373, ECO:0000269|PubMed:28067262,
+FT                   ECO:0000269|PubMed:28087700"
+FT                   /id="VAR_000171"
+FT   VARIANT         513
+FT                   /note="D -> G (in CBAVD; dbSNP:rs397508225)"
+FT                   /evidence="ECO:0000269|PubMed:10651488"
+FT                   /id="VAR_000173"
+FT   VARIANT         520
+FT                   /note="V -> F (in CF; dbSNP:rs77646904)"
+FT                   /evidence="ECO:0000269|PubMed:1284466"
+FT                   /id="VAR_000174"
+FT   VARIANT         532
+FT                   /note="K -> E (in dbSNP:rs35032490)"
+FT                   /id="VAR_048150"
+FT   VARIANT         542..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080305"
+FT   VARIANT         544
+FT                   /note="G -> V (in CBAVD; dbSNP:rs397508241)"
+FT                   /evidence="ECO:0000269|Ref.118"
+FT                   /id="VAR_000175"
+FT   VARIANT         549
+FT                   /note="S -> I (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs121908755)"
+FT                   /evidence="ECO:0000269|PubMed:1699669,
+FT                   ECO:0000269|PubMed:1712898, ECO:0000269|PubMed:2236053"
+FT                   /id="VAR_000177"
+FT   VARIANT         549
+FT                   /note="S -> N (in CF; dbSNP:rs121908755)"
+FT                   /evidence="ECO:0000269|PubMed:1284534,
+FT                   ECO:0000269|PubMed:1695717"
+FT                   /id="VAR_000176"
+FT   VARIANT         549
+FT                   /note="S -> R (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs121909005)"
+FT                   /evidence="ECO:0000269|PubMed:1712898,
+FT                   ECO:0000269|PubMed:2236053"
+FT                   /id="VAR_000178"
+FT   VARIANT         551
+FT                   /note="G -> D (in CF; decrease in the frequency of channel
+FT                   opening in vitro; decrease in channel activity and ATPase
+FT                   activity; complete loss of bicarbonate transport; no effect
+FT                   on trafficking to the cell membrane, protein stability, nor
+FT                   on the maturation of glycans; dbSNP:rs75527207)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:1284548, ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:1695717, ECO:0000269|PubMed:1699669,
+FT                   ECO:0000269|PubMed:1712898, ECO:0000269|PubMed:2236053,
+FT                   ECO:0000269|PubMed:28087700, ECO:0000269|PubMed:8910473,
+FT                   ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000179"
+FT   VARIANT         551
+FT                   /note="G -> S (in CF; decrease in bicarbonate transport; no
+FT                   effect on chloride channel activity; dbSNP:rs121909013)"
+FT                   /evidence="ECO:0000269|PubMed:7606851"
+FT                   /id="VAR_000180"
+FT   VARIANT         553
+FT                   /note="R -> Q (in CF; dbSNP:rs121909044)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000181"
+FT   VARIANT         556
+FT                   /note="I -> V (in CBAVD; uncertain significance;
+FT                   dbSNP:rs75789129)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080306"
+FT   VARIANT         558
+FT                   /note="L -> S (in CF; dbSNP:rs193922504)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000182"
+FT   VARIANT         559
+FT                   /note="A -> T (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs75549581)"
+FT                   /evidence="ECO:0000269|PubMed:1695717,
+FT                   ECO:0000269|PubMed:1712898"
+FT                   /id="VAR_000183"
+FT   VARIANT         560
+FT                   /note="R -> K (in CF; dbSNP:rs80055610)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000184"
+FT   VARIANT         560
+FT                   /note="R -> S (in CF; dbSNP:rs397508267)"
+FT                   /evidence="ECO:0000269|PubMed:9482579"
+FT                   /id="VAR_000185"
+FT   VARIANT         560
+FT                   /note="R -> T (in CF; impairs maturation and trafficking to
+FT                   the cell membrane; decrease in channel activity;
+FT                   dbSNP:rs80055610)"
+FT                   /evidence="ECO:0000269|PubMed:17098864,
+FT                   ECO:0000269|PubMed:2236053"
+FT                   /id="VAR_000186"
+FT   VARIANT         561
+FT                   /note="A -> E (in CF; impairs maturation and trafficking to
+FT                   the cell membrane; decrease in channel activity;
+FT                   dbSNP:rs121909047)"
+FT                   /evidence="ECO:0000269|PubMed:17098864"
+FT                   /id="VAR_080307"
+FT   VARIANT         562
+FT                   /note="V -> I (in CBAVD and CF; uncertain significance;
+FT                   found in cis of the IVS8 TG11-T5 allele, which affects exon
+FT                   9 splicing; no effect on protein maturation, trafficking to
+FT                   the cell membrane, nor on channel activity;
+FT                   dbSNP:rs1800097)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:17098864, ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:20691141"
+FT                   /id="VAR_000187"
+FT   VARIANT         562
+FT                   /note="V -> L (in CF; dbSNP:rs1800097)"
+FT                   /evidence="ECO:0000269|PubMed:8956039"
+FT                   /id="VAR_000188"
+FT   VARIANT         563
+FT                   /note="Y -> N (in CF; dbSNP:rs121909006)"
+FT                   /evidence="ECO:0000269|PubMed:1284534,
+FT                   ECO:0000269|PubMed:2236053"
+FT                   /id="VAR_000189"
+FT   VARIANT         569
+FT                   /note="Y -> C (in CF; dbSNP:rs397508277)"
+FT                   /evidence="ECO:0000269|PubMed:8723693"
+FT                   /id="VAR_000190"
+FT   VARIANT         569
+FT                   /note="Y -> D (in CF; dbSNP:rs397508276)"
+FT                   /evidence="ECO:0000269|PubMed:9482579"
+FT                   /id="VAR_000191"
+FT   VARIANT         569
+FT                   /note="Y -> H (in CF; dbSNP:rs397508276)"
+FT                   /evidence="ECO:0000269|PubMed:10869121,
+FT                   ECO:0000269|PubMed:10923036"
+FT                   /id="VAR_000192"
+FT   VARIANT         571
+FT                   /note="L -> S (in CF; dbSNP:rs397508280)"
+FT                   /evidence="ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000193"
+FT   VARIANT         572
+FT                   /note="D -> N (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508282)"
+FT                   /evidence="ECO:0000269|PubMed:1712898,
+FT                   ECO:0000269|PubMed:7541273"
+FT                   /id="VAR_000194"
+FT   VARIANT         574
+FT                   /note="P -> H (in CF; dbSNP:rs121908758)"
+FT                   /evidence="ECO:0000269|PubMed:1284534,
+FT                   ECO:0000269|PubMed:2236053"
+FT                   /id="VAR_000195"
+FT   VARIANT         576
+FT                   /note="G -> A (in CBAVD; uncertain significance;
+FT                   dbSNP:rs1800098)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_000196"
+FT   VARIANT         579
+FT                   /note="D -> G (in CF; dbSNP:rs397508288)"
+FT                   /evidence="ECO:0000269|PubMed:10094564,
+FT                   ECO:0000269|PubMed:7544319"
+FT                   /id="VAR_000197"
+FT   VARIANT         601
+FT                   /note="I -> F (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508306)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000198"
+FT   VARIANT         605
+FT                   /note="S -> F (in dbSNP:rs766874)"
+FT                   /id="VAR_048151"
+FT   VARIANT         610
+FT                   /note="L -> S (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508311)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000199"
+FT   VARIANT         613
+FT                   /note="A -> T (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs201978662)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000200"
+FT   VARIANT         614
+FT                   /note="D -> G (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs201124247)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000201"
+FT   VARIANT         618
+FT                   /note="I -> T (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs139468767)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000202"
+FT   VARIANT         619
+FT                   /note="L -> S (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508313)"
+FT                   /evidence="ECO:0000269|PubMed:7525450,
+FT                   ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000203"
+FT   VARIANT         620
+FT                   /note="H -> P (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508314)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000204"
+FT   VARIANT         620
+FT                   /note="H -> Q (in CF; strong decrease in bicarbonate
+FT                   transport; increase in chloride channel activity in vitro;
+FT                   no effect on glycan maturation; dbSNP:rs397508315)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000205"
+FT   VARIANT         622
+FT                   /note="G -> D (in CBAVD; decreased channel activity; has no
+FT                   effect on glycan maturation; dbSNP:rs121908759)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000206"
+FT   VARIANT         628
+FT                   /note="G -> R (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508316)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:7508414, ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000207"
+FT   VARIANT         633
+FT                   /note="L -> P (in CF; impaired maturation of glycan chains;
+FT                   dbSNP:rs397508318)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000208"
+FT   VARIANT         648
+FT                   /note="D -> V (in CF; decrease in bicarbonate transport; no
+FT                   effect chloride channel activity; dbSNP:rs121909033)"
+FT                   /evidence="ECO:0000269|PubMed:11242048"
+FT                   /id="VAR_000209"
+FT   VARIANT         651
+FT                   /note="D -> N (in CF; dbSNP:rs780526529)"
+FT                   /evidence="ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000210"
+FT   VARIANT         654
+FT                   /note="S -> G (in dbSNP:rs1800099)"
+FT                   /id="VAR_009902"
+FT   VARIANT         665
+FT                   /note="T -> S (in CF; uncertain significance; no effect on
+FT                   glycan maturation and channel activity;
+FT                   dbSNP:rs1177201180)"
+FT                   /evidence="ECO:0000269|PubMed:8800923,
+FT                   ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000211"
+FT   VARIANT         668
+FT                   /note="R -> C (in CBAVD; uncertain significance;
+FT                   dbSNP:rs1800100)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:17329263, ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000212"
+FT   VARIANT         693
+FT                   /note="F -> L (in CF; uncertain significance; no effect on
+FT                   glycan maturation; no effect on channel activity;
+FT                   dbSNP:rs145540754 and dbSNP:rs397508338)"
+FT                   /evidence="ECO:0000269|PubMed:12167682,
+FT                   ECO:0000269|PubMed:8406518, ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000213"
+FT   VARIANT         710..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080308"
+FT   VARIANT         754
+FT                   /note="V -> M (in CF; uncertain significance;
+FT                   dbSNP:rs150157202)"
+FT                   /evidence="ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000214"
+FT   VARIANT         766
+FT                   /note="R -> M (in CBAVD; uncertain significance; no effect
+FT                   on glycan maturation; no effect on channel activity;
+FT                   dbSNP:rs397508363)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000215"
+FT   VARIANT         792
+FT                   /note="R -> G (in CBAVD; no effect on glycan maturation but
+FT                   decreased channel activity; dbSNP:rs145449046)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000216"
+FT   VARIANT         800
+FT                   /note="A -> G (in CBAVD; small decrease in bicarbonate
+FT                   transport; increase in chloride channel activity in vitro;
+FT                   no effect on glycan maturation; dbSNP:rs397508373)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:7529962, ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000217"
+FT   VARIANT         807
+FT                   /note="I -> M (in CBAVD; uncertain significance; no effect
+FT                   on glycan maturation; no effect on channel activity;
+FT                   dbSNP:rs1800103)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000218"
+FT   VARIANT         822
+FT                   /note="E -> K (in CF; no effect on glycan maturation but
+FT                   decreased channel activity; dbSNP:rs397508378)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000219"
+FT   VARIANT         826
+FT                   /note="E -> K (in thoracic sarcoidosis; uncertain
+FT                   significance; no effect on glycan maturation and channel
+FT                   activity; dbSNP:rs397508381)"
+FT                   /evidence="ECO:0000269|PubMed:9736778"
+FT                   /id="VAR_000220"
+FT   VARIANT         846..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080309"
+FT   VARIANT         866
+FT                   /note="C -> Y (in CF; dbSNP:rs193922506)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000221"
+FT   VARIANT         890..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:12394343,
+FT                   ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_080310"
+FT   VARIANT         903
+FT                   /note="Y -> H (in dbSNP:rs1800106)"
+FT                   /id="VAR_009903"
+FT   VARIANT         909
+FT                   /note="S -> I (in dbSNP:rs1800107)"
+FT                   /id="VAR_009904"
+FT   VARIANT         912
+FT                   /note="S -> L (in CF; uncertain significance;
+FT                   dbSNP:rs121909034)"
+FT                   /evidence="ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_000222"
+FT   VARIANT         913
+FT                   /note="Y -> C (in CF; dbSNP:rs121909008)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000223"
+FT   VARIANT         917
+FT                   /note="Y -> C (in CF; dbSNP:rs397508428)"
+FT                   /id="VAR_000224"
+FT   VARIANT         938
+FT                   /note="V -> G (in CBAVD; uncertain significance;
+FT                   dbSNP:rs193922511)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080311"
+FT   VARIANT         949
+FT                   /note="H -> Y (in CF; decrease in bicarbonate transport; no
+FT                   effect on chloride channel activity; dbSNP:rs121909035)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_000225"
+FT   VARIANT         952
+FT                   /note="M -> I (in CF and CBAVD; uncertain significance;
+FT                   dbSNP:rs151048781)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000226"
+FT   VARIANT         959
+FT                   /note="A -> V (in CBAVD; uncertain significance;
+FT                   dbSNP:rs397508448)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080312"
+FT   VARIANT         967
+FT                   /note="L -> S (in dbSNP:rs1800110)"
+FT                   /id="VAR_009905"
+FT   VARIANT         977
+FT                   /note="S -> F (in CBAVD; dbSNP:rs141033578)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080313"
+FT   VARIANT         997
+FT                   /note="L -> F (in CF and CBAVD; uncertain significance;
+FT                   dbSNP:rs1800111)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_000227"
+FT   VARIANT         1005
+FT                   /note="I -> R (in CF; dbSNP:rs397508479)"
+FT                   /evidence="ECO:0000269|PubMed:7525450"
+FT                   /id="VAR_000228"
+FT   VARIANT         1006
+FT                   /note="A -> E (in CF; dbSNP:rs397508480)"
+FT                   /evidence="ECO:0000269|PubMed:20691141,
+FT                   ECO:0000269|PubMed:7541510"
+FT                   /id="VAR_000229"
+FT   VARIANT         1013
+FT                   /note="P -> L (in CF; dbSNP:rs193922516)"
+FT                   /evidence="ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000230"
+FT   VARIANT         1023..1024
+FT                   /note="Missing (in CF; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:12394343"
+FT                   /id="VAR_080314"
+FT   VARIANT         1027
+FT                   /note="I -> T (in dbSNP:rs1800112)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080315"
+FT   VARIANT         1028
+FT                   /note="M -> I (in CF; dbSNP:rs200553511)"
+FT                   /evidence="ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000231"
+FT   VARIANT         1032
+FT                   /note="Y -> C (in CBAVD; uncertain significance;
+FT                   dbSNP:rs144055758)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080316"
+FT   VARIANT         1052
+FT                   /note="F -> V (in CF; dbSNP:rs150212784)"
+FT                   /evidence="ECO:0000269|PubMed:7683628"
+FT                   /id="VAR_000232"
+FT   VARIANT         1061
+FT                   /note="G -> R (in CF; dbSNP:rs142394380)"
+FT                   /evidence="ECO:0000269|PubMed:7683628,
+FT                   ECO:0000269|PubMed:8723695"
+FT                   /id="VAR_000233"
+FT   VARIANT         1063..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080317"
+FT   VARIANT         1065
+FT                   /note="L -> P (in CF; dbSNP:rs121909036)"
+FT                   /evidence="ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_000234"
+FT   VARIANT         1065
+FT                   /note="L -> R (in CF; dbSNP:rs121909036)"
+FT                   /evidence="ECO:0000269|PubMed:9452054"
+FT                   /id="VAR_000235"
+FT   VARIANT         1066
+FT                   /note="R -> C (in CF; dbSNP:rs78194216)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:9375855"
+FT                   /id="VAR_000236"
+FT   VARIANT         1066
+FT                   /note="R -> H (in CF; dbSNP:rs121909019)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000237"
+FT   VARIANT         1066
+FT                   /note="R -> L (in CF; dbSNP:rs121909019)"
+FT                   /evidence="ECO:0000269|PubMed:7683628"
+FT                   /id="VAR_000238"
+FT   VARIANT         1067
+FT                   /note="A -> T (in CF; loss of bicarbonate transport; no
+FT                   effect on protein maturation, subcellular location at the
+FT                   plasma membrane, nor on chloride channel activity;
+FT                   dbSNP:rs121909020)"
+FT                   /evidence="ECO:0000269|PubMed:11242048"
+FT                   /id="VAR_000239"
+FT   VARIANT         1067
+FT                   /note="A -> V (in dbSNP:rs1800114)"
+FT                   /evidence="ECO:0000269|PubMed:7539342"
+FT                   /id="VAR_000240"
+FT   VARIANT         1069
+FT                   /note="G -> R (in CBAVD; uncertain significance;
+FT                   dbSNP:rs200321110)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080318"
+FT   VARIANT         1070
+FT                   /note="R -> P (in CF; dbSNP:rs78769542)"
+FT                   /evidence="ECO:0000269|PubMed:9401006"
+FT                   /id="VAR_000242"
+FT   VARIANT         1070
+FT                   /note="R -> Q (in CF; decrease in bicarbonate transport; no
+FT                   effect on chloride channel activity; dbSNP:rs78769542)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:7683628"
+FT                   /id="VAR_000241"
+FT   VARIANT         1070
+FT                   /note="R -> W (in CBAVD; dbSNP:rs202179988)"
+FT                   /evidence="ECO:0000269|PubMed:7539342"
+FT                   /id="VAR_011564"
+FT   VARIANT         1071
+FT                   /note="Q -> P (in CF; dbSNP:rs121909037)"
+FT                   /evidence="ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_000243"
+FT   VARIANT         1072
+FT                   /note="P -> L (in CF; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:9921909"
+FT                   /id="VAR_000244"
+FT   VARIANT         1077
+FT                   /note="L -> P (in CF; dbSNP:rs139304906)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000245"
+FT   VARIANT         1085
+FT                   /note="H -> R (in CF; dbSNP:rs79635528)"
+FT                   /evidence="ECO:0000269|PubMed:7683628"
+FT                   /id="VAR_000246"
+FT   VARIANT         1092..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080319"
+FT   VARIANT         1098
+FT                   /note="W -> R (in CF; dbSNP:rs397508531)"
+FT                   /evidence="ECO:0000269|PubMed:7537150"
+FT                   /id="VAR_000247"
+FT   VARIANT         1101
+FT                   /note="M -> K (in CF; dbSNP:rs36210737)"
+FT                   /evidence="ECO:0000269|PubMed:7680525"
+FT                   /id="VAR_000248"
+FT   VARIANT         1101
+FT                   /note="M -> R (in CF; dbSNP:rs36210737)"
+FT                   /evidence="ECO:0000269|PubMed:7683628"
+FT                   /id="VAR_011565"
+FT   VARIANT         1137
+FT                   /note="M -> V (in CF; decreases channel activity; no
+FT                   visible effect on protein maturation; dbSNP:rs397508553)"
+FT                   /evidence="ECO:0000269|PubMed:9804160"
+FT                   /id="VAR_000249"
+FT   VARIANT         1140
+FT                   /note="Missing (in CF; abolishes channel activity; no
+FT                   visible effect on protein maturation; dbSNP:rs397508557)"
+FT                   /evidence="ECO:0000269|PubMed:9101301,
+FT                   ECO:0000269|PubMed:9804160"
+FT                   /id="VAR_000250"
+FT   VARIANT         1152
+FT                   /note="D -> H (in CF and CBAVD; decreases channel activity;
+FT                   no visible effect on protein maturation; dbSNP:rs75541969)"
+FT                   /evidence="ECO:0000269|PubMed:17329263,
+FT                   ECO:0000269|PubMed:9804160"
+FT                   /id="VAR_000251"
+FT   VARIANT         1153
+FT                   /note="V -> E (in CBAVD; uncertain significance;
+FT                   dbSNP:rs397508567)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080320"
+FT   VARIANT         1162..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080321"
+FT   VARIANT         1162
+FT                   /note="R -> L (in dbSNP:rs1800120)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_000252"
+FT   VARIANT         1200
+FT                   /note="K -> E (in CF; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:1379210"
+FT                   /id="VAR_080322"
+FT   VARIANT         1204..1480
+FT                   /note="Missing (in CF)"
+FT                   /evidence="ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_080323"
+FT   VARIANT         1220
+FT                   /note="T -> I (in dbSNP:rs1800123)"
+FT                   /evidence="ECO:0000269|PubMed:7522211"
+FT                   /id="VAR_000253"
+FT   VARIANT         1234
+FT                   /note="I -> V (in CF; dbSNP:rs75389940)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000254"
+FT   VARIANT         1235
+FT                   /note="S -> R (in CF; dbSNP:rs34911792)"
+FT                   /evidence="ECO:0000269|PubMed:7508414"
+FT                   /id="VAR_000255"
+FT   VARIANT         1244
+FT                   /note="G -> E (in CF; loss of bicarbonate transport; no
+FT                   effect on protein maturation, subcellular location at the
+FT                   plasma membrane, nor on chloride channel activity;
+FT                   dbSNP:rs267606723)"
+FT                   /evidence="ECO:0000269|PubMed:11242048"
+FT                   /id="VAR_000256"
+FT   VARIANT         1249
+FT                   /note="G -> E (in CF; dbSNP:rs121909040)"
+FT                   /evidence="ECO:0000269|PubMed:7520022"
+FT                   /id="VAR_000257"
+FT   VARIANT         1251
+FT                   /note="S -> N (in CF; dbSNP:rs74503330)"
+FT                   /evidence="ECO:0000269|PubMed:1284534,
+FT                   ECO:0000269|PubMed:7508414"
+FT                   /id="VAR_000258"
+FT   VARIANT         1255
+FT                   /note="S -> P (in CF; loss of bicarbonate transport; no
+FT                   effect on protein maturation, subcellular location at the
+FT                   plasma membrane, nor on chloride channel activity;
+FT                   dbSNP:rs121909041)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:1284530"
+FT                   /id="VAR_000259"
+FT   VARIANT         1270
+FT                   /note="D -> N (in CF and CBAVD; dbSNP:rs11971167)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_000260"
+FT   VARIANT         1282..1480
+FT                   /note="Missing (in CF and CBAVD)"
+FT                   /evidence="ECO:0000269|PubMed:1379210,
+FT                   ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080324"
+FT   VARIANT         1282
+FT                   /note="W -> R (in CF; dbSNP:rs397508616)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000261"
+FT   VARIANT         1283
+FT                   /note="R -> M (in CF; dbSNP:rs77902683)"
+FT                   /evidence="ECO:0000269|PubMed:1284468"
+FT                   /id="VAR_000262"
+FT   VARIANT         1286
+FT                   /note="F -> S (in CF; dbSNP:rs121909028)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000263"
+FT   VARIANT         1291
+FT                   /note="Q -> H (in CF; dbSNP:rs121909015)"
+FT                   /evidence="ECO:0000269|PubMed:1284466"
+FT                   /id="VAR_000264"
+FT   VARIANT         1291
+FT                   /note="Q -> R (in CF; dbSNP:rs397508621)"
+FT                   /evidence="ECO:0000269|PubMed:7525450"
+FT                   /id="VAR_000265"
+FT   VARIANT         1303
+FT                   /note="N -> H (in CF; dbSNP:rs121909042)"
+FT                   /evidence="ECO:0000269|PubMed:1284534"
+FT                   /id="VAR_000266"
+FT   VARIANT         1303
+FT                   /note="N -> K (in CF; impaired maturation of glycan chains;
+FT                   has low in vitro channel activity at low temperature;
+FT                   dbSNP:rs80034486)"
+FT                   /evidence="ECO:0000269|PubMed:12394343,
+FT                   ECO:0000269|PubMed:1379210, ECO:0000269|PubMed:1712898,
+FT                   ECO:0000269|PubMed:17182731, ECO:0000269|PubMed:7508414,
+FT                   ECO:0000269|PubMed:9401006, ECO:0000269|PubMed:9521595"
+FT                   /id="VAR_000267"
+FT   VARIANT         1349
+FT                   /note="G -> D (in CF; loss of bicarbonate transport; no
+FT                   effect on protein maturation, subcellular location at the
+FT                   plasma membrane, nor on chloride channel activity;
+FT                   dbSNP:rs193922525)"
+FT                   /evidence="ECO:0000269|PubMed:11242048,
+FT                   ECO:0000269|PubMed:1712898"
+FT                   /id="VAR_000268"
+FT   VARIANT         1352
+FT                   /note="Q -> H (in CBAVD; uncertain significance;
+FT                   dbSNP:rs113857788)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080325"
+FT   VARIANT         1364
+FT                   /note="A -> V (in CBAVD; dbSNP:rs397508670)"
+FT                   /evidence="ECO:0000269|Ref.118"
+FT                   /id="VAR_000269"
+FT   VARIANT         1397
+FT                   /note="V -> E (in CF; dbSNP:rs397508691)"
+FT                   /evidence="ECO:0000269|PubMed:7524913"
+FT                   /id="VAR_000270"
+FT   VARIANT         1453
+FT                   /note="R -> W (in dbSNP:rs4148725)"
+FT                   /evidence="ECO:0000269|Ref.3"
+FT                   /id="VAR_048152"
+FT   VARIANT         1473..1480
+FT                   /note="Missing (in CBAVD; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:17329263"
+FT                   /id="VAR_080326"
+FT   MUTAGEN         347
+FT                   /note="R->D: Decreases glutathione uptake. Increases
+FT                   affinity for glutathione."
+FT                   /evidence="ECO:0000269|PubMed:12727866"
+FT   MUTAGEN         464
+FT                   /note="K->A: Decreases glutathione uptake."
+FT                   /evidence="ECO:0000269|PubMed:12727866"
+FT   MUTAGEN         464
+FT                   /note="K->M: Impaired maturation of glycan chains
+FT                   indicating impaired trafficking from the endoplasmic
+FT                   reticulum to the cell membrane."
+FT                   /evidence="ECO:0000269|PubMed:1699669"
+FT   MUTAGEN         508
+FT                   /note="F->R: Impaired maturation of glycan chains
+FT                   indicating impaired trafficking from the endoplasmic
+FT                   reticulum to the cell membrane."
+FT                   /evidence="ECO:0000269|PubMed:1699669,
+FT                   ECO:0000269|PubMed:1712898"
+FT   MUTAGEN         539
+FT                   /note="I->T: Enhances trafficking from the endoplasmic
+FT                   reticulum to the cell membrane."
+FT                   /evidence="ECO:0000269|PubMed:28001373"
+FT   MUTAGEN         894
+FT                   /note="N->D: Abolishes N-glycosylation, enhances
+FT                   endocytosis and impairs subsequent recycling to the cell
+FT                   surface; when associated with D-900."
+FT                   /evidence="ECO:0000269|PubMed:20008117"
+FT   MUTAGEN         900
+FT                   /note="N->D: Abolishes N-glycosylation, enhances
+FT                   endocytosis and impairs subsequent recycling to the cell
+FT                   surface; when associated with D-894."
+FT                   /evidence="ECO:0000269|PubMed:20008117"
+FT   MUTAGEN         1137
+FT                   /note="M->R: Abolishes channel activity. Impairs protein
+FT                   maturation, suggesting the protein is retained in the
+FT                   endoplasmic reticulum."
+FT                   /evidence="ECO:0000269|PubMed:9804160"
+FT   MUTAGEN         1139
+FT                   /note="I->V: Decreases channel activity, no visible effect
+FT                   on protein maturation."
+FT                   /evidence="ECO:0000269|PubMed:9804160"
+FT   MUTAGEN         1154
+FT                   /note="D->G: Decreases channel activity, no visible effect
+FT                   on protein maturation."
+FT                   /evidence="ECO:0000269|PubMed:9804160"
+FT   MUTAGEN         1250
+FT                   /note="K->A: Decreases glutathione uptake."
+FT                   /evidence="ECO:0000269|PubMed:12727866"
+FT   MUTAGEN         1250
+FT                   /note="K->M: No effect on maturation of glycans, suggesting
+FT                   that trafficking to the plasma membrane is not altered."
+FT                   /evidence="ECO:0000269|PubMed:1699669"
+FT   MUTAGEN         1478..1480
+FT                   /note="Missing: Reduces interaction with MARCHF2 and
+FT                   abolishes subsequent MARCHF2-mediated degradation. No
+FT                   effect on localization to the Golgi."
+FT                   /evidence="ECO:0000269|PubMed:23818989"
+FT   CONFLICT        620
+FT                   /note="H -> N (in Ref. 1; AAA35680)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        833
+FT                   /note="F -> L (in Ref. 1; AAA35680)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           5..8
+FT                   /evidence="ECO:0007829|PDB:8UBR"
+FT   HELIX           11..16
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           18..20
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           21..27
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           34..36
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           42..44
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           46..63
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           70..97
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           99..107
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           114..118
+FT                   /evidence="ECO:0007829|PDB:8EIO"
+FT   HELIX           120..164
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            169..173
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           177..185
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            186..189
+FT                   /evidence="ECO:0007829|PDB:9DW8"
+FT   HELIX           190..193
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           194..196
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           200..216
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            220..222
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           223..249
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           252..266
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           269..275
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           278..312
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           314..328
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           333..351
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           354..375
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   STRAND          386..388
+FT                   /evidence="ECO:0007829|PDB:8UBR"
+FT   STRAND          390..399
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           403..411
+FT                   /evidence="ECO:0007829|PDB:2BBS"
+FT   HELIX           414..417
+FT                   /evidence="ECO:0007829|PDB:2BBT"
+FT   HELIX           433..436
+FT                   /evidence="ECO:0007829|PDB:1XMI"
+FT   STRAND          440..449
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          450..452
+FT                   /evidence="ECO:0007829|PDB:6MSM"
+FT   STRAND          453..457
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           460..462
+FT                   /evidence="ECO:0007829|PDB:6ZE1"
+FT   HELIX           464..471
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          478..484
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          488..491
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          499..501
+FT                   /evidence="ECO:0007829|PDB:2PZG"
+FT   HELIX           502..507
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           514..523
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           527..530
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          533..535
+FT                   /evidence="ECO:0007829|PDB:2PZF"
+FT   HELIX           536..538
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          540..545
+FT                   /evidence="ECO:0007829|PDB:5TFJ"
+FT   HELIX           550..563
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          567..573
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   TURN            574..577
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           580..589
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           590..594
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   TURN            595..597
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          598..603
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           607..612
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          614..620
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   STRAND          623..628
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           630..634
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           640..644
+FT                   /evidence="ECO:0007829|PDB:2PZE"
+FT   HELIX           650..652
+FT                   /evidence="ECO:0007829|PDB:2BBS"
+FT   HELIX           655..669
+FT                   /evidence="ECO:0007829|PDB:2BBS"
+FT   HELIX           826..829
+FT                   /evidence="ECO:0007829|PDB:9DW9"
+FT   TURN            830..832
+FT                   /evidence="ECO:0007829|PDB:9DW9"
+FT   HELIX           849..853
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           857..882
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            883..886
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   STRAND          904..906
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            910..913
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           914..926
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           931..956
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           961..965
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           969..1011
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1015..1046
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1049..1060
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1062..1068
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1071..1121
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   STRAND          1123..1125
+FT                   /evidence="ECO:0007829|PDB:9DW8"
+FT   HELIX           1128..1136
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   TURN            1137..1139
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1140..1167
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   STRAND          1204..1207
+FT                   /evidence="ECO:0007829|PDB:3GD7"
+FT   STRAND          1210..1220
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1226..1234
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1239..1243
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1250..1257
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1261..1269
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1274..1276
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1279..1283
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1286..1290
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1297..1299
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1300..1304
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1312..1321
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1325..1329
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1331..1333
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1334..1336
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   TURN            1341..1345
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1348..1361
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1365..1371
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1372..1375
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1378..1387
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   TURN            1388..1394
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1395..1403
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1404..1406
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1411..1415
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   STRAND          1422..1427
+FT                   /evidence="ECO:0007829|PDB:6UK1"
+FT   HELIX           1435..1439
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   HELIX           1443..1449
+FT                   /evidence="ECO:0007829|PDB:7SVD"
+FT   STRAND          1478..1480
+FT                   /evidence="ECO:0007829|PDB:2LOB"
+SQ   SEQUENCE   1480 AA;  168142 MW;  8D082AA2E768C065 CRC64;
+     MQRSPLEKAS VVSKLFFSWT RPILRKGYRQ RLELSDIYQI PSVDSADNLS EKLEREWDRE
+     LASKKNPKLI NALRRCFFWR FMFYGIFLYL GEVTKAVQPL LLGRIIASYD PDNKEERSIA
+     IYLGIGLCLL FIVRTLLLHP AIFGLHHIGM QMRIAMFSLI YKKTLKLSSR VLDKISIGQL
+     VSLLSNNLNK FDEGLALAHF VWIAPLQVAL LMGLIWELLQ ASAFCGLGFL IVLALFQAGL
+     GRMMMKYRDQ RAGKISERLV ITSEMIENIQ SVKAYCWEEA MEKMIENLRQ TELKLTRKAA
+     YVRYFNSSAF FFSGFFVVFL SVLPYALIKG IILRKIFTTI SFCIVLRMAV TRQFPWAVQT
+     WYDSLGAINK IQDFLQKQEY KTLEYNLTTT EVVMENVTAF WEEGFGELFE KAKQNNNNRK
+     TSNGDDSLFF SNFSLLGTPV LKDINFKIER GQLLAVAGST GAGKTSLLMV IMGELEPSEG
+     KIKHSGRISF CSQFSWIMPG TIKENIIFGV SYDEYRYRSV IKACQLEEDI SKFAEKDNIV
+     LGEGGITLSG GQRARISLAR AVYKDADLYL LDSPFGYLDV LTEKEIFESC VCKLMANKTR
+     ILVTSKMEHL KKADKILILH EGSSYFYGTF SELQNLQPDF SSKLMGCDSF DQFSAERRNS
+     ILTETLHRFS LEGDAPVSWT ETKKQSFKQT GEFGEKRKNS ILNPINSIRK FSIVQKTPLQ
+     MNGIEEDSDE PLERRLSLVP DSEQGEAILP RISVISTGPT LQARRRQSVL NLMTHSVNQG
+     QNIHRKTTAS TRKVSLAPQA NLTELDIYSR RLSQETGLEI SEEINEEDLK ECFFDDMESI
+     PAVTTWNTYL RYITVHKSLI FVLIWCLVIF LAEVAASLVV LWLLGNTPLQ DKGNSTHSRN
+     NSYAVIITST SSYYVFYIYV GVADTLLAMG FFRGLPLVHT LITVSKILHH KMLHSVLQAP
+     MSTLNTLKAG GILNRFSKDI AILDDLLPLT IFDFIQLLLI VIGAIAVVAV LQPYIFVATV
+     PVIVAFIMLR AYFLQTSQQL KQLESEGRSP IFTHLVTSLK GLWTLRAFGR QPYFETLFHK
+     ALNLHTANWF LYLSTLRWFQ MRIEMIFVIF FIAVTFISIL TTGEGEGRVG IILTLAMNIM
+     STLQWAVNSS IDVDSLMRSV SRVFKFIDMP TEGKPTKSTK PYKNGQLSKV MIIENSHVKK
+     DDIWPSGGQM TVKDLTAKYT EGGNAILENI SFSISPGQRV GLLGRTGSGK STLLSAFLRL
+     LNTEGEIQID GVSWDSITLQ QWRKAFGVIP QKVFIFSGTF RKNLDPYEQW SDQEIWKVAD
+     EVGLRSVIEQ FPGKLDFVLV DGGCVLSHGH KQLMCLARSV LSKAKILLLD EPSAHLDPVT
+     YQIIRRTLKQ AFADCTVILC EHRIEAMLEC QQFLVIEENK VRQYDSIQKL LNERSLFRQA
+     ISPSDRVKLF PHRNSSKCKS KPQIAALKEE TEEEVQDTRL
+//

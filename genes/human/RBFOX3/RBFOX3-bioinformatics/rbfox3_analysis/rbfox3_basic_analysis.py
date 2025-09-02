@@ -10,9 +10,23 @@ from Bio.SeqUtils.ProtParam import ProteinAnalysis
 import matplotlib.pyplot as plt
 import re
 import json
+from pathlib import Path
 
-# RBFOX3 human sequence from UniProt (A6NFN3)
-RBFOX3_SEQUENCE = "MAQPYPPAQYPPPPQNGIPAYAPPPPHPTQDYSGQTPVPTEHGMTLYTPAQTHPEQPGSEASTQPIAGTQTVPQTDEAAQTDSQPLHPSDPTEKQQPKRLHVSNIPFRFRDPDLRQMFGQFGKILDVEIIFNERGSKGFGFVTFETSSDADRAREKLNGTIVEGRKIEVNNATARVMTNKKTGNPYTNGWKLNPVVGAVYGPEFYAVTGFPYPTTGTAVAYRGAHLRGRGRRAVYNTFRAPPPPPIPTYGGAVVYQDGFYGAEIYGGYAAYRYAQPAAAAAYSDSYGRVYAAADPYHHTTIGPAATYSIGTTM"
+def load_sequence_from_fasta(fasta_path):
+    """Load sequence from FASTA file"""
+    with open(fasta_path, 'r') as f:
+        lines = f.readlines()
+    
+    # Skip header, join sequence lines
+    sequence = ''.join(line.strip() for line in lines[1:])
+    return sequence
+
+# Load RBFOX3 sequence from FASTA file
+fasta_path = Path(__file__).parent.parent.parent / "RBFOX3.fasta"
+if fasta_path.exists():
+    RBFOX3_SEQUENCE = load_sequence_from_fasta(fasta_path)
+else:
+    raise FileNotFoundError(f"FASTA file not found at {fasta_path}. Please run: python scripts/uniprot2fasta.py genes/human/RBFOX3/RBFOX3-uniprot.txt")
 
 def analyze_basic_properties():
     """Analyze basic biochemical properties of RBFOX3"""

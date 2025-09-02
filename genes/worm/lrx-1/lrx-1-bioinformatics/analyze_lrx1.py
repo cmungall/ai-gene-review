@@ -1,24 +1,21 @@
 #!/usr/bin/env python3
 """
-Bioinformatic analysis of C. elegans LRX-1 protein (Q22179)
-Analyzes protein sequence to validate/refute domain predictions
+Bioinformatic analysis of protein sequences to validate/refute domain predictions.
+
+This script analyzes protein sequences for:
+- Cysteine patterns and potential LDL-A domains
+- Hydrophobicity and membrane topology
+- Domain patterns (EGF-like, etc.)
+- Size comparison with typical protein families
 """
 
 import re
 import json
+import click
 from typing import List, Dict
+from Bio import SeqIO
+from pathlib import Path
 
-def load_sequence() -> str:
-    """Load the LRX-1 protein sequence"""
-    # Q22179 sequence from UniProt
-    sequence = """MAWLTSIFFILLAVQPVLPQDLYGTATQQQPYPYVQPSASSGSGGYVPNPQSSIHTVQQP
-YPNIDVVEPDVDSVDIYETEEPQFKVVNPVFPLGGSGIVEEPGTIPPPMPQTQAPEKPDNS
-YAINYCDKREFPDDVLAQYGLERIDYFVYNTSCSHVFFQCSIGQTFPLACMSEDQAFDKS
-TENCNHKNAIKFCPEYDHVMHCTIKDTCTENEFACCAMPQSCIHVSKRCDGHPDCADGED
-ENNCPSCARDDEFACVKSEHCIPANKRCDGVADDCEDGSNLDEIGCSKNTTCIGKFVCGTS
-RGGVSCVDLDMHCDGKKDCLNGEDEMNCQEGRQKYLLCENQKQSVTRLQWCNGETDCAD
-GSDEKYCY"""
-    return sequence.replace("\n", "").replace(" ", "")
 
 def analyze_cysteine_patterns(sequence: str) -> Dict:
     """Analyze cysteine distribution and spacing patterns"""
@@ -44,6 +41,7 @@ def analyze_cysteine_patterns(sequence: str) -> Dict:
         'potential_ldla_domains': potential_ldla,
         'cysteine_clusters': identify_cysteine_clusters(cys_positions, sequence)
     }
+
 
 def check_ldla_pattern(sequence: str, cys_positions: List[int], spacings: List[int]) -> List[Dict]:
     """Check for LDL-A domain patterns"""
@@ -96,6 +94,7 @@ def check_ldla_pattern(sequence: str, cys_positions: List[int], spacings: List[i
     
     return potential_domains
 
+
 def identify_cysteine_clusters(cys_positions: List[int], sequence: str) -> List[Dict]:
     """Identify regions with clustered cysteines"""
     clusters = []
@@ -129,6 +128,7 @@ def identify_cysteine_clusters(cys_positions: List[int], sequence: str) -> List[
         })
     
     return clusters
+
 
 def analyze_hydrophobicity(sequence: str) -> Dict:
     """Analyze hydrophobicity for membrane topology prediction"""
@@ -170,6 +170,7 @@ def analyze_hydrophobicity(sequence: str) -> Dict:
         'topology_prediction': predict_topology(tm_regions, signal_hydro_count / len(signal_region))
     }
 
+
 def merge_overlapping_regions(regions: List[Dict]) -> List[Dict]:
     """Merge overlapping hydrophobic regions"""
     if not regions:
@@ -187,6 +188,7 @@ def merge_overlapping_regions(regions: List[Dict]) -> List[Dict]:
     
     return merged
 
+
 def predict_topology(tm_regions: List[Dict], signal_hydrophobicity: float) -> str:
     """Predict protein topology based on hydrophobic regions"""
     
@@ -199,6 +201,7 @@ def predict_topology(tm_regions: List[Dict], signal_hydrophobicity: float) -> st
         return "single_pass_membrane"
     else:
         return "multi_pass_membrane"
+
 
 def check_domain_patterns(sequence: str) -> Dict:
     """Check for various domain patterns"""
@@ -215,42 +218,89 @@ def check_domain_patterns(sequence: str) -> Dict:
     
     return results
 
-def compare_protein_sizes() -> Dict:
-    """Compare LRX-1 size to typical LRP proteins"""
+
+def compare_protein_sizes(sequence_length: int) -> Dict:
+    """Compare protein size to typical LRP proteins"""
     
-    return {
-        'lrx1_length': None,  # Will be filled from sequence
+    result = {
+        'protein_length': sequence_length,
         'typical_lrp_length': {'min': 4000, 'max': 6000, 'average': 4500},
         'typical_ldlr_length': {'min': 800, 'max': 900, 'average': 860},
-        'size_compatible_with_lrp': None  # Will be calculated
+        'size_compatible_with_lrp': sequence_length >= 4000
     }
-
-def main():
-    """Run complete analysis and output results as JSON"""
     
-    sequence = load_sequence()
+    return result
+
+
+@click.command()
+@click.argument('fasta_file', type=click.Path(exists=True))
+@click.option('--output', '-o', default='protein_analysis_results.json', 
+              help='Output JSON file (default: protein_analysis_results.json)')
+@click.option('--protein-name', help='Protein name for the analysis')
+def main(fasta_file, output, protein_name):
+    """
+    Analyze protein sequence for domain patterns and membrane topology.
+    
+    FASTA_FILE: Path to the input FASTA file containing the protein sequence
+    """
+    
+    # Read the sequence from FASTA file
+    with open(fasta_file, 'r') as f:
+        record = next(SeqIO.parse(f, "fasta"))
+    
+    sequence = str(record.seq)
+    
+    # Extract protein info from FASTA header if not provided
+    if not protein_name:
+        # Try to extract from FASTA header
+        header_parts = record.description.split('|')
+        if len(header_parts) >= 2:
+            protein_name = header_parts[1].strip()
+        else:
+            protein_name = record.id
+    
+    # Extract UniProt ID if present
+    uniprot_id = record.id if '|' not in record.id else record.id.split('|')[0]
+    
+    click.echo(f"Analyzing protein: {protein_name} ({len(sequence)} aa)")
+    click.echo("=" * 60)
     
     results = {
         'protein_info': {
-            'uniprot_id': 'Q22179',
-            'gene_name': 'lrx-1',
-            'organism': 'Caenorhabditis elegans',
+            'uniprot_id': uniprot_id,
+            'protein_name': protein_name,
             'sequence_length': len(sequence)
         },
         'cysteine_analysis': analyze_cysteine_patterns(sequence),
         'hydrophobicity_analysis': analyze_hydrophobicity(sequence),
         'domain_patterns': check_domain_patterns(sequence),
-        'size_comparison': compare_protein_sizes()
+        'size_comparison': compare_protein_sizes(len(sequence))
     }
     
-    # Update size comparison with actual length
-    results['size_comparison']['lrx1_length'] = len(sequence)
-    results['size_comparison']['size_compatible_with_lrp'] = (
-        len(sequence) >= results['size_comparison']['typical_lrp_length']['min']
-    )
+    # Print summary to console
+    click.echo(f"\nCysteine Analysis:")
+    click.echo(f"  Total cysteines: {results['cysteine_analysis']['total_cysteines']}")
+    click.echo(f"  Cysteine percentage: {results['cysteine_analysis']['cysteine_percentage']}%")
+    click.echo(f"  Potential LDL-A domains: {len(results['cysteine_analysis']['potential_ldla_domains'])}")
     
-    # Output results as JSON
-    print(json.dumps(results, indent=2))
+    click.echo(f"\nHydrophobicity Analysis:")
+    click.echo(f"  Signal peptide hydrophobicity: {results['hydrophobicity_analysis']['signal_peptide']['hydrophobicity']:.3f}")
+    click.echo(f"  Predicted TM regions: {len(results['hydrophobicity_analysis']['tm_regions'])}")
+    click.echo(f"  Topology prediction: {results['hydrophobicity_analysis']['topology_prediction']}")
+    
+    click.echo(f"\nDomain Patterns:")
+    click.echo(f"  EGF-like domains: {len(results['domain_patterns']['egf_domains'])}")
+    
+    click.echo(f"\nSize Comparison:")
+    click.echo(f"  Protein length: {results['size_comparison']['protein_length']} aa")
+    click.echo(f"  Compatible with LRP family: {results['size_comparison']['size_compatible_with_lrp']}")
+    
+    # Save results to JSON file
+    with open(output, 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    click.echo(f"\nResults saved to '{output}'")
+
 
 if __name__ == "__main__":
     main()

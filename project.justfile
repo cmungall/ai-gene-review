@@ -3,6 +3,8 @@
 all: validate-all test
 
 # Fetch gene data from UniProt and GOA
+# Use --alias to specify a custom directory name and file prefix
+# Example: just fetch-gene 9BACT F0JBF1 --alias HgcB
 fetch-gene organism gene *args="":
     uv run ai-gene-review fetch-gene {{organism}} {{gene}} --output-dir . {{args}}
 
@@ -141,3 +143,27 @@ update-browser-data: export-annotations-json
         --description "Browse and filter gene annotation reviews" \
         --force
     @echo "Data updated in app/"
+
+# ============== Publications Cache Management ==============
+
+# Refresh publications cache for PMC articles with missing full text (small batch)
+refresh-publications count="50":
+    @echo "Refreshing publications cache ({{count}} articles)..."
+    uv run ai-gene-review refresh-publications --count {{count}} --delay 1.0
+
+# Refresh all publications cache for PMC articles with missing full text
+refresh-publications-all:
+    @echo "Refreshing ALL publications with missing full text..."
+    @echo "This may take several hours. Use Ctrl+C to cancel."
+    @sleep 3
+    uv run ai-gene-review refresh-publications --delay 0.8
+
+# Check status of publications cache (how many need refresh)
+check-publications-cache:
+    @echo "Checking publications cache status..."
+    uv run ai-gene-review refresh-publications --summary
+
+# Show sample of publications that need refresh
+show-refresh-candidates count="10":
+    @echo "Sample of publications needing full text refresh:"
+    uv run ai-gene-review refresh-publications --show-candidates {{count}}

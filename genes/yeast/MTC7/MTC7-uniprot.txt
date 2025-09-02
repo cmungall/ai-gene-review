@@ -1,0 +1,99 @@
+ID   MTC7_YEAST              Reviewed;         139 AA.
+AC   P32633; D3DLL6;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   18-JUN-2025, entry version 110.
+DE   RecName: Full=Maintenance of telomere capping protein 7;
+GN   Name=MTC7; OrderedLocusNames=YEL033W; ORFNames=SYGP-ORF22;
+OS   Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=559292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=9169868; DOI=10.1038/387s078;
+RA   Dietrich F.S., Mulligan J.T., Hennessy K.M., Yelton M.A., Allen E.,
+RA   Araujo R., Aviles E., Berno A., Brennan T., Carpenter J., Chen E.,
+RA   Cherry J.M., Chung E., Duncan M., Guzman E., Hartzell G., Hunicke-Smith S.,
+RA   Hyman R.W., Kayser A., Komp C., Lashkari D., Lew H., Lin D., Mosedale D.,
+RA   Nakahara K., Namath A., Norgren R., Oefner P., Oh C., Petel F.X.,
+RA   Roberts D., Sehl P., Schramm S., Shogren T., Smith V., Taylor P., Wei Y.,
+RA   Botstein D., Davis R.W.;
+RT   "The nucleotide sequence of Saccharomyces cerevisiae chromosome V.";
+RL   Nature 387:78-81(1997).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=24374639; DOI=10.1534/g3.113.008995;
+RA   Engel S.R., Dietrich F.S., Fisk D.G., Binkley G., Balakrishnan R.,
+RA   Costanzo M.C., Dwight S.S., Hitz B.C., Karra K., Nash R.S., Weng S.,
+RA   Wong E.D., Lloyd P., Skrzypek M.S., Miyasato S.R., Simison M., Cherry J.M.;
+RT   "The reference genome sequence of Saccharomyces cerevisiae: Then and now.";
+RL   G3 (Bethesda) 4:389-398(2014).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=18845848; DOI=10.1534/genetics.108.092577;
+RA   Addinall S.G., Downey M., Yu M., Zubko M.K., Dewar J., Leake A.,
+RA   Hallinan J., Shaw O., James K., Wilkinson D.J., Wipat A., Durocher D.,
+RA   Lydall D.;
+RT   "A genomewide suppressor and enhancer analysis of cdc13-1 reveals varied
+RT   cellular processes influencing telomere capping in Saccharomyces
+RT   cerevisiae.";
+RL   Genetics 180:2251-2266(2008).
+CC   -!- FUNCTION: May be involved in telomere capping.
+CC       {ECO:0000269|PubMed:18845848}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U18779; AAB65009.1; -; Genomic_DNA.
+DR   EMBL; BK006939; DAA07620.1; -; Genomic_DNA.
+DR   PIR; S30850; S30850.
+DR   RefSeq; NP_010881.1; NM_001178848.1.
+DR   AlphaFoldDB; P32633; -.
+DR   SMR; P32633; -.
+DR   BioGRID; 300943; 9.
+DR   FunCoup; P32633; 30.
+DR   IntAct; P32633; 1.
+DR   STRING; 4932.YEL033W; -.
+DR   PaxDb; 4932-YEL033W; -.
+DR   EnsemblFungi; YEL033W_mRNA; YEL033W; YEL033W.
+DR   GeneID; 856678; -.
+DR   KEGG; sce:YEL033W; -.
+DR   AGR; SGD:S000000759; -.
+DR   SGD; S000000759; MTC7.
+DR   VEuPathDB; FungiDB:YEL033W; -.
+DR   HOGENOM; CLU_1897411_0_0_1; -.
+DR   InParanoid; P32633; -.
+DR   OrthoDB; 10405987at2759; -.
+DR   BioCyc; YEAST:G3O-30155-MONOMER; -.
+DR   ChiTaRS; MTC7; yeast.
+DR   PRO; PR:P32633; -.
+DR   Proteomes; UP000002311; Chromosome V.
+DR   RNAct; P32633; protein.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+PE   4: Predicted;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..139
+FT                   /note="Maintenance of telomere capping protein 7"
+FT                   /id="PRO_0000202608"
+FT   TRANSMEM        13..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        42..62
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          94..121
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        104..114
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   139 AA;  16094 MW;  301A1E922A71D79A CRC64;
+     MKKEKKTPTP LPSHHVLFAE PGFFLCNFFF VLLKHTQINP FFYFLFILLF IIYIAIIYFV
+     FIRISHFSFS LCRQCNSLGR MIFMCAYLPA ASSRSVANPA LPPQKKKKKK KKGTLRTGEV
+     EEQAKGNISF DLCGKQNFQ
+//

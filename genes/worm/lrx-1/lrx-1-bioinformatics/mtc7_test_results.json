@@ -1,0 +1,67 @@
+{
+  "protein_info": {
+    "uniprot_id": "sp",
+    "protein_name": "P32633",
+    "sequence_length": 139
+  },
+  "cysteine_analysis": {
+    "total_cysteines": 5,
+    "cysteine_percentage": 3.6,
+    "positions": [
+      25,
+      71,
+      74,
+      84,
+      132
+    ],
+    "spacings": [
+      45,
+      2,
+      9,
+      47
+    ],
+    "potential_ldla_domains": [],
+    "cysteine_clusters": [
+      {
+        "start": 71,
+        "end": 84,
+        "n_cysteines": 3,
+        "span": 14,
+        "region": "CRQCNSLGRMIFMC"
+      }
+    ]
+  },
+  "hydrophobicity_analysis": {
+    "signal_peptide": {
+      "length": 30,
+      "hydrophobic_count": 12,
+      "hydrophobicity": 0.4
+    },
+    "tm_regions": [
+      {
+        "start": 13,
+        "end": 71,
+        "hydrophobicity": 0.65,
+        "sequence": "HHVLFAEPGFFLCNFFFVLL"
+      }
+    ],
+    "topology_prediction": "single_pass_membrane"
+  },
+  "domain_patterns": {
+    "egf_domains": []
+  },
+  "size_comparison": {
+    "protein_length": 139,
+    "typical_lrp_length": {
+      "min": 4000,
+      "max": 6000,
+      "average": 4500
+    },
+    "typical_ldlr_length": {
+      "min": 800,
+      "max": 900,
+      "average": 860
+    },
+    "size_compatible_with_lrp": false
+  }
+}

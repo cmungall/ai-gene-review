@@ -6,6 +6,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+gene_review:GOBiologicalProcessEnum a owl:Class,
+        linkml:EnumDefinition .
+
+gene_review:GOCellularLocationEnum a owl:Class,
+        linkml:EnumDefinition .
+
+gene_review:GOMolecularActivityEnum a owl:Class,
+        linkml:EnumDefinition .
+
+gene_review:GOProteinContainingComplexEnum a owl:Class,
+        linkml:EnumDefinition .
+
+gene_review:GOTermEnum a owl:Class,
+        linkml:EnumDefinition .
+
 gene_review:GeneReview a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "GeneReview" ;
@@ -13,63 +28,69 @@ gene_review:GeneReview a owl:Class,
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:taxon ],
         [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:id ],
-        [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty gene_review:description ],
+            owl:onProperty gene_review:aliases ],
         [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:references ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
+            owl:minCardinality 1 ;
             owl:onProperty gene_review:gene_symbol ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:core_functions ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:description ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:taxon ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:id ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:gene_symbol ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:CoreFunction ;
-            owl:onProperty gene_review:core_functions ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:taxon ],
         [ a owl:Restriction ;
             owl:minCardinality 1 ;
             owl:onProperty gene_review:id ],
         [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:gene_symbol ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:proposed_new_terms ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:core_functions ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:aliases ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:ExistingAnnotation ;
+            owl:onProperty gene_review:existing_annotations ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:description ],
+        [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Reference ;
+            owl:onProperty gene_review:references ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:ProposedOntologyTerm ;
+            owl:onProperty gene_review:proposed_new_terms ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
             owl:onProperty gene_review:references ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty gene_review:existing_annotations ],
         [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:taxon ],
+        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
-            owl:onProperty gene_review:description ],
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Term ;
+            owl:onProperty gene_review:taxon ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:gene_symbol ],
         [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:ExistingAnnotation ;
-            owl:onProperty gene_review:existing_annotations ] ;
+            owl:allValuesFrom gene_review:CoreFunction ;
+            owl:onProperty gene_review:core_functions ] ;
     skos:definition "Complete review for a gene" ;
-    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
-
-gene_review:aliases a owl:ObjectProperty,
-        linkml:SlotDefinition ;
-    rdfs:label "aliases" ;
-    rdfs:range linkml:String ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 <https://w3id.org/ai4curation/gene_review/ActionEnum#ACCEPT> a owl:Class,
@@ -92,6 +113,11 @@ gene_review:aliases a owl:ObjectProperty,
     rdfs:label "MODIFY" ;
     rdfs:subClassOf gene_review:ActionEnum .
 
+<https://w3id.org/ai4curation/gene_review/ActionEnum#PENDING> a owl:Class,
+        gene_review:ActionEnum ;
+    rdfs:label "PENDING" ;
+    rdfs:subClassOf gene_review:ActionEnum .
+
 <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE> a owl:Class,
         gene_review:ActionEnum ;
     rdfs:label "REMOVE" ;
@@ -109,19 +135,19 @@ gene_review:AnnotationExtension a owl:Class,
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:predicate ],
         [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:term ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:term ],
+        [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty gene_review:predicate ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:predicate ],
         [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:term ],
-        [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:term ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
             owl:onProperty gene_review:term ] ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
@@ -130,55 +156,62 @@ gene_review:CoreFunction a owl:Class,
     rdfs:label "CoreFunction" ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minCardinality 0 ;
+            owl:onProperty gene_review:locations ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
             owl:onProperty gene_review:description ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty gene_review:molecular_function ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:directly_involved_in ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:substrates ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:anatomical_locations ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Term ;
             owl:onProperty gene_review:in_complex ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:anatomical_locations ],
+            owl:onProperty gene_review:molecular_function ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Term ;
+            owl:onProperty gene_review:locations ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:description ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:substrates ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:in_complex ],
+            owl:onProperty gene_review:anatomical_locations ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:locations ],
+            owl:onProperty gene_review:directly_involved_in ],
         [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:description ],
+            owl:allValuesFrom gene_review:Term ;
+            owl:onProperty gene_review:in_complex ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:anatomical_locations ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:molecular_function ],
         [ a owl:Restriction ;
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:molecular_function ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:directly_involved_in ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:in_complex ],
+            owl:onProperty gene_review:substrates ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty gene_review:locations ],
+            owl:onProperty gene_review:substrates ],
         [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:molecular_function ] ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:directly_involved_in ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:SupportingTextInReference ;
+            owl:onProperty gene_review:supported_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:supported_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:description ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:in_complex ] ;
+    skos:definition "A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation." ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 <https://w3id.org/ai4curation/gene_review/EvidenceType#IBA> a owl:Class,
@@ -215,70 +248,71 @@ gene_review:ExistingAnnotation a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "ExistingAnnotation" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Term ;
-            owl:onProperty gene_review:term ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:term ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:evidence_type ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:review ],
-        [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:evidence_type ],
+            owl:onProperty gene_review:supporting_entities ],
         [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:evidence_type ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
+            owl:allValuesFrom gene_review:Reference ;
             owl:onProperty gene_review:original_reference_id ],
         [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:original_reference_id ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:negated ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:extensions ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
+            owl:allValuesFrom linkml:Boolean ;
             owl:onProperty gene_review:negated ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:AnnotationExtension ;
             owl:onProperty gene_review:extensions ],
         [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:review ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Term ;
+            owl:onProperty gene_review:term ],
+        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
-            owl:onProperty gene_review:review ],
+            owl:onProperty gene_review:original_reference_id ],
         [ a owl:Restriction ;
-            owl:allValuesFrom linkml:Boolean ;
-            owl:onProperty gene_review:negated ],
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:evidence_type ],
         [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Review ;
-            owl:onProperty gene_review:review ],
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:supporting_entities ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:evidence_type ],
         [ a owl:Restriction ;
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:term ],
         [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:Reference ;
-            owl:onProperty gene_review:original_reference_id ] ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:term ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:review ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:extensions ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:negated ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:negated ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:evidence_type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:original_reference_id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Review ;
+            owl:onProperty gene_review:review ] ;
+    skos:definition "An existing annotation from the GO database, plus a review of the annotation." ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:Finding a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "Finding" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:supporting_text ],
-        [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:supporting_text ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:statement ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty gene_review:statement ],
@@ -286,8 +320,57 @@ gene_review:Finding a owl:Class,
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:statement ],
         [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:supporting_text ],
+        [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty gene_review:supporting_text ] ;
+            owl:onProperty gene_review:reference_section_type ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:statement ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:reference_section_type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:supporting_text ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:reference_section_type ] ;
+    skos:definition "A finding is a statement about a gene, which is supported by a reference. Similar to \"comments\" in uniprot" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:ProposedOntologyTerm a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ProposedOntologyTerm" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:justification ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty gene_review:proposed_name ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:proposed_name ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty gene_review:proposed_definition ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:proposed_definition ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:proposed_definition ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:justification ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:justification ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:proposed_name ] ;
+    skos:definition "A proposed new ontology term that should exist but doesn't currently" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:Review a owl:Class,
@@ -295,37 +378,63 @@ gene_review:Review a owl:Class,
     rdfs:label "Review" ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty gene_review:summary ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
             owl:onProperty gene_review:reason ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:action ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:reason ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:proposed_replacement_terms ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom gene_review:ActionEnum ;
-            owl:onProperty gene_review:action ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:summary ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:summary ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:action ],
         [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Term ;
             owl:onProperty gene_review:proposed_replacement_terms ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
+            owl:onProperty gene_review:proposed_replacement_terms ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:action ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:action ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:supported_by ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Reference ;
+            owl:onProperty gene_review:additional_reference_ids ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:summary ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:summary ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:additional_reference_ids ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:summary ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:ActionEnum ;
+            owl:onProperty gene_review:action ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:reason ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:SupportingTextInReference ;
+            owl:onProperty gene_review:supported_by ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
             owl:onProperty gene_review:reason ] ;
+    skos:definition "A review of an existing annotation." ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:additional_reference_ids a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "additional_reference_ids" ;
+    rdfs:range gene_review:Reference ;
+    skos:definition "IDs of the references" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:aliases a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "aliases" ;
+    rdfs:range linkml:String ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:anatomical_locations a owl:ObjectProperty,
@@ -367,6 +476,13 @@ gene_review:locations a owl:ObjectProperty,
     rdfs:label "locations" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
+gene_review:proposed_new_terms a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "proposed_new_terms" ;
+    rdfs:range gene_review:ProposedOntologyTerm ;
+    skos:definition "Proposed new ontology terms that should exist but don't" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
 gene_review:proposed_replacement_terms a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "proposed_replacement_terms" ;
@@ -383,6 +499,46 @@ gene_review:references a owl:ObjectProperty,
 gene_review:substrates a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "substrates" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:supporting_entities a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "supporting_entities" ;
+    rdfs:range linkml:String ;
+    skos:definition "IDs of the supporting entities" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:SupportingTextInReference a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "SupportingTextInReference" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom gene_review:Reference ;
+            owl:onProperty gene_review:reference_id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:supporting_text ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:reference_section_type ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:supporting_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:reference_section_type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:reference_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:supporting_text ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:reference_id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:reference_section_type ] ;
+    skos:definition "A supporting text in a reference." ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:action a owl:ObjectProperty,
@@ -411,6 +567,19 @@ gene_review:in_complex a owl:ObjectProperty,
     rdfs:label "in_complex" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
+gene_review:is_invalid a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "is_invalid" ;
+    rdfs:range linkml:Boolean ;
+    skos:definition "Whether the reference is invalid (e.g., retracted or replaced)" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:justification a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "justification" ;
+    skos:definition "Justification for why this term is needed" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
 gene_review:label a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "label" ;
@@ -429,6 +598,13 @@ gene_review:negated a owl:ObjectProperty,
     skos:definition "Whether the term is negated" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
+gene_review:ontology a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "ontology" ;
+    rdfs:range linkml:String ;
+    skos:definition "Ontology of the term. E.g `go`, `cl`, `hp`" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
 gene_review:original_reference_id a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "original_reference_id" ;
@@ -443,11 +619,29 @@ gene_review:predicate a owl:ObjectProperty,
     skos:definition "Predicate of the extension" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
+gene_review:proposed_definition a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "proposed_definition" ;
+    skos:definition "Proposed definition for the new term" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:proposed_name a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "proposed_name" ;
+    skos:definition "Proposed name for the new term" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
 gene_review:reason a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "reason" ;
     rdfs:range linkml:String ;
     skos:definition "Reason for the action" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:reference_id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "reference_id" ;
+    rdfs:range gene_review:Reference ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:review a owl:ObjectProperty,
@@ -471,13 +665,6 @@ gene_review:summary a owl:ObjectProperty,
     skos:definition "Summary of the review" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
-gene_review:supporting_text a owl:ObjectProperty,
-        linkml:SlotDefinition ;
-    rdfs:label "supporting_text" ;
-    rdfs:range linkml:String ;
-    skos:definition "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated" ;
-    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
-
 gene_review:taxon a owl:ObjectProperty,
         linkml:SlotDefinition ;
     rdfs:label "taxon" ;
@@ -491,19 +678,37 @@ gene_review:title a owl:ObjectProperty,
     skos:definition "Title of the entity" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
+gene_review:supported_by a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "supported_by" ;
+    rdfs:range gene_review:SupportingTextInReference ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:reference_section_type a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "reference_section_type" ;
+    rdfs:range linkml:String ;
+    skos:definition "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:supporting_text a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "supporting_text" ;
+    rdfs:range linkml:String ;
+    skos:definition "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
+gene_review:term a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "term" ;
+    rdfs:range gene_review:Term ;
+    skos:definition "Term to be annotated" ;
+    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
+
 gene_review:Reference a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "Reference" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty gene_review:id ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:title ],
-        [ a owl:Restriction ;
-            owl:minCardinality 1 ;
-            owl:onProperty gene_review:id ],
-        [ a owl:Restriction ;
             owl:allValuesFrom gene_review:Finding ;
             owl:onProperty gene_review:findings ],
         [ a owl:Restriction ;
@@ -513,11 +718,30 @@ gene_review:Reference a owl:Class,
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:title ],
         [ a owl:Restriction ;
-            owl:minCardinality 0 ;
+            owl:allValuesFrom linkml:String ;
             owl:onProperty gene_review:title ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:id ] ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty gene_review:title ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:is_invalid ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:is_invalid ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Boolean ;
+            owl:onProperty gene_review:is_invalid ] ;
+    skos:definition "A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix." ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:description a owl:ObjectProperty,
@@ -525,13 +749,6 @@ gene_review:description a owl:ObjectProperty,
     rdfs:label "description" ;
     skos:definition "Description of the core function",
         "Description of the entity" ;
-    skos:inScheme <https://w3id.org/ai4curation/gene_review> .
-
-gene_review:term a owl:ObjectProperty,
-        linkml:SlotDefinition ;
-    rdfs:label "term" ;
-    rdfs:range gene_review:Term ;
-    skos:definition "Term to be annotated" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:id a owl:ObjectProperty,
@@ -553,32 +770,52 @@ gene_review:Term a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "Term" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty gene_review:label ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:id ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom linkml:String ;
-            owl:onProperty gene_review:label ],
-        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
             owl:onProperty gene_review:label ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:ontology ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:ontology ],
         [ a owl:Restriction ;
             owl:minCardinality 1 ;
             owl:onProperty gene_review:id ],
         [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:label ],
+        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
-            owl:onProperty gene_review:id ] ;
+            owl:onProperty gene_review:description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty gene_review:description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty gene_review:label ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty gene_review:ontology ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty gene_review:description ] ;
+    skos:definition "A term in a specific ontology" ;
     skos:inScheme <https://w3id.org/ai4curation/gene_review> .
 
 gene_review:ActionEnum a owl:Class,
         linkml:EnumDefinition ;
-    owl:unionOf ( <https://w3id.org/ai4curation/gene_review/ActionEnum#ACCEPT> <https://w3id.org/ai4curation/gene_review/ActionEnum#KEEP_AS_NON_CORE> <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE> <https://w3id.org/ai4curation/gene_review/ActionEnum#MODIFY> <https://w3id.org/ai4curation/gene_review/ActionEnum#MARK_AS_OVER_ANNOTATED> <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED> ) ;
+    owl:unionOf ( <https://w3id.org/ai4curation/gene_review/ActionEnum#ACCEPT> <https://w3id.org/ai4curation/gene_review/ActionEnum#KEEP_AS_NON_CORE> <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE> <https://w3id.org/ai4curation/gene_review/ActionEnum#MODIFY> <https://w3id.org/ai4curation/gene_review/ActionEnum#MARK_AS_OVER_ANNOTATED> <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED> <https://w3id.org/ai4curation/gene_review/ActionEnum#PENDING> ) ;
     linkml:permissible_values <https://w3id.org/ai4curation/gene_review/ActionEnum#ACCEPT>,
         <https://w3id.org/ai4curation/gene_review/ActionEnum#KEEP_AS_NON_CORE>,
         <https://w3id.org/ai4curation/gene_review/ActionEnum#MARK_AS_OVER_ANNOTATED>,
         <https://w3id.org/ai4curation/gene_review/ActionEnum#MODIFY>,
+        <https://w3id.org/ai4curation/gene_review/ActionEnum#PENDING>,
         <https://w3id.org/ai4curation/gene_review/ActionEnum#REMOVE>,
         <https://w3id.org/ai4curation/gene_review/ActionEnum#UNDECIDED> .
 

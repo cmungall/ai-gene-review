@@ -1,0 +1,50 @@
+id: F0JBF0
+gene_symbol: HgcA
+taxon:
+  id: NCBITaxon:641491
+  label: Pseudodesulfovibrio mercurii
+description: Corrinoid-dependent methyltransferase subunit of the mercury methylation
+  system. Forms a functional complex with HgcB to catalyze the methylation of inorganic
+  mercury (Hg2+) to methylmercury, a highly toxic and bioaccumulating organomercurial
+  compound.
+existing_annotations:
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is too general and does not capture the specific function.
+      While HgcA has transmembrane domains, the membrane localization alone does not
+      represent its core methyltransferase activity.
+    action: MODIFY
+    proposed_replacement_terms:
+    - &id001
+      id: GO:0008171
+      label: O-methyltransferase activity
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: file:9BACT/HgcA/HgcA-deep-research.md
+  title: Deep research on mercury methylation genes HgcA and HgcB
+  findings: []
+core_functions:
+- description: Mercury methyltransferase activity in HgcAB complex for methylmercury
+    production
+  molecular_function:
+    id: GO:0008171
+    label: O-methyltransferase activity
+  supported_by:
+  - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+    supporting_text: HgcA is a corrinoid-dependent methyltransferase that works with
+      HgcB to methylate mercury
+  directly_involved_in:
+  - id: GO:0032259
+    label: methylation
+  substrates:
+  - id: CHEBI:16793
+    label: mercury(2+)
+  in_complex:
+    id: GO:1990204
+    label: oxidoreductase complex

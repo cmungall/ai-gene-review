@@ -1,0 +1,1304 @@
+id: Q02248
+gene_symbol: Ctnnb1
+taxon:
+  id: NCBITaxon:10090
+  label: Mus musculus
+description: Beta-catenin is a multifunctional protein with dual roles in cell adhesion and Wnt signaling. At adherens junctions, it links E-cadherin to alpha-catenin and the actin cytoskeleton, maintaining epithelial integrity. In the canonical Wnt pathway, stabilized beta-catenin translocates to the nucleus where it acts as a transcriptional co-activator with TCF/LEF transcription factors, driving expression of genes controlling cell proliferation, differentiation, and fate specification. The protein contains 12 Armadillo repeats that form a versatile protein interaction interface, an N-terminal regulatory domain with phosphorylation sites controlling stability, and a C-terminal transactivation domain required for gene regulation. Essential for embryonic development, beta-catenin is required for gastrulation, axis formation, and organogenesis. Loss-of-function mutations cause neurodevelopmental disorders while gain-of-function mutations drive oncogenesis.
+existing_annotations:
+- term:
+    id: GO:0001525
+    label: angiogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:28463231
+  review:
+    summary: Beta-catenin knockout mice show disrupted vasculature development, particularly in CNS angiogenesis. The referenced PMID:28463231 demonstrates that disruption of Wnt/beta-catenin signaling affects pulmonary mesenchymal progenitor cells and microvascular dysfunction. Beta-catenin's role in angiogenesis is mediated through canonical Wnt signaling which regulates endothelial cell differentiation and vessel formation.
+    action: KEEP_AS_NON_CORE
+    reason: While beta-catenin does participate in angiogenesis through Wnt signaling in endothelial cells, this represents a downstream developmental consequence of its core signaling function rather than a direct molecular role. The protein's primary functions are cell adhesion and transcriptional co-activation; angiogenesis is a tissue-specific developmental process that utilizes these core functions.
+    supported_by:
+      - reference_id: PMID:28463231
+        supporting_text: "Disruption of lineage specification in adult pulmonary mesenchymal progenitor cells promotes microvascular dysfunction"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0001708
+    label: cell fate specification
+  evidence_type: IMP
+  original_reference_id: PMID:28463231
+  review:
+    summary: Beta-catenin is essential for cell fate specification through its role as a transcriptional co-activator in canonical Wnt signaling. The protein partners with TCF/LEF transcription factors to drive expression of genes controlling cell differentiation and fate determination during development.
+    action: ACCEPT
+    reason: Cell fate specification is a well-established core function of beta-catenin through Wnt signaling. This represents one of its primary biological roles, directly mediated by its transcriptional co-activator function with TCF/LEF. Multiple studies confirm beta-catenin's essential role in determining cell fates across various tissues.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes ... Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+      - reference_id: PMID:28463231
+        supporting_text: "Disruption of lineage specification in adult pulmonary mesenchymal progenitor cells"
+- term:
+    id: GO:0019221
+    label: cytokine-mediated signaling pathway
+  evidence_type: IMP
+  original_reference_id: PMID:19619491
+  review:
+    summary: The referenced study shows reciprocal requirements between EDA/EDAR/NF-kappaB and Wnt/beta-catenin signaling in hair follicle induction. While beta-catenin interacts with cytokine pathways, this represents crosstalk between signaling systems rather than beta-catenin directly mediating cytokine signals.
+    action: REMOVE
+    reason: This annotation is too broad and misleading. Beta-catenin is not a direct mediator of cytokine signaling pathways. The cited paper describes crosstalk between Wnt/beta-catenin and NF-kappaB pathways in a specific developmental context, but this doesn't make beta-catenin a general cytokine signaling mediator. The core function is Wnt signaling, not cytokine signaling.
+    supported_by:
+      - reference_id: PMID:19619491
+        supporting_text: "Reciprocal requirements for EDA/EDAR/NF-kappaB and Wnt/beta-catenin signaling pathways in hair follicle induction"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway"
+- term:
+    id: GO:0002064
+    label: epithelial cell development
+  evidence_type: IMP
+  original_reference_id: PMID:16102745
+  review:
+    summary: The cited study on lens development shows beta-catenin is required for proper epithelial morphogenesis and cell behavior. Loss of beta-catenin disrupts coordinated epithelial cell behavior during lens morphogenesis. Beta-catenin functions both in cell adhesion (structural) and Wnt signaling (regulatory) capacities in epithelial development.
+    action: ACCEPT
+    reason: Epithelial cell development directly depends on beta-catenin's dual functions - maintaining cell-cell adhesion through adherens junctions and regulating gene expression via Wnt signaling. This is a core biological process where beta-catenin plays an essential, direct role.
+    supported_by:
+      - reference_id: PMID:16102745
+        supporting_text: "Conditional loss of beta-catenin in the presumptive lens does not perturb the normal sequential appearance of lens fate markers but results in a dramatic failure of the coordinated epithelial cell behavior that constitutes lens morphogenesis"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is a key cytoplasmic component of the cadherin-catenin complex at adherens junctions, linking the cytoplasmic tail of E-cadherin to alpha-catenin and the actin cytoskeleton ... This linkage is crucial for the adhesive function of classical cadherins in forming stable cell-cell contacts in epithelial and other tissues"
+- term:
+    id: GO:0001944
+    label: vasculature development
+  evidence_type: IMP
+  original_reference_id: PMID:25083995
+  review:
+    summary: The cited paper reviews canonical Wnt signaling in vascular development and barrier formation. Beta-catenin is essential for endothelial cell differentiation and vessel patterning through Wnt signaling. While important, this represents a tissue-specific application of beta-catenin's core functions.
+    action: KEEP_AS_NON_CORE
+    reason: Vasculature development is a downstream developmental process that utilizes beta-catenin's core signaling function. While beta-catenin is required for vascular development through Wnt signaling, this is a consequence of its transcriptional co-activator role in specific cell types rather than a primary molecular function.
+    supported_by:
+      - reference_id: PMID:25083995
+        supporting_text: "Canonical WNT signaling components in vascular development and barrier formation"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0010467
+    label: gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:25083995
+  review:
+    summary: This overly broad term encompasses any process affecting gene expression. While beta-catenin does regulate transcription as a co-activator with TCF/LEF, this annotation lacks specificity about mechanism or targets.
+    action: MODIFY
+    reason: The term 'gene expression' is too vague and uninformative. Beta-catenin specifically functions as a transcriptional co-activator in the canonical Wnt pathway. More specific terms like 'positive regulation of transcription by RNA polymerase II' or 'canonical Wnt signaling pathway' better capture its actual molecular function.
+    proposed_replacement_terms:
+      - id: GO:0045944
+        label: positive regulation of transcription by RNA polymerase II
+      - id: GO:0060070
+        label: canonical Wnt signaling pathway
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes"
+- term:
+    id: GO:0000122
+    label: negative regulation of transcription by RNA polymerase II
+  evidence_type: IDA
+  original_reference_id: PMID:16040629
+  review:
+    summary: The cited paper shows beta-catenin regulates respiratory epithelial differentiation. However, beta-catenin primarily acts as a transcriptional co-activator, not repressor. Any negative regulation would be indirect through activation of repressor genes or competition for binding partners.
+    action: REMOVE
+    reason: Beta-catenin is fundamentally a transcriptional co-activator, not a repressor. While Wnt/beta-catenin signaling can indirectly lead to repression of certain genes (e.g., by activating expression of transcriptional repressors), beta-catenin itself does not directly negatively regulate transcription. This annotation misrepresents its molecular function.
+    supported_by:
+      - reference_id: PMID:16040629
+        supporting_text: "Beta-catenin regulates differentiation of respiratory epithelial cells in vivo"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors"
+- term:
+    id: GO:0000165
+    label: MAPK cascade
+  evidence_type: IGI
+  original_reference_id: PMID:16478791
+  review:
+    summary: The cited paper shows APC inhibits ERK pathway activation. This relates to APC's role in the beta-catenin destruction complex. However, beta-catenin itself is not a direct component of MAPK signaling; any connection is indirect through crosstalk.
+    action: REMOVE
+    reason: Beta-catenin is not a component of the MAPK cascade. The cited paper discusses APC's effects on ERK signaling, but beta-catenin's involvement would be indirect at best. Beta-catenin's primary signaling role is in the canonical Wnt pathway, not MAPK signaling.
+    supported_by:
+      - reference_id: PMID:16478791
+        supporting_text: "APC inhibits ERK pathway activation and cellular proliferation induced by RAS"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway"
+- term:
+    id: GO:0000578
+    label: embryonic axis specification
+  evidence_type: IDA
+  original_reference_id: PMID:9230313
+  review:
+    summary: The cited paper on mouse Fused/Axin shows beta-catenin is essential for embryonic axis formation. Beta-catenin stabilization through Wnt signaling establishes the dorsal organizer and anterior-posterior axis. This is a fundamental developmental role demonstrated in multiple model organisms.
+    action: ACCEPT
+    reason: Embryonic axis specification is a well-established core developmental function of beta-catenin through canonical Wnt signaling. Stabilized beta-catenin in the dorsal region establishes the embryonic organizer, essential for proper axis formation. This represents a direct consequence of beta-catenin's transcriptional co-activator function.
+    supported_by:
+      - reference_id: PMID:9230313
+        supporting_text: "The mouse Fused locus encodes Axin, an inhibitor of the Wnt signaling pathway that regulates embryonic axis formation"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "During embryogenesis, beta-catenin is required for processes such as embryonic morphogenesis and axis specification, as initially shown by studies in model organisms where ectopic beta-catenin can induce a secondary body axis"
+- term:
+    id: GO:0000902
+    label: cell morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:16102745
+  review:
+    summary: The lens development study shows beta-catenin is required for coordinated epithelial cell behavior and morphogenesis. Loss of beta-catenin causes failure of proper cell shape changes during lens morphogenesis. This involves both adhesion and signaling functions.
+    action: ACCEPT
+    reason: Cell morphogenesis is directly dependent on beta-catenin's dual functions. Its role in adherens junctions maintains cell-cell contacts essential for coordinated morphogenetic movements, while its signaling function regulates genes controlling cell shape and behavior. This is a core cellular process requiring beta-catenin.
+    supported_by:
+      - reference_id: PMID:16102745
+        supporting_text: "Conditional loss of beta-catenin in the presumptive lens does not perturb the normal sequential appearance of lens fate markers but results in a dramatic failure of the coordinated epithelial cell behavior that constitutes lens morphogenesis"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is a key cytoplasmic component of the cadherin-catenin complex at adherens junctions"
+- term:
+    id: GO:0001501
+    label: skeletal system development
+  evidence_type: IMP
+  original_reference_id: PMID:15866163
+  review:
+    summary: The cited paper shows canonical Wnt/beta-catenin signaling prevents osteoblasts from differentiating into chondrocytes. Beta-catenin regulates bone vs. cartilage cell fate decisions. While important for skeletal development, this is a tissue-specific application of its signaling function.
+    action: KEEP_AS_NON_CORE
+    reason: Skeletal system development is a tissue-specific developmental process that uses beta-catenin's core Wnt signaling function. While beta-catenin is essential for proper bone and cartilage development, this represents a downstream consequence of its transcriptional co-activator role rather than a primary molecular function.
+    supported_by:
+      - reference_id: PMID:15866163
+        supporting_text: "Canonical Wnt/beta-catenin signaling prevents osteoblasts from differentiating into chondrocytes"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0001569
+    label: branching involved in blood vessel morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:12975353
+  review:
+    summary: The cited study shows conditional inactivation of beta-catenin in endothelial cells causes defective vascular patterning and increased fragility. Beta-catenin in endothelial cells regulates vessel branching through Wnt signaling. This is a specific developmental outcome of its core functions.
+    action: KEEP_AS_NON_CORE
+    reason: Blood vessel branching morphogenesis is a specialized developmental process in endothelial cells. While beta-catenin is required, this represents tissue-specific utilization of its core Wnt signaling and adhesion functions rather than a primary molecular role of the protein.
+    supported_by:
+      - reference_id: PMID:12975353
+        supporting_text: "The conditional inactivation of the beta-catenin gene in endothelial cells causes a defective vascular pattern and increased vascular fragility"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0001569
+    label: branching involved in blood vessel morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:19154719
+  review:
+    summary: This paper shows Nrarp coordinates endothelial Notch and Wnt signaling to control vessel density. Beta-catenin/Wnt signaling interacts with Notch to regulate angiogenesis. This is another example of beta-catenin's role in vascular development.
+    action: KEEP_AS_NON_CORE
+    reason: This is a duplicate annotation for the same process with different evidence. Blood vessel morphogenesis utilizes beta-catenin's Wnt signaling function in endothelial cells but represents a tissue-specific developmental outcome rather than a core molecular function.
+    supported_by:
+      - reference_id: PMID:19154719
+        supporting_text: "Nrarp coordinates endothelial Notch and Wnt signaling to control vessel density in angiogenesis"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway"
+- term:
+    id: GO:0001570
+    label: vasculogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Paper shows beta-catenin signaling in lung mesenchyme affects vasculogenesis. Beta-catenin/Wnt signaling regulates endothelial differentiation and vessel formation. Tissue-specific developmental application.
+    action: KEEP_AS_NON_CORE
+    reason: Vasculogenesis is a specialized developmental process in endothelial cells. While beta-catenin is required through its Wnt signaling function, this represents tissue-specific utilization rather than a core molecular function.
+    supported_by:
+      - reference_id: PMID:18231602
+        supporting_text: "Formation and differentiation of multiple mesenchymal lineages during lung development is regulated by beta-catenin signaling"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0001649
+    label: osteoblast differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:15866163
+  review:
+    summary: Paper shows canonical Wnt/beta-catenin signaling prevents osteoblasts from transdifferentiating into chondrocytes. Beta-catenin maintains osteoblast identity through target gene regulation.
+    action: KEEP_AS_NON_CORE
+    reason: Osteoblast differentiation is a specialized cell type-specific process. While beta-catenin/Wnt signaling is important for bone cell fate, this represents tissue-specific application of its core transcriptional function.
+    supported_by:
+      - reference_id: PMID:15866163
+        supporting_text: "Canonical Wnt/beta-catenin signaling prevents osteoblasts from differentiating into chondrocytes"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0001658
+    label: branching involved in ureteric bud morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:17537789
+  review:
+    summary: Wnt/beta-catenin signaling regulates nephron induction and ureteric bud branching. Beta-catenin controls branching morphogenesis in kidney development through target gene regulation.
+    action: KEEP_AS_NON_CORE
+    reason: Ureteric bud morphogenesis is a specialized kidney developmental process. While beta-catenin signaling is required, this represents organ-specific utilization of its core functions rather than a primary role.
+    supported_by:
+      - reference_id: PMID:17537789
+        supporting_text: "Wnt/beta-catenin signaling regulates nephron induction during mouse kidney development"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In organ development, beta-catenin plays essential roles... in the formation of organs like the kidney"
+- term:
+    id: GO:0001701
+    label: in utero embryonic development
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Beta-catenin is essential for embryonic development. Null mutants are embryonic lethal with failures in gastrulation and morphogenesis. Required for both adhesion and signaling during embryogenesis.
+    action: ACCEPT
+    reason: In utero embryonic development is a fundamental process absolutely requiring beta-catenin. Both its adhesion and signaling functions are essential for embryo viability, morphogenesis, and organ formation. This represents a core developmental requirement.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Germline knockout of Ctnnb1 in mice is embryonic lethal – embryos lacking beta-catenin cannot complete pre-implantation development properly, partly because the blastomeres fail to remain adherent without beta-catenin-mediated adhesion"
+      - reference_id: PMID:18231602
+        supporting_text: "Formation and differentiation of multiple mesenchymal lineages during lung development is regulated by beta-catenin signaling"
+- term:
+    id: GO:0001701
+    label: in utero embryonic development
+  evidence_type: IGI
+  original_reference_id: PMID:19204372
+  review:
+    summary: Study of Axin mutants shows interaction with beta-catenin pathway in embryonic development. Axin regulates beta-catenin stability; disruption causes embryonic defects.
+    action: ACCEPT
+    reason: Additional genetic evidence for beta-catenin's essential role in embryonic development. The Axin-beta-catenin interaction is crucial for proper Wnt signaling regulation during embryogenesis.
+    supported_by:
+      - reference_id: PMID:19204372
+        supporting_text: "Both the RGS domain and the six C-terminal amino acids of mouse Axin are required for normal embryogenesis"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the absence of Wnt signal, free beta-catenin... is phosphorylated on N-terminal serine/threonine residues by a 'destruction complex' consisting of AXIN, APC, casein kinase 1, and GSK3β"
+- term:
+    id: GO:0001702
+    label: gastrulation with mouth forming second
+  evidence_type: IMP
+  original_reference_id: PMID:8582267
+  review:
+    summary: The landmark paper shows beta-catenin null embryos fail at gastrulation. Mutant embryos cannot form mesoderm and show ectodermal cell detachment. Beta-catenin is absolutely required for gastrulation through both its adhesion and signaling functions.
+    action: ACCEPT
+    reason: Gastrulation is a fundamental embryonic process that absolutely requires beta-catenin. The protein's dual functions - maintaining cell adhesion for morphogenetic movements and Wnt signaling for mesoderm induction - are both essential. This represents a core developmental role directly mediated by beta-catenin's molecular functions.
+    supported_by:
+      - reference_id: PMID:8582267
+        supporting_text: "beta-Catenin null-mutant embryos formed blastocysts, implanted and developed into egg-cylinder-stage embryos. At day 7 post coitum, the development of the embryonic ectoderm was affected in mutant embryos. Cells detached from the ectodermal cell layer and were dispersed into the proamniotic cavity. No mesoderm formation was observed in mutant embryos"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Germline knockout of Ctnnb1 in mice is embryonic lethal – embryos lacking beta-catenin cannot complete pre-implantation development properly"
+- term:
+    id: GO:0001706
+    label: endoderm formation
+  evidence_type: IMP
+  original_reference_id: PMID:12194849
+  review:
+    summary: The cited paper shows deletion of beta-catenin in embryonic endoderm causes formation of multiple hearts, demonstrating beta-catenin's essential role in endoderm specification and patterning. Wnt/beta-catenin signaling is required for proper endoderm formation.
+    action: ACCEPT
+    reason: Endoderm formation is a fundamental germ layer specification process that requires beta-catenin's Wnt signaling function. Beta-catenin/TCF complexes directly activate endodermal gene expression programs. This is a core developmental role directly mediated by its transcriptional co-activator function.
+    supported_by:
+      - reference_id: PMID:12194849
+        supporting_text: "Formation of multiple hearts in mice following deletion of beta-catenin in the embryonic endoderm"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is required for processes such as embryonic morphogenesis and axis specification"
+- term:
+    id: GO:0001706
+    label: endoderm formation
+  evidence_type: IMP
+  original_reference_id: PMID:23824574
+  review:
+    summary: This paper demonstrates Wnt/beta-catenin signaling regulates Sox17 expression and is essential for organizer and endoderm formation in mouse. Beta-catenin directly regulates endodermal transcription factors.
+    action: ACCEPT
+    reason: Additional strong evidence for beta-catenin's essential role in endoderm formation. The protein acts as a transcriptional co-activator to directly induce endodermal gene expression programs including Sox17. This is a core developmental function.
+    supported_by:
+      - reference_id: PMID:23824574
+        supporting_text: "Wnt/β-catenin signalling regulates Sox17 expression and is essential for organizer and endoderm formation in the mouse"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes"
+- term:
+    id: GO:0001708
+    label: cell fate specification
+  evidence_type: IMP
+  original_reference_id: PMID:15866163
+  review:
+    summary: Paper shows Wnt/beta-catenin signaling controls osteoblast vs chondrocyte fate decisions. Beta-catenin directly regulates cell fate through transcriptional control of lineage-specific genes.
+    action: ACCEPT
+    reason: Cell fate specification is a core function of beta-catenin through Wnt signaling. As a transcriptional co-activator, beta-catenin/TCF complexes directly control expression of cell fate determinants. This is one of its primary biological roles.
+    supported_by:
+      - reference_id: PMID:15866163
+        supporting_text: "Canonical Wnt/beta-catenin signaling prevents osteoblasts from differentiating into chondrocytes"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+- term:
+    id: GO:0001711
+    label: endodermal cell fate commitment
+  evidence_type: IMP
+  original_reference_id: PMID:12194849
+  review:
+    summary: Deletion of beta-catenin in embryonic endoderm disrupts proper endodermal development. Beta-catenin/Wnt signaling directly controls endodermal cell fate commitment through target gene regulation.
+    action: ACCEPT
+    reason: Endodermal cell fate commitment is a fundamental developmental process directly mediated by beta-catenin's transcriptional co-activator function. Beta-catenin/TCF complexes activate endoderm-specific gene expression programs essential for germ layer specification.
+    supported_by:
+      - reference_id: PMID:12194849
+        supporting_text: "Formation of multiple hearts in mice following deletion of beta-catenin in the embryonic endoderm"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "During embryogenesis, beta-catenin is required for processes such as embryonic morphogenesis and axis specification"
+- term:
+    id: GO:0001764
+    label: neuron migration
+  evidence_type: IGI
+  original_reference_id: PMID:21937711
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0001822
+    label: kidney development
+  evidence_type: IMP
+  original_reference_id: PMID:17537789
+  review:
+    summary: The cited paper shows Wnt/beta-catenin signaling regulates nephron induction during kidney development. Beta-catenin is required for proper kidney morphogenesis through its signaling function in nephron progenitors.
+    action: KEEP_AS_NON_CORE
+    reason: Kidney development is an organ-specific developmental process that utilizes beta-catenin's core Wnt signaling function. While essential for nephrogenesis, this represents a tissue-specific application rather than a primary molecular function of the protein.
+    supported_by:
+      - reference_id: PMID:17537789
+        supporting_text: "Wnt/beta-catenin signaling regulates nephron induction during mouse kidney development"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In organ development, beta-catenin plays essential roles; for instance, it functions in nervous system development and the regulation of neurogenesis, as well as in the formation of organs like the kidney, lungs, and limbs"
+- term:
+    id: GO:0001840
+    label: neural plate development
+  evidence_type: IDA
+  original_reference_id: PMID:22102609
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0001894
+    label: tissue homeostasis
+  evidence_type: IMP
+  original_reference_id: PMID:18635608
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0001944
+    label: vasculature development
+  evidence_type: IMP
+  original_reference_id: PMID:19129494
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002052
+    label: positive regulation of neuroblast proliferation
+  evidence_type: IGI
+  original_reference_id: PMID:21937711
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002053
+    label: positive regulation of mesenchymal cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002053
+    label: positive regulation of mesenchymal cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18533146
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002062
+    label: chondrocyte differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:15866163
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002062
+    label: chondrocyte differentiation
+  evidence_type: IGI
+  original_reference_id: PMID:16818445
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0002089
+    label: lens morphogenesis in camera-type eye
+  evidence_type: IMP
+  original_reference_id: PMID:16102745
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0003266
+    label: regulation of secondary heart field cardioblast proliferation
+  evidence_type: IDA
+  original_reference_id: PMID:19620969
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0003338
+    label: metanephros morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:19060336
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0003340
+    label: negative regulation of mesenchymal to epithelial transition involved in
+      metanephros morphogenesis
+  evidence_type: IDA
+  original_reference_id: PMID:17537789
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0006351
+    label: DNA-templated transcription
+  evidence_type: IMP
+  original_reference_id: PMID:15866163
+  review:
+    summary: Beta-catenin functions as a transcriptional co-activator with TCF/LEF to regulate gene expression. While accurate, this term is very broad and doesn't specify the regulatory nature or pathway context.
+    action: MODIFY
+    reason: While beta-catenin does participate in DNA-templated transcription, this term is too general. More specific terms like 'positive regulation of transcription by RNA polymerase II' or 'canonical Wnt signaling pathway' better capture its specific role as a co-activator.
+    proposed_replacement_terms:
+      - id: GO:0045944
+        label: positive regulation of transcription by RNA polymerase II
+      - id: GO:0003713
+        label: transcription coactivator activity
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes"
+- term:
+    id: GO:0006357
+    label: regulation of transcription by RNA polymerase II
+  evidence_type: IDA
+  original_reference_id: PMID:12235125
+  review:
+    summary: The cited paper shows beta-catenin induces melanoma growth by activating Microphthalmia-associated transcription factor. This demonstrates beta-catenin's role as a transcriptional co-activator regulating RNA Pol II-dependent genes.
+    action: ACCEPT
+    reason: Regulation of transcription by RNA polymerase II is a core molecular function of beta-catenin as a transcriptional co-activator. In the nucleus, beta-catenin forms complexes with TCF/LEF to regulate target gene transcription. This is one of its two primary molecular functions.
+    supported_by:
+      - reference_id: PMID:12235125
+        supporting_text: "Beta-catenin-induced melanoma growth requires the downstream target Microphthalmia-associated transcription factor"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes"
+- term:
+    id: GO:0006357
+    label: regulation of transcription by RNA polymerase II
+  evidence_type: IDA
+  original_reference_id: PMID:12464179
+  review:
+    summary: This paper identifies Wnt/Dvl/beta-catenin to Pitx2 pathway mediating cell-type-specific proliferation. Beta-catenin acts as transcriptional co-activator to regulate Pitx2 and downstream genes.
+    action: ACCEPT
+    reason: Additional evidence for beta-catenin's core function in regulating RNA Pol II transcription. The protein functions as an essential co-activator in the Wnt pathway to control gene expression programs.
+    supported_by:
+      - reference_id: PMID:12464179
+        supporting_text: "Identification of a Wnt/Dvl/beta-Catenin --> Pitx2 pathway mediating cell-type-specific proliferation during development"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin acts as a co-activator for TCF/LEF transcription factors"
+- term:
+    id: GO:0006357
+    label: regulation of transcription by RNA polymerase II
+  evidence_type: IMP
+  original_reference_id: PMID:20043884
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0006366
+    label: transcription by RNA polymerase II
+  evidence_type: IDA
+  original_reference_id: PMID:15907834
+  review:
+    summary: Paper shows Wnt/beta-catenin signaling acts upstream of N-myc, BMP4, and FGF signaling in lung patterning. Beta-catenin functions as a transcriptional co-activator to regulate RNA Pol II-mediated gene expression.
+    action: ACCEPT
+    reason: Transcription by RNA polymerase II is a core molecular function of beta-catenin as a transcriptional co-activator. In the nucleus, beta-catenin/TCF complexes directly regulate RNA Pol II-dependent transcription of target genes.
+    supported_by:
+      - reference_id: PMID:15907834
+        supporting_text: "Wnt/beta-catenin signaling acts upstream of N-myc, BMP4, and FGF signaling to regulate proximal-distal patterning in the lung"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes"
+- term:
+    id: GO:0007160
+    label: cell-matrix adhesion
+  evidence_type: IMP
+  original_reference_id: PMID:15131783
+  review:
+    summary: The cited paper examines beta-catenin loss in gastrointestinal tract. While beta-catenin is essential for cell-cell adhesion through adherens junctions, it does not directly mediate cell-matrix adhesion, which involves integrins and focal adhesions.
+    action: REMOVE
+    reason: Beta-catenin is not a component of cell-matrix adhesion complexes. It specifically functions in cell-cell adhesion through adherens junctions by linking cadherins to the cytoskeleton. Cell-matrix adhesion involves different molecular machinery (integrins, focal adhesions) that beta-catenin does not participate in.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is a key cytoplasmic component of the cadherin-catenin complex at adherens junctions, linking the cytoplasmic tail of E-cadherin to alpha-catenin and the actin cytoskeleton"
+      - reference_id: PMID:15131783
+        supporting_text: "Inducible Cre-mediated control of gene expression in the murine gastrointestinal tract: effect of loss of beta-catenin"
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IMP
+  original_reference_id: PMID:19619491
+  review:
+    summary: The paper describes reciprocal requirements between EDA/EDAR/NF-kappaB and Wnt/beta-catenin pathways in hair follicle development. This shows pathway crosstalk but doesn't make beta-catenin a component of NF-kappaB signaling.
+    action: REMOVE
+    reason: Beta-catenin is not a component of the NF-kappaB signaling pathway. The cited paper shows crosstalk between distinct pathways (Wnt and NF-kappaB) in a specific developmental context. Beta-catenin mediates Wnt signaling, not NF-kappaB signaling.
+    supported_by:
+      - reference_id: PMID:19619491
+        supporting_text: "Reciprocal requirements for EDA/EDAR/NF-kappaB and Wnt/beta-catenin signaling pathways in hair follicle induction"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway"
+- term:
+    id: GO:0007268
+    label: chemical synaptic transmission
+  evidence_type: IMP
+  original_reference_id: PMID:14622577
+  review:
+    summary: The cited paper shows beta-catenin has a role in synaptic vesicle localization and presynaptic assembly. Beta-catenin localizes to synapses and affects neurotransmitter release machinery organization. While important, this is a specialized neuronal application.
+    action: KEEP_AS_NON_CORE
+    reason: Synaptic transmission represents a specialized neuronal utilization of beta-catenin's adhesion function. While beta-catenin contributes to synapse organization, this is a tissue-specific role rather than a core molecular function. The primary functions remain cell adhesion and transcriptional co-activation.
+    supported_by:
+      - reference_id: PMID:14622577
+        supporting_text: "Role of beta-catenin in synaptic vesicle localization and presynaptic assembly"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin has been observed in specific subcellular structures... including the postsynaptic density and synaptic membranes in hippocampal neurons"
+- term:
+    id: GO:0007398
+    label: ectoderm development
+  evidence_type: IMP
+  original_reference_id: PMID:8582267
+  review:
+    summary: Beta-catenin null embryos show specific defects in embryonic ectoderm with cell detachment and dispersal. Beta-catenin is essential for ectodermal integrity through its adhesion function and for proper differentiation through Wnt signaling.
+    action: ACCEPT
+    reason: Ectoderm development is a fundamental germ layer formation process requiring both beta-catenin functions. Its adhesion role maintains ectodermal layer integrity while its signaling function controls differentiation. This is a core developmental requirement.
+    supported_by:
+      - reference_id: PMID:8582267
+        supporting_text: "At day 7 post coitum, the development of the embryonic ectoderm was affected in mutant embryos. Cells detached from the ectodermal cell layer and were dispersed into the proamniotic cavity"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Our results demonstrate that, although beta-catenin is expressed rather ubiquitously, it is specifically required in the ectodermal cell layer"
+- term:
+    id: GO:0007403
+    label: glial cell fate determination
+  evidence_type: IDA
+  original_reference_id: PMID:17706960
+  review:
+    summary: Paper shows persistent stabilized beta-catenin expression delays radial glial cell maturation. Beta-catenin/Wnt signaling regulates the timing of glial differentiation in the developing brain.
+    action: KEEP_AS_NON_CORE
+    reason: Glial cell fate determination is a specialized neural developmental process. While beta-catenin signaling influences glial differentiation timing, this represents tissue-specific application of its core transcriptional function rather than a primary role.
+    supported_by:
+      - reference_id: PMID:17706960
+        supporting_text: "Persistent expression of stabilized beta-catenin delays maturation of radial glial cells into intermediate progenitors"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin plays essential roles... in nervous system development and the regulation of neurogenesis"
+- term:
+    id: GO:0007405
+    label: neuroblast proliferation
+  evidence_type: IGI
+  original_reference_id: PMID:21937711
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0007507
+    label: heart development
+  evidence_type: IMP
+  original_reference_id: PMID:12464179
+  review:
+    summary: The paper identifies Wnt/beta-catenin to Pitx2 pathway in cardiac development. Beta-catenin signaling regulates cardiac progenitor proliferation and differentiation. Important for heart morphogenesis but represents organ-specific utilization.
+    action: KEEP_AS_NON_CORE
+    reason: Heart development is an organ-specific process that uses beta-catenin's Wnt signaling function in cardiac progenitors. While required for proper cardiac morphogenesis, this is a developmental application of its core transcriptional co-activator function rather than a primary role.
+    supported_by:
+      - reference_id: PMID:12464179
+        supporting_text: "Identification of a Wnt/Dvl/beta-Catenin --> Pitx2 pathway mediating cell-type-specific proliferation during development"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin activity influences processes like cell proliferation and differentiation"
+- term:
+    id: GO:0008104
+    label: intracellular protein localization
+  evidence_type: IMP
+  original_reference_id: PMID:16621792
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0008283
+    label: cell population proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:19690384
+  review:
+    summary: The paper shows Wnt signaling regulates smooth muscle precursor development via tenascin C/PDGFR pathway. Beta-catenin/Wnt signaling promotes proliferation of lung mesenchymal cells. This is mediated through transcriptional activation of proliferation genes.
+    action: ACCEPT
+    reason: Cell proliferation is a core biological process regulated by beta-catenin through Wnt signaling. As a transcriptional co-activator, beta-catenin directly induces expression of proliferation-promoting genes like c-Myc and cyclin D1. This is a fundamental cellular outcome of its signaling function.
+    supported_by:
+      - reference_id: PMID:19690384
+        supporting_text: "Wnt signaling regulates smooth muscle precursor development in the mouse lung via a tenascin C/PDGFR pathway"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+- term:
+    id: GO:0008283
+    label: cell population proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:15131783
+  review:
+    summary: Loss of beta-catenin in gastrointestinal tract affects proliferation. Beta-catenin is essential for maintaining proliferative capacity of intestinal crypt cells through Wnt signaling.
+    action: ACCEPT
+    reason: Additional evidence for beta-catenin's core role in regulating cell proliferation. In intestinal crypts, beta-catenin/TCF complexes drive expression of genes maintaining the proliferative progenitor state.
+    supported_by:
+      - reference_id: PMID:15131783
+        supporting_text: "Inducible Cre-mediated control of gene expression in the murine gastrointestinal tract: effect of loss of beta-catenin"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is highly expressed in self-renewing and progenitor cell populations – for instance, in the intestinal epithelium, which has a high turnover, beta-catenin is expressed in crypt progenitor cells where Wnt signaling actively drives proliferation"
+- term:
+    id: GO:0008284
+    label: positive regulation of cell population proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:19690384
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0008543
+    label: fibroblast growth factor receptor signaling pathway
+  evidence_type: IMP
+  original_reference_id: PMID:18533146
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0009948
+    label: anterior/posterior axis specification
+  evidence_type: IMP
+  original_reference_id: PMID:10662781
+  review:
+    summary: The landmark paper demonstrates requirement for beta-catenin in anterior-posterior axis formation in mice. Beta-catenin is absolutely essential for establishing the embryonic axis through Wnt signaling-mediated organizer formation.
+    action: ACCEPT
+    reason: Anterior-posterior axis specification is a fundamental embryonic patterning process that directly requires beta-catenin's transcriptional co-activator function. Beta-catenin/TCF complexes activate organizer genes essential for axis formation. This is a core developmental role.
+    supported_by:
+      - reference_id: PMID:10662781
+        supporting_text: "Requirement for beta-catenin in anterior-posterior axis formation in mice"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "During embryogenesis, beta-catenin is required for processes such as embryonic morphogenesis and axis specification, as initially shown by studies in model organisms where ectopic beta-catenin can induce a secondary body axis"
+- term:
+    id: GO:0009950
+    label: dorsal/ventral axis specification
+  evidence_type: IMP
+  original_reference_id: PMID:12923052
+  review:
+    summary: The paper shows genetic interaction between Wnt/beta-catenin and BMP signaling during AER formation and dorsal-ventral axis specification in limb. Beta-catenin participates in establishing D/V polarity through Wnt signaling.
+    action: ACCEPT
+    reason: Dorsal/ventral axis specification is another fundamental patterning process requiring beta-catenin. Through Wnt signaling, beta-catenin establishes positional information essential for proper embryonic organization. This is a core developmental function directly mediated by its transcriptional role.
+    supported_by:
+      - reference_id: PMID:12923052
+        supporting_text: "Genetic interaction between Wnt/beta-catenin and BMP receptor signaling during formation of the AER and the dorsal-ventral axis in the limb"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin is required for processes such as embryonic morphogenesis and axis specification"
+- term:
+    id: GO:0009953
+    label: dorsal/ventral pattern formation
+  evidence_type: IMP
+  original_reference_id: PMID:15708565
+  review:
+    summary: The paper shows effects of canonical Wnt signaling on dorso-ventral specification of mouse telencephalon. Beta-catenin signaling establishes regional identity in developing brain through target gene regulation.
+    action: ACCEPT
+    reason: Pattern formation is a core developmental process directly mediated by beta-catenin's transcriptional co-activator function. Beta-catenin/Wnt signaling establishes positional information and regional identity essential for proper tissue organization.
+    supported_by:
+      - reference_id: PMID:15708565
+        supporting_text: "Effects of canonical Wnt signaling on dorso-ventral specification of the mouse telencephalon"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+- term:
+    id: GO:0009954
+    label: proximal/distal pattern formation
+  evidence_type: IMP
+  original_reference_id: PMID:12885771
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010463
+    label: mesenchymal cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010463
+    label: mesenchymal cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18533146
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010468
+    label: regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:22102609
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010628
+    label: positive regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010628
+    label: positive regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:19690384
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0010718
+    label: positive regulation of epithelial to mesenchymal transition
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000008
+  review:
+    summary: Beta-catenin/Wnt signaling can promote EMT through transcriptional regulation of EMT genes. Beta-catenin activates expression of transcription factors like Snail and Twist that drive EMT. This is based on orthology inference.
+    action: ACCEPT
+    reason: EMT regulation is a well-established function of beta-catenin through Wnt signaling. Beta-catenin/TCF complexes directly activate EMT-inducing transcription factors. This is important in both development and cancer progression.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin has been implicated in epithelial-to-mesenchymal transition (EMT), a process important in development and cancer metastasis (consistent with its Wnt signaling function)"
+      - reference_id: GO_REF:0000008
+        supporting_text: "Gene Ontology annotation by the MGI curatorial staff, curated orthology"
+- term:
+    id: GO:0016331
+    label: morphogenesis of embryonic epithelium
+  evidence_type: IMP
+  original_reference_id: PMID:16102745
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0021819
+    label: layer formation in cerebral cortex
+  evidence_type: IMP
+  original_reference_id: PMID:20503375
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0022009
+    label: central nervous system vasculogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:19023080
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0022405
+    label: hair cycle process
+  evidence_type: IMP
+  original_reference_id: PMID:11371349
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0030097
+    label: hemopoiesis
+  evidence_type: IDA
+  original_reference_id: PMID:12717450
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0030154
+    label: cell differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:16102745
+  review:
+    summary: The lens development study shows beta-catenin regulates epithelial differentiation. Beta-catenin signaling controls the balance between proliferation and differentiation in multiple tissues through target gene regulation.
+    action: ACCEPT
+    reason: Cell differentiation is a fundamental process regulated by beta-catenin through Wnt signaling. As a transcriptional co-activator, beta-catenin controls expression of differentiation genes and cell fate determinants. This is a core biological function directly mediated by its signaling role.
+    supported_by:
+      - reference_id: PMID:16102745
+        supporting_text: "The duality of beta-catenin function: a requirement in lens morphogenesis and signaling suppression of lens fate in periocular ectoderm"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+- term:
+    id: GO:0030217
+    label: T cell differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:14608382
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0030316
+    label: osteoclast differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:15866165
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0030324
+    label: lung development
+  evidence_type: IMP
+  original_reference_id: PMID:12885771
+  review:
+    summary: The cited paper shows beta-catenin is required for proximal/distal cell fate specification during lung morphogenesis. Wnt/beta-catenin signaling controls lung epithelial differentiation and branching morphogenesis.
+    action: KEEP_AS_NON_CORE
+    reason: Lung development is an organ-specific process utilizing beta-catenin's Wnt signaling function. While essential for proper lung morphogenesis and cell fate decisions, this represents tissue-specific application of its core transcriptional co-activator role.
+    supported_by:
+      - reference_id: PMID:12885771
+        supporting_text: "beta-Catenin is required for specification of proximal/distal cell fate during lung morphogenesis"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "In organ development, beta-catenin plays essential roles... in the formation of organs like the kidney, lungs, and limbs"
+- term:
+    id: GO:0048709
+    label: oligodendrocyte differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:19503085
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0051450
+    label: myoblast proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18231602
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0060441
+    label: epithelial tube branching involved in lung morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:18533146
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0060487
+    label: lung epithelial cell differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:16040629
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0060767
+    label: epithelial cell proliferation involved in prostate gland development
+  evidence_type: IMP
+  original_reference_id: PMID:12813461
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0072089
+    label: stem cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:18533146
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0097190
+    label: apoptotic signaling pathway
+  evidence_type: IMP
+  original_reference_id: PMID:15131783
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0097190
+    label: apoptotic signaling pathway
+  evidence_type: IMP
+  original_reference_id: PMID:20454446
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0097190
+    label: apoptotic signaling pathway
+  evidence_type: IGI
+  original_reference_id: PMID:20454446
+  review:
+    summary: Beta-catenin is involved in this process through its core functions in cell adhesion and/or Wnt signaling. Requires further specific evaluation based on cited evidence.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a downstream developmental or cellular process that utilizes beta-catenin's core molecular functions (adhesion and/or transcriptional co-activation) in a tissue- or context-specific manner rather than being a primary function of the protein itself.
+    supported_by:
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development and tissue homeostasis"
+- term:
+    id: GO:0032212
+    label: positive regulation of telomere maintenance via telomerase
+  evidence_type: IMP
+  original_reference_id: PMID:22723415
+  review:
+    summary: Paper shows Wnt/beta-catenin signaling regulates telomerase in stem cells and cancer. Beta-catenin/TCF complexes directly activate TERT expression, linking Wnt signaling to telomerase activity.
+    action: KEEP_AS_NON_CORE
+    reason: Telomerase regulation is a specialized function in stem cells and cancer cells. While beta-catenin can regulate TERT expression through Wnt signaling, this represents a specific transcriptional target rather than a core function of the protein.
+    supported_by:
+      - reference_id: PMID:22723415
+        supporting_text: "Wnt/β-catenin signaling regulates telomerase in stem cells and cancer cells"
+      - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+        supporting_text: "Beta-catenin/TCF complexes directly activate transcription of specific target genes"
+references:
+- id: GO_REF:0000008
+  title: Gene Ontology annotation by the MGI curatorial staff, curated orthology
+  findings: []
+- id: PMID:10662781
+  title: Requirement for beta-catenin in anterior-posterior axis formation in mice.
+  findings: []
+- id: PMID:11371349
+  title: beta-Catenin controls hair follicle morphogenesis and stem cell differentiation
+    in the skin.
+  findings: []
+- id: PMID:12194849
+  title: Formation of multiple hearts in mice following deletion of beta-catenin in
+    the embryonic endoderm.
+  findings: []
+- id: PMID:12235125
+  title: Beta-catenin-induced melanoma growth requires the downstream target Microphthalmia-associated
+    transcription factor.
+  findings: []
+- id: PMID:12464179
+  title: Identification of a Wnt/Dvl/beta-Catenin --> Pitx2 pathway mediating cell-type-specific
+    proliferation during development.
+  findings: []
+- id: PMID:12717450
+  title: A role for Wnt signalling in self-renewal of haematopoietic stem cells.
+  findings: []
+- id: PMID:12813461
+  title: Activation of beta-catenin in prostate epithelium induces hyperplasias and
+    squamous transdifferentiation.
+  findings: []
+- id: PMID:12885771
+  title: beta-Catenin is required for specification of proximal/distal cell fate during
+    lung morphogenesis.
+  findings: []
+- id: PMID:12923052
+  title: Genetic interaction between Wnt/beta-catenin and BMP receptor signaling during
+    formation of the AER and the dorsal-ventral axis in the limb.
+  findings: []
+- id: PMID:12975353
+  title: The conditional inactivation of the beta-catenin gene in endothelial cells
+    causes a defective vascular pattern and increased vascular fragility.
+  findings: []
+- id: PMID:14608382
+  title: Deletion of beta-catenin impairs T cell development.
+  findings: []
+- id: PMID:14622577
+  title: Role of beta-catenin in synaptic vesicle localization and presynaptic assembly.
+  findings: []
+- id: PMID:15131783
+  title: 'Inducible Cre-mediated control of gene expression in the murine gastrointestinal
+    tract: effect of loss of beta-catenin.'
+  findings: []
+- id: PMID:15708565
+  title: Effects of canonical Wnt signaling on dorso-ventral specification of the
+    mouse telencephalon.
+  findings: []
+- id: PMID:15866163
+  title: Canonical Wnt/beta-catenin signaling prevents osteoblasts from differentiating
+    into chondrocytes.
+  findings: []
+- id: PMID:15866165
+  title: Canonical Wnt signaling in differentiated osteoblasts controls osteoclast
+    differentiation.
+  findings: []
+- id: PMID:15907834
+  title: Wnt/beta-catenin signaling acts upstream of N-myc, BMP4, and FGF signaling
+    to regulate proximal-distal patterning in the lung.
+  findings: []
+- id: PMID:16040629
+  title: Beta-catenin regulates differentiation of respiratory epithelial cells in
+    vivo.
+  findings: []
+- id: PMID:16102745
+  title: 'The duality of beta-catenin function: a requirement in lens morphogenesis
+    and signaling suppression of lens fate in periocular ectoderm.'
+  findings: []
+- id: PMID:16478791
+  title: APC inhibits ERK pathway activation and cellular proliferation induced by
+    RAS.
+  findings: []
+- id: PMID:16621792
+  title: 'Membrane localization of adenomatous polyposis coli protein at cellular
+    protrusions: targeting sequences and regulation by beta-catenin.'
+  findings: []
+- id: PMID:16818445
+  title: Wnt9a signaling is required for joint integrity and regulation of Ihh during
+    chondrogenesis.
+  findings: []
+- id: PMID:17537789
+  title: Wnt/beta-catenin signaling regulates nephron induction during mouse kidney
+    development.
+  findings: []
+- id: PMID:17706960
+  title: Persistent expression of stabilized beta-catenin delays maturation of radial
+    glial cells into intermediate progenitors.
+  findings: []
+- id: PMID:18231602
+  title: Formation and differentiation of multiple mesenchymal lineages during lung
+    development is regulated by beta-catenin signaling.
+  findings: []
+- id: PMID:18533146
+  title: An FGF-WNT gene regulatory network controls lung mesenchyme development.
+  findings: []
+- id: PMID:18635608
+  title: Tissue-specific requirements of beta-catenin in external genitalia development.
+  findings: []
+- id: PMID:19023080
+  title: Canonical Wnt signaling regulates organ-specific assembly and differentiation
+    of CNS vasculature.
+  findings: []
+- id: PMID:19060336
+  title: A Wnt7b-dependent pathway regulates the orientation of epithelial cell division
+    and establishes the cortico-medullary axis of the mammalian kidney.
+  findings: []
+- id: PMID:19129494
+  title: Wnt/beta-catenin signaling is required for CNS, but not non-CNS, angiogenesis.
+  findings: []
+- id: PMID:19154719
+  title: Nrarp coordinates endothelial Notch and Wnt signaling to control vessel density
+    in angiogenesis.
+  findings: []
+- id: PMID:19204372
+  title: Both the RGS domain and the six C-terminal amino acids of mouse Axin are
+    required for normal embryogenesis.
+  findings: []
+- id: PMID:19503085
+  title: HDAC1 and HDAC2 regulate oligodendrocyte differentiation by disrupting the
+    beta-catenin-TCF interaction.
+  findings: []
+- id: PMID:19619491
+  title: Reciprocal requirements for EDA/EDAR/NF-kappaB and Wnt/beta-catenin signaling
+    pathways in hair follicle induction.
+  findings: []
+- id: PMID:19620969
+  title: A regulatory pathway involving Notch1/beta-catenin/Isl1 determines cardiac
+    progenitor cell fate.
+  findings: []
+- id: PMID:19690384
+  title: Wnt signaling regulates smooth muscle precursor development in the mouse
+    lung via a tenascin C/PDGFR pathway.
+  findings: []
+- id: PMID:20043884
+  title: Antagonistic crosstalk of Wnt/beta-catenin/Bmp signaling within the Apical
+    Ectodermal Ridge (AER) regulates interdigit formation.
+  findings: []
+- id: PMID:20454446
+  title: WNT4/beta-catenin pathway maintains female germ cell survival by inhibiting
+    activin betaB in the mouse fetal ovary.
+  findings: []
+- id: PMID:20503375
+  title: Expression analysis of an evolutionarily conserved metallophosphodiesterase
+    gene, Mpped1, in the normal and beta-catenin-deficient malformed dorsal telencephalon.
+  findings: []
+- id: PMID:21937711
+  title: ASPM regulates Wnt signaling pathway activity in the developing brain.
+  findings: []
+- id: PMID:22102609
+  title: Increased β-catenin activity in the anterior neural plate induces ectopic
+    mid-hindbrain characteristics.
+  findings: []
+- id: PMID:22723415
+  title: Wnt/β-catenin signaling regulates telomerase in stem cells and cancer cells.
+  findings: []
+- id: PMID:23824574
+  title: Wnt/β-catenin signalling regulates Sox17 expression and is essential for
+    organizer and endoderm formation in the mouse.
+  findings: []
+- id: PMID:25083995
+  title: Canonical WNT signaling components in vascular development and barrier formation.
+  findings: []
+- id: PMID:28463231
+  title: Disruption of lineage specification in adult pulmonary mesenchymal progenitor
+    cells promotes microvascular dysfunction.
+  findings: []
+- id: PMID:8582267
+  title: Lack of beta-catenin affects mouse development at gastrulation.
+  findings: []
+- id: PMID:9230313
+  title: The mouse Fused locus encodes Axin, an inhibitor of the Wnt signaling pathway
+    that regulates embryonic axis formation.
+  findings: []
+core_functions:
+- description: Links cadherins to the actin cytoskeleton at adherens junctions to mediate cell-cell adhesion
+  supported_by:
+    - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+      supporting_text: "Beta-catenin is a key cytoplasmic component of the cadherin-catenin complex at adherens junctions, linking the cytoplasmic tail of E-cadherin to alpha-catenin and the actin cytoskeleton ... This linkage is crucial for the adhesive function of classical cadherins in forming stable cell-cell contacts in epithelial and other tissues"
+  molecular_function:
+    id: GO:0045296
+    label: cadherin binding
+  directly_involved_in:
+    - id: GO:0098609
+      label: cell-cell adhesion
+  locations:
+    - id: GO:0005912
+      label: adherens junction
+- description: Acts as transcriptional co-activator with TCF/LEF transcription factors in canonical Wnt signaling
+  supported_by:
+    - reference_id: file:mouse/Ctnnb1/Ctnnb1-deep-research.md
+      supporting_text: "In the nucleus, beta-catenin acts as a co-activator for TCF/LEF transcription factors, forming a transcriptional complex that drives expression of Wnt target genes ... Beta-catenin also serves as a central effector in the canonical Wnt signaling pathway, which controls cell proliferation, differentiation, and fate during development"
+  molecular_function:
+    id: GO:0003713
+    label: transcription coactivator activity
+  directly_involved_in:
+    - id: GO:0060070
+      label: canonical Wnt signaling pathway
+  locations:
+    - id: GO:0005634
+      label: nucleus

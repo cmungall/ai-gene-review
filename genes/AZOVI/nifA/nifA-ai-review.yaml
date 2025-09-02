@@ -1,0 +1,141 @@
+id: P09570
+gene_symbol: nifA
+taxon:
+  id: NCBITaxon:354
+  label: Azotobacter vinelandii
+description: 'NifA is a sigma-54-dependent transcriptional activator that serves as the master regulator of nitrogen fixation gene expression in Azotobacter vinelandii. It contains a GAF domain for signal sensing and NifL interaction, a central AAA+ ATPase domain that drives transcriptional activation through ATP hydrolysis and sigma-54 interaction, and a C-terminal HTH DNA-binding domain for promoter recognition. NifA activates transcription of nif operons by catalyzing the isomerization of closed promoter complexes to open complexes, enabling nitrogen fixation under appropriate environmental conditions.'
+existing_annotations:
+- term:
+    id: GO:0003700
+    label: DNA-binding transcription factor activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'This annotation is correct but too general. NifA is specifically a sigma-54-dependent transcriptional activator, not just any DNA-binding transcription factor. The protein does bind DNA through its C-terminal HTH domain (494-513) and activates transcription, but GO:0001216 (DNA-binding transcription activator activity) would be more accurate as it specifies the activator function. Even better would be a term specific to bacterial-type RNA polymerase transcriptional activators working with sigma-54, though such a specific term may not exist.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0001216
+        label: DNA-binding transcription activator activity
+- term:
+    id: GO:0005524
+    label: ATP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This annotation is correct and well-supported. NifA contains a sigma-54 interaction domain (211-439) which is an AAA+ ATPase domain with ATP binding sites at positions 239-246 and 302-311 according to UniProt structural annotations. ATP binding is essential for NifA function as it needs to hydrolyze ATP to drive the conformational changes in sigma-54-RNA polymerase complexes during transcriptional activation. This is a core molecular function of the protein.'
+    action: ACCEPT
+- term:
+    id: GO:0006355
+    label: regulation of DNA-templated transcription
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'This biological process annotation is correct but could be more specific. NifA specifically performs positive regulation of transcription by RNA polymerase. The term GO:0045893 (positive regulation of DNA-templated transcription) would be more accurate as NifA is an activator, not a general regulator. However, this annotation is acceptable as a general biological process term.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0045893
+        label: positive regulation of DNA-templated transcription
+- term:
+    id: GO:0009399
+    label: nitrogen fixation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'This biological process annotation needs refinement. While NifA is essential for nitrogen fixation (deletion mutants cannot grow diazotrophically), the protein itself does not perform nitrogen fixation - it regulates the expression of genes encoding nitrogenase and other proteins that actually fix nitrogen. A more accurate term would be "regulation of nitrogen fixation" or "positive regulation of nitrogen fixation" if such terms exist. NifA is a transcriptional regulator, not an enzyme that fixes nitrogen.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:1903316
+        label: positive regulation of nitrogen cycle metabolic process
+- term:
+    id: GO:0043565
+    label: sequence-specific DNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'This molecular function annotation is correct and specific. NifA binds to specific DNA sequences at nif promoters through its C-terminal HTH DNA-binding domain (494-513). The protein recognizes conserved upstream activating sequences (UAS) located at -24/-12 promoter regions typical of sigma-54-dependent promoters. This sequence-specific DNA binding is essential for NifA to activate transcription of its target genes. This is a core molecular function.'
+    action: ACCEPT
+- term:
+    id: GO:0000160
+    label: phosphorelay signal transduction system
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This annotation appears to be incorrect and likely results from the UniProtKB keyword "Two-component regulatory system". However, NifA is NOT part of a classical two-component or phosphorelay system. NifA activity is regulated by the NifL protein through direct protein-protein interaction in response to oxygen/redox status, nitrogen availability, and carbon status. There is no evidence for phosphorylation-based regulation of NifA in the literature. The regulation occurs through conformational changes and protein complex formation, not phosphorylation cascades. This annotation should be removed.'
+    action: REMOVE
+- term:
+    id: GO:0000166
+    label: nucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This annotation is correct but redundant and less specific than GO:0005524 (ATP binding) which is already annotated. GO:0000166 is a parent term of ATP binding. Since we have the more specific ATP binding annotation which accurately describes NifA nucleotide specificity, this broader term adds no additional information and could be considered over-annotation. However, it is not incorrect, just less informative.'
+    action: MARK_AS_OVER_ANNOTATED
+- term:
+    id: GO:0003677
+    label: DNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This annotation is correct but redundant and less specific than GO:0043565 (sequence-specific DNA binding) which is already annotated. GO:0003677 is a parent term that provides no additional information beyond the more specific annotation. Since we already have sequence-specific DNA binding annotated, this broader term represents over-annotation.'
+    action: MARK_AS_OVER_ANNOTATED
+core_functions:
+- description: 'Activates transcription of nitrogen fixation operons via σ54-dependent promoter remodeling'
+  molecular_function:
+    id: GO:0001216
+    label: DNA-binding transcription activator activity
+  directly_involved_in:
+    - id: GO:0045893
+      label: positive regulation of DNA-templated transcription
+    - id: GO:1903316
+      label: positive regulation of nitrogen cycle metabolic process
+- description: 'Hydrolyzes ATP to catalyze isomerization of closed promoter complexes to open complexes'
+  molecular_function:
+    id: GO:0016887
+    label: ATP hydrolysis activity
+  supported_by:
+    - reference_id: PMID:2840552
+      supporting_text: 'NifA contains conserved AAA+ domain required for ATP hydrolysis during transcriptional activation'
+  directly_involved_in:
+    - id: GO:0001112
+      label: DNA-templated transcription open complex formation
+- description: 'Recognizes and binds conserved upstream activating sequences at nif gene promoters'
+  molecular_function:
+    id: GO:0043565
+    label: sequence-specific DNA binding
+  directly_involved_in:
+    - id: GO:0045893
+      label: positive regulation of DNA-templated transcription
+references:
+- id: PMID:2840552
+  title: 'Nucleotide sequence and mutagenesis of the nifA gene from Azotobacter vinelandii'
+  findings:
+    - statement: 'Deletion mutants fail to accumulate nitrogenase structural gene products'
+      supporting_text: 'Mutant strains that have a deletion or a deletion plus an insertion within nifA are incapable of diazotrophic growth and they fail to accumulate nitrogenase structural gene products.'
+      reference_section_type: ABSTRACT
+    - statement: 'NifA contains conserved regions with consensus ATP binding site'
+      supporting_text: 'Interspecies comparisons of nifA-encoded products reveal that they all have a consensus ATP binding site and a consensus DNA binding site in highly conserved regions of the respective polypeptides.'
+      reference_section_type: ABSTRACT
+- id: PMID:2450865  
+  title: 'Nucleotide sequence and genetic analysis of the nifB-nifQ region from Azotobacter vinelandii'
+  findings:
+    - statement: 'nifA is separated from nifB by a 285-bp regulatory region'
+      supporting_text: 'A 285-base-pair sequence containing a potential nif promoter and nif regulatory sites separates this nifA gene from the first complete ORF which encodes a protein homologous to nifB gene products'
+      reference_section_type: ABSTRACT
+- id: UniProt:P09570
+  title: 'UniProt entry for NifA from Azotobacter vinelandii'
+  findings:
+    - statement: 'Required for activation of most nif operons involved in nitrogen fixation'
+      supporting_text: 'Central role in nitrogen fixation gene regulation'
+    - statement: 'Interacts with sigma-54'
+      supporting_text: 'Evidence for sigma-54-dependent transcriptional activation'
+    - statement: 'Contains GAF domain (37-178), sigma-54 interaction domain (211-439), and HTH DNA-binding domain (494-513)'
+      supporting_text: 'Domain architecture supporting NifA functions'
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []

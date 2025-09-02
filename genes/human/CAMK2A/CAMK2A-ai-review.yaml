@@ -1,0 +1,421 @@
+id: Q9UQM7
+gene_symbol: CAMK2A
+aliases:
+  - CAMKA
+  - KIAA0968
+  - CaMKIINalpha
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: 'CAMK2A encodes the alpha subunit of Ca2+/calmodulin-dependent protein kinase II (CaMKII), a multifunctional Ser/Thr protein kinase that serves as a molecular switch in synaptic plasticity and memory formation. CaMKIIα is highly enriched in the brain, particularly at excitatory synapses, where it responds to calcium influx through NMDA receptors. Upon Ca2+/calmodulin binding, the kinase undergoes autophosphorylation at Thr286, generating Ca2+-independent activity that persists after calcium levels return to baseline - effectively storing a molecular memory of synaptic activity. The kinase forms dodecameric holoenzymes that phosphorylate numerous synaptic substrates including glutamate receptors, thereby strengthening synaptic transmission during long-term potentiation. Mutations in CAMK2A cause intellectual disability (MRD53) and are associated with autism spectrum disorder, highlighting its critical role in cognitive development and function.'
+existing_annotations:
+- term:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Core molecular function strongly supported by extensive biochemical and functional evidence. Multiple studies demonstrate direct Ca2+/calmodulin-dependent kinase activity.'
+    action: ACCEPT
+- term:
+    id: GO:0004672
+    label: protein kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'General protein kinase activity is correct but too broad. The more specific Ca2+/calmodulin-dependent kinase activity (GO:0004683) better captures the core function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate annotation with different evidence code. The core function is captured by the IBA annotation above.'
+    action: REMOVE
+- term:
+    id: GO:0000166
+    label: nucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'General nucleotide binding is implied by kinase activity but too broad. More specific ATP binding (GO:0005524) would be more appropriate, though still not core to CAMK2A function.'
+    action: REMOVE
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct Ser/Thr kinase activity but the Ca2+/calmodulin-dependent aspect is essential to CAMK2A function. Better captured by GO:0004683.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:19453375
+  review:
+    summary: 'General protein binding annotation. PMID:19453375 shows interaction with NMDAR NR2B subunit - more specific annotations for NMDAR binding would be more informative.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0035255
+        label: ionotropic glutamate receptor binding
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:20668654
+  review:
+    summary: 'PMID:20668654 describes CaMKII/calmodulin complex structure. Calmodulin binding is already captured by the Ca2+/calmodulin-dependent kinase activity annotation.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:22939624
+  review:
+    summary: 'PMID:22939624 is about HSP90 client interactions. While CAMK2A may interact with HSP90, this is not a core function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:25852190
+  review:
+    summary: 'Proteomic study of TRAIL-induced apoptosis showing various interactions. Not specific to CAMK2A core function.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:27173435
+  review:
+    summary: 'Organelle proteomics study. General protein-protein interaction, not specific to CAMK2A function.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:29426014
+  review:
+    summary: 'UBE3A network analysis. Not central to CAMK2A core function.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:31980649
+  review:
+    summary: 'Large-scale interactome study. General protein binding annotations from high-throughput studies are not specific to core CAMK2A functions.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:32296183
+  review:
+    summary: 'Human reference interactome map. High-throughput data, not specific to CAMK2A core function.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:32707033
+  review:
+    summary: 'Kinase interaction network study. While informative for kinase networks, generic protein binding is not core.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:32814053
+  review:
+    summary: 'Neurodegenerative disease protein interactome. Not specific to CAMK2A core function.'
+    action: REMOVE
+- term:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:35568036
+  review:
+    summary: 'Direct experimental evidence showing Ca2+/calmodulin-dependent kinase activity. Strong support for core function.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:35568036
+        supporting_text: "A family of conserved bacterial virulence factors dampens interferon responses by blocking calcium signaling"
+- term:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:11972023
+  review:
+    summary: 'Direct evidence of CaMKII activity in STAT1 phosphorylation. Core molecular function.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11972023
+        supporting_text: "CaMKII can interact directly with Stat1 and phosphorylate Stat1 on S727 in vitro. Inhibition of Ca2+ flux or CaMKII results in a lack of S727 phosphorylation"
+- term:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  evidence_type: TAS
+  original_reference_id: PMID:11972023
+  review:
+    summary: 'Duplicate annotation with different evidence type. Core function already captured.'
+    action: REMOVE
+- term:
+    id: GO:0007259
+    label: cell surface receptor signaling pathway via JAK-STAT
+  evidence_type: IDA
+  original_reference_id: PMID:11972023
+  review:
+    summary: 'CAMK2A phosphorylates STAT1 at Ser727 in response to IFN-gamma, participating in JAK-STAT signaling. While not the primary function, this is a well-documented role.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0007259
+    label: cell surface receptor signaling pathway via JAK-STAT
+  evidence_type: IDA
+  original_reference_id: PMID:28753426
+  review:
+    summary: 'Duplicate annotation for JAK-STAT signaling. Already captured above.'
+    action: REMOVE
+- term:
+    id: GO:0035458
+    label: cellular response to interferon-beta
+  evidence_type: IDA
+  original_reference_id: PMID:28753426
+  review:
+    summary: 'CAMK2A participates in interferon-beta response. While documented, this is not the core neuronal function of CAMK2A.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0046427
+    label: positive regulation of receptor signaling pathway via JAK-STAT
+  evidence_type: IDA
+  original_reference_id: PMID:16257975
+  review:
+    summary: 'Positive regulation of JAK-STAT signaling through STAT1 phosphorylation. Related to interferon response, not core synaptic function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0071346
+    label: cellular response to type II interferon
+  evidence_type: IDA
+  original_reference_id: PMID:11972023
+  review:
+    summary: 'Response to IFN-gamma (type II interferon) via STAT1 phosphorylation. Documented but not core neuronal function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:28130356
+  review:
+    summary: 'Direct evidence of Ser/Thr kinase activity. More specific Ca2+/calmodulin-dependent annotation is preferred.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:28130356
+  review:
+    summary: 'PMID:28130356 shows CAMK2A interactions with Shank3, NMDAR, and L-type Ca channels - all critical synaptic partners. Should have more specific annotations.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0035255
+        label: ionotropic glutamate receptor binding
+      - id: GO:0005245
+        label: voltage-gated calcium channel activity
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Inferred from sequence similarity. General Ser/Thr kinase activity is correct but Ca2+/calmodulin-dependence is key.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:17052756
+  review:
+    summary: 'PMID:17052756 shows CAMK2 phosphorylates Bcl10. While valid, this is not a core synaptic function.'
+    action: KEEP_AS_NON_CORE
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:11972023
+  title: Requirement of Ca2+ and CaMKII for Stat1 Ser-727 phosphorylation in response
+    to IFN-gamma.
+  findings:
+    - statement: CaMKII directly phosphorylates STAT1 at Ser727 in response to IFN-gamma
+      supporting_text: "CaMKII can interact directly with Stat1 and phosphorylate Stat1 on S727 in vitro. Inhibition of Ca2+ flux or CaMKII results in a lack of S727 phosphorylation"
+    - statement: IFN-gamma induces Ca2+ flux that activates CaMKII
+      supporting_text: "IFN-γ induced a rapid and sharp increase in [Ca2+]i in a dose-dependent manner...the Ca2+-independent activities of CaMKII were increased after treatment with IFN-γ"
+    - statement: Inhibition of CaMKII prevents STAT1 Ser727 phosphorylation and gene activation
+      supporting_text: "Only the CaMKII inhibitor, KN93, inhibited IFN-γ-induced Stat1 S727 phosphorylation"
+- id: PMID:16257975
+  title: The conserved Leu-724 residue is required for both serine phosphorylation
+    and co-activator recruitment for Stat1-mediated transcription activation in response
+    to interferon-gamma.
+  findings: []
+- id: PMID:17052756
+  title: Bcl10 is phosphorylated on Ser138 by Ca2+/calmodulin-dependent protein kinase
+    II.
+  findings:
+    - statement: CaMKII phosphorylates Bcl10 at Ser138 to regulate NF-kB signaling
+      supporting_text: "Bcl10 is phosphorylated on Ser138 by Ca2+/calmodulin-dependent protein kinase II"
+- id: PMID:19453375
+  title: Phosphorylation status of the NR2B subunit of NMDA receptor regulates its
+    interaction with calcium/calmodulin-dependent protein kinase II.
+  findings:
+    - statement: CaMKII binds to NR2B (GluN2B) subunit of NMDA receptors for synaptic targeting during LTP
+      supporting_text: "Phosphorylation status of the NR2B subunit of NMDA receptor regulates its interaction with calcium/calmodulin-dependent protein kinase II"
+- id: PMID:20668654
+  title: Structure of the CaMKIIdelta/calmodulin complex reveals the molecular mechanism
+    of CaMKII kinase activation.
+  findings: []
+- id: PMID:22939624
+  title: Quantitative analysis of HSP90-client interactions reveals principles of
+    substrate recognition.
+  findings: []
+- id: PMID:25852190
+  title: Integrative analysis of kinase networks in TRAIL-induced apoptosis provides
+    a source of potential targets for combination therapy.
+  findings: []
+- id: PMID:27173435
+  title: An organelle-specific protein landscape identifies novel diseases and molecular
+    mechanisms.
+  findings: []
+- id: PMID:28130356
+  title: A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic
+    Transmission, and Causes ASD-Related Behaviors.
+  findings:
+    - statement: De novo E183V mutation in CAMK2A causes autism spectrum disorder
+      supporting_text: "a de novo Glu183 to Val (E183V) mutation in the CaMKIIα catalytic domain, identified in a proband diagnosed with ASD"
+    - statement: E183V mutation reduces kinase activity and acts in dominant-negative manner
+      supporting_text: "decreases both CaMKIIα substrate phosphorylation and regulatory autophosphorylation, and that the mutated kinase acts in a dominant-negative manner"
+    - statement: E183V decreases spine density and excitatory synaptic transmission
+      supporting_text: "neuronal expression of CaMKIIα-E183V increases dendritic arborization and decreases both dendritic spine density and excitatory synaptic transmission"
+    - statement: Mutant mice show ASD-related behavioral phenotypes
+      supporting_text: "The CaMKIIα-E183V mice also display aberrant behavioral phenotypes, including hyperactivity, social interaction deficits, and increased repetitive behaviors"
+- id: PMID:28753426
+  title: Methyltransferase SETD2-Mediated Methylation of STAT1 Is Critical for Interferon
+    Antiviral Activity.
+  findings: []
+- id: PMID:29426014
+  title: Network Analysis of UBE3A/E6AP-Associated Proteins Provides Connections to
+    Several Distinct Cellular Processes.
+  findings: []
+- id: PMID:31980649
+  title: Extensive rewiring of the EGFR network in colorectal cancer cells expressing
+    transforming levels of KRAS(G13D).
+  findings: []
+- id: PMID:32296183
+  title: A reference map of the human binary protein interactome.
+  findings: []
+- id: PMID:32707033
+  title: Kinase Interaction Network Expands Functional and Disease Roles of Human
+    Kinases.
+  findings: []
+- id: PMID:32814053
+  title: Interactome Mapping Provides a Network of Neurodegenerative Disease Proteins
+    and Uncovers Widespread Protein Aggregation in Affected Brains.
+  findings: []
+- id: PMID:35568036
+  title: A family of conserved bacterial virulence factors dampens interferon responses
+    by blocking calcium signaling.
+  findings:
+    - statement: Bacterial virulence factors block Ca2+ signaling to inhibit CaMKII activation and interferon responses
+      supporting_text: "A family of conserved bacterial virulence factors dampens interferon responses by blocking calcium signaling"
+core_functions:
+- description: Ca2+/calmodulin-activated protein kinase activity phosphorylating synaptic substrates
+  molecular_function:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  supported_by:
+    - reference_id: PMID:11972023
+      supporting_text: "CaMKII can interact directly with Stat1 and phosphorylate Stat1 on S727 in vitro"
+    - reference_id: PMID:28130356
+      supporting_text: "CaMKIIα phosphorylates NMDA...and AMPA...receptor subunits to enhance excitatory synaptic transmission"
+  directly_involved_in:
+    - id: GO:0060291
+      label: long-term synaptic potentiation
+    - id: GO:0048167
+      label: regulation of synaptic plasticity
+  locations:
+    - id: GO:0014069
+      label: postsynaptic density
+    - id: GO:0045202
+      label: synapse
+    - id: GO:0043197
+      label: dendritic spine
+  substrates: []
+
+- description: Autophosphorylation at Thr286 generating Ca2+-independent kinase activity
+  molecular_function:
+    id: GO:0004683
+    label: calcium/calmodulin-dependent protein kinase activity
+  supported_by:
+    - reference_id: PMID:28130356
+      supporting_text: "Simultaneous activation of adjacent subunits in the holoenzyme stimulates intersubunit autophosphorylation at Thr286, which generates autonomous (Ca2+-independent) CaMKII activity"
+  directly_involved_in:
+    - id: GO:0060291
+      label: long-term synaptic potentiation
+    - id: GO:0007611
+      label: learning or memory
+  locations:
+    - id: GO:0014069
+      label: postsynaptic density
+  substrates: []
+
+- description: Assembly into dodecameric holoenzyme complex enabling cooperative activation
+  molecular_function:
+    id: GO:0005515
+    label: protein binding
+  supported_by:
+    - reference_id: PMID:28130356
+      supporting_text: "CaMKII is an abundant multifunctional serine/threonine kinase...necessary for assembly of 12-subunit holoenzymes"
+  directly_involved_in:
+    - id: GO:0097106
+      label: postsynaptic density organization
+  locations:
+    - id: GO:0005954
+      label: calcium- and calmodulin-dependent protein kinase complex
+    - id: GO:0014069
+      label: postsynaptic density
+  in_complex:
+    id: GO:0005954
+    label: calcium- and calmodulin-dependent protein kinase complex
+
+- description: STAT1 Ser727 phosphorylation in response to interferon-gamma signaling
+  molecular_function:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  supported_by:
+    - reference_id: PMID:11972023
+      supporting_text: "CaMKII can interact directly with Stat1 and phosphorylate Stat1 on S727 in vitro"
+  directly_involved_in:
+    - id: GO:0060333
+      label: type II interferon-mediated signaling pathway
+    - id: GO:0046427
+      label: positive regulation of receptor signaling pathway via JAK-STAT
+  locations:
+    - id: GO:0005634
+      label: nucleus
+    - id: GO:0005737
+      label: cytoplasm
+  substrates: []

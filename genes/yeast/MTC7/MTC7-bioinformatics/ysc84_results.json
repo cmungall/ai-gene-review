@@ -1,0 +1,8 @@
+{
+  "protein": "YSC84_YEAST",
+  "protein_length": 373,
+  "known_tm_regions": [],
+  "predicted_tm_regions": [],
+  "tm_composition": [],
+  "analysis_method": "Kyte-Doolittle hydropathy (window=19)"
+}

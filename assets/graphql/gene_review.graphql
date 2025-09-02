@@ -7,6 +7,7 @@ enum ActionEnum
     MODIFY
     MARK_AS_OVER_ANNOTATED
     UNDECIDED
+    PENDING
   }
 
 enum EvidenceType
@@ -28,6 +29,7 @@ type AnnotationExtension
 type CoreFunction
   {
     description: String
+    supportedBy: [SupportingTextInReference]
     molecularFunction: Term
     directlyInvolvedIn: [Term]
     locations: [Term]
@@ -43,6 +45,7 @@ type ExistingAnnotation
     negated: Boolean
     evidenceType: String
     originalReferenceId: Reference
+    supportingEntities: [String]
     review: Review
   }
 
@@ -50,24 +53,35 @@ type Finding
   {
     statement: String
     supportingText: String
+    referenceSectionType: String
   }
 
 type GeneReview
   {
     id: String!
-    geneSymbol: String
+    geneSymbol: String!
+    aliases: [String]
     description: String
     taxon: Term
     references: [Reference]
     existingAnnotations: [ExistingAnnotation]
     coreFunctions: [CoreFunction]
+    proposedNewTerms: [ProposedOntologyTerm]
+  }
+
+type ProposedOntologyTerm
+  {
+    proposedName: String!
+    proposedDefinition: String!
+    justification: String
   }
 
 type Reference
   {
     id: String!
-    title: String
+    title: String!
     findings: [Finding]
+    isInvalid: Boolean
   }
 
 type Review
@@ -76,10 +90,21 @@ type Review
     action: ActionEnum
     reason: String
     proposedReplacementTerms: [Term]
+    additionalReferenceIds: [Reference]
+    supportedBy: [SupportingTextInReference]
+  }
+
+type SupportingTextInReference
+  {
+    referenceId: Reference
+    supportingText: String
+    referenceSectionType: String
   }
 
 type Term
   {
     id: String!
-    label: String
+    label: String!
+    description: String
+    ontology: String
   }

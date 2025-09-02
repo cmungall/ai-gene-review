@@ -1,0 +1,1486 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "O94603",
+  "uniProtkbId": "JHD1_SCHPO",
+  "entryAudit": {
+    "firstPublicDate": "2004-04-13",
+    "lastAnnotationUpdateDate": "2025-06-18",
+    "lastSequenceUpdateDate": "1999-05-01",
+    "entryVersion": 148,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Schizosaccharomyces pombe (strain 972 / ATCC 24843)",
+    "commonName": "Fission yeast",
+    "taxonId": 284812,
+    "lineage": [
+      "Eukaryota",
+      "Fungi",
+      "Dikarya",
+      "Ascomycota",
+      "Taphrinomycotina",
+      "Schizosaccharomycetes",
+      "Schizosaccharomycetales",
+      "Schizosaccharomycetaceae",
+      "Schizosaccharomyces"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Putative JmjC domain-containing histone demethylation protein 1"
+      },
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P40034"
+            }
+          ],
+          "value": "1.14.11.27"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Heterochromatin-destabilizing protein epe1"
+        }
+      },
+      {
+        "fullName": {
+          "value": "[Histone-H3]-lysine-36 demethylase 1"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "jhd1"
+      },
+      "synonyms": [
+        {
+          "value": "epe1"
+        }
+      ],
+      "orfNames": [
+        {
+          "value": "SPCC622.16c"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P40034"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12773576"
+            }
+          ],
+          "value": "May be a histone demethylase that specifically demethylates 'Lys-36' of histone H3, thereby playing a central role in histone code (By similarity). Represses transcriptional silencing by negatively affecting heterochromatin stability"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "N(6),N(6)-dimethyl-L-lysyl(36)-[histone H3] + 2 2-oxoglutarate + 2 O2 = L-lysyl(36)-[histone H3] + 2 formaldehyde + 2 succinate + 2 CO2",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:42032"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:9785"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:9787"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16810"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16842"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29969"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:30031"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:61976"
+          }
+        ],
+        "ecNumber": "1.14.11.27",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P40034"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "Fe(2+)",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:29033"
+          }
+        }
+      ],
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Binds 1 Fe(2+) ion per subunit."
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "O94603",
+            "intActId": "EBI-3505187"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "Q10990",
+            "geneName": "cdt2",
+            "intActId": "EBI-3505190"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12773576"
+              }
+            ],
+            "value": "Nucleus",
+            "id": "SL-0191"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "The JmjC domain mediates the demethylation activity"
+        }
+      ],
+      "commentType": "DOMAIN"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the JHDM1 histone demethylase family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "16362057"
+            }
+          ],
+          "value": "In contrast to other JHDM1 histone demethylases, it lacks the iron catalytic His in position 370 which is replaced by a Tyr residue and has no histone demethylase activity in vitro (PubMed:16362057). It therefore may not be functional in vivo"
+        }
+      ],
+      "commentType": "CAUTION"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 948,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Putative JmjC domain-containing histone demethylation protein 1",
+      "featureId": "PRO_0000086985"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 243,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 402,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "JmjC",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00538"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 294,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 294,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ],
+      "ligand": {
+        "name": "substrate"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 297,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 297,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:24875"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00538"
+        }
+      ],
+      "ligand": {
+        "name": "Fe cation",
+        "id": "ChEBI:CHEBI:24875",
+        "note": "catalytic"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 299,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 299,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:24875"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00538"
+        }
+      ],
+      "ligand": {
+        "name": "Fe cation",
+        "id": "ChEBI:CHEBI:24875",
+        "note": "catalytic"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 314,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 314,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ],
+      "ligand": {
+        "name": "substrate"
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 307,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 307,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Loss of function.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12773576"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0156",
+      "category": "Molecular function",
+      "name": "Chromatin regulator"
+    },
+    {
+      "id": "KW-0223",
+      "category": "Molecular function",
+      "name": "Dioxygenase"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0539",
+      "category": "Cellular component",
+      "name": "Nucleus"
+    },
+    {
+      "id": "KW-0560",
+      "category": "Molecular function",
+      "name": "Oxidoreductase"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0804",
+      "category": "Biological process",
+      "name": "Transcription"
+    },
+    {
+      "id": "KW-0805",
+      "category": "Biological process",
+      "name": "Transcription regulation"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "11859360",
+        "citationType": "journal article",
+        "authors": [
+          "Wood V.",
+          "Gwilliam R.",
+          "Rajandream M.A.",
+          "Lyne M.H.",
+          "Lyne R.",
+          "Stewart A.",
+          "Sgouros J.G.",
+          "Peat N.",
+          "Hayles J.",
+          "Baker S.G.",
+          "Basham D.",
+          "Bowman S.",
+          "Brooks K.",
+          "Brown D.",
+          "Brown S.",
+          "Chillingworth T.",
+          "Churcher C.M.",
+          "Collins M.",
+          "Connor R.",
+          "Cronin A.",
+          "Davis P.",
+          "Feltwell T.",
+          "Fraser A.",
+          "Gentles S.",
+          "Goble A.",
+          "Hamlin N.",
+          "Harris D.E.",
+          "Hidalgo J.",
+          "Hodgson G.",
+          "Holroyd S.",
+          "Hornsby T.",
+          "Howarth S.",
+          "Huckle E.J.",
+          "Hunt S.",
+          "Jagels K.",
+          "James K.D.",
+          "Jones L.",
+          "Jones M.",
+          "Leather S.",
+          "McDonald S.",
+          "McLean J.",
+          "Mooney P.",
+          "Moule S.",
+          "Mungall K.L.",
+          "Murphy L.D.",
+          "Niblett D.",
+          "Odell C.",
+          "Oliver K.",
+          "O'Neil S.",
+          "Pearson D.",
+          "Quail M.A.",
+          "Rabbinowitsch E.",
+          "Rutherford K.M.",
+          "Rutter S.",
+          "Saunders D.",
+          "Seeger K.",
+          "Sharp S.",
+          "Skelton J.",
+          "Simmonds M.N.",
+          "Squares R.",
+          "Squares S.",
+          "Stevens K.",
+          "Taylor K.",
+          "Taylor R.G.",
+          "Tivey A.",
+          "Walsh S.V.",
+          "Warren T.",
+          "Whitehead S.",
+          "Woodward J.R.",
+          "Volckaert G.",
+          "Aert R.",
+          "Robben J.",
+          "Grymonprez B.",
+          "Weltjens I.",
+          "Vanstreels E.",
+          "Rieger M.",
+          "Schaefer M.",
+          "Mueller-Auer S.",
+          "Gabel C.",
+          "Fuchs M.",
+          "Duesterhoeft A.",
+          "Fritzc C.",
+          "Holzer E.",
+          "Moestl D.",
+          "Hilbert H.",
+          "Borzym K.",
+          "Langer I.",
+          "Beck A.",
+          "Lehrach H.",
+          "Reinhardt R.",
+          "Pohl T.M.",
+          "Eger P.",
+          "Zimmermann W.",
+          "Wedler H.",
+          "Wambutt R.",
+          "Purnelle B.",
+          "Goffeau A.",
+          "Cadieu E.",
+          "Dreano S.",
+          "Gloux S.",
+          "Lelaure V.",
+          "Mottier S.",
+          "Galibert F.",
+          "Aves S.J.",
+          "Xiang Z.",
+          "Hunt C.",
+          "Moore K.",
+          "Hurst S.M.",
+          "Lucas M.",
+          "Rochet M.",
+          "Gaillardin C.",
+          "Tallada V.A.",
+          "Garzon A.",
+          "Thode G.",
+          "Daga R.R.",
+          "Cruzado L.",
+          "Jimenez J.",
+          "Sanchez M.",
+          "del Rey F.",
+          "Benito J.",
+          "Dominguez A.",
+          "Revuelta J.L.",
+          "Moreno S.",
+          "Armstrong J.",
+          "Forsburg S.L.",
+          "Cerutti L.",
+          "Lowe T.",
+          "McCombie W.R.",
+          "Paulsen I.",
+          "Potashkin J.",
+          "Shpakovski G.V.",
+          "Ussery D.",
+          "Barrell B.G.",
+          "Nurse P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11859360"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature724"
+          }
+        ],
+        "title": "The genome sequence of Schizosaccharomyces pombe.",
+        "publicationDate": "2002",
+        "journal": "Nature",
+        "firstPage": "871",
+        "lastPage": "880",
+        "volume": "415"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "972 / ATCC 24843",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "12773576",
+        "citationType": "journal article",
+        "authors": [
+          "Ayoub N.",
+          "Noma K.",
+          "Isaac S.",
+          "Kahan T.",
+          "Grewal S.I.S.",
+          "Cohen A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12773576"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1128/mcb.23.12.4356-4370.2003"
+          }
+        ],
+        "title": "A novel jmjC domain protein modulates heterochromatization in fission yeast.",
+        "publicationDate": "2003",
+        "journal": "Mol. Cell. Biol.",
+        "firstPage": "4356",
+        "lastPage": "4370",
+        "volume": "23"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "SUBCELLULAR LOCATION",
+        "MUTAGENESIS OF TYR-307"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "15809658",
+        "citationType": "journal article",
+        "authors": [
+          "Trewick S.C.",
+          "McLaughlin P.J.",
+          "Allshire R.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15809658"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/sj.embor.7400379"
+          }
+        ],
+        "title": "Methylation: lost in hydroxylation?",
+        "publicationDate": "2005",
+        "journal": "EMBO Rep.",
+        "firstPage": "315",
+        "lastPage": "320",
+        "volume": "6"
+      },
+      "referencePositions": [
+        "POSSIBLE FUNCTION AS A DEMETHYLASE"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "16362057",
+        "citationType": "journal article",
+        "authors": [
+          "Tsukada Y.",
+          "Fang J.",
+          "Erdjument-Bromage H.",
+          "Warren M.E.",
+          "Borchers C.H.",
+          "Tempst P.",
+          "Zhang Y."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16362057"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature04433"
+          }
+        ],
+        "title": "Histone demethylation by a family of JmjC domain-containing proteins.",
+        "publicationDate": "2006",
+        "journal": "Nature",
+        "firstPage": "811",
+        "lastPage": "816",
+        "volume": "439"
+      },
+      "referencePositions": [
+        "LACK OF DEMETHYLASE ACTIVITY IN VITRO"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "CU329672",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA21872.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "T41496",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T41496"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_588188.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001023178.2"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "276044",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "334"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "284812.O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "4896-SPCC622.16c.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblFungi",
+      "id": "SPCC622.16c.1",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "SPCC622.16c.1:pep"
+        },
+        {
+          "key": "GeneId",
+          "value": "SPCC622.16c"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "2539481",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "spo:2539481",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PomBase",
+      "id": "SPCC622.16c",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "FungiDB:SPCC622.16c",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG1633",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_013397_0_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-SPO-2299718",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Condensation of Prophase Chromosomes"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-SPO-3214842",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "HDMs demethylate histones"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-SPO-8951664",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Neddylation"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-SPO-983168",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Antigen processing: Ubiquitination & Proteasome degradation"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:O94603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002485",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome III"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0000792",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:heterochromatin"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16762840"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "17449867"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "17948055"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "29214404"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:1990342",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:heterochromatin island"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16762840"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "22144463"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0031934",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mating-type region heterochromatin"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16762840"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005634",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:nucleus"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "12773576"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005721",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:pericentric heterochromatin"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16762840"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0140720",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:subtelomeric heterochromatin"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16762840"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0032452",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:histone demethylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0140680",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:histone H3K36me/H3K36me2 demethylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-EC"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0032454",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:histone H3K9 demethylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "25838386"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046872",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:metal ion binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0003712",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:transcription coregulator activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006338",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:chromatin remodeling"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033696",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:heterochromatin boundary formation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "25831549"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0010964",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:regulation of regulatory ncRNA-mediated heterochromatin formation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "36617881"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:1902801",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:regulation of siRNA-independent facultative heterochromatin formation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:PomBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "22144463"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006357",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:regulation of transcription by RNA polymerase II"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.60.120.650",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cupin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR041070",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JHD"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050690",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JHDM1_Histone_Demethylase"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR003347",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JmjC_dom"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23123",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PHD/F-BOX CONTAINING PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF17811",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JHD"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF02373",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JmjC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00558",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JmjC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51197",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Clavaminate synthase-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51184",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "JMJC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MDSWLEYDDIINQDIDIPSNDLSGSGTLCVGVHSSLLENSLNSIDSFISSKEEISWCGNQSTPIATKSHLSCINPQYVNPFDTSPVSVDTEFQDTYLLDAPSFAQPHFSERQSVDKTRSRCLSRNRRRKRHPNLHKNHQRLLGMSFPQDGFRRMPAESVNFSYFRDTGFNEPTIFPSSDTQNTRQLNLSKIATLIGYDCPLALVDVVTQKQIPNKMDMESWVKYMSLEPSKRGRIYDVLSLEVSTTKLAYYVRKPNIVRDLDLVNTVWPPGSFALGEYPHVDTYCLMSAENSYTEFHIEFGGSSAYYNILDGCKIFYLIPGTSKNWEAYTAWLTSSNDSDKKFLPNMVDVCYCVEVHSQQTILVPSGWIYAVVTPCDTISIAGNFLTFLHIYPQLSIYNLELQLGIEKEYQYPYFESIMWYTAIHFYLAFPDNSSRDGIDDIIAEYETGRLFDINAFTEQELDGFEELLNYLYIRAQILRDCDIIIDIYNEPVKISKNNGYNSAYTMVPPDLDEICVDFVQKFGAWITYHHRRSAKHPSCNCFSHLQTKLIDSGPKPANNSYQHQSNFIGVVISTNHNIIKKCQESQIQTGKNNCSFQLVKKRIKSTKKAPSWRSIIKAFKKRENTRCNFLSSLHATTFREDIVVRPKIKSFVLEQLIFQALFSFAINWTPSFFLNHSNFENIALSKETFNFGGEANCENTDTTLFTTWGDQGFRPSDSICYNDFNLLETANSDAEASIHELELQPLNAVNEREVDISQTDMTPSTALDTRVDTRVDSLPEFSNLILSPSSNDDSFQLDDLLSPSSSNLKQQIQKVVPQNSLEFSVGEKEKKAAEYSLLHTFSYKRLSMENEKPDTTKVPLKYNIQHEEMKAYRRKNDLEYIDQHFASSKSGISNGRNNNKEVNLTKAENVGIKKRRIMKNENNIYDFEDHSPVREKWGHRLRSRGAS",
+    "length": 948,
+    "molWeight": 108653,
+    "crc64": "5CACC9C1F39751C4",
+    "md5": "86D889D26DB8B9E52D53793C34696DF3"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 1,
+      "COFACTOR": 1,
+      "INTERACTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "DOMAIN": 1,
+      "SIMILARITY": 1,
+      "CAUTION": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Domain": 1,
+      "Binding site": 4,
+      "Mutagenesis": 1
+    },
+    "uniParcId": "UPI000006C68B"
+  }
+}

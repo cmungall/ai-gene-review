@@ -1,0 +1,8 @@
+# PMC ID Override Table
+# This file contains manual corrections for incorrect PMC ID linkages in NCBI's database
+# Format: PMID<tab>PMCID (leave PMCID blank if no PMC version exists)
+# Lines starting with # are comments
+# Report these issues to NCBI at: https://www.ncbi.nlm.nih.gov/home/about/contact/
+#
+# PMID	PMCID	Comment
+2001740		# NCBI incorrectly links to PMC11824087 which is actually PMID 25230901 (2014 review)

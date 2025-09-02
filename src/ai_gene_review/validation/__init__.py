@@ -12,7 +12,11 @@ from ai_gene_review.validation.publication_validator import (
     PublicationValidationResult,
     validate_yaml_file_publications,
 )
-from ai_gene_review.validation.term_validator import TermValidator, TermValidationResult, validate_yaml_file
+from ai_gene_review.validation.term_validator import (
+    TermValidator,
+    TermValidationResult,
+    validate_yaml_file,
+)
 from ai_gene_review.validation.validation_report import (
     BatchValidationReport,
     ValidationIssue,

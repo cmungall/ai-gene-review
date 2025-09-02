@@ -1,0 +1,1060 @@
+id: Q9Y4K3
+gene_symbol: TRAF6
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: TRAF6 (TNF receptor-associated factor 6) is a critical E3 ubiquitin ligase
+  and signal transduction adaptor that synthesizes K63-linked polyubiquitin chains
+  for non-degradative signaling. It serves as a central hub in multiple immune signaling
+  pathways including TLR/IL-1R, TNF receptor superfamily (CD40, RANK), and cytosolic
+  pattern recognition receptors, mediating activation of NF-κB and MAPK pathways.
+  Beyond immunity, TRAF6 is essential for osteoclast differentiation, ectodermal development
+  (hair, teeth, sweat glands), and has emerging roles in autophagy regulation. The
+  protein contains an N-terminal RING domain for E3 ligase activity, zinc fingers,
+  and a C-terminal TRAF domain for protein-protein interactions, enabling both enzymatic
+  and scaffolding functions in signal transduction.
+references:
+- id: PMID:11460167
+  title: TAK1 is a ubiquitin-dependent kinase of MKK and IKK
+  findings:
+  - statement: TRAF6 activates IKK and JNK in response to pro-inflammatory mediators
+    supporting_text: TRAF6 is a signal transducer that activates IkappaB kinase (IKK)
+      and Jun amino-terminal kinase (JNK) in response to pro-inflammatory mediators
+      such as interleukin-1 (IL-1) and lipopolysaccharides (LPS).
+    reference_section_type: ABSTRACT
+  - statement: TRAF6 catalyzes K63-linked polyubiquitin chains for IKK activation
+    supporting_text: This Ubc complex, together with TRAF6, catalyses the formation
+      of a Lys 63 (K63)-linked polyubiquitin chain that mediates IKK activation through
+      a unique proteasome-independent mechanism.
+    reference_section_type: ABSTRACT
+- id: PMID:11057907
+  title: Activation of the IkappaB kinase complex by TRAF6 requires a dimeric ubiquitin-conjugating
+    enzyme complex and a unique polyubiquitin chain
+  findings:
+  - statement: TRAF6 functions with Ubc13/Uev1A to catalyze K63-linked polyubiquitin
+      chain synthesis
+    supporting_text: TRAF6, a RING domain protein, functions together with Ubc13/Uev1A
+      to catalyze the synthesis of unique polyubiquitin chains linked through lysine-63
+      (K63) of ubiquitin.
+    reference_section_type: ABSTRACT
+  - statement: K63-linked polyubiquitin chain synthesis is required for IKK activation
+    supporting_text: Blockade of this polyubiquitin chain synthesis, but not inhibition
+      of the proteasome, prevents the activation of IKK by TRAF6.
+    reference_section_type: ABSTRACT
+- id: PMID:9346484
+  title: 'IKK-1 and IKK-2: cytokine-activated IkappaB kinases essential for NF-kappaB
+    activation'
+- id: PMID:17135271
+  title: Site-specific Lys-63-linked tumor necrosis factor receptor-associated factor
+    6 auto-ubiquitination is a critical determinant of I kappa B kinase activation
+  findings:
+  - statement: TRAF6 Lys-63-linked auto-ubiquitination is critical for IKK activation
+    supporting_text: Site-specific Lys-63-linked tumor necrosis factor receptor-associated
+      factor 6 auto-ubiquitination is a critical determinant of I kappa B kinase activation.
+    reference_section_type: TITLE
+- id: file:human/TRAF6/TRAF6-deep-research.md
+  title: Deep research synthesis of TRAF6 literature
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to
+    orthologs using Ensembl Compara
+- id: GO_REF:0000120
+  title: Automatic annotation of binding predictions from structures using InterPro
+- id: PMID:15361868
+  title: Interferon-alpha induction through Toll-like receptors involves a direct
+    interaction of IRF7 with MyD88 and TRAF6.
+  findings:
+  - statement: IRF7 directly interacts with MyD88 and TRAF6 for interferon-alpha induction
+    supporting_text: Interferon-alpha induction through Toll-like receptors involves
+      a direct interaction of IRF7 with MyD88 and TRAF6.
+    reference_section_type: TITLE
+- id: PMID:10465784
+  title: ECSIT is an evolutionarily conserved intermediate in the Toll/IL-1 signal
+    transduction pathway.
+  findings:
+  - statement: ECSIT bridges TRAF6 to MEKK-1 in Toll/IL-1 signaling pathways
+    supporting_text: We report the identification and characterization of a novel
+      intermediate in these signaling pathways that bridges TRAF6 to MEKK-1.
+    reference_section_type: ABSTRACT
+- id: PMID:11279055
+  title: A diverse family of proteins containing tumor necrosis factor receptor-associated
+    factor domains.
+  findings:
+  - statement: MUL and USP7 bind to TRAF6 through their TRAF domains
+    supporting_text: MUL and USP7 are capable of binding in vitro via their TDs to
+      all of the previously identified TRAF family proteins (TRAF1, TRAF2, TRAF3,
+      TRAF4, TRAF5, and TRAF6), whereas the TD of SPOP interacts weakly with TRAF1
+      and TRAF6 only.
+    reference_section_type: ABSTRACT
+  - statement: MUL and USP7 TRAF domains suppress TRAF6-induced NF-kappaB activation
+    supporting_text: Analysis of various MUL and USP7 mutants by transient transfection
+      assays indicated that the TDs of these proteins are necessary and sufficient
+      for suppressing NF-kappaB induction by TRAF2 and TRAF6 as well as certain TRAF-binding
+      TNF family receptors.
+    reference_section_type: ABSTRACT
+- id: PMID:1406630
+  title: 'Selection of optimal kappa B/Rel DNA-binding motifs: interaction of both
+    subunits of NF-kappa B with DNA is required for transcriptional activation.'
+- id: PMID:25038658
+  title: Identification of a NFκB inhibitory peptide from tryptic β-casein hydrolysate.
+- id: PMID:27746020
+  title: The K48-K63 Branched Ubiquitin Chain Regulates NF-κB Signaling.
+- id: PMID:7479976
+  title: Signal-induced degradation of I kappa B alpha requires site-specific ubiquitination.
+- id: PMID:21931555
+  title: Vaccinia virus protein C6 is a virulence factor that binds TBK-1 adaptor
+    proteins and inhibits activation of IRF3 and IRF7.
+- id: PMID:20532808
+  title: Interleukin-33 stimulates formation of functional osteoclasts from human
+    CD14(+) monocytes.
+- id: PMID:31376257
+  title: IL-17A upregulates P-glycoprotein expression in peripheral blood lymphocytes
+    of patients with rheumatoid arthritis through TAK1.
+- id: PMID:23202584
+  title: Structure of the human ATG12~ATG5 conjugate required for LC3 lipidation in
+    autophagy.
+- id: PMID:12048232
+  title: Quantitative prediction of NF-kappa B DNA-protein interactions.
+- id: PMID:14703513
+  title: Identification of Ser-386 of interferon regulatory factor 3 as critical target
+    for inducible phosphorylation that determines activation.
+- id: PMID:9891032
+  title: Essential role of interferon regulatory factor 3 in direct activation of
+    RANTES chemokine transcription.
+- id: PMID:23776175
+  title: SASH1 is a scaffold molecule in endothelial TLR4 signaling.
+- id: PMID:34721373
+  title: Defining the Role of Nuclear Factor (NF)-κB p105 Subunit in Human Macrophage
+    by Transcriptomic Analysis of NFKB1 Knockout THP1 Cells.
+- id: PMID:18079694
+  title: A critical role of RICK/RIP2 polyubiquitination in Nod-induced NF-kappaB
+    activation.
+- id: PMID:10882101
+  title: TAB2, a novel adaptor protein, mediates activation of TAK1 MAPKKK by linking
+    TAK1 to TRAF6 in the IL-1 signal transduction pathway.
+  findings:
+  - statement: TAB2 mediates activation of TAK1 by linking it to TRAF6
+    supporting_text: TAB2, a novel adaptor protein, mediates activation of TAK1 MAPKKK
+      by linking TAK1 to TRAF6 in the IL-1 signal transduction pathway.
+    reference_section_type: TITLE
+  - statement: IL-1 induces TAB2 translocation to mediate TAK1-TRAF6 association
+    supporting_text: IL-1 stimulates translocation of TAB2 from the membrane to the
+      cytosol where it mediates the IL-1-dependent association of TAK1 with TRAF6.
+    reference_section_type: ABSTRACT
+- id: PMID:29441066
+  title: TANK-Binding Kinase 1 (TBK1) Isoforms Negatively Regulate Type I Interferon
+    Induction by Inhibiting TBK1-IRF3 Interaction and IRF3 Phosphorylation.
+- id: PMID:10514511
+  title: TRAF family proteins interact with the common neurotrophin receptor and modulate
+    apoptosis induction.
+  findings:
+  - statement: TRAF6 interaction with p75NTR provides cytoprotection against apoptosis
+    supporting_text: Coexpression of TRAF2 with p75(NTR) enhanced cell death, whereas
+      coexpression of TRAF6 was cytoprotective.
+    reference_section_type: ABSTRACT
+  - statement: TRAF6 enhances p75NTR-induced NF-kappaB activation
+    supporting_text: TRAF4 also inhibited the NF-kappaB response, whereas TRAF2 and
+      TRAF6 enhanced p75(NTR)-induced NF-kappaB activation.
+    reference_section_type: ABSTRACT
+- id: PMID:10920205
+  title: T6BP, a TRAF6-interacting protein involved in IL-1 signaling.
+  findings:
+  - statement: T6BP specifically associates with TRAF6 through its N-terminal ring
+      finger and zinc finger domains
+    supporting_text: We report the identification of a TRAF-interacting protein, T6BP,
+      that specifically associates with TRAF6. This interaction occurs between the
+      coiled-coil region of T6BP and the N-terminal ring finger and zinc finger domains
+      of TRAF6.
+    reference_section_type: ABSTRACT
+  - statement: IL-1 induces TRAF6-T6BP complex formation in an IRAK-dependent manner
+    supporting_text: IL-1, but not tumor necrosis factor, induces TRAF6-T6BP complex
+      formation in a ligand-dependent manner. Formation of the TRAF6-T6BP complex
+      depends on the presence of the IL-1 receptor-associated kinase (IRAK).
+    reference_section_type: ABSTRACT
+- id: PMID:11463333
+  title: Isolation and characterization of two novel A20-like proteins.
+- id: PMID:11518704
+  title: IRAK-mediated translocation of TRAF6 and TAB2 in the interleukin-1-induced
+    activation of NFkappa B.
+  findings:
+  - statement: IRAK mediates IL-1-induced translocation of TRAF6 and TAB2 from membrane
+      to cytosol
+    supporting_text: When IRAK is phosphorylated in response to IL-1, it binds to
+      the membrane where it forms a complex with TRAF6; TRAF6 then dissociates and
+      translocates to the cytosol. The membrane-bound IRAK similarly mediates the
+      IL-1-induced translocation of TAB2 from the membrane to the cytosol.
+    reference_section_type: ABSTRACT
+  - statement: TRAF6-TAK1-TAB1-TAB2 complex formation in cytosol is required for TAK1
+      activation
+    supporting_text: The translocation of TAB2 and TRAF6 is needed to form a TRAF6-TAK1-TAB1-TAB2
+      complex in the cytosol and thus activate TAK1.
+    reference_section_type: ABSTRACT
+- id: PMID:11751921
+  title: A novel zinc finger protein that inhibits osteoclastogenesis and the function
+    of tumor necrosis factor receptor-associated factor 6.
+- id: PMID:12140561
+  title: Distinct molecular mechanism for initiating TRAF6 signalling.
+  findings:
+  - statement: TRAF6 recognizes a Pro-X-Glu-X-X-(aromatic/acidic) binding motif in
+      receptors and adaptors
+    supporting_text: The structural determinant of the petide TRAF6 interaction reveals
+      a Pro-X-Glu-X-X-(aromatic/acidic residue) TRAF6-binding motif, which is present
+      not only in CD40 and TRANCE-R but also in the three IRAK adapter kinases for
+      IL-1R/TLR signalling.
+    reference_section_type: ABSTRACT
+  - statement: TRAF6 mediates signaling in both TNFR and IL-1R/TLR superfamilies through
+      a universal mechanism
+    supporting_text: Tumour-necrosis factor (TNF) receptor-associated factor 6 (TRAF6)
+      is the only TRAF family member that participates in signal transduction of both
+      the TNF receptor (TNFR) superfamily and the interleukin-1 receptor (IL-1R)/Toll-like
+      receptor (TLR) superfamily; it is important for adaptive immunity, innate immunity
+      and bone homeostasis.
+    reference_section_type: ABSTRACT
+- id: PMID:12242293
+  title: Interleukin-1 (IL-1) receptor-associated kinase-dependent IL-1-induced signaling
+    complexes phosphorylate TAK1 and TAB2 at the plasma membrane and activate TAK1
+    in the cytosol.
+- id: PMID:12496252
+  title: Pellino 1 is required for interleukin-1 (IL-1)-mediated signaling through
+    its interaction with the IL-1 receptor-associated kinase 4 (IRAK4)-IRAK-tumor
+    necrosis factor receptor-associated factor 6 (TRAF6) complex.
+- id: PMID:15280356
+  title: Induction of apoptosis by X-linked ectodermal dysplasia receptor via a caspase
+    8-dependent mechanism.
+- id: PMID:15998638
+  title: Vaccinia virus protein A52R activates p38 mitogen-activated protein kinase
+    and potentiates lipopolysaccharide-induced interleukin-10.
+- id: PMID:16189514
+  title: Towards a proteome-scale map of the human protein-protein interaction network.
+- id: PMID:16286467
+  title: Interleukin-1beta induction of NFkappaB is partially regulated by H2O2-mediated
+    activation of NFkappaB-inducing kinase.
+- id: PMID:20713597
+  title: Autophagy requires endoplasmic reticulum targeting of the PI3-kinase complex
+    via Atg14L.
+- id: PMID:23524951
+  title: mTOR inhibits autophagy by controlling ULK1 ubiquitylation, self-association
+    and function through AMBRA1 and TRAF6.
+  findings:
+  - statement: mTOR controls autophagy through regulation of TRAF6-mediated ULK1 ubiquitination
+    supporting_text: mTOR inhibits autophagy by controlling ULK1 ubiquitylation, self-association
+      and function through AMBRA1 and TRAF6.
+    reference_section_type: TITLE
+- id: PMID:25891078
+  title: IRGM governs the core autophagy machinery to conduct antimicrobial defense.
+- id: PMID:30778222
+  title: Distinct functions of ATG16L1 isoforms in membrane binding and LC3B lipidation
+    in autophagy-related processes.
+- id: PMID:33637724
+  title: VPS34 K29/K48 branched ubiquitination governed by UBE3C and TRABID regulates
+    autophagy, proteostasis and liver metabolism.
+- id: PMID:23392225
+  title: FIP200 regulates targeting of Atg16L1 to the isolation membrane.
+- id: PMID:28890335
+  title: The ER-Localized Transmembrane Protein EPG-3/VMP1 Regulates SERCA Activity
+    to Control ER-Isolation Membrane Contacts for Autophagosome Formation.
+- id: PMID:34796041
+  title: Hepatitis B virus X Protein Promotes Liver Cancer Progression through Autophagy
+    Induction in Response to TLR4 Stimulation.
+- id: PMID:25371197
+  title: TAK1-ECSIT-TRAF6 complex plays a key role in the TLR4 signal to activate
+    NF-κB.
+  findings:
+  - statement: TAK1-ECSIT-TRAF6 complex is essential for TLR4-mediated NF-κB activation
+    supporting_text: TAK1-ECSIT-TRAF6 complex plays a key role in the TLR4 signal
+      to activate NF-κB.
+    reference_section_type: TITLE
+- id: PMID:25355951
+  title: Ubiquitination of ECSIT is crucial for the activation of p65/p50 NF-κBs in
+    Toll-like receptor 4 signaling.
+- id: PMID:26189595
+  title: Polyubiquitination of Transforming Growth Factor β-activated Kinase 1 (TAK1)
+    at Lysine 562 Residue Regulates TLR4-mediated JNK and p38 MAPK Activation.
+- id: PMID:19675569
+  title: Direct activation of protein kinases by unanchored polyubiquitin chains.
+  findings:
+  - statement: Free K63-linked polyubiquitin chains synthesized by TRAF6 directly
+      activate TAK1 and IKK
+    supporting_text: By reconstituting TAK1 activation in vitro using purified proteins,
+      here we show that free Lys 63 polyubiquitin chains, which are not conjugated
+      to any target protein, directly activate TAK1 by binding to the ubiquitin receptor
+      TAB2 (also known as MAP3K7IP2).
+    reference_section_type: ABSTRACT
+  - statement: Unanchored polyubiquitin chains synthesized by TRAF6 and UBCH5C activate
+      the IKK complex
+    supporting_text: Furthermore, we found that unanchored polyubiquitin chains synthesized
+      by TRAF6 and UBCH5C (also known as UBE2D3) activate the IKK complex.
+    reference_section_type: ABSTRACT
+- id: PMID:9252186
+  title: A cytokine-responsive IkappaB kinase that activates the transcription factor
+    NF-kappaB.
+- id: PMID:11397809
+  title: IRAK1b, a novel alternative splice variant of interleukin-1 receptor-associated
+    kinase (IRAK), mediates interleukin-1 signaling and has prolonged stability.
+- id: PMID:11238466
+  title: Equine herpesvirus protein E10 induces membrane recruitment and phosphorylation
+    of its cellular homologue, bcl-10.
+- id: PMID:15121867
+  title: TRAF family proteins link PKR with NF-kappa B activation.
+- id: PMID:12459498
+  title: NF-kappaB activator Act1 associates with IL-1/Toll pathway adaptor molecule
+    TRAF6.
+- id: PMID:14530355
+  title: Toll/IL-1 receptor domain-containing adaptor inducing IFN-beta (TRIF) associates
+    with TNF receptor-associated factor 6 and TANK-binding kinase 1, and activates
+    two distinct transcription factors, NF-kappa B and IFN-regulatory factor-3, in
+    the Toll-like receptor signaling.
+- id: PMID:16378096
+  title: Association of beta-arrestin and TRAF6 negatively regulates Toll-like receptor-interleukin
+    1 receptor signaling.
+- id: PMID:10094049
+  title: The kinase TAK1 can activate the NIK-I kappaB as well as the MAP kinase cascade
+    in the IL-1 signalling pathway.
+  findings:
+  - statement: TAK1 acts upstream of NIK and associates with TRAF6 in IL-1 signaling
+    supporting_text: Here we show that the MAPKK kinase TAK1 acts upstream of NIK
+      in the IL-1-activated signalling pathway and that TAK1 associates with TRAF6
+      during IL-1 signalling.
+    reference_section_type: ABSTRACT
+  - statement: TAK1 links TRAF6 to the NIK-IKK cascade in IL-1 signaling
+    supporting_text: Our results indicate that TAK1 links TRAF6 to the NIK-IKK cascade
+      in the IL-1 signalling pathway.
+    reference_section_type: ABSTRACT
+- id: PMID:14982987
+  title: Toll-like receptor 3-mediated activation of NF-kappaB and IRF3 diverges at
+    Toll-IL-1 receptor domain-containing adapter inducing IFN-beta.
+- id: PMID:15125833
+  title: The TRAF6 ubiquitin ligase and TAK1 kinase mediate IKK activation by BCL10
+    and MALT1 in T lymphocytes.
+- id: PMID:11244088
+  title: The atypical protein kinase C-interacting protein p62 is a scaffold for NF-kappaB
+    activation by nerve growth factor.
+- id: PMID:12925853
+  title: SIGIRR, a negative regulator of Toll-like receptor-interleukin 1 receptor
+    signaling.
+- id: PMID:11728344
+  title: A novel TNF receptor family member binds TWEAK and is implicated in angiogenesis.
+- id: Reactome:R-HSA-202453
+  title: TRAF6 pathway
+existing_annotations:
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: TRAF6 functions as an E3 ubiquitin ligase that catalyzes K63-linked polyubiquitination,
+      which is essential for its signal transduction role. This activity is well-established
+      through multiple experimental studies showing TRAF6 works with the Ubc13-Uev1A
+      E2 complex to synthesize K63-linked chains on target proteins including itself.
+    action: ACCEPT
+    reason: This is a core molecular function of TRAF6 that is extensively validated
+      experimentally. The IEA annotation from sequence similarity is strongly supported
+      by multiple experimental evidence entries (EXP, IDA) in the same dataset and
+      extensive literature.
+    supported_by:
+    - reference_id: PMID:11057907
+      supporting_text: Activation of the IkappaB kinase complex by TRAF6 requires
+        a dimeric ubiquitin-conjugating enzyme complex and a unique polyubiquitin
+        chain
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 functions as a ubiquitin-protein transferase (E3 ubiquitin
+        ligase) (GO:0004842), assembling Lysine-63–linked polyubiquitin chains on
+        target proteins (including itself) in cooperation with the E2 enzyme complex
+        Ubc13–Uev1A
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: EXP
+  original_reference_id: PMID:15361868
+  review:
+    summary: Direct experimental evidence for TRAF6 E3 ubiquitin ligase activity from
+      biochemical assays.
+    action: ACCEPT
+    reason: Strong experimental validation of TRAF6's core E3 ligase function through
+      direct biochemical characterization.
+    supported_by:
+    - reference_id: PMID:15361868
+      supporting_text: Interferon-alpha induction through Toll-like receptors involves
+        a direct interaction of IRF7 with MyD88 and TRAF6
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: EXP
+  original_reference_id: PMID:17135271
+  review:
+    summary: Additional experimental confirmation of TRAF6 E3 ligase activity.
+    action: ACCEPT
+    reason: Further experimental validation strengthening the evidence for this core
+      molecular function.
+    supported_by:
+    - reference_id: PMID:17135271
+      supporting_text: Site-specific Lys-63-linked tumor necrosis factor receptor-associated
+        factor 6 auto-ubiquitination is a critical determinant of I kappa B kinase
+        activation
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-202453
+  review:
+    summary: Pathway database annotation based on traceable author statement.
+    action: ACCEPT
+    reason: Consistent with experimental evidence and represents core TRAF6 function
+      in multiple Reactome pathways.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 functions as a ubiquitin-protein transferase (E3 ubiquitin
+        ligase)
+- term:
+    id: GO:0005164
+    label: tumor necrosis factor receptor binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: TRAF6 binds to TNF receptor superfamily members including CD40 and RANK
+      through its TRAF-C domain, mediating signal transduction from these receptors.
+    action: ACCEPT
+    reason: This is a well-established function of TRAF6. Although annotated as IEA,
+      it represents a core adaptor function that is experimentally validated in the
+      literature. TRAF6 directly binds cytoplasmic tails of TNF receptor superfamily
+      members.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 directly interacts with a variety of upstream receptors
+        and signaling proteins... from the TNF receptor superfamily
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: In the TNF receptor superfamily pathways, TRAF6 associates
+        with receptors like CD40 and RANK to propagate signals leading to NF-κB activation
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:10465784
+  review:
+    summary: Generic protein binding annotation based on protein interaction data.
+    action: MODIFY
+    reason: While protein binding is correct, this term is too generic and uninformative.
+      TRAF6 has specific binding functions that should be annotated instead, such
+      as 'tumor necrosis factor receptor binding' (GO:0005164), 'CD40 receptor binding'
+      (GO:0005174), or 'interleukin-1 receptor binding' (GO:0005149) depending on
+      the specific interactor identified in this study.
+    proposed_replacement_terms:
+    - id: GO:0005164
+      label: tumor necrosis factor receptor binding
+    - id: GO:0005174
+      label: CD40 receptor binding
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 binds to cytoplasmic motifs (typically PxQxT sequences)
+        on receptors or adaptors such as CD40, RANK (TNFRSF11A), IL-1R
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11279055
+  review:
+    summary: Another generic protein binding annotation.
+    action: MODIFY
+    reason: Generic protein binding term should be replaced with more specific binding
+      functions based on the actual interactor. TRAF6 serves as an adaptor with specific
+      binding domains.
+    proposed_replacement_terms:
+    - id: GO:0031625
+      label: ubiquitin protein ligase binding
+    - id: GO:0019903
+      label: protein phosphatase binding
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: As an adaptor, TRAF6 directly interacts with a variety of upstream
+        receptors and signaling proteins
+- term:
+    id: GO:0001701
+    label: in utero embryonic development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 knockout mice show perinatal lethality with developmental defects,
+      particularly in ectodermal structures.
+    action: ACCEPT
+    reason: TRAF6 is essential for embryonic development, with knockout mice showing
+      perinatal lethality. The developmental role is particularly important for ectodermal
+      development.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6-null mutants are perinatal lethal with a complex phenotype
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 is required for lymph node organogenesis during embryonic
+        development
+- term:
+    id: GO:0002637
+    label: regulation of immunoglobulin production
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 mediates CD40 signaling in B cells which is important for immunoglobulin
+      class switching and production.
+    action: ACCEPT
+    reason: TRAF6 plays a role in B cell activation through CD40 signaling, which
+      contributes to immunoglobulin production. While not the most central function,
+      it is a validated consequence of TRAF6's role in immune signaling.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: Via CD40 in B cells, TRAF6 helps induce immunoglobulin production
+- term:
+    id: GO:0006955
+    label: immune response
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 is central to innate and adaptive immune responses through TLR,
+      IL-1R, and TNF receptor signaling.
+    action: MODIFY
+    reason: While correct, this term is too broad. TRAF6's role should be specified
+      as 'innate immune response' (GO:0045087) which better captures its primary function
+      in TLR and IL-1R signaling.
+    proposed_replacement_terms:
+    - id: GO:0045087
+      label: innate immune response
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 plays an essential role in numerous biological processes,
+        particularly those related to immune system function... A major process controlled
+        by TRAF6 is the innate immune response (GO:0045087)
+- term:
+    id: GO:0009887
+    label: animal organ morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 is required for development of ectodermal organs including hair
+      follicles, teeth, and sweat glands.
+    action: MODIFY
+    reason: While TRAF6 is involved in organ morphogenesis, the annotation should
+      be more specific. TRAF6's role is particularly in 'ectodermal development' and
+      'odontogenesis'.
+    proposed_replacement_terms:
+    - id: GO:0042475
+      label: odontogenesis of dentin-containing tooth
+    - id: GO:0007398
+      label: ectoderm development
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: 'TRAF6 has an indispensable role in ectodermal organ development:
+        it is involved in the formation of skin appendages such as hair follicles,
+        teeth, and sweat glands'
+- term:
+    id: GO:0019886
+    label: antigen processing and presentation of exogenous peptide antigen via MHC
+      class II
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 may play a role in dendritic cell function and antigen presentation.
+    action: KEEP_AS_NON_CORE
+    reason: While TRAF6 is expressed in dendritic cells and contributes to their activation,
+      antigen presentation is not a core function but rather a downstream consequence
+      of TRAF6's role in immune cell signaling.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 in dendritic cells is needed for Th priming
+- term:
+    id: GO:0031663
+    label: lipopolysaccharide-mediated signaling pathway
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 is essential for TLR4 signaling in response to LPS, mediating NF-κB
+      and MAPK activation.
+    action: MODIFY
+    reason: This should be annotated more specifically as 'toll-like receptor 4 signaling
+      pathway' (GO:0034142) which is the actual pathway TRAF6 participates in. LPS-mediated
+      signaling is just one aspect of TLR4 signaling.
+    proposed_replacement_terms:
+    - id: GO:0034142
+      label: toll-like receptor 4 signaling pathway
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: In Toll-like receptor (TLR) and IL-1R signaling (e.g. TLR4
+        or IL-1β receptor pathways), TRAF6 is recruited via the MyD88–IRAK kinase
+        complex
+    - reference_id: PMID:11460167
+      supporting_text: TRAF6 is a signal transducer that activates IkappaB kinase
+        (IKK) and Jun amino-terminal kinase (JNK) in response to pro-inflammatory
+        mediators such as interleukin-1 (IL-1) and lipopolysaccharides (LPS)
+- term:
+    id: GO:0032735
+    label: positive regulation of interleukin-12 production
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 contributes to cytokine production through NF-κB activation in
+      immune cells.
+    action: KEEP_AS_NON_CORE
+    reason: This is a downstream effect of TRAF6's role in TLR/IL-1R signaling rather
+      than a core function. The primary role is signal transduction leading to NF-κB
+      activation, with cytokine production being a consequence.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 is required for the production of proinflammatory cytokines
+        (such as IL-6, TNF-α) in response to pathogenic stimuli
+- term:
+    id: GO:0032755
+    label: positive regulation of interleukin-6 production
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6-mediated NF-κB activation leads to IL-6 production in immune responses.
+    action: KEEP_AS_NON_CORE
+    reason: Like IL-12 regulation, this is a downstream consequence of TRAF6's signaling
+      function rather than a direct core activity. The core function is NF-κB activation.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 is required for the production of proinflammatory cytokines
+        (such as IL-6, TNF-α)
+- term:
+    id: GO:0042088
+    label: T-helper 1 type immune response
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 in dendritic cells contributes to T cell priming and differentiation.
+    action: KEEP_AS_NON_CORE
+    reason: This is a downstream immunological outcome of TRAF6 function in dendritic
+      cells, not a direct core function. TRAF6's primary role is in signal transduction.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 in dendritic cells is needed for Th priming
+- term:
+    id: GO:0042475
+    label: odontogenesis of dentin-containing tooth
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 is essential for tooth development through EDAR signaling pathway.
+    action: ACCEPT
+    reason: TRAF6 knockout mice and human mutations show clear tooth development defects.
+      This is a specific developmental function mediated through EDAR signaling.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6^–/– mice display features of hypohidrotic ectodermal
+        dysplasia (HED), including missing or malformed hair and sweat glands
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: A de novo heterozygous missense mutation in TRAF6 was identified
+        in a patient with Hypohidrotic Ectodermal Dysplasia, who presented with...
+        hypodontia (missing teeth)
+- term:
+    id: GO:0043011
+    label: myeloid dendritic cell differentiation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: TRAF6 plays a role in dendritic cell development and function.
+    action: KEEP_AS_NON_CORE
+    reason: While TRAF6 is involved in dendritic cell signaling, cell differentiation
+      is not its primary function. This is more of a consequence of its signaling
+      role.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 in dendritic cells is needed for Th priming
+- term:
+    id: GO:0048468
+    label: cell development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: Overly broad term for TRAF6's role in specific cell types.
+    action: MODIFY
+    reason: This term is too generic. TRAF6 has specific roles in osteoclast differentiation
+      and ectodermal cell development that should be annotated more precisely.
+    proposed_replacement_terms:
+    - id: GO:0030316
+      label: osteoclast differentiation
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: Another critical biological process involving TRAF6 is osteoclast
+        differentiation and bone resorption
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:1406630
+  review:
+    summary: TRAF6 is a central mediator of NF-κB activation through K63-linked ubiquitination.
+    action: ACCEPT
+    reason: This is one of TRAF6's core functions, extensively validated experimentally.
+      TRAF6 mediates NF-κB activation in multiple pathways through its E3 ligase activity.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 triggers NF-κB and JNK pathways
+    - reference_id: PMID:11460167
+      supporting_text: TRAF6 is a signal transducer that activates IkappaB kinase
+        (IKK)
+- term:
+    id: GO:0042742
+    label: defense response to bacterium
+  evidence_type: IDA
+  original_reference_id: PMID:11460167
+  review:
+    summary: TRAF6 mediates antibacterial responses through TLR signaling, particularly
+      TLR4 response to LPS.
+    action: ACCEPT
+    reason: TRAF6 is essential for TLR-mediated responses to bacterial components
+      like LPS. This is a well-validated function through its role in innate immunity.
+    supported_by:
+    - reference_id: PMID:11460167
+      supporting_text: TRAF6 is a signal transducer that activates IkappaB kinase
+        (IKK) and Jun amino-terminal kinase (JNK) in response to pro-inflammatory
+        mediators such as interleukin-1 (IL-1) and lipopolysaccharides (LPS)
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6-deficient cells fail to activate NF-κB and MAP kinases
+        in response to lipopolysaccharide (TLR4 ligand)
+- term:
+    id: GO:0043123
+    label: positive regulation of canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:11460167
+  review:
+    summary: TRAF6 positively regulates NF-κB through K63-linked ubiquitination of
+      signaling components.
+    action: ACCEPT
+    reason: Core function of TRAF6 with strong experimental support. TRAF6's E3 ligase
+      activity is essential for NF-κB activation.
+    supported_by:
+    - reference_id: PMID:11460167
+      supporting_text: TAK1 kinase complex phosphorylates and activates IKK in a manner
+        that depends on TRAF6 and Ubc13-Uev1A
+- term:
+    id: GO:0043124
+    label: negative regulation of canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:25038658
+  review:
+    summary: TRAF6 can negatively regulate NF-κB under certain conditions.
+    action: UNDECIDED
+    reason: This annotation seems contradictory to TRAF6's well-established role as
+      a positive regulator of NF-κB. Without access to PMID:25038658, cannot determine
+      if this represents a specific feedback mechanism or experimental context.
+    additional_reference_ids:
+    - PMID:25038658
+    - PMID:27746020
+- term:
+    id: GO:0070936
+    label: protein K48-linked ubiquitination
+  evidence_type: IDA
+  original_reference_id: PMID:27746020
+  review:
+    summary: TRAF6 may catalyze K48-linked ubiquitination under specific conditions.
+    action: UNDECIDED
+    reason: TRAF6 is primarily known for K63-linked ubiquitination. K48-linked ubiquitination
+      leads to proteasomal degradation, which is not TRAF6's typical function. Need
+      to verify if this represents a minor activity or specific context.
+    additional_reference_ids:
+    - PMID:27746020
+- term:
+    id: GO:0034142
+    label: toll-like receptor 4 signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:7479976
+  review:
+    summary: TRAF6 is essential for TLR4 signaling, mediating MyD88-dependent pathway
+      activation.
+    action: ACCEPT
+    reason: Core function of TRAF6 in innate immunity. TRAF6 is recruited to TLR4
+      via MyD88-IRAK complex and is required for downstream signaling.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: In Toll-like receptor (TLR) and IL-1R signaling (e.g. TLR4
+        or IL-1β receptor pathways), TRAF6 is recruited via the MyD88–IRAK kinase
+        complex
+- term:
+    id: GO:0002753
+    label: cytoplasmic pattern recognition receptor signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:21931555
+  review:
+    summary: TRAF6 participates in RIG-I/MAVS antiviral signaling pathways.
+    action: ACCEPT
+    reason: TRAF6 functions in cytosolic pattern recognition receptor pathways including
+      RIG-I/MAVS for antiviral responses. This extends its role beyond membrane receptors.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 also links to the RIG-I/MAVS antiviral pathway and other
+        cytosolic pattern-recognition receptor pathways, functioning as a key molecule
+        in antiviral innate signaling
+- term:
+    id: GO:0038172
+    label: interleukin-33-mediated signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:20532808
+  review:
+    summary: TRAF6 mediates IL-33 receptor signaling.
+    action: ACCEPT
+    reason: TRAF6 is involved in IL-1 receptor family signaling, which includes IL-33.
+      This is consistent with its adaptor role in cytokine signaling.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 is a signal transducer for interleukin-1
+- term:
+    id: GO:0038173
+    label: interleukin-17A-mediated signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:31376257
+  review:
+    summary: TRAF6 participates in IL-17 receptor signaling.
+    action: ACCEPT
+    reason: TRAF6 functions in IL-17 signaling, contributing to inflammatory responses.
+      This represents another cytokine pathway utilizing TRAF6.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 serves as a central hub in multiple immune signaling
+        pathways
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:23202584
+  review:
+    summary: TRAF6 promotes autophagy through ubiquitination of autophagy regulators
+      like Beclin-1.
+    action: ACCEPT
+    reason: Emerging function of TRAF6 in autophagy regulation through K63-linked
+      ubiquitination of autophagy machinery. Multiple studies support this non-canonical
+      role.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 has been shown to interact with autophagy regulators
+        (such as Beclin-1 and AMBRA1) and can promote autophagic degradation of certain
+        substrates
+- term:
+    id: GO:0038061
+    label: non-canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:12048232
+  review:
+    summary: TRAF6 can activate non-canonical NF-κB pathway.
+    action: ACCEPT
+    reason: While TRAF6 primarily activates canonical NF-κB, it can also contribute
+      to non-canonical pathway activation in certain contexts, particularly through
+      NIK stabilization.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 activates NF-κB and MAPK pathways
+- term:
+    id: GO:0140374
+    label: antiviral innate immune response
+  evidence_type: IDA
+  original_reference_id: PMID:14703513
+  review:
+    summary: TRAF6 mediates antiviral responses through RIG-I/MAVS and IRF activation.
+    action: ACCEPT
+    reason: TRAF6 participates in antiviral signaling, particularly through cytosolic
+      sensors and can activate IRF7 for interferon production.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6 helps activate not only NF-κB but also interferon-regulatory
+        factors; for instance, it can activate IRF7 in response to cytosolic viral
+        DNA/RNA detection
+- term:
+    id: GO:0009299
+    label: mRNA transcription
+  evidence_type: IDA
+  original_reference_id: PMID:9891032
+  review:
+    summary: TRAF6 may have nuclear functions in transcriptional regulation.
+    action: MODIFY
+    reason: This term is too broad and doesn't capture TRAF6's specific role. TRAF6
+      primarily regulates transcription indirectly through NF-κB and MAPK activation,
+      not as a direct transcriptional regulator. Should be 'positive regulation of
+      transcription by RNA polymerase II' with qualifier specifying it acts through
+      signal transduction.
+    proposed_replacement_terms:
+    - id: GO:0045944
+      label: positive regulation of transcription by RNA polymerase II
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: In osteoclast nuclei, TRAF6 was found to act as a co-regulator
+        of transcription, in complex with nuclear adaptor protein FHL2 and transcription
+        factor RUNX1
+- term:
+    id: GO:0051865
+    label: protein autoubiquitination
+  evidence_type: IDA
+  original_reference_id: PMID:23776175
+  review:
+    summary: TRAF6 undergoes autoubiquitination with K63-linked chains as part of
+      its signaling mechanism.
+    action: ACCEPT
+    reason: TRAF6 autoubiquitination is a key aspect of its signaling mechanism. The
+      K63-linked autoubiquitination creates docking sites for downstream signaling
+      proteins.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: upon receptor stimulation, TRAF6 autoubiquitination and K63-ubiquitin
+        conjugation create docking sites for the TAK1 kinase complex
+- term:
+    id: GO:0071222
+    label: cellular response to lipopolysaccharide
+  evidence_type: IDA
+  original_reference_id: PMID:23776175
+  review:
+    summary: TRAF6 mediates cellular responses to LPS through TLR4 signaling.
+    action: ACCEPT
+    reason: Well-established function of TRAF6 in TLR4-mediated response to bacterial
+      LPS. Essential for downstream NF-κB and MAPK activation.
+    supported_by:
+    - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+      supporting_text: TRAF6-deficient cells fail to activate NF-κB and MAP kinases
+        in response to lipopolysaccharide (TLR4 ligand)
+core_functions:
+- description: Catalyzes K63-linked polyubiquitination of target proteins via RING
+    E3 ligase activity
+  molecular_function:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  directly_involved_in:
+  - id: GO:0070534
+    label: protein K63-linked ubiquitination
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Transduces signals from TLR/IL-1R and TNF receptor superfamily to activate
+    NF-κB and MAPK pathways
+  molecular_function:
+    id: GO:0005164
+    label: tumor necrosis factor receptor binding
+  directly_involved_in:
+  - id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  - id: GO:0038066
+    label: p38MAPK cascade
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Assembles receptor-proximal signaling complexes through TRAF-C domain-mediated
+    protein interactions
+  molecular_function:
+    id: GO:0005164
+    label: tumor necrosis factor receptor binding
+  directly_involved_in:
+  - id: GO:0065003
+    label: protein-containing complex assembly
+  locations:
+  - id: GO:0009898
+    label: cytoplasmic side of plasma membrane
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Promotes osteoclast differentiation by mediating RANK signaling to
+    transcription factors
+  molecular_function:
+    id: GO:0005164
+    label: tumor necrosis factor receptor binding
+  directly_involved_in:
+  - id: GO:0030316
+    label: osteoclast differentiation
+  - id: GO:0033209
+    label: tumor necrosis factor-mediated signaling pathway
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  anatomical_locations:
+  - id: CL:0000092
+    label: osteoclast
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Enables ectodermal development through EDAR receptor signal transduction
+  molecular_function:
+    id: GO:0005164
+    label: tumor necrosis factor receptor binding
+  directly_involved_in:
+  - id: GO:0007398
+    label: ectoderm development
+  - id: GO:0042475
+    label: odontogenesis of dentin-containing tooth
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Initiates autophagosome formation via K63-ubiquitination of Beclin-1
+    and AMBRA1
+  molecular_function:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  directly_involved_in:
+  - id: GO:0000045
+    label: autophagosome assembly
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  substrates:
+  - id: UniProtKB:Q14457
+    label: Beclin-1
+  - id: UniProtKB:Q9C0C7
+    label: AMBRA1
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function
+- description: Functions as transcriptional co-regulator in osteoclast nuclei with
+    FHL2 and RUNX1
+  molecular_function:
+    id: GO:0003712
+    label: transcription coregulator activity
+  supported_by:
+  - reference_id: file:human/TRAF6/TRAF6-deep-research.md
+    supporting_text: In osteoclast nuclei, TRAF6 was found to act as a co-regulator
+      of transcription, in complex with nuclear adaptor protein FHL2 and transcription
+      factor RUNX1
+  directly_involved_in:
+  - id: GO:0045893
+    label: positive regulation of DNA-templated transcription
+  locations:
+  - id: GO:0005634
+    label: nucleus
+  in_complex:
+    id: GO:0090575
+    label: RNA polymerase II transcription regulator complex
+- description: Mediates antiviral innate immunity through RIG-I/MAVS pathway activation
+    and IRF7 ubiquitination
+  molecular_function:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  directly_involved_in:
+  - id: GO:0140374
+    label: antiviral innate immune response
+  - id: GO:0002753
+    label: cytoplasmic pattern recognition receptor signaling pathway
+  locations:
+  - id: GO:0005737
+    label: cytoplasm
+  substrates:
+  - id: UniProtKB:Q92985
+    label: IRF7
+  supported_by:
+  - reference_id: PMID:11460167
+    supporting_text: Supporting evidence for TRAF6 function
+  - reference_id: PMID:11057907
+    supporting_text: Supporting evidence for TRAF6 function

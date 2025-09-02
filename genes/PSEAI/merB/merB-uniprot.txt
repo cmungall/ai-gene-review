@@ -1,0 +1,71 @@
+ID   A0A1V0M5B3_PSEAI        Unreviewed;       220 AA.
+AC   A0A1V0M5B3;
+DT   07-JUN-2017, integrated into UniProtKB/TrEMBL.
+DT   07-JUN-2017, sequence version 1.
+DT   18-JUN-2025, entry version 18.
+DE   RecName: Full=Alkylmercury lyase {ECO:0000256|ARBA:ARBA00018180, ECO:0000256|HAMAP-Rule:MF_00714};
+DE            EC=4.99.1.2 {ECO:0000256|ARBA:ARBA00013237, ECO:0000256|HAMAP-Rule:MF_00714};
+DE   AltName: Full=Organomercurial lyase {ECO:0000256|ARBA:ARBA00031271, ECO:0000256|HAMAP-Rule:MF_00714};
+GN   Name=merB {ECO:0000256|HAMAP-Rule:MF_00714};
+OS   Pseudomonas aeruginosa.
+OG   Plasmid pJB37 {ECO:0000313|EMBL:ARD70086.1}.
+OC   Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+OC   Pseudomonadales; Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=287 {ECO:0000313|EMBL:ARD70086.1};
+RN   [1] {ECO:0000313|EMBL:ARD70086.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=FFUP_PS_37 {ECO:0000313|EMBL:ARD70086.1};
+RC   PLASMID=pJB37 {ECO:0000313|EMBL:ARD70086.1};
+RA   Botelho J., Grosso F., Mabrouk A., Peixe L.;
+RT   "Complete nucleotide sequence of an IncP-2 blaVIM-2-harboring megaplasmid
+RT   from Pseudomonas aeruginosa.";
+RL   Submitted (JAN-2017) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cleaves the carbon-mercury bond of organomercurials such as
+CC       phenylmercuric acetate. One product is Hg(2+), which is subsequently
+CC       detoxified by the mercuric reductase. {ECO:0000256|ARBA:ARBA00025326,
+CC       ECO:0000256|HAMAP-Rule:MF_00714}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alkylmercury + H(+) = an alkane + Hg(2+);
+CC         Xref=Rhea:RHEA:18777, ChEBI:CHEBI:15378, ChEBI:CHEBI:16793,
+CC         ChEBI:CHEBI:18310, ChEBI:CHEBI:83725; EC=4.99.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000165, ECO:0000256|HAMAP-
+CC         Rule:MF_00714};
+CC   -!- SIMILARITY: Belongs to the MerB family. {ECO:0000256|ARBA:ARBA00009443,
+CC       ECO:0000256|HAMAP-Rule:MF_00714}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KY494864; ARD70086.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A1V0M5B3; -.
+DR   GO; GO:0018836; F:alkylmercury lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046689; P:response to mercury ion; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.450.410; -; 1.
+DR   HAMAP; MF_00714; MerB; 1.
+DR   InterPro; IPR004927; MerB.
+DR   InterPro; IPR024259; MerB_HTH_dom.
+DR   InterPro; IPR053717; MerB_lyase_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; NF033555; lyase_MerB; 1.
+DR   NCBIfam; NF009710; PRK13239.1; 1.
+DR   Pfam; PF12324; HTH_15; 1.
+DR   Pfam; PF03243; MerB; 1.
+DR   PIRSF; PIRSF001458; MerB; 1.
+DR   PRINTS; PR01699; ORGNOHGLYASE.
+DR   SUPFAM; SSF160387; NosL/MerB-like; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00714};
+KW   Mercuric resistance {ECO:0000256|ARBA:ARBA00022466, ECO:0000256|HAMAP-
+KW   Rule:MF_00714};
+KW   Mercury {ECO:0000256|ARBA:ARBA00022914, ECO:0000256|HAMAP-Rule:MF_00714};
+KW   Plasmid {ECO:0000313|EMBL:ARD70086.1}.
+FT   DOMAIN          15..86
+FT                   /note="Alkylmercury lyase helix-turn-helix"
+FT                   /evidence="ECO:0000259|Pfam:PF12324"
+SQ   SEQUENCE   220 AA;  23997 MW;  543AABF3F8498451 CRC64;
+     MLGCWRWKLD KTIYSKKIAE SLSSGNHPEE FATLFVTLLR QLVMGRPVSR EALGTALGWS
+     GQRVATVLEP APGTEYDEQG NIIGLGLTLR ETPHVFEVDG RRLYTWCALD TLMFPALIGK
+     TARVTSRCAA TGRPITLTVA PEAVLQVEPA ETMVSLLTPD ASPDIRCSFC CHVHFFASPS
+     VANAWASTHP GIELVPVENA FGLGHLIAHK LLEDSERNTA
+//

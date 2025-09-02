@@ -54,6 +54,9 @@ existing_annotations:
     summary: Excellent annotation strongly supported by mutant phenotype analysis. In apo1 mutants, ycf3-intron 2 remains completely unspliced and petD intron splicing is strongly reduced, with several other introns also compromised. This is the core biological process function of APO1.
     action: ACCEPT
     reason: Direct experimental evidence from mutant analysis showing specific defects in chloroplast group II intron splicing. This represents the primary biological function through which APO1 affects photosystem assembly.
+    supported_by:
+    - reference_id: PMID:21421812
+      supporting_text: 'APO1 promotes the splicing of several chloroplast group II introns: in Arabidopsis apo1 mutants, ycf3-intron 2 remains completely unspliced, petD intron splicing is strongly reduced, and the splicing of several other introns is compromised'
 - term:
     id: GO:0003723
     label: RNA binding
@@ -63,6 +66,9 @@ existing_annotations:
     summary: Strong direct experimental evidence showing that recombinant APO1 from both Arabidopsis and maize binds RNA with high affinity in vitro. This confirms the molecular function predicted by the DUF794 domain.
     action: ACCEPT
     reason: Core molecular function with direct experimental validation. The study demonstrated high-affinity RNA binding in vitro, establishing this as the primary molecular function of APO1.
+    supported_by:
+    - reference_id: PMID:21421812
+      supporting_text: 'Recombinant APO1 from both maize and Arabidopsis binds RNA with high affinity in vitro, demonstrating that DUF794, the domain of unknown function that makes up almost the entirety of APO1, is an RNA binding domain'
 - term:
     id: GO:0008270
     label: zinc ion binding
@@ -72,6 +78,9 @@ existing_annotations:
     summary: Well-supported annotation. The DUF794 domain contains zinc finger-like motifs that bind zinc ions, and these are essential for APO1 function. The zinc binding is required for the RNA-binding activity of the protein.
     action: ACCEPT
     reason: Direct experimental evidence shows DUF794 harbors zinc-binding motifs essential for APO1 function. This represents a core molecular function that enables RNA binding activity.
+    supported_by:
+    - reference_id: PMID:21421812
+      supporting_text: 'DUF794 harbors two motifs that resemble zinc fingers, that these bind zinc, and that they are essential for APO1 function'
 - term:
     id: GO:0009507
     label: chloroplast
@@ -81,6 +90,9 @@ existing_annotations:
     summary: Experimentally validated chloroplast localization. APO1 contains a transit peptide and was shown to localize to chloroplasts, where it performs its RNA splicing function.
     action: ACCEPT
     reason: Direct experimental evidence for chloroplast localization, consistent with the presence of a transit peptide and the protein's function in chloroplast RNA metabolism.
+    supported_by:
+    - reference_id: PMID:15494558
+      supporting_text: 'Members of the APO gene family are only found in vascular plants so far and are predicted to be localized in chloroplasts and mitochondria'
 - term:
     id: GO:0009658
     label: chloroplast organization
@@ -128,15 +140,15 @@ references:
     proteins.
   findings:
   - statement: APO1 is essential for photoautotrophic growth
-    supporting_text: Essential for photoautotrophic growth
+    supporting_text: "APO1 is essentially required for photoautotrophic growth"
   - statement: PSI core subunit levels are below detection in apo1 mutants
     supporting_text: Levels of PSI core subunits are below the limit of detection in the apo1 mutant
   - statement: apo1 mutants fail to form grana stacks
     supporting_text: Plants fail to accumulate significant amounts of the outer antenna subunits of PSI and PSII and to form grana stacks
   - statement: Initially proposed to be involved in 4Fe-4S cluster assembly
     supporting_text: APO1 is involved in the stable assembly of several [4Fe-4S] cluster-containing complexes
-  - statement: Contains transit peptide for chloroplast localization
-    supporting_text: APO1 encodes a protein with a putative transit peptide for chloroplast localization
+  - statement: Predicted to be localized in chloroplasts and mitochondria
+    supporting_text: "Members of the APO gene family are only found in vascular plants so far and are predicted to be localized in chloroplasts and mitochondria"
 - id: PMID:21421812
   title: APO1 promotes the splicing of chloroplast group II introns and harbors a
     plant-specific zinc-dependent RNA binding domain.

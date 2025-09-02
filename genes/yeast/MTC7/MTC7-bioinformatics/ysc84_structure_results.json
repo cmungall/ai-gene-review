@@ -1,0 +1,58 @@
+{
+  "protein": "YSC84_YEAST",
+  "protein_length": 373,
+  "secondary_structure": {
+    "helix_percentage": 41.84782608695652,
+    "sheet_percentage": 16.032608695652172,
+    "coil_percentage": 42.119565217391305
+  },
+  "disordered_regions": [
+    [
+      40,
+      49
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      99,
+      113
+    ],
+    [
+      121,
+      153
+    ],
+    [
+      171,
+      286
+    ]
+  ],
+  "tm_helix_properties": [
+    {
+      "region": "13-33",
+      "sequence": "MRNELQGLAAEELTRFNEDNA",
+      "avg_hydrophobicity": -0.22904761904761903,
+      "aromatic_at_interfaces": 0,
+      "n_flank_positive": 0,
+      "c_flank_positive": 1,
+      "follows_positive_inside": true
+    },
+    {
+      "region": "42-62",
+      "sequence": "DSLQEELDKVSNQIGTLINEI",
+      "avg_hydrophobicity": -0.014761904761904768,
+      "aromatic_at_interfaces": 0,
+      "n_flank_positive": 1,
+      "c_flank_positive": 1,
+      "follows_positive_inside": true
+    }
+  ],
+  "alphafold_structure": {
+    "available": true,
+    "accession": "AF-P32791-F1",
+    "url": "https://alphafold.ebi.ac.uk/entry/P32791",
+    "confidence_version": "Unknown",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-P32791-F1-model_v4.pdb"
+  }
+}

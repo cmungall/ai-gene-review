@@ -8,7 +8,8 @@
                 "REMOVE",
                 "MODIFY",
                 "MARK_AS_OVER_ANNOTATED",
-                "UNDECIDED"
+                "UNDECIDED",
+                "PENDING"
             ],
             "title": "ActionEnum",
             "type": "string"
@@ -41,7 +42,7 @@
         },
         "CoreFunction": {
             "additionalProperties": false,
-            "description": "",
+            "description": "A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation.",
             "properties": {
                 "anatomical_locations": {
                     "items": {
@@ -105,6 +106,15 @@
                         "array",
                         "null"
                     ]
+                },
+                "supported_by": {
+                    "items": {
+                        "$ref": "#/$defs/SupportingTextInReference"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "title": "CoreFunction",
@@ -125,7 +135,7 @@
         },
         "ExistingAnnotation": {
             "additionalProperties": false,
-            "description": "",
+            "description": "An existing annotation from the GO database, plus a review of the annotation.",
             "properties": {
                 "evidence_type": {
                     "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)",
@@ -168,6 +178,16 @@
                     ],
                     "description": "Review of the gene"
                 },
+                "supporting_entities": {
+                    "description": "IDs of the supporting entities",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
                 "term": {
                     "anyOf": [
                         {
@@ -185,8 +205,15 @@
         },
         "Finding": {
             "additionalProperties": false,
-            "description": "",
+            "description": "A finding is a statement about a gene, which is supported by a reference. Similar to \"comments\" in uniprot",
             "properties": {
+                "reference_section_type": {
+                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
                 "statement": {
                     "description": "Concise statement describing an aspect of the gene",
                     "type": [
@@ -195,7 +222,7 @@
                     ]
                 },
                 "supporting_text": {
-                    "description": "Supporting text from the publication. Can be interleaved text if there are multiple lines of evidence. Can also be annotated",
+                    "description": "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'",
                     "type": [
                         "string",
                         "null"
@@ -205,10 +232,44 @@
             "title": "Finding",
             "type": "object"
         },
+        "GOBiologicalProcessEnum": {
+            "description": "A biological process term in the GO ontology",
+            "title": "GOBiologicalProcessEnum",
+            "type": "string"
+        },
+        "GOCellularLocationEnum": {
+            "description": "A cellular location term in the GO ontology (excludes protein-containing complexes)",
+            "title": "GOCellularLocationEnum",
+            "type": "string"
+        },
+        "GOMolecularActivityEnum": {
+            "description": "A molecular activity term in the GO ontology",
+            "title": "GOMolecularActivityEnum",
+            "type": "string"
+        },
+        "GOProteinContainingComplexEnum": {
+            "description": "A protein-containing complex term in the GO ontology",
+            "title": "GOProteinContainingComplexEnum",
+            "type": "string"
+        },
+        "GOTermEnum": {
+            "description": "A term in the GO ontology",
+            "title": "GOTermEnum",
+            "type": "string"
+        },
         "GeneReview": {
             "additionalProperties": false,
             "description": "Complete review for a gene",
             "properties": {
+                "aliases": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
                 "core_functions": {
                     "items": {
                         "$ref": "#/$defs/CoreFunction"
@@ -236,14 +297,21 @@
                 },
                 "gene_symbol": {
                     "description": "Symbol of the gene",
+                    "type": "string"
+                },
+                "id": {
                     "type": [
                         "string",
                         "null"
                     ]
                 },
-                "id": {
+                "proposed_new_terms": {
+                    "description": "Proposed new ontology terms that should exist but don't",
+                    "items": {
+                        "$ref": "#/$defs/ProposedOntologyTerm"
+                    },
                     "type": [
-                        "string",
+                        "array",
                         "null"
                     ]
                 },
@@ -268,14 +336,42 @@
                 }
             },
             "required": [
-                "id"
+                "id",
+                "gene_symbol"
             ],
             "title": "GeneReview",
             "type": "object"
         },
+        "ProposedOntologyTerm": {
+            "additionalProperties": false,
+            "description": "A proposed new ontology term that should exist but doesn't currently",
+            "properties": {
+                "justification": {
+                    "description": "Justification for why this term is needed",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "proposed_definition": {
+                    "description": "Proposed definition for the new term",
+                    "type": "string"
+                },
+                "proposed_name": {
+                    "description": "Proposed name for the new term",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "proposed_name",
+                "proposed_definition"
+            ],
+            "title": "ProposedOntologyTerm",
+            "type": "object"
+        },
         "Reference": {
             "additionalProperties": false,
-            "description": "",
+            "description": "A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.",
             "properties": {
                 "findings": {
                     "items": {
@@ -289,27 +385,42 @@
                 "id": {
                     "type": "string"
                 },
-                "title": {
-                    "description": "Title of the entity",
+                "is_invalid": {
+                    "description": "Whether the reference is invalid (e.g., retracted or replaced)",
                     "type": [
-                        "string",
+                        "boolean",
                         "null"
                     ]
+                },
+                "title": {
+                    "description": "Title of the entity",
+                    "type": "string"
                 }
             },
             "required": [
-                "id"
+                "id",
+                "title"
             ],
             "title": "Reference",
             "type": "object"
         },
         "Review": {
             "additionalProperties": false,
-            "description": "",
+            "description": "A review of an existing annotation.",
             "properties": {
                 "action": {
                     "$ref": "#/$defs/ActionEnum",
                     "description": "Action to be taken"
+                },
+                "additional_reference_ids": {
+                    "description": "IDs of the references",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 },
                 "proposed_replacement_terms": {
                     "description": "Proposed replacement terms",
@@ -334,20 +445,68 @@
                         "string",
                         "null"
                     ]
+                },
+                "supported_by": {
+                    "items": {
+                        "$ref": "#/$defs/SupportingTextInReference"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "title": "Review",
             "type": "object"
         },
+        "SupportingTextInReference": {
+            "additionalProperties": false,
+            "description": "A supporting text in a reference.",
+            "properties": {
+                "reference_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "reference_section_type": {
+                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "supporting_text": {
+                    "description": "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "title": "SupportingTextInReference",
+            "type": "object"
+        },
         "Term": {
             "additionalProperties": false,
-            "description": "",
+            "description": "A term in a specific ontology",
             "properties": {
+                "description": {
+                    "description": "Description of the entity",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
                 "id": {
                     "type": "string"
                 },
                 "label": {
                     "description": "Human readable name of the entity",
+                    "type": "string"
+                },
+                "ontology": {
+                    "description": "Ontology of the term. E.g `go`, `cl`, `hp`",
                     "type": [
                         "string",
                         "null"
@@ -355,7 +514,8 @@
                 }
             },
             "required": [
-                "id"
+                "id",
+                "label"
             ],
             "title": "Term",
             "type": "object"
@@ -367,6 +527,15 @@
     "description": "Complete review for a gene",
     "metamodel_version": "1.7.0",
     "properties": {
+        "aliases": {
+            "items": {
+                "type": "string"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
         "core_functions": {
             "items": {
                 "$ref": "#/$defs/CoreFunction"
@@ -394,14 +563,21 @@
         },
         "gene_symbol": {
             "description": "Symbol of the gene",
+            "type": "string"
+        },
+        "id": {
             "type": [
                 "string",
                 "null"
             ]
         },
-        "id": {
+        "proposed_new_terms": {
+            "description": "Proposed new ontology terms that should exist but don't",
+            "items": {
+                "$ref": "#/$defs/ProposedOntologyTerm"
+            },
             "type": [
-                "string",
+                "array",
                 "null"
             ]
         },
@@ -426,7 +602,8 @@
         }
     },
     "required": [
-        "id"
+        "id",
+        "gene_symbol"
     ],
     "title": "gene_curation",
     "type": "object",

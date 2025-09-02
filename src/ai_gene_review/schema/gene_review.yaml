@@ -54,13 +54,21 @@ slots:
   findings:
     range: Finding
     multivalued: true
+  supported_by:
+    range: SupportingTextInReference
+    multivalued: true
   summary:
     range: string
     description: Summary of the review
   supporting_text:
     range: string
     description: Supporting text from the publication.
-      Can be interleaved text if there are multiple lines of evidence. Can also be annotated. Include the PMID in the text if it is a publication.
+      This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual
+      text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say
+      '...[CFAP300 shows] transport within cilia is IFT dependent...'
+  full_text_unavailable:
+    range: boolean
+    description: Whether the full text is unavailable
   evidence_type:
     range: string
     description: Evidence code (e.g., IDA, IBA, ISS, TAS)
@@ -97,6 +105,9 @@ slots:
   negated:
     range: boolean
     description: Whether the term is negated
+  reference_id:
+    range: Reference
+    inlined: false
   original_reference_id:
     range: Reference
     inlined: false
@@ -120,6 +131,13 @@ slots:
   is_invalid:
     range: boolean
     description: Whether the reference is invalid (e.g., retracted or replaced)
+  reference_section_type:
+    range: string
+    description: Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')
+  proposed_new_terms:
+    range: ProposedOntologyTerm
+    multivalued: true
+    description: Proposed new ontology terms that should exist but don't
     
     
 
@@ -137,6 +155,7 @@ classes:
      - references
      - existing_annotations
      - core_functions
+     - proposed_new_terms
 
 
   Term:
@@ -164,7 +183,16 @@ classes:
     slots:
       - statement
       - supporting_text
+      - full_text_unavailable
+      - reference_section_type
 
+  SupportingTextInReference:
+    description: A supporting text in a reference.
+    slots:
+      - reference_id
+      - supporting_text
+      - full_text_unavailable
+      - reference_section_type
         
 
   ExistingAnnotation:
@@ -173,10 +201,16 @@ classes:
       - term
       - extensions
       - negated
-      - evidence_type
+      - evidence_type 
       - original_reference_id
       - supporting_entities
       - review
+    slot_usage:
+      term:
+        bindings:
+          - binds_value_of: id
+            range: GOTermEnum
+            obligation_level: REQUIRED
 
   Review:
     description: A review of an existing annotation.
@@ -186,7 +220,8 @@ classes:
       - reason
       - proposed_replacement_terms
       - additional_reference_ids
-      - supporting_text
+      # - supporting_text
+      - supported_by
 
   CoreFunction:
     description: A core function is a GO-CAM-like annotation of the core evolved functions of a gene.
@@ -196,9 +231,16 @@ classes:
       description:
         range: string
         description: Description of the core function
+      supported_by:
+        range: SupportingTextInReference
+        multivalued: true
       molecular_function:
         range: Term
         inlined: true
+        bindings:
+          - binds_value_of: id
+            range: GOMolecularActivityEnum
+            obligation_level: REQUIRED
       directly_involved_in:
         range: Term
         multivalued: true
@@ -207,6 +249,10 @@ classes:
         range: Term
         multivalued: true
         inlined_as_list: true
+        bindings:
+          - binds_value_of: id
+            range: GOCellularLocationEnum
+            obligation_level: REQUIRED
       anatomical_locations:
         range: Term
         multivalued: true
@@ -218,14 +264,34 @@ classes:
       in_complex:
         range: Term
         inlined: true
+        bindings:
+          - binds_value_of: id
+            range: GOProteinContainingComplexEnum
+            obligation_level: REQUIRED
   AnnotationExtension:
     slots:
       - predicate
       - term
 
+  ProposedOntologyTerm:
+    description: A proposed new ontology term that should exist but doesn't currently
+    attributes:
+      proposed_name:
+        range: string
+        required: true
+        description: Proposed name for the new term
+      proposed_definition:
+        range: string
+        required: true
+        description: Proposed definition for the new term
+      justification:
+        range: string
+        description: Justification for why this term is needed
+
 
 enums:
   EvidenceType:
+    # TODO: complete this
     permissible_values:
       IDA:
       IBA:
@@ -254,5 +320,52 @@ enums:
           RELEVANT PUBLICATIONS
       PENDING:
         description: The review entry is a stub, and the review has not been completed yet.
+
+  GOTermEnum:
+    description: A term in the GO ontology
+    reachable_from:
+      source_nodes:
+        - GO:0003674
+        - GO:0008150
+        - GO:0005575
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+  
+  GOMolecularActivityEnum:
+    description: A molecular activity term in the GO ontology
+    reachable_from:
+      source_nodes:
+        - GO:0003674
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  GOBiologicalProcessEnum:
+    description: A biological process term in the GO ontology
+    reachable_from:
+      source_nodes:
+        - GO:0008150
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  GOCellularLocationEnum:
+    description: A cellular location term in the GO ontology (excludes protein-containing complexes)
+    reachable_from:
+      source_nodes:
+        - GO:0110165
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  GOProteinContainingComplexEnum:
+    description: A protein-containing complex term in the GO ontology
+    reachable_from:
+      source_nodes:
+        - GO:0030246
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
       
       

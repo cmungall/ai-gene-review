@@ -1,0 +1,98 @@
+{
+  "sequence_id": "P04637|p53_human",
+  "sequence_length": 393,
+  "window_size": 60,
+  "total_regions_analyzed": 334,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "region": {
+        "start": 165,
+        "end": 224,
+        "sequence": "QSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPE",
+        "acidic_residues": 10,
+        "basic_residues": 12,
+        "net_charge": 2,
+        "percent_acidic": 16.666666666666664,
+        "percent_basic": 20.0,
+        "hydrophobic_residues": 17,
+        "hydrophilic_residues": 33,
+        "hydrophobic_percent": 28.333333333333332,
+        "smap_score": 5
+      },
+      "boundaries": {
+        "n_terminal_extension": "LWVDSTPPPGTRVRAMAIYK",
+        "c_terminal_extension": "VGSDCTTIHYNYMCNSSCMG",
+        "has_n_terminal_disorder": false,
+        "has_c_terminal_disorder": false,
+        "has_proline_boundary": false,
+        "has_charge_transition": false
+      },
+      "smap_similarity_score": 2,
+      "smap_features_found": [
+        "appropriate_length",
+        "enriched_residues"
+      ]
+    },
+    {
+      "rank": 2,
+      "region": {
+        "start": 166,
+        "end": 225,
+        "sequence": "SQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEV",
+        "acidic_residues": 10,
+        "basic_residues": 12,
+        "net_charge": 2,
+        "percent_acidic": 16.666666666666664,
+        "percent_basic": 20.0,
+        "hydrophobic_residues": 18,
+        "hydrophilic_residues": 32,
+        "hydrophobic_percent": 30.0,
+        "smap_score": 5
+      },
+      "boundaries": {
+        "n_terminal_extension": "WVDSTPPPGTRVRAMAIYKQ",
+        "c_terminal_extension": "GSDCTTIHYNYMCNSSCMGG",
+        "has_n_terminal_disorder": false,
+        "has_c_terminal_disorder": false,
+        "has_proline_boundary": false,
+        "has_charge_transition": false
+      },
+      "smap_similarity_score": 2,
+      "smap_features_found": [
+        "appropriate_length",
+        "enriched_residues"
+      ]
+    },
+    {
+      "rank": 3,
+      "region": {
+        "start": 167,
+        "end": 226,
+        "sequence": "QHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVG",
+        "acidic_residues": 10,
+        "basic_residues": 12,
+        "net_charge": 2,
+        "percent_acidic": 16.666666666666664,
+        "percent_basic": 20.0,
+        "hydrophobic_residues": 18,
+        "hydrophilic_residues": 31,
+        "hydrophobic_percent": 30.0,
+        "smap_score": 5
+      },
+      "boundaries": {
+        "n_terminal_extension": "VDSTPPPGTRVRAMAIYKQS",
+        "c_terminal_extension": "SDCTTIHYNYMCNSSCMGGM",
+        "has_n_terminal_disorder": true,
+        "has_c_terminal_disorder": false,
+        "has_proline_boundary": false,
+        "has_charge_transition": false
+      },
+      "smap_similarity_score": 2,
+      "smap_features_found": [
+        "appropriate_length",
+        "enriched_residues"
+      ]
+    }
+  ]
+}

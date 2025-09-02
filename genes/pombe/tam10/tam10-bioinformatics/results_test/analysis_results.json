@@ -1,0 +1,132 @@
+{
+  "sequence_id": "G2TRQ9|tam10|SPBC14C8.19",
+  "sequence_description": "G2TRQ9|tam10|SPBC14C8.19 S. pombe tam10 protein",
+  "composition": {
+    "length": 166,
+    "molecular_weight": 18866.3803,
+    "aromaticity": 0.04216867469879518,
+    "instability_index": 42.88674698795178,
+    "isoelectric_point": 10.020594978332518,
+    "gravy": -1.316867469879518,
+    "amino_acid_percent": {
+      "A": 4.216867469879518,
+      "C": 0.0,
+      "D": 5.421686746987952,
+      "E": 6.626506024096385,
+      "F": 1.8072289156626506,
+      "G": 6.024096385542169,
+      "H": 3.0120481927710845,
+      "I": 2.4096385542168677,
+      "K": 20.481927710843372,
+      "L": 8.433734939759036,
+      "M": 3.6144578313253013,
+      "N": 5.421686746987952,
+      "P": 1.8072289156626506,
+      "Q": 5.421686746987952,
+      "R": 3.6144578313253013,
+      "S": 12.650602409638553,
+      "T": 3.6144578313253013,
+      "V": 3.0120481927710845,
+      "W": 0.6024096385542169,
+      "Y": 1.8072289156626506
+    },
+    "basic_residues": 45,
+    "acidic_residues": 20,
+    "polar_residues": 48,
+    "hydrophobic_residues": 43,
+    "aromatic_residues": 7,
+    "small_residues": 43,
+    "charged_residues": 65,
+    "percent_basic": 27.10843373493976,
+    "percent_acidic": 12.048192771084338,
+    "percent_polar": 28.915662650602407,
+    "percent_hydrophobic": 25.903614457831324,
+    "percent_charged": 39.1566265060241,
+    "extinction_coefficient_reduced": 9970,
+    "extinction_coefficient_oxidized": 9970
+  },
+  "charge_distribution": {
+    "charge_variance": 6.480912396121883,
+    "hydrophobicity_variance": 0.5968520698676516
+  },
+  "motifs_found": [
+    {
+      "motif": "PEST region indicator",
+      "pattern": "[PEST]{5,}",
+      "start": 127,
+      "end": 131,
+      "sequence": "ESSPS"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 20,
+      "end": 26,
+      "sequence": "VSTFRKL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 39,
+      "end": 45,
+      "sequence": "LKQYKKL"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 66,
+      "end": 72,
+      "sequence": "LAEDPMV"
+    },
+    {
+      "motif": "Coiled-coil heptad pattern",
+      "pattern": "[LIMVF].{5}[LIMVF]",
+      "start": 114,
+      "end": 120,
+      "sequence": "FLKMLGI"
+    },
+    {
+      "motif": "Repeat (3x)",
+      "pattern": "SSK",
+      "occurrences": 3,
+      "positions": [
+        3,
+        6,
+        27
+      ],
+      "sequence": "SSK"
+    },
+    {
+      "motif": "Repeat (3x)",
+      "pattern": "KKL",
+      "occurrences": 3,
+      "positions": [
+        32,
+        43,
+        50
+      ],
+      "sequence": "KKL"
+    }
+  ],
+  "coiled_coil_regions": [],
+  "disorder_regions": [
+    {
+      "start": 15,
+      "end": 74,
+      "max_score": 0.6666666666666666,
+      "length": 61
+    },
+    {
+      "start": 70,
+      "end": 100,
+      "max_score": 0.5333333333333333,
+      "length": 32
+    },
+    {
+      "start": 116,
+      "end": 156,
+      "max_score": 0.8,
+      "length": 42
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+id: F0JBF1
+gene_symbol: HgcB
+taxon:
+  id: NCBITaxon:641491
+  label: Pseudodesulfovibrio mercurii
+description: Ferredoxin subunit of the mercury methylation system. Partners with HgcA to form the functional mercury methylation complex. Contains conserved cysteine residues that coordinate iron-sulfur clusters and likely bind mercury substrates while facilitating electron transfer during methylmercury formation.
+existing_annotations:
+- term:
+    id: GO:0005506
+    label: iron ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This annotation is accurate as HgcB is a ferredoxin that binds iron ions as part of its iron-sulfur clusters, but is somewhat general.
+    action: ACCEPT
+- term:
+    id: GO:0009055
+    label: electron transfer activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This annotation accurately captures HgcB's role as a ferredoxin involved in electron transfer, which is essential for its function in mercury methylation.
+    action: ACCEPT
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is accurate as HgcB binds iron in iron-sulfur clusters and likely binds mercury during the methylation process, but is very general.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0051536
+    label: iron-sulfur cluster binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is highly accurate and specific for HgcB's structural features as a 4Fe-4S ferredoxin.
+    action: ACCEPT
+- term:
+    id: GO:0051539
+    label: 4 iron, 4 sulfur cluster binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is very specific and accurate - HgcB contains two 4Fe-4S clusters as indicated by the domain annotations and ferredoxin family membership.
+    action: ACCEPT
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: file:9BACT/HgcB/HgcB-deep-research.md
+  title: Deep research on mercury methylation genes HgcA and HgcB
+  findings: []
+core_functions:
+- description: "Electron transfer partner in HgcAB mercury methylation complex"
+  molecular_function:
+    id: GO:0009055
+    label: electron transfer activity
+  supported_by:
+    - reference_id: file:9BACT/HgcB/HgcB-deep-research.md
+      supporting_text: "HgcB is a ferredoxin with conserved cysteine residues that likely bind Hg and shuttle electrons"
+  directly_involved_in:
+    - id: GO:0032259
+      label: methylation
+  substrates:
+    - id: CHEBI:16793
+      label: mercury(2+)
+  in_complex:
+    id: GO:1990204
+    label: oxidoreductase complex
+  locations:
+    - id: GO:0005737
+      label: cytoplasm

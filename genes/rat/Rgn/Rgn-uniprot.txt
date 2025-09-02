@@ -1,0 +1,278 @@
+ID   RGN_RAT                 Reviewed;         299 AA.
+AC   Q03336; Q63496; Q925W3; Q9QWP2;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUN-2005, sequence version 3.
+DT   18-JUN-2025, entry version 160.
+DE   RecName: Full=Regucalcin;
+DE            Short=RC;
+DE   AltName: Full=Gluconolactonase;
+DE            Short=GNL;
+DE            EC=3.1.1.17;
+DE   AltName: Full=Senescence marker protein 30;
+DE            Short=SMP-30;
+GN   Name=Rgn; Synonyms=Smp30;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=1420310; DOI=10.1016/0167-4781(92)90164-u;
+RA   Fujita T., Shirasawa T., Uchida K., Maruyama N.;
+RT   "Isolation of cDNA clone encoding rat senescence marker protein-30 (SMP30)
+RT   and its tissue distribution.";
+RL   Biochim. Biophys. Acta 1132:297-305(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=8348951; DOI=10.1016/0014-5793(93)80998-a;
+RA   Shimokawa N., Yamaguchi M.;
+RT   "Molecular cloning and sequencing of the cDNA coding for a calcium-binding
+RT   protein regucalcin from rat liver.";
+RL   FEBS Lett. 327:251-255(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Misawa H., Yamaguchi M.;
+RT   "The gene family encoding the calcium-binding protein regucalcin.";
+RL   Submitted (FEB-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-115.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=8979263; DOI=10.1007/bf00229476;
+RA   Yamaguchi M., Makino R., Shimokawa N.;
+RT   "The 5' end sequences and exon organization in rat regucalcin gene.";
+RL   Mol. Cell. Biochem. 165:145-150(1996).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 117-299.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=8569761; DOI=10.1007/bf01322338;
+RA   Shimokawa N., Matsuda Y., Yamaguchi M.;
+RT   "Genomic cloning and chromosomal assignment of rat regucalcin gene.";
+RL   Mol. Cell. Biochem. 151:157-163(1995).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 113-124, FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   PATHWAY, BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE SPECIFICITY.
+RX   PubMed=16585534; DOI=10.1073/pnas.0511225103;
+RA   Kondo Y., Inai Y., Sato Y., Handa S., Kubo S., Shimokado K., Goto S.,
+RA   Nishikimi M., Maruyama N., Ishigami A.;
+RT   "Senescence marker protein 30 functions as gluconolactonase in L-ascorbic
+RT   acid biosynthesis, and its knockout mice are prone to scurvy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5723-5728(2006).
+RN   [8]
+RP   FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=8794449; DOI=10.1016/0047-6374(96)01711-3;
+RA   Fujita T., Shirasawa T., Uchida K., Maruyama N.;
+RT   "Gene regulation of senescence marker protein-30 (SMP30): coordinated up-
+RT   regulation with tissue maturation and gradual down-regulation with aging.";
+RL   Mech. Ageing Dev. 87:219-229(1996).
+RN   [9]
+RP   FUNCTION, AND COFACTOR.
+RX   PubMed=15251439; DOI=10.1016/j.febslet.2004.06.028;
+RA   Kondo Y., Ishigami A., Kubo S., Handa S., Gomi K., Hirokawa K.,
+RA   Kajiyama N., Chiba T., Shimokado K., Maruyama N.;
+RT   "Senescence marker protein-30 is a unique enzyme that hydrolyzes
+RT   diisopropyl phosphorofluoridate in the liver.";
+RL   FEBS Lett. 570:57-62(2004).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-268, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Gluconolactonase with low activity towards other sugar
+CC       lactones, including gulonolactone and galactonolactone. Catalyzes a key
+CC       step in ascorbic acid (vitamin C) biosynthesis. Can also hydrolyze
+CC       diisopropyl phosphorofluoridate and phenylacetate (in vitro). Calcium-
+CC       binding protein. Modulates Ca(2+) signaling, and Ca(2+)-dependent
+CC       cellular processes and enzyme activities. {ECO:0000269|PubMed:15251439,
+CC       ECO:0000269|PubMed:16585534, ECO:0000269|PubMed:8794449}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucono-1,5-lactone + H2O = D-gluconate + H(+);
+CC         Xref=Rhea:RHEA:10440, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16217, ChEBI:CHEBI:18391; EC=3.1.1.17;
+CC         Evidence={ECO:0000269|PubMed:16585534};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:15251439, ECO:0000269|PubMed:16585534};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:15251439, ECO:0000269|PubMed:16585534};
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:15251439, ECO:0000269|PubMed:16585534};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:15251439, ECO:0000269|PubMed:16585534};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:15251439, ECO:0000269|PubMed:16585534};
+CC       Note=Binds 1 divalent metal cation per subunit. Most active with Zn(2+)
+CC       and Mn(2+) ions. The physiological cofactor for gluconolactonase
+CC       activity is most likely Ca(2+) or Mg(2+). Mg(2+), Mn(2+) and Co(2+) are
+CC       equally efficient for the hydrolysis of diisopropyl
+CC       phosphorofluoridate. {ECO:0000269|PubMed:15251439,
+CC       ECO:0000269|PubMed:16585534};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=9.4 mM for gluconolactone {ECO:0000269|PubMed:16585534};
+CC         Vmax=345 umol/min/mg enzyme {ECO:0000269|PubMed:16585534};
+CC       pH dependence:
+CC         Optimum pH is 6.4. {ECO:0000269|PubMed:16585534};
+CC   -!- PATHWAY: Cofactor biosynthesis; L-ascorbate biosynthesis via UDP-alpha-
+CC       D-glucuronate pathway; L-ascorbate from UDP-alpha-D-glucuronate: step
+CC       3/4. {ECO:0000269|PubMed:16585534}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Detected in liver (at protein level). Hepatocytes
+CC       and renal proximal tubular epithelium. {ECO:0000269|PubMed:1420310,
+CC       ECO:0000269|PubMed:16585534, ECO:0000269|PubMed:8794449}.
+CC   -!- DEVELOPMENTAL STAGE: In liver, the first peak of expression was found
+CC       in 5-day-old neonates. Expression increases from day 7 and reaches a
+CC       plateau at day 10. 3-6.5 moth-old adults express about a third the
+CC       amount of neonates level. In kidney, expression increases from day 21
+CC       and reaches a maximal level at day 35, remains high until 3 months of
+CC       age.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- SIMILARITY: Belongs to the SMP-30/CGR1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X69021; CAA48786.1; -; mRNA.
+DR   EMBL; D38467; BAA07490.1; -; mRNA.
+DR   EMBL; AB037934; BAA90692.1; -; mRNA.
+DR   EMBL; BC078794; AAH78794.1; -; mRNA.
+DR   EMBL; D67070; BAA11083.1; -; Genomic_DNA.
+DR   EMBL; D31662; BAA06507.1; -; Genomic_DNA.
+DR   PIR; S34588; S34588.
+DR   RefSeq; NP_113734.1; NM_031546.2.
+DR   AlphaFoldDB; Q03336; -.
+DR   SMR; Q03336; -.
+DR   FunCoup; Q03336; 265.
+DR   IntAct; Q03336; 2.
+DR   STRING; 10116.ENSRNOP00000010984; -.
+DR   iPTMnet; Q03336; -.
+DR   PhosphoSitePlus; Q03336; -.
+DR   PaxDb; 10116-ENSRNOP00000010984; -.
+DR   Ensembl; ENSRNOT00000010984.6; ENSRNOP00000010984.4; ENSRNOG00000007949.6.
+DR   GeneID; 25106; -.
+DR   KEGG; rno:25106; -.
+DR   UCSC; RGD:3560; rat.
+DR   AGR; RGD:3560; -.
+DR   CTD; 9104; -.
+DR   RGD; 3560; Rgn.
+DR   eggNOG; KOG4499; Eukaryota.
+DR   GeneTree; ENSGT00390000014995; -.
+DR   HOGENOM; CLU_036110_3_2_1; -.
+DR   InParanoid; Q03336; -.
+DR   OMA; WAGTMRY; -.
+DR   OrthoDB; 423498at2759; -.
+DR   PhylomeDB; Q03336; -.
+DR   TreeFam; TF323663; -.
+DR   BioCyc; MetaCyc:MONOMER-13233; -.
+DR   BRENDA; 3.1.8.2; 5301.
+DR   UniPathway; UPA00991; UER00938.
+DR   PRO; PR:Q03336; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000007949; Expressed in liver and 16 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030234; F:enzyme regulator activity; IEA:InterPro.
+DR   GO; GO:0004341; F:gluconolactonase activity; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0006874; P:intracellular calcium ion homeostasis; IDA:UniProtKB.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0019853; P:L-ascorbic acid biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0097421; P:liver regeneration; IEP:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IDA:RGD.
+DR   GO; GO:1903011; P:negative regulation of bone development; IDA:RGD.
+DR   GO; GO:2000279; P:negative regulation of DNA biosynthetic process; IMP:RGD.
+DR   GO; GO:1903625; P:negative regulation of DNA catabolic process; IDA:RGD.
+DR   GO; GO:0050680; P:negative regulation of epithelial cell proliferation; IDA:RGD.
+DR   GO; GO:1901318; P:negative regulation of flagellated sperm motility; IDA:RGD.
+DR   GO; GO:0010558; P:negative regulation of macromolecule biosynthetic process; IDA:RGD.
+DR   GO; GO:0045019; P:negative regulation of nitric oxide biosynthetic process; IMP:RGD.
+DR   GO; GO:1902679; P:negative regulation of RNA biosynthetic process; IMP:RGD.
+DR   GO; GO:0032781; P:positive regulation of ATP-dependent activity; IDA:UniProtKB.
+DR   GO; GO:0045723; P:positive regulation of fatty acid biosynthetic process; IDA:RGD.
+DR   GO; GO:0010907; P:positive regulation of glucose metabolic process; IDA:RGD.
+DR   GO; GO:1903052; P:positive regulation of proteolysis involved in protein catabolic process; IDA:RGD.
+DR   GO; GO:0010867; P:positive regulation of triglyceride biosynthetic process; IDA:RGD.
+DR   GO; GO:0050848; P:regulation of calcium-mediated signaling; IDA:UniProtKB.
+DR   GO; GO:0007283; P:spermatogenesis; IDA:RGD.
+DR   FunFam; 2.120.10.30:FF:000027; Regucalcin homologue; 1.
+DR   Gene3D; 2.120.10.30; TolB, C-terminal domain; 1.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR008367; Regucalcin.
+DR   InterPro; IPR013658; SGL.
+DR   InterPro; IPR005511; SMP-30.
+DR   PANTHER; PTHR10907; REGUCALCIN; 1.
+DR   PANTHER; PTHR10907:SF54; REGUCALCIN; 1.
+DR   Pfam; PF08450; SGL; 1.
+DR   PRINTS; PR01791; REGUCALCIN.
+DR   PRINTS; PR01790; SMP30FAMILY.
+DR   SUPFAM; SSF63829; Calcium-dependent phosphotriesterase; 1.
+PE   1: Evidence at protein level;
+KW   Ascorbate biosynthesis; Calcium; Cytoplasm; Direct protein sequencing;
+KW   Hydrolase; Metal-binding; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..299
+FT                   /note="Regucalcin"
+FT                   /id="PRO_0000173049"
+FT   ACT_SITE        204
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         18
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         101
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         103
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         121
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         154
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         204
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         144
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64374"
+FT   MOD_RES         244
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64374"
+FT   MOD_RES         253
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64374"
+FT   MOD_RES         268
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        148
+FT                   /note="D -> N (in Ref. 2; BAA07490 and 6; BAA06507)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   299 AA;  33390 MW;  5D8F2D95FCA4EE35 CRC64;
+     MSSIKIECVL RENYRCGESP VWEEASKCLL FVDIPSKTVC RWDSISNRVQ RVGVDAPVSS
+     VALRQSGGYV ATIGTKFCAL NWEDQSVFIL AMVDEDKKNN RFNDGKVDPA GRYFAGTMAE
+     ETAPAVLERH QGSLYSLFPD HSVKKYFDQV DISNGLDWSL DHKIFYYIDS LSYTVDAFDY
+     DLPTGQISNR RTVYKMEKDE QIPDGMCIDV EGKLWVACYN GGRVIRLDPE TGKRLQTVKL
+     PVDKTTSCCF GGKDYSEMYV TCARDGMSAE GLLRQPDAGN IFKITGLGVK GIAPYSYAG
+//

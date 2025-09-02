@@ -1,0 +1,6 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	P32633	MTC7	located_in	GO:0016020	membrane	cellular_component	ECO:0000501	IEA	GO_REF:0000120	UniProtKB-KW:KW-0472|UniProtKB-SubCell:SL-0162	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	UniProt	Maintenance of telomere capping protein 7	20250428
+UniProtKB	P32633	MTC7	enables	GO:0003674	molecular_function	molecular_function	ECO:0000307	ND	GO_REF:0000015		559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	SGD	Maintenance of telomere capping protein 7	20130807
+UniProtKB	P32633	MTC7	enables	GO:0003674	molecular_function	molecular_function	ECO:0000307	ND	GO_REF:0000015		559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	SGD	Maintenance of telomere capping protein 7	20130807
+UniProtKB	P32633	MTC7	is_active_in	GO:0005575	cellular_component	cellular_component	ECO:0000307	ND	GO_REF:0000015		559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	SGD	Maintenance of telomere capping protein 7	20130807
+UniProtKB	P32633	MTC7	involved_in	GO:0008150	biological_process	biological_process	ECO:0000307	ND	GO_REF:0000015		559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	SGD	Maintenance of telomere capping protein 7	20130807

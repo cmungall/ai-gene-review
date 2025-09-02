@@ -1,0 +1,16 @@
+{
+  "uniprot_id": "Q22179",
+  "protein_name": "Q22179_CAEEL",
+  "sequence_length": 368,
+  "signal_peptide": "1-19",
+  "post_signal_tm_check": {
+    "region": "20-39",
+    "sequence": "QDLYGTATQQQPYPYVQPSA",
+    "hydrophobic_residues": 7,
+    "hydrophobicity": 0.35,
+    "likely_tm_helix": false
+  },
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/Q22179",
+  "plddt_analysis": null,
+  "analysis": "Membrane topology prediction based on hydrophobicity and AlphaFold confidence"
+}

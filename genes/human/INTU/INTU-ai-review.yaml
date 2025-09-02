@@ -1,0 +1,596 @@
+id: Q9ULD6
+gene_symbol: INTU
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: INTU (Inturned) is a scaffold protein that functions as a core component of the CPLANE (ciliogenesis and planar polarity effector) complex at basal bodies, where it recruits intraflagellar transport machinery, specifically IFT-A proteins. INTU also serves as an adaptor linking ciliary proteins (NPHP4) to actin-modifying proteins (DAAM1) to control the subapical actin network required for basal body docking and ciliary orientation. Essential for primary cilia assembly and Hedgehog signaling, INTU is mutated in ciliopathies including Oral-Facial-Digital syndrome XVII and Short-Rib Thoracic Dysplasia 20.
+existing_annotations:
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'IBA annotation for cytoplasmic localization is supported by experimental evidence. INTU has cytosolic fractions when not assembled at cilia and likely shuttles between cytosol and ciliary base. The deep research confirms cytosolic localization (GO_REF:0000052).'
+    action: ACCEPT
+    reason: GO_REF:0000052 provides direct immunofluorescence evidence for cytoplasmic localization, and PMID:27158779 shows INTU can exist in cytosolic pools when not assembled at ciliary structures.
+    supported_by:
+    - reference_id: PMID:27158779
+      supporting_text: "The ciliopathy-associated CPLANE proteins direct basal body recruitment of intraflagellar transport machinery"
+      reference_section_type: ABSTRACT
+- term:
+    id: GO:0060271
+    label: cilium assembly
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Core function strongly supported by multiple experimental studies. INTU is essential for ciliogenesis through its role in the CPLANE complex recruiting IFT-A machinery to basal bodies (PMID:27158779). Mouse knockouts lack primary cilia, and human mutations cause ciliopathies.'
+    action: ACCEPT
+    reason: PMID:27158779 demonstrated INTU is a core component of the CPLANE complex that recruits IFT-A proteins to basal bodies, with knockout mice showing complete absence of primary cilia and human mutations causing OFD syndrome XVII.
+    supported_by:
+    - reference_id: PMID:27158779
+      supporting_text: "The ciliopathy-associated CPLANE proteins direct basal body recruitment of intraflagellar transport machinery"
+      reference_section_type: TITLE
+- term:
+    id: GO:0005929
+    label: cilium
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'While INTU localizes primarily at the basal body/ciliary base rather than within the cilium proper, this broader cellular component term is acceptable as INTU is functionally associated with ciliary structures. More specific localization would be ciliary basal body (GO:0036064).'
+    action: MODIFY
+    reason: PMID:26644512 and PMID:27158779 demonstrate that INTU specifically localizes to ciliary basal bodies rather than within the cilium itself. GO:0036064 more accurately captures this specific localization.
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+    supported_by:
+    - reference_id: PMID:26644512
+      supporting_text: "The polarity protein Inturned links NPHP4 to Daam1 to control the subapical actin network in multiciliated cells"
+      reference_section_type: TITLE
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'While INTU mutations can affect neural development (neural tube defects, developmental delay), this is a consequence of defective ciliogenesis/Hedgehog signaling rather than a direct role in nervous system development. The term is too broad for the specific neural tube patterning defects observed.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0021915
+        label: neural tube development
+- term:
+    id: GO:0001736
+    label: establishment of planar polarity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'INTU is a planar cell polarity effector protein that controls ciliary orientation through its effects on basal body positioning and the subapical actin network. This is well-supported by experimental evidence showing INTU controls rotational polarity of cilia in multiciliated cells (PMID:26644512).'
+    action: ACCEPT
+    reason: PMID:26644512 demonstrated that INTU is essential for establishing planar cell polarity by linking NPHP4 to DAAM1 to control the subapical actin network required for proper ciliary orientation in multiciliated cells.
+    supported_by:
+    - reference_id: PMID:26644512
+      supporting_text: "The polarity protein Inturned links NPHP4 to Daam1 to control the subapical actin network in multiciliated cells"
+      reference_section_type: TITLE
+- term:
+    id: GO:0016192
+    label: vesicle-mediated transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'No evidence supports a direct role in vesicle-mediated transport. This appears to be an incorrect automated annotation, possibly based on superficial similarity to IFT proteins. INTU functions in intraciliary transport, not vesicle transport.'
+    action: REMOVE
+- term:
+    id: GO:0060271
+    label: cilium assembly
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate of the IBA annotation for cilium assembly. The automated annotation correctly identifies this core function.'
+    action: ACCEPT
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate of the IBA annotation for cytoplasm. Correctly identifies cytoplasmic localization.'
+    action: ACCEPT
+- term:
+    id: GO:0005814
+    label: centriole
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'INTU localizes to the mother centriole/basal body area. While technically correct, the more specific term ciliary basal body (GO:0036064) better captures INTU localization in the context of ciliogenesis.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+- term:
+    id: GO:0005856
+    label: cytoskeleton
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'While INTU interacts with actin cytoskeleton components through DAAM1 and controls the subapical actin network, it is not itself a cytoskeletal protein. This term is too broad; INTU specifically regulates actin organization at the apical cortex.'
+    action: REMOVE
+- term:
+    id: GO:0009986
+    label: cell surface
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Some INTU truncations show enhanced membrane association, and INTU may associate with membrane through predicted phosphatidylinositol binding. However, cell surface is too general; apical plasma membrane would be more accurate given INTU functions at the apical cortex.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0016324
+        label: apical plasma membrane
+- term:
+    id: GO:0030030
+    label: cell projection organization
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Cilia are cell projections, and INTU is essential for their organization. However, cilium assembly (GO:0060271) is more specific and informative for INTU function.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0060271
+        label: cilium assembly
+- term:
+    id: GO:0042995
+    label: cell projection
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Too vague for a cellular component term. INTU localizes specifically to ciliary basal bodies, not broadly to cell projections.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:26644512
+  review:
+    summary: 'This paper shows INTU binds NPHP4 and DAAM1, forming a ternary complex. While protein binding is correct, it is uninformative. INTU functions as a scaffold/adaptor protein linking ciliary and cytoskeletal proteins. A more specific molecular function term would be protein-protein adaptor activity.'
+    action: MODIFY
+    reason: PMID:26644512 demonstrated that INTU functions as an adaptor protein that specifically links the ciliary protein NPHP4 to the actin-regulating protein DAAM1, mediating communication between ciliary and cytoskeletal systems.
+    proposed_replacement_terms:
+      - id: GO:0030674
+        label: protein-macromolecule adaptor activity
+    supported_by:
+    - reference_id: PMID:26644512
+      supporting_text: "The polarity protein Inturned links NPHP4 to Daam1 to control the subapical actin network in multiciliated cells"
+      reference_section_type: TITLE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:27173435
+  review:
+    summary: 'Protein interaction study showing INTU interactions. Again, protein binding is too vague. INTU acts as a scaffold in protein complexes.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0030674
+        label: protein-macromolecule adaptor activity
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:33961781
+  review:
+    summary: 'Another protein interaction network study. The generic protein binding term should be replaced with the more informative scaffold/adaptor function.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0030674
+        label: protein-macromolecule adaptor activity
+- term:
+    id: GO:0007224
+    label: smoothened signaling pathway
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU affects Hedgehog signaling indirectly through its essential role in ciliogenesis. Without cilia, Hh signaling is disrupted. This is a valid annotation but represents an indirect effect.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Duplicate of earlier annotation. Too broad; neural tube development is more specific.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0021915
+        label: neural tube development
+- term:
+    id: GO:0008589
+    label: regulation of smoothened signaling pathway
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU regulates Hedgehog signaling indirectly through its requirement for ciliogenesis. Valid but represents secondary effect of ciliary dysfunction.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0010839
+    label: negative regulation of keratinocyte proliferation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Tissue-specific consequence of INTU loss affecting hair follicle development through disrupted Hh signaling. Too specific for a general annotation; represents a downstream developmental effect.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0021513
+    label: spinal cord dorsal/ventral patterning
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Neural patterning defects occur in INTU mutants due to disrupted Hedgehog signaling from lack of cilia. This is a downstream developmental consequence, not a core function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0021915
+    label: neural tube development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Neural tube defects are observed in INTU mutants, supported by experimental evidence in multiple species. Valid developmental consequence of ciliary dysfunction.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0030216
+    label: keratinocyte differentiation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU affects hair follicle differentiation through its role in ciliogenesis and Hh signaling. Tissue-specific developmental effect.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0030278
+    label: regulation of ossification
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU mutations cause skeletal defects including delayed ossification through disrupted Indian Hedgehog signaling in growth plates. Valid but represents developmental consequence.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0031069
+    label: hair follicle morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Experimental evidence shows INTU is required for hair follicle development through cilia-dependent Hh signaling. Tissue-specific developmental effect.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0033365
+    label: protein localization to organelle
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU recruits IFT-A proteins to basal bodies as part of the CPLANE complex. This is a core function but could be more specific as intraciliary transport.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0042073
+        label: intraciliary transport
+- term:
+    id: GO:0035091
+    label: phosphatidylinositol binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'Bioinformatically predicted phosphatidylinositol binding capacity, which could mediate membrane association at the ciliary base. Reasonable prediction but lacks experimental validation.'
+    action: ACCEPT
+- term:
+    id: GO:0035869
+    label: ciliary transition zone
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU localizes near but not exactly at the transition zone. It is primarily at the basal body with some extension toward the transition zone. Basal body is more accurate.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+- term:
+    id: GO:0042733
+    label: embryonic digit morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU mutations cause polydactyly in humans and mice. Well-supported developmental consequence of disrupted Hh signaling during limb development.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0044458
+    label: motile cilium assembly
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU is required for assembly of both motile and primary cilia. Evidence from multiciliated cells shows INTU localizes to basal bodies of motile cilia and controls their polarization.'
+    action: ACCEPT
+- term:
+    id: GO:0045880
+    label: positive regulation of smoothened signaling pathway
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU enables Hedgehog signaling by building the cilia required for signal transduction. This is an indirect positive effect through ciliogenesis.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0051301
+    label: cell division
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'No evidence supports a direct role in cell division. Centrioles are involved in both ciliogenesis and cell division, but INTU functions specifically in the ciliary context.'
+    action: REMOVE
+- term:
+    id: GO:0051782
+    label: negative regulation of cell division
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'No evidence for INTU regulating cell division. This appears to be an incorrect inference.'
+    action: REMOVE
+- term:
+    id: GO:0060173
+    label: limb development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU mutations cause limb defects including polydactyly and shortened limbs. Valid developmental process affected by ciliary dysfunction.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1905515
+    label: non-motile cilium assembly
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'INTU is essential for primary (non-motile) cilium assembly. Mouse knockouts lack primary cilia.'
+    action: ACCEPT
+- term:
+    id: GO:0005829
+    label: cytosol
+  evidence_type: IDA
+  original_reference_id: GO_REF:0000052
+  review:
+    summary: 'Direct experimental evidence for cytosolic localization by immunofluorescence. INTU has cytosolic fractions when not assembled at cilia.'
+    action: ACCEPT
+- term:
+    id: GO:0036064
+    label: ciliary basal body
+  evidence_type: IDA
+  original_reference_id: GO_REF:0000052
+  review:
+    summary: 'Direct experimental evidence for basal body localization. This is the primary and most specific localization for INTU, strongly supported by multiple studies.'
+    action: ACCEPT
+- term:
+    id: GO:0001736
+    label: establishment of planar polarity
+  evidence_type: NAS
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper identifies INTU as part of the CPLANE complex controlling planar polarity through ciliary orientation. Well-supported core function.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:27158779
+      supporting_text: 'This novel regulatory module is formed by specific protein-protein interactions among Intu, Fuz, and Wdpcp, well-conserved proteins that control planar cell polarity (PCP) in Drosophila and govern ciliogenesis in vertebrates'
+- term:
+    id: GO:0005929
+    label: cilium
+  evidence_type: NAS
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'INTU localizes at the ciliary base/basal body rather than within the cilium proper. More specific term would be ciliary basal body.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+- term:
+    id: GO:0021915
+    label: neural tube development
+  evidence_type: NAS
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper shows neural tube defects in INTU mutants. Valid developmental consequence of ciliary dysfunction.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0042073
+    label: intraciliary transport
+  evidence_type: NAS
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper shows INTU recruits IFT-A machinery to basal bodies as part of the CPLANE complex. Core function directly supported by experimental evidence.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:27158779
+      supporting_text: 'We show that this module also includes the poorly understood ciliopathy protein Jbts17, which we show recruits CPLANE to basal bodies where it acts specifically by recruiting the IFT-A peripheral proteins'
+- term:
+    id: GO:1902017
+    label: regulation of cilium assembly
+  evidence_type: NAS
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'INTU is not just a regulator but is essential for cilium assembly itself. The more specific term cilium assembly (GO:0060271) better captures its essential role.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0060271
+        label: cilium assembly
+- term:
+    id: GO:0035091
+    label: phosphatidylinositol binding
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based prediction for phosphatidylinositol binding, which could mediate membrane association. Reasonable but lacks direct experimental validation.'
+    action: ACCEPT
+- term:
+    id: GO:0042733
+    label: embryonic digit morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper shows polydactyly in INTU mutant mice. Direct experimental evidence for developmental defect.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0043587
+    label: tongue morphogenesis
+  evidence_type: IMP
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper shows tongue defects (lobulated tongues, hamartomas) in INTU mutants, consistent with OFD syndrome. Direct experimental evidence.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0060021
+    label: roof of mouth development
+  evidence_type: IMP
+  original_reference_id: PMID:27158779
+  review:
+    summary: 'This paper shows high-arched palate in INTU mutant mice, characteristic of OFD syndrome. Direct experimental evidence.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0031514
+    label: motile cilium
+  evidence_type: IDA
+  original_reference_id: PMID:26644512
+  review:
+    summary: 'This paper shows INTU localization at basal bodies of motile cilia in multiciliated cells. However, INTU is at the basal body, not in the motile cilium itself.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0036064
+        label: ciliary basal body
+- term:
+    id: GO:0036064
+    label: ciliary basal body
+  evidence_type: IDA
+  original_reference_id: PMID:26644512
+  review:
+    summary: 'This paper directly shows INTU localization at basal bodies in multiciliated cells. Strong experimental evidence for this core localization.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:26644512
+      supporting_text: 'NPHP4 was required for Inturned to localize to the basal bodies of motile cilia'
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based annotation for cytoplasmic localization, consistent with experimental evidence.'
+    action: ACCEPT
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based annotation. Too broad; neural tube development is more specific.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0021915
+        label: neural tube development
+- term:
+    id: GO:0008589
+    label: regulation of smoothened signaling pathway
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based annotation. INTU affects Hh signaling indirectly through ciliogenesis.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0060173
+    label: limb development
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based annotation. Supported by polydactyly phenotypes in mutants.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0060271
+    label: cilium assembly
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Sequence similarity-based annotation for core function. Well-supported by experimental evidence.'
+    action: ACCEPT
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000052
+  title: Gene Ontology annotation based on curation of immunofluorescence data
+  findings: []
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to
+    orthologs using Ensembl Compara.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:26644512
+  title: The polarity protein Inturned links NPHP4 to Daam1 to control the subapical
+    actin network in multiciliated cells.
+  findings: []
+- id: PMID:27158779
+  title: The ciliopathy-associated CPLANE proteins direct basal body recruitment of
+    intraflagellar transport machinery.
+  findings: []
+- id: PMID:27173435
+  title: An organelle-specific protein landscape identifies novel diseases and molecular
+    mechanisms.
+  findings: []
+- id: PMID:33961781
+  title: Dual proteome-scale networks reveal cell-specific remodeling of the human
+    interactome.
+  findings: []
+core_functions:
+- description: Scaffolds CPLANE complex assembly at basal bodies to recruit IFT-A machinery for cilium biogenesis
+  molecular_function:
+    id: GO:0030674
+    label: protein-macromolecule adaptor activity
+  directly_involved_in:
+    - id: GO:0060271
+      label: cilium assembly
+    - id: GO:0042073
+      label: intraciliary transport
+  locations:
+    - id: GO:0036064
+      label: ciliary basal body
+- description: Bridges NPHP4-DAAM1 interaction to organize subapical actin network required for basal body docking
+  molecular_function:
+    id: GO:0030674
+    label: protein-macromolecule adaptor activity
+  directly_involved_in:
+    - id: GO:0001736
+      label: establishment of planar polarity
+    - id: GO:0044458
+      label: motile cilium assembly
+  locations:
+    - id: GO:0036064
+      label: ciliary basal body
+    - id: GO:0016324
+      label: apical plasma membrane
+- description: Enables phosphatidylinositol binding to anchor protein complexes at ciliary membrane domains
+  molecular_function:
+    id: GO:0035091
+    label: phosphatidylinositol binding
+  directly_involved_in:
+    - id: GO:0060271
+      label: cilium assembly
+  locations:
+    - id: GO:0036064
+      label: ciliary basal body

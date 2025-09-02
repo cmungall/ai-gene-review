@@ -1,0 +1,12 @@
+{
+  "protein_id": "Q22179|LRX-1|C.elegans",
+  "topology_prediction": "|",
+  "signal_peptide": {
+    "present": false,
+    "start": null,
+    "end": null
+  },
+  "tm_helices": [],
+  "regions": [],
+  "per_residue": []
+}

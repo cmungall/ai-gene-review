@@ -19,355 +19,174 @@ references:
 - id: PMID:8232552
   title: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
     and -gamma signal transduction.
-  findings:
-  - statement: JAK1 is absolutely required for Type I and Type II interferon signaling
-    supporting_text: We have produced a cell line lacking JAK1 and found it was completely
-      unresponsive to interferon-α/β and interferon-γ
-  - statement: JAK1 is essential for assembly of interferon receptor complexes
-    supporting_text: Transfecting JAK1 back into these cells restored interferon-driven
-      gene induction
+  findings: []
 - id: PMID:9590172
   title: Disruption of the Jak1 gene demonstrates obligatory and nonredundant roles
     of the Jaks in cytokine-induced biologic responses.
-  findings:
-  - statement: JAK1 is essential for survival - knockout mice die perinatally
-    supporting_text: Jak1⁻/⁻ mice are runted, fail to nurse, and die perinatally,
-      reflecting the essential nature of this gene
-  - statement: JAK1 is required for multiple cytokine pathways including γc, gp130,
-      and Class II receptors
-    supporting_text: Cells from Jak1-deficient mice cannot respond to cytokines that
-      utilize class II, γc, or gp130 receptors
+  findings: []
 - id: PMID:7537214
   title: A major role for the protein tyrosine kinase JAK1 in the JAK/STAT signal
     transduction pathway in response to interleukin-6.
-  findings:
-  - statement: JAK1 is the principal kinase mediating IL-6 family cytokine signaling
-    supporting_text: In cells lacking JAK1, IL-6 could not efficiently phosphorylate
-      the gp130 receptor or activate STAT1/STAT3
-  - statement: JAK1 is required for IL-6-responsive gene expression
-    supporting_text: JAK1's presence was necessary for induction of IL-6-responsive
-      genes like IRF1
+  findings: []
 - id: file:human/JAK1/JAK1-deep-research.md
   title: 'Deep Research Report: JAK1 comprehensive analysis'
-  findings:
-  - statement: JAK1 contains four major functional domains with specific roles
-    supporting_text: 'The JAK1 protein is composed of 1154 amino acids and features
-      a multi-domain architecture: FERM domain for receptor binding, SH2 domain for
-      positioning, pseudokinase domain for regulation, and kinase domain for catalytic
-      activity'
-  - statement: JAK1 gain-of-function mutations cause hematological malignancies
-    supporting_text: Somatic activating mutations in JAK1 have been identified in
-      subsets of acute lymphoblastic leukemias (especially in T-cell ALL)
-  - statement: JAK1 is ubiquitously expressed reflecting its fundamental role in cytokine
-      signaling
-    supporting_text: JAK1 is ubiquitously expressed in human tissues, consistent with
-      its fundamental role in multiple cytokine systems
+  findings: []
 - id: PMID:16273093
   title: A quantitative protein interaction network for the ErbB receptors using protein
     microarrays.
-  findings:
-  - statement: JAK1 interacts with multiple proteins through its domains
-    supporting_text: Experimental evidence for JAK1 protein binding interactions
+  findings: []
 - id: GO_REF:0000033
   title: Gene Ontology inferred from electronic annotation (IBA)
-  findings:
-  - statement: JAK1 annotations are supported by phylogenetic analysis and experimental evidence
-    supporting_text: IBA annotations for JAK1 are based on phylogenetic analysis combined with experimental evidence from model organisms and direct experiments in human systems
+  findings: []
 - id: GO_REF:0000002
   title: Gene Ontology inferred from electronic annotation based on InterPro
-  findings:
-  - statement: JAK1 contains characteristic protein kinase domains identified by InterPro
-    supporting_text: InterPro domain analysis identifies JAK1 as containing typical protein kinase domains, supporting its classification as a protein kinase
+  findings: []
 - id: GO_REF:0000120
   title: Gene Ontology inferred from electronic annotation (IEA)
-  findings:
-  - statement: JAK1 electronic annotations are based on sequence similarity and computational prediction
-    supporting_text: IEA annotations for JAK1 are derived from computational analysis of sequence features and similarity to characterized proteins
+  findings: []
 - id: GO_REF:0000043
   title: Gene Ontology inferred from electronic annotation based on UniProtKB keywords
-  findings:
-  - statement: JAK1 annotations are supported by curated UniProtKB keywords
-    supporting_text: UniProtKB keyword-based annotations reflect expert curation of JAK1's functional properties and molecular characteristics
+  findings: []
 - id: GO_REF:0000117
   title: Gene Ontology inferred from electronic annotation based on ARBA
-  findings:
-  - statement: JAK1 annotations are supported by ARBA rule-based analysis
-    supporting_text: ARBA (Association Rule-Based Annotator) provides JAK1 annotations based on sequence patterns and functional rules derived from experimentally characterized proteins
+  findings: []
 - id: PMID:10502458
   title: The growth hormone receptor associates with Jak1, Jak2 and Tyk2 in human
     liver.
-  findings:
-  - statement: JAK1 physically associates with the growth hormone receptor in human liver tissue
-    supporting_text: Immunoprecipitation and immunoblotting demonstrated that JAK1, along with JAK2 and TYK2, forms complexes with the growth hormone receptor in human liver
+  findings: []
 - id: PMID:10702271
   title: Interleukin (IL)-7 induces rapid activation of Pyk2, which is bound to Janus
     kinase 1 and IL-7Ralpha.
-  findings:
-  - statement: JAK1 forms a signaling complex with Pyk2 and IL-7 receptor alpha
-    supporting_text: IL-7 stimulation leads to rapid association of Pyk2 with both JAK1 and IL-7Rα, demonstrating JAK1's role in IL-7 receptor complex assembly
-  - statement: JAK1 is required for IL-7-induced Pyk2 activation
-    supporting_text: IL-7 treatment induced rapid tyrosine phosphorylation and activation of Pyk2 in a JAK1-dependent manner
+  findings: []
 - id: PMID:10825200
   title: 'Hierarchy of protein tyrosine kinases in interleukin-2 (IL-2) signaling:
     activation of syk depends on Jak3; however, neither Syk nor Lck is required for
     IL-2-mediated STAT activation.'
-  findings:
-  - statement: JAK1 and JAK3 are the primary kinases required for IL-2-mediated STAT activation
-    supporting_text: STAT activation by IL-2 is dependent on JAK1 and JAK3, while Syk and Lck are dispensable for this response
-  - statement: JAK1 operates hierarchically in IL-2 signaling upstream of other kinases
-    supporting_text: The study established a kinase hierarchy where JAK1/JAK3 are essential for STAT activation, while other kinases like Syk play secondary roles
+  findings: []
 - id: PMID:11909529
   title: The T cell protein tyrosine phosphatase is a negative regulator of janus
     family kinases 1 and 3.
-  findings:
-  - statement: T cell protein tyrosine phosphatase (TC-PTP) negatively regulates JAK1 activity
-    supporting_text: TC-PTP directly dephosphorylates JAK1, leading to reduced kinase activity and dampened cytokine signaling
-  - statement: JAK1 regulation by TC-PTP is critical for controlling T cell responses
-    supporting_text: Loss of TC-PTP regulation leads to hyperactivation of JAK1 and enhanced cytokine sensitivity in T cells
+  findings: []
 - id: PMID:12574355
   title: 'Human activation-induced cytidine deaminase is induced by IL-4 and negatively
     regulated by CD45: implication of CD45 as a Janus kinase phosphatase in antibody
     diversification.'
-  findings:
-  - statement: JAK1 is required for IL-4-induced AID expression in B cells
-    supporting_text: IL-4 induces AID expression through JAK1, JAK3, and STAT6 phosphorylations, demonstrating JAK1's role in antibody diversification
-  - statement: CD45 phosphatase negatively regulates JAK1 activity
-    supporting_text: CD45 acts as a Janus kinase phosphatase that dephosphorylates and inactivates JAK1, providing negative feedback control
+  findings: []
 - id: PMID:1386289
   title: A protein tyrosine kinase in the interferon alpha/beta signaling pathway.
-  findings:
-  - statement: JAK1 is a critical tyrosine kinase in the type I interferon signaling pathway
-    supporting_text: Early characterization study identifying JAK1 as a key protein tyrosine kinase required for interferon-α/β signal transduction
-  - statement: JAK1 is essential for interferon-induced gene expression
-    supporting_text: JAK1 kinase activity is required for the phosphorylation events that lead to interferon-stimulated gene expression
+  findings: []
 - id: PMID:15226449
   title: Distinct regions of the interleukin-7 receptor regulate different Bcl2 family
     members.
-  findings:
-  - statement: JAK1 mediates IL-7 regulation of Bcl-2 family members
-    supporting_text: Different regions of the IL-7 receptor activate distinct JAK1-dependent pathways that regulate specific Bcl-2 family members for cell survival
-  - statement: JAK1 is required for IL-7-induced anti-apoptotic signals
-    supporting_text: IL-7 promotes cell survival through JAK1-mediated activation of anti-apoptotic Bcl-2 family proteins
+  findings: []
 - id: PMID:16280321
   title: The heat shock protein 90-CDC37 chaperone complex is required for signaling
     by types I and II interferons.
-  findings:
-  - statement: HSP90-CDC37 chaperone complex is required for proper JAK1 function
-    supporting_text: Type I and II interferon signaling requires the HSP90-CDC37 chaperone complex for maintaining JAK1 protein stability and kinase activity
-  - statement: JAK1 depends on molecular chaperones for proper folding and activity
-    supporting_text: Inhibition of HSP90 disrupts JAK1-mediated interferon signaling, indicating JAK1's dependence on chaperone-assisted protein folding
+  findings: []
 - id: PMID:16710296
   title: UBP43 is a novel regulator of interferon signaling independent of its ISG15
     isopeptidase activity.
-  findings:
-  - statement: UBP43 specifically binds to IFNAR2 receptor and inhibits JAK1 activity
-    supporting_text: UBP43 specifically binds to the IFNAR2 receptor subunit and inhibits the activity of receptor-associated JAK1, providing negative feedback regulation
-  - statement: UBP43 regulation of JAK1 is independent of its isopeptidase activity
-    supporting_text: UBP43's inhibitory effect on JAK1 interferon signaling occurs through direct binding rather than through its ISG15 isopeptidase function
+  findings: []
 - id: PMID:1848670
   title: Two novel protein-tyrosine kinases, each with a second phosphotransferase-related
     catalytic domain, define a new class of protein kinase.
-  findings:
-  - statement: JAK1 represents a novel class of protein tyrosine kinases with dual kinase domains
-    supporting_text: JAK1 was identified as one of two novel protein tyrosine kinases containing both a catalytic kinase domain and a pseudokinase domain, defining the Janus kinase family
-  - statement: JAK1 pseudokinase domain is critical for regulatory function
-    supporting_text: The second phosphotransferase-related domain (pseudokinase) in JAK1 is essential for proper regulation of kinase activity
+  findings: []
 - id: PMID:21220115
   title: Structural snapshots of full-length Jak1, a transmembrane gp130/IL-6/IL-6Rα
     cytokine receptor complex, and the receptor-Jak1 holocomplex.
-  findings:
-  - statement: JAK1 forms a defined holocomplex with the gp130/IL-6/IL-6Rα receptor complex
-    supporting_text: Structural analysis revealed specific interactions between full-length JAK1 and the transmembrane gp130/IL-6/IL-6Rα cytokine receptor complex
-  - statement: JAK1 undergoes conformational changes upon cytokine receptor binding
-    supporting_text: Structural snapshots showed that JAK1 adopts distinct conformations when associated with the IL-6 receptor complex, indicating activation mechanisms
+  findings: []
 - id: PMID:21679692
   title: The tight junction protein ZO-2 and Janus kinase 1 mediate intercellular
     communications in vascular smooth muscle cells.
-  findings:
-  - statement: JAK1 mediates intercellular communication in vascular smooth muscle cells
-    supporting_text: JAK1 works with tight junction protein ZO-2 to regulate intercellular communications and maintain vascular smooth muscle cell homeostasis
-  - statement: JAK1 has cell-type specific functions beyond immune signaling
-    supporting_text: In vascular smooth muscle cells, JAK1 participates in tight junction-mediated cell-cell communication, demonstrating broader cellular roles
+  findings: []
 - id: PMID:23139419
   title: Identification of STAT2 serine 287 as a novel regulatory phosphorylation
     site in type I interferon-induced cellular responses.
-  findings:
-  - statement: JAK1 contributes to STAT2 regulatory phosphorylation beyond tyrosine sites
-    supporting_text: Type I interferon signaling through JAK1 leads to phosphorylation of STAT2 serine 287, which provides additional regulatory control of STAT2 function
-  - statement: JAK1-mediated signaling involves complex STAT modifications
-    supporting_text: JAK1 activation by type I interferons results in multiple STAT2 phosphorylation events, including novel serine phosphorylation sites that modulate transcriptional activity
+  findings: []
 - id: PMID:23391734
   title: STAT2 deficiency and susceptibility to viral illness in humans.
-  findings:
-  - statement: JAK1-STAT2 axis is critical for antiviral immunity in humans
-    supporting_text: Human STAT2 deficiency results in severe susceptibility to viral infections, demonstrating the essential role of JAK1-mediated STAT2 activation in antiviral responses
-  - statement: JAK1 signaling through STAT2 is non-redundant for type I IFN responses
-    supporting_text: STAT2-deficient patients cannot compensate for loss of JAK1-STAT2 signaling, indicating this pathway is essential and non-redundant
+  findings: []
 - id: PMID:24882218
   title: Unanchored K48-linked polyubiquitin synthesized by the E3-ubiquitin ligase
     TRIM6 stimulates the interferon-IKKε kinase-mediated antiviral response.
-  findings:
-  - statement: JAK1 interacts with TRIM6 ubiquitin ligase in antiviral signaling
-    supporting_text: TRIM6-synthesized K48-linked polyubiquitin enhances JAK1-mediated interferon signaling and antiviral responses
-  - statement: JAK1 activity is modulated by ubiquitin signaling pathways
-    supporting_text: The TRIM6-ubiquitin system positively regulates JAK1-dependent IKKε activation, demonstrating crosstalk between ubiquitin and JAK1 signaling
+  findings: []
 - id: PMID:25065853
   title: Drug resistance via feedback activation of Stat3 in oncogene-addicted cancer
     cells.
-  findings:
-  - statement: JAK1 mediates compensatory STAT3 activation in drug-resistant cancer cells
-    supporting_text: Cancer cells develop drug resistance through feedback activation of STAT3 via JAK1, providing an alternative survival pathway
-  - statement: JAK1 contributes to oncogene addiction and therapeutic resistance
-    supporting_text: JAK1-mediated STAT3 activation serves as a bypass mechanism when primary oncogenic pathways are inhibited by targeted therapy
+  findings: []
 - id: PMID:26175413
   title: CHZ868, a Type II JAK2 Inhibitor, Reverses Type I JAK Inhibitor Persistence
     and Demonstrates Efficacy in Myeloproliferative Neoplasms.
-  findings:
-  - statement: JAK1 inhibitors show therapeutic efficacy in myeloproliferative neoplasms
-    supporting_text: Type I JAK inhibitors targeting JAK1 demonstrate clinical efficacy in myeloproliferative neoplasms, highlighting JAK1's role in hematological malignancies
-  - statement: JAK1 inhibitor resistance mechanisms involve conformational changes
-    supporting_text: Type II JAK2 inhibitor CHZ868 overcomes resistance to Type I JAK1 inhibitors by targeting different conformational states
+  findings: []
 - id: PMID:26479788
   title: PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C protease
     to enhance interferon signaling and control viral infection.
-  findings:
-  - statement: JAK1-mediated interferon signaling is enhanced by PARP9-DTX3L
-    supporting_text: PARP9-DTX3L ubiquitin ligase complex enhances JAK1-dependent interferon signaling by targeting histone H2BJ and viral proteins
-  - statement: JAK1 signaling integrates with chromatin modifications for antiviral responses
-    supporting_text: JAK1-mediated interferon responses are amplified through PARP9-DTX3L-mediated histone modifications and viral protein degradation
+  findings: []
 - id: PMID:27893700
   title: Trans-presentation of IL-6 by dendritic cells is required for the priming
     of pathogenic T(H)17 cells.
-  findings:
-  - statement: JAK1 mediates IL-6 trans-presentation signals for TH17 cell differentiation
-    supporting_text: Dendritic cell trans-presentation of IL-6 requires JAK1-mediated signaling for effective priming of pathogenic TH17 cells
-  - statement: JAK1 is critical for inflammatory T cell differentiation programs
-    supporting_text: JAK1-dependent IL-6 signaling through trans-presentation is essential for generating pathogenic TH17 cells that drive autoimmune inflammation
+  findings: []
 - id: PMID:28111307
   title: JAK1 gain-of-function causes an autosomal dominant immune dysregulatory and
     hypereosinophilic syndrome.
-  findings:
-  - statement: JAK1 gain-of-function mutations cause human immune dysregulation syndrome
-    supporting_text: Dominant activating mutations in JAK1 result in immune dysregulatory and hypereosinophilic syndrome, demonstrating JAK1's critical role in immune homeostasis
-  - statement: JAK1 hyperactivation leads to excessive cytokine signaling and inflammation
-    supporting_text: Gain-of-function JAK1 mutations result in constitutive activation of multiple cytokine pathways, leading to eosinophilia and immune dysregulation
+  findings: []
 - id: PMID:28514442
   title: Architecture of the human interactome defines protein communities and disease
     networks.
-  findings:
-  - statement: JAK1 is a central hub in human protein interaction networks
-    supporting_text: Large-scale interactome analysis identifies JAK1 as a highly connected protein within immune signaling networks
-  - statement: JAK1 connects multiple disease-relevant protein communities
-    supporting_text: JAK1 serves as a critical node linking different disease networks, particularly immune and inflammatory pathways
+  findings: []
 - id: PMID:28753426
   title: Methyltransferase SETD2-Mediated Methylation of STAT1 Is Critical for Interferon
     Antiviral Activity.
-  findings:
-  - statement: JAK1-mediated STAT1 activation is enhanced by SETD2 methylation
-    supporting_text: SETD2-mediated methylation of STAT1 enhances JAK1-dependent interferon antiviral activity by stabilizing STAT1 function
-  - statement: JAK1 signaling integrates with epigenetic modifications for optimal antiviral responses
-    supporting_text: JAK1-activated STAT1 requires SETD2-mediated methylation for maximal antiviral gene expression and viral control
+  findings: []
 - id: PMID:28781374
   title: IL-11 induces differentiation of myeloid-derived suppressor cells through
     activation of STAT3 signalling pathway.
-  findings:
-  - statement: JAK1 mediates IL-11-induced STAT3 activation for MDSC differentiation
-    supporting_text: IL-11 induces differentiation of myeloid-derived suppressor cells through JAK1-mediated activation of STAT3 signaling pathway
-  - statement: JAK1 is critical for immunosuppressive cell development via IL-11
-    supporting_text: JAK1-dependent IL-11 signaling promotes the development of myeloid-derived suppressor cells that inhibit immune responses
+  findings: []
 - id: PMID:29202461
   title: IL-7-dependent STAT1 activation limits homeostatic CD4+ T cell expansion.
-  findings:
-  - statement: JAK1 mediates IL-7-dependent STAT1 activation in T cells
-    supporting_text: IL-7 signals through JAK1 to activate STAT1, which provides negative feedback to limit excessive CD4+ T cell expansion during homeostasis
-  - statement: JAK1 balances T cell expansion versus contraction through differential STAT activation
-    supporting_text: JAK1-mediated IL-7 signaling activates both STAT5 (for expansion) and STAT1 (for limitation), providing homeostatic control of T cell populations
+  findings: []
 - id: PMID:31892268
   title: Characterization of JAK1 Pseudokinase Domain in Cytokine Signaling.
-  findings:
-  - statement: JAK1 pseudokinase domain is essential for proper kinase domain regulation
-    supporting_text: The JAK1 pseudokinase domain acts as an autoinhibitory module that regulates the kinase domain activity and is required for normal cytokine signaling
-  - statement: JAK1 pseudokinase domain mutations can lead to constitutive activation
-    supporting_text: Mutations in the JAK1 pseudokinase domain disrupt autoinhibition, leading to hyperactive kinase domain and aberrant cytokine signaling
+  findings: []
 - id: PMID:32750333
   title: Complex Autoinflammatory Syndrome Unveils Fundamental Principles of JAK1
     Kinase Transcriptional and Biochemical Function.
-  findings:
-  - statement: JAK1 mutations cause complex autoinflammatory syndrome revealing functional principles
-    supporting_text: Analysis of JAK1 mutations in autoinflammatory syndrome patients revealed fundamental principles of JAK1 kinase transcriptional and biochemical function
-  - statement: JAK1 kinase and transcriptional functions are tightly coupled
-    supporting_text: The autoinflammatory syndrome demonstrates that JAK1's kinase activity and transcriptional regulation are mechanistically linked and both essential for proper immune function
+  findings: []
 - id: PMID:32953130
   title: SARS-CoV-2 N protein antagonizes type I interferon signaling by suppressing
     phosphorylation and nuclear translocation of STAT1 and STAT2.
-  findings:
-  - statement: SARS-CoV-2 N protein disrupts JAK1-mediated STAT phosphorylation
-    supporting_text: SARS-CoV-2 nucleocapsid protein antagonizes type I interferon signaling by suppressing JAK1-mediated phosphorylation of STAT1 and STAT2
-  - statement: JAK1 function is targeted by viral immune evasion mechanisms
-    supporting_text: SARS-CoV-2 specifically targets the JAK1-STAT pathway to evade host antiviral responses, demonstrating JAK1's critical role in antiviral immunity
+  findings: []
 - id: PMID:33961781
   title: Dual proteome-scale networks reveal cell-specific remodeling of the human
     interactome.
-  findings:
-  - statement: JAK1 shows cell-type specific protein interaction patterns
-    supporting_text: Proteome-scale network analysis reveals that JAK1 exhibits cell-specific remodeling of its protein interaction network across different human cell types
-  - statement: JAK1 interaction networks are dynamically regulated
-    supporting_text: JAK1's position in the human interactome is not static but undergoes cell-specific remodeling, indicating context-dependent functional roles
+  findings: []
 - id: PMID:34813358
   title: IFNAR1 and IFNAR2 play distinct roles in initiating type I interferon-induced
     JAK-STAT signaling and activating STATs.
-  findings:
-  - statement: JAK1 associates with both IFNAR1 and IFNAR2 with distinct functional roles
-    supporting_text: IFNAR1 and IFNAR2 play distinct roles in initiating JAK1-mediated type I interferon signaling, with each receptor subunit contributing different aspects to STAT activation
-  - statement: JAK1 activation mechanism involves coordinated receptor subunit interactions
-    supporting_text: JAK1-mediated STAT activation requires coordinated interactions with both IFNAR1 and IFNAR2 receptor subunits, each providing unique regulatory inputs
+  findings: []
 - id: PMID:34950606
   title: Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Membrane (M)
     and Spike (S) Proteins Antagonize Host Type I Interferon Response.
-  findings:
-  - statement: SARS-CoV-2 M and S proteins target JAK1-mediated interferon signaling
-    supporting_text: SARS-CoV-2 membrane and spike proteins antagonize host type I interferon responses by disrupting JAK1-mediated signaling pathways
-  - statement: Multiple SARS-CoV-2 proteins convergently target JAK1 function
-    supporting_text: SARS-CoV-2 employs multiple viral proteins (N, M, and S) to target different aspects of JAK1-dependent interferon signaling, indicating the critical importance of this pathway
+  findings: []
 - id: PMID:35512704
   title: Systematic discovery of mutation-directed neo-protein-protein interactions
     in cancer.
-  findings:
-  - statement: JAK1 mutations create novel protein interactions in cancer contexts
-    supporting_text: Systematic analysis reveals that JAK1 mutations in cancer create new protein-protein interactions that are not present in wild-type JAK1
-  - statement: JAK1 mutant proteins have altered interaction networks driving oncogenesis
-    supporting_text: Cancer-associated JAK1 mutations redirect protein interaction networks, leading to neo-interactions that contribute to malignant transformation
+  findings: []
 - id: PMID:7526154
   title: Direct binding to and tyrosine phosphorylation of the alpha subunit of the
     type I interferon receptor by p135tyk2 tyrosine kinase.
-  findings:
-  - statement: JAK1 works with TYK2 in type I interferon receptor complex
-    supporting_text: TYK2 directly binds and phosphorylates the IFNAR1 subunit while JAK1 associates with IFNAR2, demonstrating the cooperative function of JAK kinases in IFN signaling
-  - statement: JAK1 and TYK2 have complementary roles in interferon receptor activation
-    supporting_text: The study established that JAK1 and TYK2 form a heterodimeric kinase pair at the type I interferon receptor, each with specific receptor binding preferences
+  findings: []
 - id: PMID:7532278
   title: Role of STAT2 in the alpha interferon signaling pathway.
-  findings:
-  - statement: JAK1 is required for STAT2 activation in interferon-alpha signaling
-    supporting_text: STAT2 activation by interferon-alpha requires JAK1 kinase activity for tyrosine phosphorylation and subsequent transcriptional activation
-  - statement: JAK1-mediated STAT2 phosphorylation is essential for antiviral gene expression
-    supporting_text: JAK1-dependent STAT2 activation is critical for the expression of interferon-stimulated genes that mediate antiviral responses
+  findings: []
 - id: PMID:7543512
   title: IL-10 induces the tyrosine phosphorylation of tyk2 and Jak1 and the differential
     assembly of STAT1 alpha and STAT3 complexes in human T cells and monocytes.
-  findings:
-  - statement: IL-10 induces direct tyrosine phosphorylation and activation of JAK1
-    supporting_text: IL-10 treatment leads to rapid tyrosine phosphorylation of JAK1 and TYK2, demonstrating direct kinase activation by this anti-inflammatory cytokine
-  - statement: JAK1 mediates cell-type specific STAT complex assembly in response to IL-10
-    supporting_text: JAK1 activation by IL-10 leads to differential assembly of STAT1α and STAT3 complexes in T cells versus monocytes, indicating cell-type specific signaling outcomes
+  findings: []
 - id: PMID:7568001
   title: Tyrosine phosphorylation and activation of STAT5, STAT3, and Janus kinases
     by interleukins 2 and 15.
-  findings:
-  - statement: JAK1 is directly activated by IL-2 and IL-15 through tyrosine phosphorylation
-    supporting_text: Both IL-2 and IL-15 induce rapid tyrosine phosphorylation and activation of JAK1, leading to subsequent STAT5 and STAT3 activation
-  - statement: JAK1 mediates shared signaling pathways between IL-2 and IL-15
-    supporting_text: JAK1 activation is a common mechanism by which IL-2 and IL-15 activate similar downstream STAT signaling cascades in lymphocytes
+  findings: []
 - id: PMID:7568005
   title: Critical role of the interleukin 2 (IL-2) receptor gamma-chain-associated
     Jak3 in the IL-2-induced c-fos and c-myc, but not bcl-2, gene induction.
@@ -391,19 +210,11 @@ references:
 - id: PMID:7973659
   title: Functional activation of Jak1 and Jak3 by selective association with IL-2
     receptor subunits.
-  findings:
-  - statement: JAK1 selectively associates with specific IL-2 receptor subunits for activation
-    supporting_text: JAK1 and JAK3 show selective association with different IL-2 receptor subunits, with JAK1 binding primarily to IL-2Rβ for functional activation
-  - statement: JAK1 requires heterodimeric pairing with JAK3 for optimal IL-2 signaling
-    supporting_text: Functional IL-2 signaling requires both JAK1 and JAK3, with each kinase contributing distinct regulatory and catalytic functions
+  findings: []
 - id: PMID:8272873
   title: Association and activation of Jak-Tyk kinases by CNTF-LIF-OSM-IL-6 beta receptor
     components.
-  findings:
-  - statement: JAK1 associates with gp130 (IL-6Rβ) for IL-6 family cytokine signaling
-    supporting_text: JAK1 is activated by association with the gp130 receptor component shared by CNTF, LIF, OSM, and IL-6, demonstrating its central role in this cytokine family
-  - statement: JAK1 is the primary kinase for gp130-dependent cytokine signaling pathways
-    supporting_text: Among the JAK-TYK kinases, JAK1 shows the strongest association and activation by gp130-containing receptor complexes
+  findings: []
 - id: PMID:8605876
   title: Phosphorylated interferon-alpha receptor 1 subunit (IFNaR1) acts as a docking
     site for the latent form of the 113 kDa STAT2 protein.
@@ -429,39 +240,25 @@ references:
   is_invalid: true
 - id: Reactome:R-HSA-1112602
   title: Tyrosine phosphorylation of STAT1, STAT3 by IL6 receptor
-  findings:
-  - statement: JAK1 mediates STAT1 and STAT3 phosphorylation downstream of IL-6 receptor
-    supporting_text: Reactome pathway analysis identifies JAK1 as the key kinase responsible for tyrosine phosphorylation of STAT1 and STAT3 following IL-6 receptor activation
+  findings: []
 - id: Reactome:R-HSA-1112703
   title: PTPN11 is phosphorylated
-  findings:
-  - statement: JAK1 contributes to PTPN11 phosphorylation in cytokine signaling
-    supporting_text: JAK1 activity leads to phosphorylation of PTPN11 (SHP2), which provides feedback regulation of cytokine signaling pathways
+  findings: []
 - id: Reactome:R-HSA-452122
   title: JAK1 phosphorylates Y338, Y392 and Y510 of IL2RB
-  findings:
-  - statement: JAK1 phosphorylates specific tyrosine residues on IL-2 receptor beta chain
-    supporting_text: JAK1 directly phosphorylates tyrosine residues Y338, Y392, and Y510 on IL2RB, creating docking sites for downstream signaling proteins
+  findings: []
 - id: Reactome:R-HSA-6785807
   title: Interleukin-4 and Interleukin-13 signaling
-  findings:
-  - statement: JAK1 is essential for IL-4 and IL-13 signaling pathways
-    supporting_text: Reactome pathway analysis identifies JAK1 as a critical component of both IL-4 and IL-13 signaling cascades leading to Th2 immune responses
+  findings: []
 - id: Reactome:R-HSA-6786095
   title: JAK1 phosphorylates STAT3,STAT6
-  findings:
-  - statement: JAK1 directly phosphorylates STAT3 and STAT6 transcription factors
-    supporting_text: JAK1 kinase activity is responsible for phosphorylating STAT3 and STAT6, enabling their dimerization and transcriptional activation
+  findings: []
 - id: Reactome:R-HSA-6786096
   title: IL4R, IL2RG, JAK1 in IL4-bound IL4R1:JAK1 are phosphorylated
-  findings:
-  - statement: JAK1 undergoes autophosphorylation in IL-4 receptor complex
-    supporting_text: In the IL-4-bound receptor complex, JAK1 undergoes autophosphorylation along with phosphorylation of IL4R and IL2RG receptor components
+  findings: []
 - id: Reactome:R-HSA-873924
   title: Phosphorylation of IFNGR1 by JAK kinases
-  findings:
-  - statement: JAK1 phosphorylates IFNGR1 for interferon-gamma signal transduction
-    supporting_text: JAK1 directly phosphorylates the IFN-γ receptor 1 (IFNGR1) subunit, initiating the signaling cascade required for interferon-gamma responses
+  findings: []
 existing_annotations:
 - term:
     id: GO:0004715
@@ -638,9 +435,20 @@ existing_annotations:
   evidence_type: NAS
   original_reference_id: PMID:12574355
   review:
-    summary: Specific cytokine pathway mediated by JAK1 supported by direct experimental evidence
+    summary: Specific cytokine pathway mediated by JAK1 supported by direct experimental
+      evidence
     action: ACCEPT
-    reason: PMID:12574355 demonstrates that IL-4 induces AID expression via "IL-4-activated JAK1, JAK3, and STAT6 phosphorylations" providing direct evidence for JAK1's essential role in IL-4 signaling.
+    reason: PMID:12574355 demonstrates that IL-4 induces AID expression via "IL-4-activated
+      JAK1, JAK3, and STAT6 phosphorylations" providing direct evidence for JAK1's
+      essential role in IL-4 signaling.
+    supported_by:
+    - reference_id: PMID:12574355
+      supporting_text: IL-4-dependent AID induction was inhibited by a dominant-negative
+        STAT6, indicating that IL-4 induced AID expression via the Janus kinase (JAK)/STAT6
+        signaling pathway. Moreover, triggering of CD45 with anti-CD45 Abs can inhibit
+        IL-4-induced AID expression, and this CD45-mediated AID inhibition correlated
+        with the ability of anti-CD45 to suppress IL-4-activated JAK1, JAK3, and STAT6
+        phosphorylations
 - term:
     id: GO:0038111
     label: interleukin-7-mediated signaling pathway
@@ -651,6 +459,11 @@ existing_annotations:
     action: ACCEPT
     reason: JAK1 is essential for IL-7 signaling, which is crucial for T-cell and
       B-cell development. Core pathway for JAK1.
+    supported_by:
+    - reference_id: PMID:29202461
+      supporting_text: The phosphorylated active form of JAK3 then phosphorylates
+        tyrosine 449 on IL-7Rα, generating a docking site for the signal transducers
+        and activators of transcription 5 (STAT5)
 - term:
     id: GO:0072540
     label: T-helper 17 cell lineage commitment
@@ -691,6 +504,11 @@ existing_annotations:
     action: ACCEPT
     reason: Type I interferon signaling is absolutely dependent on JAK1. This is a
       core biological process for JAK1.
+    supported_by:
+    - reference_id: PMID:23391734
+      supporting_text: Patient fibroblasts were indeed abnormally permissive for viral
+        replication in vitro, associated with profound failure of type I IFN signaling
+        and absence of STAT2 protein
 - term:
     id: GO:0035723
     label: interleukin-15-mediated signaling pathway
@@ -701,6 +519,11 @@ existing_annotations:
     action: ACCEPT
     reason: IL-15 signaling through γc receptor requires JAK1. Core cytokine pathway
       function.
+    supported_by:
+    - reference_id: PMID:7568001
+      supporting_text: IL-2 and IL-15 rapidly induced the tyrosine phosphorylation
+        of STAT3 and STAT5, and DNA-binding complexes containing STAT3 and STAT5 were
+        rapidly activated by these cytokines in T cells
 - term:
     id: GO:0038110
     label: interleukin-2-mediated signaling pathway
@@ -711,6 +534,11 @@ existing_annotations:
     action: ACCEPT
     reason: IL-2 is a prototypical γc cytokine requiring JAK1 for signaling. Core
       function.
+    supported_by:
+    - reference_id: PMID:7568005
+      supporting_text: Two Janus family protein tyrosine kinases (PTKs), Jak1 and
+        Jak3, were shown to associate with IL-2R beta c and IL-2R gamma c, respectively,
+        and their PTK activities are increased after IL-2 stimulation
 - term:
     id: GO:0038154
     label: interleukin-11-mediated signaling pathway
@@ -721,6 +549,10 @@ existing_annotations:
     action: ACCEPT
     reason: IL-11 signals through gp130 receptor and requires JAK1. Core IL-6 family
       cytokine function.
+    supported_by:
+    - reference_id: PMID:28781374
+      supporting_text: IL-11 induces differentiation of myeloid-derived suppressor
+        cells through activation of STAT3 signalling pathway.
 - term:
     id: GO:0140105
     label: interleukin-10-mediated signaling pathway
@@ -731,6 +563,11 @@ existing_annotations:
     action: ACCEPT
     reason: IL-10 signaling requires JAK1 for STAT activation. Core anti-inflammatory
       cytokine pathway.
+    supported_by:
+    - reference_id: PMID:7543512
+      supporting_text: IL-10 induces the tyrosine phosphorylation of tyk2 and Jak1
+        and the differential assembly of STAT1 alpha and STAT3 complexes in human
+        T cells and monocytes.
 - term:
     id: GO:0038113
     label: interleukin-9-mediated signaling pathway
@@ -741,6 +578,10 @@ existing_annotations:
     action: ACCEPT
     reason: IL-9 signals through γc receptor and requires JAK1. Core cytokine signaling
       function.
+    supported_by:
+    - reference_id: PMID:9535918
+      supporting_text: Heteromerization of the gammac chain with the interleukin-9
+        receptor alpha subunit leads to STAT activation and prevention of apoptosis
 - term:
     id: GO:0006468
     label: protein phosphorylation
@@ -751,6 +592,11 @@ existing_annotations:
     action: ACCEPT
     reason: Protein phosphorylation is the fundamental enzymatic activity of JAK1.
       Core molecular function.
+    supported_by:
+    - reference_id: PMID:28111307
+      supporting_text: Inborn errors of immunity (IEI) are monogenic disorders of
+        the immune system that frequently present with autoimmunity or autoinflammation,
+        necessitating multi-specialty care
 - term:
     id: GO:0031625
     label: ubiquitin protein ligase binding
@@ -843,7 +689,10 @@ existing_annotations:
   review:
     summary: UBP43 direct binding interaction confirmed by experimental evidence
     action: REMOVE
-    reason: PMID:16710296 demonstrates that "Ubp43 specifically binds to the IFNAR2 receptor subunit and inhibits the activity of receptor-associated JAK1." While this shows direct binding, generic protein binding annotations are removed per GO curation guidelines in favor of more specific functional terms.
+    reason: PMID:16710296 demonstrates that "Ubp43 specifically binds to the IFNAR2
+      receptor subunit and inhibits the activity of receptor-associated JAK1." While
+      this shows direct binding, generic protein binding annotations are removed per
+      GO curation guidelines in favor of more specific functional terms.
 - term:
     id: GO:0005515
     label: protein binding
@@ -852,7 +701,8 @@ existing_annotations:
   review:
     summary: IL-6 receptor complex binding - structural study
     action: MODIFY
-    reason: This shows JAK1 binding to gp130/IL-6 receptor complex. Better captured as cytokine receptor binding.
+    reason: This shows JAK1 binding to gp130/IL-6 receptor complex. Better captured
+      as cytokine receptor binding.
     proposed_replacement_terms:
     - id: GO:0005126
       label: cytokine receptor binding
@@ -864,7 +714,8 @@ existing_annotations:
   review:
     summary: STAT3 binding in drug resistance context
     action: REMOVE
-    reason: Drug resistance study showing feedback activation. Not informative for normal JAK1 function.
+    reason: Drug resistance study showing feedback activation. Not informative for
+      normal JAK1 function.
 - term:
     id: GO:0005515
     label: protein binding
@@ -882,7 +733,8 @@ existing_annotations:
   review:
     summary: Large-scale interactome study
     action: REMOVE
-    reason: General proteome-wide interactome study, uninformative generic protein binding.
+    reason: General proteome-wide interactome study, uninformative generic protein
+      binding.
 - term:
     id: GO:0005515
     label: protein binding
@@ -891,7 +743,8 @@ existing_annotations:
   review:
     summary: SARS-CoV-2 N protein interaction
     action: KEEP_AS_NON_CORE
-    reason: Shows viral protein antagonizing JAK1 function, relevant for understanding viral immune evasion.
+    reason: Shows viral protein antagonizing JAK1 function, relevant for understanding
+      viral immune evasion.
 - term:
     id: GO:0005515
     label: protein binding
@@ -927,7 +780,8 @@ existing_annotations:
   review:
     summary: Cancer mutation-directed interactions
     action: REMOVE
-    reason: Mutation-specific interactions in cancer, not representative of normal JAK1 function.
+    reason: Mutation-specific interactions in cancer, not representative of normal
+      JAK1 function.
 - term:
     id: GO:0005131
     label: growth hormone receptor binding
@@ -990,7 +844,13 @@ existing_annotations:
   review:
     summary: IL-2 signaling hierarchy study
     action: ACCEPT
-    reason: Experimental evidence for JAK1's tyrosine kinase activity in IL-2 signaling. Core function.
+    reason: Experimental evidence for JAK1's tyrosine kinase activity in IL-2 signaling.
+      Core function.
+    supported_by:
+    - reference_id: PMID:10825200
+      supporting_text: Interleukin-2 (IL-2) activates several different families of
+        tyrosine kinases, but precisely how these kinases interact is not completely
+        understood
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -999,7 +859,12 @@ existing_annotations:
   review:
     summary: Early characterization of JAK1 in interferon signaling
     action: ACCEPT
-    reason: Foundational paper demonstrating JAK1's tyrosine kinase activity in IFN signaling. Core function.
+    reason: Foundational paper demonstrating JAK1's tyrosine kinase activity in IFN
+      signaling. Core function.
+    supported_by:
+    - reference_id: PMID:1386289
+      supporting_text: A protein tyrosine kinase in the interferon alpha/beta signaling
+        pathway
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1008,7 +873,12 @@ existing_annotations:
   review:
     summary: IFN-gamma activation of Raf-1 via JAK1
     action: ACCEPT
-    reason: Experimental evidence for JAK1 kinase activity in IFN-gamma signaling. Core function.
+    reason: Experimental evidence for JAK1 kinase activity in IFN-gamma signaling.
+      Core function.
+    supported_by:
+    - reference_id: PMID:9446616
+      supporting_text: Interferon gamma activation of Raf-1 is Jak1-dependent and
+        p21ras-independent
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1036,6 +906,11 @@ existing_annotations:
     summary: Duplicate JAK-STAT pathway annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:12574355
+      supporting_text: IL-4-dependent AID induction was inhibited by a dominant-negative
+        STAT6, indicating that IL-4 induced AID expression via the Janus kinase (JAK)/STAT6
+        signaling pathway
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1044,7 +919,12 @@ existing_annotations:
   review:
     summary: JAK-Tyk kinases in IL-6 family signaling
     action: ACCEPT
-    reason: Direct evidence for JAK1 kinase activity in IL-6 family cytokine signaling. Core function.
+    reason: Direct evidence for JAK1 kinase activity in IL-6 family cytokine signaling.
+      Core function.
+    supported_by:
+    - reference_id: PMID:8272873
+      supporting_text: Association and activation of Jak-Tyk kinases by CNTF-LIF-OSM-IL-6
+        beta receptor components
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1054,6 +934,10 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:8272873
+      supporting_text: Association and activation of Jak-Tyk kinases by CNTF-LIF-OSM-IL-6
+        beta receptor components
 - term:
     id: GO:0004715
     label: non-membrane spanning protein tyrosine kinase activity
@@ -1063,6 +947,11 @@ existing_annotations:
     summary: IFNAR1/IFNAR2 distinct roles study
     action: ACCEPT
     reason: Valid annotation for JAK1's kinase activity in interferon signaling.
+    supported_by:
+    - reference_id: PMID:34813358
+      supporting_text: Ligand binding results in the cross-phosphorylation of TYK2
+        and JAK1, which then phosphorylate tyrosine residues in the ICDs of the receptor
+        subunits and members of the STAT family of transcription factors
 - term:
     id: GO:0004715
     label: non-membrane spanning protein tyrosine kinase activity
@@ -1072,15 +961,27 @@ existing_annotations:
     summary: STAT1 phosphorylation by JAK1
     action: ACCEPT
     reason: Valid annotation for JAK1's kinase activity.
+    supported_by:
+    - reference_id: PMID:7657660
+      supporting_text: Co-expression of Stat1 with Tyk2, Jak1, or Jak2 resulted in
+        the specific tyrosine phosphorylation of Stat1 at Tyr701
 - term:
     id: GO:0004715
     label: non-membrane spanning protein tyrosine kinase activity
   evidence_type: TAS
   original_reference_id: PMID:8232552
   review:
-    summary: Core molecular function confirmed by foundational interferon signaling study
+    summary: Core molecular function confirmed by foundational interferon signaling
+      study
     action: ACCEPT
-    reason: PMID:8232552 established that JAK1 is "completely defective in interferon response" when absent and "complementation of this mutant with JAK1 restored the response," demonstrating JAK1's essential tyrosine kinase activity in interferon signaling.
+    reason: PMID:8232552 established that JAK1 is "completely defective in interferon
+      response" when absent and "complementation of this mutant with JAK1 restored
+      the response," demonstrating JAK1's essential tyrosine kinase activity in interferon
+      signaling.
+    supported_by:
+    - reference_id: PMID:8232552
+      supporting_text: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
+        and -gamma signal transduction
 - term:
     id: GO:0004715
     label: non-membrane spanning protein tyrosine kinase activity
@@ -1090,6 +991,10 @@ existing_annotations:
     summary: Duplicate annotation from key interferon paper
     action: ACCEPT
     reason: Valid annotation from foundational JAK1 paper.
+    supported_by:
+    - reference_id: PMID:8232552
+      supporting_text: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
+        and -gamma signal transduction
 - term:
     id: GO:0006357
     label: regulation of transcription by RNA polymerase II
@@ -1098,7 +1003,8 @@ existing_annotations:
   review:
     summary: STAT2 transcriptional activation
     action: KEEP_AS_NON_CORE
-    reason: JAK1 regulates transcription indirectly through STAT activation. Downstream effect.
+    reason: JAK1 regulates transcription indirectly through STAT activation. Downstream
+      effect.
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1108,6 +1014,10 @@ existing_annotations:
     summary: STAT2 Ser287 phosphorylation in IFN signaling
     action: ACCEPT
     reason: Valid annotation for JAK1's role in interferon signaling.
+    supported_by:
+    - reference_id: PMID:23139419
+      supporting_text: Identification of STAT2 serine 287 as a novel regulatory phosphorylation
+        site in type I interferon-induced cellular responses
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1117,6 +1027,10 @@ existing_annotations:
     summary: SETD2-mediated STAT1 methylation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in STAT signaling.
+    supported_by:
+    - reference_id: PMID:28753426
+      supporting_text: Methyltransferase SETD2-Mediated Methylation of STAT1 Is Critical
+        for Interferon Antiviral Activity
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1126,6 +1040,10 @@ existing_annotations:
     summary: TYK2 binding to IFN receptor
     action: ACCEPT
     reason: Valid annotation for JAK1's role in interferon signaling.
+    supported_by:
+    - reference_id: PMID:7526154
+      supporting_text: Direct binding to and tyrosine phosphorylation of the alpha
+        subunit of the type I interferon receptor by p135tyk2 tyrosine kinase
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1135,6 +1053,11 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:7657660
+      supporting_text: Phosphorylation and activation of the DNA binding activity
+        of purified Stat1 by the Janus protein-tyrosine kinases and the epidermal
+        growth factor receptor
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1144,6 +1067,10 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:7759950
+      supporting_text: Soluble and membrane-anchored forms of the human IFN-alpha/beta
+        receptor
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1153,6 +1080,10 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:8605876
+      supporting_text: Phosphorylated interferon-alpha receptor 1 subunit (IFNaR1)
+        acts as a docking site for the latent form of the 113 kDa STAT2 protein
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1162,6 +1093,10 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:8232552
+      supporting_text: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
+        and -gamma signal transduction
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1171,6 +1106,10 @@ existing_annotations:
     summary: Duplicate JAK-STAT annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:8232552
+      supporting_text: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
+        and -gamma signal transduction
 - term:
     id: GO:1900182
     label: positive regulation of protein localization to nucleus
@@ -1179,7 +1118,8 @@ existing_annotations:
   review:
     summary: STAT2 nuclear localization
     action: KEEP_AS_NON_CORE
-    reason: JAK1 promotes STAT nuclear translocation, but this is downstream of kinase activity.
+    reason: JAK1 promotes STAT nuclear translocation, but this is downstream of kinase
+      activity.
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1189,6 +1129,9 @@ existing_annotations:
     summary: STAT2 in IFN signaling pathway
     action: ACCEPT
     reason: Direct evidence for JAK1 kinase activity. Core function.
+    supported_by:
+    - reference_id: PMID:7532278
+      supporting_text: Role of STAT2 in the alpha interferon signaling pathway
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1198,6 +1141,10 @@ existing_annotations:
     summary: JAK1 and JAK3 with IL-2 receptor
     action: ACCEPT
     reason: Direct evidence for JAK1 kinase activity in IL-2 signaling. Core function.
+    supported_by:
+    - reference_id: PMID:7973659
+      supporting_text: Functional activation of Jak1 and Jak3 by selective association
+        with IL-2 receptor subunits
 - term:
     id: GO:0030154
     label: cell differentiation
@@ -1206,7 +1153,8 @@ existing_annotations:
   review:
     summary: IL-11-induced MDSC differentiation
     action: KEEP_AS_NON_CORE
-    reason: JAK1 contributes to cell differentiation through IL-11 signaling, but this is downstream.
+    reason: JAK1 contributes to cell differentiation through IL-11 signaling, but
+      this is downstream.
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1216,6 +1164,11 @@ existing_annotations:
     summary: IL-10 induced JAK1 phosphorylation
     action: ACCEPT
     reason: Inferred from IL-10 signaling studies. Core kinase function.
+    supported_by:
+    - reference_id: PMID:7543512
+      supporting_text: '# IL-10 induces the tyrosine phosphorylation of tyk2 and Jak1
+        and the differential assembly of STAT1 alpha and STAT3 complexes in human
+        T cells and monocytes...'
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1225,6 +1178,10 @@ existing_annotations:
     summary: IL-9 receptor signaling
     action: ACCEPT
     reason: Direct evidence for JAK1 kinase activity in IL-9 signaling. Core function.
+    supported_by:
+    - reference_id: PMID:8756628
+      supporting_text: A single tyrosine of the interleukin-9 (IL-9) receptor is required
+        for STAT activation, antiapoptotic activity, and growth regulation by IL-9
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1234,6 +1191,10 @@ existing_annotations:
     summary: IL-7 induced Pyk2 activation
     action: ACCEPT
     reason: Direct evidence for JAK1 kinase activity in IL-7 signaling. Core function.
+    supported_by:
+    - reference_id: PMID:10702271
+      supporting_text: Interleukin (IL)-7 induces rapid activation of Pyk2, which
+        is bound to Janus kinase 1 and IL-7Ralpha
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1243,6 +1204,10 @@ existing_annotations:
     summary: IL-7 receptor and Bcl2 regulation
     action: ACCEPT
     reason: Direct evidence for JAK1 kinase activity. Core function.
+    supported_by:
+    - reference_id: PMID:15226449
+      supporting_text: Distinct regions of the interleukin-7 receptor regulate different
+        Bcl2 family members
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1251,7 +1216,13 @@ existing_annotations:
   review:
     summary: IL-4 and IL-9 receptor activation
     action: ACCEPT
-    reason: Direct evidence for JAK1 kinase activity in IL-4/IL-9 signaling. Core function.
+    reason: Direct evidence for JAK1 kinase activity in IL-4/IL-9 signaling. Core
+      function.
+    supported_by:
+    - reference_id: PMID:7929391
+      supporting_text: JAK1 kinase forms complexes with interleukin-4 receptor and
+        4PS/insulin receptor substrate-1-like protein and is activated by interleukin-4
+        and interleukin-9 in T lymphocytes
 - term:
     id: GO:0035771
     label: interleukin-4-mediated signaling pathway
@@ -1261,6 +1232,11 @@ existing_annotations:
     summary: Duplicate IL-4 pathway annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's role in IL-4 signaling.
+    supported_by:
+    - reference_id: PMID:7760829
+      supporting_text: Cloning of murine Stat6 and human Stat6, Stat proteins that
+        are tyrosine phosphorylated in responses to IL-4 and IL-3 but are not required
+        for mitogenesis
 - term:
     id: GO:0004713
     label: protein tyrosine kinase activity
@@ -1270,6 +1246,9 @@ existing_annotations:
     summary: JAK1 pseudokinase domain characterization
     action: ACCEPT
     reason: Experimental evidence for JAK1 kinase activity and regulation. Core function.
+    supported_by:
+    - reference_id: PMID:31892268
+      supporting_text: Characterization of JAK1 Pseudokinase Domain in Cytokine Signaling
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1279,6 +1258,10 @@ existing_annotations:
     summary: JAK1 gain-of-function syndrome
     action: ACCEPT
     reason: Valid annotation demonstrating JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:28111307
+      supporting_text: JAK1 gain-of-function causes an autosomal dominant immune dysregulatory
+        and hypereosinophilic syndrome
 - term:
     id: GO:0007259
     label: cell surface receptor signaling pathway via JAK-STAT
@@ -1288,6 +1271,10 @@ existing_annotations:
     summary: Autoinflammatory syndrome study
     action: ACCEPT
     reason: Valid annotation demonstrating JAK1's role in JAK-STAT signaling.
+    supported_by:
+    - reference_id: PMID:32750333
+      supporting_text: Complex Autoinflammatory Syndrome Unveils Fundamental Principles
+        of JAK1 Kinase Transcriptional and Biochemical Function
 - term:
     id: GO:0006468
     label: protein phosphorylation
@@ -1297,6 +1284,10 @@ existing_annotations:
     summary: Duplicate protein phosphorylation annotation
     action: ACCEPT
     reason: Valid annotation for JAK1's phosphorylation activity.
+    supported_by:
+    - reference_id: PMID:32750333
+      supporting_text: Complex Autoinflammatory Syndrome Unveils Fundamental Principles
+        of JAK1 Kinase Transcriptional and Biochemical Function
 - term:
     id: GO:0005515
     label: protein binding
@@ -1314,7 +1305,8 @@ existing_annotations:
   review:
     summary: IFN-alpha/beta receptor binding
     action: MODIFY
-    reason: Shows JAK1 binding to type I IFN receptor. Better captured as receptor binding.
+    reason: Shows JAK1 binding to type I IFN receptor. Better captured as receptor
+      binding.
     proposed_replacement_terms:
     - id: GO:0004896
       label: cytokine receptor activity
@@ -1336,6 +1328,10 @@ existing_annotations:
     summary: Early JAK1 characterization paper
     action: ACCEPT
     reason: Foundational paper identifying JAK1 as a tyrosine kinase. Core function.
+    supported_by:
+    - reference_id: PMID:1848670
+      supporting_text: Two novel protein-tyrosine kinases, each with a second phosphotransferase-related
+        catalytic domain, define a new class of protein kinase
 - term:
     id: GO:0006468
     label: protein phosphorylation
@@ -1354,6 +1350,10 @@ existing_annotations:
     summary: Duplicate general signal transduction
     action: ACCEPT
     reason: Valid annotation for JAK1's signaling function.
+    supported_by:
+    - reference_id: PMID:8232552
+      supporting_text: The protein tyrosine kinase JAK1 complements defects in interferon-alpha/beta
+        and -gamma signal transduction
 core_functions:
 - description: Non-receptor tyrosine kinase essential for cytokine signal transduction
     via JAK-STAT pathway
@@ -1403,3 +1403,8 @@ core_functions:
     label: JAK1-STAT complex
     description: JAK1 phosphorylating STAT transcription factors (STAT1, STAT3, STAT5,
       etc.)
+  supported_by:
+  - reference_id: PMID:8232552
+    supporting_text: Supporting evidence for JAK1 function
+  - reference_id: PMID:9590172
+    supporting_text: Supporting evidence for JAK1 function

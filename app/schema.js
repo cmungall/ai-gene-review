@@ -1,13 +1,15 @@
 window.searchSchema = {
   "name": "GeneAnnotationReviewSchema",
-  "description": "Schema for displaying gene annotation review data in linkml-browser",
+  "description": "Browse AI reviews",
   "title": "Gene Annotation Review Browser",
   "id": "https://example.org/gene-annotation-review",
   "searchableFields": [
     "gene_symbol",
     "protein_id",
     "term_label",
-    "term_id"
+    "term_id",
+    "taxon_label",
+    "original_reference_title"
   ],
   "searchPlaceholder": "Search annotations...",
   "facets": [
@@ -41,7 +43,12 @@ window.searchSchema = {
       "type": "string",
       "sortBy": "alphabetical"
     },
-    
+    {
+      "field": "original_reference_title",
+      "label": "Title",
+      "type": "string",
+      "sortBy": "alphabetical"
+    },
     {
       "field": "negated",
       "label": "Negated",
@@ -76,11 +83,6 @@ window.searchSchema = {
       "type": "string"
     },
     {
-      "field": "original_reference_id",
-      "label": "Ref",
-      "type": "curie"
-    },
-    {
       "field": "original_reference_title",
       "label": "Title",
       "type": "string"
@@ -101,8 +103,18 @@ window.searchSchema = {
       "type": "string"
     },
     {
+      "field": "review.supporting_text",
+      "label": "Ref Text",
+      "type": "string"
+    },
+    {
+      "field": "review.supporting_reference_ids",
+      "label": "RefIDs",
+      "type": "curie"
+    },
+    {
       "field": "review.proposed_replacement_terms",
-      "label": "Replacement Terms",
+      "label": "Replacements",
       "type": "string"
     }
   ]

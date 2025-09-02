@@ -1,0 +1,55 @@
+Secondary Structure Prediction Report
+=====================================
+
+Sequence: G2TRQ9|tam10|SPBC14C8.19
+Length: 166 aa
+
+Composition:
+-----------
+Alpha helix: 82 residues (49.4%)
+Beta sheet: 13 residues (7.8%)
+Turn: 66 residues (39.8%)
+Coil/Loop: 5 residues (3.0%)
+
+Structural Elements:
+-------------------
+- Turn: positions 1-9 (length: 9)
+- Helix: positions 10-11 (length: 2)
+- Turn: positions 12-12 (length: 1)
+- Turn: positions 14-14 (length: 1)
+- Sheet: positions 15-15 (length: 1)
+- Turn: positions 16-18 (length: 3)
+- Sheet: positions 19-21 (length: 3)
+- Sheet: positions 23-23 (length: 1)
+- Turn: positions 26-26 (length: 1)
+- Helix: positions 27-59 (length: 33)
+- Turn: positions 60-63 (length: 4)
+- Helix: positions 64-71 (length: 8)
+- Turn: positions 72-72 (length: 1)
+- Sheet: positions 73-73 (length: 1)
+- Helix: positions 74-82 (length: 9)
+- Turn: positions 83-83 (length: 1)
+- Helix: positions 84-84 (length: 1)
+- Turn: positions 85-96 (length: 12)
+- Sheet: positions 97-98 (length: 2)
+- Helix: positions 99-100 (length: 2)
+- Sheet: positions 101-101 (length: 1)
+- Helix: positions 102-103 (length: 2)
+- Turn: positions 104-111 (length: 8)
+- Helix: positions 112-116 (length: 5)
+- Sheet: positions 117-117 (length: 1)
+- Helix: positions 118-121 (length: 4)
+- Turn: positions 122-122 (length: 1)
+- Helix: positions 123-126 (length: 4)
+- Turn: positions 127-140 (length: 14)
+- Helix: positions 141-151 (length: 11)
+- Sheet: positions 152-154 (length: 3)
+- Helix: positions 155-155 (length: 1)
+- Turn: positions 156-157 (length: 2)
+- Turn: positions 159-166 (length: 8)
+
+Consensus Structure:
+-------------------
+   1 TTTTTTTTTHHTCTETTTEEECECCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+  61 TTTHHHHHHHHTEHHHHHHHHHTHTTTTTTTTTTTTEEHHEHHTTTTTTTTHHHHHEHHH
+ 121 HTHHHHTTTTTTTTTTTTTTHHHHHHHHHHHEEEHTTCTTTTTTTT

@@ -1,0 +1,9 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	P09570	nifA	enables	GO:0003700	DNA-binding transcription factor activity	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010113	354	Azotobacter vinelandii	InterPro	Nif-specific regulatory protein	20250429
+UniProtKB	P09570	nifA	enables	GO:0005524	ATP binding	molecular_function	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR002078|UniProtKB-KW:KW-0067	354	Azotobacter vinelandii	UniProt	Nif-specific regulatory protein	20250429
+UniProtKB	P09570	nifA	involved_in	GO:0006355	regulation of DNA-templated transcription	biological_process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR002078|InterPro:IPR010113	354	Azotobacter vinelandii	InterPro	Nif-specific regulatory protein	20250429
+UniProtKB	P09570	nifA	involved_in	GO:0009399	nitrogen fixation	biological_process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010113	354	Azotobacter vinelandii	InterPro	Nif-specific regulatory protein	20250429
+UniProtKB	P09570	nifA	enables	GO:0043565	sequence-specific DNA binding	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR002197	354	Azotobacter vinelandii	InterPro	Nif-specific regulatory protein	20250429
+UniProtKB	P09570	nifA	involved_in	GO:0000160	phosphorelay signal transduction system	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0902	354	Azotobacter vinelandii	UniProt	Nif-specific regulatory protein	20250428
+UniProtKB	P09570	nifA	enables	GO:0000166	nucleotide binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0547	354	Azotobacter vinelandii	UniProt	Nif-specific regulatory protein	20250428
+UniProtKB	P09570	nifA	enables	GO:0003677	DNA binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0238	354	Azotobacter vinelandii	UniProt	Nif-specific regulatory protein	20250428

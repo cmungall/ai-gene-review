@@ -1,0 +1,43 @@
+JmjC Domain Analysis Results
+============================================================
+
+Epe1 JmjC Domain Features:
+- Domain location: 200-350
+- HXD motifs found: 1
+  - Position 280: HVD
+- HXE motifs found: 1
+  - Position 297: HIE
+- Total histidines in domain: 2
+
+Analysis Results:
+- Found atypical HVD motif at position 280
+- Valine (V) is hydrophobic and bulky, incompatible with Fe(II) coordination
+- This substitution likely abolishes catalytic activity
+
+============================================================
+Comparison with Active Demethylases:
+
+Epe1_spombe:
+  Has HXD: True
+  Has HXE: True
+  Histidines: 5
+
+KDM5C_HUMAN:
+  Has HXD: True
+  Has HXE: False
+  Histidines: 5
+
+KDM2A_HUMAN:
+  Has HXD: True
+  Has HXE: False
+  Histidines: 8
+
+KDM3A_HUMAN:
+  Has HXD: False
+  Has HXE: True
+  Histidines: 1
+
+KDM5B_HUMAN:
+  Has HXD: False
+  Has HXE: True
+  Histidines: 3

@@ -1,0 +1,57 @@
+SMAP Domain Analysis Report
+===========================
+
+Sequence: P04637|p53_human
+Length: 393 aa
+Window size: 60 aa
+
+Top Candidate Regions:
+---------------------
+
+Candidate 1:
+  Position: 165-224
+  SMAP score: 5/5
+  Net charge: 2
+  Acidic residues: 10 (16.7%)
+  Basic residues: 12 (20.0%)
+  Hydrophobic: 28.3%
+  SMAP similarity: 2/5
+  Features found: appropriate_length, enriched_residues
+  Boundary analysis:
+  Sequence:
+    QSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPE
+
+Candidate 2:
+  Position: 166-225
+  SMAP score: 5/5
+  Net charge: 2
+  Acidic residues: 10 (16.7%)
+  Basic residues: 12 (20.0%)
+  Hydrophobic: 30.0%
+  SMAP similarity: 2/5
+  Features found: appropriate_length, enriched_residues
+  Boundary analysis:
+  Sequence:
+    SQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEV
+
+Candidate 3:
+  Position: 167-226
+  SMAP score: 5/5
+  Net charge: 2
+  Acidic residues: 10 (16.7%)
+  Basic residues: 12 (20.0%)
+  Hydrophobic: 30.0%
+  SMAP similarity: 2/5
+  Features found: appropriate_length, enriched_residues
+  Boundary analysis:
+    - N-terminal disorder detected
+  Sequence:
+    QHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVG
+
+
+Notes:
+------
+- SMAP domains are typically 50-60 aa regions
+- They often contain acidic residues but can have mixed charge
+- The scoring system considers multiple factors including charge, hydrophobicity, and presence of characteristic residues
+- A higher score suggests more SMAP-like characteristics, but experimental validation would be needed for confirmation

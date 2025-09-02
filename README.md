@@ -100,6 +100,37 @@ The repository includes example gene reviews for:
 
 Browse the `genes/` directory to see complete examples.
 
+## Case Studies
+
+### PedH (Pseudomonas putida KT2440) - Lanthanide-Dependent Alcohol Dehydrogenase
+
+The review of **pedH** revealed several important curation insights:
+
+#### Key Discoveries
+
+1. **Lanthanide vs Calcium Dependency**: PedH was incorrectly annotated with "calcium ion binding" (GO:0005509) when it actually requires lanthanide ions (La³⁺, Ce³⁺, Pr³⁺, Nd³⁺, Sm³⁺) for activity. This highlights the importance of reviewing automated annotations based on sequence similarity.
+
+2. **Cellular Localization Precision**: Bioinformatics analysis confirmed PedH is a **soluble periplasmic enzyme**, not membrane-associated:
+   - Signal peptide (aa 1-25) directs export, then is cleaved
+   - No transmembrane regions in mature protein
+   - Functions throughout periplasmic space, not just at membrane boundaries
+   - Led to choosing GO:0042597 (periplasmic space) over GO:0030288 (outer membrane-bounded periplasmic space)
+
+3. **Dual Functional Roles**: PedH serves both as:
+   - **Metabolic enzyme**: Oxidizes alcohols in 2-phenylethanol degradation pathway
+   - **Regulatory sensor**: Part of lanthanide-sensing system controlling gene expression via PedS2/PedR2 two-component system
+
+4. **Missing GO Terms Identified**: The review revealed gaps in GO:
+   - No term for "lanthanide ion binding" (distinct from transition metal binding)
+   - No term for "lanthanide-dependent alcohol dehydrogenase activity"
+
+#### Lessons for Curation
+
+- **Verify metal cofactors carefully** - Don't assume calcium when other metals are possible
+- **Consider protein mobility** - Soluble vs membrane-associated matters for localization terms
+- **Look for regulatory functions** - Enzymes may have sensory/regulatory roles beyond catalysis
+- **Use bioinformatics to validate** - Signal peptide and TM predictions can clarify localization
+
 ## Anti-Hallucination Validation
 
 The AI Gene Review system implements a robust **anti-hallucination validation mechanism** using **ID/label tuple checksums** to prevent AI systems from fabricating or misusing ontological terms.

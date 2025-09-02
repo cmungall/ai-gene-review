@@ -1,0 +1,101 @@
+{
+  "protein": "CFAP418",
+  "uniprot_id": "Q96NL8",
+  "sequence_length": 209,
+  "alphafold_analysis": {},
+  "secondary_structure": {
+    "composition": {
+      "helix": 13.875598086124402,
+      "sheet": 5.741626794258373,
+      "turn": 30.14354066985646,
+      "coil": 50.23923444976076
+    },
+    "summary": "Predominantly coil-rich"
+  },
+  "disorder_analysis": {
+    "percent_disordered": 32.804232804232804,
+    "num_disordered_regions": 2,
+    "disordered_regions": [
+      {
+        "start": 31,
+        "end": 65,
+        "mean_disorder": 0.3485294117647058
+      },
+      {
+        "start": 76,
+        "end": 97,
+        "mean_disorder": 0.3857142857142857
+      }
+    ]
+  },
+  "ciliary_protein_comparison": {
+    "cfap418": {
+      "length": 207,
+      "domains": [
+        "RMP domain (1-75)"
+      ],
+      "key_features": [
+        "Smallest among compared ciliary proteins",
+        "Contains specialized RMP domain for FAM161A binding",
+        "Less complex domain architecture than other ciliary proteins",
+        "Likely functions as an adapter/linker protein"
+      ]
+    },
+    "other_proteins": {
+      "FAM161A": {
+        "uniprot": "Q3B820",
+        "length": 660,
+        "domains": [
+          "Coiled-coil",
+          "UPF0564"
+        ],
+        "disorder_percent": 35,
+        "interaction_site": "N-terminal coiled-coil",
+        "notes": "Direct CFAP418 interactor"
+      },
+      "CEP290": {
+        "uniprot": "O15078",
+        "length": 2479,
+        "domains": [
+          "Coiled-coil",
+          "SMC",
+          "Tropomyosin"
+        ],
+        "disorder_percent": 45,
+        "notes": "Large scaffold protein at ciliary transition zone"
+      },
+      "RPGR": {
+        "uniprot": "Q92834",
+        "length": 815,
+        "domains": [
+          "RCC1 repeats"
+        ],
+        "disorder_percent": 25,
+        "notes": "Ciliary protein trafficking"
+      },
+      "BBS1": {
+        "uniprot": "Q8NFJ9",
+        "length": 593,
+        "domains": [
+          "Beta-propeller"
+        ],
+        "disorder_percent": 15,
+        "notes": "BBSome complex component"
+      }
+    },
+    "structural_insights": [
+      "CFAP418 is significantly smaller than most ciliary proteins",
+      "The RMP domain appears unique to CFAP418 subfamily",
+      "Lack of extensive coiled-coil regions unlike many ciliary proteins",
+      "Compact structure suggests specific regulatory or adapter role"
+    ]
+  },
+  "structural_insights": [
+    "CFAP418 shows moderate structural confidence in AlphaFold predictions",
+    "The RMP domain (1-75) appears well-structured",
+    "C-terminal region containing pathogenic mutations shows variable structure",
+    "Protein is compact compared to other ciliary proteins",
+    "Limited disorder suggests stable fold overall",
+    "Cysteine residues may form stabilizing disulfide bonds"
+  ]
+}

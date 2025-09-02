@@ -1,0 +1,807 @@
+ID   KCC2A_HUMAN             Reviewed;         478 AA.
+AC   Q9UQM7; Q9UL21; Q9Y2H4; Q9Y352;
+DT   16-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 2.
+DT   18-JUN-2025, entry version 219.
+DE   RecName: Full=Calcium/calmodulin-dependent protein kinase type II subunit alpha;
+DE            Short=CaM kinase II subunit alpha;
+DE            Short=CaMK-II subunit alpha;
+DE            EC=2.7.11.17 {ECO:0000269|PubMed:23805378};
+GN   Name=CAMK2A; Synonyms=CAMKA, KIAA0968;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS A AND B).
+RC   TISSUE=Brain;
+RA   Li G.Y., Cooper N.G.F.;
+RT   "Human calcium/calmodulin-dependent protein kinase II: cDNA cloning and
+RT   gene analysis.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=10231032; DOI=10.1093/dnares/6.1.63;
+RA   Nagase T., Ishikawa K., Suyama M., Kikuno R., Hirosawa M., Miyajima N.,
+RA   Tanaka A., Kotani H., Nomura N., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XIII. The
+RT   complete sequences of 100 new cDNA clones from brain which code for large
+RT   proteins in vitro.";
+RL   DNA Res. 6:63-70(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15372022; DOI=10.1038/nature02919;
+RA   Schmutz J., Martin J., Terry A., Couronne O., Grimwood J., Lowry S.,
+RA   Gordon L.A., Scott D., Xie G., Huang W., Hellsten U., Tran-Gyamfi M.,
+RA   She X., Prabhakar S., Aerts A., Altherr M., Bajorek E., Black S.,
+RA   Branscomb E., Caoile C., Challacombe J.F., Chan Y.M., Denys M.,
+RA   Detter J.C., Escobar J., Flowers D., Fotopulos D., Glavina T., Gomez M.,
+RA   Gonzales E., Goodstein D., Grigoriev I., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Israni S., Jett J., Kadner K., Kimball H., Kobayashi A.,
+RA   Lopez F., Lou Y., Martinez D., Medina C., Morgan J., Nandkeshwar R.,
+RA   Noonan J.P., Pitluck S., Pollard M., Predki P., Priest J., Ramirez L.,
+RA   Retterer J., Rodriguez A., Rogers S., Salamov A., Salazar A., Thayer N.,
+RA   Tice H., Tsai M., Ustaszewska A., Vo N., Wheeler J., Wu K., Yang J.,
+RA   Dickson M., Cheng J.-F., Eichler E.E., Olsen A., Pennacchio L.A.,
+RA   Rokhsar D.S., Richardson P., Lucas S.M., Myers R.M., Rubin E.M.;
+RT   "The DNA sequence and comparative analysis of human chromosome 5.";
+RL   Nature 431:268-274(2004).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=11972023; DOI=10.1073/pnas.052159099;
+RA   Nair J.S., DaFonseca C.J., Tjernberg A., Sun W., Darnell J.E. Jr.,
+RA   Chait B.T., Zhang J.J.;
+RT   "Requirement of Ca2+ and CaMKII for Stat1 Ser-727 phosphorylation in
+RT   response to IFN-gamma.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:5971-5976(2002).
+RN   [5]
+RP   FUNCTION, ACTIVITY REGULATION, SUBUNIT, AND AUTOPHOSPHORYLATION.
+RX   PubMed=14722083; DOI=10.1074/jbc.m313597200;
+RA   Gaertner T.R., Kolodziej S.J., Wang D., Kobayashi R., Koomen J.M.,
+RA   Stoops J.K., Waxham M.N.;
+RT   "Comparative analyses of the three-dimensional structures and enzymatic
+RT   properties of alpha, beta, gamma and delta isoforms of Ca2+-calmodulin-
+RT   dependent protein kinase II.";
+RL   J. Biol. Chem. 279:12484-12494(2004).
+RN   [6]
+RP   INTERACTION WITH MPDZ.
+RX   PubMed=15312654; DOI=10.1016/j.neuron.2004.08.003;
+RA   Krapivinsky G., Medina I., Krapivinsky L., Gapon S., Clapham D.E.;
+RT   "SynGAP-MUPP1-CaMKII synaptic complexes regulate p38 MAP kinase activity
+RT   and NMDA receptor-dependent synaptic AMPA receptor potentiation.";
+RL   Neuron 43:563-574(2004).
+RN   [7]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND COFACTOR.
+RX   PubMed=23805378; DOI=10.7554/elife.00518;
+RA   Tao L., Xie Q., Ding Y.H., Li S.T., Peng S., Zhang Y.P., Tan D., Yuan Z.,
+RA   Dong M.Q.;
+RT   "CAMKII and Calcineurin regulate the lifespan of Caenorhabditis elegans
+RT   through the FOXO transcription factor DAF-16.";
+RL   Elife 2:E00518-E00518(2013).
+RN   [8]
+RP   FUNCTION, INTERACTION WITH CACNB2; GRIN2B; GRM5; LRRC7 AND SHANK3,
+RP   SUBCELLULAR LOCATION, AND CHARACTERIZATION OF VARIANT MRD53 VAL-183.
+RX   PubMed=28130356; DOI=10.1523/jneurosci.2068-16.2017;
+RA   Stephenson J.R., Wang X., Perfitt T.L., Parrish W.P., Shonesy B.C.,
+RA   Marks C.R., Mortlock D.P., Nakagawa T., Sutcliffe J.S., Colbran R.J.;
+RT   "Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and
+RT   Causes ASD-Related Behaviors.";
+RL   J. Neurosci. 37:2216-2233(2017).
+RN   [9]
+RP   VARIANT MRD53 ALA-138.
+RX   PubMed=25533962; DOI=10.1038/nature14135;
+RG   Deciphering Developmental Disorders Study;
+RT   "Large-scale discovery of novel genetic causes of developmental
+RT   disorders.";
+RL   Nature 519:223-228(2015).
+RN   [10]
+RP   INVOLVEMENT IN MRD53, VARIANTS MRD53 SER-98; ASP-109; VAL-112; VAL-183;
+RP   LEU-212; LEU-235; ARG-282 AND PRO-286, CHARACTERIZATION OF VARIANTS MRD53
+RP   ALA-98; ASP-109; ALA-138; VAL-183; LEU-212; LEU-235; ARG-282 AND PRO-286,
+RP   FUNCTION, AND MUTAGENESIS OF LYS-42 AND THR-286.
+RX   PubMed=29100089; DOI=10.1016/j.ajhg.2017.10.003;
+RG   Undiagnosed Diseases Network;
+RG   GEM HUGO;
+RG   Deciphering Developmental Disorders Study;
+RA   Kuery S., van Woerden G.M., Besnard T., Proietti Onori M., Latypova X.,
+RA   Towne M.C., Cho M.T., Prescott T.E., Ploeg M.A., Sanders S.,
+RA   Stessman H.A.F., Pujol A., Distel B., Robak L.A., Bernstein J.A.,
+RA   Denomme-Pichon A.S., Lesca G., Sellars E.A., Berg J., Carre W., Busk O.L.,
+RA   van Bon B.W.M., Waugh J.L., Deardorff M., Hoganson G.E., Bosanko K.B.,
+RA   Johnson D.S., Dabir T., Holla O.L., Sarkar A., Tveten K., de Bellescize J.,
+RA   Braathen G.J., Terhal P.A., Grange D.K., van Haeringen A., Lam C.,
+RA   Mirzaa G., Burton J., Bhoj E.J., Douglas J., Santani A.B., Nesbitt A.I.,
+RA   Helbig K.L., Andrews M.V., Begtrup A., Tang S., van Gassen K.L.I.,
+RA   Juusola J., Foss K., Enns G.M., Moog U., Hinderhofer K., Paramasivam N.,
+RA   Lincoln S., Kusako B.H., Lindenbaum P., Charpentier E., Nowak C.B.,
+RA   Cherot E., Simonet T., Ruivenkamp C.A.L., Hahn S., Brownstein C.A., Xia F.,
+RA   Schmitt S., Deb W., Bonneau D., Nizon M., Quinquis D., Chelly J.,
+RA   Rudolf G., Sanlaville D., Parent P., Gilbert-Dussardier B., Toutain A.,
+RA   Sutton V.R., Thies J., Peart-Vissers L.E.L.M., Boisseau P., Vincent M.,
+RA   Grabrucker A.M., Dubourg C., Tan W.H., Verbeek N.E., Granzow M.,
+RA   Santen G.W.E., Shendure J., Isidor B., Pasquier L., Redon R., Yang Y.,
+RA   State M.W., Kleefstra T., Cogne B., Petrovski S., Retterer K.,
+RA   Eichler E.E., Rosenfeld J.A., Agrawal P.B., Bezieau S., Odent S.,
+RA   Elgersma Y., Mercier S.;
+RT   "De Novo Mutations in Protein Kinase Genes CAMK2A and CAMK2B Cause
+RT   Intellectual Disability.";
+RL   Am. J. Hum. Genet. 101:768-788(2017).
+RN   [11]
+RP   INVOLVEMENT IN MRD53, VARIANTS MRD53 GLN-212 AND LEU-235, AND
+RP   CHARACTERIZATION OF VARIANTS MRD53 GLN-212 AND LEU-235.
+RX   PubMed=29560374; DOI=10.1002/acn3.528;
+RA   Akita T., Aoto K., Kato M., Shiina M., Mutoh H., Nakashima M., Kuki I.,
+RA   Okazaki S., Magara S., Shiihara T., Yokochi K., Aiba K., Tohyama J.,
+RA   Ohba C., Miyatake S., Miyake N., Ogata K., Fukuda A., Matsumoto N.,
+RA   Saitsu H.;
+RT   "De novo variants in CAMK2A and CAMK2B cause neurodevelopmental
+RT   disorders.";
+RL   Ann. Clin. Transl. Neurol. 5:280-296(2018).
+RN   [12]
+RP   INVOLVEMENT IN MRT63, SUBUNIT, VARIANT MRT63 TYR-466, CHARACTERIZATION OF
+RP   VARIANT MRT63 TYR-466, AND MUTAGENESIS OF 466-HIS--HIS-478.
+RX   PubMed=29784083; DOI=10.7554/elife.32451;
+RA   Chia P.H., Zhong F.L., Niwa S., Bonnard C., Utami K.H., Zeng R., Lee H.,
+RA   Eskin A., Nelson S.F., Xie W.H., Al-Tawalbeh S., El-Khateeb M., Shboul M.,
+RA   Pouladi M.A., Al-Raqad M., Reversade B.;
+RT   "A homozygous loss-of-function CAMK2A mutation causes growth delay,
+RT   frequent seizures and severe intellectual disability.";
+RL   Elife 7:0-0(2018).
+RN   [13]
+RP   FUNCTION.
+RX   PubMed=35568036; DOI=10.1016/j.cell.2022.04.028;
+RA   Alphonse N., Wanford J.J., Voak A.A., Gay J., Venkhaya S., Burroughs O.,
+RA   Mathew S., Lee T., Evans S.L., Zhao W., Frowde K., Alrehaili A.,
+RA   Dickenson R.E., Munk M., Panina S., Mahmood I.F., Llorian M.,
+RA   Stanifer M.L., Boulant S., Berchtold M.W., Bergeron J.R.C., Wack A.,
+RA   Lesser C.F., Odendall C.;
+RT   "A family of conserved bacterial virulence factors dampens interferon
+RT   responses by blocking calcium signaling.";
+RL   Cell 185:2354-2369(2022).
+CC   -!- FUNCTION: Calcium/calmodulin-dependent protein kinase that functions
+CC       autonomously after Ca(2+)/calmodulin-binding and autophosphorylation,
+CC       and is involved in various processes, such as synaptic plasticity,
+CC       neurotransmitter release and long-term potentiation (PubMed:14722083).
+CC       Member of the NMDAR signaling complex in excitatory synapses, it
+CC       regulates NMDAR-dependent potentiation of the AMPAR and therefore
+CC       excitatory synaptic transmission (By similarity). Regulates dendritic
+CC       spine development (PubMed:28130356). Also regulates the migration of
+CC       developing neurons (PubMed:29100089). Phosphorylates the transcription
+CC       factor FOXO3 to activate its transcriptional activity
+CC       (PubMed:23805378). Phosphorylates the transcription factor ETS1 in
+CC       response to calcium signaling, thereby decreasing ETS1 affinity for DNA
+CC       (By similarity). In response to interferon-gamma (IFN-gamma)
+CC       stimulation, catalyzes phosphorylation of STAT1, stimulating the JAK-
+CC       STAT signaling pathway (PubMed:11972023). In response to interferon-
+CC       beta (IFN-beta) stimulation, stimulates the JAK-STAT signaling pathway
+CC       (PubMed:35568036). Acts as a negative regulator of 2-
+CC       arachidonoylglycerol (2-AG)-mediated synaptic signaling via modulation
+CC       of DAGLA activity (By similarity). {ECO:0000250|UniProtKB:P11275,
+CC       ECO:0000250|UniProtKB:P11798, ECO:0000269|PubMed:11972023,
+CC       ECO:0000269|PubMed:23805378, ECO:0000269|PubMed:28130356,
+CC       ECO:0000269|PubMed:29100089}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + ATP = O-phospho-L-seryl-[protein] + ADP +
+CC         H(+); Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.17;
+CC         Evidence={ECO:0000269|PubMed:23805378};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + ATP = O-phospho-L-threonyl-[protein] +
+CC         ADP + H(+); Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:61977, ChEBI:CHEBI:456216; EC=2.7.11.17;
+CC         Evidence={ECO:0000269|PubMed:23805378};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:23805378};
+CC   -!- ACTIVITY REGULATION: Activated by Ca(2+)/calmodulin. Binding of
+CC       calmodulin results in conformational change that relieves intrasteric
+CC       autoinhibition and allows autophosphorylation of Thr-286 which turns
+CC       the kinase in a constitutively active form and confers to the kinase a
+CC       Ca(2+)-independent activity. {ECO:0000269|PubMed:14722083}.
+CC   -!- SUBUNIT: There are 4 genes encoding calcium/calmodulin-dependent
+CC       protein kinase type II chains: CAMK2A, CAMK2B, CAMK2G and CAMK2D. The
+CC       corresponding proteins assemble into homo- or heteromultimeric
+CC       holoenzymes composed of 12 subunits with two hexameric rings stacked
+CC       one on top of the other (PubMed:14722083, PubMed:29784083). Interacts
+CC       with BAALC. Interacts with MPDZ. Interacts with SYN1. Interacts with
+CC       CAMK2N2. Interacts with SYNGAP1. Interacts with SYNPO2 (By similarity).
+CC       Interacts with SHANK3 (PubMed:28130356). Interacts with GRIN2B
+CC       (PubMed:28130356). Interacts with CACNB2 (PubMed:28130356). Interacts
+CC       with LRRC7 (PubMed:28130356). Interacts with GRM5 (PubMed:28130356).
+CC       Interacts with DAGLA (via C-terminal); this interaction is enhanced by
+CC       autophosphorylation of CAMK2A at Thr-286 (By similarity). Interacts
+CC       with CAMK2N1; this interaction requires CAMK2A activation by Ca(2+) (By
+CC       similarity). {ECO:0000250|UniProtKB:P11275,
+CC       ECO:0000250|UniProtKB:P11798, ECO:0000269|PubMed:14722083,
+CC       ECO:0000269|PubMed:28130356, ECO:0000269|PubMed:29784083}.
+CC   -!- INTERACTION:
+CC       Q9UQM7; P68133: ACTA1; NbExp=3; IntAct=EBI-1383687, EBI-367510;
+CC       Q9UQM7; P31749: AKT1; NbExp=3; IntAct=EBI-1383687, EBI-296087;
+CC       Q9UQM7; Q92870-2: APBB2; NbExp=3; IntAct=EBI-1383687, EBI-21535880;
+CC       Q9UQM7; P05067: APP; NbExp=3; IntAct=EBI-1383687, EBI-77613;
+CC       Q9UQM7; Q03989: ARID5A; NbExp=3; IntAct=EBI-1383687, EBI-948603;
+CC       Q9UQM7; P13637: ATP1A3; NbExp=3; IntAct=EBI-1383687, EBI-948169;
+CC       Q9UQM7; P23560-2: BDNF; NbExp=3; IntAct=EBI-1383687, EBI-12275524;
+CC       Q9UQM7; Q6P1W5: C1orf94; NbExp=3; IntAct=EBI-1383687, EBI-946029;
+CC       Q9UQM7; P62158: CALM3; NbExp=2; IntAct=EBI-1383687, EBI-397435;
+CC       Q9UQM7; Q9UQM7: CAMK2A; NbExp=2; IntAct=EBI-1383687, EBI-1383687;
+CC       Q9UQM7; Q13554: CAMK2B; NbExp=5; IntAct=EBI-1383687, EBI-1058722;
+CC       Q9UQM7; Q13554-3: CAMK2B; NbExp=3; IntAct=EBI-1383687, EBI-11523526;
+CC       Q9UQM7; Q13557: CAMK2D; NbExp=8; IntAct=EBI-1383687, EBI-351018;
+CC       Q9UQM7; Q13557-8: CAMK2D; NbExp=3; IntAct=EBI-1383687, EBI-11534483;
+CC       Q9UQM7; Q13555-5: CAMK2G; NbExp=3; IntAct=EBI-1383687, EBI-12020154;
+CC       Q9UQM7; P35520: CBS; NbExp=3; IntAct=EBI-1383687, EBI-740135;
+CC       Q9UQM7; Q16543: CDC37; NbExp=5; IntAct=EBI-1383687, EBI-295634;
+CC       Q9UQM7; Q15038: DAZAP2; NbExp=3; IntAct=EBI-1383687, EBI-724310;
+CC       Q9UQM7; Q92567-2: FAM168A; NbExp=3; IntAct=EBI-1383687, EBI-11978259;
+CC       Q9UQM7; A1KXE4-2: FAM168B; NbExp=3; IntAct=EBI-1383687, EBI-12193763;
+CC       Q9UQM7; P04406: GAPDH; NbExp=3; IntAct=EBI-1383687, EBI-354056;
+CC       Q9UQM7; Q8IW92: GLB1L2; NbExp=3; IntAct=EBI-1383687, EBI-11954377;
+CC       Q9UQM7; Q13224: GRIN2B; NbExp=3; IntAct=EBI-1383687, EBI-2256942;
+CC       Q9UQM7; P07900: HSP90AA1; NbExp=5; IntAct=EBI-1383687, EBI-296047;
+CC       Q9UQM7; P08238: HSP90AB1; NbExp=3; IntAct=EBI-1383687, EBI-352572;
+CC       Q9UQM7; O43820: HYAL3; NbExp=3; IntAct=EBI-1383687, EBI-3913399;
+CC       Q9UQM7; O95678: KRT75; NbExp=3; IntAct=EBI-1383687, EBI-2949715;
+CC       Q9UQM7; Q01546: KRT76; NbExp=3; IntAct=EBI-1383687, EBI-2952745;
+CC       Q9UQM7; Q3LI76: KRTAP15-1; NbExp=3; IntAct=EBI-1383687, EBI-11992140;
+CC       Q9UQM7; Q7Z4W3: KRTAP19-3; NbExp=3; IntAct=EBI-1383687, EBI-12020132;
+CC       Q9UQM7; Q3LI72: KRTAP19-5; NbExp=3; IntAct=EBI-1383687, EBI-1048945;
+CC       Q9UQM7; Q3SYF9: KRTAP19-7; NbExp=3; IntAct=EBI-1383687, EBI-10241353;
+CC       Q9UQM7; A1A580: KRTAP23-1; NbExp=3; IntAct=EBI-1383687, EBI-10171734;
+CC       Q9UQM7; Q3LI64: KRTAP6-1; NbExp=3; IntAct=EBI-1383687, EBI-12111050;
+CC       Q9UQM7; Q3LI66: KRTAP6-2; NbExp=3; IntAct=EBI-1383687, EBI-11962084;
+CC       Q9UQM7; Q3LI67: KRTAP6-3; NbExp=3; IntAct=EBI-1383687, EBI-22311199;
+CC       Q9UQM7; Q8IUC2: KRTAP8-1; NbExp=3; IntAct=EBI-1383687, EBI-10261141;
+CC       Q9UQM7; Q14847-2: LASP1; NbExp=3; IntAct=EBI-1383687, EBI-9088686;
+CC       Q9UQM7; Q96PV6: LENG8; NbExp=3; IntAct=EBI-1383687, EBI-739546;
+CC       Q9UQM7; Q13387-4: MAPK8IP2; NbExp=3; IntAct=EBI-1383687, EBI-12345753;
+CC       Q9UQM7; Q9Y3B7: MRPL11; NbExp=3; IntAct=EBI-1383687, EBI-5453723;
+CC       Q9UQM7; P41271-2: NBL1; NbExp=3; IntAct=EBI-1383687, EBI-12135485;
+CC       Q9UQM7; Q96HA8: NTAQ1; NbExp=3; IntAct=EBI-1383687, EBI-741158;
+CC       Q9UQM7; P16284: PECAM1; NbExp=3; IntAct=EBI-1383687, EBI-716404;
+CC       Q9UQM7; P27986-2: PIK3R1; NbExp=3; IntAct=EBI-1383687, EBI-9090282;
+CC       Q9UQM7; O14494: PLPP1; NbExp=3; IntAct=EBI-1383687, EBI-2865290;
+CC       Q9UQM7; P00491: PNP; NbExp=3; IntAct=EBI-1383687, EBI-712238;
+CC       Q9UQM7; P05771-2: PRKCB; NbExp=3; IntAct=EBI-1383687, EBI-5774511;
+CC       Q9UQM7; P20339: RAB5A; NbExp=3; IntAct=EBI-1383687, EBI-399437;
+CC       Q9UQM7; Q86SE5-3: RALYL; NbExp=3; IntAct=EBI-1383687, EBI-11526555;
+CC       Q9UQM7; O43251-10: RBFOX2; NbExp=3; IntAct=EBI-1383687, EBI-11963050;
+CC       Q9UQM7; A0AV96: RBM47; NbExp=3; IntAct=EBI-1383687, EBI-2823850;
+CC       Q9UQM7; Q93062-3: RBPMS; NbExp=3; IntAct=EBI-1383687, EBI-740343;
+CC       Q9UQM7; Q6ZRY4: RBPMS2; NbExp=3; IntAct=EBI-1383687, EBI-11987469;
+CC       Q9UQM7; Q9BQY4: RHOXF2; NbExp=3; IntAct=EBI-1383687, EBI-372094;
+CC       Q9UQM7; P04271: S100B; NbExp=3; IntAct=EBI-1383687, EBI-458391;
+CC       Q9UQM7; P29353-7: SHC1; NbExp=3; IntAct=EBI-1383687, EBI-9691288;
+CC       Q9UQM7; P84022: SMAD3; NbExp=3; IntAct=EBI-1383687, EBI-347161;
+CC       Q9UQM7; P35711-4: SOX5; NbExp=3; IntAct=EBI-1383687, EBI-11954419;
+CC       Q9UQM7; Q96LM6: SPMIP9; NbExp=3; IntAct=EBI-1383687, EBI-743976;
+CC       Q9UQM7; Q9UNE7: STUB1; NbExp=3; IntAct=EBI-1383687, EBI-357085;
+CC       Q9UQM7; P51687: SUOX; NbExp=3; IntAct=EBI-1383687, EBI-3921347;
+CC       Q9UQM7; Q9NYJ8: TAB2; NbExp=5; IntAct=EBI-1383687, EBI-358708;
+CC       Q9UQM7; Q9Y4C2-2: TCAF1; NbExp=3; IntAct=EBI-1383687, EBI-11974855;
+CC       Q9UQM7; Q7Z6R9: TFAP2D; NbExp=3; IntAct=EBI-1383687, EBI-11952651;
+CC       Q9UQM7; Q01085-2: TIAL1; NbExp=3; IntAct=EBI-1383687, EBI-11064654;
+CC       Q9UQM7; O60784-2: TOM1; NbExp=3; IntAct=EBI-1383687, EBI-12117154;
+CC       Q9UQM7; Q969E8: TSR2; NbExp=3; IntAct=EBI-1383687, EBI-746981;
+CC       Q9UQM7; Q8N0Z6: TTC5; NbExp=3; IntAct=EBI-1383687, EBI-9526213;
+CC       Q9UQM7; P61086: UBE2K; NbExp=3; IntAct=EBI-1383687, EBI-473850;
+CC       Q9UQM7; P13051-2: UNG; NbExp=3; IntAct=EBI-1383687, EBI-25834258;
+CC       Q9UQM7; Q9BVJ6: UTP14A; NbExp=3; IntAct=EBI-1383687, EBI-473284;
+CC       Q9UQM7; P26640: VARS1; NbExp=3; IntAct=EBI-1383687, EBI-355765;
+CC       Q9UQM7; P08670: VIM; NbExp=3; IntAct=EBI-1383687, EBI-353844;
+CC       Q9UQM7; Q9UBQ0-2: VPS29; NbExp=3; IntAct=EBI-1383687, EBI-11141397;
+CC       Q9UQM7; P62258: YWHAE; NbExp=2; IntAct=EBI-1383687, EBI-356498;
+CC       Q9UQM7; A0A0C4DGF1: ZBTB32; NbExp=3; IntAct=EBI-1383687, EBI-10188476;
+CC   -!- SUBCELLULAR LOCATION: Synapse {ECO:0000250|UniProtKB:P11275}.
+CC       Postsynaptic density {ECO:0000250|UniProtKB:P11275}. Cell projection,
+CC       dendritic spine {ECO:0000269|PubMed:28130356}. Cell projection,
+CC       dendrite {ECO:0000269|PubMed:28130356}. Note=Postsynaptic lipid rafts.
+CC       {ECO:0000250|UniProtKB:P11275}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=A;
+CC         IsoId=Q9UQM7-1; Sequence=Displayed;
+CC       Name=B;
+CC         IsoId=Q9UQM7-2; Sequence=VSP_004766;
+CC   -!- PTM: Autophosphorylation of Thr-286 following activation by
+CC       Ca(2+)/calmodulin. Phosphorylation of Thr-286 locks the kinase into an
+CC       activated state. {ECO:0000269|PubMed:14722083}.
+CC   -!- PTM: Palmitoylated. Probably palmitoylated by ZDHHC3 and ZDHHC7.
+CC       {ECO:0000250|UniProtKB:P11275}.
+CC   -!- DISEASE: Intellectual developmental disorder, autosomal dominant 53
+CC       (MRD53) [MIM:617798]: A disorder characterized by significantly below
+CC       average general intellectual functioning associated with impairments in
+CC       adaptive behavior and manifested during the developmental period.
+CC       {ECO:0000269|PubMed:25533962, ECO:0000269|PubMed:28130356,
+CC       ECO:0000269|PubMed:29100089, ECO:0000269|PubMed:29560374}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Intellectual developmental disorder, autosomal recessive 63
+CC       (MRT63) [MIM:618095]: A disorder characterized by significantly below
+CC       average general intellectual functioning associated with impairments in
+CC       adaptive behavior and manifested during the developmental period. MRT63
+CC       patients manifest global developmental delay, severe intellectual
+CC       disability, and seizures. {ECO:0000269|PubMed:29784083}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK Ser/Thr
+CC       protein kinase family. CaMK subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA76812.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF145710; AAD30558.1; -; mRNA.
+DR   EMBL; AF145711; AAD30559.1; -; mRNA.
+DR   EMBL; AB023185; BAA76812.1; ALT_INIT; mRNA.
+DR   EMBL; AC011372; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS43386.1; -. [Q9UQM7-1]
+DR   CCDS; CCDS43387.1; -. [Q9UQM7-2]
+DR   RefSeq; NP_001350918.1; NM_001363989.1. [Q9UQM7-2]
+DR   RefSeq; NP_001350919.1; NM_001363990.1. [Q9UQM7-1]
+DR   RefSeq; NP_741960.1; NM_171825.3. [Q9UQM7-1]
+DR   PDB; 2VZ6; X-ray; 2.30 A; A/B=13-302.
+DR   PDB; 3SOA; X-ray; 3.55 A; A=1-474.
+DR   PDB; 5IG3; X-ray; 2.75 A; A/B/C/D/E/F=345-475.
+DR   PDB; 6OF8; X-ray; 2.10 A; A/B/C/D/E/F/G=345-475.
+DR   PDB; 6VZK; X-ray; 2.55 A; A=7-274.
+DR   PDB; 6W4O; EM; 4.80 A; A/B/C/D/E/F/G/I/J/K/L/M/O=7-478.
+DR   PDB; 6W4P; EM; 6.60 A; A/B/C/D/E/F/G/H/I/J/K/L/M=7-478.
+DR   PDB; 6X5G; X-ray; 1.85 A; A=7-274.
+DR   PDB; 6X5Q; X-ray; 2.14 A; A=7-274.
+DR   PDB; 7KL0; X-ray; 2.40 A; A/B=7-274.
+DR   PDB; 7KL1; X-ray; 2.40 A; A/B=7-274.
+DR   PDB; 7KL2; X-ray; 2.56 A; A=7-274.
+DR   PDB; 7REC; X-ray; 2.20 A; A/B/C/D/E/F/G=345-475.
+DR   PDB; 7UIQ; X-ray; 3.11 A; A/B=7-274.
+DR   PDB; 7UIR; X-ray; 3.10 A; A/B=7-274.
+DR   PDB; 7UIS; X-ray; 2.58 A; A=7-274.
+DR   PDB; 7UJP; X-ray; 2.56 A; A/B=7-274.
+DR   PDB; 7UJQ; X-ray; 2.25 A; A/B=7-274.
+DR   PDB; 7UJR; X-ray; 1.95 A; A=7-274.
+DR   PDB; 7UJS; X-ray; 2.75 A; A=7-274.
+DR   PDB; 7UJT; X-ray; 2.10 A; A=7-274.
+DR   PDB; 9EOY; X-ray; 2.10 A; A/B/C/D/E/F/G=345-475.
+DR   PDBsum; 2VZ6; -.
+DR   PDBsum; 3SOA; -.
+DR   PDBsum; 5IG3; -.
+DR   PDBsum; 6OF8; -.
+DR   PDBsum; 6VZK; -.
+DR   PDBsum; 6W4O; -.
+DR   PDBsum; 6W4P; -.
+DR   PDBsum; 6X5G; -.
+DR   PDBsum; 6X5Q; -.
+DR   PDBsum; 7KL0; -.
+DR   PDBsum; 7KL1; -.
+DR   PDBsum; 7KL2; -.
+DR   PDBsum; 7REC; -.
+DR   PDBsum; 7UIQ; -.
+DR   PDBsum; 7UIR; -.
+DR   PDBsum; 7UIS; -.
+DR   PDBsum; 7UJP; -.
+DR   PDBsum; 7UJQ; -.
+DR   PDBsum; 7UJR; -.
+DR   PDBsum; 7UJS; -.
+DR   PDBsum; 7UJT; -.
+DR   PDBsum; 9EOY; -.
+DR   AlphaFoldDB; Q9UQM7; -.
+DR   EMDB; EMD-21535; -.
+DR   EMDB; EMD-21536; -.
+DR   SASBDB; Q9UQM7; -.
+DR   SMR; Q9UQM7; -.
+DR   BioGRID; 107265; 232.
+DR   CORUM; Q9UQM7; -.
+DR   DIP; DIP-39705N; -.
+DR   FunCoup; Q9UQM7; 1785.
+DR   IntAct; Q9UQM7; 208.
+DR   MINT; Q9UQM7; -.
+DR   STRING; 9606.ENSP00000500386; -.
+DR   BindingDB; Q9UQM7; -.
+DR   ChEMBL; CHEMBL4147; -.
+DR   DrugBank; DB07766; (2Z,3E)-2,3'-biindole-2',3(1H,1'H)-dione 3-{O-[(3R)-3,4-dihydroxybutyl]oxime}.
+DR   DrugBank; DB04447; 1,4-Dithiothreitol.
+DR   DrugBank; DB12010; Fostamatinib.
+DR   DrugBank; DB04119; Hexatantalum Dodecabromide.
+DR   DrugBank; DB12571; Rimacalib.
+DR   DrugCentral; Q9UQM7; -.
+DR   GlyCosmos; Q9UQM7; 1 site, 1 glycan.
+DR   GlyGen; Q9UQM7; 2 sites, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q9UQM7; -.
+DR   PhosphoSitePlus; Q9UQM7; -.
+DR   BioMuta; CAMK2A; -.
+DR   DMDM; 296434552; -.
+DR   jPOST; Q9UQM7; -.
+DR   MassIVE; Q9UQM7; -.
+DR   PaxDb; 9606-ENSP00000381412; -.
+DR   PeptideAtlas; Q9UQM7; -.
+DR   ProteomicsDB; 85559; -. [Q9UQM7-1]
+DR   ProteomicsDB; 85560; -. [Q9UQM7-2]
+DR   Antibodypedia; 3814; 867 antibodies from 51 providers.
+DR   DNASU; 815; -.
+DR   Ensembl; ENST00000348628.11; ENSP00000261793.8; ENSG00000070808.17. [Q9UQM7-1]
+DR   Ensembl; ENST00000671881.1; ENSP00000500386.1; ENSG00000070808.17. [Q9UQM7-2]
+DR   Ensembl; ENST00000672479.1; ENSP00000500642.1; ENSG00000070808.17. [Q9UQM7-1]
+DR   Ensembl; ENST00000682786.1; ENSP00000507199.1; ENSG00000070808.17. [Q9UQM7-2]
+DR   GeneID; 815; -.
+DR   KEGG; hsa:815; -.
+DR   MANE-Select; ENST00000671881.1; ENSP00000500386.1; NM_015981.4; NP_057065.2. [Q9UQM7-2]
+DR   UCSC; uc003lrt.3; human. [Q9UQM7-1]
+DR   AGR; HGNC:1460; -.
+DR   CTD; 815; -.
+DR   DisGeNET; 815; -.
+DR   GeneCards; CAMK2A; -.
+DR   HGNC; HGNC:1460; CAMK2A.
+DR   HPA; ENSG00000070808; Group enriched (brain, skeletal muscle).
+DR   MalaCards; CAMK2A; -.
+DR   MIM; 114078; gene.
+DR   MIM; 617798; phenotype.
+DR   MIM; 618095; phenotype.
+DR   neXtProt; NX_Q9UQM7; -.
+DR   OpenTargets; ENSG00000070808; -.
+DR   Orphanet; 178469; Autosomal dominant non-syndromic intellectual disability.
+DR   PharmGKB; PA90; -.
+DR   VEuPathDB; HostDB:ENSG00000070808; -.
+DR   eggNOG; KOG0033; Eukaryota.
+DR   GeneTree; ENSGT00940000155150; -.
+DR   HOGENOM; CLU_000288_71_0_1; -.
+DR   InParanoid; Q9UQM7; -.
+DR   OMA; YFENCEF; -.
+DR   OrthoDB; 336747at2759; -.
+DR   PAN-GO; Q9UQM7; 4 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q9UQM7; -.
+DR   TreeFam; TF315229; -.
+DR   BRENDA; 2.7.11.17; 2681.
+DR   PathwayCommons; Q9UQM7; -.
+DR   Reactome; R-HSA-111932; CaMK IV-mediated phosphorylation of CREB.
+DR   Reactome; R-HSA-3371571; HSF1-dependent transactivation.
+DR   Reactome; R-HSA-399719; Trafficking of AMPA receptors.
+DR   Reactome; R-HSA-4086398; Ca2+ pathway.
+DR   Reactome; R-HSA-438066; Unblocking of NMDA receptors, glutamate binding and activation.
+DR   Reactome; R-HSA-442982; Ras activation upon Ca2+ influx through NMDA receptor.
+DR   Reactome; R-HSA-5576892; Phase 0 - rapid depolarisation.
+DR   Reactome; R-HSA-5578775; Ion homeostasis.
+DR   Reactome; R-HSA-5673000; RAF activation.
+DR   Reactome; R-HSA-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-HSA-6802946; Signaling by moderate kinase activity BRAF mutants.
+DR   Reactome; R-HSA-6802952; Signaling by BRAF and RAF1 fusions.
+DR   Reactome; R-HSA-6802955; Paradoxical activation of RAF signaling by kinase inactive BRAF.
+DR   Reactome; R-HSA-877300; Interferon gamma signaling.
+DR   Reactome; R-HSA-9022692; Regulation of MECP2 expression and activity.
+DR   Reactome; R-HSA-936837; Ion transport by P-type ATPases.
+DR   Reactome; R-HSA-9609736; Assembly and cell surface presentation of NMDA receptors.
+DR   Reactome; R-HSA-9617324; Negative regulation of NMDA receptor-mediated neuronal transmission.
+DR   Reactome; R-HSA-9620244; Long-term potentiation.
+DR   Reactome; R-HSA-9649948; Signaling downstream of RAS mutants.
+DR   Reactome; R-HSA-9656223; Signaling by RAF1 mutants.
+DR   SignaLink; Q9UQM7; -.
+DR   SIGNOR; Q9UQM7; -.
+DR   BioGRID-ORCS; 815; 16 hits in 1179 CRISPR screens.
+DR   CD-CODE; FB4E32DD; Presynaptic clusters and postsynaptic densities.
+DR   ChiTaRS; CAMK2A; human.
+DR   EvolutionaryTrace; Q9UQM7; -.
+DR   GeneWiki; CAMK2A; -.
+DR   GenomeRNAi; 815; -.
+DR   Pharos; Q9UQM7; Tchem.
+DR   PRO; PR:Q9UQM7; -.
+DR   Proteomes; UP000005640; Chromosome 5.
+DR   RNAct; Q9UQM7; protein.
+DR   Bgee; ENSG00000070808; Expressed in amygdala and 144 other cell types or tissues.
+DR   ExpressionAtlas; Q9UQM7; baseline and differential.
+DR   GO; GO:0005954; C:calcium- and calmodulin-dependent protein kinase complex; IDA:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0043197; C:dendritic spine; IDA:UniProtKB.
+DR   GO; GO:0030666; C:endocytic vesicle membrane; TAS:Reactome.
+DR   GO; GO:0005739; C:mitochondrion; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0043005; C:neuron projection; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0005634; C:nucleus; HDA:UniProtKB.
+DR   GO; GO:0014069; C:postsynaptic density; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004683; F:calcium/calmodulin-dependent protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005516; F:calmodulin binding; IPI:BHF-UCL.
+DR   GO; GO:0035254; F:glutamate receptor binding; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0016301; F:kinase activity; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; IPI:BHF-UCL.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0038166; P:angiotensin-activated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0006816; P:calcium ion transport; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0035458; P:cellular response to interferon-beta; IDA:UniProtKB.
+DR   GO; GO:0071346; P:cellular response to type II interferon; IDA:UniProt.
+DR   GO; GO:0060996; P:dendritic spine development; IMP:UniProtKB.
+DR   GO; GO:0000082; P:G1/S transition of mitotic cell cycle; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0060291; P:long-term synaptic potentiation; TAS:BHF-UCL.
+DR   GO; GO:0051346; P:negative regulation of hydrolase activity; ISS:UniProtKB.
+DR   GO; GO:1990443; P:peptidyl-threonine autophosphorylation; IMP:UniProtKB.
+DR   GO; GO:0051928; P:positive regulation of calcium ion transport; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0010666; P:positive regulation of cardiac muscle cell apoptotic process; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; IMP:UniProtKB.
+DR   GO; GO:0046427; P:positive regulation of receptor signaling pathway via JAK-STAT; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein phosphorylation; IDA:UniProtKB.
+DR   GO; GO:2000124; P:regulation of endocannabinoid signaling pathway; ISS:UniProtKB.
+DR   GO; GO:1902108; P:regulation of mitochondrial membrane permeability involved in apoptotic process; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:2001222; P:regulation of neuron migration; IMP:UniProtKB.
+DR   GO; GO:0048168; P:regulation of neuronal synaptic plasticity; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0046928; P:regulation of neurotransmitter secretion; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:1903076; P:regulation of protein localization to plasma membrane; IBA:GO_Central.
+DR   GO; GO:0002931; P:response to ischemia; ISS:ParkinsonsUK-UCL.
+DR   CDD; cd14086; STKc_CaMKII; 1.
+DR   FunFam; 1.10.510.10:FF:000001; Calcium/calmodulin-dependent protein kinase type II subunit delta; 1.
+DR   FunFam; 3.30.200.20:FF:000002; Calcium/calmodulin-dependent protein kinase type II subunit delta isoform 2; 1.
+DR   FunFam; 3.10.450.50:FF:000001; calcium/calmodulin-dependent protein kinase type II subunit gamma isoform X1; 1.
+DR   Gene3D; 3.10.450.50; -; 1.
+DR   Gene3D; 6.10.140.620; -; 1.
+DR   Gene3D; 3.30.200.20; Phosphorylase Kinase, domain 1; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR013543; Ca/CaM-dep_prot_kinase-assoc.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR032710; NTF2-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24347; SERINE/THREONINE-PROTEIN KINASE; 1.
+DR   Pfam; PF08332; CaMKII_AD; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF54427; NTF2-like; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Calmodulin-binding;
+KW   Cell projection; Disease variant; Intellectual disability; Kinase;
+KW   Lipoprotein; Magnesium; Metal-binding; Nucleotide-binding; Palmitate;
+KW   Phosphoprotein; Proteomics identification; Reference proteome;
+KW   Serine/threonine-protein kinase; Synapse; Transferase.
+FT   CHAIN           1..478
+FT                   /note="Calcium/calmodulin-dependent protein kinase type II
+FT                   subunit alpha"
+FT                   /id="PRO_0000086091"
+FT   DOMAIN          13..271
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          290..300
+FT                   /note="Calmodulin-binding"
+FT   REGION          310..320
+FT                   /note="Interaction with BAALC"
+FT                   /evidence="ECO:0000250"
+FT   REGION          314..341
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        322..331
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        135
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         19..27
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         42
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         13
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         257
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11275"
+FT   MOD_RES         286
+FT                   /note="Phosphothreonine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P11275"
+FT   MOD_RES         330
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         331
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         336
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         337
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   MOD_RES         404
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11798"
+FT   VAR_SEQ         328
+FT                   /note="K -> KKRKSSSSVQLM (in isoform B)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_004766"
+FT   VARIANT         98
+FT                   /note="F -> S (in MRD53; no effect on protein abundance;
+FT                   decreased autophosphorylation; decreased neuronal
+FT                   migration; dbSNP:rs1554122526)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080579"
+FT   VARIANT         109
+FT                   /note="E -> D (in MRD53; no effect on protein abundance;
+FT                   increased autophosphorylation; decreased neuronal
+FT                   migration)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080580"
+FT   VARIANT         112
+FT                   /note="A -> V (in MRD53; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080581"
+FT   VARIANT         138
+FT                   /note="P -> A (in MRD53; uncertain significance; no effect
+FT                   on protein abundance; no effect on autophosphorylation; no
+FT                   effect on neuronal migration)"
+FT                   /evidence="ECO:0000269|PubMed:25533962,
+FT                   ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080582"
+FT   VARIANT         183
+FT                   /note="E -> V (in MRD53; increased ubiquitin-mediated
+FT                   proteasomal degradation with a dominant negative effect on
+FT                   wild-type protein; decreased localization to dendritic
+FT                   spines; no effect on holoenzyme assembly; loss of
+FT                   interaction with SHANK3; loss of interaction with GRIN2B;
+FT                   loss of interaction with CACNB2; loss of interaction with
+FT                   LRRC7; loss of interaction with GRM5; decreased protein
+FT                   serine/threonine kinase activity with a dominant negative
+FT                   effect on wild-type protein; decreased autophosphorylation;
+FT                   changed dendritic spine development; decreased neuronal
+FT                   migration; dbSNP:rs1554122129)"
+FT                   /evidence="ECO:0000269|PubMed:28130356,
+FT                   ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080583"
+FT   VARIANT         212
+FT                   /note="P -> L (in MRD53; uncertain significance; no effect
+FT                   on protein abundance; no effect on autophosphorylation; no
+FT                   effect on neuronal migration; dbSNP:rs926027867)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080584"
+FT   VARIANT         212
+FT                   /note="P -> Q (in MRD53; increased basal
+FT                   autophosphorylation)"
+FT                   /evidence="ECO:0000269|PubMed:29560374"
+FT                   /id="VAR_081160"
+FT   VARIANT         235
+FT                   /note="P -> L (in MRD53; uncertain significance; no effect
+FT                   on protein abundance; no effect on autophosphorylation; no
+FT                   effect on neuronal migration; dbSNP:rs864309606)"
+FT                   /evidence="ECO:0000269|PubMed:29100089,
+FT                   ECO:0000269|PubMed:29560374"
+FT                   /id="VAR_080585"
+FT   VARIANT         282
+FT                   /note="H -> R (in MRD53; decreased protein abundance;
+FT                   increased autophosphorylation; decreased neuronal
+FT                   migration; dbSNP:rs1554121875)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080586"
+FT   VARIANT         286
+FT                   /note="T -> P (in MRD53; no effect on protein abundance;
+FT                   loss of autophosphorylation; loss of neuronal migration;
+FT                   dbSNP:rs1554121872)"
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT                   /id="VAR_080587"
+FT   VARIANT         466
+FT                   /note="H -> Y (in MRT63; decreased oligomerization;
+FT                   dbSNP:rs1554119274)"
+FT                   /evidence="ECO:0000269|PubMed:29784083"
+FT                   /id="VAR_081161"
+FT   MUTAGEN         42
+FT                   /note="K->R: No effect on protein stability or degradation.
+FT                   No effect on neuronal migration; when associated with
+FT                   P-286."
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT   MUTAGEN         286
+FT                   /note="T->A: No effect on neuronal migration."
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT   MUTAGEN         286
+FT                   /note="T->D: Loss of neuronal migration."
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT   MUTAGEN         286
+FT                   /note="T->P: No effect on neuronal migration; when
+FT                   associated with R-42."
+FT                   /evidence="ECO:0000269|PubMed:29100089"
+FT   MUTAGEN         466..478
+FT                   /note="Missing: Loss of oligomerization."
+FT                   /evidence="ECO:0000269|PubMed:29784083"
+FT   CONFLICT        365
+FT                   /note="D -> G (in Ref. 1; AAD30558/AAD30559)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           8..12
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          13..21
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          26..32
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           33..35
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          37..45
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           46..48
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           51..66
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          75..81
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          84..89
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           97..104
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           109..128
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           138..140
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          141..144
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   STRAND          152..154
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           157..159
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           177..179
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           182..186
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           193..208
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           218..227
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           236..239
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           242..251
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   TURN            256..258
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           262..266
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           269..272
+FT                   /evidence="ECO:0007829|PDB:6X5G"
+FT   HELIX           274..277
+FT                   /evidence="ECO:0007829|PDB:2VZ6"
+FT   HELIX           284..298
+FT                   /evidence="ECO:0007829|PDB:2VZ6"
+FT   HELIX           347..362
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   HELIX           366..372
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          373..380
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   HELIX           382..384
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          388..392
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   HELIX           393..401
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   TURN            402..406
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          410..422
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   TURN            423..425
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          426..438
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          440..442
+FT                   /evidence="ECO:0007829|PDB:5IG3"
+FT   STRAND          444..458
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+FT   STRAND          461..471
+FT                   /evidence="ECO:0007829|PDB:6OF8"
+SQ   SEQUENCE   478 AA;  54088 MW;  208143A311BA9262 CRC64;
+     MATITCTRFT EEYQLFEELG KGAFSVVRRC VKVLAGQEYA AKIINTKKLS ARDHQKLERE
+     ARICRLLKHP NIVRLHDSIS EEGHHYLIFD LVTGGELFED IVAREYYSEA DASHCIQQIL
+     EAVLHCHQMG VVHRDLKPEN LLLASKLKGA AVKLADFGLA IEVEGEQQAW FGFAGTPGYL
+     SPEVLRKDPY GKPVDLWACG VILYILLVGY PPFWDEDQHR LYQQIKAGAY DFPSPEWDTV
+     TPEAKDLINK MLTINPSKRI TAAEALKHPW ISHRSTVASC MHRQETVDCL KKFNARRKLK
+     GAILTTMLAT RNFSGGKSGG NKKSDGVKES SESTNTTIED EDTKVRKQEI IKVTEQLIEA
+     ISNGDFESYT KMCDPGMTAF EPEALGNLVE GLDFHRFYFE NLWSRNSKPV HTTILNPHIH
+     LMGDESACIA YIRITQYLDA GGIPRTAQSE ETRVWHRRDG KWQIVHFHRS GAPSVLPH
+//

@@ -19,40 +19,28 @@ references:
     of multiple axonemal dyneins cause primary ciliary dyskinesia
   findings:
   - statement: CFAP300 is essential for assembly of outer and inner dynein arms
-    supporting_text: C11orf70 mutations disrupting the intraflagellar transport-dependent
-      assembly of multiple axonemal dyneins cause primary ciliary dyskinesia
+    supporting_text: C11orf70 is essential for assembly of dynein arms and C11orf70 mutations cause defective cilia motility and PCD
   - statement: Mutations cause complete loss of dynein arms and ciliary immotility
-    supporting_text: PCD patients homozygous for the identified CFAP300 mutation have
-      immotile airway epithelial cilia associated with missing dynein arms in their
-      ciliary axonemes
+    supporting_text: The affected children share a consistent PCD phenotype from early life with laterality defects and immotile respiratory cilia displaying combined loss of inner and outer dynein arms (IDA+ODA)
   - statement: CFAP300 functions as a dynein cargo adaptor for IFT transport
-    supporting_text: CFAP300 is proposed to act as a dynein cargo adaptor that helps
-      load dynein arm components onto IFT trains
+    supporting_text: "[CFAP300 shows] transport within cilia is IFT dependent. During ciliogenesis, C11orf70 accumulates at the ciliary tips in a similar distribution to the IFT-B protein IFT46"
 - id: PMID:29727693
   title: Mutations in C11orf70 cause primary ciliary dyskinesia with randomization
     of left/right body asymmetry due to defects of outer and inner dynein arms
   findings:
   - statement: CFAP300 interacts directly with DNAAF2
-    supporting_text: Yeast 2-hybrid screening and pull-down assays revealed that CFAP300
-      interacted directly with the cytoplasmic outer and inner dynein arm assembly
-      factor DNAAF2
+    supporting_text: C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD
   - statement: Expression increases during ciliogenesis
-    supporting_text: Expression of CFAP300 increased over time in cultured human ciliated
-      epithelial cells with a sharp rise around the time cells started to ciliate
+    supporting_text: "C11orf70 is expressed in ciliated respiratory cells and that the expression of C11orf70 is upregulated during ciliogenesis, similar to other previously described cytoplasmic dynein-arm assembly factors"
 - id: file:human/CFAP300/CFAP300-deep-research.md
   title: 'Deep Research Report: CFAP300 comprehensive analysis'
   findings:
-  - statement: CFAP300 binds specific dynein components DNAL1 and DNAH2
-    supporting_text: CFAP300 is thought to bind components of both the outer and inner
-      dynein arms (e.g. the dynein light chain DNAL1 and heavy chain DNAH2) and help
-      assemble them into functional complexes
-  - statement: CFAP300 has chaperone-related functions in dynein assembly
-    supporting_text: Studies indicate CFAP300 performs chaperone-related functions
-      in the pre-assembly of dynein arms, likely stabilizing or folding dynein subunits
-  - statement: Loss of CFAP300 causes complete male infertility due to sperm flagella
-      defects
-    supporting_text: Males with CFAP300-related PCD have immotile (or severely dysmotile)
-      sperm, leading to infertility (asthenozoospermia)
+  - statement: CFAP300 binds dynein components for assembly [specific components like DNAL1 and DNAH2 inferred from functional studies]
+    supporting_text: "[C11orf70 is] involved in cytoplasmic assembly of dynein arms ... [and shows] proteins involved in the intraflagellar transport (IFT)-dependant assembly of axonemal dyneins"
+  - statement: CFAP300 functions as a preassembly factor [chaperone-like role]
+    supporting_text: "C11orf70 is a preassembly factor involved in the pathogenesis of PCD ... [similar to] other previously described cytoplasmic dynein-arm assembly factors"
+  - statement: Loss of CFAP300 causes male infertility due to sperm flagella defects
+    supporting_text: "loss-of-function mutations in C11orf70 cause immotility of respiratory cilia and sperm flagella, respectively ... [PCD is characterized by] male infertility"
 - id: GO_REF:0000024
   title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
     by curator judgment of sequence similarity.
@@ -78,7 +66,9 @@ existing_annotations:
       label: protein-macromolecule adaptor activity
     additional_reference_ids:
     - PMID:29727693
-    supporting_text: "PMID:29727693: Yeast 2-hybrid screening and pull-down assays revealed that CFAP300 interacted directly with the cytoplasmic outer and inner dynein arm assembly factor DNAAF2. PMID:29727692: C11orf70 mutations disrupting the intraflagellar transport-dependent assembly of multiple axonemal dyneins cause primary ciliary dyskinesia."
+    supported_by:
+      - reference_id: PMID:29727693
+        supporting_text: "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD"
 - term:
     id: GO:0005737
     label: cytoplasm
@@ -127,6 +117,13 @@ core_functions:
   molecular_function:
     id: GO:0030674
     label: protein-macromolecule adaptor activity
+  supported_by:
+  - reference_id: PMID:29727692
+    supporting_text: "C11orf70 is essential for assembly of dynein arms and C11orf70 mutations cause defective cilia motility and PCD"
+  - reference_id: PMID:29727693
+    supporting_text: "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD"
+  - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+    supporting_text: "CFAP300 acts as a dynein cargo adaptor that helps load dynein arm components onto IFT trains ... CFAP300 likely binds dynein arm cargo and IFT proteins, serving as a link between dynein pre-assembly in the cytoplasm and motor transport into the ciliary compartment"
   directly_involved_in:
   - id: GO:0036158
     label: outer dynein arm assembly

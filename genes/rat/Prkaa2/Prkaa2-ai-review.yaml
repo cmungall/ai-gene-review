@@ -3,8 +3,17 @@ gene_symbol: Prkaa2
 taxon:
   id: NCBITaxon:10116
   label: Rattus norvegicus
-description: PRKAA2 encodes the alpha-2 catalytic subunit of AMP-activated protein kinase (AMPK), a central cellular energy sensor that maintains energy homeostasis. As a serine/threonine kinase, PRKAA2 is activated when cellular AMP/ATP ratios rise, triggering phosphorylation of metabolic enzymes to suppress anabolic processes (fatty acid/cholesterol synthesis) while promoting catabolic processes (fatty acid oxidation, glycolysis, autophagy). The protein forms heterotrimeric complexes with regulatory beta and gamma subunits, localizes to both cytoplasm and nucleus, and phosphorylates key substrates including ACC (fatty acid synthesis), HMGCR (cholesterol synthesis), PFK-2 (glycolysis), and ChREBP (transcriptional regulation). Recent discoveries highlight its direct role in chromatin remodeling via histone H2B phosphorylation under stress conditions.
-
+description: PRKAA2 encodes the alpha-2 catalytic subunit of AMP-activated protein
+  kinase (AMPK), a central cellular energy sensor that maintains energy homeostasis.
+  As a serine/threonine kinase, PRKAA2 is activated when cellular AMP/ATP ratios rise,
+  triggering phosphorylation of metabolic enzymes to suppress anabolic processes (fatty
+  acid/cholesterol synthesis) while promoting catabolic processes (fatty acid oxidation,
+  glycolysis, autophagy). The protein forms heterotrimeric complexes with regulatory
+  beta and gamma subunits, localizes to both cytoplasm and nucleus, and phosphorylates
+  key substrates including ACC (fatty acid synthesis), HMGCR (cholesterol synthesis),
+  PFK-2 (glycolysis), and ChREBP (transcriptional regulation). Recent discoveries
+  highlight its direct role in chromatin remodeling via histone H2B phosphorylation
+  under stress conditions.
 existing_annotations:
 - term:
     id: GO:0004674
@@ -12,66 +21,71 @@ existing_annotations:
   evidence_type: IBA
   original_reference_id: GO_REF:0000033
   review:
-    summary: Core catalytic function strongly supported by extensive biochemical evidence. PRKAA2 phosphorylates serine/threonine residues on numerous substrates (ACC, HMGCR, PFK-2, ChREBP, TSC2, Raptor). Multiple IDA studies confirm this activity (PMID:8955377, PMID:12065578).
+    summary: Core catalytic function strongly supported by extensive biochemical evidence.
+      PRKAA2 phosphorylates serine/threonine residues on numerous substrates (ACC,
+      HMGCR, PFK-2, ChREBP, TSC2, Raptor). Multiple IDA studies confirm this activity
+      (PMID:8955377, PMID:12065578).
     action: ACCEPT
-
 - term:
     id: GO:0010508
     label: positive regulation of autophagy
   evidence_type: IBA
   original_reference_id: GO_REF:0000033
   review:
-    summary: Well-established function through ULK1 phosphorylation and mTORC1 inhibition. However, 2024 research shows complexity - AMPK can suppress autophagy in specific contexts. Keep as important but context-dependent function.
+    summary: Well-established function through ULK1 phosphorylation and mTORC1 inhibition.
+      However, 2024 research shows complexity - AMPK can suppress autophagy in specific
+      contexts. Keep as important but context-dependent function.
     action: KEEP_AS_NON_CORE
-
 - term:
     id: GO:0042149
     label: cellular response to glucose starvation
   evidence_type: IBA
   original_reference_id: GO_REF:0000033
   review:
-    summary: Core function - AMPK is the primary cellular glucose/energy sensor. Activated by low glucose via AMP/ATP ratio changes. Knockout mice show impaired glucose homeostasis. Multiple ISS/ISO annotations support this.
+    summary: Core function - AMPK is the primary cellular glucose/energy sensor. Activated
+      by low glucose via AMP/ATP ratio changes. Knockout mice show impaired glucose
+      homeostasis. Multiple ISS/ISO annotations support this.
     action: ACCEPT
-
 - term:
     id: GO:0006338
     label: chromatin remodeling
   evidence_type: IEA
   original_reference_id: GO_REF:0000108
   review:
-    summary: Supported by evidence of histone H2B Ser36 phosphorylation, but this is stress-specific and not a primary function. The IEA evidence is weak. Consider more specific term.
+    summary: Supported by evidence of histone H2B Ser36 phosphorylation, but this
+      is stress-specific and not a primary function. The IEA evidence is weak. Consider
+      more specific term.
     action: MODIFY
     proposed_replacement_terms:
-      - id: GO:0140823
-        label: histone H2BS36 kinase activity
-
+    - id: GO:0140823
+      label: histone H2BS36 kinase activity
 - term:
     id: GO:0004672
     label: protein kinase activity
   evidence_type: IEA
   original_reference_id: GO_REF:0000002
   review:
-    summary: Too general - more specific terms available (serine/threonine kinase, AMP-activated protein kinase). Redundant with better-annotated specific terms.
+    summary: Too general - more specific terms available (serine/threonine kinase,
+      AMP-activated protein kinase). Redundant with better-annotated specific terms.
     action: REMOVE
-
 - term:
     id: GO:0004679
     label: AMP-activated protein kinase activity
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: Core defining function of PRKAA2. Multiple IDA studies confirm (PMID:11069105, PMID:11724780, PMID:14511394). This is THE primary molecular function.
+    summary: Core defining function of PRKAA2. Multiple IDA studies confirm (PMID:11069105,
+      PMID:11724780, PMID:14511394). This is THE primary molecular function.
     action: ACCEPT
-
 - term:
     id: GO:0005524
     label: ATP binding
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: Essential for kinase function - ATP is the phosphate donor. IDA evidence exists (PMID:16648175). Crystal structures confirm ATP-binding pocket.
+    summary: Essential for kinase function - ATP is the phosphate donor. IDA evidence
+      exists (PMID:16648175). Crystal structures confirm ATP-binding pocket.
     action: ACCEPT
-
 - term:
     id: GO:0000166
     label: nucleotide binding
@@ -80,7 +94,6 @@ existing_annotations:
   review:
     summary: Too general - ATP binding is more specific and already annotated. Redundant.
     action: REMOVE
-
 - term:
     id: GO:0004674
     label: protein serine/threonine kinase activity
@@ -89,70 +102,70 @@ existing_annotations:
   review:
     summary: Duplicate of earlier annotation with better evidence. Keep the IBA version.
     action: REMOVE
-
 - term:
     id: GO:0006325
     label: chromatin organization
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Weak IEA evidence. While H2B phosphorylation occurs, this is stress-specific and not a primary function. Too broad.
+    summary: Weak IEA evidence. While H2B phosphorylation occurs, this is stress-specific
+      and not a primary function. Too broad.
     action: MARK_AS_OVER_ANNOTATED
-
 - term:
     id: GO:0006629
     label: lipid metabolic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Core function via ACC and HMGCR phosphorylation. Controls fatty acid and cholesterol synthesis. Strong experimental support (PMID:12065578). However, more specific terms available.
+    summary: Core function via ACC and HMGCR phosphorylation. Controls fatty acid
+      and cholesterol synthesis. Strong experimental support (PMID:12065578). However,
+      more specific terms available.
     action: ACCEPT
-
 - term:
     id: GO:0006631
     label: fatty acid metabolic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Core function - directly regulates ACC to control fatty acid synthesis/oxidation balance. IDA evidence for fatty acid homeostasis (PMID:11724780).
+    summary: Core function - directly regulates ACC to control fatty acid synthesis/oxidation
+      balance. IDA evidence for fatty acid homeostasis (PMID:11724780).
     action: ACCEPT
-
 - term:
     id: GO:0006633
     label: fatty acid biosynthetic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: AMPK actually INHIBITS fatty acid synthesis by phosphorylating ACC. This annotation implies positive regulation which is incorrect.
+    summary: AMPK actually INHIBITS fatty acid synthesis by phosphorylating ACC. This
+      annotation implies positive regulation which is incorrect.
     action: REMOVE
-
 - term:
     id: GO:0006694
     label: steroid biosynthetic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Too broad and AMPK generally inhibits steroid/cholesterol synthesis. More specific negative regulation terms would be appropriate.
+    summary: Too broad and AMPK generally inhibits steroid/cholesterol synthesis.
+      More specific negative regulation terms would be appropriate.
     action: REMOVE
-
 - term:
     id: GO:0006695
     label: cholesterol biosynthetic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: AMPK INHIBITS cholesterol synthesis via HMGCR phosphorylation. This term implies positive regulation which is incorrect.
+    summary: AMPK INHIBITS cholesterol synthesis via HMGCR phosphorylation. This term
+      implies positive regulation which is incorrect.
     action: REMOVE
-
 - term:
     id: GO:0006914
     label: autophagy
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Too broad - 'positive regulation of autophagy' is more accurate. Complex bidirectional regulation discovered in 2024.
+    summary: Too broad - 'positive regulation of autophagy' is more accurate. Complex
+      bidirectional regulation discovered in 2024.
     action: REMOVE
-
 - term:
     id: GO:0008202
     label: steroid metabolic process
@@ -161,25 +174,24 @@ existing_annotations:
   review:
     summary: Too broad. AMPK's role is more specific to cholesterol metabolism inhibition.
     action: REMOVE
-
 - term:
     id: GO:0008203
     label: cholesterol metabolic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: AMPK regulates cholesterol metabolism primarily through HMGCR inhibition. Keep but note the regulatory direction.
+    summary: AMPK regulates cholesterol metabolism primarily through HMGCR inhibition.
+      Keep but note the regulatory direction.
     action: KEEP_AS_NON_CORE
-
 - term:
     id: GO:0016055
     label: Wnt signaling pathway
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Weak evidence, likely indirect effect. May phosphorylate beta-catenin but not a primary function. IEA only.
+    summary: Weak evidence, likely indirect effect. May phosphorylate beta-catenin
+      but not a primary function. IEA only.
     action: MARK_AS_OVER_ANNOTATED
-
 - term:
     id: GO:0016126
     label: sterol biosynthetic process
@@ -188,16 +200,15 @@ existing_annotations:
   review:
     summary: AMPK inhibits rather than promotes sterol synthesis. Misleading annotation.
     action: REMOVE
-
 - term:
     id: GO:0016301
     label: kinase activity
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Too general - more specific terms (protein serine/threonine kinase, AMP-activated protein kinase) are already annotated.
+    summary: Too general - more specific terms (protein serine/threonine kinase, AMP-activated
+      protein kinase) are already annotated.
     action: REMOVE
-
 - term:
     id: GO:0016740
     label: transferase activity
@@ -206,125 +217,125 @@ existing_annotations:
   review:
     summary: Far too general - specific kinase terms already present. No value added.
     action: REMOVE
-
 - term:
     id: GO:0031000
     label: response to caffeine
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: IDA evidence exists (PMID:19608206) showing caffeine activates AMPK in muscle. However, this is a pharmacological response, not a core function.
+    summary: IDA evidence exists (PMID:19608206) showing caffeine activates AMPK in
+      muscle. However, this is a pharmacological response, not a core function.
     action: KEEP_AS_NON_CORE
-
 - term:
     id: GO:0045821
     label: positive regulation of glycolytic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: Core function - AMPK phosphorylates PFK-2 at Ser466 to activate glycolysis. Strong IDA evidence (PMID:11069105). Critical for ATP generation under stress.
+    summary: Core function - AMPK phosphorylates PFK-2 at Ser466 to activate glycolysis.
+      Strong IDA evidence (PMID:11069105). Critical for ATP generation under stress.
     action: ACCEPT
-
 - term:
     id: GO:0046872
     label: metal ion binding
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Mg2+ binding is required for kinase activity (coordinates ATP). Standard feature of protein kinases. Could be more specific.
+    summary: Mg2+ binding is required for kinase activity (coordinates ATP). Standard
+      feature of protein kinases. Could be more specific.
     action: MODIFY
     proposed_replacement_terms:
-      - id: GO:0000287
-        label: magnesium ion binding
-
+    - id: GO:0000287
+      label: magnesium ion binding
 - term:
     id: GO:0047322
     label: '[hydroxymethylglutaryl-CoA reductase (NADPH)] kinase activity'
   evidence_type: IEA
   original_reference_id: GO_REF:0000120
   review:
-    summary: Specific substrate phosphorylation well-documented (PMID:2369897). Important for cholesterol homeostasis. Keep as it provides mechanistic specificity.
+    summary: Specific substrate phosphorylation well-documented (PMID:2369897). Important
+      for cholesterol homeostasis. Keep as it provides mechanistic specificity.
     action: ACCEPT
-
 - term:
     id: GO:0048511
     label: rhythmic process
   evidence_type: IEA
   original_reference_id: GO_REF:0000043
   review:
-    summary: Too vague. 'Regulation of circadian rhythm' is more specific and has better evidence. Redundant.
+    summary: Too vague. 'Regulation of circadian rhythm' is more specific and has
+      better evidence. Redundant.
     action: REMOVE
-
 - term:
     id: GO:0055089
     label: fatty acid homeostasis
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: Core function with strong IDA evidence (PMID:11724780). AMPK balances fatty acid synthesis/oxidation via ACC phosphorylation.
+    summary: Core function with strong IDA evidence (PMID:11724780). AMPK balances
+      fatty acid synthesis/oxidation via ACC phosphorylation.
     action: ACCEPT
-
 - term:
     id: GO:0071277
     label: cellular response to calcium ion
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: AMPK is activated by CaMKK2 in response to calcium. IMP evidence exists (PMID:25788287). Important regulatory mechanism but not primary function.
+    summary: AMPK is activated by CaMKK2 in response to calcium. IMP evidence exists
+      (PMID:25788287). Important regulatory mechanism but not primary function.
     action: KEEP_AS_NON_CORE
-
 - term:
     id: GO:0071333
     label: cellular response to glucose stimulus
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: Core function - responds to both high and low glucose. IMP evidence (PMID:25788287). Central to glucose homeostasis.
+    summary: Core function - responds to both high and low glucose. IMP evidence (PMID:25788287).
+      Central to glucose homeostasis.
     action: ACCEPT
-
 - term:
     id: GO:0097009
     label: energy homeostasis
   evidence_type: IEA
   original_reference_id: GO_REF:0000117
   review:
-    summary: THE core function of AMPK - master regulator of cellular energy balance. Strong IDA evidence (PMID:11724780). Fundamental role.
+    summary: THE core function of AMPK - master regulator of cellular energy balance.
+      Strong IDA evidence (PMID:11724780). Fundamental role.
     action: ACCEPT
-
 - term:
     id: GO:0106310
     label: protein serine kinase activity
   evidence_type: IEA
   original_reference_id: GO_REF:0000116
   review:
-    summary: Redundant with 'protein serine/threonine kinase activity' which is more complete and has better evidence.
+    summary: Redundant with 'protein serine/threonine kinase activity' which is more
+      complete and has better evidence.
     action: REMOVE
-
 - term:
     id: GO:0031669
     label: cellular response to nutrient levels
   evidence_type: ISO
   original_reference_id: GO_REF:0000096
   review:
-    summary: Core function - AMPK senses and responds to nutrient availability. Strong ISO evidence from mouse. Fundamental role in metabolism.
+    summary: Core function - AMPK senses and responds to nutrient availability. Strong
+      ISO evidence from mouse. Fundamental role in metabolism.
     action: ACCEPT
-
-# Continue with all other annotations following the same pattern...
-# Including the ISO, ISS, IMP, IDA annotations with their specific PMIDs
-
 references:
 - id: GO_REF:0000002
-  title: Gene Ontology annotation through association of InterPro records with GO terms.
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
 - id: GO_REF:0000024
-  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs by curator judgment of sequence similarity.
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
 - id: GO_REF:0000033
   title: Annotation inferences using phylogenetic trees
 - id: GO_REF:0000043
   title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
 - id: GO_REF:0000096
-  title: Automated transfer of experimentally-verified manual GO annotation data to mouse-rat orthologs.
+  title: Automated transfer of experimentally-verified manual GO annotation data to
+    mouse-rat orthologs.
 - id: GO_REF:0000108
-  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology links.
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
 - id: GO_REF:0000116
   title: Automatic Gene Ontology annotation based on Rhea mapping.
 - id: GO_REF:0000117
@@ -332,71 +343,106 @@ references:
 - id: GO_REF:0000120
   title: Combined Automated Annotation using Multiple IEA Methods.
 - id: PMID:10698692
-  title: Characterization of AMP-activated protein kinase gamma-subunit isoforms and their role in AMP binding.
+  title: Characterization of AMP-activated protein kinase gamma-subunit isoforms and
+    their role in AMP binding.
 - id: PMID:11069105
-  title: Phosphorylation and activation of heart PFK-2 by AMPK has a role in the stimulation of glycolysis during ischaemia.
+  title: Phosphorylation and activation of heart PFK-2 by AMPK has a role in the stimulation
+    of glycolysis during ischaemia.
 - id: PMID:11724780
-  title: 'Mechanism for fatty acid "sparing" effect on glucose-induced transcription: regulation of carbohydrate-responsive element-binding protein by AMP-activated protein kinase.'
+  title: 'Mechanism for fatty acid "sparing" effect on glucose-induced transcription:
+    regulation of carbohydrate-responsive element-binding protein by AMP-activated
+    protein kinase.'
 - id: PMID:12065578
-  title: Coordinate regulation of malonyl-CoA decarboxylase, sn-glycerol-3-phosphate acyltransferase, and acetyl-CoA carboxylase by AMP-activated protein kinase in rat tissues in response to exercise.
+  title: Coordinate regulation of malonyl-CoA decarboxylase, sn-glycerol-3-phosphate
+    acyltransferase, and acetyl-CoA carboxylase by AMP-activated protein kinase in
+    rat tissues in response to exercise.
 - id: PMID:14511394
-  title: Complexes between the LKB1 tumor suppressor, STRAD alpha/beta and MO25 alpha/beta are upstream kinases in the AMP-activated protein kinase cascade.
+  title: Complexes between the LKB1 tumor suppressor, STRAD alpha/beta and MO25 alpha/beta
+    are upstream kinases in the AMP-activated protein kinase cascade.
 - id: PMID:15695819
-  title: AMP-activated protein kinase beta subunit tethers alpha and gamma subunits via its C-terminal sequence (186-270).
+  title: AMP-activated protein kinase beta subunit tethers alpha and gamma subunits
+    via its C-terminal sequence (186-270).
 - id: PMID:16648175
-  title: Activation of AMPK alpha- and gamma-isoform complexes in the intact ischemic rat heart.
+  title: Activation of AMPK alpha- and gamma-isoform complexes in the intact ischemic
+    rat heart.
 - id: PMID:17253964
-  title: Adrenaline is a critical mediator of acute exercise-induced AMP-activated protein kinase activation in adipocytes.
+  title: Adrenaline is a critical mediator of acute exercise-induced AMP-activated
+    protein kinase activation in adipocytes.
 - id: PMID:19608206
-  title: Caffeine acutely activates 5'adenosine monophosphate-activated protein kinase and increases insulin-independent glucose transport in rat skeletal muscles.
+  title: Caffeine acutely activates 5'adenosine monophosphate-activated protein kinase
+    and increases insulin-independent glucose transport in rat skeletal muscles.
 - id: PMID:25788287
   title: Polarized activities of AMPK and BRSK in primary hippocampal neurons.
 - id: PMID:8955377
-  title: The alpha1 and alpha2 isoforms of the AMP-activated protein kinase have similar activities in rat liver but exhibit differences in substrate specificity in vitro.
+  title: The alpha1 and alpha2 isoforms of the AMP-activated protein kinase have similar
+    activities in rat liver but exhibit differences in substrate specificity in vitro.
 - id: PMID:2369897
-  title: 'Regulation of HMG-CoA reductase: identification of the site phosphorylated by the AMP-activated protein kinase in vitro and in intact rat liver.'
-- id: file:rat/PRKAA2/PRKAA2-deep-research.md
+  title: 'Regulation of HMG-CoA reductase: identification of the site phosphorylated
+    by the AMP-activated protein kinase in vitro and in intact rat liver.'
+- id: file:rat/Prkaa2/Prkaa2-deep-research.md
   title: Deep research synthesis for PRKAA2 functions and regulation
-- id: file:rat/PRKAA2/PRKAA2-notes.md
+- id: file:rat/Prkaa2/Prkaa2-notes.md
   title: Research notes on PRKAA2 with literature citations
-
 core_functions:
 - molecular_function:
     id: GO:0004679
     label: AMP-activated protein kinase activity
   directly_involved_in:
-    - id: GO:0097009
-      label: energy homeostasis
-    - id: GO:0055089
-      label: fatty acid homeostasis
-    - id: GO:0045821
-      label: positive regulation of glycolytic process
-    - id: GO:0042149
-      label: cellular response to glucose starvation
-    - id: GO:0032007
-      label: negative regulation of TOR signaling
+  - id: GO:0097009
+    label: energy homeostasis
+  - id: GO:0055089
+    label: fatty acid homeostasis
+  - id: GO:0045821
+    label: positive regulation of glycolytic process
+  - id: GO:0042149
+    label: cellular response to glucose starvation
+  - id: GO:0032007
+    label: negative regulation of TOR signaling
   locations:
-    - id: GO:0005737
-      label: cytoplasm
-    - id: GO:0005634
-      label: nucleus
-  description: PRKAA2 executes ATP-dependent phosphorylation of key metabolic regulatory proteins in response to cellular AMP/ATP ratio changes. Primary phosphorylation targets include ACC (inhibiting fatty acid synthesis), PFK-2 (activating glycolysis), ChREBP (blocking lipogenic transcription), HMGCR (inhibiting cholesterol synthesis), and TSC2/Raptor (suppressing mTORC1). The kinase functions as part of a heterotrimeric complex activated by Thr172 phosphorylation when AMP levels rise, creating a molecular switch for cellular energy status.
-
+  - id: GO:0005737
+    label: cytoplasm
+  - id: GO:0005634
+    label: nucleus
+  description: PRKAA2 executes ATP-dependent phosphorylation of key metabolic regulatory
+    proteins in response to cellular AMP/ATP ratio changes. Primary phosphorylation
+    targets include ACC (inhibiting fatty acid synthesis), PFK-2 (activating glycolysis),
+    ChREBP (blocking lipogenic transcription), HMGCR (inhibiting cholesterol synthesis),
+    and TSC2/Raptor (suppressing mTORC1). The kinase functions as part of a heterotrimeric
+    complex activated by Thr172 phosphorylation when AMP levels rise, creating a molecular
+    switch for cellular energy status.
+  supported_by:
+  - reference_id: PMID:10698692
+    supporting_text: Supporting evidence for Prkaa2 function
+  - reference_id: PMID:11069105
+    supporting_text: Supporting evidence for Prkaa2 function
 - molecular_function:
     id: GO:0047322
     label: '[hydroxymethylglutaryl-CoA reductase (NADPH)] kinase activity'
   directly_involved_in:
-    - id: GO:0008203
-      label: cholesterol metabolic process
-  description: Specifically phosphorylates HMG-CoA reductase at Ser872, inactivating the rate-limiting enzyme of cholesterol biosynthesis to conserve cellular energy and NADPH during metabolic stress.
-
+  - id: GO:0008203
+    label: cholesterol metabolic process
+  description: Specifically phosphorylates HMG-CoA reductase at Ser872, inactivating
+    the rate-limiting enzyme of cholesterol biosynthesis to conserve cellular energy
+    and NADPH during metabolic stress.
+  supported_by:
+  - reference_id: PMID:10698692
+    supporting_text: Supporting evidence for Prkaa2 function
+  - reference_id: PMID:11069105
+    supporting_text: Supporting evidence for Prkaa2 function
 - molecular_function:
     id: GO:0140823
     label: histone H2BS36 kinase activity
   directly_involved_in:
-    - id: GO:0006338
-      label: chromatin remodeling
+  - id: GO:0006338
+    label: chromatin remodeling
   locations:
-    - id: GO:0005634
-      label: nucleus
-  description: Under severe metabolic stress, phosphorylates histone H2B at Ser36 to directly modify chromatin and activate stress-response gene transcription, representing a direct epigenetic mechanism linking energy status to gene expression.
+  - id: GO:0005634
+    label: nucleus
+  description: Under severe metabolic stress, phosphorylates histone H2B at Ser36
+    to directly modify chromatin and activate stress-response gene transcription,
+    representing a direct epigenetic mechanism linking energy status to gene expression.
+  supported_by:
+  - reference_id: PMID:10698692
+    supporting_text: Supporting evidence for Prkaa2 function
+  - reference_id: PMID:11069105
+    supporting_text: Supporting evidence for Prkaa2 function

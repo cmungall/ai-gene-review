@@ -1,0 +1,42 @@
+{
+  "protein": "MTC7_YEAST",
+  "protein_length": 139,
+  "secondary_structure": {
+    "helix_percentage": 18.65671641791045,
+    "sheet_percentage": 42.53731343283582,
+    "coil_percentage": 38.80597014925373
+  },
+  "disordered_regions": [
+    [
+      96,
+      119
+    ]
+  ],
+  "tm_helix_properties": [
+    {
+      "region": "13-33",
+      "sequence": "SHHVLFAEPGFFLCNFFFVLL",
+      "avg_hydrophobicity": 0.5976190476190476,
+      "aromatic_at_interfaces": 0,
+      "n_flank_positive": 0,
+      "c_flank_positive": 1,
+      "follows_positive_inside": true
+    },
+    {
+      "region": "42-62",
+      "sequence": "FYFLFILLFIIYIAIIYFVFI",
+      "avg_hydrophobicity": 1.0695238095238095,
+      "aromatic_at_interfaces": 4,
+      "n_flank_positive": 0,
+      "c_flank_positive": 1,
+      "follows_positive_inside": true
+    }
+  ],
+  "alphafold_structure": {
+    "available": true,
+    "accession": "AF-P32633-F1",
+    "url": "https://alphafold.ebi.ac.uk/entry/P32633",
+    "confidence_version": "Unknown",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-P32633-F1-model_v4.pdb"
+  }
+}

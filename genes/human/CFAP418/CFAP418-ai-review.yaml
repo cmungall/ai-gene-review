@@ -1,0 +1,206 @@
+id: Q96NL8
+gene_symbol: CFAP418
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: CFAP418 (C8orf37) is a ciliary scaffolding protein localized at the photoreceptor connecting cilium base that is essential for photoreceptor outer segment disc morphogenesis and organization. It forms a protein complex with FAM161A at the ciliary base, contributing to photoreceptor structural integrity and survival. Mutations cause retinal dystrophies including cone-rod dystrophy 16 (CORD16), retinitis pigmentosa 64 (RP64), and Bardet-Biedl syndrome 21 (BBS21).
+existing_annotations:
+- term:
+    id: GO:0001917
+    label: photoreceptor inner segment
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: This IEA annotation is supported by experimental evidence. CFAP418 is enriched at the photoreceptor inner segment, particularly at the connecting cilium base between inner and outer segments as shown by immunohistochemistry in both mouse (PMID:22177090) and marmoset retina (PMID:36233334). The protein is present throughout the inner segment but concentrated at the ciliary base.
+    action: ACCEPT
+    reason: PMID:22177090 and PMID:36233334 provide direct immunohistochemical evidence for CFAP418 localization at the photoreceptor inner segment, with particular enrichment at the connecting cilium base.
+    supported_by:
+    - reference_id: PMID:22177090
+      supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+      reference_section_type: RESULTS
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This automated annotation is overly general. While CFAP418 is cytoplasmic (non-membrane bound), the more specific localization to the ciliary base (GO:0097546) better represents its functional localization. The cytoplasm term doesn't capture the protein's specialized ciliary localization.
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0097546
+        label: ciliary base
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:27173435
+  review:
+    summary: While this IPI evidence is valid (PMID:27173435 is a large-scale protein interaction study), the generic 'protein binding' term is uninformative about CFAP418's actual molecular function. The protein functions as a ciliary scaffold that specifically binds FAM161A and potentially other ciliary proteins. A more specific term like 'scaffold protein binding' (GO:0097110) would better represent its molecular function.
+    action: MODIFY
+    reason: PMID:27173435 provides broad protein interaction data, but CFAP418 specifically functions as a ciliary scaffolding protein. The more specific scaffold protein binding term better captures its molecular role.
+    proposed_replacement_terms:
+      - id: GO:0097110
+        label: scaffold protein binding
+    supported_by:
+    - reference_id: PMID:27173435
+      supporting_text: "An organelle-specific protein landscape identifies novel diseases and molecular mechanisms"
+      reference_section_type: RESULTS
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:36233334
+  review:
+    summary: This IPI evidence from PMID:36233334 specifically demonstrates CFAP418-FAM161A interaction via Y2H, co-IP, and proximity ligation assays. The N-terminus of CFAP418 (aa 1-75) interacts with FAM161A's UPF0564 domain (aa 341-517). However, 'protein binding' is too generic - this should be annotated with a more specific molecular function reflecting its scaffolding role at the ciliary base.
+    action: MODIFY
+    reason: PMID:36233334 provides strong experimental evidence for direct CFAP418-FAM161A interaction through multiple biochemical assays, demonstrating CFAP418's role as a ciliary scaffold protein. Bioinformatics analysis reveals extensive coiled-coil regions (positions 0-259, 273-315, 350-441) supporting its scaffolding function.
+    proposed_replacement_terms:
+      - id: GO:0097110
+        label: scaffold protein binding
+    supported_by:
+    - reference_id: PMID:36233334
+      supporting_text: "Interactions between C8orf37 and FAM161A, Two Ciliary Proteins Essential for Photoreceptor Survival"
+      reference_section_type: RESULTS
+- term:
+    id: GO:0001917
+    label: photoreceptor inner segment
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: This ISS annotation (inferred from sequence similarity) is correct and supported by direct experimental evidence. Multiple studies confirm CFAP418 localization to the photoreceptor inner segment, particularly at the connecting cilium base. This represents a core localization for the protein's function.
+    action: ACCEPT
+- term:
+    id: GO:0008594
+    label: photoreceptor cell morphogenesis
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: This ISS annotation is supported by strong experimental evidence. CFAP418 knockout mice show severely disorganized photoreceptor outer segment discs from early postnatal development, demonstrating its requirement for proper photoreceptor morphogenesis. The more specific process 'photoreceptor cell outer segment organization' (GO:0035845) would better capture its primary role in outer segment disc formation.
+    action: MODIFY
+    reason: PMID:22177090 demonstrated that CFAP418 knockout mice exhibit severe photoreceptor outer segment defects with disorganized disc morphology, indicating a specific role in outer segment organization rather than general morphogenesis.
+    proposed_replacement_terms:
+      - id: GO:0035845
+        label: photoreceptor cell outer segment organization
+    supported_by:
+    - reference_id: PMID:22177090
+      supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells"
+      reference_section_type: RESULTS
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IDA
+  original_reference_id: PMID:22177090
+  review:
+    summary: While PMID:22177090 does show cytoplasmic localization via IDA, this is overly general. The same paper specifically demonstrates localization at the ciliary base using immunohistochemistry. The ciliary base annotation (GO:0097546) from the same paper is more informative and specific.
+    action: REMOVE
+- term:
+    id: GO:0097546
+    label: ciliary base
+  evidence_type: IDA
+  original_reference_id: PMID:22177090
+  review:
+    summary: Excellent annotation with strong IDA evidence. PMID:22177090 shows via immunohistochemistry that CFAP418 localizes at the base of primary cilia in RPE cells and at the base of connecting cilia in mouse photoreceptors. This is a core localization essential for CFAP418's function in photoreceptor maintenance and represents its primary functional compartment.
+    action: ACCEPT
+    reason: PMID:22177090 provides definitive immunohistochemical evidence for CFAP418 localization at ciliary bases in both RPE cells and photoreceptors, establishing this as the protein's primary functional compartment.
+    supported_by:
+    - reference_id: PMID:22177090
+      supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+      reference_section_type: RESULTS
+references:
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:22177090
+  title: Mutations in C8orf37, encoding a ciliary protein, are associated with autosomal-recessive
+    retinal dystrophies with early macular involvement.
+  findings:
+  - statement: CFAP418 mutations cause autosomal recessive retinal dystrophies
+    supporting_text: "C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+  - statement: CFAP418 localizes specifically to ciliary bases in retinal cells
+    supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+  - statement: CFAP418 mutations cause cone-rod dystrophy and retinitis pigmentosa
+    supporting_text: "Clinical assessment revealed CRD in four individuals and RP with early macular involvement in two individuals"
+- id: PMID:27173435
+  title: An organelle-specific protein landscape identifies novel diseases and molecular
+    mechanisms.
+  findings: []
+- id: PMID:36233334
+  title: Interactions between C8orf37 and FAM161A, Two Ciliary Proteins Essential
+    for Photoreceptor Survival.
+  findings: []
+- id: file:human/CFAP418/CFAP418-bioinformatics/RESULTS.md
+  title: CFAP418 Bioinformatics Analysis Results
+  findings:
+  - statement: CFAP418 contains extensive coiled-coil regions supporting scaffolding function
+    supporting_text: "Major coiled-coil domain spanning positions 0-259 (high confidence) with additional regions at positions 273-315 and 350-441, consistent with protein-protein interaction and structural roles"
+  - statement: Multiple protein interaction domains predicted including WD40 and TPR-like motifs
+    supporting_text: "4 potential WD40-like repeat patterns detected, 6 potential TPR-like motifs identified"
+  - statement: Ciliary localization features detected consistent with CFAP family proteins
+    supporting_text: "3 VxPx-like motifs detected, pattern consistent with ciliary/flagellar localization (CFAP family)"
+  - statement: Basic protein with elevated serine content suggesting phosphorylation regulation
+    supporting_text: "Theoretical pI: Basic (>7.0), Serine content: 8.4% (elevated, potential phosphorylation sites)"
+core_functions:
+- description: Scaffolds protein complexes at photoreceptor connecting cilium base to organize ciliary trafficking machinery
+  molecular_function:
+    id: GO:0097110
+    label: scaffold protein binding
+  supported_by:
+  - reference_id: PMID:22177090
+    supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+  - reference_id: PMID:36233334
+    supporting_text: "Interactions between C8orf37 and FAM161A, Two Ciliary Proteins Essential for Photoreceptor Survival"
+  - reference_id: file:human/CFAP418/CFAP418-bioinformatics/RESULTS.md
+    supporting_text: "Major coiled-coil domain spanning positions 0-259 with additional regions at 273-315 and 350-441, consistent with protein-protein interaction and structural roles"
+  directly_involved_in:
+  - id: GO:0035845
+    label: photoreceptor cell outer segment organization
+  - id: GO:0030030
+    label: cell projection organization
+  locations:
+  - id: GO:0097546
+    label: ciliary base
+  - id: GO:0001917
+    label: photoreceptor inner segment
+- description: Organizes FAM161A-containing protein complex essential for photoreceptor outer segment disc morphogenesis
+  molecular_function:
+    id: GO:0097110
+    label: scaffold protein binding
+  supported_by:
+  - reference_id: PMID:36233334
+    supporting_text: "Interactions between C8orf37 and FAM161A, Two Ciliary Proteins Essential for Photoreceptor Survival"
+  - reference_id: PMID:22177090
+    supporting_text: "Clinical assessment revealed CRD in four individuals and RP with early macular involvement in two individuals"
+  directly_involved_in:
+  - id: GO:0008594
+    label: photoreceptor cell morphogenesis
+  - id: GO:0001754
+    label: eye photoreceptor cell differentiation
+  locations:
+  - id: GO:0097546
+    label: ciliary base
+- description: Mediates ciliary trafficking required for photoreceptor outer segment protein transport and maintenance
+  molecular_function:
+    id: GO:0097110
+    label: scaffold protein binding
+  supported_by:
+  - reference_id: PMID:22177090
+    supporting_text: "Immunohistochemical studies revealed C8orf37 localization at the base of the primary cilium of human retinal pigment epithelium cells and at the base of connecting cilia of mouse photoreceptors"
+  - reference_id: file:human/CFAP418/CFAP418-bioinformatics/RESULTS.md
+    supporting_text: "Major coiled-coil domain spanning positions 0-259 with additional regions at 273-315 and 350-441, consistent with protein-protein interaction and structural roles"
+  directly_involved_in:
+  - id: GO:0042073
+    label: intraciliary transport
+  - id: GO:0035845
+    label: photoreceptor cell outer segment organization
+  locations:
+  - id: GO:0097546
+    label: ciliary base

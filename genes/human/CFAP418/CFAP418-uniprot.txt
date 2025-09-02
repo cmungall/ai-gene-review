@@ -1,0 +1,280 @@
+ID   CF418_HUMAN             Reviewed;         207 AA.
+AC   Q96NL8; F4Y588;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   18-JUN-2025, entry version 138.
+DE   RecName: Full=Cilia- and flagella-associated protein 418 {ECO:0000312|HGNC:HGNC:27232};
+GN   Name=CFAP418 {ECO:0000312|HGNC:HGNC:27232};
+GN   Synonyms=C8orf37, smalltalk;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Clarke R.A., Zhao Z., Fang Z.M.;
+RT   "The smalltalk gene overlaps the 5' end of the tospeak gene implicated in
+RT   vocal development.";
+RL   Submitted (JUN-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16421571; DOI=10.1038/nature04406;
+RA   Nusbaum C., Mikkelsen T.S., Zody M.C., Asakawa S., Taudien S., Garber M.,
+RA   Kodira C.D., Schueler M.G., Shimizu A., Whittaker C.A., Chang J.L.,
+RA   Cuomo C.A., Dewar K., FitzGerald M.G., Yang X., Allen N.R., Anderson S.,
+RA   Asakawa T., Blechschmidt K., Bloom T., Borowsky M.L., Butler J., Cook A.,
+RA   Corum B., DeArellano K., DeCaprio D., Dooley K.T., Dorris L. III,
+RA   Engels R., Gloeckner G., Hafez N., Hagopian D.S., Hall J.L., Ishikawa S.K.,
+RA   Jaffe D.B., Kamat A., Kudoh J., Lehmann R., Lokitsang T., Macdonald P.,
+RA   Major J.E., Matthews C.D., Mauceli E., Menzel U., Mihalev A.H.,
+RA   Minoshima S., Murayama Y., Naylor J.W., Nicol R., Nguyen C., O'Leary S.B.,
+RA   O'Neill K., Parker S.C.J., Polley A., Raymond C.K., Reichwald K.,
+RA   Rodriguez J., Sasaki T., Schilhabel M., Siddiqui R., Smith C.L.,
+RA   Sneddon T.P., Talamas J.A., Tenzin P., Topham K., Venkataraman V., Wen G.,
+RA   Yamazaki S., Young S.K., Zeng Q., Zimmer A.R., Rosenthal A., Birren B.W.,
+RA   Platzer M., Shimizu N., Lander E.S.;
+RT   "DNA sequence and analysis of human chromosome 8.";
+RL   Nature 439:331-335(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   INVOLVEMENT IN CORD16, INVOLVEMENT IN RP64, VARIANT CORD16 TRP-177, VARIANT
+RP   RP64 ARG-182, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=22177090; DOI=10.1016/j.ajhg.2011.11.015;
+RA   Estrada-Cuzcano A., Neveling K., Kohl S., Banin E., Rotenstreich Y.,
+RA   Sharon D., Falik-Zaccai T.C., Hipp S., Roepman R., Wissinger B.,
+RA   Letteboer S.J., Mans D.A., Blokland E.A., Kwint M.P., Gijsen S.J.,
+RA   van Huet R.A., Collin R.W., Scheffer H., Veltman J.A., Zrenner E.,
+RA   den Hollander A.I., Klevering B.J., Cremers F.P.;
+RT   "Mutations in C8orf37, encoding a ciliary protein, are associated with
+RT   autosomal-recessive retinal dystrophies with early macular involvement.";
+RL   Am. J. Hum. Genet. 90:102-109(2012).
+RN   [6]
+RP   INVOLVEMENT IN BBS21, AND VARIANT BBS21 TRP-177.
+RX   PubMed=26854863; DOI=10.3109/13816810.2015.1066830;
+RA   Khan A.O., Decker E., Bachmann N., Bolz H.J., Bergmann C.;
+RT   "C8orf37 is mutated in Bardet-Biedl syndrome and constitutes a locus
+RT   allelic to non-syndromic retinal dystrophies.";
+RL   Ophthalmic Genet. 37:290-293(2016).
+RN   [7]
+RP   INVOLVEMENT IN BBS21.
+RX   PubMed=27008867; DOI=10.1093/hmg/ddw096;
+RA   Heon E., Kim G., Qin S., Garrison J.E., Tavares E., Vincent A.,
+RA   Nuangchamnong N., Scott C.A., Slusarski D.C., Sheffield V.C.;
+RT   "Mutations in C8ORF37 cause Bardet Biedl syndrome (BBS21).";
+RL   Hum. Mol. Genet. 25:2283-2294(2016).
+RN   [8]
+RP   CHARACTERIZATION OF VARIANTS CORD16/BBS21 TRP-177 AND RP64 TRP-182, AND
+RP   INTERACTION WITH FAM161A.
+RX   PubMed=36233334; DOI=10.3390/ijms231912033;
+RA   Liu Y., Chen J., Sager R., Sasaki E., Hu H.;
+RT   "Interactions between C8orf37 and FAM161A, Two Ciliary Proteins Essential
+RT   for Photoreceptor Survival.";
+RL   Int. J. Mol. Sci. 23:12033-12033(2022).
+CC   -!- FUNCTION: May be involved in photoreceptor outer segment disk
+CC       morphogenesis (By similarity). {ECO:0000250|UniProtKB:Q3UJP5}.
+CC   -!- SUBUNIT: Interacts (via N-terminus) with FAM161A (via central region);
+CC       the interaction is direct. {ECO:0000269|PubMed:36233334}.
+CC   -!- INTERACTION:
+CC       Q96NL8; P04632: CAPNS1; NbExp=2; IntAct=EBI-11904873, EBI-711828;
+CC       Q96NL8; Q3B820: FAM161A; NbExp=5; IntAct=EBI-11904873, EBI-719941;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q3UJP5}.
+CC       Photoreceptor inner segment {ECO:0000250|UniProtKB:Q3UJP5}. Note=In the
+CC       retina, located at the base of the primary cilium (PubMed:22177090).
+CC       Expressed throughout photoreceptors cell body including the basal body,
+CC       inner segment and synaptic terminus, but not in the outer segment.
+CC       {ECO:0000250|UniProtKB:Q3UJP5, ECO:0000269|PubMed:22177090}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed, with highest levels in heart and
+CC       brain. Also expressed in the retina (at protein level).
+CC       {ECO:0000269|PubMed:22177090}.
+CC   -!- DISEASE: Cone-rod dystrophy 16 (CORD16) [MIM:614500]: An inherited
+CC       retinal dystrophy characterized by retinal pigment deposits visible on
+CC       fundus examination, predominantly in the macular region, and initial
+CC       loss of cone photoreceptors followed by rod degeneration. This leads to
+CC       decreased visual acuity and sensitivity in the central visual field,
+CC       followed by loss of peripheral vision. Severe loss of vision occurs
+CC       earlier than in retinitis pigmentosa, due to cone photoreceptors
+CC       degenerating at a higher rate than rod photoreceptors.
+CC       {ECO:0000269|PubMed:22177090, ECO:0000269|PubMed:36233334}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Retinitis pigmentosa 64 (RP64) [MIM:614500]: A retinal
+CC       dystrophy belonging to the group of pigmentary retinopathies. Retinitis
+CC       pigmentosa is characterized by retinal pigment deposits visible on
+CC       fundus examination and primary loss of rod photoreceptor cells followed
+CC       by secondary loss of cone photoreceptors. Patients typically have night
+CC       vision blindness and loss of midperipheral visual field. As their
+CC       condition progresses, they lose their far peripheral visual field and
+CC       eventually central vision as well. {ECO:0000269|PubMed:22177090,
+CC       ECO:0000269|PubMed:36233334}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry.
+CC   -!- DISEASE: Bardet-Biedl syndrome 21 (BBS21) [MIM:617406]: A form of
+CC       Bardet-Biedl syndrome, a syndrome characterized by usually severe
+CC       pigmentary retinopathy, early-onset obesity, polydactyly,
+CC       hypogenitalism, renal malformation and intellectual disability.
+CC       Secondary features include diabetes mellitus, hypertension and
+CC       congenital heart disease. Bardet-Biedl syndrome inheritance is
+CC       autosomal recessive, but three mutated alleles (two at one locus, and a
+CC       third at a second locus) may be required for clinical manifestation of
+CC       some forms of the disease. {ECO:0000269|PubMed:26854863,
+CC       ECO:0000269|PubMed:27008867, ECO:0000269|PubMed:36233334}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK055162; BAB70866.1; -; mRNA.
+DR   EMBL; GQ240139; ADE62519.1; -; mRNA.
+DR   EMBL; AP003466; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC024995; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471060; EAW91744.1; -; Genomic_DNA.
+DR   EMBL; CH471060; EAW91745.1; -; Genomic_DNA.
+DR   CCDS; CCDS6268.1; -.
+DR   RefSeq; NP_808880.1; NM_177965.4.
+DR   AlphaFoldDB; Q96NL8; -.
+DR   BioGRID; 127610; 7.
+DR   FunCoup; Q96NL8; 394.
+DR   IntAct; Q96NL8; 28.
+DR   STRING; 9606.ENSP00000286688; -.
+DR   iPTMnet; Q96NL8; -.
+DR   PhosphoSitePlus; Q96NL8; -.
+DR   BioMuta; C8orf37; -.
+DR   DMDM; 74732592; -.
+DR   jPOST; Q96NL8; -.
+DR   MassIVE; Q96NL8; -.
+DR   PaxDb; 9606-ENSP00000286688; -.
+DR   PeptideAtlas; Q96NL8; -.
+DR   ProteomicsDB; 77536; -.
+DR   Pumba; Q96NL8; -.
+DR   Antibodypedia; 12959; 40 antibodies from 8 providers.
+DR   DNASU; 157657; -.
+DR   Ensembl; ENST00000286688.6; ENSP00000286688.5; ENSG00000156172.6.
+DR   GeneID; 157657; -.
+DR   KEGG; hsa:157657; -.
+DR   MANE-Select; ENST00000286688.6; ENSP00000286688.5; NM_177965.4; NP_808880.1.
+DR   UCSC; uc003yho.3; human.
+DR   AGR; HGNC:27232; -.
+DR   CTD; 157657; -.
+DR   DisGeNET; 157657; -.
+DR   GeneCards; CFAP418; -.
+DR   GeneReviews; CFAP418; -.
+DR   HGNC; HGNC:27232; CFAP418.
+DR   HPA; ENSG00000156172; Low tissue specificity.
+DR   MalaCards; CFAP418; -.
+DR   MIM; 614477; gene.
+DR   MIM; 614500; phenotype.
+DR   MIM; 617406; phenotype.
+DR   neXtProt; NX_Q96NL8; -.
+DR   OpenTargets; ENSG00000156172; -.
+DR   Orphanet; 110; Bardet-Biedl syndrome.
+DR   Orphanet; 1872; Cone rod dystrophy.
+DR   Orphanet; 791; Retinitis pigmentosa.
+DR   VEuPathDB; HostDB:ENSG00000156172; -.
+DR   eggNOG; ENOG502S1KM; Eukaryota.
+DR   GeneTree; ENSGT00390000006173; -.
+DR   HOGENOM; CLU_092833_0_0_1; -.
+DR   InParanoid; Q96NL8; -.
+DR   OMA; AHGKRCC; -.
+DR   OrthoDB; 259905at2759; -.
+DR   PAN-GO; Q96NL8; 1 GO annotation based on evolutionary models.
+DR   PhylomeDB; Q96NL8; -.
+DR   TreeFam; TF328851; -.
+DR   PathwayCommons; Q96NL8; -.
+DR   SignaLink; Q96NL8; -.
+DR   BioGRID-ORCS; 157657; 13 hits in 1146 CRISPR screens.
+DR   GenomeRNAi; 157657; -.
+DR   Pharos; Q96NL8; Tbio.
+DR   PRO; PR:Q96NL8; -.
+DR   Proteomes; UP000005640; Chromosome 8.
+DR   RNAct; Q96NL8; protein.
+DR   Bgee; ENSG00000156172; Expressed in secondary oocyte and 145 other cell types or tissues.
+DR   GO; GO:0097546; C:ciliary base; IDA:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0001917; C:photoreceptor inner segment; ISS:UniProtKB.
+DR   GO; GO:0008594; P:photoreceptor cell morphogenesis; ISS:UniProtKB.
+DR   InterPro; IPR029239; CFAP418.
+DR   PANTHER; PTHR33958:SF1; CILIA- AND FLAGELLA-ASSOCIATED PROTEIN 418; 1.
+DR   PANTHER; PTHR33958; PROTEIN C8ORF37; 1.
+DR   Pfam; PF14996; RMP; 1.
+PE   1: Evidence at protein level;
+KW   Bardet-Biedl syndrome; Ciliopathy; Cone-rod dystrophy; Cytoplasm;
+KW   Disease variant; Obesity; Proteomics identification; Reference proteome;
+KW   Retinitis pigmentosa.
+FT   CHAIN           1..207
+FT                   /note="Cilia- and flagella-associated protein 418"
+FT                   /id="PRO_0000271058"
+FT   REGION          1..75
+FT                   /note="Required for interaction with FAM161A"
+FT                   /evidence="ECO:0000269|PubMed:36233334"
+FT   REGION          26..52
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        39..52
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   VARIANT         19
+FT                   /note="P -> A (in dbSNP:rs36096184)"
+FT                   /id="VAR_033683"
+FT   VARIANT         177
+FT                   /note="R -> W (in CORD16 and BBS21; does not affect
+FT                   interaction with FAM161A.; dbSNP:rs387907136)"
+FT                   /evidence="ECO:0000269|PubMed:22177090,
+FT                   ECO:0000269|PubMed:26854863, ECO:0000269|PubMed:36233334"
+FT                   /id="VAR_067305"
+FT   VARIANT         182
+FT                   /note="Q -> R (in RP64; does not affect interaction with
+FT                   FAM161A.; dbSNP:rs387907137)"
+FT                   /evidence="ECO:0000269|PubMed:22177090,
+FT                   ECO:0000269|PubMed:36233334"
+FT                   /id="VAR_067306"
+SQ   SEQUENCE   207 AA;  23381 MW;  86B438BB7093C7A5 CRC64;
+     MAEDLDELLD EVESKFCTPD LLRRGMVEQP KGCGGGTHSS DRNQAKAKET LRSTETFKKE
+     DDLDSLINEI LEEPNLDKKP SKLKSKSSGN TSVRASIEGL GKSCSPVYLG GSSIPCGIGT
+     NISWRACDHL RCIACDFLVV SYDDYMWDKS CDYLFFRNNM PEFHKLKAKL IKKKGTRAYA
+     CQCSWRTIEE VTDLQTDHQL RWVCGKH
+//

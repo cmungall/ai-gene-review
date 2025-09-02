@@ -1,11 +1,17 @@
 {
   "name": "GeneAnnotationReviewSchema",
-  "description": "Schema for displaying gene annotation review data in linkml-browser",
+  "description": "Browse AI reviews",
   "title": "Gene Annotation Review Browser",
   "id": "https://example.org/gene-annotation-review",
-  "searchableFields": ["gene_symbol", "protein_id", "term_label", "term_id"],
+  "searchableFields": ["gene_symbol", "protein_id", "term_label", "term_id", "taxon_label", "original_reference_title", "review.supporting_text"],
   "searchPlaceholder": "Search annotations...",
   "facets": [
+    {
+      "field": "review.action",
+      "label": "Review Action",
+      "type": "string",
+      "sortBy": "alphabetical"
+    },
     {
       "field": "gene_symbol",
       "label": "Gene Symbol",
@@ -31,11 +37,12 @@
       "sortBy": "alphabetical"
     },
     {
-      "field": "review.action",
-      "label": "Review Action",
+      "field": "original_reference_title",
+      "label": "Title",
       "type": "string",
       "sortBy": "alphabetical"
     },
+    
     {
       "field": "negated",
       "label": "Negated",
@@ -49,7 +56,12 @@
     {"field": "term_label", "label": "GO Term", "type": "string"},
     {"field": "term_id", "label": "GO ID", "type": "curie"},
     {"field": "evidence_type", "label": "Evidence", "type": "string"},
+    {"field": "original_reference_title", "label": "Title", "type": "string"},
+    {"field": "review.summary", "label": "Summary", "type": "string"},
     {"field": "review.action", "label": "Action", "type": "string"},
-    {"field": "review.summary", "label": "Summary", "type": "string"}
+    {"field": "review.reason", "label": "Reason", "type": "string"},
+    {"field": "review.supporting_text", "label": "Ref Text", "type": "string"},
+    {"field": "review.supporting_reference_ids", "label": "RefIDs", "type": "curie"},
+    {"field": "review.proposed_replacement_terms", "label": "Replacements", "type": "string"}
   ]
 }

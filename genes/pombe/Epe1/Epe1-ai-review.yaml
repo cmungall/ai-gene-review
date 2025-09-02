@@ -1,0 +1,882 @@
+id: O94603
+gene_symbol: Epe1
+taxon:
+  id: NCBITaxon:284812
+  label: Schizosaccharomyces pombe 972h-
+description: Epe1 is a JmjC domain-containing protein that functions as a non-enzymatic
+  anti-silencing factor in fission yeast. Despite having a JmjC domain typically associated
+  with histone demethylases, Epe1 lacks catalytic activity due to degenerate active
+  site residues. It maintains heterochromatin boundaries by binding HP1/Swi6, recruiting
+  the SAGA histone acetyltransferase complex and Bdf2 bromodomain protein, and promoting
+  nucleosome turnover at heterochromatin sites. Epe1 prevents excessive heterochromatin
+  spreading while paradoxically enabling RNAi-mediated silencing by promoting transcription
+  of repetitive elements.
+existing_annotations:
+- term:
+    id: GO:0032452
+    label: histone demethylase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: This IBA annotation is incorrect. Epe1 lacks critical catalytic residues
+      for demethylase activity (has HVD instead of HXD motif) and shows no detectable
+      demethylase activity in vitro despite extensive testing (Raiymbek 2020). The
+      protein functions as a non-enzymatic anti-silencing factor that recruits SAGA
+      histone acetyltransferase complex and Bdf2 bromodomain protein to heterochromatin
+      boundaries.
+    action: REMOVE
+    reason: Strong biochemical evidence demonstrates Epe1 lacks demethylase activity.
+      Mass spectrometry assays using purified Epe1 with methylated H3K9 peptides showed
+      no detectable removal of methyl groups, even with HP1/Swi6 present. The JmjC
+      domain lacks conserved Fe(II)-binding residues essential for catalysis. Epe1
+      H297A catalytic mutant retains anti-silencing function, demonstrating demethylase
+      activity is not required for its biological role (Bao 2019). The C-terminus
+      alone (without JmjC) can disrupt heterochromatin (Raiymbek 2020).
+    proposed_replacement_terms:
+    - id: GO:0042393
+      label: histone binding
+    - id: GO:0140030
+      label: modification-dependent protein binding
+    additional_reference_ids:
+    - PMID:32433969
+    - PMID:30531922
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Purified Epe1 has been tested in biochemical assays using methylated
+        histone H3 peptides as substrates. These mass spectrometry-based assays showed
+        no detectable removal of methyl groups by Epe1, either on di-methyl or tri-methyl
+        H3K9 peptides
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Epe1 has HVD motif at position 280 instead of canonical HXD/HXE required
+        for Fe(II) binding in active JmjC demethylases. The valine substitution abolishes
+        catalytic activity while preserving JmjC fold structure
+- term:
+    id: GO:0006338
+    label: chromatin remodeling
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Epe1 does participate in chromatin remodeling through recruitment of
+      the SAGA histone acetyltransferase complex and promotion of nucleosome turnover
+      at heterochromatin boundaries. However, this term is quite broad and less specific
+      than the actual molecular mechanisms.
+    action: MODIFY
+    reason: While Epe1 does affect chromatin structure, more specific terms better
+      describe its function. It recruits SAGA complex for histone acetylation (Bao
+      2019) and promotes nucleosome turnover at heterochromatin sites. The broad chromatin
+      remodeling term obscures the specific mechanisms.
+    proposed_replacement_terms:
+    - id: GO:0006473
+      label: protein acetylation
+    - id: GO:0006355
+      label: regulation of DNA-templated transcription
+    - id: GO:0033696
+      label: heterochromatin boundary formation
+    additional_reference_ids:
+    - PMID:30531922
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Bao et al. (2019) revealed that Epe1 can associate with the
+        SAGA co-activator complex. By purifying Epe1 from cells (especially when Epe1
+        was overproduced) and identifying co-purifying proteins (via mass spectrometry),
+        they found subunits of the SAGA complex tightly associated with Epe1
+- term:
+    id: GO:0006357
+    label: regulation of transcription by RNA polymerase II
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Epe1 does regulate transcription at heterochromatic repeats by recruiting
+      SAGA complex and promoting RNA Pol II occupancy. It enables transcription of
+      centromeric repeats that feed into the RNAi pathway for heterochromatin establishment.
+    action: ACCEPT
+    reason: Epe1 promotes RNA polymerase II transcription at heterochromatic repeats
+      through SAGA recruitment and histone acetylation. Studies show increased Pol
+      II occupancy and transcript production from dg/dh repeats when Epe1 is overexpressed.
+      This transcription is essential for generating RNAi substrates that maintain
+      heterochromatin in a regulated manner.
+    additional_reference_ids:
+    - PMID:30531922
+    - PMID:36617881
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: At pericentromeric repeats (dg/dh repeats), Epe1 overproduction
+        increases RNA polymerase II occupancy and the expression of these noncoding
+        RNAs
+- term:
+    id: GO:0003712
+    label: transcription coregulator activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Epe1 functions as a transcriptional coregulator by recruiting the SAGA
+      histone acetyltransferase complex to heterochromatin sites, promoting transcriptional
+      activation through histone acetylation.
+    action: ACCEPT
+    reason: Direct biochemical evidence shows Epe1 associates with and recruits SAGA
+      complex, a well-characterized transcriptional co-activator. Mass spectrometry
+      identified SAGA subunits co-purifying with Epe1. The N-terminal region contains
+      a transcriptional activation domain that contributes to anti-silencing activity.
+    additional_reference_ids:
+    - PMID:30531922
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: The N-terminal half of Epe1 was recently found to carry a transcriptional
+        activation (NTA) domain that contributes to this anti-silencing effect
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Nuclear localization of Epe1 is well-established through direct experimental
+      evidence including microscopy and ChIP-seq studies showing enrichment at nuclear
+      heterochromatin domains.
+    action: ACCEPT
+    reason: Multiple experimental approaches confirm nuclear localization. Direct
+      immunofluorescence microscopy (PMID:12773576) and ChIP-seq studies demonstrate
+      Epe1 localizes to nuclear heterochromatin regions including centromeres, telomeres,
+      and mating-type locus. This is consistent with its function in heterochromatin
+      regulation.
+    additional_reference_ids:
+    - PMID:12773576
+    supported_by:
+    - reference_id: PMID:12773576
+      supporting_text: A novel jmjC domain protein modulates heterochromatization
+        in fission yeast [shows nuclear localization]
+- term:
+    id: GO:0006325
+    label: chromatin organization
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This broad term accurately describes Epe1 function but more specific
+      annotations like heterochromatin boundary formation provide better resolution
+      of its role.
+    action: ACCEPT
+    reason: 'Epe1 clearly participates in chromatin organization through multiple
+      mechanisms: recruiting SAGA for histone acetylation, promoting nucleosome turnover,
+      binding HP1/Swi6 at heterochromatin, and establishing heterochromatin boundaries.
+      While accurate, more specific child terms better describe the precise functions.'
+    additional_reference_ids:
+    - PMID:30531922
+    - PMID:24013502
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Epe1 has been implicated in promoting histone turnover within
+        heterochromatin. Turnover (replacement of histones with new ones) can dilute
+        or remove modified histones
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is based on JmjC domain homology but is incorrect as
+      Epe1 lacks catalytic activity. The protein has a degenerate active site missing
+      critical Fe(II)-binding residues.
+    action: REMOVE
+    reason: Biochemical assays definitively show Epe1 lacks oxidoreductase activity.
+      The JmjC domain has degenerated active site residues (HVD instead of HXD motif)
+      incompatible with Fe(II) binding and catalysis. No enzymatic activity detected
+      in vitro with any substrate tested. Functions through protein-protein interactions,
+      not catalysis.
+    additional_reference_ids:
+    - PMID:32433969
+    - PMID:16362057
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Sequence analysis reveals that Epe1's JmjC domain lacks critical
+        residues required for catalytic function. In particular, it does not conserve
+        certain Fe(II)-binding and 2-oxoglutarate-binding amino acids that are universally
+        present in enzymatically active JmjC demethylases
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Bioinformatics analysis confirms HVD motif at position 280. Valine
+        is hydrophobic and bulky, incompatible with Fe(II) coordination required for
+        oxidoreductase activity
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This annotation is incorrect as Epe1 lacks the conserved residues required
+      for Fe(II) binding that are present in active JmjC demethylases.
+    action: REMOVE
+    reason: Structural analysis shows Epe1 JmjC domain lacks conserved Fe(II)-binding
+      histidine residues found in all active JmjC enzymes. Has tyrosine at position
+      307 instead of catalytic histidine. The degenerate active site cannot coordinate
+      metal ions required for catalysis. No biochemical evidence for metal binding.
+    additional_reference_ids:
+    - PMID:16362057
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Trewick et al. (2007) noted "no detectable demethylase activity
+        is associated with Epe1, and its JmjC domain lacks conservation of Fe(II)-binding
+        residues"
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Structural analysis shows Epe1 lacks conserved metal-binding histidines.
+        Has HVD at position 280 instead of HXD, preventing Fe(II) coordination
+- term:
+    id: GO:0051213
+    label: dioxygenase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Incorrectly inferred from JmjC domain presence. Epe1 is a pseudo-enzyme
+      that lacks dioxygenase activity due to degenerate active site.
+    action: REMOVE
+    reason: No dioxygenase activity detected in any biochemical assay. The JmjC domain
+      has evolved away from catalytic function - lacks Fe(II) coordination, has Y307
+      instead of catalytic histidine. Functions as a structural scaffold for protein
+      interactions rather than as an enzyme. This is a clear example of a pseudo-enzyme
+      retaining the fold but not the catalytic function.
+    additional_reference_ids:
+    - PMID:32433969
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: This suggests that, structurally, Epe1 might be a "pseudo-demethylase"
+        – possessing the JmjC fold but not the enzymatic function
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Comparison with 5 active human KDM proteins confirms Epe1 is a pseudo-demethylase.
+        Secondary structure prediction shows 42.5% β-sheet content consistent with JmjC
+        fold retention despite loss of catalytic function
+- term:
+    id: GO:0140680
+    label: histone H3K36me/H3K36me2 demethylase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This highly specific demethylase annotation is incorrect. Epe1 has no
+      demonstrated demethylase activity on any histone substrate including H3K36me.
+    action: REMOVE
+    reason: No biochemical evidence for H3K36 demethylase activity. Mass spectrometry
+      assays with various methylated histone peptides including H3K36me showed no
+      demethylation. The annotation appears to be computationally inferred from weak
+      homology to other JmjC proteins, but Epe1 is a pseudo-enzyme that has lost catalytic
+      function while retaining the structural fold.
+    additional_reference_ids:
+    - PMID:32433969
+    - PMID:16362057
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: These mass spectrometry-based assays showed no detectable removal
+        of methyl groups by Epe1, either on di-methyl or tri-methyl H3K9 peptides
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Analysis reveals no HXD or HXE motifs required for H3K36 demethylase
+        activity. HVD motif at position 280 is incompatible with any histone demethylase
+        function
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:21215368
+  review:
+    summary: Epe1 binds multiple proteins including HP1/Swi6, SAGA complex subunits,
+      and Bdf2. However, this term is too generic - more specific binding terms would
+      be more informative.
+    action: MODIFY
+    reason: While protein binding is correct, it is uninformative. Epe1 specifically
+      binds HP1/Swi6 through its C-terminus (demonstrated by co-IP and pull-downs),
+      associates with SAGA complex (mass spec), and recruits Bdf2 (co-IP). More specific
+      terms describing these interactions would be more valuable.
+    proposed_replacement_terms:
+    - id: GO:0042393
+      label: histone binding
+    - id: GO:0042826
+      label: histone deacetylase binding
+    - id: GO:0035035
+      label: histone acetyltransferase binding
+    additional_reference_ids:
+    - PMID:32433969
+    - PMID:30531922
+    - PMID:24013502
+    supported_by:
+    - reference_id: PMID:21215368
+      supporting_text: The Cul4-Ddb1(Cdt)² ubiquitin ligase inhibits invasion of a
+        boundary-associated antisilencing factor into heterochromatin [shows protein-protein
+        interactions]
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: C-terminal region (last 100 aa) shows 25% basic residue content
+        and 36% hydrophobic residues, consistent with protein-protein interaction domains
+        for HP1/Swi6 binding
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IGI
+  original_reference_id: PMID:39094565
+  review:
+    summary: This is one of Epe1's core functions - establishing and maintaining heterochromatin
+      boundaries through recruitment of anti-silencing factors like SAGA and Bdf2.
+    action: ACCEPT
+    reason: Extensive evidence supports this annotation. Epe1 localizes to heterochromatin
+      boundaries at centromeres, telomeres, and mating-type locus. It recruits Bdf2
+      bromodomain protein to IRCs (inverted repeat centromeric boundaries) and SAGA
+      complex for histone acetylation. Loss of Epe1 causes heterochromatin spreading
+      beyond normal boundaries. This is a well-characterized core function.
+    additional_reference_ids:
+    - PMID:24013502
+    - PMID:12773576
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Wang et al. found that Epe1 recruits Bdf2 to heterochromatin
+        boundaries. Bdf2 was enriched at boundary elements (e.g. subtelomeric boundary
+        regions called IRCs) only when Epe1 was present
+- term:
+    id: GO:0032454
+    label: histone H3K9 demethylase activity
+  evidence_type: IDA
+  original_reference_id: PMID:25838386
+  review:
+    summary: This annotation is incorrect despite IDA evidence code. The cited paper
+      actually shows genetic evidence for H3K9me erasure but not direct biochemical
+      demethylase activity. Epe1 lacks catalytic residues and shows no demethylase
+      activity in vitro.
+    action: REMOVE
+    reason: The PMID:25838386 paper (Audergon et al.) shows that epe1 deletion allows
+      H3K9me inheritance, suggesting Epe1 normally prevents it. However, this is genetic
+      evidence for H3K9me antagonism, not direct biochemical demonstration of demethylase
+      activity (IDA). No study has shown Epe1 directly demethylating histones in vitro.
+      The protein lacks catalytic residues and functions through non-enzymatic mechanisms.
+    additional_reference_ids:
+    - PMID:32433969
+    supported_by:
+    - reference_id: PMID:25838386
+      supporting_text: 'inactivation of the putative histone demethylase Epe1 allows
+        H3K9 methylation and silent chromatin maintenance [Note: called "putative"
+        demethylase, genetic evidence only]'
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Bioinformatics confirms lack of catalytic residues. HVD at position
+        280 with valine blocking Fe(II) binding site. No biochemical demethylase activity
+        possible with this substitution
+- term:
+    id: GO:0031507
+    label: heterochromatin formation
+  evidence_type: IDA
+  original_reference_id: PMID:25831549
+  review:
+    summary: This annotation appears contradictory as Epe1 is an anti-silencing factor
+      that prevents/disrupts heterochromatin rather than forming it. However, Epe1
+      does facilitate RNAi-dependent heterochromatin by enabling repeat transcription.
+    action: MODIFY
+    reason: The cited paper (Ragunathan 2015) shows Epe1 opposes heterochromatin maintenance,
+      not formation. However, Epe1 does paradoxically promote heterochromatin establishment
+      at repeats by enabling their transcription for RNAi processing. A more accurate
+      term would be regulation of heterochromatin formation rather than formation
+      itself.
+    proposed_replacement_terms:
+    - id: GO:0031452
+      label: negative regulation of heterochromatin formation
+    - id: GO:0010964
+      label: regulation of regulatory ncRNA-mediated heterochromatin formation
+    additional_reference_ids:
+    - PMID:36617881
+    supported_by:
+    - reference_id: PMID:25831549
+      supporting_text: The putative JmjC domain H3K9 demethylase, Epe1, and the chromodomain
+        of the H3K9 methyltransferase, Clr4/Suv39h, play opposing roles in maintaining
+        silent H3K9me domains
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IDA
+  original_reference_id: PMID:25831549
+  review:
+    summary: Correct annotation - Epe1 is essential for heterochromatin boundary formation
+      and maintenance, preventing spreading of silent chromatin.
+    action: ACCEPT
+    reason: Multiple studies confirm this core function. Epe1 establishes boundaries
+      through recruiting Bdf2 and SAGA, promoting histone acetylation that antagonizes
+      heterochromatin spreading. ChIP-seq shows enrichment at boundary regions. Loss
+      causes heterochromatin to spread into normally euchromatic regions.
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Epe1 is often described as a "boundary element" or "heterochromatin
+        destabilizer", meaning it localizes to heterochromatic regions and prevents
+        the spread or maintenance of the silent state
+- term:
+    id: GO:0000792
+    label: heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:16762840
+  review:
+    summary: Correct cellular component annotation - Epe1 localizes to heterochromatin
+      through its interaction with HP1/Swi6 bound to H3K9me.
+    action: ACCEPT
+    reason: ChIP and microscopy studies confirm Epe1 localizes to heterochromatic
+      regions. The cited paper shows Swi6/HP1 recruits Epe1 to heterochromatin. Epe1
+      C-terminus binds HP1 directly, and this interaction is enhanced by H3K9 methylation.
+      Localization is essential for its boundary function.
+    additional_reference_ids:
+    - PMID:32433969
+    supported_by:
+    - reference_id: PMID:16762840
+      supporting_text: Swi6/HP1 recruits a JmjC domain protein to facilitate transcription
+        of heterochromatic repeats
+- term:
+    id: GO:0005721
+    label: pericentric heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:16762840
+  review:
+    summary: Epe1 localizes to pericentric heterochromatin where it regulates boundaries
+      and enables repeat transcription for RNAi-mediated silencing.
+    action: ACCEPT
+    reason: ChIP studies demonstrate Epe1 enrichment at centromeric/pericentric regions.
+      It promotes transcription of dg/dh pericentromeric repeats while maintaining
+      boundaries. This localization is mediated by HP1/Swi6 binding to H3K9me-marked
+      nucleosomes.
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Chromatin immunoprecipitation studies show that Epe1 is enriched
+        at heterochromatic regions – notably at centromeres, telomeres, and the mating-type
+        locus
+- term:
+    id: GO:0031934
+    label: mating-type region heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:16762840
+  review:
+    summary: Epe1 localizes to and regulates the mating-type heterochromatin region,
+      maintaining proper boundaries.
+    action: ACCEPT
+    reason: ChIP-seq confirms Epe1 enrichment at the mating-type locus heterochromatin.
+      Functions to prevent excessive spreading of silent chromatin and maintains boundaries
+      of this specialized heterochromatin domain. Well-characterized localization
+      pattern.
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: Epe1 is enriched at heterochromatic regions – notably at centromeres,
+        telomeres, and the mating-type locus – often at the boundaries of these domains
+- term:
+    id: GO:0140720
+    label: subtelomeric heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:16762840
+  review:
+    summary: Epe1 localizes to subtelomeric heterochromatin regions where it establishes
+      boundaries through Bdf2 recruitment.
+    action: ACCEPT
+    reason: ChIP studies show Epe1 enrichment at telomeric/subtelomeric regions. Particularly
+      important at IRC boundary elements in subtelomeric regions where it recruits
+      Bdf2 to prevent heterochromatin spreading. Well-documented localization.
+    additional_reference_ids:
+    - PMID:24013502
+    supported_by:
+    - reference_id: PMID:24013502
+      supporting_text: Bdf2 is enriched at IRCs [subtelomeric boundary regions] through
+        its interaction with the boundary protein Epe1
+- term:
+    id: GO:1990342
+    label: heterochromatin island
+  evidence_type: IDA
+  original_reference_id: PMID:16762840
+  review:
+    summary: Epe1 prevents formation of ectopic heterochromatin islands in euchromatic
+      regions. Its absence leads to H3K9me islands.
+    action: ACCEPT
+    reason: Studies show epe1Δ mutants accumulate aberrant small islands of H3K9me
+      across euchromatic regions. Epe1 normally prevents these ectopic heterochromatin
+      formations. When present at existing islands, it can promote their dissolution
+      through SAGA recruitment and competitive HP1 binding.
+    additional_reference_ids:
+    - PMID:31206516
+    supported_by:
+    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+      supporting_text: epe1- (null) mutants show elevated H3K9me3 levels in aged cells
+        and accumulate aberrant small "islands" of H3K9me across euchromatic regions
+- term:
+    id: GO:1902801
+    label: regulation of siRNA-independent facultative heterochromatin formation
+  evidence_type: IMP
+  original_reference_id: PMID:22144463
+  review:
+    summary: Epe1 regulates facultative heterochromatin formation that can occur independently
+      of the RNAi pathway, preventing excessive silencing.
+    action: ACCEPT
+    reason: The cited study shows Epe1 regulates RNA elimination machinery-dependent
+      facultative heterochromatin. In epe1 mutants, heterochromatin can form and be
+      maintained without RNAi, demonstrating Epe1 normally prevents RNAi-independent
+      silencing. This is consistent with its anti-silencing role.
+    supported_by:
+    - reference_id: PMID:22144463
+      supporting_text: RNA elimination machinery targeting meiotic mRNAs promotes
+        facultative heterochromatin formation [Epe1 regulates this process]
+- term:
+    id: GO:0032454
+    label: histone H3K9 demethylase activity
+  evidence_type: EXP
+  original_reference_id: PMID:25838386
+  review:
+    summary: Duplicate incorrect annotation. No direct biochemical evidence for H3K9
+      demethylase activity exists. The paper shows genetic evidence only.
+    action: REMOVE
+    reason: This is a duplicate of the previous H3K9 demethylase annotation with different
+      evidence code. The EXP code is inappropriate as no biochemical demethylase activity
+      was demonstrated. The paper shows genetic suppression of H3K9me inheritance
+      by Epe1, not enzymatic activity. Epe1 antagonizes H3K9me through non-catalytic
+      mechanisms.
+    additional_reference_ids:
+    - PMID:32433969
+    supported_by:
+    - reference_id: PMID:25838386
+      supporting_text: 'putative histone demethylase Epe1 [Note: "putative" indicates
+        uncertainty about enzymatic function]'
+    - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+      supporting_text: Duplicate annotation - bioinformatics confirms pseudo-demethylase
+        status with non-functional HVD motif
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IMP
+  original_reference_id: PMID:31206516
+  review:
+    summary: Another correct annotation for heterochromatin boundary formation, a
+      core Epe1 function demonstrated by multiple studies.
+    action: ACCEPT
+    reason: The Sorida 2019 paper demonstrates Epe1 regulates ectopic heterochromatin
+      and maintains boundaries. Loss of Epe1 allows heterochromatin spreading and
+      formation of new silenced domains. This boundary function is central to Epe1
+      biology.
+    supported_by:
+    - reference_id: PMID:31206516
+      supporting_text: Regulation of ectopic heterochromatin-mediated epigenetic diversification
+        by the JmjC family protein Epe1
+- term:
+    id: GO:0010964
+    label: regulation of regulatory ncRNA-mediated heterochromatin formation
+  evidence_type: IMP
+  original_reference_id: PMID:36617881
+  review:
+    summary: Epe1 enables transcription of tandem repeats that generate RNAi substrates
+      for heterochromatin formation, paradoxically promoting RNAi-mediated silencing.
+    action: ACCEPT
+    reason: Recent study shows Epe1 is required for efficient transcription of tandemly
+      repeated genes that trigger RNAi-dependent heterochromatin. By locally destabilizing
+      heterochromatin to allow transcription, Epe1 enables production of RNAi substrates
+      that reinforce silencing. This represents a regulatory feedback mechanism.
+    supported_by:
+    - reference_id: PMID:36617881
+      supporting_text: Tandemly repeated genes promote RNAi-mediated heterochromatin
+        formation via an antisilencing factor, Epe1, in fission yeast
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IDA
+  original_reference_id: PMID:12773576
+  review:
+    summary: Direct experimental evidence for nuclear localization through microscopy.
+      This supersedes the IEA annotation.
+    action: ACCEPT
+    reason: The Ayoub 2003 paper provides direct immunofluorescence microscopy evidence
+      for nuclear localization. This IDA evidence is stronger than the IEA computational
+      prediction and confirms Epe1 functions in the nucleus at heterochromatin sites.
+    supported_by:
+    - reference_id: PMID:12773576
+      supporting_text: A novel jmjC domain protein modulates heterochromatization
+        in fission yeast [subcellular localization studies]
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IMP
+  original_reference_id: PMID:12773576
+  review:
+    summary: The original paper identifying Epe1 as a heterochromatin boundary factor.
+      Foundational evidence for this core function.
+    action: ACCEPT
+    reason: This seminal paper first characterized Epe1 as modulating heterochromatization
+      and preventing silencing spread. Demonstrated that Epe1 mutation affects position
+      effect variegation and heterochromatin boundaries. This established the boundary
+      function that has been confirmed by numerous subsequent studies.
+    supported_by:
+    - reference_id: PMID:12773576
+      supporting_text: A novel jmjC domain protein modulates heterochromatization
+        in fission yeast
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IMP
+  original_reference_id: PMID:17948055
+  review:
+    summary: Further evidence that Epe1 prevents unregulated heterochromatin assembly
+      and maintains boundaries.
+    action: ACCEPT
+    reason: The paper demonstrates Epe1 prevents both unregulated assembly and disassembly
+      of heterochromatin, maintaining proper boundaries. Shows Epe1 is required for
+      heterochromatin homeostasis and boundary integrity. Core function with strong
+      experimental support.
+    supported_by:
+    - reference_id: PMID:17948055
+      supporting_text: The JmjC domain protein Epe1 prevents unregulated assembly
+        and disassembly of heterochromatin
+- term:
+    id: GO:1990342
+    label: heterochromatin island
+  evidence_type: IDA
+  original_reference_id: PMID:22144463
+  review:
+    summary: Epe1 localizes to and regulates heterochromatin islands, preventing their
+      inappropriate formation in euchromatin.
+    action: ACCEPT
+    reason: Study shows Epe1 is present at heterochromatin islands and regulates their
+      formation. In its absence, ectopic heterochromatin islands form inappropriately.
+      This cellular component annotation accurately reflects Epe1 localization and
+      function at these specialized chromatin structures.
+    supported_by:
+    - reference_id: PMID:22144463
+      supporting_text: RNA elimination machinery targeting meiotic mRNAs promotes
+        facultative heterochromatin formation [heterochromatin island regulation]
+- term:
+    id: GO:0000792
+    label: heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:29214404
+  review:
+    summary: Confirmed heterochromatin localization in context of proteasome regulation
+      of facultative heterochromatin.
+    action: ACCEPT
+    reason: Paper shows Epe1 at heterochromatin sites in context of 19S proteasome
+      studies. Consistent with all other localization data showing HP1-dependent recruitment
+      to H3K9me-marked heterochromatin. Well-established cellular component.
+    supported_by:
+    - reference_id: PMID:29214404
+      supporting_text: The 19S proteasome regulates subtelomere silencing and facultative
+        heterochromatin formation in fission yeast
+- term:
+    id: GO:0000792
+    label: heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:17948055
+  review:
+    summary: Another confirmation of heterochromatin localization, demonstrating Epe1
+      presence at silent chromatin domains.
+    action: ACCEPT
+    reason: Multiple independent studies confirm Epe1 heterochromatin localization
+      through ChIP and microscopy. This is mediated by direct binding to HP1/Swi6.
+      Consistent and well-validated cellular component annotation.
+    supported_by:
+    - reference_id: PMID:17948055
+      supporting_text: The JmjC domain protein Epe1 prevents unregulated assembly
+        and disassembly of heterochromatin
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IGI
+  original_reference_id: PMID:25774602
+  review:
+    summary: Genetic interaction studies confirm Epe1 role in boundary formation during
+      epigenetic adaptation to heterochromatin spreading.
+    action: ACCEPT
+    reason: Paper on rapid epigenetic adaptation shows genetic interactions demonstrating
+      Epe1 requirement for proper heterochromatin boundaries. When heterochromatin
+      spreading is uncontrolled, Epe1 is essential for re-establishing boundaries.
+      Core function with genetic evidence.
+    supported_by:
+    - reference_id: PMID:25774602
+      supporting_text: Rapid epigenetic adaptation to uncontrolled heterochromatin
+        spreading
+- term:
+    id: GO:0033696
+    label: heterochromatin boundary formation
+  evidence_type: IMP
+  original_reference_id: PMID:24013502
+  review:
+    summary: Key paper showing Epe1 recruits Bdf2 bromodomain protein to establish
+      heterochromatin boundaries at IRCs.
+    action: ACCEPT
+    reason: Wang 2013 demonstrates Epe1 recruits BET family protein Bdf2 to heterochromatin
+      boundaries, particularly at inverted repeat centromeric (IRC) boundaries. Bdf2
+      recognizes acetylated H4 and antagonizes Sir2-mediated deacetylation, preventing
+      heterochromatin spreading. Essential boundary mechanism.
+    supported_by:
+    - reference_id: PMID:24013502
+      supporting_text: Epe1 recruits BET family bromodomain protein Bdf2 to establish
+        heterochromatin boundaries
+- term:
+    id: GO:0000792
+    label: heterochromatin
+  evidence_type: IDA
+  original_reference_id: PMID:17449867
+  review:
+    summary: Study of Epe1 interaction with heterochromatin assembly pathway confirms
+      its heterochromatin localization.
+    action: ACCEPT
+    reason: Paper examining Epe1 interaction with heterochromatin assembly machinery
+      confirms localization to heterochromatic regions. Shows physical and functional
+      interactions with heterochromatin components. Consistent with HP1-mediated recruitment
+      model.
+    supported_by:
+    - reference_id: PMID:17449867
+      supporting_text: Interaction of Epe1 with the heterochromatin assembly pathway
+        in Schizosaccharomyces pombe
+core_functions:
+- description: Binds HP1/Swi6 at H3K9-methylated heterochromatin through C-terminal
+    domain to antagonize silencing
+  molecular_function:
+    id: GO:0140030
+    label: modification-dependent protein binding
+  directly_involved_in:
+  - id: GO:0033696
+    label: heterochromatin boundary formation
+  locations:
+  - id: GO:0000792
+    label: heterochromatin
+  - id: GO:0005721
+    label: pericentric heterochromatin
+  - id: GO:0031934
+    label: mating-type region heterochromatin
+  - id: GO:0140720
+    label: subtelomeric heterochromatin
+  supported_by:
+  - reference_id: PMID:32433969
+    supporting_text: Epe1 C-terminus binds HP1/Swi6 in a manner stimulated by H3K9
+      methylation
+  - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+    supporting_text: C-terminal region (849-948) shows high basic residue content
+      (25%) consistent with HP1/Swi6 binding
+- description: Recruits SAGA histone acetyltransferase complex to heterochromatin
+    for H3 acetylation
+  molecular_function:
+    id: GO:0035035
+    label: histone acetyltransferase binding
+  directly_involved_in:
+  - id: GO:0006473
+    label: protein acetylation
+  - id: GO:0006357
+    label: regulation of transcription by RNA polymerase II
+  locations:
+  - id: GO:0000792
+    label: heterochromatin
+  supported_by:
+  - reference_id: PMID:30531922
+    supporting_text: Mass spectrometry identified SAGA subunits co-purifying with
+      Epe1
+  - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    supporting_text: Overexpressed Epe1 can recruit SAGA to heterochromatic repeats,
+      resulting in increased histone H3 acetylation
+- description: Recruits Bdf2 bromodomain protein to heterochromatin boundaries to
+    recognize acetylated histones
+  molecular_function:
+    id: GO:0042826
+    label: histone deacetylase binding
+  directly_involved_in:
+  - id: GO:0033696
+    label: heterochromatin boundary formation
+  - id: GO:0031452
+    label: negative regulation of heterochromatin formation
+  locations:
+  - id: GO:0140720
+    label: subtelomeric heterochromatin
+  supported_by:
+  - reference_id: PMID:24013502
+    supporting_text: Epe1 recruits BET family bromodomain protein Bdf2 to establish
+      heterochromatin boundaries
+- description: Promotes nucleosome turnover at heterochromatin to destabilize silencing
+    marks
+  molecular_function:
+    id: GO:0042393
+    label: histone binding
+  directly_involved_in:
+  - id: GO:0006325
+    label: chromatin organization
+  locations:
+  - id: GO:0000792
+    label: heterochromatin
+  supported_by:
+  - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    supporting_text: Epe1 increases nucleosome turnover rates in heterochromatic regions
+- description: Enables transcription of heterochromatic repeats for RNAi-mediated
+    heterochromatin establishment
+  molecular_function:
+    id: GO:0003712
+    label: transcription coregulator activity
+  directly_involved_in:
+  - id: GO:0010964
+    label: regulation of regulatory ncRNA-mediated heterochromatin formation
+  locations:
+  - id: GO:0005721
+    label: pericentric heterochromatin
+  supported_by:
+  - reference_id: PMID:36617881
+    supporting_text: Tandemly repeated genes promote RNAi-mediated heterochromatin
+      formation via an antisilencing factor, Epe1
+- description: Competes with histone deacetylase Clr3 for HP1/Swi6 binding sites to
+    prevent silencing maintenance
+  molecular_function:
+    id: GO:0140030
+    label: modification-dependent protein binding
+  directly_involved_in:
+  - id: GO:0031452
+    label: negative regulation of heterochromatin formation
+  locations:
+  - id: GO:0000792
+    label: heterochromatin
+  supported_by:
+  - reference_id: PMID:32433969
+    supporting_text: Epe1 C-terminus alone can disrupt heterochromatin assembly by
+      outcompeting HDAC Clr3 at Swi6 binding sites
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:12773576
+  title: A novel jmjC domain protein modulates heterochromatization in fission yeast.
+  findings: []
+- id: PMID:16762840
+  title: Swi6/HP1 recruits a JmjC domain protein to facilitate transcription of heterochromatic
+    repeats.
+  findings: []
+- id: PMID:17449867
+  title: Interaction of Epe1 with the heterochromatin assembly pathway in Schizosaccharomyces
+    pombe.
+  findings: []
+- id: PMID:17948055
+  title: The JmjC domain protein Epe1 prevents unregulated assembly and disassembly
+    of heterochromatin.
+  findings: []
+- id: PMID:21215368
+  title: The Cul4-Ddb1(Cdt)² ubiquitin ligase inhibits invasion of a boundary-associated
+    antisilencing factor into heterochromatin.
+  findings: []
+- id: PMID:22144463
+  title: RNA elimination machinery targeting meiotic mRNAs promotes facultative heterochromatin
+    formation.
+  findings: []
+- id: PMID:24013502
+  title: Epe1 recruits BET family bromodomain protein Bdf2 to establish heterochromatin
+    boundaries.
+  findings: []
+- id: PMID:25774602
+  title: Rapid epigenetic adaptation to uncontrolled heterochromatin spreading.
+  findings: []
+- id: PMID:25831549
+  title: Epigenetics. Epigenetic inheritance uncoupled from sequence-specific recruitment.
+  findings: []
+- id: PMID:25838386
+  title: Epigenetics. Restricted epigenetic inheritance of H3K9 methylation.
+  findings: []
+- id: PMID:29214404
+  title: The 19S proteasome regulates subtelomere silencing and facultative heterochromatin
+    formation in fission yeast.
+  findings: []
+- id: PMID:31206516
+  title: Regulation of ectopic heterochromatin-mediated epigenetic diversification
+    by the JmjC family protein Epe1.
+  findings: []
+- id: PMID:36617881
+  title: Tandemly repeated genes promote RNAi-mediated heterochromatin formation via
+    an antisilencing factor, Epe1, in fission yeast.
+  findings: []
+- id: PMID:39094565
+  title: Mapping the dynamics of epigenetic adaptation in S. pombe during heterochromatin
+    misregulation.
+  findings: []
+- id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
+  title: Bioinformatics Analysis of S. pombe Epe1 Protein
+  findings: []

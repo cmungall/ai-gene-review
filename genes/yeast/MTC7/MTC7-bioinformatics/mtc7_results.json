@@ -1,0 +1,39 @@
+{
+  "protein": "MTC7_YEAST",
+  "protein_length": 139,
+  "known_tm_regions": [
+    [
+      13,
+      33
+    ],
+    [
+      42,
+      62
+    ]
+  ],
+  "predicted_tm_regions": [
+    [
+      45,
+      63
+    ]
+  ],
+  "tm_composition": [
+    {
+      "region": "13-33",
+      "sequence": "SHHVLFAEPGFFLCNFFFVLL",
+      "length": 21,
+      "hydrophobic_percent": 61.904761904761905,
+      "aromatic_percent": 28.57142857142857,
+      "charged_percent": 4.761904761904762
+    },
+    {
+      "region": "42-62",
+      "sequence": "FYFLFILLFIIYIAIIYFVFI",
+      "length": 21,
+      "hydrophobic_percent": 85.71428571428571,
+      "aromatic_percent": 42.857142857142854,
+      "charged_percent": 0.0
+    }
+  ],
+  "analysis_method": "Kyte-Doolittle hydropathy (window=19)"
+}
