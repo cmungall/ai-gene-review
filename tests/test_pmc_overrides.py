@@ -2,6 +2,7 @@
 
 import tempfile
 from pathlib import Path
+from typing import Dict, Optional
 from unittest.mock import patch
 
 import pytest
@@ -11,38 +12,32 @@ from ai_gene_review.etl.publication import load_pmc_overrides
 
 def test_load_pmc_overrides_with_valid_file():
     """Test loading PMC overrides from a valid TSV file."""
-    # Create a temporary override file
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.tsv', delete=False) as f:
-        f.write("# PMC ID Override Table\n")
-        f.write("# Comment line\n")
-        f.write("2001740\t\tNo PMC version exists\n")
-        f.write("12345\tPMC67890\tCorrect PMC ID\n")
-        f.write("99999\t\n")  # Empty PMC field
-        temp_file = Path(f.name)
+    # Temporarily backup the real PMC override file
+    real_file = Path("src/ai_gene_review/etl/pmc_overrides.tsv")
+    backup_file = Path("src/ai_gene_review/etl/pmc_overrides.tsv.backup")
+    
+    # Create a temporary override file to replace the real one
+    temp_file = Path("pmc_overrides.tsv")
     
     try:
-        # Mock the path lookup to use our temp file
-        with patch('ai_gene_review.etl.publication.Path') as mock_path:
-            mock_path.return_value.parent = temp_file.parent
-            mock_path.return_value.parent.__truediv__ = lambda self, x: temp_file
-            
-            # Clear cache first
-            import ai_gene_review.etl.publication as pub_module
-            pub_module._PMC_OVERRIDES_CACHE = None
-            
-            # Patch the actual path checking
-            with patch.object(Path, 'exists') as mock_exists:
-                def exists_side_effect(self):
-                    return str(self) == str(temp_file)
-                mock_exists.side_effect = exists_side_effect
-                
-                with patch('builtins.open', create=True) as mock_open:
-                    mock_open.return_value.__enter__ = lambda self: self
-                    mock_open.return_value.__exit__ = lambda self, *args: None
-                    mock_open.return_value.read = lambda: temp_file.read_text()
-                    mock_open.return_value.__iter__ = lambda self: iter(temp_file.read_text().splitlines())
-                    
-                    overrides = load_pmc_overrides()
+        # Backup the real file temporarily
+        if real_file.exists():
+            real_file.rename(backup_file)
+        
+        # Write test data to the temp file
+        with open(temp_file, 'w') as f:
+            f.write("# PMC ID Override Table\n")
+            f.write("# Comment line\n")
+            f.write("2001740\t\tNo PMC version exists\n")
+            f.write("12345\tPMC67890\tCorrect PMC ID\n")
+            f.write("99999\t\n")  # Empty PMC field
+        
+        # Clear cache first
+        import ai_gene_review.etl.publication as pub_module
+        pub_module._PMC_OVERRIDES_CACHE = None
+        
+        # Call the actual function which should find our temp file
+        overrides = load_pmc_overrides()
         
         # Check the loaded overrides
         assert '2001740' in overrides
@@ -55,7 +50,11 @@ def test_load_pmc_overrides_with_valid_file():
         assert overrides['99999'] is None  # Empty PMC field
         
     finally:
-        temp_file.unlink()
+        # Clean up and restore
+        if temp_file.exists():
+            temp_file.unlink()
+        if backup_file.exists():
+            backup_file.rename(real_file)
 
 
 def test_load_pmc_overrides_no_file():
