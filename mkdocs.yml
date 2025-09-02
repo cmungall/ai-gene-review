@@ -26,5 +26,5 @@ nav:
 exclude_docs: |
   /templates-linkml/
 
-site_url: https://monarch-initiative.github.io/ai-gene-review
-repo_url: https://github.com/monarch-initiative/ai-gene-review
+site_url: https://ai4curation.github.io/ai-gene-review
+repo_url: https://github.com/ai4curation/ai-gene-review

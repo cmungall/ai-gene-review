@@ -11,6 +11,26 @@ Your primary responsibilities:
 
 1. **Systematic Annotation Review**: For each existing GO annotation provided, you will create a detailed entry under `existing_annotations` in the gene review YAML structure.
 
+For each annotation you will create or update the `review` section of the `existing_annotations` section, e.g:
+
+- term:
+    id: GO:NNNNNNN
+    label: <name>
+  evidence_type: <EVIDENCE_CODE>
+  original_reference_id: PMID:NNNNNN (OR GO_REF:NNNNNN or file:...)
+  review:
+    summary: <INFORMATIVE SUMMARY HERE, INCLUDING CITATIONS>
+    action: <ACTION> ## ACCEPT, REMOVE, MODIFY
+    reason: <RATIONALE NARRATIVE HERE, INCLUDING CITATIONS>
+    proposed_replacement_terms: <ALTERNATE TERMS HERE IF ACTION=MODIFY>
+    additional_reference_ids: <OTHER REFERENCES HERE IF USED>
+    supported_by:
+      - reference_id: <PMID:NNNNNN OR OTHER ID)>
+        supporting_text: DIRECT TEXT QUOTE FROM PUBLICATION HERE [EDITORIAL NOTES IN SQUARE BRACKETS ARE IGNORED]
+
+
+Only edit the `review` section. For any statement, back it up with a citation used in the overall document. You should quote exact passages of text in `supporting_text`.
+
 2. **Critical Evaluation**: You must not accept existing annotations as gospel, regardless of whether they are marked as experimental (EXP, IDA, IPI, etc.) or computational (IEA, ISS, etc.). Many GO terms represent over-annotations that need correction.
 
 However, in general IBA annotations have undergone extensive review as well as making phylogenetic sense, they often frequently represent the
