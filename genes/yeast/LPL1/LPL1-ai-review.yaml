@@ -1,0 +1,302 @@
+id: Q08448
+gene_symbol: LPL1
+taxon:
+  id: NCBITaxon:559292
+  label: Saccharomyces cerevisiae S288C
+description: LPL1 encodes a lipid droplet-localized phospholipase B that catalyzes the hydrolysis of glycerophospholipids at both sn-1 and sn-2 positions. It plays dual roles in lipid droplet homeostasis and protein quality control under stress conditions, being induced by the Rpn4 transcription factor during proteotoxic stress.
+existing_annotations:
+- term:
+    id: GO:0006629
+    label: lipid metabolic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Broad biological process term correctly reflecting LPL1 phospholipase B activity on multiple glycerophospholipids. IBA annotation from phylogenetically conserved lipase family members is well-supported by experimental evidence showing LPL1 catalyzes lipid metabolism through phospholipid hydrolysis.'
+    action: ACCEPT
+    reason: 'This general lipid metabolic process annotation is appropriate and supported by extensive experimental evidence from Selvaraju et al. 2014 demonstrating phospholipase B activity on PE, PC, PS, PA, and PG. The IBA inference from conserved family members aligns with the biochemical characterization.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'The purified Lpl1p showed phospholipase activity with broader substrate specificity, acting on all glycerophospholipids primarily at sn-2 position and later at sn-1 position.'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This lysophospholipase annotation captures only part of LPL1 activity. While LPL1 does have lysophospholipase activity (removing the second fatty acid), it primarily functions as a phospholipase B with activity on intact phospholipids, not just lysophospholipids. The more accurate term would be phospholipase B activity (GO:0102545).'
+    action: MODIFY
+    reason: 'LPL1 is biochemically characterized as a phospholipase B enzyme that cleaves both sn-1 and sn-2 positions of glycerophospholipids. The lysophospholipase activity is only the second step of its complete phospholipase B activity. This term is too narrow.'
+    proposed_replacement_terms:
+      - id: GO:0102545
+        label: phospholipase B activity
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'The purified Lpl1p showed phospholipase activity with broader substrate specificity, acting on all glycerophospholipids primarily at sn-2 position and later at sn-1 position.'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Correct cellular component annotation strongly supported by multiple experimental studies showing LPL1 localizes to lipid droplets, particularly in stationary phase cells. The IBA inference is validated by direct experimental evidence.'
+    action: ACCEPT
+    reason: 'This annotation is well-supported by multiple independent studies using fluorescence microscopy and biochemical fractionation showing LPL1 is a bona fide lipid droplet protein. The phylogenetic inference aligns perfectly with experimental data.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Localization studies precisely revealed that Lpl1 is exclusively localized in the LD at the stationary phase.'
+      - reference_id: PMID:10515935
+        supporting_text: 'Identification and characterization of major lipid particle proteins of the yeast Saccharomyces cerevisiae.'
+- term:
+    id: GO:0047372
+    label: monoacylglycerol lipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This annotation likely derives from phylogenetic relationship to ROG1, which is a monoacylglycerol lipase. However, LPL1 has been characterized as a phospholipase B acting on phospholipids, not a monoacylglycerol lipase. No experimental evidence supports monoacylglycerol lipase activity for LPL1.'
+    action: REMOVE
+    reason: 'The IBA annotation appears to incorrectly transfer ROG1 function to LPL1. While both are in the same lipase family, they have diverged substrate specificities. LPL1 acts on phospholipids (PE, PC, PS, PA, PG) not monoacylglycerols. The experimental characterization by Selvaraju et al. 2014 tested phospholipids, not monoacylglycerols.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'The purified Lpl1p showed phospholipase activity with broader substrate specificity, acting on all glycerophospholipids [note: PE, PA, PC, PS, PG tested, not monoacylglycerols]'
+      - reference_id: 'file:yeast/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Lpl1 and Rog1p have diverged substrate preferences but analogous structural frameworks'
+- term:
+    id: GO:0004623
+    label: phospholipase A2 activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This IEA annotation from EC number mapping is partially correct but incomplete. LPL1 does have phospholipase A2 activity (cleaving sn-2 position) but it is more accurately a phospholipase B, also cleaving the sn-1 position. The phospholipase A2 term captures only half of its enzymatic capability.'
+    action: MODIFY
+    reason: 'While LPL1 does cleave at the sn-2 position (phospholipase A2 activity), experimental evidence shows it subsequently cleaves at sn-1, making it a phospholipase B. The IEA annotation from EC:3.1.1.4 is technically correct but misses the full enzymatic activity.'
+    proposed_replacement_terms:
+      - id: GO:0102545
+        label: phospholipase B activity
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'acting on all glycerophospholipids primarily at sn-2 position and later at sn-1 position'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'IEA annotation from UniProt keyword KW-0551 is correct and supported by experimental evidence. This is a duplicate of the IBA annotation above but from different inference method.'
+    action: ACCEPT
+    reason: 'The IEA annotation from UniProt keyword mapping is accurate. Multiple experimental studies confirm LPL1 localizes to lipid droplets. Duplicate annotations with different evidence codes are acceptable in GO.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Localization studies precisely revealed that Lpl1 is exclusively localized in the LD at the stationary phase.'
+- term:
+    id: GO:0006629
+    label: lipid metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'IEA annotation from UniProt keyword KW-0443 is correct. This is a duplicate of the IBA annotation but from keyword mapping. The broad term appropriately captures LPL1 function.'
+    action: ACCEPT
+    reason: 'The automatic annotation from UniProt keyword "Lipid metabolism" is accurate. LPL1 is definitively involved in lipid metabolic processes through its phospholipase B activity. Duplicate with different evidence code is acceptable.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'demonstrated that yeast Lpl1 exerts phospholipase activity, plays a vital role in LD morphology'
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This IEA annotation from UniProt keyword KW-0472 is vague and not the most informative. LPL1 specifically localizes to lipid droplets, not general membranes. The lipid droplet monolayer is technically a membrane structure, but the more specific lipid droplet term is preferable.'
+    action: MARK_AS_OVER_ANNOTATED
+    reason: 'While lipid droplets have a phospholipid monolayer that could be considered a membrane, this general membrane annotation lacks specificity. The protein is not found at cellular membranes like plasma membrane or ER membrane in its functional state, but specifically at lipid droplets. The annotation is not wrong but uninformative compared to the specific lipid droplet localization.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Lpl1 is exclusively localized in the LD [lipid droplet] at the stationary phase'
+- term:
+    id: GO:0016042
+    label: lipid catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'IEA annotation from UniProt keyword KW-0442 correctly identifies LPL1 involvement in lipid catabolism through its phospholipase activity that breaks down phospholipids into fatty acids and lysophospholipids.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects LPL1 function in breaking down phospholipids. The phospholipase B activity directly contributes to lipid catabolism by hydrolyzing glycerophospholipids to release fatty acids.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'acetate labeling in the LPL1 overexpressed strains depicted a decrease in glycerophospholipids and an increase in free fatty acids'
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This IEA annotation from UniProt keyword KW-0378 is correct but extremely broad and uninformative. More specific molecular function terms like phospholipase B activity provide actual functional information.'
+    action: MARK_AS_OVER_ANNOTATED
+    reason: 'While technically correct (phospholipases are hydrolases), this term is too general to be informative about LPL1 specific function. It provides no useful information beyond what more specific annotations already capture. This is a classic example of an uninformative high-level term that should be replaced with specific enzymatic activities.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'The purified Lpl1p showed phospholipase activity'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IDA
+  original_reference_id: PMID:25014274
+  review:
+    summary: 'This IDA annotation from Selvaraju et al. 2014 captures the lysophospholipase activity but misses the complete phospholipase B activity. The paper shows LPL1 cleaves both positions, not just lysophospholipids.'
+    action: MODIFY
+    reason: 'The experimental paper actually demonstrates phospholipase B activity (cleaving both sn-1 and sn-2 positions), not just lysophospholipase activity. The annotation should reflect the full enzymatic capability shown in the paper.'
+    proposed_replacement_terms:
+      - id: GO:0102545
+        label: phospholipase B activity
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'The purified Lpl1p showed phospholipase activity with broader substrate specificity, acting on all glycerophospholipids primarily at sn-2 position and later at sn-1 position'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IMP
+  original_reference_id: PMID:25014274
+  review:
+    summary: 'Duplicate annotation with different evidence code (IMP vs IDA) from same paper. Like the IDA annotation, this captures only partial enzymatic activity when the paper shows complete phospholipase B activity.'
+    action: MODIFY
+    reason: 'Same issue as the IDA annotation - the paper demonstrates phospholipase B activity, not just lysophospholipase. The mutant phenotype experiments (IMP) support the broader phospholipase B function.'
+    proposed_replacement_terms:
+      - id: GO:0102545
+        label: phospholipase B activity
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Site directed mutagenesis experiments clearly demonstrated that the lipase motif is vital for the phospholipase activity'
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: HDA
+  original_reference_id: PMID:26928762
+  review:
+    summary: 'This HDA annotation from a high-throughput study likely reflects transient ER association during synthesis or lipid droplet biogenesis, but the functional localization is lipid droplets. The paper is about a yeast library creation method, not focused on LPL1 localization.'
+    action: KEEP_AS_NON_CORE
+    reason: 'While LPL1 may transiently associate with ER (lipid droplets originate from ER), the primary functional localization shown by focused studies is lipid droplets. This high-throughput data point is not wrong but represents a minor/transient localization compared to the well-established lipid droplet localization.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Lpl1 is exclusively localized in the LD at the stationary phase'
+      - reference_id: PMID:26928762
+        supporting_text: 'One library to make them all: streamlining the creation of yeast libraries via a SWAp-Tag strategy [high-throughput study]'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IDA
+  original_reference_id: PMID:25014274
+  review:
+    summary: 'Direct experimental evidence from Selvaraju et al. 2014 using fluorescence microscopy definitively shows LPL1 localizes to lipid droplets, particularly in stationary phase.'
+    action: ACCEPT
+    reason: 'This IDA annotation is fully supported by the referenced paper which used GFP-tagging and microscopy to directly demonstrate lipid droplet localization. This is a core aspect of LPL1 function.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'Localization studies precisely revealed that Lpl1 is exclusively localized in the LD at the stationary phase'
+- term:
+    id: GO:0055088
+    label: lipid homeostasis
+  evidence_type: IMP
+  original_reference_id: PMID:25014274
+  review:
+    summary: 'Mutant phenotype analysis shows LPL1 deletion alters lipid droplet morphology and disrupts normal phospholipid/fatty acid balance, supporting a role in lipid homeostasis.'
+    action: ACCEPT
+    reason: 'The IMP evidence from lpl1Δ mutants showing altered lipid droplet morphology, changes in phospholipid levels, and fatty acid accumulation strongly supports this annotation. LPL1 maintains lipid balance through its phospholipase activity.'
+    supported_by:
+      - reference_id: PMID:25014274
+        supporting_text: 'deletion of LPL1 resulted in altered morphology of LDs and was confirmed by microscopic analysis'
+      - reference_id: PMID:25014274
+        supporting_text: 'acetate labeling in the LPL1 overexpressed strains depicted a decrease in glycerophospholipids and an increase in free fatty acids'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IDA
+  original_reference_id: PMID:24868093
+  review:
+    summary: 'High confidence proteomic analysis independently confirms LPL1 as a lipid droplet protein, corroborating other localization studies.'
+    action: ACCEPT
+    reason: 'This proteomics study provides independent confirmation of lipid droplet localization through biochemical fractionation and mass spectrometry identification. Multiple lines of evidence support this core localization.'
+    supported_by:
+      - reference_id: PMID:24868093
+        supporting_text: 'High confidence proteomic analysis of yeast LDs identifies additional droplet proteins'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IDA
+  original_reference_id: PMID:10515935
+  review:
+    summary: 'Early biochemical characterization identifying LPL1 as a major lipid particle (droplet) protein through fractionation and mass spectrometry.'
+    action: ACCEPT
+    reason: 'This foundational study was among the first to identify LPL1 as a lipid droplet protein through systematic proteomic analysis of purified lipid particles. Well-supported experimental evidence.'
+    supported_by:
+      - reference_id: PMID:10515935
+        supporting_text: 'Identification and characterization of major lipid particle proteins of the yeast Saccharomyces cerevisiae'
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:10515935
+  title: Identification and characterization of major lipid particle proteins of the
+    yeast Saccharomyces cerevisiae.
+  findings: []
+- id: PMID:24868093
+  title: High confidence proteomic analysis of yeast LDs identifies additional droplet
+    proteins and reveals connections to dolichol synthesis and sterol acetylation.
+  findings: []
+- id: PMID:25014274
+  title: Identification of a phospholipase B encoded by the LPL1 gene in Saccharomyces
+    cerevisiae.
+  findings: []
+- id: PMID:26928762
+  title: 'One library to make them all: streamlining the creation of yeast libraries
+    via a SWAp-Tag strategy.'
+  findings: []
+- id: PMID:28100635
+  title: Phospholipase Lpl1 links lipid droplet function with quality control protein degradation.
+  findings: []
+core_functions:
+- description: Hydrolyzes glycerophospholipids at both sn-1 and sn-2 positions to release fatty acids and regulate lipid droplet surface composition
+  supported_by:
+    - reference_id: PMID:25014274
+      supporting_text: The purified Lpl1p showed phospholipase activity with broader substrate specificity, acting on all glycerophospholipids primarily at sn-2 position and later at sn-1 position
+  molecular_function:
+    id: GO:0102545
+    label: phospholipase B activity
+  directly_involved_in:
+    - id: GO:0034389
+      label: lipid droplet organization
+    - id: GO:0046475
+      label: glycerophospholipid catabolic process
+  locations:
+    - id: GO:0005811
+      label: lipid droplet
+  substrates:
+    - id: CHEBI:16038
+      label: phosphatidylethanolamine
+    - id: CHEBI:57643
+      label: 1,2-diacyl-sn-glycero-3-phosphocholine  
+    - id: CHEBI:18303
+      label: phosphatidyl-L-serine
+    - id: CHEBI:16337
+      label: phosphatidic acid
+    - id: CHEBI:17517
+      label: phosphatidylglycerol
+- description: Facilitates proteasomal degradation of misfolded proteins as part of the Rpn4-mediated proteotoxic stress response
+  supported_by:
+    - reference_id: PMID:28100635
+      supporting_text: LPL1 is an Rpn4 target gene induced under proteotoxic stress. hac1Δ lpl1Δ double mutants accumulate polyubiquitinated proteins and show severe defects in proteasomal degradation of misfolded substrates
+  molecular_function:
+    id: GO:0102545
+    label: phospholipase B activity
+  directly_involved_in:
+    - id: GO:0071218
+      label: cellular response to misfolded protein
+    - id: GO:0043161
+      label: proteasome-mediated ubiquitin-dependent protein catabolic process
+  locations:
+    - id: GO:0005811
+      label: lipid droplet

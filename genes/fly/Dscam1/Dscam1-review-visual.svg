@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="8815" viewBox="0 0 1800 8815">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="8815" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: Dscam1 (Drosophila melanogaster)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="5520" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="5542.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="6395" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="6417.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="1980" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2001.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="3950" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3971.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="4615" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4636.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="4990" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5011.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">growth</text>
+<rect x="60" y="5220" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5241.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="5575" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5596.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="6095" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6116.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">molecular transducer activity</text>
+<rect x="60" y="6450" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6471.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0007155</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell adhesion</text>
+<rect x="80" y="1795" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1809" font-size="10" font-family="monospace" fill="#666666">GO:0007411</text>
+<text x="85" y="1825" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon guidance</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0070593</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">dendrite self-avoidance</text>
+<rect x="80" y="1070" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0007413</text>
+<text x="85" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">axonal fasciculation</text>
+<rect x="80" y="2025" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2039" font-size="10" font-family="monospace" fill="#666666">GO:0007399</text>
+<text x="85" y="2055" font-size="11" font-family="Arial, sans-serif" fill="#212121">nervous system development</text>
+<rect x="80" y="2170" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2184" font-size="10" font-family="monospace" fill="#666666">GO:0048812</text>
+<text x="85" y="2200" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuron projection morphogenesis</text>
+<rect x="80" y="2315" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2329" font-size="10" font-family="monospace" fill="#666666">GO:0007419</text>
+<text x="85" y="2345" font-size="11" font-family="Arial, sans-serif" fill="#212121">ventral cord development</text>
+<rect x="80" y="3475" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3489" font-size="10" font-family="monospace" fill="#666666">GO:0016319</text>
+<text x="85" y="3505" font-size="11" font-family="Arial, sans-serif" fill="#212121">mushroom body development</text>
+<rect x="80" y="3330" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3344" font-size="10" font-family="monospace" fill="#666666">GO:0021551</text>
+<text x="85" y="3360" font-size="11" font-family="Arial, sans-serif" fill="#212121">central nervous system morphogenesis</text>
+<rect x="80" y="3620" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3634" font-size="10" font-family="monospace" fill="#666666">GO:0048666</text>
+<text x="85" y="3650" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuron development</text>
+<rect x="80" y="3765" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3779" font-size="10" font-family="monospace" fill="#666666">GO:0007422</text>
+<text x="85" y="3795" font-size="11" font-family="Arial, sans-serif" fill="#212121">peripheral nervous system development</text>
+<rect x="80" y="4430" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4444" font-size="10" font-family="monospace" fill="#666666">GO:0048814</text>
+<text x="85" y="4460" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of dendrite morphogenesis</text>
+<rect x="80" y="4285" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4299" font-size="10" font-family="monospace" fill="#666666">GO:0050770</text>
+<text x="85" y="4315" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of axonogenesis</text>
+<rect x="80" y="4660" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4674" font-size="10" font-family="monospace" fill="#666666">GO:0050976</text>
+<text x="85" y="4690" font-size="11" font-family="Arial, sans-serif" fill="#212121">detection of mechanical stimulus in...</text>
+<rect x="80" y="4805" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4819" font-size="10" font-family="monospace" fill="#666666">GO:0032490</text>
+<text x="85" y="4835" font-size="11" font-family="Arial, sans-serif" fill="#212121">detection of molecule of bacterial ...</text>
+<rect x="80" y="5035" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5049" font-size="10" font-family="monospace" fill="#666666">GO:0048846</text>
+<text x="85" y="5065" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon extension involved in axon gui...</text>
+<rect x="80" y="5265" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5279" font-size="10" font-family="monospace" fill="#666666">GO:0006909</text>
+<text x="85" y="5295" font-size="11" font-family="Arial, sans-serif" fill="#212121">phagocytosis</text>
+<rect x="80" y="5765" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5779" font-size="10" font-family="monospace" fill="#666666">GO:0042802</text>
+<text x="85" y="5795" font-size="11" font-family="Arial, sans-serif" fill="#212121">identical protein binding</text>
+<rect x="80" y="5910" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5924" font-size="10" font-family="monospace" fill="#666666">GO:0003823</text>
+<text x="85" y="5940" font-size="11" font-family="Arial, sans-serif" fill="#212121">antigen binding</text>
+<rect x="80" y="6140" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6154" font-size="10" font-family="monospace" fill="#666666">GO:0008046</text>
+<text x="85" y="6170" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon guidance receptor activity</text>
+<rect x="80" y="6495" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6509" font-size="10" font-family="monospace" fill="#666666">GO:0005576</text>
+<text x="85" y="6525" font-size="11" font-family="Arial, sans-serif" fill="#212121">extracellular region</text>
+<rect x="80" y="7945" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7959" font-size="10" font-family="monospace" fill="#666666">GO:0005886</text>
+<text x="85" y="7975" font-size="11" font-family="Arial, sans-serif" fill="#212121">plasma membrane</text>
+<rect x="80" y="6785" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6799" font-size="10" font-family="monospace" fill="#666666">GO:0016020</text>
+<text x="85" y="6815" font-size="11" font-family="Arial, sans-serif" fill="#212121">membrane</text>
+<rect x="80" y="8090" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8104" font-size="10" font-family="monospace" fill="#666666">GO:0030424</text>
+<text x="85" y="8120" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon</text>
+<rect x="80" y="8235" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8249" font-size="10" font-family="monospace" fill="#666666">GO:0030425</text>
+<text x="85" y="8265" font-size="11" font-family="Arial, sans-serif" fill="#212121">dendrite</text>
+<rect x="80" y="7220" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7234" font-size="10" font-family="monospace" fill="#666666">GO:0042995</text>
+<text x="85" y="7250" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell projection</text>
+<rect x="80" y="7655" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7669" font-size="10" font-family="monospace" fill="#666666">GO:0043005</text>
+<text x="85" y="7685" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuron projection</text>
+<rect x="80" y="7510" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7524" font-size="10" font-family="monospace" fill="#666666">GO:0043204</text>
+<text x="85" y="7540" font-size="11" font-family="Arial, sans-serif" fill="#212121">perikaryon</text>
+<rect x="80" y="8380" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8394" font-size="10" font-family="monospace" fill="#666666">GO:0043025</text>
+<text x="85" y="8410" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuronal cell body</text>
+<path d="M332,6517.5 L337,6522.5 L348,6509.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7967.5 L337,7972.5 L348,7959.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,222.5 L390,222.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,222.5 L382,218.5 L382,226.5 Z" fill="#ff9800" />
+<rect x="390" y="200" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0070593</text>
+<text x="395" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">dendrite self-avoidance</text>
+<path d="M280,2047.5 L390,2047.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,2047.5 L382,2043.5 L382,2051.5 Z" fill="#ff9800" />
+<rect x="390" y="2025" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="2039" font-size="10" font-family="monospace" fill="#666666">GO:0007411</text>
+<text x="395" y="2055" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon guidance</text>
+<path d="M332,6799.5 L348,6815.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6815.5 L348,6799.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8112.5 L337,8117.5 L348,8104.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8257.5 L337,8262.5 L348,8249.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5787.5 L337,5792.5 L348,5779.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7234.5 L348,7250.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7250.5 L348,7234.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7677.5 L337,7682.5 L348,7669.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7532.5 L337,7537.5 L348,7524.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2192.5 L337,2197.5 L348,2184.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4452.5 L337,4457.5 L348,4444.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1817.5 L337,1822.5 L348,1809.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4674.5 L348,4690.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4690.5 L348,4674.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="2337.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,3497.5 L337,3502.5 L348,3489.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8402.5 L337,8407.5 L348,8394.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4307.5 L337,4312.5 L348,4299.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,947.5 L337,952.5 L348,939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="5932.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4827.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5057.5 L337,5062.5 L348,5049.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,1092.5 L390,1092.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1092.5 L382,1088.5 L382,1096.5 Z" fill="#ff9800" />
+<rect x="390" y="1070" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0007414</text>
+<text x="395" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">axonal defasciculation</text>
+<circle cx="340" cy="3352.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,6162.5 L337,6167.5 L348,6154.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,3642.5 L390,3642.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3642.5 L382,3638.5 L382,3646.5 Z" fill="#ff9800" />
+<rect x="390" y="3620" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3634" font-size="10" font-family="monospace" fill="#666666">GO:0007411</text>
+<text x="395" y="3650" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon guidance</text>
+<circle cx="340" cy="5287.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3787.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<rect x="395" y="6482.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6492.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6502.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Strong experimental evidence supports the presence of</text>
+<text x="400" y="6511.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">secreted Dscam1 isoforms in the extracellular region,</text>
+<text x="400" y="6520.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">particularly in hemolymph where they function as immune</text>
+<text x="400" y="6529.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">recognition molecules binding to bacterial surfaces.</text>
+<rect x="395" y="7932.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7942.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7952.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While this specific reference is about Dscam2, the plasma</text>
+<text x="400" y="7961.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membrane localization of Dscam1 is well-supported by other</text>
+<text x="400" y="7970.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">experimental evidence.</text>
+<rect x="645" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dscam1 functions primarily in self-recognition leading to</text>
+<text x="650" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">repulsion/avoidance rather than adhesion. More specific</text>
+<text x="650" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms like dendrite self-avoidance (GO:0070593) or</text>
+<text x="650" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">homophilic cell adhesion via plasma membrane adhesion</text>
+<text x="650" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecules (GO:0007156) with repulsive outcome would be</text>
+<text x="650" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">more accurate.</text>
+<rect x="645" y="2012.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="2022.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="2032.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While correct, this term is overly broad. Experimental</text>
+<text x="650" y="2041.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence supports more specific developmental processes</text>
+<text x="650" y="2050.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">like axon guidance (GO:0007411), dendrite morphogenesis</text>
+<text x="650" y="2059.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(GO:0048813), and mushroom body development (GO:0016319)</text>
+<text x="650" y="2068.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which are already annotated with experimental evidence.</text>
+<rect x="395" y="6772.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6782.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6792.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Redundant with the more specific and accurate plasma</text>
+<text x="400" y="6801.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membrane (GO:0005886) annotation. No evidence for</text>
+<text x="400" y="6810.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization to other membrane systems.</text>
+<rect x="395" y="8077.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8087.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8097.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental observation confirms axonal</text>
+<text x="400" y="8106.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization. Well-supported cellular component</text>
+<text x="400" y="8115.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation.</text>
+<rect x="395" y="8222.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8232.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8242.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence confirms dendritic</text>
+<text x="400" y="8251.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization. Essential for dendrite self-avoidance</text>
+<text x="400" y="8260.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="5752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct structural evidence demonstrates homophilic binding</text>
+<text x="400" y="5781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through a symmetric dimer interface. This isoform-specific</text>
+<text x="400" y="5790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">self-binding is the molecular basis for self-recognition</text>
+<text x="400" y="5799.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and is absolutely central to Dscam1 function.</text>
+<rect x="395" y="7207.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7217.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7227.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Redundant parent term. Dscam1 is specifically localized to</text>
+<text x="400" y="7236.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">axons and dendrites which are already annotated with</text>
+<text x="400" y="7245.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">experimental evidence.</text>
+<rect x="395" y="7642.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7652.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7662.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental observation confirms Dscam1 presence</text>
+<text x="400" y="7671.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">on neuron projections. This parent term encompasses the</text>
+<text x="400" y="7680.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific axon and dendrite localizations.</text>
+<rect x="395" y="7497.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7507.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7517.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Experimental evidence supports cell body localization,</text>
+<text x="400" y="7526.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">though the neuronal cell body annotation is more commonly</text>
+<text x="400" y="7535.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">used and has direct experimental support.</text>
+<rect x="395" y="2157.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2167.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2177.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-supported by experimental evidence showing Dscam1 is</text>
+<text x="400" y="2186.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for proper morphogenesis of both axons and</text>
+<text x="400" y="2195.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">dendrites through self-recognition and avoidance</text>
+<text x="400" y="2204.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanisms.</text>
+<rect x="395" y="4417.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4427.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4437.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Multiple independent studies confirm this core function.</text>
+<text x="400" y="4446.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dscam1-mediated self-avoidance is essential for proper</text>
+<text x="400" y="4455.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">dendrite spacing and morphology.</text>
+<rect x="395" y="1782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-validated function showing Dscam1 guides axon branch</text>
+<text x="400" y="1811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">segregation and prevents inappropriate branching.</text>
+<rect x="395" y="4647.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4657.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4667.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">No clear evidence that Dscam1 is directly involved in</text>
+<text x="400" y="4676.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanosensory transduction. Its role in sensory neurons</text>
+<text x="400" y="4685.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is primarily structural (dendrite organization) rather</text>
+<text x="400" y="4694.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">than in sensory signal detection. The cited paper focuses</text>
+<text x="400" y="4703.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">on synaptic targeting, not mechanosensation.</text>
+<rect x="395" y="2302.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2312.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2322.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While Dscam1 mutants do show ventral cord defects, this is</text>
+<text x="400" y="2331.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">secondary to its primary role in axon guidance. The</text>
+<text x="400" y="2340.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">defects in ventral cord organization result from</text>
+<text x="400" y="2349.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">misguidance of axons rather than a specific developmental</text>
+<text x="400" y="2358.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role.</text>
+<rect x="395" y="3462.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3472.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Multiple independent studies confirm this essential</text>
+<text x="400" y="3491.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental role.</text>
+<rect x="395" y="8367.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8377.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8387.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence confirms cell body</text>
+<text x="400" y="8396.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization as part of overall neuronal surface</text>
+<text x="400" y="8405.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">expression.</text>
+<rect x="395" y="4272.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4282.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4292.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Strong experimental evidence supports Dscam1 role in</text>
+<text x="400" y="4301.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulating multiple aspects of axon development including</text>
+<text x="400" y="4310.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">branching, guidance, and fasciculation.</text>
+<rect x="395" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Multiple independent studies confirm dendrite</text>
+<text x="400" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">self-avoidance as a central function. The molecular</text>
+<text x="400" y="950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">diversity enables self/non-self discrimination.</text>
+<rect x="395" y="5897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid immune function but not the primary role of Dscam1.</text>
+<text x="400" y="5926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The secreted isoforms do bind bacteria as opsonins, but</text>
+<text x="400" y="5935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">this is a specialized function in hemocytes/fat body, not</text>
+<text x="400" y="5944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the core neuronal function.</text>
+<rect x="395" y="4792.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4802.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4812.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid but non-core function. Secreted Dscam1 isoforms do</text>
+<text x="400" y="4821.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">detect and bind bacteria in the immune system, but this is</text>
+<text x="400" y="4830.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">secondary to the primary neural development roles.</text>
+<rect x="395" y="5022.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5032.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5042.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid subprocess of the well-established axon guidance</text>
+<text x="400" y="5051.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. Dscam1 signaling through Dock/Pak drives growth</text>
+<text x="400" y="5060.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cone dynamics and axon extension.</text>
+<rect x="645" y="1057.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="1067.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="1077.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dscam1 actually prevents inappropriate fasciculation</text>
+<text x="650" y="1086.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through self-avoidance. The term axon defasciculation or</text>
+<text x="650" y="1095.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation of axon fasciculation would be more accurate.</text>
+<rect x="395" y="3317.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3327.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3337.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">True but overly broad. The specific neural development</text>
+<text x="400" y="3346.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">processes (axon guidance, dendrite morphogenesis) are more</text>
+<text x="400" y="3355.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">informative and better supported.</text>
+<rect x="395" y="6127.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6137.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6147.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dscam1 is a bona fide axon guidance receptor with</text>
+<text x="400" y="6156.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-characterized recognition and signaling mechanisms.</text>
+<text x="400" y="6165.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This molecular function is central to its role.</text>
+<rect x="645" y="3607.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3617.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The cited paper does not appear to be primarily about</text>
+<text x="650" y="3636.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dscam1. While neuron development is affected by Dscam1,</text>
+<text x="650" y="3645.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">more specific terms like axon guidance and dendrite</text>
+<text x="650" y="3654.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">morphogenesis are better supported.</text>
+<rect x="395" y="5252.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5262.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5272.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid immune function but not the primary role. The</text>
+<text x="400" y="5281.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phagocytosis enhancement through bacterial opsonization is</text>
+<text x="400" y="5290.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a specialized function of secreted isoforms in the immune</text>
+<text x="400" y="5299.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">system.</text>
+<rect x="395" y="3752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">True but the more specific function is axon guidance in</text>
+<text x="400" y="3781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PNS neurons. The developmental defects are secondary to</text>
+<text x="400" y="3790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the guidance function.</text>
+<rect x="700" y="6495" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6505" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16109846]</text>
+<text x="705" y="6513" font-size="8" font-family="Arial, sans-serif" fill="#212121">Secreted protein isoforms of Dscam were detected in the hemolymph</text>
+<rect x="700" y="7945" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7955" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17554308]</text>
+<text x="705" y="7963" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dscam2 mediates axonal tiling in the Drosophila visual system</text>
+<rect x="700" y="8090" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8100" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17482551]</text>
+<text x="705" y="8108" font-size="8" font-family="Arial, sans-serif" fill="#212121">[Dscam is present on] axons [in neurons]</text>
+<rect x="700" y="8235" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8245" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17482551]</text>
+<text x="705" y="8253" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dendrites [with Dscam] distinguish between sister branches</text>
+<rect x="700" y="5765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18805093]</text>
+<text x="705" y="5783" font-size="8" font-family="Arial, sans-serif" fill="#212121">structure of the homophilic binding region of Dscam, comprising the</text>
+<text x="705" y="5792" font-size="8" font-family="Arial, sans-serif" fill="#212121">eight N-terminal Ig domains (Dscam(1-8)). Dscam(1-8) forms a</text>
+<text x="705" y="5801" font-size="8" font-family="Arial, sans-serif" fill="#212121">symmetric homodimer of S-shaped molecules</text>
+<rect x="700" y="7655" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7665" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19211897]</text>
+<text x="705" y="7673" font-size="8" font-family="Arial, sans-serif" fill="#212121">[Dscam localization studies reveal presence on] neuronal</text>
+<text x="705" y="7682" font-size="8" font-family="Arial, sans-serif" fill="#212121">[projections]</text>
+<rect x="700" y="7510" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7520" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17482551]</text>
+<text x="705" y="7528" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dendrite self-avoidance is controlled by Dscam</text>
+<rect x="700" y="2170" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2180" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17482551]</text>
+<text x="705" y="2188" font-size="8" font-family="Arial, sans-serif" fill="#212121">dendrite self-avoidance in Drosophila da sensory neurons requires</text>
+<text x="705" y="2197" font-size="8" font-family="Arial, sans-serif" fill="#212121">[Dscam]</text>
+<rect x="700" y="4430" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4440" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16474389]</text>
+<text x="705" y="4448" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dendritic patterning by Dscam and synaptic partner matching in the</text>
+<text x="705" y="4457" font-size="8" font-family="Arial, sans-serif" fill="#212121">Drosophila antennal lobe</text>
+<rect x="700" y="1795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11856530]</text>
+<text x="705" y="1813" font-size="8" font-family="Arial, sans-serif" fill="#212121">Drosophila Dscam is required for divergent segregation of sister</text>
+<text x="705" y="1822" font-size="8" font-family="Arial, sans-serif" fill="#212121">branches and suppresses ectopic bifurcation of axons</text>
+<rect x="700" y="2315" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2325" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19211897]</text>
+<text x="705" y="2333" font-size="8" font-family="Arial, sans-serif" fill="#212121">[Analysis of endodomain diversity reveals effects on] neuronal</text>
+<text x="705" y="2342" font-size="8" font-family="Arial, sans-serif" fill="#212121">morphogenesis</text>
+<rect x="700" y="3475" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3485" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15339648]</text>
+<text x="705" y="3493" font-size="8" font-family="Arial, sans-serif" fill="#212121">Transmembrane/juxtamembrane domain-dependent Dscam distribution and</text>
+<text x="705" y="3502" font-size="8" font-family="Arial, sans-serif" fill="#212121">function during mushroom body neuronal morphogenesis</text>
+<rect x="700" y="8380" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8390" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17482551]</text>
+<text x="705" y="8398" font-size="8" font-family="Arial, sans-serif" fill="#212121">[Dscam localizes to] neuronal [cell surfaces]</text>
+<rect x="700" y="4285" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4295" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17581959]</text>
+<text x="705" y="4303" font-size="8" font-family="Arial, sans-serif" fill="#212121">Specific Drosophila Dscam juxtamembrane variants control...axonal</text>
+<text x="705" y="4312" font-size="8" font-family="Arial, sans-serif" fill="#212121">arborization</text>
+<rect x="1030" y="4285" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4295" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11856530]</text>
+<text x="1035" y="4303" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dscam is required for divergent segregation of sister branches and</text>
+<text x="1035" y="4312" font-size="8" font-family="Arial, sans-serif" fill="#212121">suppresses ectopic bifurcation of axons</text>
+<rect x="700" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17851526]</text>
+<text x="705" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dscam diversity is essential for neuronal wiring and</text>
+<text x="705" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">self-recognition</text>
+<rect x="700" y="5910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16109846]</text>
+<text x="705" y="5928" font-size="8" font-family="Arial, sans-serif" fill="#212121">Secreted protein isoforms of Dscam were detected in the hemolymph,</text>
+<text x="705" y="5937" font-size="8" font-family="Arial, sans-serif" fill="#212121">and hemocyte-specific loss of Dscam impaired the efficiency of</text>
+<text x="705" y="5946" font-size="8" font-family="Arial, sans-serif" fill="#212121">phagocytic uptake of bacteria, possibly due to reduced bacterial</text>
+<text x="705" y="5955" font-size="8" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="700" y="4805" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4815" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16109846]</text>
+<text x="705" y="4823" font-size="8" font-family="Arial, sans-serif" fill="#212121">Secreted protein isoforms of Dscam were detected in the</text>
+<text x="705" y="4832" font-size="8" font-family="Arial, sans-serif" fill="#212121">hemolymph...loss of Dscam impaired the efficiency of phagocytic</text>
+<text x="705" y="4841" font-size="8" font-family="Arial, sans-serif" fill="#212121">uptake of bacteria, possibly due to reduced bacterial binding</text>
+<rect x="700" y="5035" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5045" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10892653]</text>
+<text x="705" y="5053" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dscam, Dock and Pak, a serine/threonine kinase, act together [to</text>
+<text x="705" y="5062" font-size="8" font-family="Arial, sans-serif" fill="#212121">direct pathfinding]</text>
+<rect x="950" y="1070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15339649]</text>
+<text x="955" y="1088" font-size="8" font-family="Arial, sans-serif" fill="#212121">Analysis of Dscam diversity in regulating axon guidance in</text>
+<text x="955" y="1097" font-size="8" font-family="Arial, sans-serif" fill="#212121">Drosophila mushroom bodies</text>
+<rect x="700" y="3330" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3340" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17851526]</text>
+<text x="705" y="3348" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dscam diversity is essential for neuronal wiring</text>
+<rect x="700" y="6140" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6150" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15339666]</text>
+<text x="705" y="6158" font-size="8" font-family="Arial, sans-serif" fill="#212121">Drosophila Dscam generates axon guidance receptors that exhibit</text>
+<text x="705" y="6167" font-size="8" font-family="Arial, sans-serif" fill="#212121">isoform-specific homophilic binding</text>
+<rect x="1030" y="6140" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="6150" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10892653]</text>
+<text x="1035" y="6158" font-size="8" font-family="Arial, sans-serif" fill="#212121">Drosophila Dscam is an axon guidance receptor</text>
+<rect x="700" y="5265" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5275" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16109846]</text>
+<text x="705" y="5283" font-size="8" font-family="Arial, sans-serif" fill="#212121">hemocyte-specific loss of Dscam impaired the efficiency of</text>
+<text x="705" y="5292" font-size="8" font-family="Arial, sans-serif" fill="#212121">phagocytic uptake of bacteria</text>
+<rect x="700" y="3765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12546818]</text>
+<text x="705" y="3783" font-size="8" font-family="Arial, sans-serif" fill="#212121">Axonal targeting of olfactory receptor neurons in Drosophila is</text>
+<text x="705" y="3792" font-size="8" font-family="Arial, sans-serif" fill="#212121">controlled by Dscam</text>
+<rect x="600.0" y="8675" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="8710.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="8710.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1345" viewBox="0 0 1800 1345">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1345" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: tam10 (Schizosaccharomyces pombe 972h-)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="455" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="477.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="810" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="832.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological_process</text>
+<rect x="60" y="510" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="531.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="865" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="886.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0008150</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">biological_process</text>
+<rect x="80" y="555" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="569" font-size="10" font-family="monospace" fill="#666666">GO:0003723</text>
+<text x="85" y="585" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA binding</text>
+<rect x="80" y="910" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="924" font-size="10" font-family="monospace" fill="#666666">GO:0005730</text>
+<text x="85" y="940" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleolus</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,569.5 L348,585.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,585.5 L348,569.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,924.5 L348,940.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,940.5 L348,924.5" stroke="#f44336" stroke-width="3" />
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The ND annotation for biological_process is appropriate</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">given the complete lack of functional characterization.</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While tam10 shows differential expression during meiosis</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">[PMID:21270388], this correlative observation does not</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">justify assignment to meiotic processes without direct</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functional evidence. The deletion phenotype shows no</text>
+<rect x="395" y="542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The ISO evidence is invalid because tam10 has no</text>
+<text x="400" y="571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">established orthologs - it is explicitly described as a</text>
+<text x="400" y="580.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">"sequence orphan" specific to the fission yeast lineage</text>
+<text x="400" y="589.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">with no homologs in other fungi or model organisms</text>
+<text x="400" y="598.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">[PMID:21270388]. The SMAP domain annotation appears to be</text>
+<text x="400" y="607.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a weak computational prediction that conflicts with the</text>
+<rect x="395" y="897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The ISS evidence lacks foundation as tam10 has no sequence</text>
+<text x="400" y="926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">similarity to characterized proteins - it is explicitly a</text>
+<text x="400" y="935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">"sequence orphan" with no domains or motifs</text>
+<text x="400" y="944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">[PMID:21270388]. Without identifiable sequence features</text>
+<text x="400" y="953.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">that would justify similarity-based localization</text>
+<text x="400" y="962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">inference, and lacking any experimental localization data,</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/tam10/tam...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">The authors created a tam10Δ knockout and observed its phenotype...</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">The tam10 deletion strain was viable with no apparent abnormalities</text>
+<rect x="700" y="555" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="565" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/tam10/tam...]</text>
+<text x="705" y="573" font-size="8" font-family="Arial, sans-serif" fill="#212121">Tam10 as a sequence orphan, meaning its sequence did not match any</text>
+<text x="705" y="582" font-size="8" font-family="Arial, sans-serif" fill="#212121">Pfam domains or known protein families... Computational analysis</text>
+<text x="705" y="591" font-size="8" font-family="Arial, sans-serif" fill="#212121">thus far has not revealed any conserved motifs, enzymatic active</text>
+<text x="705" y="600" font-size="8" font-family="Arial, sans-serif" fill="#212121">sites, or repeats in Tam10</text>
+<rect x="1030" y="555" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="565" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/tam10/tam...]</text>
+<text x="1035" y="573" font-size="8" font-family="Arial, sans-serif" fill="#212121">Tam10 is poorly conserved across species... It appears to be</text>
+<text x="1035" y="582" font-size="8" font-family="Arial, sans-serif" fill="#212121">specific to the fission yeast lineage (Schizosaccharomyces).</text>
+<text x="1035" y="591" font-size="8" font-family="Arial, sans-serif" fill="#212121">Notably, no homolog of Tam10 exists in the budding yeast</text>
+<text x="1035" y="600" font-size="8" font-family="Arial, sans-serif" fill="#212121">Saccharomyces cerevisiae or in higher eukaryotes</text>
+<rect x="700" y="910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/tam10/tam...]</text>
+<text x="705" y="928" font-size="8" font-family="Arial, sans-serif" fill="#212121">The subcellular localization of Tam10 is not yet determined. No</text>
+<text x="705" y="937" font-size="8" font-family="Arial, sans-serif" fill="#212121">localization studies (e.g. GFP-tagging or immunolocalization) have</text>
+<text x="705" y="946" font-size="8" font-family="Arial, sans-serif" fill="#212121">been published for Tam10... Since the protein lacks recognizable</text>
+<text x="705" y="955" font-size="8" font-family="Arial, sans-serif" fill="#212121">targeting signals (e.g. no predicted transmembrane helices or</text>
+<text x="705" y="964" font-size="8" font-family="Arial, sans-serif" fill="#212121">organelle-specific motifs) and has no known domains, it provides no</text>
+<text x="705" y="973" font-size="8" font-family="Arial, sans-serif" fill="#212121">clear clues for localization</text>
+<rect x="1030" y="910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/tam10/tam...]</text>
+<text x="1035" y="928" font-size="8" font-family="Arial, sans-serif" fill="#212121">Its sequence reveals no known conserved motifs or domains,</text>
+<text x="1035" y="937" font-size="8" font-family="Arial, sans-serif" fill="#212121">classifying it as a sequence orphan with no obvious homology to</text>
+<text x="1035" y="946" font-size="8" font-family="Arial, sans-serif" fill="#212121">characterized proteins</text>
+<rect x="600.0" y="1205" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1240.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1240.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

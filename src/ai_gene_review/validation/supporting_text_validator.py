@@ -440,8 +440,9 @@ class SupportingTextValidator:
                     f'Supporting text "{text_preview}" not found in {reference_id} '
                     f"(best similarity: {similarity:.1%})"
                 )
-                if best_match:
-                    result.suggested_fix = f'Consider using: "{best_match[:200]}..."'
+                # this is misleading
+                #if best_match:
+                #    result.suggested_fix = f'Consider using: "{best_match[:200]}..."'
             else:
                 result.error_message = (
                     f'Supporting text "{text_preview}" not found in {reference_id}'

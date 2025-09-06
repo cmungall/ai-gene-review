@@ -1,0 +1,284 @@
+ID   AATA_PENCH              Reviewed;         357 AA.
+AC   P15802;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Isopenicillin-N N-acyltransferase {ECO:0000303|PubMed:2120195};
+DE            Short=IAT {ECO:0000303|PubMed:2120195};
+DE            Short=IPN acyltransferase {ECO:0000303|PubMed:2120195};
+DE            EC=2.3.1.164 {ECO:0000269|PubMed:1368505, ECO:0000269|PubMed:2110531, ECO:0000269|PubMed:2120195};
+DE   AltName: Full=Acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase 40 kDa form {ECO:0000303|PubMed:2555269};
+DE   AltName: Full=Penicillin biosynthetis cluster protein aatA {ECO:0000303|PubMed:1368505};
+DE   Contains:
+DE     RecName: Full=Acyl-coenzyme A:6-aminopenicillanic acid acyltransferase 11 kDa subunit {ECO:0000303|PubMed:2555269};
+DE   Contains:
+DE     RecName: Full=Acyl-coenzyme A:6-aminopenicillanic acid acyltransferase 29 kDa subunit {ECO:0000303|PubMed:2555269};
+GN   Name=aatA {ECO:0000303|PubMed:2555269};
+GN   Synonyms=penDE {ECO:0000303|PubMed:2120195};
+OS   Penicillium chrysogenum (Penicillium notatum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium;
+OC   Penicillium chrysogenum species complex.
+OX   NCBI_TaxID=5076;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-31 AND
+RP   104-129.
+RC   STRAIN=AS-P-78;
+RX   PubMed=2555269; DOI=10.1016/0378-1119(89)90115-7;
+RA   Barredo J.L., van Solingen P., Diez B., Alvarez E., Cantoral J.M.,
+RA   Kattevilder A., Smaal E.B., Groenen M.A.M., Veenstra A.E., Martin J.F.;
+RT   "Cloning and characterization of the acyl-coenzyme A: 6-aminopenicillanic-
+RT   acid-acyltransferase gene of Penicillium chrysogenum.";
+RL   Gene 83:291-300(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, SUBUNIT, CATALYTIC ACTIVITY,
+RP   AND PATHWAY.
+RX   PubMed=2120195; DOI=10.1128/jb.172.10.5908-5914.1990;
+RA   Tobin M.B., Fleming M.D., Skatrud P.L., Miller J.R.;
+RT   "Molecular characterization of the acyl-coenzyme A:isopenicillin N
+RT   acyltransferase gene (penDE) from Penicillium chrysogenum and Aspergillus
+RT   nidulans and activity of recombinant enzyme in Escherichia coli.";
+RL   J. Bacteriol. 172:5908-5914(1990).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-20; 103-131; 188-200; 258-265 AND 316-323, FUNCTION,
+RP   SUBUNIT, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=2110531; DOI=10.1016/0014-5793(90)80224-7;
+RA   Whiteman P.A., Abraham E.P., Baldwin J.E., Fleming M.D., Schofield C.J.,
+RA   Sutherland J.D., Willis A.C.;
+RT   "Acyl coenzyme A: 6-aminopenicillanic acid acyltransferase from Penicillium
+RT   chrysogenum and Aspergillus nidulans.";
+RL   FEBS Lett. 262:342-344(1990).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=1368505; DOI=10.1038/nbt0190-39;
+RA   Smith D.J., Burnham M.K., Edwards J., Earl A.J., Turner G.;
+RT   "Cloning and heterologous expression of the penicillin biosynthetic gene
+RT   cluster from penicillum chrysogenum.";
+RL   Biotechnology (N.Y.) 8:39-41(1990).
+RN   [5]
+RP   POST-TRANSLATIONAL CLEAVAGE.
+RX   PubMed=8396910; DOI=10.1042/bj2940357;
+RA   Aplin R.T., Baldwin J.E., Roach P.L., Robinson C.V., Schofield C.J.;
+RT   "Investigations into the post-translational modification and mechanism of
+RT   isopenicillin N:acyl-CoA acyltransferase using electrospray mass
+RT   spectrometry.";
+RL   Biochem. J. 294:357-363(1993).
+RN   [6]
+RP   SELF-PROCESSING, AND SUBCELLULAR LOCATION.
+RX   PubMed=18439860; DOI=10.1016/j.fgb.2008.03.005;
+RA   Garcia-Estrada C., Vaca I., Fierro F., Sjollema K., Veenhuis M.,
+RA   Martin J.F.;
+RT   "The unprocessed preprotein form IATC103S of the isopenicillin N
+RT   acyltransferase is transported inside peroxisomes and regulates its self-
+RT   processing.";
+RL   Fungal Genet. Biol. 45:1043-1052(2008).
+RN   [7]
+RP   INDUCTION.
+RX   PubMed=22960281; DOI=10.1016/j.fgb.2012.08.002;
+RA   Dominguez-Santos R., Martin J.F., Kosalkova K., Prieto C., Ullan R.V.,
+RA   Garcia-Estrada C.;
+RT   "The regulatory factor PcRFX1 controls the expression of the three genes of
+RT   beta-lactam biosynthesis in Penicillium chrysogenum.";
+RL   Fungal Genet. Biol. 49:866-881(2012).
+RN   [8]
+RP   FUNCTION.
+RX   PubMed=23053082; DOI=10.1007/s00253-012-4425-1;
+RA   Fernandez-Aguado M., Ullan R.V., Teijeira F., Rodriguez-Castro R.,
+RA   Martin J.F.;
+RT   "The transport of phenylacetic acid across the peroxisomal membrane is
+RT   mediated by the PaaT protein in Penicillium chrysogenum.";
+RL   Appl. Microbiol. Biotechnol. 97:3073-3084(2013).
+RN   [9] {ECO:0007744|PDB:2X1C, ECO:0007744|PDB:2X1D, ECO:0007744|PDB:2X1E}
+RP   X-RAY CRYSTALLOGRAPHY (1.64 ANGSTROMS) IN COMPLEX WITH 6-AMINOPENICILLANIC
+RP   ACID, AND SELF-PROCESSING.
+RX   PubMed=20223213; DOI=10.1016/j.str.2010.01.005;
+RA   Bokhove M., Yoshida H., Hensgens C.M., van der Laan J.M., Sutherland J.D.,
+RA   Dijkstra B.W.;
+RT   "Structures of an isopenicillin N converting Ntn-hydrolase reveal different
+RT   catalytic roles for the active site residues of precursor and mature
+RT   enzyme.";
+RL   Structure 18:301-308(2010).
+CC   -!- FUNCTION: Isopenicillin-N N-acyltransferase; part of the gene cluster
+CC       that mediates the biosynthesis of penicillin, the world's most
+CC       important antibiotic (PubMed:1368505, PubMed:2110531, PubMed:2120195).
+CC       AatA catalyzes the exchange of the alpha-aminoadipyl side chain of
+CC       isopenicillin N for phenylacetic acid to yield penicillin
+CC       (PubMed:1368505, PubMed:2110531, PubMed:2120195). This step occurs in
+CC       the peroxisomal matrix and the penM and paaT transporters are involved
+CC       in the isopenicillin N and phenylacetic acid import into the
+CC       peroxisome, respectively (PubMed:23053082). The penicillin biosynthesis
+CC       occurs via 3 enzymatic steps, the first corresponding to the production
+CC       of the tripeptide N-[(5S)-5-amino-5-carboxypentanoyl]-L-cysteinyl-D-
+CC       valine (LLD-ACV or ACV) by the NRPS acvA. The tripeptide ACV is then
+CC       cyclized to isopenicillin N (IPN) by the isopenicillin N synthase ipnA
+CC       that forms the beta-lactam nucleus. Finally, the alpha-aminoadipyl side
+CC       chain is exchanged for phenylacetic acid by the isopenicillin N
+CC       acyltransferase aatA to yield penicillin in the peroxisomal matrix
+CC       (Probable) (PubMed:1368505). {ECO:0000269|PubMed:1368505,
+CC       ECO:0000269|PubMed:2110531, ECO:0000269|PubMed:2120195,
+CC       ECO:0000269|PubMed:23053082, ECO:0000305|PubMed:1368505}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopenicillin N + phenylacetyl-CoA + H2O = penicillin G + L-2-
+CC         aminoadipate + CoA + H(+); Xref=Rhea:RHEA:20720, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:51354, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57390, ChEBI:CHEBI:58399, ChEBI:CHEBI:58672;
+CC         EC=2.3.1.164; Evidence={ECO:0000269|PubMed:1368505,
+CC         ECO:0000269|PubMed:2110531, ECO:0000269|PubMed:2120195};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20721;
+CC         Evidence={ECO:0000269|PubMed:1368505, ECO:0000269|PubMed:2110531,
+CC         ECO:0000269|PubMed:2120195};
+CC   -!- PATHWAY: Antibiotic biosynthesis; penicillin G biosynthesis; penicillin
+CC       G from L-alpha-aminoadipate and L-cysteine and L-valine: step 3/3.
+CC       {ECO:0000269|PubMed:1368505, ECO:0000269|PubMed:2110531,
+CC       ECO:0000269|PubMed:2120195}.
+CC   -!- SUBUNIT: The active form of the enzyme results from processing of the
+CC       40-kDa monomeric precursor to a heterodimer containing subunits of 11
+CC       and 29 kDa. {ECO:0000269|PubMed:2110531, ECO:0000269|PubMed:2120195}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome matrix {ECO:0000269|PubMed:18439860}.
+CC       Note=The unprocessed preprotein is translocated inside peroxisomes and
+CC       regulates its self-processing. {ECO:0000269|PubMed:18439860}.
+CC   -!- INDUCTION: The transcription factor rfx1 controls penicillin
+CC       biosynthesis through the regulation of the acvA, ipnA and aatA
+CC       transcription. {ECO:0000269|PubMed:22960281}.
+CC   -!- PTM: The pre-AAT protein is synthesized as 40 kDa precursor which is
+CC       then self-processed into an 11 kDa (protein A) and a 29 kDa (protein
+CC       B). The B protein carries AAT activity. {ECO:0000269|PubMed:18439860,
+CC       ECO:0000269|PubMed:20223213, ECO:0000269|PubMed:2120195,
+CC       ECO:0000269|PubMed:8396910}.
+CC   -!- SIMILARITY: Belongs to the peptidase C45 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M31454; AAA33692.1; -; Genomic_DNA.
+DR   EMBL; A15528; CAA01234.1; -; Genomic_DNA.
+DR   EMBL; A15359; CAA01221.1; -; Genomic_DNA.
+DR   PIR; JQ0118; JQ0118.
+DR   PDB; 2X1C; X-ray; 1.85 A; A/B/C/D=1-357.
+DR   PDB; 2X1D; X-ray; 1.64 A; A/B/C/D=1-357.
+DR   PDB; 2X1E; X-ray; 2.00 A; A/B/C/D=1-357.
+DR   PDBsum; 2X1C; -.
+DR   PDBsum; 2X1D; -.
+DR   PDBsum; 2X1E; -.
+DR   AlphaFoldDB; P15802; -.
+DR   SMR; P15802; -.
+DR   MEROPS; C45.001; -.
+DR   PhylomeDB; P15802; -.
+DR   BioCyc; MetaCyc:MONOMER-13369; -.
+DR   BRENDA; 2.3.1.164; 4606.
+DR   UniPathway; UPA00149; UER00241.
+DR   EvolutionaryTrace; P15802; -.
+DR   GO; GO:0005782; C:peroxisomal matrix; IDA:GO_Central.
+DR   GO; GO:0050640; F:isopenicillin-N N-acyltransferase activity; IDA:GO_Central.
+DR   GO; GO:0042318; P:penicillin biosynthetic process; IDA:GO_Central.
+DR   FunFam; 1.10.10.2120:FF:000002; Acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase 40 kDa form; 1.
+DR   FunFam; 3.60.60.10:FF:000010; Acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase 40 kDa form; 1.
+DR   Gene3D; 1.10.10.2120; -; 1.
+DR   Gene3D; 3.60.60.10; Penicillin V Acylase, Chain A; 1.
+DR   InterPro; IPR047794; C45_proenzyme-like.
+DR   InterPro; IPR047801; Peptidase_C45.
+DR   InterPro; IPR005079; Peptidase_C45_hydrolase.
+DR   NCBIfam; NF040521; C45_proenzyme; 1.
+DR   PANTHER; PTHR34180:SF1; BETA-ALANYL-DOPAMINE_CARCININE HYDROLASE; 1.
+DR   PANTHER; PTHR34180; PEPTIDASE C45; 1.
+DR   Pfam; PF03417; AAT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Antibiotic biosynthesis;
+KW   Direct protein sequencing; Peroxisome; Transferase; Zymogen.
+FT   CHAIN           1..357
+FT                   /note="Isopenicillin-N N-acyltransferase"
+FT                   /id="PRO_0000020595"
+FT   CHAIN           1..102
+FT                   /note="Acyl-coenzyme A:6-aminopenicillanic acid
+FT                   acyltransferase 11 kDa subunit"
+FT                   /id="PRO_0000020596"
+FT   CHAIN           103..357
+FT                   /note="Acyl-coenzyme A:6-aminopenicillanic acid
+FT                   acyltransferase 29 kDa subunit"
+FT                   /id="PRO_0000020597"
+FT   BINDING         121
+FT                   /ligand="6-aminopenicillanate"
+FT                   /ligand_id="ChEBI:CHEBI:57869"
+FT                   /evidence="ECO:0000269|PubMed:20223213,
+FT                   ECO:0007744|PDB:2X1E"
+FT   BINDING         310
+FT                   /ligand="6-aminopenicillanate"
+FT                   /ligand_id="ChEBI:CHEBI:57869"
+FT                   /evidence="ECO:0000269|PubMed:20223213,
+FT                   ECO:0007744|PDB:2X1E"
+FT   CONFLICT        103
+FT                   /note="C -> W (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        125
+FT                   /note="A -> P (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..9
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           10..20
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           22..37
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           44..61
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           63..76
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           80..87
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           89..100
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          104..108
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          115..122
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           124..129
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          130..136
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          143..148
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          155..158
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          163..167
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           181..189
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           194..203
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          206..209
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          211..216
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          221..227
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          230..234
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          240..244
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           263..277
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           283..289
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   TURN            294..297
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          298..301
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   TURN            306..308
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          312..320
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   TURN            321..324
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          325..331
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   STRAND          337..343
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+FT   HELIX           346..353
+FT                   /evidence="ECO:0007829|PDB:2X1D"
+SQ   SEQUENCE   357 AA;  39939 MW;  7A05822312D1CF08 CRC64;
+     MLHILCQGTP FEIGYEHGSA AKAVIARSID FAVDLIRGKT KKTDEELKQV LSQLGRVIEE
+     RWPKYYEEIR GIAKGAERDV SEIVMLNTRT EFAYGLKAAR DGCTTAYCQL PNGALQGQNW
+     DFFSATKENL IRLTIRQAGL PTIKFITEAG IIGKVGFNSA GVAVNYNALH LQGLRPTGVP
+     SHIALRIALE STSPSQAYDR IVEQGGMAAS AFIMVGNGHE AFGLEFSPTS IRKQVLDANG
+     RMVHTNHCLL QHGKNEKELD PLPDSWNRHQ RMEFLLDGFD GTKQAFAQLW ADEDNYPFSI
+     CRAYEEGKSR GATLFNIIYD HARREATVRL GRPTNPDEMF VMRFDEEDER SALNARL
+//

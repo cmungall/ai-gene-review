@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="2465" viewBox="0 0 1800 2465">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="2465" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: merA (Pseudomonas aeruginosa)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="830" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="852.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">detoxification</text>
+<rect x="60" y="385" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="406.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="885" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="906.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1550" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1571.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0050787</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">detoxification of mercury ion</text>
+<rect x="80" y="430" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="444" font-size="10" font-family="monospace" fill="#666666">GO:0006979</text>
+<text x="85" y="460" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to oxidative stress</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0046689</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to mercury ion</text>
+<rect x="80" y="930" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="944" font-size="10" font-family="monospace" fill="#666666">GO:0003955</text>
+<text x="85" y="960" font-size="11" font-family="Arial, sans-serif" fill="#212121">NAD(P)H dehydrogenase (quinone) act...</text>
+<rect x="80" y="1075" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1089" font-size="10" font-family="monospace" fill="#666666">GO:0016152</text>
+<text x="85" y="1105" font-size="11" font-family="Arial, sans-serif" fill="#212121">mercury (II) reductase (NADP+) acti...</text>
+<rect x="80" y="1220" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1234" font-size="10" font-family="monospace" fill="#666666">GO:0016491</text>
+<text x="85" y="1250" font-size="11" font-family="Arial, sans-serif" fill="#212121">oxidoreductase activity</text>
+<rect x="80" y="1365" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0016668</text>
+<text x="85" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">oxidoreductase activity, acting on ...</text>
+<rect x="80" y="1595" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1609" font-size="10" font-family="monospace" fill="#666666">GO:0045340</text>
+<text x="85" y="1625" font-size="11" font-family="Arial, sans-serif" fill="#212121">mercury ion binding</text>
+<rect x="80" y="1740" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1754" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="1770" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="1885" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1899" font-size="10" font-family="monospace" fill="#666666">GO:0050660</text>
+<text x="85" y="1915" font-size="11" font-family="Arial, sans-serif" fill="#212121">flavin adenine dinucleotide binding</text>
+<rect x="80" y="2030" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2044" font-size="10" font-family="monospace" fill="#666666">GO:0050661</text>
+<text x="85" y="2060" font-size="11" font-family="Arial, sans-serif" fill="#212121">NADP binding</text>
+<path d="M332,944.5 L348,960.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,960.5 L348,944.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1097.5 L337,1102.5 L348,1089.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1242.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1379.5 L348,1395.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1395.5 L348,1379.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1617.5 L337,1622.5 L348,1609.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1762.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1907.5 L337,1912.5 L348,1899.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2052.5 L337,2057.5 L348,2044.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,444.5 L348,460.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,460.5 L348,444.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,597.5 L337,602.5 L348,589.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="917.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="927.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="937.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">MerA specifically reduces mercury ions, not quinones. The</text>
+<text x="400" y="946.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme's substrate specificity is for Hg(II), not quinone</text>
+<text x="400" y="955.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecules.</text>
+<rect x="395" y="1062.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1072.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1082.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence confirms this as MerA's</text>
+<text x="400" y="1091.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primary molecular function</text>
+<rect x="395" y="1207.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1217.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1227.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too general - more specific mercury reductase term</text>
+<text x="400" y="1236.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">available</text>
+<rect x="395" y="1352.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1362.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1372.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Misleading - MerA acts on mercury ions as substrate, not</text>
+<text x="400" y="1381.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sulfur groups. The redox-active cysteines are part of the</text>
+<text x="400" y="1390.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme mechanism, not the substrate.</text>
+<rect x="395" y="1582.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1592.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1602.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Structural and mutational evidence confirms mercury</text>
+<text x="400" y="1611.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding as essential molecular function</text>
+<rect x="395" y="1727.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1737.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1747.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too general - more specific mercury ion binding term</text>
+<text x="400" y="1756.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">available</text>
+<rect x="395" y="1872.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1882.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1892.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">FAD binding is essential for catalytic activity</text>
+<rect x="395" y="2017.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2027.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2037.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">NADPH binding is essential for electron donation in</text>
+<text x="400" y="2046.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mercury reduction</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core biological function with extensive genetic and</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phenotypic evidence</text>
+<rect x="395" y="417.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="427.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="437.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">MerA is specifically induced by mercury via MerR, not by</text>
+<text x="400" y="446.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">oxidative stress signals</text>
+<rect x="395" y="562.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="572.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="582.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">MerA expression is specifically induced by mercury</text>
+<text x="400" y="591.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">exposure via MerR regulation</text>
+<rect x="700" y="1075" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1085" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[6412751]</text>
+<text x="705" y="1093" font-size="8" font-family="Arial, sans-serif" fill="#212121">mercuric reductase enzyme (MerA), researchers used NEM on an</text>
+<text x="705" y="1102" font-size="8" font-family="Arial, sans-serif" fill="#212121">HgII-reducing Escherichia coli strain to determine if the reduction</text>
+<text x="705" y="1111" font-size="8" font-family="Arial, sans-serif" fill="#212121">mechanism required interaction with thiol groups for the activity to</text>
+<text x="705" y="1120" font-size="8" font-family="Arial, sans-serif" fill="#212121">occur</text>
+<rect x="1030" y="1075" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1085" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1531297]</text>
+<text x="1035" y="1093" font-size="8" font-family="Arial, sans-serif" fill="#212121">Compared to wild-type enzyme, the C558A mutant shows a 20-fold</text>
+<text x="1035" y="1102" font-size="8" font-family="Arial, sans-serif" fill="#212121">reduction in kcat and a 10-fold increase in Km, for an overall</text>
+<text x="1035" y="1111" font-size="8" font-family="Arial, sans-serif" fill="#212121">decrease in catalytic efficiency of 200-fold</text>
+<rect x="700" y="1220" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1230" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[6412751]</text>
+<text x="705" y="1238" font-size="8" font-family="Arial, sans-serif" fill="#212121">It was later confirmed that the reduction activity was attributable</text>
+<text x="705" y="1247" font-size="8" font-family="Arial, sans-serif" fill="#212121">to MerA, a flavin disulphide oxidoreductase</text>
+<rect x="700" y="1595" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1605" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1531297]</text>
+<text x="705" y="1613" font-size="8" font-family="Arial, sans-serif" fill="#212121">Compared to wild-type enzyme, the C558A mutant shows a 20-fold</text>
+<text x="705" y="1622" font-size="8" font-family="Arial, sans-serif" fill="#212121">reduction in kcat and a 10-fold increase in Km, for an overall</text>
+<text x="705" y="1631" font-size="8" font-family="Arial, sans-serif" fill="#212121">decrease in catalytic efficiency of 200-fold</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12829275]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Bacterial resistance to inorganic and organic mercury compounds</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">(HgR) is one of the most widely observed phenotypes in eubacteria</text>
+<rect x="700" y="575" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="585" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12829275]</text>
+<text x="705" y="593" font-size="8" font-family="Arial, sans-serif" fill="#212121">Bacterial resistance to inorganic and organic mercury compounds</text>
+<text x="705" y="602" font-size="8" font-family="Arial, sans-serif" fill="#212121">(HgR) is one of the most widely observed phenotypes in eubacteria</text>
+<rect x="600.0" y="2325" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="2360.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="2360.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

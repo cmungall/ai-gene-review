@@ -1,0 +1,11 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	P62694	cbh1	enables	GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR001722|InterPro:IPR037019	51453	Hypocrea jecorina	InterPro	Exoglucanase 1	20250429
+UniProtKB	P62694	cbh1	located_in	GO:0005576	extracellular region	cellular_component	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR000254|InterPro:IPR035971|UniProtKB-KW:KW-0964|UniProtKB-SubCell:SL-0243	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250429
+UniProtKB	P62694	cbh1	involved_in	GO:0005975	carbohydrate metabolic process	biological_process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR000254|InterPro:IPR001722|InterPro:IPR035971|InterPro:IPR037019	51453	Hypocrea jecorina	InterPro	Exoglucanase 1	20250429
+UniProtKB	P62694	cbh1	enables	GO:0030248	cellulose binding	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR000254|InterPro:IPR035971	51453	Hypocrea jecorina	InterPro	Exoglucanase 1	20250429
+UniProtKB	P62694	cbh1	involved_in	GO:0000272	polysaccharide catabolic process	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0624	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428
+UniProtKB	P62694	cbh1	involved_in	GO:0009251	glucan catabolic process	biological_process	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00026788	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428
+UniProtKB	P62694	cbh1	enables	GO:0016162	cellulose 1,4-beta-cellobiosidase activity	molecular_function	ECO:0000501	IEA	GO_REF:0000003	EC:3.2.1.91	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428
+UniProtKB	P62694	cbh1	enables	GO:0016787	hydrolase activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0378	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428
+UniProtKB	P62694	cbh1	enables	GO:0016798	hydrolase activity, acting on glycosyl bonds	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0326	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428
+UniProtKB	P62694	cbh1	involved_in	GO:0030245	cellulose catabolic process	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0136	51453	Hypocrea jecorina	UniProt	Exoglucanase 1	20250428

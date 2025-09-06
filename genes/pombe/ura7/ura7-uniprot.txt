@@ -1,0 +1,143 @@
+ID   PYRG_SCHPO              Reviewed;         600 AA.
+AC   O42644;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   18-JUN-2025, entry version 146.
+DE   RecName: Full=CTP synthase;
+DE            EC=6.3.4.2;
+DE   AltName: Full=CTP synthetase;
+DE   AltName: Full=UTP--ammonia ligase;
+GN   Name=ura7; ORFNames=SPAC10F6.03c;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent amination of UTP to CTP with
+CC       either L-glutamine or ammonia as the source of nitrogen.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UTP + L-glutamine + ATP + H2O = CTP + L-glutamate + ADP +
+CC         phosphate + 2 H(+); Xref=Rhea:RHEA:26426, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:43474, ChEBI:CHEBI:46398,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456216; EC=6.3.4.2;
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       CTP from UDP: step 2/2.
+CC   -!- SIMILARITY: Belongs to the CTP synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAA15716.1; -; Genomic_DNA.
+DR   PIR; T37497; T37497.
+DR   AlphaFoldDB; O42644; -.
+DR   SMR; O42644; -.
+DR   BioGRID; 279378; 6.
+DR   FunCoup; O42644; 328.
+DR   STRING; 284812.O42644; -.
+DR   iPTMnet; O42644; -.
+DR   PaxDb; 4896-SPAC10F6.03c.1; -.
+DR   EnsemblFungi; SPAC10F6.03c.1; SPAC10F6.03c.1:pep; SPAC10F6.03c.
+DR   KEGG; spo:2542937; -.
+DR   PomBase; SPAC10F6.03c; -.
+DR   VEuPathDB; FungiDB:SPAC10F6.03c; -.
+DR   eggNOG; KOG2387; Eukaryota.
+DR   HOGENOM; CLU_011675_5_0_1; -.
+DR   InParanoid; O42644; -.
+DR   OMA; EFNNAYR; -.
+DR   PhylomeDB; O42644; -.
+DR   Reactome; R-SPO-499943; Interconversion of nucleotide di- and triphosphates.
+DR   UniPathway; UPA00159; UER00277.
+DR   PRO; PR:O42644; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0097268; C:cytoophidium; IDA:PomBase.
+DR   GO; GO:0005737; C:cytoplasm; HDA:PomBase.
+DR   GO; GO:0005829; C:cytosol; ISO:PomBase.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003883; F:CTP synthase activity; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; IBA:GO_Central.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; ISO:PomBase.
+DR   GO; GO:0006241; P:CTP biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IBA:GO_Central.
+DR   CDD; cd03113; CTPS_N; 1.
+DR   CDD; cd01746; GATase1_CTP_Synthase; 1.
+DR   FunFam; 3.40.50.300:FF:000207; CTP synthase; 1.
+DR   FunFam; 3.40.50.880:FF:000005; CTP synthase; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR004468; CTP_synthase.
+DR   InterPro; IPR017456; CTP_synthase_N.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR033828; GATase1_CTP_Synthase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; NF003792; PRK05380.1; 1.
+DR   NCBIfam; TIGR00337; PyrG; 1.
+DR   PANTHER; PTHR11550; CTP SYNTHASE; 1.
+DR   PANTHER; PTHR11550:SF0; CTP SYNTHASE-RELATED; 1.
+DR   Pfam; PF06418; CTP_synth_N; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; Ligase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome.
+FT   CHAIN           1..600
+FT                   /note="CTP synthase"
+FT                   /id="PRO_0000138282"
+FT   DOMAIN          304..570
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        403
+FT                   /note="For GATase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        532
+FT                   /note="For GATase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        534
+FT                   /note="For GATase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00605"
+SQ   SEQUENCE   600 AA;  66867 MW;  72D7EE95B678E4EC CRC64;
+     MKYVLVSGGV ISGIGKGVIA SSTGLLLKTL GLKVTSIKID PYMNIDAGTM SPLEHGEVFV
+     LNDGGEVDLD LGNYERYLNV TLTHDNNITT GKVYSNVIQK ERRGDYLGKT VQIVPHVTNE
+     IQDWVERVAR IPVDQSGEEP DVCIVELGGT VGDIESAAFV EAMRQFQFRV GHENFVSIHV
+     SLVPVINGEQ KTKPTQQAIR DLRSLGITPD LIACRCKQPL EKSVIDKISL FCHVGPEQVL
+     AVHDVSSTYH VPQLLEDKLL EYLKIRFALD KISVSRELAL AGENMWSSWK HLTQGYDHLF
+     KKVTIVLVGK YTHLQDSYIS VIKALEHSAM RCGRKLDLQW VEASHLEAST NTSDPLSYHK
+     AWHLVCSANG ILVPGGFGSR GVEGMIAAAK WARENNTPYL GICLGMQVAV IEFARSVCGI
+     EGAFSEEFDK ECENNVVVYM PEIDKDKLGG TMRLGLRPTF FQPNSEWSKL RKLHKMVDEV
+     LERHRHRYEI NPAFVSRLEQ GGISFIGKDE RGERMEIIEK RDHPYFVGVQ YHPEYLSKPL
+     KPSPPIFGLV AASAGLLDEF IQSGEEVEWS NFSHFNAESA LADMNDSVEV TEEATVVTIS
+//

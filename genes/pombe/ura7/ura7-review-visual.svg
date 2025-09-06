@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="3605" viewBox="0 0 1800 3605">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="3605" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: ura7 (Schizosaccharomyces pombe)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="1180" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1202.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="2345" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="2367.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="1235" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1256.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="1755" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1776.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="2400" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2421.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0006241</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">CTP biosynthetic process</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0019856</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">pyrimidine nucleobase biosynthetic ...</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0006221</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">pyrimidine nucleotide biosynthetic ...</text>
+<rect x="80" y="780" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0044210</text>
+<text x="85" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">'de novo' CTP biosynthetic process</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0006207</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">'de novo' pyrimidine nucleobase bio...</text>
+<rect x="80" y="1280" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1294" font-size="10" font-family="monospace" fill="#666666">GO:0042802</text>
+<text x="85" y="1310" font-size="11" font-family="Arial, sans-serif" fill="#212121">identical protein binding</text>
+<rect x="80" y="1425" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1439" font-size="10" font-family="monospace" fill="#666666">GO:0000166</text>
+<text x="85" y="1455" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleotide binding</text>
+<rect x="80" y="1570" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1584" font-size="10" font-family="monospace" fill="#666666">GO:0005524</text>
+<text x="85" y="1600" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATP binding</text>
+<rect x="80" y="1945" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1959" font-size="10" font-family="monospace" fill="#666666">GO:0003883</text>
+<text x="85" y="1975" font-size="11" font-family="Arial, sans-serif" fill="#212121">CTP synthase activity</text>
+<rect x="80" y="2090" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2104" font-size="10" font-family="monospace" fill="#666666">GO:0016874</text>
+<text x="85" y="2120" font-size="11" font-family="Arial, sans-serif" fill="#212121">ligase activity</text>
+<rect x="80" y="3025" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3039" font-size="10" font-family="monospace" fill="#666666">GO:0005737</text>
+<text x="85" y="3055" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoplasm</text>
+<rect x="80" y="2880" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2894" font-size="10" font-family="monospace" fill="#666666">GO:0097268</text>
+<text x="85" y="2910" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoophidium</text>
+<rect x="80" y="3170" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3184" font-size="10" font-family="monospace" fill="#666666">GO:0005829</text>
+<text x="85" y="3200" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytosol</text>
+<path d="M332,3047.5 L337,3052.5 L348,3039.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1302.5 L337,1307.5 L348,1294.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1967.5 L337,1972.5 L348,1959.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,657.5 L337,662.5 L348,649.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2902.5 L337,2907.5 L348,2894.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,367.5 L390,367.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,367.5 L382,363.5 L382,371.5 Z" fill="#ff9800" />
+<rect x="390" y="345" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0006221</text>
+<text x="395" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">pyrimidine nucleotide biosynthetic ...</text>
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,1437.5 L330,1455.5 L350,1455.5 Z" fill="#ffc107" />
+<text x="340" y="1451.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,1592.5 L337,1597.5 L348,1584.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,2102.5 L330,2120.5 L350,2120.5 Z" fill="#ffc107" />
+<text x="340" y="2116.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,802.5 L337,807.5 L348,794.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3192.5 L337,3197.5 L348,3184.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,947.5 L390,947.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,947.5 L382,943.5 L382,951.5 Z" fill="#ff9800" />
+<rect x="390" y="925" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0044210</text>
+<text x="395" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">'de novo' CTP biosynthetic process</text>
+<rect x="395" y="3012.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3022.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3032.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence from systematic protein</text>
+<text x="400" y="3041.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization study. HDA provides strong support for</text>
+<text x="400" y="3050.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytoplasmic localization, consistent with the enzyme</text>
+<text x="400" y="3059.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">metabolic function.</text>
+<rect x="395" y="1267.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1277.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1287.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The homotetramer formation is well-established for CTP</text>
+<text x="400" y="1296.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">synthase enzymes across species. This self-association is</text>
+<text x="400" y="1305.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">required for catalytic activity and is a fundamental</text>
+<text x="400" y="1314.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">aspect of enzyme function.</text>
+<rect x="395" y="1932.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1942.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1952.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While duplicative with the IBA annotation, this IEA</text>
+<text x="400" y="1961.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation correctly identifies the core molecular</text>
+<text x="400" y="1970.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function through automated methods. Both annotations are</text>
+<text x="400" y="1979.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">accurate and reinforce the primary enzyme activity.</text>
+<rect x="395" y="622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IEA annotation based on InterPro domain analysis correctly</text>
+<text x="400" y="651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">identifies the CTP biosynthetic function. This is accurate</text>
+<text x="400" y="660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and represents the primary biological role of the enzyme.</text>
+<rect x="395" y="2867.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2877.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2887.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Strong experimental evidence directly showing Cts1 forms</text>
+<text x="400" y="2896.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytoophidia in S. pombe. Study used CTPS-YFP to visualize</text>
+<text x="400" y="2905.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">filaments and demonstrated their temperature sensitivity,</text>
+<text x="400" y="2914.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">making this a high-quality direct observation.</text>
+<rect x="645" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">CTP synthase converts UTP to CTP (nucleotide to nucleotide</text>
+<text x="650" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">conversion), not directly involved in nucleobase</text>
+<text x="650" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">synthesis. The more accurate term would be GO:0006221</text>
+<text x="650" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(pyrimidine nucleotide biosynthetic process) which</text>
+<text x="650" y="388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">correctly describes nucleotide-level metabolism.</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation correctly places CTP synthase in the</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">broader context of pyrimidine nucleotide metabolism. The</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme produces CTP, a key pyrimidine nucleotide required</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">for RNA and DNA synthesis.</text>
+<rect x="395" y="1412.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1422.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1432.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While CTP synthase does bind nucleotides (ATP, UTP as</text>
+<text x="400" y="1441.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">substrates; GTP as allosteric regulator), this generic</text>
+<text x="400" y="1450.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">term provides little functional information. More specific</text>
+<text x="400" y="1459.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms like ATP binding (GO:0005524) or UTP binding would</text>
+<text x="400" y="1468.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">be more informative.</text>
+<rect x="395" y="1557.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1567.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1577.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ATP binding is accurate - ATP is required as co-substrate</text>
+<text x="400" y="1586.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">for the amination reaction. While somewhat generic, it</text>
+<text x="400" y="1595.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">correctly identifies a specific nucleotide binding</text>
+<text x="400" y="1604.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function of the enzyme.</text>
+<rect x="395" y="2077.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2087.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2097.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This overly broad annotation provides minimal functional</text>
+<text x="400" y="2106.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">information. The specific CTP synthase activity</text>
+<text x="400" y="2115.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(GO:0003883) annotation already captures the enzyme</text>
+<text x="400" y="2124.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function precisely. Generic ligase activity adds no value.</text>
+<rect x="395" y="767.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="777.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="787.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation accurately captures the specific metabolic</text>
+<text x="400" y="796.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway - de novo CTP synthesis. CTP synthase catalyzes</text>
+<text x="400" y="805.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the final step in de novo CTP production, distinguishing</text>
+<text x="400" y="814.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">it from salvage pathway enzymes.</text>
+<rect x="395" y="3157.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3167.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3177.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ISO evidence correctly identifies cytosolic localization</text>
+<text x="400" y="3186.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">based on ortholog data. This is more specific than general</text>
+<text x="400" y="3195.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytoplasm and accurately describes where the enzyme</text>
+<text x="400" y="3204.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions in nucleotide metabolism.</text>
+<rect x="645" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">CTP synthase converts nucleotides (UTP→CTP), not</text>
+<text x="650" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">nucleobases. The more accurate term would be de novo</text>
+<text x="650" y="950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pyrimidine nucleotide biosynthetic process or specifically</text>
+<text x="650" y="959.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">de novo CTP biosynthetic process (GO:0044210).</text>
+<rect x="700" y="3025" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3035" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16823372]</text>
+<text x="705" y="3043" font-size="8" font-family="Arial, sans-serif" fill="#212121">We determined the localization of 4,431 proteins, corresponding to</text>
+<text x="705" y="3052" font-size="8" font-family="Arial, sans-serif" fill="#212121">approximately 90% of the fission yeast proteome, by tagging each ORF</text>
+<text x="705" y="3061" font-size="8" font-family="Arial, sans-serif" fill="#212121">with the yellow fluorescent protein</text>
+<rect x="700" y="1280" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1290" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="1298" font-size="8" font-family="Arial, sans-serif" fill="#212121">Functionally, Cts1 operates as a homotetramer. Four identical Cts1</text>
+<text x="705" y="1307" font-size="8" font-family="Arial, sans-serif" fill="#212121">subunits assemble into a ring-shaped tetramer, which is the active</text>
+<text x="705" y="1316" font-size="8" font-family="Arial, sans-serif" fill="#212121">form needed for catalysis</text>
+<rect x="700" y="1945" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1955" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="1963" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP synthase activity (GO:0003883) – Cts1 catalyzes the reaction ATP</text>
+<text x="705" y="1972" font-size="8" font-family="Arial, sans-serif" fill="#212121">+ UTP + glutamine + H₂O → CTP + ADP + phosphate + glutamate</text>
+<rect x="700" y="635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="653" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP biosynthetic process (de novo CTP biosynthesis) (GO:0006241) –</text>
+<text x="705" y="662" font-size="8" font-family="Arial, sans-serif" fill="#212121">cts1 is involved in the pathway producing CTP from simpler</text>
+<text x="705" y="671" font-size="8" font-family="Arial, sans-serif" fill="#212121">precursors, constituting the last step of de novo pyrimidine</text>
+<text x="705" y="680" font-size="8" font-family="Arial, sans-serif" fill="#212121">ribonucleotide synthesis</text>
+<rect x="700" y="2880" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2890" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[31611173]</text>
+<text x="705" y="2898" font-size="8" font-family="Arial, sans-serif" fill="#212121">During the early-to-middle exponential phase (OD600 = 0.1–1.0),</text>
+<text x="705" y="2907" font-size="8" font-family="Arial, sans-serif" fill="#212121">cytoophidia were highly abundant, being present in more than 90% of</text>
+<text x="705" y="2916" font-size="8" font-family="Arial, sans-serif" fill="#212121">cells... We have previously identified that CTPS forms cytoophidia</text>
+<text x="705" y="2925" font-size="8" font-family="Arial, sans-serif" fill="#212121">in S. pombe</text>
+<rect x="950" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="955" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">As the enzyme governing CTP levels, Cts1 plays a role in the broader</text>
+<text x="955" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">metabolism of pyrimidine nucleotides within the cell</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Pyrimidine nucleotide metabolic process (GO:0006221) – As the enzyme</text>
+<text x="705" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">governing CTP levels, Cts1 plays a role in the broader metabolism of</text>
+<text x="705" y="526" font-size="8" font-family="Arial, sans-serif" fill="#212121">pyrimidine nucleotides within the cell</text>
+<rect x="700" y="1425" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1435" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="1443" font-size="8" font-family="Arial, sans-serif" fill="#212121">The C-terminal domain... binds the substrate UTP and co-substrate</text>
+<text x="705" y="1452" font-size="8" font-family="Arial, sans-serif" fill="#212121">ATP... GTP acts as an allosteric activator of CTP synthase, binding</text>
+<text x="705" y="1461" font-size="8" font-family="Arial, sans-serif" fill="#212121">to the GAT domain</text>
+<rect x="700" y="1570" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1580" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="1588" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP synthase catalyzes the ATP-dependent amination of UTP to form</text>
+<text x="705" y="1597" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP... The C-terminal domain constitutes the synthetase domain,</text>
+<text x="705" y="1606" font-size="8" font-family="Arial, sans-serif" fill="#212121">which binds the substrate UTP and co-substrate ATP</text>
+<rect x="700" y="2090" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2100" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="2108" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=CTP synthase; EC=6.3.4.2... AltName: Full=UTP--ammonia</text>
+<text x="705" y="2117" font-size="8" font-family="Arial, sans-serif" fill="#212121">ligase</text>
+<rect x="700" y="780" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="790" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="798" font-size="8" font-family="Arial, sans-serif" fill="#212121">This reaction represents the final and rate-limiting step in de novo</text>
+<text x="705" y="807" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP biosynthesis... It enables the de novo CTP biosynthetic process</text>
+<text x="705" y="816" font-size="8" font-family="Arial, sans-serif" fill="#212121">(GO:0006241) by producing CTP from UTP</text>
+<rect x="700" y="3170" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3180" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="705" y="3188" font-size="8" font-family="Arial, sans-serif" fill="#212121">Cts1 is predominantly localized in the cytosol where it carries out</text>
+<text x="705" y="3197" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP synthesis. The majority of Cts1 enzyme resides in the</text>
+<text x="705" y="3206" font-size="8" font-family="Arial, sans-serif" fill="#212121">cytoplasmic compartment, often visible as diffuse cytosolic signal</text>
+<text x="705" y="3215" font-size="8" font-family="Arial, sans-serif" fill="#212121">or organized into filaments</text>
+<rect x="950" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:pombe/ura7/ura7...]</text>
+<text x="955" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">This reaction represents the final and rate-limiting step in de novo</text>
+<text x="955" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">CTP biosynthesis, producing cytidine 5′-triphosphate (CTP)</text>
+<rect x="600.0" y="3465" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="3500.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="3500.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

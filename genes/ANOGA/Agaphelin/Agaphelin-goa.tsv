@@ -1,0 +1,9 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	involved_in	GO:0035821	modulation of process of another organism	biological_process	ECO:0000366	IEA	GO_REF:0000108	GO:0090729	7165	Anopheles gambiae	GOC	Agaphelin	20250902
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	enables	GO:0004867	serine-type endopeptidase inhibitor activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0722	7165	Anopheles gambiae	UniProt	Agaphelin	20250901
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	located_in	GO:0005576	extracellular region	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0243	7165	Anopheles gambiae	UniProt	Agaphelin	20250901
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	enables	GO:0030414	peptidase inhibitor activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0646	7165	Anopheles gambiae	UniProt	Agaphelin	20250901
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	enables	GO:0090729	toxin activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0800	7165	Anopheles gambiae	UniProt	Agaphelin	20250901
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	involved_in	GO:0140106	hematophagy	biological_process	ECO:0000314	IDA	PMID:25211214		7165	Anopheles gambiae	UniProt	Agaphelin	20250610
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:25211214	UniProtKB:P08246	7165	Anopheles gambiae	UniProt	Agaphelin	20240828
+UniProtKB	Q7Q3J5	AgaP_AGAP007907	enables	GO:0030414	peptidase inhibitor activity	molecular_function	ECO:0000314	IDA	PMID:25211214		7165	Anopheles gambiae	UniProt	Agaphelin	20240827

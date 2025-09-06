@@ -1,0 +1,99 @@
+{
+  "composition": {
+    "length": 2137,
+    "molecular_weight_da": 233136,
+    "hydrophobic_percent": 38.04,
+    "charged_percent": 20.26,
+    "polar_percent": 26.49,
+    "aromatic_percent": 8.0,
+    "most_common": [
+      [
+        "L",
+        204
+      ],
+      [
+        "S",
+        201
+      ],
+      [
+        "A",
+        198
+      ],
+      [
+        "V",
+        149
+      ],
+      [
+        "G",
+        149
+      ]
+    ]
+  },
+  "conservation": {
+    "KS_DTACSS_motif": {
+      "sequence": "AIAGGT",
+      "position": 589,
+      "conserved": false,
+      "note": "Essential catalytic motif in ketosynthase domain"
+    },
+    "MAT_GHSLG_motif": {
+      "sequence": "RARLL",
+      "position": 1040,
+      "conserved": true,
+      "note": "Conserved malonyl transferase motif"
+    },
+    "ACP_attachment_sites": {
+      "ACP1_Ser1712": false,
+      "ACP2_Ser1830": true,
+      "note": "Phosphopantetheine attachment required for function"
+    },
+    "TE_catalytic_residues": {
+      "Ser1973": false,
+      "note": "Serine nucleophile for thioesterase activity"
+    }
+  },
+  "nr_pks_features": {
+    "has_KR_domain": false,
+    "has_PT_domain": true,
+    "has_TE_domain": true,
+    "dual_ACP_domains": true,
+    "type": "Type I iterative NR-PKS",
+    "product_class": "Aromatic polyketide (anthraquinone)"
+  },
+  "product_prediction": {
+    "base_structure": "Anthraquinone",
+    "starter_unit": "Acetyl-CoA (via SAT domain)",
+    "extender_units": "Malonyl-CoA (via MAT domain)",
+    "cyclization": "PT domain-mediated (C7-C12 and C2-C9)",
+    "release_mechanism": "TE domain hydrolysis",
+    "expected_product": "1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone",
+    "modifications": "Further processed by EthD and Mlac1 for final pigment",
+    "biological_role": "Conidial pigmentation and stress protection"
+  },
+  "homologs": {
+    "Aspergillus_fumigatus_PksP": {
+      "identity": "~65%",
+      "product": "DHN-melanin precursor",
+      "function": "Conidial pigmentation",
+      "note": "Well-characterized melanin PKS"
+    },
+    "Aspergillus_nidulans_WA": {
+      "identity": "~60%",
+      "product": "Naphthopyrone YWA1",
+      "function": "Green conidial pigment",
+      "note": "Classical model for fungal NR-PKS"
+    },
+    "Penicillium_aethiopicum_PaeA": {
+      "identity": "~55%",
+      "product": "Viridicatumtoxin precursor",
+      "function": "Secondary metabolite",
+      "note": "Mycotoxin biosynthesis"
+    },
+    "Colletotrichum_lagenarium_PKS1": {
+      "identity": "~58%",
+      "product": "1,8-DHN melanin precursor",
+      "function": "Melanin biosynthesis",
+      "note": "Pathogenicity factor"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="5910" viewBox="0 0 1800 5910">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="5910" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: Prkaa2 (Rattus norvegicus)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="3840" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="3862.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="530" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="551.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="1340" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1361.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="3165" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3186.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">rhythmic process</text>
+<rect x="60" y="3395" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3416.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">homeostatic process</text>
+<rect x="60" y="3895" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3916.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="5140" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5161.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0010508</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of autophagy</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0045821</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of glycolytic p...</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0042149</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to glucose starva...</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0031000</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to caffeine</text>
+<rect x="80" y="865" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="879" font-size="10" font-family="monospace" fill="#666666">GO:0071277</text>
+<text x="85" y="895" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to calcium ion</text>
+<rect x="80" y="1010" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1024" font-size="10" font-family="monospace" fill="#666666">GO:0071333</text>
+<text x="85" y="1040" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to glucose stimulus</text>
+<rect x="80" y="1155" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1169" font-size="10" font-family="monospace" fill="#666666">GO:0031669</text>
+<text x="85" y="1185" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to nutrient levels</text>
+<rect x="80" y="1385" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1399" font-size="10" font-family="monospace" fill="#666666">GO:0006338</text>
+<text x="85" y="1415" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromatin remodeling</text>
+<rect x="80" y="1530" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1544" font-size="10" font-family="monospace" fill="#666666">GO:0006325</text>
+<text x="85" y="1560" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromatin organization</text>
+<rect x="80" y="1675" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1689" font-size="10" font-family="monospace" fill="#666666">GO:0006629</text>
+<text x="85" y="1705" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipid metabolic process</text>
+<rect x="80" y="1820" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1834" font-size="10" font-family="monospace" fill="#666666">GO:0006631</text>
+<text x="85" y="1850" font-size="11" font-family="Arial, sans-serif" fill="#212121">fatty acid metabolic process</text>
+<rect x="80" y="1965" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1979" font-size="10" font-family="monospace" fill="#666666">GO:0006633</text>
+<text x="85" y="1995" font-size="11" font-family="Arial, sans-serif" fill="#212121">fatty acid biosynthetic process</text>
+<rect x="80" y="2110" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2124" font-size="10" font-family="monospace" fill="#666666">GO:0006694</text>
+<text x="85" y="2140" font-size="11" font-family="Arial, sans-serif" fill="#212121">steroid biosynthetic process</text>
+<rect x="80" y="2255" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2269" font-size="10" font-family="monospace" fill="#666666">GO:0006695</text>
+<text x="85" y="2285" font-size="11" font-family="Arial, sans-serif" fill="#212121">cholesterol biosynthetic process</text>
+<rect x="80" y="2400" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2414" font-size="10" font-family="monospace" fill="#666666">GO:0006914</text>
+<text x="85" y="2430" font-size="11" font-family="Arial, sans-serif" fill="#212121">autophagy</text>
+<rect x="80" y="2545" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2559" font-size="10" font-family="monospace" fill="#666666">GO:0008202</text>
+<text x="85" y="2575" font-size="11" font-family="Arial, sans-serif" fill="#212121">steroid metabolic process</text>
+<rect x="80" y="2690" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2704" font-size="10" font-family="monospace" fill="#666666">GO:0008203</text>
+<text x="85" y="2720" font-size="11" font-family="Arial, sans-serif" fill="#212121">cholesterol metabolic process</text>
+<rect x="80" y="2835" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2849" font-size="10" font-family="monospace" fill="#666666">GO:0016055</text>
+<text x="85" y="2865" font-size="11" font-family="Arial, sans-serif" fill="#212121">Wnt signaling pathway</text>
+<rect x="80" y="2980" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2994" font-size="10" font-family="monospace" fill="#666666">GO:0016126</text>
+<text x="85" y="3010" font-size="11" font-family="Arial, sans-serif" fill="#212121">sterol biosynthetic process</text>
+<rect x="80" y="3210" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3224" font-size="10" font-family="monospace" fill="#666666">GO:0048511</text>
+<text x="85" y="3240" font-size="11" font-family="Arial, sans-serif" fill="#212121">rhythmic process</text>
+<rect x="80" y="3440" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3454" font-size="10" font-family="monospace" fill="#666666">GO:0055089</text>
+<text x="85" y="3470" font-size="11" font-family="Arial, sans-serif" fill="#212121">fatty acid homeostasis</text>
+<rect x="80" y="3585" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3599" font-size="10" font-family="monospace" fill="#666666">GO:0097009</text>
+<text x="85" y="3615" font-size="11" font-family="Arial, sans-serif" fill="#212121">energy homeostasis</text>
+<rect x="80" y="4375" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4389" font-size="10" font-family="monospace" fill="#666666">GO:0004674</text>
+<text x="85" y="4405" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein serine/threonine kinase act...</text>
+<rect x="80" y="4085" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4099" font-size="10" font-family="monospace" fill="#666666">GO:0004672</text>
+<text x="85" y="4115" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein kinase activity</text>
+<rect x="80" y="4230" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4244" font-size="10" font-family="monospace" fill="#666666">GO:0004679</text>
+<text x="85" y="4260" font-size="11" font-family="Arial, sans-serif" fill="#212121">AMP-activated protein kinase activity</text>
+<rect x="80" y="4520" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4534" font-size="10" font-family="monospace" fill="#666666">GO:0016301</text>
+<text x="85" y="4550" font-size="11" font-family="Arial, sans-serif" fill="#212121">kinase activity</text>
+<rect x="80" y="4665" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4679" font-size="10" font-family="monospace" fill="#666666">GO:0016740</text>
+<text x="85" y="4695" font-size="11" font-family="Arial, sans-serif" fill="#212121">transferase activity</text>
+<rect x="80" y="4810" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4824" font-size="10" font-family="monospace" fill="#666666">GO:0047322</text>
+<text x="85" y="4840" font-size="11" font-family="Arial, sans-serif" fill="#212121">[hydroxymethylglutaryl-CoA reductas...</text>
+<rect x="80" y="4955" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4969" font-size="10" font-family="monospace" fill="#666666">GO:0106310</text>
+<text x="85" y="4985" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein serine kinase activity</text>
+<rect x="80" y="5185" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5199" font-size="10" font-family="monospace" fill="#666666">GO:0005524</text>
+<text x="85" y="5215" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATP binding</text>
+<rect x="80" y="5330" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5344" font-size="10" font-family="monospace" fill="#666666">GO:0000166</text>
+<text x="85" y="5360" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleotide binding</text>
+<rect x="80" y="5475" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5489" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="5505" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<path d="M332,4389.5 L348,4405.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4405.5 L348,4389.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="222.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,597.5 L337,602.5 L348,589.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,1407.5 L390,1407.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1407.5 L382,1403.5 L382,1411.5 Z" fill="#ff9800" />
+<rect x="390" y="1385" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1399" font-size="10" font-family="monospace" fill="#666666">GO:0140823</text>
+<text x="395" y="1415" font-size="11" font-family="Arial, sans-serif" fill="#212121">histone H2BS36 kinase activity</text>
+<path d="M332,4099.5 L348,4115.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4115.5 L348,4099.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4252.5 L337,4257.5 L348,4244.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5207.5 L337,5212.5 L348,5199.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5344.5 L348,5360.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5360.5 L348,5344.5" stroke="#f44336" stroke-width="3" />
+<path d="M340,1542.5 L330,1560.5 L350,1560.5 Z" fill="#ffc107" />
+<text x="340" y="1556.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,1697.5 L337,1702.5 L348,1689.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1842.5 L337,1847.5 L348,1834.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1979.5 L348,1995.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1995.5 L348,1979.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2124.5 L348,2140.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2140.5 L348,2124.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2269.5 L348,2285.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2285.5 L348,2269.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2414.5 L348,2430.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2430.5 L348,2414.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2559.5 L348,2575.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2575.5 L348,2559.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="2712.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M340,2847.5 L330,2865.5 L350,2865.5 Z" fill="#ffc107" />
+<text x="340" y="2861.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,2994.5 L348,3010.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3010.5 L348,2994.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4534.5 L348,4550.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4550.5 L348,4534.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4679.5 L348,4695.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4695.5 L348,4679.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="742.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,5497.5 L390,5497.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5497.5 L382,5493.5 L382,5501.5 Z" fill="#ff9800" />
+<rect x="390" y="5475" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5489" font-size="10" font-family="monospace" fill="#666666">GO:0000287</text>
+<text x="395" y="5505" font-size="11" font-family="Arial, sans-serif" fill="#212121">magnesium ion binding</text>
+<path d="M332,4832.5 L337,4837.5 L348,4824.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3224.5 L348,3240.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3240.5 L348,3224.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3462.5 L337,3467.5 L348,3454.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="887.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1032.5 L337,1037.5 L348,1024.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3607.5 L337,3612.5 L348,3599.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4969.5 L348,4985.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4985.5 L348,4969.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1177.5 L337,1182.5 L348,1169.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="600.0" y="5770" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="5805.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="5805.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

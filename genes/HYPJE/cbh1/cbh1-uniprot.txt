@@ -1,0 +1,550 @@
+ID   GUX1_HYPJE              Reviewed;         513 AA.
+AC   P62694; P00725;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   09-APR-2025, entry version 115.
+DE   RecName: Full=Exoglucanase 1;
+DE            EC=3.2.1.91 {ECO:0000269|Ref.4};
+DE   AltName: Full=1,4-beta-cellobiohydrolase;
+DE   AltName: Full=Cellobiohydrolase 7A;
+DE            Short=Cel7A;
+DE   AltName: Full=Exocellobiohydrolase I;
+DE            Short=CBHI;
+DE   AltName: Full=Exoglucanase I;
+DE   Flags: Precursor;
+GN   Name=cbh1;
+OS   Hypocrea jecorina (Trichoderma reesei).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Hypocreaceae; Trichoderma.
+OX   NCBI_TaxID=51453;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RC   STRAIN=L27;
+RX   DOI=10.1038/nbt1083-691;
+RA   Shoemaker S., Schweickart V., Ladner M., Gelfand D., Kwok S., Myambo K.,
+RA   Innis M.;
+RT   "Molecular cloning of exo-cellobiohydrolase I derived from Trichoderma
+RT   reesei strain L27.";
+RL   Biotechnology (N.Y.) 1:691-696(1983).
+RN   [2]
+RP   PROTEIN SEQUENCE.
+RC   STRAIN=ATCC 26921 / CBS 392.92 / QM9414;
+RA   Faegerstam L.G.;
+RT   "Cellulases from Trichoderma reesei QM 9414: enzymatic and structural
+RT   properties.";
+RL   Thesis (1981), University of Uppsala, Sweden.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 18-37, AND PYROGLUTAMATE FORMATION AT GLN-18.
+RC   STRAIN=ATCC 26921 / CBS 392.92 / QM9414;
+RX   DOI=10.1016/0014-5793(80)81006-4;
+RA   Faegerstam L.G., Pettersson L.G.;
+RT   "The 1,4-beta-glucan cellobiohydrolases of Trichoderma reesei QM 9414.";
+RL   FEBS Lett. 119:97-100(1980).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 18-48, PYROGLUTAMATE FORMATION AT GLN-18, FUNCTION, AND
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=L27;
+RX   DOI=10.1038/nbt1083-687;
+RA   Shoemaker S., Watt K., Tsitovsky G., Cox R.;
+RT   "Characterization and properties of cellulases purified from Trichoderma
+RT   reesei strain L27.";
+RL   Biotechnology (N.Y.) 1:687-690(1983).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 57-64; 285-289 AND 382-396, AND GLYCOSYLATION AT
+RP   ASN-62; ASN-287; ASN-401; THR-461; THR-462; THR-463; THR-464; THR-469;
+RP   THR-470; THR-471; SER-473; SER-474; THR-478 AND SER-480.
+RC   STRAIN=ALKO2877;
+RX   PubMed=9746354; DOI=10.1046/j.1432-1327.1998.2560119.x;
+RA   Harrison M.J., Nouwens A.S., Jardine D.R., Zachara N.E., Gooley A.A.,
+RA   Nevalainen H., Packer N.H.;
+RT   "Modified glycosylation of cellobiohydrolase I from a high cellulase-
+RT   producing mutant strain of Trichoderma reesei.";
+RL   Eur. J. Biochem. 256:119-127(1998).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 141-151.
+RC   STRAIN=ATCC 26921 / CBS 392.92 / QM9414;
+RX   DOI=10.1016/0014-5793(89)80136-X;
+RA   Tomme P., Clayssens M.;
+RT   "Identification of a functionally important carboxyl group in
+RT   cellobiohydrolase I from Trichoderma reesei.";
+RL   FEBS Lett. 243:239-243(1989).
+RN   [7]
+RP   STRUCTURE BY NMR OF 478-513, AND DISULFIDE BONDS.
+RX   PubMed=2554967; DOI=10.1021/bi00444a016;
+RA   Kraulis P.J., Clore G.M., Nilges M., Jones T.A., Pettersson G., Knowles J.,
+RA   Gronenborn A.M.;
+RT   "Determination of the three-dimensional solution structure of the C-
+RT   terminal domain of cellobiohydrolase I from Trichoderma reesei. A study
+RT   using nuclear magnetic resonance and hybrid distance geometry-dynamical
+RT   simulated annealing.";
+RL   Biochemistry 28:7241-7257(1989).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (1.81 ANGSTROMS) OF 18-452, GLYCOSYLATION AT ASN-287,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=8036495; DOI=10.1126/science.8036495;
+RA   Divne C., Staahlberg J., Reinikainen T., Ruohonen L., Pettersson G.,
+RA   Knowles J.K.C., Teeri T.T., Jones T.A.;
+RT   "The three-dimensional crystal structure of the catalytic core of
+RT   cellobiohydrolase I from Trichoderma reesei.";
+RL   Science 265:524-528(1994).
+RN   [9]
+RP   STRUCTURE BY NMR OF 478-513, AND DISULFIDE BONDS.
+RX   PubMed=9041630; DOI=10.1002/pro.5560060204;
+RA   Mattinen M.L., Kontteli M., Kerovuo J., Linder M., Annila A., Lindeberg G.,
+RA   Reinikainen T., Drakenberg T.;
+RT   "Three-dimensional structures of three engineered cellulose-binding domains
+RT   of cellobiohydrolase I from Trichoderma reesei.";
+RL   Protein Sci. 6:294-303(1997).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 18-452, GLYCOSYLATION AT ASN-287
+RP   AND ASN-401, AND DISULFIDE BONDS.
+RC   STRAIN=ATCC 26921 / CBS 392.92 / QM9414;
+RX   PubMed=9466911; DOI=10.1006/jmbi.1997.1437;
+RA   Divne C., Staahlberg J., Teeri T.T., Jones T.A.;
+RT   "High-resolution crystal structures reveal how a cellulose chain is bound
+RT   in the 50 A long tunnel of cellobiohydrolase I from Trichoderma reesei.";
+RL   J. Mol. Biol. 275:309-325(1998).
+RN   [11]
+RP   X-RAY CRYSTALLOGRAPHY (1.32 ANGSTROMS) OF 18-451, GLYCOSYLATION AT ASN-287
+RP   AND ASN-401, DISULFIDE BONDS, ACTIVE SITE, AND REACTION MECHANISM.
+RX   PubMed=24341799; DOI=10.1021/ja410291u;
+RA   Knott B.C., Haddad Momeni M., Crowley M.F., Mackenzie L.F., Gotz A.W.,
+RA   Sandgren M., Withers S.G., Stahlberg J., Beckham G.T.;
+RT   "The mechanism of cellulose hydrolysis by a two-step, retaining
+RT   cellobiohydrolase elucidated by structural and transition path sampling
+RT   studies.";
+RL   J. Am. Chem. Soc. 136:321-329(2014).
+RN   [12]
+RP   STRUCTURE BY NMR OF 478-513, GLYCOSYLATION AT THR-478; SER-480 AND SER-491,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=26307003; DOI=10.1111/febs.13500;
+RA   Happs R.M., Guan X., Resch M.G., Davis M.F., Beckham G.T., Tan Z.,
+RA   Crowley M.F.;
+RT   "O-glycosylation effects on family 1 carbohydrate-binding module solution
+RT   structures.";
+RL   FEBS J. 282:4341-4356(2015).
+CC   -!- FUNCTION: Exocellobiohydrolases (CBH) that catalyzes the hydrolysis of
+CC       1,4-beta-D-glucosidic bonds in cellulose to release the disaccharide
+CC       cellobiose (Ref.4). The degradation of cellulose involves an interplay
+CC       between different cellulolytic enzymes. Hydrolysis starts with
+CC       endoglucanases (EGs), which cut internal beta-1,4-glucosidic bonds in
+CC       cellulose to reduce the polymerization degree of the substrate and
+CC       create new chain ends for exocellobiohydrolases (CBHs). The CBHs
+CC       release the disaccharide cellobiose from the non-reducing end of the
+CC       cellulose polymer chain. Finally, beta-1,4-glucosidases hydrolyze the
+CC       cellobiose and other short cello-oligosaccharides into glucose units
+CC       (Probable). {ECO:0000269|Ref.4, ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->4)-beta-D-glucosidic linkages in cellulose
+CC         and cellotetraose, releasing cellobiose from the non-reducing ends of
+CC         the chains.; EC=3.2.1.91; Evidence={ECO:0000269|Ref.4};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|Ref.4}.
+CC   -!- DOMAIN: The enzyme consists of two functional domains, a catalytic core
+CC       joined to a carbohydrate-binding domain (CBM) by a serine-, threonine-,
+CC       and proline-rich, highly glycosylated linker sequence.
+CC       {ECO:0000305|PubMed:26307003, ECO:0000305|PubMed:9746354}.
+CC   -!- PTM: N-glycosylated. The catalytic core domain comprises three N-linked
+CC       glycans which each consist of a single N-acetylglucosamine residue.
+CC       {ECO:0000269|PubMed:9746354}.
+CC   -!- PTM: O-glycosylated. Within the linker domain, all 8 threonines are
+CC       variably glycosylated with between at least one, and up to three,
+CC       mannose residues per site. All serines in this domain are at least
+CC       partially glycosylated with a single mannose residue (PubMed:9746354).
+CC       O-glycosylation of the cellulase linker provides protection from
+CC       proteolysis. Linker glycans also contribute to binding affinity of
+CC       cellobiohydrolases to cellulose (Probable).
+CC       {ECO:0000269|PubMed:9746354, ECO:0000305|PubMed:26307003}.
+CC   -!- MISCELLANEOUS: T.reesei produces two different exocellobiohydrolases.
+CC       They are unique in that they can hydrolyze crystalline cellulose in the
+CC       absence of endoglucanases.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 7 (cellulase C) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A00902; EUTQI.
+DR   PDB; 1AZ6; NMR; -; A=478-513.
+DR   PDB; 1AZH; NMR; -; A=478-513.
+DR   PDB; 1AZJ; NMR; -; A=478-513.
+DR   PDB; 1AZK; NMR; -; A=478-513.
+DR   PDB; 1CBH; NMR; -; A=478-513.
+DR   PDB; 1CEL; X-ray; 1.80 A; A/B=19-451.
+DR   PDB; 1DY4; X-ray; 1.90 A; A=19-451.
+DR   PDB; 1EGN; X-ray; 1.60 A; A=18-451.
+DR   PDB; 1Q2B; X-ray; 1.60 A; A=18-451.
+DR   PDB; 1Q2E; X-ray; 1.75 A; A/B=19-451.
+DR   PDB; 2CBH; NMR; -; A=478-513.
+DR   PDB; 2CEL; X-ray; 2.00 A; A/B=19-451.
+DR   PDB; 2MWJ; NMR; -; A=478-513.
+DR   PDB; 2MWK; NMR; -; A=478-513.
+DR   PDB; 2V3I; X-ray; 1.05 A; A=19-451.
+DR   PDB; 2V3R; X-ray; 1.60 A; A=19-451.
+DR   PDB; 3CEL; X-ray; 2.00 A; A=19-451.
+DR   PDB; 4C4C; X-ray; 1.45 A; A=19-451.
+DR   PDB; 4C4D; X-ray; 1.32 A; A=19-451.
+DR   PDB; 4CEL; X-ray; 2.20 A; A/B=19-451.
+DR   PDB; 4D5I; X-ray; 1.42 A; A=19-451.
+DR   PDB; 4D5J; X-ray; 1.50 A; A=19-451.
+DR   PDB; 4D5O; X-ray; 1.52 A; A=19-451.
+DR   PDB; 4D5P; X-ray; 1.89 A; A=19-451.
+DR   PDB; 4D5Q; X-ray; 1.68 A; A=19-451.
+DR   PDB; 4D5V; X-ray; 1.62 A; A=19-451.
+DR   PDB; 4P1H; X-ray; 1.50 A; A=19-449.
+DR   PDB; 4P1J; X-ray; 2.62 A; A=19-451.
+DR   PDB; 4UWT; X-ray; 1.20 A; A=19-451.
+DR   PDB; 4V0Z; X-ray; 1.70 A; A=19-451.
+DR   PDB; 5CEL; X-ray; 1.90 A; A=19-451.
+DR   PDB; 5OA5; X-ray; 2.10 A; A/B=18-451.
+DR   PDB; 5X34; NMR; -; A=478-513.
+DR   PDB; 5X35; NMR; -; A=478-513.
+DR   PDB; 5X36; NMR; -; A=478-513.
+DR   PDB; 5X37; NMR; -; A=478-513.
+DR   PDB; 5X38; NMR; -; A=478-513.
+DR   PDB; 5X39; NMR; -; A=478-513.
+DR   PDB; 5X3C; NMR; -; A=478-513.
+DR   PDB; 6CEL; X-ray; 1.70 A; A=19-451.
+DR   PDB; 6GRN; X-ray; 1.79 A; A=18-451.
+DR   PDB; 7CEL; X-ray; 1.90 A; A=19-451.
+DR   PDB; 7NYT; X-ray; 1.09 A; A=18-451.
+DR   PDB; 7OC8; X-ray; 1.60 A; A=18-451.
+DR   PDB; 7YHF; NMR; -; A=478-513.
+DR   PDB; 7YHG; NMR; -; A=478-513.
+DR   PDB; 7YHH; NMR; -; A=478-513.
+DR   PDB; 7YHI; NMR; -; A=478-513.
+DR   PDBsum; 1AZ6; -.
+DR   PDBsum; 1AZH; -.
+DR   PDBsum; 1AZJ; -.
+DR   PDBsum; 1AZK; -.
+DR   PDBsum; 1CBH; -.
+DR   PDBsum; 1CEL; -.
+DR   PDBsum; 1DY4; -.
+DR   PDBsum; 1EGN; -.
+DR   PDBsum; 1Q2B; -.
+DR   PDBsum; 1Q2E; -.
+DR   PDBsum; 2CBH; -.
+DR   PDBsum; 2CEL; -.
+DR   PDBsum; 2MWJ; -.
+DR   PDBsum; 2MWK; -.
+DR   PDBsum; 2V3I; -.
+DR   PDBsum; 2V3R; -.
+DR   PDBsum; 3CEL; -.
+DR   PDBsum; 4C4C; -.
+DR   PDBsum; 4C4D; -.
+DR   PDBsum; 4CEL; -.
+DR   PDBsum; 4D5I; -.
+DR   PDBsum; 4D5J; -.
+DR   PDBsum; 4D5O; -.
+DR   PDBsum; 4D5P; -.
+DR   PDBsum; 4D5Q; -.
+DR   PDBsum; 4D5V; -.
+DR   PDBsum; 4P1H; -.
+DR   PDBsum; 4P1J; -.
+DR   PDBsum; 4UWT; -.
+DR   PDBsum; 4V0Z; -.
+DR   PDBsum; 5CEL; -.
+DR   PDBsum; 5OA5; -.
+DR   PDBsum; 5X34; -.
+DR   PDBsum; 5X35; -.
+DR   PDBsum; 5X36; -.
+DR   PDBsum; 5X37; -.
+DR   PDBsum; 5X38; -.
+DR   PDBsum; 5X39; -.
+DR   PDBsum; 5X3C; -.
+DR   PDBsum; 6CEL; -.
+DR   PDBsum; 6GRN; -.
+DR   PDBsum; 7CEL; -.
+DR   PDBsum; 7NYT; -.
+DR   PDBsum; 7OC8; -.
+DR   PDBsum; 7YHF; -.
+DR   PDBsum; 7YHG; -.
+DR   PDBsum; 7YHH; -.
+DR   PDBsum; 7YHI; -.
+DR   AlphaFoldDB; P62694; -.
+DR   BMRB; P62694; -.
+DR   SMR; P62694; -.
+DR   CAZy; CBM1; Carbohydrate-Binding Module Family 1.
+DR   CAZy; GH7; Glycoside Hydrolase Family 7.
+DR   GlyCosmos; P62694; 15 sites, No reported glycans.
+DR   iPTMnet; P62694; -.
+DR   BioCyc; MetaCyc:MONOMER-16499; -.
+DR   BRENDA; 3.2.1.176; 6451.
+DR   BRENDA; 3.2.1.4; 6451.
+DR   BRENDA; 3.2.1.91; 6451.
+DR   CD-CODE; 9321DD1F; Synthetic Condensate 000162.
+DR   EvolutionaryTrace; P62694; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016162; F:cellulose 1,4-beta-cellobiosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030248; F:cellulose binding; IEA:InterPro.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd07999; GH7_CBH_EG; 1.
+DR   FunFam; 2.70.100.10:FF:000001; Glucanase; 1.
+DR   Gene3D; 2.70.100.10; Glycoside hydrolase, family 7, domain; 1.
+DR   InterPro; IPR035971; CBD_sf.
+DR   InterPro; IPR000254; Cellulose-bd_dom_fun.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001722; Glyco_hydro_7.
+DR   InterPro; IPR037019; Glyco_hydro_7_sf.
+DR   PANTHER; PTHR33753; 1,4-BETA-D-GLUCAN CELLOBIOHYDROLASE B; 1.
+DR   PANTHER; PTHR33753:SF2; GLYCOSIDE HYDROLASE FAMILY 7 PROTEIN; 1.
+DR   Pfam; PF00734; CBM_1; 1.
+DR   Pfam; PF00840; Glyco_hydro_7; 1.
+DR   PRINTS; PR00734; GLHYDRLASE7.
+DR   SMART; SM00236; fCBD; 1.
+DR   SUPFAM; SSF57180; Cellulose-binding domain; 1.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 1.
+DR   PROSITE; PS00562; CBM1_1; 1.
+DR   PROSITE; PS51164; CBM1_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cellulose degradation;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Glycosidase;
+KW   Hydrolase; Polysaccharide degradation; Pyrrolidone carboxylic acid;
+KW   Secreted; Signal.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0000269|Ref.4"
+FT   CHAIN           18..513
+FT                   /note="Exoglucanase 1"
+FT                   /id="PRO_0000007927"
+FT   DOMAIN          477..513
+FT                   /note="CBM1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00597"
+FT   REGION          18..453
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000305|PubMed:8036495"
+FT   REGION          401..480
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          454..477
+FT                   /note="Linker"
+FT                   /evidence="ECO:0000305"
+FT   COMPBIAS        401..437
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        449..459
+FT                   /note="Gly residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        460..478
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        229
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000305|PubMed:8036495"
+FT   ACT_SITE        234
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000305|PubMed:8036495"
+FT   SITE            81
+FT                   /note="Not glycosylated"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   MOD_RES         18
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0000269|Ref.4,
+FT                   ECO:0007744|PDB:1EGN, ECO:0007744|PDB:1Q2B,
+FT                   ECO:0007744|PDB:1Q2E"
+FT   CARBOHYD        62
+FT                   /note="N-linked (GlcNAc) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        287
+FT                   /note="N-linked (GlcNAc) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911,
+FT                   ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        401
+FT                   /note="N-linked (GlcNAc) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:9466911, ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        461
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        462
+FT                   /note="O-linked (Man...) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        463
+FT                   /note="O-linked (Man...) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        464
+FT                   /note="O-linked (Man...) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        469
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        470
+FT                   /note="O-linked (Man...) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        471
+FT                   /note="O-linked (Man...) threonine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        473
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        474
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        478
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000269|PubMed:26307003,
+FT                   ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        480
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000269|PubMed:26307003,
+FT                   ECO:0000269|PubMed:9746354"
+FT   CARBOHYD        491
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000269|PubMed:26307003"
+FT   DISULFID        21..89
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        36..42
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        67..88
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        78..84
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        155..414
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        189..227
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        193..226
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        247..273
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        255..260
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        278..348
+FT                   /evidence="ECO:0000269|PubMed:24341799,
+FT                   ECO:0000269|PubMed:8036495, ECO:0000269|PubMed:9466911"
+FT   DISULFID        485..502
+FT                   /evidence="ECO:0000269|PubMed:2554967,
+FT                   ECO:0000269|PubMed:26307003, ECO:0000269|PubMed:9041630"
+FT   DISULFID        496..512
+FT                   /evidence="ECO:0000269|PubMed:2554967,
+FT                   ECO:0000269|PubMed:26307003, ECO:0000269|PubMed:9041630"
+FT   CONFLICT        459
+FT                   /note="R -> PP (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          19..21
+FT                   /evidence="ECO:0007829|PDB:4P1J"
+FT   STRAND          30..36
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          42..51
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           53..55
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          66..69
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   TURN            75..77
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           81..87
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          88..90
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           95..99
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          101..104
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          107..121
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          123..130
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          136..138
+FT                   /evidence="ECO:0007829|PDB:7NYT"
+FT   STRAND          142..149
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          157..164
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   TURN            168..174
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           182..184
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          203..205
+FT                   /evidence="ECO:0007829|PDB:4P1J"
+FT   STRAND          222..226
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          229..235
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          240..245
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          247..249
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          253..256
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           257..260
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   TURN            262..264
+FT                   /evidence="ECO:0007829|PDB:1Q2B"
+FT   STRAND          265..267
+FT                   /evidence="ECO:0007829|PDB:7NYT"
+FT   STRAND          268..273
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          278..280
+FT                   /evidence="ECO:0007829|PDB:5OA5"
+FT   TURN            282..286
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          290..294
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          297..300
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          305..311
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          317..323
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          326..329
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          333..335
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          338..343
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           345..355
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           359..362
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           365..374
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          375..385
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   TURN            387..391
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           392..395
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          396..399
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          412..414
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   HELIX           421..427
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   STRAND          432..442
+FT                   /evidence="ECO:0007829|PDB:2V3I"
+FT   TURN            479..482
+FT                   /evidence="ECO:0007829|PDB:1AZH"
+FT   STRAND          483..489
+FT                   /evidence="ECO:0007829|PDB:1AZJ"
+FT   STRAND          498..500
+FT                   /evidence="ECO:0007829|PDB:1AZ6"
+FT   STRAND          502..506
+FT                   /evidence="ECO:0007829|PDB:1AZ6"
+FT   STRAND          509..512
+FT                   /evidence="ECO:0007829|PDB:1AZ6"
+SQ   SEQUENCE   513 AA;  54073 MW;  9F5C0A8A854F2C12 CRC64;
+     MYRKLAVISA FLATARAQSA CTLQSETHPP LTWQKCSSGG TCTQQTGSVV IDANWRWTHA
+     TNSSTNCYDG NTWSSTLCPD NETCAKNCCL DGAAYASTYG VTTSGNSLSI GFVTQSAQKN
+     VGARLYLMAS DTTYQEFTLL GNEFSFDVDV SQLPCGLNGA LYFVSMDADG GVSKYPTNTA
+     GAKYGTGYCD SQCPRDLKFI NGQANVEGWE PSSNNANTGI GGHGSCCSEM DIWEANSISE
+     ALTPHPCTTV GQEICEGDGC GGTYSDNRYG GTCDPDGCDW NPYRLGNTSF YGPGSSFTLD
+     TTKKLTVVTQ FETSGAINRY YVQNGVTFQQ PNAELGSYSG NELNDDYCTA EEAEFGGSSF
+     SDKGGLTQFK KATSGGMVLV MSLWDDYYAN MLWLDSTYPT NETSSTPGAV RGSCSTSSGV
+     PAQVESQSPN AKVTFSNIKF GPIGSTGNPS GGNPPGGNRG TTTTRRPATT TGSSPGPTQS
+     HYGQCGGIGY SGPTVCASGT TCQVLNPYYS QCL
+//

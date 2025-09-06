@@ -1,0 +1,103 @@
+ID   Q5AMS2_CANAL            Unreviewed;       556 AA.
+AC   Q5AMS2;
+DT   26-APR-2005, integrated into UniProtKB/TrEMBL.
+DT   26-APR-2005, sequence version 1.
+DT   18-JUN-2025, entry version 99.
+DE   SubName: Full=Hydrolase {ECO:0000313|EMBL:AOW28988.1};
+GN   OrderedLocusNames=CAALFM_C402170CA {ECO:0000313|EMBL:AOW28988.1},
+GN   orf19.12043 {ECO:0000313|CGD:CAL0000180378};
+OS   Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Pichiomycetes;
+OC   Debaryomycetaceae; Candida/Lodderomyces clade; Candida.
+OX   NCBI_TaxID=237561 {ECO:0000313|EMBL:AOW28988.1, ECO:0000313|Proteomes:UP000000559};
+RN   [1] {ECO:0000313|EMBL:AOW28988.1, ECO:0000313|Proteomes:UP000000559}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SC5314 / ATCC MYA-2876 {ECO:0000313|Proteomes:UP000000559};
+RX   PubMed=15123810; DOI=10.1073/pnas.0401648101;
+RA   Jones T., Federspiel N.A., Chibana H., Dungan J., Kalman S., Magee B.B.,
+RA   Newport G., Thorstenson Y.R., Agabian N., Magee P.T., Davis R.W.,
+RA   Scherer S.;
+RT   "The diploid genome sequence of Candida albicans.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:7329-7334(2004).
+RN   [2] {ECO:0000313|EMBL:AOW28988.1, ECO:0000313|Proteomes:UP000000559}
+RP   GENOME REANNOTATION.
+RC   STRAIN=SC5314 / ATCC MYA-2876 {ECO:0000313|Proteomes:UP000000559};
+RX   PubMed=17419877; DOI=.1186/gb-2007-8-4-r52;
+RA   van het Hoog M., Rast T.J., Martchenko M., Grindle S., Dignard D.,
+RA   Hogues H., Cuomo C., Berriman M., Scherer S., Magee B.B., Whiteway M.,
+RA   Chibana H., Nantel A., Magee P.T.;
+RT   "Assembly of the Candida albicans genome into sixteen supercontigs aligned
+RT   on the eight chromosomes.";
+RL   Genome Biol. 8:RESEARCH52.1-RESEARCH52.12(2007).
+RN   [3] {ECO:0000313|EMBL:AOW28988.1, ECO:0000313|Proteomes:UP000000559}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SC5314 / ATCC MYA-2876 {ECO:0000313|Proteomes:UP000000559};
+RX   PubMed=24025428; DOI=.1186/gb-2013-14-9-r97;
+RA   Muzzey D., Schwartz K., Weissman J.S., Sherlock G.;
+RT   "Assembly of a phased diploid Candida albicans genome facilitates allele-
+RT   specific measurements and provides a simple model for repeat and indel
+RT   structure.";
+RL   Genome Biol. 14:RESEARCH97.1-RESEARCH97.14(2013).
+CC   -!- SIMILARITY: Belongs to the putative lipase ROG1 family.
+CC       {ECO:0000256|ARBA:ARBA00007920}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP017626; AOW28988.1; -; Genomic_DNA.
+DR   RefSeq; XP_722646.1; XM_717553.2.
+DR   AlphaFoldDB; Q5AMS2; -.
+DR   FunCoup; Q5AMS2; 147.
+DR   ESTHER; canal-q5ams2; Duf_676.
+DR   EnsemblFungi; C4_02170C_A-T; C4_02170C_A-T-p1; C4_02170C_A.
+DR   GeneID; 3635667; -.
+DR   KEGG; cal:CAALFM_C402170CA; -.
+DR   CGD; CAL0000180378; orf19.12043.
+DR   VEuPathDB; FungiDB:C4_02170C_A; -.
+DR   eggNOG; KOG4372; Eukaryota.
+DR   HOGENOM; CLU_027968_2_0_1; -.
+DR   InParanoid; Q5AMS2; -.
+DR   OMA; DWIKIPV; -.
+DR   OrthoDB; 273452at2759; -.
+DR   Proteomes; UP000000559; Chromosome 4.
+DR   GO; GO:0005811; C:lipid droplet; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0004622; F:lysophospholipase activity; IBA:GO_Central.
+DR   GO; GO:0047372; F:monoacylglycerol lipase activity; IBA:GO_Central.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006629; P:lipid metabolic process; IBA:GO_Central.
+DR   FunFam; 3.40.50.1820:FF:000794; Putative hydrolase; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase_fold.
+DR   InterPro; IPR007751; DUF676_lipase-like.
+DR   InterPro; IPR044294; Lipase-like.
+DR   PANTHER; PTHR12482; LIPASE ROG1-RELATED-RELATED; 1.
+DR   PANTHER; PTHR12482:SF24; LIPID DROPLET PHOSPHOLIPASE 1; 1.
+DR   Pfam; PF05057; DUF676; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000313|EMBL:AOW28988.1};
+KW   Lipid degradation {ECO:0000256|ARBA:ARBA00022963};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00022963};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000559};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        286..306
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          14..213
+FT                   /note="DUF676"
+FT                   /evidence="ECO:0000259|Pfam:PF05057"
+SQ   SEQUENCE   556 AA;  63274 MW;  9F2CAF51F2CFDA92 CRC64;
+     MSDINKSLSS NSKSKSTHLF VLIHGLWGTS SHMATIEKFI KENLPSSTDD KIATIKPACF
+     RFWKTYDGLE LNAKKIIADI FYEIESLKQN NDLEVTKISI IGYSLGGLIS RYVIGLLNEL
+     DFFEKIEPIF FSTFATPHVG IQFFNDNIFD AVANRLGPYL FGKSGGQLFI ADHDKILVKM
+     ADPQEKYMRG LKKFQKHILL ANIKNDRTVA FFTSFITDVS PFEELDNIKI VYLDNLPQAK
+     IANKLVRPKF VDLTKSHRLS LKDKKIFLGN QQEETPFIRK NRWAKILVIA LLACLVVPFW
+     VPFVLISSTT VSIYSFIKIK FVKGPLSPQH WSRVKKFVYG NAPIDPDDAK VGNVQRLKRR
+     TLDRHESFKG DTSYLTEDTM DRVLYAEERY LNKSRKAGSI KNEDDEDALV AENTDYNTDS
+     DGVDESSEAD TLKSNFKSIE MDIEQNDKVI SESIETLKSY ESFPLFQDHK YKLPLNEDKS
+     FIVKNLNTLD WIKIPVFLDV WNAHDGIVSR RGAKTNPKGA STIGLWVSIL RNHLQENGRA
+     DASVNGNQES TIAHTS
+//

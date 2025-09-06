@@ -1,0 +1,107 @@
+id: A0B297
+gene_symbol: A0B297
+taxon:
+  id: NCBITaxon:331272
+  label: Burkholderia cenocepacia HI2424
+description: 'ABC transporter ATP-binding protein component of a carbohydrate import system for ribose, galactose, and methyl galactoside. Functions as the energy-coupling subunit that hydrolyzes ATP to drive substrate transport across the inner membrane. Contains two ABC transporter domains with conserved Walker A and Walker B motifs for ATP binding and hydrolysis.'
+existing_annotations:
+- term:
+    id: GO:0015752
+    label: D-ribose transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000108
+  review:
+    summary: 'This annotation correctly identifies involvement in D-ribose transport, which is one of the substrates transported by this ABC transporter complex according to UniProt (EC 7.5.2.7). As the ATP-binding subunit, this protein provides the energy for ribose transport through ATP hydrolysis. The annotation is appropriate and represents a core function of this transporter.'
+    action: ACCEPT
+- term:
+    id: GO:0005524
+    label: ATP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This is a fundamental molecular function of ABC transporter ATP-binding subunits. The UniProt record confirms ATP binding sites at positions 46-53 and the presence of two ABC transporter domains with conserved nucleotide-binding motifs. This is absolutely core to the protein function as it must bind ATP before hydrolyzing it to power transport.'
+    action: ACCEPT
+- term:
+    id: GO:0016887
+    label: ATP hydrolysis activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'ATP hydrolysis is the core catalytic activity of this protein, converting the chemical energy of ATP into mechanical work for substrate transport. The UniProt record lists EC numbers 7.5.2.11 and 7.5.2.7, both of which involve ATP hydrolysis coupled to carbohydrate transport. This is an essential molecular function annotation.'
+    action: ACCEPT
+- term:
+    id: GO:0000166
+    label: nucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This is a parent term of ATP binding (GO:0005524) and is redundant. While technically correct, it provides no additional information beyond the more specific ATP binding annotation. The ATP binding term is more informative for this protein.'
+    action: REMOVE
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'The UniProt record specifies this protein is localized to the cell inner membrane as a peripheral membrane protein. For bacterial cells, the plasma membrane annotation is appropriate as it refers to the inner membrane. This is correct localization for an ABC transporter ATP-binding subunit that associates with membrane-embedded permease components.'
+    action: ACCEPT
+- term:
+    id: GO:0015611
+    label: ABC-type D-ribose transporter activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This term describes the activity of the complete ABC transporter complex for D-ribose. However, this protein is specifically the ATP-binding subunit, not the complete transporter. The term would be more appropriate for the complex as a whole. A more precise term would be "ATPase-coupled D-ribose transmembrane transporter activity" (GO:0015407) or keep the broader ATP hydrolysis activity already annotated.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0015407
+        label: ABC-type monosaccharide transporter activity
+- term:
+    id: GO:0015749
+    label: monosaccharide transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This is a broader parent term that encompasses both D-ribose and D-galactose transport, both of which are substrates for this transporter according to UniProt. While the more specific D-ribose transport term is already present, this broader term appropriately captures the galactose transport function (EC 7.5.2.11) as well. It represents a core function of the complex.'
+    action: ACCEPT
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This is a parent term of plasma membrane (GO:0005886) and is redundant. The more specific plasma membrane annotation already captures the localization information. This broader term adds no value.'
+    action: REMOVE
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000108
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: UniProtKB:A0B297
+  title: UniProt entry for A0B297 - Putative ribose/galactose/methyl galactoside import ATP-binding protein 2
+  findings:
+    - statement: 'Contains two ABC transporter domains'
+      supporting_text: 'DOMAIN 14..251 /note="ABC transporter 1" and DOMAIN 262..507 /note="ABC transporter 2"'
+    - statement: 'ATP binding site confirmed'
+      supporting_text: 'BINDING 46..53 /ligand="ATP" /ligand_id="ChEBI:CHEBI:30616"'
+    - statement: 'Catalyzes ATP-coupled sugar transport'
+      supporting_text: 'EC=7.5.2.11 (D-galactose transport) and EC=7.5.2.7 (D-ribose transport)'
+    - statement: 'Peripheral membrane protein at inner membrane'
+      supporting_text: 'SUBCELLULAR LOCATION: Cell inner membrane; Peripheral membrane protein'
+    - statement: 'Member of CUT2 family'
+      supporting_text: 'Belongs to the ABC transporter superfamily. Carbohydrate importer 2 (CUT2) (TC 3.A.1.2) family'
+core_functions:
+- description: 'Hydrolyzes ATP to energize carbohydrate import by driving conformational changes in ABC transporter complex permease subunits, enabling active transport of D-ribose (EC 7.5.2.7) and D-galactose (EC 7.5.2.11) across the bacterial inner membrane against concentration gradients'

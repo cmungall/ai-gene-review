@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="3195" viewBox="0 0 1800 3195">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="3195" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: CG6051 (Drosophila melanogaster)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="975" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="997.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="2370" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="2392.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="385" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="406.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="1030" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1051.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="1550" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1571.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="2070" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2091.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">molecular adaptor activity</text>
+<rect x="60" y="2425" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2446.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0042059</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of epidermal gr...</text>
+<rect x="80" y="430" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="444" font-size="10" font-family="monospace" fill="#666666">GO:0046474</text>
+<text x="85" y="460" font-size="11" font-family="Arial, sans-serif" fill="#212121">glycerophospholipid biosynthetic pr...</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0046856</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphatidylinositol dephosphorylation</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0061952</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">midbody abscission</text>
+<rect x="80" y="1075" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1089" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="1105" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="1220" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1234" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="85" y="1250" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<rect x="80" y="1365" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0019899</text>
+<text x="85" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">enzyme binding</text>
+<rect x="80" y="1595" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1609" font-size="10" font-family="monospace" fill="#666666">GO:0004438</text>
+<text x="85" y="1625" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphatidylinositol-3-phosphate ph...</text>
+<rect x="80" y="1740" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1754" font-size="10" font-family="monospace" fill="#666666">GO:0004721</text>
+<text x="85" y="1770" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphoprotein phosphatase activity</text>
+<rect x="80" y="1885" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1899" font-size="10" font-family="monospace" fill="#666666">GO:0052629</text>
+<text x="85" y="1915" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphatidylinositol-3,5-bisphospha...</text>
+<rect x="80" y="2115" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2129" font-size="10" font-family="monospace" fill="#666666">GO:0060090</text>
+<text x="85" y="2145" font-size="11" font-family="Arial, sans-serif" fill="#212121">molecular adaptor activity</text>
+<rect x="80" y="2470" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2484" font-size="10" font-family="monospace" fill="#666666">GO:0031901</text>
+<text x="85" y="2500" font-size="11" font-family="Arial, sans-serif" fill="#212121">early endosome membrane</text>
+<rect x="80" y="2615" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2629" font-size="10" font-family="monospace" fill="#666666">GO:0005829</text>
+<text x="85" y="2645" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytosol</text>
+<rect x="80" y="2760" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2774" font-size="10" font-family="monospace" fill="#666666">GO:0016020</text>
+<text x="85" y="2790" font-size="11" font-family="Arial, sans-serif" fill="#212121">membrane</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2492.5 L337,2497.5 L348,2484.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,1097.5 L390,1097.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1097.5 L382,1093.5 L382,1101.5 Z" fill="#ff9800" />
+<rect x="390" y="1075" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1089" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="395" y="1105" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<path d="M332,1609.5 L348,1625.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1625.5 L348,1609.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1754.5 L348,1770.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1770.5 L348,1754.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="2637.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1242.5 L337,1247.5 L348,1234.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,2782.5 L390,2782.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,2782.5 L382,2778.5 L382,2786.5 Z" fill="#ff9800" />
+<rect x="390" y="2760" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="2774" font-size="10" font-family="monospace" fill="#666666">GO:0031901</text>
+<text x="395" y="2790" font-size="11" font-family="Arial, sans-serif" fill="#212121">early endosome membrane</text>
+<path d="M340,1377.5 L330,1395.5 L350,1395.5 Z" fill="#ffc107" />
+<text x="340" y="1391.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,444.5 L348,460.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,460.5 L348,444.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,589.5 L348,605.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,605.5 L348,589.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1899.5 L348,1915.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1915.5 L348,1899.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2137.5 L337,2142.5 L348,2129.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,734.5 L348,750.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,750.5 L348,734.5" stroke="#f44336" stroke-width="3" />
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a well-supported annotation based on robust</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phylogenetic analysis and experimental evidence from human</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ZFYVE28/LST2. The human ortholog has been demonstrated to</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">negatively regulate EGFR signaling as a substrate of</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mTORC1, providing a feedback mechanism. The conservation</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of the FYVE domain and overall protein architecture</text>
+<rect x="395" y="2457.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2467.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2477.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The FYVE zinc finger domain present in CG6051 (residues</text>
+<text x="400" y="2486.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">909-969) is a well-established PI3P-binding module that</text>
+<text x="400" y="2495.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specifically targets proteins to early endosomal</text>
+<text x="400" y="2504.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membranes. This is a defining characteristic of all FYVE</text>
+<text x="400" y="2513.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domain-containing proteins. The human ortholog</text>
+<text x="400" y="2522.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ZFYVE28/LST2 has been experimentally shown to localize to</text>
+<rect x="645" y="1062.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="1072.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="1082.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is correct but too general. The FYVE</text>
+<text x="650" y="1091.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domain specifically coordinates zinc ions through</text>
+<text x="650" y="1100.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">conserved cysteine and histidine residues. The more</text>
+<text x="650" y="1109.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific term "zinc ion binding" (GO:0008270) already</text>
+<text x="650" y="1118.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">exists in the annotations and better represents the</text>
+<text x="650" y="1127.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular function. Metal ion binding is a parent term</text>
+<rect x="395" y="1582.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1592.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1602.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is fundamentally incorrect. CG6051</text>
+<text x="400" y="1611.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">contains a FYVE domain that BINDS</text>
+<text x="400" y="1620.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphatidylinositol-3-phosphate (PI3P) but does not</text>
+<text x="400" y="1629.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">possess phosphatase activity. The protein lacks any</text>
+<text x="400" y="1638.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphatase catalytic domains. The human ortholog</text>
+<text x="400" y="1647.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ZFYVE28/LST2 is well-characterized as an adaptor/scaffold</text>
+<rect x="395" y="1727.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1737.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1747.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is incorrect. CG6051/LST2 does not have</text>
+<text x="400" y="1756.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphatase activity. Instead, it is a SUBSTRATE of</text>
+<text x="400" y="1765.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphorylation - the protein is phosphorylated by mTORC1</text>
+<text x="400" y="1774.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">kinase at multiple serine residues (S549, S550, S810 in</text>
+<text x="400" y="1783.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Drosophila). The protein lacks any phosphatase catalytic</text>
+<text x="400" y="1792.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domains. This is another erroneous automated prediction</text>
+<rect x="395" y="2602.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2612.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2622.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is not incorrect but incomplete. CG6051 is</text>
+<text x="400" y="2631.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">indeed a cytosolic protein (not transmembrane or</text>
+<text x="400" y="2640.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">secreted), but it specifically associates with early</text>
+<text x="400" y="2649.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">endosomal membranes through its FYVE domain binding to</text>
+<text x="400" y="2658.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PI3P. The cytosol annotation captures the general</text>
+<text x="400" y="2667.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization but misses the functionally important</text>
+<rect x="395" y="1207.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1217.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1227.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is well-supported. The FYVE zinc finger</text>
+<text x="400" y="1236.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domain in CG6051 (residues 909-969) contains eight</text>
+<text x="400" y="1245.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">conserved cysteine/histidine residues that coordinate two</text>
+<text x="400" y="1254.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">zinc ions in a cross-braced topology. UniProt identifies</text>
+<text x="400" y="1263.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific zinc-binding residues at positions 915, 918, 931,</text>
+<text x="400" y="1272.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">934, 939, 942, 961, and 964. Zinc coordination is</text>
+<rect x="645" y="2747.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="2757.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="2767.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is too vague. CG6051 does associate with</text>
+<text x="650" y="2776.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membranes, but specifically with early endosomal membranes</text>
+<text x="650" y="2785.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through PI3P binding via its FYVE domain. The generic</text>
+<text x="650" y="2794.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">"membrane" term provides little functional information.</text>
+<text x="650" y="2803.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The more specific "early endosome membrane" (GO:0031901)</text>
+<text x="650" y="2812.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation already exists and better captures the protein</text>
+<rect x="395" y="1352.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1362.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1372.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is likely correct but too general to be</text>
+<text x="400" y="1381.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">useful. The human ortholog LST2 is known to be</text>
+<text x="400" y="1390.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphorylated by mTORC1 kinase, suggesting it binds this</text>
+<text x="400" y="1399.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme. It may also interact with EGFR or other signaling</text>
+<text x="400" y="1408.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proteins. However, "enzyme binding" is so broad it</text>
+<text x="400" y="1417.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">provides minimal functional insight. Without specific</text>
+<rect x="395" y="417.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="427.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="437.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is incorrect. CG6051/LST2 does not</text>
+<text x="400" y="446.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">participate in glycerophospholipid biosynthesis. The</text>
+<text x="400" y="455.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein binds to phosphatidylinositol-3-phosphate (a</text>
+<text x="400" y="464.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phospholipid) via its FYVE domain but has no biosynthetic</text>
+<text x="400" y="473.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. There are no lipid biosynthesis domains in the</text>
+<text x="400" y="482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein. This appears to be an erroneous automated</text>
+<rect x="395" y="562.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="572.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="582.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is incorrect. CG6051/LST2 does not</text>
+<text x="400" y="591.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">catalyze phosphatidylinositol dephosphorylation. The</text>
+<text x="400" y="600.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein binds PI3P through its FYVE domain but has no</text>
+<text x="400" y="609.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphatase activity. This is another instance of</text>
+<text x="400" y="618.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">automated prediction incorrectly inferring enzymatic</text>
+<text x="400" y="627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity from lipid-binding capability. The protein is an</text>
+<rect x="395" y="1872.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1882.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1892.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is completely incorrect. CG6051/LST2 has</text>
+<text x="400" y="1901.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">no phosphatase activity whatsoever. The protein contains</text>
+<text x="400" y="1910.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">only a FYVE zinc finger domain for PI3P binding and lacks</text>
+<text x="400" y="1919.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">any phosphatase catalytic domains. This specific</text>
+<text x="400" y="1928.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phosphatase activity annotation is particularly</text>
+<text x="400" y="1937.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">problematic as it suggests a very specific enzymatic</text>
+<rect x="395" y="2102.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2112.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2122.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is well-supported. The human ortholog</text>
+<text x="400" y="2131.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ZFYVE28/LST2 is characterized as an adaptor/scaffold</text>
+<text x="400" y="2140.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein that links mTORC1 signaling to EGFR regulation. It</text>
+<text x="400" y="2149.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">serves as a molecular bridge, being phosphorylated by</text>
+<text x="400" y="2158.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mTORC1 and then mediating negative feedback on EGFR. The</text>
+<text x="400" y="2167.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein lacks enzymatic activity but functions to organize</text>
+<rect x="395" y="707.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="717.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="727.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation lacks supporting evidence. While some FYVE</text>
+<text x="400" y="736.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domain proteins participate in cytokinesis and midbody</text>
+<text x="400" y="745.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">abscission through endosomal trafficking roles, there is</text>
+<text x="400" y="754.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">no specific evidence that CG6051/LST2 is involved in this</text>
+<text x="400" y="763.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process. The protein was tested in fertility screens but</text>
+<text x="400" y="772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">showed no significant phenotype. The human ortholog is</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is a substrate of mTORC1 kinase and, when active, helps inhibit</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">the upstream EGF receptor (EGFR) signaling pathway. The absence of</text>
+<text x="705" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 leads to heightened EGFR activity in mammalian cells</text>
+<rect x="700" y="2470" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2480" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="705" y="2488" font-size="8" font-family="Arial, sans-serif" fill="#212121">ZN_FING 909..969 /note="FYVE-type"</text>
+<rect x="1030" y="2470" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="2480" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="1035" y="2488" font-size="8" font-family="Arial, sans-serif" fill="#212121">FYVE domains are known to target proteins to PI3P-enriched endosomal</text>
+<text x="1035" y="2497" font-size="8" font-family="Arial, sans-serif" fill="#212121">compartments, and CG6051 FYVE finger (annotated around amino acids</text>
+<text x="1035" y="2506" font-size="8" font-family="Arial, sans-serif" fill="#212121">900–965) strongly implies an endosomal membrane attachment</text>
+<rect x="950" y="1075" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1085" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="955" y="1093" font-size="8" font-family="Arial, sans-serif" fill="#212121">BINDING sites for Zn(2+) at positions 915, 918, 931, 934, 939, 942,</text>
+<text x="955" y="1102" font-size="8" font-family="Arial, sans-serif" fill="#212121">961, 964</text>
+<rect x="700" y="1595" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1605" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="1613" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is NOT a phosphatase itself but rather acts as an</text>
+<text x="705" y="1622" font-size="8" font-family="Arial, sans-serif" fill="#212121">adaptor/scaffold protein</text>
+<rect x="1030" y="1595" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1605" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="1035" y="1613" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=Lateral signaling target protein 2 homolog [no</text>
+<text x="1035" y="1622" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphatase domains annotated]</text>
+<rect x="700" y="1740" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1750" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="705" y="1758" font-size="8" font-family="Arial, sans-serif" fill="#212121">PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-549; SER-550 AND</text>
+<text x="705" y="1767" font-size="8" font-family="Arial, sans-serif" fill="#212121">SER-810</text>
+<rect x="1030" y="1740" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1750" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="1035" y="1758" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is a substrate of mTORC1 kinase</text>
+<rect x="700" y="2615" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2625" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="2633" font-size="8" font-family="Arial, sans-serif" fill="#212121">CG6051 likely resides in the cytoplasm on endosomal vesicles. There</text>
+<text x="705" y="2642" font-size="8" font-family="Arial, sans-serif" fill="#212121">is no evidence of a signal peptide or transmembrane segment, so</text>
+<text x="705" y="2651" font-size="8" font-family="Arial, sans-serif" fill="#212121">CG6051 is not a membrane-spanning receptor itself but rather a</text>
+<text x="705" y="2660" font-size="8" font-family="Arial, sans-serif" fill="#212121">peripheral membrane-associated protein on endosomes</text>
+<rect x="700" y="1220" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1230" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="705" y="1238" font-size="8" font-family="Arial, sans-serif" fill="#212121">BINDING 915 /ligand="Zn(2+)" /ligand_id="ChEBI:CHEBI:29105"</text>
+<text x="705" y="1247" font-size="8" font-family="Arial, sans-serif" fill="#212121">/ligand_label="1"; BINDING 918 /ligand="Zn(2+)"; BINDING 931</text>
+<text x="705" y="1256" font-size="8" font-family="Arial, sans-serif" fill="#212121">/ligand="Zn(2+)" /ligand_label="2"; BINDING 934 /ligand="Zn(2+)";</text>
+<text x="705" y="1265" font-size="8" font-family="Arial, sans-serif" fill="#212121">BINDING 939 /ligand="Zn(2+)"; BINDING 942 /ligand="Zn(2+)"; BINDING</text>
+<text x="705" y="1274" font-size="8" font-family="Arial, sans-serif" fill="#212121">961 /ligand="Zn(2+)"; BINDING 964 /ligand="Zn(2+)"</text>
+<rect x="950" y="2760" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="2770" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="955" y="2778" font-size="8" font-family="Arial, sans-serif" fill="#212121">Based on protein domain analysis, CG6051 is predicted to localize to</text>
+<text x="955" y="2787" font-size="8" font-family="Arial, sans-serif" fill="#212121">early endosomal membranes</text>
+<rect x="700" y="1365" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1375" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="1383" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is a substrate of mTORC1 kinase</text>
+<rect x="700" y="430" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="440" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="705" y="448" font-size="8" font-family="Arial, sans-serif" fill="#212121">FUNCTION: Negative regulator of epidermal growth factor receptor</text>
+<text x="705" y="457" font-size="8" font-family="Arial, sans-serif" fill="#212121">(EGFR) signaling [no mention of lipid biosynthesis]</text>
+<rect x="1030" y="430" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="440" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="1035" y="448" font-size="8" font-family="Arial, sans-serif" fill="#212121">CG6051 is likely involved in endosome-related mechanisms (such as</text>
+<text x="1035" y="457" font-size="8" font-family="Arial, sans-serif" fill="#212121">receptor trafficking or signal attenuation) via its lipid-binding</text>
+<text x="1035" y="466" font-size="8" font-family="Arial, sans-serif" fill="#212121">FYVE domain</text>
+<rect x="700" y="575" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="585" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="593" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is NOT a phosphatase itself but rather acts as an</text>
+<text x="705" y="602" font-size="8" font-family="Arial, sans-serif" fill="#212121">adaptor/scaffold protein</text>
+<rect x="1030" y="575" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="585" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="1035" y="593" font-size="8" font-family="Arial, sans-serif" fill="#212121">SIMILARITY: Belongs to the lst-2 family [not to any phosphatase</text>
+<text x="1035" y="602" font-size="8" font-family="Arial, sans-serif" fill="#212121">family]</text>
+<rect x="700" y="1885" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1895" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="1903" font-size="8" font-family="Arial, sans-serif" fill="#212121">CG6051 is thought to participate in endocytic trafficking and signal</text>
+<text x="705" y="1912" font-size="8" font-family="Arial, sans-serif" fill="#212121">modulation [not enzymatic activity]</text>
+<rect x="1030" y="1885" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1895" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Q9VB70]</text>
+<text x="1035" y="1903" font-size="8" font-family="Arial, sans-serif" fill="#212121">Full=Lateral signaling target protein 2 homolog [signaling protein,</text>
+<text x="1035" y="1912" font-size="8" font-family="Arial, sans-serif" fill="#212121">not phosphatase]</text>
+<rect x="700" y="2115" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2125" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="2133" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 is NOT a phosphatase itself but rather acts as an</text>
+<text x="705" y="2142" font-size="8" font-family="Arial, sans-serif" fill="#212121">adaptor/scaffold protein</text>
+<rect x="1030" y="2115" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="2125" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="1035" y="2133" font-size="8" font-family="Arial, sans-serif" fill="#212121">LST2 mediates a feedback loop that dampens EGFR signaling</text>
+<rect x="700" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/fly/CG605...]</text>
+<text x="705" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">In a genome-wide RNAi screen for female fertility genes, CG6051 was</text>
+<text x="705" y="747" font-size="8" font-family="Arial, sans-serif" fill="#212121">among hundreds tested... it was not singled out in the final list of</text>
+<text x="705" y="756" font-size="8" font-family="Arial, sans-serif" fill="#212121">94 genes affecting fertility (implying any phenotype was subtle or</text>
+<text x="705" y="765" font-size="8" font-family="Arial, sans-serif" fill="#212121">the knockdown was inconclusive)</text>
+<rect x="600.0" y="3055" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="3090.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="3090.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

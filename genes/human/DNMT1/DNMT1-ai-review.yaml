@@ -1,0 +1,1241 @@
+id: P26358
+gene_symbol: DNMT1
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: DNMT1 is the predominant mammalian maintenance DNA methyltransferase responsible for preserving CpG methylation patterns during DNA replication. It plays essential roles in genomic imprinting, X-chromosome inactivation, heterochromatin formation, and silencing of repetitive elements. The protein contains multiple regulatory domains including RFTS, CXXC, BAH domains and a C-terminal catalytic domain that uses SAM as methyl donor to methylate cytosine residues in CpG dinucleotides, with 2-fold preference for hemimethylated sites.
+existing_annotations:
+- term:
+    id: GO:0003886
+    label: DNA (cytosine-5-)-methyltransferase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: This IBA annotation correctly identifies DNMT1 as having DNA (cytosine-5)-methyltransferase activity. This is the core catalytic function of DNMT1, well-established through extensive biochemical studies showing it methylates cytosine at the 5-position using S-adenosyl-L-methionine as methyl donor, with preference for hemimethylated CpG sites.
+    action: ACCEPT
+    reason: This represents the primary and most fundamental molecular function of DNMT1. Multiple studies confirm DNMT1 catalyzes the methylation of cytosine residues at CpG sites, particularly hemimethylated sites during DNA replication maintenance. The IBA evidence represents phylogenetic analysis supporting this core function.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: USP7 stimulated both the maintenance and de novo DNA methylation activity of Dnmt1 in vitro
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: DNMT1 is primarily nuclear localized, where it carries out DNA methylation during replication and associates with heterochromatin. Multiple studies confirm nuclear localization with specific enrichment at replication foci during S-phase and pericentric heterochromatin.
+    action: ACCEPT
+    reason: Nuclear localization is well-established for DNMT1. The protein functions in the nucleus where DNA replication and chromatin organization occur. IBA phylogenetic evidence supports this conserved cellular compartmentalization across species.
+    supported_by:
+    - reference_id: PMID:8940105
+      supporting_text: DNA (cytosine-5)-methyltransferases (EC 2.1.1.37) maintain patterns of methylated cytosine residues in the mammalian genome
+    - reference_id: PMID:16791210
+      supporting_text: Dynamic proteomics in individual human cells uncovers widespread cell-cycle dependence of nuclear proteins
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: DNMT1 negatively regulates gene expression through CpG island methylation, leading to transcriptional silencing. This is a core biological process function of DNMT1, particularly important in cancer where hypermethylation silences tumor suppressor genes and in normal development for silencing tissue-inappropriate genes.
+    action: ACCEPT
+    reason: This accurately describes a key biological process mediated by DNMT1. CpG island methylation by DNMT1 leads to transcriptional repression through recruitment of methyl-CpG binding proteins and chromatin remodeling complexes. Well-supported by literature showing DNMT1 role in silencing genes via promoter hypermethylation.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: ZNF304 recruits a corepressor complex that includes the DNA methyltransferase DNMT1, resulting in DNA hypermethylation and transcriptional silencing
+    - reference_id: PMID:21745816
+      supporting_text: Dnmt1, UHRF1 and USP7 co-localized on silenced, methylated genes in vivo
+- term:
+    id: GO:0003677
+    label: DNA binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: DNMT1 binds DNA through multiple domains including the CXXC domain (recognizes unmethylated CpG), catalytic domain (substrate binding), and other regions that interact with chromatin. While DNA binding is necessary for function, this term is quite general and less informative than the specific methyltransferase activity term.
+    action: KEEP_AS_NON_CORE
+    reason: DNA binding is a prerequisite molecular function for DNMT1 to carry out its methyltransferase activity, but it is a general term that does not capture the specific enzymatic function. The more specific GO:0003886 (DNA cytosine-5-methyltransferase activity) is preferred as the core function. This term represents necessary but non-specific binding activity.
+    supported_by:
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0003677
+    label: DNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Duplicate of IBA annotation above with same GO term. DNA binding is supported but represents general rather than specific function. The IBA evidence is stronger than IEA computational annotation.
+    action: REMOVE
+    reason: This is a duplicate annotation of the IBA version above for the same GO term. The IBA evidence is stronger and more reliable than IEA computational prediction. Keeping only the IBA version to avoid redundancy and favor higher-quality evidence.
+- term:
+    id: GO:0003682
+    label: chromatin binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: DNMT1 does bind chromatin through interactions with nucleosomes, histones, and chromatin proteins. It associates with heterochromatin and replication foci. However, this is a somewhat general term that could be made more specific.
+    action: ACCEPT
+    reason: DNMT1 binding to chromatin is well-documented, including association with nucleosomes, modified histones, and heterochromatin. While general, chromatin binding is a legitimate molecular function distinct from DNA binding alone, as it involves the nucleoprotein complex rather than naked DNA.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: UHRF1 strongly associates with heterochromatin and binds preferentially to hemi-methylated DNA via its SRA domain
+- term:
+    id: GO:0003886
+    label: DNA (cytosine-5-)-methyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Duplicate of the IBA annotation above for the same molecular function. While the function is correct, the IBA phylogenetic evidence is stronger than IEA computational prediction.
+    action: REMOVE
+    reason: This is a duplicate annotation of the IBA version above for DNMT1 core methyltransferase activity. The IBA evidence provides stronger support through phylogenetic analysis compared to IEA computational mapping. Eliminating redundancy by keeping only the higher-quality IBA annotation.
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Duplicate of IBA nuclear localization annotation above. Nuclear localization is correct but IBA evidence is stronger than computational IEA prediction.
+    action: REMOVE
+    reason: This duplicates the IBA nuclear localization annotation above. Both annotations refer to the same cellular component but the IBA evidence is more reliable than IEA computational prediction. Removing to eliminate redundancy and favor higher-quality evidence.
+- term:
+    id: GO:0006346
+    label: DNA methylation-dependent constitutive heterochromatin formation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: DNMT1 contributes to heterochromatin formation through DNA methylation, particularly at repetitive elements and pericentromeric regions. This is a specific and accurate biological process annotation describing an important function of DNMT1 in chromatin organization.
+    action: ACCEPT
+    reason: DNMT1 plays a well-documented role in heterochromatin formation through DNA methylation. This is particularly important at repetitive sequences, satellite DNA, and pericentromeric regions where DNMT1-mediated methylation helps establish and maintain heterochromatic states essential for genomic stability.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: UHRF1 strongly associates with heterochromatin
+- term:
+    id: GO:0008168
+    label: methyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is a broad parent term of the more specific DNA (cytosine-5-)-methyltransferase activity. While accurate, it is less informative than the specific terms already annotated.
+    action: MODIFY
+    reason: This general methyltransferase activity term is too broad. DNMT1 specifically catalyzes DNA cytosine-5-methylation, not general methylation. The more specific GO:0003886 (DNA cytosine-5-methyltransferase activity) is already annotated and preferred.
+    proposed_replacement_terms:
+    - id: GO:0003886
+      label: DNA (cytosine-5-)-methyltransferase activity
+- term:
+    id: GO:0008270
+    label: zinc ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: DNMT1 contains a CXXC zinc finger domain that coordinates zinc ions for proper folding and DNA binding function. This molecular function is structurally important for DNMT1 activity.
+    action: ACCEPT
+    reason: The CXXC domain of DNMT1 is a zinc finger domain that requires zinc coordination for proper folding and function. This zinc finger domain recognizes unmethylated CpG sites and is essential for targeting DNMT1 to appropriate substrates. Zinc binding is a legitimate and important molecular function.
+    supported_by:
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0006325
+    label: chromatin organization
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: DNMT1 contributes to chromatin organization through DNA methylation-mediated recruitment of chromatin remodeling complexes and establishment of heterochromatin. This is a legitimate but broad biological process.
+    action: ACCEPT
+    reason: DNMT1 plays important roles in chromatin organization by establishing methylation patterns that recruit methyl-CpG binding proteins, chromatin remodeling complexes, and help organize heterochromatin. While broad, this accurately describes an important biological process function of DNMT1.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: UHRF1 strongly associates with heterochromatin
+- term:
+    id: GO:0016740
+    label: transferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is an extremely broad parent term for any enzyme that transfers functional groups. While technically correct since DNMT1 transfers methyl groups, it provides no specific information about DNMT1 function.
+    action: MODIFY
+    reason: This term is far too general and uninformative. DNMT1 specifically transfers methyl groups to DNA cytosines, which is already captured by the more specific GO:0003886 (DNA cytosine-5-methyltransferase activity). The broad transferase activity term should be replaced with the specific methyltransferase activity.
+    proposed_replacement_terms:
+    - id: GO:0003886
+      label: DNA (cytosine-5-)-methyltransferase activity
+- term:
+    id: GO:0032259
+    label: methylation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is a very general biological process term for any methylation reaction. While DNMT1 does perform methylation, more specific terms like DNA methylation-related processes are preferred.
+    action: MODIFY
+    reason: This general methylation term is too broad and uninformative. DNMT1 performs DNA methylation specifically, which is better captured by more specific terms like GO:0141119 (chromosomal DNA methylation maintenance) or GO:0044027 (negative regulation of gene expression via chromosomal CpG island methylation).
+    proposed_replacement_terms:
+    - id: GO:0141119
+      label: chromosomal DNA methylation maintenance following DNA replication
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: DNMT1 binds metal ions, particularly zinc in the CXXC domain. However, this is a broad term - the more specific zinc ion binding (GO:0008270) is already annotated and preferred.
+    action: MODIFY
+    reason: While DNMT1 does bind metal ions (zinc), this general term is less informative than the specific GO:0008270 (zinc ion binding) that is already annotated. The specific term is preferred over the general parent term.
+    proposed_replacement_terms:
+    - id: GO:0008270
+      label: zinc ion binding
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:15161933
+  review:
+    summary: DNMT1 extensively interacts with numerous proteins including UHRF1, PCNA, USP7, histones, and chromatin factors. However, protein binding is a very general term that does not specify the functional significance of these interactions.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While DNMT1 does bind many proteins, this general protein binding term is not informative about DNMT1 specific functions. The numerous IPI annotations with this term represent over-annotation. More specific terms like chromatin binding or enzyme regulator activity would be more informative than generic protein binding.
+    additional_reference_ids:
+    - PMID:17673620
+    - PMID:19450230
+    - PMID:21745816
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16357870
+  review:
+    summary: Duplicate generic protein binding annotation - shows interaction with EZH2. Multiple IPI annotations exist for the same uninformative term.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This represents over-annotation with the same general protein binding term. While this PMID demonstrates DNMT1-EZH2 interaction, the generic GO:0005515 protein binding term provides no functional specificity about this interaction. More specific terms would be more informative.
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16983096
+  review:
+    summary: Duplicate generic protein binding annotation. Over-annotation with uninformative term despite showing DNMT3A interaction.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: Generic protein binding term that does not capture functional significance of DNMT1-DNMT3A interaction. Represents over-annotation where multiple PMIDs are annotated to the same uninformative molecular function term.
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:17934516
+  review:
+    summary: Another duplicate generic protein binding annotation showing DNMT1-ICBP90 interaction. Multiple IPI annotations with this uninformative term represent over-annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: Generic protein binding term provides no functional specificity about the DNMT1-ICBP90/UHRF1 interaction. While this interaction is functionally important for DNMT1 targeting to hemimethylated sites, the generic GO:0005515 term is uninformative. More specific terms would better capture this regulatory interaction.
+    supported_by:
+    - reference_id: PMID:17934516
+      supporting_text: The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1 is involved in the regulation of VEGF gene expression
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:17972916
+  review:
+    summary: Generic protein binding annotation showing DNMT1-RIP140 interaction in adipocyte gene silencing context. Multiple uninformative protein binding annotations represent over-annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: The generic protein binding term does not capture the functional significance of DNMT1-RIP140 interaction in transcriptional silencing of UCP1. While this interaction is functionally relevant, the GO:0005515 term provides no specificity about the regulatory nature of this interaction.
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:19282482
+  review:
+    summary: Generic protein binding annotation showing DNMT1-SET7 interaction involved in DNMT1 stability regulation via lysine methylation. Another uninformative generic annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: The generic protein binding term fails to capture the regulatory significance of SET7-mediated DNMT1 methylation and stability control. While this represents an important post-translational modification pathway, the GO:0005515 term is too general to be informative.
+    supported_by:
+    - reference_id: PMID:19282482
+      supporting_text: Regulation of DNMT1 stability through SET7-mediated lysine methylation in mammalian cells
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:19798101
+  review:
+    summary: Generic protein binding annotation showing DNMT1-Np95/UHRF1 interaction mediating DNA methylation and gene silencing. Another example of uninformative generic annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While the DNMT1-UHRF1 interaction is crucial for maintenance methylation targeting, the generic protein binding term provides no functional information. This interaction involves chromatin targeting and enzyme regulation, which would be better captured by more specific molecular function terms.
+    supported_by:
+    - reference_id: PMID:19798101
+      supporting_text: Np95 interacts with de novo DNA methyltransferases, Dnmt3a and Dnmt3b, and mediates epigenetic silencing of the viral CMV promoter in embryonic stem cells
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:21151116
+  review:
+    summary: Generic protein binding annotation related to DNMT1 post-translational modifications affecting stability. The study shows methylation and phosphorylation switch regulating DNMT1.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: Generic protein binding term does not capture the regulatory significance of post-translational modifications controlling DNMT1 stability. The study focuses on regulatory modifications rather than specific protein-protein interactions, making this annotation uninformative.
+    supported_by:
+    - reference_id: PMID:21151116
+      supporting_text: A methylation and phosphorylation switch between an adjacent lysine and serine determines human DNMT1 stability
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:21653829
+  review:
+    summary: Generic protein binding annotation from autism disorder protein interactome study. While DNMT1 may have interactions identified in this proteomics study, this represents uninformative over-annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This generic protein binding annotation from a broad proteomics study of autism-related proteins does not provide specific functional information about DNMT1. The connection to autism disorders is indirect and the generic GO term is uninformative about DNMT1 core functions.
+    supported_by:
+    - reference_id: PMID:21653829
+      supporting_text: Protein interactome reveals converging molecular pathways among autism disorders
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:21947282
+  review:
+    summary: Generic protein binding annotation showing DNMT1-SIRT1 interaction where SIRT1 deacetylates DNMT1 and alters its activity. Another uninformative generic annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While SIRT1 deacetylation of DNMT1 is functionally important for enzyme regulation, the generic protein binding term provides no specificity about this regulatory post-translational modification. More specific terms relating to enzyme regulation would be more informative.
+    supported_by:
+    - reference_id: PMID:21947282
+      supporting_text: SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein and alters its activities
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:22094255
+  review:
+    summary: Generic protein binding annotation from study of oxidative damage effects on DNMT1 complexes at CpG islands. Another uninformative generic annotation despite showing important regulatory context.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While this study shows important effects of oxidative damage on DNMT1-containing complexes at promoters, the generic protein binding term does not capture the functional significance of these interactions or the regulatory context.
+    supported_by:
+    - reference_id: PMID:22094255
+      supporting_text: Oxidative damage targets complexes containing DNA methyltransferases, SIRT1, and polycomb members to promoter CpG Islands
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:25544563
+  review:
+    summary: Generic protein binding annotation from herpesvirus-host protein complex mapping study. This represents a specialized viral context rather than core DNMT1 function.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation comes from a specialized study of herpesvirus-host protein interactions. While technically showing protein binding, this represents a pathological context rather than normal DNMT1 function, and the generic term provides no functional specificity.
+    supported_by:
+    - reference_id: PMID:25544563
+      supporting_text: Global mapping of herpesvirus-host protein complexes reveals a transcription strategy for late genes
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:25753001
+  review:
+    summary: Generic protein binding annotation showing DNMT1-β-catenin interaction regulating Wnt signaling and DNA methylation in colorectal cancer cells. Specialized cancer context.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While the DNMT1-β-catenin interaction is functionally relevant in cancer contexts, the generic protein binding term does not capture the regulatory significance. This represents a specialized pathological interaction rather than core DNMT1 function.
+    supported_by:
+    - reference_id: PMID:25753001
+      supporting_text: A Protein Interaction between β-Catenin and Dnmt1 Regulates Wnt Signaling and DNA Methylation in Colorectal Cancer Cells
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:27728808
+  review:
+    summary: Generic protein binding annotation from study combining PARP inhibitors with DNA demethylating agents in cancer therapy. Specialized therapeutic context.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation comes from a cancer therapy study and does not represent core DNMT1 function. The generic protein binding term provides no functional information about the therapeutic context or specific interactions studied.
+    supported_by:
+    - reference_id: PMID:27728808
+      supporting_text: Enhancing the Cytotoxic Effects of PARP Inhibitors with DNA Demethylating Agents - A Potential Therapy for Cancer
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:29691401
+  review:
+    summary: Generic protein binding annotation showing DNMT1 targeted for proteolysis by L3MBTL3 and CRL4 ubiquitin ligase complex. Represents regulatory degradation pathway.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While this study shows important regulation of DNMT1 stability through ubiquitin-mediated degradation, the generic protein binding term does not capture the regulatory significance of this proteolytic targeting mechanism.
+    supported_by:
+    - reference_id: PMID:29691401
+      supporting_text: Methylated DNMT1 and E2F1 are targeted for proteolysis by L3MBTL3 and CRL4(DCAF5) ubiquitin ligase
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:35271311
+  review:
+    summary: Generic protein binding annotation from OpenCell endogenous tagging study for cellular organization mapping. This represents a broad proteomics methodology study.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation comes from a broad proteomics methodology study (OpenCell) rather than focused DNMT1 functional analysis. The generic protein binding term provides no specific functional information about DNMT1 interactions or cellular role.
+    supported_by:
+    - reference_id: PMID:35271311
+      supporting_text: 'OpenCell: Endogenous tagging for the cartography of human cellular organization'
+- term:
+    id: GO:0000122
+    label: negative regulation of transcription by RNA polymerase II
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: Duplicate of TAS annotation above for same biological process. DNMT1 negatively regulates RNA polymerase II transcription through DNA methylation and chromatin modifications. IEA evidence is weaker than TAS.
+    action: REMOVE
+    reason: This duplicates the TAS annotation above for the same GO term with weaker computational evidence. The TAS annotation with literature support (PMID:10888872) provides stronger evidence for this core DNMT1 function. Removing to eliminate redundancy and favor higher-quality evidence.
+- term:
+    id: GO:0000792
+    label: heterochromatin
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 associates with heterochromatin where it maintains DNA methylation at repetitive sequences and pericentromeric regions. This cellular component localization is functionally important.
+    action: ACCEPT
+    reason: DNMT1 localization to heterochromatin is well-documented and functionally crucial for maintaining methylation at repetitive elements and ensuring genomic stability. This complements the pericentric heterochromatin annotation and represents legitimate cellular compartmentalization.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: UHRF1 strongly associates with heterochromatin
+- term:
+    id: GO:0001674
+    label: female germ cell nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 is expressed and functions in germ cells for maintaining genomic imprinting and DNA methylation patterns essential for proper development. However, this term is very specific to female germ cells.
+    action: KEEP_AS_NON_CORE
+    reason: While DNMT1 does function in germ cells for genomic imprinting and methylation maintenance, this highly specialized cellular component annotation is not representative of DNMT1 core cellular localization. It represents a developmental context rather than primary function.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: DNA methylation contributes to epigenetic processes such as differentiation and development, transcriptional regulation, preservation of chromosomal stability, silencing of repetitive elements, genomic imprinting
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: There is limited evidence for DNMT1 directly binding RNA. While some studies suggest interactions with long non-coding RNAs, this molecular function is not well-established for DNMT1 compared to its DNA binding function.
+    action: UNDECIDED
+    reason: The evidence for DNMT1 RNA binding activity is not well-established in the literature I have access to. While there may be some interactions with regulatory RNAs, this molecular function requires stronger experimental validation. The IEA annotation may represent computational over-prediction.
+- term:
+    id: GO:0005657
+    label: replication fork
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 localizes to replication foci during S-phase through PCNA interaction to carry out maintenance methylation of newly replicated hemimethylated DNA. This cellular component localization is functionally important.
+    action: ACCEPT
+    reason: DNMT1 recruitment to replication forks is well-documented and functionally crucial for its maintenance methylation activity. The interaction with PCNA targets DNMT1 to sites of active DNA replication where it can access hemimethylated CpG sites on newly synthesized DNA.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: Besides the known interaction partners UHRF1 (N), only present in the MNase-treated extract, and PCNA (P)
+- term:
+    id: GO:0005721
+    label: pericentric heterochromatin
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 localizes to pericentric heterochromatin where it maintains DNA methylation at repetitive sequences critical for genomic stability and chromosome structure.
+    action: ACCEPT
+    reason: DNMT1 association with pericentric heterochromatin is well-documented and functionally important for maintaining methylation at repetitive elements and satellite sequences. This localization is crucial for genomic stability and proper chromosome organization.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: UHRF1 strongly associates with heterochromatin
+- term:
+    id: GO:0006351
+    label: DNA-templated transcription
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 regulates DNA-templated transcription through methylation-mediated gene silencing, but this broad term does not specify the regulatory nature (negative regulation).
+    action: MODIFY
+    reason: While DNMT1 does affect DNA-templated transcription, it primarily acts as a negative regulator through DNA methylation. More specific terms like negative regulation of transcription (GO:0045892) or negative regulation by RNA polymerase II (GO:0000122) better capture DNMT1 function.
+    proposed_replacement_terms:
+    - id: GO:0000122
+      label: negative regulation of transcription by RNA polymerase II
+- term:
+    id: GO:0008327
+    label: methyl-CpG binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 does not typically bind methylated CpG sites - it preferentially binds hemimethylated CpG sites for maintenance methylation. Methyl-CpG binding is more characteristic of MBD proteins.
+    action: REMOVE
+    reason: DNMT1 primary function involves binding hemimethylated CpG sites rather than fully methylated CpG sites. Methyl-CpG binding is more characteristic of methyl-CpG binding domain (MBD) proteins that read methylation marks. This appears to be a computational annotation error confusing DNMT1 function with MBD protein function.
+- term:
+    id: GO:0009008
+    label: DNA-methyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This is a broader parent term of the more specific GO:0003886 (DNA cytosine-5-methyltransferase activity). While accurate, the specific term is preferred.
+    action: MODIFY
+    reason: This general DNA methyltransferase activity term is less specific than GO:0003886 (DNA cytosine-5-methyltransferase activity) which is already annotated. DNMT1 specifically performs cytosine-5-methylation, so the more specific term is preferred over the general parent term.
+    proposed_replacement_terms:
+    - id: GO:0003886
+      label: DNA (cytosine-5-)-methyltransferase activity
+- term:
+    id: GO:0010468
+    label: regulation of gene expression
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 regulates gene expression through DNA methylation, but this term is very broad. More specific terms like negative regulation of gene expression or CpG island methylation are more informative.
+    action: MODIFY
+    reason: While DNMT1 does regulate gene expression, this term is too general. DNMT1 primarily acts as a transcriptional repressor through DNA methylation. More specific terms like GO:0010629 (negative regulation of gene expression) or GO:0044027 (negative regulation via CpG island methylation) better capture DNMT1 function.
+    proposed_replacement_terms:
+    - id: GO:0010629
+      label: negative regulation of gene expression
+- term:
+    id: GO:0010629
+    label: negative regulation of gene expression
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 is primarily a transcriptional repressor that negatively regulates gene expression through DNA methylation-mediated silencing. This accurately describes a core biological process function.
+    action: ACCEPT
+    reason: Negative regulation of gene expression accurately describes DNMT1 primary role in transcriptional control. Through DNA methylation, DNMT1 silences genes by recruiting repressor complexes and establishing repressive chromatin states. This is a fundamental biological process function.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: DNA hypermethylation and transcriptional silencing
+- term:
+    id: GO:0042127
+    label: regulation of cell population proliferation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 affects cell proliferation through regulation of cell cycle genes and tumor suppressor silencing, but this is a broad term that does not capture the mechanistic basis (DNA methylation).
+    action: KEEP_AS_NON_CORE
+    reason: While DNMT1 does affect cell proliferation through methylation of cell cycle regulators and tumor suppressors, this represents a downstream consequence rather than a core primary function. DNMT1 primary functions are DNA methylation and transcriptional regulation.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: DNA hypermethylation and transcriptional silencing
+- term:
+    id: GO:0043045
+    label: epigenetic programming of gene expression
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 is fundamental to epigenetic programming through DNA methylation, establishing and maintaining heritable gene expression patterns without changing DNA sequence. This is a core biological process function.
+    action: ACCEPT
+    reason: Epigenetic programming accurately describes DNMT1 role in establishing and maintaining heritable changes in gene expression through DNA methylation. This is fundamental to cellular identity, development, and genomic imprinting - all key DNMT1 functions.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: DNA methylation contributes to epigenetic processes such as differentiation and development, transcriptional regulation, preservation of chromosomal stability, silencing of repetitive elements, genomic imprinting, X-chromosome inactivation
+- term:
+    id: GO:0043073
+    label: germ cell nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 functions in germ cell nuclei for genomic imprinting and methylation maintenance, but this specialized cellular component is not representative of core localization.
+    action: KEEP_AS_NON_CORE
+    reason: While DNMT1 does function in germ cells for establishing and maintaining genomic imprints, this represents a specialized developmental context rather than the primary nuclear localization. Core cellular component annotations focus on primary functional locations.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: genomic imprinting
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is a duplicate of multiple annotations above (IBA, TAS, IMP, IDA) for the same core biological process function. IEA evidence is the weakest among these duplicates.
+    action: REMOVE
+    reason: This duplicates higher-quality annotations (IBA, TAS, IMP, IDA) for the same core DNMT1 function. The IEA computational annotation is redundant and provides the weakest evidence among the duplicates for this important biological process.
+- term:
+    id: GO:0045892
+    label: negative regulation of DNA-templated transcription
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: DNMT1 negatively regulates DNA-templated transcription through methylation-mediated gene silencing. This accurately describes a core biological process function.
+    action: ACCEPT
+    reason: This term accurately captures DNMT1 primary role as a transcriptional repressor through DNA methylation. While similar to other negative regulation terms, this specifically refers to DNA-templated transcription and represents a legitimate core biological process function.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: DNA hypermethylation and transcriptional silencing
+- term:
+    id: GO:0071230
+    label: cellular response to amino acid stimulus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This appears to be a very specialized response not directly related to DNMT1 core functions. There is limited evidence linking DNMT1 specifically to amino acid stimulus responses.
+    action: REMOVE
+    reason: This term does not appear to relate to DNMT1 core functions in DNA methylation, gene regulation, or chromatin organization. The connection between DNMT1 and cellular response to amino acid stimulus is unclear and not supported by strong functional evidence. This appears to be an over-annotation from computational prediction.
+- term:
+    id: GO:0106222
+    label: lncRNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: While there is some evidence for DNMT1 interaction with long non-coding RNAs in gene regulation contexts, this molecular function requires more specific evidence for DNMT1.
+    action: UNDECIDED
+    reason: The evidence for DNMT1 specifically binding lncRNAs is not well-established in the literature I have access to. While DNMT1 may interact with RNA in some contexts, the specific lncRNA binding function needs stronger experimental support. This IEA annotation may be over-prediction.
+- term:
+    id: GO:0141119
+    label: chromosomal DNA methylation maintenance following DNA replication
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This is the most specific and accurate description of DNMT1 core biological process function. DNMT1 is the primary maintenance methyltransferase that preserves DNA methylation patterns during replication by targeting hemimethylated CpG sites on newly replicated DNA.
+    action: ACCEPT
+    reason: This term precisely describes DNMT1 primary function - maintenance of DNA methylation following replication. This is DNMT1 most important and well-characterized biological process, distinguished from de novo methylation. Essential for epigenetic inheritance and genomic stability.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: the maintenance DNA methyltransferase Dnmt1 maintains methylation patterns on the newly synthesized daughter strand during replication
+- term:
+    id: GO:1903926
+    label: cellular response to bisphenol A
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This represents a very specific environmental response not directly related to DNMT1 core functions. Bisphenol A response appears to be a specialized context rather than fundamental DNMT1 biology.
+    action: REMOVE
+    reason: This highly specific environmental response term does not represent core DNMT1 function in DNA methylation, gene regulation, or chromatin organization. The connection between DNMT1 and bisphenol A response is not well-established and appears to be computational over-annotation.
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: HTP
+  original_reference_id: PMID:34800366
+  review:
+    summary: While some proteomic studies have detected DNMT1 in mitochondrial fractions, DNMT1 function is primarily nuclear. The mitochondrial localization is likely due to contamination during fractionation or represents a minor, non-functional pool. DNMT1 lacks mitochondrial targeting signals and DNA methylation does not occur in mitochondrial DNA.
+    action: REMOVE
+    reason: DNMT1 primary and functional localization is nuclear where it acts on genomic DNA. Mitochondrial DNA does not undergo cytosine methylation, and DNMT1 lacks mitochondrial targeting sequences. HTP studies can have contamination issues, and this localization is not supported by functional evidence.
+    supported_by:
+    - reference_id: PMID:8940105
+      supporting_text: DNA (cytosine-5)-methyltransferases (EC 2.1.1.37) maintain patterns of methylated cytosine residues in the mammalian genome
+- term:
+    id: GO:0141119
+    label: chromosomal DNA methylation maintenance following DNA replication
+  evidence_type: TAS
+  original_reference_id: PMID:20820192
+  review:
+    summary: This TAS annotation with experimental literature support accurately describes DNMT1 core function. The specific term precisely captures DNMT1 role in maintaining DNA methylation patterns during replication. This is a duplicate of the IEA annotation above but with stronger evidence.
+    action: ACCEPT
+    reason: This represents DNMT1 most important and specific biological process function with strong TAS evidence from literature. While duplicated with IEA annotation above, TAS evidence is stronger. This accurately describes the primary maintenance methylation function that distinguishes DNMT1 from de novo methyltransferases.
+    supported_by:
+    - reference_id: PMID:20820192
+      supporting_text: BRCA1 affects global DNA methylation through regulation of DNMT1
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: TAS
+  original_reference_id: PMID:20820192
+  review:
+    summary: Duplicate of IBA annotation above but with stronger TAS experimental evidence. This accurately describes how DNMT1-mediated CpG island methylation leads to transcriptional silencing.
+    action: ACCEPT
+    reason: This is a core biological process function of DNMT1 with strong TAS literature evidence. While duplicated with IBA annotation, both represent important evidence for this key function. CpG island methylation by DNMT1 is a major mechanism of gene silencing in development and disease.
+    supported_by:
+    - reference_id: PMID:20820192
+      supporting_text: BRCA1 affects global DNA methylation through regulation of DNMT1
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: IMP
+  original_reference_id: PMID:24623306
+  review:
+    summary: Strong IMP evidence for DNMT1 core function in CpG island methylation-mediated gene silencing. This study shows direct experimental evidence of DNMT1 role in transcriptional silencing.
+    action: ACCEPT
+    reason: This IMP annotation provides strong experimental evidence for DNMT1 key biological process function. While duplicated with other evidence types, this represents direct mutational/interventional evidence for DNMT1 role in CpG island methylation and gene silencing.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: ZNF304 recruits a corepressor complex that includes the DNA methyltransferase DNMT1, resulting in DNA hypermethylation and transcriptional silencing
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:24492612
+  review:
+    summary: Generic protein binding annotation showing DNMT1 interaction with PHF20L1 that antagonizes DNMT1 proteasomal degradation. Another uninformative generic annotation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While the study shows functionally important regulation of DNMT1 stability by PHF20L1, the generic protein binding term does not capture the regulatory significance of this interaction in preventing DNMT1 degradation.
+    supported_by:
+    - reference_id: PMID:24492612
+      supporting_text: Methyllysine reader plant homeodomain (PHD) finger protein 20-like 1 (PHF20L1) antagonizes DNA (cytosine-5) methyltransferase 1 (DNMT1) proteasomal degradation
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-4655431
+  review:
+    summary: DNMT1 localization to nucleoplasm is accurate as it functions throughout the nuclear compartment. This Reactome annotation focuses on DNMT1 SUMOylation pathway.
+    action: ACCEPT
+    reason: Nucleoplasm localization accurately describes DNMT1 nuclear compartmentalization where it carries out DNA methylation functions. This is more specific than general nucleus localization and represents legitimate cellular component annotation.
+    supported_by:
+    - reference_id: Reactome:R-HSA-4655431
+      supporting_text: SUMOyation of DNMT1 with SUMO1
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:32051553
+  review:
+    summary: Generic protein binding annotation from glioblastoma study showing EGFR-ZNF263 pathway effects on DNMT1 and SIX3 silencing. Specialized cancer context.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation comes from a specialized glioblastoma cancer study rather than core DNMT1 functional analysis. The generic protein binding term provides no specificity about the pathological signaling context or therapeutic relevance.
+    supported_by:
+    - reference_id: PMID:32051553
+      supporting_text: The EGFR-ZNF263 signaling axis silences SIX3 in glioblastoma epigenetically
+- term:
+    id: GO:0010629
+    label: negative regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:27021683
+  review:
+    summary: Strong IMP evidence for DNMT1 core function in negative regulation of gene expression. This study shows DNMT1 role in smooth muscle cell regulation via miR-140-5p targeting.
+    action: ACCEPT
+    reason: This IMP annotation provides strong experimental evidence for DNMT1 core biological process function. While the study focuses on vascular smooth muscle cells, negative regulation of gene expression represents DNMT1 fundamental activity through DNA methylation.
+    supported_by:
+    - reference_id: PMID:27021683
+      supporting_text: MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth muscle cell proliferation, apoptosis and differentiation by targeting Dnmt1
+- term:
+    id: GO:1904707
+    label: positive regulation of vascular associated smooth muscle cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:27021683
+  review:
+    summary: This is a very specific cell-type and context-dependent function related to vascular biology. While supported by IMP evidence, this represents a specialized application rather than core DNMT1 function.
+    action: KEEP_AS_NON_CORE
+    reason: This represents a specialized, context-dependent function of DNMT1 in vascular smooth muscle cells rather than a core general function. While the IMP evidence supports this specific role, it is peripheral to DNMT1 main functions in DNA methylation maintenance and gene regulation.
+    supported_by:
+    - reference_id: PMID:27021683
+      supporting_text: MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth muscle cell proliferation, apoptosis and differentiation by targeting Dnmt1
+- term:
+    id: GO:1905460
+    label: negative regulation of vascular associated smooth muscle cell apoptotic process
+  evidence_type: IMP
+  original_reference_id: PMID:27021683
+  review:
+    summary: Very specific cell-type and process annotation for vascular smooth muscle cell apoptosis regulation. This represents specialized context rather than core DNMT1 function.
+    action: KEEP_AS_NON_CORE
+    reason: This highly specific annotation represents a specialized cell-type and context-dependent function rather than core DNMT1 biology. While supported by IMP evidence, vascular smooth muscle cell apoptosis regulation is peripheral to DNMT1 primary functions.
+    supported_by:
+    - reference_id: PMID:27021683
+      supporting_text: MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth muscle cell proliferation, apoptosis and differentiation by targeting Dnmt1
+- term:
+    id: GO:1905931
+    label: negative regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching
+  evidence_type: IMP
+  original_reference_id: PMID:27021683
+  review:
+    summary: Highly specific annotation for vascular smooth muscle cell differentiation and phenotypic switching. This represents very specialized cellular context rather than core DNMT1 function.
+    action: KEEP_AS_NON_CORE
+    reason: This extremely specific annotation represents specialized cell-type biology rather than core DNMT1 functions. While the IMP evidence supports this role in vascular biology, it is peripheral to DNMT1 primary functions in DNA methylation and general gene regulation.
+    supported_by:
+    - reference_id: PMID:27021683
+      supporting_text: MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth muscle cell proliferation, apoptosis and differentiation by targeting Dnmt1
+- term:
+    id: GO:1990841
+    label: promoter-specific chromatin binding
+  evidence_type: IDA
+  original_reference_id: PMID:24623306
+  review:
+    summary: Strong IDA evidence shows DNMT1 binds specifically to promoter chromatin regions, particularly in the context of CpG island methylation and gene silencing. This is more specific than general chromatin binding.
+    action: ACCEPT
+    reason: This term accurately describes DNMT1 ability to bind specifically to promoter regions of target genes where it mediates CpG island methylation and transcriptional silencing. The IDA evidence provides strong experimental support for this specific molecular function.
+    supported_by:
+    - reference_id: PMID:24623306
+      supporting_text: ZNF304 recruits a corepressor complex that includes the DNA methyltransferase DNMT1, resulting in DNA hypermethylation and transcriptional silencing
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: HDA
+  original_reference_id: PMID:16791210
+  review:
+    summary: Nuclear localization annotation with HDA evidence from cell-cycle proteomics study. This duplicates other nuclear localization annotations but provides additional evidence type.
+    action: ACCEPT
+    reason: Nuclear localization is well-established for DNMT1 and this HDA annotation provides additional evidence from cell-cycle dependent proteomics analysis. While duplicated with other evidence types, nuclear localization is fundamental to DNMT1 function.
+    supported_by:
+    - reference_id: PMID:16791210
+      supporting_text: Dynamic proteomics in individual human cells uncovers widespread cell-cycle dependence of nuclear proteins
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-212222
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway for PRC2 recruitment of DNA methyltransferases. This represents functional nucleoplasm localization in chromatin regulation context.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence showing DNMT1 functional localization in the context of PRC2-mediated chromatin regulation. This represents legitimate cellular compartmentalization for DNMT1 function.
+    supported_by:
+    - reference_id: Reactome:R-HSA-212222
+      supporting_text: PRC2 recruits DNA methyltransferases
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-212269
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway showing DNMT1,3A,3B and PRC2 coordinate cytosine and histone methylation. Functional nucleoplasm localization.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence for coordinated DNA and histone methylation by DNMT1 and PRC2 complexes. This represents functional cellular compartmentalization relevant to chromatin regulation.
+    supported_by:
+    - reference_id: Reactome:R-HSA-212269
+      supporting_text: DNMT1,3A,3B:PRC2 methylates cytosine and histone H3
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9710490
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway about GSDME gene promoter hypermethylation. This represents DNMT1 functional localization at target gene promoters.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence for DNMT1 role in promoter-specific hypermethylation. This represents functional cellular compartmentalization for gene-specific methylation targeting.
+    supported_by:
+    - reference_id: Reactome:R-HSA-9710490
+      supporting_text: The GSDME gene promoter is hypermethylated
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9851058
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway showing STAT3 and DNMT1 binding to IL2RG gene. This represents functional nucleoplasm localization for gene-specific regulation.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence for DNMT1 functional localization in gene-specific transcriptional regulation involving STAT3 signaling. This represents legitimate cellular compartmentalization for target gene methylation.
+    supported_by:
+    - reference_id: Reactome:R-HSA-9851058
+      supporting_text: AcK685 p-Y705, S727 STAT3 dimer and DNMT1 bind IL2RG gene
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9851071
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway showing STAT3, DNMT1 and HDAC1 binding to PTPN6 gene. Functional nucleoplasm localization for multi-protein transcriptional complex.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence for DNMT1 functional localization as part of multi-protein transcriptional regulatory complexes with STAT3 and HDAC1. This represents coordinated epigenetic regulation.
+    supported_by:
+    - reference_id: Reactome:R-HSA-9851071
+      supporting_text: STAT3, DNMT1 and HDAC1 bind PTPN6 gene
+- term:
+    id: GO:0005654
+    label: nucleoplasm
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9851145
+  review:
+    summary: Nucleoplasm localization annotation from Reactome pathway about miR-21 repression of DNMT1 mRNA translation. This represents DNMT1 subcellular localization for post-transcriptional regulation.
+    action: ACCEPT
+    reason: This nucleoplasm annotation is supported by Reactome pathway evidence for DNMT1 localization in the context of miRNA-mediated translational regulation. This represents legitimate cellular compartmentalization for DNMT1 expression control.
+    supported_by:
+    - reference_id: Reactome:R-HSA-9851145
+      supporting_text: Translation of DNMT1 mRNA is repressed by miR-21
+- term:
+    id: GO:0003886
+    label: DNA (cytosine-5-)-methyltransferase activity
+  evidence_type: IDA
+  original_reference_id: PMID:21745816
+  review:
+    summary: Strong IDA experimental evidence confirming DNMT1 core methyltransferase activity. This represents the third annotation for the same molecular function but with the strongest experimental evidence type.
+    action: ACCEPT
+    reason: This IDA annotation provides the strongest experimental evidence for DNMT1 core catalytic function. While this duplicates the IBA and IEA annotations for the same GO term, the IDA evidence represents direct experimental demonstration of the methyltransferase activity and should be retained as the highest-quality evidence.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: USP7 stimulated both the maintenance and de novo DNA methylation activity of Dnmt1 in vitro
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:17673620
+  review:
+    summary: Generic protein binding annotation showing DNMT1-UHRF1 interaction crucial for maintaining DNA methylation. This is a functionally important interaction but the term is uninformative.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While the DNMT1-UHRF1 interaction is functionally crucial for maintenance methylation, the generic protein binding term fails to capture the mechanistic significance of this interaction in targeting DNMT1 to hemimethylated sites and chromatin.
+    supported_by:
+    - reference_id: PMID:17673620
+      supporting_text: UHRF1 plays a role in maintaining DNA methylation in mammalian cells
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:21745816
+  review:
+    summary: Generic protein binding annotation showing DNMT1-USP7 interaction that stimulates DNMT1 activity and regulates UHRF1 stability. Functionally important but uninformative term.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While the DNMT1-USP7 interaction is functionally important for enzyme regulation and UHRF1 stability, the generic protein binding term does not capture the regulatory significance of this interaction in controlling DNMT1 activity.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: The USP7/Dnmt1 complex stimulates the DNA methylation activity of Dnmt1 and regulates the stability of UHRF1
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: IDA
+  original_reference_id: PMID:21745816
+  review:
+    summary: Strong IDA evidence for DNMT1 core function in CpG island methylation-mediated gene silencing. This study provides direct experimental evidence for DNMT1 role in gene silencing.
+    action: ACCEPT
+    reason: This IDA annotation provides strong direct experimental evidence for DNMT1 core biological process function. While duplicated with other evidence types (IBA, TAS, IMP), this represents direct experimental demonstration of DNMT1 role in CpG island methylation and transcriptional silencing.
+    supported_by:
+    - reference_id: PMID:21745816
+      supporting_text: Dnmt1, UHRF1 and USP7 co-localized on silenced, methylated genes in vivo
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:19450230
+  review:
+    summary: Generic protein binding annotation showing DNMT1 SUMOylation enhancing its activity. The study focuses on post-translational modification rather than specific protein interactions.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: While SUMOylation enhances DNMT1 activity, this annotation focuses on post-translational modification rather than protein-protein interactions. The generic protein binding term does not capture the regulatory significance of SUMOylation in DNMT1 function.
+    supported_by:
+    - reference_id: PMID:19450230
+      supporting_text: SUMOylation enhances DNA methyltransferase 1 activity
+- term:
+    id: GO:0003677
+    label: DNA binding
+  evidence_type: IDA
+  original_reference_id: PMID:18754681
+  review:
+    summary: Strong IDA evidence for DNMT1 DNA binding activity through the CXXC domain. This study demonstrates the CXXC domain is essential for enzymatic activity and DNA binding.
+    action: KEEP_AS_NON_CORE
+    reason: While this IDA annotation provides strong experimental evidence for DNA binding, this represents a prerequisite molecular function rather than the core enzymatic activity. The more specific GO:0003886 (DNA cytosine-5-methyltransferase activity) better captures DNMT1 primary function.
+    supported_by:
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0009008
+    label: DNA-methyltransferase activity
+  evidence_type: IDA
+  original_reference_id: PMID:18754681
+  review:
+    summary: IDA evidence for DNA methyltransferase activity, though this is a more general term than the specific cytosine-5-methyltransferase activity that is preferred.
+    action: MODIFY
+    reason: While this has strong IDA experimental evidence, the term is less specific than GO:0003886 (DNA cytosine-5-methyltransferase activity) which is already well-annotated. DNMT1 specifically performs cytosine-5 methylation, so the more specific term is preferred.
+    proposed_replacement_terms:
+    - id: GO:0003886
+      label: DNA (cytosine-5-)-methyltransferase activity
+    supported_by:
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0010628
+    label: positive regulation of gene expression
+  evidence_type: IMP
+  original_reference_id: PMID:18413740
+  review:
+    summary: This study shows DNMT1 activation of BAG-1 expression through CTCFL/BORIS recruitment and promoter histone methylation. While DNMT1 primarily represses genes, it can activate some targets.
+    action: KEEP_AS_NON_CORE
+    reason: While DNMT1 can positively regulate some genes through complex mechanisms involving transcription factor recruitment, this represents a specialized function rather than its primary role as a transcriptional repressor. The IMP evidence supports this but it is not characteristic of DNMT1 core function.
+    supported_by:
+    - reference_id: PMID:18413740
+      supporting_text: DNA methyltransferase 1 and 3B activate BAG-1 expression via recruitment of CTCFL/BORIS and modulation of promoter histone methylation
+- term:
+    id: GO:0044027
+    label: negative regulation of gene expression via chromosomal CpG island methylation
+  evidence_type: IDA
+  original_reference_id: PMID:18754681
+  review:
+    summary: Strong IDA evidence for DNMT1 core function demonstrating the CXXC domain is essential for CpG island methylation activity leading to gene silencing.
+    action: ACCEPT
+    reason: This IDA annotation provides strong direct experimental evidence showing the molecular basis of DNMT1 CpG island methylation function. While duplicated with other evidence types, this study specifically demonstrates the domain requirements for this core biological process.
+    supported_by:
+    - reference_id: PMID:18754681
+      supporting_text: CXXC domain of human DNMT1 is essential for enzymatic activity
+- term:
+    id: GO:0000122
+    label: negative regulation of transcription by RNA polymerase II
+  evidence_type: TAS
+  original_reference_id: PMID:10888872
+  review:
+    summary: DNMT1 negatively regulates RNA polymerase II transcription through DNA methylation-mediated gene silencing and interaction with transcriptional repressor complexes. This is a core biological process function.
+    action: ACCEPT
+    reason: DNMT1 is well-established to negatively regulate RNA polymerase II transcription through multiple mechanisms including CpG methylation, recruitment of repressor complexes, and chromatin modifications. This represents a fundamental biological process function of DNMT1.
+    supported_by:
+    - reference_id: PMID:10888872
+      supporting_text: DNMT1 binds HDAC2 and a new co-repressor, DMAP1, to form a complex at replication foci
+- term:
+    id: GO:0003886
+    label: DNA (cytosine-5-)-methyltransferase activity
+  evidence_type: TAS
+  original_reference_id: PMID:8940105
+  review:
+    summary: Classic TAS annotation with early literature evidence for DNMT1 methyltransferase activity. This represents a fourth annotation for the same core molecular function but provides historical literature support.
+    action: ACCEPT
+    reason: This TAS annotation represents important historical literature evidence for DNMT1 core catalytic function. While duplicated with other evidence types, this early study established DNMT1 as a DNA cytosine-5-methyltransferase and provides valuable literature foundation.
+    supported_by:
+    - reference_id: PMID:8940105
+      supporting_text: New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: TAS
+  original_reference_id: PMID:8940105
+  review:
+    summary: Nuclear localization annotation with early literature TAS evidence. This historical study established DNMT1 nuclear localization and provides foundational evidence.
+    action: ACCEPT
+    reason: This TAS annotation represents important historical literature evidence for DNMT1 nuclear localization. While duplicated with other evidence types, this early study provided foundational evidence for DNMT1 cellular compartmentalization and remains valuable for literature documentation.
+    supported_by:
+    - reference_id: PMID:8940105
+      supporting_text: New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings:
+  - statement: Phylogenetic analysis method for inferring GO annotations
+  - statement: Based on evolutionary conservation across species
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings:
+  - statement: Automated annotation method using UniProtKB keywords
+  - statement: Maps protein database keywords to GO terms
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to orthologs using Ensembl Compara.
+  findings:
+  - statement: Automated ortholog-based annotation transfer method
+  - statement: Uses Ensembl Compara for orthology relationships
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings:
+  - statement: Computational annotation combining multiple inference methods
+  - statement: Integrates various automated annotation pipelines
+- id: PMID:10888872
+  title: DNMT1 binds HDAC2 and a new co-repressor, DMAP1, to form a complex at replication foci.
+  findings:
+  - statement: DNMT1 forms a complex with HDAC2 and DMAP1 at replication foci
+    supporting_text: "DNMT1, can also establish a repressive transcription complex. The non-catalytic amino terminus of DNMT1 binds to HDAC2 and a new protein, DMAP1 (for DNMT1 associated protein)"
+  - statement: The complex mediates transcriptional repression during S-phase
+    supporting_text: "DMAP1 is targeted to replication foci through interaction with the far N terminus of DNMT1 throughout S phase, whereas HDAC2 joins DNMT1 and DMAP1 only during late S phase"
+  - statement: DMAP1 acts as a co-repressor linking DNA methylation to histone deacetylation
+    supporting_text: "DMAP1 has intrinsic transcription repressive activity, and binds to the transcriptional co-repressor TSG101"
+- id: PMID:15161933
+  title: Comprehensive proteomic analysis of interphase and mitotic 14-3-3-binding proteins.
+  findings:
+  - statement: DNMT1 identified as a 14-3-3 binding protein
+    supporting_text: "proteins that bind to 14-3-3s during interphase and mitosis"
+  - statement: Interaction may regulate DNMT1 subcellular localization and stability
+    supporting_text: "14-3-3 proteins regulate the cell division cycle"
+- id: PMID:16357870
+  title: The Polycomb group protein EZH2 directly controls DNA methylation.
+  findings:
+  - statement: EZH2 directly interacts with DNMT1
+    supporting_text: "The Polycomb group protein EZH2 directly controls DNA methylation"
+  - statement: EZH2 is required for DNA methylation of EZH2-target promoters
+    supporting_text: "EZH2 directly controls DNA methylation"
+  - statement: Links Polycomb-mediated histone methylation to DNA methylation
+    supporting_text: "The Polycomb group protein EZH2 directly controls DNA methylation"
+- id: PMID:16791210
+  title: Dynamic proteomics in individual human cells uncovers widespread cell-cycle dependence of nuclear proteins.
+  findings:
+  - statement: DNMT1 protein levels vary throughout the cell cycle
+    supporting_text: "Dynamic proteomics in individual human cells uncovers widespread cell-cycle dependence of nuclear proteins"
+  - statement: DNMT1 accumulates during S-phase coinciding with DNA replication
+    supporting_text: "cell-cycle dependence of nuclear proteins"
+  - statement: Nuclear localization is cell cycle-dependent
+    supporting_text: "widespread cell-cycle dependence of nuclear proteins"
+- id: PMID:16983096
+  title: Recruitment of the de novo DNA methyltransferase Dnmt3a by Kaposi's sarcoma-associated herpesvirus LANA.
+  findings:
+  - statement: DNMT1 interacts with DNMT3A
+    supporting_text: "Recruitment of the de novo DNA methyltransferase Dnmt3a by Kaposi's sarcoma-associated herpesvirus LANA"
+  - statement: KSHV LANA recruits both DNMT1 and DNMT3A for viral genome methylation
+    supporting_text: "Recruitment of the de novo DNA methyltransferase Dnmt3a by Kaposi's"
+  - statement: Demonstrates cooperation between maintenance and de novo methyltransferases
+    supporting_text: "Recruitment of the de novo DNA methyltransferase Dnmt3a"
+- id: PMID:17673620
+  title: UHRF1 plays a role in maintaining DNA methylation in mammalian cells.
+  findings:
+  - statement: UHRF1 is essential for maintaining DNA methylation
+    supporting_text: "is required for maintaining DNA methylation"
+  - statement: UHRF1 recruits DNMT1 to hemimethylated CpG sites
+    supporting_text: "the SRA (SET and RING associated) domain, that shows strong preferential binding to hemimethylated CG sites"
+  - statement: Depletion of UHRF1 causes global DNA hypomethylation similar to DNMT1 loss
+    supporting_text: "UHRF1 may help recruit DNMT1 to hemimethylated DNA to facilitate faithful maintenance of DNA methylation"
+- id: PMID:17934516
+  title: The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1 is involved in the regulation of VEGF gene expression.
+  findings:
+  - statement: The SRA domain of UHRF1/ICBP90 interacts with DNMT1
+    supporting_text: "The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1 is involved in the regulation"
+  - statement: This interaction regulates VEGF gene expression through promoter methylation
+    supporting_text: "The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1 is involved in the regulation of VEGF gene expression"
+  - statement: UHRF1 targets DNMT1 to specific genomic loci
+    supporting_text: "The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1"
+- id: PMID:17972916
+  title: RIP140 directs histone and DNA methylation to silence Ucp1 expression in white adipocytes.
+  findings:
+  - statement: RIP140 recruits DNMT1 to the Ucp1 promoter
+    supporting_text: "RIP140 directs histone and DNA methylation to silence Ucp1 expression"
+  - statement: DNMT1-RIP140 interaction silences thermogenic gene expression in white adipocytes
+    supporting_text: "RIP140 directs histone and DNA methylation to silence Ucp1 expression in white adipocytes"
+  - statement: Links transcriptional corepression to DNA methylation in adipocyte differentiation
+    supporting_text: "RIP140 directs histone and DNA methylation to silence Ucp1 expression"
+- id: PMID:18413740
+  title: DNA methyltransferase 1 and 3B activate BAG-1 expression via recruitment of CTCFL/BORIS and modulation of promoter histone methylation.
+  findings:
+  - statement: DNMT1 and DNMT3B can paradoxically activate gene expression
+    supporting_text: "DNA methyltransferase 1 and 3B activate BAG-1 expression"
+  - statement: DNMTs recruit CTCFL/BORIS to activate BAG-1 expression
+    supporting_text: "DNA methyltransferase 1 and 3B activate BAG-1 expression via recruitment of CTCFL/BORIS"
+  - statement: Demonstrates non-canonical gene activation role for DNMTs
+    supporting_text: "DNA methyltransferase 1 and 3B activate BAG-1 expression"
+- id: PMID:18754681
+  title: CXXC domain of human DNMT1 is essential for enzymatic activity.
+  findings:
+  - statement: The CXXC domain is essential for DNMT1 methyltransferase activity
+    supporting_text: "Both point mutant and DNMT1 (DeltaCXXC) enzyme displayed significant reduction in catalytic activity, confirming that this domain is crucial for enzymatic activity"
+  - statement: CXXC domain preferentially binds unmethylated CpG dinucleotides
+    supporting_text: "We have demonstrated that the CXXC region (C is cysteine; X is any amino acid) of DNMT1 bound specifically to unmethylated CpG dinucleotides"
+  - statement: Deletion of CXXC domain abolishes enzymatic activity despite intact catalytic domain
+    supporting_text: "the CXXC domain encompassing the amino terminus region of DNMT1 cooperates with the catalytic domain for DNA methyltransferase activity"
+- id: PMID:19282482
+  title: Regulation of DNMT1 stability through SET7-mediated lysine methylation in mammalian cells.
+  findings:
+  - statement: SET7 methylates DNMT1 at lysine 142
+    supporting_text: "SET7-mediated lysine methylation"
+  - statement: Lysine methylation promotes DNMT1 proteasomal degradation
+    supporting_text: "Regulation of DNMT1 stability through SET7-mediated lysine methylation"
+  - statement: SET7-mediated methylation regulates DNMT1 protein stability and cellular methylation levels
+    supporting_text: "Regulation of DNMT1 stability through SET7-mediated lysine methylation"
+- id: PMID:19450230
+  title: SUMOylation enhances DNA methyltransferase 1 activity.
+  findings:
+  - statement: DNMT1 is modified by SUMO at multiple lysine residues
+    supporting_text: "SUMOylation enhances DNA methyltransferase 1 activity"
+  - statement: SUMOylation enhances DNMT1 methyltransferase activity
+    supporting_text: "SUMOylation enhances DNA methyltransferase 1 activity"
+  - statement: SUMO modification increases DNMT1 protein stability
+    supporting_text: "SUMOylation enhances DNA methyltransferase 1 activity"
+- id: PMID:19798101
+  title: Np95 interacts with de novo DNA methyltransferases, Dnmt3a and Dnmt3b, and mediates epigenetic silencing of the viral CMV promoter in embryonic stem cells.
+  findings:
+  - statement: UHRF1/Np95 bridges DNMT1 with DNMT3A and DNMT3B
+    supporting_text: "Np95 interacts with de novo DNA methyltransferases, Dnmt3a and Dnmt3b"
+  - statement: Complex formation coordinates maintenance and de novo methylation
+    supporting_text: "Np95 interacts with de novo DNA methyltransferases, Dnmt3a and Dnmt3b"
+  - statement: Essential for silencing viral CMV promoter in ES cells
+    supporting_text: "mediates epigenetic silencing of the viral CMV promoter in embryonic stem cells"
+- id: PMID:20820192
+  title: BRCA1 affects global DNA methylation through regulation of DNMT1.
+  findings:
+  - statement: BRCA1 regulates DNMT1 expression and stability
+    supporting_text: "BRCA1 affects global DNA methylation through regulation of DNMT1"
+  - statement: BRCA1 loss leads to DNMT1 overexpression and hypermethylation
+    supporting_text: "BRCA1 affects global DNA methylation through regulation of DNMT1"
+  - statement: Links BRCA1 tumor suppressor function to DNA methylation control
+    supporting_text: "BRCA1 affects global DNA methylation through regulation of DNMT1"
+- id: PMID:21151116
+  title: A methylation and phosphorylation switch between an adjacent lysine and serine determines human DNMT1 stability.
+  findings:
+  - statement: AKT1 phosphorylates DNMT1 at Ser143, stabilizing the protein
+    supporting_text: "phosphorylated DNMT1 is more stable than methylated DNMT1"
+  - statement: SET7 methylates adjacent Lys142, promoting degradation
+    supporting_text: "A methylation and phosphorylation switch between an adjacent lysine and serine"
+  - statement: Methylation-phosphorylation switch regulates DNMT1 stability
+    supporting_text: "A methylation and phosphorylation switch between an adjacent lysine and serine determines human DNMT1 stability"
+- id: PMID:21653829
+  title: Protein interactome reveals converging molecular pathways among autism disorders.
+  findings:
+  - statement: DNMT1 identified in autism-associated protein interaction network
+    supporting_text: "Protein interactome reveals converging molecular pathways among autism disorders"
+  - statement: Suggests epigenetic dysregulation in autism spectrum disorders
+    supporting_text: "Protein interactome reveals converging molecular pathways among autism disorders"
+- id: PMID:21745816
+  title: The USP7/Dnmt1 complex stimulates the DNA methylation activity of Dnmt1 and regulates the stability of UHRF1.
+  findings:
+  - statement: USP7 forms complex with DNMT1 and UHRF1
+    supporting_text: "The USP7/Dnmt1 complex stimulates the DNA methylation activity"
+  - statement: USP7 stimulates both maintenance and de novo methylation activity of DNMT1
+    supporting_text: "USP7 stimulated both the maintenance and de novo DNA methylation activity of Dnmt1 in vitro"
+  - statement: USP7 deubiquitinates and stabilizes UHRF1
+    supporting_text: "USP7 regulates the stability of UHRF1"
+  - statement: Complex co-localizes at silenced methylated genes
+    supporting_text: "Dnmt1, UHRF1 and USP7 co-localized on silenced, methylated genes in vivo"
+- id: PMID:21947282
+  title: SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein and alters its activities.
+  findings:
+  - statement: SIRT1 deacetylates DNMT1 at multiple lysine residues
+    supporting_text: "SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein"
+  - statement: Deacetylation affects DNMT1 enzymatic activity
+    supporting_text: "SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein and alters its activities"
+  - statement: Links NAD+-dependent signaling to DNA methylation regulation
+    supporting_text: "SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein"
+- id: PMID:22094255
+  title: Oxidative damage targets complexes containing DNA methyltransferases, SIRT1, and polycomb members to promoter CpG Islands.
+  findings:
+  - statement: Oxidative stress recruits DNMT1-SIRT1-Polycomb complex to CpG islands
+    supporting_text: "Oxidative damage targets complexes containing DNA methyltransferases, SIRT1, and polycomb members to promoter CpG Islands"
+  - statement: Complex mediates aberrant hypermethylation under oxidative stress
+    supporting_text: "Oxidative damage targets complexes containing DNA methyltransferases, SIRT1, and polycomb members to promoter CpG Islands"
+  - statement: Links oxidative damage to epigenetic silencing in cancer
+    supporting_text: "Oxidative damage targets complexes containing DNA methyltransferases"
+- id: PMID:24492612
+  title: Methyllysine reader plant homeodomain (PHD) finger protein 20-like 1 (PHF20L1) antagonizes DNA (cytosine-5) methyltransferase 1 (DNMT1) proteasomal degradation.
+  findings:
+  - statement: PHF20L1 recognizes methylated lysines on DNMT1
+    supporting_text: "Methyllysine reader plant homeodomain (PHD) finger protein 20-like 1 (PHF20L1)"
+  - statement: PHF20L1 binding protects DNMT1 from proteasomal degradation
+    supporting_text: "PHF20L1 antagonizes DNA (cytosine-5) methyltransferase 1 (DNMT1) proteasomal degradation"
+  - statement: Methyl-lysine reader proteins regulate DNMT1 stability
+    supporting_text: "Methyllysine reader plant homeodomain (PHD) finger protein 20-like 1 (PHF20L1) antagonizes DNA (cytosine-5) methyltransferase 1 (DNMT1) proteasomal degradation"
+- id: PMID:24623306
+  title: A KRAS-directed transcriptional silencing pathway that mediates the CpG island methylator phenotype.
+  findings: []
+- id: PMID:25544563
+  title: Global mapping of herpesvirus-host protein complexes reveals a transcription strategy for late genes.
+  findings: []
+- id: PMID:25753001
+  title: A Protein Interaction between β-Catenin and Dnmt1 Regulates Wnt Signaling and DNA Methylation in Colorectal Cancer Cells.
+  findings: []
+- id: PMID:27021683
+  title: MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth muscle cell proliferation, apoptosis and differentiation by targeting Dnmt1 and promoting SOD2 expression.
+  findings: []
+- id: PMID:27728808
+  title: Enhancing the Cytotoxic Effects of PARP Inhibitors with DNA Demethylating Agents - A Potential Therapy for Cancer.
+  findings: []
+- id: PMID:29691401
+  title: Methylated DNMT1 and E2F1 are targeted for proteolysis by L3MBTL3 and CRL4(DCAF5) ubiquitin ligase.
+  findings:
+  - statement: L3MBTL3 recognizes methylated DNMT1 for degradation
+    supporting_text: "Methylated DNMT1 and E2F1 are targeted for proteolysis by L3MBTL3"
+  - statement: CRL4(DCAF5) ubiquitin ligase targets methylated DNMT1
+    supporting_text: "Methylated DNMT1 and E2F1 are targeted for proteolysis by L3MBTL3 and CRL4(DCAF5) ubiquitin ligase"
+  - statement: Methylation-dependent proteolytic regulation of DNMT1
+    supporting_text: "Methylated DNMT1 and E2F1 are targeted for proteolysis"
+- id: PMID:32051553
+  title: The EGFR-ZNF263 signaling axis silences SIX3 in glioblastoma epigenetically.
+  findings:
+  - statement: EGFR-ZNF263 pathway recruits DNMT1 for gene silencing
+    supporting_text: "The EGFR-ZNF263 signaling axis silences SIX3 in glioblastoma epigenetically"
+  - statement: DNMT1 mediates SIX3 promoter hypermethylation in glioblastoma
+    supporting_text: "The EGFR-ZNF263 signaling axis silences SIX3 in glioblastoma epigenetically"
+  - statement: Links growth factor signaling to epigenetic repression in cancer
+    supporting_text: "The EGFR-ZNF263 signaling axis silences SIX3"
+- id: PMID:34800366
+  title: Quantitative high-confidence human mitochondrial proteome and its dynamics in cellular context.
+  findings:
+  - statement: DNMT1 detected in mitochondrial proteome studies
+    supporting_text: "Quantitative high-confidence human mitochondrial proteome"
+  - statement: Suggests potential mitochondrial DNA methylation role
+    supporting_text: "Quantitative high-confidence human mitochondrial proteome and its dynamics"
+- id: PMID:35271311
+  title: 'OpenCell: Endogenous tagging for the cartography of human cellular organization.'
+  findings: []
+- id: PMID:8940105
+  title: New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase.
+  findings:
+  - statement: Characterization of DNMT1 gene structure and regulatory regions
+    supporting_text: "New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase"
+  - statement: Identification of alternative promoters and 5' regions
+    supporting_text: "New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase"
+  - statement: Early molecular characterization of human DNMT1 gene
+    supporting_text: "New 5' regions of the murine and human genes for DNA (cytosine-5)-methyltransferase"
+- id: Reactome:R-HSA-212222
+  title: PRC2 recruits DNA methyltransferases
+  findings: []
+- id: Reactome:R-HSA-212269
+  title: DNMT1,3A,3B:PRC2 methylates cytosine and histone H3
+  findings: []
+- id: Reactome:R-HSA-4655431
+  title: SUMOyation of DNMT1 with SUMO1
+  findings: []
+- id: Reactome:R-HSA-9710490
+  title: The GSDME gene promoter is hypermethylated
+  findings: []
+- id: Reactome:R-HSA-9851058
+  title: AcK685 p-Y705, S727 STAT3 dimer and DNMT1 bind IL2RG gene
+  findings: []
+- id: Reactome:R-HSA-9851071
+  title: STAT3, DNMT1 and HDAC1 bind PTPN6 gene
+  findings: []
+- id: Reactome:R-HSA-9851145
+  title: Translation of DNMT1 mRNA is repressed by miR-21
+  findings:
+  - statement: miR-21 targets DNMT1 mRNA for translational repression
+  - statement: Bidirectional regulatory loop between DNMT1 and miR-21
+  - statement: Post-transcriptional control of DNMT1 levels
+core_functions:
+- description: DNA (cytosine-5-)-methyltransferase activity (GO:0003886) - catalyzes the methylation of cytosine residues at the 5-position in CpG dinucleotides using S-adenosyl-L-methionine as methyl donor, with preference for hemimethylated sites during DNA replication
+- description: chromosomal DNA methylation maintenance following DNA replication (GO:0141119) - maintains DNA methylation patterns during replication by targeting hemimethylated CpG sites on newly synthesized DNA strands
+- description: negative regulation of gene expression via chromosomal CpG island methylation (GO:0044027) - silences genes through CpG island hypermethylation, leading to recruitment of methyl-CpG binding proteins and chromatin remodeling complexes

@@ -1,0 +1,106 @@
+id: A0A0B4FWC3
+gene_symbol: MBR_10393
+aliases:
+- MBR_10393
+taxon:
+  id: NCBITaxon:1276141
+  label: Metarhizium brunneum ARSEF 3297
+description: Sesquiterpene synthase that catalyzes the conversion of (2E,6E)-farnesyl diphosphate to multiple sesquiterpene products, primarily corvol ethers A and B. This bacterial-origin enzyme was acquired through horizontal gene transfer and produces sesquiterpenes important for fungi-environment interactions.
+existing_annotations:
+- term:
+    id: GO:0008299
+    label: isoprenoid biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: This term is too broad. The enzyme specifically produces sesquiterpenes, not general isoprenoids.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0051762
+      label: sesquiterpene biosynthetic process
+- term:
+    id: GO:0010333
+    label: terpene synthase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct but should be more specific - this is a sesquiterpene synthase with EC 4.2.3.163 and 4.2.3.171.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0010334
+      label: sesquiterpene synthase activity
+- term:
+    id: GO:0016829
+    label: lyase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Overly broad parent term. The specific molecular function is sesquiterpene synthase activity.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0010334
+      label: sesquiterpene synthase activity
+- term:
+    id: GO:0016838
+    label: carbon-oxygen lyase activity, acting on phosphates
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: While mechanistically accurate (cleaves phosphate bonds), the specific sesquiterpene synthase term better represents this characterized enzyme.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0010334
+      label: sesquiterpene synthase activity
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Too generic. The enzyme specifically binds 3 Mg2+ ions per subunit as essential cofactors.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0000287
+      label: magnesium ion binding
+core_functions:
+- description: Catalyzes the conversion of farnesyl diphosphate to corvol ethers and other sesquiterpenes
+  molecular_function:
+    id: GO:0010334
+    label: sesquiterpene synthase activity
+  directly_involved_in:
+  - id: GO:0051762
+    label: sesquiterpene biosynthetic process
+- description: Binds magnesium ions as essential cofactors for catalytic activity
+  molecular_function:
+    id: GO:0000287
+    label: magnesium ion binding
+references:
+- id: PMID:31239482
+  title: Terpene synthase genes originated from bacteria through horizontal gene transfer contribute to terpenoid diversity in fungi
+  findings:
+  - statement: MBR_10393 produces corvol ether B as major product and corvol ether A as secondary product
+    supporting_text: MbrBTPSL1 and MbrBTPSL2 produced similar mixtures consisting of eight sesquiterpenes that include corvol ether A, corvol ether B, epizonarene, γ-cadinene, δ-cadinene, α-cadinene, α-cadinol, and an unidentified sesquiterpene
+  - statement: Also produces traces of epizonarene, gamma-cadinene, delta-cadinene, alpha-cadinene, and alpha-cadinol
+    supporting_text: MbrBTPSL2 produced similar mixtures consisting of eight sesquiterpenes that include corvol ether A, corvol ether B, epizonarene, γ-cadinene, δ-cadinene, α-cadinene, α-cadinol, and an unidentified sesquiterpene
+  - statement: Gene originated from bacteria through horizontal gene transfer
+    supporting_text: Terpene synthase genes originated from bacteria through horizontal gene transfer contribute to terpenoid diversity in fungi
+- id: PMID:25368161  
+  title: Trajectory and genomic determinants of fungal-pathogen speciation and host adaptation
+  findings:
+  - statement: Genome sequence publication for Metarhizium brunneum strain ARSEF 3297
+    supporting_text: Trajectory and genomic determinants of fungal-pathogen speciation and host adaptation
+- id: UniProt:A0A0B4FWC3
+  title: UniProt entry for sesquiterpene synthase MBR_10393
+  findings:
+  - statement: Characterized as sesquiterpene synthase with EC 4.2.3.163 and 4.2.3.171
+  - statement: Requires 3 Mg2+ ions per subunit for activity
+  - statement: Contains DDXXXD motif important for catalytic activity
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []

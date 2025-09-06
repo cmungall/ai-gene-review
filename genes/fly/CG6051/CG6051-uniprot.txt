@@ -1,0 +1,283 @@
+ID   LST2_DROME              Reviewed;         989 AA.
+AC   Q9VB70; Q86P84; Q8T0G9;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   04-DEC-2007, sequence version 3.
+DT   18-JUN-2025, entry version 147.
+DE   RecName: Full=Lateral signaling target protein 2 homolog;
+GN   ORFNames=CG6051;
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7227;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley;
+RX   PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X., Brandon R.C.,
+RA   Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D., Wan K.H., Doyle C.,
+RA   Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G., Abril J.F., Agbayani A.,
+RA   An H.-J., Andrews-Pfannkoch C., Baldwin D., Ballew R.M., Basu A.,
+RA   Baxendale J., Bayraktaroglu L., Beasley E.M., Beeson K.Y., Benos P.V.,
+RA   Berman B.P., Bhandari D., Bolshakov S., Borkova D., Botchan M.R., Bouck J.,
+RA   Brokstein P., Brottier P., Burtis K.C., Busam D.A., Butler H., Cadieu E.,
+RA   Center A., Chandra I., Cherry J.M., Cawley S., Dahlke C., Davenport L.B.,
+RA   Davies P., de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I.,
+RA   Dietz S.M., Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C.,
+RA   Dunn P., Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S.,
+RA   Fleischmann W., Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M.,
+RA   Glasser K., Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J., Hostin D.,
+RA   Houston K.A., Howland T.J., Wei M.-H., Ibegwam C., Jalali M., Kalush F.,
+RA   Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A., Kimmel B.E., Kodira C.D.,
+RA   Kraft C.L., Kravitz S., Kulp D., Lai Z., Lasko P., Lei Y., Levitsky A.A.,
+RA   Li J.H., Li Z., Liang Y., Lin X., Liu X., Mattei B., McIntosh T.C.,
+RA   McLeod M.P., McPherson D., Merkulov G., Milshina N.V., Mobarry C.,
+RA   Morris J., Moshrefi A., Mount S.M., Moy M., Murphy B., Murphy L.,
+RA   Muzny D.M., Nelson D.L., Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R.,
+RA   Pacleb J.M., Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V.,
+RA   Reese M.G., Reinert K., Remington K., Saunders R.D.C., Scheeler F.,
+RA   Shen H., Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.J.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E., Svirskas R.,
+RA   Tector C., Turner R., Venter E., Wang A.H., Wang X., Wang Z.-Y.,
+RA   Wassarman D.A., Weinstock G.M., Weissenbach J., Williams S.M., Woodage T.,
+RA   Worley K.C., Wu D., Yang S., Yao Q.A., Ye J., Yeh R.-F., Zaveri J.S.,
+RA   Zhan M., Zhang G., Zhao Q., Zheng L., Zheng X.H., Zhong F.N., Zhong W.,
+RA   Zhou X., Zhu S.C., Zhu X., Smith H.O., Gibbs R.A., Myers E.W., Rubin G.M.,
+RA   Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=Berkeley;
+RX   PubMed=12537572; DOI=10.1186/gb-2002-3-12-research0083;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q., Stapleton M.,
+RA   Yamada C., Ashburner M., Gelbart W.M., Rubin G.M., Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a systematic
+RT   review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Berkeley; TISSUE=Testis;
+RA   Stapleton M., Brokstein P., Hong L., Agbayani A., Carlson J.W., Champe M.,
+RA   Chavez C., Dorsett V., Dresnek D., Farfan D., Frise E., George R.A.,
+RA   Gonzalez M., Guarin H., Kronmiller B., Li P.W., Liao G., Miranda A.,
+RA   Mungall C.J., Nunoo J., Pacleb J.M., Paragas V., Park S., Patel S.,
+RA   Phouanenavong S., Wan K.H., Yu C., Lewis S.E., Rubin G.M., Celniker S.E.;
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 438-989.
+RC   STRAIN=Berkeley; TISSUE=Embryo;
+RX   PubMed=12537569; DOI=10.1186/gb-2002-3-12-research0080;
+RA   Stapleton M., Carlson J.W., Brokstein P., Yu C., Champe M., George R.A.,
+RA   Guarin H., Kronmiller B., Pacleb J.M., Park S., Wan K.H., Rubin G.M.,
+RA   Celniker S.E.;
+RT   "A Drosophila full-length cDNA resource.";
+RL   Genome Biol. 3:RESEARCH0080.1-RESEARCH0080.8(2002).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-549; SER-550 AND SER-810, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Embryo;
+RX   PubMed=18327897; DOI=10.1021/pr700696a;
+RA   Zhai B., Villen J., Beausoleil S.A., Mintseris J., Gygi S.P.;
+RT   "Phosphoproteome analysis of Drosophila melanogaster embryos.";
+RL   J. Proteome Res. 7:1675-1682(2008).
+CC   -!- FUNCTION: Negative regulator of epidermal growth factor receptor (EGFR)
+CC       signaling. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the lst-2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO25080.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014297; AAF56673.3; -; Genomic_DNA.
+DR   EMBL; BT003320; AAO25080.1; ALT_FRAME; mRNA.
+DR   EMBL; AY069327; AAL39472.2; -; mRNA.
+DR   RefSeq; NP_001097943.1; NM_001104473.2.
+DR   RefSeq; NP_001247325.1; NM_001260396.1.
+DR   AlphaFoldDB; Q9VB70; -.
+DR   SMR; Q9VB70; -.
+DR   FunCoup; Q9VB70; 182.
+DR   GlyGen; Q9VB70; 1 site.
+DR   PaxDb; 7227-FBpp0293587; -.
+DR   EnsemblMetazoa; FBtr0113297; FBpp0112209; FBgn0039492.
+DR   EnsemblMetazoa; FBtr0305050; FBpp0293587; FBgn0039492.
+DR   GeneID; 43271; -.
+DR   KEGG; dme:Dmel_CG6051; -.
+DR   UCSC; CG6051-RB; d. melanogaster.
+DR   AGR; FB:FBgn0039492; -.
+DR   FlyBase; FBgn0039492; CG6051.
+DR   VEuPathDB; VectorBase:FBgn0039492; -.
+DR   eggNOG; KOG1819; Eukaryota.
+DR   GeneTree; ENSGT00940000171484; -.
+DR   HOGENOM; CLU_007360_1_0_1; -.
+DR   InParanoid; Q9VB70; -.
+DR   OMA; CYVREVQ; -.
+DR   OrthoDB; 20035at2759; -.
+DR   PhylomeDB; Q9VB70; -.
+DR   BioGRID-ORCS; 43271; 0 hits in 1 CRISPR screen.
+DR   ChiTaRS; CG6051; fly.
+DR   GenomeRNAi; 43271; -.
+DR   PRO; PR:Q9VB70; -.
+DR   Proteomes; UP000000803; Chromosome 3R.
+DR   Bgee; FBgn0039492; Expressed in head cyst cell (Drosophila) in testis and 248 other cell types or tissues.
+DR   ExpressionAtlas; Q9VB70; baseline and differential.
+DR   GO; GO:0031901; C:early endosome membrane; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042059; P:negative regulation of epidermal growth factor receptor signaling pathway; IBA:GO_Central.
+DR   CDD; cd15731; FYVE_LST2; 1.
+DR   FunFam; 3.30.40.10:FF:000073; myotubularin-related protein 4 isoform X2; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR043269; FYVE_LST2.
+DR   InterPro; IPR051118; LST-2.
+DR   InterPro; IPR000306; Znf_FYVE.
+DR   InterPro; IPR017455; Znf_FYVE-rel.
+DR   InterPro; IPR011011; Znf_FYVE_PHD.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   PANTHER; PTHR46465; LATERAL SIGNALING TARGET PROTEIN 2 HOMOLOG; 1.
+DR   PANTHER; PTHR46465:SF2; LATERAL SIGNALING TARGET PROTEIN 2 HOMOLOG; 1.
+DR   Pfam; PF01363; FYVE; 1.
+DR   SMART; SM00064; FYVE; 1.
+DR   SUPFAM; SSF57903; FYVE/PHD zinc finger; 1.
+DR   PROSITE; PS50178; ZF_FYVE; 1.
+PE   1: Evidence at protein level;
+KW   Metal-binding; Phosphoprotein; Reference proteome; Zinc; Zinc-finger.
+FT   CHAIN           1..989
+FT                   /note="Lateral signaling target protein 2 homolog"
+FT                   /id="PRO_0000378965"
+FT   ZN_FING         909..969
+FT                   /note="FYVE-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   REGION          308..466
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          544..647
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          754..905
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        324..362
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        374..385
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        395..409
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        417..436
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        439..466
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        576..616
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        623..633
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        635..647
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        765..784
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        794..811
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        816..874
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        891..904
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         915
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         918
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         931
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         934
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         939
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         942
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         961
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         964
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   MOD_RES         549
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         550
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         810
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        356
+FT                   /note="A -> V (in Ref. 3; AAO25080)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        377..378
+FT                   /note="Missing (in Ref. 3; AAO25080)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        390
+FT                   /note="A -> G (in Ref. 3; AAO25080)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        476
+FT                   /note="S -> A (in Ref. 3; AAO25080)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   989 AA;  108800 MW;  6EA7F616FB6055CC CRC64;
+     MDTFKRWLNK PKADDKSLLA RFFHADRSLT AVASELDSFD GRAEPDRCTR LVSRLRQNQD
+     KVLAITNLIM EELLGEDRDP RAFRAKFPEE VLQENLAGQL WFGAECLAAG SSIMNRETES
+     KEMRPLAQAV TKSLGNVRVL LRDQCLKNNV PNSKTLHLDL NDSTTEQLYE SLKIFDRLFA
+     EFELSYVSAM VQVKSRHEYE MQQWIGVLFS ETLQRALKIG LLDQEMVDAF DPGLMFSIPR
+     LAIVAGLVVY AKGPLNMDMP GDQLSEMFRP FRTILIKIRD LLRNLNNQEL YQLEKLLCTN
+     EDINTKVPLG SSSIEAPSPE HSSHPTTSSS QNNNNSSNNN HSSSSTNTTS TTTTTAGTTN
+     THRTVERLVD QRNNNHNSNS NSSTNPTVEA ATLRSPSMLS LSATSTPTAS PAPSPTPSHS
+     IASTSSAATS STNPPADWSD GDDEDEDDDD IDVDEEDIES SDDGTDEEQL LKDIVSADCA
+     SGYLIPNTNL GNLLQPQEVP LTDNFVASED DEYGTAEQQG HQGLEEDEPS TSAAMLAATR
+     TLQRLRLPSS DNEPLAEPTT IKASEEHMQQ PSGRHRDSHS HRHHQRHHHH HHHRHPHQHQ
+     HRQPHPHRTT RSGRKRCSLE AADPERIQPD REQNLASGDT SAASSLSDDV SLAMRNTTAR
+     LKFKSTENLL HRLFVCIAGV ADQLQTNFAS DLRQILRSVF LMNMSTAQEE IDIPEKTKES
+     ELFEFRASEN DVIQESAGSN QSIYSAEEVN PELDNVFSAG GGNQATGQRH SAGASMQRNN
+     TIDLASQPGE GSPSGATTAT SRSHVTRSRS LGDQEAASSA TSSTAQLRQL EQQQQQQQLQ
+     IQLQRQRNNS VGSNTPSSAS STSSSSEQNS PVSARSGSRR RLQSNNETQM PSSATSTSAT
+     LSPPAWIPDG KAPRCMACQT PFTAFRRRHH CRNCGGVFCG VCSNASAPLP KYGLTKAVRV
+     CRDCYVREVR SGMGVQGVQS VQSVQASAS
+//

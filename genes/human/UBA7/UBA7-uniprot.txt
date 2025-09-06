@@ -1,0 +1,641 @@
+ID   UBA7_HUMAN              Reviewed;        1012 AA.
+AC   P41226; Q9BRB2;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 2.
+DT   18-JUN-2025, entry version 216.
+DE   RecName: Full=Ubiquitin-like modifier-activating enzyme 7;
+DE            Short=Ubiquitin-activating enzyme 7;
+DE            EC=6.2.1.- {ECO:0000250|UniProtKB:Q9DBK7};
+DE   AltName: Full=D8;
+DE   AltName: Full=Ubiquitin-activating enzyme E1 homolog;
+GN   Name=UBA7 {ECO:0000303|PubMed:28397838, ECO:0000312|HGNC:HGNC:12471};
+GN   Synonyms=UBE1L, UBE2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=B-cell;
+RX   PubMed=8327486; DOI=10.1073/pnas.90.13.6071;
+RA   Kok K., Hofstra R., Pilz A., van den Berg A., Terpstra P., Buys C.H.C.M.,
+RA   Carritt B.;
+RT   "A gene in the chromosomal region 3p21 with greatly reduced expression in
+RT   lung cancer is similar to the gene for ubiquitin-activating enzyme.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:6071-6075(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7734949;
+RA   Kok K., Van den Berg A., Veldhuis P.M., Franke M., Terpstra P.,
+RA   Buys C.H.C.M.;
+RT   "The genomic structure of the human UBE1L gene.";
+RL   Gene Expr. 4:163-175(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Eye;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 1-17.
+RC   TISSUE=Platelet;
+RX   PubMed=12665801; DOI=10.1038/nbt810;
+RA   Gevaert K., Goethals M., Martens L., Van Damme J., Staes A., Thomas G.R.,
+RA   Vandekerckhove J.;
+RT   "Exploring proteomes and analyzing protein processing by mass spectrometric
+RT   identification of sorted N-terminal peptides.";
+RL   Nat. Biotechnol. 21:566-569(2003).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 973-987, INTERACTION WITH G1P2, AND PATHWAY.
+RX   PubMed=11157743; DOI=10.1093/emboj/20.3.362;
+RA   Yuan W., Krug R.M.;
+RT   "Influenza B virus NS1 protein inhibits conjugation of the interferon
+RT   (IFN)-induced ubiquitin-like ISG15 protein.";
+RL   EMBO J. 20:362-371(2001).
+RN   [8]
+RP   FUNCTION.
+RX   PubMed=16254333; DOI=10.1128/jvi.79.22.13974-13983.2005;
+RA   Lenschow D.J., Giannakopoulos N.V., Gunn L.J., Johnston C., O'Guin A.K.,
+RA   Schmidt R.E., Levine B., Virgin H.W. IV;
+RT   "Identification of interferon-stimulated gene 15 as an antiviral molecule
+RT   during Sindbis virus infection in vivo.";
+RL   J. Virol. 79:13974-13983(2005).
+RN   [9]
+RP   FUNCTION.
+RX   PubMed=19073728; DOI=10.1128/jvi.01590-08;
+RA   Giannakopoulos N.V., Arutyunova E., Lai C., Lenschow D.J., Haas A.L.,
+RA   Virgin H.W.;
+RT   "ISG15 Arg151 and the ISG15-conjugating enzyme UbE1L are important for
+RT   innate immune control of Sindbis virus.";
+RL   J. Virol. 83:1602-1610(2009).
+RN   [10]
+RP   FUNCTION.
+RX   PubMed=20133869; DOI=10.1073/pnas.0909144107;
+RA   Zhao C., Hsiang T.Y., Kuo R.L., Krug R.M.;
+RT   "ISG15 conjugation system targets the viral NS1 protein in influenza A
+RT   virus-infected cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:2253-2258(2010).
+RN   [11]
+RP   ISGYLATION.
+RX   PubMed=22693631; DOI=10.1371/journal.pone.0038294;
+RA   Bade V.N., Nickels J., Keusekotten K., Praefcke G.J.;
+RT   "Covalent protein modification with ISG15 via a conserved cysteine in the
+RT   hinge region.";
+RL   PLoS ONE 7:E38294-E38294(2012).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-266, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [13]
+RP   FUNCTION, AND INDUCTION BY DNA DAMAGE.
+RX   PubMed=27545325; DOI=10.1038/ncomms12513;
+RA   Park J.H., Yang S.W., Park J.M., Ka S.H., Kim J.H., Kong Y.Y., Jeon Y.J.,
+RA   Seol J.H., Chung C.H.;
+RT   "Positive feedback regulation of p53 transactivity by DNA damage-induced
+RT   ISG15 modification.";
+RL   Nat. Commun. 7:12513-12513(2016).
+RN   [14]
+RP   FUNCTION, AND INTERACTION WITH HUMAN CYTOMEGALOVIRUS PROTEIN UL26
+RP   (MICROBIAL INFECTION).
+RX   PubMed=27564865; DOI=10.1371/journal.ppat.1005850;
+RA   Kim Y.J., Kim E.T., Kim Y.E., Lee M.K., Kwon K.M., Kim K.I., Stamminger T.,
+RA   Ahn J.H.;
+RT   "Consecutive Inhibition of ISG15 Expression and ISGylation by
+RT   Cytomegalovirus Regulators.";
+RL   PLoS Pathog. 12:e1005850-e1005850(2016).
+RN   [15]
+RP   FUNCTION.
+RX   PubMed=29056542; DOI=10.1016/j.meegid.2017.10.016;
+RA   Zhao P., Jiang T., Zhong Z., Zhao L., Yang S., Xia X.;
+RT   "Inhibition of rabies virus replication by interferon-stimulated gene 15
+RT   and its activating enzyme UBA7.";
+RL   Infect. Genet. Evol. 56:44-53(2017).
+RN   [16]
+RP   INDUCTION BY INTERFERON-ALPHA.
+RX   PubMed=28035359; DOI=10.3892/ijmm.2016.2845;
+RA   Zhou M.J., Chen F.Z., Chen H.C., Wan X.X., Zhou X., Fang Q., Zhang D.Z.;
+RT   "ISG15 inhibits cancer cell growth and promotes apoptosis.";
+RL   Int. J. Mol. Med. 39:446-452(2017).
+RN   [17]
+RP   FUNCTION, INTERACTION WITH HUMAN CYTOMEGALOVIRUS PROTEIN NEC2/UL50
+RP   (MICROBIAL INFECTION), SUBCELLULAR LOCATION, AND UBIQUITINATION.
+RX   PubMed=29743376; DOI=10.1128/jvi.00462-18;
+RA   Lee M.K., Kim Y.J., Kim Y.E., Han T.H., Milbradt J., Marschall M.,
+RA   Ahn J.H.;
+RT   "Transmembrane Protein pUL50 of Human Cytomegalovirus Inhibits ISGylation
+RT   by Downregulating UBE1L.";
+RL   J. Virol. 92:0-0(2018).
+RN   [18]
+RP   FUNCTION, AND INTERACTION WITH ROTAVIRUS PROTEIN NSP5 (MICROBIAL
+RP   INFECTION).
+RX   PubMed=37722521; DOI=10.1016/j.cellsig.2023.110891;
+RA   Sarkar R., Patra U., Mukherjee A., Mitra S., Komoto S., Chawla-Sarkar M.;
+RT   "Rotavirus circumvents the antiviral effects of protein ISGylation via
+RT   proteasomal degradation of Ube1L.";
+RL   Cell. Signal. 0:0-0(2023).
+RN   [19]
+RP   VARIANT 397-GLU--LEU-1012 DEL.
+RX   PubMed=28397838; DOI=10.1038/mp.2017.60;
+RA   Harripaul R., Vasli N., Mikhailov A., Rafiq M.A., Mittal K.,
+RA   Windpassinger C., Sheikh T.I., Noor A., Mahmood H., Downey S., Johnson M.,
+RA   Vleuten K., Bell L., Ilyas M., Khan F.S., Khan V., Moradi M., Ayaz M.,
+RA   Naeem F., Heidari A., Ahmed I., Ghadami S., Agha Z., Zeinali S., Qamar R.,
+RA   Mozhdehipanah H., John P., Mir A., Ansar M., French L., Ayub M.,
+RA   Vincent J.B.;
+RT   "Mapping autosomal recessive intellectual disability: combined microarray
+RT   and exome sequencing identifies 26 novel candidate genes in 192
+RT   consanguineous families.";
+RL   Mol. Psychiatry 23:973-984(2018).
+CC   -!- FUNCTION: E1-activating enzyme that catalyzes the covalent conjugation
+CC       of the ubiquitin-like protein product of ISG15 to additional interferon
+CC       stimulated proteins (ISGs) as well as other cellular proteins such as
+CC       P53 in a process termed protein ISGylation (PubMed:27545325). Plays an
+CC       essential role in antiviral immunity together with ISG15 by restricting
+CC       the replication of many viruses including rabies virus, influenza
+CC       virus, sindbis virus, rotavirus or human cytomegalovirus
+CC       (PubMed:16254333, PubMed:19073728, PubMed:29056542, PubMed:29743376,
+CC       PubMed:37722521). For example, ISG15 modification of influenza A
+CC       protein NS1 disrupts the association of the NS1 with importin-alpha
+CC       leading to NS1 nuclear import inhibition (PubMed:20133869). ISGylation
+CC       of human cytomegalovirs protein UL26 regulates its stability and
+CC       inhibits its activities to suppress NF-kappa-B signaling
+CC       (PubMed:27564865). {ECO:0000269|PubMed:16254333,
+CC       ECO:0000269|PubMed:19073728, ECO:0000269|PubMed:20133869,
+CC       ECO:0000269|PubMed:27545325, ECO:0000269|PubMed:27564865,
+CC       ECO:0000269|PubMed:29056542, ECO:0000269|PubMed:29743376,
+CC       ECO:0000269|PubMed:37722521}.
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC       {ECO:0000269|PubMed:11157743}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with human cytomegalovirus
+CC       proteins NEC2/UL50 and UL26; these interactions inhibit ISGylation and
+CC       cause proteasomal degradation of UBA7. {ECO:0000269|PubMed:27564865,
+CC       ECO:0000269|PubMed:29743376}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with rotavirus non-structural
+CC       protein 5 (NSP5); this interaction promotes UBA7 proteasomal
+CC       degradation. {ECO:0000269|PubMed:37722521}.
+CC   -!- SUBUNIT: Monomer (By similarity). Binds and is involved in the
+CC       conjugation of G1P2/ISG15. {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P41226; P05161: ISG15; NbExp=12; IntAct=EBI-751921, EBI-746466;
+CC       P41226; Q13148: TARDBP; NbExp=3; IntAct=EBI-751921, EBI-372899;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:29743376}. Nucleus
+CC       {ECO:0000269|PubMed:29743376}.
+CC   -!- TISSUE SPECIFICITY: Expressed in a variety of normal and tumor cell
+CC       types, but is reduced in lung cancer cell lines.
+CC   -!- INDUCTION: By DNA damage (PubMed:27545325). Upon interferon-alpha
+CC       exposure (PubMed:28035359). {ECO:0000269|PubMed:27545325,
+CC       ECO:0000269|PubMed:28035359}.
+CC   -!- PTM: ISGylated. {ECO:0000269|PubMed:22693631}.
+CC   -!- PTM: Ubiquitinated by RNF170. {ECO:0000269|PubMed:29743376}.
+CC   -!- MISCELLANEOUS: There are two active sites within the E1 molecule,
+CC       allowing it to accommodate two ubiquitin moieties at a time, with a new
+CC       ubiquitin forming an adenylate intermediate as the previous one is
+CC       transferred to the thiol site.
+CC   -!- SIMILARITY: Belongs to the ubiquitin-activating E1 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L13852; AAA75388.1; -; mRNA.
+DR   EMBL; AF294032; AAG49557.1; -; Genomic_DNA.
+DR   EMBL; BT007026; AAP35672.1; -; mRNA.
+DR   EMBL; CH471055; EAW65023.1; -; Genomic_DNA.
+DR   EMBL; BC006378; AAH06378.1; -; mRNA.
+DR   CCDS; CCDS2805.1; -.
+DR   RefSeq; NP_003326.2; NM_003335.2.
+DR   PDB; 8OIF; EM; 3.50 A; A=1-1012.
+DR   PDB; 8SE9; EM; 3.20 A; A=1-1012.
+DR   PDB; 8SEA; EM; 3.40 A; A=1-1012.
+DR   PDB; 8SEB; EM; 3.24 A; A=1-1012.
+DR   PDB; 8SV8; EM; 3.38 A; A=1-1012.
+DR   PDB; 8WWX; NMR; -; A=920-1012.
+DR   PDBsum; 8OIF; -.
+DR   PDBsum; 8SE9; -.
+DR   PDBsum; 8SEA; -.
+DR   PDBsum; 8SEB; -.
+DR   PDBsum; 8SV8; -.
+DR   PDBsum; 8WWX; -.
+DR   AlphaFoldDB; P41226; -.
+DR   EMDB; EMD-16891; -.
+DR   EMDB; EMD-18589; -.
+DR   EMDB; EMD-40407; -.
+DR   EMDB; EMD-40408; -.
+DR   EMDB; EMD-40409; -.
+DR   EMDB; EMD-40782; -.
+DR   SMR; P41226; -.
+DR   BioGRID; 113166; 16.
+DR   DIP; DIP-60526N; -.
+DR   FunCoup; P41226; 605.
+DR   IntAct; P41226; 10.
+DR   MINT; P41226; -.
+DR   STRING; 9606.ENSP00000333266; -.
+DR   BindingDB; P41226; -.
+DR   ChEMBL; CHEMBL2321623; -.
+DR   iPTMnet; P41226; -.
+DR   PhosphoSitePlus; P41226; -.
+DR   BioMuta; UBA7; -.
+DR   DMDM; 215273977; -.
+DR   jPOST; P41226; -.
+DR   MassIVE; P41226; -.
+DR   PaxDb; 9606-ENSP00000333266; -.
+DR   PeptideAtlas; P41226; -.
+DR   ProteomicsDB; 55434; -.
+DR   Pumba; P41226; -.
+DR   Antibodypedia; 4219; 344 antibodies from 36 providers.
+DR   DNASU; 7318; -.
+DR   Ensembl; ENST00000333486.4; ENSP00000333266.3; ENSG00000182179.13.
+DR   GeneID; 7318; -.
+DR   KEGG; hsa:7318; -.
+DR   MANE-Select; ENST00000333486.4; ENSP00000333266.3; NM_003335.3; NP_003326.2.
+DR   UCSC; uc003cxr.4; human.
+DR   AGR; HGNC:12471; -.
+DR   CTD; 7318; -.
+DR   DisGeNET; 7318; -.
+DR   GeneCards; UBA7; -.
+DR   HGNC; HGNC:12471; UBA7.
+DR   HPA; ENSG00000182179; Low tissue specificity.
+DR   MalaCards; UBA7; -.
+DR   MIM; 191325; gene.
+DR   neXtProt; NX_P41226; -.
+DR   OpenTargets; ENSG00000182179; -.
+DR   PharmGKB; PA162407761; -.
+DR   VEuPathDB; HostDB:ENSG00000182179; -.
+DR   eggNOG; KOG2012; Eukaryota.
+DR   GeneTree; ENSGT00940000161447; -.
+DR   HOGENOM; CLU_002556_0_0_1; -.
+DR   InParanoid; P41226; -.
+DR   OMA; FVSPMQT; -.
+DR   OrthoDB; 10252231at2759; -.
+DR   PAN-GO; P41226; 5 GO annotations based on evolutionary models.
+DR   PhylomeDB; P41226; -.
+DR   TreeFam; TF300586; -.
+DR   PathwayCommons; P41226; -.
+DR   Reactome; R-HSA-1169408; ISG15 antiviral mechanism.
+DR   Reactome; R-HSA-168928; DDX58/IFIH1-mediated induction of interferon-alpha/beta.
+DR   Reactome; R-HSA-5656169; Termination of translesion DNA synthesis.
+DR   Reactome; R-HSA-936440; Negative regulators of DDX58/IFIH1 signaling.
+DR   Reactome; R-HSA-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   Reactome; R-HSA-9909505; Modulation of host responses by IFN-stimulated genes.
+DR   SignaLink; P41226; -.
+DR   UniPathway; UPA00143; -.
+DR   BioGRID-ORCS; 7318; 10 hits in 1161 CRISPR screens.
+DR   ChiTaRS; UBA7; human.
+DR   GeneWiki; UBE1L; -.
+DR   GenomeRNAi; 7318; -.
+DR   Pharos; P41226; Tbio.
+DR   PRO; PR:P41226; -.
+DR   Proteomes; UP000005640; Chromosome 3.
+DR   RNAct; P41226; protein.
+DR   Bgee; ENSG00000182179; Expressed in granulocyte and 98 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProt.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019782; F:ISG15 activating enzyme activity; IDA:HGNC-UCL.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; EXP:Reactome.
+DR   GO; GO:0006974; P:DNA damage response; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; IDA:UniProt.
+DR   GO; GO:0032020; P:ISG15-protein conjugation; IDA:HGNC-UCL.
+DR   GO; GO:0019941; P:modification-dependent protein catabolic process; IEA:Ensembl.
+DR   GO; GO:0036211; P:protein modification process; IDA:HGNC-UCL.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01491; Ube1_repeat1; 1.
+DR   CDD; cd01490; Ube1_repeat2; 1.
+DR   FunFam; 1.10.10.2660:FF:000004; Ubiquitin activating enzyme 1; 1.
+DR   FunFam; 2.40.30.180:FF:000001; ubiquitin-like modifier-activating enzyme 1; 1.
+DR   FunFam; 3.50.50.80:FF:000001; ubiquitin-like modifier-activating enzyme 1; 1.
+DR   FunFam; 3.10.290.60:FF:000005; Ubiquitin-like modifier-activating enzyme 7; 1.
+DR   FunFam; 3.40.50.720:FF:000320; ubiquitin-like modifier-activating enzyme 7; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 2.40.30.180; Ubiquitin-activating enzyme E1, FCCH domain; 1.
+DR   Gene3D; 3.50.50.80; Ubiquitin-activating enzyme E1, inactive adenylation domain, subdomain 1; 1.
+DR   Gene3D; 3.40.50.12550; Ubiquitin-activating enzyme E1, inactive adenylation domain, subdomain 2; 1.
+DR   Gene3D; 1.10.10.2660; Ubiquitin-activating enzyme E1, SCCH domain; 1.
+DR   Gene3D; 3.10.290.60; Ubiquitin-activating enzyme E1, UFD domain; 1.
+DR   InterPro; IPR032420; E1_4HB.
+DR   InterPro; IPR032418; E1_FCCH.
+DR   InterPro; IPR042302; E1_FCCH_sf.
+DR   InterPro; IPR045886; ThiF/MoeB/HesA.
+DR   InterPro; IPR000594; ThiF_NAD_FAD-bd.
+DR   InterPro; IPR018965; Ub-activating_enz_E1_C.
+DR   InterPro; IPR042449; Ub-E1_IAD_1.
+DR   InterPro; IPR038252; UBA_E1_C_sf.
+DR   InterPro; IPR019572; UBA_E1_SCCH.
+DR   InterPro; IPR042063; Ubi_acti_E1_SCCH.
+DR   InterPro; IPR035985; Ubiquitin-activating_enz.
+DR   InterPro; IPR018075; UBQ-activ_enz_E1.
+DR   InterPro; IPR033127; UBQ-activ_enz_E1_Cys_AS.
+DR   InterPro; IPR000011; UBQ/SUMO-activ_enz_E1-like.
+DR   NCBIfam; TIGR01408; Ube1; 1.
+DR   PANTHER; PTHR10953; UBIQUITIN-ACTIVATING ENZYME E1; 1.
+DR   PANTHER; PTHR10953:SF143; UBIQUITIN-LIKE MODIFIER-ACTIVATING ENZYME 7; 1.
+DR   Pfam; PF16191; E1_4HB; 1.
+DR   Pfam; PF16190; E1_FCCH; 1.
+DR   Pfam; PF09358; E1_UFD; 1.
+DR   Pfam; PF00899; ThiF; 2.
+DR   Pfam; PF10585; UBA_E1_SCCH; 1.
+DR   PRINTS; PR01849; UBIQUITINACT.
+DR   SMART; SM00985; UBA_e1_C; 1.
+DR   SUPFAM; SSF69572; Activating enzymes of the ubiquitin-like proteins; 2.
+DR   PROSITE; PS00865; UBIQUITIN_ACTIVAT_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cytoplasm; Direct protein sequencing;
+KW   Host-virus interaction; Ligase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Proteomics identification; Reference proteome; Repeat;
+KW   Ubl conjugation; Ubl conjugation pathway.
+FT   CHAIN           1..1012
+FT                   /note="Ubiquitin-like modifier-activating enzyme 7"
+FT                   /id="PRO_0000194937"
+FT   REPEAT          23..159
+FT                   /note="1-1"
+FT   REPEAT          423..575
+FT                   /note="1-2"
+FT   REGION          23..575
+FT                   /note="2 approximate repeats"
+FT   ACT_SITE        599
+FT                   /note="Glycyl thioester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10132"
+FT   BINDING         442..471
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         266
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:24275569"
+FT   VARIANT         397..1012
+FT                   /note="Missing (found in a small consanguineous family with
+FT                   learning disability; uncertain significance)"
+FT                   /evidence="ECO:0000269|PubMed:28397838"
+FT                   /id="VAR_080759"
+FT   VARIANT         712
+FT                   /note="P -> S (in dbSNP:rs11928913)"
+FT                   /id="VAR_052434"
+FT   VARIANT         817
+FT                   /note="H -> R (in dbSNP:rs2230149)"
+FT                   /id="VAR_047793"
+FT   CONFLICT        355..378
+FT                   /note="GVLSPMVAMLGAVAAQEVLKAISR -> RCLEPMVACWVSSCPGSAEGNLQ
+FT                   (in Ref. 1; AAA75388 and 2; AAG49557)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           25..30
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          34..38
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           42..54
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          57..62
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           69..71
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            72..74
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          84..86
+FT                   /evidence="ECO:0007829|PDB:8SEA"
+FT   HELIX           87..98
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          100..106
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           113..118
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          120..124
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           129..141
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          145..147
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          150..153
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          155..158
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          164..170
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          172..174
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          178..183
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          187..189
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           198..202
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          208..210
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          214..216
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   TURN            218..222
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            232..234
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   STRAND          235..237
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   STRAND          247..250
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   STRAND          252..256
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          260..262
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           267..270
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           281..304
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           313..325
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           328..330
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          333..335
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           343..351
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          354..356
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           358..377
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          385..387
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           392..394
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          398..400
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   TURN            405..408
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           416..419
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           424..431
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          434..438
+FT                   /evidence="ECO:0007829|PDB:8OIF"
+FT   HELIX           442..454
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            455..457
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          459..461
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          463..467
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            474..476
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           477..479
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          481..483
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           485..487
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           492..503
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          509..512
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           518..520
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            521..524
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           526..529
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          535..537
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           542..555
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          559..565
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          568..574
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            576..578
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           586..592
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           598..600
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           608..623
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           625..630
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           632..636
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            640..644
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           645..652
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            654..656
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          667..670
+FT                   /evidence="ECO:0007829|PDB:8SEA"
+FT   HELIX           671..681
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           683..691
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          699..702
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          704..707
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   STRAND          719..721
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           723..739
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            747..749
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           751..755
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           761..764
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           765..769
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          770..773
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            778..782
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           783..797
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            813..816
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           817..831
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           839..843
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          845..848
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           854..873
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           878..880
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          883..887
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           888..890
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          892..896
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          904..906
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          909..911
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          917..920
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            922..925
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   HELIX           928..938
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          943..948
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          951..955
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          956..958
+FT                   /evidence="ECO:0007829|PDB:8SV8"
+FT   HELIX           960..966
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          967..970
+FT                   /evidence="ECO:0007829|PDB:8OIF"
+FT   HELIX           971..979
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   STRAND          989..996
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+FT   TURN            1001..1003
+FT                   /evidence="ECO:0007829|PDB:8WWX"
+FT   STRAND          1008..1011
+FT                   /evidence="ECO:0007829|PDB:8SE9"
+SQ   SEQUENCE   1012 AA;  111694 MW;  A01E1106D81778EB CRC64;
+     MDALDASKLL DEELYSRQLY VLGSPAMQRI QGARVLVSGL QGLGAEVAKN LVLMGVGSLT
+     LHDPHPTCWS DLAAQFLLSE QDLERSRAEA SQELLAQLNR AVQVVVHTGD ITEDLLLDFQ
+     VVVLTAAKLE EQLKVGTLCH KHGVCFLAAD TRGLVGQLFC DFGEDFTVQD PTEAEPLTAA
+     IQHISQGSPG ILTLRKGANT HYFRDGDLVT FSGIEGMVEL NDCDPRSIHV REDGSLEIGD
+     TTTFSRYLRG GAITEVKRPK TVRHKSLDTA LLQPHVVAQS SQEVHHAHCL HQAFCALHKF
+     QHLHGRPPQP WDPVDAETVV GLARDLEPLK RTEEEPLEEP LDEALVRTVA LSSAGVLSPM
+     VAMLGAVAAQ EVLKAISRKF MPLDQWLYFD ALDCLPEDGE LLPSPEDCAL RGSRYDGQIA
+     VFGAGFQEKL RRQHYLLVGA GAIGCELLKV FALVGLGAGN SGGLTVVDMD HIERSNLSRQ
+     FLFRSQDVGR PKAEVAAAAA RGLNPDLQVI PLTYPLDPTT EHIYGDNFFS RVDGVAAALD
+     SFQARRYVAA RCTHYLKPLL EAGTSGTWGS ATVFMPHVTE AYRAPASAAA SEDAPYPVCT
+     VRYFPSTAEH TLQWARHEFE ELFRLSAETI NHHQQAHTSL ADMDEPQTLT LLKPVLGVLR
+     VRPQNWQDCV AWALGHWKLC FHYGIKQLLR HFPPNKVLED GTPFWSGPKQ CPQPLEFDTN
+     QDTHLLYVLA AANLYAQMHG LPGSQDWTAL RELLKLLPQP DPQQMAPIFA SNLELASASA
+     EFGPEQQKEL NKALEVWSVG PPLKPLMFEK DDDSNFHVDF VVAAASLRCQ NYGIPPVNRA
+     QSKRIVGQII PAIATTTAAV AGLLGLELYK VVSGPRPRSA FRHSYLHLAE NYLIRYMPFA
+     PAIQTFHHLK WTSWDRLKVP AGQPERTLES LLAHLQEQHG LRVRILLHGS ALLYAAGWSP
+     EKQAQHLPLR VTELVQQLTG QAPAPGQRVL VLELSCEGDD EDTAFPPLHY EL
+//

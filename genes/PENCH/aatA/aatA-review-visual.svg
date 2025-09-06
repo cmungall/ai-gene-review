@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="2505" viewBox="0 0 1800 2505">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="2505" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: aatA (Penicillium chrysogenum)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="890" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="912.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="1680" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1702.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="945" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="966.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1735" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1756.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0017000</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">antibiotic biosynthetic process</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0042318</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">penicillin biosynthetic process</text>
+<rect x="80" y="990" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0016740</text>
+<text x="85" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">transferase activity</text>
+<rect x="80" y="1135" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1149" font-size="10" font-family="monospace" fill="#666666">GO:0016746</text>
+<text x="85" y="1165" font-size="11" font-family="Arial, sans-serif" fill="#212121">acyltransferase activity</text>
+<rect x="80" y="1425" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1439" font-size="10" font-family="monospace" fill="#666666">GO:0050640</text>
+<text x="85" y="1455" font-size="11" font-family="Arial, sans-serif" fill="#212121">isopenicillin-N N-acyltransferase a...</text>
+<rect x="80" y="1780" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1794" font-size="10" font-family="monospace" fill="#666666">GO:0005777</text>
+<text x="85" y="1810" font-size="11" font-family="Arial, sans-serif" fill="#212121">peroxisome</text>
+<rect x="80" y="2070" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2084" font-size="10" font-family="monospace" fill="#666666">GO:0005782</text>
+<text x="85" y="2100" font-size="11" font-family="Arial, sans-serif" fill="#212121">peroxisomal matrix</text>
+<path d="M332,1802.5 L337,1807.5 L348,1794.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2092.5 L337,2097.5 L348,2084.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1012.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,1157.5 L390,1157.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1157.5 L382,1153.5 L382,1161.5 Z" fill="#ff9800" />
+<rect x="390" y="1135" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1149" font-size="10" font-family="monospace" fill="#666666">GO:0050640</text>
+<text x="395" y="1165" font-size="11" font-family="Arial, sans-serif" fill="#212121">isopenicillin-N N-acyltransferase a...</text>
+<path d="M280,222.5 L390,222.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,222.5 L382,218.5 L382,226.5 Z" fill="#ff9800" />
+<rect x="390" y="200" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0042318</text>
+<text x="395" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">penicillin biosynthetic process</text>
+<path d="M332,657.5 L337,662.5 L348,649.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1447.5 L337,1452.5 L348,1439.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="385" y="1780" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1790" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P15802]</text>
+<text x="390" y="1798" font-size="8" font-family="Arial, sans-serif" fill="#212121">Located in peroxisome where penicillin biosynthesis occurs</text>
+<rect x="385" y="2070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18439860]</text>
+<text x="390" y="2088" font-size="8" font-family="Arial, sans-serif" fill="#212121">Unprocessed preprotein form IATC103S of the isopenicillin N</text>
+<text x="390" y="2097" font-size="8" font-family="Arial, sans-serif" fill="#212121">acyltransferase is transported inside peroxisomes</text>
+<rect x="385" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P15802]</text>
+<text x="390" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">General transferase activity, but specific function is acyl-coenzyme</text>
+<text x="390" y="1017" font-size="8" font-family="Arial, sans-serif" fill="#212121">A:isopenicillin N acyltransferase</text>
+<rect x="635" y="1135" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="640" y="1145" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[2120195]</text>
+<text x="640" y="1153" font-size="8" font-family="Arial, sans-serif" fill="#212121">removal of the L-alpha-aminoadipyl side chain from isopenicillin N</text>
+<text x="640" y="1162" font-size="8" font-family="Arial, sans-serif" fill="#212121">(IPN) and exchange with a nonpolar side chain</text>
+<rect x="635" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="640" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1368505]</text>
+<text x="640" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Heterologous expression of the penicillin biosynthetic gene cluster</text>
+<text x="640" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">from P. chrysogenum</text>
+<rect x="385" y="635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1368505]</text>
+<text x="390" y="653" font-size="8" font-family="Arial, sans-serif" fill="#212121">Both of the transformed hosts contained intact P. chrysogenum DNA</text>
+<text x="390" y="662" font-size="8" font-family="Arial, sans-serif" fill="#212121">derived from the cosmid clone and produced authentic penicillin V</text>
+<rect x="385" y="1425" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1435" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[2120195]</text>
+<text x="390" y="1443" font-size="8" font-family="Arial, sans-serif" fill="#212121">The enzyme catalyzing this reaction, acyl-coenzyme A:isopenicillin N</text>
+<text x="390" y="1452" font-size="8" font-family="Arial, sans-serif" fill="#212121">acyltransferase, was purified from P. chrysogenum</text>
+<rect x="600.0" y="2365" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="2400.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="2400.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

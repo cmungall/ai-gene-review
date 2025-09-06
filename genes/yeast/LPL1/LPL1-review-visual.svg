@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="3460" viewBox="0 0 1800 3460">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="3460" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: LPL1 (Saccharomyces cerevisiae S288C)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="975" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="997.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="2055" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="2077.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="675" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="696.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">homeostatic process</text>
+<rect x="60" y="1030" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1051.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="2110" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2131.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0006629</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipid metabolic process</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0016042</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipid catabolic process</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0055088</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipid homeostasis</text>
+<rect x="80" y="1800" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1814" font-size="10" font-family="monospace" fill="#666666">GO:0004622</text>
+<text x="85" y="1830" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphatidylcholine lysophospholipa...</text>
+<rect x="80" y="1220" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1234" font-size="10" font-family="monospace" fill="#666666">GO:0047372</text>
+<text x="85" y="1250" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoacylglycerol lipase activity</text>
+<rect x="80" y="1365" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0004623</text>
+<text x="85" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">phospholipase A2 activity</text>
+<rect x="80" y="1510" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1524" font-size="10" font-family="monospace" fill="#666666">GO:0016787</text>
+<text x="85" y="1540" font-size="11" font-family="Arial, sans-serif" fill="#212121">hydrolase activity</text>
+<rect x="80" y="3025" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3039" font-size="10" font-family="monospace" fill="#666666">GO:0005811</text>
+<text x="85" y="3055" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipid droplet</text>
+<rect x="80" y="2445" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2459" font-size="10" font-family="monospace" fill="#666666">GO:0016020</text>
+<text x="85" y="2475" font-size="11" font-family="Arial, sans-serif" fill="#212121">membrane</text>
+<rect x="80" y="2590" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2604" font-size="10" font-family="monospace" fill="#666666">GO:0005783</text>
+<text x="85" y="2620" font-size="11" font-family="Arial, sans-serif" fill="#212121">endoplasmic reticulum</text>
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,1822.5 L390,1822.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1822.5 L382,1818.5 L382,1826.5 Z" fill="#ff9800" />
+<rect x="390" y="1800" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1814" font-size="10" font-family="monospace" fill="#666666">GO:0102545</text>
+<text x="395" y="1830" font-size="11" font-family="Arial, sans-serif" fill="#212121">phospholipase B activity</text>
+<path d="M332,3047.5 L337,3052.5 L348,3039.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1234.5 L348,1250.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1250.5 L348,1234.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,1387.5 L390,1387.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1387.5 L382,1383.5 L382,1391.5 Z" fill="#ff9800" />
+<rect x="390" y="1365" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0102545</text>
+<text x="395" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">phospholipase B activity</text>
+<path d="M340,2457.5 L330,2475.5 L350,2475.5 Z" fill="#ffc107" />
+<text x="340" y="2471.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,1522.5 L330,1540.5 L350,1540.5 Z" fill="#ffc107" />
+<text x="340" y="1536.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<circle cx="340" cy="2612.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,742.5 L337,747.5 L348,734.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The automatic annotation from UniProt keyword "Lipid</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">metabolism" is accurate. LPL1 is definitively involved in</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">lipid metabolic processes through its phospholipase B</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. Duplicate with different evidence code is</text>
+<text x="400" y="388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">acceptable.</text>
+<rect x="645" y="1787.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="1797.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="1807.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Same issue as the IDA annotation - the paper demonstrates</text>
+<text x="650" y="1816.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phospholipase B activity, not just lysophospholipase. The</text>
+<text x="650" y="1825.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mutant phenotype experiments (IMP) support the broader</text>
+<text x="650" y="1834.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phospholipase B function.</text>
+<rect x="395" y="3012.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3022.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3032.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This foundational study was among the first to identify</text>
+<text x="400" y="3041.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">LPL1 as a lipid droplet protein through systematic</text>
+<text x="400" y="3050.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proteomic analysis of purified lipid particles.</text>
+<text x="400" y="3059.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-supported experimental evidence.</text>
+<rect x="395" y="1207.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1217.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1227.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The IBA annotation appears to incorrectly transfer ROG1</text>
+<text x="400" y="1236.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function to LPL1. While both are in the same lipase</text>
+<text x="400" y="1245.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">family, they have diverged substrate specificities. LPL1</text>
+<text x="400" y="1254.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">acts on phospholipids (PE, PC, PS, PA, PG) not</text>
+<text x="400" y="1263.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">monoacylglycerols. The experimental characterization by</text>
+<text x="400" y="1272.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Selvaraju et al. 2014 tested phospholipids, not</text>
+<rect x="645" y="1352.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="1362.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="1372.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While LPL1 does cleave at the sn-2 position (phospholipase</text>
+<text x="650" y="1381.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">A2 activity), experimental evidence shows it subsequently</text>
+<text x="650" y="1390.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cleaves at sn-1, making it a phospholipase B. The IEA</text>
+<text x="650" y="1399.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation from EC:3.1.1.4 is technically correct but</text>
+<text x="650" y="1408.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">misses the full enzymatic activity.</text>
+<rect x="395" y="2432.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2442.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2452.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While lipid droplets have a phospholipid monolayer that</text>
+<text x="400" y="2461.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">could be considered a membrane, this general membrane</text>
+<text x="400" y="2470.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation lacks specificity. The protein is not found at</text>
+<text x="400" y="2479.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellular membranes like plasma membrane or ER membrane in</text>
+<text x="400" y="2488.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">its functional state, but specifically at lipid droplets.</text>
+<text x="400" y="2497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The annotation is not wrong but uninformative compared to</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation accurately reflects LPL1 function in</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">breaking down phospholipids. The phospholipase B activity</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">directly contributes to lipid catabolism by hydrolyzing</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">glycerophospholipids to release fatty acids.</text>
+<rect x="395" y="1497.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1507.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1517.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While technically correct (phospholipases are hydrolases),</text>
+<text x="400" y="1526.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">this term is too general to be informative about LPL1</text>
+<text x="400" y="1535.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific function. It provides no useful information</text>
+<text x="400" y="1544.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beyond what more specific annotations already capture.</text>
+<text x="400" y="1553.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a classic example of an uninformative high-level</text>
+<text x="400" y="1562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">term that should be replaced with specific enzymatic</text>
+<rect x="395" y="2577.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2587.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2597.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While LPL1 may transiently associate with ER (lipid</text>
+<text x="400" y="2606.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">droplets originate from ER), the primary functional</text>
+<text x="400" y="2615.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization shown by focused studies is lipid droplets.</text>
+<text x="400" y="2624.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This high-throughput data point is not wrong but</text>
+<text x="400" y="2633.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a minor/transient localization compared to the</text>
+<text x="400" y="2642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-established lipid droplet localization.</text>
+<rect x="395" y="707.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="717.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="727.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The IMP evidence from lpl1Δ mutants showing altered lipid</text>
+<text x="400" y="736.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">droplet morphology, changes in phospholipid levels, and</text>
+<text x="400" y="745.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">fatty acid accumulation strongly supports this annotation.</text>
+<text x="400" y="754.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">LPL1 maintains lipid balance through its phospholipase</text>
+<text x="400" y="763.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity.</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">demonstrated that yeast Lpl1 exerts phospholipase activity, plays a</text>
+<text x="705" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">vital role in LD morphology</text>
+<rect x="950" y="1800" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1810" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="955" y="1818" font-size="8" font-family="Arial, sans-serif" fill="#212121">Site directed mutagenesis experiments clearly demonstrated that the</text>
+<text x="955" y="1827" font-size="8" font-family="Arial, sans-serif" fill="#212121">lipase motif is vital for the phospholipase activity</text>
+<rect x="700" y="3025" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3035" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10515935]</text>
+<text x="705" y="3043" font-size="8" font-family="Arial, sans-serif" fill="#212121">Identification and characterization of major lipid particle proteins</text>
+<text x="705" y="3052" font-size="8" font-family="Arial, sans-serif" fill="#212121">of the yeast Saccharomyces cerevisiae</text>
+<rect x="700" y="1220" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1230" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="1238" font-size="8" font-family="Arial, sans-serif" fill="#212121">The purified Lpl1p showed phospholipase activity with broader</text>
+<text x="705" y="1247" font-size="8" font-family="Arial, sans-serif" fill="#212121">substrate specificity, acting on all glycerophospholipids [note: PE,</text>
+<text x="705" y="1256" font-size="8" font-family="Arial, sans-serif" fill="#212121">PA, PC, PS, PG tested, not monoacylglycerols]</text>
+<rect x="1030" y="1220" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1230" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:yeast/LPL1/LPL1...]</text>
+<text x="1035" y="1238" font-size="8" font-family="Arial, sans-serif" fill="#212121">Lpl1 and Rog1p have diverged substrate preferences but analogous</text>
+<text x="1035" y="1247" font-size="8" font-family="Arial, sans-serif" fill="#212121">structural frameworks</text>
+<rect x="950" y="1365" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1375" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="955" y="1383" font-size="8" font-family="Arial, sans-serif" fill="#212121">acting on all glycerophospholipids primarily at sn-2 position and</text>
+<text x="955" y="1392" font-size="8" font-family="Arial, sans-serif" fill="#212121">later at sn-1 position</text>
+<rect x="700" y="2445" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2455" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="2463" font-size="8" font-family="Arial, sans-serif" fill="#212121">Lpl1 is exclusively localized in the LD [lipid droplet] at the</text>
+<text x="705" y="2472" font-size="8" font-family="Arial, sans-serif" fill="#212121">stationary phase</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">acetate labeling in the LPL1 overexpressed strains depicted a</text>
+<text x="705" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">decrease in glycerophospholipids and an increase in free fatty acids</text>
+<rect x="700" y="1510" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1520" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="1528" font-size="8" font-family="Arial, sans-serif" fill="#212121">The purified Lpl1p showed phospholipase activity</text>
+<rect x="700" y="2590" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2600" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="2608" font-size="8" font-family="Arial, sans-serif" fill="#212121">Lpl1 is exclusively localized in the LD at the stationary phase</text>
+<rect x="1030" y="2590" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="2600" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26928762]</text>
+<text x="1035" y="2608" font-size="8" font-family="Arial, sans-serif" fill="#212121">One library to make them all: streamlining the creation of yeast</text>
+<text x="1035" y="2617" font-size="8" font-family="Arial, sans-serif" fill="#212121">libraries via a SWAp-Tag strategy [high-throughput study]</text>
+<rect x="700" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="705" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">deletion of LPL1 resulted in altered morphology of LDs and was</text>
+<text x="705" y="747" font-size="8" font-family="Arial, sans-serif" fill="#212121">confirmed by microscopic analysis</text>
+<rect x="1030" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[25014274]</text>
+<text x="1035" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">acetate labeling in the LPL1 overexpressed strains depicted a</text>
+<text x="1035" y="747" font-size="8" font-family="Arial, sans-serif" fill="#212121">decrease in glycerophospholipids and an increase in free fatty acids</text>
+<rect x="600.0" y="3320" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="3355.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="3355.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

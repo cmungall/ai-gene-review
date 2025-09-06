@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="6225" viewBox="0 0 1800 6225">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="6225" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: TRAF6 (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="4735" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="4757.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="530" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="551.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="2355" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2376.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="2875" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2896.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="3250" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3271.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">immune system process</text>
+<rect x="60" y="3480" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3501.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="4290" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4311.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological process involved in inters...</text>
+<rect x="60" y="4790" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4811.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="5455" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5476.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0001701</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">in utero embryonic development</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0043011</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">myeloid dendritic cell differentiation</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0002637</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of immunoglobulin produc...</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0031663</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">lipopolysaccharide-mediated signali...</text>
+<rect x="80" y="865" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="879" font-size="10" font-family="monospace" fill="#666666">GO:0032735</text>
+<text x="85" y="895" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of interleukin-...</text>
+<rect x="80" y="1010" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1024" font-size="10" font-family="monospace" fill="#666666">GO:0032755</text>
+<text x="85" y="1040" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of interleukin-...</text>
+<rect x="80" y="1155" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1169" font-size="10" font-family="monospace" fill="#666666">GO:0007249</text>
+<text x="85" y="1185" font-size="11" font-family="Arial, sans-serif" fill="#212121">canonical NF-kappaB signal transduc...</text>
+<rect x="80" y="1300" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1314" font-size="10" font-family="monospace" fill="#666666">GO:0043123</text>
+<text x="85" y="1330" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of canonical NF...</text>
+<rect x="80" y="1445" width="200" height="45" fill="#ffffff" stroke="#9e9e9e" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1459" font-size="10" font-family="monospace" fill="#666666">GO:0043124</text>
+<text x="85" y="1475" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of canonical NF...</text>
+<rect x="80" y="1590" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1604" font-size="10" font-family="monospace" fill="#666666">GO:0034142</text>
+<text x="85" y="1620" font-size="11" font-family="Arial, sans-serif" fill="#212121">toll-like receptor 4 signaling pathway</text>
+<rect x="80" y="1735" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1749" font-size="10" font-family="monospace" fill="#666666">GO:0002753</text>
+<text x="85" y="1765" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoplasmic pattern recognition rec...</text>
+<rect x="80" y="1880" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1894" font-size="10" font-family="monospace" fill="#666666">GO:0038172</text>
+<text x="85" y="1910" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-33-mediated signaling p...</text>
+<rect x="80" y="2025" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2039" font-size="10" font-family="monospace" fill="#666666">GO:0038173</text>
+<text x="85" y="2055" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-17A-mediated signaling ...</text>
+<rect x="80" y="2170" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2184" font-size="10" font-family="monospace" fill="#666666">GO:0038061</text>
+<text x="85" y="2200" font-size="11" font-family="Arial, sans-serif" fill="#212121">non-canonical NF-kappaB signal tran...</text>
+<rect x="80" y="2400" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2414" font-size="10" font-family="monospace" fill="#666666">GO:0006955</text>
+<text x="85" y="2430" font-size="11" font-family="Arial, sans-serif" fill="#212121">immune response</text>
+<rect x="80" y="2545" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2559" font-size="10" font-family="monospace" fill="#666666">GO:0042088</text>
+<text x="85" y="2575" font-size="11" font-family="Arial, sans-serif" fill="#212121">T-helper 1 type immune response</text>
+<rect x="80" y="2690" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2704" font-size="10" font-family="monospace" fill="#666666">GO:0071222</text>
+<text x="85" y="2720" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to lipopolysaccha...</text>
+<rect x="80" y="2920" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2934" font-size="10" font-family="monospace" fill="#666666">GO:0009887</text>
+<text x="85" y="2950" font-size="11" font-family="Arial, sans-serif" fill="#212121">animal organ morphogenesis</text>
+<rect x="80" y="3065" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3079" font-size="10" font-family="monospace" fill="#666666">GO:0042475</text>
+<text x="85" y="3095" font-size="11" font-family="Arial, sans-serif" fill="#212121">odontogenesis of dentin-containing ...</text>
+<rect x="80" y="3295" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3309" font-size="10" font-family="monospace" fill="#666666">GO:0019886</text>
+<text x="85" y="3325" font-size="11" font-family="Arial, sans-serif" fill="#212121">antigen processing and presentation...</text>
+<rect x="80" y="3525" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3539" font-size="10" font-family="monospace" fill="#666666">GO:0048468</text>
+<text x="85" y="3555" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell development</text>
+<rect x="80" y="3670" width="200" height="45" fill="#ffffff" stroke="#9e9e9e" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3684" font-size="10" font-family="monospace" fill="#666666">GO:0070936</text>
+<text x="85" y="3700" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein K48-linked ubiquitination</text>
+<rect x="80" y="3815" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3829" font-size="10" font-family="monospace" fill="#666666">GO:0000045</text>
+<text x="85" y="3845" font-size="11" font-family="Arial, sans-serif" fill="#212121">autophagosome assembly</text>
+<rect x="80" y="3960" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3974" font-size="10" font-family="monospace" fill="#666666">GO:0009299</text>
+<text x="85" y="3990" font-size="11" font-family="Arial, sans-serif" fill="#212121">mRNA transcription</text>
+<rect x="80" y="4105" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4119" font-size="10" font-family="monospace" fill="#666666">GO:0051865</text>
+<text x="85" y="4135" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein autoubiquitination</text>
+<rect x="80" y="4335" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4349" font-size="10" font-family="monospace" fill="#666666">GO:0042742</text>
+<text x="85" y="4365" font-size="11" font-family="Arial, sans-serif" fill="#212121">defense response to bacterium</text>
+<rect x="80" y="4480" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4494" font-size="10" font-family="monospace" fill="#666666">GO:0140374</text>
+<text x="85" y="4510" font-size="11" font-family="Arial, sans-serif" fill="#212121">antiviral innate immune response</text>
+<rect x="80" y="5270" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5284" font-size="10" font-family="monospace" fill="#666666">GO:0004842</text>
+<text x="85" y="5300" font-size="11" font-family="Arial, sans-serif" fill="#212121">ubiquitin-protein transferase activity</text>
+<rect x="80" y="5500" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5514" font-size="10" font-family="monospace" fill="#666666">GO:0005164</text>
+<text x="85" y="5530" font-size="11" font-family="Arial, sans-serif" fill="#212121">tumor necrosis factor receptor binding</text>
+<rect x="80" y="5790" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5804" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="5820" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<path d="M332,5292.5 L337,5297.5 L348,5284.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5522.5 L337,5527.5 L348,5514.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,5812.5 L390,5812.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5812.5 L382,5808.5 L382,5816.5 Z" fill="#ff9800" />
+<rect x="390" y="5790" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5804" font-size="10" font-family="monospace" fill="#666666">GO:0031625</text>
+<text x="395" y="5820" font-size="11" font-family="Arial, sans-serif" fill="#212121">ubiquitin protein ligase binding</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,597.5 L337,602.5 L348,589.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,2422.5 L390,2422.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,2422.5 L382,2418.5 L382,2426.5 Z" fill="#ff9800" />
+<rect x="390" y="2400" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="2414" font-size="10" font-family="monospace" fill="#666666">GO:0045087</text>
+<text x="395" y="2430" font-size="11" font-family="Arial, sans-serif" fill="#212121">innate immune response</text>
+<path d="M280,2942.5 L390,2942.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,2942.5 L382,2938.5 L382,2946.5 Z" fill="#ff9800" />
+<rect x="390" y="2920" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="2934" font-size="10" font-family="monospace" fill="#666666">GO:0042475</text>
+<text x="395" y="2950" font-size="11" font-family="Arial, sans-serif" fill="#212121">odontogenesis of dentin-containing ...</text>
+<circle cx="340" cy="3317.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,742.5 L390,742.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,742.5 L382,738.5 L382,746.5 Z" fill="#ff9800" />
+<rect x="390" y="720" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0034142</text>
+<text x="395" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">toll-like receptor 4 signaling pathway</text>
+<circle cx="340" cy="887.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1032.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2567.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,3087.5 L337,3092.5 L348,3079.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="367.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,3547.5 L390,3547.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3547.5 L382,3543.5 L382,3551.5 Z" fill="#ff9800" />
+<rect x="390" y="3525" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3539" font-size="10" font-family="monospace" fill="#666666">GO:0030316</text>
+<text x="395" y="3555" font-size="11" font-family="Arial, sans-serif" fill="#212121">osteoclast differentiation</text>
+<path d="M332,1177.5 L337,1182.5 L348,1169.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4357.5 L337,4362.5 L348,4349.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1322.5 L337,1327.5 L348,1314.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<text x="340" y="1472.5" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#9e9e9e">?</text>
+<text x="340" y="3697.5" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#9e9e9e">?</text>
+<path d="M332,1612.5 L337,1617.5 L348,1604.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1757.5 L337,1762.5 L348,1749.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1902.5 L337,1907.5 L348,1894.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2047.5 L337,2052.5 L348,2039.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3837.5 L337,3842.5 L348,3829.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2192.5 L337,2197.5 L348,2184.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4502.5 L337,4507.5 L348,4494.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,3982.5 L390,3982.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3982.5 L382,3978.5 L382,3986.5 Z" fill="#ff9800" />
+<rect x="390" y="3960" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3974" font-size="10" font-family="monospace" fill="#666666">GO:0045944</text>
+<text x="395" y="3990" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of transcriptio...</text>
+<path d="M332,4127.5 L337,4132.5 L348,4119.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2712.5 L337,2717.5 L348,2704.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="5257.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5267.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5277.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Consistent with experimental evidence and represents core</text>
+<text x="400" y="5286.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 function in multiple Reactome pathways.</text>
+<rect x="395" y="5487.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5497.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5507.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a well-established function of TRAF6. Although</text>
+<text x="400" y="5516.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotated as IEA, it represents a core adaptor function</text>
+<text x="400" y="5525.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">that is experimentally validated in the literature. TRAF6</text>
+<text x="400" y="5534.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">directly binds cytoplasmic tails of TNF receptor</text>
+<text x="400" y="5543.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">superfamily members.</text>
+<rect x="645" y="5777.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="5787.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="5797.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Generic protein binding term should be replaced with more</text>
+<text x="650" y="5806.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific binding functions based on the actual interactor.</text>
+<text x="650" y="5815.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 serves as an adaptor with specific binding domains.</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 is essential for embryonic development, with</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">knockout mice showing perinatal lethality. The</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental role is particularly important for</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ectodermal development.</text>
+<rect x="395" y="562.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="572.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="582.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 plays a role in B cell activation through CD40</text>
+<text x="400" y="591.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling, which contributes to immunoglobulin production.</text>
+<text x="400" y="600.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While not the most central function, it is a validated</text>
+<text x="400" y="609.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">consequence of TRAF6's role in immune signaling.</text>
+<rect x="645" y="2387.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="2397.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="2407.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While correct, this term is too broad. TRAF6's role should</text>
+<text x="650" y="2416.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">be specified as 'innate immune response' (GO:0045087)</text>
+<text x="650" y="2425.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which better captures its primary function in TLR and</text>
+<text x="650" y="2434.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-1R signaling.</text>
+<rect x="645" y="2907.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="2917.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="2927.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While TRAF6 is involved in organ morphogenesis, the</text>
+<text x="650" y="2936.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation should be more specific. TRAF6's role is</text>
+<text x="650" y="2945.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">particularly in 'ectodermal development' and</text>
+<text x="650" y="2954.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">'odontogenesis'.</text>
+<rect x="395" y="3282.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3292.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3302.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While TRAF6 is expressed in dendritic cells and</text>
+<text x="400" y="3311.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">contributes to their activation, antigen presentation is</text>
+<text x="400" y="3320.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">not a core function but rather a downstream consequence of</text>
+<text x="400" y="3329.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6's role in immune cell signaling.</text>
+<rect x="645" y="707.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="717.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="727.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This should be annotated more specifically as 'toll-like</text>
+<text x="650" y="736.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">receptor 4 signaling pathway' (GO:0034142) which is the</text>
+<text x="650" y="745.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">actual pathway TRAF6 participates in. LPS-mediated</text>
+<text x="650" y="754.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling is just one aspect of TLR4 signaling.</text>
+<rect x="395" y="852.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="862.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="872.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a downstream effect of TRAF6's role in TLR/IL-1R</text>
+<text x="400" y="881.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling rather than a core function. The primary role is</text>
+<text x="400" y="890.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signal transduction leading to NF-κB activation, with</text>
+<text x="400" y="899.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytokine production being a consequence.</text>
+<rect x="395" y="997.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1007.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1017.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Like IL-12 regulation, this is a downstream consequence of</text>
+<text x="400" y="1026.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6's signaling function rather than a direct core</text>
+<text x="400" y="1035.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. The core function is NF-κB activation.</text>
+<rect x="395" y="2532.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2542.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2552.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a downstream immunological outcome of TRAF6</text>
+<text x="400" y="2561.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function in dendritic cells, not a direct core function.</text>
+<text x="400" y="2570.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6's primary role is in signal transduction.</text>
+<rect x="395" y="3052.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3062.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3072.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 knockout mice and human mutations show clear tooth</text>
+<text x="400" y="3081.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">development defects. This is a specific developmental</text>
+<text x="400" y="3090.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function mediated through EDAR signaling.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While TRAF6 is involved in dendritic cell signaling, cell</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">differentiation is not its primary function. This is more</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of a consequence of its signaling role.</text>
+<rect x="645" y="3512.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3522.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3532.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term is too generic. TRAF6 has specific roles in</text>
+<text x="650" y="3541.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">osteoclast differentiation and ectodermal cell development</text>
+<text x="650" y="3550.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">that should be annotated more precisely.</text>
+<rect x="395" y="1142.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1152.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1162.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is one of TRAF6's core functions, extensively</text>
+<text x="400" y="1171.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">validated experimentally. TRAF6 mediates NF-κB activation</text>
+<text x="400" y="1180.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in multiple pathways through its E3 ligase activity.</text>
+<rect x="395" y="4322.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4332.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4342.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 is essential for TLR-mediated responses to bacterial</text>
+<text x="400" y="4351.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">components like LPS. This is a well-validated function</text>
+<text x="400" y="4360.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through its role in innate immunity.</text>
+<rect x="395" y="1287.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1297.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1307.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function of TRAF6 with strong experimental support.</text>
+<text x="400" y="1316.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6's E3 ligase activity is essential for NF-κB</text>
+<text x="400" y="1325.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activation.</text>
+<rect x="395" y="1432.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1442.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1452.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation seems contradictory to TRAF6's</text>
+<text x="400" y="1461.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-established role as a positive regulator of NF-κB.</text>
+<text x="400" y="1470.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Without access to PMID:25038658, cannot determine if this</text>
+<text x="400" y="1479.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a specific feedback mechanism or experimental</text>
+<text x="400" y="1488.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">context.</text>
+<rect x="395" y="3657.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3667.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3677.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 is primarily known for K63-linked ubiquitination.</text>
+<text x="400" y="3686.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">K48-linked ubiquitination leads to proteasomal</text>
+<text x="400" y="3695.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">degradation, which is not TRAF6's typical function. Need</text>
+<text x="400" y="3704.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">to verify if this represents a minor activity or specific</text>
+<text x="400" y="3713.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">context.</text>
+<rect x="395" y="1577.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1587.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1597.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function of TRAF6 in innate immunity. TRAF6 is</text>
+<text x="400" y="1606.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">recruited to TLR4 via MyD88-IRAK complex and is required</text>
+<text x="400" y="1615.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">for downstream signaling.</text>
+<rect x="395" y="1722.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1732.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1742.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 functions in cytosolic pattern recognition receptor</text>
+<text x="400" y="1751.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathways including RIG-I/MAVS for antiviral responses.</text>
+<text x="400" y="1760.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This extends its role beyond membrane receptors.</text>
+<rect x="395" y="1867.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1877.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1887.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 is involved in IL-1 receptor family signaling, which</text>
+<text x="400" y="1896.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">includes IL-33. This is consistent with its adaptor role</text>
+<text x="400" y="1905.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in cytokine signaling.</text>
+<rect x="395" y="2012.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2022.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2032.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 functions in IL-17 signaling, contributing to</text>
+<text x="400" y="2041.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">inflammatory responses. This represents another cytokine</text>
+<text x="400" y="2050.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway utilizing TRAF6.</text>
+<rect x="395" y="3802.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3812.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3822.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Emerging function of TRAF6 in autophagy regulation through</text>
+<text x="400" y="3831.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">K63-linked ubiquitination of autophagy machinery. Multiple</text>
+<text x="400" y="3840.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">studies support this non-canonical role.</text>
+<rect x="395" y="2157.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2167.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2177.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While TRAF6 primarily activates canonical NF-κB, it can</text>
+<text x="400" y="2186.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">also contribute to non-canonical pathway activation in</text>
+<text x="400" y="2195.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">certain contexts, particularly through NIK stabilization.</text>
+<rect x="395" y="4467.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4477.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4487.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 participates in antiviral signaling, particularly</text>
+<text x="400" y="4496.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through cytosolic sensors and can activate IRF7 for</text>
+<text x="400" y="4505.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">interferon production.</text>
+<rect x="645" y="3947.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3957.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3967.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term is too broad and doesn't capture TRAF6's</text>
+<text x="650" y="3976.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific role. TRAF6 primarily regulates transcription</text>
+<text x="650" y="3985.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">indirectly through NF-κB and MAPK activation, not as a</text>
+<text x="650" y="3994.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">direct transcriptional regulator. Should be 'positive</text>
+<text x="650" y="4003.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation of transcription by RNA polymerase II' with</text>
+<text x="650" y="4012.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">qualifier specifying it acts through signal transduction.</text>
+<rect x="395" y="4092.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4102.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4112.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TRAF6 autoubiquitination is a key aspect of its signaling</text>
+<text x="400" y="4121.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanism. The K63-linked autoubiquitination creates</text>
+<text x="400" y="4130.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">docking sites for downstream signaling proteins.</text>
+<rect x="395" y="2677.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2687.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2697.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-established function of TRAF6 in TLR4-mediated</text>
+<text x="400" y="2706.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response to bacterial LPS. Essential for downstream NF-κB</text>
+<text x="400" y="2715.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and MAPK activation.</text>
+<rect x="700" y="5270" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5280" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="5288" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 functions as a ubiquitin-protein transferase (E3 ubiquitin</text>
+<text x="705" y="5297" font-size="8" font-family="Arial, sans-serif" fill="#212121">ligase)</text>
+<rect x="700" y="5500" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5510" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="5518" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 directly interacts with a variety of upstream receptors and</text>
+<text x="705" y="5527" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling proteins... from the TNF receptor superfamily</text>
+<rect x="1030" y="5500" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="5510" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="1035" y="5518" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the TNF receptor superfamily pathways, TRAF6 associates with</text>
+<text x="1035" y="5527" font-size="8" font-family="Arial, sans-serif" fill="#212121">receptors like CD40 and RANK to propagate signals leading to NF-κB</text>
+<text x="1035" y="5536" font-size="8" font-family="Arial, sans-serif" fill="#212121">activation</text>
+<rect x="950" y="5790" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="5800" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="5808" font-size="8" font-family="Arial, sans-serif" fill="#212121">As an adaptor, TRAF6 directly interacts with a variety of upstream</text>
+<text x="955" y="5817" font-size="8" font-family="Arial, sans-serif" fill="#212121">receptors and signaling proteins</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6-null mutants are perinatal lethal with a complex phenotype</text>
+<rect x="1030" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="1035" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is required for lymph node organogenesis during embryonic</text>
+<text x="1035" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">development</text>
+<rect x="700" y="575" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="585" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="593" font-size="8" font-family="Arial, sans-serif" fill="#212121">Via CD40 in B cells, TRAF6 helps induce immunoglobulin production</text>
+<rect x="950" y="2400" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="2410" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="2418" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 plays an essential role in numerous biological processes,</text>
+<text x="955" y="2427" font-size="8" font-family="Arial, sans-serif" fill="#212121">particularly those related to immune system function... A major</text>
+<text x="955" y="2436" font-size="8" font-family="Arial, sans-serif" fill="#212121">process controlled by TRAF6 is the innate immune response</text>
+<text x="955" y="2445" font-size="8" font-family="Arial, sans-serif" fill="#212121">(GO:0045087)</text>
+<rect x="950" y="2920" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="2930" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="2938" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 has an indispensable role in ectodermal organ development: it</text>
+<text x="955" y="2947" font-size="8" font-family="Arial, sans-serif" fill="#212121">is involved in the formation of skin appendages such as hair</text>
+<text x="955" y="2956" font-size="8" font-family="Arial, sans-serif" fill="#212121">follicles, teeth, and sweat glands</text>
+<rect x="700" y="3295" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3305" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="3313" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 in dendritic cells is needed for Th priming</text>
+<rect x="950" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">In Toll-like receptor (TLR) and IL-1R signaling (e.g. TLR4 or IL-1β</text>
+<text x="955" y="747" font-size="8" font-family="Arial, sans-serif" fill="#212121">receptor pathways), TRAF6 is recruited via the MyD88–IRAK kinase</text>
+<text x="955" y="756" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex</text>
+<rect x="1280" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1285" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11460167]</text>
+<text x="1285" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is a signal transducer that activates IkappaB kinase (IKK) and</text>
+<text x="1285" y="747" font-size="8" font-family="Arial, sans-serif" fill="#212121">Jun amino-terminal kinase (JNK) in response to pro-inflammatory</text>
+<text x="1285" y="756" font-size="8" font-family="Arial, sans-serif" fill="#212121">mediators such as interleukin-1 (IL-1) and lipopolysaccharides (LPS)</text>
+<rect x="700" y="865" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="875" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="883" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is required for the production of proinflammatory cytokines</text>
+<text x="705" y="892" font-size="8" font-family="Arial, sans-serif" fill="#212121">(such as IL-6, TNF-α) in response to pathogenic stimuli</text>
+<rect x="700" y="1010" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1020" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="1028" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is required for the production of proinflammatory cytokines</text>
+<text x="705" y="1037" font-size="8" font-family="Arial, sans-serif" fill="#212121">(such as IL-6, TNF-α)</text>
+<rect x="700" y="2545" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2555" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="2563" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 in dendritic cells is needed for Th priming</text>
+<rect x="700" y="3065" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3075" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="3083" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6^–/– mice display features of hypohidrotic ectodermal dysplasia</text>
+<text x="705" y="3092" font-size="8" font-family="Arial, sans-serif" fill="#212121">(HED), including missing or malformed hair and sweat glands</text>
+<rect x="1030" y="3065" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="3075" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="1035" y="3083" font-size="8" font-family="Arial, sans-serif" fill="#212121">A de novo heterozygous missense mutation in TRAF6 was identified in</text>
+<text x="1035" y="3092" font-size="8" font-family="Arial, sans-serif" fill="#212121">a patient with Hypohidrotic Ectodermal Dysplasia, who presented</text>
+<text x="1035" y="3101" font-size="8" font-family="Arial, sans-serif" fill="#212121">with... hypodontia (missing teeth)</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 in dendritic cells is needed for Th priming</text>
+<rect x="950" y="3525" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="3535" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="3543" font-size="8" font-family="Arial, sans-serif" fill="#212121">Another critical biological process involving TRAF6 is osteoclast</text>
+<text x="955" y="3552" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation and bone resorption</text>
+<rect x="700" y="1155" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1165" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="1173" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 triggers NF-κB and JNK pathways</text>
+<rect x="1030" y="1155" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1165" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11460167]</text>
+<text x="1035" y="1173" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is a signal transducer that activates IkappaB kinase (IKK)</text>
+<rect x="700" y="4335" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4345" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11460167]</text>
+<text x="705" y="4353" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is a signal transducer that activates IkappaB kinase (IKK) and</text>
+<text x="705" y="4362" font-size="8" font-family="Arial, sans-serif" fill="#212121">Jun amino-terminal kinase (JNK) in response to pro-inflammatory</text>
+<text x="705" y="4371" font-size="8" font-family="Arial, sans-serif" fill="#212121">mediators such as interleukin-1 (IL-1) and lipopolysaccharides (LPS)</text>
+<rect x="1030" y="4335" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4345" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="1035" y="4353" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6-deficient cells fail to activate NF-κB and MAP kinases in</text>
+<text x="1035" y="4362" font-size="8" font-family="Arial, sans-serif" fill="#212121">response to lipopolysaccharide (TLR4 ligand)</text>
+<rect x="700" y="1300" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1310" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11460167]</text>
+<text x="705" y="1318" font-size="8" font-family="Arial, sans-serif" fill="#212121">TAK1 kinase complex phosphorylates and activates IKK in a manner</text>
+<text x="705" y="1327" font-size="8" font-family="Arial, sans-serif" fill="#212121">that depends on TRAF6 and Ubc13-Uev1A</text>
+<rect x="700" y="1590" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1600" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="1608" font-size="8" font-family="Arial, sans-serif" fill="#212121">In Toll-like receptor (TLR) and IL-1R signaling (e.g. TLR4 or IL-1β</text>
+<text x="705" y="1617" font-size="8" font-family="Arial, sans-serif" fill="#212121">receptor pathways), TRAF6 is recruited via the MyD88–IRAK kinase</text>
+<text x="705" y="1626" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex</text>
+<rect x="700" y="1735" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1745" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="1753" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 also links to the RIG-I/MAVS antiviral pathway and other</text>
+<text x="705" y="1762" font-size="8" font-family="Arial, sans-serif" fill="#212121">cytosolic pattern-recognition receptor pathways, functioning as a</text>
+<text x="705" y="1771" font-size="8" font-family="Arial, sans-serif" fill="#212121">key molecule in antiviral innate signaling</text>
+<rect x="700" y="1880" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1890" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="1898" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 is a signal transducer for interleukin-1</text>
+<rect x="700" y="2025" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2035" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="2043" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 serves as a central hub in multiple immune signaling pathways</text>
+<rect x="700" y="3815" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3825" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="3833" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 has been shown to interact with autophagy regulators (such as</text>
+<text x="705" y="3842" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beclin-1 and AMBRA1) and can promote autophagic degradation of</text>
+<text x="705" y="3851" font-size="8" font-family="Arial, sans-serif" fill="#212121">certain substrates</text>
+<rect x="700" y="2170" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2180" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="2188" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 activates NF-κB and MAPK pathways</text>
+<rect x="700" y="4480" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4490" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="4498" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6 helps activate not only NF-κB but also interferon-regulatory</text>
+<text x="705" y="4507" font-size="8" font-family="Arial, sans-serif" fill="#212121">factors; for instance, it can activate IRF7 in response to cytosolic</text>
+<text x="705" y="4516" font-size="8" font-family="Arial, sans-serif" fill="#212121">viral DNA/RNA detection</text>
+<rect x="950" y="3960" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="3970" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="955" y="3978" font-size="8" font-family="Arial, sans-serif" fill="#212121">In osteoclast nuclei, TRAF6 was found to act as a co-regulator of</text>
+<text x="955" y="3987" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription, in complex with nuclear adaptor protein FHL2 and</text>
+<text x="955" y="3996" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factor RUNX1</text>
+<rect x="700" y="4105" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4115" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="4123" font-size="8" font-family="Arial, sans-serif" fill="#212121">upon receptor stimulation, TRAF6 autoubiquitination and</text>
+<text x="705" y="4132" font-size="8" font-family="Arial, sans-serif" fill="#212121">K63-ubiquitin conjugation create docking sites for the TAK1 kinase</text>
+<text x="705" y="4141" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex</text>
+<rect x="700" y="2690" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2700" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:human/TRAF6/TRA...]</text>
+<text x="705" y="2708" font-size="8" font-family="Arial, sans-serif" fill="#212121">TRAF6-deficient cells fail to activate NF-κB and MAP kinases in</text>
+<text x="705" y="2717" font-size="8" font-family="Arial, sans-serif" fill="#212121">response to lipopolysaccharide (TLR4 ligand)</text>
+<rect x="600.0" y="6085" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="6120.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="6120.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

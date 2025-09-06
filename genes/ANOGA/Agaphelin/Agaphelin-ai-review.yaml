@@ -1,0 +1,171 @@
+id: Q7Q3J5
+gene_symbol: Agaphelin
+taxon:
+  id: NCBITaxon:7165
+  label: Anopheles gambiae
+description: 'Agaphelin is a mosquito salivary protein containing a single Kazal domain that functions as a highly selective serine protease inhibitor. It specifically targets neutrophil elastase (ELANE) and proteinase 3 (PRTN3) with high affinity, preventing blood coagulation and inflammatory responses during blood feeding. The protein is secreted in saliva and its expression is significantly upregulated upon Plasmodium falciparum infection, suggesting a role in facilitating parasite transmission. Agaphelin exhibits anti-thrombotic and anti-inflammatory activities without causing bleeding complications by preserving hemostasis.'
+existing_annotations:
+- term:
+    id: GO:0035821
+    label: modulation of process of another organism
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000108
+  review:
+    summary: 'This annotation is appropriate but too general. Agaphelin specifically modulates host hemostatic and inflammatory responses during blood feeding, which is captured by this term.'
+    action: ACCEPT
+- term:
+    id: GO:0004867
+    label: serine-type endopeptidase inhibitor activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This is the primary molecular function of Agaphelin. Strong experimental evidence from PMID:25211214 shows it specifically inhibits serine proteases, particularly neutrophil elastase and proteinase 3.'
+    action: ACCEPT
+- term:
+    id: GO:0005576
+    label: extracellular region
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Correct cellular component. Agaphelin is secreted in mosquito saliva and functions in the extracellular space during blood feeding.'
+    action: ACCEPT
+- term:
+    id: GO:0030414
+    label: peptidase inhibitor activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This is a parent term of GO:0004867 (serine-type endopeptidase inhibitor activity). While correct, the more specific child term better describes Agaphelin function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0090729
+    label: toxin activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Appropriate annotation. Agaphelin acts as a salivary toxin that modulates host responses during blood feeding, though it does not cause harmful effects like traditional toxins.'
+    action: ACCEPT
+- term:
+    id: GO:0140106
+    label: hematophagy
+  evidence_type: IDA
+  original_reference_id: PMID:25211214
+  review:
+    summary: 'Excellent experimental evidence. PMID:25211214 directly demonstrates Agaphelin role in blood feeding through inhibition of host hemostatic responses.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:25211214
+        supporting_text: "Blockade of neutrophil elastase emerges as a novel antihemostatic mechanism in hematophagy"
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:25211214
+  review:
+    summary: 'While the IPI evidence shows Agaphelin binds to ELANE, this general term is not informative. The specific serine protease inhibitor activity (GO:0004867) better captures the functional significance of this binding.'
+    action: REMOVE
+- term:
+    id: GO:0030414
+    label: peptidase inhibitor activity
+  evidence_type: IDA
+  original_reference_id: PMID:25211214
+  review:
+    summary: 'Good experimental evidence, but the more specific term GO:0004867 (serine-type endopeptidase inhibitor activity) would be more appropriate given the specificity demonstrated in the paper.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0004867
+        label: serine-type endopeptidase inhibitor activity
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000108
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
+  findings: []
+- id: PMID:25211214
+  title: Plasmodium falciparum infection induces expression of a mosquito salivary
+    protein (Agaphelin) that targets neutrophil function and inhibits thrombosis without
+    impairing hemostasis.
+  findings:
+    - statement: Agaphelin is a tight inhibitor of neutrophil elastase with KD ~10 nM
+      supporting_text: "chemically synthesized Agaphelin behaves as a slow and tight inhibitor of neutrophil elastase (K(D) ∼ 10 nM)"
+    - statement: Inhibits neutrophil chemotaxis toward fMLP
+      supporting_text: "TAXIscan chamber assay revealed that Agaphelin inhibits neutrophil chemotaxis toward fMLP, affecting several parameter associated with cell migration"
+    - statement: Blocks neutrophil extracellular trap (NET) formation
+      supporting_text: "Agaphelin inhibits neutrophil extracellular traps (NETs) formation"
+    - statement: Prevents elastase-mediated cleavage of tissue factor pathway inhibitor (TFPI)
+      supporting_text: "abrogates elastase-mediated cleavage of tissue factor pathway inhibitor"
+    - statement: Inhibits FeCl3-induced arterial thrombosis without impairing hemostasis
+      supporting_text: "prevents FeCl3-induced arterial thrombosis, without impairing hemostasis"
+    - statement: Expression is upregulated in Anopheles gambiae salivary glands upon P. falciparum infection
+      supporting_text: "at least 43 genes are differentially expressed in the glands of Plasmodium falciparum-infected Anopheles gambiae mosquitoes. Among the upregulated genes, one codes for Agaphelin"
+- id: PMID:32201094
+  title: Agaphelin modulates the activation of human bronchial epithelial cells induced by lipopolysaccharide and IL-4
+  findings:
+    - statement: Agaphelin reduces CCL2 and IL-8 production in stimulated epithelial cells
+      supporting_text: "Agaphelin modulates the activation of human bronchial epithelial cells induced by lipopolysaccharide and IL-4"
+    - statement: Demonstrates anti-inflammatory activity
+      supporting_text: "Agaphelin modulates the activation of human bronchial epithelial cells"
+- id: PMID:33401017
+  title: Elastase inhibitor agaphelin protects from acute ischemic stroke in mice by reducing thrombosis, blood-brain barrier damage, and inflammation
+  findings:
+    - statement: Agaphelin reduces ischemia-induced activation of MAPK and NF-kappa-B pathways
+      supporting_text: "Elastase inhibitor agaphelin protects from acute ischemic stroke in mice by reducing thrombosis, blood-brain barrier damage, and inflammation"
+    - statement: Decreases caspase-3-dependent apoptosis in damaged tissues
+      supporting_text: "Elastase inhibitor agaphelin protects from acute ischemic stroke"
+    - statement: Protects against stroke without causing hemorrhagic complications
+      supporting_text: "protects from acute ischemic stroke in mice by reducing thrombosis, blood-brain barrier damage, and inflammation"
+core_functions:
+- description: Inhibits neutrophil elastase (ELANE) and proteinase 3 (PRTN3) through high-affinity binding via Kazal domain
+  molecular_function: 
+    id: GO:0004867
+    label: serine-type endopeptidase inhibitor activity
+  directly_involved_in:
+    - id: GO:0090024
+      label: negative regulation of neutrophil chemotaxis
+    - id: GO:0140645
+      label: neutrophil extracellular trap formation
+  locations:
+    - id: GO:0005576
+      label: extracellular region
+  anatomical_locations:
+    - id: UBERON:0001044
+      label: saliva-secreting gland
+  supported_by:
+    - reference_id: PMID:25211214
+      supporting_text: "Agaphelin inhibits neutrophil chemotaxis toward fMLP, affecting several parameter associated with cell migration"  
+    - reference_id: PMID:25211214
+      supporting_text: "Agaphelin inhibits neutrophil extracellular traps (NETs) formation"
+
+- description: Prevents tissue factor pathway inhibitor (TFPI) cleavage to maintain anticoagulant activity
+  molecular_function:
+    id: GO:0004867
+    label: serine-type endopeptidase inhibitor activity
+  directly_involved_in:
+    - id: GO:0030195
+      label: negative regulation of blood coagulation
+  locations:
+    - id: GO:0005576
+      label: extracellular region
+  supported_by:
+    - reference_id: PMID:25211214
+      supporting_text: "abrogates elastase-mediated cleavage of tissue factor pathway inhibitor, and attenuates neutrophil-induced coagulation"
+
+- description: Facilitates blood feeding through modulation of host hemostatic and inflammatory responses
+  molecular_function:
+    id: GO:0090729
+    label: toxin activity
+  directly_involved_in:
+    - id: GO:0140106
+      label: hematophagy
+    - id: GO:0035821
+      label: modulation of process of another organism
+  locations:
+    - id: GO:0005576
+      label: extracellular region

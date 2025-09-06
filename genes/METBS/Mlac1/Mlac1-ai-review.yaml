@@ -1,0 +1,108 @@
+id: A0A0B4F5S2
+gene_symbol: Mlac1
+aliases:
+- Abr2
+- MBR_10248
+taxon:
+  id: NCBITaxon:1276141
+  label: Metarhizium brunneum ARSEF 3297
+description: 'Laccase enzyme that catalyzes the oxidation of anthraquinone derivatives as part of the Pks1 gene cluster involved in conidial pigment biosynthesis. Functions downstream of the polyketide synthase Pks1 and dehydratase EthD to produce mature conidial pigments that provide protection against UV radiation, heat, and cold stress. Contains three plastocyanin-like domains and binds four copper ions essential for its oxidoreductase activity.'
+existing_annotations:
+- term:
+    id: GO:0003824
+    label: catalytic activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Too general. The specific catalytic activity is laccase activity (EC 1.10.3.-), which is an oxidoreductase that oxidizes phenolic substrates.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0016682
+      label: oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor
+- term:
+    id: GO:0005507
+    label: copper ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct. The enzyme binds 4 copper ions per monomer, which are essential for its laccase activity.'
+    action: ACCEPT
+- term:
+    id: GO:0009986
+    label: cell surface
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Reasonable annotation based on homology. Laccases involved in pigment biosynthesis are often localized to the cell surface during conidiation.'
+    action: ACCEPT
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Correct but should be more specific. Laccase activity is a specific type of oxidoreductase activity.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0016682
+      label: oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Too general. The specific metal ion is copper, as already captured in GO:0005507.'
+    action: REMOVE
+core_functions:
+- description: Catalyzes the oxidation of anthraquinone derivatives to produce conidial pigments
+  molecular_function:
+    id: GO:0016682
+    label: oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor
+  directly_involved_in:
+  - id: GO:0030639
+    label: polyketide biosynthetic process
+  supported_by:
+  - reference_id: UniProt:A0A0B4F5S2
+- description: Binds copper ions essential for catalytic activity
+  molecular_function:
+    id: GO:0005507
+    label: copper ion binding
+references:
+- id: PMID:29958281
+  title: Duplication of a Pks gene cluster and subsequent functional diversification facilitate environmental adaptation in Metarhizium species
+  findings:
+  - statement: Mlac1 is part of the Pks1 gene cluster that produces anthraquinone-derived conidial pigments
+    supporting_text: We designated the Metarhizium gene cluster containing the Pks1 gene as Pks1-gc. This cluster included Abr2, EthD and Pks1
+  - statement: Functions in pigment biosynthesis pathway with Pks1 and EthD
+    supporting_text: PKS1 is involved in synthesis of an anthraquinone derivative
+- id: PMID:25368161
+  title: Trajectory and genomic determinants of fungal-pathogen speciation and host adaptation
+  findings:
+  - statement: Genome sequence publication for Metarhizium brunneum strain ARSEF 3297
+    supporting_text: Trajectory and genomic determinants of fungal-pathogen speciation and host adaptation
+- id: UniProt:A0A0B4F5S2
+  title: UniProt entry for Mlac1
+  findings:
+  - statement: Characterized as laccase with EC 1.10.3.- activity
+  - statement: Binds 4 copper ions per monomer essential for activity
+    supporting_text: Binds 4 Cu cations per monomer
+  - statement: Contains three plastocyanin-like domains typical of multicopper oxidases
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []

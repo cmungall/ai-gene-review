@@ -1,0 +1,45 @@
+{
+  "pdb_id": "2X1C",
+  "description": "Precursor form (Cys103Ala mutant)",
+  "chains": [
+    {
+      "chain_id": "A",
+      "num_residues": 521
+    },
+    {
+      "chain_id": "B",
+      "num_residues": 584
+    },
+    {
+      "chain_id": "C",
+      "num_residues": 495
+    },
+    {
+      "chain_id": "D",
+      "num_residues": 421
+    }
+  ],
+  "catalytic_residues": {
+    "position_102": {
+      "chain": "D",
+      "residue": "GLY",
+      "expected": "GLY",
+      "matches": true
+    },
+    "position_103": {
+      "chain": "D",
+      "residue": "ALA",
+      "expected": "CYS (or ALA in mutant)",
+      "matches": true
+    },
+    "position_309": {
+      "chain": "D",
+      "residue": "SER",
+      "expected": "SER",
+      "matches": true
+    }
+  },
+  "cleavage_site": "Between Gly102 and Cys103",
+  "active_site_analysis": {},
+  "form": "mature (cleaved into subunits)"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1635" viewBox="0 0 1800 1635">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1635" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: SPCC16C4.02c (Schizosaccharomyces pombe 972h-)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="455" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="477.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="810" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="832.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological_process</text>
+<rect x="60" y="510" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="531.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">molecular_function</text>
+<rect x="60" y="865" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="886.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0008150</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">biological_process</text>
+<rect x="80" y="555" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="569" font-size="10" font-family="monospace" fill="#666666">GO:0003674</text>
+<text x="85" y="585" font-size="11" font-family="Arial, sans-serif" fill="#212121">molecular_function</text>
+<rect x="80" y="910" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="924" font-size="10" font-family="monospace" fill="#666666">GO:0005634</text>
+<text x="85" y="940" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleus</text>
+<rect x="80" y="1055" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1069" font-size="10" font-family="monospace" fill="#666666">GO:0032153</text>
+<text x="85" y="1085" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell division site</text>
+<rect x="80" y="1200" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1214" font-size="10" font-family="monospace" fill="#666666">GO:0044732</text>
+<text x="85" y="1230" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitotic spindle pole body</text>
+<path d="M332,569.5 L348,585.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,585.5 L348,569.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,214.5 L348,230.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,230.5 L348,214.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,924.5 L348,940.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,940.5 L348,924.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="1077.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1222.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<rect x="395" y="542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Root terms with ND evidence should be removed as they</text>
+<text x="400" y="571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">provide no functional information.</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Root terms with ND evidence should be removed as they</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">provide no functional information.</text>
+<rect x="395" y="897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Conflicting with expected cytoplasmic localization based</text>
+<text x="400" y="926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">on orthology and domain analysis. HDA evidence alone is</text>
+<text x="400" y="935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">insufficient for confident localization assignment.</text>
+<rect x="395" y="1042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Possible but not definitively established localization.</text>
+<text x="400" y="1071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">May reflect transient association during cell division</text>
+<text x="400" y="1080.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phases.</text>
+<rect x="395" y="1187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Supported by interaction data with SPB component Sfi1,</text>
+<text x="400" y="1216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">suggesting possible transient or partial association with</text>
+<text x="400" y="1225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">spindle pole body structures.</text>
+<rect x="600.0" y="1495" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

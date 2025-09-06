@@ -1,0 +1,158 @@
+id: Q9Y6Z9
+gene_symbol: sou1
+aliases:
+  - SPAC8E11.10
+taxon:
+  id: NCBITaxon:284812
+  label: Schizosaccharomyces pombe 972h-
+description: 'Sorbose reductase enzyme belonging to the short-chain dehydrogenase/reductase (SDR) family that catalyzes the NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol). Functions in alternative carbon source metabolism, enabling utilization of L-sorbose when present. The enzyme is likely cytosolic and represents a conserved metabolic capability for polyol interconversion in fission yeast.'
+existing_annotations:
+- term:
+    id: GO:0016616
+    label: oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP
+      as acceptor
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This IBA annotation correctly identifies the core enzymatic function of sou1 as an oxidoreductase acting on CH-OH groups with NAD(P) as acceptor. The deep research confirms sou1 is an SDR family enzyme that specifically catalyzes sorbose-to-sorbitol reduction using NADPH. UniProt (Q9Y6Z9) explicitly states this catalytic activity. While accurate, a more specific term like "sorbose reductase activity" (GO:0032115) would be more informative.'
+    action: ACCEPT
+    reason: 'The IBA annotation is biochemically accurate based on phylogenetic inference and aligns with the characterized function. The deep research states that S. pombe Sou1 "catalyzes the NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol)" and UniProt confirms "Catalyzes the NADP dependent reduction of L-sorbose to D-glucitol." This GO term correctly captures the oxidoreductase mechanism acting on alcohol groups, though GO:0032115 would be more specific.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'Based on homology to Candida albicans Sou1 and bacterial sorbose reductases, this enzyme catalyzes the NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol)'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'FUNCTION: Catalyzes the NADP dependent reduction of L-sorbose to D-glucitol'
+- term:
+    id: GO:0005975
+    label: carbohydrate metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This broad IEA annotation is correct but non-specific. The deep research confirms sou1 is involved in carbohydrate metabolism, specifically "sorbose metabolic process" and "fructose and mannose metabolism pathway." The enzyme converts the ketohexose L-sorbose to the sugar alcohol D-sorbitol, clearly placing it within carbohydrate metabolism.'
+    action: ACCEPT
+    reason: 'While accurate, this term is very general. The deep research provides evidence for more specific processes like "sorbose metabolic process (GO:0019311)" which would be more informative. However, the annotation is not incorrect - sorbose/sorbitol interconversion is definitively a carbohydrate metabolic process. Accepting as a valid but broad categorization.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'The Sou1 enzyme is involved in carbohydrate metabolic pathways, specifically the utilization of L-sorbose and D-sorbitol'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'This places Sou1 in the context of the sorbose metabolic process (GO:0019311)'
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This very broad IEA annotation is technically correct but provides minimal information. Sou1 is indeed an oxidoreductase, specifically a sorbose reductase (EC 1.1.1.289) that catalyzes redox reactions. However, this parent term is too general when more specific child terms like GO:0032115 (sorbose reductase activity) exist.'
+    action: ACCEPT
+    reason: 'While factually correct based on UniProt keyword mapping, this annotation lacks specificity. The deep research and UniProt both identify the enzyme as EC 1.1.1.289 (sorbose reductase), and more specific GO terms exist. However, the annotation is not wrong - just uninformatively broad. Accepting as technically accurate but noting that GO:0032115 would be preferred.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'RecName: Full=Sorbose reductase sou1; EC=1.1.1.289'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'The enzymatic mechanism is expected to follow the typical SDR oxidoreductase mechanism'
+- term:
+    id: GO:0032115
+    label: sorbose reductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'This IEA annotation precisely captures the core molecular function of sou1. Multiple lines of evidence confirm this is a sorbose reductase: UniProt names it "Sorbose reductase sou1" (EC 1.1.1.289), the deep research confirms homology to characterized sorbose reductases in Candida and bacteria, and the enzyme specifically catalyzes L-sorbose to D-glucitol reduction using NADPH.'
+    action: ACCEPT
+    reason: 'This is the most specific and accurate molecular function annotation for sou1. The annotation perfectly matches the enzyme"s characterized activity as confirmed by UniProt, sequence homology to experimentally validated sorbose reductases, and the enzyme"s EC number (1.1.1.289). This represents the core function of the protein.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'RecName: Full=Sorbose reductase sou1; EC=1.1.1.289'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'This activity corresponds to "sorbose reductase activity" (GO:0032115) in Gene Ontology terms'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'CATALYTIC ACTIVITY: Reaction=D-sorbitol + NADP(+) = keto-L-sorbose + NADPH + H(+)'
+- term:
+    id: GO:0044281
+    label: small molecule metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This broad IEA annotation is technically correct - sorbose and sorbitol are small molecules (hexose sugar and hexitol respectively). However, this term is extremely general and provides little functional insight. More specific terms like "sorbose metabolic process" (GO:0019311) would be more informative.'
+    action: ACCEPT
+    reason: 'The annotation is factually correct as sorbose (MW ~180) and sorbitol (MW ~182) are small molecules. The deep research confirms the enzyme participates in "small molecule metabolism" of sugars and sugar alcohols. While overly broad, the annotation is not incorrect. More specific child terms would be preferred but this parent term is valid.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'By catalyzing sorbose-to-sorbitol conversion, Sou1 enables S. pombe to potentially metabolize these sugars'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'The Sou1 enzyme is involved in carbohydrate metabolic pathways, specifically the utilization of L-sorbose and D-sorbitol'
+- term:
+    id: GO:0050085
+    label: mannitol 2-dehydrogenase (NADP+) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This IEA annotation appears to be incorrect. Sou1 is a sorbose reductase that acts on sorbose/sorbitol, not a mannitol dehydrogenase. UniProt clearly identifies it as "Sorbose reductase" (EC 1.1.1.289), not mannitol dehydrogenase. The deep research provides no evidence for mannitol metabolism. This is likely a misannotation from automated prediction.'
+    action: REMOVE
+    reason: 'Multiple lines of evidence contradict this annotation. UniProt explicitly names the enzyme "Sorbose reductase sou1" with EC 1.1.1.289, which is specific for sorbose/sorbitol interconversion, not mannitol. The deep research states the enzyme "specifically catalyzes the reversible reaction between L-sorbose and D-sorbitol" with no mention of mannitol activity. Mannitol and sorbitol are different sugar alcohols (epimers at C2), and the enzyme specificity is for sorbitol, not mannitol. This appears to be an incorrect automated annotation.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'RecName: Full=Sorbose reductase sou1; EC=1.1.1.289'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'Biochemical studies of orthologous enzymes support this function: for example, the Gluconobacter frateurii sorbose reductase specifically catalyzes the reversible reaction between L-sorbose and D-sorbitol using NADPH'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'CATALYTIC ACTIVITY: Reaction=D-sorbitol + NADP(+) = keto-L-sorbose + NADPH + H(+)'
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'This HDA annotation from a large-scale localization study is likely incorrect. The cited study tagged 4,431 proteins (~90% of the proteome) with YFP and may have false positives. Sou1 lacks signal peptides or transmembrane domains, and sugar-metabolizing SDR enzymes are typically cytosolic. The deep research notes "global localization surveys in yeast have not flagged Sou1 as part of an organellar proteome" and states localization is "likely cytosolic."'
+    action: REMOVE
+    reason: 'Multiple lines of evidence suggest cytosolic, not mitochondrial, localization. First, the protein lacks any recognizable signal peptide or transmembrane domains per UniProt. Second, the deep research explicitly states "No direct localization studies have been published for Sou1 in S. pombe, but its features suggest a cytosolic localization." Third, orthologous sorbose reductases in other organisms are cytosolic. Fourth, NADPH (the required cofactor) is predominantly generated in the cytosol via the pentose phosphate pathway. The HDA evidence comes from a massive proteome-wide screen that likely has false positives. The biological context strongly supports cytosolic over mitochondrial localization.'
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'No direct localization studies have been published for Sou1 in S. pombe, but its features suggest a cytosolic localization. The protein lacks any recognizable signal peptide or transmembrane domains'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'global localization surveys in yeast have not flagged Sou1 as part of an organellar proteome, further suggesting it is a cytoplasmic enzyme'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'NADPH – the required cofactor for sorbose reduction – is predominantly generated in the cytosol (e.g. via the pentose phosphate pathway)'
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission
+    yeast Schizosaccharomyces pombe.
+  findings: []
+core_functions:
+  - description: Catalyzes NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol) enabling alternative carbon source utilization
+    molecular_function:
+      id: GO:0032115
+      label: sorbose reductase activity
+    directly_involved_in:
+      - id: GO:0006060
+        label: sorbitol metabolic process
+      - id: GO:0042850
+        label: L-sorbose catabolic process
+      - id: GO:0006059
+        label: hexitol metabolic process
+    locations:
+      - id: GO:0005829
+        label: cytosol
+    substrates:
+      - id: CHEBI:17266
+        label: L-sorbose
+      - id: CHEBI:18009
+        label: NADP(+)
+    supported_by:
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-uniprot.txt'
+        supporting_text: 'RecName: Full=Sorbose reductase sou1; EC=1.1.1.289; CATALYTIC ACTIVITY: Reaction=D-sorbitol + NADP(+) = keto-L-sorbose + NADPH + H(+)'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'Based on homology to Candida albicans Sou1 and bacterial sorbose reductases, this enzyme catalyzes the NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol)'
+      - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
+        supporting_text: 'No direct localization studies have been published for Sou1 in S. pombe, but its features suggest a cytosolic localization. The protein lacks any recognizable signal peptide or transmembrane domains'

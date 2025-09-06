@@ -1,0 +1,194 @@
+ID   MLAC1_METBS             Reviewed;         613 AA.
+AC   A0A0B4F5S2;
+DT   05-DEC-2018, integrated into UniProtKB/Swiss-Prot.
+DT   04-MAR-2015, sequence version 1.
+DT   09-APR-2025, entry version 32.
+DE   RecName: Full=Laccase 1 {ECO:0000250|UniProtKB:E9F648};
+DE            EC=1.10.3.- {ECO:0000305|PubMed:29958281};
+DE   AltName: Full=Conidial pigment biosynthesis oxidase Mlac1 {ECO:0000250|UniProtKB:E9F648};
+DE   Flags: Precursor;
+GN   Name=Mlac1 {ECO:0000250|UniProtKB:E9F648};
+GN   Synonyms=Abr2 {ECO:0000303|PubMed:29958281}; ORFNames=MBR_10248;
+OS   Metarhizium brunneum (strain ARSEF 3297).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Clavicipitaceae; Metarhizium.
+OX   NCBI_TaxID=1276141;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ARSEF 3297;
+RX   PubMed=25368161; DOI=10.1073/pnas.1412662111;
+RA   Hu X., Xiao G., Zheng P., Shang Y., Su Y., Zhang X., Liu X., Zhan S.,
+RA   St Leger R.J., Wang C.;
+RT   "Trajectory and genomic determinants of fungal-pathogen speciation and host
+RT   adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:16796-16801(2014).
+RN   [2]
+RP   IDENTIFICATION, FUNCTION, AND PATHWAY.
+RX   PubMed=29958281; DOI=10.1371/journal.pgen.1007472;
+RA   Zeng G., Zhang P., Zhang Q., Zhao H., Li Z., Zhang X., Wang C., Yin W.B.,
+RA   Fang W.;
+RT   "Duplication of a Pks gene cluster and subsequent functional
+RT   diversification facilitate environmental adaptation in Metarhizium
+RT   species.";
+RL   PLoS Genet. 14:E1007472-E1007472(2018).
+CC   -!- FUNCTION: Laccase; part of the Pks1 gene cluster that mediates the
+CC       biosynthesis of an anthraquinone derivative pigment that contributes to
+CC       conidial pigmentation that provides protection from UV radiation, heat
+CC       and cold stress (PubMed:29958281). The polyketide synthase Pks1
+CC       produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone though
+CC       condensation of acetyl-CoA with malonyl-CoA (Probable). The dehydratase
+CC       EthD and the laccase Mlac1 further convert the anthraquinone derivative
+CC       into the final conidial pigment (Probable).
+CC       {ECO:0000269|PubMed:29958281, ECO:0000305|PubMed:29958281}.
+CC   -!- COFACTOR:
+CC       Name=Cu cation; Xref=ChEBI:CHEBI:23378;
+CC         Evidence={ECO:0000250|UniProtKB:Q70KY3};
+CC       Note=Binds 4 Cu cations per monomer. {ECO:0000250|UniProtKB:Q70KY3};
+CC   -!- PATHWAY: Pigment biosynthesis. {ECO:0000305|PubMed:29958281}.
+CC   -!- SUBCELLULAR LOCATION: Cell surface {ECO:0000250|UniProtKB:E9RBR0}.
+CC   -!- SIMILARITY: Belongs to the multicopper oxidase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AZNG01000033; KID61216.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0B4F5S2; -.
+DR   SMR; A0A0B4F5S2; -.
+DR   GlyCosmos; A0A0B4F5S2; 7 sites, No reported glycans.
+DR   GeneID; 26247518; -.
+DR   KEGG; mbrn:26247518; -.
+DR   HOGENOM; CLU_006504_5_0_1; -.
+DR   OrthoDB; 28at5529; -.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005507; F:copper ion binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   CDD; cd13850; CuRO_1_Abr2_like; 1.
+DR   CDD; cd13876; CuRO_2_Abr2_like; 1.
+DR   CDD; cd13898; CuRO_3_Abr2_like; 1.
+DR   FunFam; 2.60.40.420:FF:000036; L-ascorbate oxidase; 1.
+DR   Gene3D; 2.60.40.420; Cupredoxins - blue copper proteins; 3.
+DR   InterPro; IPR011707; Cu-oxidase-like_N.
+DR   InterPro; IPR001117; Cu-oxidase_2nd.
+DR   InterPro; IPR011706; Cu-oxidase_C.
+DR   InterPro; IPR045087; Cu-oxidase_fam.
+DR   InterPro; IPR033138; Cu_oxidase_CS.
+DR   InterPro; IPR002355; Cu_oxidase_Cu_BS.
+DR   InterPro; IPR008972; Cupredoxin.
+DR   PANTHER; PTHR11709:SF488; LACCASE-RELATED; 1.
+DR   PANTHER; PTHR11709; MULTI-COPPER OXIDASE; 1.
+DR   Pfam; PF00394; Cu-oxidase; 1.
+DR   Pfam; PF07731; Cu-oxidase_2; 1.
+DR   Pfam; PF07732; Cu-oxidase_3; 1.
+DR   SUPFAM; SSF49503; Cupredoxins; 3.
+DR   PROSITE; PS00079; MULTICOPPER_OXIDASE1; 1.
+DR   PROSITE; PS00080; MULTICOPPER_OXIDASE2; 1.
+PE   3: Inferred from homology;
+KW   Copper; Glycoprotein; Metal-binding; Oxidoreductase; Repeat; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..613
+FT                   /note="Laccase 1"
+FT                   /id="PRO_5002086819"
+FT   DOMAIN          29..142
+FT                   /note="Plastocyanin-like 1"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          171..359
+FT                   /note="Plastocyanin-like 2"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          468..598
+FT                   /note="Plastocyanin-like 3"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         78
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         80
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         122
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         124
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         506
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         509
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         509
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         511
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         580
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         581
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         582
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   BINDING         586
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q70KY3"
+FT   CARBOHYD        74
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        256
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        444
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        468
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        484
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        526
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+SQ   SEQUENCE   613 AA;  69094 MW;  5EF56B8ECA1422C1 CRC64;
+     MSRFARLLLI VALFFTNAWA KTVKETLRIT WKEGAPNGQA RELIYTNGQF PSPTLVWDED
+     DDIEVTVYNE MAKNVTVHWH GLDQKDTPWS DGTPGLSQRP IQPGNKFVYR FKASPPGNHW
+     YHSHEKMSLV DGLYGAIHIR PKGDRTGLWS QISQDKDDIK AMENAAYDPE YLVVSDWSQY
+     TSEEYWKIST DSGLLVFCLD SILVNGKGEV YCPGQKFLQA ELAPGLVEDA FPPGTEVSDK
+     GCFPADLDQV QGGPWNITKR PDLIPPRVQE GCVASRHENA TIVVDPSKNN GWVSMHFVAA
+     ATIAQITFSV DSHEFWLYEI DGNYVNPRKF VSAVMSAGET FSVMIKLDQE PGKYTMRIPN
+     SGASQVLGGF AEMVYKGCER EEKAGKAYLS YGGNPTSPDV EKNSFFPWQL DTDHMSPWPP
+     NKPRPGNADE EHLLVLGRVG APYNYTMNTK YLYPVDFQND DPLLFYPNAT RDTENDGLVL
+     RTKNGSWVDL ILQVSTLPGD TSSFEHFMHK HGSKTWRIGF GTGVWNYTSV EEAIQERPQD
+     FNLETPGLRD TWITAFSIGG EAYWSVFRYF VDNPGPWLFH CHIELHLMGG MGIAILDGVD
+     AWPEHIPEEY QVC
+//

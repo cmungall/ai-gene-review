@@ -301,34 +301,50 @@ def check_best_practices_rules(
                         suggestion=f"Add a reference with ID '{ref_id}' to the references section or correct the reference ID",
                     )
 
-    # Check file: references
+    # Helper function to validate file references
+    def validate_file_reference(ref_id: str, path: str) -> None:
+        """Validate a file reference and add issues to report if invalid."""
+        if ref_id.startswith("file:"):
+            # Extract the file path after 'file:'
+            file_path_str = ref_id[5:]  # Remove 'file:' prefix
+
+            # Check if the file exists relative to the genes directory
+            # Assuming validation is run from project root
+            base_path = Path("genes")
+            full_path = base_path / file_path_str
+
+            if not full_path.exists():
+                report.add_issue(
+                    ValidationSeverity.ERROR,
+                    f"File reference points to non-existent file: {file_path_str}",
+                    path=path,
+                    suggestion=f"Ensure the file exists at: genes/{file_path_str}",
+                )
+            elif not full_path.is_file():
+                report.add_issue(
+                    ValidationSeverity.ERROR,
+                    f"File reference points to a directory, not a file: {file_path_str}",
+                    path=path,
+                    suggestion="File references must point to actual files, not directories",
+                )
+
+    # Check file: references in main references section
     if "references" in data and data["references"]:
         for i, ref in enumerate(data["references"]):
             if isinstance(ref, dict) and "id" in ref:
-                ref_id = ref["id"]
-                if ref_id.startswith("file:"):
-                    # Extract the file path after 'file:'
-                    file_path_str = ref_id[5:]  # Remove 'file:' prefix
-
-                    # Check if the file exists relative to the genes directory
-                    # Assuming validation is run from project root
-                    base_path = Path("genes")
-                    full_path = base_path / file_path_str
-
-                    if not full_path.exists():
-                        report.add_issue(
-                            ValidationSeverity.ERROR,
-                            f"File reference points to non-existent file: {file_path_str}",
-                            path=f"references[{i}].id",
-                            suggestion=f"Ensure the file exists at: genes/{file_path_str}",
-                        )
-                    elif not full_path.is_file():
-                        report.add_issue(
-                            ValidationSeverity.ERROR,
-                            f"File reference points to a directory, not a file: {file_path_str}",
-                            path=f"references[{i}].id",
-                            suggestion="File references must point to actual files, not directories",
-                        )
+                validate_file_reference(ref["id"], f"references[{i}].id")
+                
+                # Also check findings.supported_by in references
+                findings = ref.get("findings", [])
+                for j, finding in enumerate(findings):
+                    if isinstance(finding, dict):
+                        supported_by_list = finding.get("supported_by", [])
+                        for k, sb in enumerate(supported_by_list):
+                            if isinstance(sb, dict) and "reference_id" in sb:
+                                validate_file_reference(
+                                    sb["reference_id"],
+                                    f"references[{i}].findings[{j}].supported_by[{k}].reference_id"
+                                )
 
     # Check for PENDING annotations (placeholder state that should be resolved)
     if "existing_annotations" in data and data["existing_annotations"]:
@@ -430,6 +446,14 @@ def check_best_practices_rules(
                     supported_by = core_func.get("supported_by", [])
                     has_support = bool(supported_by)
                     
+                    # Validate file references in supported_by
+                    for j, sb in enumerate(supported_by):
+                        if isinstance(sb, dict) and "reference_id" in sb:
+                            validate_file_reference(
+                                sb["reference_id"],
+                                f"core_functions[{i}].supported_by[{j}].reference_id"
+                            )
+                    
                     # If neither condition is met, it's an error
                     if not is_from_accepted and not has_support:
                         report.add_issue(
@@ -517,6 +541,20 @@ def check_best_practices_rules(
                             path=f"core_functions[{i}].in_complex",
                             suggestion="Either use a complex from ACCEPTED existing annotations/proposed replacements, or add supported_by references to the core function",
                         )
+
+    # Check for file references in existing_annotations.review.supported_by
+    if "existing_annotations" in data and data["existing_annotations"]:
+        for i, annotation in enumerate(data["existing_annotations"]):
+            if isinstance(annotation, dict):
+                review = annotation.get("review", {})
+                if isinstance(review, dict):
+                    supported_by_list = review.get("supported_by", [])
+                    for j, sb in enumerate(supported_by_list):
+                        if isinstance(sb, dict) and "reference_id" in sb:
+                            validate_file_reference(
+                                sb["reference_id"],
+                                f"existing_annotations[{i}].review.supported_by[{j}].reference_id"
+                            )
 
     # Check for ACCEPT annotations with PMIDs lacking supported_by
     # Only warn if the publication file exists (full text is available)

@@ -1,0 +1,121 @@
+ID   CHIC_POPTR              Reviewed;         121 AA.
+AC   P29032;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   09-APR-2025, entry version 136.
+DE   RecName: Full=Acidic endochitinase WIN6.2C;
+DE            EC=3.2.1.14;
+DE   Flags: Precursor; Fragment;
+OS   Populus trichocarpa (Western balsam poplar) (Populus balsamifera subsp.
+OS   trichocarpa).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Malpighiales; Salicaceae; Saliceae; Populus.
+OX   NCBI_TaxID=3694;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1912489; DOI=10.1007/bf00037049;
+RA   Davis J.M., Clarke H.R.G., Bradshaw H.D. Jr., Gordon M.P.;
+RT   "Populus chitinase genes: structure, organization, and similarity of
+RT   translated sequences to herbaceous plant chitinases.";
+RL   Plant Mol. Biol. 17:631-639(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nisqually;
+RX   PubMed=16973872; DOI=10.1126/science.1128691;
+RA   Tuskan G.A., Difazio S., Jansson S., Bohlmann J., Grigoriev I.,
+RA   Hellsten U., Putnam N., Ralph S., Rombauts S., Salamov A., Schein J.,
+RA   Sterck L., Aerts A., Bhalerao R.R., Bhalerao R.P., Blaudez D., Boerjan W.,
+RA   Brun A., Brunner A., Busov V., Campbell M., Carlson J., Chalot M.,
+RA   Chapman J., Chen G.-L., Cooper D., Coutinho P.M., Couturier J., Covert S.,
+RA   Cronk Q., Cunningham R., Davis J., Degroeve S., Dejardin A.,
+RA   dePamphilis C.W., Detter J., Dirks B., Dubchak I., Duplessis S.,
+RA   Ehlting J., Ellis B., Gendler K., Goodstein D., Gribskov M., Grimwood J.,
+RA   Groover A., Gunter L., Hamberger B., Heinze B., Helariutta Y.,
+RA   Henrissat B., Holligan D., Holt R., Huang W., Islam-Faridi N., Jones S.,
+RA   Jones-Rhoades M., Jorgensen R., Joshi C., Kangasjaervi J., Karlsson J.,
+RA   Kelleher C., Kirkpatrick R., Kirst M., Kohler A., Kalluri U., Larimer F.,
+RA   Leebens-Mack J., Leple J.-C., Locascio P., Lou Y., Lucas S., Martin F.,
+RA   Montanini B., Napoli C., Nelson D.R., Nelson C., Nieminen K., Nilsson O.,
+RA   Pereda V., Peter G., Philippe R., Pilate G., Poliakov A., Razumovskaya J.,
+RA   Richardson P., Rinaldi C., Ritland K., Rouze P., Ryaboy D., Schmutz J.,
+RA   Schrader J., Segerman B., Shin H., Siddiqui A., Sterky F., Terry A.,
+RA   Tsai C.-J., Uberbacher E., Unneberg P., Vahala J., Wall K., Wessler S.,
+RA   Yang G., Yin T., Douglas C., Marra M., Sandberg G., Van de Peer Y.,
+RA   Rokhsar D.S.;
+RT   "The genome of black cottonwood, Populus trichocarpa (Torr. & Gray).";
+RL   Science 313:1596-1604(2006).
+CC   -!- FUNCTION: Defense against chitin-containing fungal pathogens.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide
+CC         (1->4)-beta-linkages in chitin and chitodextrins.; EC=3.2.1.14;
+CC   -!- INDUCTION: By wounding.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 19 family. Chitinase
+CC       class I subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59995; CAA42614.1; -; Genomic_DNA.
+DR   EMBL; CM009298; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   AlphaFoldDB; P29032; -.
+DR   SMR; P29032; -.
+DR   STRING; 3694.P29032; -.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   CAZy; GH19; Glycoside Hydrolase Family 19.
+DR   InParanoid; P29032; -.
+DR   Proteomes; UP000006729; Chromosome 9.
+DR   ExpressionAtlas; P29032; baseline and differential.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008843; F:endochitinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016998; P:cell wall macromolecule catabolic process; IEA:InterPro.
+DR   GO; GO:0006032; P:chitin catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0098542; P:defense response to other organism; IEA:UniProtKB-ARBA.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd06921; ChtBD1_GH19_hevein; 1.
+DR   FunFam; 3.30.60.10:FF:000001; Basic endochitinase; 1.
+DR   Gene3D; 1.10.530.10; -; 1.
+DR   Gene3D; 3.30.60.10; Endochitinase-like; 1.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   InterPro; IPR000726; Glyco_hydro_19_cat.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   PANTHER; PTHR22595:SF79; CHITINASE 12; 1.
+DR   PANTHER; PTHR22595; CHITINASE-RELATED; 1.
+DR   Pfam; PF00187; Chitin_bind_1; 1.
+DR   Pfam; PF00182; Glyco_hydro_19; 1.
+DR   PRINTS; PR00451; CHITINBINDNG.
+DR   SMART; SM00270; ChtBD1; 1.
+DR   SUPFAM; SSF53955; Lysozyme-like; 1.
+DR   SUPFAM; SSF57016; Plant lectins/antimicrobial peptides; 1.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 1.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 1.
+PE   2: Evidence at transcript level;
+KW   Carbohydrate metabolism; Chitin degradation; Chitin-binding;
+KW   Disulfide bond; Glycosidase; Hydrolase; Plant defense;
+KW   Polysaccharide degradation; Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           23..>121
+FT                   /note="Acidic endochitinase WIN6.2C"
+FT                   /id="PRO_0000005318"
+FT   DOMAIN          23..63
+FT                   /note="Chitin-binding type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   REGION          78..121
+FT                   /note="Catalytic"
+FT   DISULFID        25..40
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        34..46
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        39..53
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        57..61
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   NON_TER         121
+SQ   SEQUENCE   121 AA;  12689 MW;  A89DFC96795FE87F CRC64;
+     MSVWAFFAFF SLFLSLSVRG SAEQCGRQAG DALCPGGLCC SFYGWCGTTV DYCGDGCQSQ
+     CDGGDGCDGG GGGGGDGDDG YLSDIIPKST FDALLKFRND PRCHAVGFYT YDAFISAAKE
+     F
+//

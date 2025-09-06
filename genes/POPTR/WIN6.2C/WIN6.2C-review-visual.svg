@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="2320" viewBox="0 0 1800 2320">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="2320" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: WIN6.2C (Populus trichocarpa)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="1120" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1142.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="675" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="696.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="1175" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1196.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1840" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1861.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0006032</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">chitin catabolic process</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0016998</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell wall macromolecule catabolic p...</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0000272</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">polysaccharide catabolic process</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0006952</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">defense response</text>
+<rect x="80" y="865" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="879" font-size="10" font-family="monospace" fill="#666666">GO:0098542</text>
+<text x="85" y="895" font-size="11" font-family="Arial, sans-serif" fill="#212121">defense response to other organism</text>
+<rect x="80" y="1220" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1234" font-size="10" font-family="monospace" fill="#666666">GO:0004568</text>
+<text x="85" y="1250" font-size="11" font-family="Arial, sans-serif" fill="#212121">chitinase activity</text>
+<rect x="80" y="1365" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0008843</text>
+<text x="85" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">endochitinase activity</text>
+<rect x="80" y="1510" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1524" font-size="10" font-family="monospace" fill="#666666">GO:0016787</text>
+<text x="85" y="1540" font-size="11" font-family="Arial, sans-serif" fill="#212121">hydrolase activity</text>
+<rect x="80" y="1655" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1669" font-size="10" font-family="monospace" fill="#666666">GO:0016798</text>
+<text x="85" y="1685" font-size="11" font-family="Arial, sans-serif" fill="#212121">hydrolase activity, acting on glyco...</text>
+<rect x="80" y="1885" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1899" font-size="10" font-family="monospace" fill="#666666">GO:0008061</text>
+<text x="85" y="1915" font-size="11" font-family="Arial, sans-serif" fill="#212121">chitin binding</text>
+<path d="M280,1242.5 L390,1242.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1242.5 L382,1238.5 L382,1246.5 Z" fill="#ff9800" />
+<rect x="390" y="1220" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1234" font-size="10" font-family="monospace" fill="#666666">GO:0008843</text>
+<text x="395" y="1250" font-size="11" font-family="Arial, sans-serif" fill="#212121">endochitinase activity</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1907.5 L337,1912.5 L348,1899.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="367.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="512.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,742.5 L390,742.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,742.5 L382,738.5 L382,746.5 Z" fill="#ff9800" />
+<rect x="390" y="720" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0098542</text>
+<text x="395" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">defense response to other organism</text>
+<path d="M332,1387.5 L337,1392.5 L348,1379.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1532.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1677.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,887.5 L337,892.5 L348,879.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="635" y="1220" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="640" y="1230" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="640" y="1238" font-size="8" font-family="Arial, sans-serif" fill="#212121">UniProt classifies this as an acidic endochitinase (EC:3.2.1.14)</text>
+<rect x="385" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Catalyzes random endo-hydrolysis of N-acetyl-beta-D-glucosaminide</text>
+<text x="390" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">linkages in chitin</text>
+<rect x="385" y="1885" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1895" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="1903" font-size="8" font-family="Arial, sans-serif" fill="#212121">Contains chitin-binding type-1 domain (residues 23-63)</text>
+<rect x="385" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Functions in defense against chitin-containing fungal pathogens</text>
+<rect x="385" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Chitin is a polysaccharide composed of N-acetyl-beta-D-glucosaminide</text>
+<text x="390" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">units</text>
+<rect x="635" y="720" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="640" y="730" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="640" y="738" font-size="8" font-family="Arial, sans-serif" fill="#212121">Defense against chitin-containing fungal pathogens</text>
+<rect x="385" y="1365" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1375" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="1383" font-size="8" font-family="Arial, sans-serif" fill="#212121">Acidic endochitinase WIN6.2C with EC:3.2.1.14 activity</text>
+<rect x="385" y="1510" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1520" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="1528" font-size="8" font-family="Arial, sans-serif" fill="#212121">General hydrolase activity, specific function is endochitinase</text>
+<rect x="385" y="1655" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1665" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="1673" font-size="8" font-family="Arial, sans-serif" fill="#212121">Cleaves beta-1,4-glycosidic bonds in chitin polymer</text>
+<rect x="385" y="865" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="875" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P29032]</text>
+<text x="390" y="883" font-size="8" font-family="Arial, sans-serif" fill="#212121">Defense against chitin-containing fungal pathogens</text>
+<rect x="600.0" y="2180" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="2215.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="2215.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

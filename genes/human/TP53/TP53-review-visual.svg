@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="15690" viewBox="0 0 1800 15690">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="15690" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: TP53 (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="14510" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="14532.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="15155" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="15177.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="5895" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5916.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="9315" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="9336.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="10270" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="10291.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="13255" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="13276.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="13485" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="13506.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="14565" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="14586.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="15210" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="15231.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0000122</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of transcriptio...</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0006357</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of transcription by RNA ...</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0007346</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of mitotic cell cycle</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0007406</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of neuroblast p...</text>
+<rect x="80" y="780" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0008156</text>
+<text x="85" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of DNA replication</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0010629</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of gene expression</text>
+<rect x="80" y="1070" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0010666</text>
+<text x="85" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of cardiac musc...</text>
+<rect x="80" y="1215" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1229" font-size="10" font-family="monospace" fill="#666666">GO:0030512</text>
+<text x="85" y="1245" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of transforming...</text>
+<rect x="80" y="1360" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1374" font-size="10" font-family="monospace" fill="#666666">GO:0034103</text>
+<text x="85" y="1390" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of tissue remodeling</text>
+<rect x="80" y="1505" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1519" font-size="10" font-family="monospace" fill="#666666">GO:0042127</text>
+<text x="85" y="1535" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cell population proli...</text>
+<rect x="80" y="1650" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1664" font-size="10" font-family="monospace" fill="#666666">GO:0043065</text>
+<text x="85" y="1680" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of apoptotic pr...</text>
+<rect x="80" y="1795" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1809" font-size="10" font-family="monospace" fill="#666666">GO:0043066</text>
+<text x="85" y="1825" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of apoptotic pr...</text>
+<rect x="80" y="1940" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1954" font-size="10" font-family="monospace" fill="#666666">GO:0043516</text>
+<text x="85" y="1970" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of DNA damage response, ...</text>
+<rect x="80" y="2085" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2099" font-size="10" font-family="monospace" fill="#666666">GO:0043523</text>
+<text x="85" y="2115" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of neuron apoptotic process</text>
+<rect x="80" y="2230" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2244" font-size="10" font-family="monospace" fill="#666666">GO:0043525</text>
+<text x="85" y="2260" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of neuron apopt...</text>
+<rect x="80" y="2375" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2389" font-size="10" font-family="monospace" fill="#666666">GO:0045861</text>
+<text x="85" y="2405" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of proteolysis</text>
+<rect x="80" y="2520" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2534" font-size="10" font-family="monospace" fill="#666666">GO:0045893</text>
+<text x="85" y="2550" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of DNA-template...</text>
+<rect x="80" y="2665" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2679" font-size="10" font-family="monospace" fill="#666666">GO:0045930</text>
+<text x="85" y="2695" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of mitotic cell...</text>
+<rect x="80" y="5710" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5724" font-size="10" font-family="monospace" fill="#666666">GO:0045944</text>
+<text x="85" y="5740" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of transcriptio...</text>
+<rect x="80" y="2955" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2969" font-size="10" font-family="monospace" fill="#666666">GO:0048147</text>
+<text x="85" y="2985" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of fibroblast p...</text>
+<rect x="80" y="3100" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3114" font-size="10" font-family="monospace" fill="#666666">GO:0050821</text>
+<text x="85" y="3130" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein stabilization</text>
+<rect x="80" y="5130" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5144" font-size="10" font-family="monospace" fill="#666666">GO:0051726</text>
+<text x="85" y="5160" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cell cycle</text>
+<rect x="80" y="3390" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3404" font-size="10" font-family="monospace" fill="#666666">GO:0060253</text>
+<text x="85" y="3420" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of glial cell p...</text>
+<rect x="80" y="3535" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3549" font-size="10" font-family="monospace" fill="#666666">GO:0070243</text>
+<text x="85" y="3565" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of thymocyte apoptotic p...</text>
+<rect x="80" y="3680" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3694" font-size="10" font-family="monospace" fill="#666666">GO:1901525</text>
+<text x="85" y="3710" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of mitophagy</text>
+<rect x="80" y="3825" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3839" font-size="10" font-family="monospace" fill="#666666">GO:1902253</text>
+<text x="85" y="3855" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of intrinsic apoptotic s...</text>
+<rect x="80" y="3970" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3984" font-size="10" font-family="monospace" fill="#666666">GO:1903799</text>
+<text x="85" y="4000" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of miRNA proces...</text>
+<rect x="80" y="4115" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4129" font-size="10" font-family="monospace" fill="#666666">GO:1904024</text>
+<text x="85" y="4145" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of glucose cata...</text>
+<rect x="80" y="4260" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4274" font-size="10" font-family="monospace" fill="#666666">GO:2000269</text>
+<text x="85" y="4290" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of fibroblast apoptotic ...</text>
+<rect x="80" y="4405" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4419" font-size="10" font-family="monospace" fill="#666666">GO:2000378</text>
+<text x="85" y="4435" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of reactive oxy...</text>
+<rect x="80" y="4550" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4564" font-size="10" font-family="monospace" fill="#666666">GO:2000647</text>
+<text x="85" y="4580" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of stem cell pr...</text>
+<rect x="80" y="4695" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4709" font-size="10" font-family="monospace" fill="#666666">GO:2000772</text>
+<text x="85" y="4725" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cellular senescence</text>
+<rect x="80" y="4840" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4854" font-size="10" font-family="monospace" fill="#666666">GO:1902895</text>
+<text x="85" y="4870" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of miRNA transc...</text>
+<rect x="80" y="4985" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4999" font-size="10" font-family="monospace" fill="#666666">GO:0008285</text>
+<text x="85" y="5015" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of cell populat...</text>
+<rect x="80" y="5275" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5289" font-size="10" font-family="monospace" fill="#666666">GO:1902749</text>
+<text x="85" y="5305" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cell cycle G2/M phase...</text>
+<rect x="80" y="5565" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5579" font-size="10" font-family="monospace" fill="#666666">GO:0042981</text>
+<text x="85" y="5595" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of apoptotic process</text>
+<rect x="80" y="5940" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5954" font-size="10" font-family="monospace" fill="#666666">GO:0000423</text>
+<text x="85" y="5970" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitophagy</text>
+<rect x="80" y="6085" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6099" font-size="10" font-family="monospace" fill="#666666">GO:0001836</text>
+<text x="85" y="6115" font-size="11" font-family="Arial, sans-serif" fill="#212121">release of cytochrome c from mitoch...</text>
+<rect x="80" y="6230" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6244" font-size="10" font-family="monospace" fill="#666666">GO:0002326</text>
+<text x="85" y="6260" font-size="11" font-family="Arial, sans-serif" fill="#212121">B cell lineage commitment</text>
+<rect x="80" y="6375" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6389" font-size="10" font-family="monospace" fill="#666666">GO:0002360</text>
+<text x="85" y="6405" font-size="11" font-family="Arial, sans-serif" fill="#212121">T cell lineage commitment</text>
+<rect x="80" y="6520" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6534" font-size="10" font-family="monospace" fill="#666666">GO:0007179</text>
+<text x="85" y="6550" font-size="11" font-family="Arial, sans-serif" fill="#212121">transforming growth factor beta rec...</text>
+<rect x="80" y="6665" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6679" font-size="10" font-family="monospace" fill="#666666">GO:0007405</text>
+<text x="85" y="6695" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuroblast proliferation</text>
+<rect x="80" y="6810" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6824" font-size="10" font-family="monospace" fill="#666666">GO:0008283</text>
+<text x="85" y="6840" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell population proliferation</text>
+<rect x="80" y="6955" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6969" font-size="10" font-family="monospace" fill="#666666">GO:0009303</text>
+<text x="85" y="6985" font-size="11" font-family="Arial, sans-serif" fill="#212121">rRNA transcription</text>
+<rect x="80" y="7100" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7114" font-size="10" font-family="monospace" fill="#666666">GO:0010659</text>
+<text x="85" y="7130" font-size="11" font-family="Arial, sans-serif" fill="#212121">cardiac muscle cell apoptotic process</text>
+<rect x="80" y="7245" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7259" font-size="10" font-family="monospace" fill="#666666">GO:0014009</text>
+<text x="85" y="7275" font-size="11" font-family="Arial, sans-serif" fill="#212121">glial cell proliferation</text>
+<rect x="80" y="7390" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7404" font-size="10" font-family="monospace" fill="#666666">GO:0019661</text>
+<text x="85" y="7420" font-size="11" font-family="Arial, sans-serif" fill="#212121">glucose catabolic process to lactat...</text>
+<rect x="80" y="7535" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7549" font-size="10" font-family="monospace" fill="#666666">GO:0035794</text>
+<text x="85" y="7565" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of mitochondria...</text>
+<rect x="80" y="7680" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7694" font-size="10" font-family="monospace" fill="#666666">GO:0048144</text>
+<text x="85" y="7710" font-size="11" font-family="Arial, sans-serif" fill="#212121">fibroblast proliferation</text>
+<rect x="80" y="7825" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7839" font-size="10" font-family="monospace" fill="#666666">GO:0051276</text>
+<text x="85" y="7855" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromosome organization</text>
+<rect x="80" y="7970" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7984" font-size="10" font-family="monospace" fill="#666666">GO:0051402</text>
+<text x="85" y="8000" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuron apoptotic process</text>
+<rect x="80" y="8115" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8129" font-size="10" font-family="monospace" fill="#666666">GO:0070242</text>
+<text x="85" y="8145" font-size="11" font-family="Arial, sans-serif" fill="#212121">thymocyte apoptotic process</text>
+<rect x="80" y="8260" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8274" font-size="10" font-family="monospace" fill="#666666">GO:0070266</text>
+<text x="85" y="8290" font-size="11" font-family="Arial, sans-serif" fill="#212121">necroptotic process</text>
+<rect x="80" y="8405" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8419" font-size="10" font-family="monospace" fill="#666666">GO:0072089</text>
+<text x="85" y="8435" font-size="11" font-family="Arial, sans-serif" fill="#212121">stem cell proliferation</text>
+<rect x="80" y="8550" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8564" font-size="10" font-family="monospace" fill="#666666">GO:0072331</text>
+<text x="85" y="8580" font-size="11" font-family="Arial, sans-serif" fill="#212121">signal transduction by p53 class me...</text>
+<rect x="80" y="8695" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8709" font-size="10" font-family="monospace" fill="#666666">GO:0072332</text>
+<text x="85" y="8725" font-size="11" font-family="Arial, sans-serif" fill="#212121">intrinsic apoptotic signaling pathw...</text>
+<rect x="80" y="8840" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8854" font-size="10" font-family="monospace" fill="#666666">GO:0072593</text>
+<text x="85" y="8870" font-size="11" font-family="Arial, sans-serif" fill="#212121">reactive oxygen species metabolic p...</text>
+<rect x="80" y="8985" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8999" font-size="10" font-family="monospace" fill="#666666">GO:1902108</text>
+<text x="85" y="9015" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of mitochondrial membran...</text>
+<rect x="80" y="9130" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9144" font-size="10" font-family="monospace" fill="#666666">GO:1990144</text>
+<text x="85" y="9160" font-size="11" font-family="Arial, sans-serif" fill="#212121">intrinsic apoptotic signaling pathw...</text>
+<rect x="80" y="9360" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9374" font-size="10" font-family="monospace" fill="#666666">GO:0001701</text>
+<text x="85" y="9390" font-size="11" font-family="Arial, sans-serif" fill="#212121">in utero embryonic development</text>
+<rect x="80" y="9505" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9519" font-size="10" font-family="monospace" fill="#666666">GO:0001756</text>
+<text x="85" y="9535" font-size="11" font-family="Arial, sans-serif" fill="#212121">somitogenesis</text>
+<rect x="80" y="9650" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9664" font-size="10" font-family="monospace" fill="#666666">GO:0002309</text>
+<text x="85" y="9680" font-size="11" font-family="Arial, sans-serif" fill="#212121">T cell proliferation involved in im...</text>
+<rect x="80" y="9795" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9809" font-size="10" font-family="monospace" fill="#666666">GO:0009792</text>
+<text x="85" y="9825" font-size="11" font-family="Arial, sans-serif" fill="#212121">embryo development ending in birth ...</text>
+<rect x="80" y="9940" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9954" font-size="10" font-family="monospace" fill="#666666">GO:0033077</text>
+<text x="85" y="9970" font-size="11" font-family="Arial, sans-serif" fill="#212121">T cell differentiation in thymus</text>
+<rect x="80" y="10085" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10099" font-size="10" font-family="monospace" fill="#666666">GO:0035264</text>
+<text x="85" y="10115" font-size="11" font-family="Arial, sans-serif" fill="#212121">multicellular organism growth</text>
+<rect x="80" y="10315" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10329" font-size="10" font-family="monospace" fill="#666666">GO:0002931</text>
+<text x="85" y="10345" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to ischemia</text>
+<rect x="80" y="10460" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10474" font-size="10" font-family="monospace" fill="#666666">GO:0006302</text>
+<text x="85" y="10490" font-size="11" font-family="Arial, sans-serif" fill="#212121">double-strand break repair</text>
+<rect x="80" y="12635" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12649" font-size="10" font-family="monospace" fill="#666666">GO:0006974</text>
+<text x="85" y="12665" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA damage response</text>
+<rect x="80" y="10750" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10764" font-size="10" font-family="monospace" fill="#666666">GO:0006979</text>
+<text x="85" y="10780" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to oxidative stress</text>
+<rect x="80" y="10895" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10909" font-size="10" font-family="monospace" fill="#666666">GO:0009410</text>
+<text x="85" y="10925" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to xenobiotic stimulus</text>
+<rect x="80" y="11040" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11054" font-size="10" font-family="monospace" fill="#666666">GO:0009411</text>
+<text x="85" y="11070" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to UV</text>
+<rect x="80" y="11185" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11199" font-size="10" font-family="monospace" fill="#666666">GO:0009651</text>
+<text x="85" y="11215" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to salt stress</text>
+<rect x="80" y="11330" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11344" font-size="10" font-family="monospace" fill="#666666">GO:0010165</text>
+<text x="85" y="11360" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to X-ray</text>
+<rect x="80" y="11475" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11489" font-size="10" font-family="monospace" fill="#666666">GO:0010332</text>
+<text x="85" y="11505" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to gamma radiation</text>
+<rect x="80" y="11620" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11634" font-size="10" font-family="monospace" fill="#666666">GO:0030330</text>
+<text x="85" y="11650" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA damage response, signal transdu...</text>
+<rect x="80" y="11765" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11779" font-size="10" font-family="monospace" fill="#666666">GO:0031571</text>
+<text x="85" y="11795" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitotic G1 DNA damage checkpoint si...</text>
+<rect x="80" y="11910" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11924" font-size="10" font-family="monospace" fill="#666666">GO:0033554</text>
+<text x="85" y="11940" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to stress</text>
+<rect x="80" y="12055" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12069" font-size="10" font-family="monospace" fill="#666666">GO:0043504</text>
+<text x="85" y="12085" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitochondrial DNA repair</text>
+<rect x="80" y="12200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12214" font-size="10" font-family="monospace" fill="#666666">GO:0071480</text>
+<text x="85" y="12230" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to gamma radiation</text>
+<rect x="80" y="12345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12359" font-size="10" font-family="monospace" fill="#666666">GO:0071494</text>
+<text x="85" y="12375" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to UV-C</text>
+<rect x="80" y="12925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12939" font-size="10" font-family="monospace" fill="#666666">GO:0042771</text>
+<text x="85" y="12955" font-size="11" font-family="Arial, sans-serif" fill="#212121">intrinsic apoptotic signaling pathw...</text>
+<rect x="80" y="12780" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12794" font-size="10" font-family="monospace" fill="#666666">GO:0006983</text>
+<text x="85" y="12810" font-size="11" font-family="Arial, sans-serif" fill="#212121">ER overload response</text>
+<rect x="80" y="13070" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13084" font-size="10" font-family="monospace" fill="#666666">GO:0042149</text>
+<text x="85" y="13100" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to glucose starva...</text>
+<rect x="80" y="13300" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13314" font-size="10" font-family="monospace" fill="#666666">GO:0006606</text>
+<text x="85" y="13330" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein import into nucleus</text>
+<rect x="80" y="13530" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13544" font-size="10" font-family="monospace" fill="#666666">GO:0007369</text>
+<text x="85" y="13560" font-size="11" font-family="Arial, sans-serif" fill="#212121">gastrulation</text>
+<rect x="80" y="13675" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13689" font-size="10" font-family="monospace" fill="#666666">GO:0007417</text>
+<text x="85" y="13705" font-size="11" font-family="Arial, sans-serif" fill="#212121">central nervous system development</text>
+<rect x="80" y="13820" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13834" font-size="10" font-family="monospace" fill="#666666">GO:0007507</text>
+<text x="85" y="13850" font-size="11" font-family="Arial, sans-serif" fill="#212121">heart development</text>
+<rect x="80" y="13965" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="13979" font-size="10" font-family="monospace" fill="#666666">GO:0021549</text>
+<text x="85" y="13995" font-size="11" font-family="Arial, sans-serif" fill="#212121">cerebellum development</text>
+<rect x="80" y="14110" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="14124" font-size="10" font-family="monospace" fill="#666666">GO:0048568</text>
+<text x="85" y="14140" font-size="11" font-family="Arial, sans-serif" fill="#212121">embryonic organ development</text>
+<rect x="80" y="14255" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="14269" font-size="10" font-family="monospace" fill="#666666">GO:0060411</text>
+<text x="85" y="14285" font-size="11" font-family="Arial, sans-serif" fill="#212121">cardiac septum morphogenesis</text>
+<rect x="80" y="14900" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="14914" font-size="10" font-family="monospace" fill="#666666">GO:0000976</text>
+<text x="85" y="14930" font-size="11" font-family="Arial, sans-serif" fill="#212121">transcription cis-regulatory region...</text>
+<rect x="80" y="15255" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="15269" font-size="10" font-family="monospace" fill="#666666">GO:0016604</text>
+<text x="85" y="15285" font-size="11" font-family="Arial, sans-serif" fill="#212121">nuclear body</text>
+<path d="M332,14922.5 L337,14927.5 L348,14914.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5962.5 L337,5967.5 L348,5954.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="9382.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="9527.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,6107.5 L337,6112.5 L348,6099.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="9672.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6252.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6397.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,10337.5 L337,10342.5 L348,10329.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,10482.5 L337,10487.5 L348,10474.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,13314.5 L348,13330.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,13330.5 L348,13314.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,12657.5 L337,12662.5 L348,12649.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,10772.5 L337,10777.5 L348,10764.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="6542.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="13552.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6687.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="657.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="13697.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="13842.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,802.5 L337,807.5 L348,794.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6824.5 L348,6840.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6840.5 L348,6824.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6977.5 L337,6982.5 L348,6969.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,10917.5 L337,10922.5 L348,10909.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11062.5 L337,11067.5 L348,11054.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11199.5 L348,11215.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11215.5 L348,11199.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="9817.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11352.5 L337,11357.5 L348,11344.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11497.5 L337,11502.5 L348,11489.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,947.5 L337,952.5 L348,939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="7122.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1092.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7267.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,7412.5 L390,7412.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,7412.5 L382,7408.5 L382,7416.5 Z" fill="#ff9800" />
+<rect x="390" y="7390" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="7404" font-size="10" font-family="monospace" fill="#666666">GO:1904024</text>
+<text x="395" y="7420" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of glucose cata...</text>
+<circle cx="340" cy="13987.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11642.5 L337,11647.5 L348,11634.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1237.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11787.5 L337,11792.5 L348,11779.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="9962.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11932.5 L337,11937.5 L348,11924.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1382.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="10107.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,7557.5 L337,7562.5 L348,7549.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1527.5 L337,1532.5 L348,1519.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1672.5 L337,1677.5 L348,1664.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1817.5 L337,1822.5 L348,1809.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="12077.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1962.5 L337,1967.5 L348,1954.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="2107.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2252.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2397.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2542.5 L337,2547.5 L348,2534.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2687.5 L337,2692.5 L348,2679.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5732.5 L337,5737.5 L348,5724.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7694.5 L348,7710.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7710.5 L348,7694.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="2977.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="14132.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3122.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,7839.5 L348,7855.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7855.5 L348,7839.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="7992.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5152.5 L337,5157.5 L348,5144.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="3412.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="14277.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8137.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3557.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,8282.5 L337,8287.5 L348,8274.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,12222.5 L337,12227.5 L348,12214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,12367.5 L337,12372.5 L348,12359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8419.5 L348,8435.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8435.5 L348,8419.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8572.5 L337,8577.5 L348,8564.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8717.5 L337,8722.5 L348,8709.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8862.5 L337,8867.5 L348,8854.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3702.5 L337,3707.5 L348,3694.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,9007.5 L337,9012.5 L348,8999.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3847.5 L337,3852.5 L348,3839.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3992.5 L337,3997.5 L348,3984.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4137.5 L337,4142.5 L348,4129.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,9152.5 L337,9157.5 L348,9144.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="4282.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,4427.5 L337,4432.5 L348,4419.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4572.5 L337,4577.5 L348,4564.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4717.5 L337,4722.5 L348,4709.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4862.5 L337,4867.5 L348,4854.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5007.5 L337,5012.5 L348,4999.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5297.5 L337,5302.5 L348,5289.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,12947.5 L337,12952.5 L348,12939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,12802.5 L337,12807.5 L348,12794.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5587.5 L337,5592.5 L348,5579.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,15277.5 L337,15282.5 L348,15269.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,13092.5 L337,13097.5 L348,13084.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="14887.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="14897.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="14907.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core molecular function with direct experimental evidence.</text>
+<text x="400" y="14916.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 binds to consensus sequences in target gene promoters.</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-documented function of p53 as a transcriptional</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">repressor, complementing its role as an activator. This is</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for its tumor suppressor function.</text>
+<rect x="395" y="5927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 regulates mitophagy through multiple mechanisms</text>
+<text x="400" y="5956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">including transcriptional control of mitophagy-related</text>
+<text x="400" y="5965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">genes. This is part of its broader role in cellular stress</text>
+<text x="400" y="5974.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response and metabolism.</text>
+<rect x="395" y="9347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 has developmental roles, these are not its</text>
+<text x="400" y="9376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primary functions. p53-null mice can complete embryonic</text>
+<text x="400" y="9385.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">development, though with increased cancer susceptibility.</text>
+<rect x="395" y="9492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Very specific developmental process that is not central to</text>
+<text x="400" y="9521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 function. p53 knockout mice complete somitogenesis</text>
+<text x="400" y="9530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">successfully.</text>
+<rect x="395" y="6072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core component of p53-mediated intrinsic apoptotic</text>
+<text x="400" y="6101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway. p53 induces pro-apoptotic BCL2 family members</text>
+<text x="400" y="6110.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">that trigger cytochrome c release.</text>
+<rect x="395" y="9637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 influences immune responses, direct regulation</text>
+<text x="400" y="9666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of T cell proliferation is not a primary function. This is</text>
+<text x="400" y="9675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a context-specific, non-core role.</text>
+<rect x="395" y="6217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Highly specific developmental process in the immune</text>
+<text x="400" y="6246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">system. Not a primary function of p53 as a tumor</text>
+<text x="400" y="6255.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">suppressor.</text>
+<rect x="395" y="6362.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6372.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Specific immune system developmental process that is not</text>
+<text x="400" y="6391.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">central to p53 tumor suppressor function.</text>
+<rect x="395" y="10302.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10312.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10322.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Part of p53s broader cellular stress response function.</text>
+<text x="400" y="10331.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Ischemia/hypoxia is a well-documented p53-activating</text>
+<text x="400" y="10340.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stress signal.</text>
+<rect x="395" y="10447.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10457.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10467.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function of p53 as guardian of the genome. p53</text>
+<text x="400" y="10476.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulates multiple DNA repair pathways through</text>
+<text x="400" y="10485.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional control of repair genes.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Fundamental molecular function of p53. Encompasses both</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activation and repression of RNA pol II transcription,</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which are core p53 activities.</text>
+<rect x="395" y="13287.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13297.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13307.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Ambiguous annotation - p53 undergoes nuclear import but</text>
+<text x="400" y="13316.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">does not regulate protein import into nucleus as a general</text>
+<text x="400" y="13325.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. This appears to be a misannotation.</text>
+<rect x="395" y="12622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Fundamental function with strong experimental support. p53</text>
+<text x="400" y="12651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is the guardian of the genome.</text>
+<rect x="395" y="10737.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10747.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10757.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core stress response function. p53 responds to oxidative</text>
+<text x="400" y="10766.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stress and regulates redox balance through multiple target</text>
+<text x="400" y="10775.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">genes.</text>
+<rect x="395" y="6507.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6517.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 interacts with TGF-beta signaling, this is a</text>
+<text x="400" y="6536.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">context-specific crosstalk rather than a core p53</text>
+<text x="400" y="6545.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core tumor suppressor function. p53 induces cell cycle</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">checkpoints in response to stress, preventing damaged</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cells from proliferating.</text>
+<rect x="395" y="13517.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13527.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13537.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Highly specific developmental process that is not a core</text>
+<text x="400" y="13546.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 function. p53 knockout mice undergo normal</text>
+<text x="400" y="13555.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">gastrulation.</text>
+<rect x="395" y="6652.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6662.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6672.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Specific developmental process in nervous system. p53 may</text>
+<text x="400" y="6681.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulate proliferation broadly but neuroblast-specific</text>
+<text x="400" y="6690.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation is not core.</text>
+<rect x="395" y="622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 inhibits proliferation generally,</text>
+<text x="400" y="651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">neuroblast-specific regulation is not a core function but</text>
+<text x="400" y="660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">rather a tissue-specific manifestation.</text>
+<rect x="395" y="13662.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13672.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13682.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Developmental process that is not core to p53 tumor</text>
+<text x="400" y="13691.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">suppressor function. p53-null mice develop functional</text>
+<text x="400" y="13700.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">nervous systems.</text>
+<rect x="395" y="13807.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13817.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13827.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Organ-specific developmental process that is not a core</text>
+<text x="400" y="13836.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 function. p53 knockout mice develop normal hearts.</text>
+<rect x="395" y="767.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="777.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="787.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function related to cell cycle control and preventing</text>
+<text x="400" y="796.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">propagation of damaged DNA. Part of p53s tumor suppressor</text>
+<text x="400" y="805.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity.</text>
+<rect x="395" y="6797.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6807.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6817.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too general and potentially misleading. p53 primarily</text>
+<text x="400" y="6826.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">inhibits rather than promotes proliferation. The negative</text>
+<text x="400" y="6835.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation annotation is more appropriate.</text>
+<rect x="395" y="6942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 regulates ribosome biogenesis and protein synthesis</text>
+<text x="400" y="6971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">capacity, typically suppressing rRNA transcription under</text>
+<text x="400" y="6980.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stress conditions.</text>
+<rect x="395" y="10882.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10892.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10902.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Part of p53s broad stress response function. Many</text>
+<text x="400" y="10911.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">xenobiotics activate p53 through DNA damage or other</text>
+<text x="400" y="10920.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stress pathways.</text>
+<rect x="395" y="11027.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11037.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11047.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core stress response function. UV-induced DNA damage is a</text>
+<text x="400" y="11056.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">classic p53 activator leading to repair, arrest, or</text>
+<text x="400" y="11065.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">apoptosis.</text>
+<rect x="395" y="11172.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11182.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11192.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">No strong evidence for salt stress as a p53-activating</text>
+<text x="400" y="11201.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stimulus in mammalian cells. Likely computational</text>
+<text x="400" y="11210.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">over-annotation.</text>
+<rect x="395" y="9782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 has developmental roles, it is not essential for</text>
+<text x="400" y="9811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">embryo development to birth. This is a non-core function.</text>
+<rect x="395" y="11317.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11327.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11337.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - ionizing radiation like X-rays cause DNA</text>
+<text x="400" y="11346.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">damage that strongly activates p53.</text>
+<rect x="395" y="11462.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11472.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - gamma radiation is a well-established p53</text>
+<text x="400" y="11491.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activator through DNA damage signaling.</text>
+<rect x="395" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core transcriptional function. p53 represses multiple</text>
+<text x="400" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">genes including BCL2, survivin, and cell cycle genes.</text>
+<rect x="395" y="7087.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7097.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific manifestation of p53s apoptotic function.</text>
+<text x="400" y="7116.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Not a core function but a specialized context.</text>
+<rect x="395" y="1057.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1067.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1077.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell type-specific apoptotic function. The general</text>
+<text x="400" y="1086.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">apoptotic function is core, but cardiac-specific</text>
+<text x="400" y="1095.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation is context-dependent.</text>
+<rect x="395" y="7232.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7242.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific proliferation regulation in nervous</text>
+<text x="400" y="7261.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">system. Not central to p53 tumor suppressor function.</text>
+<rect x="645" y="7377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="7387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="7397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 primarily SUPPRESSES glycolysis/Warburg effect, not</text>
+<text x="650" y="7406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">promotes it. The negative regulation annotation is more</text>
+<text x="650" y="7415.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">accurate.</text>
+<rect x="395" y="13952.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13962.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13972.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Region-specific developmental process that is not core to</text>
+<text x="400" y="13981.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 function.</text>
+<rect x="395" y="11607.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11617.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Absolutely core function - this term specifically</text>
+<text x="400" y="11636.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">describes p53s role as the central mediator of DNA damage</text>
+<text x="400" y="11645.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response signaling.</text>
+<rect x="395" y="1202.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1212.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1222.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Context-specific signaling crosstalk rather than core p53</text>
+<text x="400" y="1231.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="11752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core cell cycle checkpoint function. p53-mediated G1</text>
+<text x="400" y="11781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">arrest via p21 is one of the best-characterized p53</text>
+<text x="400" y="11790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">responses.</text>
+<rect x="395" y="9927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific developmental process in immune system.</text>
+<text x="400" y="9956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Not central to p53 tumor suppressor function.</text>
+<rect x="395" y="11897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is the master cellular stress response</text>
+<text x="400" y="11926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">coordinator, responding to diverse stress signals.</text>
+<rect x="395" y="1347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Not a core p53 function. May relate to indirect effects</text>
+<text x="400" y="1376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through apoptosis or senescence but not a primary role.</text>
+<rect x="395" y="10072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Broad developmental process. p53-null mice show normal</text>
+<text x="400" y="10101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">growth patterns despite cancer susceptibility.</text>
+<rect x="395" y="7522.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7532.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core component of p53-mediated intrinsic apoptosis. p53</text>
+<text x="400" y="7551.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">target genes like BAX and PUMA promote MOMP.</text>
+<rect x="395" y="1492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is a key regulator of proliferation,</text>
+<text x="400" y="1521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primarily through negative regulation via cell cycle</text>
+<text x="400" y="1530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">checkpoints.</text>
+<rect x="395" y="1637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Absolutely core function. p53 is a major pro-apoptotic</text>
+<text x="400" y="1666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcription factor, inducing PUMA, BAX, NOXA, FAS, and</text>
+<text x="400" y="1675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">other death genes.</text>
+<rect x="395" y="1782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While primarily pro-apoptotic, p53 can have anti-apoptotic</text>
+<text x="400" y="1811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions in certain contexts, such as mild stress or</text>
+<text x="400" y="1820.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through p21-mediated cell cycle arrest.</text>
+<rect x="395" y="12042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 can localize to mitochondria and influence mtDNA</text>
+<text x="400" y="12071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stability, this is not a core tumor suppressor function.</text>
+<rect x="395" y="1927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is the central regulator of its own</text>
+<text x="400" y="1956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway, with multiple feedback loops and regulatory</text>
+<text x="400" y="1965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanisms.</text>
+<rect x="395" y="2072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific manifestation of p53s apoptotic function.</text>
+<text x="400" y="2101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Not a core function but relevant in neurodegeneration</text>
+<text x="400" y="2110.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">contexts.</text>
+<rect x="395" y="2217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell type-specific apoptotic function relevant in</text>
+<text x="400" y="2246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">neurodegeneration but not a core p53 function.</text>
+<rect x="395" y="2362.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2372.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While p53 influences protein stability and degradation</text>
+<text x="400" y="2391.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathways, negative regulation of proteolysis is not a core</text>
+<text x="400" y="2400.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="2507.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2517.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Fundamental molecular function. p53 is primarily a</text>
+<text x="400" y="2536.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional activator of numerous target genes.</text>
+<rect x="395" y="2652.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2662.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2672.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Fundamental tumor suppressor function. p53 arrests cell</text>
+<text x="400" y="2681.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cycle through p21 and other CDK inhibitors.</text>
+<rect x="395" y="5697.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5707.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5717.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core transcriptional function with direct experimental</text>
+<text x="400" y="5726.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence showing p53-dependent gene activation.</text>
+<rect x="395" y="7667.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7677.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7687.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 primarily inhibits proliferation. This positive</text>
+<text x="400" y="7696.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proliferation annotation appears incorrect. The negative</text>
+<text x="400" y="7705.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation annotation (GO:0048147) is accurate.</text>
+<rect x="395" y="2942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell type-specific anti-proliferative function. Consistent</text>
+<text x="400" y="2971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">with p53s general growth suppressive role but not core.</text>
+<rect x="395" y="14097.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="14107.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="14117.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Developmental process that is not core to p53 function.</text>
+<text x="400" y="14126.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53-null mice develop functional organs.</text>
+<rect x="395" y="3087.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3097.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Not a core p53 function. p53 itself is heavily regulated</text>
+<text x="400" y="3116.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">by stability but protein stabilization of other proteins</text>
+<text x="400" y="3125.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is not primary.</text>
+<rect x="395" y="7812.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7822.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7832.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too broad and indirect. p53 maintains genome stability but</text>
+<text x="400" y="7841.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">chromosome organization per se is not its function.</text>
+<rect x="395" y="7957.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7967.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7977.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell type-specific apoptotic process. Relevant in</text>
+<text x="400" y="7986.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">neurodegeneration but not a core p53 function.</text>
+<rect x="395" y="5117.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5127.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5137.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function with strong experimental support. p53 is a</text>
+<text x="400" y="5146.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">master cell cycle regulator.</text>
+<rect x="395" y="3377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific manifestation of p53s anti-proliferative</text>
+<text x="400" y="3406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. Not a core function.</text>
+<rect x="395" y="14242.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="14252.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="14262.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Highly specific developmental process. p53-null mice have</text>
+<text x="400" y="14271.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">normal cardiac development.</text>
+<rect x="395" y="8102.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8112.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8122.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific apoptotic process in immune system. Not a</text>
+<text x="400" y="8131.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core p53 function.</text>
+<rect x="395" y="3522.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3532.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific process in immune system development. Not</text>
+<text x="400" y="3551.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a core p53 function.</text>
+<rect x="395" y="8247.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8257.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8267.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Emerging function of p53 in non-apoptotic cell death. p53</text>
+<text x="400" y="8276.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">can regulate necroptosis through various mechanisms.</text>
+<rect x="395" y="12187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is activated by ionizing</text>
+<text x="400" y="12216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">radiation-induced DNA damage to coordinate repair or cell</text>
+<text x="400" y="12225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">death.</text>
+<rect x="395" y="12332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - UV-C induces DNA lesions that strongly</text>
+<text x="400" y="12361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activate p53-mediated responses.</text>
+<rect x="395" y="8392.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8402.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8412.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 typically inhibits stem cell proliferation to maintain</text>
+<text x="400" y="8421.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">genomic stability. The negative regulation annotation</text>
+<text x="400" y="8430.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(GO:2000647) is more accurate.</text>
+<rect x="395" y="8537.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8547.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8557.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - this term precisely describes p53s role as</text>
+<text x="400" y="8566.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the central signal transducer in stress responses.</text>
+<rect x="395" y="8682.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8692.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is the master regulator of intrinsic</text>
+<text x="400" y="8711.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">apoptosis through BAX, PUMA, NOXA and other target genes.</text>
+<rect x="395" y="8827.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8837.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8847.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Important function - p53 regulates cellular redox state</text>
+<text x="400" y="8856.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through multiple target genes affecting ROS production and</text>
+<text x="400" y="8865.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">scavenging.</text>
+<rect x="395" y="3667.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3677.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3687.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 can negatively regulate mitophagy in certain contexts</text>
+<text x="400" y="3696.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">while promoting it in others. This dual role is</text>
+<text x="400" y="3705.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-documented.</text>
+<rect x="395" y="8972.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8982.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8992.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function in intrinsic apoptosis. p53 target genes</text>
+<text x="400" y="9001.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">like BAX and PUMA promote mitochondrial membrane</text>
+<text x="400" y="9010.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">permeabilization.</text>
+<rect x="395" y="3812.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3822.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3832.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is the master regulator of its own</text>
+<text x="400" y="3841.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">apoptotic pathway with multiple feedback mechanisms.</text>
+<rect x="395" y="3957.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3967.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3977.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 regulates miRNA processing through interaction with</text>
+<text x="400" y="3986.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Drosha complex and other mechanisms. Can have both</text>
+<text x="400" y="3995.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">positive and negative effects.</text>
+<rect x="395" y="4102.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4112.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4122.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Important metabolic function - p53 suppresses aerobic</text>
+<text x="400" y="4131.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">glycolysis (Warburg effect) that is characteristic of</text>
+<text x="400" y="4140.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cancer cells.</text>
+<rect x="395" y="9117.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9127.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9137.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core stress response function - p53 induces apoptosis</text>
+<text x="400" y="9146.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">under severe hypoxic stress through HIF interactions and</text>
+<text x="400" y="9155.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">target genes.</text>
+<rect x="395" y="4247.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4257.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4267.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Tissue-specific apoptotic function. The general apoptotic</text>
+<text x="400" y="4276.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function is core, but fibroblast-specific regulation is</text>
+<text x="400" y="4285.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">context-dependent.</text>
+<rect x="395" y="4392.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4402.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4412.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Important function - p53 maintains redox homeostasis by</text>
+<text x="400" y="4421.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">inducing antioxidant genes like GPX1, SOD2, and others.</text>
+<rect x="395" y="4537.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4547.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4557.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Important function - p53 restricts stem cell self-renewal</text>
+<text x="400" y="4566.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">to maintain genomic integrity and prevent transformation.</text>
+<rect x="395" y="4682.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4692.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 induces senescence through p21 and</text>
+<text x="400" y="4711.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">other targets as an irreversible cell cycle arrest</text>
+<text x="400" y="4720.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanism.</text>
+<rect x="395" y="4827.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4837.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4847.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Well-documented function with strong experimental</text>
+<text x="400" y="4856.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence. p53 regulates numerous miRNAs to modulate</text>
+<text x="400" y="4865.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellular responses.</text>
+<rect x="395" y="4972.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4982.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4992.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Fundamental tumor suppressor function supported by</text>
+<text x="400" y="5001.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">extensive evidence. p53 inhibits proliferation through p21</text>
+<text x="400" y="5010.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and other targets.</text>
+<rect x="395" y="5262.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5272.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5282.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core cell cycle checkpoint function with experimental</text>
+<text x="400" y="5291.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence. p53 induces G2 arrest through multiple</text>
+<text x="400" y="5300.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanisms.</text>
+<rect x="395" y="12912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53-mediated intrinsic apoptosis in</text>
+<text x="400" y="12941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response to DNA damage.</text>
+<rect x="395" y="12767.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12777.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12787.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 responds to ER stress as part of its cellular stress</text>
+<text x="400" y="12796.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response repertoire. Supported by experimental evidence.</text>
+<rect x="395" y="5552.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5562.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5572.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function - p53 is a master regulator of apoptosis</text>
+<text x="400" y="5581.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">with strong experimental evidence.</text>
+<rect x="395" y="15242.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="15252.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="15262.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 localizes to nuclear bodies like PML bodies,</text>
+<text x="400" y="15271.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">especially during stress responses and senescence. This</text>
+<text x="400" y="15280.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">subcellular localization is functionally relevant.</text>
+<rect x="395" y="13057.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="13067.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="13077.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">p53 acts as a metabolic stress sensor, responding to</text>
+<text x="400" y="13086.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">glucose starvation through AMPK and other pathways.</text>
+<rect x="700" y="14900" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="14910" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17996705]</text>
+<text x="705" y="14918" font-size="8" font-family="Arial, sans-serif" fill="#212121">An acetylation switch in p53 mediates holo-TFIID recruitment</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">repression of Bcl-2 expression</text>
+<rect x="700" y="5940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="5958" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulates autophagy</text>
+<rect x="700" y="9360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="9378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Essential for embryonic development, organogenesis</text>
+<rect x="700" y="6085" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6095" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="6103" font-size="8" font-family="Arial, sans-serif" fill="#212121">Apoptosis induction seems to be mediated either by stimulation of</text>
+<text x="705" y="6112" font-size="8" font-family="Arial, sans-serif" fill="#212121">BAX and FAS antigen expression</text>
+<rect x="700" y="10315" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10325" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:1990144]</text>
+<text x="705" y="10333" font-size="8" font-family="Arial, sans-serif" fill="#212121">intrinsic apoptotic signaling pathway in response to hypoxia</text>
+<rect x="700" y="10460" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10470" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="10478" font-size="8" font-family="Arial, sans-serif" fill="#212121">induces cell cycle arrest, DNA repair or apoptosis</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Multifunctional transcription factor</text>
+<rect x="700" y="12635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="12653" font-size="8" font-family="Arial, sans-serif" fill="#212121">The tumor suppressor p53, a sensor of multiple forms of cellular</text>
+<text x="705" y="12662" font-size="8" font-family="Arial, sans-serif" fill="#212121">stress</text>
+<rect x="700" y="10750" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10760" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="10768" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Negatively regulates cell division by controlling expression of a</text>
+<text x="705" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">set of genes required for this process</text>
+<rect x="700" y="780" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="790" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="798" font-size="8" font-family="Arial, sans-serif" fill="#212121">Negatively regulates cell division</text>
+<rect x="700" y="11040" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11050" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="11058" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress</text>
+<rect x="700" y="11330" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11340" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="11348" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress</text>
+<rect x="700" y="11475" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11485" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0071480]</text>
+<text x="705" y="11493" font-size="8" font-family="Arial, sans-serif" fill="#212121">cellular response to gamma radiation</text>
+<rect x="700" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">repression of Bcl-2 expression</text>
+<rect x="700" y="11620" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11630" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="11638" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress, is regulated by</text>
+<text x="705" y="11647" font-size="8" font-family="Arial, sans-serif" fill="#212121">post-translational mechanisms to induce cell-cycle arrest,</text>
+<text x="705" y="11656" font-size="8" font-family="Arial, sans-serif" fill="#212121">senescence, or apoptosis</text>
+<rect x="700" y="11765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="11783" font-size="8" font-family="Arial, sans-serif" fill="#212121">One of the activated genes is an inhibitor of cyclin-dependent</text>
+<text x="705" y="11792" font-size="8" font-family="Arial, sans-serif" fill="#212121">kinases</text>
+<rect x="700" y="11910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="11928" font-size="8" font-family="Arial, sans-serif" fill="#212121">The tumor suppressor p53, a sensor of multiple forms of cellular</text>
+<text x="705" y="11937" font-size="8" font-family="Arial, sans-serif" fill="#212121">stress</text>
+<rect x="700" y="7535" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7545" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:1902108]</text>
+<text x="705" y="7553" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulation of mitochondrial membrane permeability involved in</text>
+<text x="705" y="7562" font-size="8" font-family="Arial, sans-serif" fill="#212121">apoptotic process</text>
+<rect x="700" y="1505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="1523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Negatively regulates cell division</text>
+<rect x="700" y="1650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="1668" font-size="8" font-family="Arial, sans-serif" fill="#212121">Apoptosis induction seems to be mediated either by stimulation of</text>
+<text x="705" y="1677" font-size="8" font-family="Arial, sans-serif" fill="#212121">BAX and FAS antigen expression</text>
+<rect x="700" y="1795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="1813" font-size="8" font-family="Arial, sans-serif" fill="#212121">ER stress inhibits p53-mediated apoptosis</text>
+<rect x="700" y="1940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="1958" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress</text>
+<rect x="700" y="2520" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2530" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="2538" font-size="8" font-family="Arial, sans-serif" fill="#212121">Multifunctional transcription factor</text>
+<rect x="700" y="2665" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2675" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="2683" font-size="8" font-family="Arial, sans-serif" fill="#212121">Negatively regulates cell division by controlling expression of a</text>
+<text x="705" y="2692" font-size="8" font-family="Arial, sans-serif" fill="#212121">set of genes required for this process</text>
+<rect x="700" y="5710" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5720" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17599062]</text>
+<text x="705" y="5728" font-size="8" font-family="Arial, sans-serif" fill="#212121">CDIP, a novel pro-apoptotic gene, regulates TNFalpha-mediated</text>
+<text x="705" y="5737" font-size="8" font-family="Arial, sans-serif" fill="#212121">apoptosis in a p53-dependent manner</text>
+<rect x="700" y="5130" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5140" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[30514107]</text>
+<text x="705" y="5148" font-size="8" font-family="Arial, sans-serif" fill="#212121">CELF1/p53 axis: a sustained antiproliferative signal</text>
+<rect x="700" y="12200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="12218" font-size="8" font-family="Arial, sans-serif" fill="#212121">sensor of multiple forms of cellular stress</text>
+<rect x="700" y="12345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0009411]</text>
+<text x="705" y="12363" font-size="8" font-family="Arial, sans-serif" fill="#212121">response to UV</text>
+<rect x="700" y="8550" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8560" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="8568" font-size="8" font-family="Arial, sans-serif" fill="#212121">Multifunctional transcription factor that induces cell cycle arrest,</text>
+<text x="705" y="8577" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA repair or apoptosis</text>
+<rect x="700" y="8695" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8705" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="8713" font-size="8" font-family="Arial, sans-serif" fill="#212121">p53-mediated apoptosis</text>
+<rect x="1030" y="8695" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="8705" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="1035" y="8713" font-size="8" font-family="Arial, sans-serif" fill="#212121">Apoptosis induction seems to be mediated either by stimulation of</text>
+<text x="1035" y="8722" font-size="8" font-family="Arial, sans-serif" fill="#212121">BAX</text>
+<rect x="700" y="8840" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8850" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:2000378]</text>
+<text x="705" y="8858" font-size="8" font-family="Arial, sans-serif" fill="#212121">negative regulation of reactive oxygen species metabolic process</text>
+<rect x="700" y="8985" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8995" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0035794]</text>
+<text x="705" y="9003" font-size="8" font-family="Arial, sans-serif" fill="#212121">positive regulation of mitochondrial membrane permeability</text>
+<rect x="700" y="3825" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3835" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0072332]</text>
+<text x="705" y="3843" font-size="8" font-family="Arial, sans-serif" fill="#212121">intrinsic apoptotic signaling pathway by p53 class mediator</text>
+<rect x="700" y="4115" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4125" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="4133" font-size="8" font-family="Arial, sans-serif" fill="#212121">Controls glucose metabolism</text>
+<rect x="700" y="9130" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9140" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0002931]</text>
+<text x="705" y="9148" font-size="8" font-family="Arial, sans-serif" fill="#212121">response to ischemia</text>
+<rect x="700" y="4405" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4415" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0072593]</text>
+<text x="705" y="4423" font-size="8" font-family="Arial, sans-serif" fill="#212121">reactive oxygen species metabolic process</text>
+<rect x="700" y="4550" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4560" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="4568" font-size="8" font-family="Arial, sans-serif" fill="#212121">Maintains balance between self-renewal and differentiation</text>
+<rect x="700" y="4695" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4705" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="705" y="4713" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulated by post-translational mechanisms to induce cell-cycle</text>
+<text x="705" y="4722" font-size="8" font-family="Arial, sans-serif" fill="#212121">arrest, senescence, or apoptosis</text>
+<rect x="700" y="4840" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4850" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[30089260]</text>
+<text x="705" y="4858" font-size="8" font-family="Arial, sans-serif" fill="#212121">we only observed significant Dox dose- and time-dependent increases</text>
+<text x="705" y="4867" font-size="8" font-family="Arial, sans-serif" fill="#212121">in the expression levels of miR-103 and miR-107... we found</text>
+<text x="705" y="4876" font-size="8" font-family="Arial, sans-serif" fill="#212121">p53-dependent induction of these miRNAs upon nutlin-3a treatment</text>
+<rect x="700" y="4985" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4995" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[30514107]</text>
+<text x="705" y="5003" font-size="8" font-family="Arial, sans-serif" fill="#212121">CELF1/p53 axis: a sustained antiproliferative signal</text>
+<rect x="1030" y="4985" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4995" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:P04637]</text>
+<text x="1035" y="5003" font-size="8" font-family="Arial, sans-serif" fill="#212121">Negatively regulates cell division</text>
+<rect x="700" y="5275" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5285" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10962037]</text>
+<text x="705" y="5293" font-size="8" font-family="Arial, sans-serif" fill="#212121">Overexpression of MYC causes p53-dependent G2 arrest of normal</text>
+<text x="705" y="5302" font-size="8" font-family="Arial, sans-serif" fill="#212121">fibroblasts</text>
+<rect x="700" y="12925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="12943" font-size="8" font-family="Arial, sans-serif" fill="#212121">p53-mediated apoptosis upon DNA damage</text>
+<rect x="700" y="12780" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12790" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="12798" font-size="8" font-family="Arial, sans-serif" fill="#212121">endoplasmic reticulum (ER) stress inhibits p53-mediated apoptosis...</text>
+<text x="705" y="12807" font-size="8" font-family="Arial, sans-serif" fill="#212121">ER stress induces GSK-3beta binding to p53</text>
+<rect x="700" y="5565" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5575" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="5583" font-size="8" font-family="Arial, sans-serif" fill="#212121">p53-mediated apoptosis... ER stress inhibits p53-mediated apoptosis</text>
+<rect x="700" y="15255" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="15265" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10360174]</text>
+<text x="705" y="15273" font-size="8" font-family="Arial, sans-serif" fill="#212121">ARF exon 2 disrupt its nucleolar localization and impair its ability</text>
+<text x="705" y="15282" font-size="8" font-family="Arial, sans-serif" fill="#212121">to block nuclear export of MDM2 and p53</text>
+<rect x="700" y="13070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="13080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14744935]</text>
+<text x="705" y="13088" font-size="8" font-family="Arial, sans-serif" fill="#212121">The tumor suppressor p53, a sensor of multiple forms of cellular</text>
+<text x="705" y="13097" font-size="8" font-family="Arial, sans-serif" fill="#212121">stress</text>
+<rect x="600.0" y="15550" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="15585.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="15585.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

@@ -1,0 +1,137 @@
+ID   SOU1_SCHPO              Reviewed;         255 AA.
+AC   Q9Y6Z9;
+DT   24-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   18-JUN-2025, entry version 131.
+DE   RecName: Full=Sorbose reductase sou1;
+DE            EC=1.1.1.289;
+DE   AltName: Full=Sorbitol utilization protein sou1;
+GN   Name=sou1; ORFNames=SPAC8E11.10;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+CC   -!- FUNCTION: Catalyzes the NADP dependent reduction of L-sorbose to D-
+CC       glucitol. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-sorbitol + NADP(+) = keto-L-sorbose + NADPH + H(+);
+CC         Xref=Rhea:RHEA:14609, ChEBI:CHEBI:13172, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17924, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.289;
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAB40197.1; -; Genomic_DNA.
+DR   PIR; T39164; T39164.
+DR   RefSeq; NP_594161.1; NM_001019585.2.
+DR   AlphaFoldDB; Q9Y6Z9; -.
+DR   SMR; Q9Y6Z9; -.
+DR   BioGRID; 279848; 1.
+DR   FunCoup; Q9Y6Z9; 50.
+DR   STRING; 284812.Q9Y6Z9; -.
+DR   iPTMnet; Q9Y6Z9; -.
+DR   PaxDb; 4896-SPAC8E11.10.1; -.
+DR   EnsemblFungi; SPAC8E11.10.1; SPAC8E11.10.1:pep; SPAC8E11.10.
+DR   KEGG; spo:2543428; -.
+DR   PomBase; SPAC8E11.10; -.
+DR   VEuPathDB; FungiDB:SPAC8E11.10; -.
+DR   eggNOG; KOG0725; Eukaryota.
+DR   HOGENOM; CLU_010194_1_1_1; -.
+DR   InParanoid; Q9Y6Z9; -.
+DR   OMA; WAPKVRI; -.
+DR   PhylomeDB; Q9Y6Z9; -.
+DR   PRO; PR:Q9Y6Z9; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0005739; C:mitochondrion; HDA:PomBase.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IBA:GO_Central.
+DR   GO; GO:0032115; F:sorbose reductase activity; IEA:UniProtKB-EC.
+DR   CDD; cd05352; MDH-like_SDR_c; 1.
+DR   FunFam; 3.40.50.720:FF:000090; NADP-dependent mannitol dehydrogenase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43008; BENZIL REDUCTASE; 1.
+DR   PANTHER; PTHR43008:SF13; L-XYLULOSE REDUCTASE-RELATED; 1.
+DR   Pfam; PF13561; adh_short_C2; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..255
+FT                   /note="Sorbose reductase sou1"
+FT                   /id="PRO_0000054777"
+FT   ACT_SITE        148
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   ACT_SITE        163
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   ACT_SITE        167
+FT                   /note="Lowers pKa of active site Tyr"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   BINDING         21
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:L0E2Z4"
+FT   BINDING         95
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   BINDING         163
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   BINDING         167
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   BINDING         195
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:O93868"
+FT   BINDING         197
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:L0E2Z4"
+SQ   SEQUENCE   255 AA;  27437 MW;  8609CDC5B9698544 CRC64;
+     MTSMFSLKGK TTLITGGSGG IGFSIAKAFA AAGSNVGLLY GRNKKALEYA AELRDKHGVQ
+     AKAYSCPIEN RSAVIETTNQ AVEELGGRLD VMIANAGIAI PHLSLEDKNE DIWTKVVGIN
+     LNGAYYTAQA AGHHFKKQGK GSLIFTASMS GHIANWPQQW ASYHATKAAV KHLARALAVE
+     WAPFARVNSV SPGYIDTDLT LYADENLRKK WKEYTPQARI GLPDELPGAY LYLASDASSY
+     CTGSDIIVDG GYCSR
+//

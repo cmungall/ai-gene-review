@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1635" viewBox="0 0 1800 1635">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1635" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: ancA (Acetivibrio thermocellus ATCC 27405)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="600" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="622.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="955" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="977.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="655" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="676.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="1010" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1031.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0000272</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">polysaccharide catabolic process</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0030245</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellulose catabolic process</text>
+<rect x="80" y="700" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0030246</text>
+<text x="85" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">carbohydrate binding</text>
+<rect x="80" y="1055" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1069" font-size="10" font-family="monospace" fill="#666666">GO:0005576</text>
+<text x="85" y="1085" font-size="11" font-family="Arial, sans-serif" fill="#212121">extracellular region</text>
+<rect x="80" y="1200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1214" font-size="10" font-family="monospace" fill="#666666">GO:0030115</text>
+<text x="85" y="1230" font-size="11" font-family="Arial, sans-serif" fill="#212121">S-layer</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,722.5 L390,722.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,722.5 L382,718.5 L382,726.5 Z" fill="#ff9800" />
+<rect x="390" y="700" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="714" font-size="10" font-family="monospace" fill="#666666">GO:1990309</text>
+<text x="395" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">type-II dockerin domain binding</text>
+<path d="M332,1077.5 L337,1082.5 L348,1069.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1222.5 L337,1227.5 L348,1214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AncA is directly involved in polysaccharide catabolism</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through its essential role in cellulosome anchoring.</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Mutant studies show reduced cellulose degradation rates</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(~14-23% slower) when ancA is deleted, confirming its</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">contribution to the catabolic process. The annotation</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents core function.</text>
+<rect x="645" y="687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The term carbohydrate binding is too general and</text>
+<text x="650" y="716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">misleading for ancAs primary function. AncA specifically</text>
+<text x="650" y="725.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binds to dockerin domains of scaffoldins (particularly</text>
+<text x="650" y="734.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">CipAs dockerin) via its Type II cohesin domain. While SLH</text>
+<text x="650" y="743.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domains may interact with cell wall carbohydrates, the</text>
+<text x="650" y="752.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core molecular function is dockerin binding, not general</text>
+<rect x="395" y="1042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The protein is secreted with an N-terminal signal peptide</text>
+<text x="400" y="1071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and is localized to the extracellular region, specifically</text>
+<text x="400" y="1080.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the cell surface. This is a correct but somewhat general</text>
+<text x="400" y="1089.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation that captures the overall cellular location.</text>
+<rect x="395" y="1187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AncA contains three reiterated SLH domains (plus one</text>
+<text x="400" y="1216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">truncated) that are characteristic of S-layer proteins and</text>
+<text x="400" y="1225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mediate cell wall attachment. The protein is specifically</text>
+<text x="400" y="1234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localized to the S-layer as confirmed by biochemical</text>
+<text x="400" y="1243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">fractionation and UniProt annotation. This is a core</text>
+<text x="400" y="1252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">structural and functional characteristic.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AncA is directly involved in the cellulose catabolic</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process through its essential role in anchoring the</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellulosome to the cell surface. This enables efficient</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellulose degradation by concentrating cellulases at the</text>
+<text x="400" y="388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">substrate interface. Knockout studies demonstrate reduced</text>
+<text x="400" y="397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellulose hydrolysis rates, confirming its role in this</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">deletion and mutant studies underscore the proteins importance in</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">cellulose utilization. Strains lacking the ancA-encoded anchor show</text>
+<text x="705" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">reduced cellulose hydrolysis rates (on the order of ~14–23% slower)</text>
+<text x="705" y="245" font-size="8" font-family="Arial, sans-serif" fill="#212121">and delayed substrate degradation</text>
+<rect x="950" y="700" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="710" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="955" y="718" font-size="8" font-family="Arial, sans-serif" fill="#212121">the data confirm that SdbA binds the dockerin domain of CipA</text>
+<rect x="700" y="1055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="705" y="1073" font-size="8" font-family="Arial, sans-serif" fill="#212121">the anchoring protein encoded by ancA is localized to the cell</text>
+<text x="705" y="1082" font-size="8" font-family="Arial, sans-serif" fill="#212121">envelope, exposed on the bacterial cell surface. It is secreted with</text>
+<text x="705" y="1091" font-size="8" font-family="Arial, sans-serif" fill="#212121">an N-terminal signal peptide</text>
+<rect x="700" y="1200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="705" y="1218" font-size="8" font-family="Arial, sans-serif" fill="#212121">sequence analysis revealed that the protein contains three</text>
+<text x="705" y="1227" font-size="8" font-family="Arial, sans-serif" fill="#212121">reiterated C-terminal repeats (~60–70 amino acids each) that are</text>
+<text x="705" y="1236" font-size="8" font-family="Arial, sans-serif" fill="#212121">homologous to SLH motifs found in bacterial S-layer proteins</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Through its anchoring role, ancA is directly involved in the</text>
+<text x="705" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">degradation of plant cell wall polysaccharides, specifically the</text>
+<text x="705" y="381" font-size="8" font-family="Arial, sans-serif" fill="#212121">cellulose catabolic process</text>
+<rect x="1030" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:ACET2/ancA/ancA...]</text>
+<text x="1035" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">deletion and mutant studies underscore the proteins importance in</text>
+<text x="1035" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">cellulose utilization. Strains lacking the ancA-encoded anchor show</text>
+<text x="1035" y="381" font-size="8" font-family="Arial, sans-serif" fill="#212121">reduced cellulose hydrolysis rates</text>
+<rect x="600.0" y="1495" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1530.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1530.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

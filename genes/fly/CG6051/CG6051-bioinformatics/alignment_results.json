@@ -1,0 +1,20 @@
+{
+  "fly_length": 989,
+  "human_length": 887,
+  "analyses": {
+    "fyve_alignment": {
+      "identity": 6.557377049180328,
+      "similarity": 11.475409836065573
+    },
+    "tos_motifs": {
+      "human": [],
+      "fly": []
+    },
+    "overall_alignment": {
+      "score": 1204.5,
+      "matches": 50,
+      "length": 989,
+      "identity": 5.636978579481398
+    }
+  }
+}

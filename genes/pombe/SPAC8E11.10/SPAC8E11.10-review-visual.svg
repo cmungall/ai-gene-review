@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1925" viewBox="0 0 1800 1925">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1925" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: sou1 (Schizosaccharomyces pombe 972h-)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="600" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="622.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="1390" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1412.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="655" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="676.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1445" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1466.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0005975</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">carbohydrate metabolic process</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0044281</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">small molecule metabolic process</text>
+<rect x="80" y="700" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0016616</text>
+<text x="85" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">oxidoreductase activity, acting on ...</text>
+<rect x="80" y="845" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="859" font-size="10" font-family="monospace" fill="#666666">GO:0016491</text>
+<text x="85" y="875" font-size="11" font-family="Arial, sans-serif" fill="#212121">oxidoreductase activity</text>
+<rect x="80" y="990" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0032115</text>
+<text x="85" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">sorbose reductase activity</text>
+<rect x="80" y="1135" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1149" font-size="10" font-family="monospace" fill="#666666">GO:0050085</text>
+<text x="85" y="1165" font-size="11" font-family="Arial, sans-serif" fill="#212121">mannitol 2-dehydrogenase (NADP+) ac...</text>
+<rect x="80" y="1490" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1504" font-size="10" font-family="monospace" fill="#666666">GO:0005739</text>
+<text x="85" y="1520" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitochondrion</text>
+<path d="M332,722.5 L337,727.5 L348,714.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,867.5 L337,872.5 L348,859.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1012.5 L337,1017.5 L348,1004.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1149.5 L348,1165.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1165.5 L348,1149.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1504.5 L348,1520.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1520.5 L348,1504.5" stroke="#f44336" stroke-width="3" />
+<rect x="395" y="687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The IBA annotation is biochemically accurate based on</text>
+<text x="400" y="716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">phylogenetic inference and aligns with the characterized</text>
+<text x="400" y="725.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. The deep research states that S. pombe Sou1</text>
+<text x="400" y="734.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">"catalyzes the NADP(H)-dependent reduction of L-sorbose to</text>
+<text x="400" y="743.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">D-glucitol (sorbitol)" and UniProt confirms "Catalyzes the</text>
+<text x="400" y="752.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">NADP dependent reduction of L-sorbose to D-glucitol." This</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While accurate, this term is very general. The deep</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">research provides evidence for more specific processes</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">like "sorbose metabolic process (GO:0019311)" which would</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">be more informative. However, the annotation is not</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">incorrect - sorbose/sorbitol interconversion is</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">definitively a carbohydrate metabolic process. Accepting</text>
+<rect x="395" y="832.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="842.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="852.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While factually correct based on UniProt keyword mapping,</text>
+<text x="400" y="861.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">this annotation lacks specificity. The deep research and</text>
+<text x="400" y="870.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">UniProt both identify the enzyme as EC 1.1.1.289 (sorbose</text>
+<text x="400" y="879.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">reductase), and more specific GO terms exist. However, the</text>
+<text x="400" y="888.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation is not wrong - just uninformatively broad.</text>
+<text x="400" y="897.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Accepting as technically accurate but noting that</text>
+<rect x="395" y="977.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="987.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="997.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is the most specific and accurate molecular function</text>
+<text x="400" y="1006.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation for sou1. The annotation perfectly matches the</text>
+<text x="400" y="1015.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme"s characterized activity as confirmed by UniProt,</text>
+<text x="400" y="1024.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sequence homology to experimentally validated sorbose</text>
+<text x="400" y="1033.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">reductases, and the enzyme"s EC number (1.1.1.289). This</text>
+<text x="400" y="1042.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents the core function of the protein.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The annotation is factually correct as sorbose (MW ~180)</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and sorbitol (MW ~182) are small molecules. The deep</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">research confirms the enzyme participates in "small</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecule metabolism" of sugars and sugar alcohols. While</text>
+<text x="400" y="388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">overly broad, the annotation is not incorrect. More</text>
+<text x="400" y="397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific child terms would be preferred but this parent</text>
+<rect x="395" y="1122.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1132.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1142.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Multiple lines of evidence contradict this annotation.</text>
+<text x="400" y="1151.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">UniProt explicitly names the enzyme "Sorbose reductase</text>
+<text x="400" y="1160.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sou1" with EC 1.1.1.289, which is specific for</text>
+<text x="400" y="1169.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sorbose/sorbitol interconversion, not mannitol. The deep</text>
+<text x="400" y="1178.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">research states the enzyme "specifically catalyzes the</text>
+<text x="400" y="1187.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">reversible reaction between L-sorbose and D-sorbitol" with</text>
+<rect x="395" y="1477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Multiple lines of evidence suggest cytosolic, not</text>
+<text x="400" y="1506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mitochondrial, localization. First, the protein lacks any</text>
+<text x="400" y="1515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">recognizable signal peptide or transmembrane domains per</text>
+<text x="400" y="1524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">UniProt. Second, the deep research explicitly states "No</text>
+<text x="400" y="1533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">direct localization studies have been published for Sou1</text>
+<text x="400" y="1542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in S. pombe, but its features suggest a cytosolic</text>
+<rect x="700" y="700" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="710" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="718" font-size="8" font-family="Arial, sans-serif" fill="#212121">Based on homology to Candida albicans Sou1 and bacterial sorbose</text>
+<text x="705" y="727" font-size="8" font-family="Arial, sans-serif" fill="#212121">reductases, this enzyme catalyzes the NADP(H)-dependent reduction of</text>
+<text x="705" y="736" font-size="8" font-family="Arial, sans-serif" fill="#212121">L-sorbose to D-glucitol (sorbitol)</text>
+<rect x="1030" y="700" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="710" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="718" font-size="8" font-family="Arial, sans-serif" fill="#212121">FUNCTION: Catalyzes the NADP dependent reduction of L-sorbose to</text>
+<text x="1035" y="727" font-size="8" font-family="Arial, sans-serif" fill="#212121">D-glucitol</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">The Sou1 enzyme is involved in carbohydrate metabolic pathways,</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">specifically the utilization of L-sorbose and D-sorbitol</text>
+<rect x="1030" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">This places Sou1 in the context of the sorbose metabolic process</text>
+<text x="1035" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">(GO:0019311)</text>
+<rect x="700" y="845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="863" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=Sorbose reductase sou1; EC=1.1.1.289</text>
+<rect x="1030" y="845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="863" font-size="8" font-family="Arial, sans-serif" fill="#212121">The enzymatic mechanism is expected to follow the typical SDR</text>
+<text x="1035" y="872" font-size="8" font-family="Arial, sans-serif" fill="#212121">oxidoreductase mechanism</text>
+<rect x="700" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=Sorbose reductase sou1; EC=1.1.1.289</text>
+<rect x="1030" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">This activity corresponds to "sorbose reductase activity"</text>
+<text x="1035" y="1017" font-size="8" font-family="Arial, sans-serif" fill="#212121">(GO:0032115) in Gene Ontology terms</text>
+<rect x="1360" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1365" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1365" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">CATALYTIC ACTIVITY: Reaction=D-sorbitol + NADP(+) = keto-L-sorbose +</text>
+<text x="1365" y="1017" font-size="8" font-family="Arial, sans-serif" fill="#212121">NADPH + H(+)</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">By catalyzing sorbose-to-sorbitol conversion, Sou1 enables S. pombe</text>
+<text x="705" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">to potentially metabolize these sugars</text>
+<rect x="1030" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">The Sou1 enzyme is involved in carbohydrate metabolic pathways,</text>
+<text x="1035" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">specifically the utilization of L-sorbose and D-sorbitol</text>
+<rect x="700" y="1135" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1145" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="1153" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=Sorbose reductase sou1; EC=1.1.1.289</text>
+<rect x="1030" y="1135" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1145" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="1153" font-size="8" font-family="Arial, sans-serif" fill="#212121">Biochemical studies of orthologous enzymes support this function:</text>
+<text x="1035" y="1162" font-size="8" font-family="Arial, sans-serif" fill="#212121">for example, the Gluconobacter frateurii sorbose reductase</text>
+<text x="1035" y="1171" font-size="8" font-family="Arial, sans-serif" fill="#212121">specifically catalyzes the reversible reaction between L-sorbose and</text>
+<text x="1035" y="1180" font-size="8" font-family="Arial, sans-serif" fill="#212121">D-sorbitol using NADPH</text>
+<rect x="1360" y="1135" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1365" y="1145" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1365" y="1153" font-size="8" font-family="Arial, sans-serif" fill="#212121">CATALYTIC ACTIVITY: Reaction=D-sorbitol + NADP(+) = keto-L-sorbose +</text>
+<text x="1365" y="1162" font-size="8" font-family="Arial, sans-serif" fill="#212121">NADPH + H(+)</text>
+<rect x="700" y="1490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="705" y="1508" font-size="8" font-family="Arial, sans-serif" fill="#212121">No direct localization studies have been published for Sou1 in S.</text>
+<text x="705" y="1517" font-size="8" font-family="Arial, sans-serif" fill="#212121">pombe, but its features suggest a cytosolic localization. The</text>
+<text x="705" y="1526" font-size="8" font-family="Arial, sans-serif" fill="#212121">protein lacks any recognizable signal peptide or transmembrane</text>
+<text x="705" y="1535" font-size="8" font-family="Arial, sans-serif" fill="#212121">domains</text>
+<rect x="1030" y="1490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1035" y="1508" font-size="8" font-family="Arial, sans-serif" fill="#212121">global localization surveys in yeast have not flagged Sou1 as part</text>
+<text x="1035" y="1517" font-size="8" font-family="Arial, sans-serif" fill="#212121">of an organellar proteome, further suggesting it is a cytoplasmic</text>
+<text x="1035" y="1526" font-size="8" font-family="Arial, sans-serif" fill="#212121">enzyme</text>
+<rect x="1360" y="1490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1365" y="1500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:genes/pombe/SPA...]</text>
+<text x="1365" y="1508" font-size="8" font-family="Arial, sans-serif" fill="#212121">NADPH – the required cofactor for sorbose reduction – is</text>
+<text x="1365" y="1517" font-size="8" font-family="Arial, sans-serif" fill="#212121">predominantly generated in the cytosol (e.g. via the pentose</text>
+<text x="1365" y="1526" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphate pathway)</text>
+<rect x="600.0" y="1785" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1820.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1820.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

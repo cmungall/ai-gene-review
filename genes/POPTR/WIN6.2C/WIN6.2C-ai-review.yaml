@@ -1,0 +1,160 @@
+id: P29032
+gene_symbol: WIN6.2C
+taxon:
+  id: NCBITaxon:3694
+  label: Populus trichocarpa
+description: Acidic endochitinase WIN6.2C, a glycoside hydrolase family 19 enzyme that catalyzes the random endo-hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins. Functions as a plant defense protein against chitin-containing fungal pathogens and is induced by wounding. Contains a chitin-binding domain and a catalytic domain. The protein is synthesized as a precursor with a signal peptide and belongs to the chitinase class I subfamily.
+existing_annotations:
+- term:
+    id: GO:0004568
+    label: chitinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct but not specific enough. The enzyme is specifically an endochitinase.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0008843
+      label: endochitinase activity
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'UniProt classifies this as an acidic endochitinase (EC:3.2.1.14)'
+- term:
+    id: GO:0006032
+    label: chitin catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Correct annotation representing the core biological process.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Catalyzes random endo-hydrolysis of N-acetyl-beta-D-glucosaminide linkages in chitin'
+- term:
+    id: GO:0008061
+    label: chitin binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Correct annotation supported by domain architecture.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Contains chitin-binding type-1 domain (residues 23-63)'
+- term:
+    id: GO:0016998
+    label: cell wall macromolecule catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct broader process annotation; chitin is a cell wall macromolecule in fungi.'
+    action: KEEP_AS_NON_CORE
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Functions in defense against chitin-containing fungal pathogens'
+- term:
+    id: GO:0000272
+    label: polysaccharide catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but broad annotation; chitin is a polysaccharide.'
+    action: KEEP_AS_NON_CORE
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Chitin is a polysaccharide composed of N-acetyl-beta-D-glucosaminide units'
+- term:
+    id: GO:0006952
+    label: defense response
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but not specific enough. The enzyme provides defense specifically against other organisms.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0098542
+      label: defense response to other organism
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Defense against chitin-containing fungal pathogens'
+- term:
+    id: GO:0008843
+    label: endochitinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000003
+  review:
+    summary: 'Correct and specific molecular function annotation representing the core enzymatic activity.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Acidic endochitinase WIN6.2C with EC:3.2.1.14 activity'
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but very general. Chitinases are hydrolases.'
+    action: KEEP_AS_NON_CORE
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'General hydrolase activity, specific function is endochitinase'
+- term:
+    id: GO:0016798
+    label: hydrolase activity, acting on glycosyl bonds
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct and more specific than general hydrolase activity.'
+    action: KEEP_AS_NON_CORE
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Cleaves beta-1,4-glycosidic bonds in chitin polymer'
+- term:
+    id: GO:0098542
+    label: defense response to other organism
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Correct and specific biological process representing the core defensive function.'
+    action: ACCEPT
+    supported_by:
+    - reference_id: UniProt:P29032
+      supporting_text: 'Defense against chitin-containing fungal pathogens'
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000003
+  title: Gene Ontology annotation based on Enzyme Commission mapping
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+core_functions:
+- description: 'catalyzes the random endo-hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins as part of plant defense mechanisms'
+  molecular_function:
+    id: GO:0008843
+    label: endochitinase activity
+  directly_involved_in:
+  - id: GO:0006032
+    label: chitin catabolic process
+  - id: GO:0098542
+    label: defense response to other organism
+  supported_by:
+  - reference_id: UniProt:P29032
+    supporting_text: 'Acidic endochitinase WIN6.2C with EC:3.2.1.14 activity catalyzing random endo-hydrolysis of chitin'
+- description: 'binds chitin substrates through a specialized chitin-binding type-1 domain to facilitate enzymatic degradation'
+  molecular_function:
+    id: GO:0008061
+    label: chitin binding
+  supported_by:
+  - reference_id: UniProt:P29032
+    supporting_text: 'Contains chitin-binding type-1 domain (residues 23-63)'

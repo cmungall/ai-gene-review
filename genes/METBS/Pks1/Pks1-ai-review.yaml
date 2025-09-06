@@ -1,0 +1,174 @@
+id: A0A0B4ESU9
+gene_symbol: Pks1
+taxon:
+  id: NCBITaxon:1276141
+  label: Metarhizium brunneum ARSEF 3297
+description: Type I non-reducing polyketide synthase that produces anthraquinone-derived pigments essential for conidial pigmentation and environmental stress resistance. Contains modular domains (SAT-KS-MAT-PT-ACP-ACP-TE) that iteratively condense acetyl-CoA and malonyl-CoA units to form 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone, which is further processed by EthD and Mlac1 to generate mature conidial pigments that protect against UV radiation and temperature extremes.
+existing_annotations:
+- term:
+    id: GO:0003824
+    label: catalytic activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Too general for a multifunctional enzyme with specific polyketide synthase activity. Should use more specific molecular function terms.
+    action: REMOVE
+- term:
+    id: GO:0004312
+    label: fatty acid synthase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000118
+  review:
+    summary: Incorrect annotation. PKS1 is a polyketide synthase, not a fatty acid synthase. While both use similar chemistry, they produce different products (aromatic polyketides vs fatty acids).
+    action: REMOVE
+- term:
+    id: GO:0004315
+    label: 3-oxoacyl-[acyl-carrier-protein] synthase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Partially correct but too specific to just the KS domain activity. The full protein has polyketide synthase activity which encompasses this plus other activities.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0016218
+      label: polyketide synthase activity
+- term:
+    id: GO:0006633
+    label: fatty acid biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Incorrect process. PKS1 produces polyketides (anthraquinones), not fatty acids.
+    action: REMOVE
+- term:
+    id: GO:0016740
+    label: transferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Too general. Multiple domains have transferase activity but the overall function is polyketide synthase.
+    action: REMOVE
+- term:
+    id: GO:0016746
+    label: acyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct for MAT and SAT domains but too general for the overall protein function. Should use polyketide synthase activity.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0016218
+      label: polyketide synthase activity
+- term:
+    id: GO:0031177
+    label: phosphopantetheine binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct for the ACP domains which bind phosphopantetheine cofactors. This is an important functional aspect.
+    action: ACCEPT
+- term:
+    id: GO:0044550
+    label: secondary metabolite biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct but too general. Should specify polyketide biosynthetic process.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0030639
+      label: polyketide biosynthetic process
+references:
+- id: PMID:29958281
+  title: Duplication of a Pks gene cluster and subsequent functional diversification facilitate environmental adaptation in Metarhizium species
+  findings:
+  - statement: PKS1 produces anthraquinone-based pigments essential for conidial protection
+    supporting_text: PKS1 is involved in synthesis of an anthraquinone derivative
+  - statement: Expression is developmentally regulated during spore formation
+    supporting_text: PKS1 is highly expressed during conidiation
+  - statement: Conidial pigments provide crucial environmental stress protection
+    supporting_text: Plays an important role in fungal tolerance to UV radiation and extreme temperatures
+  - statement: Gene duplication enhanced environmental adaptation in Metarhizium
+    supporting_text: Therefore, duplication and subsequent diversification of a Pks gene cluster increased the adaptive flexibility of Metarhizium species
+  - statement: Multiple stress-response pathways regulate PKS1 expression
+    supporting_text: Pks1 is positively regulated by Hog1-MAPK, Slt2-MAPK and Mr-OPY2
+  - statement: Loss of PKS1 function results in abnormal conidial pigmentation
+    supporting_text: Because disrupting Pks1 in Metarhizium species resulted in red conidia
+- id: PMID:25368161
+  title: Trajectory and genomic determinants of fungal-pathogen speciation and host adaptation
+  findings:
+  - statement: Metarhizium species underwent genomic adaptations for ecological niches
+    supporting_text: generalization was associated with protein-family expansion, loss of genome-defense mechanisms, genome restructuring, horizontal gene transfer, and positive selection
+  - statement: Secondary metabolism contributes to fungal adaptation
+    supporting_text: Generalists evolved from specialists through transitional species
+- id: UniProtKB:A0A0B4ESU9
+  title: UniProt database entry for PKS1_METBS
+  findings:
+  - statement: PKS1 contains complete Type I NR-PKS domain architecture
+    supporting_text: Contains SAT, KS, MAT, PT, dual ACP, and TE domains
+  - statement: Produces specific anthraquinone intermediate
+    supporting_text: Produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone
+  - statement: Functions in multi-enzyme pigment biosynthesis pathway
+    supporting_text: Works with EthD and Mlac1 in pigment biosynthesis pathway
+  - statement: Expression controlled by conidiation regulatory cascade
+    supporting_text: Regulated by BrlA-AbaA-WetA conidiation pathway
+  - statement: All catalytic domains contain conserved active sites
+    supporting_text: Active sites identified for all catalytic domains
+  - statement: ACP domains require phosphopantetheinylation for function
+    supporting_text: Phosphopantetheinylation at S1712 and S1830
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO terms
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000118
+  title: TreeGrafter-generated GO annotations
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods
+  findings: []
+core_functions:
+- molecular_function:
+    id: GO:0016218
+    label: polyketide synthase activity
+  description: Catalyzes iterative condensation of acetyl-CoA (starter) with malonyl-CoA (extender) units to produce anthraquinone-based polyketides via its modular domain architecture
+  directly_involved_in:
+  - id: GO:0030639
+    label: polyketide biosynthetic process
+  - id: GO:0046189
+    label: phenol-containing compound biosynthetic process
+  supported_by:
+  - reference_id: PMID:29958281
+    supporting_text: PKS1 is involved in synthesis of an anthraquinone derivative
+  - reference_id: UniProtKB:A0A0B4ESU9
+    supporting_text: Polyketide synthase; produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone though condensation of acetyl-CoA with malonyl-CoA
+  - reference_id: file:METBS/Pks1/Pks1-bioinformatics/RESULTS.md
+    supporting_text: Confirmed Type I non-reducing PKS architecture with all essential catalytic domains
+- molecular_function:
+    id: GO:0031177
+    label: phosphopantetheine binding
+  description: ACP domains bind phosphopantetheine prosthetic groups that tether growing polyketide intermediates during biosynthesis
+  supported_by:
+  - reference_id: UniProtKB:A0A0B4ESU9
+    supporting_text: O-(pantetheine 4'-phosphoryl)serine modifications at positions 1712 and 1830
+- directly_involved_in:
+  - id: GO:0043473
+    label: pigmentation
+  - id: GO:0048315
+    label: conidium formation
+  description: Essential for conidial pigmentation through production of anthraquinone-derived pigments during spore development
+  supported_by:
+  - reference_id: PMID:29958281
+    supporting_text: PKS1 is highly expressed during conidiation; disruption results in red conidia
+  - reference_id: UniProtKB:A0A0B4ESU9
+    supporting_text: Contributes to conidial pigmentation; regulated by BrlA-AbaA-WetA conidiation pathway
+- directly_involved_in:
+  - id: GO:0009411
+    label: response to UV
+  - id: GO:0009266
+    label: response to temperature stimulus
+  description: Conidial pigments provide protection against UV radiation and temperature extremes
+  supported_by:
+  - reference_id: PMID:29958281
+    supporting_text: Plays an important role in fungal tolerance to UV radiation and extreme temperatures

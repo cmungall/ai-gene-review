@@ -1,0 +1,141 @@
+id: Q5AMS2
+gene_symbol: LPL1
+taxon:
+  id: NCBITaxon:237561
+  label: Candida albicans SC5314
+description: 'Putative phospholipase B homolog of S. cerevisiae LPL1, likely encoding a lipid droplet-associated enzyme with phospholipase activity on glycerophospholipids. Based on homology, predicted to contain GXSXG lipase motif and function in phospholipid metabolism during stationary phase.'
+existing_annotations:
+- term:
+    id: GO:0006629
+    label: lipid metabolic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This broad biological process term is appropriate for a phospholipase B enzyme. The S. cerevisiae homolog LPL1 is well-characterized as functioning in lipid metabolism, specifically in phospholipid hydrolysis and lipid droplet dynamics. The IBA annotation is based on phylogenetic inference from characterized orthologs.'
+    action: ACCEPT
+    reason: 'The annotation is supported by strong homology to S. cerevisiae LPL1, which has demonstrated roles in lipid metabolism. Phospholipase B enzymes by definition participate in lipid metabolic processes through hydrolysis of glycerophospholipids. The term accurately captures the core metabolic function without being overly specific.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'The S. cerevisiae LPL1 (YOR059c) gene encodes a phospholipase B... Shows phospholipase activity with broad substrate specificity, acting on all glycerophospholipids primarily at sn-2 position, then at sn-1 position'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This molecular function represents one of the three activities of phospholipase B enzymes - the lysophospholipase activity. However, this annotation is too narrow as it only captures one aspect of phospholipase B function and is specific to phosphatidylcholine substrates, while the enzyme likely has broader substrate specificity.'
+    action: MODIFY
+    reason: 'Phospholipase B enzymes have three distinct activities: sn-1/sn-2 fatty acid ester hydrolase, lysophospholipase, and transacylase activity. The current term only captures the lysophospholipase activity on phosphatidylcholine. The more comprehensive term GO:0102545 (phospholipase B activity) would better represent the full enzymatic capability of this protein, as it encompasses all three activities and broader substrate specificity.'
+    proposed_replacement_terms:
+      - id: GO:0102545
+        label: 'phospholipase B activity'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Fungal phospholipase B (PLB) enzymes harbor three distinct activities: 1. sn-1 and sn-2 fatty acid ester hydrolase activity, 2. Lysophospholipase activity, 3. Transacylase activity'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This cellular component annotation is strongly supported by characterization of the S. cerevisiae homolog LPL1, which shows exclusive localization to lipid droplets during stationary phase. This localization is consistent with the enzyme role in lipid metabolism and storage regulation.'
+    action: ACCEPT
+    reason: 'The S. cerevisiae LPL1 has been experimentally demonstrated to localize exclusively to lipid droplets at stationary phase. This localization makes functional sense for a phospholipase B enzyme involved in lipid metabolism and droplet dynamics. The IBA annotation based on phylogenetic inference from the well-characterized S. cerevisiae ortholog is reliable.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'The S. cerevisiae LPL1 (YOR059c) gene encodes a phospholipase B localized to lipid droplets during stationary phase... Exclusively localized to lipid droplets at stationary phase'
+- term:
+    id: GO:0047372
+    label: monoacylglycerol lipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This annotation suggests additional lipase activity beyond phospholipase function. While some lipases can have promiscuous substrate specificity, there is no direct evidence that LPL1 homologs have monoacylglycerol lipase activity as a primary function. This appears to be a secondary or promiscuous activity.'
+    action: KEEP_AS_NON_CORE
+    reason: 'The primary characterized function of LPL1 homologs is phospholipase B activity on glycerophospholipids, not monoacylglycerol hydrolysis. While the enzyme may have some activity on monoacylglycerols due to the general lipase domain, this is likely not the core function. The annotation may reflect substrate promiscuity rather than the primary enzymatic role. Keeping as non-core acknowledges potential activity without overstating its importance.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Shows phospholipase activity with broad substrate specificity, acting on all glycerophospholipids primarily at sn-2 position, then at sn-1 position [Note: no mention of monoacylglycerol substrates in primary literature]'
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This generic membrane annotation is based on automated prediction from a transmembrane domain (residues 286-306 per UniProt). However, this is inconsistent with the well-characterized lipid droplet localization of the S. cerevisiae homolog. The predicted transmembrane domain may represent a hydrophobic region for lipid droplet association rather than true membrane insertion.'
+    action: REMOVE
+    reason: 'The annotation conflicts with experimental evidence showing exclusive lipid droplet localization for the S. cerevisiae homolog. While the protein has a predicted hydrophobic region (286-306), this likely mediates lipid droplet association rather than membrane integration. Lipid droplets have a unique phospholipid monolayer structure distinct from bilayer membranes. The generic "membrane" term is misleading and the more specific "lipid droplet" annotation (GO:0005811) is already present and correct.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Exclusively localized to lipid droplets at stationary phase'
+      - reference_id: 'file:CANAL/LPL1/LPL1-uniprot.txt'
+        supporting_text: 'FT   TRANSMEM        286..306 [Note: This hydrophobic region likely mediates lipid droplet binding rather than membrane insertion]'
+- term:
+    id: GO:0016042
+    label: lipid catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This biological process annotation accurately describes the catabolic aspect of phospholipase B activity - the hydrolysis of phospholipids into fatty acids and lysophospholipids. This is a appropriate child term of the broader lipid metabolic process already annotated.'
+    action: ACCEPT
+    reason: 'Phospholipase B enzymes catalyze the hydrolytic breakdown of glycerophospholipids, which is definitionally a lipid catabolic process. The annotation correctly captures this catabolic function. While based on automated keyword mapping (IEA), it aligns with the known enzymatic activity of phospholipase B family members.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Phospholipase B enzymes harbor... sn-1 and sn-2 fatty acid ester hydrolase activity [hydrolysis represents catabolism of lipids]'
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This is an overly broad molecular function term that provides minimal information about the specific enzymatic activity. While technically correct (phospholipases are hydrolases), this annotation adds no value beyond what is already captured by more specific terms.'
+    action: REMOVE
+    reason: 'The term "hydrolase activity" is too generic and uninformative. The protein already has more specific molecular function annotations (phospholipase/lysophospholipase activities) that are children of hydrolase activity in the GO hierarchy. This broad parent term adds no additional information and represents the type of vague annotation that should be avoided according to curation guidelines. The specific phospholipase B activity (GO:0102545) provides much more informative functional annotation.'
+    supported_by:
+      - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+        supporting_text: 'Contains the canonical lipase motif GXSXG essential for catalytic activity [specific lipase, not generic hydrolase]'
+core_functions:
+- description: Phospholipid hydrolysis at lipid droplets
+  molecular_function:
+    id: GO:0102545
+    label: phospholipase B activity
+  supported_by:
+  - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+    supporting_text: 'Fungal phospholipase B (PLB) enzymes harbor three distinct activities: 1. sn-1 and sn-2 fatty acid ester hydrolase activity, 2. Lysophospholipase activity, 3. Transacylase activity'
+  - reference_id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+    supporting_text: 'Shows phospholipase activity with broad substrate specificity, acting on all glycerophospholipids primarily at sn-2 position, then at sn-1 position'
+  directly_involved_in:
+  - id: GO:0006629
+    label: lipid metabolic process
+  - id: GO:0016042
+    label: lipid catabolic process
+  locations:
+  - id: GO:0005811
+    label: lipid droplet
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: 'file:CANAL/LPL1/LPL1-deep-research.md'
+  title: Deep research analysis of C. albicans LPL1 gene
+  findings:
+    - statement: S. cerevisiae homolog LPL1 encodes phospholipase B with conserved catalytic motif
+      supporting_text: 'Contains the canonical lipase motif GXSXG essential for catalytic activity'
+    - statement: Phospholipase B enzymes have three distinct enzymatic activities
+      supporting_text: 'Fungal phospholipase B (PLB) enzymes harbor three distinct activities: 1. sn-1 and sn-2 fatty acid ester hydrolase activity, 2. Lysophospholipase activity, 3. Transacylase activity'
+    - statement: Exclusive localization to lipid droplets during stationary phase
+      supporting_text: 'The S. cerevisiae LPL1 (YOR059c) gene encodes a phospholipase B localized to lipid droplets during stationary phase... Exclusively localized to lipid droplets at stationary phase'
+    - statement: Broad substrate specificity for glycerophospholipids
+      supporting_text: 'Shows phospholipase activity with broad substrate specificity, acting on all glycerophospholipids primarily at sn-2 position, then at sn-1 position'
+- id: 'file:CANAL/LPL1/LPL1-uniprot.txt'
+  title: UniProt entry for C. albicans LPL1 (Q5AMS2)
+  findings:
+    - statement: Contains DUF676 lipase-like domain
+      supporting_text: 'DOMAIN 14..213 /note="DUF676"'
+    - statement: Predicted hydrophobic region for lipid droplet association
+      supporting_text: 'TRANSMEM 286..306 /note="Helical"'
+    - statement: Member of putative lipase ROG1 family
+      supporting_text: 'SIMILARITY: Belongs to the putative lipase ROG1 family'

@@ -1,0 +1,39 @@
+{
+  "pdb_id": "2X1D",
+  "description": "Mature wild-type enzyme",
+  "chains": [
+    {
+      "chain_id": "A",
+      "num_residues": 559
+    },
+    {
+      "chain_id": "B",
+      "num_residues": 616
+    },
+    {
+      "chain_id": "C",
+      "num_residues": 579
+    },
+    {
+      "chain_id": "D",
+      "num_residues": 577
+    }
+  ],
+  "catalytic_residues": {
+    "position_103": {
+      "chain": "D",
+      "residue": "CSD",
+      "expected": "CYS (or ALA in mutant)",
+      "matches": false
+    },
+    "position_309": {
+      "chain": "D",
+      "residue": "SER",
+      "expected": "SER",
+      "matches": true
+    }
+  },
+  "cleavage_site": "Between Gly102 and Cys103",
+  "active_site_analysis": {},
+  "form": "mature (cleaved into subunits)"
+}

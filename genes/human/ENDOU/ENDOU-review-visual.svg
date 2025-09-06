@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="6000" viewBox="0 0 1800 6000">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="6000" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: ENDOU (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="1665" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1687.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="4740" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="4762.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="675" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="696.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="905" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="926.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="1135" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1156.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="1365" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1386.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="1720" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1741.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="3400" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3421.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cargo receptor activity</text>
+<rect x="60" y="3630" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3651.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="4440" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4461.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">molecular function regulator activity</text>
+<rect x="60" y="4795" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4816.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0007165</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">signal transduction</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0016441</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">post-transcriptional gene silencing</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0050995</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of lipid catabo...</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0016192</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">vesicle-mediated transport</text>
+<rect x="80" y="950" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="964" font-size="10" font-family="monospace" fill="#666666">GO:0006955</text>
+<text x="85" y="980" font-size="11" font-family="Arial, sans-serif" fill="#212121">immune response</text>
+<rect x="80" y="1180" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1194" font-size="10" font-family="monospace" fill="#666666">GO:0006508</text>
+<text x="85" y="1210" font-size="11" font-family="Arial, sans-serif" fill="#212121">proteolysis</text>
+<rect x="80" y="1410" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1424" font-size="10" font-family="monospace" fill="#666666">GO:0007565</text>
+<text x="85" y="1440" font-size="11" font-family="Arial, sans-serif" fill="#212121">female pregnancy</text>
+<rect x="80" y="2925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2939" font-size="10" font-family="monospace" fill="#666666">GO:0004521</text>
+<text x="85" y="2955" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA endonuclease activity</text>
+<rect x="80" y="2055" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2069" font-size="10" font-family="monospace" fill="#666666">GO:0004518</text>
+<text x="85" y="2085" font-size="11" font-family="Arial, sans-serif" fill="#212121">nuclease activity</text>
+<rect x="80" y="2200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2214" font-size="10" font-family="monospace" fill="#666666">GO:0004519</text>
+<text x="85" y="2230" font-size="11" font-family="Arial, sans-serif" fill="#212121">endonuclease activity</text>
+<rect x="80" y="2345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2359" font-size="10" font-family="monospace" fill="#666666">GO:0004540</text>
+<text x="85" y="2375" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA nuclease activity</text>
+<rect x="80" y="2490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2504" font-size="10" font-family="monospace" fill="#666666">GO:0016787</text>
+<text x="85" y="2520" font-size="11" font-family="Arial, sans-serif" fill="#212121">hydrolase activity</text>
+<rect x="80" y="2635" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2649" font-size="10" font-family="monospace" fill="#666666">GO:0016829</text>
+<text x="85" y="2665" font-size="11" font-family="Arial, sans-serif" fill="#212121">lyase activity</text>
+<rect x="80" y="3215" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3229" font-size="10" font-family="monospace" fill="#666666">GO:0008236</text>
+<text x="85" y="3245" font-size="11" font-family="Arial, sans-serif" fill="#212121">serine-type peptidase activity</text>
+<rect x="80" y="3445" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3459" font-size="10" font-family="monospace" fill="#666666">GO:0005044</text>
+<text x="85" y="3475" font-size="11" font-family="Arial, sans-serif" fill="#212121">scavenger receptor activity</text>
+<rect x="80" y="3675" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3689" font-size="10" font-family="monospace" fill="#666666">GO:0030247</text>
+<text x="85" y="3705" font-size="11" font-family="Arial, sans-serif" fill="#212121">polysaccharide binding</text>
+<rect x="80" y="4110" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4124" font-size="10" font-family="monospace" fill="#666666">GO:0003723</text>
+<text x="85" y="4140" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA binding</text>
+<rect x="80" y="3965" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3979" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="3995" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="4255" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4269" font-size="10" font-family="monospace" fill="#666666">GO:0030145</text>
+<text x="85" y="4285" font-size="11" font-family="Arial, sans-serif" fill="#212121">manganese ion binding</text>
+<rect x="80" y="4485" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4499" font-size="10" font-family="monospace" fill="#666666">GO:0008083</text>
+<text x="85" y="4515" font-size="11" font-family="Arial, sans-serif" fill="#212121">growth factor activity</text>
+<rect x="80" y="5130" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5144" font-size="10" font-family="monospace" fill="#666666">GO:0005576</text>
+<text x="85" y="5160" font-size="11" font-family="Arial, sans-serif" fill="#212121">extracellular region</text>
+<rect x="80" y="4985" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4999" font-size="10" font-family="monospace" fill="#666666">GO:0005886</text>
+<text x="85" y="5015" font-size="11" font-family="Arial, sans-serif" fill="#212121">plasma membrane</text>
+<rect x="80" y="5420" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5434" font-size="10" font-family="monospace" fill="#666666">GO:0005737</text>
+<text x="85" y="5450" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoplasm</text>
+<rect x="80" y="5565" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5579" font-size="10" font-family="monospace" fill="#666666">GO:0005615</text>
+<text x="85" y="5595" font-size="11" font-family="Arial, sans-serif" fill="#212121">extracellular space</text>
+<path d="M332,2947.5 L337,2952.5 L348,2939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,214.5 L348,230.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,230.5 L348,214.5" stroke="#f44336" stroke-width="3" />
+<path d="M340,732.5 L330,750.5 L350,750.5 Z" fill="#ffc107" />
+<text x="340" y="746.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,3459.5 L348,3475.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3475.5 L348,3459.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,972.5 L390,972.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,972.5 L382,968.5 L382,976.5 Z" fill="#ff9800" />
+<rect x="390" y="950" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="964" font-size="10" font-family="monospace" fill="#666666">GO:0002514</text>
+<text x="395" y="980" font-size="11" font-family="Arial, sans-serif" fill="#212121">B cell tolerance induction</text>
+<path d="M332,3689.5 L348,3705.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3705.5 L348,3689.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4132.5 L337,4137.5 L348,4124.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2077.5 L337,2082.5 L348,2069.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2222.5 L337,2227.5 L348,2214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2367.5 L337,2372.5 L348,2359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5152.5 L337,5157.5 L348,5144.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2512.5 L337,2517.5 L348,2504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2657.5 L337,2662.5 L348,2649.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,3987.5 L390,3987.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3987.5 L382,3983.5 L382,3991.5 Z" fill="#ff9800" />
+<rect x="390" y="3965" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3979" font-size="10" font-family="monospace" fill="#666666">GO:0030145</text>
+<text x="395" y="3995" font-size="11" font-family="Arial, sans-serif" fill="#212121">manganese ion binding</text>
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3229.5 L348,3245.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3245.5 L348,3229.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4277.5 L337,4282.5 L348,4269.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4999.5 L348,5015.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5015.5 L348,4999.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4499.5 L348,4515.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4515.5 L348,4499.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5442.5 L337,5447.5 L348,5434.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1194.5 L348,1210.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1210.5 L348,1194.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="1432.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5587.5 L337,5592.5 L348,5579.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="2912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">No evidence from PMID:18936097, PMID:37803019, or other</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">references supports signal transduction activity. ENDOU</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions as an RNA-degrading enzyme, not a signaling</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecule.</text>
+<rect x="395" y="3432.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3442.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3452.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PMID:18936097 definitively disproved receptor activity and</text>
+<text x="400" y="3461.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">established ENDOU as an RNA endonuclease. No binding or</text>
+<text x="400" y="3470.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling assays support scavenger receptor function.</text>
+<rect x="645" y="937.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="947.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="957.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Based on mouse studies showing ENDOU/EndoU role in immune</text>
+<text x="650" y="966.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cell regulation, but the broad immune response term should</text>
+<text x="650" y="975.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">be replaced with more specific processes.</text>
+<rect x="395" y="4097.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4107.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="645" y="3952.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3962.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3972.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PMID:18936097 specifically demonstrated</text>
+<text x="650" y="3981.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">manganese-dependent catalytic activity, with Mn2+ being</text>
+<text x="650" y="3990.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for RNA endonuclease function.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PMID:37803019 used RIP-seq and functional assays to</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">demonstrate that ENDOU/Arlr specifically binds to and</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">degrades mRNAs of lipolytic genes, representing</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">post-transcriptional gene silencing.</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">PMID:37803019 provided comprehensive evidence showing</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ENDOU/Arlr negatively regulates lipid catabolism by</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">degrading specific lipolytic gene mRNAs, with</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">loss-of-function causing accelerated lipid depletion</text>
+<text x="400" y="533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">during aging.</text>
+<rect x="395" y="3202.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3212.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="385" y="2925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18936097]</text>
+<text x="390" y="2943" font-size="8" font-family="Arial, sans-serif" fill="#212121">cleaves single stranded RNA in a Mn(2+)-dependent manner at</text>
+<text x="390" y="2952" font-size="8" font-family="Arial, sans-serif" fill="#212121">uridylates, to produce molecules with 2',3'-cyclic phosphate ends</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[37803019]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">the signals of Lsd-1, regucalcin, yip2 and CG5162 were all</text>
+<text x="705" y="372" font-size="8" font-family="Arial, sans-serif" fill="#212121">downregulated in the presence of Arlr</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[37803019]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Strikingly, 40 genes related to lipolysis were within the 60 lipid</text>
+<text x="705" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">metabolism-related genes, 10 of which we confirmed by qRT-PCR</text>
+<rect x="385" y="4110" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="4120" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18936097]</text>
+<text x="390" y="4128" font-size="8" font-family="Arial, sans-serif" fill="#212121">The estimated K d ′ was equal to 140 n m for PP11</text>
+<rect x="385" y="4255" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="4265" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18936097]</text>
+<text x="390" y="4273" font-size="8" font-family="Arial, sans-serif" fill="#212121">behaves as a Mn 2+ -dependent, U-specific endoribonuclease</text>
+<rect x="385" y="5130" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="5140" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1710108]</text>
+<text x="390" y="5148" font-size="8" font-family="Arial, sans-serif" fill="#212121">Computer-assisted data base searches revealed the presence of a</text>
+<text x="390" y="5157" font-size="8" font-family="Arial, sans-serif" fill="#212121">single somatomedin B domain in the recently cloned placental protein</text>
+<text x="390" y="5166" font-size="8" font-family="Arial, sans-serif" fill="#212121">11</text>
+<rect x="385" y="5420" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="5430" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[6755403]</text>
+<text x="390" y="5438" font-size="8" font-family="Arial, sans-serif" fill="#212121">These proteins could be detected in the cytoplasm of some malignant</text>
+<text x="390" y="5447" font-size="8" font-family="Arial, sans-serif" fill="#212121">cells</text>
+<rect x="385" y="5565" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="5575" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[2350438]</text>
+<text x="390" y="5583" font-size="8" font-family="Arial, sans-serif" fill="#212121">369 amino acids, including a typical hydrophobic signal sequence of</text>
+<text x="390" y="5592" font-size="8" font-family="Arial, sans-serif" fill="#212121">18 amino acids</text>
+<rect x="600.0" y="5860" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="5895.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="5895.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>
