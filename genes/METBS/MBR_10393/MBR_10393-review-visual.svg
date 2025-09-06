@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1510" viewBox="0 0 1800 1510">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1510" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: MBR_10393 (Metarhizium brunneum ARSEF 3297)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="455" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="477.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="510" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="531.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1030" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1051.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0008299</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">isoprenoid biosynthetic process</text>
+<rect x="80" y="555" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="569" font-size="10" font-family="monospace" fill="#666666">GO:0010333</text>
+<text x="85" y="585" font-size="11" font-family="Arial, sans-serif" fill="#212121">terpene synthase activity</text>
+<rect x="80" y="700" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0016829</text>
+<text x="85" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">lyase activity</text>
+<rect x="80" y="845" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="859" font-size="10" font-family="monospace" fill="#666666">GO:0016838</text>
+<text x="85" y="875" font-size="11" font-family="Arial, sans-serif" fill="#212121">carbon-oxygen lyase activity, actin...</text>
+<rect x="80" y="1075" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1089" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="1105" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<path d="M280,222.5 L390,222.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,222.5 L382,218.5 L382,226.5 Z" fill="#ff9800" />
+<rect x="390" y="200" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0051762</text>
+<text x="395" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">sesquiterpene biosynthetic process</text>
+<path d="M280,577.5 L390,577.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,577.5 L382,573.5 L382,581.5 Z" fill="#ff9800" />
+<rect x="390" y="555" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="569" font-size="10" font-family="monospace" fill="#666666">GO:0010334</text>
+<text x="395" y="585" font-size="11" font-family="Arial, sans-serif" fill="#212121">sesquiterpene synthase activity</text>
+<path d="M280,722.5 L390,722.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,722.5 L382,718.5 L382,726.5 Z" fill="#ff9800" />
+<rect x="390" y="700" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0010334</text>
+<text x="395" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">sesquiterpene synthase activity</text>
+<path d="M280,867.5 L390,867.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,867.5 L382,863.5 L382,871.5 Z" fill="#ff9800" />
+<rect x="390" y="845" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="859" font-size="10" font-family="monospace" fill="#666666">GO:0010334</text>
+<text x="395" y="875" font-size="11" font-family="Arial, sans-serif" fill="#212121">sesquiterpene synthase activity</text>
+<path d="M280,1097.5 L390,1097.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1097.5 L382,1093.5 L382,1101.5 Z" fill="#ff9800" />
+<rect x="390" y="1075" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1089" font-size="10" font-family="monospace" fill="#666666">GO:0000287</text>
+<text x="395" y="1105" font-size="11" font-family="Arial, sans-serif" fill="#212121">magnesium ion binding</text>
+<rect x="645" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The enzyme specifically catalyzes sesquiterpene</text>
+<text x="650" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">biosynthesis, not general isoprenoid biosynthesis. The</text>
+<text x="650" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">UniProt entry clearly states it produces 8 different</text>
+<text x="650" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sesquiterpenes including corvol ethers A and B from</text>
+<text x="650" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">farnesyl diphosphate.</text>
+<rect x="645" y="542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The enzyme is specifically a sesquiterpene synthase with</text>
+<text x="650" y="571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-characterized products (corvol ethers A and B) and</text>
+<text x="650" y="580.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">assigned EC numbers. The more specific term GO:0010334</text>
+<text x="650" y="589.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">accurately reflects its molecular function.</text>
+<rect x="645" y="687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">GO:0016829 is too general for a well-characterized enzyme.</text>
+<text x="650" y="716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The protein specifically catalyzes carbon-oxygen bond</text>
+<text x="650" y="725.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cleavage in farnesyl diphosphate, releasing diphosphate</text>
+<text x="650" y="734.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and forming sesquiterpenes. The more specific molecular</text>
+<text x="650" y="743.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function term GO:0010334 better represents its activity.</text>
+<rect x="645" y="832.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="842.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="852.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While mechanistically accurate, GO:0016838 is still a</text>
+<text x="650" y="861.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">parent term that encompasses many different enzymes. The</text>
+<text x="650" y="870.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific molecular function GO:0010334 (sesquiterpene</text>
+<text x="650" y="879.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">synthase activity) better represents this characterized</text>
+<text x="650" y="888.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">enzyme with assigned EC numbers 4.2.3.163 and 4.2.3.171.</text>
+<rect x="645" y="1062.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="1072.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="1082.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The enzyme specifically binds magnesium ions (3 Mg2+ per</text>
+<text x="650" y="1091.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">subunit) as cofactors essential for catalytic activity.</text>
+<text x="650" y="1100.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The DDXXXD motif at positions 91-96 is important for Mg2+</text>
+<text x="650" y="1109.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding. The more specific term GO:0000287 accurately</text>
+<text x="650" y="1118.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">reflects this characterized binding specificity.</text>
+<rect x="950" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:A0A0B4FWC3]</text>
+<text x="955" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Terpene synthase that catalyzes the conversion of (2E,6E)-farnesyl</text>
+<text x="955" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">diphosphate (FPP) into sesquiterpenes... Produces a mixture</text>
+<text x="955" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">consisting of 8 sesquiterpenes including corvol ethers A and B</text>
+<rect x="950" y="555" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="565" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:A0A0B4FWC3]</text>
+<text x="955" y="573" font-size="8" font-family="Arial, sans-serif" fill="#212121">RecName: Full=Sesquiterpene synthase MBR_10393; EC=4.2.3.163;</text>
+<text x="955" y="582" font-size="8" font-family="Arial, sans-serif" fill="#212121">EC=4.2.3.171</text>
+<rect x="950" y="700" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="710" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:A0A0B4FWC3]</text>
+<text x="955" y="718" font-size="8" font-family="Arial, sans-serif" fill="#212121">CATALYTIC ACTIVITY: Reaction=(2E,6E)-farnesyl diphosphate + H2O =</text>
+<text x="955" y="727" font-size="8" font-family="Arial, sans-serif" fill="#212121">(+)-corvol ether B + diphosphate</text>
+<rect x="950" y="845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:A0A0B4FWC3]</text>
+<text x="955" y="863" font-size="8" font-family="Arial, sans-serif" fill="#212121">Reaction=(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B +</text>
+<text x="955" y="872" font-size="8" font-family="Arial, sans-serif" fill="#212121">diphosphate; EC=4.2.3.163</text>
+<rect x="950" y="1075" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1085" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[UniProt:A0A0B4FWC3]</text>
+<text x="955" y="1093" font-size="8" font-family="Arial, sans-serif" fill="#212121">COFACTOR: Name=Mg(2+); Note=Binds 3 Mg(2+) ions per subunit</text>
+<rect x="600.0" y="1370" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1405.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1405.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

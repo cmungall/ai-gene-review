@@ -1,0 +1,140 @@
+id: Q07341
+gene_symbol: acsD
+taxon:
+  id: NCBITaxon:1525
+  label: Moorella thermoacetica
+description: 'The small subunit of the corrinoid iron-sulfur protein (CFeSP), which acts as a methyl group carrier in the Wood-Ljungdahl pathway for CO2 fixation. AcsD binds a corrinoid (B12 derivative) cofactor and receives methyl groups from methyltetrahydrofolate methyltransferase (AcsE), subsequently transferring them to acetyl-CoA synthase (AcsB) for acetyl-CoA biosynthesis. Forms a heterohexamer complex with AcsC (large subunit) and AcsE.'
+existing_annotations:
+- term:
+    id: GO:0006730
+    label: one-carbon metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'AcsD is directly involved in one-carbon metabolism through the Wood-Ljungdahl pathway, serving as a methyl group carrier that transfers C1 units from methyltetrahydrofolate to acetyl-CoA synthase. The crystal structure [PMID:22419154] and biochemical studies demonstrate its essential role in methyl transfer reactions using a corrinoid cofactor.'
+    action: ACCEPT
+    reason: 'This annotation accurately captures a core function of AcsD. The protein specifically handles one-carbon units (methyl groups) as part of the Wood-Ljungdahl pathway, transferring them from 5-methyl-H4folate to acetyl-CoA synthase via its corrinoid cofactor. This is well-supported by structural and biochemical evidence from PMID:22419154.'
+    supported_by:
+      - reference_id: PMID:22419154
+        supporting_text: 'CFeSP then delivers the methyl group to the Ni2Fe4S4 active site metallocluster (A-cluster) of acetyl-CoA synthase (ACS), where it becomes the methyl of acetyl CoA'
+      - reference_id: PMID:22419154  
+        supporting_text: 'For both MetH and CFeSP/MeTr, methyltetrahydrofolate (CH3-H4folate) is the methyl donor, and a protein-bound B12 derivative (cobalamin for MetH and 5′-methoxybenzimidazolyl cobamide for CFeSP) is the methyl carrier.'
+- term:
+    id: GO:0015977
+    label: carbon fixation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'AcsD is essential for carbon fixation via the Wood-Ljungdahl pathway, which fixes CO2 into acetyl-CoA. However, the more specific term GO:0030634 (carbon fixation by acetyl-CoA pathway) would better represent its precise function.'
+    action: MODIFY
+    reason: 'While AcsD is indeed involved in carbon fixation, the generic term GO:0015977 is too broad. The protein specifically functions in the Wood-Ljungdahl (reductive acetyl-CoA) pathway, a specific type of carbon fixation. The more precise term GO:0030634 (carbon fixation by acetyl-CoA pathway) better captures this specificity.'
+    proposed_replacement_terms:
+      - id: GO:0030634
+        label: carbon fixation by acetyl-CoA pathway
+    supported_by:
+      - reference_id: PMID:22419154
+        supporting_text: 'Acetogenic bacteria, including M. thermoacetica, use CFeSP and MeTr together to catalyze methyltransfer in the Wood-Ljungdahl carbon fixation pathway for growth on CO2 as the sole carbon source'
+- term:
+    id: GO:0031419
+    label: cobalamin binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'AcsD binds a corrinoid (B12 derivative) cofactor containing cobalt, which is essential for its methyl transfer function. Crystal structures [PMID:22419154] directly visualize the bound 5′-methoxybenzimidazolyl cobamide cofactor in the protein.'
+    action: ACCEPT
+    reason: 'This annotation is accurate and represents a core molecular function of AcsD. The protein contains a corrinoid-binding domain that specifically binds a B12 derivative (5′-methoxybenzimidazolyl cobamide in M. thermoacetica). This binding is essential for the methyl transfer activity and is directly observed in crystal structures.'
+    supported_by:
+      - reference_id: PMID:22419154
+        supporting_text: 'a protein-bound B12 derivative (cobalamin for MetH and 5′-methoxybenzimidazolyl cobamide for CFeSP) is the methyl carrier'
+      - reference_id: PMID:22419154
+        supporting_text: 'electron density for the B12 cofactors is unambiguous (Supplementary Fig. 20), and density is also clear in several helical regions, including those near B12'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:22419154
+  review:
+    summary: 'While AcsD does interact with AcsC (forming heterohexamer) and AcsE (methyltransferase), the generic "protein binding" term is uninformative. More specific terms describing the functional complex formation would be more appropriate.'
+    action: MODIFY
+    reason: 'The term "protein binding" is too vague and uninformative. AcsD forms specific functional complexes: it heterodimerizes with AcsC to form the corrinoid iron-sulfur protein, and this complex then associates with AcsE (methyltransferase) to form a ~220 kDa complex. A more specific term like "protein heterodimerization activity" (GO:0046982) or noting its participation in the "acetyl-CoA decarbonylase/synthase complex" (GO:0044672) would be more informative.'
+    proposed_replacement_terms:
+      - id: GO:0046982
+        label: protein heterodimerization activity
+    additional_reference_ids:
+      - PMID:22419154
+    supported_by:
+      - reference_id: PMID:22419154
+        supporting_text: 'Two CFeSPs are present in the complex, each containing two subunits. The small subunit (35 kDa) is a TIM barrel which acts as the B12 "cap" in the ChCFeSP structure9, while the large subunit (48 kDa) has three domains'
+      - reference_id: PMID:22419154
+        supporting_text: 'In the ~220 kDa CFeSP/MeTr assembly (Fig. 1), the MeTr homodimer lies in the centre, with one CFeSP bound on either side'
+- term:
+    id: GO:0015977
+    label: carbon fixation
+  evidence_type: IDA
+  original_reference_id: PMID:22419154
+  review:
+    summary: 'Direct experimental evidence from PMID:22419154 demonstrates AcsD’s essential role in CO2 fixation via the Wood-Ljungdahl pathway. However, the more specific term GO:0030634 (carbon fixation by acetyl-CoA pathway) would better represent the specific pathway.'
+    action: MODIFY
+    reason: 'While the IDA evidence strongly supports carbon fixation activity, the generic GO:0015977 term is too broad. The experimental evidence specifically demonstrates function in the Wood-Ljungdahl (reductive acetyl-CoA) pathway. GO:0030634 (carbon fixation by acetyl-CoA pathway) more accurately describes the specific type of carbon fixation demonstrated in the structural and biochemical studies.'
+    proposed_replacement_terms:
+      - id: GO:0030634
+        label: carbon fixation by acetyl-CoA pathway
+    supported_by:
+      - reference_id: PMID:22419154
+        supporting_text: 'Importantly, absorption features disappear when light is passed through the solution surrounding the crystals, indicating that spectra represent protein in crystals and not protein that may have been liberated into the solution. Collectively, these data demonstrate enzymatic transfer of the CH3-H4folate methyl group to CFeSP-bound B12'
+      - reference_id: PMID:22419154
+        supporting_text: 'Acetogenic bacteria, including M. thermoacetica, use CFeSP and MeTr together to catalyze methyltransfer in the Wood-Ljungdahl carbon fixation pathway for growth on CO2 as the sole carbon source'
+core_functions:
+- description: Receives and carries methyl groups from 5-methyltetrahydrofolate via bound corrinoid cofactor
+  supported_by:
+    - reference_id: PMID:22419154
+      supporting_text: 'For both MetH and CFeSP/MeTr, methyltetrahydrofolate (CH3-H4folate) is the methyl donor, and a protein-bound B12 derivative (cobalamin for MetH and 5′-methoxybenzimidazolyl cobamide for CFeSP) is the methyl carrier.'
+    - reference_id: PMID:22419154
+      supporting_text: 'CFeSP then delivers the methyl group to the Ni2Fe4S4 active site metallocluster (A-cluster) of acetyl-CoA synthase (ACS), where it becomes the methyl of acetyl CoA'
+  molecular_function:
+    id: GO:0042084
+    label: 5-methyltetrahydrofolate-dependent methyltransferase activity
+  directly_involved_in:
+    - id: GO:0030634
+      label: carbon fixation by acetyl-CoA pathway
+    - id: GO:0006730
+      label: one-carbon metabolic process
+  locations:
+    - id: GO:0005737
+      label: cytoplasm
+  in_complex:
+    id: GO:0044672
+    label: acetyl-CoA decarbonylase/synthase-carbon monoxide dehydrogenase complex
+  substrates:
+    - id: CHEBI:20612
+      label: 5-methyltetrahydrofolate
+- description: Binds and maintains corrinoid cofactor in appropriate oxidation state for methyl transfer
+  supported_by:
+    - reference_id: PMID:22419154
+      supporting_text: 'a protein-bound B12 derivative (cobalamin for MetH and 5′-methoxybenzimidazolyl cobamide for CFeSP) is the methyl carrier'
+    - reference_id: PMID:22419154
+      supporting_text: 'Two CFeSPs are present in the complex, each containing two subunits. The small subunit (35 kDa) is a TIM barrel which acts as the B12 "cap" in the ChCFeSP structure9, while the large subunit (48 kDa) has three domains'
+  molecular_function:
+    id: GO:0031419
+    label: cobalamin binding
+  directly_involved_in:
+    - id: GO:0030634
+      label: carbon fixation by acetyl-CoA pathway
+  locations:
+    - id: GO:0005737
+      label: cytoplasm
+  in_complex:
+    id: TEMP:CFeSP_complex
+    label: corrinoid iron-sulfur protein heterodimer (with AcsC)
+    description: The heterodimeric corrinoid iron-sulfur protein complex formed by AcsD (small subunit) and AcsC (large subunit), containing one corrinoid cofactor and one [4Fe-4S] cluster
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: PMID:22419154
+  title: Visualizing molecular juggling within a B12-dependent methyltransferase complex.
+  findings: []

@@ -1,0 +1,1482 @@
+ID   DNMT1_HUMAN             Reviewed;        1616 AA.
+AC   P26358; A0AV63; B7ZLW6; Q9UHG5; Q9ULA2; Q9UMZ6;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   11-JAN-2001, sequence version 2.
+DT   18-JUN-2025, entry version 250.
+DE   RecName: Full=DNA (cytosine-5)-methyltransferase 1;
+DE            Short=Dnmt1;
+DE            EC=2.1.1.37;
+DE   AltName: Full=CXXC-type zinc finger protein 9;
+DE   AltName: Full=DNA methyltransferase HsaI;
+DE            Short=DNA MTase HsaI;
+DE            Short=M.HsaI;
+DE   AltName: Full=MCMT;
+GN   Name=DNMT1; Synonyms=AIM, CXXC9, DNMT;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=1594447; DOI=10.1093/nar/20.9.2287;
+RA   Yen R.-W.C., Vertino P.M., Nelkin B.D., Yu J.J., Deiry W.E.,
+RA   Cumaraswamy A., Lennon G.G., Trask B.J., Celano P., Baylin S.B.;
+RT   "Isolation and characterization of the cDNA encoding human DNA
+RT   methyltransferase.";
+RL   Nucleic Acids Res. 20:2287-2291(1992).
+RN   [2]
+RP   SEQUENCE REVISION TO N-TERMINUS.
+RX   PubMed=8940105; DOI=10.1074/jbc.271.49.31092;
+RA   Yoder J.A., Yen R.-W.C., Vertino P.M., Bestor T.H., Baylin S.B.;
+RT   "New 5' regions of the murine and human genes for DNA (cytosine-5)-
+RT   methyltransferase.";
+RL   J. Biol. Chem. 271:31092-31097(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3).
+RC   TISSUE=Prostatic carcinoma;
+RA   Li L.C., Au H., Chui R., Dahiya R.;
+RT   "Human DNA methyltransferase (DNMT1) is alternatively spliced.";
+RL   Submitted (AUG-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J., Lamerdin J.E.,
+RA   Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M., Aerts A.,
+RA   Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E., Caenepeel S.,
+RA   Carrano A.V., Caoile C., Chan Y.M., Christensen M., Cleland C.A.,
+RA   Copeland A., Dalin E., Dehal P., Denys M., Detter J.C., Escobar J.,
+RA   Flowers D., Fotopulos D., Garcia C., Georgescu A.M., Glavina T., Gomez M.,
+RA   Gonzales E., Groza M., Hammon N., Hawkins T., Haydu L., Ho I., Huang W.,
+RA   Israni S., Jett J., Kadner K., Kimball H., Kobayashi A., Larionov V.,
+RA   Leem S.-H., Lopez F., Lou Y., Lowry S., Malfatti S., Martinez D.,
+RA   McCready P.M., Medina C., Morgan J., Nelson K., Nolan M., Ovcharenko I.,
+RA   Pitluck S., Pollard M., Popkie A.P., Predki P., Quan G., Ramirez L.,
+RA   Rash S., Retterer J., Rodriguez A., Rogers S., Salamov A., Salazar A.,
+RA   She X., Smith D., Slezak T., Solovyev V., Thayer N., Tice H., Tsai M.,
+RA   Ustaszewska A., Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J.,
+RA   Dubchak I., Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 2).
+RX   PubMed=10449766; DOI=10.1073/pnas.96.17.9751;
+RA   Hsu D.-W., Lin M.-J., Lee T.-L., Wen S.-C., Chen X., Shen C.-K.J.;
+RT   "Two major forms of DNA (cytosine-5) methyltransferase in human somatic
+RT   tissues.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:9751-9756(1999).
+RN   [7]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 2).
+RX   PubMed=10753866; DOI=10.1074/jbc.275.15.10754;
+RA   Bonfils C., Beaulieu N., Chan E., Cotton-Montpetit J., MacLeod A.R.;
+RT   "Characterization of the human DNA methyltransferase splice variant
+RT   Dnmt1b.";
+RL   J. Biol. Chem. 275:10754-10760(2000).
+RN   [8]
+RP   INTERACTION WITH PCNA, AND MUTAGENESIS OF ARG-163; GLN-164; THR-166;
+RP   ILE-167; SER-169; HIS-170; PHE-171; ALA-172 AND LYS-173.
+RX   PubMed=9302295; DOI=10.1126/science.277.5334.1996;
+RA   Chuang L.S.-H., Ian H.-I., Koh T.-W., Ng H.-H., Xu G., Li B.F.L.;
+RT   "Human DNA-(cytosine-5) methyltransferase-PCNA complex as a target for
+RT   p21WAF1.";
+RL   Science 277:1996-2000(1997).
+RN   [9]
+RP   INTERACTION WITH MBD2 AND MBD3.
+RX   PubMed=10947852; DOI=10.1046/j.1365-2443.2000.00359.x;
+RA   Tatematsu K., Yamazaki T., Ishikawa F.;
+RT   "MBD2-MBD3 complex binds to hemi-methylated DNA and forms a complex
+RT   containing DNMT1 at the replication foci in late S phase.";
+RL   Genes Cells 5:677-688(2000).
+RN   [10]
+RP   INTERACTION WITH HDAC2 AND DMAP1.
+RX   PubMed=10888872; DOI=10.1038/77023;
+RA   Rountree M.R., Bachman K.E., Baylin S.B.;
+RT   "DNMT1 binds HDAC2 and a new co-repressor, DMAP1, to form a complex at
+RT   replication foci.";
+RL   Nat. Genet. 25:269-277(2000).
+RN   [11]
+RP   INTERACTION WITH RB1; E2F1 AND HDAC1.
+RX   PubMed=10888886; DOI=10.1038/77124;
+RA   Robertson K.D., Ait-Si-Ali S., Yokochi T., Wade P.A., Jones P.L.,
+RA   Wolffe A.P.;
+RT   "DNMT1 forms a complex with Rb, E2F1 and HDAC1 and represses transcription
+RT   from E2F-responsive promoters.";
+RL   Nat. Genet. 25:338-342(2000).
+RN   [12]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=10325416; DOI=10.1093/nar/27.11.2291;
+RA   Robertson K.D., Uzvolgyi E., Liang G., Talmadge C., Sumegi J.,
+RA   Gonzales F.A., Jones P.A.;
+RT   "The human DNA methyltransferases (DNMTs) 1, 3a and 3b: coordinate mRNA
+RT   expression in normal tissues and overexpression in tumors.";
+RL   Nucleic Acids Res. 27:2291-2298(1999).
+RN   [13]
+RP   INTERACTION WITH DNMT3A AND DNMT3B, AND SUBCELLULAR LOCATION.
+RX   PubMed=12145218; DOI=10.1093/emboj/cdf401;
+RA   Kim G.-D., Ni J., Kelesoglu N., Roberts R.J., Pradhan S.;
+RT   "Co-operation and communication between the human maintenance and de novo
+RT   DNA (cytosine-5) methyltransferases.";
+RL   EMBO J. 21:4183-4195(2002).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127 AND SER-714, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P., Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in signaling
+RT   networks.";
+RL   Cell 127:635-648(2006).
+RN   [15]
+RP   FUNCTION, AND INTERACTION WITH EED AND EZH2.
+RX   PubMed=16357870; DOI=10.1038/nature04431;
+RA   Vire E., Brenner C., Deplus R., Blanchon L., Fraga M., Didelot C.,
+RA   Morey L., Van Eynde A., Bernard D., Vanderwinden J.-M., Bollen M.,
+RA   Esteller M., Di Croce L., de Launoit Y., Fuks F.;
+RT   "The Polycomb group protein EZH2 directly controls DNA methylation.";
+RL   Nature 439:871-874(2006).
+RN   [16]
+RP   ERRATUM OF PUBMED:16357870.
+RA   Vire E., Brenner C., Deplus R., Blanchon L., Fraga M., Didelot C.,
+RA   Morey L., Van Eynde A., Bernard D., Vanderwinden J.-M., Bollen M.,
+RA   Esteller M., Di Croce L., de Launoit Y., Fuks F.;
+RL   Nature 446:824-824(2006).
+RN   [17]
+RP   DE NOVO DNA METHYLATION OF TARGET GENES.
+RX   PubMed=17200670; DOI=10.1038/ng1950;
+RA   Schlesinger Y., Straussman R., Keshet I., Farkash S., Hecht M.,
+RA   Zimmerman J., Eden E., Yakhini Z., Ben-Shushan E., Reubinoff B.E.,
+RA   Bergman Y., Simon I., Cedar H.;
+RT   "Polycomb-mediated methylation on Lys27 of histone H3 pre-marks genes for
+RT   de novo methylation in cancer.";
+RL   Nat. Genet. 39:232-236(2007).
+RN   [18]
+RP   FUNCTION, AND MUTAGENESIS OF CYS-653; CYS-656; CYS-659; CYS-664; CYS-667
+RP   AND CYS-670.
+RX   PubMed=18754681; DOI=10.1021/bi8011725;
+RA   Pradhan M., Esteve P.-O., Chin H.G., Samaranayke M., Kim G.-D., Pradhan S.;
+RT   "CXXC domain of human DNMT1 is essential for enzymatic activity.";
+RL   Biochemistry 47:10000-10009(2008).
+RN   [19]
+RP   FUNCTION.
+RX   PubMed=18413740; DOI=10.1158/0008-5472.can-07-6654;
+RA   Sun L., Huang L., Nguyen P., Bisht K.S., Bar-Sela G., Ho A.S.,
+RA   Bradbury C.M., Yu W., Cui H., Lee S., Trepel J.B., Feinberg A.P., Gius D.;
+RT   "DNA methyltransferase 1 and 3B activate BAG-1 expression via recruitment
+RT   of CTCFL/BORIS and modulation of promoter histone methylation.";
+RL   Cancer Res. 68:2726-2735(2008).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-732, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D., Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for efficient
+RT   phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [21]
+RP   METHYLATION AT LYS-70, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=18438403; DOI=10.1038/nchembio.88;
+RA   Rathert P., Dhayalan A., Murakami M., Zhang X., Tamas R., Jurkowska R.,
+RA   Komatsu Y., Shinkai Y., Cheng X., Jeltsch A.;
+RT   "Protein lysine methyltransferase G9a acts on non-histone targets.";
+RL   Nat. Chem. Biol. 4:344-346(2008).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127; SER-143; SER-152;
+RP   SER-154 AND SER-394, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+RP   ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [23]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J., Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in a
+RT   refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [24]
+RP   SUMOYLATION, INTERACTION WITH UBC9, AND MUTAGENESIS OF CYS-1226.
+RX   PubMed=19450230; DOI=10.1042/bj20090142;
+RA   Lee B., Muller M.T.;
+RT   "SUMOylation enhances DNA methyltransferase 1 activity.";
+RL   Biochem. J. 421:449-461(2009).
+RN   [25]
+RP   HOMODIMERIZATION.
+RX   PubMed=19173286; DOI=10.1002/jcb.22071;
+RA   Fellinger K., Rothbauer U., Felle M., Laengst G., Leonhardt H.;
+RT   "Dimerization of DNA methyltransferase 1 is mediated by its regulatory
+RT   domain.";
+RL   J. Cell. Biochem. 106:521-528(2009).
+RN   [26]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [27]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-173; LYS-1111; LYS-1113 AND
+RP   LYS-1115, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.C.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [28]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-394 AND SER-714, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=20068231; DOI=10.1126/scisignal.2000475;
+RA   Olsen J.V., Vermeulen M., Santamaria A., Kumar C., Miller M.L.,
+RA   Jensen L.J., Gnad F., Cox J., Jensen T.S., Nigg E.A., Brunak S., Mann M.;
+RT   "Quantitative phosphoproteomics reveals widespread full phosphorylation
+RT   site occupancy during mitosis.";
+RL   Sci. Signal. 3:RA3-RA3(2010).
+RN   [29]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [30]
+RP   PHOSPHORYLATION AT SER-154.
+RX   PubMed=21565170; DOI=10.1016/j.bbrc.2011.04.115;
+RA   Lavoie G., St-Pierre Y.;
+RT   "Phosphorylation of human DNMT1: implication of cyclin-dependent kinases.";
+RL   Biochem. Biophys. Res. Commun. 409:187-192(2011).
+RN   [31]
+RP   ACETYLATION AT LYS-160; LYS-188; LYS-259; LYS-366; LYS-749; LYS-891;
+RP   LYS-957; LYS-961; LYS-975; LYS-1054; LYS-1111; LYS-1113; LYS-1115;
+RP   LYS-1117; LYS-1349 AND LYS-1415, AND DEACETYLATION BY SIRT1.
+RX   PubMed=21947282; DOI=10.1128/mcb.06147-11;
+RA   Peng L., Yuan Z., Ling H., Fukasawa K., Robertson K., Olashaw N.,
+RA   Koomen J., Chen J., Lane W.S., Seto E.;
+RT   "SIRT1 deacetylates the DNA methyltransferase 1 (DNMT1) protein and alters
+RT   its activities.";
+RL   Mol. Cell. Biol. 31:4720-4734(2011).
+RN   [32]
+RP   METHYLATION AT LYS-142, AND PHOSPHORYLATION AT SER-143.
+RX   PubMed=21151116; DOI=10.1038/nsmb.1939;
+RA   Esteve P.O., Chang Y., Samaranayake M., Upadhyay A.K., Horton J.R.,
+RA   Feehery G.R., Cheng X., Pradhan S.;
+RT   "A methylation and phosphorylation switch between an adjacent lysine and
+RT   serine determines human DNMT1 stability.";
+RL   Nat. Struct. Mol. Biol. 18:42-48(2011).
+RN   [33]
+RP   INTERACTION WITH USP7 AND UHRF1.
+RX   PubMed=21745816; DOI=10.1093/nar/gkr528;
+RA   Felle M., Joppien S., Nemeth A., Diermeier S., Thalhammer V., Dobner T.,
+RA   Kremmer E., Kappler R., Langst G.;
+RT   "The USP7/Dnmt1 complex stimulates the DNA methylation activity of Dnmt1
+RT   and regulates the stability of UHRF1.";
+RL   Nucleic Acids Res. 39:8355-8365(2011).
+RN   [34]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127; SER-133 AND SER-714, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21406692; DOI=10.1126/scisignal.2001570;
+RA   Rigbolt K.T., Prokhorova T.A., Akimov V., Henningsen J., Johansen P.T.,
+RA   Kratchmarova I., Kassem M., Mann M., Olsen J.V., Blagoev B.;
+RT   "System-wide temporal characterization of the proteome and phosphoproteome
+RT   of human embryonic stem cell differentiation.";
+RL   Sci. Signal. 4:RS3-RS3(2011).
+RN   [35]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127; THR-137; SER-143;
+RP   SER-154; THR-166; SER-312; SER-394; SER-398; SER-549; SER-714 AND SER-878,
+RP   AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma, and Erythroleukemia;
+RX   PubMed=23186163; DOI=10.1021/pr300630k;
+RA   Zhou H., Di Palma S., Preisinger C., Peng M., Polat A.N., Heck A.J.,
+RA   Mohammed S.;
+RT   "Toward a comprehensive characterization of a human cancer cell
+RT   phosphoproteome.";
+RL   J. Proteome Res. 12:260-271(2013).
+RN   [36]
+RP   FUNCTION, POSSIBLE IDENTIFICATION IN A COREPRESSOR COMPLEX, AND
+RP   CHROMATIN-BINDING.
+RX   PubMed=24623306; DOI=10.7554/elife.02313;
+RA   Serra R.W., Fang M., Park S.M., Hutchinson L., Green M.R.;
+RT   "A KRAS-directed transcriptional silencing pathway that mediates the CpG
+RT   island methylator phenotype.";
+RL   Elife 3:E02313-E02313(2014).
+RN   [37]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH PHF20L1.
+RX   PubMed=24492612; DOI=10.1074/jbc.m113.525279;
+RA   Esteve P.O., Terragni J., Deepti K., Chin H.G., Dai N., Espejo A.,
+RA   Correa I.R. Jr., Bedford M.T., Pradhan S.;
+RT   "Methyllysine reader plant homeodomain (PHD) finger protein 20-like 1
+RT   (PHF20L1) antagonizes DNA (cytosine-5) methyltransferase 1 (DNMT1)
+RT   proteasomal degradation.";
+RL   J. Biol. Chem. 289:8277-8287(2014).
+RN   [38]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [39]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-1609, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25772364; DOI=10.1016/j.celrep.2015.02.033;
+RA   Hendriks I.A., Treffers L.W., Verlaan-de Vries M., Olsen J.V.,
+RA   Vertegaal A.C.;
+RT   "SUMO-2 orchestrates chromatin modifiers in response to DNA damage.";
+RL   Cell Rep. 10:1778-1791(2015).
+RN   [40]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-259 AND LYS-1609, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=28112733; DOI=10.1038/nsmb.3366;
+RA   Hendriks I.A., Lyon D., Young C., Jensen L.J., Vertegaal A.C.,
+RA   Nielsen M.L.;
+RT   "Site-specific mapping of the human SUMO proteome reveals co-modification
+RT   with phosphorylation.";
+RL   Nat. Struct. Mol. Biol. 24:325-336(2017).
+RN   [41]
+RP   INTERACTION WITH DCAF5 AND L3MBTL3, AND MUTAGENESIS OF LYS-142.
+RX   PubMed=29691401; DOI=10.1038/s41467-018-04019-9;
+RA   Leng F., Yu J., Zhang C., Alejo S., Hoang N., Sun H., Lu F., Zhang H.;
+RT   "Methylated DNMT1 and E2F1 are targeted for proteolysis by L3MBTL3 and
+RT   CRL4-DCAF5 ubiquitin ligase.";
+RL   Nat. Commun. 9:1641-1641(2018).
+RN   [42]
+RP   INTERACTION WITH ZNF263.
+RX   PubMed=32051553; DOI=10.1038/s41388-020-1206-7;
+RA   Yu Z., Feng J., Wang W., Deng Z., Zhang Y., Xiao L., Wang Z., Liu C.,
+RA   Liu Q., Chen S., Wu M.;
+RT   "The EGFR-ZNF263 signaling axis silences SIX3 in glioblastoma
+RT   epigenetically.";
+RL   Oncogene 39:3163-3178(2020).
+RN   [43]
+RP   X-RAY CRYSTALLOGRAPHY (2.31 ANGSTROMS) OF 351-600 IN COMPLEX WITH ZINC
+RP   IONS.
+RX   PubMed=21389349; DOI=10.1074/jbc.m110.209882;
+RA   Syeda F., Fagan R.L., Wean M., Avvakumov G.V., Walker J.R., Xue S.,
+RA   Dhe-Paganon S., Brenner C.;
+RT   "The replication focus targeting sequence (RFTS) domain is a DNA-
+RT   competitive inhibitor of Dnmt1.";
+RL   J. Biol. Chem. 286:15344-15351(2011).
+RN   [44]
+RP   X-RAY CRYSTALLOGRAPHY (3.6 ANGSTROMS) OF 646-1600 IN COMPLEX WITH
+RP   S-ADENOSYL-L-HOMOCYSTEINE AND DNA, AND AUTOINHIBITORY LINKER.
+RX   PubMed=21163962; DOI=10.1126/science.1195380;
+RA   Song J., Rechkoblit O., Bestor T.H., Patel D.J.;
+RT   "Structure of DNMT1-DNA complex reveals a role for autoinhibition in
+RT   maintenance DNA methylation.";
+RL   Science 331:1036-1040(2011).
+RN   [45]
+RP   VARIANTS HSN1E 490-ASP-PRO-491 DELINS GLU-TYR AND CYS-495, AND
+RP   CHARACTERIZATION OF VARIANTS HSN1E 490-ASP-PRO-491 DELINS GLU-TYR AND
+RP   CYS-495.
+RX   PubMed=21532572; DOI=10.1038/ng.830;
+RA   Klein C.J., Botuyan M.V., Wu Y., Ward C.J., Nicholson G.A., Hammans S.,
+RA   Hojo K., Yamanishi H., Karpf A.R., Wallace D.C., Simon M., Lander C.,
+RA   Boardman L.A., Cunningham J.M., Smith G.E., Litchy W.J., Boes B.,
+RA   Atkinson E.J., Middha S., Dyck P.J.B., Parisi J.E., Mer G., Smith D.I.,
+RA   Dyck P.J.;
+RT   "Mutations in DNMT1 cause hereditary sensory neuropathy with dementia and
+RT   hearing loss.";
+RL   Nat. Genet. 43:595-600(2011).
+RN   [46]
+RP   VARIANTS ADCADN VAL-554; ALA-589 AND PHE-590.
+RX   PubMed=22328086; DOI=10.1093/hmg/dds035;
+RA   Winkelmann J., Lin L., Schormair B., Kornum B.R., Faraco J., Plazzi G.,
+RA   Melberg A., Cornelio F., Urban A.E., Pizza F., Poli F., Grubert F.,
+RA   Wieland T., Graf E., Hallmayer J., Strom T.M., Mignot E.;
+RT   "Mutations in DNMT1 cause autosomal dominant cerebellar ataxia, deafness
+RT   and narcolepsy.";
+RL   Hum. Mol. Genet. 21:2205-2210(2012).
+CC   -!- FUNCTION: Methylates CpG residues. Preferentially methylates
+CC       hemimethylated DNA. Associates with DNA replication sites in S phase
+CC       maintaining the methylation pattern in the newly synthesized strand,
+CC       that is essential for epigenetic inheritance. Associates with chromatin
+CC       during G2 and M phases to maintain DNA methylation independently of
+CC       replication. It is responsible for maintaining methylation patterns
+CC       established in development. DNA methylation is coordinated with
+CC       methylation of histones. Mediates transcriptional repression by direct
+CC       binding to HDAC2. In association with DNMT3B and via the recruitment of
+CC       CTCFL/BORIS, involved in activation of BAG1 gene expression by
+CC       modulating dimethylation of promoter histone H3 at H3K4 and H3K9.
+CC       Probably forms a corepressor complex required for activated KRAS-
+CC       mediated promoter hypermethylation and transcriptional silencing of
+CC       tumor suppressor genes (TSGs) or other tumor-related genes in
+CC       colorectal cancer (CRC) cells (PubMed:24623306). Also required to
+CC       maintain a transcriptionally repressive state of genes in
+CC       undifferentiated embryonic stem cells (ESCs) (PubMed:24623306).
+CC       Associates at promoter regions of tumor suppressor genes (TSGs) leading
+CC       to their gene silencing (PubMed:24623306). Promotes tumor growth
+CC       (PubMed:24623306). {ECO:0000269|PubMed:16357870,
+CC       ECO:0000269|PubMed:18413740, ECO:0000269|PubMed:18754681,
+CC       ECO:0000269|PubMed:24623306}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxycytidine in DNA + S-adenosyl-L-methionine = a 5-
+CC         methyl-2'-deoxycytidine in DNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:13681, Rhea:RHEA-COMP:11369, Rhea:RHEA-COMP:11370,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:85452, ChEBI:CHEBI:85454; EC=2.1.1.37;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10018};
+CC   -!- SUBUNIT: Homodimer (PubMed:19173286). Forms a stable complex with E2F1,
+CC       BB1 and HDAC1 (PubMed:10888886). Forms a complex with DMAP1 and HDAC2,
+CC       with direct interaction (PubMed:10888872). Interacts with the PRC2/EED-
+CC       EZH2 complex (PubMed:16357870). Probably part of a corepressor complex
+CC       containing ZNF304, TRIM28, SETDB1 and DNMT1 (PubMed:24623306).
+CC       Interacts with UHRF1; promoting its recruitment to hemimethylated DNA
+CC       (PubMed:21745816). Interacts with USP7, promoting its deubiquitination
+CC       (PubMed:21745816). Interacts with PCNA (PubMed:9302295). Interacts with
+CC       MBD2 and MBD3 (PubMed:10947852). Interacts with DNMT3A and DNMT3B
+CC       (PubMed:12145218). Interacts with UBC9 (PubMed:19450230). Interacts
+CC       with CSNK1D (By similarity). Interacts with HDAC1 (By similarity).
+CC       Interacts with BAZ2A/TIP5 (By similarity). Interacts with SIRT7 (By
+CC       similarity). Interacts with ZNF263; recruited to the SIX3 promoter
+CC       along with other proteins involved in chromatin modification and
+CC       transcriptional corepression where it contributes to transcriptional
+CC       repression (PubMed:32051553). Interacts with L3MBTL3 and DCAF5; the
+CC       interaction requires DNMT1 methylation at Lys-142 and is necessary to
+CC       target DNMT1 for ubiquitination by the CRL4-DCAF5 E3 ubiquitin ligase
+CC       complex and proteasomal degradation (PubMed:29691401). Interacts with
+CC       PHF20L1; the interaction requires DNMT1 methylation at Lys-142 and
+CC       protects DNMT1 from ubiquitination and proteasomal degradation
+CC       (PubMed:24492612). {ECO:0000250|UniProtKB:P13864,
+CC       ECO:0000269|PubMed:10888872, ECO:0000269|PubMed:10888886,
+CC       ECO:0000269|PubMed:10947852, ECO:0000269|PubMed:12145218,
+CC       ECO:0000269|PubMed:16357870, ECO:0000269|PubMed:19173286,
+CC       ECO:0000269|PubMed:19450230, ECO:0000269|PubMed:21745816,
+CC       ECO:0000269|PubMed:24492612, ECO:0000269|PubMed:24623306,
+CC       ECO:0000269|PubMed:29691401, ECO:0000269|PubMed:32051553,
+CC       ECO:0000269|PubMed:9302295}.
+CC   -!- INTERACTION:
+CC       P26358; P31749: AKT1; NbExp=6; IntAct=EBI-719459, EBI-296087;
+CC       P26358; P35222: CTNNB1; NbExp=8; IntAct=EBI-719459, EBI-491549;
+CC       P26358; Q96JK2: DCAF5; NbExp=5; IntAct=EBI-719459, EBI-3253159;
+CC       P26358; O75530: EED; NbExp=3; IntAct=EBI-719459, EBI-923794;
+CC       P26358; Q15910: EZH2; NbExp=8; IntAct=EBI-719459, EBI-530054;
+CC       P26358; Q96JM7: L3MBTL3; NbExp=11; IntAct=EBI-719459, EBI-2686809;
+CC       P26358; P48552: NRIP1; NbExp=3; IntAct=EBI-719459, EBI-746484;
+CC       P26358; P09874: PARP1; NbExp=6; IntAct=EBI-719459, EBI-355676;
+CC       P26358; Q9NRD5: PICK1; NbExp=2; IntAct=EBI-719459, EBI-79165;
+CC       P26358; Q8WTS6: SETD7; NbExp=9; IntAct=EBI-719459, EBI-1268586;
+CC       P26358; Q96EB6: SIRT1; NbExp=11; IntAct=EBI-719459, EBI-1802965;
+CC       P26358; Q96T88: UHRF1; NbExp=12; IntAct=EBI-719459, EBI-1548946;
+CC       P26358; P63104: YWHAZ; NbExp=2; IntAct=EBI-719459, EBI-347088;
+CC       P26358; Q77UV9: KIE-2; Xeno; NbExp=2; IntAct=EBI-719459, EBI-2608731;
+CC       P26358; Q9QR71: LANA1; Xeno; NbExp=2; IntAct=EBI-719459, EBI-15602554;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:12145218,
+CC       ECO:0000269|PubMed:24492612}. Note=Localized to the perinucleolar
+CC       region. {ECO:0000269|PubMed:24492612}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=P26358-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Dnmt1b;
+CC         IsoId=P26358-2; Sequence=VSP_005618;
+CC       Name=3;
+CC         IsoId=P26358-3; Sequence=VSP_005617;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous; highly expressed in fetal tissues,
+CC       heart, kidney, placenta, peripheral blood mononuclear cells, and
+CC       expressed at lower levels in spleen, lung, brain, small intestine,
+CC       colon, liver, and skeletal muscle. Isoform 2 is less expressed than
+CC       isoform 1. {ECO:0000269|PubMed:10325416}.
+CC   -!- INDUCTION: Its abundance is reduced to non detectable levels at the G0
+CC       phase of the cell cycle and is dramatically induced upon entrance into
+CC       the S-phase of the cell cycle.
+CC   -!- DOMAIN: The N-terminal part is required for homodimerization and acts
+CC       as a regulatory domain.
+CC   -!- DOMAIN: The CXXC-type zinc finger specifically binds to unmethylated
+CC       CpG dinucleotides, positioning the autoinhibitory linker between the
+CC       DNA and the active site, thus providing a mechanism to ensure that only
+CC       hemimethylated CpG dinucleotides undergo methylation.
+CC       {ECO:0000269|PubMed:21163962}.
+CC   -!- PTM: Sumoylated; sumoylation increases activity.
+CC       {ECO:0000269|PubMed:19450230}.
+CC   -!- PTM: Acetylation on multiple lysines, mainly by KAT2B/PCAF, regulates
+CC       cell cycle G(2)/M transition. Deacetylation of Lys-1349 and Lys-1415 by
+CC       SIRT1 increases methyltransferase activity.
+CC       {ECO:0000269|PubMed:21947282}.
+CC   -!- PTM: Phosphorylation of Ser-154 by CDKs is important for enzymatic
+CC       activity and protein stability. Phosphorylation of Ser-143 by AKT1
+CC       prevents methylation by SETD7 thereby increasing DNMT1 stability.
+CC       {ECO:0000269|PubMed:21151116, ECO:0000269|PubMed:21565170}.
+CC   -!- PTM: Methylation at Lys-142 by SETD7 is necessary for the regulation of
+CC       DNMT1 proteasomal degradation. {ECO:0000269|PubMed:18438403,
+CC       ECO:0000269|PubMed:21151116, ECO:0000269|PubMed:24492612,
+CC       ECO:0000269|PubMed:29691401}.
+CC   -!- PTM: Ubiquitinated by UHRF1; interaction with USP7 counteracts
+CC       ubiquitination by UHRF1 by promoting deubiquitination and preventing
+CC       degradation by the proteasome. {ECO:0000250|UniProtKB:P13864}.
+CC   -!- DISEASE: Neuropathy, hereditary sensory, 1E (HSN1E) [MIM:614116]: A
+CC       neurodegenerative disorder characterized by adult onset of progressive
+CC       peripheral sensory loss associated with progressive hearing impairment
+CC       and early-onset dementia. {ECO:0000269|PubMed:21532572}. Note=The
+CC       disease is caused by variants affecting the gene represented in this
+CC       entry.
+CC   -!- DISEASE: Cerebellar ataxia, deafness, and narcolepsy, autosomal
+CC       dominant (ADCADN) [MIM:604121]: An autosomal dominant neurologic
+CC       disorder characterized by adult onset of progressive cerebellar ataxia,
+CC       narcolepsy, cataplexy, sensorineural deafness, and dementia. More
+CC       variable features include optic atrophy, sensory neuropathy, psychosis,
+CC       and depression. {ECO:0000269|PubMed:22328086}. Note=The disease is
+CC       caused by variants affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. C5-methyltransferase family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01016}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD54507.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology and
+CC       Haematology;
+CC       URL="https://atlasgeneticsoncology.org/gene/40347/DNMT1";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63692; CAA45219.1; -; mRNA.
+DR   EMBL; AF180682; AAF23609.1; -; mRNA.
+DR   EMBL; AC010077; AAD54507.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AC011511; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC020931; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC126227; AAI26228.1; -; mRNA.
+DR   EMBL; BC144093; AAI44094.1; -; mRNA.
+DR   EMBL; AH008119; AAD51619.1; -; Genomic_DNA.
+DR   CCDS; CCDS12228.1; -. [P26358-1]
+DR   CCDS; CCDS45958.1; -. [P26358-2]
+DR   PIR; S22610; S22610.
+DR   RefSeq; NP_001124295.1; NM_001130823.3. [P26358-2]
+DR   RefSeq; NP_001305659.1; NM_001318730.1.
+DR   RefSeq; NP_001305660.1; NM_001318731.1.
+DR   RefSeq; NP_001370.1; NM_001379.4. [P26358-1]
+DR   PDB; 3EPZ; X-ray; 2.31 A; A/B=351-600.
+DR   PDB; 3PTA; X-ray; 3.60 A; A=646-1600.
+DR   PDB; 3SWR; X-ray; 2.49 A; A=601-1600.
+DR   PDB; 4WXX; X-ray; 2.62 A; A/B=351-1600.
+DR   PDB; 4YOC; X-ray; 2.92 A; A=600-1600.
+DR   PDB; 4Z96; X-ray; 2.85 A; C=1098-1129.
+DR   PDB; 4Z97; X-ray; 3.00 A; C=1098-1129.
+DR   PDB; 5WVO; X-ray; 2.00 A; C=351-600.
+DR   PDB; 5YDR; X-ray; 2.00 A; B=351-599.
+DR   PDB; 6K3A; X-ray; 2.30 A; B/D/F=161-180.
+DR   PDB; 6L1F; X-ray; 1.90 A; A=140-145.
+DR   PDB; 6X9I; X-ray; 2.20 A; A=729-1600.
+DR   PDB; 6X9J; X-ray; 1.79 A; A=729-1600.
+DR   PDB; 6X9K; X-ray; 2.65 A; A=729-1600.
+DR   PDB; 7SFC; X-ray; 1.97 A; A=729-1600.
+DR   PDB; 7SFD; X-ray; 2.09 A; A=729-1600.
+DR   PDB; 7SFE; X-ray; 2.55 A; A=729-1600.
+DR   PDB; 7SFF; X-ray; 2.05 A; A=729-1600.
+DR   PDB; 7SFG; X-ray; 2.43 A; A=729-1600.
+DR   PDB; 7XI9; EM; 2.52 A; A=351-1616.
+DR   PDB; 7XIB; EM; 2.23 A; A=351-1616.
+DR   PDB; 8V9U; NMR; -; A=16-93.
+DR   PDB; 8XQC; EM; 3.25 A; A=351-1616.
+DR   PDBsum; 3EPZ; -.
+DR   PDBsum; 3PTA; -.
+DR   PDBsum; 3SWR; -.
+DR   PDBsum; 4WXX; -.
+DR   PDBsum; 4YOC; -.
+DR   PDBsum; 4Z96; -.
+DR   PDBsum; 4Z97; -.
+DR   PDBsum; 5WVO; -.
+DR   PDBsum; 5YDR; -.
+DR   PDBsum; 6K3A; -.
+DR   PDBsum; 6L1F; -.
+DR   PDBsum; 6X9I; -.
+DR   PDBsum; 6X9J; -.
+DR   PDBsum; 6X9K; -.
+DR   PDBsum; 7SFC; -.
+DR   PDBsum; 7SFD; -.
+DR   PDBsum; 7SFE; -.
+DR   PDBsum; 7SFF; -.
+DR   PDBsum; 7SFG; -.
+DR   PDBsum; 7XI9; -.
+DR   PDBsum; 7XIB; -.
+DR   PDBsum; 8V9U; -.
+DR   PDBsum; 8XQC; -.
+DR   AlphaFoldDB; P26358; -.
+DR   EMDB; EMD-33200; -.
+DR   EMDB; EMD-33201; -.
+DR   EMDB; EMD-38573; -.
+DR   SMR; P26358; -.
+DR   BioGRID; 108123; 252.
+DR   CORUM; P26358; -.
+DR   DIP; DIP-39693N; -.
+DR   ELM; P26358; -.
+DR   FunCoup; P26358; 2622.
+DR   IntAct; P26358; 78.
+DR   MINT; P26358; -.
+DR   STRING; 9606.ENSP00000352516; -.
+DR   BindingDB; P26358; -.
+DR   ChEMBL; CHEMBL1993; -.
+DR   DrugBank; DB12326; Antroquinonol.
+DR   DrugBank; DB00928; Azacitidine.
+DR   DrugBank; DB01262; Decitabine.
+DR   DrugBank; DB12116; Epigallocatechin gallate.
+DR   DrugBank; DB01099; Flucytosine.
+DR   DrugBank; DB16168; Fluorocyclopentenylcytosine.
+DR   DrugBank; DB11918; Guadecitabine.
+DR   DrugBank; DB06544; MG98.
+DR   DrugBank; DB05668; Palifosfamide.
+DR   DrugBank; DB01035; Procainamide.
+DR   DrugBank; DB00721; Procaine.
+DR   DrugCentral; P26358; -.
+DR   GuidetoPHARMACOLOGY; 2605; -.
+DR   REBASE; 1161; M.HsaDnmt1A.
+DR   REBASE; 4240; M.HsaDnmt1B.
+DR   GlyGen; P26358; 3 sites, 1 N-linked glycan (1 site), 1 O-linked glycan (1 site).
+DR   iPTMnet; P26358; -.
+DR   PhosphoSitePlus; P26358; -.
+DR   SwissPalm; P26358; -.
+DR   BioMuta; DNMT1; -.
+DR   DMDM; 12231019; -.
+DR   jPOST; P26358; -.
+DR   MassIVE; P26358; -.
+DR   PaxDb; 9606-ENSP00000352516; -.
+DR   PeptideAtlas; P26358; -.
+DR   ProteomicsDB; 54320; -. [P26358-1]
+DR   ProteomicsDB; 54321; -. [P26358-2]
+DR   ProteomicsDB; 54322; -. [P26358-3]
+DR   Pumba; P26358; -.
+DR   ABCD; P26358; 1 sequenced antibody.
+DR   Antibodypedia; 1052; 1564 antibodies from 50 providers.
+DR   DNASU; 1786; -.
+DR   Ensembl; ENST00000340748.8; ENSP00000345739.3; ENSG00000130816.17. [P26358-1]
+DR   Ensembl; ENST00000359526.9; ENSP00000352516.3; ENSG00000130816.17. [P26358-2]
+DR   GeneID; 1786; -.
+DR   KEGG; hsa:1786; -.
+DR   MANE-Select; ENST00000359526.9; ENSP00000352516.3; NM_001130823.3; NP_001124295.1. [P26358-2]
+DR   UCSC; uc002mng.4; human. [P26358-1]
+DR   AGR; HGNC:2976; -.
+DR   CTD; 1786; -.
+DR   DisGeNET; 1786; -.
+DR   GeneCards; DNMT1; -.
+DR   GeneReviews; DNMT1; -.
+DR   HGNC; HGNC:2976; DNMT1.
+DR   HPA; ENSG00000130816; Low tissue specificity.
+DR   MalaCards; DNMT1; -.
+DR   MIM; 126375; gene.
+DR   MIM; 604121; phenotype.
+DR   MIM; 614116; phenotype.
+DR   neXtProt; NX_P26358; -.
+DR   OpenTargets; ENSG00000130816; -.
+DR   Orphanet; 314404; Autosomal dominant cerebellar ataxia-deafness-narcolepsy syndrome.
+DR   Orphanet; 456318; Hereditary sensory neuropathy-deafness-dementia syndrome.
+DR   PharmGKB; PA27443; -.
+DR   VEuPathDB; HostDB:ENSG00000130816; -.
+DR   eggNOG; ENOG502QPKK; Eukaryota.
+DR   GeneTree; ENSGT00390000005100; -.
+DR   HOGENOM; CLU_003040_0_0_1; -.
+DR   InParanoid; P26358; -.
+DR   OMA; CKEMAPL; -.
+DR   PAN-GO; P26358; 1 GO annotation based on evolutionary models.
+DR   PhylomeDB; P26358; -.
+DR   TreeFam; TF328926; -.
+DR   BRENDA; 2.1.1.37; 2681.
+DR   PathwayCommons; P26358; -.
+DR   Reactome; R-HSA-212300; PRC2 methylates histones and DNA.
+DR   Reactome; R-HSA-427413; NoRC negatively regulates rRNA expression.
+DR   Reactome; R-HSA-4655427; SUMOylation of DNA methylation proteins.
+DR   Reactome; R-HSA-5334118; DNA methylation.
+DR   Reactome; R-HSA-9701898; STAT3 nuclear events downstream of ALK signaling.
+DR   Reactome; R-HSA-9710421; Defective pyroptosis.
+DR   Reactome; R-HSA-9725371; Nuclear events stimulated by ALK signaling in cancer.
+DR   SignaLink; P26358; -.
+DR   SIGNOR; P26358; -.
+DR   BioGRID-ORCS; 1786; 363 hits in 1188 CRISPR screens.
+DR   CD-CODE; 91857CE7; Nucleolus.
+DR   ChiTaRS; DNMT1; human.
+DR   EvolutionaryTrace; P26358; -.
+DR   GeneWiki; DNMT1; -.
+DR   GenomeRNAi; 1786; -.
+DR   Pharos; P26358; Tclin.
+DR   PRO; PR:P26358; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; P26358; protein.
+DR   Bgee; ENSG00000130816; Expressed in oocyte and 185 other cell types or tissues.
+DR   ExpressionAtlas; P26358; baseline and differential.
+DR   GO; GO:0001674; C:female germ cell nucleus; IEA:Ensembl.
+DR   GO; GO:0005739; C:mitochondrion; HTP:FlyBase.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0005634; C:nucleus; HDA:UniProtKB.
+DR   GO; GO:0005721; C:pericentric heterochromatin; IEA:Ensembl.
+DR   GO; GO:0005657; C:replication fork; IEA:Ensembl.
+DR   GO; GO:0003886; F:DNA (cytosine-5-)-methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; IDA:UniProtKB.
+DR   GO; GO:0009008; F:DNA-methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0106222; F:lncRNA binding; IEA:Ensembl.
+DR   GO; GO:0008327; F:methyl-CpG binding; IEA:Ensembl.
+DR   GO; GO:1990841; F:promoter-specific chromatin binding; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071230; P:cellular response to amino acid stimulus; IEA:Ensembl.
+DR   GO; GO:1903926; P:cellular response to bisphenol A; IEA:Ensembl.
+DR   GO; GO:0141119; P:chromosomal DNA methylation maintenance following DNA replication; TAS:BHF-UCL.
+DR   GO; GO:0006346; P:DNA methylation-dependent constitutive heterochromatin formation; IEA:Ensembl.
+DR   GO; GO:0006351; P:DNA-templated transcription; IEA:Ensembl.
+DR   GO; GO:0043045; P:epigenetic programming of gene expression; IEA:Ensembl.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0010629; P:negative regulation of gene expression; IMP:BHF-UCL.
+DR   GO; GO:0044027; P:negative regulation of gene expression via chromosomal CpG island methylation; IDA:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; TAS:ProtInc.
+DR   GO; GO:1905460; P:negative regulation of vascular associated smooth muscle cell apoptotic process; IMP:BHF-UCL.
+DR   GO; GO:1905931; P:negative regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching; IMP:BHF-UCL.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IMP:UniProtKB.
+DR   GO; GO:1904707; P:positive regulation of vascular associated smooth muscle cell proliferation; IMP:BHF-UCL.
+DR   CDD; cd04760; BAH_Dnmt1_I; 1.
+DR   CDD; cd04711; BAH_Dnmt1_II; 1.
+DR   FunFam; 1.10.10.2230:FF:000001; DNA (cytosine-5)-methyltransferase; 1.
+DR   FunFam; 2.30.30.490:FF:000004; DNA (cytosine-5)-methyltransferase; 1.
+DR   FunFam; 2.30.30.490:FF:000006; DNA (cytosine-5)-methyltransferase; 1.
+DR   FunFam; 3.40.50.150:FF:000036; DNA (cytosine-5)-methyltransferase; 1.
+DR   FunFam; 3.90.120.10:FF:000001; DNA (cytosine-5)-methyltransferase; 1.
+DR   Gene3D; 1.10.10.2230; -; 1.
+DR   Gene3D; 2.30.30.490; -; 2.
+DR   Gene3D; 3.90.120.10; DNA Methylase, subunit A, domain 2; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR001025; BAH_dom.
+DR   InterPro; IPR043151; BAH_sf.
+DR   InterPro; IPR050390; C5-Methyltransferase.
+DR   InterPro; IPR018117; C5_DNA_meth_AS.
+DR   InterPro; IPR001525; C5_MeTfrase.
+DR   InterPro; IPR031303; C5_meth_CS.
+DR   InterPro; IPR022702; Cytosine_MeTrfase1_RFD.
+DR   InterPro; IPR010506; DMAP1-bd.
+DR   InterPro; IPR017198; DNMT1-like.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR002857; Znf_CXXC.
+DR   PANTHER; PTHR10629; CYTOSINE-SPECIFIC METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10629:SF52; DNA (CYTOSINE-5)-METHYLTRANSFERASE 1; 1.
+DR   Pfam; PF01426; BAH; 2.
+DR   Pfam; PF06464; DMAP_binding; 1.
+DR   Pfam; PF00145; DNA_methylase; 1.
+DR   Pfam; PF12047; DNMT1-RFD; 1.
+DR   Pfam; PF02008; zf-CXXC; 1.
+DR   PIRSF; PIRSF037404; DNMT1; 1.
+DR   PRINTS; PR00105; C5METTRFRASE.
+DR   SMART; SM00439; BAH; 2.
+DR   SMART; SM01137; DMAP_binding; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51038; BAH; 2.
+DR   PROSITE; PS00094; C5_MTASE_1; 1.
+DR   PROSITE; PS00095; C5_MTASE_2; 1.
+DR   PROSITE; PS51912; DMAP1_BIND; 1.
+DR   PROSITE; PS51679; SAM_MT_C5; 1.
+DR   PROSITE; PS51058; ZF_CXXC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Activator; Alternative splicing;
+KW   Chromatin regulator; Deafness; Disease variant; DNA-binding;
+KW   Isopeptide bond; Metal-binding; Methylation; Methyltransferase; Neuropathy;
+KW   Nucleus; Phosphoprotein; Proteomics identification; Reference proteome;
+KW   Repeat; Repressor; S-adenosyl-L-methionine; Transcription;
+KW   Transcription regulation; Transferase; Ubl conjugation; Zinc; Zinc-finger.
+FT   CHAIN           1..1616
+FT                   /note="DNA (cytosine-5)-methyltransferase 1"
+FT                   /id="PRO_0000088034"
+FT   DOMAIN          16..109
+FT                   /note="DMAP1-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01260"
+FT   DOMAIN          755..880
+FT                   /note="BAH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00370"
+FT   DOMAIN          972..1100
+FT                   /note="BAH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00370"
+FT   REPEAT          1109..1110
+FT                   /note="1"
+FT   REPEAT          1111..1112
+FT                   /note="2"
+FT   REPEAT          1113..1114
+FT                   /note="3"
+FT   REPEAT          1115..1116
+FT                   /note="4"
+FT   REPEAT          1117..1118
+FT                   /note="5"
+FT   REPEAT          1119..1120
+FT                   /note="6; approximate"
+FT   DOMAIN          1139..1599
+FT                   /note="SAM-dependent MTase C5-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01016"
+FT   ZN_FING         646..692
+FT                   /note="CXXC-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   REGION          1..336
+FT                   /note="Interaction with the PRC2/EED-EZH2 complex"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1..148
+FT                   /note="Interaction with DNMT3A"
+FT                   /evidence="ECO:0000269|PubMed:12145218"
+FT   REGION          1..120
+FT                   /note="Interaction with DMAP1"
+FT                   /evidence="ECO:0000269|PubMed:10888872"
+FT   REGION          103..349
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          149..217
+FT                   /note="Interaction with DNMT3B"
+FT                   /evidence="ECO:0000269|PubMed:12145218"
+FT   REGION          163..174
+FT                   /note="Interaction with PCNA"
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   REGION          308..606
+FT                   /note="Interaction with the PRC2/EED-EZH2 complex"
+FT                   /evidence="ECO:0000250"
+FT   REGION          310..502
+FT                   /note="Homodimerization"
+FT   REGION          331..550
+FT                   /note="DNA replication foci-targeting sequence"
+FT                   /evidence="ECO:0000250"
+FT   REGION          651..697
+FT                   /note="Required for activity"
+FT   REGION          693..754
+FT                   /note="Autoinhibitory linker"
+FT   REGION          699..729
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1095..1130
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1109..1120
+FT                   /note="6 X 2 AA tandem repeats of K-G"
+FT   REGION          1121..1616
+FT                   /note="Interaction with the PRC2/EED-EZH2 complex"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1139..1616
+FT                   /note="Catalytic"
+FT   MOTIF           177..205
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        179..214
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        221..267
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        281..306
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        321..337
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        699..709
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        716..728
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1110..1120
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        1226
+FT   BINDING         353
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT   BINDING         356
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT   BINDING         414
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT   BINDING         418
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT   BINDING         653
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         656
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         659
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         664
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         667
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         670
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         686
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         691
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   BINDING         1146
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   BINDING         1150..1151
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   BINDING         1168..1169
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000269|PubMed:21163962,
+FT                   ECO:0007744|PDB:3PTA"
+FT   BINDING         1190..1191
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   BINDING         1191
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000269|PubMed:21163962,
+FT                   ECO:0007744|PDB:3PTA"
+FT   BINDING         1578
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000269|PubMed:21163962,
+FT                   ECO:0007744|PDB:3PTA"
+FT   BINDING         1580
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   SITE            509
+FT                   /note="Important for activity"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         70
+FT                   /note="N6,N6-dimethyllysine"
+FT                   /evidence="ECO:0000269|PubMed:18438403"
+FT   MOD_RES         127
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17081983,
+FT                   ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:19690332,
+FT                   ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163"
+FT   MOD_RES         133
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21406692"
+FT   MOD_RES         137
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         141
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   MOD_RES         142
+FT                   /note="N6-methyllysine; by SETD7"
+FT                   /evidence="ECO:0000269|PubMed:21151116"
+FT   MOD_RES         143
+FT                   /note="Phosphoserine; by PKB/AKT1"
+FT                   /evidence="ECO:0000269|PubMed:21151116,
+FT                   ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:23186163"
+FT   MOD_RES         152
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:18669648"
+FT   MOD_RES         154
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:21565170,
+FT                   ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:23186163"
+FT   MOD_RES         160
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         166
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         173
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0007744|PubMed:19608861"
+FT   MOD_RES         188
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         259
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         312
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         366
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         394
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:18669648,
+FT                   ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:23186163"
+FT   MOD_RES         398
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         509
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   MOD_RES         549
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         714
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17081983,
+FT                   ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:21406692,
+FT                   ECO:0007744|PubMed:23186163"
+FT   MOD_RES         732
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:18220336"
+FT   MOD_RES         749
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         878
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:23186163"
+FT   MOD_RES         891
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         957
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         961
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         975
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         1054
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         1111
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282,
+FT                   ECO:0007744|PubMed:19608861"
+FT   MOD_RES         1113
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282,
+FT                   ECO:0007744|PubMed:19608861"
+FT   MOD_RES         1115
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282,
+FT                   ECO:0007744|PubMed:19608861"
+FT   MOD_RES         1117
+FT                   /note="N6-acetyllysine; by EHMT2"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         1119
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   MOD_RES         1121
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   MOD_RES         1349
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   MOD_RES         1415
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000269|PubMed:21947282"
+FT   CROSSLNK        259
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0007744|PubMed:28112733"
+FT   CROSSLNK        1609
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0007744|PubMed:25772364,
+FT                   ECO:0007744|PubMed:28112733"
+FT   VAR_SEQ         1..336
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000303|Ref.3"
+FT                   /id="VSP_005617"
+FT   VAR_SEQ         149
+FT                   /note="P -> RSRDPPASASQVTGIRA (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_005618"
+FT   VARIANT         97
+FT                   /note="H -> R (in dbSNP:rs16999593)"
+FT                   /id="VAR_024605"
+FT   VARIANT         311
+FT                   /note="I -> V (in dbSNP:rs2228612)"
+FT                   /id="VAR_051960"
+FT   VARIANT         490..491
+FT                   /note="DP -> EY (in HSN1E; unstable protein with decreased
+FT                   enzymatic activity and impaired heterochromatin binding
+FT                   ability after the S phase; dbSNP:rs199473691)"
+FT                   /evidence="ECO:0000269|PubMed:21532572"
+FT                   /id="VAR_065965"
+FT   VARIANT         495
+FT                   /note="Y -> C (in HSN1E; unstable protein with decreased
+FT                   enzymatic activity and impaired heterochromatin binding
+FT                   ability after the S phase; dbSNP:rs199473690)"
+FT                   /evidence="ECO:0000269|PubMed:21532572"
+FT                   /id="VAR_065966"
+FT   VARIANT         554
+FT                   /note="A -> V (in ADCADN; dbSNP:rs397509392)"
+FT                   /evidence="ECO:0000269|PubMed:22328086"
+FT                   /id="VAR_070055"
+FT   VARIANT         589
+FT                   /note="G -> A (in ADCADN; dbSNP:rs397509393)"
+FT                   /evidence="ECO:0000269|PubMed:22328086"
+FT                   /id="VAR_070056"
+FT   VARIANT         590
+FT                   /note="V -> F (in ADCADN; dbSNP:rs397509391)"
+FT                   /evidence="ECO:0000269|PubMed:22328086"
+FT                   /id="VAR_070057"
+FT   MUTAGEN         142
+FT                   /note="K->A: Loss of interaction with L3MBTL3 and DCAF5.
+FT                   Loss of ubiquitination by the CRL4-DCAF5 E3 ubiquitin
+FT                   ligase complex."
+FT                   /evidence="ECO:0000269|PubMed:29691401"
+FT   MUTAGEN         163
+FT                   /note="R->A: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         164
+FT                   /note="Q->A: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         166
+FT                   /note="T->A: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         167
+FT                   /note="I->A: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         169
+FT                   /note="S->A: No loss of interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         170
+FT                   /note="H->V: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         171
+FT                   /note="F->V: Abolishes interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         172
+FT                   /note="A->S: No loss of interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         173
+FT                   /note="K->A: No loss of interaction with PCNA."
+FT                   /evidence="ECO:0000269|PubMed:9302295"
+FT   MUTAGEN         653
+FT                   /note="C->G: Reduces activity about 10-fold; when
+FT                   associated with G-656; G-659; G-664; G-667 and G-670."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         656
+FT                   /note="C->G: Reduces activity about 10-fold; when
+FT                   associated with G-653; G-659; G-664; G-667 and G-670."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         659
+FT                   /note="C->G: Reduces activity about 10-fold; when
+FT                   associated with G-653; G-656; G-664; G-667 and G-670."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         664
+FT                   /note="C->F: Reduces activity about 10-fold; when
+FT                   associated with G-653; G-656; G-659; G-667 and G-670."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         667
+FT                   /note="C->G: Reduces activity about 10-fold; when
+FT                   associated with G-653; G-656; G-659; G-664 and G-670."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         670
+FT                   /note="C->G: Reduces activity about 10-fold; when
+FT                   associated with G-653; G-656; G-659; G-664 and G-667."
+FT                   /evidence="ECO:0000269|PubMed:18754681"
+FT   MUTAGEN         1226
+FT                   /note="C->A: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:19450230"
+FT   HELIX           22..34
+FT                   /evidence="ECO:0007829|PDB:8V9U"
+FT   HELIX           38..50
+FT                   /evidence="ECO:0007829|PDB:8V9U"
+FT   HELIX           55..69
+FT                   /evidence="ECO:0007829|PDB:8V9U"
+FT   HELIX           75..92
+FT                   /evidence="ECO:0007829|PDB:8V9U"
+FT   HELIX           167..169
+FT                   /evidence="ECO:0007829|PDB:6K3A"
+FT   TURN            354..356
+FT                   /evidence="ECO:0007829|PDB:5YDR"
+FT   STRAND          359..361
+FT                   /evidence="ECO:0007829|PDB:5YDR"
+FT   HELIX           363..365
+FT                   /evidence="ECO:0007829|PDB:5YDR"
+FT   HELIX           377..381
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           384..386
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          392..394
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          404..414
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          417..419
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          422..425
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   TURN            426..430
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          433..440
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          453..458
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          463..467
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          470..473
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          476..480
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          485..488
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   TURN            493..495
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           496..518
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           524..533
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           538..540
+FT                   /evidence="ECO:0007829|PDB:3EPZ"
+FT   HELIX           547..551
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           554..566
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   STRAND          575..578
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           579..588
+FT                   /evidence="ECO:0007829|PDB:5WVO"
+FT   HELIX           592..597
+FT                   /evidence="ECO:0007829|PDB:5YDR"
+FT   HELIX           622..629
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   TURN            657..659
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   HELIX           670..672
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   TURN            674..677
+FT                   /evidence="ECO:0007829|PDB:4WXX"
+FT   HELIX           687..689
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   HELIX           692..703
+FT                   /evidence="ECO:0007829|PDB:4WXX"
+FT   STRAND          731..733
+FT                   /evidence="ECO:0007829|PDB:7SFC"
+FT   STRAND          738..741
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          744..746
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          748..752
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          755..758
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          762..765
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          767..769
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   STRAND          775..785
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            786..788
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          789..799
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           800..802
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          803..805
+FT                   /evidence="ECO:0007829|PDB:4YOC"
+FT   HELIX           806..808
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          813..824
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           825..827
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          828..832
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          834..836
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           843..845
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           851..856
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          860..870
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            871..874
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          875..877
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            886..891
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           894..906
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          909..916
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          918..928
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          931..934
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          938..941
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           943..945
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            966..968
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           972..975
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           976..980
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   STRAND          992..1003
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1005..1009
+FT                   /evidence="ECO:0007829|PDB:6X9I"
+FT   STRAND          1015..1022
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1024..1026
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1027..1029
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1031..1034
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1035..1037
+FT                   /evidence="ECO:0007829|PDB:3SWR"
+FT   STRAND          1041..1052
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1053..1055
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1058..1064
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1065..1067
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1072..1077
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1078..1090
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            1091..1094
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1095..1097
+FT                   /evidence="ECO:0007829|PDB:7SFC"
+FT   HELIX           1101..1103
+FT                   /evidence="ECO:0007829|PDB:7SFC"
+FT   STRAND          1139..1145
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1150..1158
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1160..1167
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1171..1180
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1185..1187
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1191..1199
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            1214..1216
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1219..1222
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            1227..1229
+FT                   /evidence="ECO:0007829|PDB:6X9I"
+FT   STRAND          1231..1233
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1237..1244
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1247..1258
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1261..1268
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1269..1272
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1274..1290
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1293..1300
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1301..1304
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1311..1318
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1336..1338
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1343..1345
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1348..1350
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1367..1371
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1384..1386
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1395..1401
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1419..1426
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1436..1438
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1447..1449
+FT                   /evidence="ECO:0007829|PDB:6X9I"
+FT   STRAND          1451..1453
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1459..1461
+FT                   /evidence="ECO:0007829|PDB:6X9I"
+FT   TURN            1462..1464
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1474..1476
+FT                   /evidence="ECO:0007829|PDB:6X9K"
+FT   HELIX           1477..1480
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1481..1483
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1487..1489
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1493..1496
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1499..1503
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1504..1506
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1508..1510
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   TURN            1511..1514
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   STRAND          1523..1525
+FT                   /evidence="ECO:0007829|PDB:7SFC"
+FT   STRAND          1534..1536
+FT                   /evidence="ECO:0007829|PDB:7SFF"
+FT   STRAND          1542..1547
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1550..1556
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1569..1577
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+FT   HELIX           1582..1598
+FT                   /evidence="ECO:0007829|PDB:6X9J"
+SQ   SEQUENCE   1616 AA;  183165 MW;  1E833192D22AFA5B CRC64;
+     MPARTAPARV PTLAVPAISL PDDVRRRLKD LERDSLTEKE CVKEKLNLLH EFLQTEIKNQ
+     LCDLETKLRK EELSEEGYLA KVKSLLNKDL SLENGAHAYN REVNGRLENG NQARSEARRV
+     GMADANSPPK PLSKPRTPRR SKSDGEAKPE PSPSPRITRK STRQTTITSH FAKGPAKRKP
+     QEESERAKSD ESIKEEDKDQ DEKRRRVTSR ERVARPLPAE EPERAKSGTR TEKEEERDEK
+     EEKRLRSQTK EPTPKQKLKE EPDREARAGV QADEDEDGDE KDEKKHRSQP KDLAAKRRPE
+     EKEPEKVNPQ ISDEKDEDEK EEKRRKTTPK EPTEKKMARA KTVMNSKTHP PKCIQCGQYL
+     DDPDLKYGQH PPDAVDEPQM LTNEKLSIFD ANESGFESYE ALPQHKLTCF SVYCKHGHLC
+     PIDTGLIEKN IELFFSGSAK PIYDDDPSLE GGVNGKNLGP INEWWITGFD GGEKALIGFS
+     TSFAEYILMD PSPEYAPIFG LMQEKIYISK IVVEFLQSNS DSTYEDLINK IETTVPPSGL
+     NLNRFTEDSL LRHAQFVVEQ VESYDEAGDS DEQPIFLTPC MRDLIKLAGV TLGQRRAQAR
+     RQTIRHSTRE KDRGPTKATT TKLVYQIFDT FFAEQIEKDD REDKENAFKR RRCGVCEVCQ
+     QPECGKCKAC KDMVKFGGSG RSKQACQERR CPNMAMKEAD DDEEVDDNIP EMPSPKKMHQ
+     GKKKKQNKNR ISWVGEAVKT DGKKSYYKKV CIDAETLEVG DCVSVIPDDS SKPLYLARVT
+     ALWEDSSNGQ MFHAHWFCAG TDTVLGATSD PLELFLVDEC EDMQLSYIHS KVKVIYKAPS
+     ENWAMEGGMD PESLLEGDDG KTYFYQLWYD QDYARFESPP KTQPTEDNKF KFCVSCARLA
+     EMRQKEIPRV LEQLEDLDSR VLYYSATKNG ILYRVGDGVY LPPEAFTFNI KLSSPVKRPR
+     KEPVDEDLYP EHYRKYSDYI KGSNLDAPEP YRIGRIKEIF CPKKSNGRPN ETDIKIRVNK
+     FYRPENTHKS TPASYHADIN LLYWSDEEAV VDFKAVQGRC TVEYGEDLPE CVQVYSMGGP
+     NRFYFLEAYN AKSKSFEDPP NHARSPGNKG KGKGKGKGKP KSQACEPSEP EIEIKLPKLR
+     TLDVFSGCGG LSEGFHQAGI SDTLWAIEMW DPAAQAFRLN NPGSTVFTED CNILLKLVMA
+     GETTNSRGQR LPQKGDVEML CGGPPCQGFS GMNRFNSRTY SKFKNSLVVS FLSYCDYYRP
+     RFFLLENVRN FVSFKRSMVL KLTLRCLVRM GYQCTFGVLQ AGQYGVAQTR RRAIILAAAP
+     GEKLPLFPEP LHVFAPRACQ LSVVVDDKKF VSNITRLSSG PFRTITVRDT MSDLPEVRNG
+     ASALEISYNG EPQSWFQRQL RGAQYQPILR DHICKDMSAL VAARMRHIPL APGSDWRDLP
+     NIEVRLSDGT MARKLRYTHH DRKNGRSSSG ALRGVCSCVE AGKACDPAAR QFNTLIPWCL
+     PHTGNRHNHW AGLYGRLEWD GFFSTTVTNP EPMGKQGRVL HPEQHRVVSV RECARSQGFP
+     DTYRLFGNIL DKHRQVGNAV PPPLAKAIGL EIKLCMLAKA RESASAKIKE EEAAKD
+//

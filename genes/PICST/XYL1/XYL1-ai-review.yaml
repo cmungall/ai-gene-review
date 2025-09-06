@@ -1,0 +1,182 @@
+id: P31867
+gene_symbol: XYL1
+taxon:
+  id: NCBITaxon:322104
+  label: Scheffersomyces stipitis CBS 6054
+description: 'XYL1 encodes NAD(P)H-dependent D-xylose reductase (XR), a 318-amino acid cytosolic enzyme belonging to the aldo-keto reductase superfamily. This enzyme catalyzes the first and rate-limiting step in xylose metabolism in Scheffersomyces stipitis, reducing D-xylose to xylitol using preferentially NADPH as cofactor. XR exhibits broad aldose reductase activity on sugars like L-arabinose, D-ribose, and D-galactose, though D-xylose is its primary physiological substrate. The enzyme is essential for growth on xylose-containing media and enables S. stipitis to ferment pentose sugars to ethanol, a rare ability among yeasts. Expression is strongly induced by xylose and repressed by glucose through carbon catabolite repression.'
+existing_annotations:
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Overly general parent term that does not specify the substrate or cofactor. While XR is indeed an oxidoreductase, more specific child terms are available.'
+    action: REMOVE
+    proposed_replacement_terms:
+      - id: GO:0032866
+        label: D-xylose reductase (NADPH) activity
+- term:
+    id: GO:0032866
+    label: D-xylose reductase (NADPH) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Accurate and specific molecular function annotation. UniProt and experimental evidence confirm XR preferentially uses NADPH to reduce D-xylose to xylitol, though it can also use NADH at lower efficiency.'
+    action: ACCEPT
+- term:
+    id: GO:0016616
+    label: oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP
+      as acceptor
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'While correct, this is a parent term of the more specific D-xylose reductase activity. The specific term better captures the enzymatic function.'
+    action: REMOVE
+    proposed_replacement_terms:
+      - id: GO:0032866
+        label: D-xylose reductase (NADPH) activity
+- term:
+    id: GO:0042732
+    label: D-xylose metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Valid but overly general term. The more specific child term D-xylose catabolic process better describes XR function in breaking down xylose.'
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0042843
+        label: D-xylose catabolic process
+- term:
+    id: GO:0003729
+    label: mRNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'No evidence supports mRNA binding activity for XR. This appears to be an erroneous automated annotation transfer. XR is a metabolic enzyme with no known RNA-binding domains or functions.'
+    action: REMOVE
+- term:
+    id: GO:0004032
+    label: aldose reductase (NADPH) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'While XR can reduce various aldoses in vitro, its primary physiological function is D-xylose reduction. The more specific D-xylose reductase activity term is preferred for accuracy.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0019388
+    label: galactose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'XR shows weak in vitro activity on D-galactose (Km=140mM vs 42mM for xylose), but there is no evidence this is physiologically relevant. S. stipitis has dedicated galactose metabolism pathways.'
+    action: REMOVE
+- term:
+    id: GO:0019568
+    label: arabinose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'XR can reduce L-arabinose in vitro (Km=40mM), which may have minor physiological relevance in mixed pentose environments, but D-xylose is the primary substrate.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0034599
+    label: cellular response to oxidative stress
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'No evidence links XR to oxidative stress response. This appears to be an incorrect annotation transfer, possibly confused with other aldo-keto reductases that detoxify aldehydes.'
+    action: REMOVE
+- term:
+    id: GO:0042843
+    label: D-xylose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Accurate biological process annotation. XR catalyzes the first step of xylose catabolism, converting D-xylose to xylitol which is then further metabolized to ethanol or biomass.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:1756986
+        supporting_text: 'The enzyme is part of the xylose-xylulose pathway'
+      - reference_id: PMID:17334359
+        supporting_text: 'Xylose is a major constituent of plant lignocellulose, and its fermentation is important for the bioconversion of plant biomass to fuels and chemicals. Pichia stipitis is a well-studied, native xylose-fermenting yeast'
+- term:
+    id: GO:0071470
+    label: cellular response to osmotic stress
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: 'No evidence supports XR involvement in osmotic stress response. This appears to be another erroneous automated annotation transfer.'
+    action: REMOVE
+core_functions:
+  - description: 'NAD(P)H-dependent reduction of D-xylose to xylitol as the first step in pentose sugar fermentation to ethanol'
+    molecular_function:
+      id: GO:0032866
+      label: D-xylose reductase (NADPH) activity
+    supported_by:
+      - reference_id: PMID:3921014
+        supporting_text: 'XR enzyme prefers NADPH over NADH with Km=42mM for D-xylose and Km=9µM for NADPH'
+      - reference_id: PMID:1756986
+        supporting_text: 'NAD(P)H-dependent xylose reductase catalyzes reduction of D-xylose to xylitol'
+    directly_involved_in:
+      - id: GO:0042843
+        label: D-xylose catabolic process
+      - id: GO:0044577
+        label: D-xylose catabolic process to ethanol
+    locations:
+      - id: GO:0005737
+        label: cytoplasm
+  - description: 'Glucose-repressed expression of xylose metabolic enzyme'
+    molecular_function:
+      id: GO:0032866
+      label: D-xylose reductase (NADPH) activity
+    supported_by:
+      - reference_id: 'file:PICST/XYL1/XYL1-deep-research.md'
+        supporting_text: 'XYL1 (and XYL2) expression is repressed in the presence of glucose and strongly induced during growth on xylose'
+    directly_involved_in:
+      - id: GO:0045014
+        label: carbon catabolite repression of transcription by glucose
+    locations:
+      - id: GO:0005737
+        label: cytoplasm
+references:
+- id: PMID:3921014
+  title: 'Properties of the NAD(P)H-dependent xylose reductase from the xylose-fermenting yeast Pichia stipitis'
+  findings: []
+- id: PMID:1756986
+  title: 'Cloning and expression in Saccharomyces cerevisiae of the NAD(P)H-dependent xylose reductase-encoding gene (XYL1) from the xylose-assimilating yeast Pichia stipitis'
+  findings: []
+- id: PMID:17334359
+  title: 'Genome sequence of the lignocellulose-bioconverting and xylose-fermenting yeast Pichia stipitis'
+  findings: []
+- id: 'file:PICST/XYL1/XYL1-deep-research.md'
+  title: 'Deep research synthesis from multiple sources including structural studies (PMID:30416116)'
+  findings:
+    - statement: 'Crystal structure revealed TIM-barrel fold and NADPH-binding'
+      supporting_text: 'Crystal structure at 1.95Å resolution revealed TIM-barrel fold, NADPH-binding site, and conformational changes upon cofactor binding'
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to
+    orthologs using Ensembl Compara.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+proposed_new_terms:
+  - proposed_name: 'dual NAD(P)H-dependent D-xylose reductase activity'
+    proposed_definition: 'Catalysis of the reduction of D-xylose to xylitol using either NADPH (preferred) or NADH as cofactor. This term represents enzymes that can efficiently utilize both cofactors, unlike strictly NADPH-dependent or NADH-dependent reductases.'
+    justification: 'XYL1 from S. stipitis shows unusual dual cofactor usage with 70% NADH activity relative to NADPH. This dual capability is rare among aldose reductases and has biotechnological significance for cofactor balance in engineered fermentation pathways. Current GO terms only capture single-cofactor activities.'
+    supported_by:
+      - reference_id: PMID:3921014
+        supporting_text: 'Unlike all aldose reductases characterized so far, the enzyme from this yeast was active with both NADPH and NADH as coenzyme. The activity with NADH was approx. 70% of that with NADPH for the various aldose substrates'
+  - proposed_name: 'intracellular xylitol accumulation'
+    proposed_definition: 'The process by which xylitol accumulates within a cell as an intermediate metabolite, typically due to imbalanced flux through the xylose metabolic pathway under oxygen-limited conditions.'
+    justification: 'Xylitol accumulation is a characteristic phenotype of XR/XDH pathway imbalance in xylose-fermenting yeasts, particularly under anaerobic conditions. This process has industrial significance and represents a distinct metabolic state not captured by existing GO terms.'
+    supported_by:
+      - reference_id: 'file:PICST/XYL1/XYL1-deep-research.md'
+        supporting_text: 'if XDH (XYL2) activity is insufficient or oxygen is limited (hindering NADH reoxidation), S. stipitis will excrete xylitol as a byproduct. This accumulation of xylitol is a hallmark of imbalance in the XR/XDH pathway'

@@ -1,0 +1,259 @@
+id: P62694
+gene_symbol: cbh1
+aliases:
+- CBHI
+- Cel7A
+- Exoglucanase 1
+- Cellobiohydrolase 7A
+taxon:
+  id: NCBITaxon:51453
+  label: Trichoderma reesei
+description: Exoglucanase 1 (cellobiohydrolase I, CBHI) is a major secreted cellulase
+  that processively hydrolyzes crystalline cellulose from chain ends, releasing cellobiose
+  units. It contains a GH7 catalytic domain with a tunnel-shaped active site and a
+  cellulose-binding module connected by a glycosylated linker. CBHI is the most abundantly
+  produced enzyme during growth on cellulose, comprising ~50% of secreted protein,
+  and is tightly regulated by XYR1 (positive) and CRE1 (negative) transcription factors.
+existing_annotations:
+- term:
+    id: GO:0004553
+    label: hydrolase activity, hydrolyzing O-glycosyl compounds
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This is a broad parent term that is correct but non-specific. The more
+      specific term GO:0016162 (cellulose 1,4-beta-cellobiosidase activity) better
+      describes CBHI's molecular function.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0016162
+      label: cellulose 1,4-beta-cellobiosidase activity
+- term:
+    id: GO:0005576
+    label: extracellular region
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct annotation. CBHI is a secreted enzyme with an N-terminal signal
+      peptide that directs it through the classical secretory pathway to function
+      in the extracellular environment.
+    action: ACCEPT
+- term:
+    id: GO:0005975
+    label: carbohydrate metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: This is a very broad biological process term. While correct, the more
+      specific term GO:0030245 (cellulose catabolic process) better captures CBHI's
+      primary biological role.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0030245
+      label: cellulose catabolic process
+- term:
+    id: GO:0030248
+    label: cellulose binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct annotation. CBHI contains a well-characterized cellulose-binding
+      module (CBM family 1) that specifically binds to insoluble cellulose fibers
+      via aromatic residues and hydrogen bonds.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:2554967
+      supporting_text: Three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I
+    - reference_id: PMID:9041630
+      supporting_text: mutations in the flat face of CBD, which is expected to bind to crystalline
+- term:
+    id: GO:0000272
+    label: polysaccharide catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: While technically correct, this is too general. CBHI specifically degrades
+      cellulose, not polysaccharides in general. Should use GO:0030245 (cellulose
+      catabolic process).
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0030245
+      label: cellulose catabolic process
+- term:
+    id: GO:0009251
+    label: glucan catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: This term is appropriate as cellulose is a beta-1,4-glucan. However,
+      GO:0030245 (cellulose catabolic process) is more specific and preferred for
+      this enzyme.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016162
+    label: cellulose 1,4-beta-cellobiosidase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000003
+  review:
+    summary: This is the most specific and accurate molecular function term for CBHI.
+      It precisely describes the enzyme's activity of hydrolyzing beta-1,4-glucosidic
+      linkages in cellulose to release cellobiose from chain ends.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:8036495
+      supporting_text: The molecule contains a 40 angstrom long active site tunnel that may account for many of the previously poorly understood macroscopic properties of the enzyme
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is an extremely broad parent term that provides no specific information
+      about CBHI's function. Should use the specific term GO:0016162 instead.
+    action: REMOVE
+- term:
+    id: GO:0016798
+    label: hydrolase activity, acting on glycosyl bonds
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: While correct, this is still too general. The specific term GO:0016162
+      (cellulose 1,4-beta-cellobiosidase activity) should be used instead.
+    action: REMOVE
+- term:
+    id: GO:0030245
+    label: cellulose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This is the most appropriate biological process term for CBHI, accurately
+      describing its role in breaking down cellulose into smaller sugars as part of
+      fungal nutrient acquisition.
+    action: ACCEPT
+references:
+- id: PMID:8036495
+  title: The three-dimensional crystal structure of the catalytic core of cellobiohydrolase I from Trichoderma reesei
+  findings:
+  - statement: First high-resolution crystal structure of CBHI catalytic core at 1.8 Å resolution
+    supporting_text: The structure of the major cellobiohydrolase, CBHI, of the potent cellulolytic fungus Trichoderma reesei has been determined and refined to 1.8 angstrom resolution
+  - statement: Active site forms a 40 Å long tunnel characteristic of processive exoglucanases
+    supporting_text: The molecule contains a 40 angstrom long active site tunnel that may account for many of the previously poorly understood macroscopic properties of the enzyme
+  - statement: Structural similarity to bacterial beta-glucanases and plant legume lectins
+    supporting_text: The three-dimensional structure is very similar to a family of bacterial beta-glucanases with the main-chain topology of the plant legume lectins
+  - statement: Active site residues identified through oligosaccharide complex structure
+    supporting_text: The active site residues were identified by solving the structure of the enzyme complexed with an oligosaccharide, o-iodobenzyl-1-thio-beta-cellobioside
+  - statement: Structure deposited as PDB entry 1CEL for further research
+    supporting_text: The three-dimensional crystal structure of the catalytic core of cellobiohydrolase I from Trichoderma reesei
+  - statement: Tunnel architecture explains processive mechanism on crystalline cellulose
+    supporting_text: The molecule contains a 40 angstrom long active site tunnel that may account for many of the previously poorly understood macroscopic properties of the enzyme and its interaction with solid cellulose
+- id: PMID:9746354
+  title: Modified glycosylation of cellobiohydrolase I from a high cellulase-producing mutant strain of Trichoderma reesei
+  findings:
+  - statement: Characterized complete glycosylation pattern of CBHI from high-producing strain
+    supporting_text: identified every site of glycosylation of CBHI from a high cellulase-producing mutant strain of T. reesei, ALKO2877
+  - statement: Three N-glycosylation sites in catalytic domain with single N-acetylglucosamine
+    supporting_text: The catalytic core domain comprises three N-linked glycans which each consist of a single N-acetylglucosamine residue
+  - statement: Eight O-glycosylation sites in linker region with mannose residues
+    supporting_text: Within the glycopeptide linker domain, all eight threonines are variably glycosylated with between at least one, and up to three, mannose residues per site
+  - statement: Used mass spectrometry and protein sequencing to identify glycosylation sites
+    supporting_text: electrospray mass spectrometry, solid-phase Edman degradation, and monosaccharide analysis
+  - statement: CBHI is heavily glycosylated affecting its molecular weight and properties
+    supporting_text: Cellobiohydrolase I is an industrially important exocellulase secreted in high yields
+  - statement: Site-specific heterogeneity observed in O-glycosylation pattern
+    supporting_text: characterized each site in terms of its modifying carbohydrate and site-specific heterogeneity
+- id: PMID:2554967
+  title: Determination of the three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I from Trichoderma reesei
+  findings:
+  - statement: NMR structure of cellulose-binding domain reveals compact wedge shape
+    supporting_text: Three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I
+  - statement: CBD contains disulfide bonds critical for structural stability
+    supporting_text: Study using nuclear magnetic resonance and hybrid distance geometry-dynamical simulated annealing
+  - statement: C-terminal domain is separate from catalytic core and connected by linker
+    supporting_text: Determination of the three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I
+  - statement: NMR approach used hybrid distance geometry and molecular dynamics
+    supporting_text: A study using nuclear magnetic resonance and hybrid distance geometry-dynamical simulated annealing
+  - statement: Structure provides basis for understanding cellulose binding mechanism
+    supporting_text: Three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I from Trichoderma reesei
+- id: PMID:9041630
+  title: Three-dimensional structures of three engineered cellulose-binding domains of cellobiohydrolase I from Trichoderma reesei
+  findings:
+  - statement: Engineered CBD variants reveal key residues for cellulose binding
+    supporting_text: Three-dimensional structures of three engineered cellulose-binding domains of cellobiohydrolase I from Trichoderma reesei
+  - statement: Aromatic residues on flat face of CBD critical for substrate interaction
+    supporting_text: mutations in the flat face of CBD, which is expected to bind to crystalline
+  - statement: Multiple CBD variants studied to identify functional residues
+    supporting_text: Three-dimensional structures of three engineered cellulose-binding domains of cellobiohydrolase I
+  - statement: Protein engineering approach used to understand binding mechanism
+    supporting_text: Three engineered cellulose-binding domains of cellobiohydrolase I from Trichoderma reesei
+  - statement: Wedge-shaped domain architecture maintained in engineered variants
+    supporting_text: mutations in the flat face of CBD, which is expected to bind to crystalline
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms
+  findings: []
+- id: GO_REF:0000003
+  title: Gene Ontology annotation based on Enzyme Commission mapping
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods
+  findings: []
+- id: file:HYPJE/cbh1/cbh1-deep-research.md
+  title: Deep research on cbh1 function and regulation
+  findings:
+  - statement: CBHI is an exoglucanase that processively hydrolyzes crystalline cellulose
+      from chain ends
+  - statement: Contains GH7 catalytic domain with tunnel-shaped active site enabling
+      processivity
+  - statement: Has cellulose-binding module (CBM family 1) connected via glycosylated
+      linker
+  - statement: Most abundantly secreted protein during growth on cellulose (~50% of
+      total)
+  - statement: Expression strictly regulated by XYR1 (activator) and CRE1 (glucose
+      repressor)
+  - statement: Induced by cellulose and sophorose, repressed by glucose
+  - statement: Essential for fungal growth on crystalline cellulose substrates
+core_functions:
+- description: CBHI processively hydrolyzes crystalline cellulose by threading chains
+    through its tunnel-shaped active site, releasing cellobiose units from chain ends
+  molecular_function:
+    id: GO:0016162
+    label: cellulose 1,4-beta-cellobiosidase activity
+  supported_by:
+  - reference_id: PMID:8036495
+    supporting_text: The molecule contains a 40 angstrom long active site tunnel that may account for many of the previously poorly understood macroscopic properties of the enzyme
+  - reference_id: file:HYPJE/cbh1/cbh1-deep-research.md
+    supporting_text: CBHI is an exoglucanase that acts processively on cellulose chain
+      ends, cleaving off disaccharide units (cellobiose) from the cellulose polymer
+      ... specifically hydrolyzes β-1,4-glucan linkages in crystalline cellulose
+  directly_involved_in:
+  - id: GO:0030245
+    label: cellulose catabolic process
+  locations:
+  - id: GO:0005576
+    label: extracellular region
+- description: Binds to insoluble cellulose fibers via its cellulose-binding module
+    to facilitate processive degradation
+  molecular_function:
+    id: GO:0030248
+    label: cellulose binding
+  supported_by:
+  - reference_id: PMID:2554967
+    supporting_text: Three-dimensional solution structure of the C-terminal domain of cellobiohydrolase I
+  - reference_id: PMID:9041630
+    supporting_text: Aromatic residues on flat face of CBD critical for substrate interaction
+  - reference_id: file:HYPJE/cbh1/cbh1-deep-research.md
+    supporting_text: CBHI contains a well-characterized cellulose-binding module (CBM
+      family 1) ... specifically binds to insoluble cellulose fibers via aromatic
+      residues and hydrogen bonds
+  directly_involved_in:
+  - id: GO:0030245
+    label: cellulose catabolic process
+  locations:
+  - id: GO:0005576
+    label: extracellular region

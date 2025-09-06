@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="8090" viewBox="0 0 1800 8090">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="8090" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: Rgn (Rattus norvegicus)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="4565" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="4587.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="6975" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="6997.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="820" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="841.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="3370" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3391.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="4035" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4056.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">reproductive process</text>
+<rect x="60" y="4265" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4286.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">homeostatic process</text>
+<rect x="60" y="4620" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4641.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="5575" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5596.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="6675" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6696.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">molecular function regulator activity</text>
+<rect x="60" y="7030" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="7051.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0019853</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">L-ascorbic acid biosynthetic process</text>
+<rect x="80" y="865" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="879" font-size="10" font-family="monospace" fill="#666666">GO:0010558</text>
+<text x="85" y="895" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of macromolecul...</text>
+<rect x="80" y="1155" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1169" font-size="10" font-family="monospace" fill="#666666">GO:1903011</text>
+<text x="85" y="1185" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of bone develop...</text>
+<rect x="80" y="1300" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1314" font-size="10" font-family="monospace" fill="#666666">GO:1903625</text>
+<text x="85" y="1330" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of DNA cataboli...</text>
+<rect x="80" y="1445" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1459" font-size="10" font-family="monospace" fill="#666666">GO:0010867</text>
+<text x="85" y="1475" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of triglyceride...</text>
+<rect x="80" y="1590" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1604" font-size="10" font-family="monospace" fill="#666666">GO:0010907</text>
+<text x="85" y="1620" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of glucose meta...</text>
+<rect x="80" y="2170" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2184" font-size="10" font-family="monospace" fill="#666666">GO:0043066</text>
+<text x="85" y="2200" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of apoptotic pr...</text>
+<rect x="80" y="1880" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1894" font-size="10" font-family="monospace" fill="#666666">GO:0045723</text>
+<text x="85" y="1910" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of fatty acid b...</text>
+<rect x="80" y="2025" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2039" font-size="10" font-family="monospace" fill="#666666">GO:0050680</text>
+<text x="85" y="2055" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of epithelial c...</text>
+<rect x="80" y="2315" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2329" font-size="10" font-family="monospace" fill="#666666">GO:1901318</text>
+<text x="85" y="2345" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of flagellated ...</text>
+<rect x="80" y="2460" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2474" font-size="10" font-family="monospace" fill="#666666">GO:1902679</text>
+<text x="85" y="2490" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of RNA biosynth...</text>
+<rect x="80" y="2605" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2619" font-size="10" font-family="monospace" fill="#666666">GO:2000279</text>
+<text x="85" y="2635" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of DNA biosynth...</text>
+<rect x="80" y="2750" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2764" font-size="10" font-family="monospace" fill="#666666">GO:1903052</text>
+<text x="85" y="2780" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of proteolysis ...</text>
+<rect x="80" y="2895" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2909" font-size="10" font-family="monospace" fill="#666666">GO:0045019</text>
+<text x="85" y="2925" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of nitric oxide...</text>
+<rect x="80" y="3040" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3054" font-size="10" font-family="monospace" fill="#666666">GO:0032781</text>
+<text x="85" y="3070" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of ATP-dependen...</text>
+<rect x="80" y="3185" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3199" font-size="10" font-family="monospace" fill="#666666">GO:0050848</text>
+<text x="85" y="3215" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of calcium-mediated sign...</text>
+<rect x="80" y="3415" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3429" font-size="10" font-family="monospace" fill="#666666">GO:0001822</text>
+<text x="85" y="3445" font-size="11" font-family="Arial, sans-serif" fill="#212121">kidney development</text>
+<rect x="80" y="3850" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3864" font-size="10" font-family="monospace" fill="#666666">GO:0001889</text>
+<text x="85" y="3880" font-size="11" font-family="Arial, sans-serif" fill="#212121">liver development</text>
+<rect x="80" y="3705" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3719" font-size="10" font-family="monospace" fill="#666666">GO:0097421</text>
+<text x="85" y="3735" font-size="11" font-family="Arial, sans-serif" fill="#212121">liver regeneration</text>
+<rect x="80" y="4080" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4094" font-size="10" font-family="monospace" fill="#666666">GO:0007283</text>
+<text x="85" y="4110" font-size="11" font-family="Arial, sans-serif" fill="#212121">spermatogenesis</text>
+<rect x="80" y="4310" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4324" font-size="10" font-family="monospace" fill="#666666">GO:0006874</text>
+<text x="85" y="4340" font-size="11" font-family="Arial, sans-serif" fill="#212121">intracellular calcium ion homeostasis</text>
+<rect x="80" y="5390" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5404" font-size="10" font-family="monospace" fill="#666666">GO:0004341</text>
+<text x="85" y="5420" font-size="11" font-family="Arial, sans-serif" fill="#212121">gluconolactonase activity</text>
+<rect x="80" y="4955" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4969" font-size="10" font-family="monospace" fill="#666666">GO:0016787</text>
+<text x="85" y="4985" font-size="11" font-family="Arial, sans-serif" fill="#212121">hydrolase activity</text>
+<rect x="80" y="6490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6504" font-size="10" font-family="monospace" fill="#666666">GO:0005509</text>
+<text x="85" y="6520" font-size="11" font-family="Arial, sans-serif" fill="#212121">calcium ion binding</text>
+<rect x="80" y="5910" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5924" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="5940" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="6345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6359" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="85" y="6375" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<rect x="80" y="6720" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6734" font-size="10" font-family="monospace" fill="#666666">GO:0030234</text>
+<text x="85" y="6750" font-size="11" font-family="Arial, sans-serif" fill="#212121">enzyme regulator activity</text>
+<rect x="80" y="7655" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7669" font-size="10" font-family="monospace" fill="#666666">GO:0005737</text>
+<text x="85" y="7685" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoplasm</text>
+<rect x="80" y="7510" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7524" font-size="10" font-family="monospace" fill="#666666">GO:0005634</text>
+<text x="85" y="7540" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleus</text>
+<path d="M332,5412.5 L337,5417.5 L348,5404.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6512.5 L337,6517.5 L348,6504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,657.5 L337,662.5 L348,649.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,6742.5 L390,6742.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,6742.5 L382,6738.5 L382,6746.5 Z" fill="#ff9800" />
+<rect x="390" y="6720" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="6734" font-size="10" font-family="monospace" fill="#666666">GO:0060590</text>
+<text x="395" y="6750" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATPase regulator activity</text>
+<path d="M332,7677.5 L337,7682.5 L348,7669.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4969.5 L348,4985.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4985.5 L348,4969.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5924.5 L348,5940.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5940.5 L348,5924.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,887.5 L390,887.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,887.5 L382,883.5 L382,891.5 Z" fill="#ff9800" />
+<rect x="390" y="865" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="879" font-size="10" font-family="monospace" fill="#666666">GO:0017148</text>
+<text x="395" y="895" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of translation</text>
+<circle cx="340" cy="1177.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1322.5 L337,1327.5 L348,1314.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1467.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1612.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2192.5 L337,2197.5 L348,2184.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="1902.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2047.5 L337,2052.5 L348,2039.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="3437.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3872.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4102.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3727.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2337.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2482.5 L337,2487.5 L348,2474.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2627.5 L337,2632.5 L348,2619.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2772.5 L337,2777.5 L348,2764.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2917.5 L337,2922.5 L348,2909.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6367.5 L337,6372.5 L348,6359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7532.5 L337,7537.5 L348,7524.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4332.5 L337,4337.5 L348,4324.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,3062.5 L390,3062.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3062.5 L382,3058.5 L382,3066.5 Z" fill="#ff9800" />
+<rect x="390" y="3040" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3054" font-size="10" font-family="monospace" fill="#666666">GO:0060590</text>
+<text x="395" y="3070" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATPase regulator activity</text>
+<path d="M332,3207.5 L337,3212.5 L348,3199.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="385" y="1300" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1310" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[2001740]</text>
+<text x="390" y="1318" font-size="8" font-family="Arial, sans-serif" fill="#212121">The Ca2+ (10 microM)-activated DNA fragmentation was inhibited by</text>
+<text x="390" y="1327" font-size="8" font-family="Arial, sans-serif" fill="#212121">the presence of Ca2(+)-binding protein regucalcin isolated from rat</text>
+<text x="390" y="1336" font-size="8" font-family="Arial, sans-serif" fill="#212121">liver cytosol. The inhibitory effect of regucalcin was complete at</text>
+<text x="390" y="1345" font-size="8" font-family="Arial, sans-serif" fill="#212121">0.5 microM.</text>
+<rect x="385" y="2170" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2180" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16167335]</text>
+<text x="390" y="2188" font-size="8" font-family="Arial, sans-serif" fill="#212121">Overexpression of regucalcin suppresses apoptotic cell death in</text>
+<text x="390" y="2197" font-size="8" font-family="Arial, sans-serif" fill="#212121">cloned normal rat kidney proximal tubular epithelial NRK52E cells:</text>
+<text x="390" y="2206" font-size="8" font-family="Arial, sans-serif" fill="#212121">change in apoptosis-related gene expression.</text>
+<rect x="385" y="2025" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2035" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16142398]</text>
+<text x="390" y="2043" font-size="8" font-family="Arial, sans-serif" fill="#212121">Cell numbers of transfectants were significantly suppressed as</text>
+<text x="390" y="2052" font-size="8" font-family="Arial, sans-serif" fill="#212121">compared with that of wild- and mock-type.</text>
+<rect x="385" y="2460" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2470" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12397604]</text>
+<text x="390" y="2478" font-size="8" font-family="Arial, sans-serif" fill="#212121">The present study demonstrates that endogenous regucalcin has a</text>
+<text x="390" y="2487" font-size="8" font-family="Arial, sans-serif" fill="#212121">suppressive effect on the enhancement of RNA synthesis activity in</text>
+<text x="390" y="2496" font-size="8" font-family="Arial, sans-serif" fill="#212121">the nucleus of regenerating rat liver with proliferative cells.</text>
+<rect x="385" y="2605" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2615" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11500948]</text>
+<text x="390" y="2623" font-size="8" font-family="Arial, sans-serif" fill="#212121">The present study demonstrates that endogenous regucalcin plays a</text>
+<text x="390" y="2632" font-size="8" font-family="Arial, sans-serif" fill="#212121">suppressive role in the enhancement of nuclear DNA synthesis with</text>
+<text x="390" y="2641" font-size="8" font-family="Arial, sans-serif" fill="#212121">proliferative cells.</text>
+<rect x="385" y="2750" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2760" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1513338]</text>
+<text x="390" y="2768" font-size="8" font-family="Arial, sans-serif" fill="#212121">The present findings suggest that regucalcin increases proteolytic</text>
+<text x="390" y="2777" font-size="8" font-family="Arial, sans-serif" fill="#212121">activity in rat liver cytosol, and that regucalcin may activate</text>
+<text x="390" y="2786" font-size="8" font-family="Arial, sans-serif" fill="#212121">Ca(2+)-independent neutral cysteinyl-proteinase.</text>
+<rect x="385" y="2895" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2905" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12686401]</text>
+<text x="390" y="2913" font-size="8" font-family="Arial, sans-serif" fill="#212121">The present study demonstrates that endogenous regucalcin has an</text>
+<text x="390" y="2922" font-size="8" font-family="Arial, sans-serif" fill="#212121">inhibitory effect on NO synthase activity in the brain cytosol of</text>
+<text x="390" y="2931" font-size="8" font-family="Arial, sans-serif" fill="#212121">young and aged rats.</text>
+<rect x="385" y="6490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="6500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[699201]</text>
+<text x="390" y="6508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Regucalcin was discovered as a novel calcium-binding protein lacking</text>
+<text x="390" y="6517" font-size="8" font-family="Arial, sans-serif" fill="#212121">the calcium-binding motif of the EF-hand structure in 1978.</text>
+<rect x="385" y="4310" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="4320" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16786169]</text>
+<text x="390" y="4328" font-size="8" font-family="Arial, sans-serif" fill="#212121">This study demonstrates that regucalcin has an activating effect on</text>
+<text x="390" y="4337" font-size="8" font-family="Arial, sans-serif" fill="#212121">Ca2+-ATPase in rat heart mitochondria, suggesting its role in the</text>
+<text x="390" y="4346" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulation of heart mitochondrial function.</text>
+<rect x="385" y="3185" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="3195" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16786169]</text>
+<text x="390" y="3203" font-size="8" font-family="Arial, sans-serif" fill="#212121">This study demonstrates that regucalcin has an activating effect on</text>
+<text x="390" y="3212" font-size="8" font-family="Arial, sans-serif" fill="#212121">Ca2+-ATPase in rat heart mitochondria, suggesting its role in the</text>
+<text x="390" y="3221" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulation of heart mitochondrial function.</text>
+<rect x="600.0" y="7950" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="7985.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="7985.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

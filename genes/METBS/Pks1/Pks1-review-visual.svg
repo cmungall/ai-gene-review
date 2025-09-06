@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1945" viewBox="0 0 1800 1945">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1945" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: Pks1 (Metarhizium brunneum ARSEF 3297)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="600" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="622.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="655" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="676.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1465" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1486.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0006633</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">fatty acid biosynthetic process</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0044550</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">secondary metabolite biosynthetic p...</text>
+<rect x="80" y="700" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0003824</text>
+<text x="85" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="80" y="845" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="859" font-size="10" font-family="monospace" fill="#666666">GO:0004312</text>
+<text x="85" y="875" font-size="11" font-family="Arial, sans-serif" fill="#212121">fatty acid synthase activity</text>
+<rect x="80" y="990" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0004315</text>
+<text x="85" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">3-oxoacyl-[acyl-carrier-protein] sy...</text>
+<rect x="80" y="1135" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1149" font-size="10" font-family="monospace" fill="#666666">GO:0016740</text>
+<text x="85" y="1165" font-size="11" font-family="Arial, sans-serif" fill="#212121">transferase activity</text>
+<rect x="80" y="1280" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1294" font-size="10" font-family="monospace" fill="#666666">GO:0016746</text>
+<text x="85" y="1310" font-size="11" font-family="Arial, sans-serif" fill="#212121">acyltransferase activity</text>
+<rect x="80" y="1510" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1524" font-size="10" font-family="monospace" fill="#666666">GO:0031177</text>
+<text x="85" y="1540" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphopantetheine binding</text>
+<path d="M332,714.5 L348,730.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,730.5 L348,714.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,859.5 L348,875.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,875.5 L348,859.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,1012.5 L390,1012.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1012.5 L382,1008.5 L382,1016.5 Z" fill="#ff9800" />
+<rect x="390" y="990" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0016218</text>
+<text x="395" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">polyketide synthase activity</text>
+<path d="M332,214.5 L348,230.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,230.5 L348,214.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1149.5 L348,1165.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1165.5 L348,1149.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,1302.5 L390,1302.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1302.5 L382,1298.5 L382,1306.5 Z" fill="#ff9800" />
+<rect x="390" y="1280" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1294" font-size="10" font-family="monospace" fill="#666666">GO:0016218</text>
+<text x="395" y="1310" font-size="11" font-family="Arial, sans-serif" fill="#212121">polyketide synthase activity</text>
+<path d="M332,1532.5 L337,1537.5 L348,1524.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,367.5 L390,367.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,367.5 L382,363.5 L382,371.5 Z" fill="#ff9800" />
+<rect x="390" y="345" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0030639</text>
+<text x="395" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">polyketide biosynthetic process</text>
+<rect x="600.0" y="1805" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1840.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1840.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

@@ -1,0 +1,77 @@
+{
+  "protein": "CG6051 (Q9VB70)",
+  "species": "Drosophila melanogaster",
+  "length": 989,
+  "analyses": {
+    "fyve_domain": {
+      "species": "Drosophila",
+      "position": "909-969",
+      "length": 61,
+      "sequence": "DGKAPRCMACQTPFTAFRRRHHCRNCGGVFCGVCSNASAPLPKYGLTKAVRVCRDCYVREV",
+      "cysteine_count": 8,
+      "cysteine_positions": [
+        7,
+        10,
+        23,
+        26,
+        31,
+        34,
+        53,
+        56
+      ],
+      "motifs": [
+        "R(R/K)HHCR at position 19: RRHHCR",
+        "RVC at position 51"
+      ],
+      "basic_residues": 13,
+      "basic_percentage": 21.3
+    },
+    "phosphatase_domains": [],
+    "tos_motifs": [],
+    "other_domains": [
+      {
+        "type": "Proline-rich",
+        "position": "902-904",
+        "sequence": "SPP"
+      },
+      {
+        "type": "PolyQ stretch",
+        "position": "832-838",
+        "length": 7
+      },
+      {
+        "type": "Acidic region",
+        "position": "442-450",
+        "sequence": "DDEDEDDDD"
+      }
+    ],
+    "human_comparison": {
+      "fyve": {
+        "species": "Human",
+        "position": "815-875",
+        "length": 61,
+        "sequence": "VPDEACGFCTACKAPFTVIRRKHHCRSCGKIFCSRCSSHSAPLPRYGQVKPVRVCTHCYMF",
+        "cysteine_count": 9,
+        "cysteine_positions": [
+          6,
+          9,
+          12,
+          25,
+          28,
+          33,
+          36,
+          55,
+          58
+        ],
+        "motifs": [
+          "R(R/K)HHCR at position 21: RKHHCR",
+          "RVC at position 53"
+        ],
+        "basic_residues": 14,
+        "basic_percentage": 23.0
+      },
+      "tos_motifs": [],
+      "phosphatase": []
+    }
+  }
+}

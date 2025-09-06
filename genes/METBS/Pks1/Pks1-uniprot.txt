@@ -1,0 +1,254 @@
+ID   PKS1_METBS              Reviewed;        2148 AA.
+AC   A0A0B4ESU9;
+DT   05-DEC-2018, integrated into UniProtKB/Swiss-Prot.
+DT   04-MAR-2015, sequence version 1.
+DT   09-APR-2025, entry version 46.
+DE   RecName: Full=Polyketide synthase 1 {ECO:0000303|PubMed:29958281};
+DE            EC=2.3.1.- {ECO:0000269|PubMed:29958281};
+DE   AltName: Full=Conidial pigment biosynthesis polyketide synthase {ECO:0000303|PubMed:29958281};
+GN   Name=Pks1 {ECO:0000303|PubMed:29958281}; ORFNames=MBR_10250;
+OS   Metarhizium brunneum (strain ARSEF 3297).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Clavicipitaceae; Metarhizium.
+OX   NCBI_TaxID=1276141;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ARSEF 3297;
+RX   PubMed=25368161; DOI=10.1073/pnas.1412662111;
+RA   Hu X., Xiao G., Zheng P., Shang Y., Su Y., Zhang X., Liu X., Zhan S.,
+RA   St Leger R.J., Wang C.;
+RT   "Trajectory and genomic determinants of fungal-pathogen speciation and host
+RT   adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:16796-16801(2014).
+RN   [2]
+RP   IDENTIFICATION, DISRUPTION PHENOTYPE, FUNCTION, CATALYTIC ACTIVITY,
+RP   INDUCTION, AND DOMAIN.
+RX   PubMed=29958281; DOI=10.1371/journal.pgen.1007472;
+RA   Zeng G., Zhang P., Zhang Q., Zhao H., Li Z., Zhang X., Wang C., Yin W.B.,
+RA   Fang W.;
+RT   "Duplication of a Pks gene cluster and subsequent functional
+RT   diversification facilitate environmental adaptation in Metarhizium
+RT   species.";
+RL   PLoS Genet. 14:E1007472-E1007472(2018).
+CC   -!- FUNCTION: Polyketide synthase; part of the Pks1 gene cluster that
+CC       mediates the biosynthesis of an anthraquinone derivative pigment that
+CC       contributes to conidial pigmentation that provides protection from UV
+CC       radiation, heat and cold stress (PubMed:29958281). The polyketide
+CC       synthase Pks1 produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone
+CC       though condensation of acetyl-CoA with malonyl-CoA (By similarity). The
+CC       dehydratase EthD and the laccase Mlac1 further convert the
+CC       anthraquinone derivative into the final conidial pigment (By
+CC       similarity). {ECO:0000250|UniProtKB:E9F646,
+CC       ECO:0000269|PubMed:29958281}.
+CC   -!- INDUCTION: Highly expressed during conidiation (PubMed:29958281). A
+CC       conserved conidiation regulatory pathway containing BrlA, AbaA and WetA
+CC       regulates expression. During conidiation BlrA up-regulates AbaA, which
+CC       in turn controls WetA. Moreover, the Hog1 MAPK regulates fungal
+CC       conidiation by controlling the conidiation regulatory pathway, and that
+CC       all three pigmentation genes Pks1, EthD and Mlac1 exercise feedback
+CC       regulation of conidiation (By similarity).
+CC       {ECO:0000250|UniProtKB:E9F646, ECO:0000269|PubMed:29958281}.
+CC   -!- DOMAIN: Multidomain protein; including a starter unit:ACP transacylase
+CC       (SAT) that selects the starter unit; a ketosynthase (KS) that catalyzes
+CC       repeated decarboxylative condensation to elongate the polyketide
+CC       backbone; a malonyl-CoA:ACP transacylase (MAT) that selects and
+CC       transfers the extender unit malonyl-CoA; a product template (PT) domain
+CC       that controls the immediate cyclization regioselectivity of the
+CC       reactive polyketide backbone; and an acyl-carrier protein (ACP) that
+CC       serves as the tether of the growing and completed polyketide via its
+CC       phosphopantetheinyl arm. {ECO:0000305|PubMed:29958281}.
+CC   -!- DOMAIN: The release of the polyketide chain from the non-reducing
+CC       polyketide synthase is mediated by the thioesterase (TE) domain
+CC       localized at the C-ter of the protein. {ECO:0000305|PubMed:29958281}.
+CC   -!- DISRUPTION PHENOTYPE: Results in red conidia.
+CC       {ECO:0000269|PubMed:29958281}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AZNG01000033; KID61218.1; -; Genomic_DNA.
+DR   RefSeq; XP_014539689.1; XM_014684203.1.
+DR   AlphaFoldDB; A0A0B4ESU9; -.
+DR   SMR; A0A0B4ESU9; -.
+DR   ESTHER; metaf-pks1; Thioesterase.
+DR   GeneID; 26247520; -.
+DR   KEGG; mbrn:26247520; -.
+DR   HOGENOM; CLU_000022_6_0_1; -.
+DR   OrthoDB; 4677at5529; -.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0004312; F:fatty acid synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:InterPro.
+DR   GO; GO:0046189; P:phenol-containing compound biosynthetic process; IEA:UniProtKB-ARBA.
+DR   GO; GO:0030639; P:polyketide biosynthetic process; IEA:UniProtKB-ARBA.
+DR   GO; GO:0009403; P:toxin biosynthetic process; IEA:UniProtKB-ARBA.
+DR   CDD; cd00833; PKS; 1.
+DR   FunFam; 3.40.366.10:FF:000002; Probable polyketide synthase 2; 1.
+DR   FunFam; 3.10.129.110:FF:000001; Sterigmatocystin biosynthesis polyketide synthase; 1.
+DR   FunFam; 3.40.47.10:FF:000031; Sterigmatocystin biosynthesis polyketide synthase; 1.
+DR   FunFam; 3.40.50.1820:FF:000116; Sterigmatocystin biosynthesis polyketide synthase; 1.
+DR   Gene3D; 3.30.70.3290; -; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   Gene3D; 1.10.1200.10; ACP-like; 2.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   Gene3D; 3.40.366.10; Malonyl-Coenzyme A Acyl Carrier Protein, domain 2; 2.
+DR   Gene3D; 3.10.129.110; Polyketide synthase dehydratase; 1.
+DR   InterPro; IPR029058; AB_hydrolase_fold.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR014043; Acyl_transferase_dom.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR018201; Ketoacyl_synth_AS.
+DR   InterPro; IPR014031; Ketoacyl_synth_C.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   InterPro; IPR020841; PKS_Beta-ketoAc_synthase_dom.
+DR   InterPro; IPR042104; PKS_dehydratase_sf.
+DR   InterPro; IPR049551; PKS_DH_C.
+DR   InterPro; IPR049900; PKS_mFAS_DH.
+DR   InterPro; IPR050091; PKS_NRPS_Biosynth_Enz.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR006162; Ppantetheine_attach_site.
+DR   InterPro; IPR030918; PT_fungal_PKS.
+DR   InterPro; IPR032088; SAT.
+DR   InterPro; IPR001031; Thioesterase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   NCBIfam; TIGR04532; PT_fungal_PKS; 1.
+DR   PANTHER; PTHR43775:SF45; CONIDIAL PIGMENT POLYKETIDE SYNTHASE ALB1; 1.
+DR   PANTHER; PTHR43775; FATTY ACID SYNTHASE; 1.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   Pfam; PF22621; CurL-like_PKS_C; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 1.
+DR   Pfam; PF02801; Ketoacyl-synt_C; 1.
+DR   Pfam; PF00550; PP-binding; 2.
+DR   Pfam; PF14765; PS-DH; 1.
+DR   Pfam; PF16073; SAT; 1.
+DR   Pfam; PF00975; Thioesterase; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SMART; SM00825; PKS_KS; 1.
+DR   SMART; SM00823; PKS_PP; 2.
+DR   SUPFAM; SSF47336; ACP-like; 2.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   SUPFAM; SSF55048; Probable ACP-binding domain of malonyl-CoA ACP transacylase; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 1.
+DR   PROSITE; PS50075; CARRIER; 2.
+DR   PROSITE; PS00606; KS3_1; 1.
+DR   PROSITE; PS52004; KS3_2; 1.
+DR   PROSITE; PS00012; PHOSPHOPANTETHEINE; 1.
+DR   PROSITE; PS52019; PKS_MFAS_DH; 1.
+PE   1: Evidence at protein level;
+KW   Multifunctional enzyme; Phosphopantetheine; Phosphoprotein; Repeat;
+KW   Transferase.
+FT   CHAIN           1..2148
+FT                   /note="Polyketide synthase 1"
+FT                   /id="PRO_0000445743"
+FT   DOMAIN          394..829
+FT                   /note="Ketosynthase family 3 (KS3)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01348,
+FT                   ECO:0000305|PubMed:29958281"
+FT   DOMAIN          1314..1619
+FT                   /note="PKS/mFAS DH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01363"
+FT   DOMAIN          1678..1752
+FT                   /note="Carrier 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258,
+FT                   ECO:0000305|PubMed:29958281"
+FT   DOMAIN          1793..1870
+FT                   /note="Carrier 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258,
+FT                   ECO:0000305|PubMed:29958281"
+FT   REGION          19..261
+FT                   /note="N-terminal acylcarrier protein transacylase domain
+FT                   (SAT)"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:29958281"
+FT   REGION          929..1233
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:29958281"
+FT   REGION          1310..1624
+FT                   /note="Product template (PT) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:29958281"
+FT   REGION          1314..1447
+FT                   /note="N-terminal hotdog fold"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01363"
+FT   REGION          1474..1619
+FT                   /note="C-terminal hotdog fold"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01363"
+FT   REGION          1619..1655
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1755..1796
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1882..2146
+FT                   /note="Thioesterase (TE) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:29958281"
+FT   COMPBIAS        1755..1790
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        566
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01348"
+FT   ACT_SITE        701
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01348"
+FT   ACT_SITE        745
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01348"
+FT   ACT_SITE        1018
+FT                   /note="For acyl/malonyl transferase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        1346
+FT                   /note="Proton acceptor; for dehydratase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01363"
+FT   ACT_SITE        1533
+FT                   /note="Proton donor; for dehydratase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01363"
+FT   ACT_SITE        1973
+FT                   /note="For thioesterase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03149"
+FT   MOD_RES         1712
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+FT   MOD_RES         1830
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+SQ   SEQUENCE   2148 AA;  234471 MW;  C8EB500E4E7E5480 CRC64;
+     MNHVTIKQSD TRADPFRVFI FGDQSSCNLS NLQLLLFKKS NVYLASFIDQ VNLTLRHEVA
+     RLTAAERQSF PAFSSVQNLV ARALKKDTSV ALESTLATIY HLCCFINYFG DGQEAYPTGP
+     TTHVSGLCIG ALAAAAVSSS KSLAELVQAG IDAVRVSLKV GLLVARTAAL FSHQESNGTS
+     SPPWSYAVPD SQLPLALAEE AIESYQAKTN IPPLSLPYIS AKGQNSWTAS GPPAIVQHFL
+     ETSQFEKTLR LTPLAVHAPY HAPHIFSAID VQHIIRAVGP VSSFSSKLSF ISSSSSRNLA
+     TGLKFQDLLY RAVEDILILP LDLREAAENI RLVLEATDNV QQCALFPIST GVGPSLKQSF
+     SPAMASRVSI VDCIMERVAA DAGPKSTSGP KPSESKIAII GMSGRFPESA DVEAFWDLLH
+     QGLDVHRPVP PDRFNGELYY DVTGKRKNTC KVMHGCWIND PGLFDAKFFN ISPKEAEQSD
+     PGQRLALATA YEALEAAGVV ADRTPSTQRD RVGVFYGMTS DDYREVSCGQ NVDTYFIPGG
+     NRAFTPGKIN YFFKYCGPSV SVDTACSSSL AAIHLACNSI WRNECDTAIA GGTNVMSNPD
+     SFVGLDRGYF LSRTGNCHTF DDEADGYCRA DAVGTVILKR LEDAIADHDP ILGVISGALT
+     NHSADAVSIT RPHSGAQEEI FSKLLTESGV HPHQVSYIEM HGTGTQAGDA TEMTSVLNCF
+     APSTSTRRLP HESLHLGSTK ANVGHSESAS GVSALIKVLL MMEKNIIPPH CGIKGKINHK
+     FPTDLDERNV HIAKTATQWN RRNELNNIRR AFVNNFSAAG GNTALLVEDY PLLIADSSQP
+     DGRTAHVVTV SAKSIKSLKG NLENLKKFVQ KQASTEGFLP KLSYTTTARR MHHPFRVAIP
+     AANSEQLLSA LNEELTHDSY TCCSESPVAF VFSGQGSQYS AMGQHLLHFT IFRDEVHAYD
+     ILAQRHGFPS IMPLIDGSVD IEDLEPLVVQ LGTVCVQMAL ASLWMALGMR PAYVVGHSLG
+     HYAALKVAGV LTASDTIYLV ATRARLLQNK CSRGSHAMLA IRSSAAEIQA HLDEGIHDIA
+     CINGPQDTVV SGCIDDIDRL SQKLMDKGIK ATRVNVPFAF HSAQVDPILD ELEAVASQVE
+     FHAPRVAIGC PLLSKTFKAG ETPSLEAKHI RRHCRETVNF LDVLRSAKDD GLVSEKTAWI
+     EIGPHTVCSN LVKANINQDI TAVPSLMRNK DGWQVLASSV ATLYRQGSSV AWDEYHHDFE
+     ACKQVLRLPA YSWDNKLYWI DYVHDWLLTR GDPPVQAAAS LPAPPSSFST ASVHRIVHES
+     VEKGKLTLTA ECEFTNEQLH EVVYGHLVNG NRVCSSSLYT DFGVTLGSYI LEKYRPDLQG
+     HAVDVQDMVV NKALVHKEGP TMLLRIDVVL DTTDSKAASM SIYSVNSKGN KTADHAQSSL
+     HFEQPKVWLK SWDSTQYYVE RSIEWLKEKA DQGLNSRMSS GVIYKLFSSL VDYSTAYKGM
+     QEAIVNTEDF EATALVRFQV DEGNFRCNPM WVDSCGQLAG FLMNGHAKTP KDQVFINHGW
+     QYFRTVRKFS RDKTYRTYVR MRCVEGTTYA GDVYIFDDDG IVGVCGSITF QGIPRKVLNT
+     AMPPPKSQNE APVRSGPAKP AVKPPRSASS EHSGHFARHA NIEPLKLDAA LKSATTARNP
+     MLPVFKIVAE EIGIPSAGVD NGLVFADYGV DSLLSLSISG RLREELDLDV ESSAFETCAT
+     LADLAAHLGM DTFSADQSSG QSSSSGGLSP RSDSIGEMTS SATTPPSMSP RGSVSGSQCK
+     DVCAILAEEI GVSMGEITND TDLGALGMDS LMSLAVLSRL REELELDLEG DFFVSHPNFS
+     SFKHMFQQGH GDEAEPETSA ELKQYRATST LLQGSPKSAL YTLFLLPDGS GSSFSYAPIN
+     AVRKDVCVFG LNCPWLKSAE KLVQFGLKGL ATLYVEEIRR RAPHGPYNLG GWSAGGICAY
+     EAAIQFTREG ETVERLILLD SPNPIGLEKL PARLFDFVNG LGLFGDGKAP DWLLAHFLAF
+     IDALDEWKPV PWDKALGGSS PPPMTYILWA EDGICKGTDA RPEYRDDDPR EMKWLLENRT
+     NFGGNNWDVL LGQQSLSIER IQDANHFTML RKGKNTERVA AFIRSIFG
+//

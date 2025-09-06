@@ -1,0 +1,6 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	A0A0B4F5S2	Mlac1	enables	GO:0003824	catalytic activity	molecular_function	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00027533	1276141	Metarhizium brunneum (strain ARSEF 3297)	UniProt	Laccase 1	20250901
+UniProtKB	A0A0B4F5S2	Mlac1	enables	GO:0005507	copper ion binding	molecular_function	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR002355|InterPro:IPR011706|InterPro:IPR011707	1276141	Metarhizium brunneum (strain ARSEF 3297)	InterPro	Laccase 1	20250901
+UniProtKB	A0A0B4F5S2	Mlac1	located_in	GO:0009986	cell surface	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0310	1276141	Metarhizium brunneum (strain ARSEF 3297)	UniProt	Laccase 1	20250901
+UniProtKB	A0A0B4F5S2	Mlac1	enables	GO:0016491	oxidoreductase activity	molecular_function	ECO:0000501	IEA	GO_REF:0000120	InterPro:IPR011706|UniProtKB-KW:KW-0560|PANTHER:PTN000194768	1276141	Metarhizium brunneum (strain ARSEF 3297)	UniProt	Laccase 1	20250901
+UniProtKB	A0A0B4F5S2	Mlac1	enables	GO:0046872	metal ion binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0479	1276141	Metarhizium brunneum (strain ARSEF 3297)	UniProt	Laccase 1	20250901

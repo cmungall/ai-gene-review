@@ -1,0 +1,161 @@
+{
+  "protein_id": "Q9VB70|LST2_DROME",
+  "length": 989,
+  "analyses": {
+    "domains": {
+      "domains": [
+        {
+          "type": "FYVE",
+          "start": 909,
+          "end": 969,
+          "source": "UniProt annotation",
+          "description": "FYVE zinc finger domain - phosphatidylinositol-3-phosphate binding"
+        }
+      ],
+      "note": "Manual InterProScan analysis required for comprehensive results"
+    },
+    "fyve_domain": {
+      "domain_sequence": "DGKAPRCMACQTPFTAFRRRHHCRNCGGVFCGVCSNASAPLPKYGLTKAVRVCRDCYVREV",
+      "length": 61,
+      "start": 909,
+      "end": 969,
+      "features": [
+        "Contains RVC motif (conserved in FYVE)",
+        "Contains HHCR motif (zinc coordination)"
+      ],
+      "cysteine_positions": [
+        915,
+        918,
+        931,
+        934,
+        939,
+        942,
+        961,
+        964
+      ],
+      "cysteine_count": 8,
+      "basic_residues": 11,
+      "basic_percentage": 18.0327868852459
+    },
+    "phosphatase_motifs": [],
+    "tos_motifs": [],
+    "regulatory_motifs": {
+      "NLS": [],
+      "phosphorylation_sites": [
+        {
+          "position": 549,
+          "residue": "S",
+          "context": "LQRLRLPSSDNEPLA",
+          "source": "Experimental (mass spec)"
+        },
+        {
+          "position": 550,
+          "residue": "S",
+          "context": "QRLRLPSSDNEPLAE",
+          "source": "Experimental (mass spec)"
+        },
+        {
+          "position": 810,
+          "residue": "S",
+          "context": "SHVTRSRSLGDQEAA",
+          "source": "Experimental (mass spec)"
+        }
+      ],
+      "PEST": [
+        {
+          "position": 325,
+          "length": 6,
+          "sequence": "PTTSSS"
+        },
+        {
+          "position": 342,
+          "length": 5,
+          "sequence": "SSSST"
+        },
+        {
+          "position": 348,
+          "length": 8,
+          "sequence": "TTSTTTTT"
+        },
+        {
+          "position": 404,
+          "length": 5,
+          "sequence": "TSTPT"
+        },
+        {
+          "position": 413,
+          "length": 6,
+          "sequence": "PSPTPS"
+        },
+        {
+          "position": 528,
+          "length": 5,
+          "sequence": "EPSTS"
+        },
+        {
+          "position": 860,
+          "length": 8,
+          "sequence": "SSTSSSSE"
+        }
+      ]
+    },
+    "disordered_regions": [
+      [
+        1,
+        12
+      ],
+      [
+        23,
+        81
+      ],
+      [
+        102,
+        121
+      ],
+      [
+        128,
+        166
+      ],
+      [
+        250,
+        465
+      ],
+      [
+        478,
+        571
+      ],
+      [
+        590,
+        657
+      ],
+      [
+        689,
+        742
+      ],
+      [
+        760,
+        898
+      ]
+    ],
+    "human_comparison": {
+      "human_lst2": {
+        "uniprot": "Q9HCC9",
+        "length": 895,
+        "fyve_domain": "815-875",
+        "tos_motif": "401-405 (FDIDI)",
+        "function": "Negative regulator of EGFR signaling, involved in endosomal sorting"
+      },
+      "fly_cg6051": {
+        "uniprot": "Q9VB70",
+        "length": 989,
+        "fyve_domain": "909-969",
+        "function": "Negative regulator of EGFR signaling (predicted by homology)"
+      },
+      "comparison": {
+        "length_difference": 94,
+        "fyve_position": "Both have C-terminal FYVE domains",
+        "functional_conservation": "Both regulate EGFR signaling"
+      }
+    }
+  }
+}

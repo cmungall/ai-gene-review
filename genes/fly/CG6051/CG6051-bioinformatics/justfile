@@ -1,0 +1,51 @@
+# Bioinformatics analysis pipeline for CG6051
+# This justfile defines all steps for reproducible analysis
+
+# Default recipe - run complete analysis
+default: extract-sequence fetch-human analyze
+
+# Extract CG6051 sequence from UniProt file
+extract-sequence:
+    @echo "Extracting CG6051 protein sequence..."
+    uv run python extract_sequence.py ../CG6051-uniprot.txt
+
+# Fetch human LST2 sequence for comparison
+fetch-human:
+    @echo "Fetching human LST2/ZFYVE28 sequence..."
+    uv run python fetch_human_lst2.py
+
+# Run domain analysis
+domain-analysis: extract-sequence
+    @echo "Running domain and motif analysis..."
+    uv run python domain_analysis.py CG6051.fasta
+
+# Run sequence alignment
+alignment: extract-sequence fetch-human
+    @echo "Running sequence alignment analysis..."
+    uv run python improved_alignment.py
+
+# Run comprehensive final analysis
+analyze: extract-sequence fetch-human
+    @echo "Running comprehensive analysis..."
+    uv run python final_analysis.py
+
+# Clean intermediate files
+clean:
+    rm -f *.fasta *.json
+
+# Test on another protein (e.g., human LST2)
+test-human:
+    @echo "Testing analysis on human LST2..."
+    uv run python domain_analysis.py human_LST2.fasta
+
+# Show analysis results
+results:
+    @echo "=== Final Analysis Results ==="
+    @cat final_analysis_results.json | python -m json.tool
+
+# Validate all scripts run without errors
+validate: extract-sequence fetch-human
+    @echo "Validating all analysis scripts..."
+    uv run python domain_analysis.py CG6051.fasta > /dev/null 2>&1 && echo "✓ domain_analysis.py OK" || echo "✗ domain_analysis.py FAILED"
+    uv run python final_analysis.py > /dev/null 2>&1 && echo "✓ final_analysis.py OK" || echo "✗ final_analysis.py FAILED"
+    @echo "Validation complete"

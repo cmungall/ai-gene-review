@@ -1,0 +1,107 @@
+ID   RGMG2_BURCH             Reviewed;         512 AA.
+AC   A0B297;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 1.
+DT   09-APR-2025, entry version 94.
+DE   RecName: Full=Putative ribose/galactose/methyl galactoside import ATP-binding protein 2 {ECO:0000255|HAMAP-Rule:MF_01717};
+DE            EC=7.5.2.11 {ECO:0000255|HAMAP-Rule:MF_01717};
+DE            EC=7.5.2.7 {ECO:0000255|HAMAP-Rule:MF_01717};
+GN   OrderedLocusNames=Bcen2424_5039;
+OS   Burkholderia cenocepacia (strain HI2424).
+OC   Bacteria; Pseudomonadati; Pseudomonadota; Betaproteobacteria;
+OC   Burkholderiales; Burkholderiaceae; Burkholderia;
+OC   Burkholderia cepacia complex.
+OX   NCBI_TaxID=331272;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HI2424;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Pitluck S., Chain P.,
+RA   Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., LiPuma J.J., Gonzalez C.F.,
+RA   Konstantinidis K., Tiedje J.M., Richardson P.;
+RT   "Complete sequence of chromosome 2 of Burkholderia cenocepacia HI2424.";
+RL   Submitted (AUG-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of an ABC transporter complex involved in carbohydrate
+CC       import. Could be involved in ribose, galactose and/or methyl
+CC       galactoside import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01717}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribose(out) + ATP + H2O = D-ribose(in) + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:29903, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:47013,
+CC         ChEBI:CHEBI:456216; EC=7.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-galactose(out) + ATP + H2O = D-galactose(in) + ADP +
+CC         phosphate + H(+); Xref=Rhea:RHEA:60156, ChEBI:CHEBI:4139,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.5.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01717};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Carbohydrate
+CC       importer 2 (CUT2) (TC 3.A.1.2) family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000459; ABK11773.1; -; Genomic_DNA.
+DR   RefSeq; WP_011547136.1; NC_008543.1.
+DR   AlphaFoldDB; A0B297; -.
+DR   SMR; A0B297; -.
+DR   KEGG; bch:Bcen2424_5039; -.
+DR   HOGENOM; CLU_000604_92_3_4; -.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015611; F:ABC-type D-ribose transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   CDD; cd03216; ABC_Carb_Monos_I; 1.
+DR   CDD; cd03215; ABC_Carb_Monos_II; 1.
+DR   FunFam; 3.40.50.300:FF:000126; Galactose/methyl galactoside import ATP-binding protein MglA; 1.
+DR   FunFam; 3.40.50.300:FF:000127; Ribose import ATP-binding protein RbsA; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR050107; ABC_carbohydrate_import_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43790; CARBOHYDRATE TRANSPORT ATP-BINDING PROTEIN MG119-RELATED; 1.
+DR   PANTHER; PTHR43790:SF3; D-ALLOSE IMPORT ATP-BINDING PROTEIN ALSA-RELATED; 1.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+DR   PROSITE; PS51260; MGLA; 1.
+DR   PROSITE; PS51254; RBSA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Repeat; Sugar transport; Translocase; Transport.
+FT   CHAIN           1..512
+FT                   /note="Putative ribose/galactose/methyl galactoside import
+FT                   ATP-binding protein 2"
+FT                   /id="PRO_0000277554"
+FT   DOMAIN          14..251
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01717"
+FT   DOMAIN          262..507
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01717"
+FT   BINDING         46..53
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01717"
+SQ   SEQUENCE   512 AA;  56304 MW;  7F32EA39BFEC416D CRC64;
+     MQPDLNPNTT QPLIALTGIG KRFPGVQALD DCRFDLRAGE VHALMGENGA GKSTLMKILA
+     GVYQRDAGEI RMDGRPVEIA DPRAAQALGI GIIHQELNLM NHLSVAQNIF IGREPRGRFG
+     VFVDEEKLNR DAAAIFQRMR LDLDPRTPVG RLTVAKQQMV EIAKALSFDS RALIMDEPTA
+     ALNNAEIAEL FRIIRDLRAH GVGIIYISHK MDELRQIADR VTVMRDGKYV ATVPMADTSM
+     ESIISMMVGR QLDTETRTPP DTSGNEIALE VRGLSRGRAI RDVGFTLRRG EILGFAGLMG
+     AGRTEVARAV FGADPVDAGE IRVHGRAVTI RTPADAVKYG IGYLSEDRKH FGLAIGMDVQ
+     NNIALSSMRR FVRRGLFLDA RGMRDAARSY VRQLAIRTPS VAQPARLLSG GNQQKIVIAK
+     WLLRDCDILF FDEPTRGIDV GAKSEIYKLL DALAADGKAI VMISSELPEV LRMSHRILVM
+     CEGRVTGELR AADATQEKIM QLATQRESTV LS
+//

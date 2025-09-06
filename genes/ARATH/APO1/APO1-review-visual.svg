@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="2590" viewBox="0 0 1800 2590">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="2590" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: APO1 (Arabidopsis thaliana)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="975" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="997.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="1765" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1787.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="675" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="696.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="1030" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1051.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="1820" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1841.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0000373</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">Group II intron splicing</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0009658</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">chloroplast organization</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0015979</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">photosynthesis</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0010468</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of gene expression</text>
+<rect x="80" y="1365" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1379" font-size="10" font-family="monospace" fill="#666666">GO:0003723</text>
+<text x="85" y="1395" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA binding</text>
+<rect x="80" y="1510" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1524" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="85" y="1540" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<rect x="80" y="2155" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2169" font-size="10" font-family="monospace" fill="#666666">GO:0009507</text>
+<text x="85" y="2185" font-size="11" font-family="Arial, sans-serif" fill="#212121">chloroplast</text>
+<rect x="80" y="2010" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2024" font-size="10" font-family="monospace" fill="#666666">GO:0009536</text>
+<text x="85" y="2040" font-size="11" font-family="Arial, sans-serif" fill="#212121">plastid</text>
+<path d="M332,1387.5 L337,1392.5 L348,1379.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2177.5 L337,2182.5 L348,2169.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2024.5 L348,2040.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2040.5 L348,2024.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1532.5 L337,1537.5 L348,1524.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="367.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,734.5 L348,750.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,750.5 L348,734.5" stroke="#f44336" stroke-width="3" />
+<path d="M340,502.5 L330,520.5 L350,520.5 Z" fill="#ffc107" />
+<text x="340" y="516.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<rect x="395" y="1352.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1362.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1372.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core molecular function with direct experimental</text>
+<text x="400" y="1381.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">validation. The study demonstrated high-affinity RNA</text>
+<text x="400" y="1390.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding in vitro, establishing this as the primary</text>
+<text x="400" y="1399.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular function of APO1.</text>
+<rect x="395" y="2142.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2152.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2162.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence for chloroplast localization,</text>
+<text x="400" y="2171.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">consistent with the presence of a transit peptide and the</text>
+<text x="400" y="2180.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein's function in chloroplast RNA metabolism.</text>
+<rect x="395" y="1997.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2007.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2017.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Redundant and less specific than the chloroplast</text>
+<text x="400" y="2026.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation. APO1 specifically localizes to chloroplasts,</text>
+<text x="400" y="2035.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">not other plastid types. The more specific chloroplast</text>
+<text x="400" y="2044.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotation with experimental evidence should be retained.</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence from mutant analysis showing</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific defects in chloroplast group II intron splicing.</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents the primary biological function through</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which APO1 affects photosystem assembly.</text>
+<rect x="395" y="1497.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1507.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1517.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence shows DUF794 harbors</text>
+<text x="400" y="1526.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">zinc-binding motifs essential for APO1 function. This</text>
+<text x="400" y="1535.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a core molecular function that enables RNA</text>
+<text x="400" y="1544.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding activity.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The chloroplast organization defects are a downstream</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">consequence of impaired group II intron splicing. While</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the phenotype is real, it represents an indirect effect</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">rather than a core function of APO1.</text>
+<rect x="395" y="707.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="717.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="727.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Overly broad term that adds no value beyond the specific</text>
+<text x="400" y="736.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">'Group II intron splicing' annotation. The specific</text>
+<text x="400" y="745.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">splicing function is already well-annotated and this</text>
+<text x="400" y="754.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">general term obscures the precise molecular mechanism.</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Photosynthesis defects are a tertiary consequence - RNA</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">splicing defects lead to loss of photosystem proteins</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which then impairs photosynthesis. This represents an</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">over-annotation as APO1's direct function is RNA splicing,</text>
+<text x="400" y="533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">not photosynthesis itself.</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21421812]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">APO1 promotes the splicing of several chloroplast group II introns:</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">in Arabidopsis apo1 mutants, ycf3-intron 2 remains completely</text>
+<text x="705" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">unspliced, petD intron splicing is strongly reduced, and the</text>
+<text x="705" y="245" font-size="8" font-family="Arial, sans-serif" fill="#212121">splicing of several other introns is compromised</text>
+<rect x="700" y="1365" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1375" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21421812]</text>
+<text x="705" y="1383" font-size="8" font-family="Arial, sans-serif" fill="#212121">Recombinant APO1 from both maize and Arabidopsis binds RNA with high</text>
+<text x="705" y="1392" font-size="8" font-family="Arial, sans-serif" fill="#212121">affinity in vitro, demonstrating that DUF794, the domain of unknown</text>
+<text x="705" y="1401" font-size="8" font-family="Arial, sans-serif" fill="#212121">function that makes up almost the entirety of APO1, is an RNA</text>
+<text x="705" y="1410" font-size="8" font-family="Arial, sans-serif" fill="#212121">binding domain</text>
+<rect x="700" y="1510" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1520" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21421812]</text>
+<text x="705" y="1528" font-size="8" font-family="Arial, sans-serif" fill="#212121">DUF794 harbors two motifs that resemble zinc fingers, that these</text>
+<text x="705" y="1537" font-size="8" font-family="Arial, sans-serif" fill="#212121">bind zinc, and that they are essential for APO1 function</text>
+<rect x="700" y="2155" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2165" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15494558]</text>
+<text x="705" y="2173" font-size="8" font-family="Arial, sans-serif" fill="#212121">Members of the APO gene family are only found in vascular plants so</text>
+<text x="705" y="2182" font-size="8" font-family="Arial, sans-serif" fill="#212121">far and are predicted to be localized in chloroplasts and</text>
+<text x="705" y="2191" font-size="8" font-family="Arial, sans-serif" fill="#212121">mitochondria</text>
+<rect x="600.0" y="2450" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="2485.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="2485.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

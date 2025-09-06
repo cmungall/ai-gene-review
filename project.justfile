@@ -64,6 +64,36 @@ seed-goa organism gene:
 validate-goa organism gene:
     uv run ai-gene-review validate-goa genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml
 
+# ============== Visualization ==============
+
+# Visualize gene review annotations and actions as SVG
+visualize organism gene *args="":
+    uv run ai-gene-review visualize genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml {{args}}
+
+# Visualize with statistics
+visualize-stats organism gene:
+    uv run ai-gene-review visualize genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml --stats
+
+# Visualize all genes in an organism (creates SVGs for each)
+visualize-organism organism:
+    #!/usr/bin/env bash
+    for yaml in genes/{{organism}}/*/*-ai-review.yaml; do
+        if [ -f "$yaml" ]; then
+            echo "Visualizing $(basename $yaml)..."
+            uv run ai-gene-review visualize "$yaml"
+        fi
+    done
+
+# Visualize all gene reviews (creates SVGs for each)
+visualize-all:
+    #!/usr/bin/env bash
+    for yaml in genes/*/*/*-ai-review.yaml; do
+        if [ -f "$yaml" ]; then
+            echo "Visualizing $(basename $yaml)..."
+            uv run ai-gene-review visualize "$yaml"
+        fi
+    done
+
 # Export existing_annotations to CSV format
 export-annotations output_file="exports/exported_annotations.csv":
     @mkdir -p exports
@@ -116,6 +146,7 @@ gen-all: gen-project pydantic
 # Deploy linkml-browser app for viewing exported annotations
 deploy-browser: export-annotations-json
     @echo "Deploying linkml-browser to app/ directory..."
+    @cp app/index.html /tmp
     @rm -rf app
     uv run linkml-browser deploy \
         exports/exported_annotations.json \
@@ -124,6 +155,7 @@ deploy-browser: export-annotations-json
         --title "Gene Annotation Review Browser" \
         --description "Browse and filter gene annotation reviews" \
         --force
+    @cp /tmp/index.html app
     @echo "Browser deployed to app/ directory"
     @echo "To view: open app/index.html or run 'just serve-browser'"
 

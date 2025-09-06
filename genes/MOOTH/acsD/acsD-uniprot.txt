@@ -1,0 +1,179 @@
+ID   ACSD_MOOTH              Reviewed;         323 AA.
+AC   Q07341;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   18-JUN-2025, entry version 108.
+DE   RecName: Full=Corrinoid/iron-sulfur protein small subunit;
+DE            Short=C/Fe-SP small subunit;
+DE            Short=CFeSP small subunit;
+GN   Name=acsD;
+OS   Moorella thermoacetica (Clostridium thermoaceticum).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Moorellales; Moorellaceae;
+OC   Moorella.
+OX   NCBI_TaxID=1525;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PARTIAL PROTEIN SEQUENCE, AND FUNCTION.
+RX   PubMed=8449924; DOI=10.1016/s0021-9258(18)53364-0;
+RA   Lu W.-P., Schiau I., Cunningham J.R., Ragsdale S.W.;
+RT   "Sequence and expression of the gene encoding the corrinoid/iron-sulfur
+RT   protein from Clostridium thermoaceticum and reconstitution of the
+RT   recombinant protein to full activity.";
+RL   J. Biol. Chem. 268:5605-5614(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 29-53, PROTEIN SEQUENCE OF 30-63, AND
+RP   FUNCTION.
+RC   STRAIN=ATCC 35608 / DSM 521 / JCM 9319;
+RX   PubMed=2911576; DOI=10.1073/pnas.86.1.32;
+RA   Roberts D.L., James-Hagstrom J.E., Garvin D.K., Gorst C.M., Runquist J.A.,
+RA   Baur J.R., Haase F.C., Ragsdale S.W.;
+RT   "Cloning and expression of the gene cluster encoding key proteins involved
+RT   in acetyl-CoA synthesis in Clostridium thermoaceticum: CO dehydrogenase,
+RT   the corrinoid/Fe-S protein, and methyltransferase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:32-36(1989).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.38 ANGSTROMS) IN COMPLEX WITH ACSC; ACSE AND
+RP   COBALAMIN, FUNCTION, AND SUBUNIT.
+RX   PubMed=22419154; DOI=10.1038/nature10916;
+RA   Kung Y., Ando N., Doukov T.I., Blasiak L.C., Bender G., Seravalli J.,
+RA   Ragsdale S.W., Drennan C.L.;
+RT   "Visualizing molecular juggling within a B12-dependent methyltransferase
+RT   complex.";
+RL   Nature 484:265-269(2012).
+CC   -!- FUNCTION: Acts as a methyl group carrier in the anaerobic acetyl-CoA
+CC       pathway (Wood-Ljungdahl pathway) of carbon monoxide and carbon dioxide
+CC       fixation. {ECO:0000269|PubMed:22419154, ECO:0000269|PubMed:2911576,
+CC       ECO:0000269|PubMed:8449924}.
+CC   -!- SUBUNIT: Heterohexamer composed of 2 subunits of AcsC, 2 subunits of
+CC       AcsD and 2 subunits of AcsE. {ECO:0000269|PubMed:22419154}.
+CC   -!- INTERACTION:
+CC       Q07341; Q07340: acsC; NbExp=2; IntAct=EBI-15974920, EBI-15974900;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L07100; AAA23255.1; -; Genomic_DNA.
+DR   PIR; B46621; B46621.
+DR   PDB; 4DJD; X-ray; 2.38 A; D/F=1-323.
+DR   PDB; 4DJE; X-ray; 3.50 A; D/F=1-323.
+DR   PDB; 4DJF; X-ray; 3.03 A; D/F=1-323.
+DR   PDBsum; 4DJD; -.
+DR   PDBsum; 4DJE; -.
+DR   PDBsum; 4DJF; -.
+DR   AlphaFoldDB; Q07341; -.
+DR   SMR; Q07341; -.
+DR   DIP; DIP-59670N; -.
+DR   IntAct; Q07341; 1.
+DR   OMA; VMDPTTC; -.
+DR   BioCyc; MetaCyc:COEALPHACLTH-MONOMER; -.
+DR   EvolutionaryTrace; Q07341; -.
+DR   GO; GO:0031419; F:cobalamin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015977; P:carbon fixation; IDA:UniProtKB.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:InterPro.
+DR   FunFam; 3.20.20.20:FF:000018; Corrinoid/iron-sulfur protein small subunit; 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   InterPro; IPR016041; Ac-CoA_synth_d_su_TIM-brl.
+DR   InterPro; IPR051069; ACDS_complex_subunit.
+DR   InterPro; IPR004486; CO_DH/Ac-CoA_synth_dsu.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   NCBIfam; TIGR00381; cdhD; 1.
+DR   NCBIfam; NF003376; PRK04452.1-2; 1.
+DR   PANTHER; PTHR36214; -; 1.
+DR   PANTHER; PTHR36214:SF5; ACETYL-COA DECARBONYLASE_SYNTHASE COMPLEX SUBUNIT DELTA; 1.
+DR   Pfam; PF03599; CdhD; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbon dioxide fixation; Cobalamin; Cobalt;
+KW   Direct protein sequencing.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT   CHAIN           2..323
+FT                   /note="Corrinoid/iron-sulfur protein small subunit"
+FT                   /id="PRO_0000064443"
+FT   BINDING         188
+FT                   /ligand="5-methoxybenzimidazolylcob(I)amide"
+FT                   /ligand_id="ChEBI:CHEBI:157765"
+FT                   /evidence="ECO:0000269|PubMed:22419154,
+FT                   ECO:0007744|PDB:4DJD"
+FT   CONFLICT        53
+FT                   /note="R -> E (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          16..19
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           23..25
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          33..36
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           45..47
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          55..63
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           69..72
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           73..75
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            76..80
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           82..91
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          96..101
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           103..105
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            107..110
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           114..127
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          132..135
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           140..153
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            154..156
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          160..165
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007829|PDB:4DJF"
+FT   HELIX           170..179
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          182..186
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           191..202
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            203..205
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           208..210
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          211..214
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            220..223
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           224..240
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           243..245
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          249..252
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           253..258
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           261..264
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            267..269
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           271..273
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           276..292
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   TURN            293..295
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   STRAND          297..301
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+FT   HELIX           304..317
+FT                   /evidence="ECO:0007829|PDB:4DJD"
+SQ   SEQUENCE   323 AA;  35070 MW;  51633BDB94036056 CRC64;
+     MAVQILRDRS RAAVQKVVLG ATKDQGGTRS HTIVVGGDAA LPFHHFEGEI VNRPVIGMEV
+     QDIVPDWPDV LKDPFTDVIN EPGRWAQKCV AEYGADLIYL KLDGADPEGA NHSVDQCVAT
+     VKEVLQAVGV PLVVVGCGDV EKDHEVLEAV AEAAAGENLL LGNAEQENYK SLTAACMVHK
+     HNIIARSPLD INICKQLNIL INEMNLPLDH IVIDPSIGGL GYGIEYSFSI MERIRLGALQ
+     GDKMLSMPVI CTVGYEAWRA KEASAPVSEY PGWGKETERG ILWEAVTATA LLQAGAHILL
+     MRHPEAVARV KENIDQLMVS NAY
+//

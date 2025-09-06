@@ -287,6 +287,9 @@ classes:
       justification:
         range: string
         description: Justification for why this term is needed
+      supported_by:
+        range: SupportingTextInReference
+        multivalued: true
 
 
 enums:

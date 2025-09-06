@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="8935" viewBox="0 0 1800 8935">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="8935" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: INTU (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="5580" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="5602.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="6515" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="6537.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="1835" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1856.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="3805" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3826.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="4905" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4926.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="5280" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5301.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="5635" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5656.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="6570" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6591.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="1650" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1664" font-size="10" font-family="monospace" fill="#666666">GO:0060271</text>
+<text x="85" y="1680" font-size="11" font-family="Arial, sans-serif" fill="#212121">cilium assembly</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0016192</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">vesicle-mediated transport</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0030030</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell projection organization</text>
+<rect x="80" y="780" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0007224</text>
+<text x="85" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">smoothened signaling pathway</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0030216</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">keratinocyte differentiation</text>
+<rect x="80" y="1070" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0044458</text>
+<text x="85" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">motile cilium assembly</text>
+<rect x="80" y="1215" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1229" font-size="10" font-family="monospace" fill="#666666">GO:0051301</text>
+<text x="85" y="1245" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell division</text>
+<rect x="80" y="1360" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1374" font-size="10" font-family="monospace" fill="#666666">GO:1905515</text>
+<text x="85" y="1390" font-size="11" font-family="Arial, sans-serif" fill="#212121">non-motile cilium assembly</text>
+<rect x="80" y="1505" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1519" font-size="10" font-family="monospace" fill="#666666">GO:0042073</text>
+<text x="85" y="1535" font-size="11" font-family="Arial, sans-serif" fill="#212121">intraciliary transport</text>
+<rect x="80" y="3475" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3489" font-size="10" font-family="monospace" fill="#666666">GO:0007399</text>
+<text x="85" y="3505" font-size="11" font-family="Arial, sans-serif" fill="#212121">nervous system development</text>
+<rect x="80" y="2750" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2764" font-size="10" font-family="monospace" fill="#666666">GO:0001736</text>
+<text x="85" y="2780" font-size="11" font-family="Arial, sans-serif" fill="#212121">establishment of planar polarity</text>
+<rect x="80" y="2895" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2909" font-size="10" font-family="monospace" fill="#666666">GO:0021915</text>
+<text x="85" y="2925" font-size="11" font-family="Arial, sans-serif" fill="#212121">neural tube development</text>
+<rect x="80" y="3040" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3054" font-size="10" font-family="monospace" fill="#666666">GO:0042733</text>
+<text x="85" y="3070" font-size="11" font-family="Arial, sans-serif" fill="#212121">embryonic digit morphogenesis</text>
+<rect x="80" y="3620" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3634" font-size="10" font-family="monospace" fill="#666666">GO:0060173</text>
+<text x="85" y="3650" font-size="11" font-family="Arial, sans-serif" fill="#212121">limb development</text>
+<rect x="80" y="3185" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3199" font-size="10" font-family="monospace" fill="#666666">GO:0043587</text>
+<text x="85" y="3215" font-size="11" font-family="Arial, sans-serif" fill="#212121">tongue morphogenesis</text>
+<rect x="80" y="3330" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3344" font-size="10" font-family="monospace" fill="#666666">GO:0060021</text>
+<text x="85" y="3360" font-size="11" font-family="Arial, sans-serif" fill="#212121">roof of mouth development</text>
+<rect x="80" y="4720" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4734" font-size="10" font-family="monospace" fill="#666666">GO:0008589</text>
+<text x="85" y="4750" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of smoothened signaling ...</text>
+<rect x="80" y="3995" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4009" font-size="10" font-family="monospace" fill="#666666">GO:0010839</text>
+<text x="85" y="4025" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of keratinocyte...</text>
+<rect x="80" y="4140" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4154" font-size="10" font-family="monospace" fill="#666666">GO:0030278</text>
+<text x="85" y="4170" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of ossification</text>
+<rect x="80" y="4285" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4299" font-size="10" font-family="monospace" fill="#666666">GO:0045880</text>
+<text x="85" y="4315" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of smoothened s...</text>
+<rect x="80" y="4430" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4444" font-size="10" font-family="monospace" fill="#666666">GO:0051782</text>
+<text x="85" y="4460" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of cell division</text>
+<rect x="80" y="4575" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4589" font-size="10" font-family="monospace" fill="#666666">GO:1902017</text>
+<text x="85" y="4605" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cilium assembly</text>
+<rect x="80" y="4950" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4964" font-size="10" font-family="monospace" fill="#666666">GO:0021513</text>
+<text x="85" y="4980" font-size="11" font-family="Arial, sans-serif" fill="#212121">spinal cord dorsal/ventral patterning</text>
+<rect x="80" y="5095" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5109" font-size="10" font-family="monospace" fill="#666666">GO:0031069</text>
+<text x="85" y="5125" font-size="11" font-family="Arial, sans-serif" fill="#212121">hair follicle morphogenesis</text>
+<rect x="80" y="5325" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5339" font-size="10" font-family="monospace" fill="#666666">GO:0033365</text>
+<text x="85" y="5355" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein localization to organelle</text>
+<rect x="80" y="5970" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5984" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="6000" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<rect x="80" y="6260" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6274" font-size="10" font-family="monospace" fill="#666666">GO:0035091</text>
+<text x="85" y="6290" font-size="11" font-family="Arial, sans-serif" fill="#212121">phosphatidylinositol binding</text>
+<rect x="80" y="8500" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8514" font-size="10" font-family="monospace" fill="#666666">GO:0005737</text>
+<text x="85" y="8530" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoplasm</text>
+<rect x="80" y="8065" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8079" font-size="10" font-family="monospace" fill="#666666">GO:0005929</text>
+<text x="85" y="8095" font-size="11" font-family="Arial, sans-serif" fill="#212121">cilium</text>
+<rect x="80" y="7050" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7064" font-size="10" font-family="monospace" fill="#666666">GO:0005814</text>
+<text x="85" y="7080" font-size="11" font-family="Arial, sans-serif" fill="#212121">centriole</text>
+<rect x="80" y="7195" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7209" font-size="10" font-family="monospace" fill="#666666">GO:0005856</text>
+<text x="85" y="7225" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytoskeleton</text>
+<rect x="80" y="7340" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7354" font-size="10" font-family="monospace" fill="#666666">GO:0009986</text>
+<text x="85" y="7370" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell surface</text>
+<rect x="80" y="7485" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7499" font-size="10" font-family="monospace" fill="#666666">GO:0042995</text>
+<text x="85" y="7515" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell projection</text>
+<rect x="80" y="7630" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7644" font-size="10" font-family="monospace" fill="#666666">GO:0035869</text>
+<text x="85" y="7660" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary transition zone</text>
+<rect x="80" y="7775" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7789" font-size="10" font-family="monospace" fill="#666666">GO:0005829</text>
+<text x="85" y="7805" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytosol</text>
+<rect x="80" y="8355" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8369" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="85" y="8385" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<rect x="80" y="8210" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8224" font-size="10" font-family="monospace" fill="#666666">GO:0031514</text>
+<text x="85" y="8240" font-size="11" font-family="Arial, sans-serif" fill="#212121">motile cilium</text>
+<path d="M332,8522.5 L337,8527.5 L348,8514.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1672.5 L337,1677.5 L348,1664.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,8087.5 L390,8087.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,8087.5 L382,8083.5 L382,8091.5 Z" fill="#ff9800" />
+<rect x="390" y="8065" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="8079" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="395" y="8095" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<path d="M280,3497.5 L390,3497.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3497.5 L382,3493.5 L382,3501.5 Z" fill="#ff9800" />
+<rect x="390" y="3475" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3489" font-size="10" font-family="monospace" fill="#666666">GO:0021915</text>
+<text x="395" y="3505" font-size="11" font-family="Arial, sans-serif" fill="#212121">neural tube development</text>
+<path d="M332,2772.5 L337,2777.5 L348,2764.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,359.5 L348,375.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,375.5 L348,359.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,7072.5 L390,7072.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,7072.5 L382,7068.5 L382,7076.5 Z" fill="#ff9800" />
+<rect x="390" y="7050" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="7064" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="395" y="7080" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<path d="M332,7209.5 L348,7225.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7225.5 L348,7209.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,7362.5 L390,7362.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,7362.5 L382,7358.5 L382,7366.5 Z" fill="#ff9800" />
+<rect x="390" y="7340" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="7354" font-size="10" font-family="monospace" fill="#666666">GO:0016324</text>
+<text x="395" y="7370" font-size="11" font-family="Arial, sans-serif" fill="#212121">apical plasma membrane</text>
+<path d="M280,657.5 L390,657.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,657.5 L382,653.5 L382,661.5 Z" fill="#ff9800" />
+<rect x="390" y="635" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0060271</text>
+<text x="395" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">cilium assembly</text>
+<path d="M280,7507.5 L390,7507.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,7507.5 L382,7503.5 L382,7511.5 Z" fill="#ff9800" />
+<rect x="390" y="7485" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="7499" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="395" y="7515" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<path d="M280,5992.5 L390,5992.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5992.5 L382,5988.5 L382,5996.5 Z" fill="#ff9800" />
+<rect x="390" y="5970" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5984" font-size="10" font-family="monospace" fill="#666666">GO:0030674</text>
+<text x="395" y="6000" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein-macromolecule adaptor activity</text>
+<circle cx="340" cy="802.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4742.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4017.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4972.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2917.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="947.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4162.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="5117.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,5347.5 L390,5347.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5347.5 L382,5343.5 L382,5351.5 Z" fill="#ff9800" />
+<rect x="390" y="5325" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5339" font-size="10" font-family="monospace" fill="#666666">GO:0042073</text>
+<text x="395" y="5355" font-size="11" font-family="Arial, sans-serif" fill="#212121">intraciliary transport</text>
+<path d="M332,6282.5 L337,6287.5 L348,6274.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,7652.5 L390,7652.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,7652.5 L382,7648.5 L382,7656.5 Z" fill="#ff9800" />
+<rect x="390" y="7630" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="7644" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="395" y="7660" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<circle cx="340" cy="3062.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1092.5 L337,1097.5 L348,1084.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="4307.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1229.5 L348,1245.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1245.5 L348,1229.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4444.5 L348,4460.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,4460.5 L348,4444.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="3642.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1382.5 L337,1387.5 L348,1374.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7797.5 L337,7802.5 L348,7789.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8377.5 L337,8382.5 L348,8369.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1527.5 L337,1532.5 L348,1519.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,4597.5 L390,4597.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,4597.5 L382,4593.5 L382,4601.5 Z" fill="#ff9800" />
+<rect x="390" y="4575" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="4589" font-size="10" font-family="monospace" fill="#666666">GO:0060271</text>
+<text x="395" y="4605" font-size="11" font-family="Arial, sans-serif" fill="#212121">cilium assembly</text>
+<circle cx="340" cy="3207.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3352.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,8232.5 L390,8232.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,8232.5 L382,8228.5 L382,8236.5 Z" fill="#ff9800" />
+<rect x="390" y="8210" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="8224" font-size="10" font-family="monospace" fill="#666666">GO:0036064</text>
+<text x="395" y="8240" font-size="11" font-family="Arial, sans-serif" fill="#212121">ciliary basal body</text>
+<rect x="395" y="8487.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8497.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="395" y="1637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="645" y="8052.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="8062.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="395" y="2737.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2747.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="645" y="5957.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="5967.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<rect x="385" y="2750" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2760" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27158779]</text>
+<text x="390" y="2768" font-size="8" font-family="Arial, sans-serif" fill="#212121">This novel regulatory module is formed by specific protein-protein</text>
+<text x="390" y="2777" font-size="8" font-family="Arial, sans-serif" fill="#212121">interactions among Intu, Fuz, and Wdpcp, well-conserved proteins</text>
+<text x="390" y="2786" font-size="8" font-family="Arial, sans-serif" fill="#212121">that control planar cell polarity (PCP) in Drosophila and govern</text>
+<text x="390" y="2795" font-size="8" font-family="Arial, sans-serif" fill="#212121">ciliogenesis in vertebrates</text>
+<rect x="385" y="1505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27158779]</text>
+<text x="390" y="1523" font-size="8" font-family="Arial, sans-serif" fill="#212121">We show that this module also includes the poorly understood</text>
+<text x="390" y="1532" font-size="8" font-family="Arial, sans-serif" fill="#212121">ciliopathy protein Jbts17, which we show recruits CPLANE to basal</text>
+<text x="390" y="1541" font-size="8" font-family="Arial, sans-serif" fill="#212121">bodies where it acts specifically by recruiting the IFT-A peripheral</text>
+<text x="390" y="1550" font-size="8" font-family="Arial, sans-serif" fill="#212121">proteins</text>
+<rect x="385" y="8355" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="8365" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26644512]</text>
+<text x="390" y="8373" font-size="8" font-family="Arial, sans-serif" fill="#212121">NPHP4 was required for Inturned to localize to the basal bodies of</text>
+<text x="390" y="8382" font-size="8" font-family="Arial, sans-serif" fill="#212121">motile cilia</text>
+<rect x="600.0" y="8795" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="8830.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="8830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

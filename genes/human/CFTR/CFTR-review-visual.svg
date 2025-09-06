@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="7915" viewBox="0 0 1800 7915">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="7915" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: CFTR (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="830" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="852.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="385" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="406.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="885" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="906.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="1695" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1716.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">transporter activity</text>
+<rect x="60" y="3230" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3251.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0006695</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">cholesterol biosynthetic process</text>
+<rect x="80" y="430" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="444" font-size="10" font-family="monospace" fill="#666666">GO:0030301</text>
+<text x="85" y="460" font-size="11" font-family="Arial, sans-serif" fill="#212121">cholesterol transport</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0051649</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">establishment of localization in cell</text>
+<rect x="80" y="1510" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1524" font-size="10" font-family="monospace" fill="#666666">GO:0005260</text>
+<text x="85" y="1540" font-size="11" font-family="Arial, sans-serif" fill="#212121">intracellularly ATP-gated chloride ...</text>
+<rect x="80" y="3045" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3059" font-size="10" font-family="monospace" fill="#666666">GO:0005254</text>
+<text x="85" y="3075" font-size="11" font-family="Arial, sans-serif" fill="#212121">chloride channel activity</text>
+<rect x="80" y="3275" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3289" font-size="10" font-family="monospace" fill="#666666">GO:0000166</text>
+<text x="85" y="3305" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleotide binding</text>
+<rect x="80" y="7480" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7494" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="7510" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<path d="M332,1532.5 L337,1537.5 L348,1524.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,3067.5 L337,3072.5 L348,3059.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,3297.5 L390,3297.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3297.5 L382,3293.5 L382,3301.5 Z" fill="#ff9800" />
+<rect x="390" y="3275" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3289" font-size="10" font-family="monospace" fill="#666666">GO:0005524</text>
+<text x="395" y="3305" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATP binding</text>
+<circle cx="340" cy="7502.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,214.5 L348,230.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,230.5 L348,214.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,444.5 L348,460.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,460.5 L348,444.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,589.5 L348,605.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,605.5 L348,589.5" stroke="#f44336" stroke-width="3" />
+<rect x="395" y="1497.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1507.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1517.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The study provides detailed evidence for CFTR's ATP-gated</text>
+<text x="400" y="1526.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">chloride channel activity by analyzing the distinct roles</text>
+<text x="400" y="1535.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of NBD1 and NBD2 in channel gating. It shows how ATP</text>
+<text x="400" y="1544.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding and hydrolysis at these domains controls channel</text>
+<text x="400" y="1553.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">opening and closing. This annotation precisely captures</text>
+<text x="400" y="1562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">CFTR's unique mechanism as an ATP-regulated chloride</text>
+<rect x="395" y="3032.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3042.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3052.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The study provides strong evidence for CFTR's chloride</text>
+<text x="400" y="3061.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">channel activity by analyzing Walker motif mutations that</text>
+<text x="400" y="3070.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">affect ATP binding/hydrolysis. It demonstrates the</text>
+<text x="400" y="3079.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">coupling between ATPase activity and channel gating,</text>
+<text x="400" y="3088.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">confirming CFTR functions as a chloride channel whose</text>
+<text x="400" y="3097.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">gating is controlled by ATP. This annotation accurately</text>
+<rect x="645" y="3262.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3272.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3282.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While nucleotide binding is correct, this annotation</text>
+<text x="650" y="3291.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">should be more specific. CFTR specifically binds ATP (not</text>
+<text x="650" y="3300.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">just any nucleotide) at its NBD1 and NBD2 domains. ATP</text>
+<text x="650" y="3309.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding promotes NBD dimerization triggering channel</text>
+<text x="650" y="3318.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">opening, while ATP hydrolysis allows channel closure. The</text>
+<text x="650" y="3327.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">generic "nucleotide binding" term fails to capture this</text>
+<rect x="395" y="7467.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7477.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7487.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The myosin VI interaction regulates CFTR endocytosis and</text>
+<text x="400" y="7496.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membrane turnover. While important for controlling CFTR</text>
+<text x="400" y="7505.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">surface levels and activity, this represents a trafficking</text>
+<text x="400" y="7514.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mechanism rather than CFTR's core molecular function as an</text>
+<text x="400" y="7523.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ATP-gated chloride channel. The generic term fails to</text>
+<text x="400" y="7532.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">identify this as a motor protein interaction controlling</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is clearly erroneous. CFTR is an ATP-gated</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">chloride channel with no biochemical role in cholesterol</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">biosynthesis. This appears to be a false positive from</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">automated ortholog annotation transfer. There is no</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence in the literature supporting CFTR involvement in</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cholesterol synthesis - its only connection to cholesterol</text>
+<rect x="395" y="417.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="427.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="437.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is incorrect. CFTR is an anion channel</text>
+<text x="400" y="446.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">that transports chloride and bicarbonate ions, not</text>
+<text x="400" y="455.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cholesterol. While CFTR may localize to cholesterol-rich</text>
+<text x="400" y="464.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">membrane microdomains (lipid rafts), it does not transport</text>
+<text x="400" y="473.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cholesterol itself. This appears to be another false</text>
+<text x="400" y="482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">positive from automated annotation transfer, possibly</text>
+<rect x="395" y="562.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="572.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="582.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is too generic to be informative. While</text>
+<text x="400" y="591.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">technically CFTR does contribute to establishing ion</text>
+<text x="400" y="600.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">localization across membranes, this vague term fails to</text>
+<text x="400" y="609.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">capture CFTR's specific function as an ATP-gated chloride</text>
+<text x="400" y="618.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">channel. More specific terms like "chloride transmembrane</text>
+<text x="400" y="627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transport" (GO:1902476) better describe CFTR's actual</text>
+<rect x="700" y="1510" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1520" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10581360]</text>
+<text x="705" y="1528" font-size="8" font-family="Arial, sans-serif" fill="#212121">Differential function of the two nucleotide binding domains on</text>
+<text x="705" y="1537" font-size="8" font-family="Arial, sans-serif" fill="#212121">cystic fibrosis transmembrane conductance regulator</text>
+<rect x="700" y="3045" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3055" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9931011]</text>
+<text x="705" y="3063" font-size="8" font-family="Arial, sans-serif" fill="#212121">Walker mutations reveal loose relationship between catalytic and</text>
+<text x="705" y="3072" font-size="8" font-family="Arial, sans-serif" fill="#212121">channel-gating activities of purified CFTR</text>
+<rect x="950" y="3275" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="3285" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8910473]</text>
+<text x="955" y="3293" font-size="8" font-family="Arial, sans-serif" fill="#212121">ATPase activity of the cystic fibrosis transmembrane conductance</text>
+<text x="955" y="3302" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulator</text>
+<rect x="700" y="7480" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7490" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15247260]</text>
+<text x="705" y="7498" font-size="8" font-family="Arial, sans-serif" fill="#212121">Myosin VI regulates endocytosis of the cystic fibrosis transmembrane</text>
+<text x="705" y="7507" font-size="8" font-family="Arial, sans-serif" fill="#212121">conductance regulator</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[11524016]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">functions as a phosphorylation-regulated chloride channel on the</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">apical surface of epithelial cells</text>
+<rect x="700" y="430" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="440" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15010471]</text>
+<text x="705" y="448" font-size="8" font-family="Arial, sans-serif" fill="#212121">Dynamic control of cystic fibrosis transmembrane conductance</text>
+<text x="705" y="457" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulator Cl(-)/HCO3(-) selectivity by external Cl(-)</text>
+<rect x="700" y="575" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="585" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19019741]</text>
+<text x="705" y="593" font-size="8" font-family="Arial, sans-serif" fill="#212121">Mechanism of direct bicarbonate transport by the CFTR anion channel</text>
+<rect x="600.0" y="7775" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="7810.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="7810.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

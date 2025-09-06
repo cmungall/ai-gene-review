@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="8790" viewBox="0 0 1800 8790">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="8790" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: SCN1A (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="3985" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="4007.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="5790" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="5812.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="60" y="1255" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1276.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="2790" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2811.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="3310" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3331.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="3540" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3561.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="4040" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4061.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">transporter activity</text>
+<rect x="60" y="5845" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5866.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0035725</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">sodium ion transmembrane transport</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0006811</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoatomic ion transport</text>
+<rect x="80" y="1070" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0006814</text>
+<text x="85" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">sodium ion transport</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0055085</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">transmembrane transport</text>
+<rect x="80" y="780" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0034220</text>
+<text x="85" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoatomic ion transmembrane transport</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0051649</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">establishment of localization in cell</text>
+<rect x="80" y="2605" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2619" font-size="10" font-family="monospace" fill="#666666">GO:0086002</text>
+<text x="85" y="2635" font-size="11" font-family="Arial, sans-serif" fill="#212121">cardiac muscle cell action potentia...</text>
+<rect x="80" y="1445" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1459" font-size="10" font-family="monospace" fill="#666666">GO:0099505</text>
+<text x="85" y="1475" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of presynaptic membrane ...</text>
+<rect x="80" y="1590" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1604" font-size="10" font-family="monospace" fill="#666666">GO:0001508</text>
+<text x="85" y="1620" font-size="11" font-family="Arial, sans-serif" fill="#212121">action potential</text>
+<rect x="80" y="1735" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1749" font-size="10" font-family="monospace" fill="#666666">GO:0019227</text>
+<text x="85" y="1765" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuronal action potential propagation</text>
+<rect x="80" y="1880" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1894" font-size="10" font-family="monospace" fill="#666666">GO:0019228</text>
+<text x="85" y="1910" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuronal action potential</text>
+<rect x="80" y="2025" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2039" font-size="10" font-family="monospace" fill="#666666">GO:0042391</text>
+<text x="85" y="2055" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of membrane potential</text>
+<rect x="80" y="2460" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2474" font-size="10" font-family="monospace" fill="#666666">GO:0086010</text>
+<text x="85" y="2490" font-size="11" font-family="Arial, sans-serif" fill="#212121">membrane depolarization during acti...</text>
+<rect x="80" y="2835" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2849" font-size="10" font-family="monospace" fill="#666666">GO:0007628</text>
+<text x="85" y="2865" font-size="11" font-family="Arial, sans-serif" fill="#212121">adult walking behavior</text>
+<rect x="80" y="2980" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2994" font-size="10" font-family="monospace" fill="#666666">GO:0008340</text>
+<text x="85" y="3010" font-size="11" font-family="Arial, sans-serif" fill="#212121">determination of adult lifespan</text>
+<rect x="80" y="3125" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3139" font-size="10" font-family="monospace" fill="#666666">GO:0050884</text>
+<text x="85" y="3155" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuromuscular process controlling p...</text>
+<rect x="80" y="3355" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3369" font-size="10" font-family="monospace" fill="#666666">GO:0021675</text>
+<text x="85" y="3385" font-size="11" font-family="Arial, sans-serif" fill="#212121">nerve development</text>
+<rect x="80" y="3730" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3744" font-size="10" font-family="monospace" fill="#666666">GO:0050966</text>
+<text x="85" y="3760" font-size="11" font-family="Arial, sans-serif" fill="#212121">detection of mechanical stimulus in...</text>
+<rect x="80" y="5535" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5549" font-size="10" font-family="monospace" fill="#666666">GO:0005248</text>
+<text x="85" y="5565" font-size="11" font-family="Arial, sans-serif" fill="#212121">voltage-gated sodium channel activity</text>
+<rect x="80" y="4230" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4244" font-size="10" font-family="monospace" fill="#666666">GO:0005216</text>
+<text x="85" y="4260" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoatomic ion channel activity</text>
+<rect x="80" y="4520" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4534" font-size="10" font-family="monospace" fill="#666666">GO:0005261</text>
+<text x="85" y="4550" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoatomic cation channel activity</text>
+<rect x="80" y="4665" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4679" font-size="10" font-family="monospace" fill="#666666">GO:0005272</text>
+<text x="85" y="4695" font-size="11" font-family="Arial, sans-serif" fill="#212121">sodium channel activity</text>
+<rect x="80" y="5100" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5114" font-size="10" font-family="monospace" fill="#666666">GO:0099508</text>
+<text x="85" y="5130" font-size="11" font-family="Arial, sans-serif" fill="#212121">voltage-gated monoatomic ion channe...</text>
+<rect x="80" y="6035" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6049" font-size="10" font-family="monospace" fill="#666666">GO:0001518</text>
+<text x="85" y="6065" font-size="11" font-family="Arial, sans-serif" fill="#212121">voltage-gated sodium channel complex</text>
+<rect x="80" y="8210" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8224" font-size="10" font-family="monospace" fill="#666666">GO:0005886</text>
+<text x="85" y="8240" font-size="11" font-family="Arial, sans-serif" fill="#212121">plasma membrane</text>
+<rect x="80" y="6325" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6339" font-size="10" font-family="monospace" fill="#666666">GO:0016020</text>
+<text x="85" y="6355" font-size="11" font-family="Arial, sans-serif" fill="#212121">membrane</text>
+<rect x="80" y="6470" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6484" font-size="10" font-family="monospace" fill="#666666">GO:0034702</text>
+<text x="85" y="6500" font-size="11" font-family="Arial, sans-serif" fill="#212121">monoatomic ion channel complex</text>
+<rect x="80" y="6615" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6629" font-size="10" font-family="monospace" fill="#666666">GO:0014704</text>
+<text x="85" y="6645" font-size="11" font-family="Arial, sans-serif" fill="#212121">intercalated disc</text>
+<rect x="80" y="8355" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8369" font-size="10" font-family="monospace" fill="#666666">GO:0030018</text>
+<text x="85" y="8385" font-size="11" font-family="Arial, sans-serif" fill="#212121">Z disc</text>
+<rect x="80" y="6905" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6919" font-size="10" font-family="monospace" fill="#666666">GO:0030315</text>
+<text x="85" y="6935" font-size="11" font-family="Arial, sans-serif" fill="#212121">T-tubule</text>
+<rect x="80" y="7050" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7064" font-size="10" font-family="monospace" fill="#666666">GO:0030424</text>
+<text x="85" y="7080" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon</text>
+<rect x="80" y="7195" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7209" font-size="10" font-family="monospace" fill="#666666">GO:0033268</text>
+<text x="85" y="7225" font-size="11" font-family="Arial, sans-serif" fill="#212121">node of Ranvier</text>
+<rect x="80" y="7340" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7354" font-size="10" font-family="monospace" fill="#666666">GO:0034706</text>
+<text x="85" y="7370" font-size="11" font-family="Arial, sans-serif" fill="#212121">sodium channel complex</text>
+<rect x="80" y="7485" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7499" font-size="10" font-family="monospace" fill="#666666">GO:0043025</text>
+<text x="85" y="7515" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuronal cell body</text>
+<rect x="80" y="7630" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7644" font-size="10" font-family="monospace" fill="#666666">GO:0043194</text>
+<text x="85" y="7660" font-size="11" font-family="Arial, sans-serif" fill="#212121">axon initial segment</text>
+<rect x="80" y="7775" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7789" font-size="10" font-family="monospace" fill="#666666">GO:0005654</text>
+<text x="85" y="7805" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleoplasm</text>
+<rect x="80" y="8065" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8079" font-size="10" font-family="monospace" fill="#666666">GO:0016604</text>
+<text x="85" y="8095" font-size="11" font-family="Arial, sans-serif" fill="#212121">nuclear body</text>
+<path d="M332,6057.5 L337,6062.5 L348,6049.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5557.5 L337,5562.5 L348,5549.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2619.5 L348,2635.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2635.5 L348,2619.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="1467.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,4252.5 L337,4257.5 L348,4244.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4542.5 L337,4547.5 L348,4534.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8232.5 L337,8237.5 L348,8224.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1092.5 L337,1097.5 L348,1084.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,6337.5 L330,6355.5 L350,6355.5 Z" fill="#ffc107" />
+<text x="340" y="6351.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M340,647.5 L330,665.5 L350,665.5 Z" fill="#ffc107" />
+<text x="340" y="661.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,1612.5 L337,1617.5 L348,1604.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4687.5 L337,4692.5 L348,4679.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,802.5 L337,807.5 L348,794.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6492.5 L337,6497.5 L348,6484.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,2847.5 L330,2865.5 L350,2865.5 Z" fill="#ffc107" />
+<text x="340" y="2861.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M340,2992.5 L330,3010.5 L350,3010.5 Z" fill="#ffc107" />
+<text x="340" y="3006.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,6629.5 L348,6645.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6645.5 L348,6629.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1757.5 L337,1762.5 L348,1749.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1902.5 L337,1907.5 L348,1894.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="3377.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,8369.5 L348,8385.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8385.5 L348,8369.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6919.5 L348,6935.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6935.5 L348,6919.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7072.5 L337,7077.5 L348,7064.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7217.5 L337,7222.5 L348,7209.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7362.5 L337,7367.5 L348,7354.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2047.5 L337,2052.5 L348,2039.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7507.5 L337,7512.5 L348,7499.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7652.5 L337,7657.5 L348,7644.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,3137.5 L330,3155.5 L350,3155.5 Z" fill="#ffc107" />
+<text x="340" y="3151.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<circle cx="340" cy="3752.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M340,937.5 L330,955.5 L350,955.5 Z" fill="#ffc107" />
+<text x="340" y="951.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,2482.5 L337,2487.5 L348,2474.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7789.5 L348,7805.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7805.5 L348,7789.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8079.5 L348,8095.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8095.5 L348,8079.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5122.5 L337,5127.5 L348,5114.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="385" y="5100" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="5110" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22150645]</text>
+<text x="390" y="5118" font-size="8" font-family="Arial, sans-serif" fill="#212121">We studied the effect of two DS truncated Na(V)1.1 mutants, R222*</text>
+<text x="390" y="5127" font-size="8" font-family="Arial, sans-serif" fill="#212121">and R1234*, on coexpressed wild-type Na(+) channels</text>
+<rect x="385" y="5535" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="5545" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10742094]</text>
+<text x="390" y="5553" font-size="8" font-family="Arial, sans-serif" fill="#212121">Mutations of SCN1A, encoding a neuronal sodium channel, in two</text>
+<text x="390" y="5562" font-size="8" font-family="Arial, sans-serif" fill="#212121">families with GEFS+2</text>
+<rect x="385" y="8210" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="8220" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14672992]</text>
+<text x="390" y="8228" font-size="8" font-family="Arial, sans-serif" fill="#212121">Voltage-gated sodium channels are responsible for the generation and</text>
+<text x="390" y="8237" font-size="8" font-family="Arial, sans-serif" fill="#212121">propagation of action potentials in excitable tissues</text>
+<rect x="385" y="2460" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="2470" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14672992]</text>
+<text x="390" y="2478" font-size="8" font-family="Arial, sans-serif" fill="#212121">We examined the functional properties of four GEFS+ alleles and one</text>
+<text x="390" y="2487" font-size="8" font-family="Arial, sans-serif" fill="#212121">SMEI allele using whole-cell patch-clamp analysis of heterologously</text>
+<text x="390" y="2496" font-size="8" font-family="Arial, sans-serif" fill="#212121">expressed recombinant human SCN1A</text>
+<rect x="385" y="1070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="1080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10742094]</text>
+<text x="390" y="1088" font-size="8" font-family="Arial, sans-serif" fill="#212121">Defects in voltage-gated sodium channel could decrease plasma</text>
+<text x="390" y="1097" font-size="8" font-family="Arial, sans-serif" fill="#212121">membrane conductance to sodium ions in response to depolarizations</text>
+<text x="390" y="1106" font-size="8" font-family="Arial, sans-serif" fill="#212121">and decreased the electrical excitability of gamma-aminobutyric acid</text>
+<text x="390" y="1115" font-size="8" font-family="Arial, sans-serif" fill="#212121">(GABA) interneurons which leads to hyperexcitability resulting in</text>
+<text x="390" y="1124" font-size="8" font-family="Arial, sans-serif" fill="#212121">epilepsy</text>
+<rect x="600.0" y="8650" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="8685.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="8685.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

@@ -41,7 +41,7 @@ existing_annotations:
     - PMID:32433969
     - PMID:30531922
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Purified Epe1 has been tested in biochemical assays using methylated
         histone H3 peptides as substrates. These mass spectrometry-based assays showed
         no detectable removal of methyl groups by Epe1, either on di-methyl or tri-methyl
@@ -75,7 +75,7 @@ existing_annotations:
     additional_reference_ids:
     - PMID:30531922
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Bao et al. (2019) revealed that Epe1 can associate with the
         SAGA co-activator complex. By purifying Epe1 from cells (especially when Epe1
         was overproduced) and identifying co-purifying proteins (via mass spectrometry),
@@ -99,7 +99,7 @@ existing_annotations:
     - PMID:30531922
     - PMID:36617881
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: At pericentromeric repeats (dg/dh repeats), Epe1 overproduction
         increases RNA polymerase II occupancy and the expression of these noncoding
         RNAs
@@ -120,7 +120,7 @@ existing_annotations:
     additional_reference_ids:
     - PMID:30531922
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: The N-terminal half of Epe1 was recently found to carry a transcriptional
         activation (NTA) domain that contributes to this anti-silencing effect
 - term:
@@ -162,7 +162,7 @@ existing_annotations:
     - PMID:30531922
     - PMID:24013502
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Epe1 has been implicated in promoting histone turnover within
         heterochromatin. Turnover (replacement of histones with new ones) can dilute
         or remove modified histones
@@ -185,7 +185,7 @@ existing_annotations:
     - PMID:32433969
     - PMID:16362057
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Sequence analysis reveals that Epe1's JmjC domain lacks critical
         residues required for catalytic function. In particular, it does not conserve
         certain Fe(II)-binding and 2-oxoglutarate-binding amino acids that are universally
@@ -210,7 +210,7 @@ existing_annotations:
     additional_reference_ids:
     - PMID:16362057
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Trewick et al. (2007) noted "no detectable demethylase activity
         is associated with Epe1, and its JmjC domain lacks conservation of Fe(II)-binding
         residues"
@@ -234,7 +234,7 @@ existing_annotations:
     additional_reference_ids:
     - PMID:32433969
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: This suggests that, structurally, Epe1 might be a "pseudo-demethylase"
         – possessing the JmjC fold but not the enzymatic function
     - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
@@ -259,7 +259,7 @@ existing_annotations:
     - PMID:32433969
     - PMID:16362057
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: These mass spectrometry-based assays showed no detectable removal
         of methyl groups by Epe1, either on di-methyl or tri-methyl H3K9 peptides
     - reference_id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
@@ -318,7 +318,7 @@ existing_annotations:
     - PMID:24013502
     - PMID:12773576
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Wang et al. found that Epe1 recruits Bdf2 to heterochromatin
         boundaries. Bdf2 was enriched at boundary elements (e.g. subtelomeric boundary
         regions called IRCs) only when Epe1 was present
@@ -390,7 +390,7 @@ existing_annotations:
       heterochromatin spreading. ChIP-seq shows enrichment at boundary regions. Loss
       causes heterochromatin to spread into normally euchromatic regions.
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Epe1 is often described as a "boundary element" or "heterochromatin
         destabilizer", meaning it localizes to heterochromatic regions and prevents
         the spread or maintenance of the silent state
@@ -427,7 +427,7 @@ existing_annotations:
       boundaries. This localization is mediated by HP1/Swi6 binding to H3K9me-marked
       nucleosomes.
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Chromatin immunoprecipitation studies show that Epe1 is enriched
         at heterochromatic regions – notably at centromeres, telomeres, and the mating-type
         locus
@@ -445,7 +445,7 @@ existing_annotations:
       of this specialized heterochromatin domain. Well-characterized localization
       pattern.
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: Epe1 is enriched at heterochromatic regions – notably at centromeres,
         telomeres, and the mating-type locus – often at the boundaries of these domains
 - term:
@@ -482,7 +482,7 @@ existing_annotations:
     additional_reference_ids:
     - PMID:31206516
     supported_by:
-    - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+    - reference_id: file:pombe/Epe1/Epe1-deep-research.md
       supporting_text: epe1- (null) mutants show elevated H3K9me3 levels in aged cells
         and accumulate aberrant small "islands" of H3K9me across euchromatic regions
 - term:
@@ -751,7 +751,7 @@ core_functions:
   - reference_id: PMID:30531922
     supporting_text: Mass spectrometry identified SAGA subunits co-purifying with
       Epe1
-  - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+  - reference_id: file:pombe/Epe1/Epe1-deep-research.md
     supporting_text: Overexpressed Epe1 can recruit SAGA to heterochromatic repeats,
       resulting in increased histone H3 acetylation
 - description: Recruits Bdf2 bromodomain protein to heterochromatin boundaries to
@@ -783,7 +783,7 @@ core_functions:
   - id: GO:0000792
     label: heterochromatin
   supported_by:
-  - reference_id: file:genes/pombe/Epe1/Epe1-deep-research.md
+  - reference_id: file:pombe/Epe1/Epe1-deep-research.md
     supporting_text: Epe1 increases nucleosome turnover rates in heterochromatic regions
 - description: Enables transcription of heterochromatic repeats for RNAi-mediated
     heterochromatin establishment

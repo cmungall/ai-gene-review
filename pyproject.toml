@@ -27,6 +27,7 @@ dependencies = [
   "beautifulsoup4>=4.13.4",
   "pypdf2>=3.0.1",
   "pymupdf>=1.26.4",
+  "drawsvg>=2.4.0",
 ]
 
 [dependency-groups]
@@ -97,7 +98,7 @@ extend-exclude = [
 extend-exclude = ["genes/"]
 
 [tool.uv.workspace]
-members = ["genes/human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis", "genes/yeast/MTC7/MTC7-bioinformatics", "genes/human/CFAP418/CFAP418-bioinformatics", "genes/pombe/Epe1/Epe1-bioinformatics", "genes/pombe/tam10/tam10-bioinformatics", "genes/PSEPK/pedH/pedH-bioinformatics"]
+members = ["genes/human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis", "genes/yeast/MTC7/MTC7-bioinformatics", "genes/human/CFAP418/CFAP418-bioinformatics", "genes/pombe/Epe1/Epe1-bioinformatics", "genes/pombe/tam10/tam10-bioinformatics", "genes/PSEPK/pedH/pedH-bioinformatics", "genes/human/C18orf21/C18orf21-bioinformatics", "genes/human/C18orf21/C18orf21-bioinformatics/genes/human/C18orf21/C18orf21-bioinformatics", "genes/fly/CG6051/CG6051-bioinformatics", "genes/PENCH/aatA/aatA-bioinformatics", "genes/METBS/Pks1/Pks1-bioinformatics"]
 
 [tool.uv.sources]
 linkml-browser = { git = "https://github.com/linkml/linkml-browser" }

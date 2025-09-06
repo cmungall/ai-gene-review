@@ -1,0 +1,295 @@
+id: Q9VB70
+gene_symbol: CG6051
+taxon:
+  id: NCBITaxon:7227
+  label: Drosophila melanogaster
+description: 'CG6051 encodes the Drosophila ortholog of human ZFYVE28/LST2 (Lateral Signaling Target protein 2), a FYVE zinc finger domain-containing protein that localizes to early endosomes via PI3P binding. Functions as a molecular adaptor in growth factor signaling, specifically in the negative regulation of EGFR signaling pathway. The protein is phosphorylated by mTORC1 and mediates feedback inhibition of receptor tyrosine kinase signaling. Contains a C-terminal FYVE domain (residues 909-969) that coordinates two zinc ions and targets the protein to endosomal membranes.'
+existing_annotations:
+- term:
+    id: GO:0042059
+    label: negative regulation of epidermal growth factor receptor signaling pathway
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'IBA annotation supported by human ortholog ZFYVE28/LST2, which acts as a negative regulator of EGFR signaling downstream of mTORC1. Strong evidence from biochemical and functional studies in mammalian systems.'
+    action: ACCEPT
+    reason: 'This is a well-supported annotation based on robust phylogenetic analysis and experimental evidence from human ZFYVE28/LST2. The human ortholog has been demonstrated to negatively regulate EGFR signaling as a substrate of mTORC1, providing a feedback mechanism. The conservation of the FYVE domain and overall protein architecture between fly CG6051 and human ZFYVE28 strongly supports this functional conservation.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is a substrate of mTORC1 kinase and, when active, helps inhibit the upstream EGF receptor (EGFR) signaling pathway. The absence of LST2 leads to heightened EGFR activity in mammalian cells'
+- term:
+    id: GO:0031901
+    label: early endosome membrane
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'IBA annotation based on FYVE domain that specifically binds PI3P on early endosomes. FYVE domains are well-characterized endosomal targeting modules. Human ortholog LST2 localizes to endosomes.'
+    action: ACCEPT
+    reason: 'The FYVE zinc finger domain present in CG6051 (residues 909-969) is a well-established PI3P-binding module that specifically targets proteins to early endosomal membranes. This is a defining characteristic of all FYVE domain-containing proteins. The human ortholog ZFYVE28/LST2 has been experimentally shown to localize to endosomes via its FYVE domain. The domain architecture and conservation strongly support this cellular component annotation.'
+    supported_by:
+      - reference_id: 'Q9VB70'
+        supporting_text: 'ZN_FING 909..969 /note="FYVE-type"'
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'FYVE domains are known to target proteins to PI3P-enriched endosomal compartments, and CG6051 FYVE finger (annotated around amino acids 900–965) strongly implies an endosomal membrane attachment'
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Generic metal ion binding annotation based on FYVE zinc finger domain. While technically correct, zinc ion binding (GO:0008270) is more specific and informative.'
+    action: MODIFY
+    reason: 'This annotation is correct but too general. The FYVE domain specifically coordinates zinc ions through conserved cysteine and histidine residues. The more specific term "zinc ion binding" (GO:0008270) already exists in the annotations and better represents the molecular function. Metal ion binding is a parent term that adds little information.'
+    proposed_replacement_terms:
+      - id: GO:0008270
+        label: zinc ion binding
+    supported_by:
+      - reference_id: 'Q9VB70'
+        supporting_text: 'BINDING sites for Zn(2+) at positions 915, 918, 931, 934, 939, 942, 961, 964'
+- term:
+    id: GO:0004438
+    label: phosphatidylinositol-3-phosphate phosphatase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. CG6051/LST2 is NOT a phosphatase. It binds PI3P via its FYVE domain but does not have phosphatase activity. This is a misannotation likely from automated prediction.'
+    action: REMOVE
+    reason: 'This annotation is fundamentally incorrect. CG6051 contains a FYVE domain that BINDS phosphatidylinositol-3-phosphate (PI3P) but does not possess phosphatase activity. The protein lacks any phosphatase catalytic domains. The human ortholog ZFYVE28/LST2 is well-characterized as an adaptor/scaffold protein that is phosphorylated BY kinases (mTORC1), not as a phosphatase itself. This appears to be an erroneous automated prediction conflating PI3P binding with PI3P phosphatase activity.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is NOT a phosphatase itself but rather acts as an adaptor/scaffold protein'
+      - reference_id: 'Q9VB70'
+        supporting_text: 'RecName: Full=Lateral signaling target protein 2 homolog [no phosphatase domains annotated]'
+- term:
+    id: GO:0004721
+    label: phosphoprotein phosphatase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. CG6051/LST2 is a phosphorylation substrate, not a phosphatase. It is phosphorylated BY mTORC1, not a phosphatase itself.'
+    action: REMOVE
+    reason: 'This annotation is incorrect. CG6051/LST2 does not have phosphatase activity. Instead, it is a SUBSTRATE of phosphorylation - the protein is phosphorylated by mTORC1 kinase at multiple serine residues (S549, S550, S810 in Drosophila). The protein lacks any phosphatase catalytic domains. This is another erroneous automated prediction that misinterprets the protein as having enzymatic activity when it is actually an adaptor/regulatory protein.'
+    supported_by:
+      - reference_id: 'Q9VB70'
+        supporting_text: 'PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-549; SER-550 AND SER-810'
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is a substrate of mTORC1 kinase'
+- term:
+    id: GO:0005829
+    label: cytosol
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Partial annotation. While CG6051/LST2 is cytosolic, it more specifically localizes to early endosomes via its FYVE domain. Cytosol alone is too broad.'
+    action: KEEP_AS_NON_CORE
+    reason: 'This annotation is not incorrect but incomplete. CG6051 is indeed a cytosolic protein (not transmembrane or secreted), but it specifically associates with early endosomal membranes through its FYVE domain binding to PI3P. The cytosol annotation captures the general localization but misses the functionally important endosomal membrane association. The early endosome membrane annotation (GO:0031901) is more informative for understanding protein function.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'CG6051 likely resides in the cytoplasm on endosomal vesicles. There is no evidence of a signal peptide or transmembrane segment, so CG6051 is not a membrane-spanning receptor itself but rather a peripheral membrane-associated protein on endosomes'
+- term:
+    id: GO:0008270
+    label: zinc ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct annotation. The FYVE domain coordinates two zinc ions through conserved cysteine and histidine residues. This is a defining structural feature required for domain folding and PI3P binding.'
+    action: ACCEPT
+    reason: 'This annotation is well-supported. The FYVE zinc finger domain in CG6051 (residues 909-969) contains eight conserved cysteine/histidine residues that coordinate two zinc ions in a cross-braced topology. UniProt identifies specific zinc-binding residues at positions 915, 918, 931, 934, 939, 942, 961, and 964. Zinc coordination is essential for FYVE domain folding and function. This is a core molecular function of the protein.'
+    supported_by:
+      - reference_id: 'Q9VB70'
+        supporting_text: 'BINDING 915 /ligand="Zn(2+)" /ligand_id="ChEBI:CHEBI:29105" /ligand_label="1"; BINDING 918 /ligand="Zn(2+)"; BINDING 931 /ligand="Zn(2+)" /ligand_label="2"; BINDING 934 /ligand="Zn(2+)"; BINDING 939 /ligand="Zn(2+)"; BINDING 942 /ligand="Zn(2+)"; BINDING 961 /ligand="Zn(2+)"; BINDING 964 /ligand="Zn(2+)"'
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Too general. While CG6051 associates with membranes via its FYVE domain, the specific annotation "early endosome membrane" (GO:0031901) is more accurate and informative.'
+    action: MODIFY
+    reason: 'This annotation is too vague. CG6051 does associate with membranes, but specifically with early endosomal membranes through PI3P binding via its FYVE domain. The generic "membrane" term provides little functional information. The more specific "early endosome membrane" (GO:0031901) annotation already exists and better captures the protein localization.'
+    proposed_replacement_terms:
+      - id: GO:0031901
+        label: early endosome membrane
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'Based on protein domain analysis, CG6051 is predicted to localize to early endosomal membranes'
+- term:
+    id: GO:0019899
+    label: enzyme binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Too vague. While CG6051/LST2 likely binds kinases like mTORC1 and may interact with EGFR, "enzyme binding" is uninformative. More specific terms like "protein kinase binding" would be better.'
+    action: MARK_AS_OVER_ANNOTATED
+    reason: 'This annotation is likely correct but too general to be useful. The human ortholog LST2 is known to be phosphorylated by mTORC1 kinase, suggesting it binds this enzyme. It may also interact with EGFR or other signaling proteins. However, "enzyme binding" is so broad it provides minimal functional insight. Without specific experimental evidence in Drosophila for which enzymes are bound, this annotation adds little value. More specific terms like "protein kinase binding" (GO:0019901) would be more appropriate if supported by evidence.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is a substrate of mTORC1 kinase'
+- term:
+    id: GO:0046474
+    label: glycerophospholipid biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. CG6051/LST2 binds phospholipids (PI3P) but is not involved in their biosynthesis. This appears to be a misinterpretation of its lipid-binding function.'
+    action: REMOVE
+    reason: 'This annotation is incorrect. CG6051/LST2 does not participate in glycerophospholipid biosynthesis. The protein binds to phosphatidylinositol-3-phosphate (a phospholipid) via its FYVE domain but has no biosynthetic activity. There are no lipid biosynthesis domains in the protein. This appears to be an erroneous automated prediction that confused lipid binding with lipid biosynthesis. The protein functions in signaling and endosomal trafficking, not in lipid metabolism.'
+    supported_by:
+      - reference_id: 'Q9VB70'
+        supporting_text: 'FUNCTION: Negative regulator of epidermal growth factor receptor (EGFR) signaling [no mention of lipid biosynthesis]'
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'CG6051 is likely involved in endosome-related mechanisms (such as receptor trafficking or signal attenuation) via its lipid-binding FYVE domain'
+- term:
+    id: GO:0046856
+    label: phosphatidylinositol dephosphorylation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. CG6051/LST2 binds PI3P but does not dephosphorylate it. The protein lacks phosphatase domains and catalytic activity.'
+    action: REMOVE
+    reason: 'This annotation is incorrect. CG6051/LST2 does not catalyze phosphatidylinositol dephosphorylation. The protein binds PI3P through its FYVE domain but has no phosphatase activity. This is another instance of automated prediction incorrectly inferring enzymatic activity from lipid-binding capability. The protein is an adaptor/scaffold in signaling pathways, not a metabolic enzyme. All phosphatase-related annotations for this protein are erroneous.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is NOT a phosphatase itself but rather acts as an adaptor/scaffold protein'
+      - reference_id: 'Q9VB70'
+        supporting_text: 'SIMILARITY: Belongs to the lst-2 family [not to any phosphatase family]'
+- term:
+    id: GO:0052629
+    label: phosphatidylinositol-3,5-bisphosphate 3-phosphatase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Incorrect annotation. CG6051/LST2 is not a phosphatase. This is another erroneous automated prediction assigning phosphatase activity where none exists.'
+    action: REMOVE
+    reason: 'This annotation is completely incorrect. CG6051/LST2 has no phosphatase activity whatsoever. The protein contains only a FYVE zinc finger domain for PI3P binding and lacks any phosphatase catalytic domains. This specific phosphatase activity annotation is particularly problematic as it suggests a very specific enzymatic function that the protein absolutely does not possess. The human ortholog is well-characterized as a signaling adaptor, not an enzyme. This is a clear case of over-annotation by automated systems.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'CG6051 is thought to participate in endocytic trafficking and signal modulation [not enzymatic activity]'
+      - reference_id: 'Q9VB70'
+        supporting_text: 'Full=Lateral signaling target protein 2 homolog [signaling protein, not phosphatase]'
+- term:
+    id: GO:0060090
+    label: molecular adaptor activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Correct annotation. CG6051/LST2 functions as an adaptor/scaffold protein in the mTORC1-EGFR signaling axis, connecting kinase signaling to receptor regulation.'
+    action: ACCEPT
+    reason: 'This annotation is well-supported. The human ortholog ZFYVE28/LST2 is characterized as an adaptor/scaffold protein that links mTORC1 signaling to EGFR regulation. It serves as a molecular bridge, being phosphorylated by mTORC1 and then mediating negative feedback on EGFR. The protein lacks enzymatic activity but functions to organize signaling complexes on endosomes. This molecular adaptor activity is a core function of the protein and consistent with its domain architecture (FYVE domain for membrane localization, extensive unstructured regions for protein interactions).'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 is NOT a phosphatase itself but rather acts as an adaptor/scaffold protein'
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'LST2 mediates a feedback loop that dampens EGFR signaling'
+- term:
+    id: GO:0061952
+    label: midbody abscission
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Unsupported annotation. While FYVE proteins can be involved in cytokinesis, there is no specific evidence linking CG6051/LST2 to midbody abscission.'
+    action: REMOVE
+    reason: 'This annotation lacks supporting evidence. While some FYVE domain proteins participate in cytokinesis and midbody abscission through endosomal trafficking roles, there is no specific evidence that CG6051/LST2 is involved in this process. The protein was tested in fertility screens but showed no significant phenotype. The human ortholog is characterized for its role in growth factor signaling, not cytokinesis. This appears to be an over-reaching automated prediction based on weak domain similarity to other FYVE proteins that do have cytokinesis roles. Without experimental support, this annotation should be removed.'
+    supported_by:
+      - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+        supporting_text: 'In a genome-wide RNAi screen for female fertility genes, CG6051 was among hundreds tested... it was not singled out in the final list of 94 genes affecting fertility (implying any phenotype was subtle or the knockdown was inconclusive)'
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: 
+    - statement: IBA annotations are based on phylogenetic analysis showing CG6051 is orthologous to human ZFYVE28/LST2
+      supporting_text: Phylogenetic analysis supports functional conservation between fly CG6051 and human ZFYVE28
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings:
+    - statement: Zinc-finger keyword supports zinc ion binding annotation
+      supporting_text: UniProt keywords include zinc-finger based on FYVE domain
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings:
+    - statement: Multiple incorrect phosphatase annotations that should be removed
+      supporting_text: ARBA incorrectly predicted phosphatase activities based on domain misinterpretation
+    - statement: Correct molecular adaptor activity annotation
+      supporting_text: ARBA correctly identified molecular adaptor function
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods
+  findings:
+    - statement: Generic metal ion binding annotation that should be more specific
+      supporting_text: Combined methods identified metal binding but not the specific zinc requirement
+- id: PMID:39141345
+  title: mTORC1 phosphorylates and stabilizes LST2 to negatively regulate EGFR
+  findings: []
+- id: Q9VB70
+  title: UniProt entry for CG6051
+  findings:
+    - statement: FYVE zinc finger domain at positions 909-969
+      supporting_text: ZN_FING 909..969 /note="FYVE-type"
+    - statement: Eight zinc-coordinating residues identified
+      supporting_text: BINDING sites for Zn(2+) at positions 915, 918, 931, 934, 939, 942, 961, 964
+    - statement: Phosphorylation sites at S549, S550, S810
+      supporting_text: MOD_RES 549, 550, 810 /note="Phosphoserine"
+    - statement: No phosphatase domains annotated
+      supporting_text: UniProt functional annotation identifies it as Lateral signaling target protein 2 homolog, not a phosphatase
+- id: 'file:fly/CG6051/CG6051-deep-research.md'
+  title: Deep research on CG6051 gene function
+  findings:
+    - statement: CG6051 is orthologous to human ZFYVE28/LST2
+      supporting_text: CG6051 is orthologous to human ZFYVE28 (also called LST2)
+    - statement: Functions in negative regulation of EGFR signaling
+      supporting_text: LST2 helps inhibit the upstream EGF receptor (EGFR) signaling pathway
+    - statement: FYVE domain binds PI3P on early endosomes
+      supporting_text: FYVE domain typically binds phosphatidylinositol 3-phosphate (PI3P) on endosomal membranes
+    - statement: Not a phosphatase but an adaptor protein
+      supporting_text: LST2 is NOT a phosphatase itself but rather acts as an adaptor/scaffold protein
+- id: 'file:fly/CG6051/CG6051-bioinformatics/RESULTS.md'
+  title: Bioinformatics analysis of CG6051
+  findings:
+    - statement: Confirmed FYVE zinc finger domain at positions 909-969
+      supporting_text: FYVE domain found at positions 909-969 with all expected cysteines
+    - statement: No phosphatase domains detected
+      supporting_text: No canonical phosphatase active sites or domains found
+    - statement: No TOS motif found unlike human ortholog
+      supporting_text: CG6051 lacks the TOS motif present in human LST2 at positions 401-405
+    - statement: Low sequence identity with human LST2 but conserved domain architecture
+      supporting_text: Only 5-6% sequence identity but both have C-terminal FYVE domains
+core_functions:
+- description: mediates negative feedback regulation of receptor tyrosine kinase signaling through molecular scaffolding on endosomes
+  molecular_function:
+    id: GO:0060090
+    label: molecular adaptor activity
+  directly_involved_in:
+    - id: GO:0042059
+      label: negative regulation of epidermal growth factor receptor signaling pathway
+  locations:
+    - id: GO:0031901
+      label: early endosome membrane
+- description: targets to early endosomal membranes via phosphatidylinositol-3-phosphate binding
+  molecular_function:
+    id: GO:0032266
+    label: phosphatidylinositol-3-phosphate binding
+  directly_involved_in:
+    - id: GO:0016050
+      label: vesicle organization
+  locations:
+    - id: GO:0031901
+      label: early endosome membrane
+  supported_by:
+    - reference_id: Q9VB70
+      supporting_text: FYVE zinc finger domain binds PI3P on endosomal membranes
+    - reference_id: 'file:fly/CG6051/CG6051-deep-research.md'
+      supporting_text: FYVE domains are known to target proteins to PI3P-enriched endosomal compartments
+- description: coordinates zinc ions for FYVE domain structural integrity
+  molecular_function:
+    id: GO:0008270
+    label: zinc ion binding
+  directly_involved_in:
+    - id: GO:0006897
+      label: endocytosis
+  locations:
+    - id: GO:0005737
+      label: cytoplasm
+  supported_by:
+    - reference_id: Q9VB70
+      supporting_text: Eight zinc-binding residues coordinate two zinc ions in FYVE domain
+    - reference_id: 'file:fly/CG6051/CG6051-bioinformatics/RESULTS.md'
+      supporting_text: FYVE domain contains all 8 expected cysteines for zinc coordination

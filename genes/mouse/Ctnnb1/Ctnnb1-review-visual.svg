@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="12950" viewBox="0 0 1800 12950">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="12950" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: Ctnnb1 (Mus musculus)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="3575" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="3596.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="7865" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="7886.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="11285" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="11306.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">multicellular organismal process</text>
+<rect x="60" y="12240" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="12261.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">homeostatic process</text>
+<rect x="60" y="12470" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="12491.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">localization</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0001525</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">angiogenesis</text>
+<rect x="80" y="2230" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2244" font-size="10" font-family="monospace" fill="#666666">GO:0001944</text>
+<text x="85" y="2260" font-size="11" font-family="Arial, sans-serif" fill="#212121">vasculature development</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0000902</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell morphogenesis</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0001501</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">skeletal system development</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0001569</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">branching involved in blood vessel ...</text>
+<rect x="80" y="1070" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1084" font-size="10" font-family="monospace" fill="#666666">GO:0001658</text>
+<text x="85" y="1100" font-size="11" font-family="Arial, sans-serif" fill="#212121">branching involved in ureteric bud ...</text>
+<rect x="80" y="1360" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1374" font-size="10" font-family="monospace" fill="#666666">GO:0001701</text>
+<text x="85" y="1390" font-size="11" font-family="Arial, sans-serif" fill="#212121">in utero embryonic development</text>
+<rect x="80" y="1505" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1519" font-size="10" font-family="monospace" fill="#666666">GO:0001702</text>
+<text x="85" y="1535" font-size="11" font-family="Arial, sans-serif" fill="#212121">gastrulation with mouth forming second</text>
+<rect x="80" y="1795" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1809" font-size="10" font-family="monospace" fill="#666666">GO:0001706</text>
+<text x="85" y="1825" font-size="11" font-family="Arial, sans-serif" fill="#212121">endoderm formation</text>
+<rect x="80" y="1940" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1954" font-size="10" font-family="monospace" fill="#666666">GO:0001822</text>
+<text x="85" y="1970" font-size="11" font-family="Arial, sans-serif" fill="#212121">kidney development</text>
+<rect x="80" y="2085" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2099" font-size="10" font-family="monospace" fill="#666666">GO:0001840</text>
+<text x="85" y="2115" font-size="11" font-family="Arial, sans-serif" fill="#212121">neural plate development</text>
+<rect x="80" y="2375" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2389" font-size="10" font-family="monospace" fill="#666666">GO:0002089</text>
+<text x="85" y="2405" font-size="11" font-family="Arial, sans-serif" fill="#212121">lens morphogenesis in camera-type eye</text>
+<rect x="80" y="2520" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2534" font-size="10" font-family="monospace" fill="#666666">GO:0003338</text>
+<text x="85" y="2550" font-size="11" font-family="Arial, sans-serif" fill="#212121">metanephros morphogenesis</text>
+<rect x="80" y="2665" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2679" font-size="10" font-family="monospace" fill="#666666">GO:0007398</text>
+<text x="85" y="2695" font-size="11" font-family="Arial, sans-serif" fill="#212121">ectoderm development</text>
+<rect x="80" y="2810" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2824" font-size="10" font-family="monospace" fill="#666666">GO:0007507</text>
+<text x="85" y="2840" font-size="11" font-family="Arial, sans-serif" fill="#212121">heart development</text>
+<rect x="80" y="2955" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2969" font-size="10" font-family="monospace" fill="#666666">GO:0016331</text>
+<text x="85" y="2985" font-size="11" font-family="Arial, sans-serif" fill="#212121">morphogenesis of embryonic epithelium</text>
+<rect x="80" y="3100" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3114" font-size="10" font-family="monospace" fill="#666666">GO:0021819</text>
+<text x="85" y="3130" font-size="11" font-family="Arial, sans-serif" fill="#212121">layer formation in cerebral cortex</text>
+<rect x="80" y="3245" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3259" font-size="10" font-family="monospace" fill="#666666">GO:0030324</text>
+<text x="85" y="3275" font-size="11" font-family="Arial, sans-serif" fill="#212121">lung development</text>
+<rect x="80" y="3390" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3404" font-size="10" font-family="monospace" fill="#666666">GO:0060441</text>
+<text x="85" y="3420" font-size="11" font-family="Arial, sans-serif" fill="#212121">epithelial tube branching involved ...</text>
+<rect x="80" y="4345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4359" font-size="10" font-family="monospace" fill="#666666">GO:0001708</text>
+<text x="85" y="4375" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell fate specification</text>
+<rect x="80" y="3765" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3779" font-size="10" font-family="monospace" fill="#666666">GO:0002064</text>
+<text x="85" y="3795" font-size="11" font-family="Arial, sans-serif" fill="#212121">epithelial cell development</text>
+<rect x="80" y="3910" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3924" font-size="10" font-family="monospace" fill="#666666">GO:0010467</text>
+<text x="85" y="3940" font-size="11" font-family="Arial, sans-serif" fill="#212121">gene expression</text>
+<rect x="80" y="4055" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4069" font-size="10" font-family="monospace" fill="#666666">GO:0001570</text>
+<text x="85" y="4085" font-size="11" font-family="Arial, sans-serif" fill="#212121">vasculogenesis</text>
+<rect x="80" y="4200" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4214" font-size="10" font-family="monospace" fill="#666666">GO:0001649</text>
+<text x="85" y="4230" font-size="11" font-family="Arial, sans-serif" fill="#212121">osteoblast differentiation</text>
+<rect x="80" y="4490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4504" font-size="10" font-family="monospace" fill="#666666">GO:0001711</text>
+<text x="85" y="4520" font-size="11" font-family="Arial, sans-serif" fill="#212121">endodermal cell fate commitment</text>
+<rect x="80" y="4635" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4649" font-size="10" font-family="monospace" fill="#666666">GO:0001764</text>
+<text x="85" y="4665" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuron migration</text>
+<rect x="80" y="4925" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4939" font-size="10" font-family="monospace" fill="#666666">GO:0002062</text>
+<text x="85" y="4955" font-size="11" font-family="Arial, sans-serif" fill="#212121">chondrocyte differentiation</text>
+<rect x="80" y="5070" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5084" font-size="10" font-family="monospace" fill="#666666">GO:0006351</text>
+<text x="85" y="5100" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA-templated transcription</text>
+<rect x="80" y="5215" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5229" font-size="10" font-family="monospace" fill="#666666">GO:0006366</text>
+<text x="85" y="5245" font-size="11" font-family="Arial, sans-serif" fill="#212121">transcription by RNA polymerase II</text>
+<rect x="80" y="5360" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5374" font-size="10" font-family="monospace" fill="#666666">GO:0007160</text>
+<text x="85" y="5390" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell-matrix adhesion</text>
+<rect x="80" y="5505" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5519" font-size="10" font-family="monospace" fill="#666666">GO:0007403</text>
+<text x="85" y="5535" font-size="11" font-family="Arial, sans-serif" fill="#212121">glial cell fate determination</text>
+<rect x="80" y="5650" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5664" font-size="10" font-family="monospace" fill="#666666">GO:0007405</text>
+<text x="85" y="5680" font-size="11" font-family="Arial, sans-serif" fill="#212121">neuroblast proliferation</text>
+<rect x="80" y="5940" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5954" font-size="10" font-family="monospace" fill="#666666">GO:0008283</text>
+<text x="85" y="5970" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell population proliferation</text>
+<rect x="80" y="6230" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6244" font-size="10" font-family="monospace" fill="#666666">GO:0010463</text>
+<text x="85" y="6260" font-size="11" font-family="Arial, sans-serif" fill="#212121">mesenchymal cell proliferation</text>
+<rect x="80" y="6375" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6389" font-size="10" font-family="monospace" fill="#666666">GO:0022009</text>
+<text x="85" y="6405" font-size="11" font-family="Arial, sans-serif" fill="#212121">central nervous system vasculogenesis</text>
+<rect x="80" y="6520" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6534" font-size="10" font-family="monospace" fill="#666666">GO:0030097</text>
+<text x="85" y="6550" font-size="11" font-family="Arial, sans-serif" fill="#212121">hemopoiesis</text>
+<rect x="80" y="6665" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6679" font-size="10" font-family="monospace" fill="#666666">GO:0030154</text>
+<text x="85" y="6695" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell differentiation</text>
+<rect x="80" y="6810" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6824" font-size="10" font-family="monospace" fill="#666666">GO:0030217</text>
+<text x="85" y="6840" font-size="11" font-family="Arial, sans-serif" fill="#212121">T cell differentiation</text>
+<rect x="80" y="6955" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6969" font-size="10" font-family="monospace" fill="#666666">GO:0030316</text>
+<text x="85" y="6985" font-size="11" font-family="Arial, sans-serif" fill="#212121">osteoclast differentiation</text>
+<rect x="80" y="7100" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7114" font-size="10" font-family="monospace" fill="#666666">GO:0048709</text>
+<text x="85" y="7130" font-size="11" font-family="Arial, sans-serif" fill="#212121">oligodendrocyte differentiation</text>
+<rect x="80" y="7245" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7259" font-size="10" font-family="monospace" fill="#666666">GO:0051450</text>
+<text x="85" y="7275" font-size="11" font-family="Arial, sans-serif" fill="#212121">myoblast proliferation</text>
+<rect x="80" y="7390" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7404" font-size="10" font-family="monospace" fill="#666666">GO:0060487</text>
+<text x="85" y="7420" font-size="11" font-family="Arial, sans-serif" fill="#212121">lung epithelial cell differentiation</text>
+<rect x="80" y="7535" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7549" font-size="10" font-family="monospace" fill="#666666">GO:0060767</text>
+<text x="85" y="7565" font-size="11" font-family="Arial, sans-serif" fill="#212121">epithelial cell proliferation invol...</text>
+<rect x="80" y="7680" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7694" font-size="10" font-family="monospace" fill="#666666">GO:0072089</text>
+<text x="85" y="7710" font-size="11" font-family="Arial, sans-serif" fill="#212121">stem cell proliferation</text>
+<rect x="80" y="7910" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7924" font-size="10" font-family="monospace" fill="#666666">GO:0019221</text>
+<text x="85" y="7940" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytokine-mediated signaling pathway</text>
+<rect x="80" y="8055" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8069" font-size="10" font-family="monospace" fill="#666666">GO:0000122</text>
+<text x="85" y="8085" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of transcriptio...</text>
+<rect x="80" y="8200" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8214" font-size="10" font-family="monospace" fill="#666666">GO:0000165</text>
+<text x="85" y="8230" font-size="11" font-family="Arial, sans-serif" fill="#212121">MAPK cascade</text>
+<rect x="80" y="8345" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8359" font-size="10" font-family="monospace" fill="#666666">GO:0002052</text>
+<text x="85" y="8375" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of neuroblast p...</text>
+<rect x="80" y="8635" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8649" font-size="10" font-family="monospace" fill="#666666">GO:0002053</text>
+<text x="85" y="8665" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of mesenchymal ...</text>
+<rect x="80" y="8780" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8794" font-size="10" font-family="monospace" fill="#666666">GO:0003266</text>
+<text x="85" y="8810" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of secondary heart field...</text>
+<rect x="80" y="8925" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8939" font-size="10" font-family="monospace" fill="#666666">GO:0003340</text>
+<text x="85" y="8955" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of mesenchymal ...</text>
+<rect x="80" y="9360" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9374" font-size="10" font-family="monospace" fill="#666666">GO:0006357</text>
+<text x="85" y="9390" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of transcription by RNA ...</text>
+<rect x="80" y="9505" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9519" font-size="10" font-family="monospace" fill="#666666">GO:0007249</text>
+<text x="85" y="9535" font-size="11" font-family="Arial, sans-serif" fill="#212121">canonical NF-kappaB signal transduc...</text>
+<rect x="80" y="9650" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9664" font-size="10" font-family="monospace" fill="#666666">GO:0007268</text>
+<text x="85" y="9680" font-size="11" font-family="Arial, sans-serif" fill="#212121">chemical synaptic transmission</text>
+<rect x="80" y="9795" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9809" font-size="10" font-family="monospace" fill="#666666">GO:0008284</text>
+<text x="85" y="9825" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of cell populat...</text>
+<rect x="80" y="9940" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9954" font-size="10" font-family="monospace" fill="#666666">GO:0008543</text>
+<text x="85" y="9970" font-size="11" font-family="Arial, sans-serif" fill="#212121">fibroblast growth factor receptor s...</text>
+<rect x="80" y="10085" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10099" font-size="10" font-family="monospace" fill="#666666">GO:0010468</text>
+<text x="85" y="10115" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of gene expression</text>
+<rect x="80" y="10375" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10389" font-size="10" font-family="monospace" fill="#666666">GO:0010628</text>
+<text x="85" y="10405" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of gene expression</text>
+<rect x="80" y="10520" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10534" font-size="10" font-family="monospace" fill="#666666">GO:0010718</text>
+<text x="85" y="10550" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of epithelial t...</text>
+<rect x="80" y="10955" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10969" font-size="10" font-family="monospace" fill="#666666">GO:0097190</text>
+<text x="85" y="10985" font-size="11" font-family="Arial, sans-serif" fill="#212121">apoptotic signaling pathway</text>
+<rect x="80" y="11100" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11114" font-size="10" font-family="monospace" fill="#666666">GO:0032212</text>
+<text x="85" y="11130" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of telomere mai...</text>
+<rect x="80" y="11330" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11344" font-size="10" font-family="monospace" fill="#666666">GO:0000578</text>
+<text x="85" y="11360" font-size="11" font-family="Arial, sans-serif" fill="#212121">embryonic axis specification</text>
+<rect x="80" y="11475" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11489" font-size="10" font-family="monospace" fill="#666666">GO:0009948</text>
+<text x="85" y="11505" font-size="11" font-family="Arial, sans-serif" fill="#212121">anterior/posterior axis specification</text>
+<rect x="80" y="11620" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11634" font-size="10" font-family="monospace" fill="#666666">GO:0009950</text>
+<text x="85" y="11650" font-size="11" font-family="Arial, sans-serif" fill="#212121">dorsal/ventral axis specification</text>
+<rect x="80" y="11765" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11779" font-size="10" font-family="monospace" fill="#666666">GO:0009953</text>
+<text x="85" y="11795" font-size="11" font-family="Arial, sans-serif" fill="#212121">dorsal/ventral pattern formation</text>
+<rect x="80" y="11910" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11924" font-size="10" font-family="monospace" fill="#666666">GO:0009954</text>
+<text x="85" y="11940" font-size="11" font-family="Arial, sans-serif" fill="#212121">proximal/distal pattern formation</text>
+<rect x="80" y="12055" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12069" font-size="10" font-family="monospace" fill="#666666">GO:0022405</text>
+<text x="85" y="12085" font-size="11" font-family="Arial, sans-serif" fill="#212121">hair cycle process</text>
+<rect x="80" y="12285" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12299" font-size="10" font-family="monospace" fill="#666666">GO:0001894</text>
+<text x="85" y="12315" font-size="11" font-family="Arial, sans-serif" fill="#212121">tissue homeostasis</text>
+<rect x="80" y="12515" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12529" font-size="10" font-family="monospace" fill="#666666">GO:0008104</text>
+<text x="85" y="12545" font-size="11" font-family="Arial, sans-serif" fill="#212121">intracellular protein localization</text>
+<circle cx="340" cy="222.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,4367.5 L337,4372.5 L348,4359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7924.5 L348,7940.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7940.5 L348,7924.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,3787.5 L337,3792.5 L348,3779.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="2252.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,3932.5 L390,3932.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,3932.5 L382,3928.5 L382,3936.5 Z" fill="#ff9800" />
+<rect x="390" y="3910" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="3924" font-size="10" font-family="monospace" fill="#666666">GO:0045944</text>
+<text x="395" y="3940" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of transcriptio...</text>
+<path d="M332,8069.5 L348,8085.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8085.5 L348,8069.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8214.5 L348,8230.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8230.5 L348,8214.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11352.5 L337,11357.5 L348,11344.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="657.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="947.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4077.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4222.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1092.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1382.5 L337,1387.5 L348,1374.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1527.5 L337,1532.5 L348,1519.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1817.5 L337,1822.5 L348,1809.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,4512.5 L337,4517.5 L348,4504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="4657.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="1962.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2107.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="12307.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8367.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8657.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4947.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2397.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8802.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2542.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8947.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,5092.5 L390,5092.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5092.5 L382,5088.5 L382,5096.5 Z" fill="#ff9800" />
+<rect x="390" y="5070" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5084" font-size="10" font-family="monospace" fill="#666666">GO:0045944</text>
+<text x="395" y="5100" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of transcriptio...</text>
+<circle cx="340" cy="9382.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5237.5 L337,5242.5 L348,5229.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5374.5 L348,5390.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,5390.5 L348,5374.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,9519.5 L348,9535.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,9535.5 L348,9519.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="9672.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2687.5 L337,2692.5 L348,2679.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="5527.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="5672.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2832.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="12537.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5962.5 L337,5967.5 L348,5954.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="9817.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="9962.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11497.5 L337,11502.5 L348,11489.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11642.5 L337,11647.5 L348,11634.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11787.5 L337,11792.5 L348,11779.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="11932.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6252.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="10107.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="10397.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,10542.5 L337,10547.5 L348,10534.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="2977.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3122.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6397.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="12077.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6542.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,6687.5 L337,6692.5 L348,6679.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="6832.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6977.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3267.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7122.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7267.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3412.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7412.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7557.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7702.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="10977.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="11122.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While beta-catenin does participate in angiogenesis</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through Wnt signaling in endothelial cells, this</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a downstream developmental consequence of its</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core signaling function rather than a direct molecular</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role. The protein's primary functions are cell adhesion</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and transcriptional co-activation; angiogenesis is a</text>
+<rect x="395" y="4332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell fate specification is a core function of beta-catenin</text>
+<text x="400" y="4361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through Wnt signaling. As a transcriptional co-activator,</text>
+<text x="400" y="4370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin/TCF complexes directly control expression of</text>
+<text x="400" y="4379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cell fate determinants. This is one of its primary</text>
+<text x="400" y="4388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">biological roles.</text>
+<rect x="395" y="7897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is too broad and misleading. Beta-catenin</text>
+<text x="400" y="7926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is not a direct mediator of cytokine signaling pathways.</text>
+<text x="400" y="7935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The cited paper describes crosstalk between</text>
+<text x="400" y="7944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Wnt/beta-catenin and NF-kappaB pathways in a specific</text>
+<text x="400" y="7953.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental context, but this doesn't make beta-catenin</text>
+<text x="400" y="7962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a general cytokine signaling mediator. The core function</text>
+<rect x="395" y="3752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Epithelial cell development directly depends on</text>
+<text x="400" y="3781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's dual functions - maintaining cell-cell</text>
+<text x="400" y="3790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">adhesion through adherens junctions and regulating gene</text>
+<text x="400" y="3799.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">expression via Wnt signaling. This is a core biological</text>
+<text x="400" y="3808.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process where beta-catenin plays an essential, direct</text>
+<text x="400" y="3817.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role.</text>
+<rect x="395" y="2217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="2246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="2255.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="2264.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="2273.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="645" y="3897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="3907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="3917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The term 'gene expression' is too vague and uninformative.</text>
+<text x="650" y="3926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin specifically functions as a transcriptional</text>
+<text x="650" y="3935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">co-activator in the canonical Wnt pathway. More specific</text>
+<text x="650" y="3944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms like 'positive regulation of transcription by RNA</text>
+<text x="650" y="3953.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">polymerase II' or 'canonical Wnt signaling pathway' better</text>
+<text x="650" y="3962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">capture its actual molecular function.</text>
+<rect x="395" y="8042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is fundamentally a transcriptional</text>
+<text x="400" y="8071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">co-activator, not a repressor. While Wnt/beta-catenin</text>
+<text x="400" y="8080.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling can indirectly lead to repression of certain</text>
+<text x="400" y="8089.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">genes (e.g., by activating expression of transcriptional</text>
+<text x="400" y="8098.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">repressors), beta-catenin itself does not directly</text>
+<text x="400" y="8107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">negatively regulate transcription. This annotation</text>
+<rect x="395" y="8187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is not a component of the MAPK cascade. The</text>
+<text x="400" y="8216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cited paper discusses APC's effects on ERK signaling, but</text>
+<text x="400" y="8225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's involvement would be indirect at best.</text>
+<text x="400" y="8234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin's primary signaling role is in the canonical</text>
+<text x="400" y="8243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Wnt pathway, not MAPK signaling.</text>
+<rect x="395" y="11317.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11327.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11337.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Embryonic axis specification is a well-established core</text>
+<text x="400" y="11346.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental function of beta-catenin through canonical</text>
+<text x="400" y="11355.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Wnt signaling. Stabilized beta-catenin in the dorsal</text>
+<text x="400" y="11364.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">region establishes the embryonic organizer, essential for</text>
+<text x="400" y="11373.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proper axis formation. This represents a direct</text>
+<text x="400" y="11382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">consequence of beta-catenin's transcriptional co-activator</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell morphogenesis is directly dependent on beta-catenin's</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">dual functions. Its role in adherens junctions maintains</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cell-cell contacts essential for coordinated morphogenetic</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">movements, while its signaling function regulates genes</text>
+<text x="400" y="533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">controlling cell shape and behavior. This is a core</text>
+<text x="400" y="542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellular process requiring beta-catenin.</text>
+<rect x="395" y="622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Skeletal system development is a tissue-specific</text>
+<text x="400" y="651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental process that uses beta-catenin's core Wnt</text>
+<text x="400" y="660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling function. While beta-catenin is essential for</text>
+<text x="400" y="669.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proper bone and cartilage development, this represents a</text>
+<text x="400" y="678.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">downstream consequence of its transcriptional co-activator</text>
+<text x="400" y="687.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role rather than a primary molecular function.</text>
+<rect x="395" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is a duplicate annotation for the same process with</text>
+<text x="400" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">different evidence. Blood vessel morphogenesis utilizes</text>
+<text x="400" y="950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's Wnt signaling function in endothelial cells</text>
+<text x="400" y="959.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">but represents a tissue-specific developmental outcome</text>
+<text x="400" y="968.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">rather than a core molecular function.</text>
+<rect x="395" y="4042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Vasculogenesis is a specialized developmental process in</text>
+<text x="400" y="4071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">endothelial cells. While beta-catenin is required through</text>
+<text x="400" y="4080.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">its Wnt signaling function, this represents</text>
+<text x="400" y="4089.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tissue-specific utilization rather than a core molecular</text>
+<text x="400" y="4098.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="4187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Osteoblast differentiation is a specialized cell</text>
+<text x="400" y="4216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">type-specific process. While beta-catenin/Wnt signaling is</text>
+<text x="400" y="4225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">important for bone cell fate, this represents</text>
+<text x="400" y="4234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tissue-specific application of its core transcriptional</text>
+<text x="400" y="4243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="1057.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1067.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1077.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Ureteric bud morphogenesis is a specialized kidney</text>
+<text x="400" y="1086.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental process. While beta-catenin signaling is</text>
+<text x="400" y="1095.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">required, this represents organ-specific utilization of</text>
+<text x="400" y="1104.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">its core functions rather than a primary role.</text>
+<rect x="395" y="1347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Additional genetic evidence for beta-catenin's essential</text>
+<text x="400" y="1376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role in embryonic development. The Axin-beta-catenin</text>
+<text x="400" y="1385.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">interaction is crucial for proper Wnt signaling regulation</text>
+<text x="400" y="1394.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">during embryogenesis.</text>
+<rect x="395" y="1492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Gastrulation is a fundamental embryonic process that</text>
+<text x="400" y="1521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">absolutely requires beta-catenin. The protein's dual</text>
+<text x="400" y="1530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions - maintaining cell adhesion for morphogenetic</text>
+<text x="400" y="1539.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">movements and Wnt signaling for mesoderm induction - are</text>
+<text x="400" y="1548.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">both essential. This represents a core developmental role</text>
+<text x="400" y="1557.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">directly mediated by beta-catenin's molecular functions.</text>
+<rect x="395" y="1782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Additional strong evidence for beta-catenin's essential</text>
+<text x="400" y="1811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role in endoderm formation. The protein acts as a</text>
+<text x="400" y="1820.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional co-activator to directly induce endodermal</text>
+<text x="400" y="1829.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">gene expression programs including Sox17. This is a core</text>
+<text x="400" y="1838.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental function.</text>
+<rect x="395" y="4477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Endodermal cell fate commitment is a fundamental</text>
+<text x="400" y="4506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental process directly mediated by beta-catenin's</text>
+<text x="400" y="4515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional co-activator function. Beta-catenin/TCF</text>
+<text x="400" y="4524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complexes activate endoderm-specific gene expression</text>
+<text x="400" y="4533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">programs essential for germ layer specification.</text>
+<rect x="395" y="4622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="4651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="4660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="4669.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="4678.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="1927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Kidney development is an organ-specific developmental</text>
+<text x="400" y="1956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core Wnt signaling</text>
+<text x="400" y="1965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. While essential for nephrogenesis, this</text>
+<text x="400" y="1974.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a tissue-specific application rather than a</text>
+<text x="400" y="1983.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primary molecular function of the protein.</text>
+<rect x="395" y="2072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="2101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="2110.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="2119.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="2128.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="12272.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12282.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12292.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="12301.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="12310.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="12319.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="12328.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="8332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="8361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="8370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="8379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="8388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="8622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="8651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="8660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="8669.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="8678.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="4912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="4941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="4950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="4959.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="4968.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="2362.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2372.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="2391.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="2400.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="2409.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="2418.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="8767.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8777.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8787.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="8796.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="8805.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="8814.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="8823.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="2507.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2517.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="2536.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="2545.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="2554.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="2563.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="8912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="8941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="8950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="8959.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="8968.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="645" y="5057.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="5067.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="5077.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While beta-catenin does participate in DNA-templated</text>
+<text x="650" y="5086.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcription, this term is too general. More specific</text>
+<text x="650" y="5095.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms like 'positive regulation of transcription by RNA</text>
+<text x="650" y="5104.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">polymerase II' or 'canonical Wnt signaling pathway' better</text>
+<text x="650" y="5113.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">capture its specific role as a co-activator.</text>
+<rect x="395" y="9347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="9376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="9385.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="9394.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="9403.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="5202.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5212.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5222.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Transcription by RNA polymerase II is a core molecular</text>
+<text x="400" y="5231.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function of beta-catenin as a transcriptional</text>
+<text x="400" y="5240.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">co-activator. In the nucleus, beta-catenin/TCF complexes</text>
+<text x="400" y="5249.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">directly regulate RNA Pol II-dependent transcription of</text>
+<text x="400" y="5258.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">target genes.</text>
+<rect x="395" y="5347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is not a component of cell-matrix adhesion</text>
+<text x="400" y="5376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complexes. It specifically functions in cell-cell adhesion</text>
+<text x="400" y="5385.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">through adherens junctions by linking cadherins to the</text>
+<text x="400" y="5394.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytoskeleton. Cell-matrix adhesion involves different</text>
+<text x="400" y="5403.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular machinery (integrins, focal adhesions) that</text>
+<text x="400" y="5412.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin does not participate in.</text>
+<rect x="395" y="9492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is not a component of the NF-kappaB signaling</text>
+<text x="400" y="9521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway. The cited paper shows crosstalk between distinct</text>
+<text x="400" y="9530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathways (Wnt and NF-kappaB) in a specific developmental</text>
+<text x="400" y="9539.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">context. Beta-catenin mediates Wnt signaling, not</text>
+<text x="400" y="9548.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">NF-kappaB signaling.</text>
+<rect x="395" y="9637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Synaptic transmission represents a specialized neuronal</text>
+<text x="400" y="9666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">utilization of beta-catenin's adhesion function. While</text>
+<text x="400" y="9675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin contributes to synapse organization, this is</text>
+<text x="400" y="9684.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a tissue-specific role rather than a core molecular</text>
+<text x="400" y="9693.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. The primary functions remain cell adhesion and</text>
+<text x="400" y="9702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional co-activation.</text>
+<rect x="395" y="2652.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2662.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2672.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Ectoderm development is a fundamental germ layer formation</text>
+<text x="400" y="2681.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process requiring both beta-catenin functions. Its</text>
+<text x="400" y="2690.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">adhesion role maintains ectodermal layer integrity while</text>
+<text x="400" y="2699.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">its signaling function controls differentiation. This is a</text>
+<text x="400" y="2708.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core developmental requirement.</text>
+<rect x="395" y="5492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Glial cell fate determination is a specialized neural</text>
+<text x="400" y="5521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">developmental process. While beta-catenin signaling</text>
+<text x="400" y="5530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">influences glial differentiation timing, this represents</text>
+<text x="400" y="5539.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tissue-specific application of its core transcriptional</text>
+<text x="400" y="5548.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function rather than a primary role.</text>
+<rect x="395" y="5637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="5666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="5675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="5684.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="5693.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="2797.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2807.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2817.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Heart development is an organ-specific process that uses</text>
+<text x="400" y="2826.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's Wnt signaling function in cardiac</text>
+<text x="400" y="2835.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">progenitors. While required for proper cardiac</text>
+<text x="400" y="2844.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">morphogenesis, this is a developmental application of its</text>
+<text x="400" y="2853.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core transcriptional co-activator function rather than a</text>
+<text x="400" y="2862.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primary role.</text>
+<rect x="395" y="12502.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12512.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12522.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="12531.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="12540.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="12549.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="12558.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="5927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Additional evidence for beta-catenin's core role in</text>
+<text x="400" y="5956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulating cell proliferation. In intestinal crypts,</text>
+<text x="400" y="5965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin/TCF complexes drive expression of genes</text>
+<text x="400" y="5974.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">maintaining the proliferative progenitor state.</text>
+<rect x="395" y="9782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="9811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="9820.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="9829.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="9838.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="9927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="9956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="9965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="9974.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="9983.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="11462.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11472.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Anterior-posterior axis specification is a fundamental</text>
+<text x="400" y="11491.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">embryonic patterning process that directly requires</text>
+<text x="400" y="11500.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's transcriptional co-activator function.</text>
+<text x="400" y="11509.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Beta-catenin/TCF complexes activate organizer genes</text>
+<text x="400" y="11518.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for axis formation. This is a core developmental</text>
+<text x="400" y="11527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">role.</text>
+<rect x="395" y="11607.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11617.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Dorsal/ventral axis specification is another fundamental</text>
+<text x="400" y="11636.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">patterning process requiring beta-catenin. Through Wnt</text>
+<text x="400" y="11645.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling, beta-catenin establishes positional information</text>
+<text x="400" y="11654.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for proper embryonic organization. This is a</text>
+<text x="400" y="11663.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core developmental function directly mediated by its</text>
+<text x="400" y="11672.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional role.</text>
+<rect x="395" y="11752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Pattern formation is a core developmental process directly</text>
+<text x="400" y="11781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mediated by beta-catenin's transcriptional co-activator</text>
+<text x="400" y="11790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. Beta-catenin/Wnt signaling establishes</text>
+<text x="400" y="11799.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">positional information and regional identity essential for</text>
+<text x="400" y="11808.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proper tissue organization.</text>
+<rect x="395" y="11897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="11926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="11935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="11944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="11953.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="6217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="6246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="6255.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="6264.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="6273.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="10072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="10101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="10110.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="10119.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="10128.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="10362.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10372.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="10391.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="10400.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="10409.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="10418.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="10507.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10517.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">EMT regulation is a well-established function of</text>
+<text x="400" y="10536.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin through Wnt signaling. Beta-catenin/TCF</text>
+<text x="400" y="10545.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complexes directly activate EMT-inducing transcription</text>
+<text x="400" y="10554.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">factors. This is important in both development and cancer</text>
+<text x="400" y="10563.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">progression.</text>
+<rect x="395" y="2942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="2971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="2980.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="2989.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="2998.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="3087.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3097.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="3116.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="3125.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="3134.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="3143.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="6362.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6372.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="6391.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="6400.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="6409.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="6418.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="12042.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12052.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12062.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="12071.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="12080.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="12089.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="12098.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="6507.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6517.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6527.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="6536.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="6545.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="6554.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="6563.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="6652.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6662.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6672.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell differentiation is a fundamental process regulated by</text>
+<text x="400" y="6681.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin through Wnt signaling. As a transcriptional</text>
+<text x="400" y="6690.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">co-activator, beta-catenin controls expression of</text>
+<text x="400" y="6699.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">differentiation genes and cell fate determinants. This is</text>
+<text x="400" y="6708.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a core biological function directly mediated by its</text>
+<text x="400" y="6717.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling role.</text>
+<rect x="395" y="6797.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6807.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6817.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="6826.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="6835.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="6844.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="6853.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="6942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="6971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="6980.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="6989.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="6998.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="3232.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3242.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Lung development is an organ-specific process utilizing</text>
+<text x="400" y="3261.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">beta-catenin's Wnt signaling function. While essential for</text>
+<text x="400" y="3270.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">proper lung morphogenesis and cell fate decisions, this</text>
+<text x="400" y="3279.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents tissue-specific application of its core</text>
+<text x="400" y="3288.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional co-activator role.</text>
+<rect x="395" y="7087.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7097.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="7116.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="7125.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="7134.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="7143.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="7232.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7242.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="7261.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="7270.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="7279.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="7288.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="3377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="3406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="3415.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="3424.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="3433.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="7377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="7406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="7415.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="7424.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="7433.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="7522.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7532.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="7551.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="7560.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="7569.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="7578.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="7667.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7677.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7687.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="7696.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="7705.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="7714.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="7723.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="10942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a downstream developmental or cellular</text>
+<text x="400" y="10971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">process that utilizes beta-catenin's core molecular</text>
+<text x="400" y="10980.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions (adhesion and/or transcriptional co-activation)</text>
+<text x="400" y="10989.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in a tissue- or context-specific manner rather than being</text>
+<text x="400" y="10998.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">a primary function of the protein itself.</text>
+<rect x="395" y="11087.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11097.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11107.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Telomerase regulation is a specialized function in stem</text>
+<text x="400" y="11116.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cells and cancer cells. While beta-catenin can regulate</text>
+<text x="400" y="11125.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TERT expression through Wnt signaling, this represents a</text>
+<text x="400" y="11134.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific transcriptional target rather than a core</text>
+<text x="400" y="11143.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function of the protein.</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[28463231]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Disruption of lineage specification in adult pulmonary mesenchymal</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">progenitor cells promotes microvascular dysfunction</text>
+<rect x="1030" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="1035" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="4345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15866163]</text>
+<text x="705" y="4363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Canonical Wnt/beta-catenin signaling prevents osteoblasts from</text>
+<text x="705" y="4372" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiating into chondrocytes</text>
+<rect x="1030" y="4345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="4363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="4372" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="1035" y="4381" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development</text>
+<rect x="700" y="7910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19619491]</text>
+<text x="705" y="7928" font-size="8" font-family="Arial, sans-serif" fill="#212121">Reciprocal requirements for EDA/EDAR/NF-kappaB and Wnt/beta-catenin</text>
+<text x="705" y="7937" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathways in hair follicle induction</text>
+<rect x="1030" y="7910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="7920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="7928" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="7937" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway</text>
+<rect x="700" y="3765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16102745]</text>
+<text x="705" y="3783" font-size="8" font-family="Arial, sans-serif" fill="#212121">Conditional loss of beta-catenin in the presumptive lens does not</text>
+<text x="705" y="3792" font-size="8" font-family="Arial, sans-serif" fill="#212121">perturb the normal sequential appearance of lens fate markers but</text>
+<text x="705" y="3801" font-size="8" font-family="Arial, sans-serif" fill="#212121">results in a dramatic failure of the coordinated epithelial cell</text>
+<text x="705" y="3810" font-size="8" font-family="Arial, sans-serif" fill="#212121">behavior that constitutes lens morphogenesis</text>
+<rect x="1030" y="3765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="3775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="3783" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is a key cytoplasmic component of the cadherin-catenin</text>
+<text x="1035" y="3792" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex at adherens junctions, linking the cytoplasmic tail of</text>
+<text x="1035" y="3801" font-size="8" font-family="Arial, sans-serif" fill="#212121">E-cadherin to alpha-catenin and the actin cytoskeleton ... This</text>
+<text x="1035" y="3810" font-size="8" font-family="Arial, sans-serif" fill="#212121">linkage is crucial for the adhesive function of classical cadherins</text>
+<text x="1035" y="3819" font-size="8" font-family="Arial, sans-serif" fill="#212121">in forming stable cell-cell contacts in epithelial and other tissues</text>
+<rect x="700" y="2230" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2240" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="2248" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="2257" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="2266" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="950" y="3910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="3920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="955" y="3928" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the nucleus, beta-catenin acts as a co-activator for TCF/LEF</text>
+<text x="955" y="3937" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factors, forming a transcriptional complex that drives</text>
+<text x="955" y="3946" font-size="8" font-family="Arial, sans-serif" fill="#212121">expression of Wnt target genes</text>
+<rect x="700" y="8055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16040629]</text>
+<text x="705" y="8073" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin regulates differentiation of respiratory epithelial</text>
+<text x="705" y="8082" font-size="8" font-family="Arial, sans-serif" fill="#212121">cells in vivo</text>
+<rect x="1030" y="8055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="8065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="8073" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the nucleus, beta-catenin acts as a co-activator for TCF/LEF</text>
+<text x="1035" y="8082" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factors</text>
+<rect x="700" y="8200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16478791]</text>
+<text x="705" y="8218" font-size="8" font-family="Arial, sans-serif" fill="#212121">APC inhibits ERK pathway activation and cellular proliferation</text>
+<text x="705" y="8227" font-size="8" font-family="Arial, sans-serif" fill="#212121">induced by RAS</text>
+<rect x="1030" y="8200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="8210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="8218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="8227" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway</text>
+<rect x="700" y="11330" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11340" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9230313]</text>
+<text x="705" y="11348" font-size="8" font-family="Arial, sans-serif" fill="#212121">The mouse Fused locus encodes Axin, an inhibitor of the Wnt</text>
+<text x="705" y="11357" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway that regulates embryonic axis formation</text>
+<rect x="1030" y="11330" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="11340" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="11348" font-size="8" font-family="Arial, sans-serif" fill="#212121">During embryogenesis, beta-catenin is required for processes such as</text>
+<text x="1035" y="11357" font-size="8" font-family="Arial, sans-serif" fill="#212121">embryonic morphogenesis and axis specification, as initially shown</text>
+<text x="1035" y="11366" font-size="8" font-family="Arial, sans-serif" fill="#212121">by studies in model organisms where ectopic beta-catenin can induce</text>
+<text x="1035" y="11375" font-size="8" font-family="Arial, sans-serif" fill="#212121">a secondary body axis</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16102745]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Conditional loss of beta-catenin in the presumptive lens does not</text>
+<text x="705" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">perturb the normal sequential appearance of lens fate markers but</text>
+<text x="705" y="526" font-size="8" font-family="Arial, sans-serif" fill="#212121">results in a dramatic failure of the coordinated epithelial cell</text>
+<text x="705" y="535" font-size="8" font-family="Arial, sans-serif" fill="#212121">behavior that constitutes lens morphogenesis</text>
+<rect x="1030" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is a key cytoplasmic component of the cadherin-catenin</text>
+<text x="1035" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex at adherens junctions</text>
+<rect x="700" y="635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15866163]</text>
+<text x="705" y="653" font-size="8" font-family="Arial, sans-serif" fill="#212121">Canonical Wnt/beta-catenin signaling prevents osteoblasts from</text>
+<text x="705" y="662" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiating into chondrocytes</text>
+<rect x="1030" y="635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="653" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin activity influences processes like cell proliferation</text>
+<text x="1035" y="662" font-size="8" font-family="Arial, sans-serif" fill="#212121">and differentiation</text>
+<rect x="700" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19154719]</text>
+<text x="705" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">Nrarp coordinates endothelial Notch and Wnt signaling to control</text>
+<text x="705" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">vessel density in angiogenesis</text>
+<rect x="1030" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway</text>
+<rect x="700" y="4055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18231602]</text>
+<text x="705" y="4073" font-size="8" font-family="Arial, sans-serif" fill="#212121">Formation and differentiation of multiple mesenchymal lineages</text>
+<text x="705" y="4082" font-size="8" font-family="Arial, sans-serif" fill="#212121">during lung development is regulated by beta-catenin signaling</text>
+<rect x="1030" y="4055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="4073" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin activity influences processes like cell proliferation</text>
+<text x="1035" y="4082" font-size="8" font-family="Arial, sans-serif" fill="#212121">and differentiation</text>
+<rect x="700" y="4200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15866163]</text>
+<text x="705" y="4218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Canonical Wnt/beta-catenin signaling prevents osteoblasts from</text>
+<text x="705" y="4227" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiating into chondrocytes</text>
+<rect x="1030" y="4200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="4218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin activity influences processes like cell proliferation</text>
+<text x="1035" y="4227" font-size="8" font-family="Arial, sans-serif" fill="#212121">and differentiation</text>
+<rect x="700" y="1070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17537789]</text>
+<text x="705" y="1088" font-size="8" font-family="Arial, sans-serif" fill="#212121">Wnt/beta-catenin signaling regulates nephron induction during mouse</text>
+<text x="705" y="1097" font-size="8" font-family="Arial, sans-serif" fill="#212121">kidney development</text>
+<rect x="1030" y="1070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="1088" font-size="8" font-family="Arial, sans-serif" fill="#212121">In organ development, beta-catenin plays essential roles... in the</text>
+<text x="1035" y="1097" font-size="8" font-family="Arial, sans-serif" fill="#212121">formation of organs like the kidney</text>
+<rect x="700" y="1360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19204372]</text>
+<text x="705" y="1378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Both the RGS domain and the six C-terminal amino acids of mouse Axin</text>
+<text x="705" y="1387" font-size="8" font-family="Arial, sans-serif" fill="#212121">are required for normal embryogenesis</text>
+<rect x="1030" y="1360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="1378" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the absence of Wnt signal, free beta-catenin... is phosphorylated</text>
+<text x="1035" y="1387" font-size="8" font-family="Arial, sans-serif" fill="#212121">on N-terminal serine/threonine residues by a 'destruction complex'</text>
+<text x="1035" y="1396" font-size="8" font-family="Arial, sans-serif" fill="#212121">consisting of AXIN, APC, casein kinase 1, and GSK3β</text>
+<rect x="700" y="1505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8582267]</text>
+<text x="705" y="1523" font-size="8" font-family="Arial, sans-serif" fill="#212121">beta-Catenin null-mutant embryos formed blastocysts, implanted and</text>
+<text x="705" y="1532" font-size="8" font-family="Arial, sans-serif" fill="#212121">developed into egg-cylinder-stage embryos. At day 7 post coitum, the</text>
+<text x="705" y="1541" font-size="8" font-family="Arial, sans-serif" fill="#212121">development of the embryonic ectoderm was affected in mutant</text>
+<text x="705" y="1550" font-size="8" font-family="Arial, sans-serif" fill="#212121">embryos. Cells detached from the ectodermal cell layer and were</text>
+<text x="705" y="1559" font-size="8" font-family="Arial, sans-serif" fill="#212121">dispersed into the proamniotic cavity. No mesoderm formation was</text>
+<text x="705" y="1568" font-size="8" font-family="Arial, sans-serif" fill="#212121">observed in mutant embryos</text>
+<rect x="1030" y="1505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="1523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Germline knockout of Ctnnb1 in mice is embryonic lethal – embryos</text>
+<text x="1035" y="1532" font-size="8" font-family="Arial, sans-serif" fill="#212121">lacking beta-catenin cannot complete pre-implantation development</text>
+<text x="1035" y="1541" font-size="8" font-family="Arial, sans-serif" fill="#212121">properly</text>
+<rect x="700" y="1795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[23824574]</text>
+<text x="705" y="1813" font-size="8" font-family="Arial, sans-serif" fill="#212121">Wnt/β-catenin signalling regulates Sox17 expression and is essential</text>
+<text x="705" y="1822" font-size="8" font-family="Arial, sans-serif" fill="#212121">for organizer and endoderm formation in the mouse</text>
+<rect x="1030" y="1795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="1813" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the nucleus, beta-catenin acts as a co-activator for TCF/LEF</text>
+<text x="1035" y="1822" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factors, forming a transcriptional complex that drives</text>
+<text x="1035" y="1831" font-size="8" font-family="Arial, sans-serif" fill="#212121">expression of Wnt target genes</text>
+<rect x="700" y="4490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12194849]</text>
+<text x="705" y="4508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Formation of multiple hearts in mice following deletion of</text>
+<text x="705" y="4517" font-size="8" font-family="Arial, sans-serif" fill="#212121">beta-catenin in the embryonic endoderm</text>
+<rect x="1030" y="4490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="4500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="4508" font-size="8" font-family="Arial, sans-serif" fill="#212121">During embryogenesis, beta-catenin is required for processes such as</text>
+<text x="1035" y="4517" font-size="8" font-family="Arial, sans-serif" fill="#212121">embryonic morphogenesis and axis specification</text>
+<rect x="700" y="4635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="4653" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="4662" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="4671" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="1940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17537789]</text>
+<text x="705" y="1958" font-size="8" font-family="Arial, sans-serif" fill="#212121">Wnt/beta-catenin signaling regulates nephron induction during mouse</text>
+<text x="705" y="1967" font-size="8" font-family="Arial, sans-serif" fill="#212121">kidney development</text>
+<rect x="1030" y="1940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="1950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="1958" font-size="8" font-family="Arial, sans-serif" fill="#212121">In organ development, beta-catenin plays essential roles; for</text>
+<text x="1035" y="1967" font-size="8" font-family="Arial, sans-serif" fill="#212121">instance, it functions in nervous system development and the</text>
+<text x="1035" y="1976" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulation of neurogenesis, as well as in the formation of organs</text>
+<text x="1035" y="1985" font-size="8" font-family="Arial, sans-serif" fill="#212121">like the kidney, lungs, and limbs</text>
+<rect x="700" y="2085" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2095" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="2103" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="2112" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="2121" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="12285" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12295" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="12303" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="12312" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="12321" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="8345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="8363" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="8372" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="8381" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="8635" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8645" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="8653" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="8662" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="8671" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="4925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="4943" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="4952" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="4961" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="2375" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2385" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="2393" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="2402" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="2411" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="8780" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8790" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="8798" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="8807" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="8816" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="2520" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2530" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="2538" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="2547" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="2556" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="8925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="8935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="8943" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="8952" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="8961" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="950" y="5070" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="5080" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="955" y="5088" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the nucleus, beta-catenin acts as a co-activator for TCF/LEF</text>
+<text x="955" y="5097" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factors, forming a transcriptional complex that drives</text>
+<text x="955" y="5106" font-size="8" font-family="Arial, sans-serif" fill="#212121">expression of Wnt target genes</text>
+<rect x="700" y="9360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="9378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="9387" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="9396" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="5215" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5225" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15907834]</text>
+<text x="705" y="5233" font-size="8" font-family="Arial, sans-serif" fill="#212121">Wnt/beta-catenin signaling acts upstream of N-myc, BMP4, and FGF</text>
+<text x="705" y="5242" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling to regulate proximal-distal patterning in the lung</text>
+<rect x="1030" y="5215" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="5225" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="5233" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the nucleus, beta-catenin acts as a co-activator for TCF/LEF</text>
+<text x="1035" y="5242" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcription factors, forming a transcriptional complex that drives</text>
+<text x="1035" y="5251" font-size="8" font-family="Arial, sans-serif" fill="#212121">expression of Wnt target genes</text>
+<rect x="700" y="5360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="5378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is a key cytoplasmic component of the cadherin-catenin</text>
+<text x="705" y="5387" font-size="8" font-family="Arial, sans-serif" fill="#212121">complex at adherens junctions, linking the cytoplasmic tail of</text>
+<text x="705" y="5396" font-size="8" font-family="Arial, sans-serif" fill="#212121">E-cadherin to alpha-catenin and the actin cytoskeleton</text>
+<rect x="1030" y="5360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="5370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15131783]</text>
+<text x="1035" y="5378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Inducible Cre-mediated control of gene expression in the murine</text>
+<text x="1035" y="5387" font-size="8" font-family="Arial, sans-serif" fill="#212121">gastrointestinal tract: effect of loss of beta-catenin</text>
+<rect x="700" y="9505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19619491]</text>
+<text x="705" y="9523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Reciprocal requirements for EDA/EDAR/NF-kappaB and Wnt/beta-catenin</text>
+<text x="705" y="9532" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathways in hair follicle induction</text>
+<rect x="1030" y="9505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="9515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="9523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="9532" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway</text>
+<rect x="700" y="9650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[14622577]</text>
+<text x="705" y="9668" font-size="8" font-family="Arial, sans-serif" fill="#212121">Role of beta-catenin in synaptic vesicle localization and</text>
+<text x="705" y="9677" font-size="8" font-family="Arial, sans-serif" fill="#212121">presynaptic assembly</text>
+<rect x="1030" y="9650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="9660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="9668" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin has been observed in specific subcellular structures...</text>
+<text x="1035" y="9677" font-size="8" font-family="Arial, sans-serif" fill="#212121">including the postsynaptic density and synaptic membranes in</text>
+<text x="1035" y="9686" font-size="8" font-family="Arial, sans-serif" fill="#212121">hippocampal neurons</text>
+<rect x="700" y="2665" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2675" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8582267]</text>
+<text x="705" y="2683" font-size="8" font-family="Arial, sans-serif" fill="#212121">At day 7 post coitum, the development of the embryonic ectoderm was</text>
+<text x="705" y="2692" font-size="8" font-family="Arial, sans-serif" fill="#212121">affected in mutant embryos. Cells detached from the ectodermal cell</text>
+<text x="705" y="2701" font-size="8" font-family="Arial, sans-serif" fill="#212121">layer and were dispersed into the proamniotic cavity</text>
+<rect x="1030" y="2665" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="2675" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="2683" font-size="8" font-family="Arial, sans-serif" fill="#212121">Our results demonstrate that, although beta-catenin is expressed</text>
+<text x="1035" y="2692" font-size="8" font-family="Arial, sans-serif" fill="#212121">rather ubiquitously, it is specifically required in the ectodermal</text>
+<text x="1035" y="2701" font-size="8" font-family="Arial, sans-serif" fill="#212121">cell layer</text>
+<rect x="700" y="5505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[17706960]</text>
+<text x="705" y="5523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Persistent expression of stabilized beta-catenin delays maturation</text>
+<text x="705" y="5532" font-size="8" font-family="Arial, sans-serif" fill="#212121">of radial glial cells into intermediate progenitors</text>
+<rect x="1030" y="5505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="5515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="5523" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin plays essential roles... in nervous system development</text>
+<text x="1035" y="5532" font-size="8" font-family="Arial, sans-serif" fill="#212121">and the regulation of neurogenesis</text>
+<rect x="700" y="5650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="5668" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="5677" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="5686" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="2810" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2820" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12464179]</text>
+<text x="705" y="2828" font-size="8" font-family="Arial, sans-serif" fill="#212121">Identification of a Wnt/Dvl/beta-Catenin --&gt; Pitx2 pathway mediating</text>
+<text x="705" y="2837" font-size="8" font-family="Arial, sans-serif" fill="#212121">cell-type-specific proliferation during development</text>
+<rect x="1030" y="2810" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="2820" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="2828" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin activity influences processes like cell proliferation</text>
+<text x="1035" y="2837" font-size="8" font-family="Arial, sans-serif" fill="#212121">and differentiation</text>
+<rect x="700" y="12515" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12525" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="12533" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="12542" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="12551" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="5940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15131783]</text>
+<text x="705" y="5958" font-size="8" font-family="Arial, sans-serif" fill="#212121">Inducible Cre-mediated control of gene expression in the murine</text>
+<text x="705" y="5967" font-size="8" font-family="Arial, sans-serif" fill="#212121">gastrointestinal tract: effect of loss of beta-catenin</text>
+<rect x="1030" y="5940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="5950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="5958" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is highly expressed in self-renewing and progenitor</text>
+<text x="1035" y="5967" font-size="8" font-family="Arial, sans-serif" fill="#212121">cell populations – for instance, in the intestinal epithelium, which</text>
+<text x="1035" y="5976" font-size="8" font-family="Arial, sans-serif" fill="#212121">has a high turnover, beta-catenin is expressed in crypt progenitor</text>
+<text x="1035" y="5985" font-size="8" font-family="Arial, sans-serif" fill="#212121">cells where Wnt signaling actively drives proliferation</text>
+<rect x="700" y="9795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="9813" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="9822" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="9831" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="9940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="9958" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="9967" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="9976" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="11475" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11485" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10662781]</text>
+<text x="705" y="11493" font-size="8" font-family="Arial, sans-serif" fill="#212121">Requirement for beta-catenin in anterior-posterior axis formation in</text>
+<text x="705" y="11502" font-size="8" font-family="Arial, sans-serif" fill="#212121">mice</text>
+<rect x="1030" y="11475" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="11485" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="11493" font-size="8" font-family="Arial, sans-serif" fill="#212121">During embryogenesis, beta-catenin is required for processes such as</text>
+<text x="1035" y="11502" font-size="8" font-family="Arial, sans-serif" fill="#212121">embryonic morphogenesis and axis specification, as initially shown</text>
+<text x="1035" y="11511" font-size="8" font-family="Arial, sans-serif" fill="#212121">by studies in model organisms where ectopic beta-catenin can induce</text>
+<text x="1035" y="11520" font-size="8" font-family="Arial, sans-serif" fill="#212121">a secondary body axis</text>
+<rect x="700" y="11620" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11630" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12923052]</text>
+<text x="705" y="11638" font-size="8" font-family="Arial, sans-serif" fill="#212121">Genetic interaction between Wnt/beta-catenin and BMP receptor</text>
+<text x="705" y="11647" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling during formation of the AER and the dorsal-ventral axis in</text>
+<text x="705" y="11656" font-size="8" font-family="Arial, sans-serif" fill="#212121">the limb</text>
+<rect x="1030" y="11620" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="11630" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="11638" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin is required for processes such as embryonic</text>
+<text x="1035" y="11647" font-size="8" font-family="Arial, sans-serif" fill="#212121">morphogenesis and axis specification</text>
+<rect x="700" y="11765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[15708565]</text>
+<text x="705" y="11783" font-size="8" font-family="Arial, sans-serif" fill="#212121">Effects of canonical Wnt signaling on dorso-ventral specification of</text>
+<text x="705" y="11792" font-size="8" font-family="Arial, sans-serif" fill="#212121">the mouse telencephalon</text>
+<rect x="1030" y="11765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="11775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="11783" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="11792" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="1035" y="11801" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development</text>
+<rect x="700" y="11910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="11928" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="11937" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="11946" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="6230" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6240" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="6248" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="6257" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="6266" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="10085" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10095" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="10103" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="10112" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="10121" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="10375" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10385" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="10393" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="10402" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="10411" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="10520" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10530" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="10538" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin has been implicated in epithelial-to-mesenchymal</text>
+<text x="705" y="10547" font-size="8" font-family="Arial, sans-serif" fill="#212121">transition (EMT), a process important in development and cancer</text>
+<text x="705" y="10556" font-size="8" font-family="Arial, sans-serif" fill="#212121">metastasis (consistent with its Wnt signaling function)</text>
+<rect x="1030" y="10520" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="10530" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[GO:0000008]</text>
+<text x="1035" y="10538" font-size="8" font-family="Arial, sans-serif" fill="#212121">Gene Ontology annotation by the MGI curatorial staff, curated</text>
+<text x="1035" y="10547" font-size="8" font-family="Arial, sans-serif" fill="#212121">orthology</text>
+<rect x="700" y="2955" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2965" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="2973" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="2982" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="2991" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="3100" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3110" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="3118" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="3127" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="3136" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="6375" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6385" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="6393" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="6402" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="6411" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="12055" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12065" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="12073" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="12082" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="12091" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="6520" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6530" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="6538" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="6547" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="6556" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="6665" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6675" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16102745]</text>
+<text x="705" y="6683" font-size="8" font-family="Arial, sans-serif" fill="#212121">The duality of beta-catenin function: a requirement in lens</text>
+<text x="705" y="6692" font-size="8" font-family="Arial, sans-serif" fill="#212121">morphogenesis and signaling suppression of lens fate in periocular</text>
+<text x="705" y="6701" font-size="8" font-family="Arial, sans-serif" fill="#212121">ectoderm</text>
+<rect x="1030" y="6665" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="6675" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="6683" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="1035" y="6692" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="1035" y="6701" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development</text>
+<rect x="700" y="6810" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6820" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="6828" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="6837" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="6846" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="6955" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="6965" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="6973" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="6982" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="6991" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="3245" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3255" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12885771]</text>
+<text x="705" y="3263" font-size="8" font-family="Arial, sans-serif" fill="#212121">beta-Catenin is required for specification of proximal/distal cell</text>
+<text x="705" y="3272" font-size="8" font-family="Arial, sans-serif" fill="#212121">fate during lung morphogenesis</text>
+<rect x="1030" y="3245" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="3255" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="3263" font-size="8" font-family="Arial, sans-serif" fill="#212121">In organ development, beta-catenin plays essential roles... in the</text>
+<text x="1035" y="3272" font-size="8" font-family="Arial, sans-serif" fill="#212121">formation of organs like the kidney, lungs, and limbs</text>
+<rect x="700" y="7100" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7110" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="7118" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="7127" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="7136" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="7245" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7255" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="7263" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="7272" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="7281" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="3390" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3400" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="3408" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="3417" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="3426" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="7390" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7400" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="7408" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="7417" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="7426" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="7535" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7545" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="7553" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="7562" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="7571" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="7680" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="7690" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="7698" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="7707" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="7716" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="10955" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10965" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="705" y="10973" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin also serves as a central effector in the canonical Wnt</text>
+<text x="705" y="10982" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling pathway, which controls cell proliferation,</text>
+<text x="705" y="10991" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation, and fate during development and tissue homeostasis</text>
+<rect x="700" y="11100" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11110" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22723415]</text>
+<text x="705" y="11118" font-size="8" font-family="Arial, sans-serif" fill="#212121">Wnt/β-catenin signaling regulates telomerase in stem cells and</text>
+<text x="705" y="11127" font-size="8" font-family="Arial, sans-serif" fill="#212121">cancer cells</text>
+<rect x="1030" y="11100" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="11110" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:mouse/Ctnnb1/Ct...]</text>
+<text x="1035" y="11118" font-size="8" font-family="Arial, sans-serif" fill="#212121">Beta-catenin/TCF complexes directly activate transcription of</text>
+<text x="1035" y="11127" font-size="8" font-family="Arial, sans-serif" fill="#212121">specific target genes</text>
+<rect x="600.0" y="12810" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="12845.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="12845.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

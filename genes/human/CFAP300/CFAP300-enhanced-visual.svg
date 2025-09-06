@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1600" height="935" viewBox="0 0 1600 935">
+<defs>
+</defs>
+<rect x="0" y="0" width="1600" height="935" fill="#f5f5f5" />
+<text x="800.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: CFAP300 (Homo sapiens)</text>
+<rect x="40" y="100" width="1520" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="345" width="1520" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="367.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="200" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="14" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="400" width="200" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="421.5" font-size="14" font-family="Arial, sans-serif" fill="#212121">anatomical entity</text>
+<rect x="80" y="200" width="180" height="40" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="215" font-size="11" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="230" font-size="12" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<rect x="80" y="445" width="180" height="40" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="460" font-size="11" font-family="monospace" fill="#666666">GO:0005737</text>
+<text x="85" y="475" font-size="12" font-family="Arial, sans-serif" fill="#212121">cytoplasm</text>
+<rect x="80" y="500" width="180" height="40" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="515" font-size="11" font-family="monospace" fill="#666666">GO:0005856</text>
+<text x="85" y="530" font-size="12" font-family="Arial, sans-serif" fill="#212121">cytoskeleton</text>
+<rect x="80" y="555" width="180" height="40" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="570" font-size="11" font-family="monospace" fill="#666666">GO:0031514</text>
+<text x="85" y="585" font-size="12" font-family="Arial, sans-serif" fill="#212121">motile cilium</text>
+<rect x="80" y="610" width="180" height="40" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="625" font-size="11" font-family="monospace" fill="#666666">GO:0042995</text>
+<text x="85" y="640" font-size="12" font-family="Arial, sans-serif" fill="#212121">cell projection</text>
+<path d="M260,220.0 L360,220.0" stroke="#ff9800" stroke-width="2" />
+<path d="M360,220.0 L352,216.0 L352,224.0 Z" fill="#ff9800" />
+<rect x="360" y="200" width="180" height="40" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="365" y="215" font-size="11" font-family="monospace" fill="#666666">GO:0030674</text>
+<text x="365" y="230" font-size="12" font-family="Arial, sans-serif" fill="#212121">protein-macromolecu...</text>
+<rect x="360" y="500" width="180" height="40" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="365" y="515" font-size="11" font-family="monospace" fill="#666666">GO:0005930</text>
+<text x="365" y="530" font-size="12" font-family="Arial, sans-serif" fill="#212121">axoneme</text>
+<path d="M312,465.0 L317,470.0 L328,457.0" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M260,520.0 L360,520.0" stroke="#ff9800" stroke-width="2" />
+<path d="M360,520.0 L352,516.0 L352,524.0 Z" fill="#ff9800" />
+<rect x="360" y="200" width="180" height="40" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="365" y="215" font-size="11" font-family="monospace" fill="#666666">GO:0030674</text>
+<text x="365" y="230" font-size="12" font-family="Arial, sans-serif" fill="#212121">protein-macromolecu...</text>
+<rect x="360" y="500" width="180" height="40" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="365" y="515" font-size="11" font-family="monospace" fill="#666666">GO:0005930</text>
+<text x="365" y="530" font-size="12" font-family="Arial, sans-serif" fill="#212121">axoneme</text>
+<path d="M312,575.0 L317,580.0 L328,567.0" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M312,622.0 L328,638.0" stroke="#f44336" stroke-width="3" />
+<path d="M312,638.0 L328,622.0" stroke="#f44336" stroke-width="3" />
+<rect x="590" y="190" width="250" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="595" y="202" font-size="10" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="595" y="218" font-size="10" font-family="Arial, sans-serif" fill="#212121">PMID:29727693 states "C11orf70</text>
+<text x="595" y="230" font-size="10" font-family="Arial, sans-serif" fill="#212121">shows an interaction with</text>
+<text x="595" y="242" font-size="10" font-family="Arial, sans-serif" fill="#212121">cytoplasmic ODA/IDA assembly factor</text>
+<rect x="370" y="435" width="250" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="375" y="447" font-size="10" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="375" y="463" font-size="10" font-family="Arial, sans-serif" fill="#212121">PMID:29727692 demonstrates that</text>
+<text x="375" y="475" font-size="10" font-family="Arial, sans-serif" fill="#212121">"Tagged C11orf70 in Paramecium and</text>
+<text x="375" y="487" font-size="10" font-family="Arial, sans-serif" fill="#212121">Chlamydomonas localizes mainly in</text>
+<rect x="590" y="490" width="250" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="595" y="502" font-size="10" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="595" y="518" font-size="10" font-family="Arial, sans-serif" fill="#212121">Too general - while technically</text>
+<text x="595" y="530" font-size="10" font-family="Arial, sans-serif" fill="#212121">correct that cilia are part of</text>
+<text x="595" y="542" font-size="10" font-family="Arial, sans-serif" fill="#212121">cytoskeleton, this annotation lacks</text>
+<rect x="370" y="545" width="250" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="375" y="557" font-size="10" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="375" y="573" font-size="10" font-family="Arial, sans-serif" fill="#212121">PMID:29727692 shows "Tagged</text>
+<text x="375" y="585" font-size="10" font-family="Arial, sans-serif" fill="#212121">C11orf70...localizes mainly in the</text>
+<text x="375" y="597" font-size="10" font-family="Arial, sans-serif" fill="#212121">cytoplasm with a small amount in</text>
+<rect x="370" y="600" width="250" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="375" y="612" font-size="10" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="375" y="628" font-size="10" font-family="Arial, sans-serif" fill="#212121">Uninformative and redundant with</text>
+<text x="375" y="640" font-size="10" font-family="Arial, sans-serif" fill="#212121">motile cilium annotation. Provides</text>
+<text x="375" y="652" font-size="10" font-family="Arial, sans-serif" fill="#212121">no functional insight and is too</text>
+<rect x="860" y="190" width="300" height="80" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="865" y="202" font-size="9" font-family="monospace" font-weight="bold" fill="#0288d1">[29727693]</text>
+<text x="865" y="218" font-size="9" font-family="Arial, sans-serif" fill="#212121">C11orf70 shows an interaction with</text>
+<text x="865" y="229" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytoplasmic ODA/IDA assembly factor</text>
+<text x="865" y="240" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNAAF2, supporting our hypothesis that</text>
+<text x="865" y="251" font-size="9" font-family="Arial, sans-serif" fill="#212121">C11orf70 is a preassembly factor involved</text>
+<rect x="500.0" y="795" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="520.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="540.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="615.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="635.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="710.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="730.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="805.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="825.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="900.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="920.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="995.0" y="830.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1015.0" y="830.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

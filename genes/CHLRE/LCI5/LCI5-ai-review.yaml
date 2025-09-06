@@ -1,0 +1,61 @@
+id: Q94ET8
+gene_symbol: LCI5
+taxon:
+  id: NCBITaxon:3055
+  label: Chlamydomonas reinhardtii
+description: Low-CO2-inducible protein 5, a chloroplast thylakoid-associated phosphoprotein that is strongly induced under carbon-limiting conditions as part of the carbon concentrating mechanism (CCM) in Chlamydomonas reinhardtii. While its precise molecular function remains unknown, LCI5 undergoes redox-dependent phosphorylation exclusively under low CO2 conditions and likely plays a regulatory or structural role in optimizing photosynthetic efficiency during carbon limitation.
+references:
+- id: PMID:16572472
+  title: CO2 limitation induces specific redox-dependent protein phosphorylation in Chlamydomonas reinhardtii
+  findings:
+  - statement: LCI5 undergoes redox-dependent phosphorylation under low CO2 conditions
+    supporting_text: occurred strictly at limiting CO2; it required reduction of electron carriers
+  - statement: LCI5 is localized to chloroplast thylakoid membrane on the stromal side
+    supporting_text: stromal side of the thylakoid membranes
+- id: PMID:18322145
+  title: Expression analysis of genes associated with the induction of the carbon-concentrating mechanism in Chlamydomonas reinhardtii
+  findings: []
+- id: PMID:33230314
+  title: The structural basis of Rubisco phase separation in the pyrenoid
+  findings: []
+- id: file:CHLRE/LCI5/LCI5-deep-research.md
+  title: Deep Research Report LCI5 (CHLRE)
+  findings:
+  - statement: LCI5 lacks known enzymatic domains and is an uncharacterized protein
+    supporting_text: precise molecular function remains unknown
+  - statement: LCI5 co-expressed with core CCM components
+    supporting_text: LCI5 clusters with Rubisco and other CCM-related proteins
+existing_annotations: []
+core_functions:
+- description: Undergoing redox-dependent phosphorylation to sense and respond to carbon limitation status
+  molecular_function:
+    id: GO:0004672
+    label: protein kinase activity
+    description: Note - LCI5 is the substrate not the kinase
+  directly_involved_in:
+  - id: GO:0071244
+    label: cellular response to carbon dioxide
+  - id: GO:0015976
+    label: carbon utilization
+  locations:
+  - id: GO:0009535
+    label: chloroplast thylakoid membrane
+  supported_by:
+  - reference_id: PMID:16572472
+    supporting_text: occurred strictly at limiting CO2; it required reduction of electron carriers
+- description: Contributing to carbon concentrating mechanism through regulatory or structural interactions
+  molecular_function:
+    id: GO:0005515
+    label: protein binding
+    description: Likely binds CCM components but specific partners unknown
+  directly_involved_in:
+  - id: GO:0015976
+    label: carbon utilization
+  - id: GO:0015979
+    label: photosynthesis
+  locations:
+  - id: GO:0009570
+    label: chloroplast stroma
+  supported_by:
+  - reference_id: file:CHLRE/LCI5/LCI5-deep-research.md
+    supporting_text: LCI5 clusters with Rubisco and other CCM-related proteins in co-expression

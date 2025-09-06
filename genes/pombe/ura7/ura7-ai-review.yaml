@@ -1,0 +1,291 @@
+id: O42644
+gene_symbol: ura7
+taxon:
+  id: NCBITaxon:4896
+  label: Schizosaccharomyces pombe
+description: 'CTP synthase enzyme that catalyzes the ATP-dependent amination of UTP to CTP using glutamine as nitrogen donor. Essential enzyme required for de novo CTP biosynthesis and cell viability. Forms characteristic cytoophidium filamentous structures that are temperature-sensitive and dynamically regulated during cell cycle.'
+existing_annotations:
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Cytoplasm localization well-supported by phylogenetic analysis (IBA). The deep research confirms Cts1 is predominantly cytosolic, existing as both diffuse pool and organized filaments. This represents accurate core localization.'
+    action: ACCEPT
+    reason: 'IBA evidence correctly identifies cytoplasmic localization. Deep research corroborates that Cts1 functions as a cytosolic enzyme for CTP synthesis. This is a core cellular component annotation.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'Cts1 is predominantly a cytosolic enzyme, consistent with its role in nucleotide biosynthesis in the cytoplasm'
+- term:
+    id: GO:0042802
+    label: identical protein binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'CTP synthase forms homotetramers as the active enzyme form, which can further polymerize into filaments. This protein-protein interaction is essential for enzymatic function and represents a core molecular property.'
+    action: ACCEPT
+    reason: 'The homotetramer formation is well-established for CTP synthase enzymes across species. This self-association is required for catalytic activity and is a fundamental aspect of enzyme function.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'Functionally, Cts1 operates as a homotetramer. Four identical Cts1 subunits assemble into a ring-shaped tetramer, which is the active form needed for catalysis'
+- term:
+    id: GO:0003883
+    label: CTP synthase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'CTP synthase activity is the defining molecular function of this enzyme. IBA correctly identifies this core function based on phylogenetic conservation. Enzyme catalyzes ATP + UTP + glutamine → CTP + ADP + phosphate + glutamate.'
+    action: ACCEPT
+    reason: 'This is the primary and essential molecular function of ura7/cts1. The enzyme is well-characterized biochemically across species. This annotation accurately captures the core catalytic activity.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'CTP synthase catalyzes the ATP-dependent amination of UTP to form CTP, using L-glutamine as the nitrogen donor... This reaction represents the final and rate-limiting step in de novo CTP biosynthesis'
+- term:
+    id: GO:0006241
+    label: CTP biosynthetic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'CTP biosynthetic process is the primary biological function of CTP synthase. The enzyme catalyzes the final step of de novo CTP synthesis, converting UTP to CTP. Essential for cell viability as deletion is lethal.'
+    action: ACCEPT
+    reason: 'This accurately describes the core biological process mediated by ura7/cts1. The enzyme is essential for CTP production required for nucleic acid synthesis and cell proliferation. Well-supported by phylogenetic and functional evidence.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'As the sole CTP synthase in fission yeast, Cts1 is essential for pyrimidine nucleotide biosynthesis. It enables the de novo CTP biosynthetic process (GO:0006241) by producing CTP from UTP'
+- term:
+    id: GO:0097268
+    label: cytoophidium
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Cytoophidium formation is well-established for CTP synthase. IBA correctly predicts this based on conservation across species. Direct experimental evidence also exists showing temperature-sensitive cytoophidium assembly in S. pombe.'
+    action: ACCEPT
+    reason: 'Cytoophidium formation is a conserved feature of CTP synthase enzymes. Both phylogenetic inference and direct experimental evidence (PMID:31611173) confirm Cts1 forms these filamentous structures in S. pombe.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'Cts1 exhibits a remarkable ability to assemble into filamentous subcellular structures called cytoophidia... Each fission yeast cell generally contains two Cts1 filaments: a long, thick cytoophidium in the cytoplasm and a shorter, thinner filament associated with the nucleus'
+- term:
+    id: GO:0019856
+    label: pyrimidine nucleobase biosynthetic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'This term is broader than CTP biosynthesis, encompassing pyrimidine nucleobase production. While CTP synthase contributes to pyrimidine metabolism, this annotation is somewhat imprecise as the enzyme works with nucleotides, not nucleobases directly.'
+    action: MODIFY
+    reason: 'CTP synthase converts UTP to CTP (nucleotide to nucleotide conversion), not directly involved in nucleobase synthesis. The more accurate term would be GO:0006221 (pyrimidine nucleotide biosynthetic process) which correctly describes nucleotide-level metabolism.'
+    proposed_replacement_terms: 
+      - id: GO:0006221
+        label: pyrimidine nucleotide biosynthetic process
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'As the enzyme governing CTP levels, Cts1 plays a role in the broader metabolism of pyrimidine nucleotides within the cell'
+- term:
+    id: GO:0003883
+    label: CTP synthase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate annotation of CTP synthase activity with IEA evidence. The IBA annotation above already correctly captures this core function with stronger evidence. IEA provides supporting computational evidence.'
+    action: ACCEPT
+    reason: 'While duplicative with the IBA annotation, this IEA annotation correctly identifies the core molecular function through automated methods. Both annotations are accurate and reinforce the primary enzyme activity.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'CTP synthase activity (GO:0003883) – Cts1 catalyzes the reaction ATP + UTP + glutamine + H₂O → CTP + ADP + phosphate + glutamate'
+- term:
+    id: GO:0006221
+    label: pyrimidine nucleotide biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Accurate broad biological process annotation. CTP synthase contributes to pyrimidine nucleotide biosynthesis by producing CTP. This correctly captures the metabolic context of the enzyme function.'
+    action: ACCEPT
+    reason: 'This annotation correctly places CTP synthase in the broader context of pyrimidine nucleotide metabolism. The enzyme produces CTP, a key pyrimidine nucleotide required for RNA and DNA synthesis.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'Pyrimidine nucleotide metabolic process (GO:0006221) – As the enzyme governing CTP levels, Cts1 plays a role in the broader metabolism of pyrimidine nucleotides within the cell'
+- term:
+    id: GO:0006241
+    label: CTP biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Duplicate annotation of CTP biosynthetic process with IEA evidence from InterPro. Correctly identifies the core biological process. Complements the IBA annotation with computational support.'
+    action: ACCEPT
+    reason: 'IEA annotation based on InterPro domain analysis correctly identifies the CTP biosynthetic function. This is accurate and represents the primary biological role of the enzyme.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'CTP biosynthetic process (de novo CTP biosynthesis) (GO:0006241) – cts1 is involved in the pathway producing CTP from simpler precursors, constituting the last step of de novo pyrimidine ribonucleotide synthesis'
+- term:
+    id: GO:0000166
+    label: nucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Generic nucleotide binding annotation based on keyword mapping. While technically correct (enzyme binds ATP, UTP, GTP), this is too broad and uninformative compared to specific substrate/cofactor binding annotations.'
+    action: MARK_AS_OVER_ANNOTATED
+    reason: 'While CTP synthase does bind nucleotides (ATP, UTP as substrates; GTP as allosteric regulator), this generic term provides little functional information. More specific terms like ATP binding (GO:0005524) or UTP binding would be more informative.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'The C-terminal domain... binds the substrate UTP and co-substrate ATP... GTP acts as an allosteric activator of CTP synthase, binding to the GAT domain'
+- term:
+    id: GO:0005524
+    label: ATP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'ATP binding is correct as ATP is a co-substrate in the CTP synthase reaction. However, this annotation alone provides limited functional insight compared to the full enzymatic activity annotation.'
+    action: ACCEPT
+    reason: 'ATP binding is accurate - ATP is required as co-substrate for the amination reaction. While somewhat generic, it correctly identifies a specific nucleotide binding function of the enzyme.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'CTP synthase catalyzes the ATP-dependent amination of UTP to form CTP... The C-terminal domain constitutes the synthetase domain, which binds the substrate UTP and co-substrate ATP'
+- term:
+    id: GO:0016874
+    label: ligase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Generic ligase activity annotation. While CTP synthase is classified as a ligase (EC 6.3.4.2), this broad term is uninformative compared to the specific CTP synthase activity annotation.'
+    action: MARK_AS_OVER_ANNOTATED
+    reason: 'This overly broad annotation provides minimal functional information. The specific CTP synthase activity (GO:0003883) annotation already captures the enzyme function precisely. Generic ligase activity adds no value.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'RecName: Full=CTP synthase; EC=6.3.4.2... AltName: Full=UTP--ammonia ligase'
+- term:
+    id: GO:0097268
+    label: cytoophidium
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Duplicate cytoophidium annotation with IEA evidence from ARBA machine learning. Correctly identifies this cellular component. Complements the IBA and IDA evidence for this localization.'
+    action: ACCEPT
+    reason: 'Machine learning models correctly predict cytoophidium formation, which is well-established for CTP synthase. This annotation is accurate and supported by experimental evidence from other sources.'
+    supported_by:
+      - reference_id: 'PMID:31611173'
+        supporting_text: 'Temperature-sensitive cytoophidium assembly in Schizosaccharomyces pombe... CTPS forms filamentous structures termed cytoophidia'
+- term:
+    id: GO:0044210
+    label: "'de novo' CTP biosynthetic process"
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000041
+  review:
+    summary: 'Specific and accurate annotation for de novo CTP biosynthesis based on UniPathway mapping. This correctly identifies the enzyme role in synthesizing CTP from precursors rather than salvage pathways.'
+    action: ACCEPT
+    reason: 'This annotation accurately captures the specific metabolic pathway - de novo CTP synthesis. CTP synthase catalyzes the final step in de novo CTP production, distinguishing it from salvage pathway enzymes.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'This reaction represents the final and rate-limiting step in de novo CTP biosynthesis... It enables the de novo CTP biosynthetic process (GO:0006241) by producing CTP from UTP'
+- term:
+    id: GO:0097268
+    label: cytoophidium
+  evidence_type: IDA
+  original_reference_id: PMID:31611173
+  review:
+    summary: 'Direct experimental evidence for cytoophidium formation in S. pombe. Study demonstrates temperature-sensitive assembly of CTPS filaments, with detailed characterization of their dynamics and regulation.'
+    action: ACCEPT
+    reason: 'Strong experimental evidence directly showing Cts1 forms cytoophidia in S. pombe. Study used CTPS-YFP to visualize filaments and demonstrated their temperature sensitivity, making this a high-quality direct observation.'
+    supported_by:
+      - reference_id: 'PMID:31611173'
+        supporting_text: 'During the early-to-middle exponential phase (OD600 = 0.1–1.0), cytoophidia were highly abundant, being present in more than 90% of cells... We have previously identified that CTPS forms cytoophidia in S. pombe'
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'High-throughput direct assay showing cytoplasmic localization. Part of large-scale ORFeome study that determined localization of ~90% of S. pombe proteome using YFP tagging.'
+    action: ACCEPT
+    reason: 'Direct experimental evidence from systematic protein localization study. HDA provides strong support for cytoplasmic localization, consistent with the enzyme metabolic function.'
+    supported_by:
+      - reference_id: 'PMID:16823372'
+        supporting_text: 'We determined the localization of 4,431 proteins, corresponding to approximately 90% of the fission yeast proteome, by tagging each ORF with the yellow fluorescent protein'
+- term:
+    id: GO:0005829
+    label: cytosol
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Cytosol annotation based on manual transfer from orthologs. More specific than cytoplasm, correctly identifying the soluble cytoplasmic fraction where CTP synthesis occurs.'
+    action: ACCEPT
+    reason: 'ISO evidence correctly identifies cytosolic localization based on ortholog data. This is more specific than general cytoplasm and accurately describes where the enzyme functions in nucleotide metabolism.'
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'Cts1 is predominantly localized in the cytosol where it carries out CTP synthesis. The majority of Cts1 enzyme resides in the cytoplasmic compartment, often visible as diffuse cytosolic signal or organized into filaments'
+- term:
+    id: GO:0006207
+    label: "'de novo' pyrimidine nucleobase biosynthetic process"
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'This annotation refers to nucleobase biosynthesis, but CTP synthase works at the nucleotide level (UTP to CTP), not nucleobase level. The term is imprecise for this enzyme function.'
+    action: MODIFY
+    reason: 'CTP synthase converts nucleotides (UTP→CTP), not nucleobases. The more accurate term would be de novo pyrimidine nucleotide biosynthetic process or specifically de novo CTP biosynthetic process (GO:0044210).'
+    proposed_replacement_terms:
+      - id: GO:0044210
+        label: "'de novo' CTP biosynthetic process"
+    supported_by:
+      - reference_id: 'file:pombe/ura7/ura7-deep-research.md'
+        supporting_text: 'This reaction represents the final and rate-limiting step in de novo CTP biosynthesis, producing cytidine 5′-triphosphate (CTP)'
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000041
+  title: Gene Ontology annotation based on UniPathway vocabulary mapping.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission
+    yeast Schizosaccharomyces pombe.
+  findings: []
+- id: PMID:31611173
+  title: Temperature-sensitive cytoophidium assembly in Schizosaccharomyces pombe.
+  findings: []
+- id: 'file:pombe/ura7/ura7-deep-research.md'
+  title: Deep research report on ura7/cts1 CTP synthase
+  findings: []
+core_functions:
+- description: Catalyzes ATP-dependent amination of UTP to CTP using glutamine as nitrogen donor
+  molecular_function:
+    id: GO:0003883
+    label: CTP synthase activity
+  directly_involved_in:
+    - id: GO:0044210
+      label: "'de novo' CTP biosynthetic process"
+  locations:
+    - id: GO:0005829
+      label: cytosol
+  substrates:
+    - id: CHEBI:46398
+      label: UTP(4-)
+    - id: CHEBI:15422
+      label: ATP
+    - id: CHEBI:28300
+      label: glutamine
+- description: Assembles into active homotetramers that polymerize into cytoophidia filaments
+  molecular_function:
+    id: GO:0042802
+    label: identical protein binding
+  directly_involved_in:
+    - id: GO:0006241
+      label: CTP biosynthetic process
+  locations:
+    - id: GO:0097268
+      label: cytoophidium

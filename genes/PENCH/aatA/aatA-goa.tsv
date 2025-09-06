@@ -1,0 +1,12 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	P15802	aatA	located_in	GO:0005777	peroxisome	cellular_component	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0576	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	located_in	GO:0005782	peroxisomal matrix	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0202	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	enables	GO:0016740	transferase activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0808	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	enables	GO:0016746	acyltransferase activity	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0012	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	involved_in	GO:0017000	antibiotic biosynthetic process	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0045	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	involved_in	GO:0042318	penicillin biosynthetic process	biological_process	ECO:0000256	IEA	GO_REF:0000117	ARBA:ARBA00087383	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	enables	GO:0050640	isopenicillin-N N-acyltransferase activity	molecular_function	ECO:0000501	IEA	GO_REF:0000120	RHEA:20720|EC:2.3.1.164	5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20250428
+UniProtKB	P15802	aatA	involved_in	GO:0042318	penicillin biosynthetic process	biological_process	ECO:0000314	IDA	PMID:2120195		5076	Penicillium chrysogenum	UniProt	Isopenicillin-N N-acyltransferase	20220707
+UniProtKB	P15802	aatA	is_active_in	GO:0005782	peroxisomal matrix	cellular_component	ECO:0000314	IDA	PMID:18439860		5076	Penicillium chrysogenum	GO_Central	Isopenicillin-N N-acyltransferase	20220228
+UniProtKB	P15802	aatA	acts_upstream_of_or_within	GO:0042318	penicillin biosynthetic process	biological_process	ECO:0000314	IDA	PMID:1368505		5076	Penicillium chrysogenum	GO_Central	Isopenicillin-N N-acyltransferase	20220228
+UniProtKB	P15802	aatA	enables	GO:0050640	isopenicillin-N N-acyltransferase activity	molecular_function	ECO:0000314	IDA	PMID:2120195		5076	Penicillium chrysogenum	GO_Central	Isopenicillin-N N-acyltransferase	20220228

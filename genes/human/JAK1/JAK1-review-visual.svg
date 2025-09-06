@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="14670" viewBox="0 0 1800 14670">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="14670" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: JAK1 (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="6800" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="6822.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="5460" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5481.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">developmental process</text>
+<rect x="60" y="5980" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6001.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="6500" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6521.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="6855" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="6876.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="11145" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="11166.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="5130" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5144" font-size="10" font-family="monospace" fill="#666666">GO:0007259</text>
+<text x="85" y="5160" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell surface receptor signaling pat...</text>
+<rect x="80" y="2955" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2969" font-size="10" font-family="monospace" fill="#666666">GO:0019221</text>
+<text x="85" y="2985" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytokine-mediated signaling pathway</text>
+<rect x="80" y="5275" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5289" font-size="10" font-family="monospace" fill="#666666">GO:0035556</text>
+<text x="85" y="5305" font-size="11" font-family="Arial, sans-serif" fill="#212121">intracellular signal transduction</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0022407</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cell-cell adhesion</text>
+<rect x="80" y="4840" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4854" font-size="10" font-family="monospace" fill="#666666">GO:0035771</text>
+<text x="85" y="4870" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-4-mediated signaling pa...</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0038111</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-7-mediated signaling pa...</text>
+<rect x="80" y="3390" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3404" font-size="10" font-family="monospace" fill="#666666">GO:0006357</text>
+<text x="85" y="3420" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of transcription by RNA ...</text>
+<rect x="80" y="4695" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4709" font-size="10" font-family="monospace" fill="#666666">GO:1900182</text>
+<text x="85" y="4725" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of protein loca...</text>
+<rect x="80" y="1360" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1374" font-size="10" font-family="monospace" fill="#666666">GO:0060337</text>
+<text x="85" y="1390" font-size="11" font-family="Arial, sans-serif" fill="#212121">type I interferon-mediated signalin...</text>
+<rect x="80" y="1505" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1519" font-size="10" font-family="monospace" fill="#666666">GO:0035723</text>
+<text x="85" y="1535" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-15-mediated signaling p...</text>
+<rect x="80" y="1650" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1664" font-size="10" font-family="monospace" fill="#666666">GO:0038110</text>
+<text x="85" y="1680" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-2-mediated signaling pa...</text>
+<rect x="80" y="1795" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1809" font-size="10" font-family="monospace" fill="#666666">GO:0038154</text>
+<text x="85" y="1825" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-11-mediated signaling p...</text>
+<rect x="80" y="1940" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1954" font-size="10" font-family="monospace" fill="#666666">GO:0140105</text>
+<text x="85" y="1970" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-10-mediated signaling p...</text>
+<rect x="80" y="2085" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2099" font-size="10" font-family="monospace" fill="#666666">GO:0038113</text>
+<text x="85" y="2115" font-size="11" font-family="Arial, sans-serif" fill="#212121">interleukin-9-mediated signaling pa...</text>
+<rect x="80" y="2230" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2244" font-size="10" font-family="monospace" fill="#666666">GO:0034112</text>
+<text x="85" y="2260" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of homotypic ce...</text>
+<rect x="80" y="5795" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5809" font-size="10" font-family="monospace" fill="#666666">GO:0030154</text>
+<text x="85" y="5825" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell differentiation</text>
+<rect x="80" y="5650" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5664" font-size="10" font-family="monospace" fill="#666666">GO:0072540</text>
+<text x="85" y="5680" font-size="11" font-family="Arial, sans-serif" fill="#212121">T-helper 17 cell lineage commitment</text>
+<rect x="80" y="6315" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6329" font-size="10" font-family="monospace" fill="#666666">GO:0006468</text>
+<text x="85" y="6345" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein phosphorylation</text>
+<rect x="80" y="6545" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6559" font-size="10" font-family="monospace" fill="#666666">GO:0046677</text>
+<text x="85" y="6575" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to antibiotic</text>
+<rect x="80" y="9655" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9669" font-size="10" font-family="monospace" fill="#666666">GO:0004715</text>
+<text x="85" y="9685" font-size="11" font-family="Arial, sans-serif" fill="#212121">non-membrane spanning protein tyros...</text>
+<rect x="80" y="7045" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7059" font-size="10" font-family="monospace" fill="#666666">GO:0004672</text>
+<text x="85" y="7075" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein kinase activity</text>
+<rect x="80" y="10960" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10974" font-size="10" font-family="monospace" fill="#666666">GO:0004713</text>
+<text x="85" y="10990" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein tyrosine kinase activity</text>
+<rect x="80" y="7335" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7349" font-size="10" font-family="monospace" fill="#666666">GO:0016301</text>
+<text x="85" y="7365" font-size="11" font-family="Arial, sans-serif" fill="#212121">kinase activity</text>
+<rect x="80" y="7480" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7494" font-size="10" font-family="monospace" fill="#666666">GO:0016740</text>
+<text x="85" y="7510" font-size="11" font-family="Arial, sans-serif" fill="#212121">transferase activity</text>
+<rect x="80" y="14235" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="14249" font-size="10" font-family="monospace" fill="#666666">GO:0005131</text>
+<text x="85" y="14265" font-size="11" font-family="Arial, sans-serif" fill="#212121">growth hormone receptor binding</text>
+<rect x="80" y="11335" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11349" font-size="10" font-family="monospace" fill="#666666">GO:0005524</text>
+<text x="85" y="11365" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATP binding</text>
+<rect x="80" y="11480" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11494" font-size="10" font-family="monospace" fill="#666666">GO:0000166</text>
+<text x="85" y="11510" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleotide binding</text>
+<rect x="80" y="11625" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11639" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="11655" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="14090" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="14104" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="14120" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<rect x="80" y="11915" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11929" font-size="10" font-family="monospace" fill="#666666">GO:0031730</text>
+<text x="85" y="11945" font-size="11" font-family="Arial, sans-serif" fill="#212121">CCR5 chemokine receptor binding</text>
+<rect x="80" y="12060" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12074" font-size="10" font-family="monospace" fill="#666666">GO:0031625</text>
+<text x="85" y="12090" font-size="11" font-family="Arial, sans-serif" fill="#212121">ubiquitin protein ligase binding</text>
+<rect x="80" y="12205" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12219" font-size="10" font-family="monospace" fill="#666666">GO:0019903</text>
+<text x="85" y="12235" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein phosphatase binding</text>
+<path d="M332,9677.5 L337,9682.5 L348,9669.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5152.5 L337,5157.5 L348,5144.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2977.5 L337,2982.5 L348,2969.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,5297.5 L337,5302.5 L348,5289.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="5817.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="14257.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="7067.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,10982.5 L337,10987.5 L348,10974.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11357.5 L337,11362.5 L348,11349.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,11502.5 L390,11502.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,11502.5 L382,11498.5 L382,11506.5 Z" fill="#ff9800" />
+<rect x="390" y="11480" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="11494" font-size="10" font-family="monospace" fill="#666666">GO:0005524</text>
+<text x="395" y="11510" font-size="11" font-family="Arial, sans-serif" fill="#212121">ATP binding</text>
+<circle cx="340" cy="7357.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,7494.5 L348,7510.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7510.5 L348,7494.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="657.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,11639.5 L348,11655.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11655.5 L348,11639.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,14112.5 L390,14112.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,14112.5 L382,14108.5 L382,14116.5 Z" fill="#ff9800" />
+<rect x="390" y="14090" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="14104" font-size="10" font-family="monospace" fill="#666666">GO:0004896</text>
+<text x="395" y="14120" font-size="11" font-family="Arial, sans-serif" fill="#212121">cytokine receptor activity</text>
+<circle cx="340" cy="11937.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,4862.5 L337,4867.5 L348,4854.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,947.5 L337,952.5 L348,939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="5672.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3412.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="4717.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,1382.5 L337,1387.5 L348,1374.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1527.5 L337,1532.5 L348,1519.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1672.5 L337,1677.5 L348,1664.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1817.5 L337,1822.5 L348,1809.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1962.5 L337,1967.5 L348,1954.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2107.5 L337,2112.5 L348,2099.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6329.5 L348,6345.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6345.5 L348,6329.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="12082.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="2252.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="12227.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="6567.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,14104.5 L348,14120.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,14120.5 L348,14104.5" stroke="#f44336" stroke-width="3" />
+<rect x="395" y="9642.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9652.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9662.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid annotation from foundational JAK1 paper.</text>
+<rect x="395" y="5117.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5127.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5137.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid annotation demonstrating JAK1's role in JAK-STAT</text>
+<text x="400" y="5146.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling.</text>
+<rect x="395" y="2942.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2952.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2962.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid annotation from Reactome pathway analysis, even</text>
+<text x="400" y="2971.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">though duplicated.</text>
+<rect x="395" y="5262.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5272.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5282.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid annotation for JAK1's signaling function.</text>
+<rect x="395" y="5782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 contributes to cell differentiation through IL-11</text>
+<text x="400" y="5811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling, but this is downstream.</text>
+<rect x="395" y="14222.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="14232.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="14242.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 does bind GH receptor, but this is one of many</text>
+<text x="400" y="14251.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">receptor interactions.</text>
+<rect x="395" y="7032.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7042.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7052.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Accurate but GO:0004715 (non-membrane spanning protein</text>
+<text x="400" y="7061.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tyrosine kinase activity) is more specific and preferred.</text>
+<rect x="395" y="10947.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10957.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10967.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Foundational paper identifying JAK1 as a tyrosine kinase.</text>
+<text x="400" y="10976.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core function.</text>
+<rect x="395" y="11322.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11332.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11342.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">ATP binding is required for JAK1's tyrosine kinase</text>
+<text x="400" y="11351.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. This is a core molecular function.</text>
+<rect x="645" y="11467.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="11477.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="11487.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While accurate, GO:0005524 (ATP binding) is more specific</text>
+<text x="650" y="11496.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">for JAK1's kinase activity</text>
+<rect x="395" y="7322.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7332.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7342.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Accurate but too general. More specific tyrosine kinase</text>
+<text x="400" y="7351.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms are preferred.</text>
+<rect x="395" y="7467.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="7477.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="7487.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This is overly general and doesn't provide useful</text>
+<text x="400" y="7496.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functional information about JAK1's specific role as a</text>
+<text x="400" y="7505.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tyrosine kinase.</text>
+<rect x="395" y="622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While JAK1 can influence cell adhesion through downstream</text>
+<text x="400" y="651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling, this is context-specific and not a core</text>
+<text x="400" y="660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="11612.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11622.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11632.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too general and not informative about JAK1's specific</text>
+<text x="400" y="11641.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">biological role. Many proteins bind metal ions.</text>
+<rect x="645" y="14077.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="14087.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="14097.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Shows JAK1 binding to type I IFN receptor. Better captured</text>
+<text x="650" y="14106.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">as receptor binding.</text>
+<rect x="395" y="11902.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11912.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11922.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 can bind CCR5 chemokine receptor, but this is a</text>
+<text x="400" y="11931.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific interaction among many. Core function is broader</text>
+<text x="400" y="11940.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">tyrosine kinase activity.</text>
+<rect x="395" y="4827.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4837.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4847.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Valid annotation for JAK1's role in IL-4 signaling.</text>
+<rect x="395" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 is essential for IL-7 signaling, which is crucial for</text>
+<text x="400" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">T-cell and B-cell development. Core pathway for JAK1.</text>
+<rect x="395" y="5637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 contributes to Th17 differentiation through cytokine</text>
+<text x="400" y="5666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling, but this is a downstream consequence rather</text>
+<text x="400" y="5675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">than core function.</text>
+<rect x="395" y="3377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 regulates transcription indirectly through STAT</text>
+<text x="400" y="3406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activation. Downstream effect.</text>
+<rect x="395" y="4682.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="4692.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="4702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 promotes STAT nuclear translocation, but this is</text>
+<text x="400" y="4711.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">downstream of kinase activity.</text>
+<rect x="395" y="1347.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1357.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1367.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Type I interferon signaling is absolutely dependent on</text>
+<text x="400" y="1376.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1. This is a core biological process for JAK1.</text>
+<rect x="395" y="1492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-15 signaling through γc receptor requires JAK1. Core</text>
+<text x="400" y="1521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytokine pathway function.</text>
+<rect x="395" y="1637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-2 is a prototypical γc cytokine requiring JAK1 for</text>
+<text x="400" y="1666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">signaling. Core function.</text>
+<rect x="395" y="1782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-11 signals through gp130 receptor and requires JAK1.</text>
+<text x="400" y="1811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Core IL-6 family cytokine function.</text>
+<rect x="395" y="1927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-10 signaling requires JAK1 for STAT activation. Core</text>
+<text x="400" y="1956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">anti-inflammatory cytokine pathway.</text>
+<rect x="395" y="2072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IL-9 signals through γc receptor and requires JAK1. Core</text>
+<text x="400" y="2101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytokine signaling function.</text>
+<rect x="395" y="6302.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6312.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6322.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Already covered by IMP annotation with PMID:28111307.</text>
+<rect x="395" y="12047.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12057.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12067.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 binds ubiquitin ligases for regulation, but this is</text>
+<text x="400" y="12076.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulatory rather than core function.</text>
+<rect x="395" y="2217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Cell adhesion regulation is a downstream consequence of</text>
+<text x="400" y="2246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">JAK1 signaling in specific contexts.</text>
+<rect x="395" y="12192.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12202.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12212.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Phosphatase binding regulates JAK1 activity but is not the</text>
+<text x="400" y="12221.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core function.</text>
+<rect x="395" y="6532.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="6542.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="6552.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Antibiotic response is context-specific and not</text>
+<text x="400" y="6561.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">representative of JAK1's core function.</text>
+<rect x="700" y="4840" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="4850" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[7760829]</text>
+<text x="705" y="4858" font-size="8" font-family="Arial, sans-serif" fill="#212121">Cloning of murine Stat6 and human Stat6, Stat proteins that are</text>
+<text x="705" y="4867" font-size="8" font-family="Arial, sans-serif" fill="#212121">tyrosine phosphorylated in responses to IL-4 and IL-3 but are not</text>
+<text x="705" y="4876" font-size="8" font-family="Arial, sans-serif" fill="#212121">required for mitogenesis</text>
+<rect x="700" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[29202461]</text>
+<text x="705" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">The phosphorylated active form of JAK3 then phosphorylates tyrosine</text>
+<text x="705" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">449 on IL-7Rα, generating a docking site for the signal transducers</text>
+<text x="705" y="961" font-size="8" font-family="Arial, sans-serif" fill="#212121">and activators of transcription 5 (STAT5)</text>
+<rect x="700" y="1360" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1370" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[23391734]</text>
+<text x="705" y="1378" font-size="8" font-family="Arial, sans-serif" fill="#212121">Patient fibroblasts were indeed abnormally permissive for viral</text>
+<text x="705" y="1387" font-size="8" font-family="Arial, sans-serif" fill="#212121">replication in vitro, associated with profound failure of type I IFN</text>
+<text x="705" y="1396" font-size="8" font-family="Arial, sans-serif" fill="#212121">signaling and absence of STAT2 protein</text>
+<rect x="700" y="1505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[7568001]</text>
+<text x="705" y="1523" font-size="8" font-family="Arial, sans-serif" fill="#212121">IL-2 and IL-15 rapidly induced the tyrosine phosphorylation of STAT3</text>
+<text x="705" y="1532" font-size="8" font-family="Arial, sans-serif" fill="#212121">and STAT5, and DNA-binding complexes containing STAT3 and STAT5 were</text>
+<text x="705" y="1541" font-size="8" font-family="Arial, sans-serif" fill="#212121">rapidly activated by these cytokines in T cells</text>
+<rect x="700" y="1650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[7568005]</text>
+<text x="705" y="1668" font-size="8" font-family="Arial, sans-serif" fill="#212121">Two Janus family protein tyrosine kinases (PTKs), Jak1 and Jak3,</text>
+<text x="705" y="1677" font-size="8" font-family="Arial, sans-serif" fill="#212121">were shown to associate with IL-2R beta c and IL-2R gamma c,</text>
+<text x="705" y="1686" font-size="8" font-family="Arial, sans-serif" fill="#212121">respectively, and their PTK activities are increased after IL-2</text>
+<text x="705" y="1695" font-size="8" font-family="Arial, sans-serif" fill="#212121">stimulation</text>
+<rect x="700" y="1795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[28781374]</text>
+<text x="705" y="1813" font-size="8" font-family="Arial, sans-serif" fill="#212121">IL-11 induces differentiation of myeloid-derived suppressor cells</text>
+<text x="705" y="1822" font-size="8" font-family="Arial, sans-serif" fill="#212121">through activation of STAT3 signalling pathway.</text>
+<rect x="700" y="1940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[7543512]</text>
+<text x="705" y="1958" font-size="8" font-family="Arial, sans-serif" fill="#212121">IL-10 induces the tyrosine phosphorylation of tyk2 and Jak1 and the</text>
+<text x="705" y="1967" font-size="8" font-family="Arial, sans-serif" fill="#212121">differential assembly of STAT1 alpha and STAT3 complexes in human T</text>
+<text x="705" y="1976" font-size="8" font-family="Arial, sans-serif" fill="#212121">cells and monocytes.</text>
+<rect x="700" y="2085" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2095" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9535918]</text>
+<text x="705" y="2103" font-size="8" font-family="Arial, sans-serif" fill="#212121">Heteromerization of the gammac chain with the interleukin-9 receptor</text>
+<text x="705" y="2112" font-size="8" font-family="Arial, sans-serif" fill="#212121">alpha subunit leads to STAT activation and prevention of apoptosis</text>
+<rect x="700" y="10960" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10970" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[1848670]</text>
+<text x="705" y="10978" font-size="8" font-family="Arial, sans-serif" fill="#212121">Two novel protein-tyrosine kinases, each with a second</text>
+<text x="705" y="10987" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphotransferase-related catalytic domain, define a new class of</text>
+<text x="705" y="10996" font-size="8" font-family="Arial, sans-serif" fill="#212121">protein kinase</text>
+<rect x="700" y="5130" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5140" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[32750333]</text>
+<text x="705" y="5148" font-size="8" font-family="Arial, sans-serif" fill="#212121">Complex Autoinflammatory Syndrome Unveils Fundamental Principles of</text>
+<text x="705" y="5157" font-size="8" font-family="Arial, sans-serif" fill="#212121">JAK1 Kinase Transcriptional and Biochemical Function</text>
+<rect x="700" y="9655" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9665" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8232552]</text>
+<text x="705" y="9673" font-size="8" font-family="Arial, sans-serif" fill="#212121">The protein tyrosine kinase JAK1 complements defects in</text>
+<text x="705" y="9682" font-size="8" font-family="Arial, sans-serif" fill="#212121">interferon-alpha/beta and -gamma signal transduction</text>
+<rect x="700" y="5275" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5285" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8232552]</text>
+<text x="705" y="5293" font-size="8" font-family="Arial, sans-serif" fill="#212121">The protein tyrosine kinase JAK1 complements defects in</text>
+<text x="705" y="5302" font-size="8" font-family="Arial, sans-serif" fill="#212121">interferon-alpha/beta and -gamma signal transduction</text>
+<rect x="600.0" y="14530" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="14565.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="14565.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

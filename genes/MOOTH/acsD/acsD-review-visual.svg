@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1425" viewBox="0 0 1800 1425">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1425" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: acsD (Moorella thermoacetica)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="745" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="767.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="800" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="821.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0006730</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">one-carbon metabolic process</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0015977</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">carbon fixation</text>
+<rect x="80" y="845" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="859" font-size="10" font-family="monospace" fill="#666666">GO:0031419</text>
+<text x="85" y="875" font-size="11" font-family="Arial, sans-serif" fill="#212121">cobalamin binding</text>
+<rect x="80" y="990" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,512.5 L390,512.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,512.5 L382,508.5 L382,516.5 Z" fill="#ff9800" />
+<rect x="390" y="490" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0030634</text>
+<text x="395" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">carbon fixation by acetyl-CoA pathway</text>
+<path d="M332,867.5 L337,872.5 L348,859.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,1012.5 L390,1012.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,1012.5 L382,1008.5 L382,1016.5 Z" fill="#ff9800" />
+<rect x="390" y="990" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="1004" font-size="10" font-family="monospace" fill="#666666">GO:0046982</text>
+<text x="395" y="1020" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein heterodimerization activity</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation accurately captures a core function of</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AcsD. The protein specifically handles one-carbon units</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(methyl groups) as part of the Wood-Ljungdahl pathway,</text>
+<text x="400" y="234.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transferring them from 5-methyl-H4folate to acetyl-CoA</text>
+<text x="400" y="243.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">synthase via its corrinoid cofactor. This is</text>
+<text x="400" y="252.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-supported by structural and biochemical evidence from</text>
+<rect x="645" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While the IDA evidence strongly supports carbon fixation</text>
+<text x="650" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity, the generic GO:0015977 term is too broad. The</text>
+<text x="650" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">experimental evidence specifically demonstrates function</text>
+<text x="650" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">in the Wood-Ljungdahl (reductive acetyl-CoA) pathway.</text>
+<text x="650" y="533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">GO:0030634 (carbon fixation by acetyl-CoA pathway) more</text>
+<text x="650" y="542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">accurately describes the specific type of carbon fixation</text>
+<rect x="395" y="832.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="842.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="852.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This annotation is accurate and represents a core</text>
+<text x="400" y="861.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular function of AcsD. The protein contains a</text>
+<text x="400" y="870.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">corrinoid-binding domain that specifically binds a B12</text>
+<text x="400" y="879.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">derivative (5′-methoxybenzimidazolyl cobamide in M.</text>
+<text x="400" y="888.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">thermoacetica). This binding is essential for the methyl</text>
+<text x="400" y="897.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transfer activity and is directly observed in crystal</text>
+<rect x="645" y="977.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="987.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="997.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The term "protein binding" is too vague and uninformative.</text>
+<text x="650" y="1006.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AcsD forms specific functional complexes: it</text>
+<text x="650" y="1015.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">heterodimerizes with AcsC to form the corrinoid</text>
+<text x="650" y="1024.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">iron-sulfur protein, and this complex then associates with</text>
+<text x="650" y="1033.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">AcsE (methyltransferase) to form a ~220 kDa complex. A</text>
+<text x="650" y="1042.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">more specific term like "protein heterodimerization</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">CFeSP then delivers the methyl group to the Ni2Fe4S4 active site</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">metallocluster (A-cluster) of acetyl-CoA synthase (ACS), where it</text>
+<text x="705" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">becomes the methyl of acetyl CoA</text>
+<rect x="1030" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="1035" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">For both MetH and CFeSP/MeTr, methyltetrahydrofolate (CH3-H4folate)</text>
+<text x="1035" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">is the methyl donor, and a protein-bound B12 derivative (cobalamin</text>
+<text x="1035" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">for MetH and 5′-methoxybenzimidazolyl cobamide for CFeSP) is the</text>
+<text x="1035" y="245" font-size="8" font-family="Arial, sans-serif" fill="#212121">methyl carrier.</text>
+<rect x="950" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="955" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Importantly, absorption features disappear when light is passed</text>
+<text x="955" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">through the solution surrounding the crystals, indicating that</text>
+<text x="955" y="526" font-size="8" font-family="Arial, sans-serif" fill="#212121">spectra represent protein in crystals and not protein that may have</text>
+<text x="955" y="535" font-size="8" font-family="Arial, sans-serif" fill="#212121">been liberated into the solution. Collectively, these data</text>
+<text x="955" y="544" font-size="8" font-family="Arial, sans-serif" fill="#212121">demonstrate enzymatic transfer of the CH3-H4folate methyl group to</text>
+<text x="955" y="553" font-size="8" font-family="Arial, sans-serif" fill="#212121">CFeSP-bound B12</text>
+<rect x="1280" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1285" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="1285" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">Acetogenic bacteria, including M. thermoacetica, use CFeSP and MeTr</text>
+<text x="1285" y="517" font-size="8" font-family="Arial, sans-serif" fill="#212121">together to catalyze methyltransfer in the Wood-Ljungdahl carbon</text>
+<text x="1285" y="526" font-size="8" font-family="Arial, sans-serif" fill="#212121">fixation pathway for growth on CO2 as the sole carbon source</text>
+<rect x="700" y="845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="705" y="863" font-size="8" font-family="Arial, sans-serif" fill="#212121">a protein-bound B12 derivative (cobalamin for MetH and</text>
+<text x="705" y="872" font-size="8" font-family="Arial, sans-serif" fill="#212121">5′-methoxybenzimidazolyl cobamide for CFeSP) is the methyl carrier</text>
+<rect x="1030" y="845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="1035" y="863" font-size="8" font-family="Arial, sans-serif" fill="#212121">electron density for the B12 cofactors is unambiguous (Supplementary</text>
+<text x="1035" y="872" font-size="8" font-family="Arial, sans-serif" fill="#212121">Fig. 20), and density is also clear in several helical regions,</text>
+<text x="1035" y="881" font-size="8" font-family="Arial, sans-serif" fill="#212121">including those near B12</text>
+<rect x="950" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="955" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">Two CFeSPs are present in the complex, each containing two subunits.</text>
+<text x="955" y="1017" font-size="8" font-family="Arial, sans-serif" fill="#212121">The small subunit (35 kDa) is a TIM barrel which acts as the B12</text>
+<text x="955" y="1026" font-size="8" font-family="Arial, sans-serif" fill="#212121">"cap" in the ChCFeSP structure9, while the large subunit (48 kDa)</text>
+<text x="955" y="1035" font-size="8" font-family="Arial, sans-serif" fill="#212121">has three domains</text>
+<rect x="1280" y="990" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1285" y="1000" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22419154]</text>
+<text x="1285" y="1008" font-size="8" font-family="Arial, sans-serif" fill="#212121">In the ~220 kDa CFeSP/MeTr assembly (Fig. 1), the MeTr homodimer</text>
+<text x="1285" y="1017" font-size="8" font-family="Arial, sans-serif" fill="#212121">lies in the centre, with one CFeSP bound on either side</text>
+<rect x="600.0" y="1285" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1320.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1320.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

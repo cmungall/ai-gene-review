@@ -48,7 +48,7 @@ window.searchSchema = {
       "field": "original_reference_title",
       "label": "Title",
       "type": "string",
-      "sortBy": "alphabetical"
+      "sortBy": "count"
     },
     {
       "field": "negated",

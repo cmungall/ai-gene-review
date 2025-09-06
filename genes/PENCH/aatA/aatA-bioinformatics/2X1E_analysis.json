@@ -1,0 +1,39 @@
+{
+  "pdb_id": "2X1E",
+  "description": "Mature enzyme with 6-aminopenicillanic acid complex",
+  "chains": [
+    {
+      "chain_id": "A",
+      "num_residues": 455
+    },
+    {
+      "chain_id": "B",
+      "num_residues": 461
+    },
+    {
+      "chain_id": "C",
+      "num_residues": 453
+    },
+    {
+      "chain_id": "D",
+      "num_residues": 445
+    }
+  ],
+  "catalytic_residues": {
+    "position_103": {
+      "chain": "D",
+      "residue": "CSD",
+      "expected": "CYS (or ALA in mutant)",
+      "matches": false
+    },
+    "position_309": {
+      "chain": "D",
+      "residue": "SER",
+      "expected": "SER",
+      "matches": true
+    }
+  },
+  "cleavage_site": "Between Gly102 and Cys103",
+  "active_site_analysis": {},
+  "form": "mature (cleaved into subunits)"
+}

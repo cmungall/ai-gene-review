@@ -22,6 +22,7 @@ from ai_gene_review.validation import (
     ValidationSeverity,
 )
 from ai_gene_review.validation.goa_validator import GOAValidator
+from ai_gene_review.draw import ReviewVisualizer
 
 app = typer.Typer(help="ai-gene-review: Gene data ETL and review tool.")
 
@@ -890,6 +891,110 @@ def expand_organism(
             typer.echo(f"{organism} → {expanded} (unchanged)")
         else:
             typer.echo(f"{organism} → {expanded}")
+
+
+@app.command()
+def visualize(
+    yaml_file: Annotated[
+        Path, typer.Argument(help="Gene review YAML file to visualize")
+    ],
+    output: Annotated[
+        Optional[Path],
+        typer.Option(
+            "--output", "-o", help="Output file (default: <gene>-review-visual.svg)"
+        ),
+    ] = None,
+    format: Annotated[
+        str,
+        typer.Option(
+            "--format", "-f", help="Output format (svg or png, requires Cairo for png)"
+        ),
+    ] = "svg",
+    slim: Annotated[
+        str,
+        typer.Option(
+            "--slim", "-s", help="GO slim subset to use (default: goslim_generic)"
+        ),
+    ] = "goslim_generic",
+    show_stats: Annotated[
+        bool,
+        typer.Option("--stats", help="Show summary statistics"),
+    ] = False,
+):
+    """Visualize gene review annotations and their actions.
+    
+    Creates a clean SVG visualization showing:
+    - GO terms organized hierarchically by GO slim categories
+    - Review actions (Accept, Modify, Remove, etc.) with visual indicators
+    - Proposed replacement terms for modifications
+    
+    Examples:
+        ai-gene-review visualize genes/human/CFAP300/CFAP300-ai-review.yaml
+        ai-gene-review visualize genes/yeast/LPL1/LPL1-ai-review.yaml -o lpl1-visual.svg
+        ai-gene-review visualize test.yaml --format png --stats
+    """
+    yaml_file = Path(yaml_file)
+    
+    if not yaml_file.exists():
+        typer.echo(f"Error: File not found: {yaml_file}", err=True)
+        raise typer.Exit(code=1)
+    
+    # Determine output path
+    if output is None:
+        # Default: same directory as input, with -review-visual suffix
+        stem = yaml_file.stem.replace("-ai-review", "")
+        output = yaml_file.parent / f"{stem}-review-visual.{format}"
+    else:
+        output = Path(output)
+        # Add extension if not present
+        if not output.suffix:
+            output = output.with_suffix(f".{format}")
+    
+    typer.echo(f"Visualizing {yaml_file.name}...")
+    
+    try:
+        # Create visualizer
+        from ai_gene_review.draw.layout_engine import LayoutConfig
+        config = LayoutConfig()
+        visualizer = ReviewVisualizer(layout_config=config, slim_subset=slim)
+        
+        # Load and visualize the file
+        drawing = visualizer.visualize_file(yaml_file)
+        
+        # Show statistics if requested
+        if show_stats:
+            import yaml
+            with open(yaml_file) as f:
+                data = yaml.safe_load(f)
+            from ai_gene_review.datamodel.gene_review_model import GeneReview
+            gene_review = GeneReview.model_validate(data)
+            stats = visualizer.get_summary_stats(gene_review)
+            
+            typer.echo("\nSummary Statistics:")
+            typer.echo(f"  Total annotations: {stats['total_annotations']}")
+            typer.echo("  Actions:")
+            for action, count in stats['actions'].items():
+                if count > 0:
+                    pct = stats['action_percentages'][action]
+                    typer.echo(f"    {action}: {count} ({pct:.1f}%)")
+        
+        # Save the visualization
+        visualizer.save(output, format)
+        typer.echo(f"✓ Visualization saved to: {output}")
+        
+    except ImportError as e:
+        if "Cairo" in str(e):
+            typer.echo(
+                "Error: Cairo is required for PNG export. Install with:", err=True
+            )
+            typer.echo("  pip install pycairo", err=True)
+            typer.echo("Or use --format svg instead", err=True)
+        else:
+            typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(code=1)
+    except Exception as e:
+        typer.echo(f"Error creating visualization: {e}", err=True)
+        raise typer.Exit(code=1)
 
 
 def main():

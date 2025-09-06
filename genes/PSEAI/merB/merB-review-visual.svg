@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1135" viewBox="0 0 1800 1135">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="1135" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: merB (Pseudomonas aeruginosa)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="455" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="477.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="510" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="531.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0046689</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">response to mercury ion</text>
+<rect x="80" y="555" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="569" font-size="10" font-family="monospace" fill="#666666">GO:0018836</text>
+<text x="85" y="585" font-size="11" font-family="Arial, sans-serif" fill="#212121">alkylmercury lyase activity</text>
+<rect x="80" y="700" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="714" font-size="10" font-family="monospace" fill="#666666">GO:0016829</text>
+<text x="85" y="730" font-size="11" font-family="Arial, sans-serif" fill="#212121">lyase activity</text>
+<path d="M332,577.5 L337,582.5 L348,569.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="722.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="395" y="542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Direct experimental evidence confirms alkylmercury lyase</text>
+<text x="400" y="571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">as MerB's primary molecular function</text>
+<rect x="395" y="687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Too general - more specific alkylmercury lyase term</text>
+<text x="400" y="716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">available</text>
+<rect x="395" y="187.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="197.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="207.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">MerB expression is specifically induced by mercury</text>
+<text x="400" y="216.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">exposure via MerR regulation as part of mercury resistance</text>
+<text x="400" y="225.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">response</text>
+<rect x="700" y="555" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="565" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:PSEAI/merB/merB...]</text>
+<text x="705" y="573" font-size="8" font-family="Arial, sans-serif" fill="#212121">MerB is an organomercurial lyase enzyme that catalyzes the</text>
+<text x="705" y="582" font-size="8" font-family="Arial, sans-serif" fill="#212121">protonolytic cleavage of the carbon–mercury bond in organomercury</text>
+<text x="705" y="591" font-size="8" font-family="Arial, sans-serif" fill="#212121">compounds. MerB converts toxic organomercurials (such as</text>
+<text x="705" y="600" font-size="8" font-family="Arial, sans-serif" fill="#212121">methylmercury or phenylmercury compounds) into an inorganic mercuric</text>
+<text x="705" y="609" font-size="8" font-family="Arial, sans-serif" fill="#212121">ion (Hg^2+), while releasing the organic moiety as a hydrocarbon</text>
+<text x="705" y="618" font-size="8" font-family="Arial, sans-serif" fill="#212121">(e.g. methane from methylmercury).</text>
+<rect x="700" y="700" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="710" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:PSEAI/merB/merB...]</text>
+<text x="705" y="718" font-size="8" font-family="Arial, sans-serif" fill="#212121">MerB functions as a proton-transfer enzyme that directly breaks the</text>
+<text x="705" y="727" font-size="8" font-family="Arial, sans-serif" fill="#212121">Hg–C bond (a rare lyase reaction) without requiring external</text>
+<text x="705" y="736" font-size="8" font-family="Arial, sans-serif" fill="#212121">cofactors.</text>
+<rect x="700" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[file:PSEAI/merB/merB...]</text>
+<text x="705" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Expression of the mer operon is tightly regulated and induced in the</text>
+<text x="705" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">presence of mercury ions. merB expression is inducible and tightly</text>
+<text x="705" y="236" font-size="8" font-family="Arial, sans-serif" fill="#212121">regulated: it remains virtually off in the absence of mercury and is</text>
+<text x="705" y="245" font-size="8" font-family="Arial, sans-serif" fill="#212121">highly upregulated when mercury (or certain organomercurials that</text>
+<text x="705" y="254" font-size="8" font-family="Arial, sans-serif" fill="#212121">release Hg^2+) is present.</text>
+<rect x="1030" y="200" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="1035" y="210" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[12829275]</text>
+<text x="1035" y="218" font-size="8" font-family="Arial, sans-serif" fill="#212121">Bacterial resistance to inorganic and organic mercury compounds</text>
+<text x="1035" y="227" font-size="8" font-family="Arial, sans-serif" fill="#212121">(HgR) is one of the most widely observed phenotypes in eubacteria</text>
+<rect x="600.0" y="995" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="1030.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="1030.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

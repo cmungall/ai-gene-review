@@ -1,0 +1,74 @@
+ID   Q94ET8_CHLRE            Unreviewed;       321 AA.
+AC   Q94ET8;
+DT   01-DEC-2001, integrated into UniProtKB/TrEMBL.
+DT   01-DEC-2001, sequence version 1.
+DT   18-JUN-2025, entry version 40.
+DE   SubName: Full=LCI5 {ECO:0000313|EMBL:AAK77552.1};
+GN   Name=Lci5 {ECO:0000313|EMBL:AAK77552.1};
+OS   Chlamydomonas reinhardtii (Chlamydomonas smithii).
+OC   Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes; Chlorophyceae;
+OC   CS clade; Chlamydomonadales; Chlamydomonadaceae; Chlamydomonas.
+OX   NCBI_TaxID=3055 {ECO:0000313|EMBL:AAK77552.1};
+RN   [1] {ECO:0000313|EMBL:AAK77552.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Lavigne A.C., Handley E.R., Pollock S.V., Somanchi A., Moroney J.V.;
+RT   "Identification of Lci5, a novel Chlamydomonas reinhardtii gene induced
+RT   under low CO2 growth conditions.";
+RL   Submitted (JUN-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:7JFO}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (2.13 ANGSTROMS) OF 49-72.
+RX   PubMed=33230314; DOI=10.1038/s41477-020-00811-y;
+RA   He S., Chou H.T., Matthies D., Wunder T., Meyer M.T., Atkinson N.,
+RA   Martinez-Sanchez A., Jeffrey P.D., Port S.A., Patena W., He G., Chen V.K.,
+RA   Hughson F.M., McCormick A.J., Mueller-Cajar O., Engel B.D., Yu Z.,
+RA   Jonikas M.C.;
+RT   "The structural basis of Rubisco phase separation in the pyrenoid.";
+RL   Nat. Plants 6:1480-1490(2020).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF394230; AAK77552.1; -; Genomic_DNA.
+DR   PDB; 7JFO; EM; 2.13 A; q/r/s/t/u/v/w/x=49-72.
+DR   AlphaFoldDB; Q94ET8; -.
+DR   EMDB; EMD-22308; -.
+DR   SMR; Q94ET8; -.
+DR   ProMEX; Q94ET8; -.
+DR   CD-CODE; 69B7DAF2; Synthetic Condensate 000360.
+DR   CD-CODE; 7E3E5BC3; Synthetic Condensate 000358.
+DR   CD-CODE; EA8B71D1; Pyrenoid.
+DR   ExpressionAtlas; Q94ET8; baseline.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:7JFO}.
+FT   REGION          26..321
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        33..56
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        76..111
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        117..127
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        134..171
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        177..187
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        194..232
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        238..258
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   321 AA;  32692 MW;  AA2F7B5C2D525D19 CRC64;
+     MATISSMRVG AASRVVVSGR VKTVKVAARG SWRESSTATV QASRASSATN RVSPTRSVLP
+     ANWRQELESL RNGNGSSSAA SSAPAPARSS SASWRDAAPA SSAPARSSSA SKKAVTPSRS
+     ALPSNWKQEL ESLRSSSPAP ASSAPAPARS SSASWRDAAP ASSAPARSSS SKKAVTPSRS
+     ALPSNWKQEL ESLRSSSPAP ASSAPAPARS SSASWRDAAP ASSAPARSSS ASKKAVTPSR
+     SALPSNWKQE LESLRSNSPA PARRPLPRPA PRRPAGVTPP PRAPARAPTR PAPTPGLASP
+     SPRSSAPPCP LTGARACKQL A
+//

@@ -1,0 +1,221 @@
+{
+  "reference_pks": {
+    "Melanin_biosynthesis": {
+      "Aspergillus_fumigatus_PksP": {
+        "accession": "Q4WF66",
+        "product": "1,8-dihydroxynaphthalene (DHN)",
+        "function": "DHN-melanin biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-ACP-TE",
+        "identity_to_pks1": 65,
+        "ecological_role": "Virulence factor, conidial pigmentation"
+      },
+      "Colletotrichum_lagenarium_PKS1": {
+        "accession": "P87218",
+        "product": "1,3,6,8-tetrahydroxynaphthalene",
+        "function": "Melanin biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-ACP-TE/CLC",
+        "identity_to_pks1": 58,
+        "ecological_role": "Appressorial melanization, pathogenicity"
+      },
+      "Alternaria_alternata_ALM": {
+        "accession": "Q6Q2J2",
+        "product": "1,8-DHN precursor",
+        "function": "Melanin biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-TE",
+        "identity_to_pks1": 61,
+        "ecological_role": "Spore pigmentation, UV protection"
+      }
+    },
+    "Conidial_pigments": {
+      "Aspergillus_nidulans_WA": {
+        "accession": "Q00707",
+        "product": "Naphthopyrone YWA1",
+        "function": "Green conidial pigment",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-TE",
+        "identity_to_pks1": 60,
+        "ecological_role": "Conidial maturation marker"
+      },
+      "Penicillium_marneffei_PksP": {
+        "accession": "B6Q8T4",
+        "product": "Polyketide pigment precursor",
+        "function": "Red pigment biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-ACP-TE",
+        "identity_to_pks1": 62,
+        "ecological_role": "Temperature-dependent pigmentation"
+      }
+    },
+    "Mycotoxins": {
+      "Aspergillus_parasiticus_PksA": {
+        "accession": "Q12053",
+        "product": "Norsolorinic acid",
+        "function": "Aflatoxin biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-ACP-TE",
+        "identity_to_pks1": 52,
+        "ecological_role": "Mycotoxin production"
+      },
+      "Penicillium_aethiopicum_PaeA": {
+        "accession": "A0A0C2YK74",
+        "product": "Viridicatumtoxin precursor",
+        "function": "Mycotoxin biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-TE",
+        "identity_to_pks1": 55,
+        "ecological_role": "Secondary metabolite defense"
+      }
+    },
+    "Anthraquinones": {
+      "Aspergillus_nidulans_MdpG": {
+        "accession": "Q5B7C8",
+        "product": "Emodin anthrone",
+        "function": "Anthraquinone biosynthesis",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-ACP-TE",
+        "identity_to_pks1": 68,
+        "ecological_role": "Secondary metabolite"
+      },
+      "Monascus_purpureus_PksCT": {
+        "accession": "Q2TW71",
+        "product": "Citrinin precursor",
+        "function": "Polyketide mycotoxin",
+        "domain_architecture": "SAT-KS-MAT-PT-ACP-CMeT-TE",
+        "identity_to_pks1": 48,
+        "ecological_role": "Pigment and toxin production"
+      }
+    }
+  },
+  "metarhizium_pks": {
+    "M_brunneum_PKS1": {
+      "gene": "Pks1",
+      "copies": 1,
+      "expression": "Conidiation-specific",
+      "regulation": "BrlA-AbaA-WetA cascade"
+    },
+    "M_robertsii_PKS1": {
+      "gene": "MrPks1",
+      "copies": 1,
+      "identity_to_pks1": 98,
+      "expression": "Conidiation-specific"
+    },
+    "M_acridum_PKS1": {
+      "gene": "MacPks1",
+      "copies": 1,
+      "identity_to_pks1": 97,
+      "expression": "Conidiation-specific"
+    },
+    "M_anisopliae_PKS_cluster": {
+      "genes": [
+        "Pks1",
+        "Pks2"
+      ],
+      "copies": 2,
+      "identity_to_pks1": 95,
+      "note": "Gene duplication event"
+    }
+  },
+  "functional_divergence": {
+    "product_classes": {
+      "Melanins": {
+        "count": 3,
+        "avg_identity": 61.3,
+        "key_feature": "DHN pathway intermediates",
+        "biological_role": "Structural pigments, pathogenicity"
+      },
+      "Anthraquinones": {
+        "count": 2,
+        "avg_identity": 58,
+        "key_feature": "Extended aromatic systems",
+        "biological_role": "Pigmentation, antimicrobial"
+      },
+      "Naphthopyrones": {
+        "count": 2,
+        "avg_identity": 61,
+        "key_feature": "Pyrone ring formation",
+        "biological_role": "Conidial pigmentation"
+      },
+      "Mycotoxins": {
+        "count": 2,
+        "avg_identity": 53.5,
+        "key_feature": "Complex cyclization patterns",
+        "biological_role": "Chemical defense"
+      }
+    },
+    "domain_variations": {
+      "Core_conserved": [
+        "KS",
+        "MAT",
+        "ACP"
+      ],
+      "Variable_domains": {
+        "PT": "Present in NR-PKS, controls cyclization",
+        "TE/CLC": "Alternative release mechanisms",
+        "CMeT": "C-methylation (specialized)",
+        "Dual_ACP": "Enhanced processivity"
+      }
+    },
+    "evolutionary_pressures": {
+      "Environmental_adaptation": "UV protection, temperature stress",
+      "Host-pathogen_interactions": "Melanin for penetration structures",
+      "Chemical_warfare": "Antimicrobial compound production",
+      "Developmental_regulation": "Conidiation-specific expression"
+    }
+  },
+  "evolutionary_history": {
+    "ancestral_function": {
+      "likely_product": "Simple aromatic polyketide",
+      "evidence": "Core domain conservation with ancient fungal PKS"
+    },
+    "key_evolutionary_events": {
+      "1_PT_domain_acquisition": {
+        "timing": "Early Ascomycota",
+        "impact": "Enabled complex cyclization patterns",
+        "result": "Aromatic polyketide diversity"
+      },
+      "2_ACP_duplication": {
+        "timing": "Sordariomycetes ancestor",
+        "impact": "Increased catalytic efficiency",
+        "result": "Enhanced polyketide production"
+      },
+      "3_Regulatory_refinement": {
+        "timing": "Hypocreales specialization",
+        "impact": "Conidiation-specific expression",
+        "result": "Developmental pigmentation"
+      },
+      "4_Gene_duplication": {
+        "timing": "Within Metarhizium genus",
+        "impact": "Functional diversification",
+        "result": "Enhanced stress adaptation",
+        "reference": "PMID:29958281"
+      }
+    },
+    "selection_signatures": {
+      "Positive_selection": [
+        "PT domain (cyclization specificity)",
+        "SAT domain (starter unit selection)",
+        "Regulatory regions (expression timing)"
+      ],
+      "Purifying_selection": [
+        "KS active site (catalytic function)",
+        "ACP phosphopantetheine sites",
+        "TE catalytic triad"
+      ]
+    }
+  },
+  "structure_function": {
+    "anthraquinone_specificity": {
+      "key_determinants": [
+        "PT domain topology determines C7-C12 + C2-C9 cyclization",
+        "Chain length control by KS domain (octaketide)",
+        "SAT domain selects acetyl-CoA starter"
+      ],
+      "product_fidelity": "High - single major product"
+    },
+    "catalytic_efficiency": {
+      "dual_ACP_advantage": "2-3x increased turnover vs single ACP",
+      "iterative_cycling": "8 rounds of chain extension",
+      "processivity": "Complete synthesis without intermediate release"
+    },
+    "regulatory_coupling": {
+      "transcriptional": "BrlA \u2192 AbaA \u2192 WetA cascade",
+      "post_translational": "Phosphopantetheinylation required",
+      "metabolic": "CoA and malonyl-CoA availability"
+    }
+  }
+}

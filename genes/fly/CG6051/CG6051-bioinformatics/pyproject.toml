@@ -1,0 +1,14 @@
+[project]
+name = "cg6051-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <4.0"
+dependencies = [
+    "biopython>=1.85",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "requests>=2.32.5",
+    "scikit-bio>=0.7.0",
+]

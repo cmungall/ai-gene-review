@@ -1,0 +1,178 @@
+ID   AGA_ANOGA               Reviewed;          84 AA.
+AC   Q7Q3J5;
+DT   27-NOV-2024, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 3.
+DT   18-JUN-2025, entry version 114.
+DE   RecName: Full=Agaphelin {ECO:0000303|PubMed:25211214, ECO:0000303|PubMed:32201094, ECO:0000303|PubMed:33401017};
+DE   Flags: Precursor;
+GN   ORFNames=AgaP_AGAP007907 {ECO:0000312|EMBL:EAA12792.3};
+OS   Anopheles gambiae (African malaria mosquito).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Nematocera; Culicoidea; Culicidae;
+OC   Anophelinae; Anopheles.
+OX   NCBI_TaxID=7165 {ECO:0000312|EMBL:EAA12792.3};
+RN   [1] {ECO:0000312|Proteomes:UP000007062}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PEST {ECO:0000312|Proteomes:UP000007062};
+RX   PubMed=12364791; DOI=10.1126/science.1076181;
+RA   Holt R.A., Subramanian G.M., Halpern A., Sutton G.G., Charlab R.,
+RA   Nusskern D.R., Wincker P., Clark A.G., Ribeiro J.M.C., Wides R.,
+RA   Salzberg S.L., Loftus B.J., Yandell M.D., Majoros W.H., Rusch D.B., Lai Z.,
+RA   Kraft C.L., Abril J.F., Anthouard V., Arensburger P., Atkinson P.W.,
+RA   Baden H., de Berardinis V., Baldwin D., Benes V., Biedler J., Blass C.,
+RA   Bolanos R., Boscus D., Barnstead M., Cai S., Center A., Chaturverdi K.,
+RA   Christophides G.K., Chrystal M.A.M., Clamp M., Cravchik A., Curwen V.,
+RA   Dana A., Delcher A., Dew I., Evans C.A., Flanigan M.,
+RA   Grundschober-Freimoser A., Friedli L., Gu Z., Guan P., Guigo R.,
+RA   Hillenmeyer M.E., Hladun S.L., Hogan J.R., Hong Y.S., Hoover J.,
+RA   Jaillon O., Ke Z., Kodira C.D., Kokoza E., Koutsos A., Letunic I.,
+RA   Levitsky A.A., Liang Y., Lin J.-J., Lobo N.F., Lopez J.R., Malek J.A.,
+RA   McIntosh T.C., Meister S., Miller J.R., Mobarry C., Mongin E., Murphy S.D.,
+RA   O'Brochta D.A., Pfannkoch C., Qi R., Regier M.A., Remington K., Shao H.,
+RA   Sharakhova M.V., Sitter C.D., Shetty J., Smith T.J., Strong R., Sun J.,
+RA   Thomasova D., Ton L.Q., Topalis P., Tu Z.J., Unger M.F., Walenz B.,
+RA   Wang A.H., Wang J., Wang M., Wang X., Woodford K.J., Wortman J.R., Wu M.,
+RA   Yao A., Zdobnov E.M., Zhang H., Zhao Q., Zhao S., Zhu S.C., Zhimulev I.,
+RA   Coluzzi M., della Torre A., Roth C.W., Louis C., Kalush F., Mural R.J.,
+RA   Myers E.W., Adams M.D., Smith H.O., Broder S., Gardner M.J., Fraser C.M.,
+RA   Birney E., Bork P., Brey P.T., Venter J.C., Weissenbach J., Kafatos F.C.,
+RA   Collins F.H., Hoffman S.L.;
+RT   "The genome sequence of the malaria mosquito Anopheles gambiae.";
+RL   Science 298:129-149(2002).
+RN   [2] {ECO:0000312|EMBL:EAA12792.3}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PEST {ECO:0000312|EMBL:EAA12792.3};
+RX   PubMed=17210077; DOI=10.1186/gb-2007-8-1-r5;
+RA   Sharakhova M.V., Hammond M.P., Lobo N.F., Krzywinski J., Unger M.F.,
+RA   Hillenmeyer M.E., Bruggner R.V., Birney E., Collins F.H.;
+RT   "Update of the Anopheles gambiae PEST genome assembly.";
+RL   Genome Biol. 8:R5.1-R5.13(2007).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, INTERACTION WITH HOST ELANE, AND INDUCTION (MICROBIAL INFECTION).
+RX   PubMed=25211214; DOI=10.1371/journal.ppat.1004338;
+RA   Waisberg M., Molina-Cruz A., Mizurini D.M., Gera N., Sousa B.C., Ma D.,
+RA   Leal A.C., Gomes T., Kotsyfakis M., Ribeiro J.M., Lukszo J., Reiter K.,
+RA   Porcella S.F., Oliveira C.J., Monteiro R.Q., Barillas-Mury C., Pierce S.K.,
+RA   Francischetti I.M.;
+RT   "Plasmodium falciparum infection induces expression of a mosquito salivary
+RT   protein (Agaphelin) that targets neutrophil function and inhibits
+RT   thrombosis without impairing hemostasis.";
+RL   PLoS Pathog. 10:e1004338-e1004338(2014).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=32201094; DOI=10.1016/j.imbio.2020.151937;
+RA   Favarin D.C., Pereira A.B.M., Francischetti I.M.B., da Silva M.V.,
+RA   Rodrigues V. Jr., da Silva P.R., Valenzuela J.G., Teixeira D.N.S.,
+RA   Oliveira C.J.F., Rogerio A.P.;
+RT   "Agaphelin modulates the activation of human bronchial epithelial cells
+RT   induced by lipopolysaccharide and IL-4.";
+RL   Immunobiology 225:151937-151937(2020).
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=33401017; DOI=10.1016/j.bbi.2020.12.027;
+RA   Leinweber J., Mizurini D.M., Francischetti I.M.B., Fleischer M.,
+RA   Hermann D.M., Kleinschnitz C., Langhauser F.;
+RT   "Elastase inhibitor agaphelin protects from acute ischemic stroke in mice
+RT   by reducing thrombosis, blood-brain barrier damage, and inflammation.";
+RL   Brain Behav. Immun. 93:288-298(2021).
+CC   -!- FUNCTION: Functions as a slow and tight inhibitor of host neutrophil
+CC       elastase (ELANE) (PubMed:25211214). Inhibits host proteinase 3 (PRTN3)
+CC       and chymotrypsin (PubMed:25211214). Does not inhibit other host
+CC       proteases involved in coagulation or inflammation, such as cathepsin G
+CC       (CTSG), trypsin, chymase, matriptase, beta-tryptase, kallikrein,
+CC       urokinase-type plasminogen activator (PLAU), coagulation factors Xa
+CC       (F10), XIa (F11), XIIa (F12), plasmin (PLG), thrombin (F2) and tissue-
+CC       type plasminogen activator (PLAT) (PubMed:25211214). Inhibits host
+CC       neutrophil chemotaxis induced by N-formylmethionine-leucyl-
+CC       phenylalanine (fMLP) in vitro (PubMed:25211214). Inhibits ELANE-
+CC       mediated potentiation of platelet aggregation induced by CTSG in the
+CC       host (PubMed:25211214). Does not affect CTSG- or collagen-induced
+CC       platelet aggregation (PubMed:25211214). Blocks cleavage of tissue
+CC       factor pathway inhibitor (TFPI) by ELANE in the host (PubMed:25211214).
+CC       Inhibits neutrophil-induced coagulation in the host by interfering with
+CC       neutrophil extracellular traps (NET) formation (PubMed:25211214).
+CC       Exhibits anti-inflammatory activity (PubMed:32201094, PubMed:33401017).
+CC       Reduces ischemia-induced activation of MAPK and NF-kappa-B pathways in
+CC       the host (PubMed:33401017). Decreases CCL2 and IL8 production in
+CC       IL4- or lipopolysaccharide (LPS)-stimulated host epithelial cells
+CC       (PubMed:32201094). Reduces caspase-3 (CASP3)-dependent apoptosis in
+CC       damaged host tissues (PubMed:33401017). {ECO:0000269|PubMed:25211214,
+CC       ECO:0000269|PubMed:32201094, ECO:0000269|PubMed:33401017}.
+CC   -!- SUBUNIT: Interacts with human ELANE. {ECO:0000269|PubMed:25211214}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- INDUCTION: (Microbial infection) Up-regulated in salivary gland
+CC       following infection with Plasmodium falciparum.
+CC       {ECO:0000269|PubMed:25211214}.
+CC   -!- MISCELLANEOUS: Reduces inflammation and neutrophil accumulation in a
+CC       mouse model of acute inflammation (PubMed:25211214). Prevents thrombus
+CC       formation in FeCl(3)-induced carotid artery thrombosis model in mice
+CC       without impairing hemostasis (PubMed:25211214). Protects mice from
+CC       experimental ischemic stroke by reducing local thrombus formation,
+CC       blood-brain barrier damage and inflammatory responses in brain
+CC       (PubMed:33401017). {ECO:0000269|PubMed:25211214,
+CC       ECO:0000269|PubMed:33401017}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAAB01008964; EAA12792.3; -; Genomic_DNA.
+DR   RefSeq; XP_317576.3; XM_317576.3.
+DR   AlphaFoldDB; Q7Q3J5; -.
+DR   SMR; Q7Q3J5; -.
+DR   FunCoup; Q7Q3J5; 7.
+DR   PaxDb; 7165-AGAP007907-PA; -.
+DR   EnsemblMetazoa; AGAP007907-RA; AGAP007907-PA; AGAP007907.
+DR   KEGG; aga:1278048; -.
+DR   VEuPathDB; VectorBase:AGAMI1_010584; -.
+DR   VEuPathDB; VectorBase:AGAP007907; -.
+DR   eggNOG; ENOG502T6W0; Eukaryota.
+DR   HOGENOM; CLU_169765_5_0_1; -.
+DR   OMA; EMASCAC; -.
+DR   Proteomes; UP000007062; Chromosome 3R.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030414; F:peptidase inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0004867; F:serine-type endopeptidase inhibitor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0035899; P:suppression of blood coagulation in another organism; IDA:UniProtKB.
+DR   CDD; cd00104; KAZAL_FS; 1.
+DR   Gene3D; 3.30.60.30; -; 1.
+DR   InterPro; IPR002350; Kazal_dom.
+DR   InterPro; IPR036058; Kazal_dom_sf.
+DR   InterPro; IPR053265; Serpin.
+DR   PANTHER; PTHR21131:SF0; GEO10195P1-RELATED; 1.
+DR   PANTHER; PTHR21131; SERINE-TYPE ENDOPEPTIDASE INHIBITOR; 1.
+DR   Pfam; PF00050; Kazal_1; 1.
+DR   SMART; SM00280; KAZAL; 1.
+DR   SUPFAM; SSF100895; Kazal-type serine protease inhibitors; 1.
+DR   PROSITE; PS00282; KAZAL_1; 1.
+DR   PROSITE; PS51465; KAZAL_2; 1.
+PE   1: Evidence at protein level;
+KW   Blood coagulation cascade inhibiting toxin; Disulfide bond; Glycoprotein;
+KW   Hemostasis impairing toxin; Platelet aggregation inhibiting toxin;
+KW   Protease inhibitor; Reference proteome; Secreted;
+KW   Serine protease inhibitor; Signal; Toxin.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..84
+FT                   /note="Agaphelin"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5014588100"
+FT   DOMAIN          29..82
+FT                   /note="Kazal-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   SITE            39..40
+FT                   /note="Reactive bond"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   CARBOHYD        49
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        35..60
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        37..56
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        45..80
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+SQ   SEQUENCE   84 AA;  9059 MW;  16ED058D25B30FE5 CRC64;
+     MKMRVHLLAV SVLLVVLALQ TTPAEADINS EMATCACQLI YRPVCASNNE SYSNECVLKC
+     ASETPTGRSI GLHKVKDGNC NGEF
+//

@@ -1,0 +1,8 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q07341	acsD	involved_in	GO:0006730	one-carbon metabolic process	biological_process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR004486	1525	Moorella thermoacetica	InterPro	Corrinoid/iron-sulfur protein small subunit	20250429
+UniProtKB	Q07341	acsD	involved_in	GO:0015977	carbon fixation	biological_process	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0120	1525	Moorella thermoacetica	UniProt	Corrinoid/iron-sulfur protein small subunit	20250428
+UniProtKB	Q07341	acsD	enables	GO:0031419	cobalamin binding	molecular_function	ECO:0007322	IEA	GO_REF:0000043	UniProtKB-KW:KW-0846	1525	Moorella thermoacetica	UniProt	Corrinoid/iron-sulfur protein small subunit	20250428
+UniProtKB	Q07341	acsD	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:22419154	UniProtKB:Q07340	1525	Moorella thermoacetica	IntAct	Corrinoid/iron-sulfur protein small subunit	20250426
+UniProtKB	Q07341	acsD	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:22419154	UniProtKB:Q07340	1525	Moorella thermoacetica	UniProt	Corrinoid/iron-sulfur protein small subunit	20130423
+UniProtKB	Q07341	acsD	enables	GO:0005515	protein binding	molecular_function	ECO:0000353	IPI	PMID:22419154	UniProtKB:Q46389	1525	Moorella thermoacetica	UniProt	Corrinoid/iron-sulfur protein small subunit	20130423
+UniProtKB	Q07341	acsD	involved_in	GO:0015977	carbon fixation	biological_process	ECO:0000314	IDA	PMID:22419154		1525	Moorella thermoacetica	UniProt	Corrinoid/iron-sulfur protein small subunit	20130423

@@ -1,0 +1,201 @@
+id: P15802
+gene_symbol: aatA
+taxon:
+  id: NCBITaxon:5076
+  label: Penicillium chrysogenum
+description: Isopenicillin-N N-acyltransferase (IAT) that catalyzes the final step in penicillin biosynthesis. The enzyme exchanges the α-aminoadipyl side chain of isopenicillin N for phenylacetic acid to produce penicillin G. Functions as a self-processing enzyme that is initially synthesized as a 40 kDa precursor and undergoes autocatalytic cleavage to form an active heterodimer containing 11 kDa and 29 kDa subunits. Located in the peroxisomal matrix where penicillin biosynthesis occurs.
+existing_annotations:
+- term:
+    id: GO:0005777
+    label: peroxisome
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct subcellular location annotation. UniProt confirms peroxisomal localization with IDA evidence.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: UniProt:P15802
+        supporting_text: Located in peroxisome where penicillin biosynthesis occurs
+- term:
+    id: GO:0005782
+    label: peroxisomal matrix
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Correct specific subcellular location annotation. UniProt confirms peroxisomal matrix localization with IDA evidence.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18439860
+        supporting_text: The unprocessed preprotein form IATC103S of the isopenicillin N acyltransferase is transported inside peroxisomes
+- term:
+    id: GO:0016740
+    label: transferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Too general but correct. The enzyme has specific acyltransferase activity.'
+    action: KEEP_AS_NON_CORE
+    supported_by:
+      - reference_id: UniProt:P15802
+        supporting_text: General transferase activity, but specific function is acyl-coenzyme A:isopenicillin N acyltransferase
+- term:
+    id: GO:0016746
+    label: acyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but not specific enough. The enzyme has specific isopenicillin-N N-acyltransferase activity.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0050640
+      label: isopenicillin-N N-acyltransferase activity
+    supported_by:
+      - reference_id: PMID:2120195
+        supporting_text: "removal of the L-alpha-aminoadipyl side chain from isopenicillin N (IPN) and exchange with a nonpolar side chain"
+- term:
+    id: GO:0017000
+    label: antibiotic biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but not specific enough. The enzyme is involved in penicillin biosynthesis specifically.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0042318
+      label: penicillin biosynthetic process
+    supported_by:
+      - reference_id: PMID:1368505
+        supporting_text: Heterologous expression of the penicillin biosynthetic gene cluster from P. chrysogenum
+- term:
+    id: GO:0042318
+    label: penicillin biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Correct annotation representing the core function of this enzyme.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:2120195
+        supporting_text: "The final step in the biosynthesis of beta-lactam antibiotics in Penicillium chrysogenum and Aspergillus nidulans involves removal of the L-alpha-aminoadipyl side chain from isopenicillin N"
+- term:
+    id: GO:0050640
+    label: isopenicillin-N N-acyltransferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Correct and specific molecular function annotation representing the core enzymatic activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: UniProt:P15802
+        supporting_text: Catalyzes the exchange of the α-aminoadipyl side chain of isopenicillin N for phenylacetic acid to yield penicillin G
+- term:
+    id: GO:0042318
+    label: penicillin biosynthetic process
+  evidence_type: IDA
+  original_reference_id: PMID:2120195
+  review:
+    summary: 'Correct annotation with strong experimental evidence (IDA).'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:2120195
+        supporting_text: "Acyltransferase activity from Escherichia coli producing the 40-kDa protein"
+- term:
+    id: GO:0005782
+    label: peroxisomal matrix
+  evidence_type: IDA
+  original_reference_id: PMID:18439860
+  review:
+    summary: 'Correct subcellular location with strong experimental evidence (IDA).'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18439860
+        supporting_text: Unprocessed preprotein form IATC103S of the isopenicillin N acyltransferase is transported inside peroxisomes
+- term:
+    id: GO:0042318
+    label: penicillin biosynthetic process
+  evidence_type: IDA
+  original_reference_id: PMID:1368505
+  review:
+    summary: 'Correct annotation with strong experimental evidence showing functional penicillin biosynthesis.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:1368505
+        supporting_text: "Both of the transformed hosts contained intact P. chrysogenum DNA derived from the cosmid clone and produced authentic penicillin V"
+- term:
+    id: GO:0050640
+    label: isopenicillin-N N-acyltransferase activity
+  evidence_type: IDA
+  original_reference_id: PMID:2120195
+  review:
+    summary: 'Correct and specific molecular function with strong experimental evidence (IDA).'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:2120195
+        supporting_text: The enzyme catalyzing this reaction, acyl-coenzyme A:isopenicillin N acyltransferase, was purified from P. chrysogenum
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:1368505
+  title: Cloning and heterologous expression of the penicillin biosynthetic gene cluster
+    from penicillum chrysogenum.
+  findings: []
+- id: PMID:18439860
+  title: The unprocessed preprotein form IATC103S of the isopenicillin N acyltransferase
+    is transported inside peroxisomes and regulates its self-processing.
+  findings: []
+- id: PMID:2120195
+  title: Molecular characterization of the acyl-coenzyme A:isopenicillin N acyltransferase
+    gene (penDE) from Penicillium chrysogenum and Aspergillus nidulans and activity
+    of recombinant enzyme in Escherichia coli.
+  findings: []
+- id: PMID:20223213
+  title: Structures of an isopenicillin N converting Ntn-hydrolase reveal different
+    catalytic roles for the active site residues of precursor and mature enzyme.
+  findings: []
+core_functions:
+- description: catalyzes the exchange of the α-aminoadipyl side chain of isopenicillin N with phenylacetyl-CoA to produce penicillin G in the final step of penicillin biosynthesis
+  molecular_function:
+    id: GO:0050640
+    label: isopenicillin-N N-acyltransferase activity
+  directly_involved_in:
+    - id: GO:0042318
+      label: penicillin biosynthetic process
+  locations:
+    - id: GO:0005782
+      label: peroxisomal matrix
+  substrates:
+    - id: CHEBI:18165
+      label: isopenicillin N
+    - id: CHEBI:15537
+      label: phenylacetyl-CoA
+- description: undergoes autocatalytic cleavage to generate catalytically active heterodimeric enzyme from 40 kDa precursor
+  molecular_function:
+    id: GO:0008234
+    label: cysteine-type peptidase activity
+  directly_involved_in:
+    - id: GO:0097264
+      label: self proteolysis
+  locations:
+    - id: GO:0005782
+      label: peroxisomal matrix
+  supported_by:
+    - reference_id: PMID:2120195
+      supporting_text: The enzyme undergoes autocatalytic cleavage to form 11 kDa and 29 kDa subunits
+    - reference_id: PMID:18439860
+      supporting_text: The unprocessed preprotein form regulates its self-processing
+    - reference_id: PMID:20223213
+      supporting_text: Structure of a Cys103Ala precursor mutant shows that maturation is autoproteolytic, initiated by Cys103 cleaving its preceding peptide bond
+    - reference_id: file:PENCH/aatA/aatA-bioinformatics/RESULTS.md
+      supporting_text: Computational analysis of crystal structures validates Cys103 as the nucleophile and confirms cleavage between Gly102-Cys103

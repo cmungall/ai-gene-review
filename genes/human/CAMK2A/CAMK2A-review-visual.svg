@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="4870" viewBox="0 0 1800 4870">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="4870" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: CAMK2A (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="1205" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="1227.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="530" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="551.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="905" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="926.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="1260" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="1281.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="2650" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2671.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0007259</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">cell surface receptor signaling pat...</text>
+<rect x="80" y="575" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="589" font-size="10" font-family="monospace" fill="#666666">GO:0035458</text>
+<text x="85" y="605" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to interferon-beta</text>
+<rect x="80" y="720" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="734" font-size="10" font-family="monospace" fill="#666666">GO:0071346</text>
+<text x="85" y="750" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to type II interf...</text>
+<rect x="80" y="950" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="964" font-size="10" font-family="monospace" fill="#666666">GO:0046427</text>
+<text x="85" y="980" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of receptor sig...</text>
+<rect x="80" y="2175" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2189" font-size="10" font-family="monospace" fill="#666666">GO:0004683</text>
+<text x="85" y="2205" font-size="11" font-family="Arial, sans-serif" fill="#212121">calcium/calmodulin-dependent protei...</text>
+<rect x="80" y="1450" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1464" font-size="10" font-family="monospace" fill="#666666">GO:0004672</text>
+<text x="85" y="1480" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein kinase activity</text>
+<rect x="80" y="2465" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2479" font-size="10" font-family="monospace" fill="#666666">GO:0004674</text>
+<text x="85" y="2495" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein serine/threonine kinase act...</text>
+<rect x="80" y="2695" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2709" font-size="10" font-family="monospace" fill="#666666">GO:0000166</text>
+<text x="85" y="2725" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleotide binding</text>
+<rect x="80" y="4435" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4449" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="4465" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<path d="M332,2189.5 L348,2205.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2205.5 L348,2189.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="1472.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,2709.5 L348,2725.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,2725.5 L348,2709.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="2487.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M280,4457.5 L390,4457.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,4457.5 L382,4453.5 L382,4461.5 Z" fill="#ff9800" />
+<circle cx="340" cy="4457.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,359.5 L348,375.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,375.5 L348,359.5" stroke="#f44336" stroke-width="3" />
+<circle cx="340" cy="597.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="972.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="742.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<rect x="600.0" y="4730" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="4765.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="4765.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

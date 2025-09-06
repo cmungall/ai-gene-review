@@ -1,0 +1,170 @@
+ID   CR021_HUMAN             Reviewed;         220 AA.
+AC   Q32NC0; Q6GW03; Q9BXV6; Q9BXW2;
+DT   06-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   18-JUN-2025, entry version 136.
+DE   RecName: Full=UPF0711 protein C18orf21;
+DE   AltName: Full=HBV X-transactivated gene 13 protein;
+DE   AltName: Full=HBV XAg-transactivated protein 13;
+GN   Name=C18orf21; Synonyms=XTP13; ORFNames=PNAS-124, PNAS-131;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), AND VARIANT ALA-132.
+RA   Cheng J., Liu Y., Hong Y., Wang J.-J., Yang Q.;
+RT   "Screening and cloning of the target genes transactivated by hepatitis B
+RT   virus X protein by microarray assay.";
+RL   Submitted (MAY-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2), AND VARIANT
+RP   ALA-132.
+RC   TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 14-220 (ISOFORM 1).
+RC   TISSUE=Promyelocytic leukemia;
+RA   Yu W.-Q., Sun B.-Z., Chai Y.-B., Zhu F., Liu X.-S., Li Z., Lu F., Yan W.,
+RA   Yang H., Zhao Z.-L.;
+RT   "Human acute promyelocytic leukemia cell line NB4's
+RT   apoptosis/differentiation related genes.";
+RL   Submitted (JUN-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-126; THR-130 AND THR-139, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q32NC0-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q32NC0-2; Sequence=VSP_055184;
+CC   -!- SIMILARITY: Belongs to the UPF0711 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK07541.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=AAK07547.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY631401; AAT51696.1; -; mRNA.
+DR   EMBL; BC025950; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; BC108730; AAI08731.1; -; mRNA.
+DR   EMBL; BC119765; AAI19766.1; -; mRNA.
+DR   EMBL; BC119766; AAI19767.1; -; mRNA.
+DR   EMBL; AF277182; AAK07541.1; ALT_INIT; mRNA.
+DR   EMBL; AF277189; AAK07547.1; ALT_SEQ; mRNA.
+DR   CCDS; CCDS11916.2; -. [Q32NC0-1]
+DR   CCDS; CCDS56064.1; -. [Q32NC0-2]
+DR   RefSeq; NP_001188403.1; NM_001201474.2. [Q32NC0-2]
+DR   RefSeq; NP_001188404.1; NM_001201475.2. [Q32NC0-2]
+DR   RefSeq; NP_113634.3; NM_031446.4. [Q32NC0-1]
+DR   AlphaFoldDB; Q32NC0; -.
+DR   BioGRID; 123699; 180.
+DR   FunCoup; Q32NC0; 1136.
+DR   IntAct; Q32NC0; 152.
+DR   STRING; 9606.ENSP00000465517; -.
+DR   GlyGen; Q32NC0; 1 site, 1 N-linked glycan (1 site).
+DR   iPTMnet; Q32NC0; -.
+DR   PhosphoSitePlus; Q32NC0; -.
+DR   BioMuta; C18orf21; -.
+DR   DMDM; 121942208; -.
+DR   jPOST; Q32NC0; -.
+DR   MassIVE; Q32NC0; -.
+DR   PaxDb; 9606-ENSP00000465517; -.
+DR   PeptideAtlas; Q32NC0; -.
+DR   ProteomicsDB; 61619; -. [Q32NC0-1]
+DR   Pumba; Q32NC0; -.
+DR   Antibodypedia; 54637; 24 antibodies from 10 providers.
+DR   DNASU; 83608; -.
+DR   Ensembl; ENST00000333234.5; ENSP00000329492.5; ENSG00000141428.17. [Q32NC0-2]
+DR   Ensembl; ENST00000592875.6; ENSP00000465517.1; ENSG00000141428.17. [Q32NC0-1]
+DR   Ensembl; ENST00000610527.4; ENSP00000480486.1; ENSG00000141428.17. [Q32NC0-2]
+DR   GeneID; 83608; -.
+DR   KEGG; hsa:83608; -.
+DR   MANE-Select; ENST00000592875.6; ENSP00000465517.1; NM_031446.5; NP_113634.3.
+DR   UCSC; uc002kzc.4; human. [Q32NC0-1]
+DR   AGR; HGNC:28802; -.
+DR   CTD; 83608; -.
+DR   DisGeNET; 83608; -.
+DR   GeneCards; C18orf21; -.
+DR   HGNC; HGNC:28802; C18orf21.
+DR   HPA; ENSG00000141428; Low tissue specificity.
+DR   neXtProt; NX_Q32NC0; -.
+DR   OpenTargets; ENSG00000141428; -.
+DR   PharmGKB; PA134888949; -.
+DR   VEuPathDB; HostDB:ENSG00000141428; -.
+DR   eggNOG; ENOG502S2A1; Eukaryota.
+DR   GeneTree; ENSGT00390000013383; -.
+DR   HOGENOM; CLU_110760_0_0_1; -.
+DR   InParanoid; Q32NC0; -.
+DR   OMA; HKGVNRD; -.
+DR   OrthoDB; 10049098at2759; -.
+DR   PAN-GO; Q32NC0; 0 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q32NC0; -.
+DR   PathwayCommons; Q32NC0; -.
+DR   SignaLink; Q32NC0; -.
+DR   BioGRID-ORCS; 83608; 328 hits in 1103 CRISPR screens.
+DR   GenomeRNAi; 83608; -.
+DR   Pharos; Q32NC0; Tdark.
+DR   PRO; PR:Q32NC0; -.
+DR   Proteomes; UP000005640; Chromosome 18.
+DR   RNAct; Q32NC0; protein.
+DR   Bgee; ENSG00000141428; Expressed in primordial germ cell in gonad and 188 other cell types or tissues.
+DR   ExpressionAtlas; Q32NC0; baseline and differential.
+DR   InterPro; IPR029779; DUF4674.
+DR   PANTHER; PTHR31402; UPF0711 PROTEIN C18ORF21; 1.
+DR   PANTHER; PTHR31402:SF2; UPF0711 PROTEIN C18ORF21; 1.
+DR   Pfam; PF15719; DUF4674; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Phosphoprotein; Proteomics identification;
+KW   Reference proteome.
+FT   CHAIN           1..220
+FT                   /note="UPF0711 protein C18orf21"
+FT                   /id="PRO_0000279448"
+FT   REGION          117..181
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        119..136
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        171..180
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         126
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:18669648"
+FT   MOD_RES         130
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:18669648"
+FT   MOD_RES         139
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:18669648"
+FT   VAR_SEQ         1..88
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334, ECO:0000303|Ref.1"
+FT                   /id="VSP_055184"
+FT   VARIANT         132
+FT                   /note="T -> A (in dbSNP:rs2276314)"
+FT                   /evidence="ECO:0000269|PubMed:15489334, ECO:0000269|Ref.1"
+FT                   /id="VAR_030903"
+FT   CONFLICT        212
+FT                   /note="S -> F (in Ref. 2; AAK07541)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   220 AA;  24827 MW;  3BB72C83F47F14EF CRC64;
+     MRQKHYLEAA ARGLHDSCPG QARYLLWAYT SSHDDKSTFE ETCPYCFQLL VLDNSRVRLK
+     PKARLTPKIQ KLLNREARNY TLSFKEAKMV KKFKDSKSVL LITCKTCNRT VKHHGKSRSF
+     VSTLKSNPAT PTSKLSLKTP ERRTANPNHD MSGSKGKSPA SVFRTPTSGQ SVSTCSSKNT
+     SKTKKHFSQL KMLLSQNESQ KIPKVDFRNF LSSLKGGLLK
+//

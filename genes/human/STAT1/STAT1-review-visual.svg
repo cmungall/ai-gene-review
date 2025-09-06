@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="12330" viewBox="0 0 1800 12330">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="12330" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: STAT1 (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="915" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="937.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="11795" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="11817.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">response to stimulus</text>
+<rect x="60" y="385" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="406.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="615" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="636.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="970" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="991.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="10045" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="10066.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">transcription regulator activity</text>
+<rect x="60" y="11850" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="11871.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="200" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="214" font-size="10" font-family="monospace" fill="#666666">GO:0071345</text>
+<text x="85" y="230" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to cytokine stimulus</text>
+<rect x="80" y="430" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="444" font-size="10" font-family="monospace" fill="#666666">GO:0046427</text>
+<text x="85" y="460" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of receptor sig...</text>
+<rect x="80" y="660" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="674" font-size="10" font-family="monospace" fill="#666666">GO:0043542</text>
+<text x="85" y="690" font-size="11" font-family="Arial, sans-serif" fill="#212121">endothelial cell migration</text>
+<rect x="80" y="8845" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8859" font-size="10" font-family="monospace" fill="#666666">GO:0000978</text>
+<text x="85" y="8875" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA polymerase II cis-regulatory re...</text>
+<rect x="80" y="1160" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1174" font-size="10" font-family="monospace" fill="#666666">GO:0003677</text>
+<text x="85" y="1190" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA binding</text>
+<rect x="80" y="9860" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9874" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="9890" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<rect x="80" y="6235" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6249" font-size="10" font-family="monospace" fill="#666666">GO:0042802</text>
+<text x="85" y="6265" font-size="11" font-family="Arial, sans-serif" fill="#212121">identical protein binding</text>
+<rect x="80" y="6380" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6394" font-size="10" font-family="monospace" fill="#666666">GO:0031730</text>
+<text x="85" y="6410" font-size="11" font-family="Arial, sans-serif" fill="#212121">CCR5 chemokine receptor binding</text>
+<rect x="80" y="6525" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6539" font-size="10" font-family="monospace" fill="#666666">GO:0043565</text>
+<text x="85" y="6555" font-size="11" font-family="Arial, sans-serif" fill="#212121">sequence-specific DNA binding</text>
+<rect x="80" y="6670" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6684" font-size="10" font-family="monospace" fill="#666666">GO:0051721</text>
+<text x="85" y="6700" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein phosphatase 2A binding</text>
+<rect x="80" y="6815" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6829" font-size="10" font-family="monospace" fill="#666666">GO:0000977</text>
+<text x="85" y="6845" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA polymerase II transcription reg...</text>
+<rect x="80" y="6960" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6974" font-size="10" font-family="monospace" fill="#666666">GO:0001223</text>
+<text x="85" y="6990" font-size="11" font-family="Arial, sans-serif" fill="#212121">transcription coactivator binding</text>
+<rect x="80" y="7105" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7119" font-size="10" font-family="monospace" fill="#666666">GO:0001222</text>
+<text x="85" y="7135" font-size="11" font-family="Arial, sans-serif" fill="#212121">transcription corepressor binding</text>
+<rect x="80" y="8410" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8424" font-size="10" font-family="monospace" fill="#666666">GO:0000979</text>
+<text x="85" y="8440" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA polymerase II core promoter seq...</text>
+<rect x="80" y="7395" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7409" font-size="10" font-family="monospace" fill="#666666">GO:0045296</text>
+<text x="85" y="7425" font-size="11" font-family="Arial, sans-serif" fill="#212121">cadherin binding</text>
+<rect x="80" y="7830" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7844" font-size="10" font-family="monospace" fill="#666666">GO:0019899</text>
+<text x="85" y="7860" font-size="11" font-family="Arial, sans-serif" fill="#212121">enzyme binding</text>
+<rect x="80" y="7975" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="7989" font-size="10" font-family="monospace" fill="#666666">GO:0035035</text>
+<text x="85" y="8005" font-size="11" font-family="Arial, sans-serif" fill="#212121">histone acetyltransferase binding</text>
+<rect x="80" y="8120" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8134" font-size="10" font-family="monospace" fill="#666666">GO:0042393</text>
+<text x="85" y="8150" font-size="11" font-family="Arial, sans-serif" fill="#212121">histone binding</text>
+<rect x="80" y="8265" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8279" font-size="10" font-family="monospace" fill="#666666">GO:0044389</text>
+<text x="85" y="8295" font-size="11" font-family="Arial, sans-serif" fill="#212121">ubiquitin-like protein ligase binding</text>
+<rect x="80" y="9570" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9584" font-size="10" font-family="monospace" fill="#666666">GO:0042803</text>
+<text x="85" y="9600" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein homodimerization activity</text>
+<rect x="80" y="9135" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9149" font-size="10" font-family="monospace" fill="#666666">GO:0005164</text>
+<text x="85" y="9165" font-size="11" font-family="Arial, sans-serif" fill="#212121">tumor necrosis factor receptor binding</text>
+<rect x="80" y="9425" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9439" font-size="10" font-family="monospace" fill="#666666">GO:0003690</text>
+<text x="85" y="9455" font-size="11" font-family="Arial, sans-serif" fill="#212121">double-stranded DNA binding</text>
+<rect x="80" y="11250" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11264" font-size="10" font-family="monospace" fill="#666666">GO:0000981</text>
+<text x="85" y="11280" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA-binding transcription factor ac...</text>
+<rect x="80" y="11540" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11554" font-size="10" font-family="monospace" fill="#666666">GO:0003700</text>
+<text x="85" y="11570" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA-binding transcription factor ac...</text>
+<rect x="80" y="11895" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11909" font-size="10" font-family="monospace" fill="#666666">GO:0005634</text>
+<text x="85" y="11925" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleus</text>
+<path d="M332,8867.5 L337,8872.5 L348,8859.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,11272.5 L337,11277.5 L348,11264.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,1172.5 L330,1190.5 L350,1190.5 Z" fill="#ffc107" />
+<text x="340" y="1186.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,11562.5 L337,11567.5 L348,11554.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M340,9872.5 L330,9890.5 L350,9890.5 Z" fill="#ffc107" />
+<text x="340" y="9886.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,6257.5 L337,6262.5 L348,6249.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6394.5 L348,6410.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6410.5 L348,6394.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6547.5 L337,6552.5 L348,6539.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6684.5 L348,6700.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,6700.5 L348,6684.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,222.5 L337,227.5 L348,214.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,452.5 L337,457.5 L348,444.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6837.5 L337,6842.5 L348,6829.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,6982.5 L337,6987.5 L348,6974.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="7127.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="8432.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,7409.5 L348,7425.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,7425.5 L348,7409.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11917.5 L337,11922.5 L348,11909.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7852.5 L337,7857.5 L348,7844.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,7997.5 L337,8002.5 L348,7989.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8142.5 L337,8147.5 L348,8134.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,8287.5 L337,8292.5 L348,8279.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,9592.5 L337,9597.5 L348,9584.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="682.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="9157.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,9447.5 L337,9452.5 L348,9439.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<rect x="385" y="6235" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="6245" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9630226]</text>
+<text x="390" y="6253" font-size="8" font-family="Arial, sans-serif" fill="#212121">The STAT-1 dimer forms a contiguous C-shaped clamp around DNA that</text>
+<text x="390" y="6262" font-size="8" font-family="Arial, sans-serif" fill="#212121">is stabilized by reciprocal and highly specific interactions between</text>
+<text x="390" y="6271" font-size="8" font-family="Arial, sans-serif" fill="#212121">the SH2 domain of one monomer and the C-terminal segment,</text>
+<text x="390" y="6280" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphorylated on tyrosine, of the other</text>
+<rect x="385" y="11250" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="11260" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21268089]</text>
+<text x="390" y="11268" font-size="8" font-family="Arial, sans-serif" fill="#212121">Simvastatin and PPAR agonists had no effect on the IFN-γ-induced,</text>
+<text x="390" y="11277" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphorylation-mediated activation of STAT1 and its DNA binding but</text>
+<text x="390" y="11286" font-size="8" font-family="Arial, sans-serif" fill="#212121">attenuated its ability to activate gene transcription.</text>
+<rect x="385" y="430" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="440" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[16257975]</text>
+<text x="390" y="448" font-size="8" font-family="Arial, sans-serif" fill="#212121">the conserved Leu-724 residue is also essential for gene activation</text>
+<text x="390" y="457" font-size="8" font-family="Arial, sans-serif" fill="#212121">mediated by Stat1.</text>
+<rect x="385" y="11540" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="11550" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10973496]</text>
+<text x="390" y="11558" font-size="8" font-family="Arial, sans-serif" fill="#212121">Signal transducer and activator of transcription (Stat) proteins are</text>
+<text x="390" y="11567" font-size="8" font-family="Arial, sans-serif" fill="#212121">latent transcription factors that reside in the cytoplasm before</text>
+<text x="390" y="11576" font-size="8" font-family="Arial, sans-serif" fill="#212121">activation. On cytokine-induced tyrosine phosphorylation, these</text>
+<text x="390" y="11585" font-size="8" font-family="Arial, sans-serif" fill="#212121">molecules dimerize and accumulate transiently in the nucleus</text>
+<rect x="385" y="6815" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="6825" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22002246]</text>
+<text x="390" y="6833" font-size="8" font-family="Arial, sans-serif" fill="#212121">STAT1 binding to its DNA recognition element near the IRF1 promoter</text>
+<text x="390" y="6842" font-size="8" font-family="Arial, sans-serif" fill="#212121">is diminished 2-fold in the DOT1L-depleted cell line. In vivo and in</text>
+<text x="390" y="6851" font-size="8" font-family="Arial, sans-serif" fill="#212121">vitro protein interaction assays reveal a DOT1L-STAT1 interaction</text>
+<rect x="385" y="6960" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="6970" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[22002246]</text>
+<text x="390" y="6978" font-size="8" font-family="Arial, sans-serif" fill="#212121">Domain mapping identifies the middle region of DOT1L (amino acids</text>
+<text x="390" y="6987" font-size="8" font-family="Arial, sans-serif" fill="#212121">580–1183) as the STAT1 interaction domain.</text>
+<rect x="385" y="8845" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="8855" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18035482]</text>
+<text x="390" y="8863" font-size="8" font-family="Arial, sans-serif" fill="#212121">Regulation of XAF1 expression in human colon cancer cell by</text>
+<text x="390" y="8872" font-size="8" font-family="Arial, sans-serif" fill="#212121">interferon beta: activation by the transcription regulator STAT1</text>
+<rect x="385" y="11895" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="11905" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26479788]</text>
+<text x="390" y="11913" font-size="8" font-family="Arial, sans-serif" fill="#212121">PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C</text>
+<text x="390" y="11922" font-size="8" font-family="Arial, sans-serif" fill="#212121">protease to enhance interferon signaling and control viral infection</text>
+<rect x="385" y="7830" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="7840" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26479788]</text>
+<text x="390" y="7848" font-size="8" font-family="Arial, sans-serif" fill="#212121">PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C</text>
+<text x="390" y="7857" font-size="8" font-family="Arial, sans-serif" fill="#212121">protease to enhance interferon signaling and control viral infection</text>
+<rect x="385" y="7975" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="7985" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26479788]</text>
+<text x="390" y="7993" font-size="8" font-family="Arial, sans-serif" fill="#212121">PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C</text>
+<text x="390" y="8002" font-size="8" font-family="Arial, sans-serif" fill="#212121">protease to enhance interferon signaling and control viral infection</text>
+<rect x="385" y="8120" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="8130" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26479788]</text>
+<text x="390" y="8138" font-size="8" font-family="Arial, sans-serif" fill="#212121">PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C</text>
+<text x="390" y="8147" font-size="8" font-family="Arial, sans-serif" fill="#212121">protease to enhance interferon signaling and control viral infection</text>
+<rect x="385" y="8265" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="8275" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[26479788]</text>
+<text x="390" y="8283" font-size="8" font-family="Arial, sans-serif" fill="#212121">PARP9-DTX3L ubiquitin ligase targets host histone H2BJ and viral 3C</text>
+<text x="390" y="8292" font-size="8" font-family="Arial, sans-serif" fill="#212121">protease to enhance interferon signaling and control viral infection</text>
+<rect x="385" y="9570" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="9580" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9630226]</text>
+<text x="390" y="9588" font-size="8" font-family="Arial, sans-serif" fill="#212121">The STAT-1 dimer forms a contiguous C-shaped clamp around DNA that</text>
+<text x="390" y="9597" font-size="8" font-family="Arial, sans-serif" fill="#212121">is stabilized by reciprocal and highly specific interactions between</text>
+<text x="390" y="9606" font-size="8" font-family="Arial, sans-serif" fill="#212121">the SH2 domain of one monomer and the C-terminal segment,</text>
+<text x="390" y="9615" font-size="8" font-family="Arial, sans-serif" fill="#212121">phosphorylated on tyrosine, of the other</text>
+<rect x="385" y="9425" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="390" y="9435" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[9630226]</text>
+<text x="390" y="9443" font-size="8" font-family="Arial, sans-serif" fill="#212121">The crystal structure of the DNA complex of a STAT-1 homodimer has</text>
+<text x="390" y="9452" font-size="8" font-family="Arial, sans-serif" fill="#212121">been determined at 2.9 A resolution. STAT-1 utilizes a DNA-binding</text>
+<text x="390" y="9461" font-size="8" font-family="Arial, sans-serif" fill="#212121">domain with an immunoglobulin fold, similar to that of NFkappaB and</text>
+<text x="390" y="9470" font-size="8" font-family="Arial, sans-serif" fill="#212121">the p53 tumor suppressor protein</text>
+<rect x="600.0" y="12190" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="12225.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="12225.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>

@@ -1,0 +1,118 @@
+id: A0A0B4FWC3
+gene_symbol: MBR_10393
+taxon:
+  id: NCBITaxon:1276141
+  label: Metarhizium brunneum ARSEF 3297
+description: 'Sesquiterpene synthase that catalyzes the conversion of farnesyl diphosphate to multiple sesquiterpene products, primarily corvol ether B and corvol ether A. This bacterial-origin terpene synthase was acquired through horizontal gene transfer and produces sesquiterpenes important for fungi-environment interactions. The enzyme requires Mg2+ as a cofactor and contains a conserved DDXXXD motif essential for catalytic activity.'
+existing_annotations:
+- term:
+    id: GO:0008299
+    label: isoprenoid biosynthetic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This broad term correctly captures that the enzyme participates in isoprenoid biosynthesis, but a more specific term GO:0051762 (sesquiterpene biosynthetic process) would be more appropriate given that this enzyme specifically produces sesquiterpenes from FPP as characterized in PMID:31239482.'
+    action: MODIFY
+    reason: 'The enzyme specifically catalyzes sesquiterpene biosynthesis, not general isoprenoid biosynthesis. The UniProt entry clearly states it produces 8 different sesquiterpenes including corvol ethers A and B from farnesyl diphosphate.'
+    proposed_replacement_terms:
+      - id: GO:0051762
+        label: sesquiterpene biosynthetic process
+    additional_reference_ids:
+      - UniProt:A0A0B4FWC3
+    supported_by:
+      - reference_id: UniProt:A0A0B4FWC3
+        supporting_text: "Terpene synthase that catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) into sesquiterpenes... Produces a mixture consisting of 8 sesquiterpenes including corvol ethers A and B"
+- term:
+    id: GO:0010333
+    label: terpene synthase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'This general terpene synthase activity term is correct but should be refined to the more specific GO:0010334 (sesquiterpene synthase activity) since this enzyme specifically catalyzes the formation of sesquiterpenes from farnesyl diphosphate with characterized EC numbers 4.2.3.163 and 4.2.3.171.'
+    action: MODIFY
+    reason: 'The enzyme is specifically a sesquiterpene synthase with well-characterized products (corvol ethers A and B) and assigned EC numbers. The more specific term GO:0010334 accurately reflects its molecular function.'
+    proposed_replacement_terms:
+      - id: GO:0010334
+        label: sesquiterpene synthase activity
+    additional_reference_ids:
+      - UniProt:A0A0B4FWC3
+    supported_by:
+      - reference_id: UniProt:A0A0B4FWC3
+        supporting_text: "RecName: Full=Sesquiterpene synthase MBR_10393; EC=4.2.3.163; EC=4.2.3.171"
+- term:
+    id: GO:0016829
+    label: lyase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This very broad lyase activity term is technically correct but uninformative. The enzyme should be annotated with the more specific GO:0016838 (carbon-oxygen lyase activity, acting on phosphates) or even better GO:0010334 (sesquiterpene synthase activity) which captures its specific catalytic function.'
+    action: MODIFY
+    reason: 'GO:0016829 is too general for a well-characterized enzyme. The protein specifically catalyzes carbon-oxygen bond cleavage in farnesyl diphosphate, releasing diphosphate and forming sesquiterpenes. The more specific molecular function term GO:0010334 better represents its activity.'
+    proposed_replacement_terms:
+      - id: GO:0010334
+        label: sesquiterpene synthase activity
+    additional_reference_ids:
+      - UniProt:A0A0B4FWC3
+    supported_by:
+      - reference_id: UniProt:A0A0B4FWC3
+        supporting_text: "CATALYTIC ACTIVITY: Reaction=(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B + diphosphate"
+- term:
+    id: GO:0016838
+    label: carbon-oxygen lyase activity, acting on phosphates
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'This term correctly describes the mechanistic aspect of the enzyme cleaving the C-O bond in farnesyl diphosphate to release diphosphate. However, the more specific term GO:0010334 (sesquiterpene synthase activity) is preferred as it captures both the mechanism and the specific substrate/product relationship.'
+    action: MODIFY
+    reason: 'While mechanistically accurate, GO:0016838 is still a parent term that encompasses many different enzymes. The specific molecular function GO:0010334 (sesquiterpene synthase activity) better represents this characterized enzyme with assigned EC numbers 4.2.3.163 and 4.2.3.171.'
+    proposed_replacement_terms:
+      - id: GO:0010334
+        label: sesquiterpene synthase activity
+    additional_reference_ids:
+      - UniProt:A0A0B4FWC3
+    supported_by:
+      - reference_id: UniProt:A0A0B4FWC3
+        supporting_text: "Reaction=(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B + diphosphate; EC=4.2.3.163"
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'This general metal ion binding term should be replaced with the more specific GO:0000287 (magnesium ion binding) as the UniProt entry clearly states the enzyme binds 3 Mg2+ ions per subunit, with specific binding sites identified at positions 91, 96, 230, 234, and 238.'
+    action: MODIFY
+    reason: 'The enzyme specifically binds magnesium ions (3 Mg2+ per subunit) as cofactors essential for catalytic activity. The DDXXXD motif at positions 91-96 is important for Mg2+ binding. The more specific term GO:0000287 accurately reflects this characterized binding specificity.'
+    proposed_replacement_terms:
+      - id: GO:0000287
+        label: magnesium ion binding
+    additional_reference_ids:
+      - UniProt:A0A0B4FWC3
+    supported_by:
+      - reference_id: UniProt:A0A0B4FWC3
+        supporting_text: "COFACTOR: Name=Mg(2+); Note=Binds 3 Mg(2+) ions per subunit"
+references:
+- id: UniProt:A0A0B4FWC3
+  title: 'UniProt entry for Sesquiterpene synthase MBR_10393'
+  findings:
+    - statement: EC numbers 4.2.3.163 and 4.2.3.171 assigned for sesquiterpene synthase activity
+    - statement: Binds 3 Mg2+ ions per subunit as cofactors
+    - statement: Contains DDXXXD motif important for catalytic activity
+    - statement: Specific binding sites for Mg2+ at positions 91, 96, 230, 234, and 238
+    - statement: Catalyzes conversion of FPP to 8 sesquiterpenes including corvol ethers A and B
+    - statement: Major product is corvol ether B
+    - statement: Produces sesquiterpenes important for fungi-environment interactions
+    - statement: Bacterial-origin terpene synthase acquired through horizontal gene transfer
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+core_functions:
+- description: sesquiterpene synthase activity (GO:0010334) - catalyzes the conversion of (2E,6E)-farnesyl diphosphate to multiple sesquiterpene products, primarily corvol ether B (EC 4.2.3.163) and corvol ether A (EC 4.2.3.171), producing 8 different sesquiterpenes total
+- description: magnesium ion binding (GO:0000287) - binds 3 Mg2+ ions per subunit with specific binding sites at positions 91, 96, 230, 234, and 238, utilizing a conserved DDXXXD motif essential for catalytic activity
+- description: sesquiterpene biosynthetic process (GO:0051762) - participates in the biosynthesis of sesquiterpenes important for fungi-environment interactions through this bacterial-origin enzyme acquired via horizontal gene transfer

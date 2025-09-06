@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="12970" viewBox="0 0 1800 12970">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800" height="12970" fill="#f5f5f5" />
+<text x="900.0" y="30" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Gene Review: DNMT1 (Homo sapiens)</text>
+<rect x="40" y="100" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="122.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Biological Process</text>
+<rect x="40" y="4165" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="4187.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Molecular Function</text>
+<rect x="40" y="10115" width="1720" height="35" fill="#e3f2fd" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="50" y="10137.5" font-size="16" font-family="Arial, sans-serif" font-weight="bold" fill="#212121">Cellular Component</text>
+<rect x="60" y="155" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="176.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular process</text>
+<rect x="60" y="2415" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="2436.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">biological regulation</text>
+<rect x="60" y="4220" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="4241.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">catalytic activity</text>
+<rect x="60" y="5465" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="5486.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">binding</text>
+<rect x="60" y="10170" width="220" height="35" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="1" rx="3" ry="3" />
+<text x="68" y="10191.5" font-size="13" font-family="Arial, sans-serif" fill="#212121">cellular_component</text>
+<rect x="80" y="2230" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2244" font-size="10" font-family="monospace" fill="#666666">GO:0044027</text>
+<text x="85" y="2260" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of gene express...</text>
+<rect x="80" y="345" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="359" font-size="10" font-family="monospace" fill="#666666">GO:0006346</text>
+<text x="85" y="375" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA methylation-dependent constitut...</text>
+<rect x="80" y="490" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="504" font-size="10" font-family="monospace" fill="#666666">GO:0006325</text>
+<text x="85" y="520" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromatin organization</text>
+<rect x="80" y="635" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0032259</text>
+<text x="85" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">methylation</text>
+<rect x="80" y="780" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0006351</text>
+<text x="85" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA-templated transcription</text>
+<rect x="80" y="925" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="939" font-size="10" font-family="monospace" fill="#666666">GO:0043045</text>
+<text x="85" y="955" font-size="11" font-family="Arial, sans-serif" fill="#212121">epigenetic programming of gene expr...</text>
+<rect x="80" y="1215" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1229" font-size="10" font-family="monospace" fill="#666666">GO:0071230</text>
+<text x="85" y="1245" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to amino acid sti...</text>
+<rect x="80" y="1650" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1664" font-size="10" font-family="monospace" fill="#666666">GO:0141119</text>
+<text x="85" y="1680" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromosomal DNA methylation mainten...</text>
+<rect x="80" y="1505" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="1519" font-size="10" font-family="monospace" fill="#666666">GO:1903926</text>
+<text x="85" y="1535" font-size="11" font-family="Arial, sans-serif" fill="#212121">cellular response to bisphenol A</text>
+<rect x="80" y="3910" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3924" font-size="10" font-family="monospace" fill="#666666">GO:0000122</text>
+<text x="85" y="3940" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of transcriptio...</text>
+<rect x="80" y="2605" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2619" font-size="10" font-family="monospace" fill="#666666">GO:0010468</text>
+<text x="85" y="2635" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of gene expression</text>
+<rect x="80" y="3185" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3199" font-size="10" font-family="monospace" fill="#666666">GO:0010629</text>
+<text x="85" y="3215" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of gene expression</text>
+<rect x="80" y="2895" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="2909" font-size="10" font-family="monospace" fill="#666666">GO:0042127</text>
+<text x="85" y="2925" font-size="11" font-family="Arial, sans-serif" fill="#212121">regulation of cell population proli...</text>
+<rect x="80" y="3040" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3054" font-size="10" font-family="monospace" fill="#666666">GO:0045892</text>
+<text x="85" y="3070" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of DNA-template...</text>
+<rect x="80" y="3330" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3344" font-size="10" font-family="monospace" fill="#666666">GO:1904707</text>
+<text x="85" y="3360" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of vascular ass...</text>
+<rect x="80" y="3475" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3489" font-size="10" font-family="monospace" fill="#666666">GO:1905460</text>
+<text x="85" y="3505" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of vascular ass...</text>
+<rect x="80" y="3620" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3634" font-size="10" font-family="monospace" fill="#666666">GO:1905931</text>
+<text x="85" y="3650" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of vascular ass...</text>
+<rect x="80" y="3765" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="3779" font-size="10" font-family="monospace" fill="#666666">GO:0010628</text>
+<text x="85" y="3795" font-size="11" font-family="Arial, sans-serif" fill="#212121">positive regulation of gene expression</text>
+<rect x="80" y="5280" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5294" font-size="10" font-family="monospace" fill="#666666">GO:0003886</text>
+<text x="85" y="5310" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA (cytosine-5-)-methyltransferase...</text>
+<rect x="80" y="4555" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4569" font-size="10" font-family="monospace" fill="#666666">GO:0008168</text>
+<text x="85" y="4585" font-size="11" font-family="Arial, sans-serif" fill="#212121">methyltransferase activity</text>
+<rect x="80" y="4700" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="4714" font-size="10" font-family="monospace" fill="#666666">GO:0016740</text>
+<text x="85" y="4730" font-size="11" font-family="Arial, sans-serif" fill="#212121">transferase activity</text>
+<rect x="80" y="5135" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5149" font-size="10" font-family="monospace" fill="#666666">GO:0009008</text>
+<text x="85" y="5165" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA-methyltransferase activity</text>
+<rect x="80" y="9860" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9874" font-size="10" font-family="monospace" fill="#666666">GO:0003677</text>
+<text x="85" y="9890" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA binding</text>
+<rect x="80" y="5800" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5814" font-size="10" font-family="monospace" fill="#666666">GO:0003682</text>
+<text x="85" y="5830" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromatin binding</text>
+<rect x="80" y="5945" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="5959" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="85" y="5975" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<rect x="80" y="6090" width="200" height="45" fill="#ffffff" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="6104" font-size="10" font-family="monospace" fill="#666666">GO:0046872</text>
+<text x="85" y="6120" font-size="11" font-family="Arial, sans-serif" fill="#212121">metal ion binding</text>
+<rect x="80" y="9715" width="200" height="45" fill="#ffffff" stroke="#ffc107" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9729" font-size="10" font-family="monospace" fill="#666666">GO:0005515</text>
+<text x="85" y="9745" font-size="11" font-family="Arial, sans-serif" fill="#212121">protein binding</text>
+<rect x="80" y="8555" width="200" height="45" fill="#ffffff" stroke="#9e9e9e" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8569" font-size="10" font-family="monospace" fill="#666666">GO:0003723</text>
+<text x="85" y="8585" font-size="11" font-family="Arial, sans-serif" fill="#212121">RNA binding</text>
+<rect x="80" y="8700" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8714" font-size="10" font-family="monospace" fill="#666666">GO:0008327</text>
+<text x="85" y="8730" font-size="11" font-family="Arial, sans-serif" fill="#212121">methyl-CpG binding</text>
+<rect x="80" y="8845" width="200" height="45" fill="#ffffff" stroke="#9e9e9e" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="8859" font-size="10" font-family="monospace" fill="#666666">GO:0106222</text>
+<text x="85" y="8875" font-size="11" font-family="Arial, sans-serif" fill="#212121">lncRNA binding</text>
+<rect x="80" y="9280" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="9294" font-size="10" font-family="monospace" fill="#666666">GO:1990841</text>
+<text x="85" y="9310" font-size="11" font-family="Arial, sans-serif" fill="#212121">promoter-specific chromatin binding</text>
+<rect x="80" y="12535" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12549" font-size="10" font-family="monospace" fill="#666666">GO:0005634</text>
+<text x="85" y="12565" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleus</text>
+<rect x="80" y="10505" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10519" font-size="10" font-family="monospace" fill="#666666">GO:0000792</text>
+<text x="85" y="10535" font-size="11" font-family="Arial, sans-serif" fill="#212121">heterochromatin</text>
+<rect x="80" y="10650" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10664" font-size="10" font-family="monospace" fill="#666666">GO:0001674</text>
+<text x="85" y="10680" font-size="11" font-family="Arial, sans-serif" fill="#212121">female germ cell nucleus</text>
+<rect x="80" y="10795" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10809" font-size="10" font-family="monospace" fill="#666666">GO:0005657</text>
+<text x="85" y="10825" font-size="11" font-family="Arial, sans-serif" fill="#212121">replication fork</text>
+<rect x="80" y="10940" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="10954" font-size="10" font-family="monospace" fill="#666666">GO:0005721</text>
+<text x="85" y="10970" font-size="11" font-family="Arial, sans-serif" fill="#212121">pericentric heterochromatin</text>
+<rect x="80" y="11085" width="200" height="45" fill="#ffffff" stroke="#795548" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11099" font-size="10" font-family="monospace" fill="#666666">GO:0043073</text>
+<text x="85" y="11115" font-size="11" font-family="Arial, sans-serif" fill="#212121">germ cell nucleus</text>
+<rect x="80" y="11230" width="200" height="45" fill="#ffffff" stroke="#f44336" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="11244" font-size="10" font-family="monospace" fill="#666666">GO:0005739</text>
+<text x="85" y="11260" font-size="11" font-family="Arial, sans-serif" fill="#212121">mitochondrion</text>
+<rect x="80" y="12390" width="200" height="45" fill="#ffffff" stroke="#4caf50" stroke-width="2" rx="3" ry="3" />
+<text x="85" y="12404" font-size="10" font-family="monospace" fill="#666666">GO:0005654</text>
+<text x="85" y="12420" font-size="11" font-family="Arial, sans-serif" fill="#212121">nucleoplasm</text>
+<path d="M332,5302.5 L337,5307.5 L348,5294.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,12557.5 L337,12562.5 L348,12549.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,2252.5 L337,2257.5 L348,2244.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="9882.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,5822.5 L337,5827.5 L348,5814.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,367.5 L337,372.5 L348,359.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,4577.5 L390,4577.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,4577.5 L382,4573.5 L382,4581.5 Z" fill="#ff9800" />
+<rect x="390" y="4555" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="4569" font-size="10" font-family="monospace" fill="#666666">GO:0003886</text>
+<text x="395" y="4585" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA (cytosine-5-)-methyltransferase...</text>
+<path d="M332,5967.5 L337,5972.5 L348,5959.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,512.5 L337,517.5 L348,504.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,4722.5 L390,4722.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,4722.5 L382,4718.5 L382,4726.5 Z" fill="#ff9800" />
+<rect x="390" y="4700" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="4714" font-size="10" font-family="monospace" fill="#666666">GO:0003886</text>
+<text x="395" y="4730" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA (cytosine-5-)-methyltransferase...</text>
+<path d="M280,657.5 L390,657.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,657.5 L382,653.5 L382,661.5 Z" fill="#ff9800" />
+<rect x="390" y="635" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="649" font-size="10" font-family="monospace" fill="#666666">GO:0141119</text>
+<text x="395" y="665" font-size="11" font-family="Arial, sans-serif" fill="#212121">chromosomal DNA methylation mainten...</text>
+<path d="M280,6112.5 L390,6112.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,6112.5 L382,6108.5 L382,6116.5 Z" fill="#ff9800" />
+<rect x="390" y="6090" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="6104" font-size="10" font-family="monospace" fill="#666666">GO:0008270</text>
+<text x="395" y="6120" font-size="11" font-family="Arial, sans-serif" fill="#212121">zinc ion binding</text>
+<path d="M340,9727.5 L330,9745.5 L350,9745.5 Z" fill="#ffc107" />
+<text x="340" y="9741.5" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="white">!</text>
+<path d="M332,3932.5 L337,3937.5 L348,3924.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,10527.5 L337,10532.5 L348,10519.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="10672.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<text x="340" y="8582.5" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#9e9e9e">?</text>
+<path d="M332,10817.5 L337,10822.5 L348,10809.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,10962.5 L337,10967.5 L348,10954.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M280,802.5 L390,802.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,802.5 L382,798.5 L382,806.5 Z" fill="#ff9800" />
+<rect x="390" y="780" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="794" font-size="10" font-family="monospace" fill="#666666">GO:0000122</text>
+<text x="395" y="810" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of transcriptio...</text>
+<path d="M332,8714.5 L348,8730.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,8730.5 L348,8714.5" stroke="#f44336" stroke-width="3" />
+<path d="M280,5157.5 L390,5157.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,5157.5 L382,5153.5 L382,5161.5 Z" fill="#ff9800" />
+<rect x="390" y="5135" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="5149" font-size="10" font-family="monospace" fill="#666666">GO:0003886</text>
+<text x="395" y="5165" font-size="11" font-family="Arial, sans-serif" fill="#212121">DNA (cytosine-5-)-methyltransferase...</text>
+<path d="M280,2627.5 L390,2627.5" stroke="#ff9800" stroke-width="2" />
+<path d="M390,2627.5 L382,2623.5 L382,2631.5 Z" fill="#ff9800" />
+<rect x="390" y="2605" width="200" height="45" fill="#c8e6c9" stroke="#ff9800" stroke-width="2" rx="3" ry="3" />
+<text x="395" y="2619" font-size="10" font-family="monospace" fill="#666666">GO:0010629</text>
+<text x="395" y="2635" font-size="11" font-family="Arial, sans-serif" fill="#212121">negative regulation of gene expression</text>
+<path d="M332,3207.5 L337,3212.5 L348,3199.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="2917.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,947.5 L337,952.5 L348,939.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="11107.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,3062.5 L337,3067.5 L348,3054.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1229.5 L348,1245.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1245.5 L348,1229.5" stroke="#f44336" stroke-width="3" />
+<text x="340" y="8872.5" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#9e9e9e">?</text>
+<path d="M332,1672.5 L337,1677.5 L348,1664.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<path d="M332,1519.5 L348,1535.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,1535.5 L348,1519.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11244.5 L348,11260.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,11260.5 L348,11244.5" stroke="#f44336" stroke-width="3" />
+<path d="M332,12412.5 L337,12417.5 L348,12404.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="3352.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3497.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<circle cx="340" cy="3642.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<path d="M332,9302.5 L337,9307.5 L348,9294.5" stroke="#4caf50" stroke-width="3" fill="none" />
+<circle cx="340" cy="3787.5" r="8" fill="none" stroke="#795548" stroke-width="2" />
+<rect x="395" y="5267.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5277.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5287.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This TAS annotation represents important historical</text>
+<text x="400" y="5296.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">literature evidence for DNMT1 core catalytic function.</text>
+<text x="400" y="5305.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While duplicated with other evidence types, this early</text>
+<text x="400" y="5314.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">study established DNMT1 as a DNA</text>
+<text x="400" y="5323.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytosine-5-methyltransferase and provides valuable</text>
+<text x="400" y="5332.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">literature foundation.</text>
+<rect x="395" y="12522.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12532.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This TAS annotation represents important historical</text>
+<text x="400" y="12551.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">literature evidence for DNMT1 nuclear localization. While</text>
+<text x="400" y="12560.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">duplicated with other evidence types, this early study</text>
+<text x="400" y="12569.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">provided foundational evidence for DNMT1 cellular</text>
+<text x="400" y="12578.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">compartmentalization and remains valuable for literature</text>
+<text x="400" y="12587.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">documentation.</text>
+<rect x="395" y="2217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This IDA annotation provides strong direct experimental</text>
+<text x="400" y="2246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence showing the molecular basis of DNMT1 CpG island</text>
+<text x="400" y="2255.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation function. While duplicated with other evidence</text>
+<text x="400" y="2264.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">types, this study specifically demonstrates the domain</text>
+<text x="400" y="2273.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">requirements for this core biological process.</text>
+<rect x="395" y="9847.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9857.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9867.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While this IDA annotation provides strong experimental</text>
+<text x="400" y="9876.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">evidence for DNA binding, this represents a prerequisite</text>
+<text x="400" y="9885.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular function rather than the core enzymatic</text>
+<text x="400" y="9894.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. The more specific GO:0003886 (DNA</text>
+<text x="400" y="9903.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytosine-5-methyltransferase activity) better captures</text>
+<text x="400" y="9912.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 primary function.</text>
+<rect x="395" y="5787.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5797.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5807.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 binding to chromatin is well-documented, including</text>
+<text x="400" y="5816.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">association with nucleosomes, modified histones, and</text>
+<text x="400" y="5825.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">heterochromatin. While general, chromatin binding is a</text>
+<text x="400" y="5834.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">legitimate molecular function distinct from DNA binding</text>
+<text x="400" y="5843.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">alone, as it involves the nucleoprotein complex rather</text>
+<text x="400" y="5852.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">than naked DNA.</text>
+<rect x="395" y="332.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="342.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="352.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 plays a well-documented role in heterochromatin</text>
+<text x="400" y="361.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">formation through DNA methylation. This is particularly</text>
+<text x="400" y="370.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">important at repetitive sequences, satellite DNA, and</text>
+<text x="400" y="379.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pericentromeric regions where DNMT1-mediated methylation</text>
+<text x="400" y="388.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">helps establish and maintain heterochromatic states</text>
+<text x="400" y="397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">essential for genomic stability.</text>
+<rect x="645" y="4542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="4552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="4562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This general methyltransferase activity term is too broad.</text>
+<text x="650" y="4571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 specifically catalyzes DNA cytosine-5-methylation,</text>
+<text x="650" y="4580.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">not general methylation. The more specific GO:0003886 (DNA</text>
+<text x="650" y="4589.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytosine-5-methyltransferase activity) is already</text>
+<text x="650" y="4598.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">annotated and preferred.</text>
+<rect x="395" y="5932.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="5942.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="5952.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The CXXC domain of DNMT1 is a zinc finger domain that</text>
+<text x="400" y="5961.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">requires zinc coordination for proper folding and</text>
+<text x="400" y="5970.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function. This zinc finger domain recognizes unmethylated</text>
+<text x="400" y="5979.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">CpG sites and is essential for targeting DNMT1 to</text>
+<text x="400" y="5988.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">appropriate substrates. Zinc binding is a legitimate and</text>
+<text x="400" y="5997.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">important molecular function.</text>
+<rect x="395" y="477.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="487.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="497.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 plays important roles in chromatin organization by</text>
+<text x="400" y="506.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">establishing methylation patterns that recruit methyl-CpG</text>
+<text x="400" y="515.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding proteins, chromatin remodeling complexes, and help</text>
+<text x="400" y="524.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">organize heterochromatin. While broad, this accurately</text>
+<text x="400" y="533.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">describes an important biological process function of</text>
+<text x="400" y="542.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1.</text>
+<rect x="645" y="4687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="4697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="4707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term is far too general and uninformative. DNMT1</text>
+<text x="650" y="4716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specifically transfers methyl groups to DNA cytosines,</text>
+<text x="650" y="4725.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">which is already captured by the more specific GO:0003886</text>
+<text x="650" y="4734.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">(DNA cytosine-5-methyltransferase activity). The broad</text>
+<text x="650" y="4743.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transferase activity term should be replaced with the</text>
+<text x="650" y="4752.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specific methyltransferase activity.</text>
+<rect x="645" y="622.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="632.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="642.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This general methylation term is too broad and</text>
+<text x="650" y="651.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">uninformative. DNMT1 performs DNA methylation</text>
+<text x="650" y="660.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specifically, which is better captured by more specific</text>
+<text x="650" y="669.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">terms like GO:0141119 (chromosomal DNA methylation</text>
+<text x="650" y="678.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">maintenance) or GO:0044027 (negative regulation of gene</text>
+<text x="650" y="687.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">expression via chromosomal CpG island methylation).</text>
+<rect x="645" y="6077.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="6087.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="6097.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does bind metal ions (zinc), this general term</text>
+<text x="650" y="6106.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is less informative than the specific GO:0008270 (zinc ion</text>
+<text x="650" y="6115.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding) that is already annotated. The specific term is</text>
+<text x="650" y="6124.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">preferred over the general parent term.</text>
+<rect x="395" y="9702.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9712.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9722.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While SUMOylation enhances DNMT1 activity, this annotation</text>
+<text x="400" y="9731.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">focuses on post-translational modification rather than</text>
+<text x="400" y="9740.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">protein-protein interactions. The generic protein binding</text>
+<text x="400" y="9749.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">term does not capture the regulatory significance of</text>
+<text x="400" y="9758.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">SUMOylation in DNMT1 function.</text>
+<rect x="395" y="3897.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3907.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3917.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 is well-established to negatively regulate RNA</text>
+<text x="400" y="3926.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">polymerase II transcription through multiple mechanisms</text>
+<text x="400" y="3935.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">including CpG methylation, recruitment of repressor</text>
+<text x="400" y="3944.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complexes, and chromatin modifications. This represents a</text>
+<text x="400" y="3953.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">fundamental biological process function of DNMT1.</text>
+<rect x="395" y="10492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 localization to heterochromatin is well-documented</text>
+<text x="400" y="10521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and functionally crucial for maintaining methylation at</text>
+<text x="400" y="10530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">repetitive elements and ensuring genomic stability. This</text>
+<text x="400" y="10539.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complements the pericentric heterochromatin annotation and</text>
+<text x="400" y="10548.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents legitimate cellular compartmentalization.</text>
+<rect x="395" y="10637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does function in germ cells for genomic</text>
+<text x="400" y="10666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">imprinting and methylation maintenance, this highly</text>
+<text x="400" y="10675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specialized cellular component annotation is not</text>
+<text x="400" y="10684.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">representative of DNMT1 core cellular localization. It</text>
+<text x="400" y="10693.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a developmental context rather than primary</text>
+<text x="400" y="10702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="8542.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8552.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8562.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The evidence for DNMT1 RNA binding activity is not</text>
+<text x="400" y="8571.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-established in the literature I have access to. While</text>
+<text x="400" y="8580.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">there may be some interactions with regulatory RNAs, this</text>
+<text x="400" y="8589.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">molecular function requires stronger experimental</text>
+<text x="400" y="8598.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">validation. The IEA annotation may represent computational</text>
+<text x="400" y="8607.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">over-prediction.</text>
+<rect x="395" y="10782.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10792.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10802.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 recruitment to replication forks is well-documented</text>
+<text x="400" y="10811.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and functionally crucial for its maintenance methylation</text>
+<text x="400" y="10820.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity. The interaction with PCNA targets DNMT1 to sites</text>
+<text x="400" y="10829.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of active DNA replication where it can access</text>
+<text x="400" y="10838.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">hemimethylated CpG sites on newly synthesized DNA.</text>
+<rect x="395" y="10927.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="10937.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="10947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 association with pericentric heterochromatin is</text>
+<text x="400" y="10956.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-documented and functionally important for maintaining</text>
+<text x="400" y="10965.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation at repetitive elements and satellite</text>
+<text x="400" y="10974.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sequences. This localization is crucial for genomic</text>
+<text x="400" y="10983.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">stability and proper chromosome organization.</text>
+<rect x="645" y="767.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="777.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="787.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does affect DNA-templated transcription, it</text>
+<text x="650" y="796.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primarily acts as a negative regulator through DNA</text>
+<text x="650" y="805.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation. More specific terms like negative regulation</text>
+<text x="650" y="814.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of transcription (GO:0045892) or negative regulation by</text>
+<text x="650" y="823.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">RNA polymerase II (GO:0000122) better capture DNMT1</text>
+<text x="650" y="832.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">function.</text>
+<rect x="395" y="8687.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8697.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8707.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 primary function involves binding hemimethylated CpG</text>
+<text x="400" y="8716.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">sites rather than fully methylated CpG sites. Methyl-CpG</text>
+<text x="400" y="8725.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">binding is more characteristic of methyl-CpG binding</text>
+<text x="400" y="8734.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">domain (MBD) proteins that read methylation marks. This</text>
+<text x="400" y="8743.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">appears to be a computational annotation error confusing</text>
+<text x="400" y="8752.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 function with MBD protein function.</text>
+<rect x="645" y="5122.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="5132.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="5142.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While this has strong IDA experimental evidence, the term</text>
+<text x="650" y="5151.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">is less specific than GO:0003886 (DNA</text>
+<text x="650" y="5160.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytosine-5-methyltransferase activity) which is already</text>
+<text x="650" y="5169.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-annotated. DNMT1 specifically performs cytosine-5</text>
+<text x="650" y="5178.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation, so the more specific term is preferred.</text>
+<rect x="645" y="2592.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="650" y="2602.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="650" y="2612.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does regulate gene expression, this term is</text>
+<text x="650" y="2621.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">too general. DNMT1 primarily acts as a transcriptional</text>
+<text x="650" y="2630.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">repressor through DNA methylation. More specific terms</text>
+<text x="650" y="2639.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">like GO:0010629 (negative regulation of gene expression)</text>
+<text x="650" y="2648.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">or GO:0044027 (negative regulation via CpG island</text>
+<text x="650" y="2657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation) better capture DNMT1 function.</text>
+<rect x="395" y="3172.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3182.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3192.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This IMP annotation provides strong experimental evidence</text>
+<text x="400" y="3201.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">for DNMT1 core biological process function. While the</text>
+<text x="400" y="3210.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">study focuses on vascular smooth muscle cells, negative</text>
+<text x="400" y="3219.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation of gene expression represents DNMT1 fundamental</text>
+<text x="400" y="3228.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">activity through DNA methylation.</text>
+<rect x="395" y="2882.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="2892.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="2902.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does affect cell proliferation through</text>
+<text x="400" y="2911.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation of cell cycle regulators and tumor</text>
+<text x="400" y="2920.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">suppressors, this represents a downstream consequence</text>
+<text x="400" y="2929.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">rather than a core primary function. DNMT1 primary</text>
+<text x="400" y="2938.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions are DNA methylation and transcriptional</text>
+<text x="400" y="2947.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation.</text>
+<rect x="395" y="912.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="922.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="932.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">Epigenetic programming accurately describes DNMT1 role in</text>
+<text x="400" y="941.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">establishing and maintaining heritable changes in gene</text>
+<text x="400" y="950.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">expression through DNA methylation. This is fundamental to</text>
+<text x="400" y="959.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellular identity, development, and genomic imprinting -</text>
+<text x="400" y="968.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">all key DNMT1 functions.</text>
+<rect x="395" y="11072.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11082.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11092.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 does function in germ cells for establishing</text>
+<text x="400" y="11101.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">and maintaining genomic imprints, this represents a</text>
+<text x="400" y="11110.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specialized developmental context rather than the primary</text>
+<text x="400" y="11119.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">nuclear localization. Core cellular component annotations</text>
+<text x="400" y="11128.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">focus on primary functional locations.</text>
+<rect x="395" y="3027.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3037.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3047.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term accurately captures DNMT1 primary role as a</text>
+<text x="400" y="3056.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">transcriptional repressor through DNA methylation. While</text>
+<text x="400" y="3065.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">similar to other negative regulation terms, this</text>
+<text x="400" y="3074.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specifically refers to DNA-templated transcription and</text>
+<text x="400" y="3083.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represents a legitimate core biological process function.</text>
+<rect x="395" y="1202.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1212.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1222.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term does not appear to relate to DNMT1 core</text>
+<text x="400" y="1231.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions in DNA methylation, gene regulation, or</text>
+<text x="400" y="1240.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">chromatin organization. The connection between DNMT1 and</text>
+<text x="400" y="1249.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cellular response to amino acid stimulus is unclear and</text>
+<text x="400" y="1258.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">not supported by strong functional evidence. This appears</text>
+<text x="400" y="1267.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">to be an over-annotation from computational prediction.</text>
+<rect x="395" y="8832.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="8842.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="8852.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">The evidence for DNMT1 specifically binding lncRNAs is not</text>
+<text x="400" y="8861.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-established in the literature I have access to. While</text>
+<text x="400" y="8870.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 may interact with RNA in some contexts, the specific</text>
+<text x="400" y="8879.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">lncRNA binding function needs stronger experimental</text>
+<text x="400" y="8888.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">support. This IEA annotation may be over-prediction.</text>
+<rect x="395" y="1637.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1647.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1657.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents DNMT1 most important and specific</text>
+<text x="400" y="1666.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">biological process function with strong TAS evidence from</text>
+<text x="400" y="1675.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">literature. While duplicated with IEA annotation above,</text>
+<text x="400" y="1684.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">TAS evidence is stronger. This accurately describes the</text>
+<text x="400" y="1693.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">primary maintenance methylation function that</text>
+<text x="400" y="1702.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">distinguishes DNMT1 from de novo methyltransferases.</text>
+<rect x="395" y="1492.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="1502.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="1512.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This highly specific environmental response term does not</text>
+<text x="400" y="1521.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">represent core DNMT1 function in DNA methylation, gene</text>
+<text x="400" y="1530.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation, or chromatin organization. The connection</text>
+<text x="400" y="1539.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">between DNMT1 and bisphenol A response is not</text>
+<text x="400" y="1548.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">well-established and appears to be computational</text>
+<text x="400" y="1557.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">over-annotation.</text>
+<rect x="395" y="11217.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="11227.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="11237.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 primary and functional localization is nuclear where</text>
+<text x="400" y="11246.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">it acts on genomic DNA. Mitochondrial DNA does not undergo</text>
+<text x="400" y="11255.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cytosine methylation, and DNMT1 lacks mitochondrial</text>
+<text x="400" y="11264.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">targeting sequences. HTP studies can have contamination</text>
+<text x="400" y="11273.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">issues, and this localization is not supported by</text>
+<text x="400" y="11282.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functional evidence.</text>
+<rect x="395" y="12377.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="12387.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="12397.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This nucleoplasm annotation is supported by Reactome</text>
+<text x="400" y="12406.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">pathway evidence for DNMT1 localization in the context of</text>
+<text x="400" y="12415.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">miRNA-mediated translational regulation. This represents</text>
+<text x="400" y="12424.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">legitimate cellular compartmentalization for DNMT1</text>
+<text x="400" y="12433.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">expression control.</text>
+<rect x="395" y="3317.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3327.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3337.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This represents a specialized, context-dependent function</text>
+<text x="400" y="3346.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">of DNMT1 in vascular smooth muscle cells rather than a</text>
+<text x="400" y="3355.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">core general function. While the IMP evidence supports</text>
+<text x="400" y="3364.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">this specific role, it is peripheral to DNMT1 main</text>
+<text x="400" y="3373.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">functions in DNA methylation maintenance and gene</text>
+<text x="400" y="3382.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">regulation.</text>
+<rect x="395" y="3462.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3472.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3482.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This highly specific annotation represents a specialized</text>
+<text x="400" y="3491.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cell-type and context-dependent function rather than core</text>
+<text x="400" y="3500.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 biology. While supported by IMP evidence, vascular</text>
+<text x="400" y="3509.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">smooth muscle cell apoptosis regulation is peripheral to</text>
+<text x="400" y="3518.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 primary functions.</text>
+<rect x="395" y="3607.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3617.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3627.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This extremely specific annotation represents specialized</text>
+<text x="400" y="3636.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">cell-type biology rather than core DNMT1 functions. While</text>
+<text x="400" y="3645.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">the IMP evidence supports this role in vascular biology,</text>
+<text x="400" y="3654.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">it is peripheral to DNMT1 primary functions in DNA</text>
+<text x="400" y="3663.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">methylation and general gene regulation.</text>
+<rect x="395" y="9267.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="9277.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="9287.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">This term accurately describes DNMT1 ability to bind</text>
+<text x="400" y="9296.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">specifically to promoter regions of target genes where it</text>
+<text x="400" y="9305.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">mediates CpG island methylation and transcriptional</text>
+<text x="400" y="9314.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">silencing. The IDA evidence provides strong experimental</text>
+<text x="400" y="9323.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">support for this specific molecular function.</text>
+<rect x="395" y="3752.5" width="280" height="70" fill="#fff9c4" stroke="#f9a825" stroke-width="1" rx="3" ry="3" />
+<text x="400" y="3762.5" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#666666">Reason:</text>
+<text x="400" y="3772.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">While DNMT1 can positively regulate some genes through</text>
+<text x="400" y="3781.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">complex mechanisms involving transcription factor</text>
+<text x="400" y="3790.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">recruitment, this represents a specialized function rather</text>
+<text x="400" y="3799.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">than its primary role as a transcriptional repressor. The</text>
+<text x="400" y="3808.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">IMP evidence supports this but it is not characteristic of</text>
+<text x="400" y="3817.5" font-size="9" font-family="Arial, sans-serif" fill="#212121">DNMT1 core function.</text>
+<rect x="700" y="5280" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5290" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8940105]</text>
+<text x="705" y="5298" font-size="8" font-family="Arial, sans-serif" fill="#212121">New 5' regions of the murine and human genes for DNA</text>
+<text x="705" y="5307" font-size="8" font-family="Arial, sans-serif" fill="#212121">(cytosine-5)-methyltransferase</text>
+<rect x="700" y="12535" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12545" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8940105]</text>
+<text x="705" y="12553" font-size="8" font-family="Arial, sans-serif" fill="#212121">New 5' regions of the murine and human genes for DNA</text>
+<text x="705" y="12562" font-size="8" font-family="Arial, sans-serif" fill="#212121">(cytosine-5)-methyltransferase</text>
+<rect x="700" y="2230" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2240" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18754681]</text>
+<text x="705" y="2248" font-size="8" font-family="Arial, sans-serif" fill="#212121">CXXC domain of human DNMT1 is essential for enzymatic activity</text>
+<rect x="700" y="9860" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9870" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18754681]</text>
+<text x="705" y="9878" font-size="8" font-family="Arial, sans-serif" fill="#212121">CXXC domain of human DNMT1 is essential for enzymatic activity</text>
+<rect x="700" y="5800" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5810" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="5818" font-size="8" font-family="Arial, sans-serif" fill="#212121">UHRF1 strongly associates with heterochromatin and binds</text>
+<text x="705" y="5827" font-size="8" font-family="Arial, sans-serif" fill="#212121">preferentially to hemi-methylated DNA via its SRA domain</text>
+<rect x="700" y="345" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="355" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="363" font-size="8" font-family="Arial, sans-serif" fill="#212121">UHRF1 strongly associates with heterochromatin</text>
+<rect x="700" y="5945" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="5955" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18754681]</text>
+<text x="705" y="5963" font-size="8" font-family="Arial, sans-serif" fill="#212121">CXXC domain of human DNMT1 is essential for enzymatic activity</text>
+<rect x="700" y="490" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="500" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="508" font-size="8" font-family="Arial, sans-serif" fill="#212121">UHRF1 strongly associates with heterochromatin</text>
+<rect x="700" y="9715" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9725" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[19450230]</text>
+<text x="705" y="9733" font-size="8" font-family="Arial, sans-serif" fill="#212121">SUMOylation enhances DNA methyltransferase 1 activity</text>
+<rect x="700" y="10505" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10515" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="10523" font-size="8" font-family="Arial, sans-serif" fill="#212121">UHRF1 strongly associates with heterochromatin</text>
+<rect x="700" y="10650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="10668" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA methylation contributes to epigenetic processes such as</text>
+<text x="705" y="10677" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation and development, transcriptional regulation,</text>
+<text x="705" y="10686" font-size="8" font-family="Arial, sans-serif" fill="#212121">preservation of chromosomal stability, silencing of repetitive</text>
+<text x="705" y="10695" font-size="8" font-family="Arial, sans-serif" fill="#212121">elements, genomic imprinting</text>
+<rect x="700" y="10795" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10805" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="10813" font-size="8" font-family="Arial, sans-serif" fill="#212121">Besides the known interaction partners UHRF1 (N), only present in</text>
+<text x="705" y="10822" font-size="8" font-family="Arial, sans-serif" fill="#212121">the MNase-treated extract, and PCNA (P)</text>
+<rect x="700" y="10940" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="10950" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="10958" font-size="8" font-family="Arial, sans-serif" fill="#212121">UHRF1 strongly associates with heterochromatin</text>
+<rect x="700" y="3185" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3195" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27021683]</text>
+<text x="705" y="3203" font-size="8" font-family="Arial, sans-serif" fill="#212121">MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth</text>
+<text x="705" y="3212" font-size="8" font-family="Arial, sans-serif" fill="#212121">muscle cell proliferation, apoptosis and differentiation by</text>
+<text x="705" y="3221" font-size="8" font-family="Arial, sans-serif" fill="#212121">targeting Dnmt1</text>
+<rect x="700" y="2895" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="2905" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[24623306]</text>
+<text x="705" y="2913" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA hypermethylation and transcriptional silencing</text>
+<rect x="700" y="925" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="935" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="943" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA methylation contributes to epigenetic processes such as</text>
+<text x="705" y="952" font-size="8" font-family="Arial, sans-serif" fill="#212121">differentiation and development, transcriptional regulation,</text>
+<text x="705" y="961" font-size="8" font-family="Arial, sans-serif" fill="#212121">preservation of chromosomal stability, silencing of repetitive</text>
+<text x="705" y="970" font-size="8" font-family="Arial, sans-serif" fill="#212121">elements, genomic imprinting, X-chromosome inactivation</text>
+<rect x="700" y="11085" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11095" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[21745816]</text>
+<text x="705" y="11103" font-size="8" font-family="Arial, sans-serif" fill="#212121">genomic imprinting</text>
+<rect x="700" y="3040" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3050" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[24623306]</text>
+<text x="705" y="3058" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA hypermethylation and transcriptional silencing</text>
+<rect x="700" y="1650" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="1660" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[20820192]</text>
+<text x="705" y="1668" font-size="8" font-family="Arial, sans-serif" fill="#212121">BRCA1 affects global DNA methylation through regulation of DNMT1</text>
+<rect x="700" y="11230" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="11240" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[8940105]</text>
+<text x="705" y="11248" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA (cytosine-5)-methyltransferases (EC 2.1.1.37) maintain patterns</text>
+<text x="705" y="11257" font-size="8" font-family="Arial, sans-serif" fill="#212121">of methylated cytosine residues in the mammalian genome</text>
+<rect x="700" y="12390" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="12400" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[Reactome:R-HSA-98511...]</text>
+<text x="705" y="12408" font-size="8" font-family="Arial, sans-serif" fill="#212121">Translation of DNMT1 mRNA is repressed by miR-21</text>
+<rect x="700" y="3330" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3340" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27021683]</text>
+<text x="705" y="3348" font-size="8" font-family="Arial, sans-serif" fill="#212121">MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth</text>
+<text x="705" y="3357" font-size="8" font-family="Arial, sans-serif" fill="#212121">muscle cell proliferation, apoptosis and differentiation by</text>
+<text x="705" y="3366" font-size="8" font-family="Arial, sans-serif" fill="#212121">targeting Dnmt1</text>
+<rect x="700" y="3475" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3485" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27021683]</text>
+<text x="705" y="3493" font-size="8" font-family="Arial, sans-serif" fill="#212121">MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth</text>
+<text x="705" y="3502" font-size="8" font-family="Arial, sans-serif" fill="#212121">muscle cell proliferation, apoptosis and differentiation by</text>
+<text x="705" y="3511" font-size="8" font-family="Arial, sans-serif" fill="#212121">targeting Dnmt1</text>
+<rect x="700" y="3620" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3630" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[27021683]</text>
+<text x="705" y="3638" font-size="8" font-family="Arial, sans-serif" fill="#212121">MiR-140-5p regulates hypoxia-mediated human pulmonary artery smooth</text>
+<text x="705" y="3647" font-size="8" font-family="Arial, sans-serif" fill="#212121">muscle cell proliferation, apoptosis and differentiation by</text>
+<text x="705" y="3656" font-size="8" font-family="Arial, sans-serif" fill="#212121">targeting Dnmt1</text>
+<rect x="700" y="9280" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="9290" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[24623306]</text>
+<text x="705" y="9298" font-size="8" font-family="Arial, sans-serif" fill="#212121">ZNF304 recruits a corepressor complex that includes the DNA</text>
+<text x="705" y="9307" font-size="8" font-family="Arial, sans-serif" fill="#212121">methyltransferase DNMT1, resulting in DNA hypermethylation and</text>
+<text x="705" y="9316" font-size="8" font-family="Arial, sans-serif" fill="#212121">transcriptional silencing</text>
+<rect x="950" y="5135" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="955" y="5145" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18754681]</text>
+<text x="955" y="5153" font-size="8" font-family="Arial, sans-serif" fill="#212121">CXXC domain of human DNMT1 is essential for enzymatic activity</text>
+<rect x="700" y="3765" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3775" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[18413740]</text>
+<text x="705" y="3783" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNA methyltransferase 1 and 3B activate BAG-1 expression via</text>
+<text x="705" y="3792" font-size="8" font-family="Arial, sans-serif" fill="#212121">recruitment of CTCFL/BORIS and modulation of promoter histone</text>
+<text x="705" y="3801" font-size="8" font-family="Arial, sans-serif" fill="#212121">methylation</text>
+<rect x="700" y="3910" width="320" height="85" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="3" ry="3" />
+<text x="705" y="3920" font-size="8" font-family="monospace" font-weight="bold" fill="#0288d1">[10888872]</text>
+<text x="705" y="3928" font-size="8" font-family="Arial, sans-serif" fill="#212121">DNMT1 binds HDAC2 and a new co-repressor, DMAP1, to form a complex</text>
+<text x="705" y="3937" font-size="8" font-family="Arial, sans-serif" fill="#212121">at replication foci</text>
+<rect x="600.0" y="12830" width="600" height="60" fill="white" stroke="#bdbdbd" stroke-width="1" rx="5" ry="5" />
+<text x="620.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#4caf50">✓</text>
+<text x="640.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Accept</text>
+<text x="715.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#ff9800">→</text>
+<text x="735.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Modify</text>
+<text x="810.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#f44336">✗</text>
+<text x="830.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Remove</text>
+<text x="905.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#ffc107">⚠</text>
+<text x="925.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Over-annotated</text>
+<text x="1000.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#795548">○</text>
+<text x="1020.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Non-core</text>
+<text x="1095.0" y="12865.0" font-size="16" font-family="Arial, sans-serif" fill="#9e9e9e">?</text>
+<text x="1115.0" y="12865.0" font-size="12" font-family="Arial, sans-serif" fill="#212121">Undecided</text>
+</svg>
