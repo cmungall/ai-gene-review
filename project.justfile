@@ -60,9 +60,95 @@ validate-all-strict:
 seed-goa organism gene:
     uv run ai-gene-review seed-goa genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml
 
+# Seed missing GOA annotations for all genes in an organism
+seed-goa-organism organism:
+    #!/usr/bin/env bash
+    echo "Seeding missing GOA annotations for all {{organism}} genes..."
+    count=0
+    for yaml in genes/{{organism}}/*/*-ai-review.yaml; do
+        if [ -f "$yaml" ]; then
+            gene=$(basename $(dirname "$yaml"))
+            echo "Processing $gene..."
+            uv run ai-gene-review seed-goa "$yaml" || echo "  Warning: Failed to seed $gene"
+            count=$((count + 1))
+        fi
+    done
+    echo "Processed $count genes in {{organism}}"
+
+# Seed missing GOA annotations for ALL genes (use with caution)
+seed-goa-all:
+    #!/usr/bin/env bash
+    echo "Seeding missing GOA annotations for ALL genes..."
+    total=0
+    for organism_dir in genes/*/; do
+        if [ -d "$organism_dir" ]; then
+            organism=$(basename "$organism_dir")
+            echo "Processing organism: $organism"
+            count=0
+            for yaml in "$organism_dir"/*/*-ai-review.yaml; do
+                if [ -f "$yaml" ]; then
+                    gene=$(basename $(dirname "$yaml"))
+                    echo "  Processing $gene..."
+                    uv run ai-gene-review seed-goa "$yaml" || echo "    Warning: Failed to seed $gene"
+                    count=$((count + 1))
+                fi
+            done
+            echo "  Processed $count genes in $organism"
+            total=$((total + count))
+        fi
+    done
+    echo "Total: Processed $total genes across all organisms"
+
 # Validate GOA annotations for a specific gene
 validate-goa organism gene:
     uv run ai-gene-review validate-goa genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml
+
+# Validate GOA annotations for all genes in an organism
+validate-goa-organism organism:
+    #!/usr/bin/env bash
+    echo "Validating GOA annotations for all {{organism}} genes..."
+    failed=0
+    passed=0
+    for yaml in genes/{{organism}}/*/*-ai-review.yaml; do
+        if [ -f "$yaml" ]; then
+            gene=$(basename $(dirname "$yaml"))
+            if uv run ai-gene-review validate-goa "$yaml" > /dev/null 2>&1; then
+                echo "✓ $gene"
+                passed=$((passed + 1))
+            else
+                echo "✗ $gene - missing GOA annotations"
+                failed=$((failed + 1))
+            fi
+        fi
+    done
+    echo "Summary: $passed passed, $failed failed"
+    if [ $failed -gt 0 ]; then
+        echo "Run 'just seed-goa-organism {{organism}}' to add missing annotations"
+    fi
+
+# Check which genes are missing GOA annotations (dry run)
+check-missing-goa organism:
+    #!/usr/bin/env bash
+    echo "Checking for missing GOA annotations in {{organism}} genes..."
+    missing=0
+    for yaml in genes/{{organism}}/*/*-ai-review.yaml; do
+        if [ -f "$yaml" ]; then
+            gene=$(basename $(dirname "$yaml"))
+            # Use dry-run to check without modifying
+            output=$(uv run ai-gene-review seed-goa "$yaml" --dry-run 2>&1)
+            if echo "$output" | grep -q "Would add [1-9]"; then
+                count=$(echo "$output" | grep -o "Would add [0-9]*" | grep -o "[0-9]*")
+                echo "  $gene: missing $count annotations"
+                missing=$((missing + 1))
+            fi
+        fi
+    done
+    if [ $missing -eq 0 ]; then
+        echo "All genes have complete GOA annotations!"
+    else
+        echo "Total: $missing genes with missing annotations"
+        echo "Run 'just seed-goa-organism {{organism}}' to fix"
+    fi
 
 # ============== Visualization ==============
 
@@ -146,7 +232,6 @@ gen-all: gen-project pydantic
 # Deploy linkml-browser app for viewing exported annotations
 deploy-browser: export-annotations-json
     @echo "Deploying linkml-browser to app/ directory..."
-    @cp app/index.html /tmp
     @rm -rf app
     uv run linkml-browser deploy \
         exports/exported_annotations.json \
@@ -155,7 +240,7 @@ deploy-browser: export-annotations-json
         --title "Gene Annotation Review Browser" \
         --description "Browse and filter gene annotation reviews" \
         --force
-    @cp /tmp/index.html app
+    @cp src/ai_gene_review/browser/index.html app/
     @echo "Browser deployed to app/ directory"
     @echo "To view: open app/index.html or run 'just serve-browser'"
 
@@ -174,6 +259,7 @@ update-browser-data: export-annotations-json
         --title "Gene Annotation Review Browser" \
         --description "Browse and filter gene annotation reviews" \
         --force
+    @cp src/ai_gene_review/browser/index.html app/
     @echo "Data updated in app/"
 
 # ============== Publications Cache Management ==============

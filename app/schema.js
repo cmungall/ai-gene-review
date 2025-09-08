@@ -51,6 +51,12 @@ window.searchSchema = {
       "sortBy": "count"
     },
     {
+      "field": "term_label",
+      "label": "Term",
+      "type": "string",
+      "sortBy": "count"
+    },
+    {
       "field": "negated",
       "label": "Negated",
       "type": "boolean",

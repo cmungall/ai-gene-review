@@ -597,6 +597,94 @@ JAK1 is essential for Type I and Type II interferon signaling.
         assert report.invalid_supporting_texts == 0
 
 
+    def test_uniprot_supporting_text_validation(self, temp_publications_dir):
+        """Test validation of supporting_text from UniProt files."""
+        # Create a mock UniProt file for gene A0B297
+        gene_dir = temp_publications_dir.parent / "genes" / "BURCH" / "A0B297"
+        gene_dir.mkdir(parents=True, exist_ok=True)
+        
+        uniprot_file = gene_dir / "A0B297-uniprot.txt"
+        uniprot_content = """ID   RGMG2_BURCH             Reviewed;         512 AA.
+AC   A0B297;
+CC   -!- FUNCTION: Part of an ABC transporter complex involved in carbohydrate
+CC       import. Could be involved in ribose, galactose and/or methyl
+CC       galactoside import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01717}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribose(out) + ATP + H2O = D-ribose(in) + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:29903, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:47013,
+CC         ChEBI:CHEBI:456216; EC=7.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01717};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Carbohydrate
+CC       importer 2 (CUT2) (TC 3.A.1.2) family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01717}.
+"""
+        uniprot_file.write_text(uniprot_content)
+        
+        # Create test YAML with UniProt reference and findings
+        yaml_data = {
+            "id": "A0B297",
+            "gene_symbol": "A0B297",
+            "taxon": {"id": "NCBITaxon:331272", "label": "Burkholderia cenocepacia"},
+            "description": "Test gene",
+            "references": [
+                {
+                    "id": "uniprot:A0B297",
+                    "title": "UniProt Entry",
+                    "findings": [
+                        {
+                            "statement": "Catalyzes ATP-coupled sugar transport",
+                            "supporting_text": "EC=7.5.2.11 (D-galactose transport) and EC=7.5.2.7 (D-ribose transport)"
+                        },
+                        {
+                            "statement": "Peripheral membrane protein at inner membrane",
+                            "supporting_text": "SUBCELLULAR LOCATION: Cell inner membrane; Peripheral membrane protein"
+                        },
+                        {
+                            "statement": "Member of CUT2 family",
+                            "supporting_text": "Belongs to the ABC transporter superfamily. Carbohydrate importer 2 (CUT2) (TC 3.A.1.2) family"
+                        },
+                        {
+                            "statement": "TEMPORARY TEST STATEMENT",
+                            "supporting_text": "TEMPORARY TEST SUPPORTING TEXT"  # This should fail validation
+                        }
+                    ]
+                }
+            ]
+        }
+        
+        yaml_file = temp_publications_dir / "test_uniprot.yaml"
+        with open(yaml_file, "w") as f:
+            yaml.dump(yaml_data, f)
+        
+        # Validate
+        validator = SupportingTextValidator(publications_dir=temp_publications_dir, gene_dir=gene_dir.parent.parent)
+        report = validator.validate_file(yaml_file)
+        
+        # Check results
+        assert report.total_annotations == 4
+        assert report.annotations_with_supporting_text == 4
+        # With stricter validation, short texts require exact matches
+        # "EC=7.5.2.11 (D-galactose transport) and EC=7.5.2.7 (D-ribose transport)" - not found exactly
+        # "SUBCELLULAR LOCATION: Cell inner membrane; Peripheral membrane protein" - not found exactly  
+        # "Belongs to the ABC transporter superfamily. Carbohydrate importer 2 (CUT2) (TC 3.A.1.2) family" - found
+        # "TEMPORARY TEST SUPPORTING TEXT" - not found
+        assert report.valid_supporting_texts == 1  # Only the third one is valid
+        assert report.invalid_supporting_texts == 3  # Three are invalid due to strict matching
+        assert not report.is_valid  # Overall should be invalid
+        
+        # Check specific error messages
+        invalid_results = [r for r in report.results if not r.is_valid]
+        assert len(invalid_results) == 3  # Three invalid results
+        # Check that the TEMPORARY TEST one is among them
+        temp_test_results = [r for r in invalid_results if "TEMPORARY TEST" in r.supporting_text]
+        assert len(temp_test_results) == 1
+
+
 @pytest.mark.integration
 class TestIntegration:
     """Integration tests that use real files."""

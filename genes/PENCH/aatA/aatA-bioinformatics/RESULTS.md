@@ -39,3 +39,31 @@ This analysis provides direct structural evidence for:
 
 - Bokhove et al., 2010. Structure 18(3):301-8. PMID: 20223213
 - PDB entries: 2X1C, 2X1D, 2X1E (RCSB Protein Data Bank)
+
+## Quality Checklist
+
+- [x] Scripts present and executable
+- [x] Scripts accept command-line arguments (✅ REFACTORED: analyze_structures_generic.py)
+- [x] Scripts can analyze other proteins (✅ REFACTORED: generic PDB structure analyzer)
+- [x] Results are reproducible
+- [x] Methods clearly documented
+- [x] Conclusions supported by evidence
+- [x] No hardcoded values (✅ REFACTORED: uses config file or command-line args)
+- [x] Output files generated as described
+
+## Refactored Script Usage
+
+The new script `analyze_structures_generic.py` is fully generic and reusable:
+
+```bash
+# Analyze IAT with configuration file
+python analyze_structures_generic.py --config iat_analysis_config.yaml
+
+# Analyze any PDB structures with specific residue checks
+python analyze_structures_generic.py --pdb 1HHO 2HHB --residues 87:HIS 92:HIS
+
+# Analyze from command line without config
+python analyze_structures_generic.py --pdb 2X1C 2X1D --residues 103:CYS 102:GLY --output results/
+```
+
+Configuration driven analysis via YAML file allows full customization of residues, expected findings, and conclusions. Tested successfully with IAT (2X1C, 2X1D, 2X1E) and hemoglobin (1HHO).

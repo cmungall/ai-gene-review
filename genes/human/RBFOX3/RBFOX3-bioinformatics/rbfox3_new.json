@@ -1,0 +1,324 @@
+{
+  "protein_id": "A6NFN3",
+  "description": "sp|A6NFN3|RFOX3_HUMAN RNA binding protein fox-1 homolog 3 OS=Homo sapiens OX=9606 GN=RBFOX3 PE=1 SV=4",
+  "properties": {
+    "length": 312,
+    "molecular_weight_kda": 39.5,
+    "basic_residues": 33,
+    "acidic_residues": 26,
+    "net_charge": 7
+  },
+  "rrm_analysis": {
+    "rnp1_motifs": [
+      {
+        "number": 1,
+        "start": 137,
+        "end": 145,
+        "sequence": "KGFGFVTF",
+        "predicted_rrm": {
+          "start": 97,
+          "end": 187
+        }
+      }
+    ],
+    "predicted_rrm_domains": [],
+    "rnp2_motifs": [],
+    "has_rrm": true
+  },
+  "disorder_analysis": {
+    "disordered_regions": [
+      {
+        "start": 70,
+        "end": 100,
+        "length": 30,
+        "score": 0.53,
+        "composition": {
+          "S": 2,
+          "P": 5,
+          "E": 2,
+          "K": 2,
+          "R": 1,
+          "Q": 6
+        }
+      }
+    ],
+    "has_disorder": true
+  },
+  "rna_binding_features": {
+    "basic_patches": [
+      {
+        "number": 1,
+        "start": 98,
+        "end": 100,
+        "sequence": "KR"
+      },
+      {
+        "number": 2,
+        "start": 165,
+        "end": 167,
+        "sequence": "RK"
+      },
+      {
+        "number": 3,
+        "start": 180,
+        "end": 182,
+        "sequence": "KK"
+      }
+    ],
+    "aromatic_clusters": [
+      [
+        135,
+        145,
+        3
+      ],
+      [
+        136,
+        146,
+        3
+      ],
+      [
+        137,
+        147,
+        3
+      ],
+      [
+        138,
+        148,
+        3
+      ],
+      [
+        139,
+        149,
+        3
+      ],
+      [
+        196,
+        206,
+        3
+      ],
+      [
+        197,
+        207,
+        3
+      ],
+      [
+        198,
+        208,
+        3
+      ],
+      [
+        199,
+        209,
+        3
+      ],
+      [
+        200,
+        210,
+        3
+      ],
+      [
+        201,
+        211,
+        3
+      ],
+      [
+        202,
+        212,
+        3
+      ],
+      [
+        203,
+        213,
+        4
+      ],
+      [
+        204,
+        214,
+        4
+      ],
+      [
+        205,
+        215,
+        3
+      ],
+      [
+        249,
+        259,
+        3
+      ],
+      [
+        250,
+        260,
+        3
+      ],
+      [
+        251,
+        261,
+        3
+      ],
+      [
+        252,
+        262,
+        3
+      ],
+      [
+        253,
+        263,
+        3
+      ],
+      [
+        254,
+        264,
+        3
+      ],
+      [
+        255,
+        265,
+        3
+      ],
+      [
+        256,
+        266,
+        3
+      ],
+      [
+        257,
+        267,
+        3
+      ],
+      [
+        258,
+        268,
+        4
+      ],
+      [
+        259,
+        269,
+        3
+      ],
+      [
+        261,
+        271,
+        3
+      ],
+      [
+        262,
+        272,
+        3
+      ],
+      [
+        263,
+        273,
+        4
+      ],
+      [
+        264,
+        274,
+        4
+      ],
+      [
+        265,
+        275,
+        3
+      ],
+      [
+        266,
+        276,
+        3
+      ],
+      [
+        267,
+        277,
+        3
+      ],
+      [
+        281,
+        291,
+        3
+      ],
+      [
+        282,
+        292,
+        3
+      ]
+    ]
+  },
+  "protein_interactions": {
+    "proline_rich": [
+      {
+        "start": 5,
+        "end": 7,
+        "sequence": "PP"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "sequence": "PPPP"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "sequence": "PPPP"
+      },
+      {
+        "start": 241,
+        "end": 246,
+        "sequence": "PPPPP"
+      }
+    ],
+    "sh3_motifs": [
+      {
+        "start": 3,
+        "end": 7,
+        "sequence": "PYPP"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "sequence": "PPPP"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "sequence": "PPPP"
+      },
+      {
+        "start": 54,
+        "end": 58,
+        "sequence": "PEQP"
+      },
+      {
+        "start": 85,
+        "end": 89,
+        "sequence": "PLHP"
+      },
+      {
+        "start": 241,
+        "end": 245,
+        "sequence": "PPPP"
+      }
+    ],
+    "ww_motifs": []
+  },
+  "ptm_sites": {
+    "phosphorylation": {
+      "pka_sites": [
+        {
+          "position": 134,
+          "sequence": "RGS"
+        }
+      ],
+      "ck2_sites": [
+        {
+          "position": 52,
+          "sequence": "THPE"
+        },
+        {
+          "position": 160,
+          "sequence": "TIVE"
+        }
+      ]
+    },
+    "sumoylation_sites": []
+  }
+}

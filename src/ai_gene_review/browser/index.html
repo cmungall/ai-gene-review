@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Faceted Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(170deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #fafafa;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 50%;
+            height: 200%;
+            background: rgba(255,255,255,0.05);
+            transform: rotate(35deg);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+            position: relative;
+        }
+
+        .header p {
+            opacity: 0.95;
+            font-size: 1rem;
+            font-weight: 400;
+            position: relative;
+        }
+
+        .search-container {
+            padding: 24px 30px;
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            padding: 12px 16px;
+            font-size: 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            outline: none;
+            transition: all 0.2s ease;
+            background: white;
+        }
+
+        .search-box:focus {
+            border-color: #10b981;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        }
+
+        .performance-info {
+            font-size: 13px;
+            color: #6b7280;
+            font-weight: 500;
+            font-family: 'SF Mono', 'Monaco', monospace;
+        }
+
+        .main-content {
+            display: flex;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            width: 280px;
+            background: #f9fafb;
+            padding: 24px;
+            border-right: 1px solid #e5e7eb;
+        }
+
+        .facet-group {
+            margin-bottom: 16px;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            overflow: hidden;
+            background: white;
+        }
+
+        .facet-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: white;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.15s ease;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .facet-header:hover {
+            background: #f9fafb;
+        }
+
+        .facet-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #111827;
+            margin: 0;
+            letter-spacing: -0.2px;
+        }
+
+        .facet-toggle {
+            font-size: 0.9rem;
+            color: #10b981;
+            transition: transform 0.2s ease;
+            font-weight: 600;
+        }
+
+        .facet-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .facet-content {
+            padding: 15px 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            transition: all 0.3s ease;
+        }
+
+        .facet-content.collapsed {
+            max-height: 0;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        .facet-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            padding: 7px 12px;
+            border-radius: 4px;
+            transition: all 0.15s ease;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .facet-item:hover {
+            background: #f3f4f6;
+        }
+
+        .facet-item.active {
+            background: #10b981;
+            color: white;
+        }
+
+        .facet-checkbox {
+            margin-right: 10px;
+            width: 16px;
+            height: 16px;
+            accent-color: #10b981;
+            cursor: pointer;
+        }
+
+        .facet-count {
+            margin-left: auto;
+            background: #f3f4f6;
+            color: #6b7280;
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+            min-width: 24px;
+            text-align: center;
+        }
+
+        .facet-item.active .facet-count {
+            background: rgba(255,255,255,0.25);
+            color: white;
+        }
+
+        .results-area {
+            flex: 1;
+            padding: 24px;
+            background: white;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .results-count {
+            font-size: 1rem;
+            color: #374151;
+            font-weight: 500;
+        }
+
+        .clear-filters {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 7px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.15s ease;
+        }
+
+        .clear-filters:hover {
+            background: #dc2626;
+            transform: translateY(-1px);
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .result-card {
+            background: #fafafa;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: all 0.2s ease;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+            padding: 16px;
+        }
+
+        .result-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-color: #10b981;
+        }
+
+        .field-display {
+            margin-bottom: 12px;
+        }
+
+        .field-label {
+            font-weight: 600;
+            color: #6b7280;
+            margin-right: 8px;
+            display: inline-block;
+            min-width: 80px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .field-value {
+            color: #111827;
+            font-size: 0.9rem;
+        }
+
+        .array-values {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .array-item {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            color: #065f46;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #6ee7b7;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #718096;
+            grid-column: 1 / -1;
+        }
+
+        /* Numeric filter styles */
+        .numeric-filter-container {
+            padding: 10px 0;
+        }
+
+        .numeric-range-info {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .numeric-input-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .numeric-input {
+            width: 75px;
+            padding: 6px 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            font-size: 13px;
+            text-align: center;
+            outline: none;
+            transition: all 0.15s ease;
+            background: white;
+        }
+
+        .numeric-input:focus {
+            border-color: #10b981;
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.1);
+        }
+
+        .numeric-separator {
+            color: #718096;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="appTitle">⚡ Generic Faceted Search</h1>
+            <p id="appDescription">Schema-driven search with high performance</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchBox" class="search-box" placeholder="Search products...">
+            <div class="performance-info" id="performanceInfo">Ready</div>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar" id="facetsSidebar">
+                <!-- Facets will be generated here -->
+            </div>
+
+            <div class="results-area">
+                <div class="results-header">
+                    <div class="results-count" id="resultsCount">Loading...</div>
+                    <button class="clear-filters" id="clearFilters">Clear All Filters</button>
+                </div>
+                <div class="results-grid" id="resultsGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load external data -->
+    <script src="data.js"></script>
+    <script src="schema.js"></script>
+
+    <script>
+        class OptimizedFacetedSearch {
+            constructor(data, schema) {
+                console.log('🏗️ OptimizedFacetedSearch constructor called');
+                console.log('Data sample:', data.slice(0, 2));
+                console.log('Schema:', schema);
+                
+                this.originalData = data;
+                this.schema = schema;
+                this.currentFilters = {};
+                this.currentQuery = '';
+                
+                // Track collapsed facets
+                this.collapsedFacets = new Set();
+                
+                // Track slider timeout
+                this.sliderTimeout = null;
+                
+                try {
+                    console.log('📚 Building search index...');
+                    this.searchIndex = this.buildSearchIndex();
+                    console.log('✅ Search index built:', this.searchIndex.size, 'tokens');
+                    
+                    console.log('🏷️ Building facet index...');
+                    this.facetIndex = this.buildFacetIndex();
+                    console.log('✅ Facet index built');
+                    
+                    console.log('🎧 Setting up event listeners...');
+                    this.setupEventListeners();
+                    
+                    console.log('🔍 Performing initial search...');
+                    this.search();
+                    console.log('✅ Constructor complete');
+                } catch (error) {
+                    console.error('❌ Error in constructor:', error);
+                    throw error;
+                }
+            }
+            
+            // Build inverted index for fast text search
+            buildSearchIndex() {
+                console.log('Building search index for', this.originalData.length, 'items');
+                const index = new Map();
+                
+                this.originalData.forEach((item, idx) => {
+                    // Get all searchable text
+                    const searchText = this.schema.searchableFields
+                        .map(field => {
+                            const value = item[field];
+                            if (value === undefined || value === null) {
+                                console.warn(`Missing field ${field} in item:`, item);
+                                return '';
+                            }
+                            if (Array.isArray(value)) {
+                                return value.join(' ');
+                            }
+                            return String(value);
+                        })
+                        .join(' ')
+                        .toLowerCase();
+                    
+                    // Tokenize and index
+                    const tokens = searchText.split(/\s+/).filter(token => token.length > 0);
+                    tokens.forEach(token => {
+                        if (!index.has(token)) {
+                            index.set(token, new Set());
+                        }
+                        index.get(token).add(idx);
+                    });
+                });
+                
+                console.log('Search index created with', index.size, 'unique tokens');
+                return index;
+            }
+            
+            // Build facet index for fast filtering
+            buildFacetIndex() {
+                console.log('Building facet index for fields:', this.schema.facets.map(f => f.field));
+                const index = {};
+                
+                this.schema.facets.forEach(facet => {
+                    index[facet.field] = new Map();
+                    console.log(`Processing facet: ${facet.field} (type: ${facet.type})`);
+                    
+                    this.originalData.forEach((item, idx) => {
+                        const value = item[facet.field];
+                        
+                        if (value === undefined || value === null) {
+                            console.warn(`Missing facet field ${facet.field} in item ${idx}:`, item);
+                            return;
+                        }
+                        
+                        if (facet.type === 'array') {
+                            if (!Array.isArray(value)) {
+                                console.warn(`Expected array for ${facet.field} in item ${idx}, got:`, typeof value, value);
+                                // Try to convert single values to arrays
+                                const arrayValue = [value];
+                                arrayValue.forEach(val => {
+                                    if (val !== undefined && val !== null) {
+                                        const key = String(val);
+                                        if (!index[facet.field].has(key)) {
+                                            index[facet.field].set(key, new Set());
+                                        }
+                                        index[facet.field].get(key).add(idx);
+                                    }
+                                });
+                                return;
+                            }
+                            
+                            // Handle array case with safety check
+                            value.forEach(val => {
+                                if (val !== undefined && val !== null) {
+                                    const key = String(val);
+                                    if (!index[facet.field].has(key)) {
+                                        index[facet.field].set(key, new Set());
+                                    }
+                                    index[facet.field].get(key).add(idx);
+                                }
+                            });
+                        } else {
+                            const key = String(value);
+                            if (!index[facet.field].has(key)) {
+                                index[facet.field].set(key, new Set());
+                            }
+                            index[facet.field].get(key).add(idx);
+                        }
+                    });
+                    
+                    console.log(`Facet ${facet.field} indexed with`, index[facet.field].size, 'unique values');
+                });
+                
+                return index;
+            }
+            
+            setupEventListeners() {
+                let searchTimeout;
+                document.getElementById('searchBox').addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        this.currentQuery = e.target.value;
+                        this.search();
+                    }, 150); // Debounce for better UX
+                });
+                
+                document.addEventListener('click', (e) => {
+                    if (e.target.closest('.facet-item')) {
+                        this.handleFacetClick(e.target.closest('.facet-item'));
+                    } else if (e.target.closest('.facet-header')) {
+                        this.handleFacetToggle(e.target.closest('.facet-header'));
+                    }
+                });
+                
+                // Add numeric input event listeners
+                document.addEventListener('input', (e) => {
+                    if (e.target.classList.contains('numeric-input')) {
+                        this.handleNumericInputChange(e.target);
+                    }
+                });
+                
+                document.addEventListener('change', (e) => {
+                    if (e.target.classList.contains('numeric-input')) {
+                        this.handleNumericInputChange(e.target);
+                    }
+                });
+                
+                document.getElementById('clearFilters').addEventListener('click', () => {
+                    this.clearAllFilters();
+                });
+            }
+            
+            handleFacetClick(facetItem) {
+                const filterKey = facetItem.dataset.filter;
+                const value = facetItem.dataset.value;
+                
+                if (!this.currentFilters[filterKey]) {
+                    this.currentFilters[filterKey] = [];
+                }
+                
+                const index = this.currentFilters[filterKey].indexOf(value);
+                if (index > -1) {
+                    this.currentFilters[filterKey].splice(index, 1);
+                    if (this.currentFilters[filterKey].length === 0) {
+                        delete this.currentFilters[filterKey];
+                    }
+                } else {
+                    this.currentFilters[filterKey].push(value);
+                }
+                
+                this.search();
+            }
+            
+            handleFacetToggle(facetHeader) {
+                const field = facetHeader.dataset.field;
+                const facetContent = facetHeader.nextElementSibling;
+                const toggle = facetHeader.querySelector('.facet-toggle');
+                
+                if (this.collapsedFacets.has(field)) {
+                    // Expand
+                    this.collapsedFacets.delete(field);
+                    facetContent.classList.remove('collapsed');
+                    toggle.classList.remove('collapsed');
+                } else {
+                    // Collapse
+                    this.collapsedFacets.add(field);
+                    facetContent.classList.add('collapsed');
+                    toggle.classList.add('collapsed');
+                }
+            }
+            
+            clearAllFilters() {
+                this.currentFilters = {};
+                this.currentQuery = '';
+                document.getElementById('searchBox').value = '';
+                this.search();
+            }
+            
+            handleNumericInputChange(element) {
+                const field = element.dataset.field;
+                const type = element.dataset.type;
+                const value = parseInt(element.value);
+                
+                if (!this.currentFilters[field]) {
+                    const facetConfig = this.schema.facets.find(f => f.field === field);
+                    if (!facetConfig || facetConfig.type !== 'integer') return;
+                    
+                    // Initialize with full range
+                    const counts = this.facetIndex[field] || new Map();
+                    const values = Array.from(counts.keys()).map(k => parseInt(k)).filter(v => !isNaN(v));
+                    if (values.length === 0) return;
+                    
+                    const minValue = Math.min(...values);
+                    const maxValue = Math.max(...values);
+                    this.currentFilters[field] = { min: minValue, max: maxValue };
+                }
+                
+                // Update the filter value
+                this.currentFilters[field][type] = value;
+                
+                // Ensure min doesn't exceed max
+                if (this.currentFilters[field].min > this.currentFilters[field].max) {
+                    if (type === 'min') {
+                        this.currentFilters[field].max = value;
+                    } else {
+                        this.currentFilters[field].min = value;
+                    }
+                }
+                
+                // Update UI to reflect the change
+                this.updateSliderUI(field);
+                
+                // Debounce the search
+                clearTimeout(this.sliderTimeout);
+                this.sliderTimeout = setTimeout(() => {
+                    this.search();
+                }, 150);
+            }
+            
+            updateSliderUI(field) {
+                const range = this.currentFilters[field];
+                if (!range) return;
+                
+                // Update all numeric inputs for this field
+                const inputs = document.querySelectorAll(`input[data-field="${field}"]`);
+                inputs.forEach(input => {
+                    const type = input.dataset.type;
+                    input.value = range[type];
+                });
+            }
+            
+            search() {
+                const startTime = performance.now();
+                
+                let resultIndices = new Set();
+                
+                // Apply text search using inverted index
+                if (this.currentQuery.trim()) {
+                    const tokens = this.currentQuery.toLowerCase().split(/\s+/);
+                    
+                    if (tokens.length > 0) {
+                        // Start with results for first token
+                        const firstToken = tokens[0];
+                        const matchingIndices = new Set();
+                        
+                        // Find partial matches for better UX
+                        for (const [indexToken, indices] of this.searchIndex) {
+                            if (indexToken.includes(firstToken)) {
+                                indices.forEach(idx => matchingIndices.add(idx));
+                            }
+                        }
+                        
+                        resultIndices = matchingIndices;
+                        
+                        // Intersect with other tokens
+                        for (let i = 1; i < tokens.length; i++) {
+                            const token = tokens[i];
+                            const tokenMatches = new Set();
+                            
+                            for (const [indexToken, indices] of this.searchIndex) {
+                                if (indexToken.includes(token)) {
+                                    indices.forEach(idx => tokenMatches.add(idx));
+                                }
+                            }
+                            
+                            // Intersect
+                            resultIndices = new Set([...resultIndices].filter(idx => tokenMatches.has(idx)));
+                        }
+                    }
+                } else {
+                    // No search query, include all items
+                    resultIndices = new Set(Array.from({length: this.originalData.length}, (_, i) => i));
+                }
+                
+                // Apply facet filters using pre-computed index
+                for (const [filterKey, filterValues] of Object.entries(this.currentFilters)) {
+                    const facetConfig = this.schema.facets.find(f => f.field === filterKey);
+                    
+                    if (facetConfig && facetConfig.type === 'integer') {
+                        // Handle numeric range filters
+                        const range = filterValues;
+                        console.log(`Applying range filter for ${filterKey}:`, range);
+                        
+                        resultIndices = new Set([...resultIndices].filter(idx => {
+                            const item = this.originalData[idx];
+                            const value = parseInt(item[filterKey]);
+                            return !isNaN(value) && value >= range.min && value <= range.max;
+                        }));
+                    } else if (filterValues.length > 0) {
+                        if (facetConfig && facetConfig.type === 'array') {
+                            // For array fields, use AND logic: item must have ALL selected values
+                            console.log(`Applying AND logic for array field ${filterKey}:`, filterValues);
+                            
+                            resultIndices = new Set([...resultIndices].filter(idx => {
+                                const item = this.originalData[idx];
+                                const itemValues = item[filterKey] || [];
+                                
+                                // Check if item has ALL selected filter values
+                                return filterValues.every(selectedValue => 
+                                    itemValues.includes(selectedValue)
+                                );
+                            }));
+                        } else {
+                            // For scalar fields, use OR logic: item must match ANY selected value
+                            console.log(`Applying OR logic for scalar field ${filterKey}:`, filterValues);
+                            
+                            const facetMatches = new Set();
+                            
+                            filterValues.forEach(value => {
+                                const indices = this.facetIndex[filterKey].get(value);
+                                if (indices) {
+                                    indices.forEach(idx => facetMatches.add(idx));
+                                }
+                            });
+                            
+                            // Intersect with current results
+                            resultIndices = new Set([...resultIndices].filter(idx => facetMatches.has(idx)));
+                        }
+                    }
+                }
+                
+                // Get actual data objects
+                const filteredData = Array.from(resultIndices).map(idx => this.originalData[idx]);
+                
+                // Generate facet counts for current result set
+                const facetCounts = this.generateFacetCounts(resultIndices);
+                
+                const endTime = performance.now();
+                document.getElementById('performanceInfo').textContent = 
+                    `Search: ${(endTime - startTime).toFixed(2)}ms`;
+                
+                this.renderResults(filteredData);
+                this.renderFacets(facetCounts);
+            }
+            
+            generateFacetCounts(resultIndices) {
+                const counts = {};
+                
+                this.schema.facets.forEach(facet => {
+                    counts[facet.field] = new Map();
+                    
+                    resultIndices.forEach(idx => {
+                        const item = this.originalData[idx];
+                        const value = item[facet.field];
+                        
+                        // Skip if value is missing
+                        if (value === undefined || value === null) {
+                            return;
+                        }
+                        
+                        if (facet.type === 'array') {
+                            // Handle case where array field might not be an array
+                            if (Array.isArray(value)) {
+                                value.forEach(val => {
+                                    if (val !== undefined && val !== null) {
+                                        const key = String(val);
+                                        counts[facet.field].set(key, (counts[facet.field].get(key) || 0) + 1);
+                                    }
+                                });
+                            } else {
+                                // Treat single value as array of one
+                                const key = String(value);
+                                counts[facet.field].set(key, (counts[facet.field].get(key) || 0) + 1);
+                            }
+                        } else {
+                            const key = String(value);
+                            counts[facet.field].set(key, (counts[facet.field].get(key) || 0) + 1);
+                        }
+                    });
+                });
+                
+                return counts;
+            }
+            
+            renderResults(items) {
+                const resultsCount = document.getElementById('resultsCount');
+                const resultsGrid = document.getElementById('resultsGrid');
+                
+                resultsCount.textContent = `${items.length} items found`;
+                
+                if (items.length === 0) {
+                    resultsGrid.innerHTML = `
+                        <div class="no-results">
+                            <div style="font-size: 4rem; margin-bottom: 20px;">🔍</div>
+                            <h3>No items found</h3>
+                            <p>Try adjusting your filters or search terms</p>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                // Generic rendering based on schema displayFields
+                resultsGrid.innerHTML = items.map(item => {
+                    const fieldsHtml = this.schema.displayFields.map(fieldConfig => {
+                        const value = item[fieldConfig.field];
+                        
+                        if (value === undefined || value === null) {
+                            return '';
+                        }
+                        
+                        if (fieldConfig.type === 'array') {
+                            if (Array.isArray(value)) {
+                                return `
+                                    <div class="field-display">
+                                        <span class="field-label">${fieldConfig.label}:</span>
+                                        <div class="array-values">
+                                            ${value.map(v => `<span class="array-item">${v}</span>`).join('')}
+                                        </div>
+                                    </div>
+                                `;
+                            } else {
+                                return `
+                                    <div class="field-display">
+                                        <span class="field-label">${fieldConfig.label}:</span>
+                                        <span class="array-item">${value}</span>
+                                    </div>
+                                `;
+                            }
+                        } else {
+                            let displayValue = value;
+                            if (fieldConfig.format === 'currency') {
+                                displayValue = `${value}`;
+                            }
+                            
+                            // Generic handling for CURIE type fields
+                            if (fieldConfig.type === 'curie' && value.includes(':')) {
+                                // Create hyperlink for any CURIE (Compact URI)
+                                const curieUrl = `https://bioregistry.io/${value}`;
+                                displayValue = `<a href="${curieUrl}" target="_blank" style="color: #10b981; text-decoration: none; border-bottom: 1px dashed #10b981;">${displayValue}</a>`;
+                            }
+                            
+                            return `
+                                <div class="field-display">
+                                    <span class="field-label">${fieldConfig.label}:</span>
+                                    <span class="field-value">${displayValue}</span>
+                                </div>
+                            `;
+                        }
+                    }).join('');
+                    
+                    return `<div class="result-card">${fieldsHtml}</div>`;
+                }).join('');
+            }
+            
+            renderFacets(facetCounts) {
+                const sidebar = document.getElementById('facetsSidebar');
+                
+                const facetsHtml = this.schema.facets.map(facetConfig => {
+                    const counts = facetCounts[facetConfig.field] || new Map();
+                    
+                    if (counts.size === 0) {
+                        return '';
+                    }
+                    
+                    // Check if this facet is collapsed
+                    const isCollapsed = this.collapsedFacets.has(facetConfig.field);
+                    
+                    // Handle integer type facets with slider
+                    if (facetConfig.type === 'integer') {
+                        // Get min and max values
+                        const values = Array.from(counts.keys()).map(k => parseInt(k)).filter(v => !isNaN(v));
+                        if (values.length === 0) return '';
+                        
+                        const minValue = Math.min(...values);
+                        const maxValue = Math.max(...values);
+                        
+                        // Get current filter range
+                        const currentRange = this.currentFilters[facetConfig.field] || { min: minValue, max: maxValue };
+                        
+                        return `
+                            <div class="facet-group">
+                                <div class="facet-header" data-field="${facetConfig.field}">
+                                    <div class="facet-title">${facetConfig.label} (${minValue}-${maxValue})</div>
+                                    <div class="facet-toggle ${isCollapsed ? 'collapsed' : ''}">▼</div>
+                                </div>
+                                <div class="facet-content ${isCollapsed ? 'collapsed' : ''}">
+                                    <div class="numeric-filter-container">
+                                        <div class="numeric-range-info">
+                                            Range: ${minValue} to ${maxValue}
+                                        </div>
+                                        <div class="numeric-input-wrapper">
+                                            <input type="number" 
+                                                   class="numeric-input numeric-input-min" 
+                                                   min="${minValue}" 
+                                                   max="${maxValue}" 
+                                                   value="${currentRange.min}"
+                                                   placeholder="Min"
+                                                   data-field="${facetConfig.field}"
+                                                   data-type="min">
+                                            <span class="numeric-separator">-</span>
+                                            <input type="number" 
+                                                   class="numeric-input numeric-input-max" 
+                                                   min="${minValue}" 
+                                                   max="${maxValue}" 
+                                                   value="${currentRange.max}"
+                                                   placeholder="Max"
+                                                   data-field="${facetConfig.field}"
+                                                   data-type="max">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    // Regular facet handling for non-integer types
+                    // Convert Map to array and sort
+                    const buckets = Array.from(counts.entries())
+                        .map(([key, count]) => ({ key, doc_count: count }))
+                        .sort((a, b) => {
+                            if (facetConfig.sortBy === 'count') {
+                                return b.doc_count - a.doc_count;
+                            } else {
+                                return a.key.localeCompare(b.key);
+                            }
+                        });
+                    
+                    const itemsHtml = buckets.map(bucket => {
+                        const isActive = this.currentFilters[facetConfig.field] && 
+                                        this.currentFilters[facetConfig.field].includes(bucket.key);
+                        
+                        // Create hyperlink for CURIE type facets
+                        let displayValue = bucket.key;
+                        if (facetConfig.type === 'curie' && bucket.key.includes(':')) {
+                            const curieUrl = `https://bioregistry.io/${bucket.key}`;
+                            displayValue = `<a href="${curieUrl}" target="_blank" style="color: inherit; text-decoration: none;" onclick="event.stopPropagation();">${bucket.key}</a>`;
+                        }
+                        
+                        return `
+                            <div class="facet-item ${isActive ? 'active' : ''}" 
+                                 data-filter="${facetConfig.field}" 
+                                 data-value="${bucket.key}">
+                                <input type="checkbox" class="facet-checkbox" ${isActive ? 'checked' : ''}>
+                                <span>${displayValue}</span>
+                                <span class="facet-count">${bucket.doc_count}</span>
+                            </div>
+                        `;
+                    }).join('');
+                    
+                    return `
+                        <div class="facet-group">
+                            <div class="facet-header" data-field="${facetConfig.field}">
+                                <div class="facet-title">${facetConfig.label} (${buckets.length})</div>
+                                <div class="facet-toggle ${isCollapsed ? 'collapsed' : ''}">▼</div>
+                            </div>
+                            <div class="facet-content ${isCollapsed ? 'collapsed' : ''}">
+                                ${itemsHtml}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                sidebar.innerHTML = facetsHtml;
+            }
+        }
+
+        // Sample data matching your structure for testing
+        const sampleData = [
+            {
+                "id": "gomodel:56170d5200000012",
+                "title": "kctd10 in heart development PMID:24430697",
+                "taxon": "NCBITaxon:7955",
+                "status": "production",
+                "model_activity_part_of_rollup_label": ["anatomical structure development"],
+                "number_of_activities": 5
+            },
+            {
+                "id": "gomodel:568b0f9600000284", 
+                "title": "Antibacterial innate immune response in the intestine via MAPK cascade (C. elegans)",
+                "taxon": "NCBITaxon:6239",
+                "status": "production",
+                "model_activity_part_of_rollup_label": ["immune system process", "defense response to other organism"],
+                "number_of_activities": 12
+            },
+            {
+                "id": "gomodel:test123",
+                "title": "Test model for neural development",
+                "taxon": "NCBITaxon:10090", 
+                "status": "development",
+                "model_activity_part_of_rollup_label": ["nervous system development", "cell differentiation"],
+                "number_of_activities": 8
+            }
+        ];
+
+        const sampleSchema = {
+            "title": "GO Model Catalog",
+            "description": "Search and filter GO models by multiple criteria", 
+            "searchPlaceholder": "Search models...",
+            "searchableFields": ["title", "model_activity_part_of_rollup_label"],
+            "facets": [
+                {
+                    "field": "taxon",
+                    "label": "Taxon", 
+                    "type": "string",
+                    "sortBy": "count"
+                },
+                {
+                    "field": "status",
+                    "label": "Status",
+                    "type": "string", 
+                    "sortBy": "alphabetical"
+                },
+                {
+                    "field": "model_activity_part_of_rollup_label",
+                    "label": "Biological Process",
+                    "type": "array",
+                    "sortBy": "count"
+                }
+            ],
+            "displayFields": [
+                { "field": "title", "label": "Title", "type": "string" },
+                { "field": "taxon", "label": "Taxon", "type": "string" },
+                { "field": "status", "label": "Status", "type": "string" },
+                { "field": "model_activity_part_of_rollup_label", "label": "Biological Process", "type": "array" }
+            ]
+        };
+
+        // Initialize when ready
+        function initializeSearch() {
+            console.log('🔍 Initializing search...');
+            
+            const data = window.searchData || sampleData;
+            const schema = window.searchSchema || sampleSchema;
+            
+            // Set title and description from schema
+            if (schema.title) {
+                document.getElementById('appTitle').textContent = schema.title;
+            }
+            if (schema.description) {
+                document.getElementById('appDescription').textContent = schema.description;
+            }
+            
+            // Set search placeholder
+            if (schema.searchPlaceholder) {
+                document.getElementById('searchBox').placeholder = schema.searchPlaceholder;
+            }
+            
+            console.log('📊 Data check:', {
+                dataLoaded: !!window.searchData,
+                schemaLoaded: !!window.searchSchema,
+                dataLength: data ? data.length : 0,
+                dataType: typeof data,
+                isArray: Array.isArray(data),
+                sampleItem: data && data.length > 0 ? data[0] : null,
+                schemaType: typeof schema,
+                schema: schema
+            });
+            
+            // Validate data structure
+            if (!data || !Array.isArray(data) || data.length === 0) {
+                console.error('❌ Invalid data:', data);
+                document.getElementById('resultsCount').textContent = 'Error: Invalid data format';
+                return;
+            }
+            
+            // Validate schema with detailed checks
+            if (!schema) {
+                console.error('❌ Schema is null/undefined');
+                document.getElementById('resultsCount').textContent = 'Error: Schema is missing';
+                return;
+            }
+            
+            if (!schema.facets) {
+                console.error('❌ Schema missing facets array:', schema);
+                document.getElementById('resultsCount').textContent = 'Error: Schema missing facets';
+                return;
+            }
+            
+            if (!Array.isArray(schema.facets)) {
+                console.error('❌ Schema facets is not an array:', typeof schema.facets, schema.facets);
+                document.getElementById('resultsCount').textContent = 'Error: Schema facets must be an array';
+                return;
+            }
+            
+            if (!schema.searchableFields) {
+                console.error('❌ Schema missing searchableFields:', schema);
+                document.getElementById('resultsCount').textContent = 'Error: Schema missing searchableFields';
+                return;
+            }
+            
+            if (!Array.isArray(schema.searchableFields)) {
+                console.error('❌ Schema searchableFields is not an array:', typeof schema.searchableFields, schema.searchableFields);
+                document.getElementById('resultsCount').textContent = 'Error: Schema searchableFields must be an array';
+                return;
+            }
+            
+            // Check if searchable fields exist in data
+            const firstItem = data[0];
+            console.log('🔍 First data item:', firstItem);
+            console.log('🏷️ Schema searchableFields:', schema.searchableFields);
+            console.log('📊 Schema facets:', schema.facets);
+            
+            const missingFields = schema.searchableFields.filter(field => !(field in firstItem));
+            if (missingFields.length > 0) {
+                console.warn('⚠️ Missing searchable fields:', missingFields);
+            }
+            
+            // Check if facet fields exist in data
+            const missingFacetFields = schema.facets.filter(facet => !(facet.field in firstItem));
+            if (missingFacetFields.length > 0) {
+                console.warn('⚠️ Missing facet fields:', missingFacetFields.map(f => f.field));
+            }
+            
+            try {
+                console.log('🚀 Creating search instance...');
+                new OptimizedFacetedSearch(data, schema);
+                console.log('✅ Search initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing search:', error);
+                document.getElementById('resultsCount').textContent = `Error: ${error.message}`;
+            }
+        }
+
+        // Add more detailed event listening with better timing
+        console.log('🔧 Setting up event listeners...');
+        
+        let initializationAttempted = false;
+        
+        function tryInitialize() {
+            if (initializationAttempted) {
+                console.log('⏭️ Initialization already attempted, skipping');
+                return;
+            }
+            
+            if (window.searchData && window.searchSchema) {
+                console.log('✅ Both data and schema available, initializing...');
+                initializationAttempted = true;
+                initializeSearch();
+            } else {
+                console.log('⏳ Still waiting...', { 
+                    hasData: !!window.searchData, 
+                    hasSchema: !!window.searchSchema 
+                });
+            }
+        }
+        
+        // Check if already loaded
+        if (window.searchData && window.searchSchema) {
+            console.log('📦 Data already loaded, initializing immediately');
+            initializeSearch();
+        } else {
+            console.log('⏳ Waiting for data to load...');
+            
+            // Listen for both data and schema ready events
+            window.addEventListener('searchDataReady', () => {
+                console.log('📡 searchDataReady event received');
+                setTimeout(tryInitialize, 50); // Small delay to ensure both files are processed
+            });
+            
+            // Enhanced fallback with more debugging
+            setTimeout(() => {
+                console.log('⏰ Timeout reached, checking status...');
+                console.log('Final state check:', {
+                    hasSearchData: !!window.searchData,
+                    searchDataType: typeof window.searchData,
+                    searchDataLength: window.searchData ? window.searchData.length : 'N/A',
+                    hasSearchSchema: !!window.searchSchema,
+                    searchSchemaType: typeof window.searchSchema,
+                    schemaHasFacets: window.searchSchema ? !!window.searchSchema.facets : 'N/A'
+                });
+                
+                if (!initializationAttempted) {
+                    if (window.searchData && window.searchSchema) {
+                        console.log('🔄 Data available but not initialized, trying now...');
+                        tryInitialize();
+                    } else if (!window.searchData && !window.searchSchema) {
+                        console.log('📋 No external data found, using sample data');
+                        initializeSearch();
+                    } else {
+                        console.error('❌ Partial data loading - check your file paths');
+                        if (!window.searchData) {
+                            document.getElementById('resultsCount').textContent = 'Error: data.js not loaded';
+                        } else {
+                            document.getElementById('resultsCount').textContent = 'Error: schema.js not loaded';
+                        }
+                    }
+                }
+            }, 2000); // Increased timeout
+        }
+    </script>
+</body>
+</html>

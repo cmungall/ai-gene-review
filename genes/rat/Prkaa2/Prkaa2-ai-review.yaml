@@ -319,6 +319,514 @@ existing_annotations:
     summary: Core function - AMPK senses and responds to nutrient availability. Strong
       ISO evidence from mouse. Fundamental role in metabolism.
     action: ACCEPT
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate annotation - core AMPK function already reviewed as IBA evidence type. This ISO annotation provides additional ortholog-based support for the same function.'
+    action: ACCEPT
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate annotation - already reviewed as IBA evidence. This ISO provides additional ortholog support but redundant with earlier accepted annotation.'
+    action: REMOVE
+- term:
+    id: GO:0140823
+    label: histone H2BS36 kinase activity
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Evidence for H2B Ser36 phosphorylation by AMPK under stress conditions is well-established in mammals. This is a specific stress-response function supported by experimental data.'
+    action: ACCEPT
+- term:
+    id: GO:0140823
+    label: histone H2BS36 kinase activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate annotation - already accepted as ISS evidence. Remove to avoid redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IMP
+  original_reference_id: PMID:25788287
+  review:
+    summary: 'Strong evidence - PMID:25788287 shows calcium-dependent AMPK activation in neurons. IMP evidence for core AMPK function.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:25788287
+        supporting_text: 'Polarized activities of AMPK and BRSK in primary hippocampal neurons'
+- term:
+    id: GO:0042149
+    label: cellular response to glucose starvation
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Duplicate of already accepted annotation. Remove to avoid redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0042149
+    label: cellular response to glucose starvation
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of already accepted annotation. Remove to avoid redundancy.'
+    action: REMOVE
+- term:
+    id: GO:1905691
+    label: lipid droplet disassembly
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'AMPK promotes lipolysis and lipid droplet breakdown via phosphorylation of lipases and metabolic enzymes. This is supported by evidence of AMPK activating lipid oxidation pathways.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1905691
+    label: lipid droplet disassembly
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already reviewed. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0062028
+    label: regulation of stress granule assembly
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'AMPK responds to stress conditions and may influence stress granule formation, but evidence is indirect. Likely over-annotation as not a primary function.'
+    action: MARK_AS_OVER_ANNOTATED
+- term:
+    id: GO:0010629
+    label: negative regulation of gene expression
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'AMPK negatively regulates lipogenic genes (ChREBP, SREBP) and anabolic gene programs. However, term is too broad - more specific terms would be better.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0034599
+    label: cellular response to oxidative stress
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'AMPK is activated during oxidative stress and promotes protective responses including autophagy. This is a legitimate stress response function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0070507
+    label: regulation of microtubule cytoskeleton organization
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Weak evidence - AMPK may indirectly affect cytoskeleton but this is not a well-established primary function. Likely over-annotation.'
+    action: MARK_AS_OVER_ANNOTATED
+- term:
+    id: GO:0071277
+    label: cellular response to calcium ion
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of already reviewed annotation. Remove to avoid redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0071277
+    label: cellular response to calcium ion
+  evidence_type: IMP
+  original_reference_id: PMID:25788287
+  review:
+    summary: 'Strong evidence - PMID:25788287 demonstrates calcium-dependent AMPK activation via CaMKK2 pathway. Important regulatory mechanism but not core metabolic function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0071333
+    label: cellular response to glucose stimulus
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of already accepted annotation. Remove to avoid redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0071333
+    label: cellular response to glucose stimulus
+  evidence_type: IMP
+  original_reference_id: PMID:25788287
+  review:
+    summary: 'Strong supporting evidence for core glucose sensing function. IMP evidence adds to already accepted IEA annotation.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:25788287
+        supporting_text: 'Polarized activities of AMPK and BRSK in primary hippocampal neurons'
+- term:
+    id: GO:0010468
+    label: regulation of gene expression
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Too broad - AMPK regulates specific gene sets via ChREBP, SREBP, p53, etc. More specific terms would be preferable.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0014850
+    label: response to muscle activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Well-established function - AMPK is activated during muscle contraction and exercise. Important for muscle energy metabolism adaptation.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0071466
+    label: cellular response to xenobiotic stimulus
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'AMPK can be activated by xenobiotics like AICAR, metformin, and other compounds. Secondary response, not core function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016241
+    label: regulation of macroautophagy
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'More specific than general autophagy term. AMPK regulates macroautophagy via ULK1 phosphorylation and mTORC1 inhibition. Established function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016241
+    label: regulation of macroautophagy
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already reviewed. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0071380
+    label: cellular response to prostaglandin E stimulus
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Very specific response that may occur but is not well-documented as primary function. Likely over-annotation.'
+    action: MARK_AS_OVER_ANNOTATED
+- term:
+    id: GO:0004712
+    label: protein serine/threonine/tyrosine kinase activity
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'AMPK is primarily serine/threonine kinase, not tyrosine. This broader term is less accurate than the specific serine/threonine kinase annotation.'
+    action: REMOVE
+- term:
+    id: GO:0003682
+    label: chromatin binding
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'AMPK translocates to nucleus under stress and binds chromatin to phosphorylate histones. Evidence from H2B phosphorylation studies supports this.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0003682
+    label: chromatin binding
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already reviewed. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:11069105
+  review:
+    summary: 'Strong direct evidence for core AMPK function. PMID:11069105 demonstrates AMPK phosphorylation of PFK-2, confirming kinase activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11069105
+        supporting_text: 'Phosphorylation and activation of heart PFK-2 by AMPK has a role in the stimulation of glycolysis during ischaemia'
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:11724780
+  review:
+    summary: 'Strong direct evidence for core AMPK function. PMID:11724780 demonstrates AMPK phosphorylation of ChREBP, confirming kinase activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11724780
+        supporting_text: 'Mechanism for fatty acid "sparing" effect on glucose-induced transcription: regulation of carbohydrate-responsive element-binding protein by AMP-activated protein kinase'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11069105
+  review:
+    summary: 'Too general - AMPK binds many proteins but more specific terms would be better (complex binding, substrate binding). Remove as uninformative.'
+    action: REMOVE
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11724780
+  review:
+    summary: 'Too general - AMPK binds many proteins but more specific terms would be better. Remove as uninformative.'
+    action: REMOVE
+- term:
+    id: GO:0008610
+    label: lipid biosynthetic process
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Misleading - AMPK actually INHIBITS lipid biosynthesis by phosphorylating ACC and other enzymes. This should be negative regulation.'
+    action: REMOVE
+- term:
+    id: GO:0008610
+    label: lipid biosynthetic process
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Misleading - AMPK actually INHIBITS lipid biosynthesis. Remove incorrect annotation.'
+    action: REMOVE
+- term:
+    id: GO:0010508
+    label: positive regulation of autophagy
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Duplicate of already reviewed autophagy annotation. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0010508
+    label: positive regulation of autophagy
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of already reviewed autophagy annotation. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0031669
+    label: cellular response to nutrient levels
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Duplicate of already accepted ISO annotation. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0032007
+    label: negative regulation of TOR signaling
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Core function - AMPK inhibits mTORC1 via TSC2 and Raptor phosphorylation. Well-established mechanism for energy conservation.'
+    action: ACCEPT
+- term:
+    id: GO:0032007
+    label: negative regulation of TOR signaling
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already accepted. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0042752
+    label: regulation of circadian rhythm
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'AMPK phosphorylates CRY1 and links metabolism to circadian rhythms. However, this is not a primary metabolic function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0042752
+    label: regulation of circadian rhythm
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already reviewed. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0043066
+    label: negative regulation of apoptotic process
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'AMPK can promote cell survival during mild stress via autophagy and p53 phosphorylation. Context-dependent protective function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0043066
+    label: negative regulation of apoptotic process
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already reviewed. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0045821
+    label: positive regulation of glycolytic process
+  evidence_type: IDA
+  original_reference_id: PMID:11069105
+  review:
+    summary: 'Strong direct evidence - PMID:11069105 demonstrates AMPK phosphorylation of PFK-2 which activates glycolysis. Core metabolic function.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11069105
+        supporting_text: 'Phosphorylation and activation of heart PFK-2 by AMPK has a role in the stimulation of glycolysis during ischaemia'
+- term:
+    id: GO:0055089
+    label: fatty acid homeostasis
+  evidence_type: IDA
+  original_reference_id: PMID:11724780
+  review:
+    summary: 'Strong direct evidence - PMID:11724780 shows AMPK regulation of fatty acid metabolism via ACC phosphorylation. Core function already accepted from IEA.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11724780
+        supporting_text: 'Mechanism for fatty acid "sparing" effect on glucose-induced transcription: regulation of carbohydrate-responsive element-binding protein by AMP-activated protein kinase'
+- term:
+    id: GO:0097009
+    label: energy homeostasis
+  evidence_type: IDA
+  original_reference_id: PMID:11724780
+  review:
+    summary: 'Strong direct evidence - PMID:11724780 demonstrates AMPK role in cellular energy balance. THE core function already accepted from IEA.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:11724780
+        supporting_text: 'Mechanism for fatty acid "sparing" effect on glucose-induced transcription: regulation of carbohydrate-responsive element-binding protein by AMP-activated protein kinase'
+- term:
+    id: GO:0042593
+    label: glucose homeostasis
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Core function - AMPK is central to glucose homeostasis through multiple mechanisms. Well-established role in glucose metabolism.'
+    action: ACCEPT
+- term:
+    id: GO:0042593
+    label: glucose homeostasis
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000096
+  review:
+    summary: 'Duplicate of ISS annotation already accepted. Remove redundancy.'
+    action: REMOVE
+- term:
+    id: GO:0014823
+    label: response to activity
+  evidence_type: IDA
+  original_reference_id: PMID:17253964
+  review:
+    summary: 'PMID:17253964 shows adrenergic activation of AMPK in adipocytes during activity. Important physiological response but not core function.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0031000
+    label: response to caffeine
+  evidence_type: IDA
+  original_reference_id: PMID:19608206
+  review:
+    summary: 'Strong direct evidence - PMID:19608206 shows caffeine activates AMPK in skeletal muscle. Pharmacological response already accepted from IEA.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:14511394
+  review:
+    summary: 'Strong direct evidence - PMID:14511394 demonstrates AMPK complexes and upstream kinase LKB1. Direct confirmation of kinase activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:14511394
+        supporting_text: 'Complexes between the LKB1 tumor suppressor, STRD alpha/beta and MO25 alpha/beta are upstream kinases in the AMP-activated protein kinase cascade'
+- term:
+    id: GO:0044877
+    label: protein-containing complex binding
+  evidence_type: IDA
+  original_reference_id: PMID:14511394
+  review:
+    summary: 'PMID:14511394 shows AMPK interaction with LKB1-STRD-MO25 complex. Specific complex binding is more informative than general protein binding.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:8955377
+  review:
+    summary: 'Strong direct evidence - PMID:8955377 demonstrates substrate specificity differences between α1 and α2 isoforms. Core kinase function.'
+    action: ACCEPT
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IMP
+  original_reference_id: PMID:10698692
+  review:
+    summary: 'IMP evidence from γ subunit characterization study. Shows requirement for γ subunit in AMP binding and AMPK activation.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:10698692
+        supporting_text: 'Characterization of AMP-activated protein kinase gamma-subunit isoforms and their role in AMP binding'
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IMP
+  original_reference_id: PMID:8955377
+  review:
+    summary: 'IMP evidence showing differential properties of α2 vs α1 complexes. Demonstrates AMP-activation specifically.'
+    action: ACCEPT
+- term:
+    id: GO:0030674
+    label: protein-macromolecule adaptor activity
+  evidence_type: IDA
+  original_reference_id: PMID:15695819
+  review:
+    summary: 'PMID:15695819 shows β subunit tethering α and γ subunits. However, this refers to β subunit function, not α2 directly.'
+    action: REMOVE
+- term:
+    id: GO:0004679
+    label: AMP-activated protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:16648175
+  review:
+    summary: 'Strong direct evidence - PMID:16648175 shows AMPK activation in ischemic heart. Direct biochemical demonstration of kinase activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:16648175
+        supporting_text: 'Activation of AMPK alpha- and gamma-isoform complexes in the intact ischemic rat heart'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16648175
+  review:
+    summary: 'Too general - while AMPK binds proteins, more specific terms are preferable. Remove as uninformative.'
+    action: REMOVE
+- term:
+    id: GO:0005524
+    label: ATP binding
+  evidence_type: IDA
+  original_reference_id: PMID:16648175
+  review:
+    summary: 'Strong evidence - PMID:16648175 demonstrates ATP requirement for AMPK activity. Core function already accepted from IEA.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:16648175
+        supporting_text: 'Activation of AMPK alpha- and gamma-isoform complexes in the intact ischemic rat heart'
+- term:
+    id: GO:0004672
+    label: protein kinase activity
+  evidence_type: IDA
+  original_reference_id: PMID:12065578
+  review:
+    summary: 'Too general - more specific serine/threonine and AMP-activated kinase terms already accepted. Remove redundant broad term.'
+    action: REMOVE
+- term:
+    id: GO:0019216
+    label: regulation of lipid metabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:12065578
+  review:
+    summary: 'Strong evidence - PMID:12065578 shows AMPK regulation of ACC and other lipid metabolic enzymes. Well-established function.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:12065578
+        supporting_text: 'Coordinate regulation of malonyl-CoA decarboxylase, sn-glycerol-3-phosphate acyltransferase, and acetyl-CoA carboxylase by AMP-activated protein kinase in rat tissues in response to exercise'
 references:
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO

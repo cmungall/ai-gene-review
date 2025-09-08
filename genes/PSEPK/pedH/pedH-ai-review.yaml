@@ -234,9 +234,7 @@ references:
   title: UniProt entry for PedH - Quinoprotein alcohol dehydrogenase
   findings:
   - statement: PedH requires lanthanide cofactors for activity
-    supporting_text: 'COFACTOR: Pr(3+), Nd(3+), La(3+), Ce(3+), Sm(3+). Exhibits enzymatic
-      activity only in the presence of lanthanide ions; maximal activity is observed
-      with Pr(3+) and Nd(3+)'
+    supporting_text: 'COFACTOR: Name=Pr(3+) ... Name=Nd(3+) ... Name=La(3+) ... Name=Ce(3+) ... Name=Sm(3+) ... Note=Exhibits enzymatic activity only in the presence of lanthanide ions; maximal activity is observed with Pr(3+) and Nd(3+)'
 core_functions:
 - description: Lanthanide-dependent alcohol dehydrogenase activity in periplasm for
     aromatic and aliphatic alcohol metabolism

@@ -1,0 +1,73 @@
+{
+  "protein_id": "Q88JH0",
+  "description": "sp|Q88JH0|PEDH_PSEPK Quinoprotein alcohol dehydrogenase PedH OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440) OX=160488 GN=pedH PE=1 SV=1",
+  "sequence_length": 595,
+  "signal_peptide": {
+    "has_signal_peptide": true,
+    "signal_features": {
+      "n_terminal_positive": 3,
+      "hydrophobic_core": 10,
+      "likely_signal": true
+    },
+    "cleavage_sites": [
+      {
+        "position": 21,
+        "motif": "LLAGAAH",
+        "type": "Ala-X-Ala"
+      },
+      {
+        "position": 24,
+        "motif": "GAAHAAV",
+        "type": "Ala-X-Ala"
+      }
+    ]
+  },
+  "transmembrane": {
+    "tm_regions": [
+      {
+        "start": 6,
+        "end": 30,
+        "score": 1.98,
+        "sequence": "RPLFAVSLVLSAMLLAGAA"
+      }
+    ],
+    "is_membrane_protein": true,
+    "topology": "single-pass membrane"
+  },
+  "subcellular_features": {
+    "nuclear_signals": [
+      {
+        "type": "monopartite NLS",
+        "position": 566,
+        "sequence": "KRVK"
+      }
+    ],
+    "mitochondrial_signals": [
+      {
+        "type": "N-terminal targeting",
+        "score": 0.63
+      }
+    ],
+    "peroxisomal_signals": [],
+    "er_signals": [],
+    "features": {
+      "cysteines": 2,
+      "potential_disulfides": 1,
+      "basic_residues": 70,
+      "acidic_residues": 58,
+      "net_charge": 12,
+      "length": 595
+    }
+  },
+  "localization_prediction": {
+    "primary_location": "membrane (likely inner/plasma membrane)",
+    "confidence": "high",
+    "supporting_evidence": [
+      "Signal peptide present",
+      "1 TM regions"
+    ],
+    "go_terms": [
+      "GO:0016020 (membrane)"
+    ]
+  }
+}

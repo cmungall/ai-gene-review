@@ -18,7 +18,7 @@ existing_annotations:
       label: endochitinase activity
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'UniProt classifies this as an acidic endochitinase (EC:3.2.1.14)'
+      supporting_text: 'RecName: Full=Acidic endochitinase WIN6.2C ... EC=3.2.1.14'
 - term:
     id: GO:0006032
     label: chitin catabolic process
@@ -29,7 +29,7 @@ existing_annotations:
     action: ACCEPT
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'Catalyzes random endo-hydrolysis of N-acetyl-beta-D-glucosaminide linkages in chitin'
+      supporting_text: 'Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins'
 - term:
     id: GO:0008061
     label: chitin binding
@@ -40,7 +40,7 @@ existing_annotations:
     action: ACCEPT
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'Contains chitin-binding type-1 domain (residues 23-63)'
+      supporting_text: 'DOMAIN 23..63 /note="Chitin-binding type-1"'
 - term:
     id: GO:0016998
     label: cell wall macromolecule catabolic process
@@ -62,7 +62,7 @@ existing_annotations:
     action: KEEP_AS_NON_CORE
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'Chitin is a polysaccharide composed of N-acetyl-beta-D-glucosaminide units'
+      supporting_text: 'Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins'
 - term:
     id: GO:0006952
     label: defense response
@@ -87,7 +87,7 @@ existing_annotations:
     action: ACCEPT
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'Acidic endochitinase WIN6.2C with EC:3.2.1.14 activity'
+      supporting_text: 'Acidic endochitinase WIN6.2C; EC=3.2.1.14'
 - term:
     id: GO:0016787
     label: hydrolase activity
@@ -98,7 +98,7 @@ existing_annotations:
     action: KEEP_AS_NON_CORE
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'General hydrolase activity, specific function is endochitinase'
+      supporting_text: 'GO; GO:0008843; F:endochitinase activity; IEA:UniProtKB-EC'
 - term:
     id: GO:0016798
     label: hydrolase activity, acting on glycosyl bonds
@@ -109,7 +109,7 @@ existing_annotations:
     action: KEEP_AS_NON_CORE
     supported_by:
     - reference_id: UniProt:P29032
-      supporting_text: 'Cleaves beta-1,4-glycosidic bonds in chitin polymer'
+      supporting_text: 'Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin'
 - term:
     id: GO:0098542
     label: defense response to other organism

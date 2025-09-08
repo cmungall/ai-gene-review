@@ -575,10 +575,15 @@ references:
   title: SCN1A UniProt functional annotation
   findings:
   - statement: 'Confirms 24-transmembrane domain architecture of Nav1.1 α-subunit'
+    supporting_text: 'TRANSMEM 129..146 ... TRANSMEM 153..177 ... TRANSMEM 189..205 ... TRANSMEM 214..235 ... TRANSMEM 246..269 ... TRANSMEM 398..423 ... TRANSMEM 769..787 ... TRANSMEM 798..820 ... TRANSMEM 831..849 ... TRANSMEM 855..874 ... TRANSMEM 892..912 ... TRANSMEM 966..992 ... TRANSMEM 1219..1237 ... TRANSMEM 1251..1276 ... TRANSMEM 1279..1304 ... TRANSMEM 1314..1332 ... TRANSMEM 1346..1369 ... TRANSMEM 1458..1483 ... TRANSMEM 1542..1560 ... TRANSMEM 1572..1593 ... TRANSMEM 1602..1623 ... TRANSMEM 1637..1655 ... TRANSMEM 1666..1688 ... TRANSMEM 1760..1788'
   - statement: 'Documents catalytic activity: Na+(in) = Na+(out) representing selective sodium transport'
+    supporting_text: 'CATALYTIC ACTIVITY: Reaction=Na(+)(in) = Na(+)(out)'
   - statement: 'Establishes role in action potential depolarization phase'
+    supporting_text: 'Pore-forming subunit of Nav1.1, a voltage-gated sodium (Nav) channel that directly mediates the depolarizing phase of action potentials in excitable membranes'
   - statement: 'Notes contribution to sensory perception of mechanically-induced pain'
+    supporting_text: 'Nav1.1 plays a role in controlling the excitability and action potential propagation from somatosensory neurons, thereby contributing to the sensory perception of mechanically-induced pain'
   - statement: 'Confirms plasma membrane localization and voltage-gated channel complex formation'
+    supporting_text: 'SUBCELLULAR LOCATION: Cell membrane ... Multi-pass membrane protein'
 - id: clinical_literature
   title: SCN1A clinical significance in epilepsy genetics
   findings:

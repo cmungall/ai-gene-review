@@ -1,0 +1,62 @@
+{
+  "protein_id": "P00698",
+  "description": "sp|P00698|LYSC_CHICK Lysozyme C OS=Gallus gallus OX=9031 GN=LYZ PE=1 SV=1",
+  "sequence_length": 147,
+  "signal_peptide": {
+    "has_signal_peptide": true,
+    "signal_features": {
+      "n_terminal_positive": 1,
+      "hydrophobic_core": 11,
+      "likely_signal": true
+    },
+    "cleavage_sites": [
+      {
+        "position": 26,
+        "motif": "ELAAAMK",
+        "type": "Ala-X-Ala"
+      }
+    ]
+  },
+  "transmembrane": {
+    "tm_regions": [
+      {
+        "start": 0,
+        "end": 24,
+        "score": 2.36,
+        "sequence": "MRSLLILVLCFLPLAALGK"
+      }
+    ],
+    "is_membrane_protein": true,
+    "topology": "single-pass membrane"
+  },
+  "subcellular_features": {
+    "nuclear_signals": [],
+    "mitochondrial_signals": [
+      {
+        "type": "N-terminal targeting",
+        "score": 0.53
+      }
+    ],
+    "peroxisomal_signals": [],
+    "er_signals": [],
+    "features": {
+      "cysteines": 9,
+      "potential_disulfides": 4,
+      "basic_residues": 19,
+      "acidic_residues": 9,
+      "net_charge": 10,
+      "length": 147
+    }
+  },
+  "localization_prediction": {
+    "primary_location": "membrane (likely inner/plasma membrane)",
+    "confidence": "high",
+    "supporting_evidence": [
+      "Signal peptide present",
+      "1 TM regions"
+    ],
+    "go_terms": [
+      "GO:0016020 (membrane)"
+    ]
+  }
+}

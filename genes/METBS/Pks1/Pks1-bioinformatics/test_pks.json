@@ -1,0 +1,230 @@
+{
+  "protein_id": "Q03149",
+  "description": "sp|Q03149|WA_EMENI Conidial yellow pigment biosynthesis polyketide synthase OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=wA PE=1 SV=2",
+  "sequence_length": 2157,
+  "domains": [
+    {
+      "name": "KS",
+      "motif_start": 544,
+      "estimated_start": 344,
+      "estimated_end": 794,
+      "confidence": "high",
+      "function": "Ketosynthase - chain elongation",
+      "color": "#4ECDC4"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 889,
+      "estimated_start": 849,
+      "estimated_end": 929,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    },
+    {
+      "name": "AT/MAT",
+      "motif_start": 998,
+      "estimated_start": 898,
+      "estimated_end": 1198,
+      "confidence": "high",
+      "function": "Acyltransferase",
+      "color": "#45B7D1"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 1301,
+      "estimated_start": 1261,
+      "estimated_end": 1341,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    },
+    {
+      "name": "DH",
+      "motif_start": 1325,
+      "estimated_start": 1225,
+      "estimated_end": 1475,
+      "confidence": "moderate",
+      "function": "Dehydratase",
+      "color": "#96CEB4"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 1680,
+      "estimated_start": 1640,
+      "estimated_end": 1720,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 1802,
+      "estimated_start": 1762,
+      "estimated_end": 1842,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 1941,
+      "estimated_start": 1901,
+      "estimated_end": 1981,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    },
+    {
+      "name": "TE",
+      "motif_start": 1964,
+      "estimated_start": 1864,
+      "estimated_end": 2114,
+      "confidence": "moderate",
+      "function": "Thioesterase - chain release",
+      "color": "#DDA0DD"
+    },
+    {
+      "name": "ACP",
+      "motif_start": 2038,
+      "estimated_start": 1998,
+      "estimated_end": 2078,
+      "confidence": "moderate",
+      "function": "Acyl carrier protein",
+      "color": "#FFEAA7"
+    }
+  ],
+  "active_sites": [
+    {
+      "position": 408,
+      "residue": "H",
+      "domain": "KS",
+      "function": "Catalytic histidine",
+      "confidence": "moderate"
+    },
+    {
+      "position": 883,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    },
+    {
+      "position": 1001,
+      "residue": "S",
+      "domain": "AT/MAT",
+      "function": "Catalytic serine",
+      "confidence": "high"
+    },
+    {
+      "position": 1292,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    },
+    {
+      "position": 1682,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    },
+    {
+      "position": 1793,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    },
+    {
+      "position": 1940,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    },
+    {
+      "position": 1967,
+      "residue": "S",
+      "domain": "TE",
+      "function": "Catalytic serine",
+      "confidence": "moderate"
+    },
+    {
+      "position": 2040,
+      "residue": "S",
+      "domain": "ACP",
+      "function": "Phosphopantetheine attachment",
+      "confidence": "moderate"
+    }
+  ],
+  "composition": {
+    "length": 2157,
+    "molecular_weight_da": 235336,
+    "molecular_weight_kda": 235.3,
+    "hydrophobic_percent": 36.81,
+    "charged_percent": 20.26,
+    "polar_percent": 27.45,
+    "aromatic_percent": 7.74,
+    "most_common": [
+      [
+        "L",
+        216
+      ],
+      [
+        "S",
+        202
+      ],
+      [
+        "A",
+        171
+      ],
+      [
+        "G",
+        152
+      ],
+      [
+        "V",
+        146
+      ]
+    ]
+  },
+  "classification": {
+    "domain_count": 10,
+    "unique_domains": [
+      "KS",
+      "ACP",
+      "AT/MAT",
+      "DH",
+      "TE"
+    ],
+    "domain_order": [
+      "KS",
+      "ACP",
+      "AT/MAT",
+      "ACP",
+      "DH",
+      "ACP",
+      "ACP",
+      "ACP",
+      "TE",
+      "ACP"
+    ],
+    "type": "Type I reducing PKS",
+    "subtype": "Modular",
+    "acp_count": 6,
+    "note": "Multiple ACP domains (6) suggest iterative processing"
+  },
+  "product_predictions": {
+    "reducing_domains": [
+      "DH (dehydratase)"
+    ],
+    "cyclization_potential": false,
+    "product_predictions": [
+      "Partially reduced polyketide",
+      "Macrocyclic product possible (TE-mediated)",
+      "Complex iterative product"
+    ]
+  }
+}

@@ -130,6 +130,10 @@ class ActionEnum(str, Enum):
     """
     The review entry is a stub, and the review has not been completed yet.
     """
+    NEW = "NEW"
+    """
+    This is a proposed annotation, not one that exists in the existing GO annotations
+    """
 
 
 class GOTermEnum(str):
@@ -273,7 +277,8 @@ class Review(ConfiguredBaseModel):
     reason: Optional[str] = Field(default=None, description="""Reason for the action""", json_schema_extra = { "linkml_meta": {'alias': 'reason', 'domain_of': ['Review']} })
     proposed_replacement_terms: Optional[list[Term]] = Field(default=None, description="""Proposed replacement terms""", json_schema_extra = { "linkml_meta": {'alias': 'proposed_replacement_terms', 'domain_of': ['Review']} })
     additional_reference_ids: Optional[list[str]] = Field(default=None, description="""IDs of the references""", json_schema_extra = { "linkml_meta": {'alias': 'additional_reference_ids', 'domain_of': ['Review']} })
-    supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by', 'domain_of': ['Review', 'CoreFunction']} })
+    supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by',
+         'domain_of': ['Review', 'CoreFunction', 'ProposedOntologyTerm']} })
 
 
 class CoreFunction(ConfiguredBaseModel):
@@ -283,7 +288,8 @@ class CoreFunction(ConfiguredBaseModel):
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/ai4curation/gene_review'})
 
     description: Optional[str] = Field(default=None, description="""Description of the core function""", json_schema_extra = { "linkml_meta": {'alias': 'description', 'domain_of': ['GeneReview', 'Term', 'CoreFunction']} })
-    supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by', 'domain_of': ['Review', 'CoreFunction']} })
+    supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by',
+         'domain_of': ['Review', 'CoreFunction', 'ProposedOntologyTerm']} })
     molecular_function: Optional[Term] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'molecular_function',
          'bindings': [{'binds_value_of': 'id',
                        'obligation_level': 'REQUIRED',
@@ -320,6 +326,8 @@ class ProposedOntologyTerm(ConfiguredBaseModel):
     proposed_name: str = Field(default=..., description="""Proposed name for the new term""", json_schema_extra = { "linkml_meta": {'alias': 'proposed_name', 'domain_of': ['ProposedOntologyTerm']} })
     proposed_definition: str = Field(default=..., description="""Proposed definition for the new term""", json_schema_extra = { "linkml_meta": {'alias': 'proposed_definition', 'domain_of': ['ProposedOntologyTerm']} })
     justification: Optional[str] = Field(default=None, description="""Justification for why this term is needed""", json_schema_extra = { "linkml_meta": {'alias': 'justification', 'domain_of': ['ProposedOntologyTerm']} })
+    supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by',
+         'domain_of': ['Review', 'CoreFunction', 'ProposedOntologyTerm']} })
 
 
 # Model rebuild

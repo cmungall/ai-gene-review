@@ -93,8 +93,11 @@ references:
   title: UniProt entry for sesquiterpene synthase MBR_10393
   findings:
   - statement: Characterized as sesquiterpene synthase with EC 4.2.3.163 and 4.2.3.171
+    supporting_text: 'RecName: Full=Sesquiterpene synthase MBR_10393 ... EC=4.2.3.163 ... EC=4.2.3.171'
   - statement: Requires 3 Mg2+ ions per subunit for activity
+    supporting_text: 'COFACTOR: [Name=Mg(2+)] ... Note=Binds 3 Mg(2+) ions per subunit'
   - statement: Contains DDXXXD motif important for catalytic activity
+    supporting_text: 'DOMAIN: The Asp-Asp-Xaa-Xaa-Xaa-Asp (DDXXXD) motif is important for the catalytic activity'
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO terms.
   findings: []

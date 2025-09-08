@@ -125,11 +125,11 @@ references:
   title: 'UniProt entry for NifA from Azotobacter vinelandii'
   findings:
     - statement: 'Required for activation of most nif operons involved in nitrogen fixation'
-      supporting_text: 'Central role in nitrogen fixation gene regulation'
+      supporting_text: 'FUNCTION: Required for activation of most nif operons, which are directly involved in nitrogen fixation'
     - statement: 'Interacts with sigma-54'
-      supporting_text: 'Evidence for sigma-54-dependent transcriptional activation'
+      supporting_text: 'SUBUNIT: Interacts with sigma-54'
     - statement: 'Contains GAF domain (37-178), sigma-54 interaction domain (211-439), and HTH DNA-binding domain (494-513)'
-      supporting_text: 'Domain architecture supporting NifA functions'
+      supporting_text: 'DOMAIN 37..178 /note="GAF" ... DOMAIN 211..439 /note="Sigma-54 factor interaction" ... DNA_BIND 494..513 /note="H-T-H motif"'
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO terms.
   findings: []

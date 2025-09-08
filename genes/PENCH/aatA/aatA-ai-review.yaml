@@ -15,7 +15,7 @@ existing_annotations:
     action: ACCEPT
     supported_by:
       - reference_id: UniProt:P15802
-        supporting_text: Located in peroxisome where penicillin biosynthesis occurs
+        supporting_text: 'SUBCELLULAR LOCATION: Peroxisome matrix ... acyltransferase aatA to yield penicillin in the peroxisomal matrix'
 - term:
     id: GO:0005782
     label: peroxisomal matrix
@@ -37,7 +37,7 @@ existing_annotations:
     action: KEEP_AS_NON_CORE
     supported_by:
       - reference_id: UniProt:P15802
-        supporting_text: General transferase activity, but specific function is acyl-coenzyme A:isopenicillin N acyltransferase
+        supporting_text: 'Isopenicillin-N N-acyltransferase; part of the gene cluster that mediates the biosynthesis of penicillin'
 - term:
     id: GO:0016746
     label: acyltransferase activity
@@ -87,7 +87,7 @@ existing_annotations:
     action: ACCEPT
     supported_by:
       - reference_id: UniProt:P15802
-        supporting_text: Catalyzes the exchange of the α-aminoadipyl side chain of isopenicillin N for phenylacetic acid to yield penicillin G
+        supporting_text: 'AatA catalyzes the exchange of the alpha-aminoadipyl side chain of isopenicillin N for phenylacetic acid to yield penicillin'
 - term:
     id: GO:0042318
     label: penicillin biosynthetic process

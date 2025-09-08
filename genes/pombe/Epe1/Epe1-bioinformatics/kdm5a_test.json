@@ -1,0 +1,1174 @@
+{
+  "protein_id": "Q9Y2K7",
+  "description": "sp|Q9Y2K7|KDM2A_HUMAN Lysine-specific demethylase 2A OS=Homo sapiens OX=9606 GN=KDM2A PE=1 SV=3",
+  "properties": {
+    "length": 1162,
+    "molecular_weight_kda": 153.7,
+    "basic_residues": 193,
+    "acidic_residues": 161,
+    "net_charge": 32,
+    "serine_percent": 7.4,
+    "proline_percent": 5.7
+  },
+  "jmjc_analysis": {
+    "histidines": [
+      44,
+      149,
+      175,
+      211,
+      222,
+      224,
+      238,
+      283,
+      300,
+      348,
+      433,
+      451,
+      454,
+      473,
+      540,
+      585,
+      615,
+      649,
+      716,
+      726,
+      747,
+      748,
+      810,
+      830,
+      838,
+      1061,
+      1072,
+      1075,
+      1138
+    ],
+    "fe_binding_motifs": [
+      {
+        "position": 211,
+        "sequence": "HVD",
+        "partner_histidines": [
+          348
+        ]
+      },
+      {
+        "position": 454,
+        "sequence": "HFE",
+        "partner_histidines": [
+          585,
+          615,
+          649
+        ]
+      }
+    ],
+    "jmjc_aromatic_content": {
+      "region": "150-350",
+      "F_count": 11,
+      "Y_count": 14,
+      "K_count": 8,
+      "aromatic_rich": true
+    },
+    "has_jmjc_features": true
+  },
+  "demethylase_activity": {
+    "akg_binding_motifs": [
+      {
+        "position": 6,
+        "sequence": "RIRYSQR"
+      },
+      {
+        "position": 14,
+        "sequence": "RGTMRRR"
+      },
+      {
+        "position": 260,
+        "sequence": "RVSDCQR"
+      },
+      {
+        "position": 318,
+        "sequence": "RVPNKFR"
+      },
+      {
+        "position": 382,
+        "sequence": "RRLSSRR"
+      },
+      {
+        "position": 565,
+        "sequence": "RRRVRCR"
+      },
+      {
+        "position": 606,
+        "sequence": "RQCLAPR"
+      },
+      {
+        "position": 752,
+        "sequence": "RDERFKR"
+      },
+      {
+        "position": 763,
+        "sequence": "RLQATER"
+      },
+      {
+        "position": 1038,
+        "sequence": "RNMTDFR"
+      }
+    ],
+    "basic_patches": [
+      {
+        "position": 5,
+        "end": 15,
+        "basic_count": 4
+      },
+      {
+        "position": 6,
+        "end": 16,
+        "basic_count": 4
+      },
+      {
+        "position": 10,
+        "end": 20,
+        "basic_count": 4
+      },
+      {
+        "position": 11,
+        "end": 21,
+        "basic_count": 5
+      },
+      {
+        "position": 12,
+        "end": 22,
+        "basic_count": 5
+      },
+      {
+        "position": 13,
+        "end": 23,
+        "basic_count": 4
+      },
+      {
+        "position": 14,
+        "end": 24,
+        "basic_count": 4
+      },
+      {
+        "position": 315,
+        "end": 325,
+        "basic_count": 4
+      },
+      {
+        "position": 316,
+        "end": 326,
+        "basic_count": 4
+      },
+      {
+        "position": 346,
+        "end": 356,
+        "basic_count": 4
+      },
+      {
+        "position": 378,
+        "end": 388,
+        "basic_count": 4
+      },
+      {
+        "position": 379,
+        "end": 389,
+        "basic_count": 5
+      },
+      {
+        "position": 380,
+        "end": 390,
+        "basic_count": 4
+      },
+      {
+        "position": 381,
+        "end": 391,
+        "basic_count": 4
+      },
+      {
+        "position": 382,
+        "end": 392,
+        "basic_count": 4
+      },
+      {
+        "position": 442,
+        "end": 452,
+        "basic_count": 4
+      },
+      {
+        "position": 443,
+        "end": 453,
+        "basic_count": 4
+      },
+      {
+        "position": 444,
+        "end": 454,
+        "basic_count": 4
+      },
+      {
+        "position": 445,
+        "end": 455,
+        "basic_count": 5
+      },
+      {
+        "position": 446,
+        "end": 456,
+        "basic_count": 4
+      },
+      {
+        "position": 466,
+        "end": 476,
+        "basic_count": 4
+      },
+      {
+        "position": 513,
+        "end": 523,
+        "basic_count": 4
+      },
+      {
+        "position": 514,
+        "end": 524,
+        "basic_count": 4
+      },
+      {
+        "position": 515,
+        "end": 525,
+        "basic_count": 4
+      },
+      {
+        "position": 516,
+        "end": 526,
+        "basic_count": 4
+      },
+      {
+        "position": 517,
+        "end": 527,
+        "basic_count": 5
+      },
+      {
+        "position": 518,
+        "end": 528,
+        "basic_count": 4
+      },
+      {
+        "position": 519,
+        "end": 529,
+        "basic_count": 4
+      },
+      {
+        "position": 520,
+        "end": 530,
+        "basic_count": 4
+      },
+      {
+        "position": 521,
+        "end": 531,
+        "basic_count": 4
+      },
+      {
+        "position": 522,
+        "end": 532,
+        "basic_count": 4
+      },
+      {
+        "position": 538,
+        "end": 548,
+        "basic_count": 4
+      },
+      {
+        "position": 558,
+        "end": 568,
+        "basic_count": 4
+      },
+      {
+        "position": 559,
+        "end": 569,
+        "basic_count": 4
+      },
+      {
+        "position": 560,
+        "end": 570,
+        "basic_count": 5
+      },
+      {
+        "position": 561,
+        "end": 571,
+        "basic_count": 5
+      },
+      {
+        "position": 562,
+        "end": 572,
+        "basic_count": 6
+      },
+      {
+        "position": 563,
+        "end": 573,
+        "basic_count": 7
+      },
+      {
+        "position": 564,
+        "end": 574,
+        "basic_count": 7
+      },
+      {
+        "position": 565,
+        "end": 575,
+        "basic_count": 7
+      },
+      {
+        "position": 566,
+        "end": 576,
+        "basic_count": 6
+      },
+      {
+        "position": 567,
+        "end": 577,
+        "basic_count": 5
+      },
+      {
+        "position": 568,
+        "end": 578,
+        "basic_count": 4
+      },
+      {
+        "position": 569,
+        "end": 579,
+        "basic_count": 4
+      },
+      {
+        "position": 583,
+        "end": 593,
+        "basic_count": 4
+      },
+      {
+        "position": 584,
+        "end": 594,
+        "basic_count": 4
+      },
+      {
+        "position": 585,
+        "end": 595,
+        "basic_count": 4
+      },
+      {
+        "position": 591,
+        "end": 601,
+        "basic_count": 4
+      },
+      {
+        "position": 678,
+        "end": 688,
+        "basic_count": 4
+      },
+      {
+        "position": 679,
+        "end": 689,
+        "basic_count": 4
+      },
+      {
+        "position": 680,
+        "end": 690,
+        "basic_count": 4
+      },
+      {
+        "position": 681,
+        "end": 691,
+        "basic_count": 4
+      },
+      {
+        "position": 682,
+        "end": 692,
+        "basic_count": 4
+      },
+      {
+        "position": 746,
+        "end": 756,
+        "basic_count": 4
+      },
+      {
+        "position": 747,
+        "end": 757,
+        "basic_count": 4
+      },
+      {
+        "position": 748,
+        "end": 758,
+        "basic_count": 4
+      },
+      {
+        "position": 749,
+        "end": 759,
+        "basic_count": 4
+      },
+      {
+        "position": 750,
+        "end": 760,
+        "basic_count": 5
+      },
+      {
+        "position": 751,
+        "end": 761,
+        "basic_count": 5
+      },
+      {
+        "position": 752,
+        "end": 762,
+        "basic_count": 5
+      },
+      {
+        "position": 753,
+        "end": 763,
+        "basic_count": 4
+      },
+      {
+        "position": 754,
+        "end": 764,
+        "basic_count": 5
+      },
+      {
+        "position": 755,
+        "end": 765,
+        "basic_count": 5
+      },
+      {
+        "position": 756,
+        "end": 766,
+        "basic_count": 4
+      },
+      {
+        "position": 757,
+        "end": 767,
+        "basic_count": 4
+      },
+      {
+        "position": 829,
+        "end": 839,
+        "basic_count": 4
+      },
+      {
+        "position": 1125,
+        "end": 1135,
+        "basic_count": 4
+      },
+      {
+        "position": 1126,
+        "end": 1136,
+        "basic_count": 4
+      },
+      {
+        "position": 1129,
+        "end": 1139,
+        "basic_count": 4
+      }
+    ],
+    "catalytic_potential": "high"
+  },
+  "chromatin_features": {
+    "hp1_binding_motifs": [],
+    "aromatic_clusters": [
+      {
+        "position": 36,
+        "end": 56,
+        "aromatic_count": 4,
+        "sequence": "TFDLEEKLHT..."
+      },
+      {
+        "position": 37,
+        "end": 57,
+        "aromatic_count": 4,
+        "sequence": "FDLEEKLHTN..."
+      },
+      {
+        "position": 42,
+        "end": 62,
+        "aromatic_count": 4,
+        "sequence": "KLHTNKYNAN..."
+      },
+      {
+        "position": 43,
+        "end": 63,
+        "aromatic_count": 4,
+        "sequence": "LHTNKYNANF..."
+      },
+      {
+        "position": 44,
+        "end": 64,
+        "aromatic_count": 4,
+        "sequence": "HTNKYNANFV..."
+      },
+      {
+        "position": 45,
+        "end": 65,
+        "aromatic_count": 4,
+        "sequence": "TNKYNANFVT..."
+      },
+      {
+        "position": 46,
+        "end": 66,
+        "aromatic_count": 5,
+        "sequence": "NKYNANFVTF..."
+      },
+      {
+        "position": 47,
+        "end": 67,
+        "aromatic_count": 5,
+        "sequence": "KYNANFVTFM..."
+      },
+      {
+        "position": 48,
+        "end": 68,
+        "aromatic_count": 5,
+        "sequence": "YNANFVTFME..."
+      },
+      {
+        "position": 49,
+        "end": 69,
+        "aromatic_count": 4,
+        "sequence": "NANFVTFMEG..."
+      },
+      {
+        "position": 50,
+        "end": 70,
+        "aromatic_count": 4,
+        "sequence": "ANFVTFMEGK..."
+      },
+      {
+        "position": 51,
+        "end": 71,
+        "aromatic_count": 4,
+        "sequence": "NFVTFMEGKD..."
+      },
+      {
+        "position": 52,
+        "end": 72,
+        "aromatic_count": 4,
+        "sequence": "FVTFMEGKDF..."
+      },
+      {
+        "position": 121,
+        "end": 141,
+        "aromatic_count": 4,
+        "sequence": "TMAQWTRYYE..."
+      },
+      {
+        "position": 122,
+        "end": 142,
+        "aromatic_count": 4,
+        "sequence": "MAQWTRYYET..."
+      },
+      {
+        "position": 123,
+        "end": 143,
+        "aromatic_count": 4,
+        "sequence": "AQWTRYYETP..."
+      },
+      {
+        "position": 124,
+        "end": 144,
+        "aromatic_count": 4,
+        "sequence": "QWTRYYETPE..."
+      },
+      {
+        "position": 125,
+        "end": 145,
+        "aromatic_count": 4,
+        "sequence": "WTRYYETPEE..."
+      },
+      {
+        "position": 128,
+        "end": 148,
+        "aromatic_count": 4,
+        "sequence": "YYETPEEERE..."
+      },
+      {
+        "position": 191,
+        "end": 211,
+        "aromatic_count": 4,
+        "sequence": "QYPKVQKYCL..."
+      },
+      {
+        "position": 192,
+        "end": 212,
+        "aromatic_count": 4,
+        "sequence": "YPKVQKYCLM..."
+      },
+      {
+        "position": 195,
+        "end": 215,
+        "aromatic_count": 4,
+        "sequence": "VQKYCLMSVR..."
+      },
+      {
+        "position": 196,
+        "end": 216,
+        "aromatic_count": 4,
+        "sequence": "QKYCLMSVRG..."
+      },
+      {
+        "position": 197,
+        "end": 217,
+        "aromatic_count": 4,
+        "sequence": "KYCLMSVRGC..."
+      },
+      {
+        "position": 198,
+        "end": 218,
+        "aromatic_count": 4,
+        "sequence": "YCLMSVRGCY..."
+      },
+      {
+        "position": 201,
+        "end": 221,
+        "aromatic_count": 4,
+        "sequence": "MSVRGCYTDF..."
+      },
+      {
+        "position": 202,
+        "end": 222,
+        "aromatic_count": 5,
+        "sequence": "SVRGCYTDFH..."
+      },
+      {
+        "position": 203,
+        "end": 223,
+        "aromatic_count": 5,
+        "sequence": "VRGCYTDFHV..."
+      },
+      {
+        "position": 204,
+        "end": 224,
+        "aromatic_count": 5,
+        "sequence": "RGCYTDFHVD..."
+      },
+      {
+        "position": 205,
+        "end": 225,
+        "aromatic_count": 5,
+        "sequence": "GCYTDFHVDF..."
+      },
+      {
+        "position": 206,
+        "end": 226,
+        "aromatic_count": 5,
+        "sequence": "CYTDFHVDFG..."
+      },
+      {
+        "position": 207,
+        "end": 227,
+        "aromatic_count": 5,
+        "sequence": "YTDFHVDFGG..."
+      },
+      {
+        "position": 208,
+        "end": 228,
+        "aromatic_count": 4,
+        "sequence": "TDFHVDFGGT..."
+      },
+      {
+        "position": 209,
+        "end": 229,
+        "aromatic_count": 4,
+        "sequence": "DFHVDFGGTS..."
+      },
+      {
+        "position": 210,
+        "end": 230,
+        "aromatic_count": 4,
+        "sequence": "FHVDFGGTSV..."
+      },
+      {
+        "position": 211,
+        "end": 231,
+        "aromatic_count": 4,
+        "sequence": "HVDFGGTSVW..."
+      },
+      {
+        "position": 212,
+        "end": 232,
+        "aromatic_count": 5,
+        "sequence": "VDFGGTSVWY..."
+      },
+      {
+        "position": 213,
+        "end": 233,
+        "aromatic_count": 5,
+        "sequence": "DFGGTSVWYH..."
+      },
+      {
+        "position": 214,
+        "end": 234,
+        "aromatic_count": 5,
+        "sequence": "FGGTSVWYHI..."
+      },
+      {
+        "position": 215,
+        "end": 235,
+        "aromatic_count": 4,
+        "sequence": "GGTSVWYHIH..."
+      },
+      {
+        "position": 216,
+        "end": 236,
+        "aromatic_count": 4,
+        "sequence": "GTSVWYHIHQ..."
+      },
+      {
+        "position": 217,
+        "end": 237,
+        "aromatic_count": 4,
+        "sequence": "TSVWYHIHQG..."
+      },
+      {
+        "position": 218,
+        "end": 238,
+        "aromatic_count": 4,
+        "sequence": "SVWYHIHQGG..."
+      },
+      {
+        "position": 219,
+        "end": 239,
+        "aromatic_count": 4,
+        "sequence": "VWYHIHQGGK..."
+      },
+      {
+        "position": 220,
+        "end": 240,
+        "aromatic_count": 4,
+        "sequence": "WYHIHQGGKV..."
+      },
+      {
+        "position": 227,
+        "end": 247,
+        "aromatic_count": 4,
+        "sequence": "GKVFWLIPPT..."
+      },
+      {
+        "position": 228,
+        "end": 248,
+        "aromatic_count": 4,
+        "sequence": "KVFWLIPPTA..."
+      },
+      {
+        "position": 229,
+        "end": 249,
+        "aromatic_count": 4,
+        "sequence": "VFWLIPPTAH..."
+      },
+      {
+        "position": 230,
+        "end": 250,
+        "aromatic_count": 4,
+        "sequence": "FWLIPPTAHN..."
+      },
+      {
+        "position": 267,
+        "end": 287,
+        "aromatic_count": 4,
+        "sequence": "IELKQGYTFV..."
+      },
+      {
+        "position": 268,
+        "end": 288,
+        "aromatic_count": 4,
+        "sequence": "ELKQGYTFVI..."
+      },
+      {
+        "position": 269,
+        "end": 289,
+        "aromatic_count": 4,
+        "sequence": "LKQGYTFVIP..."
+      },
+      {
+        "position": 270,
+        "end": 290,
+        "aromatic_count": 4,
+        "sequence": "KQGYTFVIPS..."
+      },
+      {
+        "position": 271,
+        "end": 291,
+        "aromatic_count": 4,
+        "sequence": "QGYTFVIPSG..."
+      },
+      {
+        "position": 272,
+        "end": 292,
+        "aromatic_count": 4,
+        "sequence": "GYTFVIPSGW..."
+      },
+      {
+        "position": 273,
+        "end": 293,
+        "aromatic_count": 4,
+        "sequence": "YTFVIPSGWI..."
+      },
+      {
+        "position": 275,
+        "end": 295,
+        "aromatic_count": 4,
+        "sequence": "FVIPSGWIHA..."
+      },
+      {
+        "position": 279,
+        "end": 299,
+        "aromatic_count": 4,
+        "sequence": "SGWIHAVYTP..."
+      },
+      {
+        "position": 280,
+        "end": 300,
+        "aromatic_count": 4,
+        "sequence": "GWIHAVYTPT..."
+      },
+      {
+        "position": 281,
+        "end": 301,
+        "aromatic_count": 4,
+        "sequence": "WIHAVYTPTD..."
+      },
+      {
+        "position": 283,
+        "end": 303,
+        "aromatic_count": 4,
+        "sequence": "HAVYTPTDTL..."
+      },
+      {
+        "position": 284,
+        "end": 304,
+        "aromatic_count": 4,
+        "sequence": "AVYTPTDTLV..."
+      },
+      {
+        "position": 285,
+        "end": 305,
+        "aromatic_count": 4,
+        "sequence": "VYTPTDTLVF..."
+      },
+      {
+        "position": 286,
+        "end": 306,
+        "aromatic_count": 4,
+        "sequence": "YTPTDTLVFG..."
+      },
+      {
+        "position": 292,
+        "end": 312,
+        "aromatic_count": 4,
+        "sequence": "LVFGGNFLHS..."
+      },
+      {
+        "position": 293,
+        "end": 313,
+        "aromatic_count": 4,
+        "sequence": "VFGGNFLHSF..."
+      },
+      {
+        "position": 294,
+        "end": 314,
+        "aromatic_count": 4,
+        "sequence": "FGGNFLHSFN..."
+      },
+      {
+        "position": 308,
+        "end": 328,
+        "aromatic_count": 4,
+        "sequence": "LKIYNIEDRT..."
+      },
+      {
+        "position": 309,
+        "end": 329,
+        "aromatic_count": 5,
+        "sequence": "KIYNIEDRTR..."
+      },
+      {
+        "position": 310,
+        "end": 330,
+        "aromatic_count": 6,
+        "sequence": "IYNIEDRTRV..."
+      },
+      {
+        "position": 311,
+        "end": 331,
+        "aromatic_count": 6,
+        "sequence": "YNIEDRTRVP..."
+      },
+      {
+        "position": 312,
+        "end": 332,
+        "aromatic_count": 5,
+        "sequence": "NIEDRTRVPN..."
+      },
+      {
+        "position": 313,
+        "end": 333,
+        "aromatic_count": 5,
+        "sequence": "IEDRTRVPNK..."
+      },
+      {
+        "position": 314,
+        "end": 334,
+        "aromatic_count": 6,
+        "sequence": "EDRTRVPNKF..."
+      },
+      {
+        "position": 315,
+        "end": 335,
+        "aromatic_count": 7,
+        "sequence": "DRTRVPNKFR..."
+      },
+      {
+        "position": 316,
+        "end": 336,
+        "aromatic_count": 7,
+        "sequence": "RTRVPNKFRY..."
+      },
+      {
+        "position": 317,
+        "end": 337,
+        "aromatic_count": 7,
+        "sequence": "TRVPNKFRYP..."
+      },
+      {
+        "position": 318,
+        "end": 338,
+        "aromatic_count": 7,
+        "sequence": "RVPNKFRYPF..."
+      },
+      {
+        "position": 319,
+        "end": 339,
+        "aromatic_count": 7,
+        "sequence": "VPNKFRYPFY..."
+      },
+      {
+        "position": 320,
+        "end": 340,
+        "aromatic_count": 8,
+        "sequence": "PNKFRYPFYY..."
+      },
+      {
+        "position": 321,
+        "end": 341,
+        "aromatic_count": 8,
+        "sequence": "NKFRYPFYYE..."
+      },
+      {
+        "position": 322,
+        "end": 342,
+        "aromatic_count": 9,
+        "sequence": "KFRYPFYYEM..."
+      },
+      {
+        "position": 323,
+        "end": 343,
+        "aromatic_count": 9,
+        "sequence": "FRYPFYYEMC..."
+      },
+      {
+        "position": 324,
+        "end": 344,
+        "aromatic_count": 8,
+        "sequence": "RYPFYYEMCW..."
+      },
+      {
+        "position": 325,
+        "end": 345,
+        "aromatic_count": 8,
+        "sequence": "YPFYYEMCWY..."
+      },
+      {
+        "position": 326,
+        "end": 346,
+        "aromatic_count": 7,
+        "sequence": "PFYYEMCWYV..."
+      },
+      {
+        "position": 327,
+        "end": 347,
+        "aromatic_count": 7,
+        "sequence": "FYYEMCWYVL..."
+      },
+      {
+        "position": 328,
+        "end": 348,
+        "aromatic_count": 6,
+        "sequence": "YYEMCWYVLE..."
+      },
+      {
+        "position": 329,
+        "end": 349,
+        "aromatic_count": 5,
+        "sequence": "YEMCWYVLER..."
+      },
+      {
+        "position": 330,
+        "end": 350,
+        "aromatic_count": 4,
+        "sequence": "EMCWYVLERY..."
+      },
+      {
+        "position": 331,
+        "end": 351,
+        "aromatic_count": 4,
+        "sequence": "MCWYVLERYV..."
+      },
+      {
+        "position": 332,
+        "end": 352,
+        "aromatic_count": 4,
+        "sequence": "CWYVLERYVY..."
+      },
+      {
+        "position": 333,
+        "end": 353,
+        "aromatic_count": 4,
+        "sequence": "WYVLERYVYC..."
+      },
+      {
+        "position": 334,
+        "end": 354,
+        "aromatic_count": 4,
+        "sequence": "YVLERYVYCI..."
+      },
+      {
+        "position": 882,
+        "end": 902,
+        "aromatic_count": 4,
+        "sequence": "SWAQDGDESW..."
+      },
+      {
+        "position": 883,
+        "end": 903,
+        "aromatic_count": 4,
+        "sequence": "WAQDGDESWM..."
+      },
+      {
+        "position": 884,
+        "end": 904,
+        "aromatic_count": 4,
+        "sequence": "AQDGDESWMQ..."
+      },
+      {
+        "position": 885,
+        "end": 905,
+        "aromatic_count": 4,
+        "sequence": "QDGDESWMQR..."
+      },
+      {
+        "position": 886,
+        "end": 906,
+        "aromatic_count": 4,
+        "sequence": "DGDESWMQRE..."
+      },
+      {
+        "position": 887,
+        "end": 907,
+        "aromatic_count": 4,
+        "sequence": "GDESWMQREV..."
+      },
+      {
+        "position": 888,
+        "end": 908,
+        "aromatic_count": 4,
+        "sequence": "DESWMQREVW..."
+      },
+      {
+        "position": 889,
+        "end": 909,
+        "aromatic_count": 4,
+        "sequence": "ESWMQREVWM..."
+      },
+      {
+        "position": 890,
+        "end": 910,
+        "aromatic_count": 4,
+        "sequence": "SWMQREVWMS..."
+      },
+      {
+        "position": 891,
+        "end": 911,
+        "aromatic_count": 4,
+        "sequence": "WMQREVWMSV..."
+      },
+      {
+        "position": 901,
+        "end": 921,
+        "aromatic_count": 4,
+        "sequence": "FRYLSRRELC..."
+      },
+      {
+        "position": 903,
+        "end": 923,
+        "aromatic_count": 4,
+        "sequence": "YLSRRELCEC..."
+      },
+      {
+        "position": 910,
+        "end": 930,
+        "aromatic_count": 4,
+        "sequence": "CECMRVCKTW..."
+      },
+      {
+        "position": 911,
+        "end": 931,
+        "aromatic_count": 4,
+        "sequence": "ECMRVCKTWY..."
+      },
+      {
+        "position": 912,
+        "end": 932,
+        "aromatic_count": 4,
+        "sequence": "CMRVCKTWYK..."
+      },
+      {
+        "position": 913,
+        "end": 933,
+        "aromatic_count": 4,
+        "sequence": "MRVCKTWYKW..."
+      },
+      {
+        "position": 914,
+        "end": 934,
+        "aromatic_count": 4,
+        "sequence": "RVCKTWYKWC..."
+      },
+      {
+        "position": 915,
+        "end": 935,
+        "aromatic_count": 4,
+        "sequence": "VCKTWYKWCC..."
+      },
+      {
+        "position": 916,
+        "end": 936,
+        "aromatic_count": 4,
+        "sequence": "CKTWYKWCCD..."
+      },
+      {
+        "position": 917,
+        "end": 937,
+        "aromatic_count": 4,
+        "sequence": "KTWYKWCCDK..."
+      },
+      {
+        "position": 918,
+        "end": 938,
+        "aromatic_count": 4,
+        "sequence": "TWYKWCCDKR..."
+      },
+      {
+        "position": 919,
+        "end": 939,
+        "aromatic_count": 4,
+        "sequence": "WYKWCCDKRL..."
+      }
+    ],
+    "nuclear_localization_signals": {
+      "monopartite": [
+        {
+          "position": 517,
+          "sequence": "KRDK"
+        }
+      ],
+      "bipartite": []
+    }
+  }
+}

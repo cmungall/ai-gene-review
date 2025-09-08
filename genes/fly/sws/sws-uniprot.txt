@@ -1,0 +1,407 @@
+ID   SWS_DROME               Reviewed;        1425 AA.
+AC   Q9U969; A8E6M7; Q8IRN7; Q95RE9; Q9W3M0;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   25-MAR-2003, sequence version 2.
+DT   18-JUN-2025, entry version 175.
+DE   RecName: Full=Neuropathy target esterase sws;
+DE   AltName: Full=Swiss cheese;
+DE            Short=DSWS;
+DE            EC=3.1.1.5;
+GN   Name=sws; ORFNames=CG2212;
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7227;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM A), FUNCTION, ALTERNATIVE SPLICING,
+RP   TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, AND MUTAGENESIS OF GLY-648 AND
+RP   GLY-956.
+RX   PubMed=9295388; DOI=10.1523/jneurosci.17-19-07425.1997;
+RA   Kretzschmar D., Hasan G., Sharma S., Heisenberg M., Benzer S.;
+RT   "The swiss cheese mutant causes glial hyperwrapping and brain degeneration
+RT   in Drosophila.";
+RL   J. Neurosci. 17:7425-7432(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley;
+RX   PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X., Brandon R.C.,
+RA   Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D., Wan K.H., Doyle C.,
+RA   Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G., Abril J.F., Agbayani A.,
+RA   An H.-J., Andrews-Pfannkoch C., Baldwin D., Ballew R.M., Basu A.,
+RA   Baxendale J., Bayraktaroglu L., Beasley E.M., Beeson K.Y., Benos P.V.,
+RA   Berman B.P., Bhandari D., Bolshakov S., Borkova D., Botchan M.R., Bouck J.,
+RA   Brokstein P., Brottier P., Burtis K.C., Busam D.A., Butler H., Cadieu E.,
+RA   Center A., Chandra I., Cherry J.M., Cawley S., Dahlke C., Davenport L.B.,
+RA   Davies P., de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I.,
+RA   Dietz S.M., Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C.,
+RA   Dunn P., Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S.,
+RA   Fleischmann W., Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M.,
+RA   Glasser K., Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J., Hostin D.,
+RA   Houston K.A., Howland T.J., Wei M.-H., Ibegwam C., Jalali M., Kalush F.,
+RA   Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A., Kimmel B.E., Kodira C.D.,
+RA   Kraft C.L., Kravitz S., Kulp D., Lai Z., Lasko P., Lei Y., Levitsky A.A.,
+RA   Li J.H., Li Z., Liang Y., Lin X., Liu X., Mattei B., McIntosh T.C.,
+RA   McLeod M.P., McPherson D., Merkulov G., Milshina N.V., Mobarry C.,
+RA   Morris J., Moshrefi A., Mount S.M., Moy M., Murphy B., Murphy L.,
+RA   Muzny D.M., Nelson D.L., Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R.,
+RA   Pacleb J.M., Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V.,
+RA   Reese M.G., Reinert K., Remington K., Saunders R.D.C., Scheeler F.,
+RA   Shen H., Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.J.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E., Svirskas R.,
+RA   Tector C., Turner R., Venter E., Wang A.H., Wang X., Wang Z.-Y.,
+RA   Wassarman D.A., Weinstock G.M., Weissenbach J., Williams S.M., Woodage T.,
+RA   Worley K.C., Wu D., Yang S., Yao Q.A., Ye J., Yeh R.-F., Zaveri J.S.,
+RA   Zhan M., Zhang G., Zhao Q., Zheng L., Zheng X.H., Zhong F.N., Zhong W.,
+RA   Zhou X., Zhu S.C., Zhu X., Smith H.O., Gibbs R.A., Myers E.W., Rubin G.M.,
+RA   Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [3]
+RP   GENOME REANNOTATION, AND ALTERNATIVE SPLICING.
+RC   STRAIN=Berkeley;
+RX   PubMed=12537572; DOI=10.1186/gb-2002-3-12-research0083;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q., Stapleton M.,
+RA   Yamada C., Ashburner M., Gelbart W.M., Rubin G.M., Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a systematic
+RT   review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM C).
+RC   STRAIN=Berkeley; TISSUE=Head;
+RA   Stapleton M., Carlson J.W., Frise E., Kapadia B., Park S., Wan K.H., Yu C.,
+RA   Celniker S.E.;
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1052-1425 (ISOFORM A).
+RC   STRAIN=Berkeley; TISSUE=Embryo;
+RX   PubMed=12537569; DOI=10.1186/gb-2002-3-12-research0080;
+RA   Stapleton M., Carlson J.W., Brokstein P., Yu C., Champe M., George R.A.,
+RA   Guarin H., Kronmiller B., Pacleb J.M., Park S., Wan K.H., Rubin G.M.,
+RA   Celniker S.E.;
+RT   "A Drosophila full-length cDNA resource.";
+RL   Genome Biol. 3:RESEARCH0080.1-RESEARCH0080.8(2002).
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND
+RP   MUTAGENESIS OF SER-985.
+RX   PubMed=15772346; DOI=10.1523/jneurosci.5097-04.2005;
+RA   Muehlig-Versen M., da Cruz A.B., Tschaepe J.-A., Moser M., Buettner R.,
+RA   Athenstaedt K., Glynn P., Kretzschmar D.;
+RT   "Loss of swiss cheese/neuropathy target esterase activity causes disruption
+RT   of phosphatidylcholine homeostasis and neuronal and glial death in adult
+RT   Drosophila.";
+RL   J. Neurosci. 25:2865-2873(2005).
+RN   [7]
+RP   FUNCTION, INTERACTION WITH PKA-C3, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, DISRUPTION PHENOTYPE, AND MUTAGENESIS OF ARG-133.
+RX   PubMed=18945896; DOI=10.1523/jneurosci.3015-08.2008;
+RA   Bettencourt da Cruz A., Wentzell J., Kretzschmar D.;
+RT   "Swiss cheese, a protein involved in progressive neurodegeneration, acts as
+RT   a noncanonical regulatory subunit for PKA-C3.";
+RL   J. Neurosci. 28:10885-10892(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-444; SER-453 AND SER-1160,
+RP   AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Embryo;
+RX   PubMed=18327897; DOI=10.1021/pr700696a;
+RA   Zhai B., Villen J., Beausoleil S.A., Mintseris J., Gygi S.P.;
+RT   "Phosphoproteome analysis of Drosophila melanogaster embryos.";
+RL   J. Proteome Res. 7:1675-1682(2008).
+CC   -!- FUNCTION: Phospholipase B that deacylates intracellular
+CC       phosphatidylcholine (PtdCho), generating glycerophosphocholine
+CC       (GroPtdCho). This deacylation occurs at both sn-2 and sn-1 positions of
+CC       PtdCho. Its specific chemical modification by certain organophosphorus
+CC       (OP) compounds leads to distal axonopathy. Plays a role in the
+CC       signaling mechanism between neurons and glia that regulates glia
+CC       wrapping during development of the adult brain. Essential for membrane
+CC       lipid homeostasis and cell survival in both neurons and glia of the
+CC       adult brain. {ECO:0000269|PubMed:15772346, ECO:0000269|PubMed:18945896,
+CC       ECO:0000269|PubMed:9295388}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = sn-glycerol 3-
+CC         phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15177,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:58168; EC=3.1.1.5;
+CC         Evidence={ECO:0000269|PubMed:15772346};
+CC   -!- SUBUNIT: Interacts with Pka-C3; interaction inhibits the catalytic
+CC       function of Pka-C3 and the esterase activity of sws.
+CC       {ECO:0000269|PubMed:18945896}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:15772346, ECO:0000269|PubMed:18945896}; Single-pass
+CC       type I membrane protein {ECO:0000269|PubMed:15772346,
+CC       ECO:0000269|PubMed:18945896}. Note=Sws tethers Pka-C3 to the membrane.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=A; Synonyms=Long;
+CC         IsoId=Q9U969-1; Sequence=Displayed;
+CC       Name=B; Synonyms=Short;
+CC         IsoId=Q9U969-2; Sequence=VSP_038398, VSP_038399, VSP_038400;
+CC       Name=C;
+CC         IsoId=Q9U969-3; Sequence=VSP_038399, VSP_038400;
+CC   -!- TISSUE SPECIFICITY: Isoform A and isoform B are expressed in the entire
+CC       brain cortex; cortical cell bodies of adult brain. Sws and Pka-C3 are
+CC       colocalized in all neurons. {ECO:0000269|PubMed:15772346,
+CC       ECO:0000269|PubMed:18945896, ECO:0000269|PubMed:9295388}.
+CC   -!- DEVELOPMENTAL STAGE: Isoform A is expressed in all developmental stages
+CC       with highest levels in young embryos and adults. Isoform B is detected
+CC       only in adult head. {ECO:0000269|PubMed:9295388}.
+CC   -!- DISRUPTION PHENOTYPE: Progressive degeneration of the adult nervous
+CC       system, associated with apoptotic cell death, glial hyperwrapping, and
+CC       neuronal apoptosis. Also, vacuolization in the neuropil.
+CC       {ECO:0000269|PubMed:18945896}.
+CC   -!- SIMILARITY: Belongs to the NTE family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAL28979.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z97187; CAB51772.1; -; mRNA.
+DR   EMBL; AE014298; AAF46305.3; -; Genomic_DNA.
+DR   EMBL; AE014298; AAN09223.1; -; Genomic_DNA.
+DR   EMBL; BT030819; ABV82201.1; -; mRNA.
+DR   EMBL; AY061431; AAL28979.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_511075.3; NM_078520.3. [Q9U969-1]
+DR   RefSeq; NP_727225.1; NM_167141.3. [Q9U969-2]
+DR   AlphaFoldDB; Q9U969; -.
+DR   SMR; Q9U969; -.
+DR   BioGRID; 58188; 8.
+DR   FunCoup; Q9U969; 518.
+DR   IntAct; Q9U969; 3.
+DR   STRING; 7227.FBpp0071077; -.
+DR   iPTMnet; Q9U969; -.
+DR   PaxDb; 7227-FBpp0071077; -.
+DR   DNASU; 31716; -.
+DR   EnsemblMetazoa; FBtr0071125; FBpp0071077; FBgn0003656. [Q9U969-1]
+DR   EnsemblMetazoa; FBtr0071126; FBpp0071078; FBgn0003656. [Q9U969-2]
+DR   GeneID; 31716; -.
+DR   KEGG; dme:Dmel_CG2212; -.
+DR   UCSC; CG2212-RB; d. melanogaster.
+DR   AGR; FB:FBgn0003656; -.
+DR   CTD; 31716; -.
+DR   FlyBase; FBgn0003656; sws.
+DR   VEuPathDB; VectorBase:FBgn0003656; -.
+DR   eggNOG; KOG2968; Eukaryota.
+DR   GeneTree; ENSGT00940000168388; -.
+DR   HOGENOM; CLU_000960_1_0_1; -.
+DR   InParanoid; Q9U969; -.
+DR   OMA; GQQEDRH; -.
+DR   OrthoDB; 421051at2759; -.
+DR   PhylomeDB; Q9U969; -.
+DR   Reactome; R-DME-6814848; Glycerophospholipid catabolism.
+DR   BioGRID-ORCS; 31716; 0 hits in 3 CRISPR screens.
+DR   GenomeRNAi; 31716; -.
+DR   PRO; PR:Q9U969; -.
+DR   Proteomes; UP000000803; Chromosome X.
+DR   Bgee; FBgn0003656; Expressed in dorsal appendage forming follicle cell in ovary and 261 other cell types or tissues.
+DR   ExpressionAtlas; Q9U969; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:FlyBase.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:FlyBase.
+DR   GO; GO:0004622; F:lysophospholipase activity; IDA:UniProtKB.
+DR   GO; GO:0034236; F:protein kinase A catalytic subunit binding; IPI:FlyBase.
+DR   GO; GO:0007272; P:ensheathment of neurons; IMP:FlyBase.
+DR   GO; GO:0034349; P:glial cell apoptotic process; IMP:UniProtKB.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006643; P:membrane lipid metabolic process; IDA:FlyBase.
+DR   GO; GO:0061024; P:membrane organization; IDA:FlyBase.
+DR   GO; GO:0051402; P:neuron apoptotic process; IMP:FlyBase.
+DR   GO; GO:0046470; P:phosphatidylcholine metabolic process; IDA:FlyBase.
+DR   GO; GO:0006644; P:phospholipid metabolic process; IMP:FlyBase.
+DR   GO; GO:0045494; P:photoreceptor cell maintenance; IMP:FlyBase.
+DR   GO; GO:0072657; P:protein localization to membrane; IMP:FlyBase.
+DR   GO; GO:0007608; P:sensory perception of smell; IMP:FlyBase.
+DR   CDD; cd00038; CAP_ED; 3.
+DR   CDD; cd07225; Pat_PNPLA6_PNPLA7; 1.
+DR   FunFam; 2.60.120.10:FF:000010; neuropathy target esterase isoform X1; 1.
+DR   FunFam; 3.40.1090.10:FF:000001; neuropathy target esterase isoform X2; 1.
+DR   FunFam; 2.60.120.10:FF:000122; Neuropathy target esterase sws; 1.
+DR   FunFam; 2.60.120.10:FF:000135; Neuropathy target esterase sws; 1.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 3.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR000595; cNMP-bd_dom.
+DR   InterPro; IPR018490; cNMP-bd_dom_sf.
+DR   InterPro; IPR001423; LysoPLipase_patatin_CS.
+DR   InterPro; IPR050301; NTE.
+DR   InterPro; IPR056556; NTE1_P-loop_dom.
+DR   InterPro; IPR002641; PNPLA_dom.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   PANTHER; PTHR14226:SF29; NEUROPATHY TARGET ESTERASE SWS; 1.
+DR   PANTHER; PTHR14226; NEUROPATHY TARGET ESTERASE/SWISS CHEESE D.MELANOGASTER; 1.
+DR   Pfam; PF00027; cNMP_binding; 3.
+DR   Pfam; PF24179; NTE_Ploop; 1.
+DR   Pfam; PF01734; Patatin; 1.
+DR   SMART; SM00100; cNMP; 3.
+DR   SUPFAM; SSF51206; cAMP-binding domain-like; 3.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS50042; CNMP_BINDING_3; 3.
+DR   PROSITE; PS51635; PNPLA; 1.
+DR   PROSITE; PS01237; UPF0028; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Developmental protein; Endoplasmic reticulum;
+KW   Hydrolase; Lipid degradation; Lipid metabolism; Membrane; Neurogenesis;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..1425
+FT                   /note="Neuropathy target esterase sws"
+FT                   /id="PRO_0000172527"
+FT   TOPO_DOM        1..34
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        35..55
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        56..1425
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          952..1118
+FT                   /note="PNPLA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   REGION          332..410
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1330..1425
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           956..961
+FT                   /note="GXGXXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           983..987
+FT                   /note="GXSXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           1105..1107
+FT                   /note="DGA/G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   COMPBIAS        332..348
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        357..366
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        367..381
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1337..1347
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1348..1358
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1380..1403
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1404..1416
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        985
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        1105
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   BINDING         174..301
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="1"
+FT   BINDING         482..609
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="2"
+FT   BINDING         598..727
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="3"
+FT   MOD_RES         444
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18327897"
+FT   MOD_RES         453
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18327897"
+FT   MOD_RES         1160
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18327897"
+FT   VAR_SEQ         1..1084
+FT                   /note="Missing (in isoform B)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_038398"
+FT   VAR_SEQ         1087..1098
+FT                   /note="LSGYMPPLCDPK -> IAGVFPPFCDYR (in isoform B and
+FT                   isoform C)"
+FT                   /evidence="ECO:0000303|Ref.4"
+FT                   /id="VSP_038399"
+FT   VAR_SEQ         1107..1112
+FT                   /note="GYVNNL -> CYTNNV (in isoform B and isoform C)"
+FT                   /evidence="ECO:0000303|Ref.4"
+FT                   /id="VSP_038400"
+FT   MUTAGEN         133
+FT                   /note="R->A: Has no effect on nervous system function but
+FT                   reduces binding to Pka-C3."
+FT                   /evidence="ECO:0000269|PubMed:18945896"
+FT   MUTAGEN         648
+FT                   /note="G->R: In allele sws-5; age-dependent
+FT                   neurodegeneration."
+FT                   /evidence="ECO:0000269|PubMed:9295388"
+FT   MUTAGEN         956
+FT                   /note="G->D: In allele sws-4; age-dependent
+FT                   neurodegeneration."
+FT                   /evidence="ECO:0000269|PubMed:9295388"
+FT   MUTAGEN         985
+FT                   /note="S->D: Loss of enzymatic activity."
+FT                   /evidence="ECO:0000269|PubMed:15772346"
+FT   CONFLICT        18
+FT                   /note="I -> T (in Ref. 1; CAB51772)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        314
+FT                   /note="L -> F (in Ref. 4; ABV82201)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        452
+FT                   /note="G -> P (in Ref. 1; CAB51772)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        785
+FT                   /note="R -> H (in Ref. 1; CAB51772)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1076
+FT                   /note="S -> H (in Ref. 4; ABV82201)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1081..1083
+FT                   /note="VRS -> CRA (in Ref. 4; ABV82201)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1377
+FT                   /note="T -> N (in Ref. 1; CAB51772)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1425 AA;  160573 MW;  A7FEE533B1C2B628 CRC64;
+     MDVLEMLRAS ASGSYNTIFS DAWCQYVSKQ ITATVYMYFA LVMMSLLFIA WFLYFKRMAR
+     LRLRDEIARS ISTVTNSSGD MRGLRFRKRD KMLFYGRRML RKMKNVSGQM YSSGKGYKRR
+     AVMRFARRIL QLRRDNMPLE MRTVEPPAEY LEETIEGSDR VPPDALYMLQ SIRIFGHFEK
+     PVFLRLCKHT QLLELMAGDY LFKITDPDDS VYIVQSGMIN VYISNADGST LSLKTVRKGE
+     SVTSLLSFID VLSGNPSYYK TVTAKAIEKS VVIRLPMQAF EEVFQDNPDV MIRVIQVIMI
+     RLQRVLFTAL RNYLGLNAEL VQNHMRYKSV STMSGPINSQ TSQSSRQAPN GPPMVISQMN
+     LMQSAVSGTG SSGVSVTVTR PPSSPSRHSR EEHTLSDPNP NPDGSFHGTT NLFTEVHGDA
+     PNADLFHQQQ QQHSVGNLST RRSSITLMAP DGSHSCLQTP GVTTSIDMRL VQSSAVDSLR
+     KELGLSEEDS HIIEPFVELR ELEPNVTLIT EGNADDVCVW FVMTGTLAVY QSNQDATRAK
+     QDKSDMLIHF VHPGEIVGGL AMLTGEASAY TIRSRSITRI AFIRRAAIYQ IMRQRPRIVL
+     DLGNGVVRRL SPLVRQCDYA LDWIFLESGR AVYRQDESSD STYIVLSGRM RSVITHPGGK
+     KEIVGEYGKG DLVGIVEMIT ETSRTTTVMA VRDSELAKLP EGLFNAIKLR YPIVVTKLIS
+     FLSHRFLGSM QTRSGSGAPG APVEANPVTH KYSTVALVPI TDEVPMTPFT YELYHSLCAI
+     GPVLRLTSDV VRKQLGSNIF EAANEYRLTS WLAQQEDRNI ITLYQCDSSL SAWTQRCMRQ
+     ADVILIVGLG DRSHLVGKFE REIDRLAMRT QKELVLLYPE ASNAKPANTL SWLNARPWVT
+     KHHHVLCVKR IFTRKSQYRI NDLYSRVLLS EPNMHSDFSR LARWLTGNSI GLVLGGGGAR
+     GAAHIGMLKA IQEAGIPVDM VGGVSIGALM GALWCSERNI TTVTQKAREW SKKMTKWFLQ
+     LLDLTYPITS MFSGREFNKT IHDTFGDVSI EDLWIPYFTL TTDITASCHR IHTNGSLWRY
+     VRSSMSLSGY MPPLCDPKDG HLLLDGGYVN NLPADVMHNL GAAHIIAIDV GSQDDTDLTN
+     YGDDLSGWWL LYKKWNPFTS PVKVPDLPDI QSRLAYVSCV RQLEEVKNSD YCEYIRPPID
+     KYKTLAFGSF DEIRDVGYVF GKNYFESMAK AGRLGRFNQW FNKEPPKRVN HASLNEYTFI
+     DLAQIVCRLP ETYAVNTAEL FSEDEDCDGY ISEPTTLNTD RRRIQVSRAG NSLSFSETEM
+     DSDVELDLKL ERKTDKSTQS SPPSNSRSDM RGKEEARHMS NWHWGVKHKD ETGSGATEAT
+     KTQTGQEQEL QQEQQDQGAT AEQLVDKDKE ENKENRSSPN NETKN
+//

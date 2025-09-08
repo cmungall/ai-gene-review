@@ -281,17 +281,28 @@ def test_validate_extra_in_yaml(sample_goa_tsv, sample_yaml_extra):
 
 
 def test_validate_label_mismatch(sample_goa_tsv, sample_yaml_label_mismatch):
-    """Test validation when YAML has mismatched labels."""
+    """Test validation when YAML has mismatched labels.
+    
+    Note: Label validation is now handled by term_validator.py against the ontology,
+    not by GOA validator. GOA files may use synonyms instead of primary labels.
+    This test verifies that annotations missing from YAML are still properly detected.
+    """
     validator = GOAValidator()
     result = validator.validate_against_goa(sample_yaml_label_mismatch, sample_goa_tsv)
 
-    assert not result.is_valid
-    assert len(result.mismatched_labels) == 1
-
-    go_id, yaml_label, goa_label = result.mismatched_labels[0]
-    assert go_id == "GO:0005515"
-    assert yaml_label == "wrong label"
-    assert goa_label == "protein binding"
+    # The YAML only has 2 annotations while GOA has 5, so 3 are missing
+    # This is the critical check - ensuring all GOA annotations are covered
+    assert not result.is_valid  # Should be invalid due to missing annotations
+    assert len(result.missing_in_yaml) == 3  # GO:0005856, GO:0031514, GO:0042995 are missing
+    
+    # Verify the specific missing annotations
+    missing_go_ids = {ann.go_id for ann in result.missing_in_yaml}
+    assert "GO:0005856" in missing_go_ids  # cytoskeleton
+    assert "GO:0031514" in missing_go_ids  # motile cilium  
+    assert "GO:0042995" in missing_go_ids  # cell projection
+    
+    # Label mismatches are not validated by GOA validator anymore
+    assert len(result.mismatched_labels) == 0  # Labels are validated against ontology, not GOA
 
     # Clean up
     sample_goa_tsv.unlink()
@@ -516,6 +527,210 @@ UniProtKB	Q12345	TEST		GO:0009999	test location	CC	ECO:0007322	IEA	PMID:99999		N
         # Clean up
         goa_path.unlink()
         yaml_path.unlink()
+
+
+def test_new_action_validation():
+    """Test validation of annotations with action=NEW."""
+    validator = GOAValidator()
+    
+    # Create GOA file with existing annotations
+    goa_content = """GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q12345	TEST		GO:0005515	protein binding	MF	ECO:0000353	IPI	PMID:12345		NCBITaxon:9606	Homo sapiens	UniProt	Test protein	20180515
+UniProtKB	Q12345	TEST		GO:0005737	cytoplasm	CC	ECO:0000250	ISS	PMID:67890		NCBITaxon:9606	Homo sapiens	UniProt	Test protein	20180515"""
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".tsv", delete=False) as goa_file:
+        goa_file.write(goa_content)
+        goa_path = Path(goa_file.name)
+    
+    # Test 1: NEW annotation that does NOT exist in GOA (valid)
+    yaml_data = {
+        "id": "Q12345",
+        "gene_symbol": "TEST",
+        "existing_annotations": [
+            {
+                "term": {"id": "GO:0005515", "label": "protein binding"},
+                "evidence_type": "IPI",
+                "original_reference_id": "PMID:12345",
+                "review": {"summary": "Existing annotation", "action": "ACCEPT"},
+            },
+            {
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
+                "evidence_type": "ISS",
+                "original_reference_id": "PMID:67890",
+                "review": {"summary": "Existing annotation", "action": "ACCEPT"},
+            },
+            {
+                "term": {"id": "GO:0099999", "label": "new function"},
+                "evidence_type": "IMP",
+                "original_reference_id": "PMID:99999",
+                "review": {"summary": "Proposed new annotation", "action": "NEW"},
+            },
+        ],
+    }
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as yaml_file:
+        yaml.dump(yaml_data, yaml_file)
+        yaml_path = Path(yaml_file.name)
+    
+    # Should be valid - NEW annotation doesn't exist in GOA
+    result = validator.validate_against_goa(yaml_path, goa_path)
+    assert result.is_valid, f"NEW annotation for non-existing GO term should be valid: {result.error_message}"
+    
+    # Clean up
+    yaml_path.unlink()
+    
+    # Test 2: NEW annotation that DOES exist in GOA (invalid)
+    yaml_data_invalid = {
+        "id": "Q12345",
+        "gene_symbol": "TEST",
+        "existing_annotations": [
+            {
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
+                "evidence_type": "ISS",
+                "original_reference_id": "PMID:67890",
+                "review": {"summary": "This already exists", "action": "NEW"},
+            },
+        ],
+    }
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as yaml_file:
+        yaml.dump(yaml_data_invalid, yaml_file)
+        yaml_path = Path(yaml_file.name)
+    
+    # Should be invalid - NEW annotation exists in GOA
+    result = validator.validate_against_goa(yaml_path, goa_path)
+    assert not result.is_valid, "NEW annotation for existing GO term should be invalid"
+    assert "action=NEW exists in GOA" in result.error_message
+    
+    # Clean up
+    yaml_path.unlink()
+    goa_path.unlink()
+
+
+def test_new_action_exclusion_from_validation():
+    """Test that NEW annotations are properly excluded from GOA completeness checks."""
+    validator = GOAValidator()
+    
+    # Create GOA file with annotations
+    goa_content = """GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q12345	TEST		GO:0005515	protein binding	MF	ECO:0000353	IPI	PMID:12345		NCBITaxon:9606	Homo sapiens	UniProt	Test protein	20180515
+UniProtKB	Q12345	TEST		GO:0005737	cytoplasm	CC	ECO:0000250	ISS	PMID:67890		NCBITaxon:9606	Homo sapiens	UniProt	Test protein	20180515"""
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".tsv", delete=False) as goa_file:
+        goa_file.write(goa_content)
+        goa_path = Path(goa_file.name)
+    
+    # YAML has all GOA annotations plus a NEW one
+    yaml_data = {
+        "id": "Q12345",
+        "gene_symbol": "TEST",
+        "existing_annotations": [
+            {
+                "term": {"id": "GO:0005515", "label": "protein binding"},
+                "evidence_type": "IPI",
+                "original_reference_id": "PMID:12345",
+                "review": {"summary": "Existing", "action": "ACCEPT"},
+            },
+            {
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
+                "evidence_type": "ISS",
+                "original_reference_id": "PMID:67890",
+                "review": {"summary": "Existing", "action": "ACCEPT"},
+            },
+            {
+                "term": {"id": "GO:0099999", "label": "new function"},
+                "evidence_type": "IMP",
+                "original_reference_id": "PMID:99999",
+                "review": {"summary": "This is a new annotation", "action": "NEW"},
+            },
+        ],
+    }
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as yaml_file:
+        yaml.dump(yaml_data, yaml_file)
+        yaml_path = Path(yaml_file.name)
+    
+    # Should be valid - all GOA annotations are present, NEW annotation is ignored
+    result = validator.validate_against_goa(yaml_path, goa_path)
+    assert result.is_valid, f"Should be valid when all GOA annotations are present and NEW is properly excluded: {result.error_message}"
+    assert len(result.missing_in_yaml) == 0, "No GOA annotations should be missing"
+    assert len(result.missing_in_goa) == 0, "NEW annotations should not be reported as missing in GOA"
+    
+    # Clean up
+    yaml_path.unlink()
+    
+    # Now test with a NEW annotation that incorrectly matches GOA
+    yaml_data_invalid = {
+        "id": "Q12345",
+        "gene_symbol": "TEST",
+        "existing_annotations": [
+            {
+                "term": {"id": "GO:0005515", "label": "protein binding"},
+                "evidence_type": "IPI",
+                "original_reference_id": "PMID:12345",
+                "review": {"summary": "Existing", "action": "ACCEPT"},
+            },
+            {
+                "term": {"id": "GO:0005737", "label": "cytoplasm"},
+                "evidence_type": "ISS",
+                "original_reference_id": "PMID:67890",
+                "review": {"summary": "Should not be NEW", "action": "NEW"},  # This is wrong!
+            },
+        ],
+    }
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as yaml_file:
+        yaml.dump(yaml_data_invalid, yaml_file)
+        yaml_path = Path(yaml_file.name)
+    
+    # Should be invalid - NEW annotation exists in GOA
+    result = validator.validate_against_goa(yaml_path, goa_path)
+    assert not result.is_valid, "Should be invalid when NEW annotation exists in GOA"
+    assert "action=NEW exists in GOA" in str(result.error_message)
+    
+    # Clean up
+    yaml_path.unlink()
+    goa_path.unlink()
+
+
+def test_new_action_legacy_mode():
+    """Test validation of NEW annotations in legacy mode."""
+    validator = GOAValidator(strict_tuple_matching=False)
+    
+    # Create GOA file
+    goa_content = """GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	Q12345	TEST		GO:0005515	protein binding	MF	ECO:0000353	IPI	PMID:12345		NCBITaxon:9606	Homo sapiens	UniProt	Test protein	20180515"""
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".tsv", delete=False) as goa_file:
+        goa_file.write(goa_content)
+        goa_path = Path(goa_file.name)
+    
+    # Test with NEW annotation for existing GO ID
+    yaml_data = {
+        "id": "Q12345",
+        "gene_symbol": "TEST",
+        "existing_annotations": [
+            {
+                "term": {"id": "GO:0005515", "label": "protein binding"},
+                "evidence_type": "IMP",  # Different evidence type
+                "original_reference_id": "PMID:99999",  # Different reference
+                "review": {"summary": "Different evidence", "action": "NEW"},
+            },
+        ],
+    }
+    
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as yaml_file:
+        yaml.dump(yaml_data, yaml_file)
+        yaml_path = Path(yaml_file.name)
+    
+    # Should be invalid even in legacy mode - NEW annotation with same GO ID exists in GOA
+    result = validator.validate_against_goa(yaml_path, goa_path)
+    assert not result.is_valid, "NEW annotation with existing GO ID should be invalid even in legacy mode"
+    assert "action=NEW exists in GOA" in result.error_message
+    
+    # Clean up
+    yaml_path.unlink()
+    goa_path.unlink()
 
 
 def test_seed_creates_new_file():

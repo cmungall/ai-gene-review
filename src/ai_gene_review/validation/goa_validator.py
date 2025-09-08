@@ -230,6 +230,25 @@ class GOAValidator:
             if not isinstance(yaml_ann, dict):
                 continue
 
+            # Check if this annotation has action=NEW
+            review = yaml_ann.get("review", {})
+            if isinstance(review, dict) and review.get("action") == "NEW":
+                # NEW annotations should NOT exist in GOA
+                term = yaml_ann.get("term", {})
+                if isinstance(term, dict):
+                    go_id = term.get("id", "")
+                    evidence_type = yaml_ann.get("evidence_type", "")
+                    original_ref = yaml_ann.get("original_reference_id", "")
+                    
+                    # Check if this annotation exists in GOA
+                    yaml_tuple = (go_id, evidence_type, original_ref)
+                    if yaml_tuple in goa_tuples:
+                        # This is an error - NEW annotation should not exist in GOA
+                        result.is_valid = False
+                        result.error_message = f"Annotation with action=NEW exists in GOA: {go_id} ({evidence_type}, {original_ref})"
+                # Skip further validation for NEW annotations
+                continue
+
             # Extract the tuple from YAML annotation
             term = yaml_ann.get("term", {})
             if not isinstance(term, dict):
@@ -277,20 +296,20 @@ class GOAValidator:
                         # This is a reference mismatch - add to result if we track it
                         pass  # We could add a mismatched_references list if needed
 
-            # Also check label consistency
-            if yaml_tuple in goa_tuples:
-                goa_ann = goa_by_tuple[yaml_tuple]
-                yaml_label = term.get("label", "")
-                if yaml_label and goa_ann.go_term and yaml_label != goa_ann.go_term:
-                    result.mismatched_labels.append(
-                        (go_id, yaml_label, goa_ann.go_term)
-                    )
-                    result.is_valid = False
+            # Skip label consistency check - we validate against ontology, not GOA
+            # GOA files may use synonyms instead of primary labels
+            # Label validation is handled by term_validator.py against the ontology
 
-        # Check for annotations in GOA but not in YAML (optional - for completeness)
+        # Check for annotations in GOA but not in YAML
+        # Build set of YAML annotations, excluding NEW annotations (which shouldn't be in GOA)
         yaml_tuples = set()
         for yaml_ann in yaml_annotations:
             if isinstance(yaml_ann, dict):
+                # Skip NEW annotations - they should NOT be in GOA
+                review = yaml_ann.get("review", {})
+                if isinstance(review, dict) and review.get("action") == "NEW":
+                    continue
+                    
                 term = yaml_ann.get("term", {})
                 if isinstance(term, dict):
                     go_id = term.get("id", "")
@@ -303,9 +322,8 @@ class GOAValidator:
             if goa_tuple not in yaml_tuples:
                 goa_ann = goa_by_tuple[goa_tuple]
                 result.missing_in_yaml.append(goa_ann)
-                # For strict mode, we might want to fail here too
-                if self.strict_mode:
-                    result.is_valid = False
+                # Missing GOA annotations in YAML is always a validation failure
+                result.is_valid = False
 
         return result
 
@@ -327,6 +345,20 @@ class GOAValidator:
         yaml_by_go_id: Dict[str, List[Dict]] = {}
         for yaml_ann in yaml_annotations:
             if isinstance(yaml_ann, dict) and "term" in yaml_ann:
+                # Check if this annotation has action=NEW
+                review = yaml_ann.get("review", {})
+                if isinstance(review, dict) and review.get("action") == "NEW":
+                    # NEW annotations should NOT exist in GOA
+                    term = yaml_ann["term"]
+                    if isinstance(term, dict) and "id" in term:
+                        go_id = term["id"]
+                        if go_id in goa_by_go_id:
+                            # This is an error - NEW annotation should not exist in GOA
+                            result.is_valid = False
+                            result.error_message = f"Annotation with action=NEW exists in GOA: {go_id}"
+                    # Skip adding NEW annotations to yaml_by_go_id
+                    continue
+                    
                 term = yaml_ann["term"]
                 if isinstance(term, dict) and "id" in term:
                     go_id = term["id"]
@@ -354,16 +386,10 @@ class GOAValidator:
                 goa_anns = goa_by_go_id[go_id]
 
                 for yaml_ann in yaml_anns:
-                    # Check label mismatch
-                    yaml_label = yaml_ann.get("term", {}).get("label", "")
-                    goa_labels = {ann.go_term for ann in goa_anns}
-
-                    if yaml_label and goa_labels and yaml_label not in goa_labels:
-                        # Label mismatch
-                        result.mismatched_labels.append(
-                            (go_id, yaml_label, list(goa_labels)[0])
-                        )
-                        result.is_valid = False
+                    # Skip label mismatch check - we validate against ontology, not GOA
+                    # GOA files may use synonyms instead of primary labels
+                    # Label validation is handled by term_validator.py against the ontology
+                    pass
 
                     # Check evidence type mismatch
                     yaml_evidence = yaml_ann.get("evidence_type", "")
@@ -575,7 +601,7 @@ class GOAValidator:
         # Import publication fetcher (only if we need it)
         if pmids_to_add and fetch_titles:
             from ai_gene_review.etl.publication import (
-                fetch_pubmed_data,
+                cache_publication,
                 get_cached_title,
             )
 
@@ -601,14 +627,16 @@ class GOAValidator:
                             if cached_title:
                                 title = cached_title
                             else:
-                                # Fetch full publication and cache it
-                                pub = fetch_pubmed_data(
-                                    pmid_num, use_cache=True, cache_dir=cache_dir
-                                )
-                                if pub and pub.title:
-                                    title = pub.title
-                        except Exception:
+                                # Cache the full publication to publications/PMID_*.md
+                                # This is the same as what fetch-gene does
+                                if cache_publication(pmid_num, cache_dir):
+                                    # Try to get the title from the newly cached file
+                                    cached_title = get_cached_title(pmid_num, cache_dir)
+                                    if cached_title:
+                                        title = cached_title
+                        except Exception as e:
                             # If fetch fails, keep the TODO placeholder
+                            print(f"Error fetching {pmid}: {e}")
                             pass
                     elif pmid.startswith("GO_REF:"):
                         # Fetch GO_REF title from GO site

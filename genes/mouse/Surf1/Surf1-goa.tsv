@@ -1,0 +1,15 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	GO ASPECT	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	TAXON NAME	ASSIGNED BY	GENE NAME	DATE
+UniProtKB	P09925	Surf1	involved_in	GO:0033617	mitochondrial respiratory chain complex IV assembly	biological_process	ECO:0000318	IBA	GO_REF:0000033	FB:FBgn0029117|PANTHER:PTN000603741|SGD:S000003344|UniProtKB:Q15526	10090	Mus musculus	GO_Central	Surfeit locus protein 1	20250412
+UniProtKB	P09925	Surf1	is_active_in	GO:0005739	mitochondrion	cellular_component	ECO:0000318	IBA	GO_REF:0000033	PANTHER:PTN000603741|PomBase:SPBC1215.01|SGD:S000003344	10090	Mus musculus	GO_Central	Surfeit locus protein 1	20241120
+UniProtKB	P09925	Surf1	involved_in	GO:1902600	proton transmembrane transport	biological_process	ECO:0000364	IEA	GO_REF:0000108	GO:0004129	10090	Mus musculus	GOC	Surfeit locus protein 1	20250902
+UniProtKB	P09925	Surf1	located_in	GO:0016020	membrane	cellular_component	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR002994	10090	Mus musculus	InterPro	Surfeit locus protein 1	20250901
+UniProtKB	P09925	Surf1	located_in	GO:0031966	mitochondrial membrane	cellular_component	ECO:0007322	IEA	GO_REF:0000044	UniProtKB-SubCell:SL-0171	10090	Mus musculus	UniProt	Surfeit locus protein 1	20250901
+UniProtKB	P09925	Surf1	involved_in	GO:0033617	mitochondrial respiratory chain complex IV assembly	biological_process	ECO:0000266	ISO	GO_REF:0000119	UniProtKB:Q15526	10090	Mus musculus	GO_Central	Surfeit locus protein 1	20250828
+UniProtKB	P09925	Surf1	involved_in	GO:0033617	mitochondrial respiratory chain complex IV assembly	biological_process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q15526|ensembl:ENSP00000361042	10090	Mus musculus	Ensembl	Surfeit locus protein 1	20250527
+UniProtKB	P09925	Surf1	enables	GO:0004129	cytochrome-c oxidase activity	molecular_function	ECO:0000315	IMP	PMID:23838831		10090	Mus musculus	UniProt	Surfeit locus protein 1	20200204
+UniProtKB	P09925	Surf1	involved_in	GO:0033617	mitochondrial respiratory chain complex IV assembly	biological_process	ECO:0000250	ISS	GO_REF:0000024	UniProtKB:Q15526	10090	Mus musculus	UniProt	Surfeit locus protein 1	20160613
+UniProtKB	P09925	Surf1	located_in	GO:0005739	mitochondrion	cellular_component	ECO:0007005	HDA	PMID:18614015		10090	Mus musculus	MGI	Surfeit locus protein 1	20090923
+UniProtKB	P09925	Surf1	located_in	GO:0005739	mitochondrion	cellular_component	ECO:0007005	HDA	PMID:14651853		10090	Mus musculus	MGI	Surfeit locus protein 1	20071207
+UniProtKB	P09925	Surf1	located_in	GO:0005739	mitochondrion	cellular_component	ECO:0007005	HDA	PMID:14651853		10090	Mus musculus	MGI	Surfeit locus protein 1	20071207
+UniProtKB	P09925	Surf1	located_in	GO:0005739	mitochondrion	cellular_component	ECO:0007005	HDA	PMID:14651853		10090	Mus musculus	MGI	Surfeit locus protein 1	20071207
+UniProtKB	P09925	Surf1	enables	GO:0004129	cytochrome-c oxidase activity	molecular_function	ECO:0000315	IMP	PMID:12566387	MGI:MGI:2450930	10090	Mus musculus	MGI	Surfeit locus protein 1	20030321

@@ -130,9 +130,12 @@ references:
   findings:
   - statement: Function annotation states involvement in fusion of retrograde transport
       vesicles from endocytic compartment with Golgi complex
+    supporting_text: 'FUNCTION: May be involved in fusion of retrograde transport vesicles derived from an endocytic compartment with the Golgi complex'
   - statement: Structural annotation shows multi-pass transmembrane protein with 4
       transmembrane domains
+    supporting_text: 'SUBCELLULAR LOCATION: Membrane ... Multi-pass membrane protein ... TRANSMEM 83..103 ... TRANSMEM 108..128 ... TRANSMEM 143..163 ... TRANSMEM 167..187'
   - statement: Belongs to evolutionarily conserved SFT2 family
+    supporting_text: 'SIMILARITY: Belongs to the SFT2 family'
 - id: file:human/SFT2D3/SFT2D3-deep-research.md
   title: Deep research analysis of SFT2D3 function and literature
   findings:

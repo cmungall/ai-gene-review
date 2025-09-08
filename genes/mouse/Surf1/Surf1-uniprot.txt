@@ -1,0 +1,235 @@
+ID   SURF1_MOUSE             Reviewed;         306 AA.
+AC   P09925; Q99KB4; Q9DCU5;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   06-JUN-2002, sequence version 3.
+DT   18-JUN-2025, entry version 165.
+DE   RecName: Full=Surfeit locus protein 1;
+GN   Name=Surf1; Synonyms=Surf-1;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3025660; DOI=10.1128/mcb.6.12.4558-4569.1986;
+RA   Williams T.J., Fried M.;
+RT   "The MES-1 murine enhancer element is closely associated with the
+RT   heterogeneous 5' ends of two divergent transcription units.";
+RL   Mol. Cell. Biol. 6:4558-4569(1986).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Fried M.;
+RL   Submitted (SEP-1988) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Kidney;
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M., Davis M.J.,
+RA   Wilming L.G., Aidinis V., Allen J.E., Ambesi-Impiombato A., Apweiler R.,
+RA   Aturaliya R.N., Bailey T.L., Bansal M., Baxter L., Beisel K.W., Bersano T.,
+RA   Bono H., Chalk A.M., Chiu K.P., Choudhary V., Christoffels A.,
+RA   Clutterbuck D.R., Crowe M.L., Dalla E., Dalrymple B.P., de Bono B.,
+RA   Della Gatta G., di Bernardo D., Down T., Engstrom P., Fagiolini M.,
+RA   Faulkner G., Fletcher C.F., Fukushima T., Furuno M., Futaki S.,
+RA   Gariboldi M., Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N., Hill D.,
+RA   Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T., Jakt M.,
+RA   Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H., Kitano H.,
+RA   Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K., Kurochkin I.V.,
+RA   Lareau L.F., Lazarevic D., Lipovich L., Liu J., Liuni S., McWilliam S.,
+RA   Madan Babu M., Madera M., Marchionni L., Matsuda H., Matsuzawa S., Miki H.,
+RA   Mignone F., Miyake S., Morris K., Mottagui-Tabar S., Mulder N., Nakano N.,
+RA   Nakauchi H., Ng P., Nilsson R., Nishiguchi S., Nishikawa S., Nori F.,
+RA   Ohara O., Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G.,
+RA   Pesole G., Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z.,
+RA   Ringwald M., Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B., Sperling S.,
+RA   Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K., Tammoja K.,
+RA   Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A., Ueda H.R.,
+RA   van Nimwegen E., Verardo R., Wei C.L., Yagi K., Yamanishi H.,
+RA   Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C., Grimmond S.M.,
+RA   Teasdale R.D., Liu E.T., Brusic V., Quackenbush J., Wahlestedt C.,
+RA   Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y., Fukuda S.,
+RA   Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T., Iida J., Imamura K.,
+RA   Itoh M., Kato T., Kawaji H., Kawagashira N., Kawashima T., Kojima M.,
+RA   Kondo S., Konno H., Nakano K., Ninomiya N., Nishio T., Okada M., Plessy C.,
+RA   Shibata K., Shiraki T., Suzuki S., Tagami M., Waki K., Watahiki A.,
+RA   Okamura-Oho Y., Suzuki H., Kawai J., Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=17210671; DOI=10.1093/hmg/ddl477;
+RA   Dell'agnello C., Leo S., Agostino A., Szabadkai G., Tiveron C., Zulian A.,
+RA   Prelle A., Roubertoux P., Rizzuto R., Zeviani M.;
+RT   "Increased longevity and refractoriness to Ca(2+)-dependent
+RT   neurodegeneration in Surf1 knockout mice.";
+RL   Hum. Mol. Genet. 16:431-444(2007).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brown adipose tissue, Heart, Kidney, Liver, Lung, Spleen, and
+RC   Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [7]
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=21167962; DOI=10.1016/j.mito.2010.12.011;
+RA   Stettner G.M., Viscomi C., Zeviani M., Wilichowski E., Dutschmann M.;
+RT   "Hypoxic and hypercapnic challenges unveil respiratory vulnerability of
+RT   Surf1 knockout mice, an animal model of Leigh syndrome.";
+RL   Mitochondrion 11:413-420(2011).
+RN   [8]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=23838831; DOI=10.1038/jcbfm.2013.116;
+RA   Lin A.L., Pulliam D.A., Deepa S.S., Halloran J.J., Hussong S.A.,
+RA   Burbank R.R., Bresnen A., Liu Y., Podlutskaya N., Soundararajan A.,
+RA   Muir E., Duong T.Q., Bokov A.F., Viscomi C., Zeviani M., Richardson A.G.,
+RA   Van Remmen H., Fox P.T., Galvan V.;
+RT   "Decreased in vitro mitochondrial function is associated with enhanced
+RT   brain metabolism, blood flow, and memory in Surf1-deficient mice.";
+RL   J. Cereb. Blood Flow Metab. 33:1605-1611(2013).
+RN   [9]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=24911525; DOI=10.1042/bj20140291;
+RA   Pulliam D.A., Deepa S.S., Liu Y., Hill S., Lin A.L., Bhattacharya A.,
+RA   Shi Y., Sloane L., Viscomi C., Zeviani M., Van Remmen H.;
+RT   "Complex IV-deficient Surf1(-/-) mice initiate mitochondrial stress
+RT   responses.";
+RL   Biochem. J. 462:359-371(2014).
+CC   -!- FUNCTION: Component of the MITRAC (mitochondrial translation regulation
+CC       assembly intermediate of cytochrome c oxidase complex) complex (By
+CC       similarity). Regulates cytochrome c oxidase assembly (PubMed:17210671,
+CC       PubMed:23838831, PubMed:24911525). {ECO:0000250|UniProtKB:Q15526,
+CC       ECO:0000269|PubMed:17210671, ECO:0000269|PubMed:23838831,
+CC       ECO:0000269|PubMed:24911525}.
+CC   -!- SUBUNIT: Component of the MITRAC (mitochondrial translation regulation
+CC       assembly intermediate of cytochrome c oxidase complex) complex, the
+CC       core components of this complex being COA3/MITRAC12 and COX14.
+CC       Interacts with COA3. {ECO:0000250|UniProtKB:Q15526}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane
+CC       {ECO:0000269|PubMed:17210671}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- DISRUPTION PHENOTYPE: Results in smaller animals with mild decreased
+CC       motor skills, enhanced working spatial and recognition memory, and
+CC       increased longevity (PubMed:17210671, PubMed:23838831,
+CC       PubMed:24911525). Increases global and regional cerebral blood flow
+CC       (PubMed:23838831). Increases lactate levels in blood and brain, and
+CC       increases glucose consumption in the brain (PubMed:17210671,
+CC       PubMed:23838831, PubMed:24911525). Increases hydrogen peroxide
+CC       production and succinate dehydrogenase (SDH) activity, but decreases
+CC       COX activity and respiration (PubMed:17210671, PubMed:21167962,
+CC       PubMed:23838831, PubMed:24911525). In the brain, increases Hif1a and
+CC       phosphorylated cyclic AMP response element-binding protein levels
+CC       (PubMed:23838831). In the brain, increases resistance to calcium-
+CC       related excitotoxic brain damage (PubMed:17210671). In skeletal
+CC       muscles, results in mitochondrial unfolded protein response
+CC       (PubMed:24911525). In the heart, results in elevated Nfe2l2 and Hmox1
+CC       expression (PubMed:24911525). Primary cultures of mutant neuronal cells
+CC       show reduced sensitivity to glutamate-induced cytosolic calcium signal
+CC       and impaired mitochondrial calcium uptake without changing the
+CC       mitochondrial structure and membrane potential (PubMed:17210671).
+CC       Primary cultures of phrenic and central vagus nerves show increased
+CC       respiratory frequency and altered response to systemic hypoxia and
+CC       hypercapnia (PubMed:21167962). {ECO:0000269|PubMed:17210671,
+CC       ECO:0000269|PubMed:21167962, ECO:0000269|PubMed:23838831,
+CC       ECO:0000269|PubMed:24911525}.
+CC   -!- SIMILARITY: Belongs to the SURF1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M14689; AAA40153.1; -; Genomic_DNA.
+DR   EMBL; AK002469; BAB22123.1; -; mRNA.
+DR   EMBL; BC004755; AAH04755.1; -; mRNA.
+DR   CCDS; CCDS50543.1; -.
+DR   PIR; B25394; B25394.
+DR   RefSeq; NP_001258653.2; NM_001271724.1.
+DR   RefSeq; NP_038705.2; NM_013677.2.
+DR   AlphaFoldDB; P09925; -.
+DR   SMR; P09925; -.
+DR   BioGRID; 203579; 1.
+DR   FunCoup; P09925; 1888.
+DR   STRING; 10090.ENSMUSP00000015934; -.
+DR   iPTMnet; P09925; -.
+DR   PhosphoSitePlus; P09925; -.
+DR   SwissPalm; P09925; -.
+DR   jPOST; P09925; -.
+DR   PaxDb; 10090-ENSMUSP00000015934; -.
+DR   ProteomicsDB; 254781; -.
+DR   Pumba; P09925; -.
+DR   Antibodypedia; 18363; 161 antibodies from 29 providers.
+DR   Ensembl; ENSMUST00000015934.13; ENSMUSP00000015934.8; ENSMUSG00000015790.17.
+DR   GeneID; 20930; -.
+DR   KEGG; mmu:20930; -.
+DR   UCSC; uc008iwh.2; mouse.
+DR   AGR; MGI:98443; -.
+DR   CTD; 6834; -.
+DR   MGI; MGI:98443; Surf1.
+DR   VEuPathDB; HostDB:ENSMUSG00000015790; -.
+DR   eggNOG; KOG1563; Eukaryota.
+DR   GeneTree; ENSGT00530000064194; -.
+DR   InParanoid; P09925; -.
+DR   OMA; WYSRDVA; -.
+DR   OrthoDB; 42454at9989; -.
+DR   Reactome; R-MMU-9864848; Complex IV assembly.
+DR   BioGRID-ORCS; 20930; 7 hits in 76 CRISPR screens.
+DR   ChiTaRS; Surf1; mouse.
+DR   PRO; PR:P09925; -.
+DR   Proteomes; UP000000589; Chromosome 2.
+DR   RNAct; P09925; protein.
+DR   Bgee; ENSMUSG00000015790; Expressed in facial nucleus and 254 other cell types or tissues.
+DR   ExpressionAtlas; P09925; baseline and differential.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; HDA:MGI.
+DR   GO; GO:0004129; F:cytochrome-c oxidase activity; IMP:UniProtKB.
+DR   GO; GO:0033617; P:mitochondrial cytochrome c oxidase assembly; ISS:UniProtKB.
+DR   CDD; cd06662; SURF1; 1.
+DR   InterPro; IPR002994; Surf1/Shy1.
+DR   InterPro; IPR045214; Surf1/Surf4.
+DR   PANTHER; PTHR23427; SURFEIT LOCUS PROTEIN; 1.
+DR   PANTHER; PTHR23427:SF2; SURFEIT LOCUS PROTEIN 1; 1.
+DR   Pfam; PF02104; SURF1; 1.
+DR   PROSITE; PS50895; SURF1; 1.
+PE   1: Evidence at protein level;
+KW   Membrane; Mitochondrion; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..306
+FT                   /note="Surfeit locus protein 1"
+FT                   /id="PRO_0000215653"
+FT   TRANSMEM        68..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        280..300
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        9
+FT                   /note="V -> G (in Ref. 1; AAA40153)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        14
+FT                   /note="M -> I (in Ref. 3; BAB22123)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        284
+FT                   /note="W -> CR (in Ref. 1; AAA40153)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   306 AA;  34798 MW;  8D9ECE9FB726AEB7 CRC64;
+     MAAVMALAVL PRRMTRWSQW AYAGRAQFCA VRRSVFGFSV RSGMVCRPRR CCSSTAETAA
+     AKAEDDSFLQ WFLLLIPATA FGLGTWQVQR RKWKLKLIAE LESRVMAEPI PLPADPMELK
+     NLEYRPVKVR GHFDHSKELY IMPRTMVDPV REARDAGRLS STESGAHVVT PFHCSDLGVT
+     ILVNRGFVPR KKVNPETRQK GQVLGEVDLV GIVRLTENRK PFVPENSPER NHWYYRDLEA
+     MAKITGADPI FIDADFHSTA PGGPIGGQTR VTLRNEHMQY ILTWYGLCAA TSYLWFQKFV
+     RRTPIM
+//

@@ -1,39 +1,190 @@
 {
   "pdb_id": "2X1D",
-  "description": "Mature wild-type enzyme",
   "chains": [
     {
       "chain_id": "A",
-      "num_residues": 559
+      "num_residues": 559,
+      "start_residue": 1,
+      "end_residue": 2202
     },
     {
       "chain_id": "B",
-      "num_residues": 616
+      "num_residues": 616,
+      "start_residue": 1,
+      "end_residue": 2260
     },
     {
       "chain_id": "C",
-      "num_residues": 579
+      "num_residues": 579,
+      "start_residue": 1,
+      "end_residue": 2226
     },
     {
       "chain_id": "D",
-      "num_residues": 577
+      "num_residues": 577,
+      "start_residue": 1,
+      "end_residue": 2221
     }
   ],
-  "catalytic_residues": {
-    "position_103": {
-      "chain": "D",
-      "residue": "CSD",
-      "expected": "CYS (or ALA in mutant)",
-      "matches": false
-    },
-    "position_309": {
-      "chain": "D",
-      "residue": "SER",
-      "expected": "SER",
-      "matches": true
-    }
+  "residues_analyzed": {
+    "position_103": [
+      {
+        "chain": "A",
+        "residue": "CSD",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": false
+      },
+      {
+        "chain": "B",
+        "residue": "CSD",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": false
+      },
+      {
+        "chain": "C",
+        "residue": "CSD",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": false
+      },
+      {
+        "chain": "D",
+        "residue": "CSD",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": false
+      }
+    ],
+    "position_309": [
+      {
+        "chain": "A",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "B",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "C",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "D",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      }
+    ]
   },
-  "cleavage_site": "Between Gly102 and Cys103",
-  "active_site_analysis": {},
-  "form": "mature (cleaved into subunits)"
+  "num_chains": 4,
+  "total_residues": 2331,
+  "form": "multi-chain (possibly cleaved)",
+  "modified_residues": [
+    {
+      "chain": "A",
+      "position": 103,
+      "residue": "CSD"
+    },
+    {
+      "chain": "A",
+      "position": 1356,
+      "residue": "PO4"
+    },
+    {
+      "chain": "A",
+      "position": 1357,
+      "residue": "GOL"
+    },
+    {
+      "chain": "A",
+      "position": 1358,
+      "residue": "CL"
+    },
+    {
+      "chain": "B",
+      "position": 103,
+      "residue": "CSD"
+    },
+    {
+      "chain": "B",
+      "position": 1357,
+      "residue": "PO4"
+    },
+    {
+      "chain": "B",
+      "position": 1358,
+      "residue": "ACT"
+    },
+    {
+      "chain": "B",
+      "position": 1359,
+      "residue": "CL"
+    },
+    {
+      "chain": "B",
+      "position": 1360,
+      "residue": "CL"
+    },
+    {
+      "chain": "C",
+      "position": 103,
+      "residue": "CSD"
+    },
+    {
+      "chain": "C",
+      "position": 1357,
+      "residue": "ACT"
+    },
+    {
+      "chain": "C",
+      "position": 1358,
+      "residue": "CL"
+    },
+    {
+      "chain": "D",
+      "position": 103,
+      "residue": "CSD"
+    },
+    {
+      "chain": "D",
+      "position": 1356,
+      "residue": "PO4"
+    },
+    {
+      "chain": "D",
+      "position": 1357,
+      "residue": "PO4"
+    },
+    {
+      "chain": "D",
+      "position": 1358,
+      "residue": "ACT"
+    },
+    {
+      "chain": "D",
+      "position": 1359,
+      "residue": "D1D"
+    },
+    {
+      "chain": "D",
+      "position": 1360,
+      "residue": "CL"
+    }
+  ]
 }

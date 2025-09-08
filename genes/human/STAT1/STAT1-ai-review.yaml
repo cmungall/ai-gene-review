@@ -863,6 +863,15 @@ existing_annotations:
     summary: RSV-inducible BCL-3 antagonizing STAT/IRF and NF-κB signaling. Pathogen-mediated
       interference with STAT1 signaling, but generic term lacks specificity.
     action: MARK_AS_OVER_ANNOTATED
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:34521819
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. STAT1 binds many specific proteins as part of its transcription factor function, but this general term should be removed. Additionally, the referenced PMID:34521819 could not be retrieved and verified.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized transcription factor like STAT1. The specific protein interactions are better captured by more specific GO terms. The supporting reference is also unavailable.'
 core_functions:
 - description: Cytokine-responsive transcriptional activation of interferon-stimulated
     genes
@@ -1137,6 +1146,9 @@ references:
   findings: []
 - id: PMID:9630226
   title: Crystal structure of a tyrosine phosphorylated STAT-1 dimer bound to DNA.
+  findings: []
+- id: PMID:34521819
+  title: 'Could not retrieve title - publication not available'
   findings: []
 - id: PMID:9881977
   title: Direct suppression of Stat1 function during adenoviral infection.

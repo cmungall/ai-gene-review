@@ -85,9 +85,11 @@ references:
   title: UniProt entry for Mlac1
   findings:
   - statement: Characterized as laccase with EC 1.10.3.- activity
+    supporting_text: 'RecName: Full=Laccase 1 ... EC=1.10.3.-'
   - statement: Binds 4 copper ions per monomer essential for activity
     supporting_text: Binds 4 Cu cations per monomer
   - statement: Contains three plastocyanin-like domains typical of multicopper oxidases
+    supporting_text: 'DOMAIN 29..142 /note="Plastocyanin-like 1" ... DOMAIN 171..359 /note="Plastocyanin-like 2" ... DOMAIN 468..598 /note="Plastocyanin-like 3"'
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO
     terms.

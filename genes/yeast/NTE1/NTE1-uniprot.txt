@@ -1,0 +1,384 @@
+ID   NTE1_YEAST              Reviewed;        1679 AA.
+AC   Q04958; D6VZB4;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   18-JUN-2025, entry version 185.
+DE   RecName: Full=Lysophospholipase NTE1;
+DE            EC=3.1.1.5 {ECO:0000269|PubMed:15044461};
+DE   AltName: Full=Intracellular phospholipase B;
+DE   AltName: Full=Neuropathy target esterase homolog;
+GN   Name=NTE1; OrderedLocusNames=YML059C; ORFNames=YM9958.03C;
+OS   Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=559292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=9169872; DOI=10.1038/387s090;
+RA   Bowman S., Churcher C.M., Badcock K., Brown D., Chillingworth T.,
+RA   Connor R., Dedman K., Devlin K., Gentles S., Hamlin N., Hunt S., Jagels K.,
+RA   Lye G., Moule S., Odell C., Pearson D., Rajandream M.A., Rice P.,
+RA   Skelton J., Walsh S.V., Whitehead S., Barrell B.G.;
+RT   "The nucleotide sequence of Saccharomyces cerevisiae chromosome XIII.";
+RL   Nature 387:90-93(1997).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=24374639; DOI=10.1534/g3.113.008995;
+RA   Engel S.R., Dietrich F.S., Fisk D.G., Binkley G., Balakrishnan R.,
+RA   Costanzo M.C., Dwight S.S., Hitz B.C., Karra K., Nash R.S., Weng S.,
+RA   Wong E.D., Lloyd P., Skrzypek M.S., Miyasato S.R., Simison M., Cherry J.M.;
+RT   "The reference genome sequence of Saccharomyces cerevisiae: Then and now.";
+RL   G3 (Bethesda) 4:389-398(2014).
+RN   [3]
+RP   SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS].
+RX   PubMed=14562095; DOI=10.1038/nature02026;
+RA   Huh W.-K., Falvo J.V., Gerke L.C., Carroll A.S., Howson R.W.,
+RA   Weissman J.S., O'Shea E.K.;
+RT   "Global analysis of protein localization in budding yeast.";
+RL   Nature 425:686-691(2003).
+RN   [4]
+RP   LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS].
+RX   PubMed=14562106; DOI=10.1038/nature02046;
+RA   Ghaemmaghami S., Huh W.-K., Bower K., Howson R.W., Belle A., Dephoure N.,
+RA   O'Shea E.K., Weissman J.S.;
+RT   "Global analysis of protein expression in yeast.";
+RL   Nature 425:737-741(2003).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, ACTIVITY REGULATION,
+RP   AND MUTAGENESIS OF SER-1406.
+RX   PubMed=15044461; DOI=10.1074/jbc.m400830200;
+RA   Zaccheo O., Dinsdale D., Meacock P.A., Glynn P.;
+RT   "Neuropathy target esterase and its yeast homologue degrade
+RT   phosphatidylcholine to glycerophosphocholine in living cells.";
+RL   J. Biol. Chem. 279:24024-24033(2004).
+RN   [6]
+RP   FUNCTION, AND ACTIVITY REGULATION.
+RX   PubMed=15611060; DOI=10.1074/jbc.m413999200;
+RA   Fernandez-Murray J.P., McMaster C.R.;
+RT   "Nte1p-mediated deacylation of phosphatidylcholine functionally interacts
+RT   with Sec14p.";
+RL   J. Biol. Chem. 280:8544-8552(2005).
+RN   [7]
+RP   FUNCTION.
+RX   PubMed=16777854; DOI=10.1074/jbc.m603548200;
+RA   Gaspar M.L., Aregullin M.A., Jesch S.A., Henry S.A.;
+RT   "Inositol induces a profound alteration in the pattern and rate of
+RT   synthesis and turnover of membrane lipids in Saccharomyces cerevisiae.";
+RL   J. Biol. Chem. 281:22773-22785(2006).
+RN   [8]
+RP   TOPOLOGY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 208353 / W303-1A;
+RX   PubMed=16847258; DOI=10.1073/pnas.0604075103;
+RA   Kim H., Melen K., Oesterberg M., von Heijne G.;
+RT   "A global topology map of the Saccharomyces cerevisiae membrane proteome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:11142-11147(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-634, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ADR376;
+RX   PubMed=17330950; DOI=10.1021/pr060559j;
+RA   Li X., Gerber S.A., Rudner A.D., Beausoleil S.A., Haas W., Villen J.,
+RA   Elias J.E., Gygi S.P.;
+RT   "Large-scale phosphorylation analysis of alpha-factor-arrested
+RT   Saccharomyces cerevisiae.";
+RL   J. Proteome Res. 6:1190-1197(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-634 AND THR-803, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=18407956; DOI=10.1074/mcp.m700468-mcp200;
+RA   Albuquerque C.P., Smolka M.B., Payne S.H., Bafna V., Eng J., Zhou H.;
+RT   "A multidimensional chromatography technology for in-depth phosphoproteome
+RT   analysis.";
+RL   Mol. Cell. Proteomics 7:1389-1396(2008).
+RN   [11]
+RP   FUNCTION.
+RX   PubMed=19841481; DOI=10.1074/jbc.m109.063958;
+RA   Fernandez-Murray J.P., Gaspard G.J., Jesch S.A., McMaster C.R.;
+RT   "NTE1-encoded phosphatidylcholine phospholipase B regulates transcription
+RT   of phospholipid biosynthetic genes.";
+RL   J. Biol. Chem. 284:36034-36046(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-300; SER-312; SER-632;
+RP   SER-634; SER-653; SER-661; SER-670; SER-680 AND SER-739, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19779198; DOI=10.1126/science.1172867;
+RA   Holt L.J., Tuch B.B., Villen J., Johnson A.D., Gygi S.P., Morgan D.O.;
+RT   "Global analysis of Cdk1 substrate phosphorylation sites provides insights
+RT   into evolution.";
+RL   Science 325:1682-1686(2009).
+RN   [13]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=24868093; DOI=10.1194/jlr.m050229;
+RA   Currie E., Guo X., Christiano R., Chitraju C., Kory N., Harrison K.,
+RA   Haas J., Walther T.C., Farese R.V. Jr.;
+RT   "High-confidence proteomic analysis of yeast lipid droplets identifies
+RT   additional droplet proteins and reveals connections to dolichol synthesis
+RT   and sterol acetylation.";
+RL   J. Lipid Res. 55:1465-1477(2014).
+CC   -!- FUNCTION: Intracellular phospholipase B that catalyzes the double
+CC       deacylation of phosphatidylcholine (PC) to glycerophosphocholine
+CC       (GroPCho). Plays an important role in membrane lipid homeostasis.
+CC       Responsible for the rapid PC turnover in response to inositol, elevated
+CC       temperatures, or when choline is present in the growth medium
+CC       (PubMed:15044461, PubMed:15611060, PubMed:16777854). NTE1 activity
+CC       impacts the repressing transcriptional activity of OPI1, the main
+CC       regulator of phospholipid synthesis gene transcription
+CC       (PubMed:19841481). {ECO:0000269|PubMed:15044461,
+CC       ECO:0000269|PubMed:15611060, ECO:0000269|PubMed:16777854,
+CC       ECO:0000269|PubMed:19841481}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = sn-glycerol 3-
+CC         phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15177,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:58168; EC=3.1.1.5;
+CC         Evidence={ECO:0000269|PubMed:15044461};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15178;
+CC         Evidence={ECO:0000305|PubMed:15044461};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + 2 H2O = sn-glycerol
+CC         3-phosphocholine + 2 a carboxylate + 2 H(+); Xref=Rhea:RHEA:32907,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:29067, ChEBI:CHEBI:57643;
+CC         Evidence={ECO:0000269|PubMed:15044461};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32908;
+CC         Evidence={ECO:0000305|PubMed:15044461};
+CC   -!- ACTIVITY REGULATION: Positively regulated by SEC14. Inhibited by
+CC       organophosphorus esters in the order phenyl saligenin phosphate (PSP) >
+CC       phenyldipentyl phosphinate (PDPP) = diisopropyl fluorophosphate (DFP) >
+CC       and paraoxon (PXN). {ECO:0000269|PubMed:15044461,
+CC       ECO:0000269|PubMed:15611060}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:14562095, ECO:0000269|PubMed:15044461}; Multi-pass
+CC       membrane protein {ECO:0000269|PubMed:14562095,
+CC       ECO:0000269|PubMed:15044461}. Lipid droplet
+CC       {ECO:0000269|PubMed:24868093}.
+CC   -!- MISCELLANEOUS: Present with 521 molecules/cell in log phase SD medium.
+CC       {ECO:0000269|PubMed:14562106}.
+CC   -!- SIMILARITY: Belongs to the NTE family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z46729; CAA86716.1; -; Genomic_DNA.
+DR   EMBL; BK006946; DAA09838.1; -; Genomic_DNA.
+DR   PIR; S49802; S49802.
+DR   RefSeq; NP_013652.1; NM_001182418.1.
+DR   AlphaFoldDB; Q04958; -.
+DR   SMR; Q04958; -.
+DR   BioGRID; 35107; 103.
+DR   DIP; DIP-5949N; -.
+DR   FunCoup; Q04958; 163.
+DR   IntAct; Q04958; 25.
+DR   MINT; Q04958; -.
+DR   STRING; 4932.YML059C; -.
+DR   SwissLipids; SLP:000000073; -.
+DR   GlyGen; Q04958; 4 sites, 1 O-linked glycan (4 sites).
+DR   iPTMnet; Q04958; -.
+DR   PaxDb; 4932-YML059C; -.
+DR   PeptideAtlas; Q04958; -.
+DR   TopDownProteomics; Q04958; -.
+DR   EnsemblFungi; YML059C_mRNA; YML059C; YML059C.
+DR   GeneID; 854943; -.
+DR   KEGG; sce:YML059C; -.
+DR   AGR; SGD:S000004524; -.
+DR   SGD; S000004524; NTE1.
+DR   VEuPathDB; FungiDB:YML059C; -.
+DR   eggNOG; KOG2968; Eukaryota.
+DR   GeneTree; ENSGT00940000168388; -.
+DR   HOGENOM; CLU_000960_1_1_1; -.
+DR   InParanoid; Q04958; -.
+DR   OMA; SSGYVWR; -.
+DR   OrthoDB; 421051at2759; -.
+DR   BioCyc; MetaCyc:G3O-32654-MONOMER; -.
+DR   BioCyc; YEAST:G3O-32654-MONOMER; -.
+DR   Reactome; R-SCE-6814848; Glycerophospholipid catabolism.
+DR   BioGRID-ORCS; 854943; 2 hits in 10 CRISPR screens.
+DR   PRO; PR:Q04958; -.
+DR   Proteomes; UP000002311; Chromosome XIII.
+DR   RNAct; Q04958; protein.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:SGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005811; C:lipid droplet; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004622; F:lysophospholipase activity; IDA:SGD.
+DR   GO; GO:0034638; P:phosphatidylcholine catabolic process; IMP:SGD.
+DR   GO; GO:0071071; P:regulation of phospholipid biosynthetic process; IMP:SGD.
+DR   CDD; cd00038; CAP_ED; 2.
+DR   CDD; cd07227; Pat_Fungal_NTE1; 1.
+DR   FunFam; 2.60.120.10:FF:000193; Lysophospholipase NTE1; 1.
+DR   FunFam; 2.60.120.10:FF:000245; Lysophospholipase NTE1; 1.
+DR   FunFam; 3.40.1090.10:FF:000007; Lysophospholipase NTE1; 1.
+DR   FunFam; 3.40.1090.10:FF:000013; Lysophospholipase NTE1; 1.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 2.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 3.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR000595; cNMP-bd_dom.
+DR   InterPro; IPR018490; cNMP-bd_dom_sf.
+DR   InterPro; IPR001423; LysoPLipase_patatin_CS.
+DR   InterPro; IPR050301; NTE.
+DR   InterPro; IPR056556; NTE1_P-loop_dom.
+DR   InterPro; IPR002641; PNPLA_dom.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   PANTHER; PTHR14226:SF29; NEUROPATHY TARGET ESTERASE SWS; 1.
+DR   PANTHER; PTHR14226; NEUROPATHY TARGET ESTERASE/SWISS CHEESE D.MELANOGASTER; 1.
+DR   Pfam; PF00027; cNMP_binding; 1.
+DR   Pfam; PF24179; NTE_Ploop; 1.
+DR   Pfam; PF01734; Patatin; 1.
+DR   SMART; SM00100; cNMP; 1.
+DR   SUPFAM; SSF51206; cAMP-binding domain-like; 3.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS50042; CNMP_BINDING_3; 2.
+DR   PROSITE; PS51635; PNPLA; 1.
+DR   PROSITE; PS01237; UPF0028; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Hydrolase; Lipid degradation; Lipid droplet;
+KW   Lipid metabolism; Membrane; Phosphoprotein; Reference proteome; Repeat;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..1679
+FT                   /note="Lysophospholipase NTE1"
+FT                   /id="PRO_0000172528"
+FT   TOPO_DOM        1..49
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:16847258"
+FT   TRANSMEM        50..70
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        71..103
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305|PubMed:16847258"
+FT   TRANSMEM        104..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        125..1679
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:16847258"
+FT   DOMAIN          1373..1537
+FT                   /note="PNPLA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          261..304
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          498..527
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          586..672
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          775..800
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          855..882
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           1377..1382
+FT                   /note="GXGXXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           1404..1408
+FT                   /note="GXSXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           1524..1526
+FT                   /note="DGA/G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   COMPBIAS        1..20
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        261..274
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        275..295
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        592..606
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        630..652
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        788..800
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        862..873
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        1406
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        1524
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   BINDING         803..947
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="1"
+FT   BINDING         943..1074
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="2"
+FT   MOD_RES         300
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         312
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         632
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         634
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17330950,
+FT                   ECO:0007744|PubMed:18407956, ECO:0007744|PubMed:19779198"
+FT   MOD_RES         653
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         661
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         670
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         680
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         739
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   MOD_RES         803
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:18407956"
+FT   MUTAGEN         1406
+FT                   /note="S->A: Loss of esterase activity."
+FT                   /evidence="ECO:0000269|PubMed:15044461"
+SQ   SEQUENCE   1679 AA;  187133 MW;  550FFCD4ACAF8E25 CRC64;
+     MRSMNCTTNN TNNTGQNTKN SLGSSFNSSN YTSYRFQTCL TDQIISEAQT WSLSSLFNFS
+     WVVSYFVMGA SRMIFRYGWY LATLSLLRIP KWIFFKLHHV QFTLSFWLIL FALAVIVFVT
+     YTIMKERILS QYKRLTPEFL PLENTGKSGS SANINAASTQ SANAPPAIGS STTGASSIID
+     SKKHSLKDGN ENETFLSSYL DQFLSAIKIF GYLEKPVFHD LTKNMKTQKM DEGEILLLDS
+     TIGFAIVVEG TLQLYHEVDH SDKDHGDETD HSDTDGLDDQ DRDEEDEEED DDIDNYDTKS
+     CSSNLIDEED ESVGYIHLKN GLGNFQLLNT VKPGNPLTSL VSILNLFTHS MSSYGNSNFP
+     SELSSPIDTT VSVNNMFCSS EQNFSNTDSM TNSTNSFPTF PSSMPKLVAR AATDCTIGII
+     PPQSFAKLTA KYPRSASHII QMVLTKLYHV TFQTAHDYLG LTKEIMDIEV LLNKSIVYEL
+     PYYLKEAVIR KFKTVDKSSG SADLEPKPKN SNASSKLKKP PKAKPSDGII QSLKIANANA
+     NTSSNSLSLK PEFTHHPSSR HVVLGSRDQF NPGDLLSNVP LSRTMDILSP NPIHNNNRNK
+     SNGINTSTSN QHKRSSRSSS NNASVHSKKF SSLSPELRNA QLSTSPLSLD NTSVHDHIHP
+     SPVHLKGRVS PRPNLLPTTS FSAAQEETED SALRMALVEA MLTYLGVNKS NMSVSSSSIA
+     NMSSLNSPQL NEMYSRRPSN ASFLMSPHCT PSDISVASSF ASPQTQPTML RILPKEYTIS
+     NKRHNKSKSQ DKKKPRAYKE ELTPNLDFED VKKDFAQGIQ LKFFKKGTTI VEQNARGKGL
+     FYIISGKVNV TTNSSSSVVS SMSKPEQVSA QSSHKGENPH HTQHLLYSVG SGGIVGYLSS
+     LIGYKSFVNI VAKSDVYVGF LSSATLERLF DKYFLIYLRI SDSLTKLLSS RLLKLDHALE
+     WVHLRASETL FSQGDSANGI YVVLNGRLRQ LQQQSLSNSN TSSEEVETQN IILGELAQGE
+     SFGEVEVLTA MNRYSTIVAV RDSELARIPR TLFELLALEH PSIMIRVSRL VAKKIVGDRT
+     VPALTGDPLS IKENDFTSLI PPTKASYSSS LSHKPQNITS GTITFRTITI LPITSGLPVE
+     AFAMKLVQAF KQVGRTTIGL NQRTTLTHLG RHAFDRLSKL KQSGYFAELE EMYQTVVYIS
+     DTPVKSNWTR TCIAQGDCIL LLADARSPSA EIGEYEKLLL NSKTTARTEL ILLHPERYVE
+     PGLTHKWLRY RPWVHSHHHI QFSLTGTTLM NEGKMHVLNN GALALMDKLI QTEFSRKTQQ
+     NISKLLPDSI KNTVENFSSR FMKSKRQYYT PVHRHKNDFL RLARILSGQA IGLVLGGGGA
+     RGISHLGVIQ AIEEQGIPVD VIGGTSIGSF VGGLYAKDYD LVPIYGRVKK FAGRISSIWR
+     MLTDLTWPVT SYTTGHEFNR GIWKTFGDTR IEDFWIQYYC NSTNITDSVQ EIHSFGYAWR
+     YIRASMSLAG LLPPLEENGS MLLDGGYVDN LPVTEMRARG CQTIFAVDVG SADDRTPMEY
+     GDSLNGFWII FNRWNPFSSH PNIPNMAEIQ VRLGYVASVN ALEKAKNTPG VVYVRPPIEE
+     YATLDFSKFE EIYHVGVDYG RIFLQGLIDD DKMPYIPGSQ ETTLNSQVPE FLLHRRNSI
+//

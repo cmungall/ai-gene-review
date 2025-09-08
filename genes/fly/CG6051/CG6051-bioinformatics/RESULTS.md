@@ -102,12 +102,14 @@ This analysis was performed to verify the domain structure and functional annota
 
 ## Quality Control Checklist
 
-- [x] Scripts use command-line arguments, no hardcoded inputs/outputs
+- [ ] Scripts use command-line arguments, no hardcoded inputs/outputs (hardcoded FYVE positions 909-969, no CLI args)
 - [x] Scripts tested on human LST2 protein (different input)
 - [x] All analyses completed successfully
 - [x] Direct analysis results present in folder (JSON files)
 - [x] Reproducible workflow defined in justfile
 - [x] Dependencies managed with uv/pyproject.toml
+- [ ] Scripts can analyze other proteins (partially - domain analysis generic but positions hardcoded)
+- [ ] No hardcoded values (contains hardcoded domain positions and expectations)
 
 ## Provenance and Methods
 

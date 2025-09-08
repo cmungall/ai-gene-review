@@ -1,0 +1,333 @@
+id: Q9U969
+gene_symbol: sws
+taxon:
+  id: NCBITaxon:7227
+  label: Drosophila melanogaster
+description: 'Neuropathy target esterase sws (Swiss cheese) is a phospholipase B enzyme that deacylates intracellular phosphatidylcholine (PtdCho) at both sn-1 and sn-2 positions, generating glycerophosphocholine. Essential for membrane lipid homeostasis and cell survival in both neurons and glia of the adult brain. Acts as a noncanonical regulatory subunit for PKA-C3, inhibiting its kinase activity while being tethered to ER membranes. Progressive loss of function leads to age-dependent neurodegeneration, glial hyperwrapping, and neuronal apoptosis. The vertebrate ortholog NTE is the target of organophosphate compounds that cause delayed neuropathy.'
+existing_annotations:
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Experimentally verified phosphatidylcholine lysophospholipase activity. This is the core enzymatic function of SWS, demonstrated by both in vitro esterase assays and in vivo complementation studies. The enzyme deacylates PtdCho at both sn-1 and sn-2 positions.'
+    action: ACCEPT
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'SWS localizes to the endoplasmic reticulum as confirmed by immunohistochemistry studies. This localization is critical for its function in membrane lipid homeostasis.'
+    action: ACCEPT
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate annotation. The IDA evidence (PMID:18945896) provides stronger experimental support for this same molecular function.'
+    action: REMOVE
+- term:
+    id: GO:0005789
+    label: endoplasmic reticulum membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Duplicate annotation. The IDA evidence (PMID:18945896) provides stronger experimental support for this same cellular component.'
+    action: REMOVE
+- term:
+    id: GO:0006629
+    label: lipid metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Too general. SWS has specific roles in phosphatidylcholine metabolism and membrane lipid catabolism, which are better captured by more specific terms with experimental evidence.'
+    action: REMOVE
+- term:
+    id: GO:0007399
+    label: nervous system development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'SWS function is primarily in maintenance of adult neurons and glia rather than development. The developmental expression is at low levels and no developmental defects are observed in mutants.'
+    action: REMOVE
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'Too general. SWS specifically localizes to ER membrane, which is captured by more specific terms with experimental evidence.'
+    action: REMOVE
+- term:
+    id: GO:0016042
+    label: lipid catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Accurate but general. SWS catabolizes phospholipids specifically, particularly phosphatidylcholine, which are captured by more specific experimental annotations.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Too general. SWS has specific lysophospholipase activity which is the relevant molecular function. This broad hydrolase classification adds little value.'
+    action: REMOVE
+- term:
+    id: GO:0046470
+    label: phosphatidylcholine metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Duplicate annotation. The IDA evidence (PMID:15772346) provides stronger experimental support for this same biological process.'
+    action: REMOVE
+- term:
+    id: GO:0102545
+    label: phospholipase B activity
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Accurate description of SWS molecular function. Phospholipase B activity encompasses the ability to deacylate at both sn-1 and sn-2 positions of phospholipids, which is the core catalytic function of SWS.'
+    action: ACCEPT
+- term:
+    id: GO:0007272
+    label: ensheathment of neurons
+  evidence_type: IMP
+  original_reference_id: PMID:26634819
+  review:
+    summary: 'SWS is required for proper glial function. Loss of SWS causes glial hyperwrapping and abnormal ensheathment of neurons, demonstrating its role in neuron-glia interactions.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:26634819
+        supporting_text: 'sws mutant flies show glial hyperwrapping and glial death'
+- term:
+    id: GO:0034236
+    label: protein kinase A catalytic subunit binding
+  evidence_type: IPI
+  original_reference_id: PMID:18945896
+  review:
+    summary: 'SWS specifically binds to PKA-C3 through its pseudosubstrate site, acting as a noncanonical regulatory subunit. This interaction is critical for regulating PKA-C3 localization and activity.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18945896
+        supporting_text: 'SWS interacts specifically with the C3 catalytic subunit of cAMP activated protein kinase (PKA-C3)'
+- term:
+    id: GO:0072657
+    label: protein localization to membrane
+  evidence_type: IMP
+  original_reference_id: PMID:18945896
+  review:
+    summary: 'SWS tethers PKA-C3 to ER membranes through protein-protein interaction. This membrane localization is essential for proper PKA-C3 function and regulation.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18945896
+        supporting_text: 'the complex formation with the membrane-bound SWS tethers PKA-C3 to membranes'
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IDA
+  original_reference_id: PMID:25574898
+  review:
+    summary: 'While SWS may have some cytoplasmic localization, its primary and functionally relevant localization is to the ER membrane. This annotation is less informative than the specific ER localization.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IDA
+  original_reference_id: PMID:25574898
+  review:
+    summary: 'This localization was observed specifically in photoreceptors and may represent a cell-type specific localization pattern. However, the primary localization is to ER membranes in most cell types.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0006644
+    label: phospholipid metabolic process
+  evidence_type: IMP
+  original_reference_id: PMID:25574898
+  review:
+    summary: 'Accurate but general. SWS specifically metabolizes phosphatidylcholine and affects lysophospholipid levels. More specific terms are available with experimental evidence.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0045494
+    label: photoreceptor cell maintenance
+  evidence_type: IMP
+  original_reference_id: PMID:25574898
+  review:
+    summary: 'SWS is required for photoreceptor survival and mutations cause photoreceptor degeneration in both flies and humans. This represents a specialized function of SWS in the visual system.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:25574898
+        supporting_text: 'Mutations in PNPLA6 are linked to photoreceptor degeneration and various forms of childhood blindness'
+- term:
+    id: GO:0007608
+    label: sensory perception of smell
+  evidence_type: IMP
+  original_reference_id: PMID:12696671
+  review:
+    summary: 'SWS mutations affect olfactory behavior through genetic interactions with integrin subunits. This represents a developmental or maintenance function in the olfactory system.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0034349
+    label: glial cell apoptotic process
+  evidence_type: IMP
+  original_reference_id: PMID:15772346
+  review:
+    summary: 'Loss of SWS leads to glial cell apoptosis. SWS is required cell-autonomously in glia for their survival, not for promoting apoptosis.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0043066
+      label: negative regulation of apoptotic process
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IDA
+  original_reference_id: PMID:18945896
+  review:
+    summary: 'Experimentally demonstrated core function. SWS exhibits lysophospholipase activity against phenyl valerate and deacylates phosphatidylcholine in vivo. Critical for membrane lipid homeostasis.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18945896
+        supporting_text: 'SWS and NTE are concentrated in the endoplasmic reticulum and both have been shown to have an esterase function against an artificial substrate'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:18945896
+  review:
+    summary: 'Too general and uninformative. The specific binding to PKA-C3 catalytic subunit is captured by the more specific term GO:0034236.'
+    action: REMOVE
+- term:
+    id: GO:0005789
+    label: endoplasmic reticulum membrane
+  evidence_type: IDA
+  original_reference_id: PMID:18945896
+  review:
+    summary: 'Primary cellular localization of SWS. Confirmed by immunohistochemistry and biochemical fractionation. Essential for its function in membrane lipid homeostasis and PKA-C3 regulation.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18945896
+        supporting_text: 'SWS and NTE are concentrated in the endoplasmic reticulum'
+- term:
+    id: GO:0006643
+    label: membrane lipid metabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:15772346
+  review:
+    summary: 'Core biological process. SWS regulates membrane lipid composition, particularly phosphatidylcholine levels in ER membranes. Essential for membrane homeostasis and cell survival.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:15772346
+        supporting_text: 'Loss of Swiss cheese/neuropathy target esterase activity causes disruption of phosphatidylcholine homeostasis'
+- term:
+    id: GO:0046470
+    label: phosphatidylcholine metabolic process
+  evidence_type: IDA
+  original_reference_id: PMID:15772346
+  review:
+    summary: 'Core metabolic function. SWS deacylates phosphatidylcholine and regulates its homeostasis. Mutation leads to elevated PtdCho levels and cellular dysfunction.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:15772346
+        supporting_text: 'Loss of Swiss cheese/neuropathy target esterase activity causes disruption of phosphatidylcholine homeostasis'
+- term:
+    id: GO:0051402
+    label: neuron apoptotic process
+  evidence_type: IMP
+  original_reference_id: PMID:15772346
+  review:
+    summary: 'Loss of SWS leads to neuronal apoptosis. SWS is required for neuronal survival, not for promoting apoptosis.'
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0043066
+      label: negative regulation of apoptotic process
+- term:
+    id: GO:0061024
+    label: membrane organization
+  evidence_type: IDA
+  original_reference_id: PMID:15772346
+  review:
+    summary: 'SWS maintains membrane organization through regulation of phospholipid composition. Loss of function leads to abnormal membrane structures in ER.'
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:15772346
+        supporting_text: 'Loss of Swiss cheese/neuropathy target esterase activity causes disruption of phosphatidylcholine homeostasis and neuronal and glial death in adult Drosophila'
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:12696671
+  title: Genetic interactions provide evidence for the role of integrins in specifying
+    normal olfactory behavior in Drosophila melanogaster.
+  findings: []
+- id: PMID:15772346
+  title: Loss of Swiss cheese/neuropathy target esterase activity causes disruption
+    of phosphatidylcholine homeostasis and neuronal and glial death in adult Drosophila.
+  findings: []
+- id: PMID:18945896
+  title: Swiss Cheese, a protein involved in progressive neurodegeneration, acts as
+    a noncanonical regulatory subunit for PKA-C3.
+  findings: []
+- id: PMID:25574898
+  title: Mutations in PNPLA6 are linked to photoreceptor degeneration and various
+    forms of childhood blindness.
+  findings: []
+- id: PMID:26634819
+  title: Glial expression of Swiss cheese (SWS), the Drosophila orthologue of neuropathy
+    target esterase (NTE), is required for neuronal ensheathment and function.
+  findings: []
+core_functions:
+- description: 'Primary phospholipase function maintaining membrane lipid homeostasis and PKA-C3 regulation'
+  molecular_function:
+    id: GO:0102545
+    label: phospholipase B activity
+  directly_involved_in:
+  - id: GO:0046470
+    label: phosphatidylcholine metabolic process
+  - id: GO:0006643
+    label: membrane lipid metabolic process
+  locations:
+  - id: GO:0005789
+    label: endoplasmic reticulum membrane
+  supported_by:
+  - reference_id: PMID:15772346
+    supporting_text: 'SWS is essential for membrane lipid homeostasis and cell survival in both neurons and glia of the adult Drosophila brain... sws mutant flies lacked NTE-like esterase activity and had increased levels of PtdCho'
+  - reference_id: PMID:18945896
+    supporting_text: 'SWS interacts specifically with the C3 catalytic subunit of cAMP activated protein kinase (PKA-C3)... the complex formation with the membrane-bound SWS tethers PKA-C3 to membranes'
+- description: 'Glial function required for proper neuronal ensheathment and prevention of neurodegeneration'
+  molecular_function:
+    id: GO:0102545
+    label: phospholipase B activity
+  directly_involved_in:
+  - id: GO:0007272
+    label: ensheathment of neurons
+  locations:
+  - id: GO:0005789
+    label: endoplasmic reticulum membrane
+  supported_by:
+  - reference_id: PMID:26634819
+    supporting_text: 'Glial expression of Swiss cheese (SWS), the Drosophila orthologue of neuropathy target esterase (NTE), is required for neuronal ensheathment and function'

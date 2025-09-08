@@ -68,3 +68,14 @@ Bioinformatics analysis of CFAP418 (Q6ZT21) reveals a 453 amino acid protein wit
 ## References
 - UniProt Q6ZT21
 - Pattern definitions based on PROSITE patterns
+
+## Quality Checklist
+
+- [x] Scripts present and executable
+- [ ] Scripts accept command-line arguments (hardcoded UniProt ID Q6ZT21)
+- [ ] Scripts can analyze other proteins (some CFAP-specific assumptions in analysis)
+- [x] Results are reproducible
+- [x] Methods clearly documented
+- [x] Conclusions supported by evidence
+- [ ] No hardcoded values (hardcoded UniProt ID Q6ZT21, CFAP family assumptions)
+- [x] Output files generated as described
