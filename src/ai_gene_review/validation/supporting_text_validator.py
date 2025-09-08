@@ -60,14 +60,17 @@ class SupportingTextValidationReport:
 class SupportingTextValidator:
     """Validates supporting_text fields against cached publications."""
 
-    def __init__(self, publications_dir: Path = Path("publications")):
+    def __init__(self, publications_dir: Path = Path("publications"), gene_dir: Path = Path("genes")):
         """Initialize validator with publications directory.
 
         Args:
             publications_dir: Path to directory containing cached publications
+            gene_dir: Path to directory containing gene folders with UniProt files
         """
         self.publications_dir = publications_dir
+        self.gene_dir = gene_dir
         self.cached_publications: Dict[str, str] = {}
+        self.cached_uniprot_files: Dict[str, str] = {}
         self.similarity_threshold = DEFAULT_SIMILARITY_THRESHOLD
 
     def load_publication(self, pmid: str) -> Optional[str]:
@@ -135,6 +138,189 @@ class SupportingTextValidator:
         if reference_id.upper().startswith("PMID:"):
             return reference_id[5:]  # Skip "PMID:" or "pmid:"
         return None
+
+    def extract_uniprot_from_reference(self, reference_id: str) -> Optional[str]:
+        """Extract UniProt ID from reference.
+
+        Args:
+            reference_id: Reference ID like "uniprot:P12345" or "UniProtKB:Q99999"
+
+        Returns:
+            UniProt ID string or None if not a UniProt reference
+
+        Examples:
+            >>> validator = SupportingTextValidator()
+            >>> validator.extract_uniprot_from_reference("uniprot:P12345")
+            'P12345'
+            >>> validator.extract_uniprot_from_reference("UniProtKB:Q99999")
+            'Q99999'
+            >>> validator.extract_uniprot_from_reference("UNIPROT:A0B297")
+            'A0B297'
+            >>> validator.extract_uniprot_from_reference("PMID:12345")
+        """
+        ref_upper = reference_id.upper()
+        if ref_upper.startswith("UNIPROT:"):
+            return reference_id[8:]  # Skip "uniprot:" or "UNIPROT:"
+        elif ref_upper.startswith("UNIPROTKB:"):
+            return reference_id[10:]  # Skip "UniProtKB:" or "UNIPROTKB:"
+        return None
+
+    def load_uniprot_file(self, uniprot_id: str, yaml_data: Dict[str, Any] = None) -> Optional[str]:
+        """Load a UniProt file for a given ID.
+
+        Attempts to find and load the UniProt file from the gene directory structure.
+        The file should be named <GENE>-uniprot.txt in the appropriate species/gene folder.
+
+        Args:
+            uniprot_id: UniProt ID (e.g., "P12345", "A0B297")
+            yaml_data: Optional YAML data containing gene_symbol and taxon info to help locate file
+
+        Returns:
+            Full text of UniProt file, or None if not found
+
+        Examples:
+            >>> from pathlib import Path
+            >>> import tempfile
+            >>> with tempfile.TemporaryDirectory() as tmpdir:
+            ...     # Create a test UniProt file
+            ...     gene_dir = Path(tmpdir) / "BURCH" / "A0B297"
+            ...     gene_dir.mkdir(parents=True)
+            ...     uniprot_file = gene_dir / "A0B297-uniprot.txt"
+            ...     _ = uniprot_file.write_text("ID   RGMG2_BURCH\\nAC   A0B297;\\nCC   Test content")
+            ...     # Load it
+            ...     validator = SupportingTextValidator(gene_dir=Path(tmpdir))
+            ...     content = validator.load_uniprot_file("A0B297")
+            ...     print("Loaded" if content else "Not found")
+            Loaded
+        """
+        # Check cache first
+        if uniprot_id in self.cached_uniprot_files:
+            return self.cached_uniprot_files[uniprot_id]
+
+        # Try to find the UniProt file
+        # First check if we can use the yaml_data to get the gene_symbol
+        gene_symbol = None
+        if yaml_data:
+            gene_symbol = yaml_data.get("gene_symbol")
+            # Also check if the id field matches the uniprot_id
+            if not gene_symbol and yaml_data.get("id") == uniprot_id:
+                gene_symbol = uniprot_id
+
+        # Search for the UniProt file in the gene directory structure
+        # Pattern: genes/<species>/<gene>/<gene>-uniprot.txt
+        if gene_symbol:
+            # Try to find in any species folder
+            for species_dir in self.gene_dir.iterdir():
+                if species_dir.is_dir():
+                    gene_path = species_dir / gene_symbol
+                    if gene_path.exists():
+                        uniprot_file = gene_path / f"{gene_symbol}-uniprot.txt"
+                        if uniprot_file.exists():
+                            try:
+                                with open(uniprot_file, "r", encoding="utf-8") as f:
+                                    content = f.read()
+                                    self.cached_uniprot_files[uniprot_id] = content
+                                    return content
+                            except Exception as e:
+                                print(f"Error loading UniProt file for {uniprot_id}: {e}")
+
+        # Also try searching by UniProt ID directly in case it's used as the gene folder name
+        for species_dir in self.gene_dir.iterdir():
+            if species_dir.is_dir():
+                gene_path = species_dir / uniprot_id
+                if gene_path.exists():
+                    uniprot_file = gene_path / f"{uniprot_id}-uniprot.txt"
+                    if uniprot_file.exists():
+                        try:
+                            with open(uniprot_file, "r", encoding="utf-8") as f:
+                                content = f.read()
+                                self.cached_uniprot_files[uniprot_id] = content
+                                return content
+                        except Exception as e:
+                            print(f"Error loading UniProt file for {uniprot_id}: {e}")
+
+        return None
+
+    def preprocess_uniprot_content(self, content: str) -> str:
+        """Preprocess UniProt file content to remove line prefixes and join continuation lines.
+        
+        UniProt files have specific line prefixes (like CC, FT, DE) that should be removed
+        for text matching. Also handles continuation lines that are split across multiple lines.
+        
+        Args:
+            content: Raw UniProt file content
+            
+        Returns:
+            Preprocessed content with line prefixes removed
+            
+        Examples:
+            >>> validator = SupportingTextValidator()
+            >>> uniprot = '''CC   -!- FUNCTION: Part of an ABC transporter.
+            ... CC       More text here.
+            ... FT   DOMAIN          14..251
+            ... FT                   /note="ABC transporter 1"'''
+            >>> processed = validator.preprocess_uniprot_content(uniprot)
+            >>> "FUNCTION: Part of an ABC transporter. More text here" in processed
+            True
+            >>> 'DOMAIN          14..251 /note="ABC transporter 1"' in processed
+            True
+        """
+        lines = content.split('\n')
+        processed_lines = []
+        current_section = None
+        current_text = []
+        
+        for line in lines:
+            if not line.strip():
+                continue
+                
+            # Check if line starts with a two-letter code
+            if len(line) >= 2 and line[:2].isupper() and (len(line) < 3 or line[2] == ' '):
+                prefix = line[:2]
+                rest = line[5:] if len(line) > 5 else ""  # Skip prefix and spaces
+                
+                # If we're switching sections, save the previous one
+                if current_section and current_section != prefix:
+                    if current_text:
+                        processed_lines.append(' '.join(current_text))
+                    current_text = []
+                
+                current_section = prefix
+                if rest.strip():
+                    # Handle FT lines specially to preserve structure
+                    if prefix == 'FT':
+                        # Remove extra spaces but keep the structure
+                        rest = rest.strip()
+                        if rest and not rest.startswith('/'):
+                            # This is a feature location line
+                            current_text.append(rest)
+                        elif rest.startswith('/'):
+                            # This is a qualifier line, append to previous
+                            if current_text:
+                                current_text[-1] = current_text[-1] + ' ' + rest
+                            else:
+                                current_text.append(rest)
+                    else:
+                        current_text.append(rest.strip())
+            elif current_section:
+                # Continuation line without prefix
+                continuation = line.strip()
+                if continuation:
+                    if current_section == 'FT' and continuation.startswith('/'):
+                        # FT qualifier continuation
+                        if current_text:
+                            current_text[-1] = current_text[-1] + ' ' + continuation
+                        else:
+                            current_text.append(continuation)
+                    else:
+                        current_text.append(continuation)
+        
+        # Don't forget the last section
+        if current_text:
+            processed_lines.append(' '.join(current_text))
+        
+        # Join all processed lines with newlines to maintain some structure
+        return '\n'.join(processed_lines)
 
     def find_text_in_publication(
         self, text: str, publication_content: str
@@ -375,80 +561,129 @@ class SupportingTextValidator:
         supporting_text: str,
         reference_id: str,
         annotation_path: str,
+        yaml_data: Dict[str, Any] = None,
     ) -> Optional[SupportingTextValidationResult]:
         """Core validation method for checking supporting text against a reference.
 
         This method contains the shared logic for validating supporting_text
-        against a referenced publication. It handles PMID extraction, publication
-        loading, text matching, and error message generation.
+        against a referenced publication or UniProt entry. It handles PMID/UniProt
+        extraction, content loading, text matching, and error message generation.
 
-        Only validates PMID references. Returns None for non-PMID references
-        (like GO_REF or file: references) since they don't have publication text
-        to validate against.
+        Only validates PMID and UniProt references. Returns None for other references
+        (like GO_REF or file: references) since they don't have text to validate against.
 
         Args:
             supporting_text: The text to validate
-            reference_id: Reference ID (e.g., "PMID:12345678", "GO_REF:0000120", "file:...")
+            reference_id: Reference ID (e.g., "PMID:12345678", "uniprot:P12345", "GO_REF:0000120")
             annotation_path: Path for error reporting (e.g., "references[0].findings[1].supporting_text")
+            yaml_data: Optional YAML data to help locate UniProt files
 
         Returns:
-            SupportingTextValidationResult with validation details, or None if not a PMID reference
+            SupportingTextValidationResult with validation details, or None if not a validatable reference
         """
-        # Skip validation for non-PMID references
-        # GO_REF references are computational/method references without text
-        # file: references should be validated separately if needed
+        # Try PMID first
         pmid = self.extract_pmid_from_reference(reference_id)
-        if not pmid:
-            # Not a PMID reference - skip validation
-            return None
-
-        # Create result object for PMID validation
-        result = SupportingTextValidationResult(
-            annotation_path=annotation_path,
-            supporting_text=supporting_text,
-            reference_id=reference_id,
-        )
-
-        # Load publication
-        publication_content = self.load_publication(pmid)
-        if not publication_content:
-            result.error_message = f"Publication {reference_id} not found in cache"
-            result.is_valid = False
-            return result
-
-        # Check if supporting_text appears in publication
-        is_found, similarity, best_match = self.find_text_in_publication(
-            supporting_text, publication_content
-        )
-
-        result.found_in_publication = is_found
-        result.similarity_score = similarity
-        result.is_valid = is_found
-        result.best_match = best_match
-
-        # Generate error message if text not found
-        if not is_found:
-            # Truncate supporting text for display
-            text_preview = (
-                (supporting_text[:80] + "...")
-                if len(supporting_text) > 80
-                else supporting_text
+        if pmid:
+            # Create result object for PMID validation
+            result = SupportingTextValidationResult(
+                annotation_path=annotation_path,
+                supporting_text=supporting_text,
+                reference_id=reference_id,
             )
 
-            if similarity > 0.5:
-                result.error_message = (
-                    f'Supporting text "{text_preview}" not found in {reference_id} '
-                    f"(best similarity: {similarity:.1%})"
-                )
-                # this is misleading
-                #if best_match:
-                #    result.suggested_fix = f'Consider using: "{best_match[:200]}..."'
-            else:
-                result.error_message = (
-                    f'Supporting text "{text_preview}" not found in {reference_id}'
+            # Load publication
+            publication_content = self.load_publication(pmid)
+            if not publication_content:
+                result.error_message = f"Publication {reference_id} not found in cache"
+                result.is_valid = False
+                return result
+
+            # Check if supporting_text appears in publication
+            is_found, similarity, best_match = self.find_text_in_publication(
+                supporting_text, publication_content
+            )
+
+            result.found_in_publication = is_found
+            result.similarity_score = similarity
+            result.is_valid = is_found
+            result.best_match = best_match
+
+            # Generate error message if text not found
+            if not is_found:
+                # Truncate supporting text for display
+                text_preview = (
+                    (supporting_text[:80] + "...")
+                    if len(supporting_text) > 80
+                    else supporting_text
                 )
 
-        return result
+                if similarity > 0.5:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id} '
+                        f"(best similarity: {similarity:.1%})"
+                    )
+                else:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id}'
+                    )
+
+            return result
+
+        # Try UniProt
+        uniprot_id = self.extract_uniprot_from_reference(reference_id)
+        if uniprot_id:
+            # Create result object for UniProt validation
+            result = SupportingTextValidationResult(
+                annotation_path=annotation_path,
+                supporting_text=supporting_text,
+                reference_id=reference_id,
+            )
+
+            # Load UniProt file
+            uniprot_content = self.load_uniprot_file(uniprot_id, yaml_data)
+            if not uniprot_content:
+                result.error_message = f"UniProt file for {reference_id} not found"
+                result.is_valid = False
+                return result
+
+            # Preprocess UniProt content to remove line prefixes
+            processed_content = self.preprocess_uniprot_content(uniprot_content)
+            
+            # Check if supporting_text appears in UniProt file
+            is_found, similarity, best_match = self.find_text_in_publication(
+                supporting_text, processed_content
+            )
+
+            result.found_in_publication = is_found
+            result.similarity_score = similarity
+            result.is_valid = is_found
+            result.best_match = best_match
+
+            # Generate error message if text not found
+            if not is_found:
+                # Truncate supporting text for display
+                text_preview = (
+                    (supporting_text[:80] + "...")
+                    if len(supporting_text) > 80
+                    else supporting_text
+                )
+
+                if similarity > 0.5:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id} '
+                        f"(best similarity: {similarity:.1%})"
+                    )
+                else:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id}'
+                    )
+
+            return result
+
+        # Not a PMID or UniProt reference - skip validation
+        # GO_REF references are computational/method references without text
+        # file: references should be validated separately if needed
+        return None
 
     def validate_annotation_supported_by(
         self, annotation: Dict[str, Any], annotation_index: int, data: Dict[str, Any]
@@ -492,9 +727,9 @@ class SupportingTextValidator:
             # Use the core validation method
             annotation_path = f"existing_annotations[{annotation_index}].review.supported_by[{sb_idx}].supporting_text"
             result = self.validate_supporting_text_against_reference(
-                supporting_text, reference_id, annotation_path
+                supporting_text, reference_id, annotation_path, data
             )
-            # Only add result if it's a PMID reference that was validated
+            # Only add result if it's a validatable reference (PMID or UniProt)
             if result:
                 results.append(result)
 
@@ -506,6 +741,7 @@ class SupportingTextValidator:
         reference_id: str,
         finding_index: int,
         ref_index: int,
+        data: Dict[str, Any] = None,
     ) -> Optional[SupportingTextValidationResult]:
         """Validate supporting_text for a single finding in references section.
 
@@ -530,7 +766,7 @@ class SupportingTextValidator:
             f"references[{ref_index}].findings[{finding_index}].supporting_text"
         )
         return self.validate_supporting_text_against_reference(
-            supporting_text, reference_id, annotation_path
+            supporting_text, reference_id, annotation_path, data
         )
 
     def validate_data(self, data: Dict[str, Any]) -> SupportingTextValidationReport:
@@ -593,7 +829,7 @@ class SupportingTextValidator:
             >>> print(f"Valid: {report2.is_valid}")
             Valid: False
             >>> print(report2.results[0].error_message)
-            PMID reference PMID:12345678 has finding without supporting_text - findings from publications must be supported with quotes
+            Reference PMID:12345678 has finding without supporting_text - findings from publications/UniProt must be supported with quotes
         """
         report = SupportingTextValidationReport()
 
@@ -614,8 +850,8 @@ class SupportingTextValidator:
                     # Count as an annotation for reporting purposes
                     report.total_annotations += 1
 
-                    # NEW: Add warning if PMID reference has findings without supporting_text
-                    if ref_id.startswith("PMID:") and findings:
+                    # NEW: Add warning if PMID or UniProt reference has findings without supporting_text
+                    if (ref_id.startswith("PMID:") or ref_id.lower().startswith("uniprot:")) and findings:
                         supporting_text = finding.get("supporting_text", "").strip()
                         if not supporting_text:
                             # Create a warning result for PMID findings without supporting_text
@@ -624,7 +860,7 @@ class SupportingTextValidator:
                                 annotation_path=f"references[{ref_idx}].findings[{finding_idx}]",
                                 reference_id=ref_id,
                                 supporting_text="",
-                                error_message=f"PMID reference {ref_id} has finding without supporting_text - findings from publications must be supported with quotes",
+                                error_message=f"Reference {ref_id} has finding without supporting_text - findings from publications/UniProt must be supported with quotes",
                                 found_in_publication=False,
                                 similarity_score=0.0,
                             )
@@ -634,7 +870,7 @@ class SupportingTextValidator:
                             continue
 
                     result = self.validate_finding_supporting_text(
-                        finding, ref_id, finding_idx, ref_idx
+                        finding, ref_id, finding_idx, ref_idx, data
                     )
 
                     if result:

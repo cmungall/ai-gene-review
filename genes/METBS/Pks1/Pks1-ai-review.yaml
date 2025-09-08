@@ -105,17 +105,17 @@ references:
   title: UniProt database entry for PKS1_METBS
   findings:
   - statement: PKS1 contains complete Type I NR-PKS domain architecture
-    supporting_text: Contains SAT, KS, MAT, PT, dual ACP, and TE domains
+    supporting_text: 'DOMAIN: Multidomain protein; including a starter unit:ACP transacylase (SAT) ... a ketosynthase (KS) ... a malonyl-CoA:ACP transacylase (MAT) ... a product template (PT) domain ... an acyl-carrier protein (ACP) ... thioesterase (TE) domain'
   - statement: Produces specific anthraquinone intermediate
-    supporting_text: Produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone
+    supporting_text: 'synthase Pks1 produces 1-acetyl-2,4,6,8-tetrahydroxy-9,10-anthraquinone'
   - statement: Functions in multi-enzyme pigment biosynthesis pathway
-    supporting_text: Works with EthD and Mlac1 in pigment biosynthesis pathway
+    supporting_text: 'dehydratase EthD and the laccase Mlac1 further convert the [anthraquinone derivative]'
   - statement: Expression controlled by conidiation regulatory cascade
-    supporting_text: Regulated by BrlA-AbaA-WetA conidiation pathway
+    supporting_text: 'conserved conidiation regulatory pathway containing BrlA, AbaA and WetA regulates expression'
   - statement: All catalytic domains contain conserved active sites
-    supporting_text: Active sites identified for all catalytic domains
+    supporting_text: 'DOMAIN: Multidomain protein; including ... a ketosynthase (KS) that catalyzes ... a malonyl-CoA:ACP transacylase (MAT) that selects and transfers'
   - statement: ACP domains require phosphopantetheinylation for function
-    supporting_text: Phosphopantetheinylation at S1712 and S1830
+    supporting_text: "MOD_RES 1712 /note=\"O-(pantetheine 4'-phosphoryl)serine\" ... MOD_RES 1830 /note=\"O-(pantetheine 4'-phosphoryl)serine\""
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO terms
   findings: []

@@ -94,13 +94,13 @@ references:
   title: UniProt entry for A0B297 - Putative ribose/galactose/methyl galactoside import ATP-binding protein 2
   findings:
     - statement: 'Contains two ABC transporter domains'
-      supporting_text: 'DOMAIN 14..251 /note="ABC transporter 1" and DOMAIN 262..507 /note="ABC transporter 2"'
+      supporting_text: 'DOMAIN 14..251 /note="ABC transporter 1" ... DOMAIN 262..507 /note="ABC transporter 2"'
     - statement: 'ATP binding site confirmed'
       supporting_text: 'BINDING 46..53 /ligand="ATP" /ligand_id="ChEBI:CHEBI:30616"'
     - statement: 'Catalyzes ATP-coupled sugar transport'
-      supporting_text: 'EC=7.5.2.11 (D-galactose transport) and EC=7.5.2.7 (D-ribose transport)'
+      supporting_text: 'EC=7.5.2.7 ... EC=7.5.2.11'
     - statement: 'Peripheral membrane protein at inner membrane'
-      supporting_text: 'SUBCELLULAR LOCATION: Cell inner membrane; Peripheral membrane protein'
+      supporting_text: 'SUBCELLULAR LOCATION: Cell inner membrane ... Peripheral membrane protein'
     - statement: 'Member of CUT2 family'
       supporting_text: 'Belongs to the ABC transporter superfamily. Carbohydrate importer 2 (CUT2) (TC 3.A.1.2) family'
 core_functions:

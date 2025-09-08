@@ -2,10 +2,13 @@
 """CLI wrapper for OpenAI Deep Research API for gene research."""
 
 import sys
+import time
+import traceback
 from pathlib import Path
 from typing import Optional
 
 import click
+import httpx
 from openai import OpenAI
 
 from ai_gene_review.etl.gene import expand_organism_name
@@ -38,6 +41,18 @@ from ai_gene_review.etl.gene import expand_organism_name
     type=click.Path(exists=True),
     help="File containing custom system prompt (optional)",
 )
+@click.option(
+    "--timeout",
+    type=int,
+    default=600,
+    help="Request timeout in seconds (default: 600, i.e., 10 minutes)",
+)
+@click.option(
+    "--max-retries",
+    type=int,
+    default=3,
+    help="Maximum number of retries on timeout (default: 3)",
+)
 def research_gene(
     gene_symbol: str,
     organism: str,
@@ -46,6 +61,8 @@ def research_gene(
     api_key: Optional[str],
     save_reasoning: bool,
     system_prompt_file: Optional[str],
+    timeout: int,
+    max_retries: int,
 ):
     """Research a gene using OpenAI's Deep Research API.
 
@@ -64,8 +81,16 @@ def research_gene(
         )
         sys.exit(1)
 
-    # Initialize OpenAI client
-    client = OpenAI(api_key=api_key)
+    # Initialize OpenAI client with custom timeout
+    http_client = httpx.Client(
+        timeout=httpx.Timeout(
+            connect=30.0,  # Connection timeout
+            read=timeout,  # Read timeout
+            write=30.0,  # Write timeout
+            pool=30.0,  # Pool timeout
+        )
+    )
+    client = OpenAI(api_key=api_key, http_client=http_client)
 
     # Determine output directory
     if output_dir:
@@ -101,11 +126,21 @@ Format as a comprehensive research report with citations suitable for Gene Ontol
 
     click.echo(f"Starting deep research on {gene_symbol} ({organism_full})...")
     click.echo(f"Output will be saved to: {output_path}")
+    click.echo(f"Timeout set to: {timeout} seconds")
+    click.echo(f"Max retries: {max_retries}")
 
-    try:
-        # Make the Deep Research API call
-        click.echo("⏳ This may take several minutes to complete...")
-        response = client.responses.create(
+    response = None
+    last_error = None
+    
+    for attempt in range(max_retries):
+        try:
+            # Make the Deep Research API call
+            if attempt > 0:
+                click.echo(f"\n🔄 Retry attempt {attempt + 1}/{max_retries}...")
+            else:
+                click.echo("\n⏳ This may take several minutes to complete...")
+            
+            response = client.responses.create(
             model=model,
             input=[
                 {
@@ -119,6 +154,49 @@ Format as a comprehensive research report with citations suitable for Gene Ontol
             ],
             tools=[{"type": "web_search_preview"}],
         )
+            break  # Success, exit retry loop
+            
+        except httpx.ReadTimeout as e:
+            last_error = e
+            click.echo(f"\n⚠️  Timeout error (attempt {attempt + 1}/{max_retries}): {e}", err=True)
+            if attempt < max_retries - 1:
+                click.echo("Will retry in 5 seconds...", err=True)
+                import time
+                time.sleep(5)
+            
+        except httpx.HTTPStatusError as e:
+            last_error = e
+            click.echo(f"\n⚠️  HTTP error (attempt {attempt + 1}/{max_retries}): {e}", err=True)
+            click.echo(f"Status code: {e.response.status_code}", err=True)
+            if attempt < max_retries - 1:
+                click.echo("Will retry in 5 seconds...", err=True)
+                import time
+                time.sleep(5)
+                
+        except Exception as e:
+            last_error = e
+            click.echo(f"\n⚠️  Unexpected error (attempt {attempt + 1}/{max_retries}): {type(e).__name__}: {e}", err=True)
+            if attempt < max_retries - 1:
+                click.echo("Will retry in 5 seconds...", err=True)
+                import time
+                time.sleep(5)
+    
+    if response is None:
+        click.echo(f"\n❌ Failed after {max_retries} attempts", err=True)
+        click.echo("\n📋 Full stacktrace:", err=True)
+        click.echo("-" * 60, err=True)
+        traceback.print_exc()
+        click.echo("-" * 60, err=True)
+        
+        if isinstance(last_error, httpx.ReadTimeout):
+            click.echo("\n💡 Suggestions:", err=True)
+            click.echo("  - Try increasing the timeout with --timeout option (e.g., --timeout 1200 for 20 minutes)", err=True)
+            click.echo("  - The deep research models can take 10-20 minutes for complex queries", err=True)
+            click.echo("  - Check OpenAI service status at https://status.openai.com/", err=True)
+        
+        sys.exit(1)
+    
+    try:
 
         # Extract the final report
         final_output = response.output[-1]
@@ -189,8 +267,17 @@ Format as a comprehensive research report with citations suitable for Gene Ontol
                 click.echo("ℹ️  No reasoning steps available to save")
 
     except Exception as e:
-        click.echo(f"❌ Error during research: {e}", err=True)
+        click.echo(f"\n❌ Error processing response: {type(e).__name__}: {e}", err=True)
+        click.echo("\n📋 Full stacktrace:", err=True)
+        click.echo("-" * 60, err=True)
+        traceback.print_exc()
+        click.echo("-" * 60, err=True)
         sys.exit(1)
+    
+    finally:
+        # Clean up HTTP client
+        if 'http_client' in locals():
+            http_client.close()
 
 
 if __name__ == "__main__":

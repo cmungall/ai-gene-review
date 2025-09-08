@@ -1,0 +1,77 @@
+{
+  "pdb_id": "1HHO",
+  "chains": [
+    {
+      "chain_id": "A",
+      "num_residues": 192,
+      "start_residue": 1,
+      "end_residue": 198
+    },
+    {
+      "chain_id": "B",
+      "num_residues": 209,
+      "start_residue": 1,
+      "end_residue": 211
+    }
+  ],
+  "residues_analyzed": {
+    "position_87": [
+      {
+        "chain": "A",
+        "residue": "HIS",
+        "expected": "HIS",
+        "matches": true
+      },
+      {
+        "chain": "B",
+        "residue": "THR",
+        "expected": "HIS",
+        "matches": false
+      }
+    ],
+    "position_92": [
+      {
+        "chain": "A",
+        "residue": "ARG",
+        "expected": "HIS",
+        "matches": false
+      },
+      {
+        "chain": "B",
+        "residue": "HIS",
+        "expected": "HIS",
+        "matches": true
+      }
+    ]
+  },
+  "num_chains": 2,
+  "total_residues": 401,
+  "form": "multi-chain (possibly cleaved)",
+  "modified_residues": [
+    {
+      "chain": "A",
+      "position": 142,
+      "residue": "PO4"
+    },
+    {
+      "chain": "A",
+      "position": 143,
+      "residue": "HEM"
+    },
+    {
+      "chain": "A",
+      "position": 150,
+      "residue": "OXY"
+    },
+    {
+      "chain": "B",
+      "position": 147,
+      "residue": "HEM"
+    },
+    {
+      "chain": "B",
+      "position": 150,
+      "residue": "OXY"
+    }
+  ]
+}

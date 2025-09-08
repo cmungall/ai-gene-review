@@ -1,0 +1,93 @@
+ID   ACRF8_BPZF4             Reviewed;          92 AA.
+AC   H9C181;
+DT   05-FEB-2025, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2012, sequence version 1.
+DT   18-JUN-2025, entry version 20.
+DE   RecName: Full=Anti-CRISPR protein AcrF8;
+DE   AltName: Full=AcrIF8;
+GN   ORFNames=ZF40_0031;
+OS   Pectobacterium phage ZF40 (Bacteriophage ZF40).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes.
+OX   NCBI_TaxID=1127516;
+OH   NCBI_TaxID=554; Pectobacterium carotovorum (Erwinia carotovora).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=22792219; DOI=10.1371/journal.pone.0040102;
+RA   Comeau A.M., Tremblay D., Moineau S., Rattei T., Kushkina A.I.,
+RA   Tovkach F.I., Krisch H.M., Ackermann H.W.;
+RT   "Phage morphology recapitulates phylogeny: the comparative genomics of a
+RT   new group of myoviruses.";
+RL   PLoS ONE 7:E40102-E40102(2012).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=31474367; DOI=10.1016/j.cell.2019.07.046;
+RA   Stanley S.Y., Borges A.L., Chen K.H., Swaney D.L., Krogan N.J.,
+RA   Bondy-Denomy J., Davidson A.R.;
+RT   "Anti-CRISPR-Associated Proteins Are Crucial Repressors of Anti-CRISPR
+RT   Transcription.";
+RL   Cell 178:1452-1464.e13(2019).
+RN   [3]
+RP   ACTIVITY REGULATION.
+RX   PubMed=38987591; DOI=10.1038/s41586-024-07644-1;
+RA   Birkholz N., Kamata K., Feussner M., Wilkinson M.E., Cuba Samaniego C.,
+RA   Migur A., Kimanius D., Ceelen M., Went S.C., Usher B., Blower T.R.,
+RA   Brown C.M., Beisel C.L., Weinberg Z., Fagerlund R.D., Jackson S.A.,
+RA   Fineran P.C.;
+RT   "Phage anti-CRISPR control by an RNA- and DNA-binding helix-turn-helix
+RT   protein.";
+RL   Nature 631:670-677(2024).
+RN   [4]
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.42 ANGSTROMS), INTERACTION WITH HOST
+RP   RRNA-GUIDED SURVEILLANCE COMPLEX (CSY COMPLEX), AND MUTAGENESIS OF ILE-31
+RP   AND ALA-32.
+RX   PubMed=32170016; DOI=10.1073/pnas.1922638117;
+RA   Zhang K., Wang S., Li S., Zhu Y., Pintilie G.D., Mou T.C., Schmid M.F.,
+RA   Huang Z., Chiu W.;
+RT   "Inhibition mechanisms of AcrF9, AcrF8, and AcrF6 against type I-F CRISPR-
+RT   Cas complex revealed by cryo-EM.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 117:7176-7182(2020).
+CC   -!- FUNCTION: Anti-CRISPR protein that inactivates the type I-F CRISPR-Cas
+CC       systems of the host by blocking its ability to recognize target DNA
+CC       (PubMed:31474367). Inhibits therefore the degradation of the viral DNA
+CC       by the host (PubMed:31474367). {ECO:0000269|PubMed:31474367}.
+CC   -!- ACTIVITY REGULATION: Inhibited by phage protein Aca2 repressor (AC
+CC       H9C180) both at the transcription and translatio levels.
+CC       {ECO:0000269|PubMed:38987591}.
+CC   -!- SUBUNIT: Interacts with host rRNA-guided surveillance complex (Csy
+CC       complex) used to recognize the invading DNA; this interaction prevents
+CC       DNA hybridization in the Csy complex (PubMed:32170016). Binds to a the
+CC       Csy spiral backbone (PubMed:32170016). {ECO:0000269|PubMed:32170016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JQ177065; AFC22483.1; -; Genomic_DNA.
+DR   RefSeq; YP_007006940.1; NC_019522.1.
+DR   PDB; 6VQW; EM; 3.42 A; I=1-92.
+DR   PDBsum; 6VQW; -.
+DR   EMDB; EMD-21359; -.
+DR   SMR; H9C181; -.
+DR   GeneID; 14012447; -.
+DR   KEGG; vg:14012447; -.
+DR   Proteomes; UP000005230; Segment.
+DR   GO; GO:0052170; P:symbiont-mediated suppression of host innate immune response; IEA:UniProtKB-KW.
+DR   CDD; cd22241; AcrIF8; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Host-virus interaction;
+KW   Inhibition of host innate immune response by virus; Reference proteome;
+KW   Viral immunoevasion.
+FT   CHAIN           1..92
+FT                   /note="Anti-CRISPR protein AcrF8"
+FT                   /id="PRO_0000461779"
+FT   MUTAGEN         31
+FT                   /note="I->A: Loss of inhibition of target DNA cleavage by
+FT                   the host Csy complex."
+FT                   /evidence="ECO:0000269|PubMed:32170016"
+FT   MUTAGEN         32
+FT                   /note="A->G: Loss of inhibition of target DNA cleavage by
+FT                   the host Csy complex."
+FT                   /evidence="ECO:0000269|PubMed:32170016"
+SQ   SEQUENCE   92 AA;  10196 MW;  0CFF2FB1AB4814EA CRC64;
+     MARIAPNEDS TMSTAYIIFN SSVAAVVDTE IANGANVTFS TVTVKEEINA NRDFNLVNAQ
+     NGKISRAKRW GNEASKCEYF GREINPTEFF IK
+//

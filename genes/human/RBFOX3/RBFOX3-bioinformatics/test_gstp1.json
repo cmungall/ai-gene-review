@@ -1,0 +1,92 @@
+{
+  "protein_id": "P09211",
+  "description": "sp|P09211|GSTP1_HUMAN Glutathione S-transferase P OS=Homo sapiens OX=9606 GN=GSTP1 PE=1 SV=2",
+  "properties": {
+    "length": 210,
+    "molecular_weight_kda": 27.1,
+    "basic_residues": 22,
+    "acidic_residues": 23,
+    "net_charge": -1
+  },
+  "rrm_analysis": {
+    "rnp1_motifs": [],
+    "predicted_rrm_domains": [],
+    "rnp2_motifs": [],
+    "has_rrm": false
+  },
+  "disorder_analysis": {
+    "disordered_regions": [],
+    "has_disorder": false
+  },
+  "rna_binding_features": {
+    "basic_patches": [],
+    "aromatic_clusters": [
+      [
+        0,
+        10,
+        3
+      ],
+      [
+        1,
+        11,
+        3
+      ],
+      [
+        2,
+        12,
+        3
+      ],
+      [
+        3,
+        13,
+        3
+      ],
+      [
+        102,
+        112,
+        3
+      ],
+      [
+        103,
+        113,
+        3
+      ]
+    ]
+  },
+  "protein_interactions": {
+    "proline_rich": [
+      {
+        "start": 1,
+        "end": 3,
+        "sequence": "PP"
+      }
+    ],
+    "sh3_motifs": [],
+    "ww_motifs": []
+  },
+  "ptm_sites": {
+    "phosphorylation": {
+      "pka_sites": [
+        {
+          "position": 182,
+          "sequence": "RLS"
+        }
+      ],
+      "ck2_sites": [
+        {
+          "position": 27,
+          "sequence": "SWKE"
+        },
+        {
+          "position": 37,
+          "sequence": "TWQE"
+        },
+        {
+          "position": 109,
+          "sequence": "TNYE"
+        }
+      ]
+    },
+    "sumoylation_sites": []
+  }
+}

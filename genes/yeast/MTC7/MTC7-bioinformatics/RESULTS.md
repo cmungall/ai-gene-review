@@ -330,5 +330,18 @@ Analysis performed using:
 
 ---
 
+## Quality Checklist
+
+- [x] Scripts present and executable
+- [ ] Scripts accept command-line arguments (some hardcoding issues noted in analysis)
+- [x] Scripts can analyze other proteins (67% of scripts tested with other proteins)
+- [x] Results are reproducible
+- [x] Methods clearly documented
+- [x] Conclusions supported by evidence
+- [ ] No hardcoded values (hardcoded TM regions 13-33, 42-62; some MTC7-specific features)
+- [x] Output files generated as described
+
+---
+
 *Analysis completed: 2025*
 *MTC7_YEAST (P32633): 139 amino acids*

@@ -1,0 +1,162 @@
+ID   ACA2_BPZF4              Reviewed;         116 AA.
+AC   H9C180;
+DT   05-FEB-2025, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2012, sequence version 1.
+DT   18-JUN-2025, entry version 35.
+DE   RecName: Full=Aca2 repressor;
+DE   AltName: Full=Aca2 regulator;
+DE   AltName: Full=Gene product 30;
+DE            Short=Gp30;
+GN   ORFNames=ZF40_0030;
+OS   Pectobacterium phage ZF40 (Bacteriophage ZF40).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes.
+OX   NCBI_TaxID=1127516;
+OH   NCBI_TaxID=554; Pectobacterium carotovorum (Erwinia carotovora).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=22792219; DOI=10.1371/journal.pone.0040102;
+RA   Comeau A.M., Tremblay D., Moineau S., Rattei T., Kushkina A.I.,
+RA   Tovkach F.I., Krisch H.M., Ackermann H.W.;
+RT   "Phage morphology recapitulates phylogeny: the comparative genomics of a
+RT   new group of myoviruses.";
+RL   PLoS ONE 7:E40102-E40102(2012).
+RN   [2]
+RP   FUNCTION, SUBUNIT, DNA-BINDING, AND DOMAIN.
+RX   PubMed=31428783; DOI=10.1093/nar/gkz721;
+RA   Birkholz N., Fagerlund R.D., Smith L.M., Jackson S.A., Fineran P.C.;
+RT   "The autoregulator Aca2 mediates anti-CRISPR repression.";
+RL   Nucleic Acids Res. 47:9658-9665(2019).
+RN   [3] {ECO:0007744|PDB:7VJO, ECO:0007744|PDB:7VJP}
+RP   X-RAY CRYSTALLOGRAPHY (1.31 ANGSTROMS) IN COMPLEX WITH MG(2+), FUNCTION,
+RP   SUBUNIT, AND MUTAGENESIS OF ARG-30; GLN-33; TYR-34 AND ARG-39.
+RX   PubMed=34756887; DOI=10.1016/j.jbc.2021.101357;
+RA   Liu Y., Zhang L., Guo M., Chen L., Wu B., Huang H.;
+RT   "Structural basis for anti-CRISPR repression mediated by bacterial operon
+RT   proteins Aca1 and Aca2.";
+RL   J. Biol. Chem. 297:101357-101357(2021).
+RN   [4] {ECO:0007744|PDB:7B5J}
+RP   X-RAY CRYSTALLOGRAPHY (1.34 ANGSTROMS) OF 2-116, DOMAIN, AND SUBUNIT.
+RX   PubMed=34116143; DOI=10.1016/j.jsb.2021.107752;
+RA   Usher B., Birkholz N., Beck I.N., Fagerlund R.D., Jackson S.A.,
+RA   Fineran P.C., Blower T.R.;
+RT   "Crystal structure of the anti-CRISPR repressor Aca2.";
+RL   J. Struct. Biol. 213:107752-107752(2021).
+RN   [5] {ECO:0007744|PDB:7VJQ}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (2.79 ANGSTROMS) OF 1-116, FUNCTION,
+RP   DOMAIN, MUTAGENESIS OF ARG-30 AND ASP-45, DNA-BINDING, AND RNA-BINDING.
+RX   PubMed=38987591; DOI=10.1038/s41586-024-07644-1;
+RA   Birkholz N., Kamata K., Feussner M., Wilkinson M.E., Cuba Samaniego C.,
+RA   Migur A., Kimanius D., Ceelen M., Went S.C., Usher B., Blower T.R.,
+RA   Brown C.M., Beisel C.L., Weinberg Z., Fagerlund R.D., Jackson S.A.,
+RA   Fineran P.C.;
+RT   "Phage anti-CRISPR control by an RNA- and DNA-binding helix-turn-helix
+RT   protein.";
+RL   Nature 631:670-677(2024).
+CC   -!- FUNCTION: Represses the expression of the acrIF8-aca2 operon
+CC       (PubMed:31428783, PubMed:34756887, PubMed:38987591). Regulates the
+CC       transcription and translation of phage anti-CRISPR acrIF8 gene (AC
+CC       H9C181), which is necessary because the expression of this gene rises
+CC       rapidely upon infection to enable evasion from host CRISPR-Cas defense
+CC       but is probably toxic to the host cell (PubMed:38987591). Aca2
+CC       repressor can inhibit acrIF8 transcriptionally through DNA binding to 2
+CC       inverted repeats in the promoter region and translationally by binding
+CC       conserved RNA stem-loops on mRNAs thereby blocking ribosome access
+CC       (PubMed:31428783, PubMed:38987591). Both modes of regulation together
+CC       are essential for complete tight repression (PubMed:38987591).
+CC       {ECO:0000269|PubMed:31428783, ECO:0000269|PubMed:34756887,
+CC       ECO:0000269|PubMed:38987591}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:31428783,
+CC       ECO:0000269|PubMed:34116143, ECO:0000269|PubMed:34756887}.
+CC   -!- DOMAIN: The N-terminus HTH domain is involved in DNA binding and
+CC       inhibition of transcription (PubMed:31428783, PubMed:34116143,
+CC       PubMed:38987591). The C-terminus is involved in dimerization
+CC       (PubMed:34116143). {ECO:0000269|PubMed:31428783,
+CC       ECO:0000269|PubMed:34116143, ECO:0000269|PubMed:38987591}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JQ177065; AFC22482.1; -; Genomic_DNA.
+DR   RefSeq; YP_007006939.1; NC_019522.1.
+DR   PDB; 7B5J; X-ray; 1.34 A; A/B=2-116.
+DR   PDB; 7VJO; X-ray; 1.31 A; A/B=1-116.
+DR   PDB; 7VJP; X-ray; 1.59 A; A/B=1-116.
+DR   PDB; 7VJQ; X-ray; 2.79 A; A/B=1-116.
+DR   PDB; 8W35; EM; 2.61 A; A/B=1-116.
+DR   PDBsum; 7B5J; -.
+DR   PDBsum; 7VJO; -.
+DR   PDBsum; 7VJP; -.
+DR   PDBsum; 7VJQ; -.
+DR   PDBsum; 8W35; -.
+DR   EMDB; EMD-43762; -.
+DR   SMR; H9C180; -.
+DR   GeneID; 14012446; -.
+DR   KEGG; vg:14012446; -.
+DR   Proteomes; UP000005230; Segment.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3100.10; Putative cytoplasmic protein; 1.
+DR   InterPro; IPR015060; Aca2_YdiL-like.
+DR   InterPro; IPR010982; Lambda_DNA-bd_dom_sf.
+DR   InterPro; IPR027910; YdiL_sf.
+DR   Pfam; PF08965; Aca2_YdiL; 1.
+DR   SUPFAM; SSF47413; lambda repressor-like DNA-binding domains; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; DNA-binding; Metal-binding; Reference proteome; Repressor;
+KW   RNA-binding.
+FT   CHAIN           1..116
+FT                   /note="Aca2 repressor"
+FT                   /id="PRO_0000461778"
+FT   BINDING         34
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000269|PubMed:38987591"
+FT   BINDING         92
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007744|PDB:7VJO"
+FT   MUTAGEN         30
+FT                   /note="R->A: Loss of regulation by Aca2 at both the
+FT                   transcription and traduction levels."
+FT                   /evidence="ECO:0000269|PubMed:34756887,
+FT                   ECO:0000269|PubMed:38987591"
+FT   MUTAGEN         33
+FT                   /note="Q->A: Loss of regulation by Aca2 at the
+FT                   transcription level."
+FT                   /evidence="ECO:0000269|PubMed:34756887"
+FT   MUTAGEN         34
+FT                   /note="Y->A: Loss of regulation by Aca2 at the
+FT                   transcription level."
+FT                   /evidence="ECO:0000269|PubMed:34756887"
+FT   MUTAGEN         39
+FT                   /note="R->A: Loss of regulation by Aca2 at the
+FT                   transcription level."
+FT                   /evidence="ECO:0000269|PubMed:34756887"
+FT   MUTAGEN         45
+FT                   /note="D->A: Specifically abrogates RNA-mediated
+FT                   translational repression; no effect on transcriptional
+FT                   (DNA-based) repression."
+FT                   /evidence="ECO:0000269|PubMed:38987591"
+FT   HELIX           3..12
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   HELIX           17..23
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   HELIX           29..37
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   STRAND          38..40
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   HELIX           44..69
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   STRAND          75..77
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   HELIX           82..88
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   HELIX           94..109
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+FT   STRAND          114..116
+FT                   /evidence="ECO:0007829|PDB:7VJO"
+SQ   SEQUENCE   116 AA;  13324 MW;  EE586E33DF557E35 CRC64;
+     MTNKELQAIR KLLMLDVSEA AEHIGRVSAR SWQYWESGRS AVPDDVEQEM LDLASVRIEM
+     MSAIDKRLAD GERPKLRFYN KLDEYLADNP DHNVIGWRLS QSVAALYYTE GHADLI
+//

@@ -1,45 +1,201 @@
 {
   "pdb_id": "2X1C",
-  "description": "Precursor form (Cys103Ala mutant)",
   "chains": [
     {
       "chain_id": "A",
-      "num_residues": 521
+      "num_residues": 521,
+      "start_residue": 1,
+      "end_residue": 2161
     },
     {
       "chain_id": "B",
-      "num_residues": 584
+      "num_residues": 584,
+      "start_residue": 1,
+      "end_residue": 2221
     },
     {
       "chain_id": "C",
-      "num_residues": 495
+      "num_residues": 495,
+      "start_residue": 1,
+      "end_residue": 2138
     },
     {
       "chain_id": "D",
-      "num_residues": 421
+      "num_residues": 421,
+      "start_residue": 1,
+      "end_residue": 2065
     }
   ],
-  "catalytic_residues": {
-    "position_102": {
-      "chain": "D",
-      "residue": "GLY",
-      "expected": "GLY",
-      "matches": true
-    },
-    "position_103": {
-      "chain": "D",
-      "residue": "ALA",
-      "expected": "CYS (or ALA in mutant)",
-      "matches": true
-    },
-    "position_309": {
-      "chain": "D",
-      "residue": "SER",
-      "expected": "SER",
-      "matches": true
-    }
+  "residues_analyzed": {
+    "position_102": [
+      {
+        "chain": "A",
+        "residue": "GLY",
+        "expected": "GLY",
+        "matches": true
+      },
+      {
+        "chain": "B",
+        "residue": "GLY",
+        "expected": "GLY",
+        "matches": true
+      },
+      {
+        "chain": "C",
+        "residue": "GLY",
+        "expected": "GLY",
+        "matches": true
+      },
+      {
+        "chain": "D",
+        "residue": "GLY",
+        "expected": "GLY",
+        "matches": true
+      }
+    ],
+    "position_103": [
+      {
+        "chain": "A",
+        "residue": "ALA",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": true
+      },
+      {
+        "chain": "B",
+        "residue": "ALA",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": true
+      },
+      {
+        "chain": "C",
+        "residue": "ALA",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": true
+      },
+      {
+        "chain": "D",
+        "residue": "ALA",
+        "expected": [
+          "CYS",
+          "ALA"
+        ],
+        "matches": true
+      }
+    ],
+    "position_309": [
+      {
+        "chain": "A",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "B",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "C",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      },
+      {
+        "chain": "D",
+        "residue": "SER",
+        "expected": "SER",
+        "matches": true
+      }
+    ]
   },
-  "cleavage_site": "Between Gly102 and Cys103",
-  "active_site_analysis": {},
-  "form": "mature (cleaved into subunits)"
+  "num_chains": 4,
+  "total_residues": 2021,
+  "form": "multi-chain (possibly cleaved)",
+  "modified_residues": [
+    {
+      "chain": "A",
+      "position": 1356,
+      "residue": "SO4"
+    },
+    {
+      "chain": "A",
+      "position": 1357,
+      "residue": "SO4"
+    },
+    {
+      "chain": "A",
+      "position": 1358,
+      "residue": "SO4"
+    },
+    {
+      "chain": "A",
+      "position": 1359,
+      "residue": "SO4"
+    },
+    {
+      "chain": "A",
+      "position": 1360,
+      "residue": "GOL"
+    },
+    {
+      "chain": "B",
+      "position": 1357,
+      "residue": "SO4"
+    },
+    {
+      "chain": "B",
+      "position": 1358,
+      "residue": "SO4"
+    },
+    {
+      "chain": "B",
+      "position": 1359,
+      "residue": "GOL"
+    },
+    {
+      "chain": "B",
+      "position": 1360,
+      "residue": "GOL"
+    },
+    {
+      "chain": "B",
+      "position": 1361,
+      "residue": "GOL"
+    },
+    {
+      "chain": "B",
+      "position": 1362,
+      "residue": "CL"
+    },
+    {
+      "chain": "B",
+      "position": 1363,
+      "residue": "CL"
+    },
+    {
+      "chain": "C",
+      "position": 1356,
+      "residue": "GOL"
+    },
+    {
+      "chain": "C",
+      "position": 1357,
+      "residue": "GOL"
+    },
+    {
+      "chain": "D",
+      "position": 1356,
+      "residue": "SO4"
+    }
+  ]
 }

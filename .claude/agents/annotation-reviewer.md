@@ -53,11 +53,14 @@ You should make use of:
    - **MODIFY**: Essence is sound but better terms exist (provide proposed_replacement_terms). Use this if the term is too deep or too shallow
    - **MARK_AS_OVER_ANNOTATED**: Not wrong but likely over-annotation
    - **UNDECIDED**: Unclear annotation requiring more evidence (always use if unable to access relevant publications)
+   - **NEW**: ONLY use this to suggest completely new annotations not in the set already provided by GO. You will need to come up with the evidence and reference
 
 Note that duplicates (i.e exact same GO ID) are perfectly fine, there is no need to favor one evidence code over another.
 
 It may also be OK for IEAs to be broader than what is determined by IBA or literature, you can just mark these as accept,
 unless you think the mapping is too general.
+
+
 
 5. **Detailed Justification**: For each annotation, provide:
    - Clear rationale for the assigned action

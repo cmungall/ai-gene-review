@@ -267,13 +267,17 @@ def test_multiple_annotations_same_go_term():
         validator = GOAValidator()
         result = validator.validate_against_goa(yaml_file, goa_file)
 
-        # Should be valid - both YAML annotations have exact matches in GOA
-        assert result.is_valid, (
-            f"Should be valid but got: {validator.get_summary(result)}"
+        # Should be INVALID - stricter validation now requires ALL GOA annotations to be in YAML
+        assert not result.is_valid, (
+            f"Should be invalid but got: {validator.get_summary(result)}"
         )
         assert len(result.missing_in_goa) == 0
-        # Note: missing_in_yaml will have one entry (the IDA annotation not in YAML)
-        # but that's OK - we only require YAML annotations to be in GOA, not vice versa
+        # The IDA annotation (PMID:67890) is in GOA but not in YAML - this is now a failure
+        assert len(result.missing_in_yaml) == 1
+        missing = result.missing_in_yaml[0]
+        assert missing.go_id == "GO:0005515"
+        assert missing.evidence_code == "IDA"
+        assert missing.reference == "PMID:67890"
     finally:
         goa_file.unlink()
         yaml_file.unlink()

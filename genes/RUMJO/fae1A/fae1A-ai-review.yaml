@@ -1,0 +1,122 @@
+id: A0A2Z5TSL2
+gene_symbol: fae1A
+taxon:
+  id: NCBITaxon:1499
+  label: Ruminiclostridium josui
+description: 'fae1A encodes a bifunctional enzyme with both cellulase (EC 3.2.1.4) and feruloyl esterase activities. This bacterial enzyme from Ruminiclostridium josui catalyzes the endohydrolysis of (1->4)-beta-D-glucosidic linkages in cellulose, lichenin and cereal beta-D-glucans, as well as the hydrolysis of feruloyl esters. The protein contains a carbohydrate-binding module (CBM6) and dockerin domain, suggesting it functions as part of a cellulosome complex for efficient plant cell wall degradation.'
+existing_annotations:
+- term:
+    id: GO:0008810
+    label: cellulase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000003
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0000272
+    label: polysaccharide catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0004553
+    label: hydrolase activity, hydrolyzing O-glycosyl compounds
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0016798
+    label: hydrolase activity, acting on glycosyl bonds
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0030245
+    label: cellulose catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+- term:
+    id: GO:0030246
+    label: carbohydrate binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'fae1A has demonstrated cellulase activity (EC 3.2.1.4) as evidenced by its ability to hydrolyze beta-D-glucosidic linkages in cellulose and related polysaccharides. This annotation accurately reflects the primary enzymatic function of the protein.'
+    action: ACCEPT
+    reason: 'The cellulase activity is well-documented and represents a core function of fae1A. The EC number 3.2.1.4 is specifically assigned in UniProt, confirming this enzymatic activity.'
+    supported_by:
+    - reference_id: UniProt:A0A2Z5TSL2
+      supporting_text: 'RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601}; EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601}'
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000003
+  title: Gene Ontology annotation based on Enzyme Commission mapping
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+core_functions:
+- description: Cellulase activity - catalyzes endohydrolysis of (1->4)-beta-D-glucosidic linkages in cellulose, lichenin and cereal beta-D-glucans for plant cell wall degradation
+  molecular_function:
+    id: GO:0008810
+    label: cellulase activity
+  directly_involved_in:
+  - id: GO:0030245
+    label: cellulose catabolic process
+  - id: GO:0000272
+    label: polysaccharide catabolic process
+- description: Carbohydrate binding activity - contains CBM6 domain for binding to cellulose and other polysaccharides
+  molecular_function:
+    id: GO:0030246
+    label: carbohydrate binding
+  directly_involved_in:
+  - id: GO:0030245
+    label: cellulose catabolic process

@@ -21,7 +21,7 @@ existing_annotations:
       - UniProt:A0A0B4FWC3
     supported_by:
       - reference_id: UniProt:A0A0B4FWC3
-        supporting_text: "Terpene synthase that catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) into sesquiterpenes... Produces a mixture consisting of 8 sesquiterpenes including corvol ethers A and B"
+        supporting_text: "FUNCTION: Terpene synthase that catalyzes the conversion of (2E,6E)- farnesyl diphosphate (FPP) into sesquiterpenes ... Produces a mixture consisting of 8 sesquiterpenes including corvol ethers A and B"
 - term:
     id: GO:0010333
     label: terpene synthase activity
@@ -38,7 +38,7 @@ existing_annotations:
       - UniProt:A0A0B4FWC3
     supported_by:
       - reference_id: UniProt:A0A0B4FWC3
-        supporting_text: "RecName: Full=Sesquiterpene synthase MBR_10393; EC=4.2.3.163; EC=4.2.3.171"
+        supporting_text: "RecName: Full=Sesquiterpene synthase MBR_10393 ... EC=4.2.3.163 ... EC=4.2.3.171"
 - term:
     id: GO:0016829
     label: lyase activity
@@ -72,7 +72,7 @@ existing_annotations:
       - UniProt:A0A0B4FWC3
     supported_by:
       - reference_id: UniProt:A0A0B4FWC3
-        supporting_text: "Reaction=(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B + diphosphate; EC=4.2.3.163"
+        supporting_text: "Reaction=(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B + diphosphate ... EC=4.2.3.163"
 - term:
     id: GO:0046872
     label: metal ion binding
@@ -89,19 +89,27 @@ existing_annotations:
       - UniProt:A0A0B4FWC3
     supported_by:
       - reference_id: UniProt:A0A0B4FWC3
-        supporting_text: "COFACTOR: Name=Mg(2+); Note=Binds 3 Mg(2+) ions per subunit"
+        supporting_text: "COFACTOR: [Name=Mg(2+)] ... Note=Binds 3 Mg(2+) ions per subunit"
 references:
 - id: UniProt:A0A0B4FWC3
   title: 'UniProt entry for Sesquiterpene synthase MBR_10393'
   findings:
     - statement: EC numbers 4.2.3.163 and 4.2.3.171 assigned for sesquiterpene synthase activity
+      supporting_text: 'RecName: Full=Sesquiterpene synthase MBR_10393 ... EC=4.2.3.163 ... EC=4.2.3.171'
     - statement: Binds 3 Mg2+ ions per subunit as cofactors
+      supporting_text: 'COFACTOR: [Name=Mg(2+)] ... Note=Binds 3 Mg(2+) ions per subunit'
     - statement: Contains DDXXXD motif important for catalytic activity
+      supporting_text: 'DOMAIN: The Asp-Asp-Xaa-Xaa-Xaa-Asp (DDXXXD) motif is important for the catalytic activity ... MOTIF 91..96 /note="DDXXXD motif"'
     - statement: Specific binding sites for Mg2+ at positions 91, 96, 230, 234, and 238
+      supporting_text: 'BINDING 91 /ligand="Mg(2+)" ... BINDING 96 /ligand="Mg(2+)" ... BINDING 230 /ligand="Mg(2+)" ... BINDING 234 /ligand="Mg(2+)" ... BINDING 238 /ligand="Mg(2+)"'
     - statement: Catalyzes conversion of FPP to 8 sesquiterpenes including corvol ethers A and B
+      supporting_text: 'FUNCTION: Terpene synthase that catalyzes the conversion of (2E,6E)- farnesyl diphosphate (FPP) into sesquiterpenes ... Produces a mixture consisting of 8 sesquiterpenes including corvol ethers A and B'
     - statement: Major product is corvol ether B
+      supporting_text: 'The major product is corvol ether B'
     - statement: Produces sesquiterpenes important for fungi-environment interactions
+      supporting_text: 'farnesyl diphosphate (FPP) into sesquiterpenes which are important for fungi-environment interactions'
     - statement: Bacterial-origin terpene synthase acquired through horizontal gene transfer
+      supporting_text: '[Title:] Terpene synthase genes originated from bacteria through horizontal gene transfer contribute to terpenoid diversity in fungi'
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO
     terms.

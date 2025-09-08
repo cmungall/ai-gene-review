@@ -1,0 +1,192 @@
+id: P09925
+gene_symbol: Surf1
+taxon:
+  id: NCBITaxon:10090
+  label: Mus musculus
+description: SURF1 is a nuclear-encoded mitochondrial inner membrane protein that functions as an essential assembly factor for cytochrome c oxidase (Complex IV). It acts as a non-enzymatic scaffolding protein within COX assembly intermediates, particularly the MITRAC complex, where it facilitates the maturation of the COX1 subunit and promotes heme a3 incorporation. Loss of SURF1 results in severe COX deficiency, with mouse knockouts showing ~50% reduction in COX activity across tissues.
+existing_annotations:
+- term:
+    id: GO:0033617
+    label: mitochondrial cytochrome c oxidase assembly
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Correct annotation. SURF1 is a well-established COX assembly factor across species, supporting phylogenetic inference.
+    action: ACCEPT
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Correct localization, though mitochondrial inner membrane would be more specific. Keeping as supporting annotation.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:1902600
+    label: proton transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000108
+  review:
+    summary: Over-annotation. SURF1 is a COX assembly factor, not a proton transporter. This is an indirect downstream effect of COX assembly.
+    action: REMOVE
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Too general. SURF1 is specifically in the mitochondrial inner membrane.
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0005743
+        label: mitochondrial inner membrane
+- term:
+    id: GO:0031966
+    label: mitochondrial membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: Correct but could be more specific (inner membrane). Acceptable annotation from UniProt mapping.
+    action: ACCEPT
+- term:
+    id: GO:0033617
+    label: mitochondrial cytochrome c oxidase assembly
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000119
+  review:
+    summary: Correct. Based on orthology to human SURF1, which has the same function.
+    action: ACCEPT
+- term:
+    id: GO:0033617
+    label: mitochondrial cytochrome c oxidase assembly
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: Correct. Automatic transfer from human ortholog data.
+    action: ACCEPT
+- term:
+    id: GO:0004129
+    label: cytochrome-c oxidase activity
+  evidence_type: IMP
+  original_reference_id: PMID:23838831
+  review:
+    summary: Misleading annotation. SURF1 enables COX activity through assembly but doesn't have COX activity itself. Should be COX assembly.
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0033617
+        label: mitochondrial cytochrome c oxidase assembly
+- term:
+    id: GO:0033617
+    label: mitochondrial cytochrome c oxidase assembly
+  evidence_type: ISS
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Correct. Based on sequence similarity to characterized orthologs.
+    action: ACCEPT
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: HDA
+  original_reference_id: PMID:18614015
+  review:
+    summary: Correct. High-throughput proteomics confirmed mitochondrial localization.
+    action: ACCEPT
+    supported_by:
+      - reference_id: PMID:18614015
+        supporting_text: "performed mass spectrometry, GFP tagging, and machine learning to create a mitochondrial compendium of 1098 genes"
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: HDA
+  original_reference_id: PMID:14651853
+  review:
+    summary: Correct. Proteomic analysis confirmed mitochondrial localization.
+    action: ACCEPT
+- term:
+    id: GO:0004129
+    label: cytochrome-c oxidase activity
+  evidence_type: IMP
+  original_reference_id: PMID:12566387
+  review:
+    summary: Misleading. Paper shows COX deficiency in Surf1 KO, not that SURF1 has COX activity. SURF1 is an assembly factor.
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0033617
+        label: mitochondrial cytochrome c oxidase assembly
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to
+    orthologs using Ensembl Compara.
+  findings: []
+- id: GO_REF:0000108
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
+  findings: []
+- id: GO_REF:0000119
+  title: Automated transfer of experimentally-verified manual GO annotation data to
+    mouse-human orthologs.
+  findings: []
+- id: PMID:12566387
+  title: Constitutive knockout of Surf1 is associated with high embryonic lethality,
+    mitochondrial disease and cytochrome c oxidase deficiency in mice.
+  findings:
+    - statement: Surf1 knockout shows profound COX deficiency, confirming role in COX assembly
+      supporting_text: "profound and isolated defect of COX activity in skeletal muscle and liver, and, to a lesser extent, heart and brain"
+    - statement: High embryonic lethality and motor deficits in Surf1-deficient mice
+      supporting_text: "high post-implantation embryonic lethality, affecting approximately 90% of the Surf1(-/-) individuals"
+- id: PMID:14651853
+  title: Integrated analysis of protein composition, tissue diversity, and gene regulation
+    in mouse mitochondria.
+  findings:
+    - statement: Proteomic survey confirmed SURF1 as mitochondrial protein
+      supporting_text: "performed a proteomic survey of mitochondria from mouse brain, heart, kidney, and liver and combined the results with existing gene annotations to produce a list of 591 mitochondrial proteins"
+- id: PMID:18614015
+  title: A mitochondrial protein compendium elucidates complex I disease biology.
+  findings:
+    - statement: MitoCarta compendium confirmed SURF1 as mitochondrial protein
+      supporting_text: "mass spectrometry, GFP tagging, and machine learning to create a mitochondrial compendium of 1098 genes and their protein expression across 14 mouse tissues"
+- id: PMID:23838831
+  title: Decreased in vitro mitochondrial function is associated with enhanced brain
+    metabolism, blood flow, and memory in Surf1-deficient mice.
+  findings:
+    - statement: Surf1 KO mice show 49% reduction in COX activity
+      supporting_text: "ATP production in brain mitochondria isolated from Surf1 KO mice remained unchanged despite a 49% reduction in COX activity"
+    - statement: Confirms SURF1 role in enabling COX function through assembly
+      supporting_text: "Surf1 participates in the efficient assembly and function of cytochrome C oxidase (COX; mitochondrial Complex IV)"
+core_functions:
+- description: Scaffolding protein that facilitates cytochrome c oxidase assembly by promoting COX1 subunit maturation and heme a3 incorporation
+  supported_by:
+    - reference_id: PMID:12566387
+      supporting_text: Surf1 knockout mice show severely reduced cytochrome c oxidase activity demonstrating its essential role as a COX assembly factor
+    - reference_id: PMID:23838831
+      supporting_text: Surf1-deficient mice exhibit ~49% reduction in COX activity across tissues, confirming SURF1's function in complex IV assembly
+    - reference_id: file:mouse/Surf1/Surf1-deep-research.md
+      supporting_text: SURF1 is a component of the MITRAC complex that facilitates COX1 maturation and heme a3 incorporation during COX assembly
+  molecular_function:
+    id: GO:0005515
+    label: protein binding
+  directly_involved_in:
+    - id: GO:0033617
+      label: mitochondrial cytochrome c oxidase assembly
+  locations:
+    - id: GO:0005743
+      label: mitochondrial inner membrane
+  in_complex:
+    id: GO:0062011
+    label: mitochondrial respiratory chain complex IV pre-assembly complex

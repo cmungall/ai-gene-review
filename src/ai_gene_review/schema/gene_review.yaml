@@ -323,6 +323,8 @@ enums:
           RELEVANT PUBLICATIONS
       PENDING:
         description: The review entry is a stub, and the review has not been completed yet.
+      NEW:
+        description: This is a proposed annotation, not one that exists in the existing GO annotations
 
   GOTermEnum:
     description: A term in the GO ontology

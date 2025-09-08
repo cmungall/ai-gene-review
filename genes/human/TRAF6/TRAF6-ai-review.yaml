@@ -338,6 +338,46 @@ references:
   title: A novel TNF receptor family member binds TWEAK and is implicated in angiogenesis.
 - id: Reactome:R-HSA-202453
   title: TRAF6 pathway
+- id: PMID:12270937
+  title: Role of TRAF3 and -6 in the activation of the NF-kappa B and JNK pathways
+    by X-linked ectodermal dysplasia receptor.
+  findings: []
+- id: PMID:17728323
+  title: Identification of TRAF6-dependent NEMO polyubiquitination sites through analysis
+    of a new NEMO mutation causing incontinentia pigmenti.
+  findings: []
+- id: PMID:26620909
+  title: Reversible ubiquitination shapes NLRC5 function and modulates NF-κB activation
+    switch.
+  findings: []
+- id: Reactome:R-HSA-202534
+  title: Ubiquitination of NEMO by TRAF6
+  findings: []
+- id: Reactome:R-HSA-2730904
+  title: Auto-ubiquitination of TRAF6
+  findings: []
+- id: Reactome:R-HSA-446877
+  title: TRAF6 is K63 poly-ubiquitinated
+  findings: []
+- id: Reactome:R-HSA-450358
+  title: 'Activated TRAF6 synthesizes unanchored polyubiquitin chains upon TLR stimulation '
+  findings: []
+- id: Reactome:R-HSA-936942
+  title: Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2
+  findings: []
+- id: Reactome:R-HSA-936986
+  title: Activated TRAF6 synthesizes unanchored polyubiquitin chains
+  findings: []
+- id: Reactome:R-HSA-9645394
+  title: 'Activated TRAF6 synthesizes unanchored polyubiquitin chains upon ALPK1:ADP-heptose
+    stimulation '
+  findings: []
+- id: Reactome:R-HSA-9645414
+  title: Auto ubiquitination of TRAF6 bound to ALPK1:ADP-heptose:TIFA oligomer
+  findings: []
+- id: Reactome:R-HSA-975147
+  title: Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2 at endosome membrane
+  findings: []
 existing_annotations:
 - term:
     id: GO:0004842
@@ -908,6 +948,528 @@ existing_annotations:
     - reference_id: file:human/TRAF6/TRAF6-deep-research.md
       supporting_text: TRAF6-deficient cells fail to activate NF-κB and MAP kinases
         in response to lipopolysaccharide (TLR4 ligand)
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:10514511
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:10920205
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11463333
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11518704
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11751921
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12140561
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12242293
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12496252
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:15280356
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:15998638
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16189514
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16286467
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:34721373
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0042742
+    label: defense response to bacterium
+  evidence_type: IDA
+  original_reference_id: PMID:18079694
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0043123
+    label: positive regulation of canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:18079694
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0043123
+    label: positive regulation of canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:9346484
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0043124
+    label: negative regulation of canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:27746020
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: EXP
+  original_reference_id: PMID:17728323
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: EXP
+  original_reference_id: PMID:26620909
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-202534
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-2730904
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-446877
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-450358
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-936942
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-936986
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9645394
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-9645414
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0004842
+    label: ubiquitin-protein transferase activity
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-975147
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0002753
+    label: cytoplasmic pattern recognition receptor signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:29441066
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:20713597
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:23524951
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:25891078
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IMP
+  original_reference_id: PMID:30778222
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:33637724
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:23392225
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0000045
+    label: autophagosome assembly
+  evidence_type: IDA
+  original_reference_id: PMID:28890335
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0002753
+    label: cytoplasmic pattern recognition receptor signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:34796041
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0034142
+    label: toll-like receptor 4 signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:25371197
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0034142
+    label: toll-like receptor 4 signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:25355951
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0034142
+    label: toll-like receptor 4 signaling pathway
+  evidence_type: IDA
+  original_reference_id: PMID:26189595
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0038061
+    label: non-canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:26189595
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:10882101
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0140374
+    label: antiviral innate immune response
+  evidence_type: IDA
+  original_reference_id: PMID:9891032
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:10094049
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11728344
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:19675569
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0007249
+    label: canonical NF-kappaB signal transduction
+  evidence_type: IDA
+  original_reference_id: PMID:9252186
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11397809
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11238466
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:15121867
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12459498
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:14530355
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:16378096
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:14982987
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:15125833
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:11244088
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12925853
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
+- term:
+    id: GO:0005515
+    label: protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:12270937
+  review:
+    summary: 'The generic protein binding term does not provide informative functional annotation. TRAF6 binds many specific proteins as part of its scaffolding function, but this general term should be removed in favor of more specific molecular function terms.'
+    action: REMOVE
+    reason: 'GO:0005515 (protein binding) is too general and uninformative for a well-characterized protein like TRAF6. The specific protein interactions and their functional contexts are better captured by more specific GO terms.'
 core_functions:
 - description: Catalyzes K63-linked polyubiquitination of target proteins via RING
     E3 ligase activity

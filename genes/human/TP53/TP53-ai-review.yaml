@@ -42,7 +42,7 @@ existing_annotations:
     reason: 'p53 regulates mitophagy through multiple mechanisms including transcriptional control of mitophagy-related genes. This is part of its broader role in cellular stress response and metabolism.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'regulates autophagy'
+        supporting_text: 'GO; GO:0006914; P:autophagy; IMP:CAFA'
 - term:
     id: GO:0001701
     label: in utero embryonic development
@@ -54,7 +54,7 @@ existing_annotations:
     reason: 'While p53 has developmental roles, these are not its primary functions. p53-null mice can complete embryonic development, though with increased cancer susceptibility.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'Essential for embryonic development, organogenesis'
+        supporting_text: 'GO; GO:0001701; P:in utero embryonic development; IEA:Ensembl ... GO; GO:0048568; P:embryonic organ development; IEA:Ensembl'
 - term:
     id: GO:0001756
     label: somitogenesis
@@ -159,7 +159,7 @@ existing_annotations:
     reason: 'Absolutely core function - p53 is the guardian of the genome, activated by DNA damage to coordinate repair, cell cycle arrest, or apoptosis.'
     supported_by:
       - reference_id: PMID:14744935
-        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress'
+        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress, is regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
       - reference_id: UniProt:P04637
         supporting_text: 'induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence'
 - term:
@@ -173,7 +173,7 @@ existing_annotations:
     reason: 'Core stress response function. p53 responds to oxidative stress and regulates redox balance through multiple target genes.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress'
+        supporting_text: 'Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0007179
     label: transforming growth factor beta receptor signaling pathway
@@ -290,7 +290,7 @@ existing_annotations:
     reason: 'Core stress response function. UV-induced DNA damage is a classic p53 activator leading to repair, arrest, or apoptosis.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress'
+        supporting_text: 'Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0009651
     label: response to salt stress
@@ -320,7 +320,7 @@ existing_annotations:
     reason: 'Core function - ionizing radiation like X-rays cause DNA damage that strongly activates p53.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress'
+        supporting_text: 'Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0010332
     label: response to gamma radiation
@@ -404,7 +404,7 @@ existing_annotations:
     reason: 'Absolutely core function - this term specifically describes p53s role as the central mediator of DNA damage response signaling.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress, is regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
+        supporting_text: 'induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence ... induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0030512
     label: negative regulation of transforming growth factor beta receptor signaling
@@ -447,7 +447,7 @@ existing_annotations:
     reason: 'Core function - p53 is the master cellular stress response coordinator, responding to diverse stress signals.'
     supported_by:
       - reference_id: PMID:14744935
-        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress'
+        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress, is regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
 - term:
     id: GO:0034103
     label: regulation of tissue remodeling
@@ -534,7 +534,7 @@ existing_annotations:
     reason: 'Core function - p53 is the central regulator of its own pathway, with multiple feedback loops and regulatory mechanisms.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress'
+        supporting_text: 'Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0043523
     label: regulation of neuron apoptotic process
@@ -724,7 +724,7 @@ existing_annotations:
     reason: 'Core function - p53 is activated by ionizing radiation-induced DNA damage to coordinate repair or cell death.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'sensor of multiple forms of cellular stress'
+        supporting_text: 'Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type'
 - term:
     id: GO:0071494
     label: cellular response to UV-C
@@ -838,7 +838,7 @@ existing_annotations:
     reason: 'Important metabolic function - p53 suppresses aerobic glycolysis (Warburg effect) that is characteristic of cancer cells.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'Controls glucose metabolism'
+        supporting_text: 'GO; GO:0019661; P:glucose catabolic process to lactate via pyruvate; IEA:Ensembl ... GO; GO:1904024; P:negative regulation of glucose catabolic process to lactate via pyruvate; IEA:Ensembl'
 - term:
     id: GO:1990144
     label: intrinsic apoptotic signaling pathway in response to hypoxia
@@ -883,7 +883,7 @@ existing_annotations:
     reason: 'Important function - p53 restricts stem cell self-renewal to maintain genomic integrity and prevent transformation.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'Maintains balance between self-renewal and differentiation'
+        supporting_text: 'induces growth arrest or apoptosis depending on the physiological circumstances and cell type ... Negatively regulates cell division by controlling expression of a set of genes required for this process'
 - term:
     id: GO:2000772
     label: regulation of cellular senescence
@@ -895,7 +895,7 @@ existing_annotations:
     reason: 'Core function - p53 induces senescence through p21 and other targets as an irreversible cell cycle arrest mechanism.'
     supported_by:
       - reference_id: UniProt:P04637
-        supporting_text: 'regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
+        supporting_text: 'induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence ... Negatively regulates cell division'
 - term:
     id: GO:1902895
     label: positive regulation of miRNA transcription
@@ -994,7 +994,7 @@ existing_annotations:
     reason: 'Fundamental function with strong experimental support. p53 is the guardian of the genome.'
     supported_by:
       - reference_id: PMID:14744935
-        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress'
+        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress, is regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
 - term:
     id: GO:0006983
     label: ER overload response
@@ -1079,7 +1079,7 @@ existing_annotations:
     reason: 'p53 acts as a metabolic stress sensor, responding to glucose starvation through AMPK and other pathways.'
     supported_by:
       - reference_id: PMID:14744935
-        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress'
+        supporting_text: 'The tumor suppressor p53, a sensor of multiple forms of cellular stress, is regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
 references:
 - id: GO_REF:0000002
   title: Gene Ontology annotation through association of InterPro records with GO
@@ -1173,4 +1173,4 @@ core_functions:
       - reference_id: PMID:10360174
         supporting_text: 'ARF exon 2 disrupt its nucleolar localization and impair its ability to block nuclear export of MDM2 and p53'
       - reference_id: UniProt:P04637
-        supporting_text: 'regulated by post-translational mechanisms to induce cell-cycle arrest, senescence, or apoptosis'
+        supporting_text: 'induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence ... Negatively regulates cell division'

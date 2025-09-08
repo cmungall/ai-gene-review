@@ -19,28 +19,43 @@ references:
     of multiple axonemal dyneins cause primary ciliary dyskinesia
   findings:
   - statement: CFAP300 is essential for assembly of outer and inner dynein arms
-    supporting_text: C11orf70 is essential for assembly of dynein arms and C11orf70 mutations cause defective cilia motility and PCD
+    supporting_text: C11orf70 is essential for assembly of dynein arms and C11orf70
+      mutations cause defective cilia motility and PCD
   - statement: Mutations cause complete loss of dynein arms and ciliary immotility
-    supporting_text: The affected children share a consistent PCD phenotype from early life with laterality defects and immotile respiratory cilia displaying combined loss of inner and outer dynein arms (IDA+ODA)
+    supporting_text: The affected children share a consistent PCD phenotype from early
+      life with laterality defects and immotile respiratory cilia displaying combined
+      loss of inner and outer dynein arms (IDA+ODA)
   - statement: CFAP300 functions as a dynein cargo adaptor for IFT transport
-    supporting_text: "[CFAP300 shows] transport within cilia is IFT dependent. During ciliogenesis, C11orf70 accumulates at the ciliary tips in a similar distribution to the IFT-B protein IFT46"
+    supporting_text: '[CFAP300 shows] transport within cilia is IFT dependent. During
+      ciliogenesis, C11orf70 accumulates at the ciliary tips in a similar distribution
+      to the IFT-B protein IFT46'
 - id: PMID:29727693
   title: Mutations in C11orf70 cause primary ciliary dyskinesia with randomization
     of left/right body asymmetry due to defects of outer and inner dynein arms
   findings:
   - statement: CFAP300 interacts directly with DNAAF2
-    supporting_text: C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD
+    supporting_text: C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly
+      factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor
+      involved in the pathogenesis of PCD
   - statement: Expression increases during ciliogenesis
-    supporting_text: "C11orf70 is expressed in ciliated respiratory cells and that the expression of C11orf70 is upregulated during ciliogenesis, similar to other previously described cytoplasmic dynein-arm assembly factors"
+    supporting_text: C11orf70 is expressed in ciliated respiratory cells and that
+      the expression of C11orf70 is upregulated during ciliogenesis, similar to other
+      previously described cytoplasmic dynein-arm assembly factors
 - id: file:human/CFAP300/CFAP300-deep-research.md
   title: 'Deep Research Report: CFAP300 comprehensive analysis'
   findings:
-  - statement: CFAP300 binds dynein components for assembly [specific components like DNAL1 and DNAH2 inferred from functional studies]
-    supporting_text: "[C11orf70 is] involved in cytoplasmic assembly of dynein arms ... [and shows] proteins involved in the intraflagellar transport (IFT)-dependant assembly of axonemal dyneins"
+  - statement: CFAP300 binds dynein components for assembly [specific components like
+      DNAL1 and DNAH2 inferred from functional studies]
+    supporting_text: '[C11orf70 is] involved in cytoplasmic assembly of dynein arms
+      ... [and shows] proteins involved in the intraflagellar transport (IFT)-dependant
+      assembly of axonemal dyneins'
   - statement: CFAP300 functions as a preassembly factor [chaperone-like role]
-    supporting_text: "C11orf70 is a preassembly factor involved in the pathogenesis of PCD ... [similar to] other previously described cytoplasmic dynein-arm assembly factors"
+    supporting_text: C11orf70 is a preassembly factor involved in the pathogenesis
+      of PCD ... [similar to] other previously described cytoplasmic dynein-arm assembly
+      factors
   - statement: Loss of CFAP300 causes male infertility due to sperm flagella defects
-    supporting_text: "loss-of-function mutations in C11orf70 cause immotility of respiratory cilia and sperm flagella, respectively ... [PCD is characterized by] male infertility"
+    supporting_text: loss-of-function mutations in C11orf70 cause immotility of respiratory
+      cilia and sperm flagella, respectively ... [PCD is characterized by] male infertility
 - id: GO_REF:0000024
   title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
     by curator judgment of sequence similarity.
@@ -58,26 +73,36 @@ existing_annotations:
   evidence_type: IPI
   original_reference_id: PMID:29727692
   review:
-    summary: DNAAF2 interaction supported by both publications but experimental details need verification
+    summary: DNAAF2 interaction supported by both publications but experimental details
+      need verification
     action: MODIFY
-    reason: PMID:29727693 states "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2" but publications don't detail experimental methods in abstracts. However, 'protein binding' is uninformative per curation guidelines. CFAP300 functions as an adapter/scaffolding protein for dynein arm assembly.
+    reason: PMID:29727693 states "C11orf70 shows an interaction with cytoplasmic ODA/IDA
+      assembly factor DNAAF2" but publications don't detail experimental methods in
+      abstracts. However, 'protein binding' is uninformative per curation guidelines.
+      CFAP300 functions as an adapter/scaffolding protein for dynein arm assembly.
     proposed_replacement_terms:
     - id: GO:0030674
       label: protein-macromolecule adaptor activity
     additional_reference_ids:
     - PMID:29727693
     supported_by:
-      - reference_id: PMID:29727693
-        supporting_text: "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD"
+    - reference_id: PMID:29727693
+      supporting_text: C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly
+        factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor
+        involved in the pathogenesis of PCD
 - term:
     id: GO:0005737
     label: cytoplasm
   evidence_type: ISS
   original_reference_id: GO_REF:0000024
   review:
-    summary: Cytoplasmic localization directly supported by experimental evidence in publications
+    summary: Cytoplasmic localization directly supported by experimental evidence
+      in publications
     action: ACCEPT
-    reason: PMID:29727692 demonstrates that "Tagged C11orf70 in Paramecium and Chlamydomonas localizes mainly in the cytoplasm with a small amount in the ciliary component." PMID:29727693 confirms involvement in "cytoplasmic assembly of dynein arms." This validates the sequence similarity inference.
+    reason: PMID:29727692 demonstrates that "Tagged C11orf70 in Paramecium and Chlamydomonas
+      localizes mainly in the cytoplasm with a small amount in the ciliary component."
+      PMID:29727693 confirms involvement in "cytoplasmic assembly of dynein arms."
+      This validates the sequence similarity inference.
 - term:
     id: GO:0005856
     label: cytoskeleton
@@ -97,9 +122,13 @@ existing_annotations:
   evidence_type: ISS
   original_reference_id: GO_REF:0000024
   review:
-    summary: Motile cilium localization confirmed by experimental evidence showing ciliary transport
+    summary: Motile cilium localization confirmed by experimental evidence showing
+      ciliary transport
     action: ACCEPT
-    reason: PMID:29727692 shows "Tagged C11orf70...localizes mainly in the cytoplasm with a small amount in the ciliary component" and demonstrates "its transport within cilia is IFT dependent." Both papers show CFAP300 mutations cause "immotile respiratory cilia" confirming functional relevance to motile cilia.
+    reason: PMID:29727692 shows "Tagged C11orf70...localizes mainly in the cytoplasm
+      with a small amount in the ciliary component" and demonstrates "its transport
+      within cilia is IFT dependent." Both papers show CFAP300 mutations cause "immotile
+      respiratory cilia" confirming functional relevance to motile cilia.
 - term:
     id: GO:0042995
     label: cell projection
@@ -111,6 +140,18 @@ existing_annotations:
     reason: Uninformative and redundant with motile cilium annotation. Provides no
       functional insight and is too general to be useful for understanding CFAP300
       function
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'CFAP300 is involved in cytoplasmic assembly of axonemal dynein arms before their intraflagellar transport to cilia. However, its primary functional location is in the cytoplasm as part of the dynein assembly machinery, making this cellular component annotation appropriate.'
+    action: ACCEPT
+    reason: 'CFAP300 functions in cytoplasmic dynein arm assembly before transport to cilia. The cytoplasmic localization is functionally relevant and well-supported.'
+    supported_by:
+    - reference_id: UniProt:Q9BRQ4
+      supporting_text: 'May play a role in outer and inner dynein arm assembly.'
 core_functions:
 - description: Cytoplasmic assembly and intraflagellar transport of axonemal dynein
     arms
@@ -119,11 +160,17 @@ core_functions:
     label: protein-macromolecule adaptor activity
   supported_by:
   - reference_id: PMID:29727692
-    supporting_text: "C11orf70 is essential for assembly of dynein arms and C11orf70 mutations cause defective cilia motility and PCD"
+    supporting_text: C11orf70 is essential for assembly of dynein arms and C11orf70
+      mutations cause defective cilia motility and PCD
   - reference_id: PMID:29727693
-    supporting_text: "C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor involved in the pathogenesis of PCD"
+    supporting_text: C11orf70 shows an interaction with cytoplasmic ODA/IDA assembly
+      factor DNAAF2, supporting our hypothesis that C11orf70 is a preassembly factor
+      involved in the pathogenesis of PCD
   - reference_id: file:human/CFAP300/CFAP300-deep-research.md
-    supporting_text: "CFAP300 acts as a dynein cargo adaptor that helps load dynein arm components onto IFT trains ... CFAP300 likely binds dynein arm cargo and IFT proteins, serving as a link between dynein pre-assembly in the cytoplasm and motor transport into the ciliary compartment"
+    supporting_text: CFAP300 acts as a dynein cargo adaptor that helps load dynein
+      arm components onto IFT trains ... CFAP300 likely binds dynein arm cargo and
+      IFT proteins, serving as a link between dynein pre-assembly in the cytoplasm
+      and motor transport into the ciliary compartment
   directly_involved_in:
   - id: GO:0036158
     label: outer dynein arm assembly

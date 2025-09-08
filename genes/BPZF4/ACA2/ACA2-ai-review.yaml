@@ -1,0 +1,123 @@
+id: H9C180
+gene_symbol: H9C180
+taxon:
+  id: NCBITaxon:1127516
+  label: Pectobacterium phage ZF40
+description: >-
+  Aca2 repressor from bacteriophage ZF40 that functions as a dual transcriptional and translational
+  repressor of the acrIF8-aca2 operon. This 116 amino acid protein forms homodimers and uses its
+  N-terminal helix-turn-helix domain to bind specific DNA inverted repeats in the operon promoter,
+  blocking RNA polymerase access. Additionally, Aca2 binds conserved RNA stem-loops in the mRNA to
+  inhibit ribosome access. This dual regulatory mechanism ensures tight control of anti-CRISPR (AcrIF8)
+  expression during phage infection, preventing toxic overexpression while allowing sufficient production
+  to evade host CRISPR-Cas immunity. The protein is essential for phage viability, as uncontrolled AcrIF8
+  expression is detrimental to both phage replication and host cell fitness.
+existing_annotations:
+- term:
+    id: GO:0003677
+    label: DNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: >-
+      This annotation is correct but too general. Aca2 is specifically a sequence-specific DNA-binding
+      transcription factor that recognizes inverted repeat operator sequences in the acrIF8-aca2 promoter
+      through its N-terminal HTH domain. The protein binds as a homodimer to regulate transcription.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0003700
+      label: DNA-binding transcription factor activity
+    supported_by:
+    - reference_id: PMID:31428783
+      supporting_text: >-
+        Aca2 is a dimer that represses the expression of the acrIF8–aca2 operon, and that this autoregulation is mediated through binding to inverted repeats in the promoter region
+- term:
+    id: GO:0003723
+    label: RNA binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: >-
+      Correct annotation supported by experimental evidence. Aca2 binds conserved RNA stem-loops
+      on the acrIF8-aca2 mRNA to block ribosome access and inhibit translation. This RNA-binding
+      function, mediated by the same HTH domain that binds DNA, provides a second layer of
+      regulatory control beyond transcriptional repression.
+    action: ACCEPT
+    supported_by:
+    - reference_id: PMID:38987591
+      supporting_text: >-
+        Phage anti-CRISPR control by an RNA- and DNA-binding helix-turn-helix protein
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: >-
+      This annotation has minimal support. While crystallographic structures show Mg2+ bound at
+      position 92, this appears to be a crystallization artifact rather than a functionally
+      relevant metal-binding site. There is no evidence that metal binding is required for
+      Aca2's repressor function.
+    action: REMOVE
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:31428783
+  title: The autoregulator Aca2 mediates anti-CRISPR repression
+  findings: []
+- id: PMID:34756887
+  title: Structural basis for anti-CRISPR repression mediated by bacterial operon proteins Aca1 and Aca2
+  findings: []
+- id: PMID:34116143
+  title: Crystal structure of the anti-CRISPR repressor Aca2
+  findings: []
+- id: PMID:38987591
+  title: Phage anti-CRISPR control by an RNA- and DNA-binding helix-turn-helix protein
+  findings: []
+core_functions:
+- description: >-
+    Functions as a dual DNA/RNA-binding transcriptional and translational repressor of the
+    acrIF8-aca2 operon, controlling anti-CRISPR gene expression during phage infection
+  molecular_function:
+    id: GO:0003700
+    label: DNA-binding transcription factor activity
+  directly_involved_in:
+    - id: GO:0045892
+      label: negative regulation of DNA-templated transcription
+    - id: GO:0017148
+      label: negative regulation of translation
+  supported_by:
+    - reference_id: PMID:31428783
+      supporting_text: Aca2 forms dimers and binds two inverted repeat sequences in the operon's promoter to repress its transcription
+    - reference_id: PMID:38987591
+      supporting_text: Aca2 not only represses transcription of acrIF8, but also binds to the acrIF8–aca2 mRNA to inhibit its translation
+- description: >-
+    Binds conserved RNA stem-loops in the acrIF8-aca2 mRNA to block ribosome access and
+    inhibit translation as a second layer of regulatory control
+  molecular_function:
+    id: GO:0003723
+    label: RNA binding
+  directly_involved_in:
+    - id: GO:0017148
+      label: negative regulation of translation
+  supported_by:
+    - reference_id: PMID:38987591
+      supporting_text: Phage anti-CRISPR control by an RNA- and DNA-binding helix-turn-helix protein
+- description: >-
+    Forms homodimers essential for DNA binding and repressor function through C-terminal
+    domain interactions
+  molecular_function:
+    id: GO:0042803
+    label: protein homodimerization activity
+  directly_involved_in:
+    - id: GO:0045892
+      label: negative regulation of DNA-templated transcription
+  supported_by:
+    - reference_id: PMID:34116143
+      supporting_text: Crystal structure reveals Aca2's operator overlaps the –35/–10 promoter elements
+    - reference_id: PMID:34756887
+      supporting_text: Each Aca2 dimer binds one IR1 site without bending the DNA significantly

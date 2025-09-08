@@ -1,0 +1,84 @@
+ID   A0A2Z5TSL2_RUMJO        Unreviewed;       489 AA.
+AC   A0A2Z5TSL2;
+DT   10-OCT-2018, integrated into UniProtKB/TrEMBL.
+DT   10-OCT-2018, sequence version 1.
+DT   18-JUN-2025, entry version 29.
+DE   RecName: Full=cellulase {ECO:0000256|ARBA:ARBA00012601};
+DE            EC=3.2.1.4 {ECO:0000256|ARBA:ARBA00012601};
+GN   Name=fae1A {ECO:0000313|EMBL:BBA94051.1};
+OS   Ruminiclostridium josui JCM 17888.
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+OC   Oscillospiraceae; Ruminiclostridium.
+OX   NCBI_TaxID=1291050 {ECO:0000313|EMBL:BBA94051.1};
+RN   [1] {ECO:0000313|EMBL:BBA94051.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=JCM 17888 {ECO:0000313|EMBL:BBA94051.1};
+RA   Sakka K., Mamiya A., Sakka M., Kunikata E., Kimura T.;
+RT   "Characterization of Ruminoclostridium josui feruloyl esterase Fae1A and
+RT   its CBM.";
+RL   Submitted (OCT-2017) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-glucosidic linkages in
+CC         cellulose, lichenin and cereal beta-D-glucans.; EC=3.2.1.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000966};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LC331102; BBA94051.1; -; Genomic_DNA.
+DR   RefSeq; WP_024831746.1; NZ_BBAA01000028.1.
+DR   AlphaFoldDB; A0A2Z5TSL2; -.
+DR   OrthoDB; 9777383at2; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008810; F:cellulase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd04084; CBM6_xylanase-like; 1.
+DR   CDD; cd14256; Dockerin_I; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   Gene3D; 1.10.1330.10; Dockerin domain; 1.
+DR   Gene3D; 2.60.120.260; Galactose-binding domain-like; 1.
+DR   InterPro; IPR029058; AB_hydrolase_fold.
+DR   InterPro; IPR005084; CBM6.
+DR   InterPro; IPR006584; Cellulose-bd_IV.
+DR   InterPro; IPR002105; Dockerin_1_rpt.
+DR   InterPro; IPR016134; Dockerin_dom.
+DR   InterPro; IPR036439; Dockerin_dom_sf.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR000801; Esterase-like.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR050583; Mycobacterial_A85_antigen.
+DR   PANTHER; PTHR48098; ENTEROCHELIN ESTERASE-RELATED; 1.
+DR   Pfam; PF03422; CBM_6; 1.
+DR   Pfam; PF00404; Dockerin_1; 1.
+DR   Pfam; PF00756; Esterase; 1.
+DR   SMART; SM00606; CBD_IV; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   SUPFAM; SSF49785; Galactose-binding domain-like; 1.
+DR   SUPFAM; SSF63446; Type I dockerin domain; 1.
+DR   PROSITE; PS51175; CBM6; 1.
+DR   PROSITE; PS00448; CLOS_CELLULOSOME_RPT; 2.
+DR   PROSITE; PS51766; DOCKERIN; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 1.
+PE   4: Predicted;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277};
+KW   Cellulose degradation {ECO:0000256|ARBA:ARBA00023001};
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00023295};
+KW   Polysaccharide degradation {ECO:0000256|ARBA:ARBA00023326}.
+FT   DOMAIN          299..422
+FT                   /note="CBM6"
+FT                   /evidence="ECO:0000259|PROSITE:PS51175"
+FT   DOMAIN          425..489
+FT                   /note="Dockerin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51766"
+SQ   SEQUENCE   489 AA;  53138 MW;  ED25F0357BD23341 CRC64;
+     MKRNILTKKT LWGMVAFVFA LTLIFTVPDT KVQAATLPTT PPAGYDQVQN NIPHGQVSYI
+     NYQSAATNST RRARIYLPPN YSPDKKYSVM YLLHGIGGNE DEWYTNGAPN VILDNLIAAG
+     KIQPFICVLP NGNATGNGVS DGWSNFTKDL IGSLIPYIES HYSVYTDRNH RTVCGLSMGG
+     GQSFNIGLTN LNLFPYVGAF SPAPNTLPNS QLFPDNGASA RELLKFLFIS YGTTDNLISF
+     GTGVHNYCDS NNIPNTYFLI QGAGHDWNVW KQSLWNYSQM ICERGFTDYA PAEPISAFSK
+     IEAENYTSQS GIQTETCSEG GLNIGFIENG DYVVYKDVDF GTGATSFQAR VASATNGGKI
+     EIRLDSLTGP LVGTCEVKGT GDWQVYTDAS CSISGASGKH DLYLKFTGGS DYLLNVNWFK
+     FGNTTQTLTG DLNGDSSVDA TDYALLKKYL LGQITTFPAG DINAADMNND GVVDAIDFAV
+     FKKILLGTN
+//

@@ -1,0 +1,264 @@
+id: Q04958
+gene_symbol: NTE1
+taxon:
+  id: NCBITaxon:559292
+  label: Saccharomyces cerevisiae S288C
+description: 'NTE1 (Neuropathy Target Esterase homolog) is an intracellular phospholipase B that catalyzes the double deacylation of phosphatidylcholine (PC) to glycerophosphocholine. This lysophospholipase enzyme plays a critical role in membrane lipid homeostasis and phospholipid turnover, particularly in response to environmental conditions like inositol availability, temperature stress, and choline presence. NTE1 activity functionally interacts with the phosphatidylinositol/phosphatidylcholine transfer protein Sec14p and influences transcriptional regulation of phospholipid biosynthetic genes through its impact on the OPI1 repressor.'
+existing_annotations:
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005789
+    label: endoplasmic reticulum membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005811
+    label: lipid droplet
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0006629
+    label: lipid metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0016042
+    label: lipid catabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0046470
+    label: phosphatidylcholine metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0046486
+    label: glycerolipid metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0102545
+    label: phospholipase B activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000116
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: HDA
+  original_reference_id: PMID:26928762
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: HDA
+  original_reference_id: PMID:14562095
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  evidence_type: IDA
+  original_reference_id: PMID:15044461
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0005783
+    label: endoplasmic reticulum
+  evidence_type: IDA
+  original_reference_id: PMID:15044461
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0034638
+    label: phosphatidylcholine catabolic process
+  evidence_type: IMP
+  original_reference_id: PMID:15044461
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+- term:
+    id: GO:0071071
+    label: regulation of phospholipid biosynthetic process
+  evidence_type: IMP
+  original_reference_id: PMID:19841481
+  review:
+    summary: 'NTE1 has well-characterized lysophospholipase activity, specifically phosphatidylcholine lysophospholipase activity (EC 3.1.1.5). This annotation correctly captures the primary catalytic function of NTE1 in membrane lipid metabolism.'
+    action: ACCEPT
+    reason: 'This annotation accurately reflects NTE1 core enzymatic function as demonstrated experimentally. The protein catalyzes the deacylation of phosphatidylcholine, which is precisely what this GO term describes.'
+    supported_by:
+    - reference_id: UniProt:Q04958
+      supporting_text: 'RecName: Full=Lysophospholipase NTE1; EC=3.1.1.5'
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000116
+  title: Automatic Gene Ontology annotation based on Rhea mapping.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:14562095
+  title: Global analysis of protein localization in budding yeast.
+  findings: []
+- id: PMID:15044461
+  title: Neuropathy target esterase and its yeast homologue degrade phosphatidylcholine
+    to glycerophosphocholine in living cells.
+  findings: []
+- id: PMID:19841481
+  title: NTE1-encoded phosphatidylcholine phospholipase b regulates transcription
+    of phospholipid biosynthetic genes.
+  findings: []
+- id: PMID:26928762
+  title: 'One library to make them all: streamlining the creation of yeast libraries
+    via a SWAp-Tag strategy.'
+  findings: []
+core_functions:
+- description: Phosphatidylcholine lysophospholipase activity - catalyzes the double deacylation of phosphatidylcholine to glycerophosphocholine for membrane lipid homeostasis
+  molecular_function:
+    id: GO:0004622
+    label: phosphatidylcholine lysophospholipase activity
+  directly_involved_in:
+  - id: GO:0006629
+    label: lipid metabolic process
+  - id: GO:0034638
+    label: phosphatidylcholine catabolic process
+  locations:
+  - id: GO:0005789
+    label: endoplasmic reticulum membrane

@@ -28,6 +28,7 @@ dependencies = [
   "pypdf2>=3.0.1",
   "pymupdf>=1.26.4",
   "drawsvg>=2.4.0",
+  "httpx>=0.28.1",
 ]
 
 [dependency-groups]

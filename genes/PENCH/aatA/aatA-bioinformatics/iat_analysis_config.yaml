@@ -1,0 +1,32 @@
+---
+title: "Structural Analysis of Isopenicillin N Acyltransferase"
+description: "Validation of cysteine nucleophile mechanism based on crystal structures"
+
+pdb_structures:
+  2X1C:
+    description: "Precursor form (Cys103Ala mutant)"
+  2X1D:
+    description: "Mature wild-type enzyme"
+  2X1E:
+    description: "Mature enzyme with 6-aminopenicillanic acid complex"
+
+residues_of_interest:
+  102: GLY  # Cleavage site N-terminal
+  103: [CYS, ALA]  # CYS in wild-type, ALA in mutant
+  309: SER  # Part of catalytic machinery
+
+expected_findings:
+  - "Cys103Ala mutant (2X1C) should show Ala at position 103"
+  - "Wild-type structures (2X1D, 2X1E) should show Cys at position 103"
+  - "Mature forms should be cleaved into multiple chains"
+  - "Cleavage occurs between Gly102 and Cys103"
+
+conclusions:
+  - "Cys103 is the catalytic nucleophile that initiates autoproteolytic cleavage"
+  - "The enzyme undergoes autocatalytic cleavage between Gly102 and Cys103"
+  - "The mature enzyme exists as heterodimeric subunits after cleavage"
+  - "This validates the cysteine-type peptidase activity (GO:0008234) annotation"
+
+references:
+  - "Bokhove et al., 2010. Structure 18(3):301-8. PMID: 20223213"
+  - "PDB entries: 2X1C, 2X1D, 2X1E (RCSB Protein Data Bank)"

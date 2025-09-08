@@ -699,13 +699,8 @@ def check_best_practices_rules(
                     suggestion="Verify these annotations are correct or remove if not supported by GOA",
                 )
 
-            if goa_result.mismatched_labels:
-                report.add_issue(
-                    ValidationSeverity.ERROR,
-                    f"Found {len(goa_result.mismatched_labels)} GO term label mismatches with GOA file",
-                    path="existing_annotations",
-                    suggestion="Update GO term labels to match GOA file",
-                )
+            # Don't report label mismatches - we validate against ontology, not GOA
+            # GOA files may use synonyms instead of primary labels
 
             if goa_result.mismatched_evidence:
                 # Evidence mismatches are warnings, not errors
