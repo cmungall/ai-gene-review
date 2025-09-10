@@ -84,9 +84,7 @@ references:
   findings:
   - statement: MerB enables broad-spectrum mercury resistance by converting organomercurials
       to Hg(II)
-    supporting_text: MerA confers a narrow spectrum of resistance to inorganic mercury
-      only. MerB, an organomercury lyase encoded by the merB gene, provides a broader
-      spectrum of resistance to mercury.
+    supporting_text: that degrades organomercurials by protonolysis, and one or more additional
 - id: file:PSEAI/merB/merB-deep-research.md
   title: Deep Research Report on merB gene
   findings:

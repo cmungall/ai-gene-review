@@ -150,20 +150,92 @@ references:
 - id: PMID:1368505
   title: Cloning and heterologous expression of the penicillin biosynthetic gene cluster
     from penicillum chrysogenum.
-  findings: []
+  findings:
+    - statement: Demonstrated heterologous expression of complete penicillin biosynthetic gene cluster from P. chrysogenum in N. crassa and A. niger
+      supporting_text: Both of the transformed hosts contained intact P. chrysogenum DNA derived from the cosmid clone and produced authentic penicillin V
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Confirmed production of authentic penicillin V in transformed hosts
+      supporting_text: Both of the transformed hosts contained intact P. chrysogenum DNA derived from the cosmid clone and produced authentic penicillin V
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Showed functional expression of acyl coenzyme A:6-aminopenicillanic acid acyltransferase (ACT) activity
+      supporting_text: possessed delta-(L-alpha-amino-adipyl)-L-cysteinyl-D-valine synthetase (ACVS), isopenicillin N synthetase (IPNS) and acyl coenzyme A:6-aminopenicillanic acid acyltransferase (ACT) activity
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Established that all genes necessary for penicillin biosynthesis from amino acid precursors are closely linked in P. chrysogenum
+      supporting_text: The data suggests that genes encoding all the enzymes necessary for the biosynthesis of penicillin from amino acid precursors are closely linked in P. chrysogenum and constitute a gene cluster
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
 - id: PMID:18439860
   title: The unprocessed preprotein form IATC103S of the isopenicillin N acyltransferase
     is transported inside peroxisomes and regulates its self-processing.
-  findings: []
+  findings:
+    - statement: Demonstrated that unprocessed IAT(C103S) mutant is transported into peroxisomes, proving processing-independent transport
+      supporting_text: Expression of a mutant penDE(C103S) gene in P. chrysogenum gave rise to an unprocessed inactive variant of IAT (IAT(C103S)) located inside peroxisomes
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Showed that IAT transport into peroxisomes does not require prior self-processing
+      supporting_text: transport of the proIAT inside these organelles is not dependent on the processing state of the protein
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Discovered regulatory role of unprocessed IAT(C103S) in wild-type IAT processing
+      supporting_text: Changes in the wild-type IAT processing profile (beta subunit formation) were observed in the Wis54-DE(C103S) strain, suggesting a regulatory role of the unprocessed IAT(C103S) in the processing of the wild-type IAT
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Confirmed post-translational regulation where preprotein interferes with self-processing
+      supporting_text: Our results indicate that IAT is post-translationally regulated by its preprotein, which interferes with the self-processing
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
 - id: PMID:2120195
   title: Molecular characterization of the acyl-coenzyme A:isopenicillin N acyltransferase
     gene (penDE) from Penicillium chrysogenum and Aspergillus nidulans and activity
     of recombinant enzyme in Escherichia coli.
-  findings: []
+  findings:
+    - statement: Cloned and characterized penDE gene encoding acyl-coenzyme A:isopenicillin N acyltransferase
+      supporting_text: Based on NH2-terminal amino acid sequence information, the acyltransferase gene (penDE) from P. chrysogenum and A. nidulans were cloned
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Located penDE immediately downstream from isopenicillin N synthetase gene (pcbC)
+      supporting_text: In both organisms, penDE was located immediately downstream from the isopenicillin N synthetase gene (pcbC)
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Identified gene structure with four exons encoding 357 amino acids (40 kDa protein)
+      supporting_text: consisted of four exons encoding an enzyme of 357 amino acids (approximately 40 kilodaltons [kDa])
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Demonstrated functional expression in E. coli accepting both 6-aminopenicillanic acid and IPN as substrates
+      supporting_text: Acyltransferase activity from Escherichia coli producing the 40-kDa protein accepted either 6-aminopenicillanic acid or IPN as the substrate and made a penicillinase-sensitive antibiotic in the presence of phenylacetyl coenzyme A
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Showed enzyme undergoes processing from 40 kDa precursor to active heterodimer with 11 and 29 kDa subunits
+      supporting_text: The active form of the enzyme may result from processing of the 40-kDa monomeric precursor to a heterodimer containing subunits of 11 and 29 kDa
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
 - id: PMID:20223213
   title: Structures of an isopenicillin N converting Ntn-hydrolase reveal different
     catalytic roles for the active site residues of precursor and mature enzyme.
-  findings: []
+  findings:
+    - statement: Solved crystal structure of Cys103Ala precursor mutant confirming autoproteolytic maturation
+      supporting_text: The structure of a Cys103Ala precursor mutant shows that maturation is autoproteolytic
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Demonstrated that Cys103 initiates self-processing by cleaving its preceding peptide bond
+      supporting_text: initiated by Cys103 cleaving its preceding peptide bond
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Revealed conformational change where residues 92-102 fold outward after autoproteolysis
+      supporting_text: The crystal structure of the mature enzyme shows that after autoproteolysis residues 92-102 fold outwards, exposing a buried pocket
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Identified structurally flexible pocket that accommodates substrates of different size and polarity
+      supporting_text: This pocket is structurally and chemically flexible and can accommodate substrates of different size and polarity
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Showed same catalytic residues perform different roles in autoproteolysis versus substrate hydrolysis
+      supporting_text: Comparison of the proposed autoproteolytic and substrate hydrolysis mechanisms shows that in both events the same catalytic residues are used, but that they perform different roles in catalysis
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
 core_functions:
 - description: catalyzes the exchange of the α-aminoadipyl side chain of isopenicillin N with phenylacetyl-CoA to produce penicillin G in the final step of penicillin biosynthesis
   molecular_function:

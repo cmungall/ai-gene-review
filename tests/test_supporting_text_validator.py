@@ -42,6 +42,35 @@ JAK1 is essential for Type I and Type II interferon signaling.
 
             yield tmpdir_path
 
+    @pytest.fixture
+    def temp_reactome_dir(self):
+        """Create a temporary directory with mock Reactome pathways."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+
+            # Create mock Reactome pathway
+            reactome_file = tmpdir_path / "R-HSA-9927247.md"
+            reactome_content = """---
+stable_id: R-HSA-9927247
+display_name: ISGylation of DDX58 (RIG-I)
+species: Homo sapiens
+summary: ISG15 is an ubiquitin (Ub)-like protein which is conjugated to intracellular
+  proteins via an isopeptide bond. Similar to ubiquitination, the conjugation of ISG15
+  (ISGylation) requires a three-step process, involving an E1 activating enzyme (UBE1L),
+  an E2 conjugating enzyme (UbcM8/H8), and HERC5/Ceb1 an IFN-inducible ISG15-specific
+  E3 ligase.
+---
+
+# ISGylation of DDX58 (RIG-I)
+
+ISGylation requires a three-step process, involving an E1 activating enzyme (UBE1L),
+an E2 conjugating enzyme (UbcM8/H8), and HERC5/Ceb1 an IFN-inducible ISG15-specific E3 ligase.
+ISG15 conjugation may play an important regulatory role in IFN-mediated antiviral responses.
+"""
+            reactome_file.write_text(reactome_content)
+
+            yield tmpdir_path
+
     def test_basic_functionality(self, validator):
         """Test basic functionality of supporting text validator."""
         data = {
@@ -683,6 +712,111 @@ CC       Rule:MF_01717}.
         # Check that the TEMPORARY TEST one is among them
         temp_test_results = [r for r in invalid_results if "TEMPORARY TEST" in r.supporting_text]
         assert len(temp_test_results) == 1
+
+    def test_reactome_reference_extraction(self, validator):
+        """Test extraction of Reactome IDs from references."""
+        # Valid Reactome references
+        assert validator.extract_reactome_from_reference("Reactome:R-HSA-9927247") == "R-HSA-9927247"
+        assert validator.extract_reactome_from_reference("reactome:R-HSA-1234567") == "R-HSA-1234567"
+        assert validator.extract_reactome_from_reference("REACTOME:R-HSA-9927247") == "R-HSA-9927247"
+        
+        # Non-Reactome references should return None
+        assert validator.extract_reactome_from_reference("PMID:12345") is None
+        assert validator.extract_reactome_from_reference("uniprot:P12345") is None
+        assert validator.extract_reactome_from_reference("GO_REF:0000033") is None
+
+    def test_reactome_file_loading(self, temp_reactome_dir):
+        """Test loading Reactome pathway files."""
+        validator = SupportingTextValidator(reactome_dir=temp_reactome_dir)
+        
+        # Test loading existing file
+        content = validator.load_reactome_file("R-HSA-9927247")
+        assert content is not None
+        assert "ISGylation" in content
+        assert "E1 activating enzyme" in content
+        
+        # Test loading non-existent file
+        content_missing = validator.load_reactome_file("R-HSA-9999999")
+        assert content_missing is None
+        
+        # Test caching - should use cached version
+        content2 = validator.load_reactome_file("R-HSA-9927247")
+        assert content2 is not None
+        assert content2 == content
+
+    def test_reactome_supporting_text_validation(self, temp_reactome_dir):
+        """Test validation of supporting text against Reactome pathways."""
+        validator = SupportingTextValidator(reactome_dir=temp_reactome_dir)
+        
+        # Test data with valid Reactome supporting text
+        data_valid = {
+            "existing_annotations": [{
+                "term": {"id": "GO:0005829", "label": "cytosol"},
+                "evidence_type": "TAS",
+                "original_reference_id": "Reactome:R-HSA-9927247",
+                "review": {
+                    "action": "ACCEPT",
+                    "supported_by": [{
+                        "reference_id": "Reactome:R-HSA-9927247",
+                        "supporting_text": "ISGylation requires a three-step process, involving an E1 activating enzyme"
+                    }]
+                }
+            }]
+        }
+        
+        report = validator.validate_data(data_valid)
+        assert report.is_valid
+        assert report.valid_supporting_texts == 1
+        assert report.invalid_supporting_texts == 0
+        
+        # Test data with invalid Reactome supporting text
+        data_invalid = {
+            "existing_annotations": [{
+                "term": {"id": "GO:0005829", "label": "cytosol"},
+                "evidence_type": "TAS",
+                "original_reference_id": "Reactome:R-HSA-9927247",
+                "review": {
+                    "action": "ACCEPT",
+                    "supported_by": [{
+                        "reference_id": "Reactome:R-HSA-9927247",
+                        "supporting_text": "This text does not exist in the Reactome file"
+                    }]
+                }
+            }]
+        }
+        
+        report = validator.validate_data(data_invalid)
+        assert not report.is_valid
+        assert report.valid_supporting_texts == 0
+        assert report.invalid_supporting_texts == 1
+        
+        # Check error message
+        error_result = report.results[0]
+        assert "not found in Reactome:R-HSA-9927247" in error_result.error_message
+
+    def test_reactome_findings_without_supporting_text(self, temp_reactome_dir):
+        """Test that Reactome references with findings require supporting text."""
+        validator = SupportingTextValidator(reactome_dir=temp_reactome_dir)
+        
+        data = {
+            "references": [{
+                "id": "Reactome:R-HSA-9927247",
+                "title": "ISGylation of DDX58 (RIG-I)",
+                "findings": [{
+                    "statement": "Important finding without supporting text"
+                    # Missing supporting_text
+                }]
+            }]
+        }
+        
+        report = validator.validate_data(data)
+        assert not report.is_valid
+        assert report.invalid_supporting_texts == 1
+        
+        # Check error message
+        error_result = report.results[0]
+        assert "has finding without supporting_text" in error_result.error_message
+        assert "Reactome" in error_result.error_message
 
 
 @pytest.mark.integration

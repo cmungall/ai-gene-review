@@ -1,0 +1,474 @@
+ID   DHC24_HUMAN             Reviewed;         516 AA.
+AC   Q15392; B7Z817; D3DQ51; Q9HBA8;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   31-JAN-2002, sequence version 2.
+DT   18-JUN-2025, entry version 213.
+DE   RecName: Full=Delta(24)-sterol reductase;
+DE            EC=1.3.1.72 {ECO:0000269|PubMed:11519011, ECO:0000269|PubMed:21671375};
+DE   AltName: Full=24-dehydrocholesterol reductase;
+DE   AltName: Full=3-beta-hydroxysterol Delta-24-reductase;
+DE   AltName: Full=Diminuto/dwarf1 homolog;
+DE   AltName: Full=Seladin-1 {ECO:0000303|PubMed:11007892};
+DE   Flags: Precursor;
+GN   Name=DHCR24; Synonyms=KIAA0018;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, SUBCELLULAR LOCATION, AND
+RP   TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=11007892; DOI=10.1523/jneurosci.20-19-07345.2000;
+RA   Greeve I., Hermans-Borgmeyer I., Brellinger C., Kasper D., Gomez-Isla T.,
+RA   Behl C., Levkau B., Nitsch R.M.;
+RT   "The human DIMINUTO/DWARF1 homolog seladin-1 confers resistance to
+RT   Alzheimer's disease-associated neurodegeneration and oxidative stress.";
+RL   J. Neurosci. 20:7345-7352(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, TISSUE SPECIFICITY, VARIANTS
+RP   DESMOS LYS-191; THR-294; ASN-306 AND SER-471, CATALYTIC ACTIVITY, AND
+RP   CHARACTERIZATION OF VARIANTS DESMOS LYS-191; THR-294; ASN-306 AND SER-471.
+RX   PubMed=11519011; DOI=10.1086/323473;
+RA   Waterham H.R., Koster J., Romeijn G.J., Hennekam R.C.M., Vreken P.,
+RA   Andersson H.C., FitzPatrick D.R., Kelley R.I., Wanders R.J.A.;
+RT   "Mutations in the 3beta-hydroxysterol delta24-reductase gene cause
+RT   desmosterolosis, an autosomal recessive disorder of cholesterol
+RT   biosynthesis.";
+RL   Am. J. Hum. Genet. 69:685-694(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Bone marrow;
+RX   PubMed=7584026; DOI=10.1093/dnares/1.1.27;
+RA   Nomura N., Miyajima N., Sazuka T., Tanaka A., Kawarabayasi Y., Sato S.,
+RA   Nagase T., Seki N., Ishikawa K., Tabata S.;
+RT   "Prediction of the coding sequences of unidentified human genes. I. The
+RT   coding sequences of 40 new genes (KIAA0001-KIAA0040) deduced by analysis of
+RT   randomly sampled cDNA clones from human immature myeloid cell line KG-1.";
+RL   DNA Res. 1:27-35(1994).
+RN   [4]
+RP   SEQUENCE REVISION TO C-TERMINUS.
+RA   Ohara O., Nagase T., Kikuno R., Nomura N.;
+RL   Submitted (JAN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Testis;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D., Dunham A.,
+RA   Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A., Jones M.C., Gillson C.,
+RA   Searle S., Zhou Y., Kokocinski F., McDonald L., Evans R., Phillips K.,
+RA   Atkinson A., Cooper R., Jones C., Hall R.E., Andrews T.D., Lloyd C.,
+RA   Ainscough R., Almeida J.P., Ambrose K.D., Anderson F., Andrew R.W.,
+RA   Ashwell R.I.S., Aubin K., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Beasley H., Bethel G., Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J.,
+RA   Buckley D., Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y.,
+RA   Clarke G., Clee C., Cobley V., Collier R.E., Corby N., Coville G.J.,
+RA   Davies J., Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R., Hammond S.,
+RA   Harrison E.S.I., Hart E., Haugen E., Heath P.D., Holmes S., Holt K.,
+RA   Howden P.J., Hunt A.R., Hunt S.E., Hunter G., Isherwood J., James R.,
+RA   Johnson C., Johnson D., Joy A., Kay M., Kershaw J.K., Kibukawa M.,
+RA   Kimberley A.M., King A., Knights A.J., Lad H., Laird G., Lawlor S.,
+RA   Leongamornlert D.A., Lloyd D.M., Loveland J., Lovell J., Lush M.J.,
+RA   Lyne R., Martin S., Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W.,
+RA   McLaren S., Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C., Subramanian S.,
+RA   Sycamore N., Tracey A., Tromans A., Van Helmond Z., Wall M., Wallis J.M.,
+RA   White S., Whitehead S.L., Wilkinson J.E., Willey D.L., Williams H.,
+RA   Wilming L., Wray P.W., Wu Z., Coulson A., Vaudin M., Sulston J.E.,
+RA   Durbin R.M., Hubbard T., Wooster R., Dunham I., Carter N.P., McVean G.,
+RA   Ross M.T., Harrow J., Olson M.V., Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain, and Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   VARIANTS DESMOS HIS-94 AND LYS-480, CHARACTERIZATION OF VARIANTS DESMOS
+RP   HIS-94 AND LYS-480, CATALYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=21671375; DOI=10.1002/ajmg.a.34040;
+RA   Schaaf C.P., Koster J., Katsonis P., Kratz L., Shchelochkov O.A.,
+RA   Scaglia F., Kelley R.I., Lichtarge O., Waterham H.R., Shinawi M.;
+RT   "Desmosterolosis-phenotypic and molecular characterization of a third case
+RT   and review of the literature.";
+RL   Am. J. Med. Genet. A 155A:1597-1604(2011).
+RN   [10]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [11]
+RP   CATALYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=22178193; DOI=10.1016/j.bbalip.2011.11.009;
+RA   Zerenturk E.J., Kristiana I., Gill S., Brown A.J.;
+RT   "The endogenous regulator 24(S),25-epoxycholesterol inhibits cholesterol
+RT   synthesis at DHCR24 (Seladin-1).";
+RL   Biochim. Biophys. Acta 1821:1269-1277(2012).
+RN   [12]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND TOPOLOGY.
+RX   PubMed=22010141; DOI=10.1530/jme-11-0132;
+RA   Lu X., Li Y., Liu J., Cao X., Wang X., Wang D., Seo H., Gao B.;
+RT   "The membrane topological analysis of 3 {beta}-hydroxysteroid-delta24
+RT   reductase (DHCR24) on endoplasmic reticulum.";
+RL   J. Mol. Endocrinol. 48:1-9(2012).
+RN   [13]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [14]
+RP   CATALYTIC ACTIVITY, AND INTERACTION WITH DHCR7.
+RX   PubMed=25637936; DOI=10.1194/jlr.m056986;
+RA   Luu W., Hart-Smith G., Sharpe L.J., Brown A.J.;
+RT   "The terminal enzymes of cholesterol synthesis, DHCR24 and DHCR7, interact
+RT   physically and functionally.";
+RL   J. Lipid Res. 56:888-897(2015).
+RN   [15]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+CC   -!- FUNCTION: Catalyzes the reduction of the delta-24 double bond of sterol
+CC       intermediates during cholesterol biosynthesis (PubMed:11519011,
+CC       PubMed:21671375, PubMed:22178193, PubMed:25637936). In addition to its
+CC       cholesterol-synthesizing activity, can protect cells from oxidative
+CC       stress by reducing caspase 3 activity during apoptosis induced by
+CC       oxidative stress (PubMed:11007892, PubMed:22010141). Also protects
+CC       against amyloid-beta peptide-induced apoptosis (PubMed:11007892).
+CC       {ECO:0000269|PubMed:11007892, ECO:0000269|PubMed:11519011,
+CC       ECO:0000269|PubMed:21671375, ECO:0000269|PubMed:22010141,
+CC       ECO:0000269|PubMed:22178193, ECO:0000269|PubMed:25637936}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol + NADP(+) = desmosterol + NADPH + H(+);
+CC         Xref=Rhea:RHEA:36391, ChEBI:CHEBI:15378, ChEBI:CHEBI:16113,
+CC         ChEBI:CHEBI:17737, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.3.1.72;
+CC         Evidence={ECO:0000269|PubMed:11519011, ECO:0000269|PubMed:21671375,
+CC         ECO:0000269|PubMed:25637936};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:36393;
+CC         Evidence={ECO:0000305|PubMed:11519011, ECO:0000305|PubMed:21671375};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=lanosterol + NADPH + H(+) = 24,25-dihydrolanosterol + NADP(+);
+CC         Xref=Rhea:RHEA:33919, ChEBI:CHEBI:15378, ChEBI:CHEBI:16521,
+CC         ChEBI:CHEBI:28113, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000269|PubMed:22178193};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33920;
+CC         Evidence={ECO:0000269|PubMed:22178193};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-cholest-8-en-3beta-ol + NADP(+) = zymosterol + NADPH +
+CC         H(+); Xref=Rhea:RHEA:36399, ChEBI:CHEBI:15378, ChEBI:CHEBI:16608,
+CC         ChEBI:CHEBI:18252, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.3.1.72;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VCH6};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:36401;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VCH6};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC   -!- PATHWAY: Steroid biosynthesis; cholesterol biosynthesis.
+CC       {ECO:0000269|PubMed:11519011, ECO:0000269|PubMed:21671375}.
+CC   -!- SUBUNIT: Interacts with DHCR7; this interaction regulates DHCR7
+CC       activity. {ECO:0000269|PubMed:25637936}.
+CC   -!- INTERACTION:
+CC       Q15392; O00264: PGRMC1; NbExp=2; IntAct=EBI-5457558, EBI-1045534;
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:11007892, ECO:0000269|PubMed:22010141}; Single-pass
+CC       membrane protein {ECO:0000255}. Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:11007892}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q15392-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q15392-2; Sequence=VSP_056479;
+CC   -!- TISSUE SPECIFICITY: Highly expressed in brain and adrenal gland with
+CC       moderate expression in liver, lung, spleen, prostate and spinal cord.
+CC       Low expression in heart, uterus and prostate. Undetectable in blood
+CC       cells. In the brain, strongly expressed in cortical regions, substantia
+CC       nigra, caudate nucleus, hippocampus, medulla oblongata and pons. In
+CC       brains affected by Alzheimer disease, expression in the inferior
+CC       temporal lobe is substantially lower than in the frontal cortex.
+CC       {ECO:0000269|PubMed:11007892, ECO:0000269|PubMed:11519011}.
+CC   -!- DISEASE: Desmosterolosis (DESMOS) [MIM:602398]: Rare autosomal
+CC       recessive disorder characterized by multiple congenital anomalies and
+CC       elevated levels of the cholesterol precursor desmosterol in plasma,
+CC       tissue, and cultured cells. {ECO:0000269|PubMed:11519011,
+CC       ECO:0000269|PubMed:21671375}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the FAD-binding oxidoreductase/transferase type
+CC       4 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA02806.3; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF261758; AAG17288.1; -; mRNA.
+DR   EMBL; AF398342; AAL15644.1; -; Genomic_DNA.
+DR   EMBL; AF398336; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; AF398337; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; AF398338; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; AF398339; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; AF398340; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; AF398341; AAL15644.1; JOINED; Genomic_DNA.
+DR   EMBL; D13643; BAA02806.3; ALT_INIT; mRNA.
+DR   EMBL; AK302774; BAH13803.1; -; mRNA.
+DR   EMBL; AC096536; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471059; EAX06663.1; -; Genomic_DNA.
+DR   EMBL; CH471059; EAX06664.1; -; Genomic_DNA.
+DR   EMBL; BC004375; AAH04375.1; -; mRNA.
+DR   EMBL; BC011669; AAH11669.1; -; mRNA.
+DR   CCDS; CCDS600.1; -. [Q15392-1]
+DR   RefSeq; NP_055577.1; NM_014762.4. [Q15392-1]
+DR   AlphaFoldDB; Q15392; -.
+DR   BioGRID; 108064; 186.
+DR   CORUM; Q15392; -.
+DR   FunCoup; Q15392; 1145.
+DR   IntAct; Q15392; 112.
+DR   MINT; Q15392; -.
+DR   STRING; 9606.ENSP00000360316; -.
+DR   BindingDB; Q15392; -.
+DR   ChEMBL; CHEMBL2331059; -.
+DR   DrugCentral; Q15392; -.
+DR   SwissLipids; SLP:000001223; -.
+DR   GlyGen; Q15392; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q15392; -.
+DR   MetOSite; Q15392; -.
+DR   PhosphoSitePlus; Q15392; -.
+DR   SwissPalm; Q15392; -.
+DR   BioMuta; DHCR24; -.
+DR   DMDM; 20141421; -.
+DR   jPOST; Q15392; -.
+DR   MassIVE; Q15392; -.
+DR   PaxDb; 9606-ENSP00000360316; -.
+DR   PeptideAtlas; Q15392; -.
+DR   ProteomicsDB; 60562; -. [Q15392-1]
+DR   ProteomicsDB; 6916; -.
+DR   Pumba; Q15392; -.
+DR   Antibodypedia; 33226; 238 antibodies from 30 providers.
+DR   DNASU; 1718; -.
+DR   Ensembl; ENST00000371269.9; ENSP00000360316.3; ENSG00000116133.13. [Q15392-1]
+DR   Ensembl; ENST00000436604.2; ENSP00000416585.2; ENSG00000116133.13. [Q15392-1]
+DR   GeneID; 1718; -.
+DR   KEGG; hsa:1718; -.
+DR   MANE-Select; ENST00000371269.9; ENSP00000360316.3; NM_014762.4; NP_055577.1.
+DR   UCSC; uc001cyc.2; human. [Q15392-1]
+DR   AGR; HGNC:2859; -.
+DR   CTD; 1718; -.
+DR   DisGeNET; 1718; -.
+DR   GeneCards; DHCR24; -.
+DR   HGNC; HGNC:2859; DHCR24.
+DR   HPA; ENSG00000116133; Tissue enhanced (adrenal gland, liver).
+DR   MalaCards; DHCR24; -.
+DR   MIM; 602398; phenotype.
+DR   MIM; 606418; gene.
+DR   neXtProt; NX_Q15392; -.
+DR   OpenTargets; ENSG00000116133; -.
+DR   Orphanet; 35107; Desmosterolosis.
+DR   PharmGKB; PA27320; -.
+DR   VEuPathDB; HostDB:ENSG00000116133; -.
+DR   eggNOG; KOG1262; Eukaryota.
+DR   GeneTree; ENSGT00390000008338; -.
+DR   InParanoid; Q15392; -.
+DR   OrthoDB; 415825at2759; -.
+DR   PAN-GO; Q15392; 4 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q15392; -.
+DR   TreeFam; TF313170; -.
+DR   BRENDA; 1.3.1.72; 2681.
+DR   PathwayCommons; Q15392; -.
+DR   Reactome; R-HSA-191273; Cholesterol biosynthesis.
+DR   Reactome; R-HSA-6807047; Cholesterol biosynthesis via desmosterol.
+DR   Reactome; R-HSA-6807062; Cholesterol biosynthesis via lathosterol.
+DR   SignaLink; Q15392; -.
+DR   SIGNOR; Q15392; -.
+DR   UniPathway; UPA00063; -.
+DR   BioGRID-ORCS; 1718; 22 hits in 1166 CRISPR screens.
+DR   ChiTaRS; DHCR24; human.
+DR   GeneWiki; 24-dehydrocholesterol_reductase; -.
+DR   GenomeRNAi; 1718; -.
+DR   Pharos; Q15392; Tchem.
+DR   PRO; PR:Q15392; -.
+DR   Proteomes; UP000005640; Chromosome 1.
+DR   RNAct; Q15392; protein.
+DR   Bgee; ENSG00000116133; Expressed in adrenal tissue and 197 other cell types or tissues.
+DR   ExpressionAtlas; Q15392; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; TAS:Reactome.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; HDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0000246; F:Delta24(24-1) sterol reductase activity; IMP:UniProtKB.
+DR   GO; GO:0050614; F:Delta24-sterol reductase activity; EXP:Reactome.
+DR   GO; GO:0019899; F:enzyme binding; IPI:UniProtKB.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0016628; F:oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor; IDA:MGI.
+DR   GO; GO:0042605; F:peptide antigen binding; IPI:UniProtKB.
+DR   GO; GO:0042987; P:amyloid precursor protein catabolic process; IEA:Ensembl.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; IMP:MGI.
+DR   GO; GO:0033489; P:cholesterol biosynthetic process via desmosterol; IMP:UniProtKB.
+DR   GO; GO:0033490; P:cholesterol biosynthetic process via lathosterol; TAS:Reactome.
+DR   GO; GO:0030539; P:male genitalia development; IEA:Ensembl.
+DR   GO; GO:0061024; P:membrane organization; IEA:Ensembl.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; IEA:Ensembl.
+DR   GO; GO:0031639; P:plasminogen activation; IEA:Ensembl.
+DR   GO; GO:0008104; P:protein localization; IEA:Ensembl.
+DR   GO; GO:0007265; P:Ras protein signal transduction; IEA:Ensembl.
+DR   GO; GO:0009725; P:response to hormone; IEA:Ensembl.
+DR   GO; GO:0043588; P:skin development; ISS:UniProtKB.
+DR   GO; GO:0008202; P:steroid metabolic process; IBA:GO_Central.
+DR   GO; GO:0009888; P:tissue development; IMP:UniProtKB.
+DR   FunFam; 3.30.465.10:FF:000032; Delta(24)-sterol reductase; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   InterPro; IPR040165; Diminuto-like.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   PANTHER; PTHR10801; 24-DEHYDROCHOLESTEROL REDUCTASE; 1.
+DR   PANTHER; PTHR10801:SF0; DELTA(24)-STEROL REDUCTASE; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   SUPFAM; SSF56176; FAD-binding/transporter-associated domain-like; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cholesterol biosynthesis; Cholesterol metabolism;
+KW   Disease variant; Endoplasmic reticulum; FAD; Flavoprotein; Golgi apparatus;
+KW   Lipid biosynthesis; Lipid metabolism; Membrane; NADP; Oxidoreductase;
+KW   Proteomics identification; Reference proteome; Signal;
+KW   Steroid biosynthesis; Steroid metabolism; Sterol biosynthesis;
+KW   Sterol metabolism; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..516
+FT                   /note="Delta(24)-sterol reductase"
+FT                   /id="PRO_0000007230"
+FT   TOPO_DOM        23..31
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000269|PubMed:22010141"
+FT   TRANSMEM        32..52
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        53..516
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:22010141"
+FT   DOMAIN          58..234
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00718"
+FT   BINDING         163..175
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255"
+FT   SITE            122..123
+FT                   /note="Cleavage; by caspase"
+FT                   /evidence="ECO:0000255"
+FT   SITE            383..384
+FT                   /note="Cleavage; by caspase"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         1..76
+FT                   /note="MEPAVSLAVCALLFLLWVRLKGLEFVLIHQRWVFVCLFLLPLSLIFDIYYYV
+FT                   RAWVVFKLSSAPRLHEQRVRDIQK -> MGAGEQNRQSAHCVQGICGYLEGDEEGEEGE
+FT                   VRST (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14702039"
+FT                   /id="VSP_056479"
+FT   VARIANT         94
+FT                   /note="R -> H (in DESMOS; decreases production of
+FT                   cholesterol from desmosterol; dbSNP:rs387906939)"
+FT                   /evidence="ECO:0000269|PubMed:21671375"
+FT                   /id="VAR_081889"
+FT   VARIANT         191
+FT                   /note="E -> K (in DESMOS; decreases production of
+FT                   cholesterol from desmosterol; dbSNP:rs119475041)"
+FT                   /evidence="ECO:0000269|PubMed:11519011"
+FT                   /id="VAR_012732"
+FT   VARIANT         294
+FT                   /note="N -> T (in DESMOS; decreases production of
+FT                   cholesterol from desmosterol; dbSNP:rs281797257)"
+FT                   /evidence="ECO:0000269|PubMed:11519011"
+FT                   /id="VAR_012733"
+FT   VARIANT         306
+FT                   /note="K -> N (in DESMOS; decreases production of
+FT                   cholesterol from desmosterol; dbSNP:rs281797256)"
+FT                   /evidence="ECO:0000269|PubMed:11519011"
+FT                   /id="VAR_012734"
+FT   VARIANT         471
+FT                   /note="Y -> S (in DESMOS; complete loss of ability to
+FT                   convert desmosterol to cholesterol; dbSNP:rs28939092)"
+FT                   /evidence="ECO:0000269|PubMed:11519011,
+FT                   ECO:0000269|PubMed:21671375"
+FT                   /id="VAR_012735"
+FT   VARIANT         480
+FT                   /note="E -> K (in DESMOS; decreases production of
+FT                   cholesterol from desmosterol; dbSNP:rs387906940)"
+FT                   /evidence="ECO:0000269|PubMed:21671375"
+FT                   /id="VAR_081890"
+SQ   SEQUENCE   516 AA;  60101 MW;  F9A769446FE19E59 CRC64;
+     MEPAVSLAVC ALLFLLWVRL KGLEFVLIHQ RWVFVCLFLL PLSLIFDIYY YVRAWVVFKL
+     SSAPRLHEQR VRDIQKQVRE WKEQGSKTFM CTGRPGWLTV SLRVGKYKKT HKNIMINLMD
+     ILEVDTKKQI VRVEPLVTMG QVTALLTSIG WTLPVLPELD DLTVGGLIMG TGIESSSHKY
+     GLFQHICTAY ELVLADGSFV RCTPSENSDL FYAVPWSCGT LGFLVAAEIR IIPAKKYVKL
+     RFEPVRGLEA ICAKFTHESQ RQENHFVEGL LYSLDEAVIM TGVMTDEAEP SKLNSIGNYY
+     KPWFFKHVEN YLKTNREGLE YIPLRHYYHR HTRSIFWELQ DIIPFGNNPI FRYLFGWMVP
+     PKISLLKLTQ GETLRKLYEQ HHVVQDMLVP MKCLQQALHT FQNDIHVYPI WLCPFILPSQ
+     PGLVHPKGNE AELYIDIGAY GEPRVKHFEA RSCMRQLEKF VRSVHGFQML YADCYMNREE
+     FWEMFDGSLY HKLREKLGCQ DAFPEVYDKI CKAARH
+//

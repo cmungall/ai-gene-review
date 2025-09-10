@@ -195,6 +195,21 @@ export-annotations-json output_file="exports/exported_annotations.json":
     @mkdir -p exports
     uv run python -c "from ai_gene_review.export import JSONExporter; from pathlib import Path; exporter = JSONExporter(); files = list(Path('genes').glob('**/*-ai-review.yaml')); print(f'Found {len(files)} files'); exporter.export_to_json(files, '{{output_file}}'); print(f'Exported to {{output_file}}')"
 
+# Generate statistics HTML report from annotation data
+stats output_file="docs/stats_report.html":
+    @echo "📊 Generating statistics report..."
+    @just export-annotations-tsv
+    @echo "📈 Running statistical analysis notebook..."
+    uv run jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=600 \
+        docs/stats.ipynb --output $(basename {{output_file}}) \
+        --output-dir $(dirname {{output_file}})
+    @echo "✅ Statistics report generated: {{output_file}}"
+    @echo "📂 Open with: open {{output_file}}"
+
+# Generate and open statistics report
+stats-open: stats
+    @open docs/stats_report.html
+
 # Export annotations for a specific organism
 export-organism-annotations organism output_file="exports/exported_annotations.csv":
     @mkdir -p exports
@@ -285,3 +300,17 @@ check-publications-cache:
 show-refresh-candidates count="10":
     @echo "Sample of publications needing full text refresh:"
     uv run ai-gene-review refresh-publications --show-candidates {{count}}
+
+# Force refresh ALL publications with updated metadata (use with caution)
+refresh-publications-force-all count="20000":
+    @echo "Force refreshing ALL publications with updated metadata..."
+    @echo "This will refresh {{count}} publications (or all if less exist)"
+    @echo "Estimated time: ~12 minutes per 700 publications"
+    @echo "Press Ctrl+C to cancel, starting in 3 seconds..."
+    @sleep 3
+    uv run ai-gene-review refresh-publications --force-all --count {{count}} --delay 1.0
+
+# Force refresh a smaller batch of ALL publications for testing
+refresh-publications-force-test count="10":
+    @echo "Force refreshing {{count}} publications for testing..."
+    uv run ai-gene-review refresh-publications --force-all --count {{count}} --delay 1.0

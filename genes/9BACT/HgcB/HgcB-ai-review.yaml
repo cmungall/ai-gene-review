@@ -45,6 +45,30 @@ existing_annotations:
   review:
     summary: This annotation is very specific and accurate - HgcB contains two 4Fe-4S clusters as indicated by the domain annotations and ferredoxin family membership.
     action: ACCEPT
+- term:
+    id: GO:0046689
+    label: response to mercury ion
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcB/HgcB-deep-research.md
+  review:
+    summary: HgcB participates in bacterial response to mercury by facilitating its methylation
+    action: NEW
+    reason: HgcB works with HgcA to respond to environmental mercury through methylation, representing a key mercury response mechanism.
+    supported_by:
+      - reference_id: file:9BACT/HgcB/HgcB-deep-research.md
+        supporting_text: "HgcB is a ferredoxin with conserved cysteine residues that likely bind Hg and shuttle electrons"
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcB/HgcB-deep-research.md
+  review:
+    summary: HgcB functions as an oxidoreductase providing electrons for mercury methylation
+    action: NEW
+    reason: As a ferredoxin, HgcB acts as an oxidoreductase shuttling electrons required for the methylation reaction.
+    supported_by:
+      - reference_id: file:9BACT/HgcB/HgcB-deep-research.md
+        supporting_text: "HgcB is a small ferredoxin with conserved cysteine residues that likely bind Hg and shuttle electrons"
 references:
 - id: GO_REF:0000043
   title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping

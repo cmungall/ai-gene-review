@@ -1,0 +1,245 @@
+id: Q28CC8
+gene_symbol: aldh1a2
+aliases:
+  - raldh2
+  - raldh-2
+  - XRaldh2
+  - retinaldehyde dehydrogenase 2
+taxon:
+  id: NCBITaxon:8364
+  label: Xenopus tropicalis
+description: Retinaldehyde dehydrogenase 2 (RALDH2) that catalyzes the NAD-dependent oxidation of retinaldehyde to all-trans retinoic acid (RA), the bioactive vitamin A metabolite. Essential enzyme in the retinoic acid biosynthetic pathway that controls spatiotemporal RA production during embryonic development. Critical for posterior body axis patterning, heart morphogenesis, limb bud initiation, and organogenesis. In adult tissues, contributes to immune regulation and tissue homeostasis.
+existing_annotations:
+- term:
+    id: GO:0004029
+    label: aldehyde dehydrogenase (NAD+) activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: This is a valid annotation based on phylogenetic inference. ALDH1A2 belongs to the aldehyde dehydrogenase family and contains conserved NAD-binding domain and catalytic residues. However, the more specific term GO:0001758 (retinal dehydrogenase activity) better captures the enzyme's substrate specificity.
+    action: KEEP_AS_NON_CORE
+    proposed_replacement_terms:
+      - id: GO:0001758
+        label: retinal dehydrogenase (NAD+) activity
+- term:
+    id: GO:0006081
+    label: aldehyde metabolic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: While technically correct (ALDH1A2 does metabolize aldehydes), this term is too general. The enzyme specifically metabolizes retinaldehyde to retinoic acid, which is better captured by GO:0002138 (retinoic acid biosynthetic process).
+    action: MODIFY
+    proposed_replacement_terms:
+      - id: GO:0002138
+        label: retinoic acid biosynthetic process
+- term:
+    id: GO:0001758
+    label: retinal dehydrogenase (NAD+) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000003
+  review:
+    summary: This is the core molecular function of ALDH1A2. The enzyme specifically catalyzes the oxidation of retinaldehyde to retinoic acid using NAD+ as a cofactor. This function is well-established across vertebrates and supported by extensive biochemical and genetic evidence.
+    action: ACCEPT
+    supported_by:
+      - reference_id: GO_REF:0000003
+        supporting_text: EC 1.2.1.36 retinal dehydrogenase activity
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: catalyzes the oxidation of retinaldehyde to retinoic acid using NAD+ as a cofactor
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is an overly general parent term. While ALDH1A2 is indeed an oxidoreductase, the more specific term GO:0001758 (retinal dehydrogenase activity) should be used instead.
+    action: REMOVE
+- term:
+    id: GO:0016620
+    label: oxidoreductase activity, acting on the aldehyde or oxo group of donors,
+      NAD or NADP as acceptor
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: While this annotation is correct, it's too general compared to the more specific GO:0001758 (retinal dehydrogenase activity) which better describes the enzyme's substrate specificity.
+    action: REMOVE
+- term:
+    id: GO:0002138
+    label: retinoic acid biosynthetic process
+  evidence_type: ISS
+  original_reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+  review:
+    summary: ALDH1A2 is the key enzyme catalyzing the rate-limiting step in retinoic acid biosynthesis from retinaldehyde. This is the primary biological process function of the enzyme, essential for developmental signaling.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: enzyme catalyzes NAD-dependent oxidation of retinaldehyde to retinoic acid
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 is the key enzyme in retinoic acid biosynthesis
+- term:
+    id: GO:0009952
+    label: anterior/posterior pattern specification
+  evidence_type: ISS
+  original_reference_id: PMID:11688558
+  review:
+    summary: ALDH1A2-derived retinoic acid is essential for posterior body axis specification. Loss of aldh1a2 in zebrafish and Xenopus causes truncated posterior structures and disrupted Hox gene expression patterns.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: loss of ALDH1A2 causes truncated posterior structures and disrupted Hox gene expression patterns
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2-derived retinoic acid is essential for posterior body axis specification
+- term:
+    id: GO:0003007
+    label: heart morphogenesis
+  evidence_type: ISS
+  original_reference_id: PMC:PMC8555986
+  review:
+    summary: ALDH1A2 is required for proper heart development downstream of Tbx5. RA produced by ALDH1A2 in lateral plate mesoderm is essential for cardiac chamber formation and outflow tract development.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 expression in heart-forming mesoderm is essential for cardiac chamber formation
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: Tbx5 directly regulates aldh1a2 expression through intronic enhancer binding
+- term:
+    id: GO:0030902
+    label: hindbrain development
+  evidence_type: ISS
+  original_reference_id: PMID:11688558
+  review:
+    summary: ALDH1A2-generated RA patterns the hindbrain by regulating posterior Hox gene expression. Mutants show severely disrupted hindbrain segmentation and rhombomere identity.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2-generated RA patterns the hindbrain by regulating posterior Hox gene expression
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: mutants show severely disrupted hindbrain segmentation and rhombomere identity
+- term:
+    id: GO:0060173
+    label: limb development
+  evidence_type: ISS
+  original_reference_id: PMID:11688558
+  review:
+    summary: ALDH1A2-derived RA is required for limb bud initiation. Zebrafish aldh1a2 mutants completely lack pectoral fins, which can be rescued by exogenous RA treatment.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2-derived RA is required for limb bud initiation
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: RA from ALDH1A2 in trunk mesoderm is needed to induce forelimb bud development
+- term:
+    id: GO:0001757
+    label: somite specification
+  evidence_type: ISS
+  original_reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+  review:
+    summary: ALDH1A2 expression in paraxial mesoderm provides RA signals necessary for proper somite formation and anteroposterior patterning along the body axis.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: aldh1a2 is strongly expressed in the paraxial mesoderm and around developing somites
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 expression in paraxial mesoderm provides RA signals for somite formation
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: ISS
+  original_reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+  review:
+    summary: ALDH1A2 is a cytosolic enzyme that functions in the cytoplasm where it encounters retinaldehyde substrate. The protein lacks signal peptides or transmembrane domains.
+    action: NEW
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 is a cytosolic enzyme functioning within cells that synthesize retinoic acid
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: protein lacks any signal peptide or transmembrane domain
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000003
+  title: Gene Ontology annotation based on Enzyme Commission mapping
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:11688558
+  title: The zebrafish neckless mutation reveals a requirement for raldh2 in mesodermal signals that pattern the hindbrain
+  findings: []
+- id: PMID:35372345
+  title: Reduced Retinoic Acid Signaling During Gastrulation Induces Developmental Microcephaly
+  findings: []
+- id: PMC:PMC8555986  
+  title: Retinoic acid signaling is a critical component of the Tbx5 dependent forelimb initiation and cardiopulmonary morphogenesis programs
+  findings: []
+- id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+  title: Deep research synthesis for aldh1a2
+  findings: []
+- id: PMID:10570467
+  title: Distinct functions for Aldh1 and Raldh2 in the control of ligand production for embryonic retinoid signaling pathways
+  findings: []
+- id: PMC:PMC2826194
+  title: Retinoic acid function in vertebrate embryonic anterior-posterior patterning
+  findings: []
+- id: PMID:16774994
+  title: Induction and prepatterning of the zebrafish pectoral fin bud requires axial retinoic acid signaling
+  findings: []
+
+core_functions:
+  - description: Oxidation of retinaldehyde to retinoic acid via NAD-dependent enzymatic catalysis
+    molecular_function:
+      id: GO:0001758
+      label: retinal dehydrogenase (NAD+) activity
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: enzyme catalyzes NAD-dependent oxidation of retinaldehyde to retinoic acid
+      - reference_id: GO_REF:0000003
+        supporting_text: EC 1.2.1.36 enzyme activity confirmed by enzyme commission mapping
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 efficiently oxidizes retinaldehyde to retinoic acid
+    directly_involved_in:
+      - id: GO:0002138
+        label: retinoic acid biosynthetic process
+      - id: GO:0042573
+        label: retinoic acid metabolic process
+  - description: Spatiotemporal control of retinoic acid biosynthesis for embryonic patterning
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: aldh1a2 is expressed in Xenopus Spemann organizer during gastrulation and later shifts to trunk mesoderm
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 is provisioned maternally and expressed zygotically in strategic embryonic domains
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: aldh1a2 is required for posterior body patterning
+    directly_involved_in:
+      - id: GO:0009952
+        label: anterior/posterior pattern specification
+      - id: GO:0030902
+        label: hindbrain development
+      - id: GO:0001757
+        label: somite specification
+      - id: GO:0021915
+        label: neural tube development
+  - description: Regulation of organogenesis through localized retinoic acid signaling
+    supported_by:
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: Tbx5 directly regulates aldh1a2 expression and aldh1a2-derived RA is required for heart and lung development
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: ALDH1A2 expression in heart-forming mesoderm is essential for cardiac chamber formation
+      - reference_id: file:XENTR/aldh1a2/aldh1a2-deep-research.md
+        supporting_text: zebrafish aldh1a2 mutants show absent pectoral fins
+    directly_involved_in:
+      - id: GO:0003007
+        label: heart morphogenesis
+      - id: GO:0060173
+        label: limb development
+      - id: GO:0030324
+        label: lung development
+    locations:
+      - id: GO:0005737
+        label: cytoplasm
+      - id: GO:0005829
+        label: cytosol

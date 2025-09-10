@@ -411,9 +411,6 @@ existing_annotations:
       this as a calcium-binding protein. This is foundational evidence for a core
       molecular function.
     action: ACCEPT
-    supported_by:
-    - reference_id: PMID:699201
-      supporting_text: "Regucalcin was discovered as a novel calcium-binding protein lacking the calcium-binding motif of the EF-hand structure in 1978."
 - term:
     id: GO:0005634
     label: nucleus

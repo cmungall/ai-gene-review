@@ -50,14 +50,20 @@ dependencies = [
     { name = "click" },
     { name = "drawsvg" },
     { name = "httpx" },
+    { name = "ipykernel" },
+    { name = "jupyter" },
     { name = "linkml-browser" },
     { name = "linkml-runtime" },
+    { name = "matplotlib" },
+    { name = "nbconvert" },
     { name = "oaklib" },
     { name = "openai" },
     { name = "pandas" },
+    { name = "plotly" },
     { name = "pymupdf" },
     { name = "pypdf2" },
     { name = "requests" },
+    { name = "seaborn" },
     { name = "typer" },
 ]
 
@@ -83,14 +89,20 @@ requires-dist = [
     { name = "click", specifier = ">=8.2.1" },
     { name = "drawsvg", specifier = ">=2.4.0" },
     { name = "httpx", specifier = ">=0.28.1" },
+    { name = "ipykernel", specifier = ">=6.30.1" },
+    { name = "jupyter", specifier = ">=1.1.1" },
     { name = "linkml-browser", git = "https://github.com/linkml/linkml-browser" },
     { name = "linkml-runtime", specifier = ">=1.9.4" },
+    { name = "matplotlib", specifier = ">=3.10.5" },
+    { name = "nbconvert", specifier = ">=7.16.6" },
     { name = "oaklib", specifier = ">=0.6.23" },
     { name = "openai", specifier = ">=1.101.0" },
     { name = "pandas", specifier = ">=2.3.2" },
+    { name = "plotly", specifier = ">=6.3.0" },
     { name = "pymupdf", specifier = ">=1.26.4" },
     { name = "pypdf2", specifier = ">=3.0.1" },
     { name = "requests", specifier = ">=2.32.5" },
+    { name = "seaborn", specifier = ">=0.13.2" },
     { name = "typer", specifier = ">=0.9.0" },
 ]
 
@@ -2380,6 +2392,15 @@ wheels = [
 ]
 
 [[package]]
+name = "narwhals"
+version = "2.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/8f/b0a99455f6e5fe2d4e77deeee8b133cfa06e1f5441c77a70defdbbfbf639/narwhals-2.4.0.tar.gz", hash = "sha256:a71931f7fb3c8e082cbe18ef0740644d87d60eba841ddfa9ba9394de1d43062f", size = 556886 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8a/8c/ac6f6bd2d118ac49e1bc0285e401c1dc50cf878d48156bbc7969902703b0/narwhals-2.4.0-py3-none-any.whl", hash = "sha256:06d958b03e3e3725ae16feee6737b4970991bb52e8465ef75f388c574732ac59", size = 406233 },
+]
+
+[[package]]
 name = "natsort"
 version = "8.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2908,6 +2929,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f1f7ceff6685840859e8070c4d947c93fae71f6a0bf2/platformdirs-4.3.8.tar.gz", hash = "sha256:3d512d96e16bcb959a814c9f348431070822a6496326a4be0911c40b5a74c2bc", size = 21362 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fe/39/979e8e21520d4e47a0bbe349e2713c0aac6f3d853d0e5b34d76206c439aa/platformdirs-4.3.8-py3-none-any.whl", hash = "sha256:ff7059bb7eb1179e2685604f4aaf157cfd9535242bd23742eadc3c13542139b4", size = 18567 },
+]
+
+[[package]]
+name = "plotly"
+version = "6.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "narwhals" },
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a0/64/850de5076f4436410e1ce4f6a69f4313ef6215dfea155f3f6559335cad29/plotly-6.3.0.tar.gz", hash = "sha256:8840a184d18ccae0f9189c2b9a2943923fd5cae7717b723f36eef78f444e5a73", size = 6923926 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/a9/12e2dc726ba1ba775a2c6922d5d5b4488ad60bdab0888c337c194c8e6de8/plotly-6.3.0-py3-none-any.whl", hash = "sha256:7ad806edce9d3cdd882eaebaf97c0c9e252043ed1ed3d382c3e3520ec07806d4", size = 9791257 },
 ]
 
 [[package]]
@@ -4194,6 +4228,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "requests" },
     { name = "scikit-learn" },
     { name = "seaborn" },
 ]
@@ -4204,6 +4239,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.5" },
     { name = "numpy", specifier = ">=2.3.2" },
     { name = "pandas", specifier = ">=2.3.2" },
+    { name = "requests", specifier = ">=2.32.5" },
     { name = "scikit-learn", specifier = ">=1.7.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]

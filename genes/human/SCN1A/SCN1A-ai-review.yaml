@@ -326,9 +326,6 @@ existing_annotations:
   review:
     summary: 'This annotation describes a specific molecular function of SCN1A at presynaptic terminals. The referenced study (PMID:22150645) demonstrates SCN1A role in regulating presynaptic membrane potential. While this is a specialized function, it is well-supported by experimental evidence and represents an important aspect of Nav1.1 function.'
     action: ACCEPT
-    supported_by:
-      - reference_id: PMID:22150645
-        supporting_text: 'SCN1A, which encodes the alpha subunit of the sodium voltage‐gated channel NaV1.1, is the most common pathogenic gene in hereditary epilepsy'
 - term:
     id: GO:0099508
     label: voltage-gated monoatomic ion channel activity involved in regulation of
@@ -338,9 +335,6 @@ existing_annotations:
   review:
     summary: 'Duplicate annotation for the same GO term with stronger IDA evidence from PMID:22150645. This direct experimental evidence supports SCN1A role in regulating presynaptic membrane potential, which is important for neurotransmitter release and synaptic transmission.'
     action: ACCEPT
-    supported_by:
-      - reference_id: PMID:22150645
-        supporting_text: 'SCN1A, which encodes the alpha subunit of the sodium voltage‐gated channel NaV1.1, is the most common pathogenic gene in hereditary epilepsy'
 - term:
     id: GO:0099508
     label: voltage-gated monoatomic ion channel activity involved in regulation of
@@ -445,9 +439,6 @@ existing_annotations:
   review:
     summary: 'This annotation for the core biological process has NAS evidence from PMID:10742094. This provides additional literature support for SCN1A role in sodium ion transport, which is fundamental to its voltage-gated sodium channel function.'
     action: ACCEPT
-    supported_by:
-      - reference_id: PMID:10742094
-        supporting_text: 'Defects in voltage-gated sodium channel could decrease plasma membrane conductance to sodium ions in response to depolarizations and decreased the electrical excitability of gamma-aminobutyric acid (GABA) interneurons which leads to hyperexcitability resulting in epilepsy'
 core_functions:
 - description: 'Mediating voltage-gated sodium channel activity as the pore-forming Nav1.1 α-subunit that enables neuronal action potential generation and propagation'
   molecular_function:
@@ -534,13 +525,7 @@ references:
 - id: PMID:10742094
   title: Mutations of SCN1A, encoding a neuronal sodium channel, in two families with
     GEFS+2.
-  findings:
-  - statement: 'First identification of SCN1A mutations in generalized epilepsy with febrile seizures plus (GEFS+)'
-    supporting_text: 'During the very beginning of genetic epilepsy, åwith the studies of large families, SCN1A, SCN1B, and GABRG2 were identified as genes for monogenic epilepsies'
-  - statement: 'Establishes SCN1A as a neuronal sodium channel gene critical for seizure susceptibility'
-    supporting_text: 'Defects in voltage-gated sodium channel could decrease plasma membrane conductance to sodium ions in response to depolarizations and decreased the electrical excitability of gamma-aminobutyric acid (GABA) interneurons which leads to hyperexcitability resulting in epilepsy'
-  - statement: 'Provides evidence for voltage-gated sodium channel activity and sodium ion transport function'
-    supporting_text: 'Ion channels dysfunction is the earliest robust pathophysiological mechanisms in epilepsy'
+  findings: []
 - id: PMID:14672992
   title: Epilepsy-associated dysfunction in the voltage-gated neuronal sodium channel
     SCN1A.
@@ -559,12 +544,8 @@ references:
   findings:
   - statement: 'Demonstrates that SCN1A truncating mutations cause Dravet syndrome through haploinsufficiency mechanism'
     supporting_text: 'About 50% of SCN1A DS mutations truncate Na(V)1.1, possibly causing complete loss of its function'
-  - statement: 'Provides experimental evidence for SCN1A role in presynaptic membrane potential regulation using multiple evidence types (NAS, IDA, IMP)'
-    supporting_text: 'SCN1A, which encodes the alpha subunit of the sodium voltage‐gated channel NaV1.1, is the most common pathogenic gene in hereditary epilepsy'
   - statement: 'Confirms that mutant channels are not dominant negative, supporting pure loss-of-function pathogenesis'
     supporting_text: 'Na(V)1.1 truncated mutants are not dominant negative, consistent with haploinsufficiency as the cause of DS'
-  - statement: 'Establishes that 50% reduction in Nav1.1 function is sufficient to cause severe epilepsy phenotype'
-    supporting_text: 'Protein‐truncating variants causing complete loss of function (LOF) are typically associated with severe phenotypes'
 - id: PMID:27207958
   title: Variants of Transient Receptor Potential Melastatin Member 4 in Childhood
     Atrioventricular Block.

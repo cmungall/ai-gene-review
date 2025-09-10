@@ -130,6 +130,8 @@ class FullTextResult(BaseModel):
 
     content: Optional[str] = None
     available: bool = False
+    extraction_method: Optional[str] = None  # 'xml', 'html', 'pdf', 'abstract_only', etc.
+    is_complete: bool = False  # True if we got the full article, False if just abstract
 
 
 @dataclass
@@ -160,6 +162,7 @@ class Publication:
     abstract: str
     full_text: Optional[str] = None
     full_text_available: bool = False
+    full_text_extraction_method: Optional[str] = None  # 'xml', 'html', 'pdf', 'abstract_only', None
     pmcid: Optional[str] = None
     doi: Optional[str] = None
     keywords: Optional[List[str]] = None
@@ -174,6 +177,8 @@ class Publication:
             "year": self.year,
             "full_text_available": self.full_text_available,
         }
+        if self.full_text_extraction_method:
+            data["full_text_extraction_method"] = self.full_text_extraction_method
         if self.pmcid:
             data["pmcid"] = self.pmcid
         if self.doi:
@@ -392,7 +397,9 @@ def fetch_pubmed_data(
         if pmcid:
             full_text_result = fetch_pmc_fulltext(pmcid)
             publication.full_text = full_text_result.content
-            publication.full_text_available = full_text_result.available
+            # Only mark as available if we got the complete article, not just abstract
+            publication.full_text_available = full_text_result.is_complete
+            publication.full_text_extraction_method = full_text_result.extraction_method
 
         # Cache the publication if we fetched it
         if use_cache:
@@ -487,20 +494,35 @@ def fetch_pmc_fulltext(pmcid: str) -> FullTextResult:
             if abstract_elem is not None:
                 abstract_text = "".join(abstract_elem.itertext()).strip()
                 if abstract_text:
-                    body_texts.append(f"Abstract: {abstract_text}")
+                    # We only got the abstract, not the full text
+                    return FullTextResult(
+                        content=abstract_text,
+                        available=True,
+                        extraction_method="xml_abstract_only",
+                        is_complete=False
+                    )
 
         if body_texts:
-            return FullTextResult(content="\n\n".join(body_texts), available=True)
+            # Check if we have substantial content beyond just abstract
+            total_text = "\n\n".join(body_texts)
+            # If we have more than 3000 chars, likely have full article
+            is_complete = len(total_text) > 3000
+            return FullTextResult(
+                content=total_text,
+                available=True,
+                extraction_method="xml",
+                is_complete=is_complete
+            )
         else:
             print(f"PMC{pmcid}: No substantial content found in XML")
-            return FullTextResult(content=None, available=False)
+            return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
     except ET.ParseError as e:
         print(f"PMC{pmcid}: XML parsing error - {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
     except Exception as e:
         print(f"Could not fetch full text for PMC{pmcid}: {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
 
 def fetch_pmc_html_fallback(pmcid: str) -> FullTextResult:
@@ -658,8 +680,20 @@ def fetch_pmc_html_fallback(pmcid: str) -> FullTextResult:
             content = "\n\n".join(unique_parts)
 
             # Check if we got substantial content (not just abstract repetition)
-            if len(content) > 1000:  # Reasonable threshold for full article
-                return FullTextResult(content=content, available=True)
+            if len(content) > 3000:  # Reasonable threshold for full article
+                return FullTextResult(
+                    content=content,
+                    available=True,
+                    extraction_method="html",
+                    is_complete=True
+                )
+            elif len(content) > 500:  # Got something, but probably just abstract
+                return FullTextResult(
+                    content=content,
+                    available=True,
+                    extraction_method="html_abstract_only",
+                    is_complete=False
+                )
             else:
                 print(
                     f"{pmcid}: HTML content too short ({len(content)} chars), trying PDF fallback..."
@@ -673,10 +707,10 @@ def fetch_pmc_html_fallback(pmcid: str) -> FullTextResult:
 
     except requests.RequestException as e:
         print(f"{pmcid}: HTTP request failed - {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
     except Exception as e:
         print(f"{pmcid}: HTML scraping error - {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
 
 def fetch_pmc_pdf_fallback(pmcid: str) -> FullTextResult:
@@ -740,7 +774,7 @@ def fetch_pmc_pdf_fallback(pmcid: str) -> FullTextResult:
 
         if not pdf_links:
             print(f"{pmcid}: No PDF download link found")
-            return FullTextResult(content=None, available=False)
+            return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
         # Use the first PDF link found
         pdf_url = pdf_links[0]
@@ -756,7 +790,7 @@ def fetch_pmc_pdf_fallback(pmcid: str) -> FullTextResult:
 
         # Download the PDF
         if not isinstance(pdf_url, str):
-            return FullTextResult(content=None, available=False)
+            return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
         pdf_response = requests.get(pdf_url, headers=headers, timeout=60)
         pdf_response.raise_for_status()
@@ -807,22 +841,29 @@ def fetch_pmc_pdf_fallback(pmcid: str) -> FullTextResult:
                 print(
                     f"{pmcid}: Both PDF extraction methods failed - PyMuPDF: {mupdf_error}, PyPDF2: {pypdf2_error}"
                 )
-                return FullTextResult(content=None, available=False)
+                return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
         if text_parts:
             full_text = "\n\n".join(text_parts)
             print(f"{pmcid}: Extracted {len(full_text)} characters from PDF")
-            return FullTextResult(content=full_text, available=True)
+            # Check if we got substantial content
+            is_complete = len(full_text) > 3000
+            return FullTextResult(
+                content=full_text,
+                available=True,
+                extraction_method="pdf" if is_complete else "pdf_partial",
+                is_complete=is_complete
+            )
         else:
             print(f"{pmcid}: No text extracted from PDF")
-            return FullTextResult(content=None, available=False)
+            return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
     except requests.RequestException as e:
         print(f"{pmcid}: HTTP request failed - {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
     except Exception as e:
         print(f"{pmcid}: PDF extraction error - {e}")
-        return FullTextResult(content=None, available=False)
+        return FullTextResult(content=None, available=False, extraction_method=None, is_complete=False)
 
 
 def cache_publication(

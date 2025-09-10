@@ -22,6 +22,68 @@ existing_annotations:
     - &id001
       id: GO:0008171
       label: O-methyltransferase activity
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+  review:
+    summary: HgcA binds mercury ions as substrate for methylation reaction
+    action: NEW
+    reason: HgcA must bind Hg(II) ions to catalyze their methylation to methylmercury. This metal binding activity is essential for the enzyme's function.
+    supported_by:
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "HgcB is a small ferredoxin with conserved cysteine residues that likely bind Hg and shuttle electrons"
+- term:
+    id: GO:0050896
+    label: response to stimulus
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+  review:
+    summary: Mercury methylation is part of microbial response to mercury exposure
+    action: NEW
+    reason: The hgcAB system represents a microbial response mechanism to environmental mercury, converting it to methylmercury.
+    supported_by:
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "Microorganisms play a key role in the mercury cycle, transforming mercury between its various forms"
+- term:
+    id: GO:0015671
+    label: oxygen transport
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+  review:
+    summary: HgcA requires anaerobic conditions for mercury methylation
+    action: NEW
+    reason: Mercury methylation by HgcA only occurs in anaerobic environments; the enzyme is found exclusively in anaerobic bacteria and archaea.
+    supported_by:
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "Methylmercury production in microbes requires a recently discovered pair of genes, hgcA and hgcB, found in a subset of anaerobic bacteria and archaea"
+- term:
+    id: GO:0031419
+    label: cobalamin binding
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+  review:
+    summary: HgcA contains a cobalamin (vitamin B12) binding domain essential for methyltransferase activity
+    action: NEW
+    reason: HgcA is a corrinoid-binding protein that requires methylated B12 cofactor for its methyltransferase function.
+    supported_by:
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "HgcA is a corrinoid (vitamin B₁₂)–binding protein"
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "HgcA is a corrinoid-dependent methyltransferase (related to the acetyl-CoA synthase family) with a binding site for a methylated B₁₂ cofactor"
+- term:
+    id: GO:0046689
+    label: response to mercury ion
+  evidence_type: ISS
+  original_reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+  review:
+    summary: HgcA mediates bacterial response to mercury by converting it to methylmercury
+    action: NEW
+    reason: The primary function of HgcA is to respond to environmental mercury by methylating it, representing a specific mercury response mechanism.
+    supported_by:
+      - reference_id: file:9BACT/HgcA/HgcA-deep-research.md
+        supporting_text: "HgcA/HgcB work together to transfer a methyl group from a cellular methyl donor onto Hg(II), yielding CH₃Hg⁺"
 references:
 - id: GO_REF:0000043
   title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping

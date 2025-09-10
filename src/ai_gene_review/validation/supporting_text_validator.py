@@ -60,17 +60,20 @@ class SupportingTextValidationReport:
 class SupportingTextValidator:
     """Validates supporting_text fields against cached publications."""
 
-    def __init__(self, publications_dir: Path = Path("publications"), gene_dir: Path = Path("genes")):
+    def __init__(self, publications_dir: Path = Path("publications"), gene_dir: Path = Path("genes"), reactome_dir: Path = Path("reactome")):
         """Initialize validator with publications directory.
 
         Args:
             publications_dir: Path to directory containing cached publications
             gene_dir: Path to directory containing gene folders with UniProt files
+            reactome_dir: Path to directory containing cached Reactome pathways
         """
         self.publications_dir = publications_dir
         self.gene_dir = gene_dir
+        self.reactome_dir = reactome_dir
         self.cached_publications: Dict[str, str] = {}
         self.cached_uniprot_files: Dict[str, str] = {}
+        self.cached_reactome_files: Dict[str, str] = {}
         self.similarity_threshold = DEFAULT_SIMILARITY_THRESHOLD
 
     def load_publication(self, pmid: str) -> Optional[str]:
@@ -165,6 +168,30 @@ class SupportingTextValidator:
             return reference_id[10:]  # Skip "UniProtKB:" or "UNIPROTKB:"
         return None
 
+    def extract_reactome_from_reference(self, reference_id: str) -> Optional[str]:
+        """Extract Reactome ID from reference.
+
+        Args:
+            reference_id: Reference ID like "Reactome:R-HSA-9927247"
+
+        Returns:
+            Reactome ID string or None if not a Reactome reference
+
+        Examples:
+            >>> validator = SupportingTextValidator()
+            >>> validator.extract_reactome_from_reference("Reactome:R-HSA-9927247")
+            'R-HSA-9927247'
+            >>> validator.extract_reactome_from_reference("reactome:R-HSA-1234567")
+            'R-HSA-1234567'
+            >>> validator.extract_reactome_from_reference("REACTOME:R-HSA-9927247")
+            'R-HSA-9927247'
+            >>> validator.extract_reactome_from_reference("PMID:12345")
+        """
+        ref_upper = reference_id.upper()
+        if ref_upper.startswith("REACTOME:"):
+            return reference_id[9:]  # Skip "Reactome:" or "REACTOME:"
+        return None
+
     def load_uniprot_file(self, uniprot_id: str, yaml_data: Dict[str, Any] = None) -> Optional[str]:
         """Load a UniProt file for a given ID.
 
@@ -238,6 +265,51 @@ class SupportingTextValidator:
                                 return content
                         except Exception as e:
                             print(f"Error loading UniProt file for {uniprot_id}: {e}")
+
+        return None
+
+    def load_reactome_file(self, reactome_id: str) -> Optional[str]:
+        """Load a cached Reactome pathway file by ID.
+
+        Attempts to load a Reactome pathway from the local cache directory.
+        Reactome pathways should be stored as markdown files with the naming
+        convention R-HSA-<id>.md in the reactome directory.
+        Uses an in-memory cache to avoid re-reading the same file.
+
+        Args:
+            reactome_id: Reactome ID without prefix (e.g., "R-HSA-9927247")
+
+        Returns:
+            Full text of Reactome pathway in markdown format, or None if not found
+
+        Examples:
+            >>> from pathlib import Path
+            >>> import tempfile
+            >>> with tempfile.TemporaryDirectory() as tmpdir:
+            ...     # Create a test Reactome file
+            ...     reactome_dir = Path(tmpdir)
+            ...     reactome_file = reactome_dir / "R-HSA-9927247.md"
+            ...     _ = reactome_file.write_text("# ISGylation\\n\\nTest pathway content")
+            ...     # Load it
+            ...     validator = SupportingTextValidator(reactome_dir=reactome_dir)
+            ...     content = validator.load_reactome_file("R-HSA-9927247")
+            ...     print("Loaded" if content else "Not found")
+            Loaded
+        """
+        # Check cache first
+        if reactome_id in self.cached_reactome_files:
+            return self.cached_reactome_files[reactome_id]
+
+        # Try to load from file
+        reactome_file = self.reactome_dir / f"{reactome_id}.md"
+        if reactome_file.exists():
+            try:
+                with open(reactome_file, "r", encoding="utf-8") as f:
+                    content = f.read()
+                    self.cached_reactome_files[reactome_id] = content
+                    return content
+            except Exception as e:
+                print(f"Error loading Reactome pathway {reactome_id}: {e}")
 
         return None
 
@@ -566,10 +638,10 @@ class SupportingTextValidator:
         """Core validation method for checking supporting text against a reference.
 
         This method contains the shared logic for validating supporting_text
-        against a referenced publication or UniProt entry. It handles PMID/UniProt
-        extraction, content loading, text matching, and error message generation.
+        against a referenced publication, UniProt entry, or Reactome pathway. It handles 
+        PMID/UniProt/Reactome extraction, content loading, text matching, and error message generation.
 
-        Only validates PMID and UniProt references. Returns None for other references
+        Only validates PMID, UniProt and Reactome references. Returns None for other references
         (like GO_REF or file: references) since they don't have text to validate against.
 
         Args:
@@ -680,7 +752,55 @@ class SupportingTextValidator:
 
             return result
 
-        # Not a PMID or UniProt reference - skip validation
+        # Try Reactome
+        reactome_id = self.extract_reactome_from_reference(reference_id)
+        if reactome_id:
+            # Create result object for Reactome validation
+            result = SupportingTextValidationResult(
+                annotation_path=annotation_path,
+                supporting_text=supporting_text,
+                reference_id=reference_id,
+            )
+
+            # Load Reactome file
+            reactome_content = self.load_reactome_file(reactome_id)
+            if not reactome_content:
+                result.error_message = f"Reactome pathway file for {reference_id} not found"
+                result.is_valid = False
+                return result
+
+            # Check if supporting_text appears in Reactome file
+            is_found, similarity, best_match = self.find_text_in_publication(
+                supporting_text, reactome_content
+            )
+
+            result.found_in_publication = is_found
+            result.similarity_score = similarity
+            result.is_valid = is_found
+            result.best_match = best_match
+
+            # Generate error message if text not found
+            if not is_found:
+                # Truncate supporting text for display
+                text_preview = (
+                    (supporting_text[:80] + "...")
+                    if len(supporting_text) > 80
+                    else supporting_text
+                )
+
+                if similarity > 0.5:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id} '
+                        f"(best similarity: {similarity:.1%})"
+                    )
+                else:
+                    result.error_message = (
+                        f'Supporting text "{text_preview}" not found in {reference_id}'
+                    )
+
+            return result
+
+        # Not a PMID, UniProt or Reactome reference - skip validation
         # GO_REF references are computational/method references without text
         # file: references should be validated separately if needed
         return None
@@ -850,8 +970,8 @@ class SupportingTextValidator:
                     # Count as an annotation for reporting purposes
                     report.total_annotations += 1
 
-                    # NEW: Add warning if PMID or UniProt reference has findings without supporting_text
-                    if (ref_id.startswith("PMID:") or ref_id.lower().startswith("uniprot:")) and findings:
+                    # NEW: Add warning if PMID, UniProt or Reactome reference has findings without supporting_text
+                    if (ref_id.startswith("PMID:") or ref_id.lower().startswith("uniprot:") or ref_id.upper().startswith("REACTOME:")) and findings:
                         supporting_text = finding.get("supporting_text", "").strip()
                         if not supporting_text:
                             # Create a warning result for PMID findings without supporting_text
@@ -860,7 +980,7 @@ class SupportingTextValidator:
                                 annotation_path=f"references[{ref_idx}].findings[{finding_idx}]",
                                 reference_id=ref_id,
                                 supporting_text="",
-                                error_message=f"Reference {ref_id} has finding without supporting_text - findings from publications/UniProt must be supported with quotes",
+                                error_message=f"Reference {ref_id} has finding without supporting_text - findings from publications/UniProt/Reactome must be supported with quotes",
                                 found_in_publication=False,
                                 similarity_score=0.0,
                             )
@@ -944,13 +1064,14 @@ class SupportingTextValidator:
 
 
 def validate_supporting_text_in_file(
-    yaml_file: Path, publications_dir: Path = Path("publications")
+    yaml_file: Path, publications_dir: Path = Path("publications"), reactome_dir: Path = Path("reactome")
 ) -> SupportingTextValidationReport:
     """Convenience function to validate supporting_text in a file.
 
     Args:
         yaml_file: Path to gene review YAML file
         publications_dir: Path to cached publications directory
+        reactome_dir: Path to cached Reactome pathways directory
 
     Returns:
         Validation report
@@ -965,5 +1086,5 @@ def validate_supporting_text_in_file(
         >>> # print(f"Coverage: {report.validation_rate:.1f}%")
         >>> # print(f"Accuracy: {report.accuracy_rate:.1f}%")
     """
-    validator = SupportingTextValidator(publications_dir)
+    validator = SupportingTextValidator(publications_dir, reactome_dir=reactome_dir)
     return validator.validate_file(yaml_file)

@@ -39,11 +39,6 @@ existing_annotations:
     reason: Direct experimental evidence confirms this as MerA's primary molecular
       function
     supported_by:
-    - reference_id: PMID:6412751
-      supporting_text: mercuric reductase enzyme (MerA), researchers used NEM on an
-        HgII-reducing Escherichia coli strain to determine if the reduction mechanism
-        required interaction with thiol groups for the activity to occur
-      reference_section_type: DISCUSSION
     - reference_id: PMID:1531297
       supporting_text: Compared to wild-type enzyme, the C558A mutant shows a 20-fold
         reduction in kcat and a 10-fold increase in Km, for an overall decrease in
@@ -60,11 +55,6 @@ existing_annotations:
       used as the primary annotation.
     action: KEEP_AS_NON_CORE
     reason: Too general - more specific mercury reductase term available
-    supported_by:
-    - reference_id: PMID:6412751
-      supporting_text: It was later confirmed that the reduction activity was attributable
-        to MerA, a flavin disulphide oxidoreductase
-      reference_section_type: INTRODUCTION
 - term:
     id: GO:0016668
     label: oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as

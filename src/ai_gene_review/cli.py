@@ -784,6 +784,10 @@ def refresh_publications(
             help="Show sample of publications needing refresh (specify number)",
         ),
     ] = 0,
+    force_all: Annotated[
+        bool,
+        typer.Option("--force-all", help="Force refresh ALL publications, not just those missing full text"),
+    ] = False,
 ):
     """Refresh publications cache for PMC articles with missing full text.
 
@@ -828,15 +832,41 @@ def refresh_publications(
 
     # Find candidates for refresh
     typer.echo("Scanning publications folder...")
-    candidates = find_pmc_candidates(publications_dir)
-
-    if not candidates:
-        typer.echo("No candidates found for refresh.")
-        return
-
-    typer.echo(
-        f"Found {len(candidates)} publications with PMC IDs but missing full text."
-    )
+    
+    if force_all:
+        # Get ALL publications for forced refresh
+        import re
+        from pathlib import Path
+        
+        candidates = []
+        for file_path in sorted(publications_dir.glob("PMID_*.md")):
+            match = re.match(r"PMID_(\d+)\.md", file_path.name)
+            if match:
+                pmid = match.group(1)
+                candidates.append({
+                    'pmid': pmid,
+                    'file': file_path.name,
+                    'pmcid': None,  # Will be determined during refresh
+                    'full_text_available': False,  # Force refresh regardless
+                    'has_full_text_section': False
+                })
+        
+        if not candidates:
+            typer.echo("No publication files found.")
+            return
+            
+        typer.echo(f"Found {len(candidates)} publications to force refresh.")
+    else:
+        # Normal mode: only get candidates missing full text
+        candidates = find_pmc_candidates(publications_dir)
+        
+        if not candidates:
+            typer.echo("No candidates found for refresh.")
+            return
+        
+        typer.echo(
+            f"Found {len(candidates)} publications with PMC IDs but missing full text."
+        )
 
     # Determine how many to process
     if count is None:

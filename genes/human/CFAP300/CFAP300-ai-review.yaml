@@ -152,6 +152,70 @@ existing_annotations:
     supported_by:
     - reference_id: UniProt:Q9BRQ4
       supporting_text: 'May play a role in outer and inner dynein arm assembly.'
+- term:
+    id: GO:0070286
+    label: axonemal dynein complex assembly
+  evidence_type: ISS
+  original_reference_id: file:human/CFAP300/CFAP300-deep-research.md
+  review:
+    summary: CFAP300 is essential for assembly of both outer and inner dynein arm complexes in the cytoplasm before their transport to cilia.
+    action: NEW
+    reason: This specific biological process is CFAP300's primary function - it acts as a dynein arm assembly factor that is required for both ODA and IDA formation. Mutations cause complete loss of both dynein arm types.
+    supported_by:
+      - reference_id: PMID:29727692
+        supporting_text: "C11orf70 encodes a protein needed for assembly of both outer and inner arm axonemal dyneins"
+      - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+        supporting_text: "CFAP300 is required for the proper assembly of the axonemal dynein arms – large motor protein complexes on ciliary microtubules"
+- term:
+    id: GO:0003351
+    label: epithelial cilium movement involved in extracellular fluid movement
+  evidence_type: ISS
+  original_reference_id: file:human/CFAP300/CFAP300-deep-research.md
+  review:
+    summary: CFAP300 enables ciliary beating in respiratory epithelium for mucociliary clearance and in ependymal cells for CSF circulation.
+    action: NEW
+    reason: Loss of CFAP300 causes immotile respiratory cilia leading to chronic infections due to failed mucociliary clearance. This specific ciliary function is distinct from general cilium movement.
+    supported_by:
+      - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+        supporting_text: "CFAP300 is crucial for the process of cilium movement (motile cilium beating). By enabling dynein arms to attach to ciliary microtubules, CFAP300 allows ciliary beating that drives fluid movement in airways, clears mucus"
+- term:
+    id: GO:0030317
+    label: flagellated sperm motility  
+  evidence_type: ISS
+  original_reference_id: file:human/CFAP300/CFAP300-deep-research.md
+  review:
+    summary: CFAP300 is essential for sperm flagellar motility through assembly of flagellar dynein arms. Mutations cause complete sperm immotility and male infertility.
+    action: NEW
+    reason: Direct evidence that CFAP300 mutations cause asthenozoospermia with completely immotile sperm due to absence of flagellar dynein arms.
+    supported_by:
+      - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+        supporting_text: "In sperm cells, CFAP300-driven dynein assembly is part of the process of sperm flagellum motility and hence normal male fertility"
+      - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+        supporting_text: "Males with CFAP300-related PCD have immotile (or severely dysmotile) sperm, leading to infertility (asthenozoospermia)"
+- term:
+    id: GO:0007368
+    label: determination of left/right symmetry
+  evidence_type: ISS
+  original_reference_id: file:human/CFAP300/CFAP300-deep-research.md
+  review:
+    summary: CFAP300 is required for nodal ciliary beating that establishes left-right body asymmetry. Mutations frequently cause situs inversus and laterality defects.
+    action: NEW
+    reason: CFAP300 mutations result in randomized organ laterality due to nodal cilia dysfunction during embryonic development.
+    supported_by:
+      - reference_id: file:human/CFAP300/CFAP300-deep-research.md
+        supporting_text: "CFAP300 also indirectly contributes to processes like determination of left/right body asymmetry during embryogenesis. Embryonic nodal cilia require beating to establish left-right symmetry; CFAP300 mutations (PCD) often result in random organ laterality (e.g. situs inversus)"
+- term:
+    id: GO:0060285
+    label: cilium-dependent cell motility
+  evidence_type: ISS
+  original_reference_id: PMID:29727692
+  review:
+    summary: CFAP300 is required for cell motility in Paramecium and Chlamydomonas through its role in ciliary dynein arm assembly.
+    action: NEW
+    reason: Model organism studies show CFAP300 knockdown causes reduced ciliary beating and impaired swimming, demonstrating its role in cilium-dependent cell locomotion.
+    supported_by:
+      - reference_id: PMID:29727692
+        supporting_text: "Paramecium C11orf70 RNAi knockdown led to reduced cilia beating and swim velocity"
 core_functions:
 - description: Cytoplasmic assembly and intraflagellar transport of axonemal dynein
     arms

@@ -70,7 +70,7 @@ slots:
     range: boolean
     description: Whether the full text is unavailable
   evidence_type:
-    range: string
+    range: EvidenceType
     description: Evidence code (e.g., IDA, IBA, ISS, TAS)
   term:
     inlined: true
@@ -132,12 +132,20 @@ slots:
     range: boolean
     description: Whether the reference is invalid (e.g., retracted or replaced)
   reference_section_type:
-    range: string
+    range: ManuscriptSection
     description: Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')
   proposed_new_terms:
     range: ProposedOntologyTerm
     multivalued: true
     description: Proposed new ontology terms that should exist but don't
+  suggested_questions:
+    range: Question
+    multivalued: true
+    description: Suggested questions to ask experts about the gene. Only include if not obvious from the literature.
+  suggested_experiments:
+    range: Experiment
+    multivalued: true
+  
     
     
 
@@ -176,6 +184,7 @@ classes:
       - title
       - findings
       - is_invalid
+      - full_text_unavailable
 
   Finding:
     description: A finding is a statement about a gene, which is supported by a reference.
@@ -291,17 +300,154 @@ classes:
         range: SupportingTextInReference
         multivalued: true
 
+  Experiment:
+    description: A suggested experiment to answer a question about the gene
+    attributes:
+      hypothesis:
+        range: string
+        required: true
+        description: Hypothesis to be investigated
+      suggested_experiment:
+        range: string
+        required: true
+        description: Detailed description of the experiment to be performed
+      experiment_type:
+        range: string
+        required: false
+        description: Type of experiment or assay to answer the question
+
+  Question:
+    description: A question to be answered about the gene
+    attributes:
+      question:
+        range: string
+        required: true
+        description: Question to be answered
+      experts:
+        range: string
+        multivalued: true
+        required: false
+        description: Experts to answer the question. These should be drawn from the authors of relevant publications already referenced.
+          If no suitable experts are available, it's OK to leave this as an empty list!
+
 
 enums:
   EvidenceType:
-    # TODO: complete this
+    description: |-
+      Gene Ontology evidence codes mapped to Evidence and Conclusion Ontology (ECO) terms
     permissible_values:
+      
+      # Experimental Evidence Codes
+      EXP:
+        description: Inferred from Experiment
+        meaning: ECO:0000269
+        
       IDA:
-      IBA:
-      ISS:
-      TAS:
+        description: Inferred from Direct Assay
+        meaning: ECO:0000314
+        
+      IPI:
+        description: Inferred from Physical Interaction
+        meaning: ECO:0000353
+        
+      IMP:
+        description: Inferred from Mutant Phenotype
+        meaning: ECO:0000315
+        
+      IGI:
+        description: Inferred from Genetic Interaction
+        meaning: ECO:0000316
+        
       IEP:
+        description: Inferred from Expression Pattern
+        meaning: ECO:0000270
+
+      # High Throughput Experimental Evidence Codes
+      HTP:
+        description: Inferred from High Throughput Experiment
+        meaning: ECO:0006056
+        
+      HDA:
+        description: Inferred from High Throughput Direct Assay
+        meaning: ECO:0007005
+        
+      HMP:
+        description: Inferred from High Throughput Mutant Phenotype
+        meaning: ECO:0007001
+        
+      HGI:
+        description: Inferred from High Throughput Genetic Interaction
+        meaning: ECO:0007003
+        
+      HEP:
+        description: Inferred from High Throughput Expression Pattern
+        meaning: ECO:0007007
+
+      # Phylogenetically-inferred annotations
+      IBA:
+        description: Inferred from Biological aspect of Ancestor
+        meaning: ECO:0000318
+        
+      IBD:
+        description: Inferred from Biological aspect of Descendant
+        meaning: ECO:0000319
+        
+      IKR:
+        description: Inferred from Key Residues
+        meaning: ECO:0000320
+        
+      IRD:
+        description: Inferred from Rapid Divergence
+        meaning: ECO:0000321
+
+      # Computational Analysis Evidence Codes
+      ISS:
+        description: Inferred from Sequence or structural Similarity
+        meaning: ECO:0000250
+        
+      ISO:
+        description: Inferred from Sequence Orthology
+        meaning: ECO:0000266
+        
+      ISA:
+        description: Inferred from Sequence Alignment
+        meaning: ECO:0000247
+        
+      ISM:
+        description: Inferred from Sequence Model
+        meaning: ECO:0000255
+        
       IGC:
+        description: Inferred from Genomic Context
+        meaning: ECO:0000317
+        
+      RCA:
+        description: Inferred from Reviewed Computational Analysis
+        meaning: ECO:0000245
+
+      # Author Statement Evidence Codes
+      TAS:
+        description: Traceable Author Statement
+        meaning: ECO:0000304
+        
+      NAS:
+        description: Non-traceable Author Statement
+        meaning: ECO:0000303
+
+      # Curator Statement Evidence Codes
+      IC:
+        description: Inferred by Curator
+        meaning: ECO:0000305
+        
+      ND:
+        description: No biological Data available
+        meaning: ECO:0000307
+
+      # Electronic Annotation Evidence Code
+      IEA:
+        description: Inferred from Electronic Annotation
+        meaning: ECO:0000501
+
 
   ActionEnum:
     permissible_values:
@@ -324,7 +470,9 @@ enums:
       PENDING:
         description: The review entry is a stub, and the review has not been completed yet.
       NEW:
-        description: This is a proposed annotation, not one that exists in the existing GO annotations
+        description: This is a proposed annotation, not one that exists in the existing GO annotations. Use this to propose a new annotation
+          not covered by the existing GO annotations. Use this conservatively, do not over-annotate, especially for biological process.
+          Do not use for indirect or pleiotropic effects. Be sure you have good evidence, this can be from multiple sources.
 
   GOTermEnum:
     description: A term in the GO ontology
@@ -373,4 +521,90 @@ enums:
       relationship_types:
         - rdfs:subClassOf
       
+  ManuscriptSection:
+    description: |-
+      Sections of a scientific manuscript or publication
+    permissible_values:
+
+      TITLE:
+        description: Title section
+        meaning: IAO:0000305  # document title
+        annotations:
+          order: 1
+
+      ABSTRACT:
+        description: Abstract
+        meaning: IAO:0000315  # abstract
+        annotations:
+          order: 3
+          typical_length: 150-300 words
+
+      KEYWORDS:
+        description: Keywords
+        meaning: IAO:0000630  # keywords section
+        annotations:
+          order: 4
+
+      # Main Text
+      INTRODUCTION:
+        description: Introduction/Background
+        meaning: IAO:0000316  # introduction to a publication about an investigation
+        annotations:
+          order: 5
+          aliases: Background
+
+      LITERATURE_REVIEW:
+        description: Literature review
+        meaning: IAO:0000639  # related work section
+        annotations:
+          order: 6
+          optional: true
+
+      METHODS:
+        description: Methods/Materials and Methods
+        meaning: IAO:0000317  # methods section
+        annotations:
+          order: 7
+          aliases: Materials and Methods, Methodology, Experimental
+
+      RESULTS:
+        description: Results
+        meaning: IAO:0000318  # results section
+        annotations:
+          order: 8
+          aliases: Findings
+
+      DISCUSSION:
+        description: Discussion
+        meaning: IAO:0000319  # discussion section of a publication about an investigation
+        annotations:
+          order: 9
+
+      CONCLUSIONS:
+        description: Conclusions
+        meaning: IAO:0000615  # conclusion section
+        annotations:
+          order: 10
+          aliases: Conclusion
+
+      APPENDICES:
+        description: Appendices
+        meaning: IAO:0000326  # supplementary material to a document
+        annotations:
+          order: 13
+          aliases: Appendix
+
+      SUPPLEMENTARY_MATERIAL:
+        description: Supplementary material
+        meaning: IAO:0000326  # supplementary material to a document
+        annotations:
+          order: 14
+          aliases: Supporting Information, Supplemental Data
+          location: often online-only
+
+      OTHER:
+        description: Other main text section
+        annotations:
+          catch_all: true
+
       

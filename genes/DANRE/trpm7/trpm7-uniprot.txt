@@ -1,0 +1,361 @@
+ID   Q563W7_DANRE            Unreviewed;      1774 AA.
+AC   Q563W7;
+DT   10-MAY-2005, integrated into UniProtKB/TrEMBL.
+DT   10-MAY-2005, sequence version 1.
+DT   18-JUN-2025, entry version 111.
+DE   RecName: Full=non-specific serine/threonine protein kinase {ECO:0000256|ARBA:ARBA00012513};
+DE            EC=2.7.11.1 {ECO:0000256|ARBA:ARBA00012513};
+GN   Name=trpm7 {ECO:0000313|RefSeq:NP_001025232.1,
+GN   ECO:0000313|ZFIN:ZDB-GENE-021115-2};
+GN   Synonyms=cb495 {ECO:0000313|RefSeq:NP_001025232.1}, tct
+GN   {ECO:0000313|RefSeq:NP_001025232.1};
+OS   Danio rerio (Zebrafish) (Brachydanio rerio).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+OC   Danionidae; Danioninae; Danio.
+OX   NCBI_TaxID=7955 {ECO:0000313|EMBL:AAX58598.1};
+RN   [1] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=9007256;
+RA   Kelsh R.N., Brand M., Jiang Y.J., Heisenberg C.P., Lin S., Haffter P.,
+RA   Odenthal J., Mullins M.C., van Eeden F.J., Furutani-Seiki M., Granato M.,
+RA   Hammerschmidt M., Kane D.A., Warga R.M., Beuchle D., Vogelsang L.,
+RA   Nusslein-Volhard C.;
+RT   "Zebrafish pigmentation mutations and the processes of neural crest
+RT   development.";
+RL   Development 123:369-389(1996).
+RN   [2] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=15454265;
+RA   Arduini B.L., Henion P.D.;
+RT   "Melanophore sublineage-specific requirement for zebrafish touchtone during
+RT   neural crest development.";
+RL   Mech. Dev. 121:1353-1364(2004).
+RN   [3] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=15454266;
+RA   Cornell R.A., Yemm E., Bonde G., Li W., d'Alencon C., Wegman L., Eisen J.,
+RA   Zahs A.;
+RT   "Touchtone promotes survival of embryonic melanophores in zebrafish.";
+RL   Mech. Dev. 121:1365-1376(2004).
+RN   [4] {ECO:0000313|EMBL:AAX58598.1, ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|EMBL:AAX58598.1,
+RC   ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=15823540; DOI=10.1016/j.cub.2005.02.050;
+RA   Elizondo M.R., Arduini B.L., Paulsen J., MacDonald E.L., Sabel J.L.,
+RA   Henion P.D., Cornell R.A., Parichy D.M.;
+RT   "Defective skeletogenesis with kidney stone formation in dwarf zebrafish
+RT   mutant for trpm7.";
+RL   Curr. Biol. 15:667-671(2005).
+RN   [5] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=17287248;
+RA   Liu Y., Pathak N., Kramer-Zucker A., Drummond I.A.;
+RT   "Notch signaling controls the differentiation of transporting epithelia and
+RT   multiciliated cells in the zebrafish pronephros.";
+RL   Development 134:1111-1122(2007).
+RN   [6] {ECO:0000313|Proteomes:UP000000437}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=23594743; DOI=10.1038/nature12111;
+RG   Genome Reference Consortium Zebrafish;
+RA   Howe K., Clark M.D., Torroja C.F., Torrance J., Berthelot C., Muffato M.,
+RA   Collins J.E., Humphray S., McLaren K., Matthews L., McLaren S., Sealy I.,
+RA   Caccamo M., Churcher C., Scott C., Barrett J.C., Koch R., Rauch G.J.,
+RA   White S., Chow W., Kilian B., Quintais L.T., Guerra-Assuncao J.A., Zhou Y.,
+RA   Gu Y., Yen J., Vogel J.H., Eyre T., Redmond S., Banerjee R., Chi J., Fu B.,
+RA   Langley E., Maguire S.F., Laird G.K., Lloyd D., Kenyon E., Donaldson S.,
+RA   Sehra H., Almeida-King J., Loveland J., Trevanion S., Jones M., Quail M.,
+RA   Willey D., Hunt A., Burton J., Sims S., McLay K., Plumb B., Davis J.,
+RA   Clee C., Oliver K., Clark R., Riddle C., Elliot D., Eliott D.,
+RA   Threadgold G., Harden G., Ware D., Begum S., Mortimore B., Mortimer B.,
+RA   Kerry G., Heath P., Phillimore B., Tracey A., Corby N., Dunn M.,
+RA   Johnson C., Wood J., Clark S., Pelan S., Griffiths G., Smith M.,
+RA   Glithero R., Howden P., Barker N., Lloyd C., Stevens C., Harley J.,
+RA   Holt K., Panagiotidis G., Lovell J., Beasley H., Henderson C., Gordon D.,
+RA   Auger K., Wright D., Collins J., Raisen C., Dyer L., Leung K.,
+RA   Robertson L., Ambridge K., Leongamornlert D., McGuire S., Gilderthorp R.,
+RA   Griffiths C., Manthravadi D., Nichol S., Barker G., Whitehead S., Kay M.,
+RA   Brown J., Murnane C., Gray E., Humphries M., Sycamore N., Barker D.,
+RA   Saunders D., Wallis J., Babbage A., Hammond S., Mashreghi-Mohammadi M.,
+RA   Barr L., Martin S., Wray P., Ellington A., Matthews N., Ellwood M.,
+RA   Woodmansey R., Clark G., Cooper J., Cooper J., Tromans A., Grafham D.,
+RA   Skuce C., Pandian R., Andrews R., Harrison E., Kimberley A., Garnett J.,
+RA   Fosker N., Hall R., Garner P., Kelly D., Bird C., Palmer S., Gehring I.,
+RA   Berger A., Dooley C.M., Ersan-Urun Z., Eser C., Geiger H., Geisler M.,
+RA   Karotki L., Kirn A., Konantz J., Konantz M., Oberlander M.,
+RA   Rudolph-Geiger S., Teucke M., Lanz C., Raddatz G., Osoegawa K., Zhu B.,
+RA   Rapp A., Widaa S., Langford C., Yang F., Schuster S.C., Carter N.P.,
+RA   Harrow J., Ning Z., Herrero J., Searle S.M., Enright A., Geisler R.,
+RA   Plasterk R.H., Lee C., Westerfield M., de Jong P.J., Zon L.I.,
+RA   Postlethwait J.H., Nusslein-Volhard C., Hubbard T.J., Roest Crollius H.,
+RA   Rogers J., Stemple D.L.;
+RT   "The zebrafish reference genome sequence and its relationship to the human
+RT   genome.";
+RL   Nature 496:498-503(2013).
+RN   [7] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=33176142;
+RA   Chambers J.M., Addiego A., Flores-Mireles A.L., Wingert R.A.;
+RT   "Ppargc1a Controls Ciliated Cell Development by Regulating Prostaglandin
+RT   Biosynthesis.";
+RL   Cell Rep. 33:108370-108370(2020).
+RN   [8] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=33186875;
+RA   You M.S., Yang W.B., Cheng C.H., Yu S., Chang H.C., Yu H.S.;
+RT   "Red LED light treatment promotes cognitive learning through up-regulation
+RT   of trpm4 in zebrafish.";
+RL   J. Photochem. Photobiol. B 213:112073-112073(2020).
+RN   [9] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=33277250; DOI=10.1126/sciadv.abc5546;
+RA   Gross-Thebing S., Truszkowski L., Tenbrinck D., Sanchez-Iranzo H.,
+RA   Camelo C., Westerich K.J., Singh A., Maier P., Prengel J., Lange P.,
+RA   Huwel J., Gaede F., Sasse R., Vos B.E., Betz T., Matis M., Prevedel R.,
+RA   Luschnig S., Diz-Munoz A., Burger M., Raz E.;
+RT   "Using migrating cells as probes to illuminate features in live embryonic
+RT   tissues.";
+RL   Sci. Adv. 6:eabc5546-eabc5546(2020).
+RN   [10] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=36551976;
+RA   Weaver N.E., Healy A., Wingert R.A.;
+RT   "gldc Is Essential for Renal Progenitor Patterning during Kidney
+RT   Development.";
+RL   Biomedicines 10:3220-3220(2022).
+RN   [11] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RX   PubMed=36831333;
+RA   Wesselman H.M., Gatz A.E., Pfaff M.R., Arceri L., Wingert R.A.;
+RT   "Estrogen Signaling Influences Nephron Segmentation of the Zebrafish
+RT   Embryonic Kidney.";
+RL   Cells 12:666-666(2023).
+RN   [12] {ECO:0000313|RefSeq:NP_001025232.1}
+RP   IDENTIFICATION.
+RC   STRAIN=AB {ECO:0000313|RefSeq:NP_001025232.1};
+RG   RefSeq;
+RL   Submitted (MAR-2025) to UniProtKB.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Ca(2+)(in) = Ca(2+)(out); Xref=Rhea:RHEA:29671,
+CC         ChEBI:CHEBI:29108; Evidence={ECO:0000256|ARBA:ARBA00036634};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + ATP = O-phospho-L-seryl-[protein] + ADP +
+CC         H(+); Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048679};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + ATP = O-phospho-L-threonyl-[protein] +
+CC         ADP + H(+); Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:61977, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047899};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Mg(2+)(in) = Mg(2+)(out); Xref=Rhea:RHEA:29827,
+CC         ChEBI:CHEBI:18420; Evidence={ECO:0000256|ARBA:ARBA00034269};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Zn(2+)(in) = Zn(2+)(out); Xref=Rhea:RHEA:29351,
+CC         ChEBI:CHEBI:29105; Evidence={ECO:0000256|ARBA:ARBA00034634};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR629601-3};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|PIRSR:PIRSR629601-3};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}. Nucleus
+CC       {ECO:0000256|ARBA:ARBA00004123}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the protein kinase
+CC       superfamily. Alpha-type protein kinase family. ALPK subfamily.
+CC       {ECO:0000256|ARBA:ARBA00025760}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY860421; AAX58598.1; -; mRNA.
+DR   RefSeq; NP_001025232.1; NM_001030061.1.
+DR   FunCoup; Q563W7; 162.
+DR   GeneID; 280653; -.
+DR   KEGG; dre:280653; -.
+DR   AGR; ZFIN:ZDB-GENE-021115-2; -.
+DR   CTD; 54822; -.
+DR   ZFIN; ZDB-GENE-021115-2; trpm7.
+DR   OrthoDB; 301415at2759; -.
+DR   Reactome; R-DRE-3295583; TRP channels.
+DR   Proteomes; UP000000437; Chromosome 18.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IDA:ZFIN.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005262; F:calcium channel activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006816; P:calcium ion transport; IBA:GO_Central.
+DR   GO; GO:0048066; P:developmental pigmentation; IMP:ZFIN.
+DR   GO; GO:0031017; P:exocrine pancreas development; IMP:ZFIN.
+DR   GO; GO:0010960; P:magnesium ion homeostasis; IDA:ZFIN.
+DR   GO; GO:0006582; P:melanin metabolic process; IMP:ZFIN.
+DR   GO; GO:0030318; P:melanocyte differentiation; IMP:ZFIN.
+DR   GO; GO:0030001; P:metal ion transport; IDA:ZFIN.
+DR   GO; GO:0055080; P:monoatomic cation homeostasis; IMP:ZFIN.
+DR   GO; GO:0098655; P:monoatomic cation transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0001503; P:ossification; IMP:ZFIN.
+DR   GO; GO:0051262; P:protein tetramerization; IEA:InterPro.
+DR   GO; GO:0050678; P:regulation of epithelial cell proliferation; IMP:ZFIN.
+DR   GO; GO:0002027; P:regulation of heart rate; IMP:ZFIN.
+DR   GO; GO:0007346; P:regulation of mitotic cell cycle; IMP:ZFIN.
+DR   GO; GO:0046928; P:regulation of neurotransmitter secretion; IMP:ZFIN.
+DR   GO; GO:0003014; P:renal system process; IMP:ZFIN.
+DR   GO; GO:0001501; P:skeletal system development; IMP:ZFIN.
+DR   GO; GO:0036269; P:swimming behavior; IMP:ZFIN.
+DR   GO; GO:0001966; P:thigmotaxis; IMP:ZFIN.
+DR   CDD; cd16971; Alpha_kinase_ChaK1_TRMP7; 1.
+DR   FunFam; 1.20.5.1010:FF:000002; Transient receptor potential cation channel subfamily M member 7; 1.
+DR   FunFam; 3.20.200.10:FF:000001; Transient receptor potential cation channel, subfamily M, member 7; 1.
+DR   FunFam; 3.30.200.20:FF:000129; Transient receptor potential cation channel, subfamily M, member 7; 1.
+DR   Gene3D; 3.20.200.10; MHCK/EF2 kinase; 1.
+DR   Gene3D; 3.30.200.20; Phosphorylase Kinase, domain 1; 1.
+DR   Gene3D; 1.20.5.1010; TRPM, tetramerisation domain; 1.
+DR   InterPro; IPR004166; a-kinase_dom.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR050927; TRPM.
+DR   InterPro; IPR029601; TRPM7_a-kinase_dom.
+DR   InterPro; IPR041491; TRPM_SLOG.
+DR   InterPro; IPR032415; TRPM_tetra.
+DR   InterPro; IPR037162; TRPM_tetra_sf.
+DR   PANTHER; PTHR13800:SF8; TRANSIENT RECEPTOR POTENTIAL CATION CHANNEL SUBFAMILY M MEMBER 7; 1.
+DR   PANTHER; PTHR13800; TRANSIENT RECEPTOR POTENTIAL CATION CHANNEL, SUBFAMILY M, MEMBER 6; 1.
+DR   Pfam; PF02816; Alpha_kinase; 1.
+DR   Pfam; PF00520; Ion_trans; 1.
+DR   Pfam; PF18139; LSDAT_euk; 1.
+DR   Pfam; PF25508; TRPM2; 2.
+DR   Pfam; PF16519; TRPM_tetra; 1.
+DR   SMART; SM00811; Alpha_kinase; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS51158; ALPHA_KINASE; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRSR:PIRSR629601-
+KW   2}; Calcium {ECO:0000256|ARBA:ARBA00022837};
+KW   Calcium channel {ECO:0000256|ARBA:ARBA00022673};
+KW   Calcium transport {ECO:0000256|ARBA:ARBA00022568};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Ion channel {ECO:0000256|ARBA:ARBA00023303};
+KW   Ion transport {ECO:0000256|ARBA:ARBA00023065};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR629601-3};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRSR:PIRSR629601-2}; Nucleus {ECO:0000256|ARBA:ARBA00023242};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Receptor {ECO:0000313|EMBL:AAX58598.1, ECO:0000313|RefSeq:NP_001025232.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000437};
+KW   Serine/threonine-protein kinase {ECO:0000256|ARBA:ARBA00022527};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRSR:PIRSR629601-3}.
+FT   DOMAIN          1503..1733
+FT                   /note="Alpha-type protein kinase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51158"
+FT   REGION          541..566
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1352..1387
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1399..1420
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1436..1455
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1739..1768
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1436..1452
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1739..1750
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        1676
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-1"
+FT   BINDING         1533
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-2"
+FT   BINDING         1557
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-2"
+FT   BINDING         1629
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-2"
+FT   BINDING         1662
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-3"
+FT   BINDING         1678
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-2"
+FT   BINDING         1686
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-2"
+FT   BINDING         1719
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-3"
+FT   BINDING         1721
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-3"
+FT   BINDING         1725
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR629601-3"
+SQ   SEQUENCE   1774 AA;  201442 MW;  DBA914283186F7CD CRC64;
+     MSQKSWIEHT FTRRECVYIL PVSKDPHRCL PGCQICQQLV RCCCGRLVRQ HVGFTATLAV
+     KYSEVSEELS ELEQWSVEKH TEESPTDAYG VINFQGGSHS YRAKYVRLSH DSRPEAVLRL
+     MLKEWLMELP KIVISVHGGI QNFELHPRIK QVVGKGLIKA AVTTGAWILT GGVNTGVAKH
+     VGDALKEHLS RSARKICTVG IAPWGVIENR NDLIGRDVVA PYQTLLNPLS KLNVLNNFHS
+     HFLLVDDGTV GKYGAEVRLR RELEKHIQLQ RIHARIGQGV PVVALIFEGG PNVILTVLEY
+     LQESPPVPVV VCEGTGRAAD ILAYVHKQTE QDGALPDGVE SDIIATIKKT FNFSHGDALH
+     LFQTLMECMK NKELITVFPV GSEDHQDIDV AILKALLKGT NATAFDQLVL TLAWDRVDIA
+     KDHVFVYGQQ LLVGSLEQAM LDALVMDRVE FVKLLIENGV SMHRFLTITR LEELYNTKQT
+     PTNPTLYHLV RDVKQGNLPP NYKITLIDVG LVIEYLMGGT YRCNYTRKRF RIIYNNLHGN
+     SRRSGRHTSS SHSHESFSIQ ADKKEKTRHN HFIKTAQPYK PRLDSVSELQ KKKSKEEVVD
+     VDDPETRRFP YPFNELLVWA VLMKRQKMSL FFWQHGEESM AKALVACRLL RSLGDEAKKS
+     DVVDDTSEEL KEYSSEFGTL AVDLLEQSFR QDETMAMKLL TYELKNWSNS TCLKLAVSSR
+     LRPFVAHTCT QMLLSDMWMG RLNMRKNSWY KVILSILVPP AILLLEYKTK AEMSHIPQSQ
+     DAHQSMEDSE HNLQHPDDIQ MDVFKEVRMS DNAEMKSELE VHVRSRRLPI TRKFYAFYHA
+     PIVKFWFNTL FYIGFLMLYS FVVLVKMQDL PSPQEWVVIL YIFTLAVEKI REMFMSEGGK
+     ISQKIKVWFS DYFNISDFLA ILMFFVGFGL RLVSEVFIAG RIVYCLNIIF WYVRLLDILA
+     VNQQAGPYVM MIGKMVANMF YIVVIMAVVL LSFGVPRKAI LYPEEEPSWT LAKDVVFQPY
+     WMMYGEVYAY EIDVCANSSE EHVRDLCTTG VWLTPLLQAV YLFVQYILMV NLLIAFFNNV
+     YLQVKSISNL VWKYQRYHFI LAYHDKPILP PPLILLSHAA SLLSSICRKR KKDSSTYGPK
+     LFLTEEDQKK LHDFEEQCVE TYFHEKDDQF HSGSDERIRL TSDRVETMCV QLKEVGNKVN
+     FIKRSLHTLD SQIGHLQDLS ALTVDTLKAL TAQRASEASK VHNQITRELS VSRNLAPEAV
+     PPSKPGALVR CSVAFMPPNS MADSLFGGGV EAVQGAGLPH ASLTADGVQT PQMRRRGHQE
+     HLSSAPAAAA SFFLSTPLPQ QQDLQAPPEE FGAFVGHKDE PEGQRSIPKE SAVSSPSRKT
+     RDVGNMRTVN SYAGFTELDR NPSLLHPEST LSKQERTRVS LEDVSRYEDL LLGKSAQSSK
+     LSPGDDASNT AIGSPFKPME SYQYSAVERN NLMRLSQSIP FTPVPPRGEP VSVYRLEESS
+     PGSINNSMSS WAQRGLCAKI EFLSKEEMGG GLRRALKVLC TWSEYDILKP GHLYIVKSFL
+     PEVVNTWQTI YREETVLHLC LREIQQQRAA QKLTFAFNQI RPKTIPYSPR FLEVFLLYCH
+     SAGQWFAIEE CITGDFRKFN NNNGDEIVPT NLLEETMLAF SHWTYEYTRG ELLVLDLQGV
+     GEILTDPSVI KSGEKGSYDM IFGPANLGDD AIRNFRAKHH CNSCCRKLKL PDLKRNDYTP
+     DKLTLQHDPS EGPSHSPPAG AATKELRPSM RLML
+//

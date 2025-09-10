@@ -592,11 +592,6 @@ existing_annotations:
     action: ACCEPT
     reason: Protein phosphorylation is the fundamental enzymatic activity of JAK1.
       Core molecular function.
-    supported_by:
-    - reference_id: PMID:28111307
-      supporting_text: Inborn errors of immunity (IEI) are monogenic disorders of
-        the immune system that frequently present with autoimmunity or autoinflammation,
-        necessitating multi-specialty care
 - term:
     id: GO:0031625
     label: ubiquitin protein ligase binding

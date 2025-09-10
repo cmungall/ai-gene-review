@@ -491,9 +491,6 @@ existing_annotations:
     summary: 'Direct immunostaining evidence shows Dscam1 localization on axons. Matthews et al., 2007 and other studies demonstrate axonal localization where Dscam1 mediates self-avoidance and guidance.'
     action: ACCEPT
     reason: 'Direct experimental observation confirms axonal localization. Well-supported cellular component annotation.'
-    supported_by:
-      - reference_id: PMID:17482551
-        supporting_text: '[Dscam is present on] axons [in neurons]'
 - term:
     id: GO:0030425
     label: dendrite
@@ -515,9 +512,6 @@ existing_annotations:
     summary: 'Direct immunostaining shows Dscam1 on neuronal cell bodies. Matthews et al., 2007 demonstrated cell body localization along with axons and dendrites.'
     action: ACCEPT
     reason: 'Direct experimental evidence confirms cell body localization as part of overall neuronal surface expression.'
-    supported_by:
-      - reference_id: PMID:17482551
-        supporting_text: '[Dscam localizes to] neuronal [cell surfaces]'
 - term:
     id: GO:0016319
     label: mushroom body development
