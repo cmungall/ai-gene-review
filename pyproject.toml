@@ -29,6 +29,12 @@ dependencies = [
   "pymupdf>=1.26.4",
   "drawsvg>=2.4.0",
   "httpx>=0.28.1",
+  "jupyter>=1.1.1",
+  "nbconvert>=7.16.6",
+  "ipykernel>=6.30.1",
+  "matplotlib>=3.10.5",
+  "seaborn>=0.13.2",
+  "plotly>=6.3.0",
 ]
 
 [dependency-groups]

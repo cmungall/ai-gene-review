@@ -354,6 +354,9 @@ existing_annotations:
     summary: Another Reactome annotation for ISGylation of DDX58 (RIG-I) in cytosol. Multiple consistent cytosolic annotations from curated pathways.
     action: ACCEPT
     reason: Consistent with other curated annotations placing UBA7 in cytosol for ISGylation reactions.
+    supported_by:
+      - reference_id: Reactome:R-HSA-9927247
+        supporting_text: "ISGylation requires a three-step process, involving an E1 activating enzyme (UBE1L), an E2 conjugating enzyme (UbcM8/H8), and HERC5/Ceb1 an IFN-inducible ISG15-specific E3 ligase"
 - term:
     id: GO:0019782
     label: ISG15 activating enzyme activity
@@ -378,6 +381,30 @@ existing_annotations:
     supported_by:
       - reference_id: PMID:16428300
         supporting_text: "ISG15 conjugation to the UbcH6 ubiquitin E2 enzyme"
+- term:
+    id: GO:0034341
+    label: response to type II interferon
+  evidence_type: ISS
+  original_reference_id: PMID:31974171
+  review:
+    summary: UBA7 is an interferon-stimulated gene that is robustly induced by interferons as part of the antiviral response program.
+    action: NEW
+    reason: Direct regulation by interferons is a key aspect of UBA7 function not captured in existing annotations. Upon IFN treatment, UBA7 levels rise alongside ISG15.
+    supported_by:
+      - reference_id: PMID:31974171
+        supporting_text: "Type I Interferon Regulates a Coordinated Gene Network to Enhance Cytotoxic T Cell-Mediated Tumor Killing"
+- term:
+    id: GO:0032480
+    label: negative regulation of type I interferon production
+  evidence_type: ISS
+  original_reference_id: PMID:28724761
+  review:
+    summary: ISGylation mediated by UBA7 can regulate interferon signaling in a negative feedback manner through modification of signaling proteins.
+    action: NEW
+    reason: UBA7-mediated ISGylation modulates interferon signaling pathways, creating regulatory feedback loops in immune responses.
+    supported_by:
+      - reference_id: PMID:28724761
+        supporting_text: "ISG15 Modulates Type I Interferon Signaling and the Antiviral Response during Hepatitis E Virus Replication"
 core_functions:
   - description: Catalyzes ATP-dependent activation of ISG15 through adenylation and thioester bond formation with Cys599, then transfers activated ISG15 to E2 enzyme UBE2L6
     molecular_function:
@@ -523,4 +550,7 @@ references:
   findings: []
 - id: PMID:27545325
   title: 'Positive feedback regulation of p53 transactivity by DNA damage-induced ISG15 modification.'
+  findings: []
+- id: PMID:31974171
+  title: 'Type I Interferon Regulates a Coordinated Gene Network to Enhance Cytotoxic T Cell-Mediated Tumor Killing.'
   findings: []

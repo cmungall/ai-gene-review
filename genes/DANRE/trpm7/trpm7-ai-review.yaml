@@ -1,0 +1,685 @@
+id: Q563W7
+gene_symbol: trpm7
+taxon:
+  id: NCBITaxon:7955
+  label: Danio rerio
+description: Transient receptor potential cation channel subfamily M member 7 (TRPM7) is a unique ion channel-kinase fusion protein that functions as a calcium- and magnesium-permeable cation channel with an intrinsic serine/threonine protein kinase domain. Essential for cellular ion homeostasis, TRPM7 regulates Mg2+ and Ca2+ influx and is required for multiple developmental processes including melanophore survival, mechanosensory neuron function, dopaminergic neuron development, cardiac pacemaking, exocrine pancreas development, and skeletal mineralization. The protein localizes primarily to the plasma membrane where it forms homo-tetrameric channel complexes.
+existing_annotations:
+- term:
+    id: GO:0004672
+    label: protein kinase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation based on phylogenetic evidence. The deep research confirms TRPM7 contains a C-terminal alpha-kinase domain with serine/threonine kinase activity. However, this term is too general - the specific kinase type should be specified.
+    action: MODIFY
+    reason: While TRPM7 does have protein kinase activity, the more specific term GO:0004674 (protein serine/threonine kinase activity) better represents the actual molecular function of the alpha-kinase domain.
+    proposed_replacement_terms:
+    - id: GO:0004674
+      label: protein serine/threonine kinase activity
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "The C-terminal α-kinase domain of Trpm7 can phosphorylate itself and other substrates... Alpha-kinases are atypical serine/threonine kinases that phosphorylate substrates within alpha-helical regions."
+- term:
+    id: GO:0005262
+    label: calcium channel activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation well-supported by experimental evidence. TRPM7 forms a calcium-permeable cation channel, though Ca2+ is actually one of the least permeable divalent cations compared to Mg2+, Co2+, and others.
+    action: ACCEPT
+    reason: The deep research confirms TRPM7 functions as a calcium channel, mediating Ca2+ influx across membranes. This is a core molecular function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 forms a ion channel that mediates Ca^2+ influx... Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+), manganese (Mn2+), strontium (Sr2+), cadmium (Cd2+) and calcium (Ca2+)"
+    - reference_id: PMID:27628598
+      supporting_text: "TRPM7 exhibits an outwardly rectifying current-voltage relationship due to voltage-dependent block by Mg2+ and calcium (Ca2+) at negative voltages"
+- term:
+    id: GO:0006816
+    label: calcium ion transport
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation correctly identifies TRPM7's role in calcium transport. The channel conducts Ca2+ ions across membranes as part of its divalent cation transport function.
+    action: ACCEPT
+    reason: TRPM7 mediates calcium ion transport across the plasma membrane. This is a core biological process function, though the channel also transports other divalent cations.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "As an ion channel, TRPM7 mediates the influx of divalent cations (notably Ca^2+ and Mg^2+) across cell membranes, which is crucial for maintaining cellular ion homeostasis"
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation strongly supported by experimental evidence. TRPM7 is an integral membrane protein that primarily localizes to the plasma membrane.
+    action: ACCEPT
+    reason: Multiple lines of evidence confirm TRPM7 localizes to the plasma membrane where it functions as a transmembrane ion channel. This is a core cellular component.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 is an integral membrane protein that primarily localizes to the plasma membrane of cells... 'plasma membrane' is the key Gene Ontology cellular component term for Trpm7, reflecting its role as a transmembrane ion channel at the cell periphery"
+- term:
+    id: GO:0098655
+    label: monoatomic cation transmembrane transport
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: IBA annotation correctly identifies TRPM7's broad cation transport function. The channel conducts various monoatomic cations including Ca2+, Mg2+, Zn2+, Ni2+, and others.
+    action: ACCEPT
+    reason: TRPM7 functions as a non-selective cation channel that transports multiple monoatomic cations across membranes. This is a core biological process.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+), manganese (Mn2+), strontium (Sr2+), cadmium (Cd2+) and calcium (Ca2+)"
+- term:
+    id: GO:0000166
+    label: nucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation based on keyword mapping. This general term is too vague - TRPM7 specifically binds ATP for its kinase activity.
+    action: MODIFY
+    reason: While TRPM7 does bind nucleotides, the more specific term GO:0005524 (ATP binding) better represents the actual molecular function, as the kinase domain utilizes ATP.
+    proposed_replacement_terms:
+    - id: GO:0005524
+      label: ATP binding
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "It has catalytic activity (utilizing ATP to phosphorylate target proteins)... negatively regulated by intracellular magnesium (Mg2+), adenosine triphosphate (Mg·ATP)"
+- term:
+    id: GO:0004672
+    label: protein kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: IEA annotation from ARBA machine learning. Duplicate of IBA annotation above, but less specific than needed.
+    action: MODIFY
+    reason: Same as above IBA annotation - should be more specific as protein serine/threonine kinase activity.
+    proposed_replacement_terms:
+    - id: GO:0004674
+      label: protein serine/threonine kinase activity
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Alpha-kinases are atypical serine/threonine kinases that phosphorylate substrates within alpha-helical regions"
+- term:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: IEA annotation correctly identifies the specific kinase type. The alpha-kinase domain of TRPM7 has serine/threonine kinase activity.
+    action: ACCEPT
+    reason: TRPM7 contains an alpha-kinase domain that phosphorylates serine/threonine residues. This is a core molecular function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "the C-terminal α-kinase of Trpm7 phosphorylates serine/threonine residues on target proteins"
+- term:
+    id: GO:0005216
+    label: monoatomic ion channel activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: IEA annotation from InterPro. Correct general term for TRPM7's ion channel function.
+    action: ACCEPT
+    reason: TRPM7 functions as an ion channel that conducts monoatomic cations. This is a core molecular function, though more specific terms also apply.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "It functions as a calcium- and magnesium-permeable cation channel... The channel's activity is negatively regulated by intracellular Mg^2+ and Mg-ATP levels"
+- term:
+    id: GO:0005261
+    label: monoatomic cation channel activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: IEA annotation from ARBA. Correctly identifies TRPM7 as a cation-selective channel.
+    action: ACCEPT
+    reason: TRPM7 is a cation-selective channel that conducts various monoatomic cations. This is a core molecular function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "TRPM7 conducts Ca2+ ions across membranes as part of its divalent cation transport function... best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+)"
+- term:
+    id: GO:0005262
+    label: calcium channel activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation from keyword mapping. Duplicate of IBA annotation above.
+    action: ACCEPT
+    reason: TRPM7 has calcium channel activity, though Ca2+ is one of the least permeable divalents. Core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "calcium (Ca2+)... Trpm7 forms a ion channel that mediates Ca^2+ influx"
+- term:
+    id: GO:0005524
+    label: ATP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: IEA annotation correctly identifies ATP binding for the kinase domain.
+    action: ACCEPT
+    reason: The alpha-kinase domain of TRPM7 requires ATP binding for its catalytic activity. Core molecular function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "It has catalytic activity (utilizing ATP to phosphorylate target proteins)"
+    - reference_id: PMID:27628598
+      supporting_text: "negatively regulated by intracellular magnesium (Mg2+), adenosine triphosphate (Mg·ATP)"
+- term:
+    id: GO:0005634
+    label: nucleus
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: IEA annotation based on subcellular location mapping. No evidence supports nuclear localization for TRPM7.
+    action: REMOVE
+    reason: TRPM7 is a plasma membrane protein with no documented nuclear localization. This appears to be an incorrect automated annotation.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 is an integral membrane protein that primarily localizes to the plasma membrane of cells... plasma membrane is the key Gene Ontology cellular component term for Trpm7"
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: IEA annotation from subcellular location. Duplicate of IBA annotation above.
+    action: ACCEPT
+    reason: Correctly identifies plasma membrane localization. Core cellular component.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "primarily localizes to the plasma membrane"
+- term:
+    id: GO:0006811
+    label: monoatomic ion transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: IEA annotation correctly identifies general ion transport function.
+    action: ACCEPT
+    reason: TRPM7 mediates transport of various monoatomic ions. Core biological process.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "mediates the influx of divalent cations (notably Ca^2+ and Mg^2+) across cell membranes"
+- term:
+    id: GO:0006816
+    label: calcium ion transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation from keyword mapping. Duplicate of IBA annotation above.
+    action: ACCEPT
+    reason: TRPM7 mediates calcium ion transport. Core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "mediates the influx of divalent cations (notably Ca^2+ and Mg^2+)"
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: IEA annotation. Very general term - plasma membrane is more specific.
+    action: ACCEPT
+    reason: TRPM7 is a membrane protein, though plasma membrane is more specific. Acceptable general annotation.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "integral membrane protein"
+- term:
+    id: GO:0016301
+    label: kinase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation. Too general - protein serine/threonine kinase activity is more specific.
+    action: MODIFY
+    reason: While correct, more specific annotation GO:0004674 better describes the alpha-kinase activity.
+    proposed_replacement_terms:
+    - id: GO:0004674
+      label: protein serine/threonine kinase activity
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Alpha-kinases are atypical serine/threonine kinases"
+- term:
+    id: GO:0016740
+    label: transferase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation. Extremely general term for kinase activity.
+    action: MODIFY
+    reason: Too general. The specific transferase activity is protein serine/threonine kinase.
+    proposed_replacement_terms:
+    - id: GO:0004674
+      label: protein serine/threonine kinase activity
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "phosphorylates serine/threonine residues on target proteins"
+- term:
+    id: GO:0030001
+    label: metal ion transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000117
+  review:
+    summary: IEA annotation correctly identifies metal ion transport function.
+    action: ACCEPT
+    reason: TRPM7 transports various metal ions including Ca2+, Mg2+, Zn2+, Ni2+. Core biological process.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+), manganese (Mn2+)"
+- term:
+    id: GO:0034220
+    label: monoatomic ion transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation correctly identifies transmembrane ion transport.
+    action: ACCEPT
+    reason: TRPM7 mediates transmembrane transport of monoatomic ions. Core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "mediates the influx of divalent cations... across cell membranes"
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation. General term that could apply to channel pore or regulatory sites.
+    action: ACCEPT
+    reason: TRPM7 binds metal ions both in the channel pore and at regulatory sites (Mg2+ inhibition). Acceptable annotation.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "negatively regulated by intracellular Mg^2+ and Mg-ATP levels – high internal magnesium or ATP can inhibit TRPM7 channel currents"
+- term:
+    id: GO:0051262
+    label: protein tetramerization
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: IEA annotation from InterPro. TRPM7 contains a coiled-coil tetramerization domain and forms homo-tetrameric complexes.
+    action: ACCEPT
+    reason: TRPM7 forms tetrameric channel complexes via its coiled-coil domain. This is essential for channel assembly and function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 has a coiled-coil region (InterPro IPR032415) near the C-terminus that is crucial for subunit oligomerization and channel assembly... This coiled-coil helps four Trpm7 subunits come together to form a functional channel complex"
+- term:
+    id: GO:0055085
+    label: transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: IEA annotation from InterPro. General term for transmembrane transport activity.
+    action: ACCEPT
+    reason: TRPM7 mediates transmembrane transport of ions. Core function though more specific terms also apply.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "spans the membrane (with six transmembrane helices per subunit) and forms homo-tetrameric channel complexes in the lipid bilayer"
+- term:
+    id: GO:0070588
+    label: calcium ion transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: IEA annotation from keyword mapping. More specific version of calcium ion transport.
+    action: ACCEPT
+    reason: TRPM7 mediates calcium ion transport across membranes. Core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "The channel is positioned such that its ion-conducting pore allows Ca^2+, Mg^2+, and other small cations to flow from the extracellular space or organelle lumen into the cytosol"
+- term:
+    id: GO:0001966
+    label: thigmotaxis
+  evidence_type: IMP
+  original_reference_id: PMID:38970357
+  review:
+    summary: IMP evidence from 2024 study showing trpm7 mutants have reduced touch-evoked responses and altered movement patterns.
+    action: ACCEPT
+    reason: Direct experimental evidence shows trpm7 mutants have defects in touch response and movement behavior. Core developmental function.
+    supported_by:
+    - reference_id: PMID:38970357
+      supporting_text: "Behavioral analyses revealed that trpm7 mutants showed compromised motility with their movement distance shorter than wild-type larvae"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Mutant larvae exhibit a transient unresponsiveness to touch stimuli – for about 12 hours during early development, trpm7 mutants fail to perform the typical escape reflex when touched"
+- term:
+    id: GO:0036269
+    label: swimming behavior
+  evidence_type: IMP
+  original_reference_id: PMID:38970357
+  review:
+    summary: IMP evidence showing trpm7 mutants have reduced swimming velocity and movement distance.
+    action: ACCEPT
+    reason: Experimental evidence demonstrates trpm7 is required for normal swimming behavior. Related to dopaminergic neuron defects.
+    supported_by:
+    - reference_id: PMID:38970357
+      supporting_text: "The velocity of the movement was significantly reduced in trpm7 mutants than in wild-type larvae"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Zebrafish lacking Trpm7 show reduced motility and abnormal swimming behavior. Even beyond the touch-response defect, mutants often have sluggish or uncoordinated movement"
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IDA
+  original_reference_id: PMID:27628598
+  review:
+    summary: IDA evidence from electrophysiology studies confirming plasma membrane localization of TRPM7.
+    action: ACCEPT
+    reason: Direct experimental evidence shows TRPM7 localizes to plasma membrane where it functions as an ion channel. Core cellular component.
+    supported_by:
+    - reference_id: PMID:27628598
+      supporting_text: "Patch-clamp experiments were performed in the tight-seal whole-cell configuration... HEK293 T-REx cells stably expressing HA-tagged Danio rerio TRPM7 (drTRPM7)"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "primarily localizes to the plasma membrane of cells"
+- term:
+    id: GO:0010960
+    label: magnesium ion homeostasis
+  evidence_type: IDA
+  original_reference_id: PMID:27628598
+  review:
+    summary: IDA evidence from electrophysiology showing TRPM7 regulates Mg2+ homeostasis and is regulated by intracellular Mg2+.
+    action: ACCEPT
+    reason: Direct experimental evidence shows TRPM7 is essential for magnesium homeostasis. This is a core function.
+    supported_by:
+    - reference_id: PMID:27628598
+      supporting_text: "the channel's regulation by magnesium (Mg) and Mg·adenosine triphosphate (Mg·ATP)... A dose-response curve fit to averaged currents extracted at 200 s into the experiment revealed a half-maximal inhibitory concentration (IC50) of 778 ± 291 μM"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Based on this profile and the effects of divalent substitution/complementation experiments, the TRPM7 channel function is thought to serve as a primary mechanism for cellular Mg2+ homeostasis"
+- term:
+    id: GO:0030001
+    label: metal ion transport
+  evidence_type: IDA
+  original_reference_id: PMID:27628598
+  review:
+    summary: IDA evidence from electrophysiology demonstrating TRPM7 conducts various metal ions including Ca2+, Mg2+, Zn2+, Ni2+.
+    action: ACCEPT
+    reason: Direct experimental evidence shows TRPM7 transports multiple metal ions. Core function.
+    supported_by:
+    - reference_id: PMID:27628598
+      supporting_text: "TRPM7 conducted Ca2+ the least compared to other divalents, with cobalt and magnesium permeating the best"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+)"
+- term:
+    id: GO:0048066
+    label: developmental pigmentation
+  evidence_type: IMP
+  original_reference_id: PMID:9007256
+  review:
+    summary: IMP evidence from original touchtone/nutria mutant studies showing melanophore death and pigmentation defects.
+    action: ACCEPT
+    reason: Strong experimental evidence shows trpm7 mutants have melanophore cell death leading to pigmentation defects. Core developmental function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 is required for the survival of embryonic melanophores (pigment cells). Zebrafish trpm7 mutants (e.g. touchtone and nutria alleles) show extensive melanophore cell death during development"
+    - reference_id: file:DANRE/trpm7/trpm7-uniprot.txt
+      supporting_text: "Zebrafish pigmentation mutations and the processes of neural crest development"
+- term:
+    id: GO:0002027
+    label: regulation of heart rate
+  evidence_type: IMP
+  original_reference_id: PMID:23878236
+  review:
+    summary: IMP evidence showing trpm7 mutants develop bradycardia and sinoatrial node dysfunction.
+    action: ACCEPT
+    reason: Experimental evidence demonstrates TRPM7 is required for normal cardiac pacemaking and heart rate regulation. Important physiological function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Zebrafish trpm7 mutants exhibit bradycardia (slower than normal heart rate) during larval stages... Trpm7 knockdown has been used as a model of sinoatrial node dysfunction"
+- term:
+    id: GO:0003014
+    label: renal system process
+  evidence_type: IMP
+  original_reference_id: PMID:20881241
+  review:
+    summary: IMP evidence showing trpm7 mutants develop kidney stones and have abnormal renal ion homeostasis.
+    action: ACCEPT
+    reason: Experimental evidence shows TRPM7 is required for normal kidney function and prevention of stone formation. Important physiological role.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "mutants develop ectopic calcifications, such as kidney stones and aberrant bone calcification, due to improper calcium handling... Trpm7 is highly expressed in the zebrafish Corpuscles of Stannius – specialized endocrine glands in the kidney"
+- term:
+    id: GO:0055080
+    label: monoatomic cation homeostasis
+  evidence_type: IMP
+  original_reference_id: PMID:20881241
+  review:
+    summary: IMP evidence showing trpm7 regulates systemic Ca2+ and Mg2+ homeostasis, with mutants having dysregulated ion levels.
+    action: ACCEPT
+    reason: Experimental evidence demonstrates TRPM7 is essential for maintaining organismal cation homeostasis. Core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Zebrafish trpm7 mutants have dysregulated Ca^2+ and Mg^2+ levels in bodily fluids, leading to abnormal mineralization of skeletal tissues"
+- term:
+    id: GO:0007346
+    label: regulation of mitotic cell cycle
+  evidence_type: IMP
+  original_reference_id: PMID:21183474
+  review:
+    summary: IMP evidence suggesting TRPM7 affects cell proliferation in pancreatic development through Mg2+-sensitive signaling.
+    action: KEEP_AS_NON_CORE
+    reason: While TRPM7 affects cell proliferation, this is likely secondary to its primary ion homeostasis function. Not a core function but a downstream effect.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Based on this profile and the effects of divalent substitution/complementation experiments, the TRPM7 channel function is thought to serve as a primary mechanism for cellular Mg2+ homeostasis and be essential for cell proliferation"
+- term:
+    id: GO:0031017
+    label: exocrine pancreas development
+  evidence_type: IMP
+  original_reference_id: PMID:21183474
+  review:
+    summary: IMP evidence showing TRPM7 regulates pancreatic epithelial proliferation through Mg2+-sensitive Socs3a signaling.
+    action: ACCEPT
+    reason: Experimental evidence demonstrates TRPM7 is required for normal exocrine pancreas development. Important developmental function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "Trpm7 has been implicated in the development of the exocrine pancreas in zebrafish... Expression is also observed in the exocrine pancreas and intestinal tract"
+- term:
+    id: GO:0050678
+    label: regulation of epithelial cell proliferation
+  evidence_type: IMP
+  original_reference_id: PMID:21183474
+  review:
+    summary: IMP evidence from pancreas study showing TRPM7 affects epithelial proliferation.
+    action: KEEP_AS_NON_CORE
+    reason: TRPM7 affects epithelial proliferation through its ion homeostasis function, but this is a downstream effect rather than a core function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "it may relate to Trpm7's role in regulating cellular proliferation or differentiation in endodermal tissues"
+- term:
+    id: GO:0046928
+    label: regulation of neurotransmitter secretion
+  evidence_type: IMP
+  original_reference_id: PMID:21832193
+  review:
+    summary: IMP evidence showing TRPM7 in sensory neurons affects touch-evoked responses, likely through neurotransmitter release.
+    action: ACCEPT
+    reason: TRPM7 in sensory neurons is required for proper neurotransmission during touch-evoked escape responses. Important neurological function.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "This defect in touch-evoked escape behavior can be rescued by expressing Trpm7 specifically in primary sensory neurons... indicating the protein is required within sensory nerves for them to fire or develop properly"
+- term:
+    id: GO:0006582
+    label: melanin metabolic process
+  evidence_type: IMP
+  original_reference_id: PMID:17290233
+  review:
+    summary: IMP evidence showing melanophore death in trpm7 mutants depends on melanin synthesis, with toxic intermediates accumulating.
+    action: ACCEPT
+    reason: TRPM7 is required to prevent toxic buildup of melanin intermediates in melanophores. Important for pigment cell survival.
+    supported_by:
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "It is thought that Trpm7's absence leads to toxic build-up of melanin intermediates in melanophores, causing death"
+- term:
+    id: GO:0001503
+    label: ossification
+  evidence_type: IMP
+  original_reference_id: PMID:15823540
+  review:
+    summary: IMP evidence from dwarf mutant study showing abnormal bone mineralization and skeletal defects.
+    action: ACCEPT
+    reason: trpm7 mutants have defective skeletal mineralization due to disrupted calcium/magnesium homeostasis. Important developmental function.
+    supported_by:
+    - reference_id: PMID:15823540
+      supporting_text: "Defective skeletogenesis with kidney stone formation in dwarf zebrafish mutant for trpm7"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "mutants develop ectopic calcifications, such as kidney stones and aberrant bone calcification, due to improper calcium handling"
+- term:
+    id: GO:0030318
+    label: melanocyte differentiation
+  evidence_type: IMP
+  original_reference_id: PMID:15823540
+  review:
+    summary: IMP evidence showing trpm7 is required for melanocyte survival and proper differentiation.
+    action: ACCEPT
+    reason: TRPM7 is essential for melanocyte development and survival, with mutants showing extensive melanophore cell death. Core developmental function.
+    supported_by:
+    - reference_id: PMID:15823540
+      supporting_text: "Defective skeletogenesis with kidney stone formation in dwarf zebrafish mutant for trpm7"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "The melanin-producing cells die and their melanosomes (pigment organelles) are structurally abnormal in Trpm7 mutants... restoring Trpm7 specifically in melanophores rescues their survival"
+- term:
+    id: GO:0001501
+    label: skeletal system development
+  evidence_type: IMP
+  original_reference_id: PMID:15823540
+  review:
+    summary: IMP evidence showing trpm7 mutants have skeletal defects and abnormal bone development.
+    action: ACCEPT
+    reason: TRPM7 is required for normal skeletal development through regulation of calcium/magnesium homeostasis. Important developmental function.
+    supported_by:
+    - reference_id: PMID:15823540
+      supporting_text: "Defective skeletogenesis with kidney stone formation in dwarf zebrafish mutant for trpm7"
+    - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+      supporting_text: "affects bone mineralization and development (via calcium homeostasis)... They are generally growth-impaired (often developing a dwarf phenotype)"
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000117
+  title: Electronic Gene Ontology annotations created by ARBA machine learning models
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:15823540
+  title: Defective skeletogenesis with kidney stone formation in dwarf zebrafish mutant
+    for trpm7.
+  findings: []
+- id: PMID:17290233
+  title: Cell death of melanophores in zebrafish trpm7 mutant embryos depends on melanin
+    synthesis.
+  findings: []
+- id: PMID:20881241
+  title: trpm7 regulation of in vivo cation homeostasis and kidney function involves
+    stanniocalcin 1 and fgf23.
+  findings: []
+- id: PMID:21183474
+  title: Transient receptor potential ion channel Trpm7 regulates exocrine pancreatic
+    epithelial proliferation by Mg2+-sensitive Socs3a signaling in development and
+    cancer.
+  findings: []
+- id: PMID:21832193
+  title: TRPM7 is required within zebrafish sensory neurons for the activation of
+    touch-evoked escape behaviors.
+  findings: []
+- id: PMID:23878236
+  title: Ion channel-kinase TRPM7 is required for maintaining cardiac automaticity.
+  findings: []
+- id: PMID:27628598
+  title: The coiled-coil domain of zebrafish TRPM7 regulates Mg·nucleotide sensitivity.
+  findings: []
+- id: PMID:38970357
+  title: Zebrafish trpm7 mutants show reduced motility in free movement.
+  findings: []
+- id: PMID:9007256
+  title: Zebrafish pigmentation mutations and the processes of neural crest development.
+  findings: []
+core_functions:
+- description: Conducts divalent cations across plasma membrane to maintain cellular and systemic ion homeostasis
+  molecular_function:
+    id: GO:0015095
+    label: magnesium ion transmembrane transporter activity
+  supported_by:
+  - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+    supporting_text: "TRPM7 mediates the influx of divalent cations (notably Ca^2+ and Mg^2+) across cell membranes... Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+)"
+  - reference_id: PMID:27628598
+    supporting_text: "TRPM7 is negatively regulated by intracellular magnesium (Mg2+)... the TRPM7 channel function is thought to serve as a primary mechanism for cellular Mg2+ homeostasis"
+  directly_involved_in:
+  - id: GO:0010960
+    label: magnesium ion homeostasis
+  - id: GO:0055080
+    label: monoatomic cation homeostasis
+  - id: GO:0030001
+    label: metal ion transport
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Mediates calcium influx required for sensory neuron activation and touch-evoked escape behaviors
+  molecular_function:
+    id: GO:0005262
+    label: calcium channel activity
+  directly_involved_in:
+  - id: GO:0001966
+    label: thigmotaxis
+  - id: GO:0036269
+    label: swimming behavior
+  - id: GO:0046928
+    label: regulation of neurotransmitter secretion
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Phosphorylates serine/threonine residues on target proteins through intrinsic alpha-kinase domain
+  molecular_function:
+    id: GO:0004674
+    label: protein serine/threonine kinase activity
+- description: Maintains melanophore survival by preventing toxic melanin intermediate accumulation
+  molecular_function:
+    id: GO:0015095
+    label: magnesium ion transmembrane transporter activity
+  supported_by:
+  - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+    supporting_text: "TRPM7 mediates the influx of divalent cations (notably Ca^2+ and Mg^2+) across cell membranes... Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+)"
+  - reference_id: PMID:27628598
+    supporting_text: "TRPM7 is negatively regulated by intracellular magnesium (Mg2+)... the TRPM7 channel function is thought to serve as a primary mechanism for cellular Mg2+ homeostasis"
+  directly_involved_in:
+  - id: GO:0048066
+    label: developmental pigmentation
+  - id: GO:0030318
+    label: melanocyte differentiation
+  - id: GO:0006582
+    label: melanin metabolic process
+- description: Regulates cardiac automaticity through cation conductance in pacemaker cells
+  molecular_function:
+    id: GO:0005262
+    label: calcium channel activity
+  directly_involved_in:
+  - id: GO:0002027
+    label: regulation of heart rate
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Controls epithelial proliferation through magnesium-sensitive signaling pathways
+  molecular_function:
+    id: GO:0015095
+    label: magnesium ion transmembrane transporter activity
+  supported_by:
+  - reference_id: file:DANRE/trpm7/trpm7-deep-research.md
+    supporting_text: "TRPM7 mediates the influx of divalent cations (notably Ca^2+ and Mg^2+) across cell membranes... Mouse TRPM7 (mTRPM7) has been shown to best permeate zinc (Zn2+) and nickel (Ni2+), followed by barium (Ba2+), cobalt (Co2+), magnesium (Mg2+)"
+  - reference_id: PMID:27628598
+    supporting_text: "TRPM7 is negatively regulated by intracellular magnesium (Mg2+)... the TRPM7 channel function is thought to serve as a primary mechanism for cellular Mg2+ homeostasis"
+  directly_involved_in:
+  - id: GO:0031017
+    label: exocrine pancreas development
+  - id: GO:0001503
+    label: ossification
+  - id: GO:0001501
+    label: skeletal system development
+  - id: GO:0003014
+    label: renal system process

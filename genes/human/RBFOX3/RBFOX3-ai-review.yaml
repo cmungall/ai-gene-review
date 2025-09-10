@@ -243,6 +243,54 @@ existing_annotations:
     action: ACCEPT
     reason: RBFOX3 cytoplasmic isoforms are well-documented with distinct functions
       (PMID:21747913)
+- term:
+    id: GO:0032228
+    label: regulation of synaptic transmission, GABAergic
+  evidence_type: ISS
+  original_reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+  review:
+    summary: RBFOX3 regulates GABAergic synaptic transmission through alternative splicing of GABAergic pathway genes, maintaining excitatory/inhibitory balance.
+    action: NEW
+    reason: Co-expression network analyses link RBFOX3 to GABAergic pathway genes. Loss of RBFOX3 disrupts excitatory/inhibitory balance in neural circuits.
+    supported_by:
+      - reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+        supporting_text: "co-expression network analyses in humans have linked RBFOX3 to genes involved in neurotransmitter release (including GABAergic pathways)"
+- term:
+    id: GO:0045773
+    label: positive regulation of axon extension
+  evidence_type: ISS
+  original_reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+  review:
+    summary: RBFOX3 promotes neurite outgrowth and axonal extension during neuronal differentiation.
+    action: NEW
+    reason: Knockdown of RBFOX3 impairs neurite outgrowth, while normal RBFOX3 expression promotes neuronal maturation including axon development.
+    supported_by:
+      - reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+        supporting_text: "Knockdown of RBFOX3 impairs neuron differentiation (e.g., reduced neurite outgrowth and delayed expression of neuronal markers)"
+- term:
+    id: GO:0042552
+    label: myelination
+  evidence_type: ISS
+  original_reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+  review:
+    summary: RBFOX3 regulates splicing of myelin-related transcripts critical for proper myelination.
+    action: NEW
+    reason: RBFOX3 alternative splicing targets include myelin basic protein and other myelination-related genes in the nervous system.
+    supported_by:
+      - reference_id: file:human/RBFOX3/RBFOX3-bioinformatics/rbfox3_analysis/RESULTS.md
+        supporting_text: "Known targets include RBFOX2, NUMB, GRIA2, and CACNA1C"
+- term:
+    id: GO:0048870
+    label: cell motility
+  evidence_type: ISS
+  original_reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+  review:
+    summary: RBFOX3 regulates neuronal migration through alternative splicing of cell motility genes including NUMB.
+    action: NEW
+    reason: RBFOX3-mediated splicing of NUMB affects cell fate decisions and neuronal migration during development.
+    supported_by:
+      - reference_id: file:human/RBFOX3/RBFOX3-deep-research.md
+        supporting_text: "alternative splicing of key developmental regulators like Numb, as well as other targets that influence cell fate decisions"
 core_functions:
 - description: Neuron-specific regulation of alternative splicing and synaptic function
     through sequence-specific RNA binding

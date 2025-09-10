@@ -1,0 +1,101 @@
+ID   Q28CC8_XENTR            Unreviewed;       511 AA.
+AC   Q28CC8;
+DT   04-APR-2006, integrated into UniProtKB/TrEMBL.
+DT   04-APR-2006, sequence version 1.
+DT   18-JUN-2025, entry version 122.
+DE   SubName: Full=Aldehyde dehydrogenase 1 family, member A2 {ECO:0000313|EMBL:CAJ83838.1};
+DE   SubName: Full=Retinal dehydrogenase 2 {ECO:0000313|RefSeq:NP_001039196.1};
+DE            EC=1.2.1.36 {ECO:0000313|RefSeq:NP_001039196.1};
+GN   Name=aldh1a2 {ECO:0000313|EMBL:CAJ83838.1,
+GN   ECO:0000313|RefSeq:NP_001039196.1,
+GN   ECO:0000313|Xenbase:XB-GENE-1012909};
+GN   Synonyms=raldh(ii) {ECO:0000313|RefSeq:NP_001039196.1}, raldh-2
+GN   {ECO:0000313|RefSeq:NP_001039196.1}, raldh2
+GN   {ECO:0000313|RefSeq:NP_001039196.1}, raldh2-t
+GN   {ECO:0000313|RefSeq:NP_001039196.1}, XRaldh2
+GN   {ECO:0000313|RefSeq:NP_001039196.1};
+GN   ORFNames=TGas126e01.1-001 {ECO:0000313|EMBL:CAJ83838.1};
+OS   Xenopus tropicalis (Western clawed frog) (Silurana tropicalis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Silurana.
+OX   NCBI_TaxID=8364 {ECO:0000313|EMBL:CAJ83838.1};
+RN   [1] {ECO:0000313|RefSeq:NP_001039196.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=12454917; DOI=10.1002/dvdy.10174;
+RA   Klein S.L., Strausberg R.L., Wagner L., Pontius J., Clifton S.W.,
+RA   Richardson P.;
+RT   "Genetic and genomic tools for Xenopus research: The NIH Xenopus
+RT   initiative.";
+RL   Dev. Dyn. 225:384-391(2002).
+RN   [2] {ECO:0000313|EMBL:CAJ83838.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Amaya E., Ashurst J.L., Bonfield J.K., Croning M.D.R., Chen C-K.,
+RA   Davies R.M., Francis M.D., Garrett N., Gilchrist M.J., Grafham D.V.,
+RA   McLaren S.R., Papalopulu N., Rogers J., Smith J.C., Taylor R.G., Voigt J.,
+RA   Zorn A.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:AAI60401.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Whole embryo {ECO:0000313|EMBL:AAI60401.1};
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (MAR-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [4] {ECO:0000313|RefSeq:NP_001039196.1}
+RP   IDENTIFICATION.
+RG   RefSeq;
+RL   Submitted (MAR-2025) to UniProtKB.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00009986, ECO:0000256|RuleBase:RU003345}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC160401; AAI60401.1; -; mRNA.
+DR   EMBL; CR942326; CAJ83838.1; -; mRNA.
+DR   RefSeq; NP_001039196.1; NM_001045731.1.
+DR   GeneID; 734052; -.
+DR   KEGG; xtr:734052; -.
+DR   AGR; Xenbase:XB-GENE-1012909; -.
+DR   CTD; 8854; -.
+DR   Xenbase; XB-GENE-1012909; aldh1a2.
+DR   HOGENOM; CLU_005391_0_2_1; -.
+DR   OMA; WSNTFNK; -.
+DR   OrthoDB; 310895at2759; -.
+DR   Reactome; R-XTR-5365859; RA biosynthesis pathway.
+DR   Proteomes; UP000008143; Chromosome 3.
+DR   GO; GO:0016620; F:oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor; IEA:InterPro.
+DR   CDD; cd07141; ALDH_F1AB_F2_RALDH1; 1.
+DR   FunFam; 3.40.605.10:FF:000050; Aldehyde dehydrogenase, mitochondrial; 1.
+DR   FunFam; 3.40.309.10:FF:000001; Mitochondrial aldehyde dehydrogenase 2; 1.
+DR   Gene3D; 3.40.605.10; Aldehyde Dehydrogenase, Chain A, domain 1; 1.
+DR   Gene3D; 3.40.309.10; Aldehyde Dehydrogenase, Chain A, domain 2; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR11699; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   2: Evidence at transcript level;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000256|RuleBase:RU003345};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000008143}.
+FT   DOMAIN          39..502
+FT                   /note="Aldehyde dehydrogenase"
+FT                   /evidence="ECO:0000259|Pfam:PF00171"
+FT   ACT_SITE        279
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU10007"
+SQ   SEQUENCE   511 AA;  55966 MW;  100B9BAB3311CC10 CRC64;
+     MPGEVKTDPA ALMASLQLLP SPSANLEVKH TKIFINNEWQ TSESGRTFPV YNPATGEQIC
+     EVQEAEKADV DKAVQAARLA FSLGSVWRRM DASERGRLLD KLADLVERER TTLATLESLN
+     SGKPFLQSYY VDLQGAIKTF RYYAGWADKI HGLTIPADGD YLTFTRHEPI GVCGQIIPWN
+     FPLLMFAWKI APALCCGNTV VIKPAEQTPL TALYMGALIK EAGFPPGVVN ILPGYGPSAG
+     TAIASHIGID KVAFTGSTEV GMLIQEAAGK SNLKRVTLEL GGKSPNIIFA DADLDYAVEQ
+     AHQGVFFNQG QCCTAGSRTF VEDSIYEEFV RRSVERAKRR IVGSPFDPTT EQGPQTDKKQ
+     YNKILELIQS GIAEGAKLEC GGKGLGRKGF FIEPTVFSNV RDEMRIAREE IFGPVQQILR
+     FKTVEEVIER ANNSDYGLVA AVFTNDINKA LTVSSAMQAG TVWINCYNAL NAQSPFGGYK
+     MSGNGREMGE YGLREYTEAK TVTIKIPQKN S
+//

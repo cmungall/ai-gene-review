@@ -117,6 +117,9 @@ class TabularExporter:
         # Evidence information
         row["evidence_type"] = annotation.evidence_type
         row["negated"] = annotation.negated
+        
+        # Derive method field from evidence type and reference
+        row["method"] = self._derive_method(annotation.evidence_type, annotation.original_reference_id)
 
         # Original reference information
         if annotation.original_reference_id:
@@ -194,6 +197,57 @@ class TabularExporter:
             row["review_additional_reference_ids"] = None
 
         return row
+
+    def _derive_method(self, evidence_type: Optional[str], reference_id: Optional[str]) -> str:
+        """
+        Derive the method field from evidence type and reference.
+        
+        Rules:
+        - Experimental evidence codes (IDA, IPI, IMP, IGI, IEP, HTP, HDA, HMP, HGI, HEP) → "Experimental"
+        - IEA → derive from reference (e.g., GO_REF:0000107 → "ARBA", GO_REF:0000002 → "InterPro2GO", etc.)
+        - All other codes (IBA, ISS, IC, ISO, ISA, ISM, IGC, RCA, TAS, NAS, ND) → use code as-is
+        
+        Args:
+            evidence_type: The evidence type code
+            reference_id: The reference ID
+            
+        Returns:
+            The derived method string
+        """
+        if not evidence_type:
+            return "Unknown"
+            
+        # Define experimental evidence codes
+        experimental_codes = {"IDA", "IPI", "IMP", "IGI", "IEP", "HTP", "HDA", "HMP", "HGI", "HEP"}
+        
+        if evidence_type in experimental_codes:
+            return "Experimental"
+        elif evidence_type == "IEA":
+            # Map IEA references to specific methods
+            if not reference_id:
+                return "IEA"
+            
+            # Common IEA reference mappings
+            iea_mappings = {
+                "GO_REF:0000002": "InterPro2GO",
+                "GO_REF:0000003": "EC2GO", 
+                "GO_REF:0000004": "IEA",  # Generic IEA
+                "GO_REF:0000043": "UniProtKB-KW",
+                "GO_REF:0000044": "UniProtKB-SubCell",
+                "GO_REF:0000104": "UniRule",
+                "GO_REF:0000107": "ARBA",
+                "GO_REF:0000108": "Ensembl",
+                "GO_REF:0000116": "RHEA",
+                "GO_REF:0000117": "ARBA",  # Also ARBA
+                "GO_REF:0000118": "TreeGrafter",
+                "GO_REF:0000119": "ARBA",  # Also ARBA
+                "GO_REF:0000120": "Combined-IEA"
+            }
+            
+            return iea_mappings.get(reference_id, "IEA-Other")
+        else:
+            # For all other evidence codes, use the code itself
+            return evidence_type
 
     def _find_reference_title(
         self, gene_review: GeneReview, ref_id: str

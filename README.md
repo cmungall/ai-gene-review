@@ -41,6 +41,12 @@ uv run ai-gene-review validate genes/human/TP53/TP53-ai-review.yaml
 uv run ai-gene-review fetch-gene-pmids genes/human/TP53/TP53-ai-review.yaml
 ```
 
+**Generate statistics report:**
+```bash
+just stats                # Generate HTML report
+just stats-open           # Generate and open in browser
+```
+
 ## Workflow Overview
 
 1. **Fetch Gene Data**: Download UniProt records and GO annotations
@@ -60,9 +66,13 @@ uv run ai-gene-review fetch-gene-pmids genes/human/TP53/TP53-ai-review.yaml
 - 🔍 **Evidence tracking**: Detailed provenance and supporting text
 
 
-## Documentation Website
+## Resources
 
-[https://monarch-initiative.github.io/ai-gene-review](https://monarch-initiative.github.io/ai-gene-review)
+### Documentation & Visualization
+
+- **Documentation Website**: [https://monarch-initiative.github.io/ai-gene-review](https://monarch-initiative.github.io/ai-gene-review)
+- **Interactive Web App**: [https://ai4curation.github.io/ai-gene-review/app/index.html](https://ai4curation.github.io/ai-gene-review/app/index.html) - Browse and explore gene annotation reviews
+- **Statistics Dashboard**: [https://ai4curation.github.io/ai-gene-review/docs/stats_report.html](https://ai4curation.github.io/ai-gene-review/docs/stats_report.html) - Summary Stats
 
 ## Gene Review Structure
 

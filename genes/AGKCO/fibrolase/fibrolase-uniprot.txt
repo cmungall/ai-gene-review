@@ -1,0 +1,148 @@
+ID   VM1F_AGKCO              Reviewed;         203 AA.
+AC   P28891; Q9PS71;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 2.
+DT   27-NOV-2024, entry version 111.
+DE   RecName: Full=Snake venom metalloproteinase fibrolase {ECO:0000303|PubMed:1304358};
+DE            Short=SVMP;
+DE            EC=3.4.24.72;
+DE   AltName: Full=Fibrinolytic metalloproteinase {ECO:0000303|PubMed:1304358};
+DE            Short=Fibrinolytic proteinase;
+DE   AltName: INN=Alfimeprase {ECO:0000303|PubMed:11369866, ECO:0000303|PubMed:18632486};
+OS   Agkistrodon contortrix contortrix (Southern copperhead).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Agkistrodon.
+OX   NCBI_TaxID=8713;
+RN   [1]
+RP   PROTEIN SEQUENCE, PYROGLUTAMATE FORMATION AT GLN-1, DISULFIDE BOND
+RP   (PARTIAL), VARIANTS GLN-2 DEL; GLU-189 AND LEU-192, AND SUBCELLULAR
+RP   LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=1304358; DOI=10.1002/pro.5560010505;
+RA   Randolph A., Chamberlain S.H., Chu H.L.C., Retzios A.D., Markland F.S. Jr.,
+RA   Masiarz F.R.;
+RT   "Amino acid sequence of fibrolase, a direct-acting fibrinolytic enzyme from
+RT   Agkistrodon contortrix contortrix venom.";
+RL   Protein Sci. 1:590-600(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 141-151, ACTIVITY REGULATION, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=1898066; DOI=10.1016/0003-9861(91)90462-r;
+RA   Guan A.L., Retzios A.D., Henderson G.N., Markland F.S. Jr.;
+RT   "Purification and characterization of a fibrinolytic enzyme from venom of
+RT   the southern copperhead snake (Agkistrodon contortrix contortrix).";
+RL   Arch. Biochem. Biophys. 289:197-207(1991).
+RN   [3]
+RP   DISULFIDE BONDS.
+RX   PubMed=11369866; DOI=10.1110/ps.110101;
+RA   Jones G., Ronk M., Mori F., Zhang Z.;
+RT   "Disulfide structure of alfimeprase: a recombinant analog of fibrolase.";
+RL   Protein Sci. 10:1264-1267(2001).
+RN   [4]
+RP   PHARMACEUTICAL.
+RX   PubMed=18632486; DOI=10.3816/sct.2006.n.010;
+RA   Reddy G.K.;
+RT   "Clinical utility of novel agents in the treatment of central venous
+RT   catheter occlusion.";
+RL   Support. Cancer Ther. 3:135-139(2006).
+CC   -!- FUNCTION: Snake venom zinc metalloprotease that exhibits direct
+CC       fibrinolytic activity.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of 14-Ala-|-Leu-15 in insulin B chain and 413-
+CC         Lys-|-Leu-414 in alpha-chain of fibrinogen.; EC=3.4.24.72;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Is inhibited by EDTA, o-phenanthroline and
+CC       tetraethylenepentamine. {ECO:0000269|PubMed:1898066}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:1304358,
+CC       ECO:0000269|PubMed:1898066}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:1304358, ECO:0000305|PubMed:1898066}.
+CC   -!- PHARMACEUTICAL: Failed the phase III clinical trial for the treatment
+CC       of arterial occlusive disease and acute ischemic stroke.
+CC   -!- SIMILARITY: Belongs to the venom metalloproteinase (M12B) family. P-I
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P28891; -.
+DR   SMR; P28891; -.
+DR   MEROPS; M12.133; -.
+DR   BRENDA; 3.4.24.72; 192.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd04269; ZnMc_adamalysin_II_like; 1.
+DR   FunFam; 3.40.390.10:FF:000002; Disintegrin and metalloproteinase domain-containing protein 22; 1.
+DR   Gene3D; 3.40.390.10; Collagenase (Catalytic Domain); 1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001590; Peptidase_M12B.
+DR   InterPro; IPR034027; Reprolysin_adamalysin.
+DR   PANTHER; PTHR11905; ADAM A DISINTEGRIN AND METALLOPROTEASE DOMAIN; 1.
+DR   PANTHER; PTHR11905:SF32; DISINTEGRIN AND METALLOPROTEINASE DOMAIN-CONTAINING PROTEIN 28; 1.
+DR   Pfam; PF01421; Reprolysin; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS50215; ADAM_MEPRO; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Fibrinolytic toxin;
+KW   Hemostasis impairing toxin; Hydrolase; Metal-binding; Metalloprotease;
+KW   Pharmaceutical; Protease; Pyrrolidone carboxylic acid; Secreted; Toxin;
+KW   Zinc.
+FT   CHAIN           1..203
+FT                   /note="Snake venom metalloproteinase fibrolase"
+FT                   /evidence="ECO:0000269|PubMed:1304358"
+FT                   /id="PRO_0000078197"
+FT   DOMAIN          7..203
+FT                   /note="Peptidase M12B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   ACT_SITE        144
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         143
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         147
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         153
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000305"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:1304358"
+FT   DISULFID        118..198
+FT                   /evidence="ECO:0000269|PubMed:11369866,
+FT                   ECO:0000269|PubMed:1304358"
+FT   DISULFID        158..182
+FT                   /evidence="ECO:0000269|PubMed:11369866"
+FT   DISULFID        160..165
+FT                   /evidence="ECO:0000269|PubMed:11369866"
+FT   VARIANT         2
+FT                   /note="Missing"
+FT                   /evidence="ECO:0000269|PubMed:1304358"
+FT   VARIANT         189
+FT                   /note="T -> E"
+FT                   /evidence="ECO:0000269|PubMed:1304358"
+FT   VARIANT         192
+FT                   /note="T -> L"
+FT                   /evidence="ECO:0000269|PubMed:1304358"
+SQ   SEQUENCE   203 AA;  22908 MW;  646EBE6F7F1EA191 CRC64;
+     QQRFPQRYVQ LVIVADHRMN TKYNGDSDKI RQWVHQIVNT INEIYRPLNI QFTLVGLEIW
+     SNQDLITVTS VSHDTLASFG NWRETDLLRR QRHDNAQLLT AIDFDGDTVG LAYVGGMCQL
+     KHSTGVIQDH SAINLLVALT MAHELGHNLG MNHDGNQCHC GANSCVMAAM LSDQPSKLFS
+     DCSKKDYQTF LTVNNPQCIL NKP
+//

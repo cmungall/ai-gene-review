@@ -1,0 +1,200 @@
+id: P28891
+gene_symbol: fibrolase
+taxon:
+  id: NCBITaxon:8713
+  label: Agkistrodon contortrix contortrix
+description: 'Fibrolase is a non-hemorrhagic snake venom zinc metalloproteinase (EC 3.4.24.72) from southern copperhead (Agkistrodon contortrix contortrix) that exhibits direct fibrinolytic activity. Unlike plasminogen activators, it directly cleaves fibrin and fibrinogen at specific X-Leu bonds without requiring plasminogen activation, making it a unique fibrinolytic enzyme. As a venom component, it functions as a toxin that disrupts hemostasis in envenomated prey by dissolving blood clots. The enzyme requires zinc for catalytic activity and was developed into a recombinant therapeutic (alfimeprase) for clinical applications, though phase III trials were ultimately unsuccessful.'
+existing_annotations:
+- term:
+    id: GO:0035821
+    label: modulation of process of another organism
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000108
+  review:
+    summary: This annotation correctly identifies fibrolase's role in inter-organism interaction through venom. As a venom component, fibrolase directly affects hemostasis in prey/victim organisms by degrading fibrin/fibrinogen, thus modulating coagulation processes in the target organism.
+    action: ACCEPT
+    reason: Fibrolase is a venom metalloproteinase that directly affects another organism's physiology by disrupting hemostasis through fibrinolytic activity. This is a core function as it represents the primary biological role of this venom component [PMID:1898066, PMID:1304358].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "The enzyme exhibits direct fibrinolytic activity and does not activate plasminogen. In vitro studies revealed that fibrolase dissolves clots made either from purified fibrinogen or from whole blood."
+      - reference_id: PMID:1304358
+        supporting_text: "This is the first report of the sequence of a direct-acting, nonhemorrhagic fibrinolytic enzyme found in snake venom."
+- term:
+    id: GO:0004222
+    label: metalloendopeptidase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This annotation correctly identifies the molecular function as a metalloendopeptidase. Fibrolase is classified as EC 3.4.24.72, a zinc metalloproteinase that cleaves peptide bonds in fibrin/fibrinogen. The term accurately captures the enzymatic mechanism.
+    action: ACCEPT
+    reason: The term accurately describes the core catalytic activity - fibrolase is indeed a zinc-dependent metalloendopeptidase (EC 3.4.24.72) that hydrolyzes internal peptide bonds. This is supported by extensive biochemical characterization showing zinc dependency and specific cleavage patterns [PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "the enzyme is a metalloproteinase since it is inhibited by EDTA, o-phenanthroline and tetraethylenepentamine (a specific zinc chelator). Metal analysis revealed 1 mol of zinc/mol of protein."
+      - reference_id: PMID:1898066
+        supporting_text: "Study of cleavage site preference of the fibrinolytic enzyme using the oxidized B chain of insulin revealed that specificity is similar to other snake venom metalloproteinases with cleavage primarily directed to an X-Leu bond."
+- term:
+    id: GO:0005576
+    label: extracellular region
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: Correct annotation - fibrolase is a secreted venom protein found in the extracellular space after envenomation. The protein is secreted from venom glands and acts extracellularly on fibrin/fibrinogen substrates.
+    action: ACCEPT
+    reason: Fibrolase is definitively a secreted protein that functions in the extracellular environment. It is produced by venom glands and secreted as part of the venom to act on extracellular targets (fibrin/fibrinogen in blood) [PMID:1304358, PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1304358
+        supporting_text: "fibrolase, a fibrinolytic enzyme from southern copperhead (Agkistrodon contortrix contortrix) venom"
+      - reference_id: PMID:1898066
+        supporting_text: "A fibrinolytic enzyme present in Agkistrodon contortrix contortrix (southern copperhead) venom has been purified"
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000118
+  review:
+    summary: This annotation is incorrect. Fibrolase is a secreted venom protein that acts in the extracellular space, not a plasma membrane-associated protein. There is no evidence for membrane localization.
+    action: REMOVE
+    reason: Fibrolase is a secreted soluble enzyme that functions in the extracellular environment (blood plasma) after envenomation. It has no transmembrane domains or membrane-association motifs, and all functional studies show it acting as a soluble enzyme on soluble or fibrin-bound substrates. The UniProt entry clearly states it is "Secreted" with no membrane association [PMID:1304358, PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "The enzyme, fibrolase, has a molecular weight of 23,000-24,000 and an isoelectric point of pH 6.8. It is composed of approximately 200 amino acids"
+      - reference_id: PMID:1304358
+        supporting_text: "Fibrolase is composed of 203 residues in a single polypeptide chain with a molecular weight of 22,891"
+- term:
+    id: GO:0006508
+    label: proteolysis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct but could be more specific. Fibrolase performs proteolysis specifically on fibrin/fibrinogen substrates. A more specific term like 'venom-mediated fibrinolysis' (GO:0044484) would better capture the biological context.
+    action: MODIFY
+    reason: While proteolysis is correct, it's too general for this specialized venom enzyme. Fibrolase specifically performs fibrinolytic proteolysis as part of venom action. The term 'venom-mediated fibrinolysis' (GO:0044484) more accurately describes the biological process [PMID:1898066].
+    proposed_replacement_terms:
+      - id: GO:0044484
+        label: venom-mediated fibrinolysis
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "The enzyme exhibits direct fibrinolytic activity and does not activate plasminogen. In vitro studies revealed that fibrolase dissolves clots made either from purified fibrinogen or from whole blood."
+      - reference_id: PMID:1304358
+        supporting_text: "a direct-acting, nonhemorrhagic fibrinolytic enzyme found in snake venom"
+- term:
+    id: GO:0008233
+    label: peptidase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This term is correct but too general. Fibrolase is specifically a metalloendopeptidase with defined substrate specificity, not just any peptidase.
+    action: REMOVE
+    reason: This overly broad term adds no information beyond the more specific 'metalloendopeptidase activity' (GO:0004222) already present. The general peptidase activity is redundant with the more specific metallopeptidase annotations and doesn't capture the enzyme's specific catalytic mechanism or substrate specificity [PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "the enzyme is a metalloproteinase since it is inhibited by EDTA, o-phenanthroline and tetraethylenepentamine (a specific zinc chelator)"
+- term:
+    id: GO:0008237
+    label: metallopeptidase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Correct annotation that captures the metal-dependent peptidase activity. However, this is somewhat redundant with the more specific 'metalloendopeptidase activity' (GO:0004222) annotation.
+    action: REMOVE
+    reason: This term is redundant with the more specific 'metalloendopeptidase activity' (GO:0004222) which better describes the enzyme's function. Metalloendopeptidase is a child term of metallopeptidase, so keeping both is unnecessary. The more specific term provides more information about the cleavage pattern (internal bonds) [PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "Study of cleavage site preference of the fibrinolytic enzyme using the oxidized B chain of insulin revealed that specificity is similar to other snake venom metalloproteinases with cleavage primarily directed to an X-Leu bond."
+- term:
+    id: GO:0016787
+    label: hydrolase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: This extremely broad term is technically correct but uninformative. Fibrolase has much more specific annotations that describe its actual function.
+    action: REMOVE
+    reason: This is an overly general parent term that provides no useful information beyond the specific metalloendopeptidase activity already annotated. Hydrolase activity is an ancestor of peptidase activity, which itself is an ancestor of metalloendopeptidase activity. Keeping this broad term adds no value [PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "the enzyme is a metalloproteinase"
+- term:
+    id: GO:0046872
+    label: metal ion binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Correct but could be more specific. Fibrolase specifically binds zinc ions, not just any metal ion. The more specific term 'zinc ion binding' (GO:0008270) would be more accurate.
+    action: MODIFY
+    reason: While metal ion binding is correct, fibrolase specifically requires zinc for catalytic activity. Metal analysis confirmed 1 mol of zinc per mol of protein, and the enzyme is inhibited by zinc-specific chelators. The term 'zinc ion binding' (GO:0008270) more precisely describes this molecular function [PMID:1898066].
+    proposed_replacement_terms:
+      - id: GO:0008270
+        label: zinc ion binding
+    supported_by:
+      - reference_id: PMID:1898066
+        supporting_text: "Metal analysis revealed 1 mol of zinc/mol of protein"
+      - reference_id: PMID:1898066
+        supporting_text: "the enzyme is a metalloproteinase since it is inhibited by EDTA, o-phenanthroline and tetraethylenepentamine (a specific zinc chelator)"
+- term:
+    id: GO:0090729
+    label: toxin activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Correct annotation. Fibrolase is a venom toxin that disrupts hemostasis in envenomated organisms through its fibrinolytic activity, representing a key component of copperhead venom's toxic effects.
+    action: ACCEPT
+    reason: Fibrolase is indeed a toxin - it's a venom component that causes pathological effects in envenomated organisms by disrupting normal hemostasis through direct fibrinolysis. This is a core function as it represents the protein's primary biological role in the context of envenomation [PMID:1304358, PMID:1898066].
+    supported_by:
+      - reference_id: PMID:1304358
+        supporting_text: "fibrolase, a fibrinolytic enzyme from southern copperhead (Agkistrodon contortrix contortrix) venom"
+      - reference_id: PMID:1898066
+        supporting_text: "A fibrinolytic enzyme present in Agkistrodon contortrix contortrix (southern copperhead) venom"
+core_functions:
+- description: Zinc metalloendopeptidase that directly cleaves fibrin and fibrinogen at X-Leu bonds to dissolve blood clots
+  molecular_function:
+    id: GO:0004222
+    label: metalloendopeptidase activity
+  directly_involved_in:
+    - id: GO:0044484
+      label: venom-mediated fibrinolysis
+  locations:
+    - id: GO:0005576
+      label: extracellular region
+  substrates:
+    - id: CHEBI:5054
+      label: Fibrin
+    - id: GO:0005577
+      label: fibrinogen complex
+- description: Acts as a venom toxin that modulates hemostasis in envenomated organisms
+  molecular_function:
+    id: GO:0090729
+    label: toxin activity
+  directly_involved_in:
+    - id: GO:0035821
+      label: modulation of process of another organism
+  locations:
+    - id: GO:0005576
+      label: extracellular region
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000108
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
+  findings: []
+- id: GO_REF:0000118
+  title: TreeGrafter-generated GO annotations
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:1898066
+  title: Purification and characterization of a fibrinolytic enzyme from venom of
+    the southern copperhead snake (Agkistrodon contortrix contortrix).
+  findings: []
+- id: PMID:1304358
+  title: Amino acid sequence of fibrolase, a direct-acting fibrinolytic enzyme from
+    Agkistrodon contortrix contortrix venom.
+  findings: []

@@ -23,12 +23,14 @@ existing_annotations:
   evidence_type: ISO
   original_reference_id: GO_REF:0000024
   review:
-    summary: 'This RNA binding annotation is based on orthology transfer (ISO) via GO_REF:0000024, likely due to the presence of a SMAP domain (PF15477). However, tam10 is described as a "sequence orphan" with no clear orthologs [PMID:21270388], making orthology-based transfer questionable. While SMAP/SmAP proteins in archaea bind RNA, the SMAP domain assignment itself lacks strong support given tam10 has "no identifiable protein domains" according to the primary literature.'
+    summary: 'This RNA binding annotation is based on orthology transfer (ISO) from human KNOP1 (UniProtKB:Q1ED39). However, bioinformatics analysis reveals only 16.7% sequence identity between tam10 and KNOP1, well below orthology thresholds. tam10 is described as a "sequence orphan" with no clear orthologs [PMID:21270388], making orthology-based transfer invalid. The similarity appears to be compositional (both lysine-rich) rather than evolutionary.'
     action: REMOVE
-    reason: 'The ISO evidence is invalid because tam10 has no established orthologs - it is explicitly described as a "sequence orphan" specific to the fission yeast lineage with no homologs in other fungi or model organisms [PMID:21270388]. The SMAP domain annotation appears to be a weak computational prediction that conflicts with the experimental finding that tam10 has "no known conserved motifs or domains". Bioinformatics analysis confirms no RNA-binding motifs and shows the putative SMAP region has atypical positive charge. Without valid orthologs or experimental RNA binding evidence, this annotation represents an over-interpretation.'
+    reason: 'The ISO evidence is invalid because tam10 has no established orthologs. Bitton et al. (2011) classified tam10 and similar genes as having no detectable conservation even in other fungi. Our bioinformatics analysis confirms only 16.7% identity to KNOP1, far below typical ortholog thresholds (>25-30%). The proteins share compositional features (high lysine content) but lack sequence homology. The ISO annotation appears to be an error based on superficial similarity rather than true orthology.'
     supported_by:
-      - reference_id: file:pombe/tam10/tam10-deep-research.md
-        supporting_text: "Tam10 as a sequence orphan, meaning its sequence did not match any Pfam domains or known protein families... Computational analysis thus far has not revealed any conserved motifs, enzymatic active sites, or repeats in Tam10"
+      - reference_id: PMID:21270388
+        supporting_text: "The vast majority of conserved sequences (99.9%) were found to be within existing genes"
+      - reference_id: file:pombe/tam10/tam10-bioinformatics/RESULTS.md
+        supporting_text: "16.7% sequence identity (28 matches over 168 aa tam10 length). Only 50 non-gap positions align between the proteins. The ISO annotation linking tam10 to KNOP1 appears to be INCORRECT"
       - reference_id: file:pombe/tam10/tam10-deep-research.md
         supporting_text: "Tam10 is poorly conserved across species... It appears to be specific to the fission yeast lineage (Schizosaccharomyces). Notably, no homolog of Tam10 exists in the budding yeast Saccharomyces cerevisiae or in higher eukaryotes"
 - term:
@@ -37,14 +39,16 @@ existing_annotations:
   evidence_type: ISS
   original_reference_id: GO_REF:0000024
   review:
-    summary: 'This nucleolus localization annotation is based on sequence similarity (ISS) via GO_REF:0000024, but tam10 lacks any recognizable domains, targeting signals, or orthologs that would support this inference. No experimental localization data exists, and the protein has no predicted nuclear localization signals or nucleolar targeting sequences. The basis for this similarity-based transfer is unclear given tam10 is a sequence orphan.'
+    summary: 'This nucleolus localization annotation is based on sequence similarity (ISS) to human KNOP1 (UniProtKB:Q1ED39). However, our analysis shows tam10 has only 16.7% identity to KNOP1, insufficient for reliable similarity-based inference. tam10 lacks any recognizable domains, targeting signals, or valid orthologs that would support this localization transfer.'
     action: REMOVE
-    reason: 'The ISS evidence lacks foundation as tam10 has no sequence similarity to characterized proteins - it is explicitly a "sequence orphan" with no domains or motifs [PMID:21270388]. Without identifiable sequence features that would justify similarity-based localization inference, and lacking any experimental localization data, this annotation appears to be erroneous. Bioinformatics analysis shows 60-70% disorder and no nuclear localization signals. The subcellular localization of tam10 remains completely unknown.'
+    reason: 'The ISS evidence is unfounded as tam10 has minimal sequence similarity to KNOP1 (16.7% identity). Bitton et al. (2011) found no conserved domains or motifs in tam10. The similarity to KNOP1 appears to be compositional (both lysine-rich) rather than based on conserved localization signals. Without valid sequence similarity or experimental data, this nucleolar annotation is speculative. The subcellular localization of tam10 remains completely unknown.'
     supported_by:
+      - reference_id: file:pombe/tam10/tam10-bioinformatics/RESULTS.md
+        supporting_text: "Very low sequence identity (16.7%) - below typical ortholog threshold (>25-30%). The ISS nucleolar localization (based on KNOP1) should also be reconsidered"
+      - reference_id: PMID:21270388
+        supporting_text: "We refer to the novel protein-coding genes with no apparent induction in meiosis as new1–new25, and the 14 genes with transcripts altered in meiosis as tam1–tam14"
       - reference_id: file:pombe/tam10/tam10-deep-research.md
-        supporting_text: "The subcellular localization of Tam10 is not yet determined. No localization studies (e.g. GFP-tagging or immunolocalization) have been published for Tam10... Since the protein lacks recognizable targeting signals (e.g. no predicted transmembrane helices or organelle-specific motifs) and has no known domains, it provides no clear clues for localization"
-      - reference_id: file:pombe/tam10/tam10-deep-research.md
-        supporting_text: "Its sequence reveals no known conserved motifs or domains, classifying it as a sequence orphan with no obvious homology to characterized proteins"
+        supporting_text: "The subcellular localization of Tam10 is not yet determined. No localization studies (e.g. GFP-tagging or immunolocalization) have been published for Tam10"
 references:
 - id: GO_REF:0000015
   title: Use of the ND evidence code for Gene Ontology (GO) terms.
@@ -57,24 +61,27 @@ references:
   title: Augmented annotation of the Schizosaccharomyces pombe genome reveals additional genes required for growth and viability
   findings:
   - statement: 'tam10 identified as novel gene with transcripts altered during meiosis'
-    supporting_text: 'the 14 genes with t ranscripts a ltered in m eiosis as tam1–tam14'
-  - statement: 'tam10 deletion mutants are viable with no apparent growth defects'
-    supporting_text: 'While tam2 .Δ was viable'
-  - statement: 'tam10 classified as sequence orphan with no identifiable protein domains'
-    supporting_text: 'Those that were unsupported by homology, or other methods, were designated as "dubious," pending further investigation'
+    supporting_text: 'We refer to the novel protein-coding genes with no apparent induction in meiosis as new1–new25, and the 14 genes with transcripts altered in meiosis as tam1–tam14'
+  - statement: 'Novel genes found through comparative genomics had very limited conservation'
+    supporting_text: 'The vast majority of conserved sequences (99.9%) were found to be within existing genes'
   - statement: 'tam10 mRNA levels fluctuate significantly during synchronized meiotic time course'
-    supporting_text: 'Fourteen transcripts were differentially expressed during meiosis'
+    supporting_text: 'Fourteen transcripts were differentially expressed during meiosis. Using 5′ and 3′ RACE assays, we established the complete gene architecture of 33 predicted genes'
+  - statement: 'Most novel genes lacked conservation beyond closely related species'
+    supporting_text: 'an additional 59 hits to six frame translations of the genomes of the most recently diverged species ( S. japonicus , S. cryophilus , and S. octosporus ; Figure 1 ) were identified in the fission yeast intergenic regions'
 - id: file:pombe/tam10/tam10-deep-research.md
   title: Deep research report for tam10 gene
   findings: []
 - id: file:pombe/tam10/tam10-bioinformatics/RESULTS.md
-  title: tam10 Bioinformatics Analysis Results
+  title: tam10 vs KNOP1 Homology Analysis
   findings:
-  - statement: 'tam10 is a highly basic protein (pI 10.02) with 27% basic residues, particularly enriched in lysine'
-  - statement: 'The protein is predicted to be 60-70% intrinsically disordered, consistent with lack of defined domains'
-  - statement: 'No significant coiled-coil regions detected despite UniProt annotation'
-  - statement: 'Putative SMAP domain region (30-97) has atypical positive charge instead of expected acidic character'
-  - statement: 'Contains PEST motif suggesting regulated protein degradation'
+  - statement: 'tam10 shows only 16.7% sequence identity to human KNOP1, well below orthology thresholds'
+    supporting_text: '16.7% sequence identity (28 matches over 168 aa tam10 length). Only 50 non-gap positions align between the proteins'
+  - statement: 'The ISO annotation to KNOP1 appears incorrect based on sequence analysis'
+    supporting_text: 'The ISO annotation linking tam10 to KNOP1 appears to be INCORRECT or based on: 1. Functional analogy (both lysine-rich, nucleolar) rather than homology 2. Computational prediction without proper validation'
+  - statement: 'tam10 and KNOP1 share compositional but not evolutionary similarity'
+    supporting_text: 'Both proteins show basic residue enrichment. tam10: 20.2% lysine, KNOP1: 17.5% lysine. Both have high basic residue content: tam10 26.8%, KNOP1 25.5%'
+  - statement: 'Analysis supports tam10 classification as sequence orphan with no orthologs'
+    supporting_text: 'The deep research characterization of tam10 having no orthologs is supported by our analysis'
 core_functions:
 - description: 'Unknown function - tam10 is an uncharacterized sequence orphan with no identifiable domains or motifs'
   molecular_function:

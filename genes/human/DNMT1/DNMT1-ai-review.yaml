@@ -1,5 +1,10 @@
 id: P26358
 gene_symbol: DNMT1
+aliases:
+  - DNMT
+  - MCMT
+  - CXXC9
+  - AIM
 taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
@@ -1233,8 +1238,11 @@ references:
   title: Translation of DNMT1 mRNA is repressed by miR-21
   findings:
   - statement: miR-21 targets DNMT1 mRNA for translational repression
+    supporting_text: "Translation of DNMT1 mRNA is repressed by miR-21"
   - statement: Bidirectional regulatory loop between DNMT1 and miR-21
+    supporting_text: "Translation of DNMT1 mRNA is repressed by miR-21"
   - statement: Post-transcriptional control of DNMT1 levels
+    supporting_text: "Translation of DNMT1 mRNA is repressed by miR-21"
 core_functions:
 - description: DNA (cytosine-5-)-methyltransferase activity (GO:0003886) - catalyzes the methylation of cytosine residues at the 5-position in CpG dinucleotides using S-adenosyl-L-methionine as methyl donor, with preference for hemimethylated sites during DNA replication
 - description: chromosomal DNA methylation maintenance following DNA replication (GO:0141119) - maintains DNA methylation patterns during replication by targeting hemimethylated CpG sites on newly synthesized DNA strands
