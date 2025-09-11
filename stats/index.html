@@ -1,0 +1,1801 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-review/stats/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Stats - ai-gene-review</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gene-review-statistics-dashboard" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ai-gene-review" class="md-header__button md-logo" aria-label="ai-gene-review" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-review
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Stats
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-review" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ai-gene-review" class="md-nav__button md-logo" aria-label="ai-gene-review" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-review
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-review" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-review-actions-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Overall Review Actions Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#species-specific-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧬 Species-Specific Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evidence-type-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔬 Evidence Type Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-analysis-evidence-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Method Analysis (Evidence + Reference)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-vs-evidence-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔬📊 Method vs Evidence Comparison
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-to-action-flow-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌊 Method to Action Flow Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#go-term-ontology-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 GO Term Ontology Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gene-level-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Gene-Level Statistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quality-metrics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Quality Metrics Dashboard
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temporal-and-trend-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Temporal and Trend Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-insights-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Key Insights &amp; Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="gene-review-statistics-dashboard">Gene Review Statistics Dashboard</h1>
+<p>Comprehensive statistical analysis of gene annotation reviews across species, evidence types, and curation actions.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from pathlib import Path
+import warnings
+warnings.filterwarnings('ignore')
+
+# Set style for beautiful visualizations
+plt.style.use('seaborn-v0_8-darkgrid')
+sns.set_palette(&quot;husl&quot;)
+plt.rcParams['figure.figsize'] = (12, 6)
+plt.rcParams['font.size'] = 11
+plt.rcParams['axes.titlesize'] = 14
+plt.rcParams['axes.labelsize'] = 12
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Load the flattened annotation data
+tsv_path = Path('../exports/exported_annotations.tsv')
+df = pd.read_csv(tsv_path, sep='\t')
+
+# Basic statistics
+print(f&quot;📊 Dataset Overview&quot;)
+print(f&quot;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&quot;)
+print(f&quot;Total annotations reviewed: {len(df):,}&quot;)
+print(f&quot;Unique genes: {df['gene_symbol'].nunique()}&quot;)
+print(f&quot;Unique species: {df['taxon_label'].nunique()}&quot;)
+print(f&quot;Unique GO terms: {df['term_id'].nunique()}&quot;)
+print(f&quot;\nSpecies distribution:&quot;)
+for species, count in df['taxon_label'].value_counts().head().items():
+    print(f&quot;  • {species}: {count} annotations&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="overall-review-actions-distribution">📈 Overall Review Actions Distribution</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Create figure with two subplots
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+# Count of review actions
+action_counts = df['review_action'].value_counts()
+colors = sns.color_palette(&quot;Spectral&quot;, len(action_counts))
+
+# Bar chart
+bars = ax1.bar(range(len(action_counts)), action_counts.values, color=colors)
+ax1.set_xticks(range(len(action_counts)))
+ax1.set_xticklabels(action_counts.index, rotation=45, ha='right')
+ax1.set_ylabel('Number of Annotations')
+ax1.set_title('Distribution of Review Actions', fontweight='bold', fontsize=14)
+ax1.grid(axis='y', alpha=0.3)
+
+# Add value labels on bars
+for bar, value in zip(bars, action_counts.values):
+    height = bar.get_height()
+    ax1.text(bar.get_x() + bar.get_width()/2., height + 1,
+             f'{int(value)}\n({value/len(df)*100:.1f}%)',
+             ha='center', va='bottom', fontsize=10)
+
+# Pie chart with exploded slices for important actions
+explode = [0.1 if action in ['MODIFY', 'REMOVE'] else 0 for action in action_counts.index]
+wedges, texts, autotexts = ax2.pie(action_counts.values, 
+                                     labels=action_counts.index,
+                                     colors=colors,
+                                     autopct='%1.1f%%',
+                                     explode=explode,
+                                     startangle=90)
+ax2.set_title('Proportion of Review Actions', fontweight='bold', fontsize=14)
+
+# Make percentage text bold
+for autotext in autotexts:
+    autotext.set_color('white')
+    autotext.set_fontweight('bold')
+    autotext.set_fontsize(10)
+
+plt.tight_layout()
+plt.show()
+
+# Summary statistics
+print(&quot;\n📊 Action Summary:&quot;)
+print(f&quot;  • Accepted as-is: {action_counts.get('ACCEPT', 0)} ({action_counts.get('ACCEPT', 0)/len(df)*100:.1f}%)&quot;)
+print(f&quot;  • Modifications needed: {action_counts.get('MODIFY', 0)} ({action_counts.get('MODIFY', 0)/len(df)*100:.1f}%)&quot;)
+print(f&quot;  • Removed: {action_counts.get('REMOVE', 0)} ({action_counts.get('REMOVE', 0)/len(df)*100:.1f}%)&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="species-specific-analysis">🧬 Species-Specific Analysis</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Prepare species data
+species_action = pd.crosstab(df['taxon_label'], df['review_action'], normalize='index') * 100
+species_counts = df['taxon_label'].value_counts()
+
+# Filter to top species by annotation count
+top_species = species_counts.head(10).index
+species_action_filtered = species_action.loc[top_species]
+
+# Create stacked bar chart
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(14, 12))
+
+# Stacked percentage bar chart
+species_action_filtered.plot(kind='barh', stacked=True, ax=ax1, 
+                             colormap='Spectral', width=0.8)
+ax1.set_xlabel('Percentage of Annotations (%)')
+ax1.set_ylabel('')
+ax1.set_title('Review Actions by Species (Percentage)', fontweight='bold', fontsize=14)
+ax1.legend(title='Action', bbox_to_anchor=(1.05, 1), loc='upper left')
+ax1.grid(axis='x', alpha=0.3)
+
+# Add percentage labels
+for container in ax1.containers:
+    ax1.bar_label(container, fmt='%.0f%%', label_type='center', fontsize=9)
+
+# Absolute counts heatmap
+species_action_abs = pd.crosstab(df['taxon_label'], df['review_action'])
+species_action_abs_filtered = species_action_abs.loc[top_species]
+
+sns.heatmap(species_action_abs_filtered, annot=True, fmt='d', cmap='YlOrRd', 
+            ax=ax2, cbar_kws={'label': 'Number of Annotations'})
+ax2.set_ylabel('')
+ax2.set_xlabel('Review Action')
+ax2.set_title('Review Actions by Species (Absolute Counts)', fontweight='bold', fontsize=14)
+
+plt.tight_layout()
+plt.show()
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="evidence-type-analysis">🔬 Evidence Type Analysis</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Method analysis (combining evidence type and reference source)
+# This provides a higher-level view than raw evidence codes
+if 'method' in df.columns:
+    method_counts = df['method'].value_counts()
+
+    # Create action categories if not already present
+    if 'action_category' not in df.columns:
+        def categorize_action(action):
+            if action == 'ACCEPT':
+                return 'Accept'
+            elif action == 'MODIFY':
+                return 'Modify'
+            elif action == 'REMOVE':
+                return 'Remove'
+            elif action in ['KEEP_AS_NON_CORE', 'MARK_AS_OVER_ANNOTATED']:
+                return 'Non-Core/Over-Annotated'
+            else:
+                return 'Other'
+        df['action_category'] = df['review_action'].apply(categorize_action)
+
+    fig, axes = plt.subplots(2, 2, figsize=(18, 12))
+
+    # 1. Method vs Review Action heatmap - COUNTS
+    method_action = pd.crosstab(df['method'], df['review_action'])
+
+    sns.heatmap(method_action, annot=True, fmt='d', cmap='YlOrRd', ax=axes[0, 0],
+                cbar_kws={'label': 'Count'})
+    axes[0, 0].set_title('Review Actions by Method (Counts)', fontweight='bold', fontsize=12)
+    axes[0, 0].set_xlabel('Review Action')
+    axes[0, 0].set_ylabel('Method')
+    axes[0, 0].tick_params(axis='both', which='major', labelsize=9)
+
+    # 2. Method vs Review Action heatmap - PERCENTAGES
+    method_action_pct = pd.crosstab(df['method'], df['review_action'], normalize='index') * 100
+
+    sns.heatmap(method_action_pct, annot=True, fmt='.0f', cmap='RdYlGn_r', ax=axes[0, 1],
+                cbar_kws={'label': 'Percentage (%)'}, vmin=0, vmax=50)
+    axes[0, 1].set_title('Review Actions by Method (Row %)', fontweight='bold', fontsize=12)
+    axes[0, 1].set_xlabel('Review Action')
+    axes[0, 1].set_ylabel('')
+    axes[0, 1].tick_params(axis='both', which='major', labelsize=9)
+
+    # 3. ACTION RATES BY METHOD - STACKED BAR CHART
+    # Calculate percentages for each method
+    method_action_rates = pd.crosstab(df['method'], df['action_category'], normalize='index') * 100
+
+    # Order columns for stacking
+    action_order = ['Accept', 'Modify', 'Remove', 'Non-Core/Over-Annotated', 'Other']
+    existing_cols = [col for col in action_order if col in method_action_rates.columns]
+    method_action_rates = method_action_rates[existing_cols]
+
+    # Sort by total annotations (most common first)
+    method_action_rates = method_action_rates.loc[method_counts.index]
+
+    # Create stacked bar chart
+    x = np.arange(len(method_action_rates))
+    width = 0.7
+
+    # Define colors for each action category
+    action_colors = {
+        'Accept': 'green',
+        'Modify': 'orange', 
+        'Remove': 'red',
+        'Non-Core/Over-Annotated': 'purple',
+        'Other': 'gray'
+    }
+
+    # Plot stacked bars
+    bottom = np.zeros(len(method_action_rates))
+    for action in existing_cols:
+        values = method_action_rates[action].values
+        color = action_colors.get(action, 'gray')
+        axes[1, 0].bar(x, values, width, bottom=bottom, label=action, color=color, alpha=0.8)
+        bottom += values
+
+    axes[1, 0].set_xticks(x)
+    axes[1, 0].set_xticklabels(method_action_rates.index, rotation=45, ha='right', fontsize=9)
+    axes[1, 0].set_ylabel('Percentage (%)')
+    axes[1, 0].set_title('Action Rates by Method', fontweight='bold', fontsize=12)
+    axes[1, 0].legend(loc='upper right')
+    axes[1, 0].grid(axis='y', alpha=0.3)
+    axes[1, 0].set_ylim(0, 100)
+
+    # Add sample sizes above bars
+    for i, method in enumerate(method_action_rates.index):
+        count = method_counts[method]
+        axes[1, 0].text(i, 102, f'n={count}', ha='center', fontsize=8, color='black')
+
+    # 4. Method distribution bar chart
+    colors_dist = sns.color_palette(&quot;viridis&quot;, len(method_counts))
+    bars = axes[1, 1].bar(range(len(method_counts)), method_counts.values, color=colors_dist)
+    axes[1, 1].set_xticks(range(len(method_counts)))
+    axes[1, 1].set_xticklabels(method_counts.index, rotation=45, ha='right', fontsize=9)
+    axes[1, 1].set_ylabel('Number of Annotations')
+    axes[1, 1].set_title('Distribution of Methods', fontweight='bold', fontsize=12)
+    axes[1, 1].grid(axis='y', alpha=0.3)
+
+    # Add count labels
+    for bar, value in zip(bars, method_counts.values):
+        height = bar.get_height()
+        axes[1, 1].text(bar.get_x() + bar.get_width()/2., height + 5,
+                        f'{int(value)}', ha='center', va='bottom', fontsize=9)
+
+    plt.suptitle('Method Analysis Overview', fontsize=14, fontweight='bold', y=1.02)
+    plt.tight_layout()
+    plt.show()
+
+    # Print detailed summary
+    print(&quot;\n📊 Method Analysis Summary:&quot;)
+    print(&quot;=&quot; * 60)
+
+    # Create summary DataFrame
+    method_summary = pd.DataFrame({
+        'Count': df.groupby('method').size(),
+        'Accepted': df[df['review_action'] == 'ACCEPT'].groupby('method').size().reindex(df['method'].unique(), fill_value=0),
+        'Accept_Rate': df.groupby('method')['review_action'].apply(lambda x: (x == 'ACCEPT').mean() * 100),
+        'Removed': df[df['review_action'] == 'REMOVE'].groupby('method').size().reindex(df['method'].unique(), fill_value=0),
+        'Remove_Rate': df.groupby('method')['review_action'].apply(lambda x: (x == 'REMOVE').mean() * 100),
+        'Non-Core/Over': df[df['review_action'].isin(['KEEP_AS_NON_CORE', 'MARK_AS_OVER_ANNOTATED'])].groupby('method').size().reindex(df['method'].unique(), fill_value=0),
+    }).sort_values('Count', ascending=False)
+
+    print(f&quot;\n{'Method':&amp;lt;20} {'Count':&amp;gt;6} {'Accept':&amp;gt;8} {'Accept%':&amp;gt;8} {'Remove':&amp;gt;8} {'Remove%':&amp;gt;8} {'NonCore':&amp;gt;8}&quot;)
+    print(&quot;-&quot; * 75)
+    for method, row in method_summary.iterrows():
+        print(f&quot;{method:&amp;lt;20} {int(row['Count']):6d} {int(row['Accepted']):8d} {row['Accept_Rate']:7.1f}% {int(row['Removed']):8d} {row['Remove_Rate']:7.1f}% {int(row['Non-Core/Over']):8d}&quot;)
+
+    print(&quot;\n📈 Key Insights:&quot;)
+    print(f&quot;  • Total methods: {df['method'].nunique()}&quot;)
+    print(f&quot;  • Most common: {method_counts.index[0]} ({method_counts.iloc[0]} annotations, {method_counts.iloc[0]/len(df)*100:.1f}%)&quot;)
+
+    # Report on ARBA specifically
+    if 'ARBA' in method_summary.index:
+        arba_row = method_summary.loc['ARBA']
+        print(f&quot;\n🔍 ARBA Analysis:&quot;)
+        print(f&quot;  • Total: {int(arba_row['Count'])} annotations&quot;)
+        print(f&quot;  • Accepted: {int(arba_row['Accepted'])} ({arba_row['Accept_Rate']:.1f}%)&quot;)
+        print(f&quot;  • Removed: {int(arba_row['Removed'])} ({arba_row['Remove_Rate']:.1f}%)&quot;)
+        print(f&quot;  • Non-Core/Over-Annotated: {int(arba_row['Non-Core/Over'])}&quot;)
+else:
+    print(&quot;⚠️ Method column not found in data. Please re-export annotations to include the new method field.&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="method-analysis-evidence-reference">🧪 Method Analysis (Evidence + Reference)</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Evidence type distribution with action rates
+evidence_counts = df['evidence_type'].value_counts()
+
+fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+
+# 1. Overall evidence type distribution
+colors = sns.color_palette(&quot;viridis&quot;, len(evidence_counts))
+bars = axes[0, 0].bar(range(len(evidence_counts)), evidence_counts.values, color=colors)
+axes[0, 0].set_xticks(range(len(evidence_counts)))
+axes[0, 0].set_xticklabels(evidence_counts.index, rotation=45, ha='right')
+axes[0, 0].set_ylabel('Number of Annotations')
+axes[0, 0].set_title('Distribution of Evidence Types', fontweight='bold')
+axes[0, 0].grid(axis='y', alpha=0.3)
+
+# Add count labels
+for bar, value in zip(bars, evidence_counts.values):
+    height = bar.get_height()
+    axes[0, 0].text(bar.get_x() + bar.get_width()/2., height + 1,
+                    f'{int(value)}', ha='center', va='bottom')
+
+# 2. Evidence type vs Review action heatmap
+evidence_action = pd.crosstab(df['evidence_type'], df['review_action'])
+sns.heatmap(evidence_action, annot=True, fmt='d', cmap='coolwarm', ax=axes[0, 1],
+            cbar_kws={'label': 'Count'})
+axes[0, 1].set_title('Evidence Type vs Review Action', fontweight='bold')
+axes[0, 1].set_xlabel('Review Action')
+axes[0, 1].set_ylabel('Evidence Type')
+
+# 3. Acceptance rate by evidence type
+evidence_accept_rate = pd.crosstab(df['evidence_type'], 
+                                   df['review_action'] == 'ACCEPT', 
+                                   normalize='index')[True] * 100
+evidence_accept_rate = evidence_accept_rate.sort_values(ascending=False)
+
+bars = axes[1, 0].barh(range(len(evidence_accept_rate)), 
+                       evidence_accept_rate.values,
+                       color=sns.color_palette(&quot;RdYlGn&quot;, len(evidence_accept_rate))[::-1])
+axes[1, 0].set_yticks(range(len(evidence_accept_rate)))
+axes[1, 0].set_yticklabels(evidence_accept_rate.index)
+axes[1, 0].set_xlabel('Acceptance Rate (%)')
+axes[1, 0].set_title('Acceptance Rate by Evidence Type', fontweight='bold')
+axes[1, 0].grid(axis='x', alpha=0.3)
+
+# Add percentage labels
+for bar, value in zip(bars, evidence_accept_rate.values):
+    width = bar.get_width()
+    axes[1, 0].text(width + 1, bar.get_y() + bar.get_height()/2.,
+                    f'{value:.1f}%', ha='left', va='center')
+
+# 4. ACTION RATES BY EVIDENCE TYPE - STACKED BAR CHART
+# Group actions into categories
+def categorize_action(action):
+    if action == 'ACCEPT':
+        return 'Accept'
+    elif action == 'MODIFY':
+        return 'Modify'
+    elif action == 'REMOVE':
+        return 'Remove'
+    elif action in ['KEEP_AS_NON_CORE', 'MARK_AS_OVER_ANNOTATED']:
+        return 'Non-Core/Over-Annotated'
+    else:
+        return 'Other'
+
+df['action_category'] = df['review_action'].apply(categorize_action)
+
+# Calculate percentages for each evidence type
+evidence_action_rates = pd.crosstab(df['evidence_type'], df['action_category'], normalize='index') * 100
+
+# Order columns for stacking
+action_order = ['Accept', 'Modify', 'Remove', 'Non-Core/Over-Annotated', 'Other']
+existing_cols = [col for col in action_order if col in evidence_action_rates.columns]
+evidence_action_rates = evidence_action_rates[existing_cols]
+
+# Sort by total annotations (most common first)
+evidence_action_rates = evidence_action_rates.loc[evidence_counts.index]
+
+# Create stacked bar chart
+x = np.arange(len(evidence_action_rates))
+width = 0.6
+
+# Define colors for each action category
+action_colors = {
+    'Accept': 'green',
+    'Modify': 'orange', 
+    'Remove': 'red',
+    'Non-Core/Over-Annotated': 'purple',
+    'Other': 'gray'
+}
+
+# Plot stacked bars
+bottom = np.zeros(len(evidence_action_rates))
+for action in existing_cols:
+    values = evidence_action_rates[action].values
+    color = action_colors.get(action, 'gray')
+    axes[1, 1].bar(x, values, width, bottom=bottom, label=action, color=color, alpha=0.8)
+    bottom += values
+
+axes[1, 1].set_xticks(x)
+axes[1, 1].set_xticklabels(evidence_action_rates.index, rotation=45, ha='right')
+axes[1, 1].set_ylabel('Percentage (%)')
+axes[1, 1].set_title('Action Rates by Evidence Type', fontweight='bold')
+axes[1, 1].legend(loc='upper right')
+axes[1, 1].grid(axis='y', alpha=0.3)
+axes[1, 1].set_ylim(0, 100)
+
+plt.tight_layout()
+plt.show()
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Compare Method (consolidated) vs Evidence (raw) views
+if 'method' in df.columns:
+    fig = plt.figure(figsize=(18, 12))
+    gs = fig.add_gridspec(3, 3, hspace=0.3, wspace=0.3)
+
+    # 1. Side-by-side pie charts: Method vs Evidence
+    ax1 = fig.add_subplot(gs[0, 0])
+    method_top = df['method'].value_counts().head(8)
+    colors1 = sns.color_palette(&quot;Set2&quot;, len(method_top))
+    wedges, texts, autotexts = ax1.pie(method_top.values, labels=method_top.index, 
+                                        autopct='%1.1f%%', colors=colors1, startangle=90)
+    ax1.set_title('Top Methods (Consolidated)', fontweight='bold')
+    for autotext in autotexts:
+        autotext.set_color('white')
+        autotext.set_fontweight('bold')
+        autotext.set_fontsize(9)
+
+    ax2 = fig.add_subplot(gs[0, 1])
+    evidence_top = df['evidence_type'].value_counts().head(8)
+    colors2 = sns.color_palette(&quot;Set3&quot;, len(evidence_top))
+    wedges, texts, autotexts = ax2.pie(evidence_top.values, labels=evidence_top.index,
+                                       autopct='%1.1f%%', colors=colors2, startangle=90)
+    ax2.set_title('Top Evidence Types (Raw)', fontweight='bold')
+    for autotext in autotexts:
+        autotext.set_color('black')
+        autotext.set_fontweight('bold')
+        autotext.set_fontsize(9)
+
+    # 2. Acceptance rates comparison
+    ax3 = fig.add_subplot(gs[0, 2])
+
+    # Calculate acceptance rates for methods
+    method_accept = df.groupby('method')['review_action'].apply(
+        lambda x: (x == 'ACCEPT').mean() * 100
+    ).sort_values(ascending=False).head(10)
+
+    # Calculate acceptance rates for evidence
+    evidence_accept = df.groupby('evidence_type')['review_action'].apply(
+        lambda x: (x == 'ACCEPT').mean() * 100
+    ).sort_values(ascending=False).head(10)
+
+    x = np.arange(10)
+    width = 0.35
+
+    bars1 = ax3.barh(x - width/2, method_accept.values[:10], width, 
+                     label='By Method', color='steelblue', alpha=0.8)
+    bars2 = ax3.barh(x + width/2, evidence_accept.values[:10], width,
+                     label='By Evidence', color='coral', alpha=0.8)
+
+    ax3.set_yticks(x)
+    ax3.set_yticklabels([f&quot;{i+1}&quot; for i in range(10)])
+    ax3.set_xlabel('Acceptance Rate (%)')
+    ax3.set_title('Top 10 Acceptance Rates Comparison', fontweight='bold')
+    ax3.legend()
+    ax3.grid(axis='x', alpha=0.3)
+
+    # 3. Method breakdown for IEA annotations
+    ax4 = fig.add_subplot(gs[1, :])
+    iea_methods = df[df['evidence_type'] == 'IEA']['method'].value_counts()
+
+    bars = ax4.bar(range(len(iea_methods)), iea_methods.values, 
+                   color=sns.color_palette(&quot;viridis&quot;, len(iea_methods)))
+    ax4.set_xticks(range(len(iea_methods)))
+    ax4.set_xticklabels(iea_methods.index, rotation=45, ha='right')
+    ax4.set_ylabel('Number of Annotations')
+    ax4.set_title('IEA Annotations Breakdown by Method/Source', fontweight='bold', fontsize=14)
+    ax4.grid(axis='y', alpha=0.3)
+
+    # Add value and percentage labels
+    for bar, (method, count) in zip(bars, iea_methods.items()):
+        height = bar.get_height()
+        pct = count / df[df['evidence_type'] == 'IEA'].shape[0] * 100
+        ax4.text(bar.get_x() + bar.get_width()/2., height + 2,
+                f'{int(count)}\n({pct:.1f}%)', ha='center', va='bottom', fontsize=9)
+
+    # 4. Sankey-style flow from Evidence to Method
+    ax5 = fig.add_subplot(gs[2, :2])
+
+    # Create crosstab of evidence to method mapping
+    evidence_method = pd.crosstab(df['evidence_type'], df['method'])
+
+    # Filter to most common combinations
+    top_evidence = df['evidence_type'].value_counts().head(8).index
+    top_methods = df['method'].value_counts().head(8).index
+    evidence_method_filtered = evidence_method.loc[
+        evidence_method.index.intersection(top_evidence),
+        evidence_method.columns.intersection(top_methods)
+    ]
+
+    sns.heatmap(evidence_method_filtered, annot=True, fmt='d', cmap='YlGnBu',
+                ax=ax5, cbar_kws={'label': 'Count'})
+    ax5.set_title('Evidence Type to Method Mapping', fontweight='bold', fontsize=12)
+    ax5.set_xlabel('Method (Consolidated)')
+    ax5.set_ylabel('Evidence Type (Raw)')
+
+    # 5. Summary statistics table
+    ax6 = fig.add_subplot(gs[2, 2])
+    ax6.axis('tight')
+    ax6.axis('off')
+
+    # Calculate statistics
+    method_stats = {
+        'Unique Methods': df['method'].nunique(),
+        'Unique Evidence Types': df['evidence_type'].nunique(),
+        'Most Common Method': f&quot;{method_counts.index[0]} ({method_counts.iloc[0]})&quot;,
+        'Most Common Evidence': f&quot;{evidence_counts.index[0]} ({evidence_counts.iloc[0]})&quot;,
+        'IEA Breakdown': f&quot;{df[df['evidence_type'] == 'IEA']['method'].nunique()} sources&quot;,
+        'Experimental %': f&quot;{(df['method'] == 'Experimental').mean() * 100:.1f}%&quot;
+    }
+
+    table_data = [[k, str(v)] for k, v in method_stats.items()]
+    table = ax6.table(cellText=table_data, cellLoc='left', loc='center',
+                     colWidths=[0.6, 0.4])
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1.2, 1.8)
+
+    # Style the table
+    for i in range(len(table_data)):
+        table[(i, 0)].set_facecolor('#E8F4F8')
+        table[(i, 0)].set_text_props(weight='bold')
+
+    ax6.set_title('Comparison Summary', fontweight='bold', fontsize=12)
+
+    plt.suptitle('Method vs Evidence Type Analysis', fontsize=16, fontweight='bold', y=0.98)
+    plt.tight_layout()
+    plt.show()
+
+    # Print detailed comparison
+    print(&quot;\n🔍 Method vs Evidence Detailed Comparison:&quot;)
+    print(&quot;=&quot; * 60)
+
+    print(&quot;\n📊 Consolidation Impact:&quot;)
+    total_experimental = df[df['evidence_type'].isin(['IDA', 'IPI', 'IMP', 'IGI', 'IEP', 'HTP', 'HDA', 'HMP', 'HGI', 'HEP'])].shape[0]
+    print(f&quot;  • {total_experimental} experimental evidence codes → 1 'Experimental' method&quot;)
+
+    iea_count = df[df['evidence_type'] == 'IEA'].shape[0]
+    iea_methods_count = df[df['evidence_type'] == 'IEA']['method'].nunique()
+    print(f&quot;  • {iea_count} IEA annotations → {iea_methods_count} distinct methods&quot;)
+
+    print(&quot;\n📈 Quality Indicators:&quot;)
+    exp_accept = df[df['method'] == 'Experimental']['review_action'].eq('ACCEPT').mean() * 100
+    auto_accept = df[df['method'].isin(['ARBA', 'UniProtKB-KW', 'Combined-IEA', 'InterPro2GO'])]['review_action'].eq('ACCEPT').mean() * 100
+    print(f&quot;  • Experimental acceptance rate: {exp_accept:.1f}%&quot;)
+    print(f&quot;  • Automated acceptance rate: {auto_accept:.1f}%&quot;)
+    print(f&quot;  • Difference: {exp_accept - auto_accept:+.1f} percentage points&quot;)
+else:
+    print(&quot;⚠️ Method column not found. Please re-export annotations with the updated exporter.&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="method-vs-evidence-comparison">🔬📊 Method vs Evidence Comparison</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Sankey diagram for Method -&amp;gt; Action flow
+try:
+    import plotly.graph_objects as go
+    import plotly.offline as pyo
+
+    # Prepare data for Sankey diagram
+    if 'method' in df.columns:
+        # Create the flow data
+        flow_data = df.groupby(['method', 'action_category']).size().reset_index(name='count')
+
+        # Filter to significant flows (at least 5 annotations) for clarity
+        flow_data = flow_data[flow_data['count'] &amp;gt;= 5]
+
+        # Create node lists
+        methods = flow_data['method'].unique().tolist()
+        actions = flow_data['action_category'].unique().tolist()
+
+        # All nodes (methods + actions)
+        all_nodes = methods + actions
+        node_indices = {node: i for i, node in enumerate(all_nodes)}
+
+        # Create source, target, and value lists for Sankey
+        source = [node_indices[method] for method in flow_data['method']]
+        target = [node_indices[action] for action in flow_data['action_category']]
+        value = flow_data['count'].tolist()
+
+        # Define colors
+        method_colors = ['lightblue'] * len(methods)
+        action_color_map = {
+            'Accept': 'green',
+            'Modify': 'orange',
+            'Remove': 'red',
+            'Non-Core/Over-Annotated': 'purple',
+            'Other': 'gray'
+        }
+        action_colors = [action_color_map.get(action, 'gray') for action in actions]
+        node_colors = method_colors + action_colors
+
+        # Create Sankey diagram
+        fig = go.Figure(data=[go.Sankey(
+            node=dict(
+                pad=15,
+                thickness=20,
+                line=dict(color=&quot;black&quot;, width=0.5),
+                label=all_nodes,
+                color=node_colors,
+                hovertemplate='%{label}&lt;br/&gt;Total: %{value}&lt;extra&gt;&lt;/extra&gt;'
+            ),
+            link=dict(
+                source=source,
+                target=target,
+                value=value,
+                color='rgba(200, 200, 200, 0.4)',
+                hovertemplate='%{source.label} → %{target.label}&lt;br/&gt;Count: %{value}&lt;extra&gt;&lt;/extra&gt;'
+            )
+        )])
+
+        fig.update_layout(
+            title_text=&quot;Method to Action Flow (flows ≥5 annotations)&quot;,
+            font_size=12,
+            height=600,
+            margin=dict(l=50, r=50, t=50, b=50)
+        )
+
+        # Display the figure
+        pyo.iplot(fig)
+
+        # Also create a static version using matplotlib
+        fig2, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 8))
+
+        # 1. Top flows table
+        top_flows = flow_data.nlargest(20, 'count')
+        top_flows['percentage'] = (top_flows['count'] / top_flows['count'].sum() * 100).round(1)
+
+        # Format for display
+        table_data = []
+        table_data.append(['Method', 'Action', 'Count', '%'])
+        table_data.append(['─' * 20, '─' * 25, '─' * 8, '─' * 8])
+
+        for _, row in top_flows.iterrows():
+            table_data.append([
+                row['method'][:20],
+                row['action_category'][:25],
+                f&quot;{int(row['count']):4d}&quot;,
+                f&quot;{row['percentage']:5.1f}%&quot;
+            ])
+
+        ax1.axis('tight')
+        ax1.axis('off')
+        table = ax1.table(cellText=table_data, cellLoc='left', loc='center',
+                         colWidths=[0.3, 0.35, 0.15, 0.15])
+        table.auto_set_font_size(False)
+        table.set_fontsize(9)
+        table.scale(1.2, 1.2)
+
+        # Style header
+        for i in range(4):
+            table[(0, i)].set_facecolor('#4CAF50')
+            table[(0, i)].set_text_props(weight='bold', color='white')
+
+        ax1.set_title('Top 20 Method→Action Flows', fontweight='bold', fontsize=12)
+
+        # 2. Summary by method
+        method_flow_summary = flow_data.pivot_table(
+            index='method', 
+            columns='action_category', 
+            values='count', 
+            aggfunc='sum',
+            fill_value=0
+        )
+
+        # Sort by total flow
+        method_flow_summary['Total'] = method_flow_summary.sum(axis=1)
+        method_flow_summary = method_flow_summary.sort_values('Total', ascending=False).head(10)
+
+        # Create stacked bar chart
+        categories = [col for col in method_flow_summary.columns if col != 'Total']
+        x = np.arange(len(method_flow_summary))
+
+        bottom = np.zeros(len(method_flow_summary))
+        for category in categories:
+            if category in method_flow_summary.columns:
+                values = method_flow_summary[category].values
+                color = action_color_map.get(category, 'gray')
+                ax2.barh(x, values, left=bottom, label=category, color=color, alpha=0.8)
+                bottom += values
+
+        ax2.set_yticks(x)
+        ax2.set_yticklabels(method_flow_summary.index, fontsize=10)
+        ax2.set_xlabel('Number of Annotations')
+        ax2.set_title('Top 10 Methods: Action Distribution', fontweight='bold', fontsize=12)
+        ax2.legend(loc='lower right')
+        ax2.grid(axis='x', alpha=0.3)
+
+        # Add totals at the end of bars
+        for i, total in enumerate(method_flow_summary['Total']):
+            ax2.text(total + 5, i, f'{int(total)}', va='center', fontsize=9)
+
+        plt.suptitle('Method to Action Flow Analysis', fontsize=14, fontweight='bold', y=1.02)
+        plt.tight_layout()
+        plt.show()
+
+        # Print flow statistics
+        print(&quot;\n🌊 Flow Analysis Summary:&quot;)
+        print(&quot;=&quot; * 60)
+        print(f&quot;Total unique flows: {len(flow_data)}&quot;)
+        print(f&quot;Total annotations in flows ≥5: {flow_data['count'].sum()}&quot;)
+        print(f&quot;Most common flow: {top_flows.iloc[0]['method']} → {top_flows.iloc[0]['action_category']} ({top_flows.iloc[0]['count']} annotations)&quot;)
+
+        # Calculate percentage of each action across all methods
+        action_totals = flow_data.groupby('action_category')['count'].sum()
+        print(&quot;\n📊 Overall Action Distribution (from flows ≥5):&quot;)
+        for action, count in action_totals.sort_values(ascending=False).items():
+            pct = count / action_totals.sum() * 100
+            print(f&quot;  • {action}: {count} ({pct:.1f}%)&quot;)
+
+except ImportError:
+    print(&quot;⚠️ Plotly not installed. Installing it will enable interactive Sankey diagrams.&quot;)
+    print(&quot;   To install: uv add plotly&quot;)
+
+    # Fallback visualization without Plotly
+    if 'method' in df.columns:
+        fig, ax = plt.subplots(figsize=(14, 10))
+
+        # Create flow matrix
+        flow_matrix = pd.crosstab(df['method'], df['action_category'])
+
+        # Filter to top methods for readability
+        top_methods = df['method'].value_counts().head(15).index
+        flow_matrix_filtered = flow_matrix.loc[top_methods]
+
+        # Create heatmap as fallback
+        sns.heatmap(flow_matrix_filtered, annot=True, fmt='d', cmap='YlGnBu',
+                    cbar_kws={'label': 'Count'}, ax=ax)
+        ax.set_title('Method to Action Flow Matrix (Top 15 Methods)', fontweight='bold', fontsize=14)
+        ax.set_xlabel('Action Category', fontsize=12)
+        ax.set_ylabel('Method', fontsize=12)
+
+        plt.tight_layout()
+        plt.show()
+
+        print(&quot;\n📊 Method→Action Flow Summary (Top 15 Methods):&quot;)
+        for method in top_methods[:5]:
+            flows = flow_matrix.loc[method]
+            flows = flows[flows &amp;gt; 0].sort_values(ascending=False)
+            print(f&quot;\n{method}:&quot;)
+            for action, count in flows.items():
+                pct = count / flows.sum() * 100
+                print(f&quot;  → {action}: {count} ({pct:.1f}%)&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="method-to-action-flow-analysis">🌊 Method to Action Flow Analysis</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="go-term-ontology-analysis">🎯 GO Term Ontology Analysis</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Extract ontology from term_id (GO:XXXXXXX)
+# Determine ontology based on term_ontology column or infer from common patterns
+def get_ontology(row):
+    if pd.notna(row['term_ontology']):
+        return row['term_ontology']
+    # Infer from term label patterns
+    term = str(row['term_label']).lower()
+    if 'binding' in term or 'activity' in term or 'transporter' in term:
+        return 'Molecular Function'
+    elif 'process' in term or 'regulation' in term or 'pathway' in term:
+        return 'Biological Process'
+    elif 'complex' in term or 'membrane' in term or 'region' in term:
+        return 'Cellular Component'
+    return 'Unknown'
+
+df['ontology'] = df.apply(get_ontology, axis=1)
+
+fig, axes = plt.subplots(2, 2, figsize=(16, 10))
+
+# 1. Distribution across ontologies
+ontology_counts = df['ontology'].value_counts()
+colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
+wedges, texts, autotexts = axes[0, 0].pie(ontology_counts.values, 
+                                           labels=ontology_counts.index,
+                                           colors=colors[:len(ontology_counts)],
+                                           autopct='%1.1f%%',
+                                           startangle=90)
+axes[0, 0].set_title('GO Ontology Distribution', fontweight='bold')
+
+# 2. Review actions by ontology
+ontology_action = pd.crosstab(df['ontology'], df['review_action'], normalize='index') * 100
+ontology_action.plot(kind='bar', ax=axes[0, 1], colormap='Set3')
+axes[0, 1].set_xlabel('Ontology')
+axes[0, 1].set_ylabel('Percentage of Annotations')
+axes[0, 1].set_title('Review Actions by GO Ontology', fontweight='bold')
+axes[0, 1].legend(title='Action', bbox_to_anchor=(1.05, 1), loc='upper left')
+axes[0, 1].set_xticklabels(axes[0, 1].get_xticklabels(), rotation=45, ha='right')
+
+# 3. Most frequently reviewed terms
+top_terms = df['term_label'].value_counts().head(15)
+axes[1, 0].barh(range(len(top_terms)), top_terms.values, 
+               color=sns.color_palette(&quot;muted&quot;, len(top_terms)))
+axes[1, 0].set_yticks(range(len(top_terms)))
+axes[1, 0].set_yticklabels(top_terms.index, fontsize=9)
+axes[1, 0].set_xlabel('Number of Annotations')
+axes[1, 0].set_title('Top 15 Most Frequently Annotated GO Terms', fontweight='bold')
+axes[1, 0].grid(axis='x', alpha=0.3)
+
+# Add count labels
+for i, value in enumerate(top_terms.values):
+    axes[1, 0].text(value + 0.5, i, str(value), va='center')
+
+# 4. Terms with highest modification rates
+term_stats = df.groupby('term_label').agg({
+    'review_action': ['count', lambda x: (x == 'MODIFY').mean() * 100]
+}).reset_index()
+term_stats.columns = ['term', 'count', 'modify_rate']
+term_stats = term_stats[term_stats['count'] &amp;gt;= 5]  # Filter for terms with at least 5 annotations
+term_stats = term_stats.nlargest(10, 'modify_rate')
+
+axes[1, 1].barh(range(len(term_stats)), term_stats['modify_rate'].values,
+               color=sns.color_palette(&quot;YlOrRd&quot;, len(term_stats)))
+axes[1, 1].set_yticks(range(len(term_stats)))
+axes[1, 1].set_yticklabels(term_stats['term'].values, fontsize=9)
+axes[1, 1].set_xlabel('Modification Rate (%)')
+axes[1, 1].set_title('GO Terms with Highest Modification Rates (n≥5)', fontweight='bold')
+axes[1, 1].grid(axis='x', alpha=0.3)
+
+# Add percentage labels
+for i, (rate, count) in enumerate(zip(term_stats['modify_rate'].values, term_stats['count'].values)):
+    axes[1, 1].text(rate + 1, i, f'{rate:.1f}% (n={int(count)})', va='center', fontsize=8)
+
+plt.tight_layout()
+plt.show()
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="gene-level-statistics">📊 Gene-Level Statistics</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Gene-level aggregations
+gene_stats = df.groupby('gene_symbol').agg({
+    'term_id': 'count',
+    'review_action': lambda x: (x == 'ACCEPT').sum(),
+    'taxon_label': 'first'
+}).reset_index()
+gene_stats.columns = ['gene', 'total_annotations', 'accepted_annotations', 'species']
+gene_stats['acceptance_rate'] = (gene_stats['accepted_annotations'] / gene_stats['total_annotations']) * 100
+
+fig, axes = plt.subplots(2, 2, figsize=(16, 10))
+
+# 1. Distribution of annotations per gene
+axes[0, 0].hist(gene_stats['total_annotations'], bins=20, edgecolor='black', alpha=0.7, color='skyblue')
+axes[0, 0].set_xlabel('Number of Annotations per Gene')
+axes[0, 0].set_ylabel('Number of Genes')
+axes[0, 0].set_title('Distribution of Annotation Counts per Gene', fontweight='bold')
+axes[0, 0].axvline(gene_stats['total_annotations'].mean(), color='red', 
+                   linestyle='--', label=f'Mean: {gene_stats[&quot;total_annotations&quot;].mean():.1f}')
+axes[0, 0].axvline(gene_stats['total_annotations'].median(), color='green', 
+                   linestyle='--', label=f'Median: {gene_stats[&quot;total_annotations&quot;].median():.0f}')
+axes[0, 0].legend()
+axes[0, 0].grid(axis='y', alpha=0.3)
+
+# 2. Genes with most annotations
+top_genes = gene_stats.nlargest(15, 'total_annotations')
+bars = axes[0, 1].bar(range(len(top_genes)), top_genes['total_annotations'].values,
+                      color=sns.color_palette(&quot;viridis&quot;, len(top_genes)))
+axes[0, 1].set_xticks(range(len(top_genes)))
+axes[0, 1].set_xticklabels(top_genes['gene'].values, rotation=45, ha='right')
+axes[0, 1].set_ylabel('Number of Annotations')
+axes[0, 1].set_title('Top 15 Most Heavily Annotated Genes', fontweight='bold')
+axes[0, 1].grid(axis='y', alpha=0.3)
+
+# Add count labels
+for bar, value in zip(bars, top_genes['total_annotations'].values):
+    height = bar.get_height()
+    axes[0, 1].text(bar.get_x() + bar.get_width()/2., height + 0.5,
+                    f'{int(value)}', ha='center', va='bottom', fontsize=9)
+
+# 3. Gene acceptance rate distribution
+axes[1, 0].hist(gene_stats['acceptance_rate'], bins=20, edgecolor='black', 
+                alpha=0.7, color='lightgreen')
+axes[1, 0].set_xlabel('Acceptance Rate (%)')
+axes[1, 0].set_ylabel('Number of Genes')
+axes[1, 0].set_title('Distribution of Gene Annotation Acceptance Rates', fontweight='bold')
+axes[1, 0].axvline(gene_stats['acceptance_rate'].mean(), color='red', 
+                   linestyle='--', label=f'Mean: {gene_stats[&quot;acceptance_rate&quot;].mean():.1f}%')
+axes[1, 0].grid(axis='y', alpha=0.3)
+axes[1, 0].legend()
+
+# 4. Scatter plot: Total annotations vs acceptance rate
+scatter = axes[1, 1].scatter(gene_stats['total_annotations'], 
+                             gene_stats['acceptance_rate'],
+                             c=pd.factorize(gene_stats['species'])[0],
+                             cmap='tab10', alpha=0.6, s=50)
+axes[1, 1].set_xlabel('Total Annotations per Gene')
+axes[1, 1].set_ylabel('Acceptance Rate (%)')
+axes[1, 1].set_title('Annotation Count vs Acceptance Rate by Gene', fontweight='bold')
+axes[1, 1].grid(True, alpha=0.3)
+
+# Add trend line
+z = np.polyfit(gene_stats['total_annotations'], gene_stats['acceptance_rate'], 1)
+p = np.poly1d(z)
+axes[1, 1].plot(gene_stats['total_annotations'].sort_values(), 
+                p(gene_stats['total_annotations'].sort_values()),
+                &quot;r--&quot;, alpha=0.5, label='Trend line')
+axes[1, 1].legend()
+
+plt.tight_layout()
+plt.show()
+
+# Summary statistics
+print(&quot;\n📈 Gene-Level Summary:&quot;)
+print(f&quot;  • Average annotations per gene: {gene_stats['total_annotations'].mean():.1f}&quot;)
+print(f&quot;  • Median annotations per gene: {gene_stats['total_annotations'].median():.0f}&quot;)
+print(f&quot;  • Average acceptance rate: {gene_stats['acceptance_rate'].mean():.1f}%&quot;)
+print(f&quot;  • Genes with 100% acceptance: {(gene_stats['acceptance_rate'] == 100).sum()}&quot;)
+print(f&quot;  • Genes with 0% acceptance: {(gene_stats['acceptance_rate'] == 0).sum()}&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="quality-metrics-dashboard">🔍 Quality Metrics Dashboard</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Create a comprehensive quality dashboard
+fig = plt.figure(figsize=(18, 10))
+gs = fig.add_gridspec(3, 3, hspace=0.3, wspace=0.3)
+
+# Calculate quality metrics
+has_supporting_text = df['review_supporting_text'].notna()
+has_references = df['review_supporting_reference_ids'].notna()
+has_proposed_terms = df['review_proposed_replacement_terms'].notna()
+needs_modification = df['review_action'] == 'MODIFY'
+
+# 1. Review completeness pie chart
+ax1 = fig.add_subplot(gs[0, 0])
+completeness_data = [
+    has_supporting_text.sum(),
+    has_references.sum(),
+    (has_supporting_text &amp;amp; has_references).sum()
+]
+labels = ['Has Supporting Text', 'Has References', 'Has Both']
+ax1.pie(completeness_data, labels=labels, autopct='%1.1f%%', 
+        colors=['#3498db', '#2ecc71', '#9b59b6'])
+ax1.set_title('Review Documentation Completeness', fontweight='bold')
+
+# 2. Modification compliance
+ax2 = fig.add_subplot(gs[0, 1])
+modify_with_terms = (needs_modification &amp;amp; has_proposed_terms).sum()
+modify_without_terms = (needs_modification &amp;amp; ~has_proposed_terms).sum()
+ax2.bar(['With Proposed Terms', 'Without Proposed Terms'], 
+        [modify_with_terms, modify_without_terms],
+        color=['green', 'orange'])
+ax2.set_title('MODIFY Actions: Proposed Terms Compliance', fontweight='bold')
+ax2.set_ylabel('Count')
+compliance_rate = modify_with_terms / (modify_with_terms + modify_without_terms) * 100 if needs_modification.sum() &amp;gt; 0 else 0
+ax2.text(0.5, ax2.get_ylim()[1] * 0.9, f'Compliance: {compliance_rate:.1f}%', 
+         ha='center', fontsize=12, fontweight='bold')
+
+# 3. Species coverage
+ax3 = fig.add_subplot(gs[0, 2])
+species_genes = df.groupby('taxon_label')['gene_symbol'].nunique().sort_values(ascending=False).head(8)
+ax3.barh(range(len(species_genes)), species_genes.values, 
+         color=sns.color_palette(&quot;husl&quot;, len(species_genes)))
+ax3.set_yticks(range(len(species_genes)))
+ax3.set_yticklabels(species_genes.index, fontsize=9)
+ax3.set_xlabel('Number of Unique Genes')
+ax3.set_title('Gene Coverage by Species', fontweight='bold')
+
+# 4. Evidence type quality
+ax4 = fig.add_subplot(gs[1, :])
+evidence_quality = df.groupby('evidence_type').agg({
+    'review_action': [
+        ('Total', 'count'),
+        ('Accepted', lambda x: (x == 'ACCEPT').sum()),
+        ('Modified', lambda x: (x == 'MODIFY').sum()),
+        ('Removed', lambda x: (x == 'REMOVE').sum())
+    ]
+}).reset_index()
+evidence_quality.columns = ['Evidence Type', 'Total', 'Accepted', 'Modified', 'Removed']
+
+x = np.arange(len(evidence_quality))
+width = 0.2
+ax4.bar(x - 1.5*width, evidence_quality['Total'], width, label='Total', color='gray', alpha=0.5)
+ax4.bar(x - 0.5*width, evidence_quality['Accepted'], width, label='Accepted', color='green', alpha=0.7)
+ax4.bar(x + 0.5*width, evidence_quality['Modified'], width, label='Modified', color='orange', alpha=0.7)
+ax4.bar(x + 1.5*width, evidence_quality['Removed'], width, label='Removed', color='red', alpha=0.7)
+
+ax4.set_xticks(x)
+ax4.set_xticklabels(evidence_quality['Evidence Type'], rotation=45, ha='right')
+ax4.set_ylabel('Number of Annotations')
+ax4.set_title('Annotation Quality by Evidence Type', fontweight='bold', fontsize=14)
+ax4.legend(loc='upper right')
+ax4.grid(axis='y', alpha=0.3)
+
+# 5. Term frequency vs action correlation
+ax5 = fig.add_subplot(gs[2, 0:2])
+term_frequency = df['term_label'].value_counts()
+term_actions = df.groupby('term_label')['review_action'].apply(
+    lambda x: (x == 'ACCEPT').mean() * 100
+)
+
+# Match indices
+common_terms = term_frequency.index.intersection(term_actions.index)
+freq_data = term_frequency[common_terms].head(20)
+action_data = term_actions[common_terms].head(20)
+
+ax5_twin = ax5.twinx()
+bars = ax5.bar(range(len(freq_data)), freq_data.values, alpha=0.5, color='blue', label='Frequency')
+line = ax5_twin.plot(range(len(freq_data)), action_data[freq_data.index].values, 
+                     'ro-', label='Acceptance Rate', markersize=6)
+
+ax5.set_xticks(range(len(freq_data)))
+ax5.set_xticklabels(freq_data.index, rotation=45, ha='right', fontsize=8)
+ax5.set_ylabel('Frequency', color='blue')
+ax5_twin.set_ylabel('Acceptance Rate (%)', color='red')
+ax5.set_title('Term Frequency vs Acceptance Rate (Top 20)', fontweight='bold')
+ax5.tick_params(axis='y', labelcolor='blue')
+ax5_twin.tick_params(axis='y', labelcolor='red')
+
+# 6. Overall quality score
+ax6 = fig.add_subplot(gs[2, 2])
+quality_scores = {
+    'Documentation\nCompleteness': (has_supporting_text.sum() / len(df)) * 100,
+    'Reference\nCoverage': (has_references.sum() / len(df)) * 100,
+    'Modification\nCompliance': compliance_rate,
+    'Overall\nAcceptance': (df['review_action'] == 'ACCEPT').mean() * 100
+}
+
+colors_score = ['green' if v &amp;gt;= 70 else 'orange' if v &amp;gt;= 40 else 'red' 
+                for v in quality_scores.values()]
+bars = ax6.bar(range(len(quality_scores)), list(quality_scores.values()), 
+               color=colors_score, alpha=0.7)
+ax6.set_xticks(range(len(quality_scores)))
+ax6.set_xticklabels(list(quality_scores.keys()), fontsize=9)
+ax6.set_ylabel('Score (%)')
+ax6.set_title('Quality Metrics Summary', fontweight='bold')
+ax6.axhline(y=70, color='green', linestyle='--', alpha=0.3, label='Good (&amp;gt;70%)')
+ax6.axhline(y=40, color='orange', linestyle='--', alpha=0.3, label='Fair (&amp;gt;40%)')
+ax6.set_ylim(0, 100)
+ax6.grid(axis='y', alpha=0.3)
+
+# Add value labels
+for bar, value in zip(bars, quality_scores.values()):
+    height = bar.get_height()
+    ax6.text(bar.get_x() + bar.get_width()/2., height + 2,
+             f'{value:.1f}%', ha='center', va='bottom', fontsize=10, fontweight='bold')
+
+plt.suptitle('Gene Annotation Review Quality Dashboard', fontsize=16, fontweight='bold', y=1.02)
+plt.tight_layout()
+plt.show()
+
+# Print quality summary
+print(&quot;\n🏆 Quality Summary:&quot;)
+print(&quot;━&quot; * 50)
+for metric, score in quality_scores.items():
+    metric_clean = metric.replace('\n', ' ')
+    status = &quot;✅&quot; if score &amp;gt;= 70 else &quot;⚠️&quot; if score &amp;gt;= 40 else &quot;❌&quot;
+    print(f&quot;{status} {metric_clean}: {score:.1f}%&quot;)
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="temporal-and-trend-analysis">📈 Temporal and Trend Analysis</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Advanced analysis: Identify patterns and outliers
+fig, axes = plt.subplots(2, 2, figsize=(16, 10))
+
+# 1. Action distribution by species (normalized heatmap)
+species_action_norm = pd.crosstab(df['taxon_label'], df['review_action'], normalize='index')
+sns.heatmap(species_action_norm, annot=True, fmt='.2f', cmap='RdYlGn', 
+            ax=axes[0, 0], vmin=0, vmax=1, cbar_kws={'label': 'Proportion'})
+axes[0, 0].set_title('Review Action Proportions by Species', fontweight='bold')
+axes[0, 0].set_xlabel('Review Action')
+axes[0, 0].set_ylabel('Species')
+
+# 2. Outlier detection - genes with unusual patterns
+gene_pattern = df.groupby('gene_symbol').agg({
+    'review_action': lambda x: (x == 'REMOVE').mean() * 100,
+    'term_id': 'count'
+}).reset_index()
+gene_pattern.columns = ['gene', 'removal_rate', 'n_annotations']
+gene_pattern = gene_pattern[gene_pattern['n_annotations'] &amp;gt;= 5]  # Filter for statistical significance
+
+# Identify outliers (high removal rate)
+outliers = gene_pattern[gene_pattern['removal_rate'] &amp;gt; gene_pattern['removal_rate'].quantile(0.9)]
+
+axes[0, 1].scatter(gene_pattern['n_annotations'], gene_pattern['removal_rate'], 
+                   alpha=0.5, s=30, color='blue', label='Normal')
+axes[0, 1].scatter(outliers['n_annotations'], outliers['removal_rate'], 
+                   alpha=0.8, s=60, color='red', label='High removal rate')
+
+# Annotate outliers
+for _, row in outliers.head(5).iterrows():
+    axes[0, 1].annotate(row['gene'], (row['n_annotations'], row['removal_rate']),
+                        xytext=(5, 5), textcoords='offset points', fontsize=8)
+
+axes[0, 1].set_xlabel('Number of Annotations')
+axes[0, 1].set_ylabel('Removal Rate (%)')
+axes[0, 1].set_title('Genes with Unusual Annotation Patterns', fontweight='bold')
+axes[0, 1].legend()
+axes[0, 1].grid(True, alpha=0.3)
+
+# 3. Co-occurrence matrix of review actions and evidence types
+action_evidence_matrix = pd.crosstab(df['review_action'], df['evidence_type'])
+action_evidence_norm = action_evidence_matrix.div(action_evidence_matrix.sum(axis=1), axis=0)
+
+sns.heatmap(action_evidence_norm, annot=True, fmt='.2f', cmap='coolwarm',
+            ax=axes[1, 0], cbar_kws={'label': 'Proportion'})
+axes[1, 0].set_title('Review Action - Evidence Type Associations', fontweight='bold')
+axes[1, 0].set_xlabel('Evidence Type')
+axes[1, 0].set_ylabel('Review Action')
+
+# 4. Summary statistics table
+axes[1, 1].axis('tight')
+axes[1, 1].axis('off')
+
+summary_data = [
+    ['Metric', 'Value'],
+    ['─' * 20, '─' * 20],
+    ['Total Annotations', f'{len(df):,}'],
+    ['Unique Genes', f'{df[&quot;gene_symbol&quot;].nunique()}'],
+    ['Unique Species', f'{df[&quot;taxon_label&quot;].nunique()}'],
+    ['Unique GO Terms', f'{df[&quot;term_id&quot;].nunique()}'],
+    ['─' * 20, '─' * 20],
+    ['Acceptance Rate', f'{(df[&quot;review_action&quot;] == &quot;ACCEPT&quot;).mean() * 100:.1f}%'],
+    ['Modification Rate', f'{(df[&quot;review_action&quot;] == &quot;MODIFY&quot;).mean() * 100:.1f}%'],
+    ['Removal Rate', f'{(df[&quot;review_action&quot;] == &quot;REMOVE&quot;).mean() * 100:.1f}%'],
+    ['─' * 20, '─' * 20],
+    ['Avg Annotations/Gene', f'{df.groupby(&quot;gene_symbol&quot;)[&quot;term_id&quot;].count().mean():.1f}'],
+    ['Documentation Rate', f'{has_supporting_text.mean() * 100:.1f}%'],
+    ['Reference Coverage', f'{has_references.mean() * 100:.1f}%']
+]
+
+table = axes[1, 1].table(cellText=summary_data, cellLoc='left', loc='center',
+                        colWidths=[0.6, 0.4])
+table.auto_set_font_size(False)
+table.set_fontsize(11)
+table.scale(1.2, 1.5)
+
+# Style the header
+for i in range(2):
+    table[(0, i)].set_facecolor('#4CAF50')
+    table[(0, i)].set_text_props(weight='bold', color='white')
+
+axes[1, 1].set_title('Summary Statistics', fontweight='bold', fontsize=14)
+
+plt.suptitle('Advanced Analytics &amp;amp; Pattern Detection', fontsize=16, fontweight='bold')
+plt.tight_layout()
+plt.show()
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="key-insights-recommendations">💡 Key Insights &amp; Recommendations</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python"># Generate automated insights
+print(&quot;\n&quot; + &quot;=&quot;*60)
+print(&quot;📊 KEY INSIGHTS FROM GENE ANNOTATION REVIEW&quot;)
+print(&quot;=&quot;*60)
+
+# Calculate key metrics
+total_annotations = len(df)
+acceptance_rate = (df['review_action'] == 'ACCEPT').mean() * 100
+modification_rate = (df['review_action'] == 'MODIFY').mean() * 100
+removal_rate = (df['review_action'] == 'REMOVE').mean() * 100
+
+# Evidence type insights
+evidence_accept = df.groupby('evidence_type')['review_action'].apply(
+    lambda x: (x == 'ACCEPT').mean() * 100
+).sort_values(ascending=False)
+
+print(&quot;\n🎯 Overall Performance:&quot;)
+print(f&quot;  • {acceptance_rate:.1f}% of annotations were accepted as-is&quot;)
+print(f&quot;  • {modification_rate:.1f}% need modifications&quot;)
+print(f&quot;  • {removal_rate:.1f}% should be removed&quot;)
+
+print(&quot;\n🔬 Evidence Type Analysis:&quot;)
+print(f&quot;  • Most reliable evidence: {evidence_accept.index[0]} ({evidence_accept.iloc[0]:.1f}% acceptance)&quot;)
+print(f&quot;  • Least reliable evidence: {evidence_accept.index[-1]} ({evidence_accept.iloc[-1]:.1f}% acceptance)&quot;)
+
+# Species insights
+species_stats = df.groupby('taxon_label').agg({
+    'review_action': lambda x: (x == 'ACCEPT').mean() * 100,
+    'gene_symbol': 'nunique'
+}).sort_values('review_action', ascending=False)
+
+print(&quot;\n🧬 Species Quality Rankings:&quot;)
+for i, (species, row) in enumerate(species_stats.head(3).iterrows(), 1):
+    print(f&quot;  {i}. {species}: {row['review_action']:.1f}% acceptance ({row['gene_symbol']} genes)&quot;)
+
+# Problem areas
+print(&quot;\n⚠️ Areas Requiring Attention:&quot;)
+
+# Terms with high modification rates
+problem_terms = df[df['review_action'].isin(['MODIFY', 'REMOVE'])].groupby('term_label').size()
+problem_terms = problem_terms.sort_values(ascending=False).head(3)
+
+print(&quot;  Most problematic GO terms:&quot;)
+for term, count in problem_terms.items():
+    print(f&quot;    • {term}: {count} issues&quot;)
+
+# Compliance issues
+modify_compliance = (df[df['review_action'] == 'MODIFY']['review_proposed_replacement_terms'].notna()).mean() * 100
+print(f&quot;\n  Modification compliance: {modify_compliance:.1f}% have proposed replacements&quot;)
+
+print(&quot;\n✅ Recommendations:&quot;)
+if modification_rate &amp;gt; 30:
+    print(&quot;  1. High modification rate suggests need for annotation guidelines review&quot;)
+if removal_rate &amp;gt; 20:
+    print(&quot;  2. High removal rate indicates quality control issues in original annotations&quot;)
+if modify_compliance &amp;lt; 80:
+    print(&quot;  3. Improve documentation of proposed replacement terms for modifications&quot;)
+if evidence_accept.iloc[-1] &amp;lt; 50:
+    print(f&quot;  4. Review {evidence_accept.index[-1]} evidence type annotations more carefully&quot;)
+
+print(&quot;\n&quot; + &quot;=&quot;*60)
+</code></pre>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
