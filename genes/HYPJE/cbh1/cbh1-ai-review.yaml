@@ -257,3 +257,14 @@ core_functions:
   locations:
   - id: GO:0005576
     label: extracellular region
+
+suggested_questions:
+- question: How does CBH1 achieve processivity in cellulose degradation and what determines its substrate specificity?
+- question: What are the structural features that allow CBH1 to function efficiently on crystalline cellulose?
+- question: How is CBH1 expression and secretion regulated in response to cellulose availability?
+- question: What role does CBH1 play in fungal ecology and lignocellulose decomposition in natural environments?
+suggested_experiments:
+- description: Single-molecule biophysics to study CBH1 processivity and movement on cellulose surfaces
+- description: Cryo-EM structural analysis of CBH1 in complex with cellulose substrates
+- description: Proteomics analysis of the cellulase secretome to understand CBH1 regulation and co-expression with other enzymes
+- description: Environmental metagenomics to study CBH1 function and expression in natural lignocellulose-degrading communities

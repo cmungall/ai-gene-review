@@ -419,3 +419,14 @@ core_functions:
     - id: GO:0005737
       label: cytoplasm
   substrates: []
+
+suggested_questions:
+- question: How does autophosphorylation of CAMK2A create molecular memory and contribute to synaptic plasticity and learning?
+- question: What determines the subcellular localization of CAMK2A and how does this regulate its access to different substrates?
+- question: How do different splice variants of CAMK2A contribute to brain region-specific functions and neuronal plasticity?
+- question: What are the mechanisms by which CAMK2A integrates calcium signals with other signaling pathways during synaptic transmission?
+suggested_experiments:
+- description: Two-photon calcium imaging combined with optogenetics to study CAMK2A activation dynamics in dendritic spines during synaptic plasticity
+- description: Cryo-EM structural analysis of CAMK2A holoenzymes in different activation states to understand autophosphorylation mechanisms
+- description: Single-molecule tracking of CAMK2A in live neurons to characterize its mobility and clustering at synaptic sites
+- description: Proteomics identification of context-specific CAMK2A substrates using chemical crosslinking and mass spectrometry

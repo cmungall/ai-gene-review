@@ -8,7 +8,7 @@ URI: [gene_review:reference_section_type](https://w3id.org/ai4curation/gene_revi
 
 ## Domain and Range
 
-None &#8594;  <sub>0..1</sub> [String](types/String.md)
+None &#8594;  <sub>0..1</sub> [ManuscriptSection](ManuscriptSection.md)
 
 ## Parents
 

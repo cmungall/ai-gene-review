@@ -342,3 +342,13 @@ core_functions:
     supporting_text: Supporting evidence for RBFOX3 function
   - reference_id: PMID:23420872
     supporting_text: Supporting evidence for RBFOX3 function
+suggested_questions:
+- question: How do the nuclear and cytoplasmic isoforms of RBFOX3 coordinate to regulate both alternative splicing and mRNA localization in post-mitotic neurons?
+- question: What determines the specificity of RBFOX3 binding to UGCAUG motifs and how does binding position relative to exons influence splicing outcomes?
+- question: How does RBFOX3 expression and activity change during neuronal differentiation and maturation, and what role does this play in establishing neuronal identity?
+- question: What are the mechanisms by which RBFOX3 maintains the balance between excitatory and inhibitory neurotransmission at the molecular level?
+suggested_experiments:
+- description: Single-cell RNA sequencing combined with RBFOX3 ChIP-seq to map tissue-specific and cell-type-specific alternative splicing programs in different brain regions
+- description: Super-resolution microscopy to visualize the subcellular localization and dynamics of RBFOX3 isoforms during neuronal activity and synaptic plasticity
+- description: CRISPR-Cas13 mediated knockdown of specific RBFOX3 isoforms to dissect their individual contributions to neuronal function and splicing regulation
+- description: Proteomics analysis using proximity labeling to identify RBFOX3 interacting partners in nuclear versus cytoplasmic compartments during neuronal development

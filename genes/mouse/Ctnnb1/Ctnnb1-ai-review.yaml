@@ -1302,3 +1302,14 @@ core_functions:
   locations:
     - id: GO:0005634
       label: nucleus
+
+suggested_questions:
+- question: How does β-catenin coordinate its dual roles in cell adhesion and Wnt signaling, and what mechanisms prevent crosstalk?
+- question: What determines the tissue-specific requirements for β-catenin in development versus homeostasis?
+- question: How do different β-catenin mutations lead to distinct developmental disorders and cancer types?
+- question: What role does β-catenin play in stem cell maintenance and differentiation across different tissue types?
+suggested_experiments:
+- description: Single-cell RNA sequencing of tissues with conditional β-catenin knockout to map cell-type-specific transcriptional programs
+- description: Super-resolution microscopy to study β-catenin dynamics between adherens junctions and the nucleus during Wnt signaling
+- description: Cryo-EM structural determination of β-catenin in complex with different binding partners like cadherins and TCF/LEF
+- description: Lineage tracing in mouse models to study β-catenin function in stem cell fate decisions during development and regeneration

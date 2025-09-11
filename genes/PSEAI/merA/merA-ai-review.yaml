@@ -237,3 +237,17 @@ core_functions:
     supporting_text: Supporting evidence for merA function
   - reference_id: PMID:16114877
     supporting_text: Supporting evidence for merA function
+suggested_questions:
+- question: What is the structural basis for the enhanced mercury binding capacity
+    of the C-terminal cysteine residues compared to other metal-binding cysteines?
+- question: How does MerA coordinate with other mer operon proteins (MerB, MerP, MerT)
+    to achieve efficient mercury detoxification in vivo?
+- question: What evolutionary adaptations allow certain MerA variants to function
+    at different pH ranges or with alternative electron donors?
+suggested_experiments:
+- description: Crystallographic studies of MerA-mercury complexes at various stages
+    of the catalytic cycle to capture intermediate states
+- description: Single-molecule FRET analysis to monitor conformational changes during
+    mercury binding and reduction
+- description: Directed evolution experiments to engineer MerA variants with enhanced
+    activity toward other toxic metal ions

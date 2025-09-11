@@ -300,3 +300,13 @@ core_functions:
   locations:
     - id: GO:0005811
       label: lipid droplet
+suggested_questions:
+- question: How does LPL1 coordinate its dual roles in lipid droplet homeostasis and protein quality control during cellular stress?
+- question: What determines the substrate specificity of LPL1 for different glycerophospholipids and how does this affect membrane composition?
+- question: How is LPL1 recruitment to lipid droplets regulated and what signals control its phospholipase activity?
+- question: What role does LPL1 play in the broader network of lipid droplet-associated enzymes and stress response pathways?
+suggested_experiments:
+- description: Lipidomics analysis of LPL1 knockout strains to characterize changes in cellular phospholipid composition and membrane properties
+- description: Live-cell imaging of fluorescently tagged LPL1 to study its dynamics and localization during stress conditions
+- description: Enzyme kinetics analysis with different phospholipid substrates to characterize LPL1 specificity and regulatory mechanisms
+- description: Proteomics analysis of lipid droplet composition in LPL1-deficient cells to understand its role in organelle homeostasis

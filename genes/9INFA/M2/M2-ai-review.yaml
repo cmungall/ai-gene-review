@@ -1,0 +1,130 @@
+id: A0A1S7IWC7
+gene_symbol: M2
+taxon:
+  id: NCBITaxon:11320
+  label: Influenza A virus
+description: 'TODO: Add description for M2'
+existing_annotations:
+- term:
+    id: GO:0005216
+    label: monoatomic ion channel activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000104
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0006811
+    label: monoatomic ion transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0015078
+    label: proton transmembrane transporter activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0015267
+    label: channel activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000104
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0020002
+    label: host cell plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0033644
+    label: host cell membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0034220
+    label: monoatomic ion transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0044423
+    label: virion component
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0044694
+    label: symbiont genome entry into host cell via pore formation in plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000104
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0051259
+    label: protein complex oligomerization
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000104
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0055036
+    label: virion membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:0140321
+    label: symbiont-mediated suppression of host autophagy
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+- term:
+    id: GO:1902600
+    label: proton transmembrane transport
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'TODO: Review this GOA annotation'
+    action: PENDING
+references:
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000104
+  title: Electronic Gene Ontology annotations created by transferring manual GO annotations
+    between related proteins based on shared sequence features.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []

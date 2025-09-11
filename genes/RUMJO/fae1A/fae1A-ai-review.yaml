@@ -120,3 +120,17 @@ core_functions:
   directly_involved_in:
   - id: GO:0030245
     label: cellulose catabolic process
+suggested_questions:
+- question: How does the modular architecture of Fae1A coordinate feruloyl esterase
+    and xylanase activities for synergistic plant cell wall degradation?
+- question: What is the molecular basis for substrate specificity between ferulic acid
+    esters and other phenolic esters in plant biomass?
+- question: How does Fae1A integrate into the larger cellulosome complex and interact
+    with other glycoside hydrolases?
+suggested_experiments:
+- description: Single-particle cryo-EM of Fae1A in complex with model plant cell wall
+    substrates to visualize multi-domain organization
+- description: Activity-based protein profiling to identify all ester bonds cleaved
+    by Fae1A in native lignocellulose
+- description: FRET-based assays to monitor real-time coordination between esterase
+    and xylanase domains during substrate processing

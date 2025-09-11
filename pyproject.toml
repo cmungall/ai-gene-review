@@ -50,6 +50,7 @@ dev = [
     "types-pyyaml>=6.0.12.20250822",
     "linkml-browser",
     "ai-gene-review",
+    "linkml-renderer>=0.3.1",
 ]
 
 [project.scripts]

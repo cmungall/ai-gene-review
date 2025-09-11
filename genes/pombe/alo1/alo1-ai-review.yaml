@@ -1,0 +1,188 @@
+id: Q9HDX8
+gene_symbol: alo1
+taxon:
+  id: NCBITaxon:4896
+  label: Schizosaccharomyces pombe
+description: D-arabinono-1,4-lactone oxidase that catalyzes the terminal step in fungal D-erythroascorbic acid biosynthesis. This mitochondrial outer membrane-anchored flavoprotein oxidizes D-arabinono-1,4-lactone using molecular oxygen as electron acceptor, producing D-erythroascorbic acid (a 5-carbon analog of vitamin C) and hydrogen peroxide. The enzyme contains a covalently bound FAD cofactor and plays a critical role in cellular antioxidant defense, with deletion mutants showing hypersensitivity to oxidative stress. Recent studies in S. cerevisiae reveal a potential moonlighting function where Alo1 binds the myosin V motor Myo2 and aids in mitochondrial inheritance, particularly under oxidative stress conditions (PMID:39775849), though this role remains to be confirmed in S. pombe.
+existing_annotations:
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Annotation correctly identifies mitochondrial localization. However, more specific localization to outer membrane (GO:0005741) would be more accurate based on evidence from S. cerevisiae ortholog.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0005741
+      label: mitochondrial outer membrane
+- term:
+    id: GO:0003885
+    label: D-arabinono-1,4-lactone oxidase activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: Correct molecular function annotation based on phylogenetic inference from S. cerevisiae ortholog.
+    action: ACCEPT
+    supported_by:
+    - reference_id: file:pombe/alo1/alo1-deep-research.md
+      supporting_text: S. cerevisiae ALO1 was biochemically confirmed to catalyze EASC production. The enzyme produces D-erythroascorbic acid, a five-carbon analog of vitamin C found in fungi
+- term:
+    id: GO:0003885
+    label: D-arabinono-1,4-lactone oxidase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: Redundant with IBA annotation above. The molecular function is correct.
+    action: ACCEPT
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Too general. Protein specifically localizes to mitochondrial outer membrane based on evidence from orthologs.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0005741
+      label: mitochondrial outer membrane
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: Too general. The specific activity GO:0003885 (D-arabinono-1,4-lactone oxidase activity) is already annotated.
+    action: REMOVE
+- term:
+    id: GO:0016899
+    label: oxidoreductase activity, acting on the CH-OH group of donors, oxygen as
+      acceptor
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct but could be more specific. This parent term encompasses the specific activity GO:0003885.
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0031966
+    label: mitochondrial membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: Correct but not specific enough. Evidence indicates outer membrane localization.
+    action: MODIFY
+    proposed_replacement_terms:
+    - id: GO:0005741
+      label: mitochondrial outer membrane
+- term:
+    id: GO:0050660
+    label: flavin adenine dinucleotide binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Correct annotation. The enzyme contains a conserved FAD-binding domain essential for oxidase activity.
+    action: ACCEPT
+    supported_by:
+    - reference_id: file:pombe/alo1/alo1-deep-research.md
+      supporting_text: S. cerevisiae ALO1 has a conserved histidine that binds FAD, and sequence analysis revealed a covalent FAD-binding site in the enzyme
+- term:
+    id: GO:0071949
+    label: FAD binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: Redundant with GO:0050660. Both refer to FAD binding.
+    action: REMOVE
+- term:
+    id: GO:0070485
+    label: dehydro-D-arabinono-1,4-lactone biosynthetic process
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Correct biological process annotation. The enzyme produces dehydro-D-arabinono-1,4-lactone (D-erythroascorbic acid) as confirmed in S. cerevisiae.
+    action: ACCEPT
+    supported_by:
+    - reference_id: file:pombe/alo1/alo1-deep-research.md
+      supporting_text: In S. cerevisiae, ALO1 is essential for endogenous erythroascorbate production – alo1Δ mutants completely lack D-erythroascorbic acid and ALO activity
+- term:
+    id: GO:0005739
+    label: mitochondrion
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: Experimentally confirmed mitochondrial localization. Could be more specific (outer membrane) but experimental evidence confirms mitochondrial association.
+    action: ACCEPT
+- term:
+    id: GO:0005741
+    label: mitochondrial outer membrane
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: Correct and specific localization based on ortholog evidence from S. cerevisiae.
+    action: ACCEPT
+    supported_by:
+    - reference_id: file:pombe/alo1/alo1-deep-research-alt.md
+      supporting_text: Alo1 was found anchored in the mitochondrial outer membrane and capable of recruiting Myo2 to mitochondria
+core_functions:
+- description: Catalyzes oxidation of D-arabinono-1,4-lactone to produce D-erythroascorbic acid
+  molecular_function:
+    id: GO:0003885
+    label: D-arabinono-1,4-lactone oxidase activity
+  directly_involved_in:
+  - id: GO:0070485
+    label: dehydro-D-arabinono-1,4-lactone biosynthetic process
+  locations:
+  - id: GO:0005741
+    label: mitochondrial outer membrane
+  substrates:
+  - id: CHEBI:16292
+    label: D-arabinono-1,4-lactone
+  - id: CHEBI:15379
+    label: dioxygen
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission
+    yeast Schizosaccharomyces pombe.
+  findings:
+  - statement: High-throughput localization study determined protein localization for ~90% of S. pombe proteome
+    supporting_text: we determined the localization of 4,431 proteins, corresponding to approximately 90% of the fission yeast proteome
+- id: PMID:10094636
+  title: D-Erythroascorbic acid is an important antioxidant molecule in Saccharomyces cerevisiae
+  findings: []
+- id: PMID:39775849
+  title: A protein interaction map of the myosin Myo2 reveals a role for Alo1 in mitochondrial inheritance in yeast
+  findings: []
+suggested_questions:
+- question: Does S. pombe alo1 have a moonlighting function in mitochondrial inheritance similar to S. cerevisiae ALO1?
+- question: What is the substrate specificity of S. pombe Alo1 and can it produce L-ascorbate from L-gulonolactone?
+- question: Is alo1 expression regulated by oxygen availability or oxidative stress response pathways in S. pombe?
+- question: How does loss of alo1 affect cellular redox balance and what compensatory mechanisms are activated?
+suggested_experiments:
+- description: Create and characterize alo1Δ knockout strain to test oxidative stress sensitivity and D-erythroascorbate dependence
+- description: Biochemically characterize purified Alo1 enzyme for substrate specificity, kinetics, and FAD cofactor binding
+- description: Track mitochondrial inheritance in alo1Δ cells during cell division using live-cell imaging with fluorescent markers
+- description: Identify Alo1 protein interaction partners by co-immunoprecipitation and mass spectrometry, especially testing for Myo52 binding
+- description: Test if alo1 expression is regulated by oxygen levels or oxidative stress using promoter-reporter assays and RNA-seq
+- description: Determine if Alo1 can produce L-ascorbate from L-gulonolactone using in vitro enzymatic assays and LC-MS product analysis

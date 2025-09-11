@@ -108,3 +108,13 @@ core_functions:
     locations:
       - id: GO:0005576
         label: extracellular region
+suggested_questions:
+- question: How does LRX-1 regulate left-right asymmetry in C. elegans and what are its downstream targets?
+- question: What determines the asymmetric expression pattern of LRX-1 and how is this established during development?
+- question: How does LRX-1 interact with other transcription factors to control cell fate specification?
+- question: What role does LRX-1 play in maintaining versus establishing asymmetric gene expression?
+suggested_experiments:
+- description: Single-cell RNA sequencing of developing C. elegans embryos to map LRX-1 expression and target genes
+- description: ChIP-seq analysis to identify direct LRX-1 binding sites across the genome
+- description: Live imaging of LRX-1 expression during embryogenesis using fluorescent reporter constructs
+- description: Functional analysis of LRX-1 binding site mutations to determine the cis-regulatory logic of asymmetric expression

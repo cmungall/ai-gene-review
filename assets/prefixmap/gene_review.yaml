@@ -1,4 +1,6 @@
 {
+   "ECO": "http://purl.obolibrary.org/obo/ECO_",
+   "IAO": "http://purl.obolibrary.org/obo/IAO_",
    "dcat": "http://www.w3.org/ns/dcat#",
    "dcterms": "http://purl.org/dc/terms/",
    "gene_review": "https://w3id.org/ai4curation/gene_review/",

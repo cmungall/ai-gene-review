@@ -172,3 +172,17 @@ core_functions:
   supported_by:
   - reference_id: PMID:29958281
     supporting_text: Plays an important role in fungal tolerance to UV radiation and extreme temperatures
+suggested_questions:
+- question: How does Pks1 coordinate the iterative chain elongation cycles to produce
+    polyketides of specific chain lengths?
+- question: What determines the substrate specificity of different Pks1 domains and
+    how do they communicate during biosynthesis?
+- question: How does conidial pigmentation by Pks1 products contribute to fungal
+    virulence in insect hosts?
+suggested_experiments:
+- description: Mass spectrometry-based metabolomics to profile the complete spectrum
+    of Pks1-derived polyketides under different growth conditions
+- description: Domain swapping experiments between Pks1 and other fungal PKS enzymes
+    to understand substrate specificity determinants
+- description: CRISPR-based gene editing to create Pks1 variants with altered product
+    profiles for biotechnological applications

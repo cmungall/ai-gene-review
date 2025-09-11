@@ -180,3 +180,14 @@ proposed_new_terms:
     supported_by:
       - reference_id: 'file:PICST/XYL1/XYL1-deep-research.md'
         supporting_text: 'if XDH (XYL2) activity is insufficient or oxygen is limited (hindering NADH reoxidation), S. stipitis will excrete xylitol as a byproduct. This accumulation of xylitol is a hallmark of imbalance in the XR/XDH pathway'
+
+suggested_questions:
+- question: How does XYL1 contribute to xylose metabolism and what determines its substrate specificity?
+- question: What are the regulatory mechanisms that control XYL1 expression in response to different carbon sources?
+- question: How does XYL1 function in the broader context of lignocellulosic biomass degradation?
+- question: What role does XYL1 play in fungal adaptation to different environmental conditions?
+suggested_experiments:
+- description: Enzyme kinetics analysis to characterize XYL1 substrate specificity and catalytic parameters
+- description: RNA-seq analysis of XYL1-deficient strains grown on different carbon sources to identify metabolic pathway alterations
+- description: Structural biology approaches to determine the molecular basis of XYL1 enzymatic activity
+- description: Metabolomics analysis to study xylose metabolism pathways in wild-type versus XYL1 mutant strains

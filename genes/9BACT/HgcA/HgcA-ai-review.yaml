@@ -110,3 +110,17 @@ core_functions:
   in_complex:
     id: GO:1990204
     label: oxidoreductase complex
+suggested_questions:
+- question: What is the mechanism by which HgcA transfers methyl groups from methyltetrahydrofolate
+    to the corrinoid cofactor and then to mercury?
+- question: How does the conserved cysteine cap region regulate corrinoid reactivity
+    and prevent unwanted side reactions?
+- question: What determines the substrate specificity of HgcA for Hg(II) versus other
+    metal ions that could potentially be methylated?
+suggested_experiments:
+- description: Transient kinetic analysis using stopped-flow spectroscopy to capture
+    intermediates in the methyl transfer pathway
+- description: Site-directed mutagenesis of the cysteine cap residues to understand
+    their role in cofactor protection and catalysis
+- description: Environmental isotope tracing to quantify HgcA-mediated methylmercury
+    production rates in natural microbial communities

@@ -723,3 +723,14 @@ references:
 - id: Reactome:R-HSA-9755937
   title: DHCR24 reduces LAN to 24,25-dhLAN
   findings: []
+
+suggested_questions:
+- question: How does DHCR24 coordinate cholesterol biosynthesis with membrane homeostasis and cellular sterol requirements?
+- question: What are the regulatory mechanisms that control DHCR24 expression and activity in response to sterol levels?
+- question: How do mutations in DHCR24 lead to Smith-Lemli-Opitz syndrome and what are the developmental consequences of altered sterol metabolism?
+- question: What determines the subcellular localization of DHCR24 and how does this affect its function in sterol metabolism?
+suggested_experiments:
+- description: Lipidomics analysis to characterize the complete sterol profile in DHCR24-deficient cells and tissues
+- description: Live-cell imaging using fluorescent sterol analogs to track cholesterol metabolism and membrane distribution in real-time
+- description: Cryo-EM structure determination of DHCR24 to understand the molecular basis of sterol reduction and enzyme specificity
+- description: Developmental analysis of DHCR24 mutant model organisms to study the role of cholesterol in embryogenesis and organogenesis

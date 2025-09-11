@@ -1,0 +1,848 @@
+
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|P13569|
+|gene_symbol[?](https://w3id.org/ai4curation/gene_review/gene_symbol)|CFTR|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|ABCC7|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|ABC35|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|CF|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|MRP7|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|TNR-CFTR|
+|aliases[?](https://w3id.org/ai4curation/gene_review/aliases)|dJ760C5.1|
+|description[?](https://w3id.org/ai4curation/gene_review/description)|CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) is a unique ABC transporter family member that functions as a phosphorylation- and ATP-regulated anion channel rather than an active pump. It primarily conducts chloride and bicarbonate ions across epithelial cell apical membranes, playing critical roles in fluid secretion and mucociliary clearance in airways, digestive enzyme secretion in pancreas, and salt balance in sweat glands. CFTR requires PKA phosphorylation of its regulatory R domain and ATP binding/hydrolysis at its nucleotide-binding domains for channel gating. Loss-of-function mutations cause cystic fibrosis, characterized by thick mucus in lungs, pancreatic insufficiency, elevated sweat chloride, and male infertility due to vas deferens absence. The most common mutation is ΔF508, which causes protein misfolding and ER retention. CFTR also regulates other ion channels including ENaC and interacts with SLC26 anion exchangers to coordinate epithelial ion transport.|
+
+## taxon
+
+
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|NCBITaxon:9606|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|Homo sapiens|
+
+## references
+
+
+|id|title|findings|
+|---|---|---|
+|GO_REF:0000003|Gene Ontology annotation based on Enzyme Commission mapping||
+|GO_REF:0000033|Annotation inferences using phylogenetic trees||
+|GO_REF:0000043|Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping||
+|GO_REF:0000107|Automatic transfer of experimentally verified manual GO annotation data to orthologs using Ensembl Compara.||
+|GO_REF:0000120|Combined Automated Annotation using Multiple IEA Methods.||
+|PMID:10581360|Differential function of the two nucleotide binding domains on cystic fibrosis transmembrane conductance regulator.||
+|PMID:11524016|A monomer is the minimum functional unit required for channel and ATPase activity of the cystic fibrosis transmembrane conductance regulator.||
+|PMID:11707463|A Golgi-associated PDZ domain protein modulates cystic fibrosis transmembrane regulator plasma membrane expression.||
+|PMID:12369822|The down regulated in adenoma (dra) gene product binds to the second PDZ domain of the NHE3 kinase A regulatory protein (E3KARP), potentially linking intestinal Cl-/HCO3- exchange to Na+/H+ exchange.||
+|PMID:12471024|The PDZ-binding chloride channel ClC-3B localizes to the Golgi and associates with cystic fibrosis transmembrane conductance regulator-interacting PDZ proteins.||
+|PMID:14679199|Inhibitory regulation of cystic fibrosis transmembrane conductance regulator anion-transporting activities by Shank2.||
+|PMID:15010471|Dynamic control of cystic fibrosis transmembrane conductance regulator Cl(-)/HCO3(-) selectivity by external Cl(-).||
+|PMID:15247260|Myosin VI regulates endocytosis of the cystic fibrosis transmembrane conductance regulator.||
+|PMID:16203867|Lysophosphatidic acid inhibits cholera toxin-induced secretory diarrhea through CFTR-dependent protein interactions.||
+|PMID:16546175|Rescue of functional delF508-CFTR channels in cystic fibrosis epithelial cells by the alpha-glucosidase inhibitor miglustat.||
+|PMID:16901789|Sequential quality-control checkpoints triage misfolded cystic fibrosis transmembrane conductance regulator.||
+|PMID:17110338|Hsp90 cochaperone Aha1 downregulation rescues misfolding of CFTR in cystic fibrosis.||
+|PMID:17244609|Dynamic regulation of cystic fibrosis transmembrane conductance regulator by competitive interactions of molecular adaptors.||
+|PMID:18555783|BAP31 interacts with Sec61 translocons and promotes retrotranslocation of CFTRDeltaF508 via the derlin-1 complex.||
+|PMID:18570918|Endosomal SNARE proteins regulate CFTR activity and trafficking in epithelial cells.||
+|PMID:19019741|Mechanism of direct bicarbonate transport by the CFTR anion channel.||
+|PMID:19289574|SLC26A9 is a constitutively active, CFTR-regulated anion conductance in human bronchial epithelia.||
+|PMID:19465887|The ER-resident ubiquitin-specific protease 19 participates in the UPR and rescues ERAD substrates.||
+|PMID:19621064|CFTR delivery to 25% of surface epithelial cells restores normal rates of mucus transport to human cystic fibrosis airway epithelium.||
+|PMID:19878303|Deletion of Phe508 in the first nucleotide-binding domain of the cystic fibrosis transmembrane conductance regulator increases its affinity for the heat shock cognate 70 chaperone.||
+|PMID:20658517|SLC26A9 stimulates CFTR expression and function in human bronchial cell lines.||
+|PMID:21455491|A Pseudomonas aeruginosa toxin that hijacks the host ubiquitin proteolytic system.||
+|PMID:21884936|Rescue of ΔF508-CFTR trafficking via a GRASP-dependent unconventional secretion pathway.||
+|PMID:22038833|Disruption of cytokeratin-8 interaction with F508del-CFTR corrects its functional defect.||
+|PMID:22121115|The testis anion transporter TAT1 (SLC26A8) physically and functionally interacts with the cystic fibrosis transmembrane conductance regulator channel: a potential role during sperm capacitation.||
+|PMID:22178883|CFTR and TMEM16A are separate but functionally related Cl- channels.||
+|PMID:22768251|Proteomic identification of calumenin as a G551D-CFTR associated protein.||
+|PMID:23818989|Ubiquitination and degradation of CFTR by the E3 ubiquitin ligase MARCH2 through its association with adaptor proteins CAL and STX6.||
+|PMID:24885604|CFTR and Anoctamin 1 (ANO1) contribute to cAMP amplified exocytosis and insulin secretion in human and murine pancreatic beta-cells.||
+|PMID:25661196|SERCA and PMCA pumps contribute to the deregulation of Ca2+ homeostasis in human CF epithelial cells.||
+|PMID:25712891|G551D-CFTR needs more bound actin than wild-type CFTR to maintain its presence in plasma membranes.||
+|PMID:26618866|∆F508 CFTR interactome remodelling promotes rescue of cystic fibrosis.||
+|PMID:27092946|Investigating CFTR and KCa3.1 Protein/Protein Interactions.||
+|PMID:28360110|The CFTR trafficking mutation F508del inhibits the constitutive activity of SLC26A9.||
+|PMID:29393851|Gq activity- and β-arrestin-1 scaffolding-mediated ADGRG2/CFTR coupling are required for male fertility.||
+|PMID:29924966|A Proteomic Variant Approach (ProVarA) for Personalized Medicine of Inherited and Somatic Disease.||
+|PMID:8910473|ATPase activity of the cystic fibrosis transmembrane conductance regulator.||
+|PMID:9931011|Walker mutations reveal loose relationship between catalytic and channel-gating activities of purified CFTR (cystic fibrosis transmembrane conductance regulator).||
+
+## existing_annotations
+
+
+|term|evidence_type|original_reference_id|review|
+|---|---|---|---|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|IBA|[GO_REF:0000033](GO_REF:0000033)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IBA annotation accurately captures CFTR's primary molecular function as an ATP-gated anion channel requiring intracellular ATP binding and hydrolysis for channel gating. This function is well-supported by extensive structural and functional studies showing ATP binding at NBDs drives channel opening.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The term GO:0005260 precisely describes CFTR's unique mechanism among ABC transporters - it functions as a phosphorylation- and nucleotide-regulated anion channel rather than an active pump. The channel requires PKA phosphorylation and ATP binding/hydrolysis at its nucleotide-binding domains for gating cycles. This annotation, based on phylogenetic inference (IBA), correctly identifies the core molecular function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IEA|[GO_REF:0000120](GO_REF:0000120)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation correctly identifies CFTR as a chloride channel, which is accurate but less specific than GO:0005260. CFTR does function as a chloride channel, conducting Cl- ions down their electrochemical gradient when open.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|While GO:0005254 is correct, it lacks the specificity of GO:0005260 which captures the ATP-gating mechanism. However, as an automated annotation it appropriately identifies the chloride channel function. This term is acceptable as it represents a parent term of the more specific ATP-gated function. The channel primarily mediates passive chloride ion conductance across epithelial cell membranes.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0000166|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|nucleotide binding|
+|IEA|[GO_REF:0000043](GO_REF:0000043)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation based on UniProt keyword mapping correctly identifies CFTR's nucleotide binding capability but is overly generic. CFTR specifically binds and hydrolyzes ATP at its two nucleotide-binding domains to drive channel gating.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|MODIFY|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|While nucleotide binding is correct, this annotation should be more specific. CFTR specifically binds ATP (not just any nucleotide) at its NBD1 and NBD2 domains. ATP binding promotes NBD dimerization triggering channel opening, while ATP hydrolysis allows channel closure. The generic "nucleotide binding" term fails to capture this ATP-specific requirement for CFTR function.|
+
+#### proposed_replacement_terms
+
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|IEA|[GO_REF:0000003](GO_REF:0000003)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation based on Enzyme Commission mapping correctly identifies CFTR's ATP-gated chloride channel activity. This duplicates the IBA annotation but from a different evidence source.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The annotation accurately captures CFTR's primary molecular function. Even though this duplicates another annotation with different evidence code, both are valid as they derive from independent inference methods (EC mapping vs phylogenetic inference). The EC number 5.6.1.6 correctly maps to CFTR's channel conductance-controlling ATPase activity.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:12369822](PMID:12369822)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR binding to DRA (SLC26A3), a bicarbonate/chloride exchanger that functionally couples with CFTR for coordinated anion transport in intestinal epithelia. This interaction is physiologically relevant for fluid secretion.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|While protein binding is too generic, this specific interaction with DRA/SLC26A3 is functionally important for coordinating chloride and bicarbonate transport in epithelia. The interaction allows coupling of CFTR chloride secretion with DRA-mediated Cl-/HCO3- exchange. However, protein binding itself is not CFTR's core molecular function - the core function is the ATP-gated channel activity.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:12471024](PMID:12471024)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with ClC-3B chloride channel, which localizes to Golgi and associates with CFTR-interacting PDZ proteins, suggesting a role in CFTR trafficking or regulation.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with ClC-3B represents a regulatory relationship between chloride channels. While functionally relevant for CFTR trafficking through the Golgi, protein binding is not CFTR's primary molecular function. The generic protein binding term fails to capture the specific nature of this channel-channel interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:14679199](PMID:14679199)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with Shank2, a PDZ-domain containing scaffolding protein that negatively regulates CFTR anion-transporting activities.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Shank2 binding represents a regulatory interaction that modulates CFTR channel activity. While this interaction is functionally important for controlling CFTR activity, the generic protein binding term is not informative about CFTR's core molecular function as an ATP-gated chloride channel. This represents a regulatory mechanism rather than core function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:16203867](PMID:16203867)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents protein interactions involved in lysophosphatidic acid inhibition of CFTR-mediated secretory diarrhea, likely involving regulatory proteins that modulate CFTR activity during cholera toxin response.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This interaction represents a regulatory mechanism controlling CFTR activity in pathological conditions (secretory diarrhea). While physiologically relevant for disease modulation, protein binding is not CFTR's core molecular function. The annotation captures disease-relevant regulatory interactions but uses an overly generic term.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:16546175](PMID:16546175)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation likely documents interactions relevant to miglustat rescue of ΔF508-CFTR, possibly involving chaperones or trafficking proteins that help restore mutant CFTR function.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This represents therapeutic rescue-related protein interactions for the most common CF mutation (ΔF508). While important for understanding CF treatment, these interactions are not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic protein binding term provides minimal functional information.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:16901789](PMID:16901789)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interactions with quality control machinery including chaperones and ERAD components that triage misfolded CFTR, particularly relevant for ΔF508-CFTR processing.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|These interactions with cellular quality control machinery are critical for CFTR biogenesis and trafficking, especially for understanding CF pathogenesis. However, these represent cellular processing mechanisms rather than CFTR's core molecular function as an ATP-gated chloride channel. The generic term lacks specificity about the nature of these quality control interactions.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:17110338](PMID:17110338)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with Aha1, an Hsp90 cochaperone whose downregulation can rescue misfolded ΔF508-CFTR, representing a therapeutic target for CF.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with Aha1/Hsp90 machinery is important for CFTR folding and represents a potential therapeutic target. However, chaperone interactions are part of protein biogenesis rather than CFTR's core molecular function as an ATP-gated chloride channel. This annotation captures disease-relevant interactions but uses an uninformative generic term.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:17244609](PMID:17244609)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interactions with molecular adaptors that dynamically regulate CFTR trafficking and membrane localization through competitive binding mechanisms.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|These adaptor protein interactions regulate CFTR surface expression and trafficking, which is physiologically important. However, these regulatory interactions are not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic protein binding term fails to convey the specific regulatory nature of these interactions.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:18555783](PMID:18555783)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with BAP31, which promotes retrotranslocation of misfolded ΔF508-CFTR via the derlin-1 ERAD complex.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with BAP31 is part of the ER quality control system that recognizes and degrades misfolded CFTR, particularly relevant for ΔF508-CFTR in CF. While important for understanding CFTR biogenesis and CF pathogenesis, this represents a protein quality control mechanism rather than CFTR's core function as an ATP-gated chloride channel.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:19465887](PMID:19465887)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with USP19, an ER-resident deubiquitinase that participates in the unfolded protein response and can rescue ERAD substrates including misfolded CFTR.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|USP19 interaction represents part of the ER protein quality control system that can rescue misfolded CFTR from degradation. While relevant for CF therapeutics and CFTR biogenesis, this represents a cellular quality control mechanism rather than CFTR's core molecular function as an ATP-gated chloride channel. The generic protein binding term fails to convey the specific nature of this quality control interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:19878303](PMID:19878303)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents increased affinity of ΔF508-CFTR for Hsc70 chaperone due to the deletion in NBD1, contributing to misfolding and retention of the mutant protein.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The enhanced interaction with Hsc70 chaperone is a consequence of the ΔF508 mutation and contributes to CF pathogenesis by promoting ER retention. While crucial for understanding disease mechanisms, chaperone interactions represent protein folding quality control rather than CFTR's core function as an ATP-gated chloride channel. This is a disease-state interaction, not a core functional property.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:21455491](PMID:21455491)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents interaction with Cif, a Pseudomonas aeruginosa virulence factor that hijacks the host ubiquitin system to promote CFTR degradation during infection.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This represents a pathogen-host interaction where P. aeruginosa Cif toxin targets CFTR for degradation, contributing to CF lung pathology. While important for understanding CF-associated infections, this is a pathological interaction exploited by bacteria, not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to convey this is a virulence factor interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:21884936](PMID:21884936)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents interactions involved in GRASP-dependent unconventional secretion that can rescue ΔF508-CFTR trafficking by bypassing the Golgi.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|These interactions are part of an unconventional secretion pathway that can rescue misfolded CFTR. While therapeutically relevant for CF, this represents an alternative trafficking mechanism rather than CFTR's core function as an ATP-gated chloride channel. The generic protein binding term inadequately describes these specialized trafficking interactions.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:22038833](PMID:22038833)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with cytokeratin-8, where disrupting this interaction can correct ΔF508-CFTR functional defects.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The cytokeratin-8 interaction affects CFTR stability and function, with disruption of this interaction offering therapeutic potential for ΔF508-CFTR. While relevant for CFTR regulation and CF therapeutics, cytoskeletal interactions are supportive rather than core to CFTR's primary function as an ATP-gated chloride channel. The generic term fails to specify this is a cytoskeletal interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:22121115](PMID:22121115)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with TAT1/SLC26A8, a testis anion transporter important for sperm capacitation, suggesting coordinated anion transport in male reproduction.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with TAT1/SLC26A8 represents functional coupling between anion transporters in the male reproductive tract. While physiologically important for fertility, this tissue-specific regulatory interaction is not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic protein binding term fails to convey this is a specialized reproductive system interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:22768251](PMID:22768251)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation identifies calumenin as a G551D-CFTR associated protein, relevant for understanding this gating mutation that causes CF with preserved protein expression.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Calumenin interaction with G551D-CFTR may influence the processing or function of this gating mutant. While relevant for understanding genotype-specific CF mechanisms, this represents a mutation-specific interaction rather than CFTR's core function as an ATP-gated chloride channel. The generic term provides no information about the nature of this ER/calcium-binding protein interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:25661196](PMID:25661196)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation likely documents CFTR interactions related to calcium homeostasis, as the study shows SERCA and PMCA pumps contribute to deregulated Ca2+ in CF epithelia.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Interactions affecting calcium homeostasis in CF epithelia represent secondary consequences of CFTR dysfunction rather than direct protein binding. While important for understanding CF pathophysiology, these interactions are not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to specify the nature of these calcium-regulatory interactions.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:25712891](PMID:25712891)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents enhanced actin binding requirement for G551D-CFTR to maintain plasma membrane localization compared to wild-type CFTR.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with actin cytoskeleton is important for CFTR membrane stability, with G551D-CFTR showing increased dependence on actin binding. While relevant for understanding mutation-specific effects, cytoskeletal interactions support but are not core to CFTR's primary function as an ATP-gated chloride channel. The generic term fails to identify this as an actin interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:26618866](PMID:26618866)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents ΔF508-CFTR interactome remodeling that promotes rescue of the mutant protein, identifying therapeutic targets for CF.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This represents the altered protein interaction network of ΔF508-CFTR and how remodeling these interactions can rescue mutant function. While crucial for CF therapeutic development, these are disease-state interactions rather than CFTR's core function as an ATP-gated chloride channel. The generic term provides no information about the complex interactome changes involved.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:27092946](PMID:27092946)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with KCa3.1 calcium-activated potassium channel, suggesting coordinated ion transport mechanisms in epithelia.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with KCa3.1 represents functional coupling between chloride and potassium channels important for driving epithelial fluid secretion. While physiologically relevant for coordinated ion transport, this regulatory interaction is not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to convey this is an ion channel partnership.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:28360110](PMID:28360110)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation shows ΔF508-CFTR trafficking mutation inhibits the constitutive activity of SLC26A9, demonstrating functional consequences of CFTR misfolding on partner proteins.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This interaction shows how ΔF508-CFTR mutation affects SLC26A9 function, illustrating disease mechanisms where mutant CFTR disrupts partner anion channels. While important for CF pathophysiology, this represents a pathological interaction consequence rather than CFTR's core function as an ATP-gated chloride channel. The generic term fails to convey the functional inhibition aspect.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:29924966](PMID:29924966)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation from a proteomic variant approach study identifies protein interactions relevant for personalized medicine approaches in CF and other diseases.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This represents proteomic-scale interaction mapping for personalized medicine applications. While useful for understanding CFTR's interaction network, these broad proteomic interactions are not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term provides no specific functional information about individual interactions identified.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0006695|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|cholesterol biosynthetic process|
+|IEA|[GO_REF:0000107](GO_REF:0000107)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation incorrectly assigns CFTR to cholesterol biosynthesis based on ortholog transfer. CFTR is a chloride channel with no enzymatic role in cholesterol synthesis pathways.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|REMOVE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This annotation is clearly erroneous. CFTR is an ATP-gated chloride channel with no biochemical role in cholesterol biosynthesis. This appears to be a false positive from automated ortholog annotation transfer. There is no evidence in the literature supporting CFTR involvement in cholesterol synthesis - its only connection to cholesterol is through membrane organization and lipid raft association, not biosynthesis.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0030301|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|cholesterol transport|
+|IEA|[GO_REF:0000107](GO_REF:0000107)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation incorrectly assigns CFTR to cholesterol transport based on ortholog transfer. CFTR transports chloride and bicarbonate ions, not cholesterol.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|REMOVE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This annotation is incorrect. CFTR is an anion channel that transports chloride and bicarbonate ions, not cholesterol. While CFTR may localize to cholesterol-rich membrane microdomains (lipid rafts), it does not transport cholesterol itself. This appears to be another false positive from automated annotation transfer, possibly confused with other ABC transporters that do transport lipids.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0051649|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|establishment of localization in cell|
+|IEA|[GO_REF:0000107](GO_REF:0000107)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IEA annotation is overly vague. While CFTR does establish ion gradients and regulate fluid localization through its channel activity, this generic term provides minimal functional information.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|REMOVE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This annotation is too generic to be informative. While technically CFTR does contribute to establishing ion localization across membranes, this vague term fails to capture CFTR's specific function as an ATP-gated chloride channel. More specific terms like "chloride transmembrane transport" (GO:1902476) better describe CFTR's actual function. Generic cellular localization terms add no value when specific transport functions are known.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:29393851](PMID:29393851)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with ADGRG2 (adhesion GPCR G2) required for male fertility, involving both Gq activity and β-arrestin-1 scaffolding.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The ADGRG2/CFTR coupling is essential for male fertility, representing a specialized reproductive function. While physiologically important in the male reproductive tract, this tissue-specific regulatory interaction is not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to convey this is a GPCR-channel interaction critical for reproduction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:23818989](PMID:23818989)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR degradation by E3 ubiquitin ligase MARCH2 through association with adaptor proteins CAL and STX6, representing a protein degradation pathway.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with MARCH2 E3 ligase and adaptors represents a degradation pathway controlling CFTR levels. While important for CFTR homeostasis and regulation, protein degradation mechanisms are not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to specify this is an E3 ligase-mediated degradation interaction.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:15010471](PMID:15010471)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation with direct experimental evidence confirms CFTR's chloride channel activity, specifically demonstrating dynamic control of Cl-/HCO3- selectivity by external chloride concentration.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Strong experimental evidence directly demonstrates CFTR's chloride channel activity. The referenced study shows CFTR mediates both chloride and bicarbonate transport, with selectivity controlled by external chloride concentration. While GO:0005260 (ATP-gated) is more specific, this annotation correctly captures the fundamental chloride channel function with solid experimental support.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:19019741](PMID:19019741)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation provides direct experimental evidence for CFTR's chloride channel activity, with the study specifically demonstrating the mechanism of direct bicarbonate transport through the CFTR pore.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Solid experimental evidence demonstrates CFTR functions as a chloride channel that also conducts bicarbonate ions. The study shows CFTR transports HCO3- directly through its pore rather than through a coupled mechanism, confirming its role as an anion-selective channel. This annotation accurately reflects CFTR's demonstrated chloride channel activity.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IMP|[PMID:19621064](PMID:19621064)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IMP annotation uses mutant phenotype evidence showing that restoring CFTR to 25% of epithelial cells restores normal mucus transport rates, confirming CFTR's chloride channel function in airway physiology.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The mutant phenotype evidence clearly demonstrates CFTR's chloride channel activity is essential for normal mucus transport in airways. The study shows a direct relationship between CFTR channel function and physiological mucus clearance, with partial restoration being sufficient for normal function. This supports CFTR's role as a chloride channel critical for airway surface liquid homeostasis.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:11524016](PMID:11524016)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation provides direct experimental evidence that a CFTR monomer is the minimum functional unit for chloride channel activity, definitively establishing CFTR's channel function.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Strong experimental evidence demonstrates that CFTR functions as a chloride channel, with a monomer being sufficient for both channel and ATPase activity. This landmark study established that unlike other ABC transporters that function as dimers, CFTR operates as a monomeric channel. The annotation accurately captures CFTR's demonstrated chloride channel activity.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|IMP|[PMID:8910473](PMID:8910473)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IMP annotation with mutant phenotype evidence demonstrates CFTR's ATP-gated chloride channel activity, showing that ATPase activity is directly coupled to channel gating.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This seminal study established that CFTR's ATPase activity is essential for its function as an ATP-gated chloride channel. The evidence shows ATP binding and hydrolysis at the nucleotide-binding domains drives channel opening and closing cycles. This annotation precisely captures CFTR's unique mechanism as an ATP-regulated ion channel, distinguishing it from other chloride channels.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:11707463](PMID:11707463)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation documents CFTR chloride channel activity in the context of studying how CAL/GOPC modulates CFTR plasma membrane expression and function.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The study provides direct evidence of CFTR chloride channel activity while investigating PDZ protein interactions. The research shows functional chloride currents mediated by CFTR and how these are modulated by CAL overexpression. This annotation correctly identifies CFTR's chloride channel function with experimental validation.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IMP|[PMID:24885604](PMID:24885604)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IMP annotation demonstrates CFTR chloride channel activity in pancreatic beta cells, showing CFTR contributes to cAMP-amplified exocytosis and insulin secretion alongside ANO1.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Mutant phenotype evidence confirms CFTR functions as a chloride channel in pancreatic beta cells, where it works with ANO1 to regulate insulin secretion. This expands understanding of CFTR's physiological roles beyond epithelial tissues. The annotation accurately reflects CFTR's chloride channel activity in endocrine function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:18570918](PMID:18570918)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation provides direct evidence that endosomal SNARE proteins regulate CFTR chloride channel activity and trafficking in epithelial cells.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Direct experimental evidence demonstrates CFTR chloride channel activity and shows how SNARE proteins regulate both CFTR trafficking and function. The study establishes that proper CFTR channel activity depends on appropriate membrane trafficking mediated by SNARE proteins. This annotation correctly identifies CFTR's chloride channel function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:19289574](PMID:19289574)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with SLC26A9, a constitutively active CFTR-regulated anion conductance that functionally couples with CFTR in bronchial epithelia.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction with SLC26A9 is functionally important as SLC26A9 provides a CFTR-regulated alternative chloride conductance in airways. This represents a physiologically relevant regulatory relationship where CFTR modulates another anion channel. However, this regulatory interaction is not CFTR's core molecular function as an ATP-gated chloride channel.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:20658517](PMID:20658517)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents interaction between CFTR and SLC26A9, where SLC26A9 stimulates CFTR expression and function in human bronchial cells, suggesting reciprocal regulation.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|This interaction shows bidirectional regulation between CFTR and SLC26A9 anion transporters. While functionally important for coordinated anion transport in airways, this regulatory relationship is not part of CFTR's core molecular function as an ATP-gated chloride channel. The generic protein binding term inadequately describes this specific functional coupling.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|IDA|[PMID:22178883](PMID:22178883)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IDA annotation demonstrates CFTR chloride channel activity is distinct from but functionally related to TMEM16A/ANO1 calcium-activated chloride channels in epithelia.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|Direct experimental evidence confirms CFTR functions as a chloride channel separate from TMEM16A, though they are functionally related in epithelial chloride secretion. This study clarifies the distinct roles of cAMP-activated (CFTR) versus calcium-activated (TMEM16A) chloride channels. The annotation accurately captures CFTR's chloride channel activity.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:22178883](PMID:22178883)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents functional interaction between CFTR and TMEM16A chloride channels, showing they work together in epithelial chloride secretion despite being separate channels.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The interaction between CFTR and TMEM16A represents functional coupling between two chloride channel systems in epithelia. While physiologically relevant for coordinated chloride secretion, this interaction is not part of CFTR's core molecular function as an ATP-gated channel. The generic protein binding term fails to capture the specific nature of this channel-channel functional relationship.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:11707463](PMID:11707463)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with CAL/GOPC, a Golgi-associated PDZ protein that retains CFTR intracellularly and reduces its plasma membrane expression, competing with NHERF for CFTR binding.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The CAL/GOPC interaction is functionally important for regulating CFTR trafficking and surface expression. CAL competes with NHERF for CFTR's C-terminal PDZ-binding motif, determining whether CFTR is retained intracellularly or reaches the plasma membrane. While physiologically relevant, this represents a trafficking regulatory mechanism rather than CFTR's core channel function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005515|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|protein binding|
+|IPI|[PMID:15247260](PMID:15247260)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This IPI annotation documents CFTR interaction with myosin VI, which regulates CFTR endocytosis from the plasma membrane, controlling surface expression levels.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|KEEP_AS_NON_CORE|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The myosin VI interaction regulates CFTR endocytosis and membrane turnover. While important for controlling CFTR surface levels and activity, this represents a trafficking mechanism rather than CFTR's core molecular function as an ATP-gated chloride channel. The generic term fails to identify this as a motor protein interaction controlling endocytosis.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|NAS|[PMID:11707463](PMID:11707463)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This NAS (Non-traceable Author Statement) annotation correctly identifies CFTR's ATP-gated chloride channel activity based on established knowledge referenced in this trafficking study.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|While based on author statement rather than direct experimental evidence in this paper, the annotation accurately reflects well-established knowledge about CFTR's ATP-gated chloride channel activity. The paper focuses on trafficking regulation but correctly references CFTR's known molecular function. This annotation captures CFTR's primary functional mechanism.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|TAS|[PMID:9931011](PMID:9931011)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This TAS annotation based on author statement confirms CFTR chloride channel activity, with the study showing Walker mutations reveal the relationship between catalytic and channel-gating activities.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The study provides strong evidence for CFTR's chloride channel activity by analyzing Walker motif mutations that affect ATP binding/hydrolysis. It demonstrates the coupling between ATPase activity and channel gating, confirming CFTR functions as a chloride channel whose gating is controlled by ATP. This annotation accurately reflects CFTR's established channel function.|
+
+#### supported_by
+
+|
+|
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|TAS|[PMID:10581360](PMID:10581360)|
+|Slot|Value|
+|---|---|
+|summary[?](https://w3id.org/ai4curation/gene_review/summary)|This TAS annotation demonstrates differential functions of CFTR's two nucleotide binding domains, confirming the ATP-gated nature of the chloride channel.|
+|action[?](https://w3id.org/ai4curation/gene_review/action)|ACCEPT|
+|reason[?](https://w3id.org/ai4curation/gene_review/reason)|The study provides detailed evidence for CFTR's ATP-gated chloride channel activity by analyzing the distinct roles of NBD1 and NBD2 in channel gating. It shows how ATP binding and hydrolysis at these domains controls channel opening and closing. This annotation precisely captures CFTR's unique mechanism as an ATP-regulated chloride channel.|
+
+#### supported_by
+
+|
+
+## core_functions
+
+
+|description|supported_by|molecular_function|directly_involved_in|locations|
+|---|---|---|---|---|
+|ATP-gated chloride channel activity at apical plasma membrane enabling regulated anion secretion in epithelia||
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005260|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|intracellularly ATP-gated chloride channel activity|
+|||
+|Bicarbonate transport through the anion-selective pore contributing to pH regulation and fluid alkalinization||
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|||
+|ATP binding and hydrolysis driving conformational changes for channel gating cycles||
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005524|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|ATP binding|
+|||
+|Negative regulation of ENaC sodium channel preventing excessive sodium absorption and mucus dehydration||
+|Slot|Value|
+|---|---|
+|id[?](https://w3id.org/ai4curation/gene_review/id)|GO:0005254|
+|label[?](https://w3id.org/ai4curation/gene_review/label)|chloride channel activity|
+|||
+
+## suggested_questions
+
+
+|question|
+|---|
+|How do different classes of CFTR mutations affect protein folding, trafficking, and channel gating at the molecular level?|
+|What are the regulatory mechanisms that control CFTR channel activity in response to cAMP and other signaling pathways?|
+|How does CFTR dysfunction lead to the characteristic thick mucus secretions and bacterial infections in cystic fibrosis?|
+|What determines tissue-specific sensitivity to CFTR dysfunction and why are some organs more severely affected than others?|
+
+## suggested_experiments
+
+
+|description|
+|---|
+|Single-channel patch-clamp electrophysiology to characterize the gating kinetics and ion selectivity of CFTR variants|
+|Cryo-EM structure determination of full-length CFTR in different conformational states and with bound modulators|
+|Organoid models of cystic fibrosis using patient-derived cells to test personalized therapeutic approaches|
+|Real-time imaging of CFTR trafficking from ER to plasma membrane using fluorescently tagged proteins and live-cell microscopy|

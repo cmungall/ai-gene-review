@@ -156,3 +156,13 @@ core_functions:
         supporting_text: 'Based on homology to Candida albicans Sou1 and bacterial sorbose reductases, this enzyme catalyzes the NADP(H)-dependent reduction of L-sorbose to D-glucitol (sorbitol)'
       - reference_id: 'file:pombe/SPAC8E11.10/SPAC8E11.10-deep-research.md'
         supporting_text: 'No direct localization studies have been published for Sou1 in S. pombe, but its features suggest a cytosolic localization. The protein lacks any recognizable signal peptide or transmembrane domains'
+suggested_questions:
+- question: How does sorbose reductase contribute to alternative carbon metabolism in S. pombe and under what conditions is it expressed?
+- question: What determines the substrate specificity of sorbose reductase and how does it distinguish between different sugar substrates?
+- question: How is sorbose reductase activity regulated and what role does it play in cellular osmotic stress responses?
+- question: What are the evolutionary relationships of S. pombe sorbose reductase with similar enzymes in other fungi and bacteria?
+suggested_experiments:
+- description: Enzyme kinetics analysis to characterize substrate specificity and catalytic parameters of purified sorbose reductase
+- description: RNA-seq analysis under different carbon source conditions to determine sorbose reductase expression regulation
+- description: Metabolomics analysis of sorbose reductase knockout strains to understand its role in cellular metabolism
+- description: Structural determination of sorbose reductase to understand the molecular basis of its catalytic activity and substrate recognition

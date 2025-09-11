@@ -1,0 +1,163 @@
+ID   A0A1S7IWC7_9INFA        Unreviewed;        97 AA.
+AC   A0A1S7IWC7;
+DT   10-MAY-2017, integrated into UniProtKB/TrEMBL.
+DT   10-MAY-2017, sequence version 1.
+DT   02-APR-2025, entry version 39.
+DE   RecName: Full=Matrix protein 2 {ECO:0000256|HAMAP-Rule:MF_04069, ECO:0000256|RuleBase:RU361247};
+DE   AltName: Full=Proton channel protein M2 {ECO:0000256|HAMAP-Rule:MF_04069};
+GN   Name=M2 {ECO:0000313|EMBL:BAX00612.1};
+GN   Synonyms=M {ECO:0000256|HAMAP-Rule:MF_04069};
+OS   Influenza A virus.
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus;
+OC   Alphainfluenzavirus influenzae.
+OX   NCBI_TaxID=11320 {ECO:0000313|EMBL:BAX00612.1};
+RN   [1] {ECO:0000313|EMBL:BAX00612.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=A/chicken/Kafr_Elsheikh/UT-151CAD/2015
+RC   {ECO:0000313|EMBL:BAX00614.1}, A/chicken/Sharkeya/14209SS/2014
+RC   {ECO:0000313|EMBL:BAX00612.1}, A/duck/Cairo/157CA/2015
+RC   {ECO:0000313|EMBL:BAX00616.1}, A/duck/Dakahlia/1536CAG/2015
+RC   {ECO:0000313|EMBL:BAX00624.1}, and A/duck/Giza/15292S/2015
+RC   {ECO:0000313|EMBL:BAX00626.1};
+RX   PubMed=27922116; DOI=10.1038/srep38388;
+RA   Arafa A.S., Yamada S., Imai M., Watanabe T., Yamayoshi S.,
+RA   Iwatsuki-Horimoto K., Kiso M., Sakai-Tagawa Y., Ito M., Imamura T.,
+RA   Nakajima N., Takahashi K., Zhao D., Oishi K., Yasuhara A., Macken C.A.,
+RA   Zhong G., Hanson A.P., Fan S., Ping J., Hatta M., Lopes T.J.S., Suzuki Y.,
+RA   El-Husseiny M., Selim A., Hagag N., Soliman M., Neumann G., Hasegawa H.,
+RA   Kawaoka Y.;
+RT   "Risk assessment of recent Egyptian H5N1 influenza viruses.";
+RL   Sci. Rep. 6:38388-38388(2016).
+RN   [2] {ECO:0000313|EMBL:AXF49992.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=A/chicken/Egypt/B13825A/2017 {ECO:0000313|EMBL:AXF49992.1}, and
+RC   A/chicken/Egypt/F12505E/2016 {ECO:0000313|EMBL:AXF50038.1};
+RG   Centers of Excellence for Influenza Research and Surveillance (CEIRS);
+RA   Kandeil A., Webby R., McKenzie P., Kayali G., Ali M.A.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Forms a proton-selective ion channel that is necessary for
+CC       the efficient release of the viral genome during virus entry. After
+CC       attaching to the cell surface, the virion enters the cell by
+CC       endocytosis. Acidification of the endosome triggers M2 ion channel
+CC       activity. The influx of protons into virion interior is believed to
+CC       disrupt interactions between the viral ribonucleoprotein (RNP), matrix
+CC       protein 1 (M1), and lipid bilayers, thereby freeing the viral genome
+CC       from interaction with viral proteins and enabling RNA segments to
+CC       migrate to the host cell nucleus, where influenza virus RNA
+CC       transcription and replication occur. Also plays a role in viral
+CC       proteins secretory pathway. Elevates the intravesicular pH of normally
+CC       acidic compartments, such as trans-Golgi network, preventing newly
+CC       formed hemagglutinin from premature switching to the fusion-active
+CC       conformation. {ECO:0000256|HAMAP-Rule:MF_04069}.
+CC   -!- ACTIVITY REGULATION: The M2 protein from most influenza A strains is
+CC       inhibited by amantadine and rimantadine, resulting in viral uncoating
+CC       incapacity. Emergence of amantadine-resistant variants is usually
+CC       rapid. {ECO:0000256|RuleBase:RU361247}.
+CC   -!- SUBUNIT: Homotetramer; composed of two disulfide-linked dimers held
+CC       together by non-covalent interactions. May interact with matrix protein
+CC       1. {ECO:0000256|HAMAP-Rule:MF_04069, ECO:0000256|RuleBase:RU361247}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_04069}. Host apical cell membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_04069}; Single-pass type III membrane protein
+CC       {ECO:0000256|HAMAP-Rule:MF_04069}. Note=Abundantly expressed at the
+CC       apical plasma membrane in infected polarized epithelial cells, in close
+CC       proximity to budding and assembled virions. Minor component of virions
+CC       (only 16-20 molecules/virion). {ECO:0000256|HAMAP-Rule:MF_04069}.
+CC   -!- DOMAIN: Cytoplasmic tail plays an important role in virion assembly and
+CC       morphogenesis. {ECO:0000256|HAMAP-Rule:MF_04069,
+CC       ECO:0000256|RuleBase:RU361247}.
+CC   -!- MISCELLANEOUS: When the channel is activated, one or more imidazole
+CC       moities of His-37 probably become bi-protonated. {ECO:0000256|HAMAP-
+CC       Rule:MF_04069}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses matrix protein M2 family.
+CC       {ECO:0000256|HAMAP-Rule:MF_04069, ECO:0000256|RuleBase:RU361247}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_04069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; MH498624; AXF49992.1; -; Viral_cRNA.
+DR   EMBL; MH513606; AXF50038.1; -; Viral_cRNA.
+DR   EMBL; LC106094; BAX00612.1; -; Viral_cRNA.
+DR   EMBL; LC106095; BAX00614.1; -; Viral_cRNA.
+DR   EMBL; LC106096; BAX00616.1; -; Viral_cRNA.
+DR   EMBL; LC106100; BAX00624.1; -; Viral_cRNA.
+DR   EMBL; LC106101; BAX00626.1; -; Viral_cRNA.
+DR   SMR; A0A1S7IWC7; -.
+DR   Proteomes; UP001396363; Genome.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005216; F:monoatomic ion channel activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015078; F:proton transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051259; P:protein complex oligomerization; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044694; P:symbiont genome entry into host cell via pore formation in plasma membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0140321; P:symbiont-mediated suppression of host autophagy; IEA:UniProtKB-KW.
+DR   Gene3D; 6.10.250.1640; -; 1.
+DR   HAMAP; MF_04069; INFV_M2; 1.
+DR   InterPro; IPR002089; Flu_M2.
+DR   Pfam; PF00599; Flu_M2; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond {ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Host cell membrane {ECO:0000256|ARBA:ARBA00022511, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Host membrane {ECO:0000256|ARBA:ARBA00022870, ECO:0000256|HAMAP-
+KW   Rule:MF_04069}; Host-virus interaction {ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Hydrogen ion transport {ECO:0000256|ARBA:ARBA00022781, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Inhibition of host autophagy by virus {ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Ion channel {ECO:0000256|ARBA:ARBA00023303, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Ion transport {ECO:0000256|ARBA:ARBA00023065, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Lipoprotein {ECO:0000256|ARBA:ARBA00023288, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Palmitate {ECO:0000256|ARBA:ARBA00023139, ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Signal-anchor {ECO:0000256|ARBA:ARBA00022968, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_04069,
+KW   ECO:0000256|RuleBase:RU361247};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_04069,
+KW   ECO:0000256|RuleBase:RU361247};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|HAMAP-Rule:MF_04069};
+KW   Viral ion channel {ECO:0000256|ARBA:ARBA00023039, ECO:0000256|HAMAP-
+KW   Rule:MF_04069};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844, ECO:0000256|HAMAP-Rule:MF_04069}.
+FT   TOPO_DOM        1..22
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   TRANSMEM        26..48
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TOPO_DOM        44..97
+FT                   /note="Intravirion"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   REGION          61..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            37
+FT                   /note="Essential for channel activity, possibly by being
+FT                   protonated during channel activation, and by forming the
+FT                   channel gate and the selective filter"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   SITE            41
+FT                   /note="Seems to be involved in pH gating"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   MOD_RES         64
+FT                   /note="Phosphoserine; by host"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   DISULFID        17
+FT                   /note="Interchain (with Cys-17)"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+FT   DISULFID        19
+FT                   /note="Interchain (with Cys-19)"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04069"
+SQ   SEQUENCE   97 AA;  11329 MW;  9FF1D0EA4691E02C CRC64;
+     MSLLTEVETP TRNEWECRCS DSSDPLVIAA SIIGILHLIL WILDRLFFKF IYRRLKYGLK
+     RGPSTEGVPE SMREEYRQEQ QNAVDVDDGH FVNIELE
+//

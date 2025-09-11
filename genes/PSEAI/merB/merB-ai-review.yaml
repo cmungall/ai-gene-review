@@ -131,3 +131,17 @@ core_functions:
     supporting_text: Supporting evidence for merB function
   - reference_id: file:PSEAI/merB/merB-deep-research.md
     supporting_text: Bioinformatics evidence for merB function
+suggested_questions:
+- question: What is the molecular mechanism by which MerB cleaves the C-Hg bond without
+    requiring cofactors or external energy sources?
+- question: How does MerB achieve substrate specificity for different organomercury
+    compounds (methylmercury vs phenylmercury)?
+- question: What determines the efficiency of MerB-MerA coupling in different bacterial
+    species and environmental conditions?
+suggested_experiments:
+- description: Time-resolved crystallography to capture the transition state during
+    C-Hg bond cleavage
+- description: Isotope labeling studies to trace the fate of carbon and mercury atoms
+    during the lyase reaction
+- description: Engineering MerB variants for enhanced activity against specific organomercury
+    pollutants in contaminated environments

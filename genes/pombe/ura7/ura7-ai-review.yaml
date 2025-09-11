@@ -289,3 +289,14 @@ core_functions:
   locations:
     - id: GO:0097268
       label: cytoophidium
+
+suggested_questions:
+- question: How does ura7 contribute to pyrimidine biosynthesis and what determines its enzymatic specificity?
+- question: What are the regulatory mechanisms that control ura7 expression in response to pyrimidine availability?
+- question: How does ura7 function in the broader context of nucleotide metabolism and cellular growth?
+- question: What role does ura7 play in cellular responses to nucleotide stress and starvation?
+suggested_experiments:
+- description: Enzyme kinetics analysis to characterize ura7 catalytic properties and substrate specificity
+- description: Metabolomics analysis of ura7 mutant strains to study pyrimidine metabolism alterations
+- description: RNA-seq analysis under different nucleotide conditions to study ura7 regulation
+- description: Growth analysis of ura7 mutants in different media to assess metabolic requirements

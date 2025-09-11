@@ -203,3 +203,14 @@ core_functions:
   locations:
   - id: GO:0016020
     label: membrane
+
+suggested_questions:
+- question: What is the specific function of SFT2D3 in intracellular membrane trafficking and organelle biogenesis?
+- question: How does SFT2D3 interact with the SNARE machinery and other trafficking regulators?
+- question: What determines the subcellular localization of SFT2D3 and how does this relate to its function?
+- question: How is SFT2D3 expression and activity regulated in different cell types and conditions?
+suggested_experiments:
+- description: Live-cell imaging using fluorescently tagged SFT2D3 to study its dynamics and localization in membrane trafficking
+- description: Proteomics approaches to identify SFT2D3 interacting partners in different subcellular compartments
+- description: Functional analysis using CRISPR knockout to determine the cellular processes dependent on SFT2D3
+- description: Electron microscopy analysis of cells lacking SFT2D3 to identify ultrastructural defects in organelle organization

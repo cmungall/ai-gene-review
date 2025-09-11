@@ -14,16 +14,19 @@
 --     * Slot: id
 --     * Slot: title Description: Title of the entity
 --     * Slot: is_invalid Description: Whether the reference is invalid (e.g., retracted or replaced)
+--     * Slot: full_text_unavailable Description: Whether the full text is unavailable
 --     * Slot: GeneReview_id Description: Autocreated FK slot
 -- # Class: Finding Description: A finding is a statement about a gene, which is supported by a reference. Similar to "comments" in uniprot
 --     * Slot: id
 --     * Slot: statement Description: Concise statement describing an aspect of the gene
 --     * Slot: supporting_text Description: Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'
+--     * Slot: full_text_unavailable Description: Whether the full text is unavailable
 --     * Slot: reference_section_type Description: Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')
 -- # Class: SupportingTextInReference Description: A supporting text in a reference.
 --     * Slot: id
 --     * Slot: reference_id
 --     * Slot: supporting_text Description: Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'
+--     * Slot: full_text_unavailable Description: Whether the full text is unavailable
 --     * Slot: reference_section_type Description: Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')
 -- # Class: ExistingAnnotation Description: An existing annotation from the GO database, plus a review of the annotation.
 --     * Slot: id
@@ -51,6 +54,14 @@
 --     * Slot: proposed_name Description: Proposed name for the new term
 --     * Slot: proposed_definition Description: Proposed definition for the new term
 --     * Slot: justification Description: Justification for why this term is needed
+-- # Class: Experiment Description: A suggested experiment to answer a question about the gene
+--     * Slot: id
+--     * Slot: hypothesis Description: Hypothesis to be investigated
+--     * Slot: description Description: Detailed description of the experiment to be performed
+--     * Slot: experiment_type Description: Type of experiment or assay to answer the question
+-- # Class: Question Description: A question to be answered about the gene
+--     * Slot: id
+--     * Slot: question Description: Question to be answered
 -- # Class: GeneReview_aliases
 --     * Slot: GeneReview_id Description: Autocreated FK slot
 --     * Slot: aliases
@@ -81,6 +92,12 @@
 -- # Class: CoreFunction_supported_by
 --     * Slot: CoreFunction_id Description: Autocreated FK slot
 --     * Slot: supported_by_id
+-- # Class: ProposedOntologyTerm_supported_by
+--     * Slot: ProposedOntologyTerm_id Description: Autocreated FK slot
+--     * Slot: supported_by_id
+-- # Class: Question_experts
+--     * Slot: Question_id Description: Autocreated FK slot
+--     * Slot: experts Description: Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!
 
 CREATE TABLE "Term" (
 	id TEXT NOT NULL,
@@ -97,7 +114,8 @@ CREATE TABLE "Finding" (
 	id INTEGER NOT NULL,
 	statement TEXT,
 	supporting_text TEXT,
-	reference_section_type TEXT,
+	full_text_unavailable BOOLEAN,
+	reference_section_type VARCHAR(22),
 	PRIMARY KEY (id)
 );CREATE INDEX "ix_Finding_id" ON "Finding" (id);
 CREATE TABLE "Review" (
@@ -123,6 +141,18 @@ CREATE TABLE "ProposedOntologyTerm" (
 	justification TEXT,
 	PRIMARY KEY (id)
 );CREATE INDEX "ix_ProposedOntologyTerm_id" ON "ProposedOntologyTerm" (id);
+CREATE TABLE "Experiment" (
+	id INTEGER NOT NULL,
+	hypothesis TEXT NOT NULL,
+	description TEXT NOT NULL,
+	experiment_type TEXT,
+	PRIMARY KEY (id)
+);CREATE INDEX "ix_Experiment_id" ON "Experiment" (id);
+CREATE TABLE "Question" (
+	id INTEGER NOT NULL,
+	question TEXT NOT NULL,
+	PRIMARY KEY (id)
+);CREATE INDEX "ix_Question_id" ON "Question" (id);
 CREATE TABLE "GeneReview" (
 	id TEXT NOT NULL,
 	gene_symbol TEXT NOT NULL,
@@ -138,10 +168,17 @@ CREATE TABLE "AnnotationExtension" (
 	PRIMARY KEY (id),
 	FOREIGN KEY(term_id) REFERENCES "Term" (id)
 );CREATE INDEX "ix_AnnotationExtension_id" ON "AnnotationExtension" (id);
+CREATE TABLE "Question_experts" (
+	"Question_id" INTEGER,
+	experts TEXT,
+	PRIMARY KEY ("Question_id", experts),
+	FOREIGN KEY("Question_id") REFERENCES "Question" (id)
+);CREATE INDEX "ix_Question_experts_Question_id" ON "Question_experts" ("Question_id");CREATE INDEX "ix_Question_experts_experts" ON "Question_experts" (experts);
 CREATE TABLE "Reference" (
 	id TEXT NOT NULL,
 	title TEXT NOT NULL,
 	is_invalid BOOLEAN,
+	full_text_unavailable BOOLEAN,
 	"GeneReview_id" TEXT,
 	PRIMARY KEY (id),
 	FOREIGN KEY("GeneReview_id") REFERENCES "GeneReview" (id)
@@ -170,14 +207,15 @@ CREATE TABLE "SupportingTextInReference" (
 	id INTEGER NOT NULL,
 	reference_id TEXT,
 	supporting_text TEXT,
-	reference_section_type TEXT,
+	full_text_unavailable BOOLEAN,
+	reference_section_type VARCHAR(22),
 	PRIMARY KEY (id),
 	FOREIGN KEY(reference_id) REFERENCES "Reference" (id)
 );CREATE INDEX "ix_SupportingTextInReference_id" ON "SupportingTextInReference" (id);
 CREATE TABLE "ExistingAnnotation" (
 	id INTEGER NOT NULL,
 	negated BOOLEAN,
-	evidence_type TEXT,
+	evidence_type VARCHAR(3),
 	original_reference_id TEXT,
 	term_id TEXT,
 	review_id INTEGER,
@@ -192,7 +230,7 @@ CREATE TABLE "Reference_findings" (
 	PRIMARY KEY ("Reference_id", findings_id),
 	FOREIGN KEY("Reference_id") REFERENCES "Reference" (id),
 	FOREIGN KEY(findings_id) REFERENCES "Finding" (id)
-);CREATE INDEX "ix_Reference_findings_findings_id" ON "Reference_findings" (findings_id);CREATE INDEX "ix_Reference_findings_Reference_id" ON "Reference_findings" ("Reference_id");
+);CREATE INDEX "ix_Reference_findings_Reference_id" ON "Reference_findings" ("Reference_id");CREATE INDEX "ix_Reference_findings_findings_id" ON "Reference_findings" (findings_id);
 CREATE TABLE "Review_additional_reference_ids" (
 	"Review_id" INTEGER,
 	additional_reference_ids_id TEXT,
@@ -206,14 +244,14 @@ CREATE TABLE "GeneReview_existing_annotations" (
 	PRIMARY KEY ("GeneReview_id", existing_annotations_id),
 	FOREIGN KEY("GeneReview_id") REFERENCES "GeneReview" (id),
 	FOREIGN KEY(existing_annotations_id) REFERENCES "ExistingAnnotation" (id)
-);CREATE INDEX "ix_GeneReview_existing_annotations_existing_annotations_id" ON "GeneReview_existing_annotations" (existing_annotations_id);CREATE INDEX "ix_GeneReview_existing_annotations_GeneReview_id" ON "GeneReview_existing_annotations" ("GeneReview_id");
+);CREATE INDEX "ix_GeneReview_existing_annotations_GeneReview_id" ON "GeneReview_existing_annotations" ("GeneReview_id");CREATE INDEX "ix_GeneReview_existing_annotations_existing_annotations_id" ON "GeneReview_existing_annotations" (existing_annotations_id);
 CREATE TABLE "ExistingAnnotation_extensions" (
 	"ExistingAnnotation_id" INTEGER,
 	extensions_id INTEGER,
 	PRIMARY KEY ("ExistingAnnotation_id", extensions_id),
 	FOREIGN KEY("ExistingAnnotation_id") REFERENCES "ExistingAnnotation" (id),
 	FOREIGN KEY(extensions_id) REFERENCES "AnnotationExtension" (id)
-);CREATE INDEX "ix_ExistingAnnotation_extensions_extensions_id" ON "ExistingAnnotation_extensions" (extensions_id);CREATE INDEX "ix_ExistingAnnotation_extensions_ExistingAnnotation_id" ON "ExistingAnnotation_extensions" ("ExistingAnnotation_id");
+);CREATE INDEX "ix_ExistingAnnotation_extensions_ExistingAnnotation_id" ON "ExistingAnnotation_extensions" ("ExistingAnnotation_id");CREATE INDEX "ix_ExistingAnnotation_extensions_extensions_id" ON "ExistingAnnotation_extensions" (extensions_id);
 CREATE TABLE "ExistingAnnotation_supporting_entities" (
 	"ExistingAnnotation_id" INTEGER,
 	supporting_entities TEXT,
@@ -233,4 +271,11 @@ CREATE TABLE "CoreFunction_supported_by" (
 	PRIMARY KEY ("CoreFunction_id", supported_by_id),
 	FOREIGN KEY("CoreFunction_id") REFERENCES "CoreFunction" (id),
 	FOREIGN KEY(supported_by_id) REFERENCES "SupportingTextInReference" (id)
-);CREATE INDEX "ix_CoreFunction_supported_by_supported_by_id" ON "CoreFunction_supported_by" (supported_by_id);CREATE INDEX "ix_CoreFunction_supported_by_CoreFunction_id" ON "CoreFunction_supported_by" ("CoreFunction_id");
+);CREATE INDEX "ix_CoreFunction_supported_by_CoreFunction_id" ON "CoreFunction_supported_by" ("CoreFunction_id");CREATE INDEX "ix_CoreFunction_supported_by_supported_by_id" ON "CoreFunction_supported_by" (supported_by_id);
+CREATE TABLE "ProposedOntologyTerm_supported_by" (
+	"ProposedOntologyTerm_id" INTEGER,
+	supported_by_id INTEGER,
+	PRIMARY KEY ("ProposedOntologyTerm_id", supported_by_id),
+	FOREIGN KEY("ProposedOntologyTerm_id") REFERENCES "ProposedOntologyTerm" (id),
+	FOREIGN KEY(supported_by_id) REFERENCES "SupportingTextInReference" (id)
+);CREATE INDEX "ix_ProposedOntologyTerm_supported_by_ProposedOntologyTerm_id" ON "ProposedOntologyTerm_supported_by" ("ProposedOntologyTerm_id");CREATE INDEX "ix_ProposedOntologyTerm_supported_by_supported_by_id" ON "ProposedOntologyTerm_supported_by" (supported_by_id);

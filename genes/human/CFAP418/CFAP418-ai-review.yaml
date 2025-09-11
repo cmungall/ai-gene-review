@@ -204,3 +204,14 @@ core_functions:
   locations:
   - id: GO:0097546
     label: ciliary base
+
+suggested_questions:
+- question: How does CFAP418 function in ciliary assembly and what specific role does it play in axoneme structure and stability?
+- question: What are the molecular interactions between CFAP418 and other ciliary proteins that are essential for proper cilia function?
+- question: How do mutations in CFAP418 contribute to ciliopathy phenotypes and what are the downstream cellular consequences?
+- question: What determines the tissue-specific expression pattern of CFAP418 and why is it particularly important in certain cell types?
+suggested_experiments:
+- description: Cryo-electron microscopy of cilia from CFAP418-deficient cells to identify structural abnormalities in the axoneme
+- description: Proximity labeling proteomics to identify the complete CFAP418 interactome in ciliated cells
+- description: Live-cell imaging of ciliary assembly and disassembly to study CFAP418 dynamics during the cell cycle
+- description: Functional complementation studies using CFAP418 orthologs from different species to identify conserved functional domains

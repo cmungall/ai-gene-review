@@ -1,0 +1,133 @@
+ID   ALO_SCHPO               Reviewed;         461 AA.
+AC   Q9HDX8;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   18-JUN-2025, entry version 143.
+DE   RecName: Full=D-arabinono-1,4-lactone oxidase;
+DE            Short=ALO;
+DE            EC=1.1.3.37;
+DE   AltName: Full=L-galactono-gamma-lactone oxidase;
+GN   Name=alo1; ORFNames=SPAPB1A10.12c;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-arabinono-1,4-lactone + O2 = dehydro-D-arabinono-1,4-lactone
+CC         + H2O2 + H(+); Xref=Rhea:RHEA:23756, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:16292,
+CC         ChEBI:CHEBI:58277; EC=1.1.3.37;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; D-erythroascorbate biosynthesis;
+CC       dehydro-D-arabinono-1,4-lactone from D-arabinose: step 2/2.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane {ECO:0000250}.
+CC       Note=Membrane-embedded. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the oxygen-dependent FAD-linked oxidoreductase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAC21485.1; -; Genomic_DNA.
+DR   RefSeq; NP_593526.1; NM_001018960.2.
+DR   AlphaFoldDB; Q9HDX8; -.
+DR   SMR; Q9HDX8; -.
+DR   BioGRID; 279850; 4.
+DR   FunCoup; Q9HDX8; 463.
+DR   STRING; 284812.Q9HDX8; -.
+DR   iPTMnet; Q9HDX8; -.
+DR   PaxDb; 4896-SPAPB1A10.12c.1; -.
+DR   EnsemblFungi; SPAPB1A10.12c.1; SPAPB1A10.12c.1:pep; SPAPB1A10.12c.
+DR   GeneID; 2543430; -.
+DR   KEGG; spo:2543430; -.
+DR   PomBase; SPAPB1A10.12c; alo1.
+DR   VEuPathDB; FungiDB:SPAPB1A10.12c; -.
+DR   eggNOG; KOG4730; Eukaryota.
+DR   HOGENOM; CLU_003896_4_1_1; -.
+DR   InParanoid; Q9HDX8; -.
+DR   OMA; YPRFGEF; -.
+DR   PhylomeDB; Q9HDX8; -.
+DR   UniPathway; UPA00771; UER00766.
+DR   PRO; PR:Q9HDX8; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; ISO:PomBase.
+DR   GO; GO:0005739; C:mitochondrion; HDA:PomBase.
+DR   GO; GO:0003885; F:D-arabinono-1,4-lactone oxidase activity; IBA:GO_Central.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0070485; P:dehydro-D-arabinono-1,4-lactone biosynthetic process; ISO:PomBase.
+DR   GO; GO:0006766; P:vitamin metabolic process; IC:PomBase.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   Gene3D; 3.30.70.2520; -; 1.
+DR   Gene3D; 3.30.43.10; Uridine Diphospho-n-acetylenolpyruvylglucosamine Reductase, domain 2; 1.
+DR   Gene3D; 1.10.45.10; Vanillyl-alcohol Oxidase, Chain A, domain 4; 1.
+DR   InterPro; IPR007173; ALO_C.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR010031; FAD_lactone_oxidase-like.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   InterPro; IPR030654; Sugar_lactone_oxidase.
+DR   InterPro; IPR016171; Vanillyl_alc_oxidase_C-sub2.
+DR   NCBIfam; TIGR01678; FAD_lactone_ox; 1.
+DR   PANTHER; PTHR43762:SF1; D-ARABINONO-1,4-LACTONE OXIDASE; 1.
+DR   PANTHER; PTHR43762; L-GULONOLACTONE OXIDASE; 1.
+DR   Pfam; PF04030; ALO; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   PIRSF; PIRSF000136; LGO_GLO; 1.
+DR   SUPFAM; SSF56176; FAD-binding/transporter-associated domain-like; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Membrane; Mitochondrion; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..461
+FT                   /note="D-arabinono-1,4-lactone oxidase"
+FT                   /id="PRO_0000128169"
+FT   DOMAIN          24..194
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00718"
+FT   MOD_RES         61
+FT                   /note="Pros-8alpha-FAD histidine"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   461 AA;  52028 MW;  A3BE6D8D08E2F273 CRC64;
+     MSIPHINKLS QDGRVRFSNW AKTFSAISLG LRCPKTEEQL REILVDANSN GKKIRVVGAG
+     HSPSDIVCTS GYLLSLDKMN KVVSFDPDSL SITVQAGIRF YQVQEILQNL GYSLPIVGSI
+     SETSVSGIMS TCTHGSSLQH QVLPHYIKSM RIMLADGSIV TCSRELQKDM FAAAQVSLGA
+     LGVIVDITIS VVPAFDLVAT EDVTTVTDLF QDWKNNLIWE SAEFVRVHVF PYANRAVVWR
+     ANKVEPNTVP HTPKPSLFRL KLDSFVYQCL LFVGKCVNRV TPYLERFWFK CHYGSKLGTA
+     LQVAGPGFDV LQMFCYFSQH VSEWGIPLES APDALEKLIN YTVDDAGKIG AYTHWPIEVR
+     VCAPTPEDEC WLSTDCKVPT CYIEAIMYRP FSTSINYKPY FKALEDIANQ YNGKPHWAKE
+     YSLTKEQLLE RYPNLSKWLS LRKLLDPKGV FWNDYLQRHL G
+//

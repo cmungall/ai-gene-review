@@ -198,3 +198,14 @@ references:
   title: Amino acid sequence of fibrolase, a direct-acting fibrinolytic enzyme from
     Agkistrodon contortrix contortrix venom.
   findings: []
+
+suggested_questions:
+- question: How does fibrolase achieve substrate specificity for fibrin and other extracellular matrix proteins?
+- question: What role does fibrolase play in venom composition and prey immobilization?
+- question: How has fibrolase evolved to optimize its proteolytic activity in different environmental conditions?
+- question: What are the structural features that determine fibrolase enzymatic activity and stability?
+suggested_experiments:
+- description: Enzyme kinetics analysis to characterize fibrolase substrate specificity and catalytic parameters
+- description: Structural determination using X-ray crystallography to understand the molecular basis of fibrolase activity
+- description: Venom composition analysis to study fibrolase expression and co-expressed proteins
+- description: Phylogenetic analysis of fibrolase evolution across different snake species

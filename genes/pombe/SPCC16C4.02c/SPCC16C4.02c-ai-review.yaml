@@ -76,3 +76,13 @@ core_functions:
   supported_by:
   - reference_id: "file:pombe/SPCC16C4.02c/SPCC16C4.02c-deep-research.md"
     supporting_text: "Orthology to cytoplasmic human neurochondrin and protein interaction data"
+suggested_questions:
+- question: What is the molecular function of SPCC16C4.02c as a scaffolding protein and how does it coordinate different cellular processes?
+- question: How does SPCC16C4.02c regulate cell division and what specific role does it play in spindle pole body function?
+- question: What determines the protein interaction specificity of SPCC16C4.02c and how are these interactions regulated during the cell cycle?
+- question: How does SPCC16C4.02c contribute to cellular aging processes and what is its relationship with aging regulators like Ecl1?
+suggested_experiments:
+- description: Proteomics analysis using affinity purification and mass spectrometry to comprehensively identify SPCC16C4.02c interacting partners
+- description: Live-cell imaging of fluorescently tagged SPCC16C4.02c to study its localization dynamics during the cell cycle
+- description: Functional analysis using gene deletion to assess the cellular consequences of SPCC16C4.02c loss
+- description: Structural characterization to determine the protein domains responsible for different protein-protein interactions

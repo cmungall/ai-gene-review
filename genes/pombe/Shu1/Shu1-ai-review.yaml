@@ -458,3 +458,14 @@ core_functions:
     supporting_text: Supporting evidence for Shu1 function
   - reference_id: PMID:25733668
     supporting_text: Supporting evidence for Shu1 function
+
+suggested_questions:
+- question: How does Shu1 contribute to homologous recombination and DNA repair pathway choice?
+- question: What determines the recruitment of Shu1 to sites of DNA damage and replication stress?
+- question: How does Shu1 interact with other recombination factors to promote error-free repair?
+- question: What role does Shu1 play in preventing genome instability during DNA replication?
+suggested_experiments:
+- description: Live-cell imaging of Shu1-GFP to study its dynamics at sites of DNA damage
+- description: Genetic analysis of DNA repair pathway usage in Shu1 mutant cells
+- description: Proteomics analysis to identify Shu1 interacting partners during DNA repair
+- description: Single-molecule biophysics to study Shu1 function in homologous recombination

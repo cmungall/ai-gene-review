@@ -72,7 +72,11 @@ linkml_meta = LinkMLMeta({'default_prefix': 'gene_review',
      'id': 'https://w3id.org/ai4curation/gene_review',
      'imports': ['linkml:types'],
      'name': 'gene_curation',
-     'prefixes': {'dcat': {'prefix_prefix': 'dcat',
+     'prefixes': {'ECO': {'prefix_prefix': 'ECO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/ECO_'},
+                  'IAO': {'prefix_prefix': 'IAO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/IAO_'},
+                  'dcat': {'prefix_prefix': 'dcat',
                            'prefix_reference': 'http://www.w3.org/ns/dcat#'},
                   'dcterms': {'prefix_prefix': 'dcterms',
                               'prefix_reference': 'http://purl.org/dc/terms/'},
@@ -93,12 +97,113 @@ linkml_meta = LinkMLMeta({'default_prefix': 'gene_review',
      'source_file': 'src/ai_gene_review/schema/gene_review.yaml'} )
 
 class EvidenceType(str, Enum):
+    """
+    Gene Ontology evidence codes mapped to Evidence and Conclusion Ontology (ECO) terms
+    """
+    EXP = "EXP"
+    """
+    Inferred from Experiment
+    """
     IDA = "IDA"
-    IBA = "IBA"
-    ISS = "ISS"
-    TAS = "TAS"
+    """
+    Inferred from Direct Assay
+    """
+    IPI = "IPI"
+    """
+    Inferred from Physical Interaction
+    """
+    IMP = "IMP"
+    """
+    Inferred from Mutant Phenotype
+    """
+    IGI = "IGI"
+    """
+    Inferred from Genetic Interaction
+    """
     IEP = "IEP"
+    """
+    Inferred from Expression Pattern
+    """
+    HTP = "HTP"
+    """
+    Inferred from High Throughput Experiment
+    """
+    HDA = "HDA"
+    """
+    Inferred from High Throughput Direct Assay
+    """
+    HMP = "HMP"
+    """
+    Inferred from High Throughput Mutant Phenotype
+    """
+    HGI = "HGI"
+    """
+    Inferred from High Throughput Genetic Interaction
+    """
+    HEP = "HEP"
+    """
+    Inferred from High Throughput Expression Pattern
+    """
+    IBA = "IBA"
+    """
+    Inferred from Biological aspect of Ancestor
+    """
+    IBD = "IBD"
+    """
+    Inferred from Biological aspect of Descendant
+    """
+    IKR = "IKR"
+    """
+    Inferred from Key Residues
+    """
+    IRD = "IRD"
+    """
+    Inferred from Rapid Divergence
+    """
+    ISS = "ISS"
+    """
+    Inferred from Sequence or structural Similarity
+    """
+    ISO = "ISO"
+    """
+    Inferred from Sequence Orthology
+    """
+    ISA = "ISA"
+    """
+    Inferred from Sequence Alignment
+    """
+    ISM = "ISM"
+    """
+    Inferred from Sequence Model
+    """
     IGC = "IGC"
+    """
+    Inferred from Genomic Context
+    """
+    RCA = "RCA"
+    """
+    Inferred from Reviewed Computational Analysis
+    """
+    TAS = "TAS"
+    """
+    Traceable Author Statement
+    """
+    NAS = "NAS"
+    """
+    Non-traceable Author Statement
+    """
+    IC = "IC"
+    """
+    Inferred by Curator
+    """
+    ND = "ND"
+    """
+    No biological Data available
+    """
+    IEA = "IEA"
+    """
+    Inferred from Electronic Annotation
+    """
 
 
 class ActionEnum(str, Enum):
@@ -132,7 +237,7 @@ class ActionEnum(str, Enum):
     """
     NEW = "NEW"
     """
-    This is a proposed annotation, not one that exists in the existing GO annotations
+    This is a proposed annotation, not one that exists in the existing GO annotations. Use this to propose a new annotation not covered by the existing GO annotations. Use this conservatively, do not over-annotate, especially for biological process. Do not use for indirect or pleiotropic effects. Be sure you have good evidence, this can be from multiple sources.
     """
 
 
@@ -171,6 +276,60 @@ class GOProteinContainingComplexEnum(str):
     pass
 
 
+class ManuscriptSection(str, Enum):
+    """
+    Sections of a scientific manuscript or publication
+    """
+    TITLE = "TITLE"
+    """
+    Title section
+    """
+    ABSTRACT = "ABSTRACT"
+    """
+    Abstract
+    """
+    KEYWORDS = "KEYWORDS"
+    """
+    Keywords
+    """
+    INTRODUCTION = "INTRODUCTION"
+    """
+    Introduction/Background
+    """
+    LITERATURE_REVIEW = "LITERATURE_REVIEW"
+    """
+    Literature review
+    """
+    METHODS = "METHODS"
+    """
+    Methods/Materials and Methods
+    """
+    RESULTS = "RESULTS"
+    """
+    Results
+    """
+    DISCUSSION = "DISCUSSION"
+    """
+    Discussion
+    """
+    CONCLUSIONS = "CONCLUSIONS"
+    """
+    Conclusions
+    """
+    APPENDICES = "APPENDICES"
+    """
+    Appendices
+    """
+    SUPPLEMENTARY_MATERIAL = "SUPPLEMENTARY_MATERIAL"
+    """
+    Supplementary material
+    """
+    OTHER = "OTHER"
+    """
+    Other main text section
+    """
+
+
 
 class GeneReview(ConfiguredBaseModel):
     """
@@ -181,12 +340,15 @@ class GeneReview(ConfiguredBaseModel):
     id: str = Field(default=..., json_schema_extra = { "linkml_meta": {'alias': 'id', 'domain_of': ['GeneReview', 'Term', 'Reference']} })
     gene_symbol: str = Field(default=..., description="""Symbol of the gene""", json_schema_extra = { "linkml_meta": {'alias': 'gene_symbol', 'domain_of': ['GeneReview']} })
     aliases: Optional[list[str]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'aliases', 'domain_of': ['GeneReview']} })
-    description: Optional[str] = Field(default=None, description="""Description of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'description', 'domain_of': ['GeneReview', 'Term', 'CoreFunction']} })
+    description: Optional[str] = Field(default=None, description="""Description of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'description',
+         'domain_of': ['GeneReview', 'Term', 'CoreFunction', 'Experiment']} })
     taxon: Optional[Term] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'taxon', 'domain_of': ['GeneReview']} })
     references: Optional[list[Reference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'references', 'domain_of': ['GeneReview']} })
     existing_annotations: Optional[list[ExistingAnnotation]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'existing_annotations', 'domain_of': ['GeneReview']} })
     core_functions: Optional[list[CoreFunction]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'core_functions', 'domain_of': ['GeneReview']} })
     proposed_new_terms: Optional[list[ProposedOntologyTerm]] = Field(default=None, description="""Proposed new ontology terms that should exist but don't""", json_schema_extra = { "linkml_meta": {'alias': 'proposed_new_terms', 'domain_of': ['GeneReview']} })
+    suggested_questions: Optional[list[Question]] = Field(default=None, description="""Suggested questions to ask experts about the gene. Only include if not obvious from the literature.""", json_schema_extra = { "linkml_meta": {'alias': 'suggested_questions', 'domain_of': ['GeneReview']} })
+    suggested_experiments: Optional[list[Experiment]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'suggested_experiments', 'domain_of': ['GeneReview']} })
 
 
 class Term(ConfiguredBaseModel):
@@ -197,7 +359,8 @@ class Term(ConfiguredBaseModel):
 
     id: str = Field(default=..., json_schema_extra = { "linkml_meta": {'alias': 'id', 'domain_of': ['GeneReview', 'Term', 'Reference']} })
     label: str = Field(default=..., description="""Human readable name of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'label', 'domain_of': ['Term']} })
-    description: Optional[str] = Field(default=None, description="""Description of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'description', 'domain_of': ['GeneReview', 'Term', 'CoreFunction']} })
+    description: Optional[str] = Field(default=None, description="""Description of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'description',
+         'domain_of': ['GeneReview', 'Term', 'CoreFunction', 'Experiment']} })
     ontology: Optional[str] = Field(default=None, description="""Ontology of the term. E.g `go`, `cl`, `hp`""", json_schema_extra = { "linkml_meta": {'alias': 'ontology', 'domain_of': ['Term']} })
 
 
@@ -211,6 +374,8 @@ class Reference(ConfiguredBaseModel):
     title: str = Field(default=..., description="""Title of the entity""", json_schema_extra = { "linkml_meta": {'alias': 'title', 'domain_of': ['Reference'], 'slot_uri': 'dcterms:title'} })
     findings: Optional[list[Finding]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'findings', 'domain_of': ['Reference']} })
     is_invalid: Optional[bool] = Field(default=None, description="""Whether the reference is invalid (e.g., retracted or replaced)""", json_schema_extra = { "linkml_meta": {'alias': 'is_invalid', 'domain_of': ['Reference']} })
+    full_text_unavailable: Optional[bool] = Field(default=None, description="""Whether the full text is unavailable""", json_schema_extra = { "linkml_meta": {'alias': 'full_text_unavailable',
+         'domain_of': ['Reference', 'Finding', 'SupportingTextInReference']} })
 
 
 class Finding(ConfiguredBaseModel):
@@ -223,8 +388,8 @@ class Finding(ConfiguredBaseModel):
     supporting_text: Optional[str] = Field(default=None, description="""Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'""", json_schema_extra = { "linkml_meta": {'alias': 'supporting_text',
          'domain_of': ['Finding', 'SupportingTextInReference']} })
     full_text_unavailable: Optional[bool] = Field(default=None, description="""Whether the full text is unavailable""", json_schema_extra = { "linkml_meta": {'alias': 'full_text_unavailable',
-         'domain_of': ['Finding', 'SupportingTextInReference']} })
-    reference_section_type: Optional[str] = Field(default=None, description="""Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')""", json_schema_extra = { "linkml_meta": {'alias': 'reference_section_type',
+         'domain_of': ['Reference', 'Finding', 'SupportingTextInReference']} })
+    reference_section_type: Optional[ManuscriptSection] = Field(default=None, description="""Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')""", json_schema_extra = { "linkml_meta": {'alias': 'reference_section_type',
          'domain_of': ['Finding', 'SupportingTextInReference']} })
 
 
@@ -238,8 +403,8 @@ class SupportingTextInReference(ConfiguredBaseModel):
     supporting_text: Optional[str] = Field(default=None, description="""Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'""", json_schema_extra = { "linkml_meta": {'alias': 'supporting_text',
          'domain_of': ['Finding', 'SupportingTextInReference']} })
     full_text_unavailable: Optional[bool] = Field(default=None, description="""Whether the full text is unavailable""", json_schema_extra = { "linkml_meta": {'alias': 'full_text_unavailable',
-         'domain_of': ['Finding', 'SupportingTextInReference']} })
-    reference_section_type: Optional[str] = Field(default=None, description="""Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')""", json_schema_extra = { "linkml_meta": {'alias': 'reference_section_type',
+         'domain_of': ['Reference', 'Finding', 'SupportingTextInReference']} })
+    reference_section_type: Optional[ManuscriptSection] = Field(default=None, description="""Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')""", json_schema_extra = { "linkml_meta": {'alias': 'reference_section_type',
          'domain_of': ['Finding', 'SupportingTextInReference']} })
 
 
@@ -260,7 +425,7 @@ class ExistingAnnotation(ConfiguredBaseModel):
          'domain_of': ['ExistingAnnotation', 'AnnotationExtension']} })
     extensions: Optional[list[AnnotationExtension]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'extensions', 'domain_of': ['ExistingAnnotation']} })
     negated: Optional[bool] = Field(default=None, description="""Whether the term is negated""", json_schema_extra = { "linkml_meta": {'alias': 'negated', 'domain_of': ['ExistingAnnotation']} })
-    evidence_type: Optional[str] = Field(default=None, description="""Evidence code (e.g., IDA, IBA, ISS, TAS)""", json_schema_extra = { "linkml_meta": {'alias': 'evidence_type', 'domain_of': ['ExistingAnnotation']} })
+    evidence_type: Optional[EvidenceType] = Field(default=None, description="""Evidence code (e.g., IDA, IBA, ISS, TAS)""", json_schema_extra = { "linkml_meta": {'alias': 'evidence_type', 'domain_of': ['ExistingAnnotation']} })
     original_reference_id: Optional[str] = Field(default=None, description="""ID of the original reference""", json_schema_extra = { "linkml_meta": {'alias': 'original_reference_id', 'domain_of': ['ExistingAnnotation']} })
     supporting_entities: Optional[list[str]] = Field(default=None, description="""IDs of the supporting entities""", json_schema_extra = { "linkml_meta": {'alias': 'supporting_entities', 'domain_of': ['ExistingAnnotation']} })
     review: Optional[Review] = Field(default=None, description="""Review of the gene""", json_schema_extra = { "linkml_meta": {'alias': 'review', 'domain_of': ['ExistingAnnotation'], 'recommended': True} })
@@ -287,7 +452,8 @@ class CoreFunction(ConfiguredBaseModel):
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/ai4curation/gene_review'})
 
-    description: Optional[str] = Field(default=None, description="""Description of the core function""", json_schema_extra = { "linkml_meta": {'alias': 'description', 'domain_of': ['GeneReview', 'Term', 'CoreFunction']} })
+    description: Optional[str] = Field(default=None, description="""Description of the core function""", json_schema_extra = { "linkml_meta": {'alias': 'description',
+         'domain_of': ['GeneReview', 'Term', 'CoreFunction', 'Experiment']} })
     supported_by: Optional[list[SupportingTextInReference]] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'supported_by',
          'domain_of': ['Review', 'CoreFunction', 'ProposedOntologyTerm']} })
     molecular_function: Optional[Term] = Field(default=None, json_schema_extra = { "linkml_meta": {'alias': 'molecular_function',
@@ -330,6 +496,28 @@ class ProposedOntologyTerm(ConfiguredBaseModel):
          'domain_of': ['Review', 'CoreFunction', 'ProposedOntologyTerm']} })
 
 
+class Experiment(ConfiguredBaseModel):
+    """
+    A suggested experiment to answer a question about the gene
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/ai4curation/gene_review'})
+
+    hypothesis: Optional[str] = Field(default=None, description="""Hypothesis to be investigated""", json_schema_extra = { "linkml_meta": {'alias': 'hypothesis', 'domain_of': ['Experiment'], 'recommended': True} })
+    description: str = Field(default=..., description="""Detailed description of the experiment to be performed""", json_schema_extra = { "linkml_meta": {'alias': 'description',
+         'domain_of': ['GeneReview', 'Term', 'CoreFunction', 'Experiment']} })
+    experiment_type: Optional[str] = Field(default=None, description="""Type of experiment or assay to answer the question""", json_schema_extra = { "linkml_meta": {'alias': 'experiment_type', 'domain_of': ['Experiment']} })
+
+
+class Question(ConfiguredBaseModel):
+    """
+    A question to be answered about the gene
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/ai4curation/gene_review'})
+
+    question: str = Field(default=..., description="""Question to be answered""", json_schema_extra = { "linkml_meta": {'alias': 'question', 'domain_of': ['Question']} })
+    experts: Optional[list[str]] = Field(default=None, description="""Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!""", json_schema_extra = { "linkml_meta": {'alias': 'experts', 'domain_of': ['Question']} })
+
+
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 GeneReview.model_rebuild()
@@ -342,4 +530,6 @@ Review.model_rebuild()
 CoreFunction.model_rebuild()
 AnnotationExtension.model_rebuild()
 ProposedOntologyTerm.model_rebuild()
+Experiment.model_rebuild()
+Question.model_rebuild()
 

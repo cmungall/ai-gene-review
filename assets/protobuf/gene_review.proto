@@ -24,17 +24,25 @@ message ExistingAnnotation
   term term = 0
  repeated  annotationExtension extensions = 0
   boolean negated = 0
-  string evidenceType = 0
+  evidenceType evidenceType = 0
   reference originalReferenceId = 0
  repeated  string supportingEntities = 0
   review review = 0
+ }
+// A suggested experiment to answer a question about the gene
+message Experiment
+ {
+  string hypothesis = 0
+  string description = 0
+  string experimentType = 0
  }
 // A finding is a statement about a gene, which is supported by a reference. Similar to "comments" in uniprot
 message Finding
  {
   string statement = 0
   string supportingText = 0
-  string referenceSectionType = 0
+  boolean fullTextUnavailable = 0
+  manuscriptSection referenceSectionType = 0
  }
 // Complete review for a gene
 message GeneReview
@@ -55,6 +63,13 @@ message ProposedOntologyTerm
   string proposedName = 0
   string proposedDefinition = 0
   string justification = 0
+ repeated  supportingTextInReference supportedBy = 0
+ }
+// A question to be answered about the gene
+message Question
+ {
+  string question = 0
+ repeated  string experts = 0
  }
 // A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.
 message Reference
@@ -63,6 +78,7 @@ message Reference
   string title = 0
  repeated  finding findings = 0
   boolean isInvalid = 0
+  boolean fullTextUnavailable = 0
  }
 // A review of an existing annotation.
 message Review
@@ -79,7 +95,8 @@ message SupportingTextInReference
  {
   reference referenceId = 0
   string supportingText = 0
-  string referenceSectionType = 0
+  boolean fullTextUnavailable = 0
+  manuscriptSection referenceSectionType = 0
  }
 // A term in a specific ontology
 message Term

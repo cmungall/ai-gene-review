@@ -8,16 +8,53 @@ enum ActionEnum
     MARK_AS_OVER_ANNOTATED
     UNDECIDED
     PENDING
+    NEW
   }
 
 enum EvidenceType
   {
+    EXP
     IDA
-    IBA
-    ISS
-    TAS
+    IPI
+    IMP
+    IGI
     IEP
+    HTP
+    HDA
+    HMP
+    HGI
+    HEP
+    IBA
+    IBD
+    IKR
+    IRD
+    ISS
+    ISO
+    ISA
+    ISM
     IGC
+    RCA
+    TAS
+    NAS
+    IC
+    ND
+    IEA
+  }
+
+enum ManuscriptSection
+  {
+    TITLE
+    ABSTRACT
+    KEYWORDS
+    INTRODUCTION
+    LITERATURE_REVIEW
+    METHODS
+    RESULTS
+    DISCUSSION
+    CONCLUSIONS
+    APPENDICES
+    SUPPLEMENTARY_MATERIAL
+    OTHER
   }
 
 type AnnotationExtension
@@ -43,17 +80,25 @@ type ExistingAnnotation
     term: Term
     extensions: [AnnotationExtension]
     negated: Boolean
-    evidenceType: String
+    evidenceType: EvidenceType
     originalReferenceId: Reference
     supportingEntities: [String]
     review: Review
+  }
+
+type Experiment
+  {
+    hypothesis: String!
+    description: String!
+    experimentType: String
   }
 
 type Finding
   {
     statement: String
     supportingText: String
-    referenceSectionType: String
+    fullTextUnavailable: Boolean
+    referenceSectionType: ManuscriptSection
   }
 
 type GeneReview
@@ -74,6 +119,13 @@ type ProposedOntologyTerm
     proposedName: String!
     proposedDefinition: String!
     justification: String
+    supportedBy: [SupportingTextInReference]
+  }
+
+type Question
+  {
+    question: String!
+    experts: [String]
   }
 
 type Reference
@@ -82,6 +134,7 @@ type Reference
     title: String!
     findings: [Finding]
     isInvalid: Boolean
+    fullTextUnavailable: Boolean
   }
 
 type Review
@@ -98,7 +151,8 @@ type SupportingTextInReference
   {
     referenceId: Reference
     supportingText: String
-    referenceSectionType: String
+    fullTextUnavailable: Boolean
+    referenceSectionType: ManuscriptSection
   }
 
 type Term

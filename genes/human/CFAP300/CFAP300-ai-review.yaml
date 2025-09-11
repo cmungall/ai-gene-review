@@ -273,3 +273,14 @@ core_functions:
     label: CFAP300-DNAL1 complex
     description: Assembly intermediate containing CFAP300 bound to dynein light chain
       DNAL1
+
+suggested_questions:
+- question: How does CFAP300 coordinate with other cilia and flagella associated proteins to ensure proper axoneme assembly and stability?
+- question: What are the molecular mechanisms by which CFAP300 contributes to ciliary motility and sperm flagellar function?
+- question: How do mutations in CFAP300 lead to primary ciliary dyskinesia and male infertility at the cellular and molecular level?
+- question: What role does CFAP300 play in the radial spoke complex and how does it interact with dynein arms?
+suggested_experiments:
+- description: Cryo-electron tomography of cilia and sperm flagella from CFAP300-deficient cells to visualize ultrastructural defects in the axoneme
+- description: High-resolution live-cell imaging to track CFAP300 dynamics during ciliogenesis and correlate with ciliary beating patterns
+- description: Proteomics analysis of the radial spoke complex to map CFAP300 protein-protein interactions and assembly hierarchy
+- description: CRISPR-mediated knock-in of disease-associated CFAP300 variants to study structure-function relationships in ciliary motility

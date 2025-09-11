@@ -42,6 +42,14 @@
     {
       "prefix_prefix": "dcterms",
       "prefix_reference": "http://purl.org/dc/terms/"
+    },
+    {
+      "prefix_prefix": "ECO",
+      "prefix_reference": "http://purl.obolibrary.org/obo/ECO_"
+    },
+    {
+      "prefix_prefix": "IAO",
+      "prefix_reference": "http://purl.obolibrary.org/obo/IAO_"
     }
   ],
   "default_prefix": "gene_review",
@@ -360,25 +368,138 @@
     {
       "name": "EvidenceType",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/EvidenceType",
+      "description": "Gene Ontology evidence codes mapped to Evidence and Conclusion Ontology (ECO) terms",
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "permissible_values": [
         {
-          "text": "IDA"
+          "text": "EXP",
+          "description": "Inferred from Experiment",
+          "meaning": "ECO:0000269"
         },
         {
-          "text": "IBA"
+          "text": "IDA",
+          "description": "Inferred from Direct Assay",
+          "meaning": "ECO:0000314"
         },
         {
-          "text": "ISS"
+          "text": "IPI",
+          "description": "Inferred from Physical Interaction",
+          "meaning": "ECO:0000353"
         },
         {
-          "text": "TAS"
+          "text": "IMP",
+          "description": "Inferred from Mutant Phenotype",
+          "meaning": "ECO:0000315"
         },
         {
-          "text": "IEP"
+          "text": "IGI",
+          "description": "Inferred from Genetic Interaction",
+          "meaning": "ECO:0000316"
         },
         {
-          "text": "IGC"
+          "text": "IEP",
+          "description": "Inferred from Expression Pattern",
+          "meaning": "ECO:0000270"
+        },
+        {
+          "text": "HTP",
+          "description": "Inferred from High Throughput Experiment",
+          "meaning": "ECO:0006056"
+        },
+        {
+          "text": "HDA",
+          "description": "Inferred from High Throughput Direct Assay",
+          "meaning": "ECO:0007005"
+        },
+        {
+          "text": "HMP",
+          "description": "Inferred from High Throughput Mutant Phenotype",
+          "meaning": "ECO:0007001"
+        },
+        {
+          "text": "HGI",
+          "description": "Inferred from High Throughput Genetic Interaction",
+          "meaning": "ECO:0007003"
+        },
+        {
+          "text": "HEP",
+          "description": "Inferred from High Throughput Expression Pattern",
+          "meaning": "ECO:0007007"
+        },
+        {
+          "text": "IBA",
+          "description": "Inferred from Biological aspect of Ancestor",
+          "meaning": "ECO:0000318"
+        },
+        {
+          "text": "IBD",
+          "description": "Inferred from Biological aspect of Descendant",
+          "meaning": "ECO:0000319"
+        },
+        {
+          "text": "IKR",
+          "description": "Inferred from Key Residues",
+          "meaning": "ECO:0000320"
+        },
+        {
+          "text": "IRD",
+          "description": "Inferred from Rapid Divergence",
+          "meaning": "ECO:0000321"
+        },
+        {
+          "text": "ISS",
+          "description": "Inferred from Sequence or structural Similarity",
+          "meaning": "ECO:0000250"
+        },
+        {
+          "text": "ISO",
+          "description": "Inferred from Sequence Orthology",
+          "meaning": "ECO:0000266"
+        },
+        {
+          "text": "ISA",
+          "description": "Inferred from Sequence Alignment",
+          "meaning": "ECO:0000247"
+        },
+        {
+          "text": "ISM",
+          "description": "Inferred from Sequence Model",
+          "meaning": "ECO:0000255"
+        },
+        {
+          "text": "IGC",
+          "description": "Inferred from Genomic Context",
+          "meaning": "ECO:0000317"
+        },
+        {
+          "text": "RCA",
+          "description": "Inferred from Reviewed Computational Analysis",
+          "meaning": "ECO:0000245"
+        },
+        {
+          "text": "TAS",
+          "description": "Traceable Author Statement",
+          "meaning": "ECO:0000304"
+        },
+        {
+          "text": "NAS",
+          "description": "Non-traceable Author Statement",
+          "meaning": "ECO:0000303"
+        },
+        {
+          "text": "IC",
+          "description": "Inferred by Curator",
+          "meaning": "ECO:0000305"
+        },
+        {
+          "text": "ND",
+          "description": "No biological Data available",
+          "meaning": "ECO:0000307"
+        },
+        {
+          "text": "IEA",
+          "description": "Inferred from Electronic Annotation",
+          "meaning": "ECO:0000501"
         }
       ]
     },
@@ -414,6 +535,10 @@
         {
           "text": "PENDING",
           "description": "The review entry is a stub, and the review has not been completed yet."
+        },
+        {
+          "text": "NEW",
+          "description": "This is a proposed annotation, not one that exists in the existing GO annotations. Use this to propose a new annotation not covered by the existing GO annotations. Use this conservatively, do not over-annotate, especially for biological process. Do not use for indirect or pleiotropic effects. Be sure you have good evidence, this can be from multiple sources."
         }
       ]
     },
@@ -468,7 +593,7 @@
       "from_schema": "https://w3id.org/ai4curation/gene_review",
       "reachable_from": {
         "source_nodes": [
-          "GO:GO:0110165"
+          "GO:0110165"
         ],
         "relationship_types": [
           "rdfs:subClassOf"
@@ -488,6 +613,181 @@
           "rdfs:subClassOf"
         ]
       }
+    },
+    {
+      "name": "ManuscriptSection",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/ManuscriptSection",
+      "description": "Sections of a scientific manuscript or publication",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "permissible_values": [
+        {
+          "text": "TITLE",
+          "description": "Title section",
+          "meaning": "IAO:0000305",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "ABSTRACT",
+          "description": "Abstract",
+          "meaning": "IAO:0000315",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 3
+            },
+            {
+              "tag": "typical_length",
+              "value": "150-300 words"
+            }
+          ]
+        },
+        {
+          "text": "KEYWORDS",
+          "description": "Keywords",
+          "meaning": "IAO:0000630",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "text": "INTRODUCTION",
+          "description": "Introduction/Background",
+          "meaning": "IAO:0000316",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 5
+            },
+            {
+              "tag": "aliases",
+              "value": "Background"
+            }
+          ]
+        },
+        {
+          "text": "LITERATURE_REVIEW",
+          "description": "Literature review",
+          "meaning": "IAO:0000639",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 6
+            },
+            {
+              "tag": "optional",
+              "value": true
+            }
+          ]
+        },
+        {
+          "text": "METHODS",
+          "description": "Methods/Materials and Methods",
+          "meaning": "IAO:0000317",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 7
+            },
+            {
+              "tag": "aliases",
+              "value": "Materials and Methods, Methodology, Experimental"
+            }
+          ]
+        },
+        {
+          "text": "RESULTS",
+          "description": "Results",
+          "meaning": "IAO:0000318",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 8
+            },
+            {
+              "tag": "aliases",
+              "value": "Findings"
+            }
+          ]
+        },
+        {
+          "text": "DISCUSSION",
+          "description": "Discussion",
+          "meaning": "IAO:0000319",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "text": "CONCLUSIONS",
+          "description": "Conclusions",
+          "meaning": "IAO:0000615",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 10
+            },
+            {
+              "tag": "aliases",
+              "value": "Conclusion"
+            }
+          ]
+        },
+        {
+          "text": "APPENDICES",
+          "description": "Appendices",
+          "meaning": "IAO:0000326",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 13
+            },
+            {
+              "tag": "aliases",
+              "value": "Appendix"
+            }
+          ]
+        },
+        {
+          "text": "SUPPLEMENTARY_MATERIAL",
+          "description": "Supplementary material",
+          "meaning": "IAO:0000326",
+          "annotations": [
+            {
+              "tag": "order",
+              "value": 14
+            },
+            {
+              "tag": "aliases",
+              "value": "Supporting Information, Supplemental Data"
+            },
+            {
+              "tag": "location",
+              "value": "often online-only"
+            }
+          ]
+        },
+        {
+          "text": "OTHER",
+          "description": "Other main text section",
+          "annotations": [
+            {
+              "tag": "catch_all",
+              "value": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "slots": [
@@ -663,6 +963,21 @@
       "@type": "SlotDefinition"
     },
     {
+      "name": "full_text_unavailable",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/full_text_unavailable",
+      "description": "Whether the full text is unavailable",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/full_text_unavailable",
+      "owner": "SupportingTextInReference",
+      "domain_of": [
+        "Reference",
+        "Finding",
+        "SupportingTextInReference"
+      ],
+      "range": "boolean",
+      "@type": "SlotDefinition"
+    },
+    {
       "name": "evidence_type",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/evidence_type",
       "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)",
@@ -672,7 +987,7 @@
       "domain_of": [
         "ExistingAnnotation"
       ],
-      "range": "string",
+      "range": "EvidenceType",
       "@type": "SlotDefinition"
     },
     {
@@ -918,7 +1233,7 @@
         "Finding",
         "SupportingTextInReference"
       ],
-      "range": "string",
+      "range": "ManuscriptSection",
       "@type": "SlotDefinition"
     },
     {
@@ -932,6 +1247,27 @@
         "GeneReview"
       ],
       "range": "ProposedOntologyTerm",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "suggested_questions",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/suggested_questions",
+      "description": "Suggested questions to ask experts about the gene. Only include if not obvious from the literature.",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/suggested_questions",
+      "range": "Question",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "suggested_experiments",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/suggested_experiments",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/suggested_experiments",
+      "range": "Experiment",
       "multivalued": true,
       "inlined": true,
       "@type": "SlotDefinition"
@@ -1127,6 +1463,89 @@
       "@type": "SlotDefinition"
     },
     {
+      "name": "proposedOntologyTerm__supported_by",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/supported_by",
+      "alias": "supported_by",
+      "owner": "ProposedOntologyTerm",
+      "domain_of": [
+        "ProposedOntologyTerm"
+      ],
+      "range": "SupportingTextInReference",
+      "multivalued": true,
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "experiment__hypothesis",
+      "description": "Hypothesis to be investigated",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/hypothesis",
+      "alias": "hypothesis",
+      "owner": "Experiment",
+      "domain_of": [
+        "Experiment"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "experiment__description",
+      "description": "Detailed description of the experiment to be performed",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/description",
+      "alias": "description",
+      "owner": "Experiment",
+      "domain_of": [
+        "Experiment"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "experiment__experiment_type",
+      "description": "Type of experiment or assay to answer the question",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/experiment_type",
+      "alias": "experiment_type",
+      "owner": "Experiment",
+      "domain_of": [
+        "Experiment"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "question__question",
+      "description": "Question to be answered",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/question",
+      "alias": "question",
+      "owner": "Question",
+      "domain_of": [
+        "Question"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "question__experts",
+      "description": "Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slot_uri": "https://w3id.org/ai4curation/gene_review/experts",
+      "alias": "experts",
+      "owner": "Question",
+      "domain_of": [
+        "Question"
+      ],
+      "range": "string",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
       "name": "ExistingAnnotation_term",
       "definition_uri": "https://w3id.org/ai4curation/gene_review/term",
       "description": "Term to be annotated",
@@ -1204,7 +1623,8 @@
         "id",
         "title",
         "findings",
-        "is_invalid"
+        "is_invalid",
+        "full_text_unavailable"
       ],
       "slot_usage": {},
       "class_uri": "https://w3id.org/ai4curation/gene_review/Reference",
@@ -1218,6 +1638,7 @@
       "slots": [
         "statement",
         "supporting_text",
+        "full_text_unavailable",
         "reference_section_type"
       ],
       "slot_usage": {},
@@ -1232,6 +1653,7 @@
       "slots": [
         "reference_id",
         "supporting_text",
+        "full_text_unavailable",
         "reference_section_type"
       ],
       "slot_usage": {},
@@ -1402,7 +1824,8 @@
       "slots": [
         "proposedOntologyTerm__proposed_name",
         "proposedOntologyTerm__proposed_definition",
-        "proposedOntologyTerm__justification"
+        "proposedOntologyTerm__justification",
+        "proposedOntologyTerm__supported_by"
       ],
       "slot_usage": {},
       "attributes": [
@@ -1425,17 +1848,88 @@
           "description": "Justification for why this term is needed",
           "range": "string",
           "@type": "SlotDefinition"
+        },
+        {
+          "name": "supported_by",
+          "range": "SupportingTextInReference",
+          "multivalued": true,
+          "@type": "SlotDefinition"
         }
       ],
       "class_uri": "https://w3id.org/ai4curation/gene_review/ProposedOntologyTerm",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Experiment",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Experiment",
+      "description": "A suggested experiment to answer a question about the gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "experiment__hypothesis",
+        "experiment__description",
+        "experiment__experiment_type"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "hypothesis",
+          "description": "Hypothesis to be investigated",
+          "range": "string",
+          "required": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "description",
+          "description": "Detailed description of the experiment to be performed",
+          "range": "string",
+          "required": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "experiment_type",
+          "description": "Type of experiment or assay to answer the question",
+          "range": "string",
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Experiment",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Question",
+      "definition_uri": "https://w3id.org/ai4curation/gene_review/Question",
+      "description": "A question to be answered about the gene",
+      "from_schema": "https://w3id.org/ai4curation/gene_review",
+      "slots": [
+        "question__question",
+        "question__experts"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "question",
+          "description": "Question to be answered",
+          "range": "string",
+          "required": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "experts",
+          "description": "Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!",
+          "range": "string",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/ai4curation/gene_review/Question",
       "@type": "ClassDefinition"
     }
   ],
   "metamodel_version": "1.7.0",
   "source_file": "gene_review.yaml",
-  "source_file_date": "2025-08-31T14:44:38",
-  "source_file_size": 10502,
-  "generation_date": "2025-08-31T14:45:56",
+  "source_file_date": "2025-09-10T11:02:02",
+  "source_file_size": 17862,
+  "generation_date": "2025-09-10T11:02:04",
   "@type": "SchemaDefinition",
   "@context": [
     "assets/jsonld/gene_review.context.jsonld",

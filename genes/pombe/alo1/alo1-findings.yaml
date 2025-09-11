@@ -1,0 +1,33 @@
+# Extracted findings from publications for alo1 gene review
+
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission yeast Schizosaccharomyces pombe.
+  findings:
+    - statement: Large-scale proteome localization study confirmed mitochondrial localization for 4,431 proteins in S. pombe, representing approximately 90% of the proteome
+      supporting_text: "we determined the localization of 4,431 proteins, corresponding to approximately 90% of the fission yeast proteome, by tagging each ORF with the yellow fluorescent protein"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+
+- id: PMID:39775849
+  title: A protein interaction map of the myosin Myo2 reveals a role for Alo1 in mitochondrial inheritance in yeast.
+  findings:
+    - statement: S. cerevisiae Alo1 physically binds to the myosin V motor protein Myo2
+      supporting_text: "To search for novel components involved in this process, we performed a protein fragment complementation screen using the cargo-binding domain of Myo2, the major organelle transporter in yeast, as bait and a genome-wide strain collection expressing yeast proteins as prey. One robust hit was Alo1"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Alo1 is anchored to the mitochondrial outer membrane in S. cerevisiae
+      supporting_text: "Alo1, a poorly characterized D-arabinono-1,4-lactone oxidase located in the mitochondrial outer membrane"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Deletion of ALO1 causes abnormal mitochondrial morphology and inheritance defects
+      supporting_text: "We found that mutants lacking Alo1 exhibited defects in mitochondrial morphology and inheritance"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Alo1 activity is particularly important for mitochondrial inheritance under oxidative stress conditions
+      supporting_text: "During oxidative stress, dysfunctional mitochondria are immobilized in the mother in wild-type cells. Intriguingly, overexpression of ALO1 restored bud-directed transport of mitochondria under these conditions"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true
+    - statement: Alo1 supports recruitment of Myo2 to mitochondria for proper organelle partitioning
+      supporting_text: "We propose that Alo1 supports the recruitment of Myo2 to mitochondria and its activity is particularly important under oxidative stress"
+      reference_section_type: ABSTRACT
+      full_text_unavailable: true

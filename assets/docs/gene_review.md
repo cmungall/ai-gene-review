@@ -15,9 +15,11 @@ Schema for gene curation Top level entity is a GeneReview, which is about a sing
  * [AnnotationExtension](AnnotationExtension.md)
  * [CoreFunction](CoreFunction.md) - A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation.
  * [ExistingAnnotation](ExistingAnnotation.md) - An existing annotation from the GO database, plus a review of the annotation.
+ * [Experiment](Experiment.md) - A suggested experiment to answer a question about the gene
  * [Finding](Finding.md) - A finding is a statement about a gene, which is supported by a reference. Similar to "comments" in uniprot
  * [GeneReview](GeneReview.md) - Complete review for a gene
  * [ProposedOntologyTerm](ProposedOntologyTerm.md) - A proposed new ontology term that should exist but doesn't currently
+ * [Question](Question.md) - A question to be answered about the gene
  * [Reference](Reference.md) - A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix.
  * [Review](Review.md) - A review of an existing annotation.
  * [SupportingTextInReference](SupportingTextInReference.md) - A supporting text in a reference.
@@ -43,8 +45,12 @@ Schema for gene curation Top level entity is a GeneReview, which is about a sing
  * [description](description.md) - Description of the entity
  * [evidence_type](evidence_type.md) - Evidence code (e.g., IDA, IBA, ISS, TAS)
  * [existing_annotations](existing_annotations.md)
+ * [➞description](experiment__description.md) - Detailed description of the experiment to be performed
+ * [➞experiment_type](experiment__experiment_type.md) - Type of experiment or assay to answer the question
+ * [➞hypothesis](experiment__hypothesis.md) - Hypothesis to be investigated
  * [extensions](extensions.md)
  * [findings](findings.md)
+ * [full_text_unavailable](full_text_unavailable.md) - Whether the full text is unavailable
  * [gene_symbol](gene_symbol.md) - Symbol of the gene
  * [id](id.md)
  * [is_invalid](is_invalid.md) - Whether the reference is invalid (e.g., retracted or replaced)
@@ -56,14 +62,19 @@ Schema for gene curation Top level entity is a GeneReview, which is about a sing
  * [➞justification](proposedOntologyTerm__justification.md) - Justification for why this term is needed
  * [➞proposed_definition](proposedOntologyTerm__proposed_definition.md) - Proposed definition for the new term
  * [➞proposed_name](proposedOntologyTerm__proposed_name.md) - Proposed name for the new term
+ * [➞supported_by](proposedOntologyTerm__supported_by.md)
  * [proposed_new_terms](proposed_new_terms.md) - Proposed new ontology terms that should exist but don't
  * [proposed_replacement_terms](proposed_replacement_terms.md) - Proposed replacement terms
+ * [➞experts](question__experts.md) - Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!
+ * [➞question](question__question.md) - Question to be answered
  * [reason](reason.md) - Reason for the action
  * [reference_id](reference_id.md)
  * [reference_section_type](reference_section_type.md) - Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')
  * [references](references.md)
  * [review](review.md) - Review of the gene
  * [statement](statement.md) - Concise statement describing an aspect of the gene
+ * [suggested_experiments](suggested_experiments.md)
+ * [suggested_questions](suggested_questions.md) - Suggested questions to ask experts about the gene. Only include if not obvious from the literature.
  * [summary](summary.md) - Summary of the review
  * [supported_by](supported_by.md)
  * [supporting_entities](supporting_entities.md) - IDs of the supporting entities
@@ -76,12 +87,13 @@ Schema for gene curation Top level entity is a GeneReview, which is about a sing
 ### Enums
 
  * [ActionEnum](ActionEnum.md)
- * [EvidenceType](EvidenceType.md)
+ * [EvidenceType](EvidenceType.md) - Gene Ontology evidence codes mapped to Evidence and Conclusion Ontology (ECO) terms
  * [GOBiologicalProcessEnum](GOBiologicalProcessEnum.md) - A biological process term in the GO ontology
  * [GOCellularLocationEnum](GOCellularLocationEnum.md) - A cellular location term in the GO ontology (excludes protein-containing complexes)
  * [GOMolecularActivityEnum](GOMolecularActivityEnum.md) - A molecular activity term in the GO ontology
  * [GOProteinContainingComplexEnum](GOProteinContainingComplexEnum.md) - A protein-containing complex term in the GO ontology
  * [GOTermEnum](GOTermEnum.md) - A term in the GO ontology
+ * [ManuscriptSection](ManuscriptSection.md) - Sections of a scientific manuscript or publication
 
 ### Subsets
 

@@ -1247,3 +1247,14 @@ core_functions:
 - description: DNA (cytosine-5-)-methyltransferase activity (GO:0003886) - catalyzes the methylation of cytosine residues at the 5-position in CpG dinucleotides using S-adenosyl-L-methionine as methyl donor, with preference for hemimethylated sites during DNA replication
 - description: chromosomal DNA methylation maintenance following DNA replication (GO:0141119) - maintains DNA methylation patterns during replication by targeting hemimethylated CpG sites on newly synthesized DNA strands
 - description: negative regulation of gene expression via chromosomal CpG island methylation (GO:0044027) - silences genes through CpG island hypermethylation, leading to recruitment of methyl-CpG binding proteins and chromatin remodeling complexes
+
+suggested_questions:
+- question: How does DNMT1 maintain DNA methylation patterns during DNA replication while allowing for dynamic changes in gene expression?
+- question: What determines the specificity of DNMT1 for hemimethylated CpG sites and how does it avoid de novo methylation?
+- question: How do DNMT1-interacting proteins like PCNA and UHRF1 coordinate replication-coupled maintenance methylation?
+- question: What are the mechanisms by which DNMT1 dysfunction leads to genome instability and cancer development?
+suggested_experiments:
+- description: Single-molecule imaging of DNMT1 dynamics at replication forks to study maintenance methylation in real-time
+- description: Genome-wide bisulfite sequencing combined with DNMT1 ChIP-seq to map methylation maintenance across the genome
+- description: Cryo-EM structural determination of DNMT1 in complex with DNA and regulatory proteins like UHRF1 and PCNA
+- description: Chemical biology approaches using methyltransferase inhibitors to study the role of DNMT1 in epigenetic inheritance

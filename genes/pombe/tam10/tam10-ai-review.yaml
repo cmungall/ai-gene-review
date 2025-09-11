@@ -96,3 +96,14 @@ core_functions:
   locations:
   - id: GO:0005575
     label: cellular_component
+
+suggested_questions:
+- question: How does tam10 regulate meiotic progression and what specific processes does it control?
+- question: What determines the meiosis-specific expression and function of tam10?
+- question: How does tam10 interact with other meiotic regulators to ensure proper chromosome segregation?
+- question: What role does tam10 play in meiotic quality control and error prevention?
+suggested_experiments:
+- description: Live-cell imaging during meiosis to study tam10 localization and dynamics
+- description: RNA-seq analysis of meiotic cells to identify tam10-dependent gene expression programs
+- description: Cytological analysis of chromosome behavior in tam10 mutant meioses
+- description: Proteomics analysis to identify tam10 interacting partners during meiotic progression
