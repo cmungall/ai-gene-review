@@ -33,3 +33,14 @@ core_functions:
     supporting_text: "Immunohistochemistry data from the Human Protein Atlas indicate that C18orf21 is present in both the cytoplasm and nucleus of cells in multiple tissues"
   - reference_id: file:human/C18orf21/C18orf21-bioinformatics/RESULTS.md
     supporting_text: "Isoelectric Point (pI): 10.27 ... Predicted Disordered Regions: Residues 22-199 (disorder-promoting residue enriched)"
+
+suggested_questions:
+- question: What is the molecular function of C18orf21 and how does it contribute to cellular processes?
+- question: How is C18orf21 expression regulated and what determines its tissue-specific distribution?
+- question: What are the protein domains and structural features that define C18orf21 function?
+- question: How does C18orf21 interact with other cellular proteins and what pathways does it regulate?
+suggested_experiments:
+- description: Proteomics approaches using affinity purification and mass spectrometry to identify C18orf21 interacting partners
+- description: Structural characterization using X-ray crystallography or NMR to determine the three-dimensional structure of C18orf21
+- description: Functional genomics screens using CRISPR knockout to identify cellular processes dependent on C18orf21
+- description: Subcellular localization studies using fluorescent protein fusions to determine C18orf21 cellular distribution

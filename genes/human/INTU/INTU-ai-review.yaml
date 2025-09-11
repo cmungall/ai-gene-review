@@ -594,3 +594,14 @@ core_functions:
   locations:
     - id: GO:0036064
       label: ciliary basal body
+
+suggested_questions:
+- question: How does INTU regulate intraflagellar transport and what specific cargo does it help transport within cilia?
+- question: What are the molecular mechanisms by which INTU coordinates ciliary assembly with cell cycle progression?
+- question: How do mutations in INTU lead to left-right asymmetry defects and what role does it play in nodal cilia function?
+- question: What determines the specificity of INTU interactions with different intraflagellar transport complexes?
+suggested_experiments:
+- description: Super-resolution microscopy to track INTU and IFT particle movements along the ciliary axoneme with nanometer precision
+- description: Biochemical reconstitution of IFT complexes containing INTU to study cargo loading and transport mechanisms in vitro
+- description: Developmental analysis of left-right patterning in INTU mutant embryos using whole-mount in situ hybridization
+- description: Proteomics analysis of INTU-associated complexes during different stages of ciliogenesis

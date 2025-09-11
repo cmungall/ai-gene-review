@@ -329,3 +329,17 @@ proposed_new_terms:
     for activity.
   justification: Distinguishes lanthanide-dependent enzymes from calcium-dependent
     PQQ dehydrogenases, which is functionally and evolutionarily significant.
+suggested_questions:
+- question: What structural features of PedH enable selective binding of lanthanides
+    over more abundant calcium ions?
+- question: How does lanthanide availability in the environment regulate the expression
+    and activity of PedH versus calcium-dependent alcohol dehydrogenases?
+- question: What is the electronic basis for the enhanced catalytic efficiency of
+    lanthanide-PQQ complexes compared to calcium-PQQ?
+suggested_experiments:
+- description: X-ray absorption spectroscopy to characterize lanthanide coordination
+    geometry and electronic structure in the active site
+- description: Competition assays with various lanthanides to determine binding affinity
+    hierarchy and catalytic efficiency
+- description: Environmental metagenomics to correlate pedH gene abundance with soil
+    lanthanide concentrations

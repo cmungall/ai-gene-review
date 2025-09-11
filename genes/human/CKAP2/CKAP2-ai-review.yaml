@@ -289,3 +289,14 @@ core_functions:
     label: microtubule
   - id: GO:0005813
     label: centrosome
+
+suggested_questions:
+- question: How does CKAP2 coordinate with other cytoskeletal proteins to regulate microtubule dynamics during cell division?
+- question: What determines the cell cycle-dependent expression and phosphorylation of CKAP2?
+- question: How does CKAP2 contribute to proper chromosome segregation and what are the consequences of its dysfunction?
+- question: What role does CKAP2 play in non-mitotic cells and how does it affect microtubule organization in interphase?
+suggested_experiments:
+- description: Live-cell imaging of fluorescently tagged CKAP2 to study its dynamics during mitosis and cell division
+- description: Cryo-electron tomography of mitotic spindles in CKAP2-depleted cells to visualize microtubule organization defects
+- description: Proteomics analysis to identify CKAP2 interacting partners and phosphorylation sites throughout the cell cycle
+- description: Single-molecule biophysics to study CKAP2 interactions with microtubules and effects on microtubule stability

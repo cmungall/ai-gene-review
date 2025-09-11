@@ -139,3 +139,17 @@ references:
 - id: GO_REF:0000120
   title: Combined Automated Annotation using Multiple IEA Methods.
   findings: []
+suggested_questions:
+- question: How does NifA sense and integrate multiple environmental signals (oxygen, 
+    nitrogen availability) to precisely control nitrogenase expression?
+- question: What is the structural basis for NifA's interaction with σ54 and how does
+    ATP hydrolysis drive the conformational changes needed for promoter opening?
+- question: How do the GAF and PAS domains coordinate to regulate NifA activity in 
+    response to cellular redox state?
+suggested_experiments:
+- description: Single-molecule fluorescence studies to visualize real-time NifA-σ54
+    interactions and promoter remodeling dynamics
+- description: Cryo-EM analysis of NifA-σ54-DNA complexes in different nucleotide
+    states to capture the transcription activation mechanism
+- description: Optogenetic control of NifA domains to dissect signal integration and
+    activation pathways in living cells

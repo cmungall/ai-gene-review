@@ -1153,3 +1153,14 @@ references:
 - id: PMID:9881977
   title: Direct suppression of Stat1 function during adenoviral infection.
   findings: []
+
+suggested_questions:
+- question: How does STAT1 achieve gene-specific transcriptional regulation and what determines its chromatin binding specificity?
+- question: What are the molecular mechanisms that distinguish STAT1 homodimer from STAT1-STAT2 heterodimer function?
+- question: How do post-translational modifications of STAT1 regulate its nuclear translocation, DNA binding, and transcriptional activity?
+- question: What role does STAT1 play in balancing immune activation versus immunosuppression in different disease contexts?
+suggested_experiments:
+- description: ChIP-seq combined with RNA-seq to map genome-wide STAT1 binding sites and correlate with transcriptional outcomes in different immune contexts
+- description: Single-molecule imaging of STAT1 nuclear translocation and chromatin binding dynamics in response to interferon stimulation
+- description: Cryo-EM structural determination of STAT1 dimers bound to DNA and associated transcriptional co-regulators
+- description: Mass spectrometry-based analysis of STAT1 post-translational modifications and their effects on protein stability and activity

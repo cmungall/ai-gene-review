@@ -383,3 +383,14 @@ references:
   title: Immunohistochemical detection of pregnancy-specific protein (SP1) and placenta-specific
     tissue proteins (PP5, PP10, PP11 and PP12) in ovarian adenocarcinomas.
   findings: []
+
+suggested_questions:
+- question: How does ENDOU achieve specificity for polyuridine sequences and what determines its substrate selectivity?
+- question: What role does ENDOU play in placental development and how does it regulate trophoblast function?
+- question: How is ENDOU expression and activity regulated during pregnancy and in response to placental stress?
+- question: What are the downstream consequences of ENDOU-mediated RNA cleavage on gene expression and protein synthesis?
+suggested_experiments:
+- description: RNA-seq analysis of ENDOU-deficient placental tissues to identify direct and indirect targets of ENDOU regulation
+- description: Biochemical characterization of ENDOU substrate specificity using synthetic RNA oligonucleotides and kinetic analyses
+- description: Single-cell RNA sequencing of placental cell types to understand ENDOU function in trophoblast differentiation
+- description: Structural biology approaches to determine the molecular basis of ENDOU endonuclease activity and substrate recognition

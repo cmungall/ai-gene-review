@@ -574,3 +574,14 @@ references:
   - statement: 'Loss-of-function mutations preferentially affect GABAergic interneurons leading to network disinhibition'
   - statement: 'Sodium channel blockers are contraindicated as they worsen seizures by further impairing interneuron function'
   - statement: 'Associated with sudden unexpected death in epilepsy (SUDEP) in severe cases'
+
+suggested_questions:
+- question: How do different SCN1A mutations affect sodium channel gating properties and contribute to distinct epilepsy phenotypes?
+- question: What determines the brain region-specific effects of SCN1A dysfunction and why is inhibitory neuron function particularly affected?
+- question: How does SCN1A haploinsufficiency lead to the temperature-sensitive seizures characteristic of Dravet syndrome?
+- question: What are the developmental changes in SCN1A expression and function that contribute to age-dependent seizure patterns?
+suggested_experiments:
+- description: Patch-clamp electrophysiology of SCN1A variants in different neuronal subtypes to correlate biophysical properties with clinical phenotypes
+- description: Organoid models of human brain development using patient-derived iPSCs to study SCN1A function in cortical circuit formation
+- description: Two-photon calcium imaging in brain slices to study how SCN1A mutations affect inhibitory circuit function and excitability
+- description: Cryo-EM structural analysis of SCN1A in different conformational states to understand mutation effects on channel structure

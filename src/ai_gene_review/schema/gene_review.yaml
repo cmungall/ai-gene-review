@@ -17,6 +17,8 @@ prefixes:
   skos: http://www.w3.org/2004/02/skos/core#
   dcat: http://www.w3.org/ns/dcat#
   dcterms: http://purl.org/dc/terms/
+  ECO: http://purl.obolibrary.org/obo/ECO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
 
 imports:
   - linkml:types
@@ -146,8 +148,6 @@ slots:
     range: Experiment
     multivalued: true
   
-    
-    
 
 classes:
 
@@ -164,6 +164,8 @@ classes:
      - existing_annotations
      - core_functions
      - proposed_new_terms
+     - suggested_questions
+     - suggested_experiments
 
 
   Term:
@@ -305,9 +307,9 @@ classes:
     attributes:
       hypothesis:
         range: string
-        required: true
+        recommended: true
         description: Hypothesis to be investigated
-      suggested_experiment:
+      description:
         range: string
         required: true
         description: Detailed description of the experiment to be performed

@@ -880,3 +880,14 @@ references:
 - id: file:pombe/Epe1/Epe1-bioinformatics/RESULTS.md
   title: Bioinformatics Analysis of S. pombe Epe1 Protein
   findings: []
+
+suggested_questions:
+- question: How does Epe1 regulate heterochromatin formation and maintenance at centromeres and telomeres?
+- question: What determines the specificity of Epe1 for different chromatin modifications and histone variants?
+- question: How does Epe1 coordinate with other chromatin remodeling factors during cell cycle progression?
+- question: What role does Epe1 play in epigenetic inheritance and chromatin stability across generations?
+suggested_experiments:
+- description: ChIP-seq analysis to map Epe1 binding sites across the genome and correlate with chromatin modifications
+- description: Live-cell imaging of fluorescently tagged Epe1 to study its dynamics during the cell cycle
+- description: Genetic screens to identify Epe1 interacting factors and chromatin regulators
+- description: Single-cell analysis of heterochromatin inheritance in Epe1 mutant cells

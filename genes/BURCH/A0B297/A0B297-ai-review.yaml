@@ -105,3 +105,17 @@ references:
       supporting_text: 'Belongs to the ABC transporter superfamily. Carbohydrate importer 2 (CUT2) (TC 3.A.1.2) family'
 core_functions:
 - description: 'Hydrolyzes ATP to energize carbohydrate import by driving conformational changes in ABC transporter complex permease subunits, enabling active transport of D-ribose (EC 7.5.2.7) and D-galactose (EC 7.5.2.11) across the bacterial inner membrane against concentration gradients'
+suggested_questions:
+- question: How does A0B297 achieve substrate specificity for ribose versus galactose
+    given the structural similarity of these sugars?
+- question: What is the stoichiometry of ATP hydrolysis to sugar transport and how
+    does this vary with substrate concentration?
+- question: How do the two ABC transporter domains coordinate their ATP hydrolysis
+    cycles to drive unidirectional transport?
+suggested_experiments:
+- description: Real-time ATP hydrolysis assays coupled with radiolabeled sugar transport
+    measurements to determine transport stoichiometry
+- description: HDX-MS analysis of conformational changes in the transporter complex
+    during different stages of the transport cycle
+- description: Engineering chimeric transporters to identify substrate specificity
+    determinants in the permease subunits

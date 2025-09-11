@@ -99,3 +99,17 @@ core_functions:
   locations:
     - id: GO:0005737
       label: cytoplasm
+suggested_questions:
+- question: How does HgcB couple electron transfer from ferredoxin to the reductive
+    activation of the corrinoid cofactor in HgcA?
+- question: What is the structural basis for the specific HgcA-HgcB protein interaction
+    that enables efficient mercury methylation?
+- question: How do environmental factors like redox potential and ferredoxin availability
+    regulate HgcB activity and methylmercury production?
+suggested_experiments:
+- description: Protein-protein docking and molecular dynamics simulations of the HgcA-HgcB
+    complex to identify interaction interfaces
+- description: Electrochemical studies to determine the redox potentials of HgcB's
+    iron-sulfur clusters and their coupling to corrinoid reduction
+- description: In vivo fluorescence complementation assays to visualize HgcA-HgcB
+    complex formation under different growth conditions

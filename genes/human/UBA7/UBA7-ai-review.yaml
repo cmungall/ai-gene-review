@@ -554,3 +554,14 @@ references:
 - id: PMID:31974171
   title: 'Type I Interferon Regulates a Coordinated Gene Network to Enhance Cytotoxic T Cell-Mediated Tumor Killing.'
   findings: []
+
+suggested_questions:
+- question: How does UBA7 specifically activate ISG15 and what determines its selectivity for this ubiquitin-like modifier?
+- question: What role does UBA7 play in antiviral immunity and how is its activity regulated during viral infections?
+- question: How do different ISG15 conjugates formed by UBA7 contribute to interferon-mediated cellular responses?
+- question: What are the structural determinants that allow UBA7 to function as an E1 enzyme for ISG15 but not ubiquitin?
+suggested_experiments:
+- description: Structural biology approaches to determine the molecular basis of UBA7-ISG15 interaction and activation mechanisms
+- description: Proteomics analysis to identify the complete landscape of ISG15 conjugation targets downstream of UBA7
+- description: Live-cell imaging to study UBA7 dynamics and ISG15 conjugation during viral infection and interferon responses
+- description: Biochemical reconstitution of the ISG15 conjugation pathway to study UBA7 enzyme kinetics and regulation

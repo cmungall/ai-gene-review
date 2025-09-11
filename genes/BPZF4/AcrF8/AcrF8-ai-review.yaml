@@ -97,3 +97,17 @@ proposed_new_terms:
         supporting_text: 'The distance between the residues T29, I31, A32, N33 of AcrF8 and the nucleobases of three nucleotides (U[+21], U[+22], G[+23]) of crRNA is less than 4 Å, which is close enough to form multiple hydrogen bonds and nonbonded interactions...AcrF8 also interacts with crRNA via nucleobases, which were also confirmed in two half-maps'
       - reference_id: file:genes/BPZF4/AcrF8/AcrF8-deep-research.md
         supporting_text: 'AcrF8 uniquely interferes at the earliest stage of interference...By binding the crRNA at this location...AcrF8 effectively occludes about four nucleotides of the crRNA...This occlusion means that the protected segment of the crRNA cannot base-pair with the complementary protospacer DNA'
+suggested_questions:
+- question: How does AcrF8's dual protein-RNA binding strategy provide evolutionary
+    advantages over anti-CRISPRs that only target protein components?
+- question: What structural features enable AcrF8 to specifically recognize and bind
+    the crRNA within the Csy complex?
+- question: How do phages coordinate expression of multiple anti-CRISPR proteins like
+    AcrF8 and ACA2 during infection?
+suggested_experiments:
+- description: Time-resolved cryo-EM to capture AcrF8 binding dynamics to the Csy complex
+    during different stages of DNA target recognition
+- description: Deep mutational scanning of AcrF8 to identify residues critical for
+    RNA versus protein binding
+- description: Single-molecule FRET to monitor how AcrF8 affects crRNA-DNA base pairing
+    dynamics in real time

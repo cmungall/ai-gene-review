@@ -186,3 +186,14 @@ core_functions:
     - id: GO:0000373
       label: Group II intron splicing
   description: Coordinates zinc ions through conserved motifs in the DUF794 domain, which is essential for the RNA-binding activity and splicing function of APO1.
+
+suggested_questions:
+- question: How does APO1 regulate apomixis and what are the molecular mechanisms that bypass sexual reproduction?
+- question: What determines the tissue-specific expression of APO1 in reproductive organs?
+- question: How does APO1 interact with other genes in the apomixis pathway to control reproductive mode?
+- question: What role does APO1 play in plant evolution and the maintenance of hybrid vigor?
+suggested_experiments:
+- description: Single-cell RNA sequencing of developing ovules to map APO1 expression during reproduction
+- description: CRISPR-Cas9 knockout studies to analyze APO1 function in apomictic versus sexual reproduction
+- description: Comparative genomics analysis to study APO1 evolution across different plant species
+- description: Live imaging of reproductive development in APO1 mutants using confocal microscopy

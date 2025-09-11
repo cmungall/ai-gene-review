@@ -1,0 +1,184 @@
+id: O43026
+gene_symbol: gpd3
+taxon:
+  id: NCBITaxon:4896
+  label: Schizosaccharomyces pombe
+description: 'Gpd3 is the minor isoform of glyceraldehyde-3-phosphate dehydrogenase in S. pombe, catalyzing the reversible NAD+-dependent oxidation of glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate in glycolysis. While its paralog Tdh1 handles bulk glycolytic flux, Gpd3 shows evidence of moonlighting functions including stress response signaling, transcriptional regulation through RNA Pol II interaction, and RNA processing via splicing factor association. The protein is extensively post-translationally modified and functions within a stable glycolytic metabolon.'
+existing_annotations:
+- term:
+    id: GO:0004365
+    label: glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Core enzymatic function well-supported. Catalyzes the sixth reaction of glycolysis (EC 1.2.1.12), converting G3P to 1,3-BPG. Conserved catalytic cysteine residue analogous to Tdh1 Cys-152. High sequence identity with Tdh1 paralog (~70-80%).'
+    action: ACCEPT
+- term:
+    id: GO:0005829
+    label: cytosol
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Primary localization confirmed. Part of cytosolic glycolytic metabolon with high-confidence interactions (STRING PPI p-value 2.69×10^-14). Also supported by HDA evidence from PMID:16823372. Note: moonlighting functions suggest conditional nuclear localization.'
+    action: ACCEPT
+- term:
+    id: GO:0006096
+    label: glycolytic process
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: 'Essential glycolytic function confirmed. Functions as backup to major isoform Tdh1 - tdh1Δ strain remains viable due to gpd3 presence (PMID:18406331). Also functions in reverse direction during gluconeogenesis.'
+    action: ACCEPT
+- term:
+    id: GO:0004365
+    label: glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate of above annotation with different evidence code. Core enzymatic function is correct.'
+    action: ACCEPT
+- term:
+    id: GO:0005737
+    label: cytoplasm
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: 'Parent term of cytosol. Less specific but not incorrect. The more specific cytosol annotation (GO:0005829) is preferred.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0006006
+    label: glucose metabolic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Broader term encompassing glycolysis. Valid but less specific than glycolytic process annotations.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0006096
+    label: glycolytic process
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: 'Duplicate annotation with different evidence code. Core function confirmed.'
+    action: ACCEPT
+- term:
+    id: GO:0016491
+    label: oxidoreductase activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000043
+  review:
+    summary: 'Correct but overly general parent term. The specific GAPDH activity (GO:0004365) is more informative.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0016620
+    label: oxidoreductase activity, acting on the aldehyde or oxo group of donors,
+      NAD or NADP as acceptor
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct intermediate term between general oxidoreductase and specific GAPDH activity. Less specific than GO:0004365.'
+    action: KEEP_AS_NON_CORE
+- term:
+    id: GO:0050661
+    label: NADP binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Incorrect annotation. GAPDH uses NAD+, not NADP+. This enzyme is strictly NAD+-dependent, not NADP+-dependent. Likely automated annotation error.'
+    action: REMOVE
+- term:
+    id: GO:0051287
+    label: NAD binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000002
+  review:
+    summary: 'Correct - NAD+ is the required cofactor for GAPDH enzymatic activity. Conserved Rossmann-fold NAD-binding domain.'
+    action: ACCEPT
+- term:
+    id: GO:0005829
+    label: cytosol
+  evidence_type: HDA
+  original_reference_id: PMID:16823372
+  review:
+    summary: 'High-throughput experimental confirmation of cytosolic localization. Strong evidence supporting primary localization.'
+    action: ACCEPT
+- term:
+    id: GO:0061621
+    label: canonical glycolysis
+  evidence_type: ISO
+  original_reference_id: GO_REF:0000024
+  review:
+    summary: 'Specific involvement in canonical glycolytic pathway confirmed. Functions within glycolytic metabolon, provides backup glycolytic capacity when Tdh1 absent.'
+    action: ACCEPT
+references:
+- id: GO_REF:0000002
+  title: Gene Ontology annotation through association of InterPro records with GO
+    terms.
+  findings: []
+- id: GO_REF:0000024
+  title: Manual transfer of experimentally-verified manual GO annotation data to orthologs
+    by curator judgment of sequence similarity.
+  findings: []
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000043
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot keyword mapping
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:16823372
+  title: ORFeome cloning and global analysis of protein localization in the fission
+    yeast Schizosaccharomyces pombe.
+  findings: []
+- id: PMID:18406331
+  title: Glycolytic enzyme GAPDH promotes peroxide stress signaling through multistep phosphorelay to a MAPK cascade
+  findings: []
+- id: PMID:15620689
+  title: Glyceraldehyde-3-phosphate dehydrogenase and actin associate with RNA polymerase II and interact with its Rpb7 subunit
+  findings: []
+core_functions:
+- description: Catalyzes the reversible NAD+-dependent oxidation of glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate as the minor GAPDH isoform in S. pombe
+- description: Functions as metabolic backup providing essential glycolytic activity when major isoform Tdh1 is absent or inactivated
+- description: Participates in glycolytic metabolon complex with high-confidence interactions with other glycolytic enzymes
+- description: Shows potential moonlighting functions in transcriptional regulation through RNA Pol II interaction (requires validation)
+- description: May participate in oxidative stress response signaling similar to paralog Tdh1 (requires experimental confirmation)
+suggested_questions:
+- question: Should GO:0003723 (RNA binding) be added based on Rbm10 co-purification data from Weigt et al. 2021?
+  experts:
+  - RNA processing specialist
+  - S. pombe functional genomics expert
+- question: Is the RNA Pol II interaction (PMID:15620689) sufficient evidence for adding GO:0006357 (regulation of transcription by RNA polymerase II)?
+  experts:
+  - Transcription regulation expert
+  - S. pombe gene regulation specialist
+- question: Should GO:0005634 (nucleus) be added as conditional localization based on RNA Pol II and splicing factor interactions?
+  experts:
+  - Cell biology expert
+  - Protein localization specialist
+- question: Is oxidative stress response (GO:0034599) appropriate to infer from paralog Tdh1 evidence (PMID:18406331)?
+  experts:
+  - Stress response expert
+  - Comparative genomics specialist
+suggested_experiments:
+- experiment_type: Protein-protein interaction
+  hypothesis: Test if Gpd3 interacts with Hsp70 or Hsp90 chaperones in S. pombe (NOTE - this is highly speculative based on mammalian GAPDH data only)
+  description: Co-immunoprecipitation of Gpd3 with Hsp70/Hsp90 under normal and stress conditions. This tests the controversial hypothesis that Gpd3 might have chaperone-related functions like mammalian GAPDH, though there is currently NO evidence for this in S. pombe.
+- experiment_type: Protein aggregation assay
+  hypothesis: Test if Gpd3 affects protein aggregation under stress (HIGHLY SPECULATIVE - based solely on distant ortholog data)
+  description: Monitor protein aggregation in gpd3Δ vs WT under heat shock or oxidative stress using fluorescent aggregation reporters. This would test whether Gpd3 has any role in protein homeostasis, though this function is unvalidated in fungi.
+- experiment_type: Heme binding assay
+  hypothesis: Test if Gpd3 can bind heme like mammalian GAPDH (EXTREMELY SPECULATIVE)
+  description: In vitro heme binding assays with purified Gpd3 protein. Mammalian GAPDH acts as a heme chaperone (PMID:30012884), but this moonlighting function may not be conserved across such evolutionary distance.
+- experiment_type: Stress phenotyping
+  hypothesis: Test if gpd3Δ shows sensitivity to proteotoxic stress
+  description: Growth assays of gpd3Δ under conditions causing protein misfolding (heat shock, DTT, tunicamycin). Would reveal if Gpd3 contributes to protein quality control, though current evidence is lacking.
+- experiment_type: Subcellular localization
+  hypothesis: Test nuclear translocation of Gpd3 under various conditions
+  description: Live-cell imaging of Gpd3-GFP under oxidative stress, heat shock, or transcriptional stress to confirm potential nuclear moonlighting functions suggested by RNA Pol II interaction.

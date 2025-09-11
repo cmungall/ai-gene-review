@@ -1620,3 +1620,13 @@ core_functions:
     supporting_text: Supporting evidence for TRAF6 function
   - reference_id: PMID:11057907
     supporting_text: Supporting evidence for TRAF6 function
+suggested_questions:
+- question: How does the RING domain of TRAF6 selectively coordinate with different E2 enzymes to determine the specificity and topology of K63-linked ubiquitin chains on diverse substrates?
+- question: What molecular mechanisms allow TRAF6 to discriminate between canonical NF-κB activation versus non-canonical pathway engagement in different cellular contexts?
+- question: How do post-translational modifications of TRAF6 itself regulate its E3 ligase activity and alter its protein-protein interaction network during different signaling states?
+- question: What determines the cellular localization of TRAF6 between cytoplasmic signaling complexes and nuclear transcriptional co-regulatory functions?
+suggested_experiments:
+- description: Cryo-EM structural determination of TRAF6 in complex with different E2 enzymes and substrate proteins to understand substrate specificity mechanisms
+- description: Single-molecule FRET imaging to track TRAF6 conformational changes during signal transduction and correlate with downstream pathway activation
+- description: Mass spectrometry-based ubiquitinomics to map the complete landscape of TRAF6 substrates and their ubiquitination sites across different stimulation conditions
+- description: Live-cell proximity labeling proteomics using TRAF6-miniTurbo to identify context-specific interactors in different immune cell types and activation states

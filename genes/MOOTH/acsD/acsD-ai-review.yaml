@@ -138,3 +138,17 @@ references:
 - id: PMID:22419154
   title: Visualizing molecular juggling within a B12-dependent methyltransferase complex.
   findings: []
+suggested_questions:
+- question: How does AcsD coordinate methyl transfer between the corrinoid cofactor
+    and the nickel center of acetyl-CoA synthase?
+- question: What structural features of AcsD enable protection of the highly reactive
+    methylcob(III)alamin intermediate from side reactions?
+- question: How does the AcsD/AcsC complex regulate methyl transfer rates in response
+    to cellular energy and carbon status?
+suggested_experiments:
+- description: EPR and ENDOR spectroscopy to characterize transient radical intermediates
+    during methyl transfer reactions
+- description: Stopped-flow kinetics with fluorescent corrinoid analogs to measure
+    methyl transfer rates between AcsD and partner proteins
+- description: Hydrogen-deuterium exchange MS to map conformational changes in AcsD
+    during the catalytic cycle

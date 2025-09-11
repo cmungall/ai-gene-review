@@ -169,3 +169,13 @@ core_functions:
   locations:
     - id: GO:0005576
       label: extracellular region
+suggested_questions:
+- question: How does Agaphelin function as an anticoagulant and what determines its specificity for different clotting factors?
+- question: What role does Agaphelin play in mosquito feeding and how does it facilitate blood meal acquisition?
+- question: How has Agaphelin evolved to evade host immune responses and maintain anticoagulant activity?
+- question: What are the structural determinants that allow Agaphelin to inhibit blood coagulation?
+suggested_experiments:
+- description: Coagulation assays to characterize Agaphelin anticoagulant activity and factor specificity
+- description: Structural biology approaches to determine Agaphelin three-dimensional structure and binding sites
+- description: Feeding behavior analysis in mosquitoes with altered Agaphelin expression
+- description: Evolutionary analysis of Agaphelin sequences across different mosquito species

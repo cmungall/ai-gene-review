@@ -9,7 +9,8 @@
                 "MODIFY",
                 "MARK_AS_OVER_ANNOTATED",
                 "UNDECIDED",
-                "PENDING"
+                "PENDING",
+                "NEW"
             ],
             "title": "ActionEnum",
             "type": "string"
@@ -121,14 +122,34 @@
             "type": "object"
         },
         "EvidenceType": {
-            "description": "",
+            "description": "Gene Ontology evidence codes mapped to Evidence and Conclusion Ontology (ECO) terms",
             "enum": [
+                "EXP",
                 "IDA",
-                "IBA",
-                "ISS",
-                "TAS",
+                "IPI",
+                "IMP",
+                "IGI",
                 "IEP",
-                "IGC"
+                "HTP",
+                "HDA",
+                "HMP",
+                "HGI",
+                "HEP",
+                "IBA",
+                "IBD",
+                "IKR",
+                "IRD",
+                "ISS",
+                "ISO",
+                "ISA",
+                "ISM",
+                "IGC",
+                "RCA",
+                "TAS",
+                "NAS",
+                "IC",
+                "ND",
+                "IEA"
             ],
             "title": "EvidenceType",
             "type": "string"
@@ -138,11 +159,8 @@
             "description": "An existing annotation from the GO database, plus a review of the annotation.",
             "properties": {
                 "evidence_type": {
-                    "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)",
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "$ref": "#/$defs/EvidenceType",
+                    "description": "Evidence code (e.g., IDA, IBA, ISS, TAS)"
                 },
                 "extensions": {
                     "items": {
@@ -203,16 +221,47 @@
             "title": "ExistingAnnotation",
             "type": "object"
         },
-        "Finding": {
+        "Experiment": {
             "additionalProperties": false,
-            "description": "A finding is a statement about a gene, which is supported by a reference. Similar to \"comments\" in uniprot",
+            "description": "A suggested experiment to answer a question about the gene",
             "properties": {
-                "reference_section_type": {
-                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')",
+                "description": {
+                    "description": "Detailed description of the experiment to be performed",
+                    "type": "string"
+                },
+                "experiment_type": {
+                    "description": "Type of experiment or assay to answer the question",
                     "type": [
                         "string",
                         "null"
                     ]
+                },
+                "hypothesis": {
+                    "description": "Hypothesis to be investigated",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "hypothesis",
+                "description"
+            ],
+            "title": "Experiment",
+            "type": "object"
+        },
+        "Finding": {
+            "additionalProperties": false,
+            "description": "A finding is a statement about a gene, which is supported by a reference. Similar to \"comments\" in uniprot",
+            "properties": {
+                "full_text_unavailable": {
+                    "description": "Whether the full text is unavailable",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                "reference_section_type": {
+                    "$ref": "#/$defs/ManuscriptSection",
+                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')"
                 },
                 "statement": {
                     "description": "Concise statement describing an aspect of the gene",
@@ -342,6 +391,25 @@
             "title": "GeneReview",
             "type": "object"
         },
+        "ManuscriptSection": {
+            "description": "Sections of a scientific manuscript or publication",
+            "enum": [
+                "TITLE",
+                "ABSTRACT",
+                "KEYWORDS",
+                "INTRODUCTION",
+                "LITERATURE_REVIEW",
+                "METHODS",
+                "RESULTS",
+                "DISCUSSION",
+                "CONCLUSIONS",
+                "APPENDICES",
+                "SUPPLEMENTARY_MATERIAL",
+                "OTHER"
+            ],
+            "title": "ManuscriptSection",
+            "type": "string"
+        },
         "ProposedOntologyTerm": {
             "additionalProperties": false,
             "description": "A proposed new ontology term that should exist but doesn't currently",
@@ -360,6 +428,15 @@
                 "proposed_name": {
                     "description": "Proposed name for the new term",
                     "type": "string"
+                },
+                "supported_by": {
+                    "items": {
+                        "$ref": "#/$defs/SupportingTextInReference"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "required": [
@@ -367,6 +444,31 @@
                 "proposed_definition"
             ],
             "title": "ProposedOntologyTerm",
+            "type": "object"
+        },
+        "Question": {
+            "additionalProperties": false,
+            "description": "A question to be answered about the gene",
+            "properties": {
+                "experts": {
+                    "description": "Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "question": {
+                    "description": "Question to be answered",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "question"
+            ],
+            "title": "Question",
             "type": "object"
         },
         "Reference": {
@@ -379,6 +481,13 @@
                     },
                     "type": [
                         "array",
+                        "null"
+                    ]
+                },
+                "full_text_unavailable": {
+                    "description": "Whether the full text is unavailable",
+                    "type": [
+                        "boolean",
                         "null"
                     ]
                 },
@@ -463,6 +572,13 @@
             "additionalProperties": false,
             "description": "A supporting text in a reference.",
             "properties": {
+                "full_text_unavailable": {
+                    "description": "Whether the full text is unavailable",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
                 "reference_id": {
                     "type": [
                         "string",
@@ -470,11 +586,8 @@
                     ]
                 },
                 "reference_section_type": {
-                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')",
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "$ref": "#/$defs/ManuscriptSection",
+                    "description": "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')"
                 },
                 "supporting_text": {
                     "description": "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'",

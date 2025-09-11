@@ -804,3 +804,14 @@ core_functions:
     supported_by:
       - reference_id: PMID:16109846
         supporting_text: 'hemocyte-specific loss of Dscam impaired the efficiency of phagocytic uptake of bacteria'
+
+suggested_questions:
+- question: How does alternative splicing generate the extraordinary diversity of DSCAM1 isoforms and what regulates this process?
+- question: What molecular mechanisms ensure self-avoidance in neuronal dendrites through DSCAM1 homophilic repulsion?
+- question: How do different DSCAM1 isoforms contribute to synaptic specificity and neural circuit formation?
+- question: What role does DSCAM1 play in axon guidance beyond self-avoidance and how does it integrate with other guidance cues?
+suggested_experiments:
+- description: Single-cell RNA sequencing of developing neurons to map DSCAM1 isoform expression and splicing patterns
+- description: Live imaging of dendritic development in DSCAM1 mutants to study self-avoidance and branching patterns
+- description: Structural biology approaches to understand the molecular basis of DSCAM1 isoform-specific recognition
+- description: Optogenetic manipulation of DSCAM1 expression to study its role in activity-dependent circuit refinement

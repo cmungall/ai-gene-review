@@ -293,3 +293,14 @@ core_functions:
       supporting_text: Eight zinc-binding residues coordinate two zinc ions in FYVE domain
     - reference_id: 'file:fly/CG6051/CG6051-bioinformatics/RESULTS.md'
       supporting_text: FYVE domain contains all 8 expected cysteines for zinc coordination
+
+suggested_questions:
+- question: What is the molecular function of CG6051 and how does it contribute to Drosophila development?
+- question: How is CG6051 expression regulated during development and what signaling pathways control its activity?
+- question: What are the downstream targets and cellular processes regulated by CG6051?
+- question: How does CG6051 function compare to its orthologs in other organisms?
+suggested_experiments:
+- description: RNA-seq analysis of CG6051 mutant flies to identify transcriptional targets and affected pathways
+- description: Proteomics approaches to identify CG6051 interacting partners and protein complexes
+- description: Developmental analysis using immunostaining to determine CG6051 expression patterns and subcellular localization
+- description: Functional complementation studies with orthologs from other species to identify conserved functions

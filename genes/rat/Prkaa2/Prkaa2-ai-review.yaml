@@ -954,3 +954,14 @@ core_functions:
     supporting_text: Supporting evidence for Prkaa2 function
   - reference_id: PMID:11069105
     supporting_text: Supporting evidence for Prkaa2 function
+
+suggested_questions:
+- question: How do the α1 and α2 subunits of AMPK differ in their tissue distribution, regulation, and substrate specificity?
+- question: What determines the subcellular localization of PRKAA2-containing AMPK complexes and how does this affect their function?
+- question: How does PRKAA2 contribute to metabolic sensing and energy homeostasis in different physiological conditions?
+- question: What role does PRKAA2 play in cellular stress responses beyond its canonical metabolic functions?
+suggested_experiments:
+- description: Proteomics analysis to identify PRKAA2-specific substrates and interacting partners compared to PRKAA1
+- description: Live-cell imaging using FRET-based biosensors to monitor PRKAA2-containing AMPK activity in real-time
+- description: Metabolomics analysis of tissues from PRKAA2 knockout mice to understand metabolic pathway alterations
+- description: Single-cell analysis of AMPK activity and metabolic state in different cell types using genetically encoded indicators

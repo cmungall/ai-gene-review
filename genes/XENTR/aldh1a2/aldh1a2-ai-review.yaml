@@ -243,3 +243,14 @@ core_functions:
         label: cytoplasm
       - id: GO:0005829
         label: cytosol
+
+suggested_questions:
+- question: How does ALDH1A2 control retinoic acid synthesis during Xenopus development?
+- question: What determines the tissue-specific expression patterns of ALDH1A2 during embryogenesis?
+- question: How do different ALDH1A2 activity levels affect anterior-posterior and dorsal-ventral patterning?
+- question: What role does ALDH1A2 play in neural crest cell development and migration?
+suggested_experiments:
+- description: In situ hybridization and immunostaining to map ALDH1A2 expression during Xenopus development
+- description: Morpholino knockdown experiments to study ALDH1A2 function in embryonic patterning
+- description: Retinoic acid level measurements in ALDH1A2-deficient embryos using LC-MS/MS
+- description: Time-lapse imaging of neural crest cell migration in ALDH1A2 morphants

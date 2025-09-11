@@ -1174,3 +1174,17 @@ core_functions:
         supporting_text: 'ARF exon 2 disrupt its nucleolar localization and impair its ability to block nuclear export of MDM2 and p53'
       - reference_id: UniProt:P04637
         supporting_text: 'induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence ... Negatively regulates cell division'
+suggested_questions:
+- question: How does p53 integrate diverse stress signals to determine cell fate decisions
+    between survival, senescence, and apoptosis?
+- question: What determines the selectivity of p53 for different target gene promoters
+    and how is this modulated by post-translational modifications?
+- question: How do p53 isoforms and mutant forms interact to modulate tumor suppressor
+    function in heterozygous cancer cells?
+suggested_experiments:
+- description: Single-cell time-lapse imaging to track p53 dynamics and correlate oscillation
+    patterns with specific cell fate outcomes
+- description: ChIP-seq coupled with PRO-seq to map p53 binding and transcriptional
+    outcomes under different stress conditions
+- description: Proximity labeling proteomics to identify context-specific p53 interactors
+    that determine target gene selectivity

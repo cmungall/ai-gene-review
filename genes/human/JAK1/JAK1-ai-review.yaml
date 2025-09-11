@@ -1403,3 +1403,14 @@ core_functions:
     supporting_text: Supporting evidence for JAK1 function
   - reference_id: PMID:9590172
     supporting_text: Supporting evidence for JAK1 function
+
+suggested_questions:
+- question: How does JAK1 achieve specificity in cytokine signaling despite being used by multiple different cytokine receptors?
+- question: What are the molecular mechanisms of JAK1 activation and how do negative regulatory mechanisms prevent inappropriate signaling?
+- question: How do JAK1 inhibitors achieve selectivity and what are the structural determinants of drug binding and specificity?
+- question: What role does JAK1 play in immune cell development versus mature immune cell function and how is this regulated?
+suggested_experiments:
+- description: Cryo-EM structures of JAK1 in complex with different cytokine receptors to understand receptor-specific activation mechanisms
+- description: Single-cell RNA sequencing of immune cells with JAK1 perturbations to map cell-type-specific transcriptional responses
+- description: Chemical proteomics to identify off-target effects and selectivity profiles of JAK1 inhibitors in development
+- description: Real-time measurement of JAK1 kinase activity using FRET-based biosensors in response to different cytokines

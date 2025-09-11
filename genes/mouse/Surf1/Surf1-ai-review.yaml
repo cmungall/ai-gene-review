@@ -190,3 +190,14 @@ core_functions:
   in_complex:
     id: GO:0062011
     label: mitochondrial respiratory chain complex IV pre-assembly complex
+
+suggested_questions:
+- question: How does SURF1 specifically facilitate cytochrome c oxidase assembly and what is its role in complex IV biogenesis?
+- question: What are the molecular consequences of SURF1 deficiency that lead to Leigh syndrome and mitochondrial dysfunction?
+- question: How does SURF1 interact with other assembly factors and chaperones during respiratory complex formation?
+- question: What determines the tissue-specific sensitivity to SURF1 deficiency and why are some organs more affected?
+suggested_experiments:
+- description: Cryo-EM analysis of mitochondrial respiratory complexes in SURF1-deficient cells to visualize assembly defects
+- description: Blue native PAGE and mass spectrometry to characterize respiratory complex assembly intermediates in SURF1 mutants
+- description: Metabolomics analysis of SURF1-deficient tissues to understand the consequences of respiratory chain dysfunction
+- description: Live-cell imaging of mitochondrial dynamics and bioenergetics in SURF1 knockout cells using fluorescent indicators

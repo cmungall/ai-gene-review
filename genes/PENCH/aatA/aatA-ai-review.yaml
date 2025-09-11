@@ -271,3 +271,14 @@ core_functions:
       supporting_text: Structure of a Cys103Ala precursor mutant shows that maturation is autoproteolytic, initiated by Cys103 cleaving its preceding peptide bond
     - reference_id: file:PENCH/aatA/aatA-bioinformatics/RESULTS.md
       supporting_text: Computational analysis of crystal structures validates Cys103 as the nucleophile and confirms cleavage between Gly102-Cys103
+
+suggested_questions:
+- question: How does AatA contribute to amino acid metabolism and what determines its substrate specificity?
+- question: What role does AatA play in nitrogen metabolism and how is it regulated by nitrogen availability?
+- question: How does AatA function in different growth conditions and stress responses?
+- question: What are the evolutionary relationships of AatA with similar enzymes in other fungi?
+suggested_experiments:
+- description: Enzyme kinetics analysis to characterize AatA substrate range and catalytic properties
+- description: Metabolomics analysis of AatA mutant strains to understand amino acid metabolism alterations
+- description: RNA-seq analysis under different nitrogen conditions to study AatA regulation
+- description: Structural determination of AatA to understand the molecular basis of its enzymatic activity

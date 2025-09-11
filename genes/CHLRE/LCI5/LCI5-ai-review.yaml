@@ -59,3 +59,13 @@ core_functions:
   supported_by:
   - reference_id: file:CHLRE/LCI5/LCI5-deep-research.md
     supporting_text: LCI5 clusters with Rubisco and other CCM-related proteins in co-expression
+suggested_questions:
+- question: How does LCI5 contribute to CO2 concentrating mechanisms in Chlamydomonas photosynthesis?
+- question: What determines the subcellular localization of LCI5 and how does this affect its function?
+- question: How is LCI5 expression regulated in response to CO2 availability and light conditions?
+- question: What role does LCI5 play in algal adaptation to different environmental carbon conditions?
+suggested_experiments:
+- description: Photosynthetic measurements in LCI5 mutant strains to assess CO2 concentrating mechanism function
+- description: Subcellular localization studies using fluorescent protein fusions to determine LCI5 distribution
+- description: RNA-seq analysis under different CO2 conditions to study LCI5 regulation and downstream targets
+- description: Proteomics analysis of carbon concentrating mechanism components to understand LCI5 protein interactions

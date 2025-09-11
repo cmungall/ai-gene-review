@@ -262,3 +262,13 @@ core_functions:
   locations:
   - id: GO:0005789
     label: endoplasmic reticulum membrane
+suggested_questions:
+- question: How does NTE1 regulate phospholipid homeostasis in the endoplasmic reticulum and what determines its substrate specificity?
+- question: What role does NTE1 play in membrane remodeling and how does its activity affect ER morphology and function?
+- question: How is NTE1 expression and activity regulated in response to lipid stress and membrane composition changes?
+- question: What are the relationships between NTE1 and other phospholipid metabolic enzymes in maintaining cellular lipid balance?
+suggested_experiments:
+- description: Lipidomics analysis of NTE1 knockout strains to characterize changes in phospholipid composition and membrane properties
+- description: Electron microscopy analysis of ER morphology in NTE1-deficient cells to assess its role in membrane organization
+- description: Enzyme kinetics studies to characterize NTE1 substrate specificity and regulatory mechanisms
+- description: Subcellular fractionation and mass spectrometry to study NTE1 localization and protein interactions in different membrane compartments

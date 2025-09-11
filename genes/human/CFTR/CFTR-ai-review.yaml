@@ -859,3 +859,14 @@ core_functions:
   locations:
   - id: GO:0016324
     label: apical plasma membrane
+
+suggested_questions:
+- question: How do different classes of CFTR mutations affect protein folding, trafficking, and channel gating at the molecular level?
+- question: What are the regulatory mechanisms that control CFTR channel activity in response to cAMP and other signaling pathways?
+- question: How does CFTR dysfunction lead to the characteristic thick mucus secretions and bacterial infections in cystic fibrosis?
+- question: What determines tissue-specific sensitivity to CFTR dysfunction and why are some organs more severely affected than others?
+suggested_experiments:
+- description: Single-channel patch-clamp electrophysiology to characterize the gating kinetics and ion selectivity of CFTR variants
+- description: Cryo-EM structure determination of full-length CFTR in different conformational states and with bound modulators
+- description: Organoid models of cystic fibrosis using patient-derived cells to test personalized therapeutic approaches
+- description: Real-time imaging of CFTR trafficking from ER to plasma membrane using fluorescently tagged proteins and live-cell microscopy

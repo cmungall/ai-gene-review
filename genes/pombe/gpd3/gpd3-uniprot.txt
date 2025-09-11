@@ -1,0 +1,209 @@
+ID   G3P2_SCHPO              Reviewed;         335 AA.
+AC   O43026;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   18-JUN-2025, entry version 181.
+DE   RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase 2;
+DE            Short=GAPDH 2;
+DE            EC=1.2.1.12;
+GN   Name=gpd3; ORFNames=SPBC354.12;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-125; SER-151; THR-153;
+RP   THR-154; THR-182; THR-184; SER-192; SER-203; SER-209; THR-211; THR-237 AND
+RP   SER-241, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=18257517; DOI=10.1021/pr7006335;
+RA   Wilson-Grady J.T., Villen J., Gygi S.P.;
+RT   "Phosphoproteome analysis of fission yeast.";
+RL   J. Proteome Res. 7:1088-1097(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + phosphate + NAD(+) = (2R)-3-
+CC         phospho-glyceroyl phosphate + NADH + H(+); Xref=Rhea:RHEA:10300,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:57945, ChEBI:CHEBI:59776; EC=1.2.1.12;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10009};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 1/5.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glyceraldehyde-3-phosphate dehydrogenase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329671; CAA17812.1; -; Genomic_DNA.
+DR   PIR; T40292; T40292.
+DR   RefSeq; NP_595236.1; NM_001021142.2.
+DR   AlphaFoldDB; O43026; -.
+DR   SMR; O43026; -.
+DR   BioGRID; 277491; 68.
+DR   FunCoup; O43026; 279.
+DR   MINT; O43026; -.
+DR   STRING; 284812.O43026; -.
+DR   iPTMnet; O43026; -.
+DR   PaxDb; 4896-SPBC354.12.1; -.
+DR   EnsemblFungi; SPBC354.12.1; SPBC354.12.1:pep; SPBC354.12.
+DR   PomBase; SPBC354.12; gpd3.
+DR   VEuPathDB; FungiDB:SPBC354.12; -.
+DR   eggNOG; KOG0657; Eukaryota.
+DR   HOGENOM; CLU_030140_0_3_1; -.
+DR   InParanoid; O43026; -.
+DR   OMA; TCQMIRL; -.
+DR   PhylomeDB; O43026; -.
+DR   Reactome; R-SPO-70171; Glycolysis.
+DR   Reactome; R-SPO-70263; Gluconeogenesis.
+DR   UniPathway; UPA00109; UER00184.
+DR   PRO; PR:O43026; -.
+DR   Proteomes; UP000002485; Chromosome II.
+DR   GO; GO:0005829; C:cytosol; HDA:PomBase.
+DR   GO; GO:0004365; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity; IBA:GO_Central.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0061621; P:canonical glycolysis; ISO:PomBase.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   CDD; cd18126; GAPDH_I_C; 1.
+DR   CDD; cd05214; GAPDH_I_N; 1.
+DR   FunFam; 3.30.360.10:FF:000001; Glyceraldehyde-3-phosphate dehydrogenase; 1.
+DR   FunFam; 3.40.50.720:FF:000266; Glyceraldehyde-3-phosphate dehydrogenase; 1.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR020831; GlycerAld/Erythrose_P_DH.
+DR   InterPro; IPR020830; GlycerAld_3-P_DH_AS.
+DR   InterPro; IPR020829; GlycerAld_3-P_DH_cat.
+DR   InterPro; IPR020828; GlycerAld_3-P_DH_NAD(P)-bd.
+DR   InterPro; IPR006424; Glyceraldehyde-3-P_DH_1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR01534; GAPDH-I; 1.
+DR   PANTHER; PTHR10836; GLYCERALDEHYDE 3-PHOSPHATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR10836:SF76; GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF02800; Gp_dh_C; 1.
+DR   Pfam; PF00044; Gp_dh_N; 1.
+DR   PIRSF; PIRSF000149; GAP_DH; 1.
+DR   PRINTS; PR00078; G3PDHDRGNASE.
+DR   SMART; SM00846; Gp_dh_N; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00071; GAPDH; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Glycolysis; NAD; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..335
+FT                   /note="Glyceraldehyde-3-phosphate dehydrogenase 2"
+FT                   /id="PRO_0000145581"
+FT   ACT_SITE        152
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10009"
+FT   BINDING         13..14
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         35
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         80
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151..153
+FT                   /ligand="D-glyceraldehyde 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:59776"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         182
+FT                   /ligand="D-glyceraldehyde 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:59776"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         211..212
+FT                   /ligand="D-glyceraldehyde 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:59776"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /ligand="D-glyceraldehyde 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:59776"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         316
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   SITE            179
+FT                   /note="Activates thiol group during catalysis"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         125
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         151
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         153
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         154
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         182
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         184
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         192
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         203
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         209
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         211
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         237
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+FT   MOD_RES         241
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:18257517"
+SQ   SEQUENCE   335 AA;  35675 MW;  F0A0FB6AED5EB625 CRC64;
+     MAIPKVGING FGRIGRIVLR NAILTGKIQV VAVNDPFIDL DYMAYMFKYD STHGRFEGSV
+     ETKGGKLVID GHSIDVHNER DPANIKWSAS GAEYVIESTG VFTTKETASA HLKGGAKRVI
+     ISAPSKDAPM FVVGVNLEKF NPSEKVISNA SCTTNCLAPL AKVINDTFGI EEGLMTTVHA
+     TTATQKTVDG PSKKDWRGGR GASANIIPSS TGAAKAVGKV IPALNGKLTG MAFRVPTPDV
+     SVVDLTVKLA KPTNYEDIKA AIKAASEGPM KGVLGYTEDS VVSTDFCGDN HSSIFDASAG
+     IQLSPQFVKL VSWYDNEWGY SHRVVDLVAY TASKD
+//

@@ -331,3 +331,13 @@ core_functions:
   supported_by:
   - reference_id: PMID:26634819
     supporting_text: 'Glial expression of Swiss cheese (SWS), the Drosophila orthologue of neuropathy target esterase (NTE), is required for neuronal ensheathment and function'
+suggested_questions:
+- question: How does swiss cheese regulate membrane composition and what specific lipids does it target?
+- question: What is the molecular basis of neurodegeneration in swiss cheese mutants and how does lipid metabolism affect neuronal function?
+- question: How does swiss cheese coordinate with other enzymes in phospholipid metabolism and membrane remodeling?
+- question: What role does swiss cheese play in synaptic function and how do membrane composition changes affect neurotransmission?
+suggested_experiments:
+- description: Lipidomics analysis of swiss cheese mutant flies to characterize membrane lipid composition changes
+- description: Electron microscopy analysis of synaptic ultrastructure in swiss cheese mutants
+- description: Electrophysiological recording from swiss cheese mutant neuromuscular junctions to assess synaptic function
+- description: Biochemical characterization of swiss cheese enzymatic activity and substrate specificity

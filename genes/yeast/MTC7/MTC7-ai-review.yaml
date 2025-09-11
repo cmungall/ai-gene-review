@@ -82,3 +82,13 @@ core_functions:
     supporting_text: "MTC7 is designated as a maintenance of telomere capping gene identified through genetic screens as a suppressor of cdc13-1 temperature-sensitive phenotype"
   - reference_id: file:yeast/MTC7/MTC7-bioinformatics/RESULTS.md
     supporting_text: "Bioinformatics analysis confirms membrane localization with two transmembrane helices and strong nuclear localization signal in C-terminal polybasic tract"
+suggested_questions:
+- question: How does MTC7 contribute to telomere capping and what specific defects does it suppress in cdc13-1 mutants?
+- question: What determines the dual localization of MTC7 to both membrane and nuclear compartments and how does this affect its function?
+- question: How does MTC7 interact with other telomere maintenance proteins and what role does it play in the telomere protection complex?
+- question: What are the molecular mechanisms by which MTC7 maintains chromosome stability and prevents telomere dysfunction?
+suggested_experiments:
+- description: ChIP-seq analysis to map MTC7 binding sites across yeast chromosomes and determine its association with telomeric and subtelomeric regions
+- description: Live-cell imaging of fluorescently tagged MTC7 to study its dynamics and localization during the cell cycle
+- description: Genetic interaction analysis to identify MTC7 functional partners and synthetic lethal relationships with other telomere genes
+- description: Electron microscopy analysis of telomere structure in MTC7 mutant cells to assess its role in telomere architecture

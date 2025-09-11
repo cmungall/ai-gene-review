@@ -150,6 +150,20 @@ check-missing-goa organism:
         echo "Run 'just seed-goa-organism {{organism}}' to fix"
     fi
 
+# ============== Rendering ==============
+
+# Render a single gene review YAML as markdown
+render organism gene:
+    uv run python scripts/render_review.py genes/{{organism}}/{{gene}}/{{gene}}-ai-review.yaml
+
+# Render all gene reviews for an organism as markdown
+render-organism organism:
+    uv run python scripts/render_review.py --all genes/{{organism}}
+
+# Render all gene reviews as markdown
+render-all:
+    uv run python scripts/render_review.py --all genes/
+
 # ============== Visualization ==============
 
 # Visualize gene review annotations and actions as SVG

@@ -6,7 +6,7 @@ A reference is a published text  that describes a finding or a method. Reference
 URI: [gene_review:Reference](https://w3id.org/ai4curation/gene_review/Reference)
 
 
-[![img](https://yuml.me/diagram/nofunky;dir:TB/class/[Finding]<findings%200..*-++[Reference&#124;id:string;title:string;is_invalid:boolean%20%3F],[Review]-%20additional_reference_ids%200..*>[Reference],[ExistingAnnotation]-%20original_reference_id%200..1>[Reference],[SupportingTextInReference]-%20reference_id%200..1>[Reference],[GeneReview]++-%20references%200..*>[Reference],[SupportingTextInReference],[Review],[GeneReview],[Finding],[ExistingAnnotation])](https://yuml.me/diagram/nofunky;dir:TB/class/[Finding]<findings%200..*-++[Reference&#124;id:string;title:string;is_invalid:boolean%20%3F],[Review]-%20additional_reference_ids%200..*>[Reference],[ExistingAnnotation]-%20original_reference_id%200..1>[Reference],[SupportingTextInReference]-%20reference_id%200..1>[Reference],[GeneReview]++-%20references%200..*>[Reference],[SupportingTextInReference],[Review],[GeneReview],[Finding],[ExistingAnnotation])
+[![img](https://yuml.me/diagram/nofunky;dir:TB/class/[Finding]<findings%200..*-++[Reference&#124;id:string;title:string;is_invalid:boolean%20%3F;full_text_unavailable:boolean%20%3F],[Review]-%20additional_reference_ids%200..*>[Reference],[ExistingAnnotation]-%20original_reference_id%200..1>[Reference],[SupportingTextInReference]-%20reference_id%200..1>[Reference],[GeneReview]++-%20references%200..*>[Reference],[SupportingTextInReference],[Review],[GeneReview],[Finding],[ExistingAnnotation])](https://yuml.me/diagram/nofunky;dir:TB/class/[Finding]<findings%200..*-++[Reference&#124;id:string;title:string;is_invalid:boolean%20%3F;full_text_unavailable:boolean%20%3F],[Review]-%20additional_reference_ids%200..*>[Reference],[ExistingAnnotation]-%20original_reference_id%200..1>[Reference],[SupportingTextInReference]-%20reference_id%200..1>[Reference],[GeneReview]++-%20references%200..*>[Reference],[SupportingTextInReference],[Review],[GeneReview],[Finding],[ExistingAnnotation])
 
 ## Referenced by Class
 
@@ -29,4 +29,7 @@ URI: [gene_review:Reference](https://w3id.org/ai4curation/gene_review/Reference)
      * Range: [Finding](Finding.md)
  * [is_invalid](is_invalid.md)  <sub>0..1</sub>
      * Description: Whether the reference is invalid (e.g., retracted or replaced)
+     * Range: [Boolean](types/Boolean.md)
+ * [full_text_unavailable](full_text_unavailable.md)  <sub>0..1</sub>
+     * Description: Whether the full text is unavailable
      * Range: [Boolean](types/Boolean.md)

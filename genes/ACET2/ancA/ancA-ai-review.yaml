@@ -226,3 +226,17 @@ core_functions:
     label: cellulosome
   - id: GO:0005576
     label: extracellular region
+suggested_questions:
+- question: How does AncA coordinate the spatial organization of multiple enzymatic
+    subunits within the cellulosome to optimize synergistic cellulose degradation?
+- question: What determines the binding specificity and affinity between AncA's cohesin
+    domains and different dockerin-containing enzymes?
+- question: How does mechanical stress from substrate binding affect the structural
+    integrity and catalytic efficiency of the AncA-anchored cellulosome?
+suggested_experiments:
+- description: Cryo-EM tomography of intact cellulosomes bound to crystalline cellulose
+    to visualize the 3D architecture and enzyme positioning
+- description: Force spectroscopy measurements to quantify the mechanical stability
+    of cohesin-dockerin interactions under substrate-binding conditions
+- description: Synthetic biology approaches to engineer minimal cellulosomes with
+    defined enzyme compositions for specific biomass substrates

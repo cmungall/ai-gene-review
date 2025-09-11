@@ -683,3 +683,14 @@ core_functions:
     label: skeletal system development
   - id: GO:0003014
     label: renal system process
+
+suggested_questions:
+- question: How does TRPM7 integrate mechanosensing with magnesium homeostasis in zebrafish development?
+- question: What determines the tissue-specific requirements for TRPM7 kinase versus channel activity?
+- question: How does TRPM7 regulate cell migration and morphogenesis during gastrulation and organogenesis?
+- question: What role does TRPM7 play in left-right asymmetry establishment in the zebrafish embryo?
+suggested_experiments:
+- description: Electrophysiological analysis of TRPM7 channel properties in different zebrafish cell types
+- description: Live imaging of cell migration during gastrulation in TRPM7 mutant embryos
+- description: Magnesium imaging using fluorescent indicators to study TRPM7 function in ion homeostasis
+- description: Analysis of left-right patterning genes in TRPM7 mutant embryos using whole-mount in situ hybridization

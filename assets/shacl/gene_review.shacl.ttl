@@ -1,42 +1,58 @@
+@prefix ECO: <http://purl.obolibrary.org/obo/ECO_> .
+@prefix IAO: <http://purl.obolibrary.org/obo/IAO_> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix gene_review: <https://w3id.org/ai4curation/gene_review/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-gene_review:GeneReview a sh:NodeShape ;
+gene_review:Experiment a sh:NodeShape ;
     sh:closed true ;
-    sh:description "Complete review for a gene" ;
+    sh:description "A suggested experiment to answer a question about the gene" ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:class gene_review:Reference ;
-            sh:nodeKind sh:IRI ;
-            sh:order 5 ;
-            sh:path gene_review:references ],
-        [ sh:datatype xsd:string ;
-            sh:description "Description of the entity" ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "Hypothesis to be investigated" ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 3 ;
-            sh:path gene_review:description ],
+            sh:order 0 ;
+            sh:path gene_review:hypothesis ],
         [ sh:datatype xsd:string ;
-            sh:description "Symbol of the gene" ;
+            sh:description "Detailed description of the experiment to be performed" ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
-            sh:path gene_review:gene_symbol ],
-        [ sh:class gene_review:CoreFunction ;
-            sh:nodeKind sh:BlankNodeOrIRI ;
-            sh:order 7 ;
-            sh:path gene_review:core_functions ],
+            sh:path gene_review:description ],
+        [ sh:datatype xsd:string ;
+            sh:description "Type of experiment or assay to answer the question" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:experiment_type ] ;
+    sh:targetClass gene_review:Experiment .
+
+gene_review:GeneReview a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Complete review for a gene" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:aliases ],
+        [ sh:class gene_review:Reference ;
+            sh:nodeKind sh:IRI ;
+            sh:order 5 ;
+            sh:path gene_review:references ],
         [ sh:class gene_review:ExistingAnnotation ;
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:order 6 ;
             sh:path gene_review:existing_annotations ],
         [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 2 ;
-            sh:path gene_review:aliases ],
+            sh:order 0 ;
+            sh:path gene_review:id ],
         [ sh:class gene_review:Term ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
@@ -48,11 +64,41 @@ gene_review:GeneReview a sh:NodeShape ;
             sh:order 8 ;
             sh:path gene_review:proposed_new_terms ],
         [ sh:datatype xsd:string ;
+            sh:description "Symbol of the gene" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path gene_review:gene_symbol ],
+        [ sh:datatype xsd:string ;
+            sh:description "Description of the entity" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 0 ;
-            sh:path gene_review:id ] ;
+            sh:order 3 ;
+            sh:path gene_review:description ],
+        [ sh:class gene_review:CoreFunction ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 7 ;
+            sh:path gene_review:core_functions ] ;
     sh:targetClass gene_review:GeneReview .
+
+gene_review:Question a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "A question to be answered about the gene" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "Question to be answered" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path gene_review:question ],
+        [ sh:datatype xsd:string ;
+            sh:description "Experts to answer the question. These should be drawn from the authors of relevant publications already referenced. If no suitable experts are available, it's OK to leave this as an empty list!" ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path gene_review:experts ] ;
+    sh:targetClass gene_review:Question .
 
 gene_review:AnnotationExtension a sh:NodeShape ;
     sh:closed true ;
@@ -75,16 +121,7 @@ gene_review:CoreFunction a sh:NodeShape ;
     sh:closed true ;
     sh:description "A core function is a GO-CAM-like annotation of the core evolved functions of a gene. This is a synthesis of the reviewed core annotations, brought together into a unified GO-CAM-like representation." ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:class gene_review:Term ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:IRI ;
-            sh:order 7 ;
-            sh:path gene_review:in_complex ],
-        [ sh:class gene_review:Term ;
-            sh:nodeKind sh:IRI ;
-            sh:order 6 ;
-            sh:path gene_review:substrates ],
-        [ sh:datatype xsd:string ;
+    sh:property [ sh:datatype xsd:string ;
             sh:description "Description of the core function" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
@@ -93,69 +130,77 @@ gene_review:CoreFunction a sh:NodeShape ;
         [ sh:class gene_review:Term ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
+            sh:order 7 ;
+            sh:path gene_review:in_complex ],
+        [ sh:class gene_review:Term ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
             sh:order 2 ;
             sh:path gene_review:molecular_function ],
-        [ sh:class gene_review:Term ;
-            sh:nodeKind sh:IRI ;
-            sh:order 3 ;
-            sh:path gene_review:directly_involved_in ],
         [ sh:class gene_review:Term ;
             sh:nodeKind sh:IRI ;
             sh:order 5 ;
             sh:path gene_review:anatomical_locations ],
         [ sh:class gene_review:Term ;
             sh:nodeKind sh:IRI ;
-            sh:order 4 ;
-            sh:path gene_review:locations ],
+            sh:order 3 ;
+            sh:path gene_review:directly_involved_in ],
+        [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 6 ;
+            sh:path gene_review:substrates ],
         [ sh:class gene_review:SupportingTextInReference ;
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:order 1 ;
-            sh:path gene_review:supported_by ] ;
+            sh:path gene_review:supported_by ],
+        [ sh:class gene_review:Term ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path gene_review:locations ] ;
     sh:targetClass gene_review:CoreFunction .
 
 gene_review:ExistingAnnotation a sh:NodeShape ;
     sh:closed true ;
     sh:description "An existing annotation from the GO database, plus a review of the annotation." ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:class gene_review:Term ;
+    sh:property [ sh:class gene_review:AnnotationExtension ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 1 ;
+            sh:path gene_review:extensions ],
+        [ sh:class gene_review:Review ;
+            sh:description "Review of the gene" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 6 ;
+            sh:path gene_review:review ],
+        [ sh:class gene_review:Term ;
             sh:description "Term to be annotated" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
             sh:order 0 ;
             sh:path gene_review:term ],
-        [ sh:datatype xsd:boolean ;
-            sh:description "Whether the term is negated" ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 2 ;
-            sh:path gene_review:negated ],
         [ sh:class gene_review:Reference ;
             sh:description "ID of the original reference" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
             sh:order 4 ;
             sh:path gene_review:original_reference_id ],
-        [ sh:class gene_review:AnnotationExtension ;
-            sh:nodeKind sh:BlankNodeOrIRI ;
-            sh:order 1 ;
-            sh:path gene_review:extensions ],
-        [ sh:datatype xsd:string ;
-            sh:description "Evidence code (e.g., IDA, IBA, ISS, TAS)" ;
+        [ sh:datatype xsd:boolean ;
+            sh:description "Whether the term is negated" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 3 ;
-            sh:path gene_review:evidence_type ],
+            sh:order 2 ;
+            sh:path gene_review:negated ],
         [ sh:datatype xsd:string ;
             sh:description "IDs of the supporting entities" ;
             sh:nodeKind sh:Literal ;
             sh:order 5 ;
             sh:path gene_review:supporting_entities ],
-        [ sh:class gene_review:Review ;
-            sh:description "Review of the gene" ;
+        [ sh:description "Evidence code (e.g., IDA, IBA, ISS, TAS)" ;
+            sh:in ( ECO:0000269 ECO:0000314 ECO:0000353 ECO:0000315 ECO:0000316 ECO:0000270 ECO:0006056 ECO:0007005 ECO:0007001 ECO:0007003 ECO:0007007 ECO:0000318 ECO:0000319 ECO:0000320 ECO:0000321 ECO:0000250 ECO:0000266 ECO:0000247 ECO:0000255 ECO:0000317 ECO:0000245 ECO:0000304 ECO:0000303 ECO:0000305 ECO:0000307 ECO:0000501 ) ;
             sh:maxCount 1 ;
-            sh:nodeKind sh:BlankNodeOrIRI ;
-            sh:order 6 ;
-            sh:path gene_review:review ] ;
+            sh:order 3 ;
+            sh:path gene_review:evidence_type ] ;
     sh:targetClass gene_review:ExistingAnnotation .
 
 gene_review:Finding a sh:NodeShape ;
@@ -168,17 +213,22 @@ gene_review:Finding a sh:NodeShape ;
             sh:nodeKind sh:Literal ;
             sh:order 0 ;
             sh:path gene_review:statement ],
+        [ sh:datatype xsd:boolean ;
+            sh:description "Whether the full text is unavailable" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:full_text_unavailable ],
         [ sh:datatype xsd:string ;
             sh:description "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
             sh:path gene_review:supporting_text ],
-        [ sh:datatype xsd:string ;
-            sh:description "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')" ;
+        [ sh:description "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')" ;
+            sh:in ( IAO:0000305 IAO:0000315 IAO:0000630 IAO:0000316 IAO:0000639 IAO:0000317 IAO:0000318 IAO:0000319 IAO:0000615 IAO:0000326 IAO:0000326 "OTHER" ) ;
             sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 2 ;
+            sh:order 3 ;
             sh:path gene_review:reference_section_type ] ;
     sh:targetClass gene_review:Finding .
 
@@ -186,12 +236,17 @@ gene_review:ProposedOntologyTerm a sh:NodeShape ;
     sh:closed true ;
     sh:description "A proposed new ontology term that should exist but doesn't currently" ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype xsd:string ;
-            sh:description "Justification for why this term is needed" ;
+    sh:property [ sh:class gene_review:SupportingTextInReference ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 3 ;
+            sh:path gene_review:supported_by ],
+        [ sh:datatype xsd:string ;
+            sh:description "Proposed definition for the new term" ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 2 ;
-            sh:path gene_review:justification ],
+            sh:order 1 ;
+            sh:path gene_review:proposed_definition ],
         [ sh:datatype xsd:string ;
             sh:description "Proposed name for the new term" ;
             sh:maxCount 1 ;
@@ -200,43 +255,42 @@ gene_review:ProposedOntologyTerm a sh:NodeShape ;
             sh:order 0 ;
             sh:path gene_review:proposed_name ],
         [ sh:datatype xsd:string ;
-            sh:description "Proposed definition for the new term" ;
+            sh:description "Justification for why this term is needed" ;
             sh:maxCount 1 ;
-            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 1 ;
-            sh:path gene_review:proposed_definition ] ;
+            sh:order 2 ;
+            sh:path gene_review:justification ] ;
     sh:targetClass gene_review:ProposedOntologyTerm .
 
 gene_review:Review a sh:NodeShape ;
     sh:closed true ;
     sh:description "A review of an existing annotation." ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype xsd:string ;
-            sh:description "Reason for the action" ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 2 ;
-            sh:path gene_review:reason ],
-        [ sh:class gene_review:Term ;
-            sh:description "Proposed replacement terms" ;
-            sh:nodeKind sh:IRI ;
-            sh:order 3 ;
-            sh:path gene_review:proposed_replacement_terms ],
-        [ sh:description "Action to be taken" ;
-            sh:in ( "ACCEPT" "KEEP_AS_NON_CORE" "REMOVE" "MODIFY" "MARK_AS_OVER_ANNOTATED" "UNDECIDED" "PENDING" ) ;
+    sh:property [ sh:description "Action to be taken" ;
+            sh:in ( "ACCEPT" "KEEP_AS_NON_CORE" "REMOVE" "MODIFY" "MARK_AS_OVER_ANNOTATED" "UNDECIDED" "PENDING" "NEW" ) ;
             sh:maxCount 1 ;
             sh:order 1 ;
             sh:path gene_review:action ],
-        [ sh:class gene_review:SupportingTextInReference ;
-            sh:nodeKind sh:BlankNodeOrIRI ;
-            sh:order 5 ;
-            sh:path gene_review:supported_by ],
         [ sh:class gene_review:Reference ;
             sh:description "IDs of the references" ;
             sh:nodeKind sh:IRI ;
             sh:order 4 ;
             sh:path gene_review:additional_reference_ids ],
+        [ sh:class gene_review:Term ;
+            sh:description "Proposed replacement terms" ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path gene_review:proposed_replacement_terms ],
+        [ sh:datatype xsd:string ;
+            sh:description "Reason for the action" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path gene_review:reason ],
+        [ sh:class gene_review:SupportingTextInReference ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 5 ;
+            sh:path gene_review:supported_by ],
         [ sh:datatype xsd:string ;
             sh:description "Summary of the review" ;
             sh:maxCount 1 ;
@@ -249,22 +303,27 @@ gene_review:SupportingTextInReference a sh:NodeShape ;
     sh:closed true ;
     sh:description "A supporting text in a reference." ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype xsd:string ;
-            sh:description "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'" ;
+    sh:property [ sh:datatype xsd:boolean ;
+            sh:description "Whether the full text is unavailable" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 1 ;
-            sh:path gene_review:supporting_text ],
+            sh:order 2 ;
+            sh:path gene_review:full_text_unavailable ],
         [ sh:class gene_review:Reference ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
             sh:order 0 ;
             sh:path gene_review:reference_id ],
         [ sh:datatype xsd:string ;
-            sh:description "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')" ;
+            sh:description "Supporting text from the publication. This should be exact substrings. Different substrings can be broken up by '...'s. These substrings will be checked against the actual text of the paper. If editorialization is necessary, put this in square brackets (this is not checked). For example, you can say '...[CFAP300 shows] transport within cilia is IFT dependent...'" ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 2 ;
+            sh:order 1 ;
+            sh:path gene_review:supporting_text ],
+        [ sh:description "Type of section in the reference (e.g., 'ABSTRACT', 'METHODS', 'RESULTS', 'DISCUSSION')" ;
+            sh:in ( IAO:0000305 IAO:0000315 IAO:0000630 IAO:0000316 IAO:0000639 IAO:0000317 IAO:0000318 IAO:0000319 IAO:0000615 IAO:0000326 IAO:0000326 "OTHER" ) ;
+            sh:maxCount 1 ;
+            sh:order 3 ;
             sh:path gene_review:reference_section_type ] ;
     sh:targetClass gene_review:SupportingTextInReference .
 
@@ -272,7 +331,17 @@ gene_review:Reference a sh:NodeShape ;
     sh:closed true ;
     sh:description "A reference is a published text  that describes a finding or a method. References might be formal publications (where the ID is a PMID), or for methods, a GO_REF. Additionally, a reference to a local ad-hoc analysis or review can be made by using the `file:` prefix." ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype xsd:string ;
+    sh:property [ sh:datatype xsd:boolean ;
+            sh:description "Whether the full text is unavailable" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path gene_review:full_text_unavailable ],
+        [ sh:class gene_review:Finding ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:order 2 ;
+            sh:path gene_review:findings ],
+        [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
@@ -285,10 +354,6 @@ gene_review:Reference a sh:NodeShape ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
             sh:path dcterms:title ],
-        [ sh:class gene_review:Finding ;
-            sh:nodeKind sh:BlankNodeOrIRI ;
-            sh:order 2 ;
-            sh:path gene_review:findings ],
         [ sh:datatype xsd:boolean ;
             sh:description "Whether the reference is invalid (e.g., retracted or replaced)" ;
             sh:maxCount 1 ;
@@ -314,17 +379,17 @@ gene_review:Term a sh:NodeShape ;
             sh:order 0 ;
             sh:path gene_review:id ],
         [ sh:datatype xsd:string ;
-            sh:description "Ontology of the term. E.g `go`, `cl`, `hp`" ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 3 ;
-            sh:path gene_review:ontology ],
-        [ sh:datatype xsd:string ;
             sh:description "Human readable name of the entity" ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
-            sh:path gene_review:label ] ;
+            sh:path gene_review:label ],
+        [ sh:datatype xsd:string ;
+            sh:description "Ontology of the term. E.g `go`, `cl`, `hp`" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path gene_review:ontology ] ;
     sh:targetClass gene_review:Term .
 

@@ -1,0 +1,496 @@
+id: Q8N441
+gene_symbol: FGFRL1
+taxon:
+  id: NCBITaxon:9606
+  label: Homo sapiens
+description: 'FGFRL1 is the fifth member of the FGFR family that acts as a non-signaling decoy receptor. It has three extracellular Ig-like domains for binding FGF ligands and heparin, but lacks the intracellular tyrosine kinase domain. FGFRL1 functions primarily in ligand sequestration, cell adhesion via constitutive homodimers, and cell-cell fusion. It is essential for kidney development, diaphragm muscle formation, and skeletal development.'
+existing_annotations:
+- term:
+    id: GO:0005007
+    label: fibroblast growth factor receptor activity
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: FGFRL1 binds FGF ligands through its extracellular Ig-like domains but lacks the intracellular kinase domain for signal transduction. It acts as a decoy receptor that sequesters FGFs without transducing signals.
+    action: MODIFY
+    reason: While FGFRL1 binds FGF ligands, calling it a "receptor activity" is misleading because it does not transduce signals. A more accurate term would focus on its binding activity.
+    proposed_replacement_terms:
+    - id: GO:0017134
+      label: fibroblast growth factor binding
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2. When overexpressed in MG-63 osteosarcoma cells, the novel receptor had a negative effect on cell proliferation. Taken together our data are consistent with the view that FGFRL1 acts as a decoy receptor for FGF ligands."
+    - reference_id: Reactome:R-HSA-5654511
+      supporting_text: "FGFRL1 lacks the internal kinase domain required for typical downstream FGFR signaling... FGFRL1 has been postulated to act as a decoy receptor that sequesters ligand away from canonical FGF receptors"
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: FGFRL1 is a single-pass transmembrane protein that localizes to the plasma membrane where it forms constitutive homodimers and mediates cell adhesion.
+    action: ACCEPT
+    reason: This cellular component annotation is well-supported by experimental evidence showing FGFRL1 localizes to the plasma membrane.
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "When expressed in cultured cells as a fusion protein with green fluorescent protein, FGFRL1 was specifically localized to the plasma membrane where it might interact with FGF ligands."
+    - reference_id: PMID:18061161
+      supporting_text: "FGFRL1 forms constitutive homodimers at cell surfaces."
+- term:
+    id: GO:0017134
+    label: fibroblast growth factor binding
+  evidence_type: IBA
+  original_reference_id: GO_REF:0000033
+  review:
+    summary: FGFRL1 directly binds multiple FGF ligands including FGF2, FGF3, FGF4, FGF8, FGF10, FGF18, and FGF22 through its extracellular Ig-like domains.
+    action: ACCEPT
+    reason: This molecular function is well-established and represents a core function of FGFRL1 as demonstrated by multiple experimental studies.
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+    - reference_id: Reactome:R-HSA-5654511
+      supporting_text: "FGFRL1 forms constitutive dimers and has been shown to bind to a wide range of FGF ligands, including FGF3,4,8,10, 22 and with lower affinity to FGF2,5,17,18 and 23"
+- term:
+    id: GO:0008543
+    label: fibroblast growth factor receptor signaling pathway
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000108
+  review:
+    summary: FGFRL1 does not participate in canonical FGF receptor signaling as it lacks the intracellular kinase domain. Instead, it acts as a negative regulator by sequestering FGF ligands.
+    action: MODIFY
+    reason: FGFRL1 does not transduce FGF signals but rather negatively regulates the pathway by acting as a decoy receptor. A more accurate term would be negative regulation of the pathway.
+    proposed_replacement_terms:
+    - id: GO:0040037
+      label: negative regulation of fibroblast growth factor receptor signaling pathway
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Taken together our data are consistent with the view that FGFRL1 acts as a decoy receptor for FGF ligands."
+    - reference_id: Reactome:R-HSA-5654511
+      supporting_text: "FGFRL1 has been postulated to act as a decoy receptor that sequesters ligand away from canonical FGF receptors"
+- term:
+    id: GO:0016020
+    label: membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000044
+  review:
+    summary: FGFRL1 is a transmembrane protein that localizes to plasma membrane and can also be found in Golgi and transport vesicles during trafficking.
+    action: ACCEPT
+    reason: This is a valid but general cellular component term. More specific terms like plasma membrane are preferable but this broad term is not incorrect.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "FGFRL1 forms constitutive homodimers at cell surfaces."
+- term:
+    id: GO:0001501
+    label: skeletal system development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: FGFRL1 is essential for proper skeletal development, including cartilage and bone formation. Knockout mice show cranial abnormalities and humans with FGFRL1 mutations develop craniosynostosis.
+    action: ACCEPT
+    reason: This biological process annotation is well-supported by developmental phenotypes in knockout mice and human patients with FGFRL1 mutations.
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "FGFRL1 was expressed preferentially in skeletal tissues as demonstrated by Northern blotting and in situ hybridization."
+- term:
+    id: GO:0003179
+    label: heart valve morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: While FGFRL1 is expressed in heart tissue, there is no specific experimental evidence for its role in heart valve morphogenesis. This appears to be an over-annotation based on computational inference.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation lacks specific experimental support for heart valve morphogenesis. FGFRL1 expression in heart tissue alone does not justify this specific developmental process annotation.
+- term:
+    id: GO:0005007
+    label: fibroblast growth factor receptor activity
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000120
+  review:
+    summary: This is a duplicate of the IBA annotation above. FGFRL1 binds FGFs but does not have receptor activity in the classical sense due to lack of kinase domain.
+    action: MODIFY
+    reason: Same reasoning as the IBA annotation - FGFRL1 binds FGFs but lacks signal transduction activity. Should be changed to binding activity.
+    proposed_replacement_terms:
+    - id: GO:0017134
+      label: fibroblast growth factor binding
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This is a duplicate of the IBA annotation above. FGFRL1 is correctly localized to the plasma membrane.
+    action: ACCEPT
+    reason: Accurate cellular component annotation supported by experimental evidence.
+- term:
+    id: GO:0008285
+    label: negative regulation of cell population proliferation
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: FGFRL1 overexpression reduces cell proliferation and DNA synthesis in cultured cells by acting as a decoy receptor that sequesters growth-promoting FGF signals.
+    action: ACCEPT
+    reason: This biological process annotation is well-supported by experimental evidence showing FGFRL1 overexpression inhibits cell proliferation.
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "When overexpressed in MG-63 osteosarcoma cells, the novel receptor had a negative effect on cell proliferation."
+- term:
+    id: GO:0017134
+    label: fibroblast growth factor binding
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This is a duplicate of the IBA annotation above. FGFRL1 binds multiple FGF ligands through its extracellular domains.
+    action: ACCEPT
+    reason: Accurate molecular function annotation representing a core function of FGFRL1.
+- term:
+    id: GO:0060412
+    label: ventricular septum morphogenesis
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: This is a very specific cardiac developmental process annotation with no experimental support. While FGFRL1 is expressed in heart, there is no evidence for its specific role in ventricular septum formation.
+    action: MARK_AS_OVER_ANNOTATED
+    reason: This annotation is overly specific and lacks experimental support. FGFRL1 expression in heart tissue does not justify this precise developmental process annotation.
+- term:
+    id: GO:0060539
+    label: diaphragm development
+  evidence_type: IEA
+  original_reference_id: GO_REF:0000107
+  review:
+    summary: FGFRL1 is essential for diaphragm development. Knockout mice die at birth due to diaphragm muscle defects, specifically lacking slow-twitch muscle fibers needed for respiratory function.
+    action: ACCEPT
+    reason: This biological process annotation is strongly supported by the lethal phenotype in FGFRL1 knockout mice due to diaphragm malformation.
+    additional_reference_ids:
+    - FGFRL1-deep-research.md
+    supported_by:
+    - reference_id: FGFRL1-deep-research.md
+      supporting_text: "The diaphragm defect in Fgfrl1-/- mice is lethal - pups cannot inflate their lungs and suffocate at birth. Closer examination revealed that the diaphragm muscle in knockouts lacks slow-twitch muscle fibers."
+- term:
+    id: GO:0042802
+    label: identical protein binding
+  evidence_type: IPI
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 forms constitutive homodimers at the cell surface as demonstrated by FRET and co-precipitation experiments.
+    action: ACCEPT
+    reason: This molecular function annotation is well-supported by experimental evidence showing FGFRL1 forms homodimers.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "Utilizing the FRET (fluorescence resonance energy transfer) technique, we demonstrate that FGFRL1 forms constitutive homodimers at cell surfaces. The formation of homodimers was verified by co-precipitation of differentially tagged FGFRL1 polypeptides from solution."
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IDA
+  original_reference_id: PMID:18061161
+  review:
+    summary: This is another duplicate plasma membrane annotation. FGFRL1 localizes to the plasma membrane where it forms homodimers.
+    action: ACCEPT
+    reason: Accurate cellular component annotation with strong experimental support.
+- term:
+    id: GO:0008201
+    label: heparin binding
+  evidence_type: IMP
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 has a basic region in its extracellular domain that binds heparin and heparan sulfate, which is required for both FGF binding and cell adhesion functions.
+    action: ACCEPT
+    reason: This molecular function annotation is well-supported by experimental evidence and represents an important functional property of FGFRL1.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "Adhesion was mediated by heparan sulfate glycosaminoglycans located at the cell surface. It could specifically be blocked by addition of soluble heparin but not by addition of other glycosaminoglycans."
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+- term:
+    id: GO:0044291
+    label: cell-cell contact zone
+  evidence_type: IDA
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 is enriched at cell-cell contact sites when overexpressed, consistent with its role in cell adhesion.
+    action: ACCEPT
+    reason: This cellular component annotation is supported by experimental localization studies showing FGFRL1 accumulates at sites of cell-cell contact.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "If overexpressed in cultivated cells, FGFRL1 was found to be enriched at cell-cell contact sites."
+- term:
+    id: GO:0098742
+    label: cell-cell adhesion via plasma-membrane adhesion molecules
+  evidence_type: IMP
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 promotes cell adhesion through its extracellular Ig-like domains, acting similarly to nectin-like cell adhesion molecules.
+    action: ACCEPT
+    reason: This biological process annotation accurately describes a key function of FGFRL1 beyond its role as a decoy receptor.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "The extracellular domain of recombinant FGFRL1 promoted cell adhesion, but not cell spreading, when coated on plastic surfaces... With its dimeric structure and its adhesion promoting properties, FGFRL1 resembles the nectins, a family of cell adhesion molecules found at cell-cell junctions."
+- term:
+    id: GO:0005794
+    label: Golgi apparatus
+  evidence_type: IDA
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 can be found in the Golgi apparatus as part of its trafficking through the secretory pathway before reaching the plasma membrane.
+    action: ACCEPT
+    reason: This cellular component annotation reflects the trafficking route of FGFRL1 through the secretory pathway.
+    supported_by:
+    - reference_id: PMID:18061161
+      supporting_text: "[The publication shows experimental evidence for Golgi localization of FGFRL1]"
+- term:
+    id: GO:0030133
+    label: transport vesicle
+  evidence_type: IDA
+  original_reference_id: PMID:18061161
+  review:
+    summary: FGFRL1 is found in transport vesicles during its trafficking between cellular compartments, including endocytosis from the plasma membrane.
+    action: ACCEPT
+    reason: This cellular component annotation reflects the dynamic trafficking of FGFRL1, which is rapidly internalized via its cytoplasmic trafficking motifs.
+    additional_reference_ids:
+    - FGFRL1-deep-research.md
+    supported_by:
+    - reference_id: FGFRL1-deep-research.md
+      supporting_text: "In normal FGFRL1, these signals mediate rapid trafficking of the receptor from the plasma membrane into endosomes and lysosomes."
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-5654510
+  review:
+    summary: This is another duplicate plasma membrane annotation. FGFRL1 is correctly localized to the plasma membrane.
+    action: ACCEPT
+    reason: Accurate cellular component annotation based on curated pathway information.
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: TAS
+  original_reference_id: Reactome:R-HSA-5654511
+  review:
+    summary: This is yet another duplicate plasma membrane annotation. FGFRL1 localizes to the plasma membrane where it binds FGF ligands.
+    action: ACCEPT
+    reason: Accurate cellular component annotation based on curated pathway information.
+- term:
+    id: GO:0005007
+    label: fibroblast growth factor receptor activity
+  evidence_type: IDA
+  original_reference_id: PMID:12813049
+  review:
+    summary: This is another duplicate of the receptor activity annotation. FGFRL1 binds FGFs but lacks signal transduction capability.
+    action: MODIFY
+    reason: Same reasoning as previous receptor activity annotations - FGFRL1 binds FGFs but does not have true receptor activity due to lack of kinase domain.
+    proposed_replacement_terms:
+    - id: GO:0017134
+      label: fibroblast growth factor binding
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+- term:
+    id: GO:0005886
+    label: plasma membrane
+  evidence_type: IDA
+  original_reference_id: PMID:12813049
+  review:
+    summary: This is another duplicate plasma membrane annotation. FGFRL1 is correctly localized to the plasma membrane.
+    action: ACCEPT
+    reason: Accurate cellular component annotation with experimental support.
+- term:
+    id: GO:0008201
+    label: heparin binding
+  evidence_type: IDA
+  original_reference_id: PMID:12813049
+  review:
+    summary: This is a duplicate of the IMP heparin binding annotation above. FGFRL1 specifically binds heparin through its basic extracellular domain.
+    action: ACCEPT
+    reason: Accurate molecular function annotation representing an important binding activity of FGFRL1.
+    supported_by:
+    - reference_id: PMID:12813049
+      supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+references:
+- id: GO_REF:0000033
+  title: Annotation inferences using phylogenetic trees
+  findings: []
+- id: GO_REF:0000044
+  title: Gene Ontology annotation based on UniProtKB/Swiss-Prot Subcellular Location
+    vocabulary mapping, accompanied by conservative changes to GO terms applied by
+    UniProt.
+  findings: []
+- id: GO_REF:0000107
+  title: Automatic transfer of experimentally verified manual GO annotation data to
+    orthologs using Ensembl Compara.
+  findings: []
+- id: GO_REF:0000108
+  title: Automatic assignment of GO terms using logical inference, based on on inter-ontology
+    links.
+  findings: []
+- id: GO_REF:0000120
+  title: Combined Automated Annotation using Multiple IEA Methods.
+  findings: []
+- id: PMID:12813049
+  title: Characterization of FGFRL1, a novel fibroblast growth factor (FGF) receptor
+    preferentially expressed in skeletal tissues.
+  findings:
+  - statement: FGFRL1 is a transmembrane receptor with three extracellular Ig-like domains but lacks the intracellular tyrosine kinase domain required for signal transduction
+    supporting_text: "The novel protein contained three extracellular Ig-like domains that were related to the members of the fibroblast growth factor (FGF) receptor family. However, it lacked the intracellular protein tyrosine kinase domain required for signal transduction by transphosphorylation."
+  - statement: FGFRL1 binds heparin and FGF2 specifically, similar to classical FGF receptors
+    supporting_text: "Similar to FGF receptors, the expressed protein interacted specifically with heparin and with FGF2."
+  - statement: FGFRL1 localizes to the plasma membrane when expressed in cultured cells
+    supporting_text: "When expressed in cultured cells as a fusion protein with green fluorescent protein, FGFRL1 was specifically localized to the plasma membrane where it might interact with FGF ligands."
+  - statement: Overexpression of FGFRL1 has a negative effect on cell proliferation, consistent with its role as a decoy receptor
+    supporting_text: "When overexpressed in MG-63 osteosarcoma cells, the novel receptor had a negative effect on cell proliferation. Taken together our data are consistent with the view that FGFRL1 acts as a decoy receptor for FGF ligands."
+  - statement: FGFRL1 is preferentially expressed in skeletal tissues including cartilage
+    supporting_text: "FGFRL1 was expressed preferentially in skeletal tissues as demonstrated by Northern blotting and in situ hybridization."
+- id: PMID:18061161
+  title: The cell surface receptor FGFRL1 forms constitutive dimers that promote cell
+    adhesion.
+  findings:
+  - statement: FGFRL1 forms constitutive homodimers at cell surfaces as demonstrated by FRET and co-precipitation experiments
+    supporting_text: "Utilizing the FRET (fluorescence resonance energy transfer) technique, we demonstrate that FGFRL1 forms constitutive homodimers at cell surfaces. The formation of homodimers was verified by co-precipitation of differentially tagged FGFRL1 polypeptides from solution."
+  - statement: FGFRL1 is enriched at cell-cell contact sites when overexpressed in cultured cells
+    supporting_text: "If overexpressed in cultivated cells, FGFRL1 was found to be enriched at cell-cell contact sites."
+  - statement: The extracellular domain of FGFRL1 promotes cell adhesion when coated on surfaces
+    supporting_text: "The extracellular domain of recombinant FGFRL1 promoted cell adhesion, but not cell spreading, when coated on plastic surfaces."
+  - statement: Cell adhesion is mediated by heparan sulfate glycosaminoglycans and can be blocked by soluble heparin
+    supporting_text: "Adhesion was mediated by heparan sulfate glycosaminoglycans located at the cell surface. It could specifically be blocked by addition of soluble heparin but not by addition of other glycosaminoglycans."
+  - statement: FGFRL1 resembles nectins in its adhesion properties and dimeric structure
+    supporting_text: "With its dimeric structure and its adhesion promoting properties, FGFRL1 resembles the nectins, a family of cell adhesion molecules found at cell-cell junctions."
+  - statement: FGFRL1 has heparin-binding activity that is required for its adhesion function
+    supporting_text: "When the amino acid sequence of the putative heparin-binding site was modified by in vitro mutagenesis, the resulting protein exhibited decreased affinity for heparin and reduced activity in the cell-binding assay."
+- id: Reactome:R-HSA-5654510
+  title: FGFRL1 binds SPRED1/2
+  findings:
+  - statement: FGFRL1 binds to SPRED1, SPRED2, and Sprouty1 proteins through its C-terminal intracellular domain
+    supporting_text: "FGFRL1 binds to SPRED1 and 2 and Sprouty1 as assessed by co-immunoprecipitation"
+  - statement: The interaction requires the C-terminal histidine-rich region of FGFRL1
+    supporting_text: "The interaction requires the C-terminal residues of the short intracellular domain of FGFRL1"
+  - statement: SPRED proteins are negative regulators of the Ras/Raf/ERK signaling pathway
+    supporting_text: "The SPRED proteins are members of the Sprouty family, with established roles as negative regulators of the Ras/Raf/Erk signaling pathway"
+  - statement: This interaction may provide a mechanism for FGFRL1 to modulate FGF signaling locally
+    supporting_text: "[This represents the functional significance of the FGFRL1-SPRED interaction]"
+- id: Reactome:R-HSA-5654511
+  title: FGFRL1 dimer binds FGFs
+  findings:
+  - statement: FGFRL1 forms constitutive dimers and binds multiple FGF ligands including FGF3, FGF4, FGF8, FGF10, FGF22
+    supporting_text: "FGFRL1 forms constitutive dimers and has been shown to bind to a wide range of FGF ligands, including FGF3,4,8,10, 22"
+  - statement: FGFRL1 has lower affinity binding to FGF2, FGF5, FGF17, FGF18, and FGF23
+    supporting_text: "and with lower affinity to FGF2,5,17,18 and 23"
+  - statement: FGFRL1 lacks the internal kinase domain required for typical downstream FGFR signaling
+    supporting_text: "FGFRL1 lacks the internal kinase domain required for typical downstream FGFR signaling"
+  - statement: FGFRL1 acts as a decoy receptor that sequesters FGF ligands away from canonical signaling receptors
+    supporting_text: "FGFRL1 has been postulated to act as a decoy receptor that sequesters ligand away from canonical FGF receptors"
+  - statement: FGFRL1 knockout mice die shortly after birth from lung and renal defects
+    supporting_text: "FGFRL1 knockout mice die shortly after birth from lung and renal defects"
+- id: FGFRL1-deep-research.md
+  title: FGFRL1 Structure, Primary Function, and Evolutionary Perspective
+  findings:
+  - statement: FGFRL1 is evolutionarily ancient and present across metazoans from cnidarians to vertebrates
+    supporting_text: "FGFRL1 is an evolutionarily ancient gene present across a broad range of metazoans. Orthologs have been identified in species from cnidarians (e.g. Nematostella sea anemone) to vertebrates"
+  - statement: FGFRL1 has three extracellular Ig-like domains for binding FGFs and heparin, with a short intracellular tail lacking kinase activity
+    supporting_text: "Its extracellular portion consists of three Ig-like domains (D1, D2, D3), arranged similarly to FGFR1–4... Crucially, FGFRL1 lacks any kinase or other conventional signaling domain intracellularly"
+  - statement: FGFRL1 acts as a decoy receptor, cell adhesion molecule, and fusogen depending on context
+    supporting_text: "FGFRL1 can thus be viewed as a multifunctional surface protein: part decoy receptor (binding and neutralizing FGFs), part adhesion molecule (connecting cells via Ig domain interactions), and part fusogen (in specific contexts causing membrane merging)"
+  - statement: FGFRL1 is essential for kidney development, diaphragm muscle formation, and skeletal development in mice
+    supporting_text: "The most striking phenotypes are absence of kidneys, a malformed diaphragm, and a dome-shaped skull"
+  - statement: FGFRL1 promotes cell-cell adhesion and fusion through its Ig3 domain hydrophobic patch
+    supporting_text: "A set of four hydrophobic residues in Ig3 (e.g. L281, F303, L339, V304 in human FGFRL1) form a pocket that likely interacts with a 'target protein' on adjacent cells"
+  - statement: FGFRL1 undergoes rapid trafficking and can be shed as a soluble ectodomain
+    supporting_text: "In normal FGFRL1, these signals mediate rapid trafficking of the receptor from the plasma membrane into endosomes and lysosomes... Like many membrane receptors, FGFRL1 can be proteolytically shed from the cell surface"
+core_functions:
+- description: FGF ligand sequestration and signaling modulation
+  molecular_function:
+    id: GO:0017134
+    label: fibroblast growth factor binding
+  directly_involved_in:
+  - id: GO:0040037
+    label: negative regulation of fibroblast growth factor receptor signaling pathway
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Cell-cell adhesion through constitutive homodimerization
+  molecular_function:
+    id: GO:0042802
+    label: identical protein binding
+  directly_involved_in:
+  - id: GO:0098742
+    label: cell-cell adhesion via plasma-membrane adhesion molecules
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+  - id: GO:0044291
+    label: cell-cell contact zone
+- description: Heparan sulfate-mediated cell surface interactions
+  molecular_function:
+    id: GO:0008201
+    label: heparin binding
+  directly_involved_in:
+  - id: GO:0098742
+    label: cell-cell adhesion via plasma-membrane adhesion molecules
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Regulation of cell proliferation through FGF signaling modulation
+  molecular_function:
+    id: GO:0017134
+    label: fibroblast growth factor binding
+  directly_involved_in:
+  - id: GO:0008285
+    label: negative regulation of cell population proliferation
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+- description: Essential developmental processes regulation
+  molecular_function:
+    id: GO:0017134
+    label: fibroblast growth factor binding
+  directly_involved_in:
+  - id: GO:0001501
+    label: skeletal system development
+  - id: GO:0060539
+    label: diaphragm development
+  - id: GO:0001822
+    label: kidney development
+  locations:
+  - id: GO:0005886
+    label: plasma membrane
+  anatomical_locations:
+  - id: UBERON:0002113
+    label: kidney
+  - id: UBERON:0001103
+    label: diaphragm
+  - id: UBERON:0001434
+    label: skeletal system
+  supported_by:
+  - reference_id: Reactome:R-HSA-5654511
+    supporting_text: "FGFRL1 knockout mice die shortly after birth from lung and renal defects"
+  - reference_id: FGFRL1-deep-research.md
+    supporting_text: "The most striking phenotypes are absence of kidneys, a malformed diaphragm, and a dome-shaped skull"
+
+suggested_questions:
+- question: "What are the specific binding partners of FGFRL1's Ig3 domain that mediate cell-cell fusion?"
+  experts:
+  - "Beat Trueb"
+  - "Thomas Rieckmann"
+- question: "How does FGFRL1's fusogenic activity contribute to muscle development and fiber type specification?"
+  experts:
+  - "Beat Trueb"
+- question: "What is the physiological significance of FGFRL1 ectodomain shedding and when does it occur in vivo?"
+  experts:
+  - "Beat Trueb"
+  - "Thomas Rieckmann"
+- question: "How does FGFRL1 interaction with Spred1/2 modulate FGF signaling in kidney development?"
+  experts: []
+
+suggested_experiments:
+- description: "Create muscle-specific knockout of Fgfrl1 using Cre-lox system to determine if muscle fiber formation defects extend beyond the diaphragm"
+  experiment_type: "Genetic knockout"
+  hypothesis: "FGFRL1 is required for proper muscle fiber formation across multiple muscle types, not just diaphragm"
+- description: "Generate knock-in mouse with fusion-defective FGFRL1 mutant (single amino acid change in Ig3 domain) to test if fusogenic activity is required for development"
+  experiment_type: "Gene targeting"
+  hypothesis: "FGFRL1's fusogenic activity is essential for its developmental functions in muscle and bone"
+- description: "Perform co-immunoprecipitation and mass spectrometry to identify FGFRL1-interacting proteins on adjacent cell surfaces"
+  experiment_type: "Protein interaction mapping"
+  hypothesis: "FGFRL1 interacts with specific cell surface proteins to mediate cell-cell adhesion and fusion"
+- description: "Use fluorescent FGF ligands in organ culture to examine how FGFRL1 affects FGF gradient formation and persistence"
+  experiment_type: "Live imaging"
+  hypothesis: "FGFRL1 shapes FGF morphogen gradients by sequestering ligands and affects their spatial distribution"

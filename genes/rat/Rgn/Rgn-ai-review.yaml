@@ -681,3 +681,14 @@ core_functions:
     supporting_text: Supporting evidence for Rgn function
   - reference_id: PMID:11500948
     supporting_text: Supporting evidence for Rgn function
+
+suggested_questions:
+- question: How does regucalcin regulate intracellular calcium homeostasis and what are its tissue-specific functions?
+- question: What determines the nuclear versus cytoplasmic distribution of regucalcin and how does this affect its function?
+- question: How does regucalcin interact with calcium-binding proteins and calcium channels to modulate cellular calcium?
+- question: What role does regucalcin play in aging and cellular senescence, and how is its expression regulated?
+suggested_experiments:
+- description: Live-cell calcium imaging to study the effects of regucalcin on calcium dynamics in different cell types
+- description: Proteomics analysis to identify regucalcin interacting partners and calcium-dependent protein interactions
+- description: Subcellular fractionation and imaging to determine regucalcin localization and translocation during calcium signaling
+- description: Analysis of regucalcin expression and function during aging using longitudinal studies in animal models

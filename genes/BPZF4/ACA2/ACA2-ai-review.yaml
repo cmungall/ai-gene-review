@@ -121,3 +121,17 @@ core_functions:
       supporting_text: Crystal structure reveals Aca2's operator overlaps the –35/–10 promoter elements
     - reference_id: PMID:34756887
       supporting_text: Each Aca2 dimer binds one IR1 site without bending the DNA significantly
+suggested_questions:
+- question: How does ACA2 coordinate its dual functions as both a transcriptional
+    regulator and an anti-CRISPR protein?
+- question: What determines the specificity of ACA2 for its DNA binding sites in
+    the phage genome?
+- question: How does the timing of ACA2 expression affect phage replication success
+    in CRISPR-containing hosts?
+suggested_experiments:
+- description: ChIP-seq to map all ACA2 binding sites across the phage genome during
+    infection
+- description: Time-resolved transcriptomics to track ACA2-regulated gene expression
+    during phage lifecycle
+- description: Competition assays between ACA2 and host transcription factors for
+    overlapping binding sites

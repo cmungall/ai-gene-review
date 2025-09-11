@@ -17,3 +17,4 @@ URI: [gene_review:ActionEnum](https://w3id.org/ai4curation/gene_review/ActionEnu
 | MARK_AS_OVER_ANNOTATED | The term is not entirely wrong, but likely represents an over-annotation of the gene |  |  |
 | UNDECIDED | The annotation is not clear, and the reviewer is not sure what to do with it. ALWAYS USE THIS IF YOU ARE UNABLE TO ACCESS RELEVANT PUBLICATIONS |  |  |
 | PENDING | The review entry is a stub, and the review has not been completed yet. |  |  |
+| NEW | This is a proposed annotation, not one that exists in the existing GO annotations. Use this to propose a new annotation not covered by the existing GO annotations. Use this conservatively, do not over-annotate, especially for biological process. Do not use for indirect or pleiotropic effects. Be sure you have good evidence, this can be from multiple sources. |  |  |

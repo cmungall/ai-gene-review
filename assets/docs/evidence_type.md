@@ -8,7 +8,7 @@ URI: [gene_review:evidence_type](https://w3id.org/ai4curation/gene_review/eviden
 
 ## Domain and Range
 
-None &#8594;  <sub>0..1</sub> [String](types/String.md)
+None &#8594;  <sub>0..1</sub> [EvidenceType](EvidenceType.md)
 
 ## Parents
 
